@@ -39,7 +39,7 @@ export default async function DigestPage({ params }) {
           <time className="text-sm text-gray-500 dark:text-gray-400">{date}</time>
         </div>
         <div
-          className="text-sm leading-relaxed text-gray-600 dark:text-gray-300"
+          className="text-base leading-relaxed text-gray-200"
           dangerouslySetInnerHTML={{ __html: digestHtml }}
         />
       </article>

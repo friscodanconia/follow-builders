@@ -45,29 +45,30 @@ export async function getLatestDigest() {
 export function markdownToHtml(md) {
   let html = md
     // Headers
-    .replace(/^### (.+)$/gm, '<h3 class="text-sm font-medium mt-6 mb-2 text-gray-900 dark:text-gray-100">$1</h3>')
-    .replace(/^## (.+)$/gm, '<h2 class="text-base font-medium mt-8 mb-3 text-gray-900 dark:text-gray-100">$1</h2>')
-    .replace(/^# (.+)$/gm, '<h1 class="text-lg font-medium mt-8 mb-4 text-gray-900 dark:text-gray-100">$1</h1>')
+    .replace(/^### (.+)$/gm, '<h3 class="text-base font-medium mt-6 mb-2 text-white">$1</h3>')
+    .replace(/^## (.+)$/gm, '<h2 class="text-lg font-medium mt-10 mb-3 text-white">$1</h2>')
+    .replace(/^# (.+)$/gm, '<h1 class="text-xl font-medium mt-10 mb-4 text-white">$1</h1>')
     // Bold and italic
-    .replace(/\*\*(.+?)\*\*/g, '<strong class="text-gray-900 dark:text-gray-100 font-medium">$1</strong>')
+    .replace(/\*\*(.+?)\*\*/g, '<strong class="text-white font-medium">$1</strong>')
     .replace(/\*(.+?)\*/g, '<em>$1</em>')
     // Links
-    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="text-amber-600 dark:text-amber-400 underline hover:no-underline" target="_blank" rel="noopener">$1</a>')
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="text-amber-400 underline hover:no-underline" target="_blank" rel="noopener">$1</a>')
     // Bare URLs on their own line
-    .replace(/^(https?:\/\/\S+)$/gm, '<a href="$1" class="text-amber-600 dark:text-amber-400 underline hover:no-underline text-xs break-all" target="_blank" rel="noopener">$1</a>')
+    .replace(/^(https?:\/\/\S+)$/gm, '<a href="$1" class="text-amber-400 underline hover:no-underline text-sm break-all" target="_blank" rel="noopener">$1</a>')
     // Bullet lists
     .replace(/^- (.+)$/gm, '<li class="ml-4">$1</li>')
     // Horizontal rules
-    .replace(/^---+$/gm, '<hr class="my-6 border-gray-200 dark:border-gray-800" />')
+    .replace(/^---+$/gm, '<hr class="my-8 border-gray-700" />')
     // Paragraphs (double newline)
-    .replace(/\n\n/g, '</p><p class="mb-4">')
+    .replace(/\n\n/g, '</p><p class="mb-5">')
     // Single newlines within paragraphs
     .replace(/\n/g, '<br />');
 
   // Wrap consecutive <li> in <ul>
-  html = html.replace(/((?:<li[^>]*>.*?<\/li>\s*(?:<br \/>)?)+)/g, '<ul class="list-disc mb-4 space-y-1">$1</ul>');
+  html = html.replace(/((?:<li[^>]*>.*?<\/li>\s*(?:<br \/>)?)+)/g, '<ul class="list-disc mb-5 space-y-1">$1</ul>');
   // Clean up <br> inside <ul>
   html = html.replace(/<ul[^>]*>([\s\S]*?)<\/ul>/g, (match) => match.replace(/<br \/>/g, ''));
 
-  return `<p class="mb-4">${html}</p>`;
+  // Wrap in a div instead of <p> to avoid nesting issues and alignment problems
+  return `<div>${html}</div>`;
 }

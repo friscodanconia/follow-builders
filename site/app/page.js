@@ -33,7 +33,7 @@ export default async function Home() {
           <span className="text-sm text-amber-600 dark:text-amber-400">Latest</span>
         </div>
         <div
-          className="text-sm leading-relaxed text-gray-600 dark:text-gray-300"
+          className="text-base leading-relaxed text-gray-200"
           dangerouslySetInnerHTML={{ __html: digestHtml }}
         />
       </article>
