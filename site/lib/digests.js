@@ -53,8 +53,8 @@ export function markdownToHtml(md) {
     .replace(/\*(.+?)\*/g, '<em>$1</em>')
     // Links
     .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="text-amber-400 underline hover:no-underline" target="_blank" rel="noopener">$1</a>')
-    // Bare URLs on their own line
-    .replace(/^(https?:\/\/\S+)$/gm, '<a href="$1" class="text-amber-400 underline hover:no-underline text-sm break-all" target="_blank" rel="noopener">$1</a>')
+    // Bare URLs not already inside an href or anchor tag
+    .replace(/(?<!href="|">)(https?:\/\/[^\s<)]+)/g, '<a href="$1" class="text-amber-400 underline hover:no-underline break-all" target="_blank" rel="noopener">$1</a>')
     // Bullet lists
     .replace(/^- (.+)$/gm, '<li class="ml-4">$1</li>')
     // Horizontal rules
