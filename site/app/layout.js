@@ -38,16 +38,8 @@ export default function RootLayout({ children }) {
           {children}
         </main>
         <footer className="border-t border-gray-200 dark:border-gray-800 mt-16">
-          <div className="max-w-3xl mx-auto px-6 py-6 text-sm text-gray-400 dark:text-gray-500 flex justify-between">
+          <div className="max-w-3xl mx-auto px-6 py-6 text-sm text-gray-400 dark:text-gray-500">
             <span>Follow builders, not influencers.</span>
-            <a
-              href="https://github.com/friscodanconia/follow-builders"
-              className="hover:text-amber-600 dark:hover:text-amber-400"
-              target="_blank"
-              rel="noopener"
-            >
-              GitHub
-            </a>
           </div>
         </footer>
       </body>
