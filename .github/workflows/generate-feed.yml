@@ -38,21 +38,20 @@ jobs:
       - name: Install dependencies
         run: cd scripts && npm install
 
-      # ── Step 1a: Pull tweet feed from upstream (free, no X API needed) ─
-      - name: Pull tweet feed from upstream
+      # ── Step 1: Pull all feeds from upstream (free, no paid APIs needed)
+      - name: Pull feeds from upstream
         run: |
-          echo "Fetching tweet feed from upstream repo..."
-          curl -sf https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json -o feed-x.json \
-            && echo "Tweet feed updated from upstream" \
-            || echo "Warning: could not fetch upstream tweet feed, using existing"
-
-      # ── Step 1b: Fetch podcast & blog feeds (free APIs) ──────────────
-      - name: Generate podcast and blog feeds
-        env:
-          POD2TXT_API_KEY: ${{ secrets.POD2TXT_API_KEY }}
-        run: |
-          cd scripts && node generate-feed.js --podcasts-only
-          cd scripts && node generate-feed.js --blogs-only
+          UPSTREAM="https://raw.githubusercontent.com/zarazhangrui/follow-builders/main"
+          echo "Fetching feeds from upstream repo..."
+          curl -sf "$UPSTREAM/feed-x.json" -o feed-x.json \
+            && echo "Tweet feed updated" \
+            || echo "Warning: could not fetch upstream tweet feed"
+          curl -sf "$UPSTREAM/feed-podcasts.json" -o feed-podcasts.json \
+            && echo "Podcast feed updated" \
+            || echo "Warning: could not fetch upstream podcast feed"
+          curl -sf "$UPSTREAM/feed-blogs.json" -o feed-blogs.json \
+            && echo "Blog feed updated" \
+            || echo "Warning: could not fetch upstream blog feed"
 
       # ── Step 2: Generate digest via Claude API ───────────────────────
       - name: Generate digest
