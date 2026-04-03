@@ -38,17 +38,21 @@ jobs:
       - name: Install dependencies
         run: cd scripts && npm install
 
-      # ── Step 1: Fetch feeds ──────────────────────────────────────────
-      - name: Generate feeds
+      # ── Step 1a: Pull tweet feed from upstream (free, no X API needed) ─
+      - name: Pull tweet feed from upstream
+        run: |
+          echo "Fetching tweet feed from upstream repo..."
+          curl -sf https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json -o feed-x.json \
+            && echo "Tweet feed updated from upstream" \
+            || echo "Warning: could not fetch upstream tweet feed, using existing"
+
+      # ── Step 1b: Fetch podcast & blog feeds (free APIs) ──────────────
+      - name: Generate podcast and blog feeds
         env:
-          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
           POD2TXT_API_KEY: ${{ secrets.POD2TXT_API_KEY }}
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.mode }}" != "all" ]; then
-            cd scripts && node generate-feed.js --${{ inputs.mode }}
-          else
-            cd scripts && node generate-feed.js
-          fi
+          cd scripts && node generate-feed.js --podcasts-only
+          cd scripts && node generate-feed.js --blogs-only
 
       # ── Step 2: Generate digest via Claude API ───────────────────────
       - name: Generate digest
