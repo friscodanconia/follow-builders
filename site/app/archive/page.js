@@ -10,10 +10,9 @@ export const metadata = {
 export default async function ArchivePage() {
   const index = await getDigestIndex();
 
-  // Group by month
   const grouped = {};
   for (const entry of index) {
-    const month = entry.date.slice(0, 7); // YYYY-MM
+    const month = entry.date.slice(0, 7);
     if (!grouped[month]) grouped[month] = [];
     grouped[month].push(entry);
   }
@@ -22,13 +21,13 @@ export default async function ArchivePage() {
 
   return (
     <div>
-      <h1 className="text-2xl font-bold mb-2">Archive</h1>
-      <p className="text-stone-500 dark:text-stone-400 mb-8 text-sm">
+      <h1 className="text-lg font-medium mb-2 text-gray-900 dark:text-gray-100">Archive</h1>
+      <p className="text-sm text-gray-500 dark:text-gray-400 mb-8">
         All past digests, newest first.
       </p>
 
       {months.length === 0 ? (
-        <p className="text-stone-400 dark:text-stone-500">
+        <p className="text-sm text-gray-400 dark:text-gray-500">
           No digests yet. Check back soon.
         </p>
       ) : (
@@ -39,7 +38,7 @@ export default async function ArchivePage() {
           });
           return (
             <div key={month} className="mb-8">
-              <h2 className="text-sm font-semibold text-stone-400 dark:text-stone-500 mb-3 uppercase tracking-wide">
+              <h2 className="text-xs font-medium text-gray-400 dark:text-gray-500 mb-3 uppercase tracking-wide">
                 {label}
               </h2>
               <ul className="space-y-1">
@@ -47,10 +46,10 @@ export default async function ArchivePage() {
                   <li key={entry.date}>
                     <a
                       href={`/digest/${entry.date}`}
-                      className="flex items-center justify-between py-2 px-3 -mx-3 rounded hover:bg-stone-50 dark:hover:bg-stone-900"
+                      className="flex items-center justify-between py-2 px-3 -mx-3 rounded-md hover:bg-gray-50 dark:hover:bg-gray-800"
                     >
-                      <span className="text-sm">{entry.title}</span>
-                      <time className="text-xs text-stone-400 dark:text-stone-500 shrink-0 ml-4">
+                      <span className="text-sm text-gray-600 dark:text-gray-300">{entry.title}</span>
+                      <time className="text-xs text-gray-400 dark:text-gray-500 shrink-0 ml-4">
                         {entry.date}
                       </time>
                     </a>

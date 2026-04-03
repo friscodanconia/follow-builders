@@ -32,20 +32,20 @@ export async function getLatestDigest() {
 export function markdownToHtml(md) {
   let html = md
     // Headers
-    .replace(/^### (.+)$/gm, '<h3 class="text-lg font-semibold mt-6 mb-2">$1</h3>')
-    .replace(/^## (.+)$/gm, '<h2 class="text-xl font-bold mt-8 mb-3">$1</h2>')
-    .replace(/^# (.+)$/gm, '<h1 class="text-2xl font-bold mt-8 mb-4">$1</h1>')
+    .replace(/^### (.+)$/gm, '<h3 class="text-sm font-medium mt-6 mb-2 text-gray-900 dark:text-gray-100">$1</h3>')
+    .replace(/^## (.+)$/gm, '<h2 class="text-base font-medium mt-8 mb-3 text-gray-900 dark:text-gray-100">$1</h2>')
+    .replace(/^# (.+)$/gm, '<h1 class="text-lg font-medium mt-8 mb-4 text-gray-900 dark:text-gray-100">$1</h1>')
     // Bold and italic
-    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*\*(.+?)\*\*/g, '<strong class="text-gray-900 dark:text-gray-100 font-medium">$1</strong>')
     .replace(/\*(.+?)\*/g, '<em>$1</em>')
     // Links
-    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="text-blue-600 dark:text-blue-400 underline hover:no-underline" target="_blank" rel="noopener">$1</a>')
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="text-amber-600 dark:text-amber-400 underline hover:no-underline" target="_blank" rel="noopener">$1</a>')
     // Bare URLs on their own line
-    .replace(/^(https?:\/\/\S+)$/gm, '<a href="$1" class="text-blue-600 dark:text-blue-400 underline hover:no-underline text-sm break-all" target="_blank" rel="noopener">$1</a>')
+    .replace(/^(https?:\/\/\S+)$/gm, '<a href="$1" class="text-amber-600 dark:text-amber-400 underline hover:no-underline text-xs break-all" target="_blank" rel="noopener">$1</a>')
     // Bullet lists
     .replace(/^- (.+)$/gm, '<li class="ml-4">$1</li>')
     // Horizontal rules
-    .replace(/^---+$/gm, '<hr class="my-6 border-gray-200 dark:border-gray-700" />')
+    .replace(/^---+$/gm, '<hr class="my-6 border-gray-200 dark:border-gray-800" />')
     // Paragraphs (double newline)
     .replace(/\n\n/g, '</p><p class="mb-4">')
     // Single newlines within paragraphs

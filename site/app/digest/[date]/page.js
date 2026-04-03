@@ -34,25 +34,24 @@ export default async function DigestPage({ params }) {
     <div>
       <article>
         <div className="mb-6">
-          <a href="/" className="text-sm text-blue-600 dark:text-blue-400 hover:underline">&larr; Latest</a>
-          <span className="text-sm text-stone-300 dark:text-stone-600 mx-2">·</span>
-          <time className="text-sm text-stone-400 dark:text-stone-500">{date}</time>
+          <a href="/" className="text-sm text-amber-600 dark:text-amber-400 hover:underline">&larr; Latest</a>
+          <span className="text-sm text-gray-300 dark:text-gray-600 mx-2">·</span>
+          <time className="text-sm text-gray-500 dark:text-gray-400">{date}</time>
         </div>
         <div
-          className="prose prose-stone dark:prose-invert max-w-none leading-relaxed"
+          className="text-sm leading-relaxed text-gray-600 dark:text-gray-300"
           dangerouslySetInnerHTML={{ __html: digestHtml }}
         />
       </article>
 
-      {/* Navigation */}
-      <nav className="mt-12 pt-6 border-t border-stone-200 dark:border-stone-800 flex justify-between text-sm">
+      <nav className="mt-12 pt-6 border-t border-gray-200 dark:border-gray-800 flex justify-between text-sm">
         {prev ? (
-          <a href={`/digest/${prev.date}`} className="text-blue-600 dark:text-blue-400 hover:underline">
+          <a href={`/digest/${prev.date}`} className="text-amber-600 dark:text-amber-400 hover:underline">
             &larr; {prev.date}
           </a>
         ) : <span />}
         {next ? (
-          <a href={`/digest/${next.date}`} className="text-blue-600 dark:text-blue-400 hover:underline">
+          <a href={`/digest/${next.date}`} className="text-amber-600 dark:text-amber-400 hover:underline">
             {next.date} &rarr;
           </a>
         ) : <span />}
