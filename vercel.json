@@ -1,6 +1,6 @@
 {
-  "installCommand": "npm install",
-  "buildCommand": "cp -r ../history ./history 2>/dev/null; npm run build",
-  "framework": "nextjs",
-  "rootDirectory": "site"
+  "installCommand": "cd site && npm install",
+  "buildCommand": "cd site && npm run build",
+  "outputDirectory": "site/.next",
+  "framework": "nextjs"
 }
