@@ -48,10 +48,9 @@ export default async function ArchivePage() {
                       href={`/digest/${entry.date}`}
                       className="flex items-center justify-between py-2 px-3 -mx-3 rounded-md hover:bg-gray-50 dark:hover:bg-gray-800"
                     >
-                      <span className="text-sm text-gray-600 dark:text-gray-300">{entry.title}</span>
-                      <time className="text-xs text-gray-400 dark:text-gray-500 shrink-0 ml-4">
-                        {entry.date}
-                      </time>
+                      <span className="text-sm text-gray-600 dark:text-gray-300">
+                        {new Date(entry.date + 'T00:00:00').toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}
+                      </span>
                     </a>
                   </li>
                 ))}
