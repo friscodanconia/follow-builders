@@ -2,17 +2,18 @@ import { readFile } from 'fs/promises';
 import { existsSync } from 'fs';
 import { join } from 'path';
 
-// In Vercel builds, process.cwd() is the repo root (no rootDirectory set).
-// Locally, cwd is site/, so we check both locations.
+// History dir location depends on context:
+// - Vercel build: copied to site/history via buildCommand
+// - Local dev: lives at ../history (repo root)
 function findHistoryDir() {
   const candidates = [
-    join(process.cwd(), 'history'),       // repo root (Vercel build)
-    join(process.cwd(), '..', 'history'), // site/ dir (local dev)
+    join(process.cwd(), 'history'),       // copied into site/ (Vercel build)
+    join(process.cwd(), '..', 'history'), // repo root (local dev)
   ];
   for (const dir of candidates) {
     if (existsSync(dir)) return dir;
   }
-  return candidates[0]; // fallback
+  return candidates[0];
 }
 
 const HISTORY_DIR = findHistoryDir();
