@@ -2,7 +2,20 @@ import { readFile } from 'fs/promises';
 import { existsSync } from 'fs';
 import { join } from 'path';
 
-const HISTORY_DIR = join(process.cwd(), '..', 'history');
+// In Vercel builds, process.cwd() is the repo root (no rootDirectory set).
+// Locally, cwd is site/, so we check both locations.
+function findHistoryDir() {
+  const candidates = [
+    join(process.cwd(), 'history'),       // repo root (Vercel build)
+    join(process.cwd(), '..', 'history'), // site/ dir (local dev)
+  ];
+  for (const dir of candidates) {
+    if (existsSync(dir)) return dir;
+  }
+  return candidates[0]; // fallback
+}
+
+const HISTORY_DIR = findHistoryDir();
 const INDEX_PATH = join(HISTORY_DIR, 'index.json');
 
 export async function getDigestIndex() {
