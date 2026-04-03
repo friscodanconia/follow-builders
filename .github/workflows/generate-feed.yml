@@ -72,6 +72,7 @@ jobs:
       # ── Step 4: Send newsletter via Buttondown ───────────────────────
       - name: Publish newsletter
         if: ${{ github.event.inputs.skip_digest != 'true' }}
+        continue-on-error: true
         env:
           BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
         run: |

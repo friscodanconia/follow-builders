@@ -73,7 +73,8 @@ async function main() {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': `Token ${apiKey}`
+      'Authorization': `Token ${apiKey}`,
+      'X-Buttondown-Live-Dangerously': 'true'
     },
     body: JSON.stringify({
       subject,
