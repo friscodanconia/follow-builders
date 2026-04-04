@@ -84,5 +84,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add feed-x.json feed-podcasts.json feed-blogs.json state-feed.json history/
-          git diff --cached --quiet || git commit -m "chore: update feeds and digest [skip ci]"
+          git diff --cached --quiet || git commit -m "chore: update feeds and digest "
           git push
