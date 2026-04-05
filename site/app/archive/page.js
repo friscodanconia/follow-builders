@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { getDigestIndex } from '../../lib/digests';
 
 export const dynamic = 'force-static';
@@ -21,13 +22,13 @@ export default async function ArchivePage() {
 
   return (
     <div>
-      <h1 className="text-lg font-medium mb-2 text-gray-900 dark:text-gray-100">Archive</h1>
-      <p className="text-sm text-gray-500 dark:text-gray-400 mb-8">
+      <h1 className="mb-2 text-lg font-medium text-slate-100">Archive</h1>
+      <p className="mb-8 text-sm text-slate-400">
         All past digests, newest first.
       </p>
 
       {months.length === 0 ? (
-        <p className="text-sm text-gray-400 dark:text-gray-500">
+        <p className="text-sm text-slate-500">
           No digests yet. Check back soon.
         </p>
       ) : (
@@ -38,20 +39,20 @@ export default async function ArchivePage() {
           });
           return (
             <div key={month} className="mb-8">
-              <h2 className="text-xs font-medium text-gray-400 dark:text-gray-500 mb-3 uppercase tracking-wide">
+              <h2 className="mb-3 text-xs font-medium uppercase tracking-wide text-slate-500">
                 {label}
               </h2>
               <ul className="space-y-1">
                 {grouped[month].map((entry) => (
                   <li key={entry.date}>
-                    <a
+                    <Link
                       href={`/digest/${entry.date}`}
-                      className="flex items-center justify-between py-2 px-3 -mx-3 rounded-md hover:bg-gray-50 dark:hover:bg-gray-800"
+                      className="flex items-center justify-between rounded-2xl px-3 py-3 transition hover:bg-slate-900/60"
                     >
-                      <span className="text-sm text-gray-600 dark:text-gray-300">
+                      <span className="text-sm text-slate-300">
                         {new Date(entry.date + 'T00:00:00').toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}
                       </span>
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>

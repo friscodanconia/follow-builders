@@ -1,0 +1,48 @@
+{
+  "sources": [
+    {
+      "id": "openai-news",
+      "name": "OpenAI News",
+      "sourceGroup": "official",
+      "sourceType": "rss",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "homepageUrl": "https://openai.com/news/",
+      "builderOrOrg": "OpenAI",
+      "regionTags": ["us-model-labs"]
+    },
+    {
+      "id": "cursor-blog",
+      "name": "Cursor Blog",
+      "sourceGroup": "official",
+      "sourceType": "json-feed",
+      "feedUrl": "https://cursor.com/rss.json",
+      "homepageUrl": "https://cursor.com/blog",
+      "builderOrOrg": "Cursor",
+      "regionTags": []
+    },
+    {
+      "id": "anthropic-newsroom",
+      "name": "Anthropic Newsroom",
+      "sourceGroup": "official",
+      "sourceType": "html-index",
+      "indexUrl": "https://www.anthropic.com/news",
+      "homepageUrl": "https://www.anthropic.com/news",
+      "baseUrl": "https://www.anthropic.com",
+      "articlePathPrefix": "/news/",
+      "builderOrOrg": "Anthropic",
+      "regionTags": ["us-model-labs"]
+    },
+    {
+      "id": "google-deepmind-blog",
+      "name": "Google DeepMind Blog",
+      "sourceGroup": "official",
+      "sourceType": "html-index",
+      "indexUrl": "https://deepmind.google/discover/blog/",
+      "homepageUrl": "https://deepmind.google/discover/blog/",
+      "baseUrl": "https://deepmind.google",
+      "articlePathPrefix": "/discover/blog/",
+      "builderOrOrg": "Google DeepMind",
+      "regionTags": ["us-model-labs"]
+    }
+  ]
+}

@@ -16,21 +16,18 @@
 // Output: JSON to stdout
 // ============================================================================
 
-import { readFile, mkdir } from 'fs/promises';
+import { readFile } from 'fs/promises';
 import { existsSync } from 'fs';
 import { join } from 'path';
 import { homedir } from 'os';
+import { runtimeConfig, repoAssetUrl, upstreamAssetUrl } from '../config/runtime-config.js';
+import { validateFeed } from './lib/feed-validation.js';
 
 // -- Constants ---------------------------------------------------------------
 
 const USER_DIR = join(homedir(), '.follow-builders');
 const CONFIG_PATH = join(USER_DIR, 'config.json');
 
-const FEED_X_URL = 'https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json';
-const FEED_PODCASTS_URL = 'https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-podcasts.json';
-const FEED_BLOGS_URL = 'https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-blogs.json';
-
-const PROMPTS_BASE = 'https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/prompts';
 const PROMPT_FILES = [
   'summarize-podcast.md',
   'summarize-tweets.md',
@@ -73,15 +70,34 @@ async function main() {
   }
 
   // 2. Fetch all three feeds
-  const [feedX, feedPodcasts, feedBlogs] = await Promise.all([
-    fetchJSON(FEED_X_URL),
-    fetchJSON(FEED_PODCASTS_URL),
-    fetchJSON(FEED_BLOGS_URL)
+  const [feedX, feedPodcasts, feedBlogs, feedExternal] = await Promise.all([
+    fetchJSON(upstreamAssetUrl('feed-x.json')),
+    fetchJSON(upstreamAssetUrl('feed-podcasts.json')),
+    fetchJSON(upstreamAssetUrl('feed-blogs.json')),
+    fetchJSON(repoAssetUrl('feed-external.json'))
   ]);
 
   if (!feedX) errors.push('Could not fetch tweet feed');
   if (!feedPodcasts) errors.push('Could not fetch podcast feed');
   if (!feedBlogs) errors.push('Could not fetch blog feed');
+  if (!feedExternal) errors.push('Could not fetch external feed');
+
+  const validatedFeeds = {
+    x: feedX,
+    podcasts: feedPodcasts,
+    blogs: feedBlogs,
+    external: feedExternal,
+  };
+
+  for (const [kind, feed] of Object.entries(validatedFeeds)) {
+    if (!feed) continue;
+
+    const validationErrors = validateFeed(kind, feed);
+    if (validationErrors.length > 0) {
+      errors.push(`${kind} feed validation failed: ${validationErrors.join(' ')}`);
+      validatedFeeds[kind] = null;
+    }
+  }
 
   // 3. Load prompts with priority: user custom > remote (GitHub) > local default
   //
@@ -106,7 +122,7 @@ async function main() {
     }
 
     // Priority 2: latest from GitHub (central updates)
-    const remote = await fetchText(`${PROMPTS_BASE}/${filename}`);
+    const remote = await fetchText(repoAssetUrl(`prompts/${filename}`));
     if (remote) {
       prompts[key] = remote;
       continue;
@@ -133,21 +149,32 @@ async function main() {
     },
 
     // Content to remix
-    podcasts: feedPodcasts?.podcasts || [],
-    x: feedX?.x || [],
-    blogs: feedBlogs?.blogs || [],
+    podcasts: validatedFeeds.podcasts?.podcasts || [],
+    x: validatedFeeds.x?.x || [],
+    blogs: validatedFeeds.blogs?.blogs || [],
+    external: validatedFeeds.external?.articles || [],
 
     // Stats for the LLM to reference
     stats: {
-      podcastEpisodes: feedPodcasts?.podcasts?.length || 0,
-      xBuilders: feedX?.x?.length || 0,
-      totalTweets: (feedX?.x || []).reduce((sum, a) => sum + a.tweets.length, 0),
-      blogPosts: feedBlogs?.blogs?.length || 0,
-      feedGeneratedAt: feedX?.generatedAt || feedPodcasts?.generatedAt || feedBlogs?.generatedAt || null
+      podcastEpisodes: validatedFeeds.podcasts?.podcasts?.length || 0,
+      xBuilders: validatedFeeds.x?.x?.length || 0,
+      totalTweets: (validatedFeeds.x?.x || []).reduce((sum, a) => sum + a.tweets.length, 0),
+      blogPosts: validatedFeeds.blogs?.blogs?.length || 0,
+      externalItems: validatedFeeds.external?.articles?.length || 0,
+      feedGeneratedAt: validatedFeeds.x?.generatedAt || validatedFeeds.podcasts?.generatedAt || validatedFeeds.blogs?.generatedAt || validatedFeeds.external?.generatedAt || null
     },
 
     // Prompts — the LLM reads these and follows the instructions
     prompts,
+
+    upstream: {
+      repoUrl: runtimeConfig.upstreamRepoUrl,
+      rawBaseUrl: runtimeConfig.upstreamRawBaseUrl,
+    },
+    fork: {
+      repoUrl: runtimeConfig.repoUrl,
+      rawBaseUrl: runtimeConfig.repoRawBaseUrl,
+    },
 
     // Non-fatal errors
     errors: errors.length > 0 ? errors : undefined

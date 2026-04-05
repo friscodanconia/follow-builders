@@ -1,4 +1,4 @@
-name: Generate Feeds & Publish Digest
+name: Mirror Upstream Feeds & Publish Digest
 
 on:
   schedule:
@@ -6,18 +6,8 @@ on:
     - cron: '30 0 * * *'
   workflow_dispatch:
     inputs:
-      mode:
-        description: 'What to fetch'
-        required: false
-        default: 'all'
-        type: choice
-        options:
-          - all
-          - tweets-only
-          - podcasts-only
-          - blogs-only
       skip_digest:
-        description: 'Skip digest generation (just fetch feeds)'
+        description: 'Skip digest generation (just mirror feeds)'
         required: false
         default: false
         type: boolean
@@ -27,6 +17,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      UPSTREAM_RAW_BASE_URL: https://raw.githubusercontent.com/zarazhangrui/follow-builders/main
 
     steps:
       - uses: actions/checkout@v4
@@ -36,24 +28,25 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: cd scripts && npm install
+        run: npm run setup
 
-      # ── Step 1: Pull all feeds from upstream (free, no paid APIs needed)
-      - name: Pull feeds from upstream
+      - name: Mirror feeds from upstream repo
         run: |
-          UPSTREAM="https://raw.githubusercontent.com/zarazhangrui/follow-builders/main"
-          echo "Fetching feeds from upstream repo..."
-          curl -sf "$UPSTREAM/feed-x.json" -o feed-x.json \
-            && echo "Tweet feed updated" \
-            || echo "Warning: could not fetch upstream tweet feed"
-          curl -sf "$UPSTREAM/feed-podcasts.json" -o feed-podcasts.json \
-            && echo "Podcast feed updated" \
-            || echo "Warning: could not fetch upstream podcast feed"
-          curl -sf "$UPSTREAM/feed-blogs.json" -o feed-blogs.json \
-            && echo "Blog feed updated" \
-            || echo "Warning: could not fetch upstream blog feed"
+          echo "Mirroring feed snapshots from upstream..."
+          curl -sf "$UPSTREAM_RAW_BASE_URL/feed-x.json" -o feed-x.json
+          curl -sf "$UPSTREAM_RAW_BASE_URL/feed-podcasts.json" -o feed-podcasts.json
+          curl -sf "$UPSTREAM_RAW_BASE_URL/feed-blogs.json" -o feed-blogs.json
 
-      # ── Step 2: Generate digest via Claude API ───────────────────────
+      - name: Fetch additional official, editorial, and China-focused sources
+        continue-on-error: true
+        run: cd scripts && node fetch-external-sources.js
+
+      - name: Validate mirrored feeds
+        run: npm run verify:feeds
+
+      - name: Build structured history
+        run: npm run build:structured
+
       - name: Generate digest
         if: ${{ github.event.inputs.skip_digest != 'true' }}
         env:
@@ -63,13 +56,11 @@ jobs:
           echo "--- Digest preview (first 500 chars) ---"
           head -c 500 /tmp/digest.md
 
-      # ── Step 3: Save to history ──────────────────────────────────────
       - name: Save history
         if: ${{ github.event.inputs.skip_digest != 'true' }}
         run: |
           cd scripts && node save-history.js --file /tmp/digest.md
 
-      # ── Step 4: Send newsletter via Buttondown ───────────────────────
       - name: Publish newsletter
         if: ${{ github.event.inputs.skip_digest != 'true' }}
         continue-on-error: true
@@ -78,11 +69,10 @@ jobs:
         run: |
           cd scripts && node publish-newsletter.js --file /tmp/digest.md
 
-      # ── Step 5: Commit and push (triggers Vercel rebuild) ────────────
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add feed-x.json feed-podcasts.json feed-blogs.json state-feed.json history/
-          git diff --cached --quiet || git commit -m "chore: update feeds and digest "
+          git add feed-x.json feed-podcasts.json feed-blogs.json feed-external.json state-feed.json history/
+          git diff --cached --quiet || git commit -m "chore: mirror feeds and refresh digest"
           git push

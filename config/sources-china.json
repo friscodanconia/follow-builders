@@ -1,0 +1,40 @@
+{
+  "sources": [
+    {
+      "id": "qwen-blog",
+      "name": "Qwen Blog",
+      "sourceGroup": "china",
+      "sourceType": "html-index",
+      "indexUrl": "https://qwenlm.github.io/blog/",
+      "homepageUrl": "https://qwenlm.github.io/blog/",
+      "baseUrl": "https://qwenlm.github.io",
+      "articlePathPrefix": "/blog/",
+      "builderOrOrg": "Qwen",
+      "regionTags": ["china-models"]
+    },
+    {
+      "id": "deepseek-news",
+      "name": "DeepSeek News",
+      "sourceGroup": "china",
+      "sourceType": "html-index",
+      "indexUrl": "https://api-docs.deepseek.com/news/",
+      "homepageUrl": "https://api-docs.deepseek.com/news/",
+      "baseUrl": "https://api-docs.deepseek.com",
+      "articlePathPrefix": "/news/",
+      "builderOrOrg": "DeepSeek",
+      "regionTags": ["china-models", "open-models"]
+    },
+    {
+      "id": "minimax-news",
+      "name": "MiniMax News",
+      "sourceGroup": "china",
+      "sourceType": "html-index",
+      "indexUrl": "https://www.minimax.io/news",
+      "homepageUrl": "https://www.minimax.io/news",
+      "baseUrl": "https://www.minimax.io",
+      "articlePathPrefix": "/news/",
+      "builderOrOrg": "MiniMax",
+      "regionTags": ["china-models"]
+    }
+  ]
+}

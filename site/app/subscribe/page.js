@@ -1,68 +1,81 @@
+import { siteConfig } from '../../lib/site-config';
+
 export const metadata = {
   title: 'Subscribe — AI Builders Digest',
   description: 'Get the AI Builders Digest in your inbox every day.',
 };
 
 export default function SubscribePage() {
+  const hasSubscriptionForm = Boolean(siteConfig.subscribeUrl);
+
   return (
     <div className="max-w-md mx-auto py-12">
-      <h1 className="text-lg font-medium mb-3 text-gray-900 dark:text-gray-100">Subscribe</h1>
-      <p className="text-sm text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
-        Get a daily digest of what top AI builders are thinking and shipping —
-        tweets, podcast highlights, and blog posts from the people actually building the future.
-        Free, no spam, unsubscribe anytime.
+      <h1 className="mb-3 text-lg font-medium text-slate-100">{siteConfig.subscribeCtaLabel}</h1>
+      <p className="mb-8 text-sm leading-relaxed text-slate-300">
+        This fork mirrors upstream feed data from the original Follow Builders project, then publishes its own digest archive and delivery workflow.
       </p>
 
-      <form
-        action="https://buttondown.com/api/emails/embed-subscribe/soumyo"
-        method="post"
-        target="popupwindow"
-        className="space-y-4"
-      >
-        <div>
-          <label htmlFor="bd-email" className="block text-sm font-medium mb-1 text-gray-900 dark:text-gray-100">
-            Email address
-          </label>
-          <input
-            type="email"
-            name="email"
-            id="bd-email"
-            required
-            placeholder="you@example.com"
-            className="w-full px-3 py-2 border border-gray-300 dark:border-gray-700 rounded-md bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 placeholder-gray-400 text-sm focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-transparent"
-          />
-        </div>
-        <button
-          type="submit"
-          className="w-full bg-amber-600 dark:bg-amber-500 text-white py-2 px-4 rounded-md text-sm font-medium hover:bg-amber-700 dark:hover:bg-amber-600 transition-colors"
+      {hasSubscriptionForm ? (
+        <form
+          action={siteConfig.subscribeUrl}
+          method="post"
+          target="popupwindow"
+          className="space-y-4"
         >
-          Subscribe
-        </button>
-      </form>
+          <div>
+            <label htmlFor="bd-email" className="mb-1 block text-sm font-medium text-slate-100">
+              Email address
+            </label>
+            <input
+              type="email"
+              name="email"
+              id="bd-email"
+              required
+              placeholder="you@example.com"
+              className="w-full rounded-2xl border border-slate-700 bg-slate-950 px-3 py-2 text-sm text-slate-100 placeholder:text-slate-500 focus:border-amber-400 focus:outline-none"
+            />
+          </div>
+          <button
+            type="submit"
+            className="w-full rounded-full bg-amber-500 px-4 py-2 text-sm font-medium text-slate-950 transition hover:bg-amber-400"
+          >
+            {siteConfig.subscribeCtaLabel}
+          </button>
+        </form>
+      ) : (
+        <div className="rounded-3xl border border-slate-800 bg-slate-950/80 p-5">
+          <p className="text-sm text-slate-300">
+            Subscription is not configured on this fork yet. Set <code>FOLLOW_BUILDERS_SUBSCRIBE_URL</code> in the deployment environment to enable it.
+          </p>
+        </div>
+      )}
 
-      <p className="mt-6 text-xs text-gray-400 dark:text-gray-500">
-        Powered by <a href="https://buttondown.com" className="underline hover:no-underline" target="_blank" rel="noopener">Buttondown</a>.
-        No tracking, no ads.
-      </p>
+      {hasSubscriptionForm ? (
+        <p className="mt-6 text-xs text-slate-500">
+          Powered by{' '}
+          <span className="text-slate-400">{siteConfig.newsletterProvider}</span>.
+          No tracking or ads are configured in this repo.
+        </p>
+      ) : null}
 
-      <div className="mt-10 pt-6 border-t border-gray-200 dark:border-gray-800">
-        <h2 className="font-medium text-sm mb-3 text-gray-500 dark:text-gray-400">What you get</h2>
-        <ul className="space-y-3 text-sm text-gray-600 dark:text-gray-300">
+      <div className="mt-10 border-t border-slate-800 pt-6">
+        <h2 className="mb-3 text-sm font-medium text-slate-400">What you get</h2>
+        <ul className="space-y-3 text-sm text-slate-300">
           <li className="flex gap-2">
-            <span className="text-amber-500 shrink-0">&#9679;</span>
+            <span className="shrink-0 text-amber-400">&#9679;</span>
             <span>Key tweets from 25+ AI builders (Karpathy, Swyx, Amanda Askell, etc.)</span>
           </li>
           <li className="flex gap-2">
-            <span className="text-amber-500 shrink-0">&#9679;</span>
+            <span className="shrink-0 text-amber-400">&#9679;</span>
             <span>Podcast highlights from Latent Space, No Priors, Training Data, and more</span>
           </li>
           <li className="flex gap-2">
-            <span className="text-amber-500 shrink-0">&#9679;</span>
+            <span className="shrink-0 text-amber-400">&#9679;</span>
             <span>Blog posts from Anthropic Engineering and Claude Blog</span>
           </li>
           <li className="flex gap-2">
-            <span className="text-amber-500 shrink-0">&#9679;</span>
-            <span>Delivered daily, summarized by AI so you can scan in 5 minutes</span>
+            <span className="shrink-0 text-amber-400">&#9679;</span>
+            <span>Published by this fork, with feed content mirrored from the upstream repo</span>
           </li>
         </ul>
       </div>

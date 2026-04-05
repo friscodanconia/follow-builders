@@ -14,6 +14,10 @@
 import { readFile } from 'fs/promises';
 import { existsSync } from 'fs';
 import { join } from 'path';
+import { runtimeConfig } from '../config/runtime-config.js';
+import { assertValidFeed } from './lib/feed-validation.js';
+import { readJson } from './lib/fs-utils.js';
+import { buildStructuredDataset } from './lib/content-pipeline.js';
 
 const SCRIPT_DIR = decodeURIComponent(new URL('.', import.meta.url).pathname);
 
@@ -33,59 +37,42 @@ async function loadPrompt(filename) {
 
 // -- Build the LLM prompt ----------------------------------------------------
 
-function buildPrompt(feedX, feedPodcasts, feedBlogs, prompts) {
+function buildPrompt(dataset, prompts) {
   const today = new Date().toLocaleDateString('en-US', {
     weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
   });
 
   const sections = [];
+  const selectedItems = dataset.selectedItems || [];
 
   sections.push(`Today is ${today}. Generate the AI Builders Digest for today.`);
   sections.push('');
 
   // Add formatting instructions
   sections.push('=== DIGEST FORMAT INSTRUCTIONS ===');
-  sections.push(prompts.digestIntro);
+  sections.push(prompts.digestIntro.replaceAll('{{FOLLOW_BUILDERS_REPO_URL}}', runtimeConfig.repoUrl));
   sections.push('');
 
-  // Add tweet summarization instructions + data
-  if (feedX?.x?.length > 0) {
-    sections.push('=== TWEET SUMMARIZATION INSTRUCTIONS ===');
-    sections.push(prompts.summarizeTweets);
-    sections.push('');
-    sections.push('=== TWEET DATA (JSON) ===');
-    sections.push(JSON.stringify(feedX.x, null, 2));
-    sections.push('');
-  }
+  sections.push('=== DAILY DIGEST RULES ===');
+  sections.push('- Keep the digest concise. Use at most 10 selected items.');
+  sections.push('- Every item must include a short summary plus a "Why this matters" line.');
+  sections.push('- Use a dedicated "Chinese Models" section if and only if selected items include that section.');
+  sections.push('- Do not include items outside the selected JSON payload.');
+  sections.push('- Prefer concrete implications over hype.');
+  sections.push('');
 
-  // Add blog summarization instructions + data
-  if (feedBlogs?.blogs?.length > 0) {
-    sections.push('=== BLOG SUMMARIZATION INSTRUCTIONS ===');
-    sections.push(prompts.summarizeBlogs);
-    sections.push('');
-    sections.push('=== BLOG DATA (JSON) ===');
-    sections.push(JSON.stringify(feedBlogs.blogs, null, 2));
-    sections.push('');
-  }
+  sections.push('=== SOURCE-SPECIFIC STYLE HINTS ===');
+  sections.push(prompts.summarizeTweets);
+  sections.push('');
+  sections.push(prompts.summarizeBlogs);
+  sections.push('');
+  sections.push(prompts.summarizePodcast);
+  sections.push('');
+  sections.push('=== SELECTED ITEMS (JSON) ===');
+  sections.push(JSON.stringify(selectedItems, null, 2));
+  sections.push('');
 
-  // Add podcast summarization instructions + data
-  if (feedPodcasts?.podcasts?.length > 0) {
-    sections.push('=== PODCAST SUMMARIZATION INSTRUCTIONS ===');
-    sections.push(prompts.summarizePodcast);
-    sections.push('');
-    sections.push('=== PODCAST DATA (JSON) ===');
-    // Truncate transcripts to avoid exceeding context limits
-    const truncatedPodcasts = feedPodcasts.podcasts.map(p => ({
-      ...p,
-      transcript: p.transcript ? p.transcript.slice(0, 15000) : ''
-    }));
-    sections.push(JSON.stringify(truncatedPodcasts, null, 2));
-    sections.push('');
-  }
-
-  const hasContent = (feedX?.x?.length > 0) ||
-    (feedBlogs?.blogs?.length > 0) ||
-    (feedPodcasts?.podcasts?.length > 0);
+  const hasContent = selectedItems.length > 0;
 
   if (!hasContent) {
     return null;
@@ -142,6 +129,12 @@ async function main() {
     loadLocalJSON('feed-podcasts.json'),
     loadLocalJSON('feed-blogs.json')
   ]);
+  const externalFeed = await readJson(join(SCRIPT_DIR, '..', 'feed-external.json'), { articles: [] });
+
+  if (feedX) assertValidFeed('x', feedX);
+  if (feedPodcasts) assertValidFeed('podcasts', feedPodcasts);
+  if (feedBlogs) assertValidFeed('blogs', feedBlogs);
+  if (externalFeed) assertValidFeed('external', externalFeed);
 
   const [digestIntro, summarizeTweets, summarizePodcast, summarizeBlogs] = await Promise.all([
     loadPrompt('digest-intro.md'),
@@ -152,9 +145,20 @@ async function main() {
 
   const prompts = { digestIntro, summarizeTweets, summarizePodcast, summarizeBlogs };
 
-  console.error(`Feeds: ${feedX?.x?.length || 0} builders, ${feedPodcasts?.podcasts?.length || 0} podcasts, ${feedBlogs?.blogs?.length || 0} blogs`);
+  const digestDate = new Date().toISOString().split('T')[0];
+  const structuredPath = join(SCRIPT_DIR, '..', 'history', 'items', `${digestDate}.json`);
+  const dataset = await readJson(structuredPath, null) || await buildStructuredDataset({
+    digestDate,
+    feedX,
+    feedPodcasts,
+    feedBlogs,
+    externalFeed,
+  });
 
-  const prompt = buildPrompt(feedX, feedPodcasts, feedBlogs, prompts);
+  console.error(`Feeds: ${feedX?.x?.length || 0} builders, ${feedPodcasts?.podcasts?.length || 0} podcasts, ${feedBlogs?.blogs?.length || 0} blogs, ${externalFeed?.articles?.length || 0} external items`);
+  console.error(`Structured items: ${dataset.stats.totalItems} total, ${dataset.stats.selectedItems} selected, ${dataset.stats.chinaItems} china-tagged`);
+
+  const prompt = buildPrompt(dataset, prompts);
 
   if (!prompt) {
     console.error('No content in any feed — skipping digest generation');

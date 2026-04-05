@@ -1,6 +1,11 @@
 {
   "private": true,
-  "dependencies": {
-    "next": "^15.1.0"
+  "scripts": {
+    "setup": "npm --prefix scripts install && npm --prefix site install",
+    "build": "npm --prefix site run build",
+    "test": "node --test scripts/tests/*.test.js site/lib/*.test.js",
+    "verify:feeds": "node scripts/validate-feeds.js",
+    "build:structured": "node scripts/build-structured-history.js",
+    "verify": "npm run verify:feeds && npm run build:structured && npm run test && npm run build"
   }
 }

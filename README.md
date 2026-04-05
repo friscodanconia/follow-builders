@@ -9,6 +9,16 @@ what they're saying.
 **Philosophy:** Follow people who build products and have original opinions, not
 influencers who regurgitate information.
 
+## Fork Model
+
+This fork is intentionally set up as an upstream mirror:
+
+- It mirrors feed snapshots from [zarazhangrui/follow-builders](https://github.com/zarazhangrui/follow-builders)
+- It publishes its own digest history, structured topic archives, site, and optional newsletter flow
+- It keeps fork-specific branding and URLs in `config/runtime-config.js`
+
+That avoids paying for direct X API access while keeping this fork operationally honest.
+
 ## What You Get
 
 A daily or weekly digest delivered to your preferred messaging app (Telegram, Discord,
@@ -19,6 +29,13 @@ WhatsApp, etc.) with:
 - Full articles from official AI company blogs (Anthropic Engineering, Claude Blog)
 - Links to all original content
 - Available in English, Chinese, or bilingual
+
+The product pipeline now also supports:
+
+- topic tagging across normalized content items
+- concise `Why this matters` framing on selected items
+- a dedicated `Chinese Models` section when those sources have meaningful updates
+- structured topic archives in addition to the markdown digest archive
 
 ## Quick Start
 
@@ -90,14 +107,14 @@ These are plain English instructions, not code. Changes take effect on the next 
 clawhub install follow-builders
 
 # Or manually
-git clone https://github.com/zarazhangrui/follow-builders.git ~/skills/follow-builders
-cd ~/skills/follow-builders/scripts && npm install
+git clone https://github.com/friscodanconia/follow-builders.git ~/skills/follow-builders
+cd ~/skills/follow-builders && npm run setup
 ```
 
 ### Claude Code
 ```bash
-git clone https://github.com/zarazhangrui/follow-builders.git ~/.claude/skills/follow-builders
-cd ~/.claude/skills/follow-builders/scripts && npm install
+git clone https://github.com/friscodanconia/follow-builders.git ~/.claude/skills/follow-builders
+cd ~/.claude/skills/follow-builders && npm run setup
 ```
 
 ## Requirements
@@ -110,13 +127,50 @@ is fetched centrally and updated daily.
 
 ## How It Works
 
-1. A central feed is updated daily with the latest content from all sources
-   (blog articles via web scraping, YouTube transcripts via Supadata, X/Twitter via official API)
-2. Your agent fetches the feed — one HTTP request, no API keys
-3. Your agent remixes the raw content into a digestible summary using your preferences
-4. The digest is delivered to your messaging app (or shown in-chat)
+1. The upstream project updates the central feed snapshots
+2. This fork mirrors those feed JSON files and validates them before publishing
+3. Your agent or GitHub Action remixes the mirrored content into a digest using your preferences
+4. The digest is archived in this repo and can also be delivered to your messaging app or newsletter
 
 See [examples/sample-digest.md](examples/sample-digest.md) for what the output looks like.
+
+## Runtime Configuration
+
+Fork-specific settings live in `config/runtime-config.js`.
+
+- `FOLLOW_BUILDERS_REPO_URL`: public URL for this fork
+- `FOLLOW_BUILDERS_REPO_RAW_BASE_URL`: raw GitHub base for fork-owned prompts and structured artifacts
+- `FOLLOW_BUILDERS_UPSTREAM_REPO_URL`: upstream project URL
+- `FOLLOW_BUILDERS_UPSTREAM_RAW_BASE_URL`: raw GitHub base used for mirrored upstream feed files
+- `FOLLOW_BUILDERS_SITE_URL`: canonical deployed site URL
+- `FOLLOW_BUILDERS_SUBSCRIBE_URL`: optional subscribe form endpoint
+- `FOLLOW_BUILDERS_NEWSLETTER_PROVIDER`: label shown on the subscribe page
+- `FOLLOW_BUILDERS_SUBSCRIBE_CTA_LABEL`: CTA text used on the site
+- `FOLLOW_BUILDERS_EMAIL_FROM`: sender used by Resend delivery
+
+If `FOLLOW_BUILDERS_SUBSCRIBE_URL` is not set, the site will not post email addresses anywhere.
+
+## Local Development
+
+```bash
+npm run setup
+npm run build:structured
+npm run verify
+```
+
+That installs both subprojects, builds structured item history, validates feeds, runs tests, and builds the site.
+
+## Source Expansion
+
+The repo now includes manifests for three non-X source groups:
+
+- `config/sources-official.json`
+- `config/sources-editorial.json`
+- `config/sources-china.json`
+
+Use `node scripts/fetch-external-sources.js` to populate `feed-external.json` from those sources.
+
+See [docs/build-spec.md](docs/build-spec.md) for the concrete v2 pipeline spec.
 
 ## Privacy
 

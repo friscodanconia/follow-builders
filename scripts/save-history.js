@@ -21,6 +21,8 @@ import { join } from 'path';
 const SCRIPT_DIR = decodeURIComponent(new URL('.', import.meta.url).pathname);
 const HISTORY_DIR = join(SCRIPT_DIR, '..', 'history');
 const INDEX_PATH = join(HISTORY_DIR, 'index.json');
+const SITE_DIGESTS_DIR = join(SCRIPT_DIR, '..', 'site', 'data', 'digests');
+const SITE_DIGEST_INDEX_PATH = join(SCRIPT_DIR, '..', 'site', 'data', 'digests', 'index.json');
 
 // -- Read input --------------------------------------------------------------
 
@@ -61,6 +63,7 @@ function extractTitle(text) {
 
 async function main() {
   await mkdir(HISTORY_DIR, { recursive: true });
+  await mkdir(SITE_DIGESTS_DIR, { recursive: true });
 
   const digestText = await getDigestText();
   if (!digestText || digestText.trim().length === 0) {
@@ -80,6 +83,7 @@ async function main() {
 
   // Save the digest
   await writeFile(filepath, digestText);
+  await writeFile(join(SITE_DIGESTS_DIR, filename), digestText);
   console.error(`Saved: history/${filename} (${digestText.length} chars)`);
 
   // Update the index
@@ -108,6 +112,7 @@ async function main() {
   index.sort((a, b) => b.date.localeCompare(a.date));
 
   await writeFile(INDEX_PATH, JSON.stringify(index, null, 2));
+  await writeFile(SITE_DIGEST_INDEX_PATH, JSON.stringify(index, null, 2));
   console.error(`Updated history/index.json (${index.length} entries)`);
 
   console.log(JSON.stringify({ status: 'ok', file: filename, date: dateStr }));

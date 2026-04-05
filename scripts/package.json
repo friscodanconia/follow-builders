@@ -5,10 +5,14 @@
   "type": "module",
   "scripts": {
     "generate-feed": "node generate-feed.js",
-    "prepare-digest": "node prepare-digest.js"
+    "prepare-digest": "node prepare-digest.js",
+    "build-structured-history": "node build-structured-history.js",
+    "fetch-external-sources": "node fetch-external-sources.js",
+    "sync-site-data": "node sync-site-data.js",
+    "test": "node --test tests/*.test.js",
+    "validate-feeds": "node validate-feeds.js"
   },
   "dependencies": {
-    "dotenv": "^16.4.0",
-    "proper-lockfile": "^4.1.0"
+    "dotenv": "^16.4.0"
   }
 }

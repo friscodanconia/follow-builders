@@ -25,6 +25,7 @@ import { existsSync } from 'fs';
 import { join } from 'path';
 import { homedir } from 'os';
 import { config as loadEnv } from 'dotenv';
+import { runtimeConfig } from '../config/runtime-config.js';
 
 // -- Constants ---------------------------------------------------------------
 
@@ -134,7 +135,7 @@ async function sendEmail(text, apiKey, toEmail) {
       'Authorization': `Bearer ${apiKey}`
     },
     body: JSON.stringify({
-      from: 'AI Builders Digest <digest@resend.dev>',
+      from: runtimeConfig.supportEmailFrom,
       to: [toEmail],
       subject: `AI Builders Digest — ${new Date().toLocaleDateString('en-US', {
         weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'

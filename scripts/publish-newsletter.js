@@ -13,6 +13,7 @@
 // ============================================================================
 
 import { readFile } from 'fs/promises';
+import { runtimeConfig } from '../config/runtime-config.js';
 
 // -- Read input --------------------------------------------------------------
 
@@ -56,6 +57,12 @@ async function main() {
   if (!apiKey) {
     console.error('BUTTONDOWN_API_KEY not set — skipping newsletter');
     console.log(JSON.stringify({ status: 'skipped', reason: 'No API key' }));
+    return;
+  }
+
+  if (!runtimeConfig.subscribeUrl || runtimeConfig.newsletterProvider.toLowerCase() !== 'buttondown') {
+    console.error('Buttondown publish disabled for this fork configuration');
+    console.log(JSON.stringify({ status: 'skipped', reason: 'Buttondown not configured for this fork' }));
     return;
   }
 

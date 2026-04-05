@@ -1,5 +1,7 @@
-import { getDigest, getDigestIndex, markdownToHtml } from '../../../lib/digests';
+import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import { DigestContent } from '../../../components/digest-content';
+import { getDigest, getDigestIndex, parseDigestMarkdown } from '../../../lib/digests';
 
 export const dynamic = 'force-static';
 
@@ -24,7 +26,7 @@ export default async function DigestPage({ params }) {
     notFound();
   }
 
-  const digestHtml = markdownToHtml(digest.content);
+  const digestBlocks = parseDigestMarkdown(digest.content);
   const index = await getDigestIndex();
   const currentIdx = index.findIndex((e) => e.date === date);
   const prev = currentIdx < index.length - 1 ? index[currentIdx + 1] : null;
@@ -32,28 +34,25 @@ export default async function DigestPage({ params }) {
 
   return (
     <div>
-      <article>
+      <article className="rounded-3xl border border-slate-800 bg-slate-950/80 p-8">
         <div className="mb-6">
-          <a href="/" className="text-sm text-amber-600 dark:text-amber-400 hover:underline">&larr; Latest</a>
-          <span className="text-sm text-gray-300 dark:text-gray-600 mx-2">·</span>
-          <time className="text-sm text-gray-500 dark:text-gray-400">{date}</time>
+          <Link href="/" className="text-sm text-amber-300 hover:underline">&larr; Latest</Link>
+          <span className="mx-2 text-sm text-slate-600">·</span>
+          <time className="text-sm text-slate-400">{date}</time>
         </div>
-        <div
-          className="text-base leading-relaxed text-gray-200"
-          dangerouslySetInnerHTML={{ __html: digestHtml }}
-        />
+        <DigestContent blocks={digestBlocks} />
       </article>
 
-      <nav className="mt-12 pt-6 border-t border-gray-200 dark:border-gray-800 flex justify-between text-sm">
+      <nav className="mt-12 flex justify-between border-t border-slate-800 pt-6 text-sm">
         {prev ? (
-          <a href={`/digest/${prev.date}`} className="text-amber-600 dark:text-amber-400 hover:underline">
+          <Link href={`/digest/${prev.date}`} className="text-amber-300 hover:underline">
             &larr; {prev.date}
-          </a>
+          </Link>
         ) : <span />}
         {next ? (
-          <a href={`/digest/${next.date}`} className="text-amber-600 dark:text-amber-400 hover:underline">
+          <Link href={`/digest/${next.date}`} className="text-amber-300 hover:underline">
             {next.date} &rarr;
-          </a>
+          </Link>
         ) : <span />}
       </nav>
     </div>

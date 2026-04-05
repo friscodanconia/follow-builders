@@ -6,6 +6,16 @@
 
 **理念：** 追踪那些真正在做产品、有独立见解的人，而非只会搬运信息的网红。
 
+## Fork 模式
+
+这个 fork 默认采用 **上游镜像** 模式：
+
+- 从 [zarazhangrui/follow-builders](https://github.com/zarazhangrui/follow-builders) 镜像 feed 快照
+- 在本 fork 中生成并归档自己的 digest、结构化主题归档、站点和可选 newsletter 流程
+- 通过 `config/runtime-config.js` 维护本 fork 自己的 URL 和品牌配置
+
+这样可以在不承担 X API 成本的前提下，明确说明这个 fork 依赖上游 feed。
+
 ## 你会得到什么
 
 每日或每周推送到你常用的通讯工具（Telegram、Discord、WhatsApp 等），包含：
@@ -15,6 +25,13 @@
 - AI 公司官方博客的完整文章（Anthropic Engineering、Claude Blog）
 - 所有原始内容的链接
 - 支持英文、中文或双语版本
+
+当前产品管线还支持：
+
+- 结构化内容 item 的 topic tagging
+- 为入选内容生成简短的 `Why this matters`
+- 在有真实信号时单独输出 `Chinese Models` 板块
+- 除 markdown digest 外，额外生成 topic 归档
 
 ## 快速开始
 
@@ -83,14 +100,14 @@ Skill 使用纯文本 prompt 文件来控制内容的摘要方式。你可以通
 clawhub install follow-builders
 
 # 或手动安装
-git clone https://github.com/zarazhangrui/follow-builders.git ~/skills/follow-builders
-cd ~/skills/follow-builders/scripts && npm install
+git clone https://github.com/friscodanconia/follow-builders.git ~/skills/follow-builders
+cd ~/skills/follow-builders && npm run setup
 ```
 
 ### Claude Code
 ```bash
-git clone https://github.com/zarazhangrui/follow-builders.git ~/.claude/skills/follow-builders
-cd ~/.claude/skills/follow-builders/scripts && npm install
+git clone https://github.com/friscodanconia/follow-builders.git ~/.claude/skills/follow-builders
+cd ~/.claude/skills/follow-builders && npm run setup
 ```
 
 ## 系统要求
@@ -102,12 +119,50 @@ cd ~/.claude/skills/follow-builders/scripts && npm install
 
 ## 工作原理
 
-1. 中心化 feed 每日更新，抓取所有信息源的最新内容（博客文章通过网页抓取，YouTube 字幕通过 Supadata，X/Twitter 通过官方 API）
-2. 你的 agent 获取 feed——一次 HTTP 请求，不需要 API key
-3. 你的 agent 根据你的偏好将原始内容重新混编为易消化的摘要
-4. 摘要推送到你的通讯工具（或直接在聊天中显示）
+1. 上游项目负责更新中心化 feed 快照
+2. 这个 fork 镜像这些 feed JSON，并在发布前进行校验
+3. 你的 agent 或 GitHub Action 按照你的偏好将内容重新整理成 digest
+4. digest 会归档在本仓库中，也可以推送到你的通讯工具或 newsletter
 
 查看 [examples/sample-digest.md](examples/sample-digest.md) 了解输出示例。
+
+## 运行时配置
+
+fork 相关配置集中在 `config/runtime-config.js` 中。
+
+- `FOLLOW_BUILDERS_REPO_URL`: 本 fork 的公开仓库地址
+- `FOLLOW_BUILDERS_REPO_RAW_BASE_URL`: 本 fork 自己的 raw GitHub 基础地址
+- `FOLLOW_BUILDERS_UPSTREAM_REPO_URL`: 上游项目地址
+- `FOLLOW_BUILDERS_UPSTREAM_RAW_BASE_URL`: 镜像上游 feed 文件所用的 raw GitHub 基础地址
+- `FOLLOW_BUILDERS_SITE_URL`: 部署站点的 canonical URL
+- `FOLLOW_BUILDERS_SUBSCRIBE_URL`: 可选的订阅表单地址
+- `FOLLOW_BUILDERS_NEWSLETTER_PROVIDER`: 订阅页显示的服务商名称
+- `FOLLOW_BUILDERS_SUBSCRIBE_CTA_LABEL`: 站点上的 CTA 文案
+- `FOLLOW_BUILDERS_EMAIL_FROM`: Resend 发信人
+
+如果没有设置 `FOLLOW_BUILDERS_SUBSCRIBE_URL`，站点不会把邮箱提交到任何第三方地址。
+
+## 本地开发
+
+```bash
+npm run setup
+npm run build:structured
+npm run verify
+```
+
+这会安装两个子项目依赖、生成结构化 item 历史、校验 feed、运行测试并构建站点。
+
+## 扩展信息源
+
+仓库现在包含三组非 X 信息源清单：
+
+- `config/sources-official.json`
+- `config/sources-editorial.json`
+- `config/sources-china.json`
+
+可通过 `node scripts/fetch-external-sources.js` 抓取这些来源并生成 `feed-external.json`。
+
+更完整的 v2 方案见 [docs/build-spec.md](docs/build-spec.md)。
 
 ## 隐私
 
