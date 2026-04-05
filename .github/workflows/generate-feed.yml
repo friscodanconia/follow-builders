@@ -61,6 +61,9 @@ jobs:
         run: |
           cd scripts && node save-history.js --file /tmp/digest.md
 
+      - name: Sync site data
+        run: npm --prefix scripts run sync-site-data
+
       - name: Publish newsletter
         if: ${{ github.event.inputs.skip_digest != 'true' }}
         continue-on-error: true
@@ -73,6 +76,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add feed-x.json feed-podcasts.json feed-blogs.json feed-external.json state-feed.json history/
+          git add feed-x.json feed-podcasts.json feed-blogs.json feed-external.json state-feed.json history/ site/data/
           git diff --cached --quiet || git commit -m "chore: mirror feeds and refresh digest"
           git push
