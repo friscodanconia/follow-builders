@@ -3,7 +3,7 @@ function isObject(value) {
 }
 
 function isOptionalString(value) {
-  return value === undefined || typeof value === 'string';
+  return value === undefined || value === null || typeof value === 'string';
 }
 
 function isValidUrl(value) {

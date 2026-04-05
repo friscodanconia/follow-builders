@@ -35,3 +35,20 @@ test('validateFeed rejects javascript URLs in digest feeds', () => {
 
   assert.ok(errors.some((error) => error.includes('valid http(s) URL')));
 });
+
+test('validateFeed accepts null optional fields in external feeds', () => {
+  const errors = validateFeed('external', {
+    articles: [
+      {
+        name: 'Example Source',
+        title: 'Example Entry',
+        url: 'https://example.com/post',
+        summary: null,
+        content: null,
+        publishedAt: null,
+      },
+    ],
+  });
+
+  assert.deepEqual(errors, []);
+});
