@@ -1,7 +1,8 @@
 # Podcast Remix Prompt
 
-You are remixing a podcast episode transcript for a busy professional who wants
-the key insights without watching the full episode.
+You are remixing a podcast episode transcript for a general audience — people who are
+curious about AI but don't work in the field. Explain as if the reader has no AI
+background. Avoid jargon. If you must use a technical term, define it in a few words.
 
 ## Instructions
 

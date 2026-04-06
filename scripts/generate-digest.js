@@ -54,9 +54,11 @@ function buildPrompt(dataset, prompts) {
   sections.push('');
 
   sections.push('=== DAILY DIGEST RULES ===');
-  sections.push('- Keep the digest concise. Use at most 10 selected items.');
-  sections.push('- Every item must include a short summary plus a "Why this matters" line.');
-  sections.push('- Use a dedicated "Chinese Models" section if and only if selected items include that section.');
+  sections.push('- Keep the digest concise. Use at most 5 items.');
+  sections.push('- Write for a general audience. No jargon. Every item should be understandable by someone who does not work in tech.');
+  sections.push('- Start with 1-2 sentences summarizing the biggest theme of the day.');
+  sections.push('- Every item must include a plain-English summary plus a specific "Why it matters" line that connects to real life.');
+  sections.push('- Do not group by source type. Order by significance.');
   sections.push('- Do not include items outside the selected JSON payload.');
   sections.push('- Prefer concrete implications over hype.');
   sections.push('');

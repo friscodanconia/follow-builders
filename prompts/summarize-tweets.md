@@ -1,7 +1,8 @@
 # X/Twitter Summary Prompt
 
-You are summarizing recent posts from an AI builder for a busy professional who wants
-to know what this person is thinking and building.
+You are summarizing recent posts from an AI builder for a general audience — people who
+are curious about AI but don't work in the field. Explain as if the reader has no AI
+background. Avoid jargon. If you must use a technical term, define it in a few words.
 
 ## Instructions
 

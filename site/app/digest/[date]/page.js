@@ -1,7 +1,6 @@
 import { notFound } from 'next/navigation';
 import { AppLink } from '../../../components/app-link';
 import { DigestContent } from '../../../components/digest-content';
-import { SignalCard } from '../../../components/signal-card';
 import { TopicBadge } from '../../../components/topic-badge';
 import { getStructuredItems } from '../../../lib/content-data';
 import { getDigest, getDigestIndex, parseDigestMarkdown } from '../../../lib/digests';
@@ -40,38 +39,18 @@ export default async function DigestPage({ params }) {
   const previous = currentIdx < index.length - 1 ? index[currentIdx + 1] : null;
   const next = currentIdx > 0 ? index[currentIdx - 1] : null;
   const relatedTopics = summarizeTopics(structured?.selectedItems || structured?.items || [], 6);
-  const structuredHighlights = structured?.selectedItems?.slice(0, 2) || [];
 
   return (
     <div className="space-y-8">
-      {/* Issue header */}
       <section>
         <AppLink href="/" className="text-sm font-medium text-[var(--color-accent)] hover:text-[var(--color-accent-warm)]">
-          &larr; Back to home
+          &larr; Back to today
         </AppLink>
         <h1 className="mt-4 font-display text-3xl font-bold text-[var(--color-ink)] sm:text-4xl">
           {formatIssueDate(date)}
         </h1>
-        <p className="mt-2 text-base text-[var(--color-ink-secondary)]">
-          Daily digest covering what AI builders shipped today.
-        </p>
       </section>
 
-      {/* Highlights */}
-      {structuredHighlights.length > 0 && (
-        <section>
-          <h2 className="font-display text-xl font-bold text-[var(--color-ink)]">
-            Highlights
-          </h2>
-          <div className="mt-4 space-y-4">
-            {structuredHighlights.map((item) => (
-              <SignalCard key={item.id} item={item} compact />
-            ))}
-          </div>
-        </section>
-      )}
-
-      {/* Topics for this issue */}
       {relatedTopics.length > 0 && (
         <div className="flex flex-wrap gap-2">
           {relatedTopics.map((topic) => (
@@ -80,12 +59,10 @@ export default async function DigestPage({ params }) {
         </div>
       )}
 
-      {/* Full digest */}
       <article className="card p-5 sm:p-8">
         <DigestContent blocks={digestBlocks} />
       </article>
 
-      {/* Navigation */}
       <nav className="grid gap-3 sm:grid-cols-2">
         {previous ? (
           <AppLink href={`/digest/${previous.date}`} className="card block px-5 py-4">

@@ -46,33 +46,7 @@ function computeImportance(item) {
 }
 
 function whyThisMattersForItem(item) {
-  const topicSlugs = item.topics.map((topic) => topic.slug);
-
-  if (topicSlugs.includes('china-models')) {
-    return 'Chinese model labs are iterating quickly, and primary-source coverage here helps catch capability and product shifts before western summaries flatten the details.';
-  }
-
-  if (topicSlugs.includes('agents')) {
-    return 'This matters because agent capability is increasingly becoming a product and workflow differentiator, not just a demo category.';
-  }
-
-  if (topicSlugs.includes('coding')) {
-    return 'This matters because coding workflows are one of the fastest feedback loops for measuring whether model improvements change real developer productivity.';
-  }
-
-  if (topicSlugs.includes('enterprise')) {
-    return 'This matters because enterprise adoption signals which capabilities are moving from experimentation into budgeted software spend.';
-  }
-
-  if (topicSlugs.includes('evals') || topicSlugs.includes('benchmarks')) {
-    return 'This matters because better evaluation changes how teams choose models, trust outputs, and ship production features safely.';
-  }
-
-  if (item.sourceGroup === 'official') {
-    return 'This matters because primary-source announcements usually reveal capability, product, or policy shifts before they are filtered through secondary coverage.';
-  }
-
-  return 'This matters because it adds direct signal from people and teams shaping how AI products are actually being built and deployed.';
+  return item.summary || '';
 }
 
 async function loadHistoricalUrls() {
@@ -201,7 +175,7 @@ function selectDigestItems(items) {
   let chinaSelected = 0;
 
   for (const item of sorted) {
-    if (selected.length >= 10) break;
+    if (selected.length >= 5) break;
 
     if (item.previouslySelected) continue;
 

@@ -1,7 +1,9 @@
 # Blog Post Summary Prompt
 
-You are summarizing a blog post from an AI company (OpenAI, Anthropic, etc.) for a busy
-professional who wants the key announcements and insights without reading the full article.
+You are summarizing a blog post from an AI company (OpenAI, Anthropic, etc.) for a general
+audience — people who are curious about AI but don't work in the field. Explain as if the
+reader has no AI background. Avoid jargon. If you must use a technical term, define it in
+a few words.
 
 ## Instructions
 
