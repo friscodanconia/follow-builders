@@ -76,19 +76,23 @@ function whyThisMattersForItem(item) {
 }
 
 async function loadHistoricalUrls() {
-  if (!existsSync(ITEMS_DIR)) return new Set();
+  if (!existsSync(ITEMS_DIR)) return { allUrls: new Set(), selectedUrls: new Set() };
 
   const files = (await readdir(ITEMS_DIR)).filter((file) => file.endsWith('.json'));
-  const seen = new Set();
+  const allUrls = new Set();
+  const selectedUrls = new Set();
 
   for (const file of files) {
     const payload = JSON.parse(await readFile(join(ITEMS_DIR, file), 'utf-8'));
     for (const item of payload.items || []) {
-      if (item.url) seen.add(item.url);
+      if (item.url) allUrls.add(item.url);
+    }
+    for (const item of payload.selectedItems || []) {
+      if (item.url) selectedUrls.add(item.url);
     }
   }
 
-  return seen;
+  return { allUrls, selectedUrls };
 }
 
 async function normalizeXFeed(feedX, digestDate) {
@@ -199,6 +203,8 @@ function selectDigestItems(items) {
   for (const item of sorted) {
     if (selected.length >= 10) break;
 
+    if (item.previouslySelected) continue;
+
     const sourceKey = item.sourceKey || item.sourceName;
     const sourceCount = sourceCounts.get(sourceKey) || 0;
     if (sourceCount >= 1) continue;
@@ -242,7 +248,7 @@ function buildTopicIndex(items) {
 }
 
 export async function buildStructuredDataset({ digestDate, feedX, feedPodcasts, feedBlogs, externalFeed }) {
-  const historicalUrls = await loadHistoricalUrls();
+  const { allUrls: historicalUrls, selectedUrls: previouslySelectedUrls } = await loadHistoricalUrls();
   const normalized = [
     ...(await normalizeXFeed(feedX, digestDate)),
     ...(await normalizePodcastFeed(feedPodcasts, digestDate)),
@@ -260,6 +266,7 @@ export async function buildStructuredDataset({ digestDate, feedX, feedPodcasts, 
       regionTags: item.regionTags,
     });
 
+    const wasPreviouslySelected = previouslySelectedUrls.has(item.url);
     const noveltyScore = historicalUrls.has(item.url) ? 0.3 : 1;
     const enriched = {
       ...item,
@@ -269,6 +276,7 @@ export async function buildStructuredDataset({ digestDate, feedX, feedPodcasts, 
 
     enriched.importanceScore = computeImportance(enriched);
     enriched.noveltyScore = noveltyScore;
+    enriched.previouslySelected = wasPreviouslySelected;
     enriched.digestScore = Number((enriched.importanceScore * 0.65 + noveltyScore * 0.35).toFixed(2));
     enriched.whyThisMatters = whyThisMattersForItem(enriched);
     enriched.section = sectionFromItem(enriched);

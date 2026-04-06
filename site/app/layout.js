@@ -37,9 +37,11 @@ export default function RootLayout({ children }) {
                 <AppLink href="/archive" className="font-medium text-[var(--color-ink-secondary)] transition hover:text-[var(--color-ink)]">
                   Archive
                 </AppLink>
-                <AppLink href="/subscribe" className="rounded-full bg-[var(--color-accent)] px-4 py-2 font-medium text-white transition hover:bg-[var(--color-accent-warm)]">
-                  Subscribe
-                </AppLink>
+                {siteConfig.subscribeUrl && (
+                  <AppLink href="/subscribe" className="rounded-full bg-[var(--color-accent)] px-4 py-2 font-medium text-white transition hover:bg-[var(--color-accent-warm)]">
+                    Subscribe
+                  </AppLink>
+                )}
               </nav>
             </div>
           </div>
