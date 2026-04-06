@@ -1,138 +1,67 @@
 @import "tailwindcss";
 
 :root {
-  --color-bg: #07111f;
-  --color-bg-strong: #0d1828;
-  --color-panel: rgba(9, 16, 28, 0.86);
-  --color-panel-soft: rgba(255, 255, 255, 0.04);
-  --color-panel-border: rgba(255, 255, 255, 0.1);
-  --color-ink: #f6efe3;
-  --color-ink-soft: #d1c5b3;
-  --color-ink-muted: #8f8b82;
-  --color-accent: #f8b949;
-  --color-accent-soft: rgba(248, 185, 73, 0.18);
-  --color-emerald: #7be0be;
-  --shadow-panel: 0 24px 80px rgba(2, 6, 23, 0.42);
+  --color-bg: #faf8f5;
+  --color-bg-warm: #f5f0e8;
+  --color-surface: #ffffff;
+  --color-surface-warm: #fdf9f3;
+  --color-border: #e8e0d4;
+  --color-border-light: #f0ebe3;
+  --color-ink: #1a1a1a;
+  --color-ink-secondary: #4a4540;
+  --color-ink-muted: #8a8279;
+  --color-accent: #c45d2c;
+  --color-accent-warm: #d97547;
+  --color-accent-bg: rgba(196, 93, 44, 0.06);
+  --color-tag-bg: #f0ebe3;
+  --color-tag-text: #5c5549;
 }
 
 html {
-  color-scheme: dark;
   background: var(--color-bg);
 }
 
 body {
-  font-family: "IBM Plex Sans", "Segoe UI", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  background:
-    radial-gradient(circle at top, rgba(248, 185, 73, 0.2), transparent 28%),
-    radial-gradient(circle at 85% 18%, rgba(123, 224, 190, 0.1), transparent 22%),
-    linear-gradient(180deg, #07111f 0%, #0d1828 42%, #060d17 100%);
+  font-family: "Inter", "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: var(--color-bg);
   color: var(--color-ink);
-}
-
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -2;
-  background-image:
-    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
-  background-size: 32px 32px;
-  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), transparent 70%);
-  pointer-events: none;
-}
-
-body::after {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  pointer-events: none;
-  opacity: 0.08;
-  background-image:
-    radial-gradient(circle at 20% 20%, #fff 0.5px, transparent 0.6px),
-    radial-gradient(circle at 80% 40%, #fff 0.5px, transparent 0.6px),
-    radial-gradient(circle at 35% 78%, #fff 0.5px, transparent 0.6px);
-  background-size: 180px 180px;
+  -webkit-font-smoothing: antialiased;
 }
 
 ::selection {
-  background: rgba(251, 191, 36, 0.35);
-  color: #f8fafc;
-}
-
-.font-display {
-  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
-  letter-spacing: -0.03em;
-}
-
-.site-shell {
-  position: relative;
-}
-
-.glass-panel {
-  border: 1px solid var(--color-panel-border);
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.01)),
-    var(--color-panel);
-  box-shadow: var(--shadow-panel);
-  backdrop-filter: blur(18px);
-}
-
-.eyebrow {
-  color: var(--color-accent);
-  font-size: 0.68rem;
-  font-weight: 600;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-}
-
-.nav-pill {
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  background: rgba(255, 255, 255, 0.03);
-  color: var(--color-ink-soft);
-  transition: 160ms ease;
-}
-
-.nav-pill:hover {
-  border-color: rgba(248, 185, 73, 0.28);
+  background: rgba(196, 93, 44, 0.15);
   color: var(--color-ink);
 }
 
-.signal-card {
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 1.5rem;
-  background:
-    linear-gradient(180deg, rgba(248, 185, 73, 0.08), transparent 22%),
-    rgba(7, 13, 24, 0.78);
-  box-shadow: 0 22px 60px rgba(2, 6, 23, 0.28);
-  transition:
-    transform 180ms ease,
-    border-color 180ms ease,
-    box-shadow 180ms ease;
+.font-display {
+  font-family: "Georgia", "Iowan Old Style", "Palatino Linotype", serif;
+  letter-spacing: -0.02em;
 }
 
-.signal-card:hover {
-  transform: translateY(-2px);
-  border-color: rgba(248, 185, 73, 0.25);
-  box-shadow: 0 28px 64px rgba(2, 6, 23, 0.36);
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  transition: box-shadow 200ms ease, border-color 200ms ease;
 }
 
-.stat-tile {
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 1.25rem;
-  background: rgba(255, 255, 255, 0.035);
-  padding: 0.95rem 1rem;
+.card:hover {
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+  border-color: #d8d0c4;
 }
 
-.rail-card {
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 1.5rem;
-  background: rgba(255, 255, 255, 0.03);
+.card-flat {
+  background: var(--color-surface-warm);
+  border: 1px solid var(--color-border-light);
+  border-radius: 12px;
 }
 
-.page-reveal {
-  animation: rise-in 420ms ease-out;
+.label {
+  color: var(--color-accent);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .digest-prose h1,
@@ -146,12 +75,15 @@ body::after {
   hanging-punctuation: first last;
 }
 
-@keyframes rise-in {
+.page-reveal {
+  animation: fade-up 350ms ease-out;
+}
+
+@keyframes fade-up {
   from {
     opacity: 0;
-    transform: translateY(10px);
+    transform: translateY(8px);
   }
-
   to {
     opacity: 1;
     transform: translateY(0);

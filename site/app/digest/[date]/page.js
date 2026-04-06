@@ -43,92 +43,62 @@ export default async function DigestPage({ params }) {
   const structuredHighlights = structured?.selectedItems?.slice(0, 2) || [];
 
   return (
-    <div className="space-y-6">
-      <section className="glass-panel rounded-[30px] p-5 sm:p-8">
-        <div className="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
-          <div className="max-w-3xl">
-            <p className="eyebrow">Daily issue</p>
-            <h1 className="mt-2 font-display text-4xl text-[var(--color-ink)] sm:text-5xl">
-              {formatIssueDate(date)}
-            </h1>
-            <p className="mt-4 text-sm leading-6 text-[var(--color-ink-soft)]">
-              Full narrative read for the day. The structured layer sits alongside it so you can skim the strongest signals before dropping into the complete brief.
-            </p>
-            <div className="mt-4 flex flex-wrap gap-2">
-              <AppLink href="/" className="nav-pill rounded-full px-3 py-2 text-sm">
-                Back to home
-              </AppLink>
-              <AppLink href="/archive" className="nav-pill rounded-full px-3 py-2 text-sm">
-                Browse archive
-              </AppLink>
-            </div>
-          </div>
-
-          <div className="grid gap-3 sm:grid-cols-3 lg:min-w-[26rem]">
-            <div className="stat-tile">
-              <p className="text-xs uppercase tracking-[0.2em] text-[var(--color-ink-muted)]">Selected items</p>
-              <p className="mt-2 font-display text-3xl text-[var(--color-ink)]">{structured?.stats?.selectedItems || 0}</p>
-            </div>
-            <div className="stat-tile">
-              <p className="text-xs uppercase tracking-[0.2em] text-[var(--color-ink-muted)]">Topics</p>
-              <p className="mt-2 font-display text-3xl text-[var(--color-ink)]">{relatedTopics.length}</p>
-            </div>
-            <div className="stat-tile">
-              <p className="text-xs uppercase tracking-[0.2em] text-[var(--color-ink-muted)]">Source groups</p>
-              <p className="mt-2 font-display text-3xl text-[var(--color-ink)]">{structured?.sections?.length || 0}</p>
-            </div>
-          </div>
-        </div>
+    <div className="space-y-8">
+      {/* Issue header */}
+      <section>
+        <AppLink href="/" className="text-sm font-medium text-[var(--color-accent)] hover:text-[var(--color-accent-warm)]">
+          &larr; Back to home
+        </AppLink>
+        <h1 className="mt-4 font-display text-3xl font-bold text-[var(--color-ink)] sm:text-4xl">
+          {formatIssueDate(date)}
+        </h1>
+        <p className="mt-2 text-base text-[var(--color-ink-secondary)]">
+          Daily digest covering what AI builders shipped today.
+        </p>
       </section>
 
-      {(structuredHighlights.length > 0 || relatedTopics.length > 0) && (
-        <section className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,0.72fr)]">
-          <div className="space-y-4">
-            <div>
-              <p className="eyebrow">Structured layer</p>
-              <h2 className="mt-2 font-display text-2xl text-[var(--color-ink)] sm:text-3xl">
-                Ranked context for this issue.
-              </h2>
-            </div>
-            <div className="space-y-4">
-              {structuredHighlights.map((item) => (
-                <SignalCard key={item.id} item={item} compact />
-              ))}
-            </div>
+      {/* Highlights */}
+      {structuredHighlights.length > 0 && (
+        <section>
+          <h2 className="font-display text-xl font-bold text-[var(--color-ink)]">
+            Highlights
+          </h2>
+          <div className="mt-4 space-y-4">
+            {structuredHighlights.map((item) => (
+              <SignalCard key={item.id} item={item} compact />
+            ))}
           </div>
-
-          <aside className="glass-panel rounded-[26px] p-5 sm:p-6">
-            <p className="eyebrow">Dominant topics</p>
-            <h2 className="mt-2 font-display text-2xl text-[var(--color-ink)]">What shaped the issue.</h2>
-            <div className="mt-5 flex flex-wrap gap-2">
-              {relatedTopics.map((topic) => (
-                <TopicBadge key={topic.slug} topic={topic} />
-              ))}
-            </div>
-          </aside>
         </section>
       )}
 
-      <article className="glass-panel rounded-[30px] p-5 sm:p-8 lg:p-10">
+      {/* Topics for this issue */}
+      {relatedTopics.length > 0 && (
+        <div className="flex flex-wrap gap-2">
+          {relatedTopics.map((topic) => (
+            <TopicBadge key={topic.slug} topic={topic} />
+          ))}
+        </div>
+      )}
+
+      {/* Full digest */}
+      <article className="card p-5 sm:p-8">
         <DigestContent blocks={digestBlocks} />
       </article>
 
+      {/* Navigation */}
       <nav className="grid gap-3 sm:grid-cols-2">
         {previous ? (
-          <AppLink href={`/digest/${previous.date}`} className="signal-card block p-4 sm:p-5">
-            <p className="eyebrow">Previous issue</p>
-            <p className="mt-2 text-lg font-medium text-[var(--color-ink)]">{formatIssueDate(previous.date)}</p>
-            <p className="mt-1 text-sm text-[var(--color-ink-soft)]">{previous.date}</p>
+          <AppLink href={`/digest/${previous.date}`} className="card block px-5 py-4">
+            <p className="text-xs font-medium text-[var(--color-ink-muted)]">Previous</p>
+            <p className="mt-1 text-base font-medium text-[var(--color-ink)]">{formatIssueDate(previous.date)}</p>
           </AppLink>
         ) : (
           <div />
         )}
-
         {next ? (
-          <AppLink href={`/digest/${next.date}`} className="signal-card block p-4 sm:p-5 text-left sm:text-right">
-            <p className="eyebrow">Next issue</p>
-            <p className="mt-2 text-lg font-medium text-[var(--color-ink)]">{formatIssueDate(next.date)}</p>
-            <p className="mt-1 text-sm text-[var(--color-ink-soft)]">{next.date}</p>
+          <AppLink href={`/digest/${next.date}`} className="card block px-5 py-4 text-left sm:text-right">
+            <p className="text-xs font-medium text-[var(--color-ink-muted)]">Next</p>
+            <p className="mt-1 text-base font-medium text-[var(--color-ink)]">{formatIssueDate(next.date)}</p>
           </AppLink>
         ) : null}
       </nav>
