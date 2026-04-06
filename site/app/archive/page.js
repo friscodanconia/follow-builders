@@ -1,5 +1,6 @@
-import Link from 'next/link';
+import { AppLink } from '../../components/app-link';
 import { getDigestIndex } from '../../lib/digests';
+import { formatIssueDate, formatMonthLabel } from '../../lib/presentation';
 
 export const dynamic = 'force-static';
 
@@ -21,44 +22,65 @@ export default async function ArchivePage() {
   const months = Object.keys(grouped).sort((a, b) => b.localeCompare(a));
 
   return (
-    <div>
-      <h1 className="mb-2 text-lg font-medium text-slate-100">Archive</h1>
-      <p className="mb-8 text-sm text-slate-400">
-        All past digests, newest first.
-      </p>
+    <div className="space-y-6">
+      <section className="glass-panel rounded-[30px] p-5 sm:p-8">
+        <p className="eyebrow">Archive</p>
+        <h1 className="mt-2 font-display text-4xl text-[var(--color-ink)] sm:text-5xl">
+          Every issue, arranged for quick thumb-scrolling.
+        </h1>
+        <p className="mt-4 max-w-2xl text-sm leading-6 text-[var(--color-ink-soft)]">
+          The archive now behaves like a briefing ledger instead of a plain list. Mobile comes first: big tap targets, short labels, and one clear action per card.
+        </p>
+        <div className="mt-5 flex flex-wrap gap-3">
+          <div className="stat-tile min-w-[11rem]">
+            <p className="text-xs uppercase tracking-[0.2em] text-[var(--color-ink-muted)]">Issues stored</p>
+            <p className="mt-2 font-display text-3xl text-[var(--color-ink)]">{index.length}</p>
+          </div>
+          <div className="stat-tile min-w-[11rem]">
+            <p className="text-xs uppercase tracking-[0.2em] text-[var(--color-ink-muted)]">Latest issue</p>
+            <p className="mt-2 font-display text-3xl text-[var(--color-ink)]">{index[0]?.date || '—'}</p>
+          </div>
+        </div>
+      </section>
 
       {months.length === 0 ? (
-        <p className="text-sm text-slate-500">
-          No digests yet. Check back soon.
-        </p>
+        <section className="glass-panel rounded-[26px] p-6">
+          <p className="text-sm text-[var(--color-ink-soft)]">No digests yet. Check back after the next scheduled run.</p>
+        </section>
       ) : (
-        months.map((month) => {
-          const label = new Date(month + '-01').toLocaleDateString('en-US', {
-            year: 'numeric',
-            month: 'long',
-          });
-          return (
-            <div key={month} className="mb-8">
-              <h2 className="mb-3 text-xs font-medium uppercase tracking-wide text-slate-500">
-                {label}
-              </h2>
-              <ul className="space-y-1">
-                {grouped[month].map((entry) => (
-                  <li key={entry.date}>
-                    <Link
-                      href={`/digest/${entry.date}`}
-                      className="flex items-center justify-between rounded-2xl px-3 py-3 transition hover:bg-slate-900/60"
-                    >
-                      <span className="text-sm text-slate-300">
-                        {new Date(entry.date + 'T00:00:00').toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}
-                      </span>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+        months.map((month) => (
+          <section key={month} className="space-y-3">
+            <div className="flex items-center justify-between gap-3">
+              <h2 className="font-display text-2xl text-[var(--color-ink)] sm:text-3xl">{formatMonthLabel(month)}</h2>
+              <span className="eyebrow">{grouped[month].length} issues</span>
             </div>
-          );
-        })
+
+            <div className="grid gap-3">
+              {grouped[month].map((entry, indexInMonth) => (
+                <AppLink
+                  key={entry.date}
+                  href={`/digest/${entry.date}`}
+                  className="signal-card block p-4 sm:p-5"
+                >
+                  <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                    <div>
+                      <p className="eyebrow">{indexInMonth === 0 ? 'Newest in month' : 'Issue'}</p>
+                      <h3 className="mt-2 text-lg font-medium text-[var(--color-ink)] sm:text-xl">
+                        {formatIssueDate(entry.date)}
+                      </h3>
+                      <p className="mt-2 text-sm leading-6 text-[var(--color-ink-soft)]">
+                        Open the full markdown brief for this issue.
+                      </p>
+                    </div>
+                    <span className="rounded-full border border-[rgba(255,255,255,0.1)] px-3 py-1.5 text-xs uppercase tracking-[0.18em] text-[var(--color-ink-muted)]">
+                      {entry.date}
+                    </span>
+                  </div>
+                </AppLink>
+              ))}
+            </div>
+          </section>
+        ))
       )}
     </div>
   );

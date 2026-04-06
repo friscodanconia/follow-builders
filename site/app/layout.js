@@ -1,5 +1,5 @@
 import './globals.css';
-import Link from 'next/link';
+import { AppLink } from '../components/app-link';
 import { siteConfig } from '../lib/site-config';
 
 const metadata = {
@@ -23,44 +23,82 @@ export { metadata };
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark">
-      <body className="min-h-screen bg-slate-950 text-slate-100">
-        <div className="fixed inset-0 -z-10 bg-[radial-gradient(circle_at_top,_rgba(251,191,36,0.14),_transparent_32%),linear-gradient(180deg,_#020617_0%,_#0f172a_45%,_#020617_100%)]" />
-        <nav className="border-b border-slate-800/80 backdrop-blur">
-          <div className="mx-auto flex max-w-4xl items-center justify-between px-6 py-5">
-            <Link href="/" className="text-base font-semibold tracking-tight text-white transition hover:text-amber-300">
-              {siteConfig.projectName}
-            </Link>
-            <div className="flex items-center gap-4 text-sm">
-              <Link href="/" className="text-slate-400 transition hover:text-white">
-                Home
-              </Link>
-              <Link href="/archive" className="text-slate-400 transition hover:text-white">
-                Archive
-              </Link>
-              <Link href="/subscribe" className="rounded-full border border-amber-500/30 bg-amber-500/10 px-3 py-1 text-sm text-amber-200 transition hover:border-amber-400/50 hover:bg-amber-500/15">
-                {siteConfig.subscribeCtaLabel}
-              </Link>
+      <body className="min-h-screen text-[var(--color-ink)] antialiased">
+        <div className="site-shell">
+          <header className="sticky top-0 z-40 border-b border-[rgba(255,255,255,0.08)] bg-[rgba(7,17,31,0.72)] backdrop-blur-xl">
+            <div className="mx-auto max-w-6xl px-4 py-4 sm:px-6">
+              <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+                <AppLink href="/" className="block">
+                  <span className="eyebrow">Operator Brief</span>
+                  <div className="mt-1 flex flex-col gap-1">
+                    <span className="font-display text-2xl leading-none text-[var(--color-ink)] sm:text-3xl">
+                      {siteConfig.projectName}
+                    </span>
+                    <span className="max-w-xl text-sm text-[var(--color-ink-muted)]">
+                      A mobile-first daily briefing on builders, labs, and high-signal releases.
+                    </span>
+                  </div>
+                </AppLink>
+
+                <nav className="flex flex-wrap gap-2 text-sm">
+                  <AppLink href="/" className="nav-pill rounded-full px-3 py-2">
+                    Home
+                  </AppLink>
+                  <AppLink href="/archive" className="nav-pill rounded-full px-3 py-2">
+                    Archive
+                  </AppLink>
+                  <AppLink href="/subscribe" className="rounded-full border border-[rgba(248,185,73,0.28)] bg-[var(--color-accent-soft)] px-3 py-2 font-medium text-[var(--color-ink)] transition hover:border-[rgba(248,185,73,0.5)] hover:bg-[rgba(248,185,73,0.24)]">
+                    {siteConfig.subscribeCtaLabel}
+                  </AppLink>
+                </nav>
+              </div>
             </div>
-          </div>
-        </nav>
-        <main className="mx-auto max-w-4xl px-6 py-10">
-          {children}
-        </main>
-        <footer className="mt-16 border-t border-slate-800">
-          <div className="mx-auto flex max-w-4xl flex-col gap-2 px-6 py-6 text-sm text-slate-500 md:flex-row md:items-center md:justify-between">
-            <span>{siteConfig.tagline}</span>
-            <span>
-              Mirroring feeds from{' '}
-              <a href={siteConfig.upstreamRepoUrl} className="text-slate-400 underline decoration-slate-700 underline-offset-2 hover:text-white" target="_blank" rel="noopener noreferrer">
-                upstream
-              </a>{' '}
-              ·{' '}
-              <a href={siteConfig.repoUrl} className="text-slate-400 underline decoration-slate-700 underline-offset-2 hover:text-white" target="_blank" rel="noopener noreferrer">
-                this fork
-              </a>
-            </span>
-          </div>
-        </footer>
+          </header>
+
+          <main className="mx-auto max-w-6xl px-4 pb-18 pt-6 sm:px-6 sm:pt-8 lg:pt-10">
+            <div className="page-reveal">{children}</div>
+          </main>
+
+          <footer className="mt-12 border-t border-[rgba(255,255,255,0.08)]">
+            <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
+              <div className="glass-panel rounded-[28px] px-5 py-6 sm:px-6">
+                <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
+                  <div className="max-w-2xl">
+                    <p className="eyebrow">What this fork is doing</p>
+                    <h2 className="font-display text-2xl text-[var(--color-ink)] sm:text-3xl">
+                      Structured signal on top of the upstream builder feed.
+                    </h2>
+                    <p className="mt-3 text-sm leading-6 text-[var(--color-ink-soft)]">
+                      {siteConfig.tagline} This fork mirrors upstream X coverage, adds official and China-focused sources, and publishes its own ranked daily brief.
+                    </p>
+                  </div>
+
+                  <div className="grid gap-3 text-sm text-[var(--color-ink-soft)] sm:grid-cols-3 lg:min-w-[28rem]">
+                    <a
+                      href={siteConfig.upstreamRepoUrl}
+                      className="rail-card px-4 py-3 transition hover:border-[rgba(248,185,73,0.28)] hover:text-[var(--color-ink)]"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Upstream feed
+                    </a>
+                    <a
+                      href={siteConfig.repoUrl}
+                      className="rail-card px-4 py-3 transition hover:border-[rgba(248,185,73,0.28)] hover:text-[var(--color-ink)]"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Source code
+                    </a>
+                    <AppLink href="/subscribe" className="rail-card px-4 py-3 transition hover:border-[rgba(248,185,73,0.28)] hover:text-[var(--color-ink)]">
+                      Inbox delivery
+                    </AppLink>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
       </body>
     </html>
   );

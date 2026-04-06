@@ -20,6 +20,10 @@ export async function getLatestStructuredItems() {
   return readJsonIfExists(join(DATA_DIR, 'items', `${index.latestDate}.json`), null);
 }
 
+export async function getStructuredItems(date) {
+  return readJsonIfExists(join(DATA_DIR, 'items', `${date}.json`), null);
+}
+
 export async function getTopicIndex() {
   return readJsonIfExists(join(DATA_DIR, 'topics', 'index.json'), []);
 }
