@@ -11,6 +11,11 @@ on:
         required: false
         default: false
         type: boolean
+      backfill:
+        description: 'Backfill all old digests with current prompt'
+        required: false
+        default: false
+        type: boolean
 
 jobs:
   generate:
@@ -60,6 +65,12 @@ jobs:
         if: ${{ github.event.inputs.skip_digest != 'true' }}
         run: |
           cd scripts && node save-history.js --file /tmp/digest.md
+
+      - name: Backfill old digests
+        if: ${{ github.event.inputs.backfill == 'true' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/backfill-digests.js
 
       - name: Sync site data
         run: npm --prefix scripts run sync-site-data

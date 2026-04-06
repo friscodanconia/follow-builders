@@ -147,7 +147,8 @@ async function main() {
 
   const prompts = { digestIntro, summarizeTweets, summarizePodcast, summarizeBlogs };
 
-  const digestDate = new Date().toISOString().split('T')[0];
+  const dateArg = process.argv.find((arg) => arg.startsWith('--date='));
+  const digestDate = dateArg ? dateArg.split('=')[1] : new Date().toISOString().split('T')[0];
   const structuredPath = join(SCRIPT_DIR, '..', 'history', 'items', `${digestDate}.json`);
   const dataset = await readJson(structuredPath, null) || await buildStructuredDataset({
     digestDate,
