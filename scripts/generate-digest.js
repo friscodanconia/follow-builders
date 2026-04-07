@@ -37,7 +37,7 @@ async function loadPrompt(filename) {
 
 // -- Build the LLM prompt ----------------------------------------------------
 
-function buildPrompt(dataset, prompts) {
+function buildPrompt(dataset, prompts, yesterdayDigest) {
   const today = new Date().toLocaleDateString('en-US', {
     weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
   });
@@ -53,16 +53,6 @@ function buildPrompt(dataset, prompts) {
   sections.push(prompts.digestIntro.replaceAll('{{FOLLOW_BUILDERS_REPO_URL}}', runtimeConfig.repoUrl));
   sections.push('');
 
-  sections.push('=== DAILY DIGEST RULES ===');
-  sections.push('- Keep the digest concise. Use at most 5 items.');
-  sections.push('- Write for a general audience. No jargon. Every item should be understandable by someone who does not work in tech.');
-  sections.push('- Start with 1-2 sentences summarizing the biggest theme of the day.');
-  sections.push('- Every item must include a plain-English summary plus a specific "Why it matters" line that connects to real life.');
-  sections.push('- Do not group by source type. Order by significance.');
-  sections.push('- Do not include items outside the selected JSON payload.');
-  sections.push('- Prefer concrete implications over hype.');
-  sections.push('');
-
   sections.push('=== SOURCE-SPECIFIC STYLE HINTS ===');
   sections.push(prompts.summarizeTweets);
   sections.push('');
@@ -70,6 +60,13 @@ function buildPrompt(dataset, prompts) {
   sections.push('');
   sections.push(prompts.summarizePodcast);
   sections.push('');
+
+  if (yesterdayDigest) {
+    sections.push('=== YESTERDAY\'S DIGEST (for continuity — reference only if there\'s a genuine connection) ===');
+    sections.push(yesterdayDigest);
+    sections.push('');
+  }
+
   sections.push('=== SELECTED ITEMS (JSON) ===');
   sections.push(JSON.stringify(selectedItems, null, 2));
   sections.push('');
@@ -161,7 +158,18 @@ async function main() {
   console.error(`Feeds: ${feedX?.x?.length || 0} builders, ${feedPodcasts?.podcasts?.length || 0} podcasts, ${feedBlogs?.blogs?.length || 0} blogs, ${externalFeed?.articles?.length || 0} external items`);
   console.error(`Structured items: ${dataset.stats.totalItems} total, ${dataset.stats.selectedItems} selected, ${dataset.stats.chinaItems} china-tagged`);
 
-  const prompt = buildPrompt(dataset, prompts);
+  // Load yesterday's digest for continuity
+  const yesterday = new Date(digestDate);
+  yesterday.setDate(yesterday.getDate() - 1);
+  const yesterdayDate = yesterday.toISOString().split('T')[0];
+  const yesterdayPath = join(SCRIPT_DIR, '..', 'history', `${yesterdayDate}.md`);
+  let yesterdayDigest = null;
+  if (existsSync(yesterdayPath)) {
+    yesterdayDigest = await readFile(yesterdayPath, 'utf-8');
+    console.error(`Loaded yesterday's digest (${yesterdayDate}) for continuity`);
+  }
+
+  const prompt = buildPrompt(dataset, prompts, yesterdayDigest);
 
   if (!prompt) {
     console.error('No content in any feed — skipping digest generation');
