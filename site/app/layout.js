@@ -34,6 +34,9 @@ export default function RootLayout({ children }) {
               </AppLink>
 
               <nav className="flex items-center gap-5 text-sm">
+                <AppLink href="/about" className="font-medium text-[var(--color-ink-secondary)] transition hover:text-[var(--color-ink)]">
+                  About
+                </AppLink>
                 <AppLink href="/archive" className="font-medium text-[var(--color-ink-secondary)] transition hover:text-[var(--color-ink)]">
                   Archive
                 </AppLink>

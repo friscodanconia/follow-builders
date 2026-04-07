@@ -1,16 +1,20 @@
 import { AppLink } from '../components/app-link';
 import { DigestContent } from '../components/digest-content';
 import { DigestStoryCard } from '../components/digest-story-card';
+import { InlineSubscribe } from '../components/inline-subscribe';
+import { TopicBadge } from '../components/topic-badge';
 import { getDigestIndex, getLatestDigest, parseDigestMarkdown, parseDigestStories, extractEditorialIntro, estimateReadingTime } from '../lib/digests';
+import { getTopicIndex } from '../lib/content-data';
 import { formatIssueDate } from '../lib/presentation';
 
 export const dynamic = 'force-static';
 export const revalidate = 3600;
 
 export default async function Home() {
-  const [latest, index] = await Promise.all([
+  const [latest, index, topics] = await Promise.all([
     getLatestDigest(),
     getDigestIndex(),
+    getTopicIndex(),
   ]);
 
   if (!latest) {
@@ -76,11 +80,28 @@ export default async function Home() {
         </article>
       )}
 
+      {/* Inline subscribe — right after stories (peak value moment) */}
+      <InlineSubscribe />
+
+      {/* Browse by topic */}
+      {topics.length > 0 && (
+        <section>
+          <h2 className="font-display text-xl font-bold text-[var(--color-ink)]">
+            Browse by topic
+          </h2>
+          <div className="mt-3 flex flex-wrap gap-2">
+            {topics.slice(0, 12).map((topic) => (
+              <TopicBadge key={topic.slug} topic={topic} />
+            ))}
+          </div>
+        </section>
+      )}
+
       {/* Recent issues */}
       {recentArchive.length > 0 && (
         <section>
           <div className="flex items-center justify-between">
-            <h2 className="font-display text-2xl font-bold text-[var(--color-ink)]">
+            <h2 className="font-display text-xl font-bold text-[var(--color-ink)]">
               Past issues
             </h2>
             <AppLink href="/archive" className="text-sm font-medium text-[var(--color-accent)] hover:text-[var(--color-accent-warm)]">

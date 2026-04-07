@@ -16,7 +16,8 @@ export default function SubscribePage() {
           Get the digest in your inbox
         </h1>
         <p className="mt-3 text-base leading-7 text-[var(--color-ink-secondary)]">
-          A short daily email with the most important AI developments, explained in plain language. No spam, no hype.
+          5 curated AI stories. 3 minutes to read. Every weekday morning.
+          No hype, no fluff, no engagement bait.
         </p>
       </section>
 
@@ -40,8 +41,11 @@ export default function SubscribePage() {
               type="submit"
               className="w-full rounded-full bg-[var(--color-accent)] px-4 py-3 text-sm font-medium text-white transition hover:bg-[var(--color-accent-warm)]"
             >
-              Subscribe
+              Subscribe for free
             </button>
+            <p className="text-center text-xs text-[var(--color-ink-muted)]">
+              No spam. Unsubscribe anytime.
+            </p>
           </form>
         ) : (
           <div className="card-flat p-4">
@@ -52,11 +56,32 @@ export default function SubscribePage() {
         )}
       </section>
 
-      <p className="text-center text-sm text-[var(--color-ink-muted)]">
+      <section className="card-flat p-6">
+        <h3 className="text-sm font-semibold text-[var(--color-ink)]">What you get</h3>
+        <ul className="mt-3 space-y-2 text-sm leading-6 text-[var(--color-ink-secondary)]">
+          <li className="flex gap-2">
+            <span className="shrink-0 text-[var(--color-accent)]">&#10003;</span>
+            The 3-5 most important AI developments, explained in plain English
+          </li>
+          <li className="flex gap-2">
+            <span className="shrink-0 text-[var(--color-accent)]">&#10003;</span>
+            "Why it matters" context you can use in conversations at work
+          </li>
+          <li className="flex gap-2">
+            <span className="shrink-0 text-[var(--color-accent)]">&#10003;</span>
+            Sources from 14 curated blogs, research labs, and builder communities
+          </li>
+        </ul>
+      </section>
+
+      <div className="flex justify-center gap-4 text-sm text-[var(--color-ink-muted)]">
         <AppLink href="/" className="font-medium text-[var(--color-accent)] hover:text-[var(--color-accent-warm)]">
-          &larr; Back to today&apos;s digest
+          &larr; See today&apos;s digest
         </AppLink>
-      </p>
+        <AppLink href="/about" className="font-medium text-[var(--color-accent)] hover:text-[var(--color-accent-warm)]">
+          How we curate
+        </AppLink>
+      </div>
     </div>
   );
 }
