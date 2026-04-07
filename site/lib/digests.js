@@ -203,6 +203,63 @@ export function enrichItemsWithDigest(items, markdown) {
   });
 }
 
+export function parseDigestStories(markdown) {
+  const stories = [];
+  const lines = markdown.split(/\r?\n/);
+  let currentStory = null;
+
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (!trimmed) continue;
+
+    // Detect bold headline (story start): **Title here**
+    const headlineMatch = trimmed.match(/^\*\*(.+)\*\*$/);
+    if (headlineMatch) {
+      // Skip the digest title line (contains "AI Builders Digest")
+      if (headlineMatch[1].includes('AI Builders Digest')) continue;
+
+      // Save previous story
+      if (currentStory && currentStory.body.length > 0) {
+        stories.push(currentStory);
+      }
+
+      currentStory = {
+        title: headlineMatch[1],
+        body: [],
+        whyItMatters: '',
+        url: '',
+      };
+      continue;
+    }
+
+    if (!currentStory) continue;
+
+    // Detect "Why it matters:" line
+    const whyMatch = trimmed.match(/^>?\s*\**Why it matters:?\**:?\s*(.+)/i);
+    if (whyMatch) {
+      currentStory.whyItMatters = whyMatch[1].trim();
+      continue;
+    }
+
+    // Detect URL line
+    const urlMatch = trimmed.match(/^(https?:\/\/[^\s]+)$/);
+    if (urlMatch) {
+      currentStory.url = urlMatch[1];
+      continue;
+    }
+
+    // Body text
+    currentStory.body.push(trimmed);
+  }
+
+  // Don't forget the last story
+  if (currentStory && currentStory.body.length > 0) {
+    stories.push(currentStory);
+  }
+
+  return stories;
+}
+
 export function extractEditorialIntro(markdown) {
   const lines = markdown.split(/\r?\n/).filter((l) => l.trim());
   for (let i = 1; i < lines.length; i++) {

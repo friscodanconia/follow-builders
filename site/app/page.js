@@ -1,18 +1,16 @@
 import { AppLink } from '../components/app-link';
 import { DigestContent } from '../components/digest-content';
-import { SignalCard } from '../components/signal-card';
-import { getDigestIndex, getLatestDigest, parseDigestMarkdown, extractEditorialIntro, estimateReadingTime } from '../lib/digests';
-import { getLatestStructuredItems } from '../lib/content-data';
+import { DigestStoryCard } from '../components/digest-story-card';
+import { getDigestIndex, getLatestDigest, parseDigestMarkdown, parseDigestStories, extractEditorialIntro, estimateReadingTime } from '../lib/digests';
 import { formatIssueDate } from '../lib/presentation';
 
 export const dynamic = 'force-static';
 export const revalidate = 3600;
 
 export default async function Home() {
-  const [latest, index, structured] = await Promise.all([
+  const [latest, index] = await Promise.all([
     getLatestDigest(),
     getDigestIndex(),
-    getLatestStructuredItems(),
   ]);
 
   if (!latest) {
@@ -34,14 +32,13 @@ export default async function Home() {
     );
   }
 
-  const selectedItems = structured?.selectedItems || [];
+  const stories = parseDigestStories(latest.content);
   const editorialIntro = extractEditorialIntro(latest.content);
   const readingTime = estimateReadingTime(latest.content);
-  const storyCount = selectedItems.length;
   const recentArchive = index.slice(1, 5);
 
-  // Fallback to markdown rendering if no structured data
-  const useCards = storyCount > 0;
+  // Fallback to markdown rendering if story parsing fails
+  const useCards = stories.length > 0;
   const digestBlocks = useCards ? null : parseDigestMarkdown(latest.content);
 
   return (
@@ -54,7 +51,7 @@ export default async function Home() {
         </h1>
         {useCards && (
           <p className="mt-2 text-sm text-[var(--color-ink-muted)]">
-            {storyCount} stories &middot; {readingTime} min read
+            {stories.length} stories &middot; {readingTime} min read
           </p>
         )}
       </section>
@@ -69,8 +66,8 @@ export default async function Home() {
       {/* Stories */}
       {useCards ? (
         <div className="space-y-4">
-          {selectedItems.map((item, i) => (
-            <SignalCard key={item.id} item={item} storyNumber={i + 1} />
+          {stories.map((story, i) => (
+            <DigestStoryCard key={story.url || i} story={story} number={i + 1} />
           ))}
         </div>
       ) : (

@@ -1,9 +1,8 @@
 import { notFound } from 'next/navigation';
 import { AppLink } from '../../../components/app-link';
 import { DigestContent } from '../../../components/digest-content';
-import { SignalCard } from '../../../components/signal-card';
-import { getStructuredItems } from '../../../lib/content-data';
-import { getDigest, getDigestIndex, parseDigestMarkdown, extractEditorialIntro, estimateReadingTime } from '../../../lib/digests';
+import { DigestStoryCard } from '../../../components/digest-story-card';
+import { getDigest, getDigestIndex, parseDigestMarkdown, parseDigestStories, extractEditorialIntro, estimateReadingTime } from '../../../lib/digests';
 import { formatIssueDate } from '../../../lib/presentation';
 
 export const dynamic = 'force-static';
@@ -24,18 +23,17 @@ export async function generateMetadata({ params }) {
 export default async function DigestPage({ params }) {
   const { date } = await params;
 
-  const [digest, index, structured] = await Promise.all([
+  const [digest, index] = await Promise.all([
     getDigest(date),
     getDigestIndex(),
-    getStructuredItems(date),
   ]);
 
   if (!digest) {
     notFound();
   }
 
-  const selectedItems = structured?.selectedItems || [];
-  const useCards = selectedItems.length > 0;
+  const stories = parseDigestStories(digest.content);
+  const useCards = stories.length > 0;
   const digestBlocks = useCards ? null : parseDigestMarkdown(digest.content);
   const editorialIntro = extractEditorialIntro(digest.content);
   const readingTime = estimateReadingTime(digest.content);
@@ -55,7 +53,7 @@ export default async function DigestPage({ params }) {
         </h1>
         {useCards && (
           <p className="mt-2 text-sm text-[var(--color-ink-muted)]">
-            {selectedItems.length} stories &middot; {readingTime} min read
+            {stories.length} stories &middot; {readingTime} min read
           </p>
         )}
       </section>
@@ -68,8 +66,8 @@ export default async function DigestPage({ params }) {
 
       {useCards ? (
         <div className="space-y-4">
-          {selectedItems.map((item, i) => (
-            <SignalCard key={item.id} item={item} storyNumber={i + 1} />
+          {stories.map((story, i) => (
+            <DigestStoryCard key={story.url || i} story={story} number={i + 1} />
           ))}
         </div>
       ) : (
