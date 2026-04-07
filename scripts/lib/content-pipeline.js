@@ -45,8 +45,8 @@ function computeImportance(item) {
   return Math.min(1, Number(score.toFixed(2)));
 }
 
-function whyThisMattersForItem(item) {
-  return item.summary || '';
+function whyThisMattersForItem() {
+  return '';
 }
 
 async function loadHistoricalUrls() {
