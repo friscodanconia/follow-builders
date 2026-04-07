@@ -34,8 +34,7 @@ export default async function DigestPage({ params }) {
     notFound();
   }
 
-  const allItems = structured?.selectedItems || [];
-  const selectedItems = allItems.filter((item) => item.whyThisMatters) || allItems;
+  const selectedItems = structured?.selectedItems || [];
   const useCards = selectedItems.length > 0;
   const digestBlocks = useCards ? null : parseDigestMarkdown(digest.content);
   const editorialIntro = extractEditorialIntro(digest.content);

@@ -34,8 +34,7 @@ export default async function Home() {
     );
   }
 
-  const allItems = structured?.selectedItems || [];
-  const selectedItems = allItems.filter((item) => item.whyThisMatters) || allItems;
+  const selectedItems = structured?.selectedItems || [];
   const editorialIntro = extractEditorialIntro(latest.content);
   const readingTime = estimateReadingTime(latest.content);
   const storyCount = selectedItems.length;

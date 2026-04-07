@@ -83,6 +83,8 @@ function buildPrompt(dataset, prompts, yesterdayDigest) {
     return null;
   }
 
+  sections.push('IMPORTANT: You MUST write about ALL selected items. Every single item in the JSON above must appear in the digest with its own headline, summary, "Why it matters" line, and source URL. Do not skip any items. You may vary the length per item (big stories get more space, minor ones get less), but every item must be covered.');
+  sections.push('');
   sections.push('Generate the complete digest now. Output ONLY the digest markdown, nothing else.');
 
   return sections.join('\n');
