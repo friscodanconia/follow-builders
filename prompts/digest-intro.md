@@ -63,17 +63,48 @@ If yesterday's digest is provided, look for threads you can pull forward:
 
 Don't force it. Only reference yesterday if there's a genuine connection.
 
+## Signal-to-noise judgment
+
+Not every item deserves the same space. Before writing, assess each item:
+
+- **Is the source content rich with detail?** Give it full treatment (headline + 2-3 sentences + why it matters).
+- **Is it notable but thin on detail?** Make it a quick hit (headline + one sentence + link). If a source says little more than "we launched X," don't pad it with speculation.
+- **Are two items part of the same trend?** Combine them into one story — that's better editing than listing them separately.
+- **Is it genuinely less important?** Put it lower and give it less space. Not every item needs a "Why it matters."
+
+A good digest has rhythm: a strong lead, a couple of medium stories, and maybe a quick hit or two. A bad digest is five identically-sized paragraphs.
+
+## Editorial opening
+
+Your opening paragraph is the most important thing you write. It should:
+- Have an actual opinion or observation, not just summarize what's below
+- Connect stories or identify a tension the reader wouldn't see on their own
+- Make someone want to keep reading
+
+Bad: "Today's digest covers releases from Google, Microsoft, and Mistral."
+Bad: "AI companies continue to push boundaries with new releases."
+Good: "OpenAI just gave away something that cost them billions to build. And Google's response tells you everything about how this market is about to shift."
+Good: "Everyone's building AI agents this week. The awkward question nobody's asking: who's going to debug them when they break?"
+
+## Headlines
+
+Write headlines that tell a story, not describe an event:
+- Bad: "Google releases Gemma 4 open models"
+- Good: "Google gives away its smartest AI models — and that's the point"
+- Bad: "Microsoft introduces AgentRx framework"  
+- Good: "Microsoft's answer to the 'why did my AI agent break?' problem"
+
 ## Rules
 
 - Order stories by significance, not source type
 - Do NOT include items outside the selected JSON payload
 - Every item MUST have its original source link
-- Keep the total digest under 800 words. Shorter is better.
-- 3 great stories beat 5 mediocre ones. If only 3 items are genuinely interesting, write 3.
+- Keep the total digest under 800 words. Shorter is better
+- 3 great stories beat 5 mediocre ones. If only 3 items are genuinely interesting, write 3
 - Do NOT add a footer about the repo or how this was generated
 - Keep formatting clean and scannable — this will be read on a phone screen
 - No fabricated quotes, no speculation, no filler
 
 ## Banned phrases
 
-"In a move that...", "In what could be...", "leverage", "utilize", "paradigm", "ecosystem", "game-changer", "signals a broader shift", "increasingly important", "remains to be seen"
+"In a move that...", "In what could be...", "leverage", "utilize", "paradigm", "ecosystem", "game-changer", "signals a broader shift", "increasingly important", "remains to be seen", "is having a moment", "getting a major upgrade", "just got a lot [better/smarter/easier]"

@@ -53,6 +53,12 @@ function buildPrompt(dataset, prompts, yesterdayDigest) {
   sections.push(prompts.digestIntro.replaceAll('{{FOLLOW_BUILDERS_REPO_URL}}', runtimeConfig.repoUrl));
   sections.push('');
 
+  if (prompts.digestExample) {
+    sections.push('=== EXAMPLE DIGEST (for style reference — do NOT copy this content) ===');
+    sections.push(prompts.digestExample);
+    sections.push('');
+  }
+
   sections.push('=== SOURCE-SPECIFIC STYLE HINTS ===');
   sections.push(prompts.summarizeTweets);
   sections.push('');
@@ -135,14 +141,15 @@ async function main() {
   if (feedBlogs) assertValidFeed('blogs', feedBlogs);
   if (externalFeed) assertValidFeed('external', externalFeed);
 
-  const [digestIntro, summarizeTweets, summarizePodcast, summarizeBlogs] = await Promise.all([
+  const [digestIntro, digestExample, summarizeTweets, summarizePodcast, summarizeBlogs] = await Promise.all([
     loadPrompt('digest-intro.md'),
+    loadPrompt('digest-example.md'),
     loadPrompt('summarize-tweets.md'),
     loadPrompt('summarize-podcast.md'),
     loadPrompt('summarize-blogs.md')
   ]);
 
-  const prompts = { digestIntro, summarizeTweets, summarizePodcast, summarizeBlogs };
+  const prompts = { digestIntro, digestExample, summarizeTweets, summarizePodcast, summarizeBlogs };
 
   const dateArg = process.argv.find((arg) => arg.startsWith('--date='));
   const digestDate = dateArg ? dateArg.split('=')[1] : new Date().toISOString().split('T')[0];
