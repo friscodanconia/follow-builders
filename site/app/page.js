@@ -1,7 +1,7 @@
 import { AppLink } from '../components/app-link';
 import { DigestContent } from '../components/digest-content';
 import { SignalCard } from '../components/signal-card';
-import { getDigestIndex, getLatestDigest, parseDigestMarkdown, extractEditorialIntro, estimateReadingTime, enrichItemsWithDigest } from '../lib/digests';
+import { getDigestIndex, getLatestDigest, parseDigestMarkdown, extractEditorialIntro, estimateReadingTime } from '../lib/digests';
 import { getLatestStructuredItems } from '../lib/content-data';
 import { formatIssueDate } from '../lib/presentation';
 
@@ -34,8 +34,7 @@ export default async function Home() {
     );
   }
 
-  const rawItems = structured?.selectedItems || [];
-  const selectedItems = latest?.content ? enrichItemsWithDigest(rawItems, latest.content) : rawItems;
+  const selectedItems = structured?.selectedItems || [];
   const editorialIntro = extractEditorialIntro(latest.content);
   const readingTime = estimateReadingTime(latest.content);
   const storyCount = selectedItems.length;

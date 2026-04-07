@@ -3,7 +3,7 @@ import { AppLink } from '../../../components/app-link';
 import { DigestContent } from '../../../components/digest-content';
 import { SignalCard } from '../../../components/signal-card';
 import { getStructuredItems } from '../../../lib/content-data';
-import { getDigest, getDigestIndex, parseDigestMarkdown, extractEditorialIntro, estimateReadingTime, enrichItemsWithDigest } from '../../../lib/digests';
+import { getDigest, getDigestIndex, parseDigestMarkdown, extractEditorialIntro, estimateReadingTime } from '../../../lib/digests';
 import { formatIssueDate } from '../../../lib/presentation';
 
 export const dynamic = 'force-static';
@@ -34,8 +34,7 @@ export default async function DigestPage({ params }) {
     notFound();
   }
 
-  const rawItems = structured?.selectedItems || [];
-  const selectedItems = digest?.content ? enrichItemsWithDigest(rawItems, digest.content) : rawItems;
+  const selectedItems = structured?.selectedItems || [];
   const useCards = selectedItems.length > 0;
   const digestBlocks = useCards ? null : parseDigestMarkdown(digest.content);
   const editorialIntro = extractEditorialIntro(digest.content);

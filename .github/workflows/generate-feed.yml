@@ -69,6 +69,10 @@ jobs:
         run: |
           cd scripts && node save-history.js --file /tmp/digest.md
 
+      - name: Enrich structured data with editorial Why-it-matters
+        if: ${{ github.event.inputs.skip_digest != 'true' }}
+        run: node scripts/enrich-structured-data.js --file /tmp/digest.md
+
       - name: Backfill old digests
         if: ${{ github.event.inputs.backfill == 'true' }}
         env:

@@ -42,7 +42,7 @@ export function SignalCard({ item, compact = false, storyNumber }) {
             {item.summary}
           </p>
 
-          {item.whyThisMatters && item.whyThisMatters !== item.summary && (
+          {item.whyThisMatters && (
             <p className="mt-3 border-l-2 border-[var(--color-accent)] pl-4 text-sm leading-6 text-[var(--color-ink-secondary)]">
               <span className="font-semibold text-[var(--color-ink)]">Why it matters: </span>
               {item.whyThisMatters}
