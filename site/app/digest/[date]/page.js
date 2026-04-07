@@ -1,10 +1,10 @@
 import { notFound } from 'next/navigation';
 import { AppLink } from '../../../components/app-link';
 import { DigestContent } from '../../../components/digest-content';
-import { TopicBadge } from '../../../components/topic-badge';
+import { SignalCard } from '../../../components/signal-card';
 import { getStructuredItems } from '../../../lib/content-data';
-import { getDigest, getDigestIndex, parseDigestMarkdown } from '../../../lib/digests';
-import { formatIssueDate, summarizeTopics } from '../../../lib/presentation';
+import { getDigest, getDigestIndex, parseDigestMarkdown, extractEditorialIntro, estimateReadingTime } from '../../../lib/digests';
+import { formatIssueDate } from '../../../lib/presentation';
 
 export const dynamic = 'force-static';
 
@@ -34,11 +34,15 @@ export default async function DigestPage({ params }) {
     notFound();
   }
 
-  const digestBlocks = parseDigestMarkdown(digest.content);
+  const selectedItems = structured?.selectedItems || [];
+  const useCards = selectedItems.length > 0;
+  const digestBlocks = useCards ? null : parseDigestMarkdown(digest.content);
+  const editorialIntro = extractEditorialIntro(digest.content);
+  const readingTime = estimateReadingTime(digest.content);
+
   const currentIdx = index.findIndex((entry) => entry.date === date);
   const previous = currentIdx < index.length - 1 ? index[currentIdx + 1] : null;
   const next = currentIdx > 0 ? index[currentIdx - 1] : null;
-  const relatedTopics = summarizeTopics(structured?.selectedItems || structured?.items || [], 6);
 
   return (
     <div className="space-y-8">
@@ -49,19 +53,30 @@ export default async function DigestPage({ params }) {
         <h1 className="mt-4 font-display text-2xl font-bold text-[var(--color-ink)] sm:text-3xl">
           {formatIssueDate(date)}
         </h1>
+        {useCards && (
+          <p className="mt-2 text-sm text-[var(--color-ink-muted)]">
+            {selectedItems.length} stories &middot; {readingTime} min read
+          </p>
+        )}
       </section>
 
-      {relatedTopics.length > 0 && (
-        <div className="flex flex-wrap gap-2">
-          {relatedTopics.map((topic) => (
-            <TopicBadge key={topic.slug} topic={topic} />
-          ))}
-        </div>
+      {editorialIntro && (
+        <p className="text-lg leading-8 text-[var(--color-ink-secondary)]">
+          {editorialIntro}
+        </p>
       )}
 
-      <article className="card p-5 sm:p-8">
-        <DigestContent blocks={digestBlocks} />
-      </article>
+      {useCards ? (
+        <div className="space-y-4">
+          {selectedItems.map((item, i) => (
+            <SignalCard key={item.id} item={item} storyNumber={i + 1} />
+          ))}
+        </div>
+      ) : (
+        <article className="card p-5 sm:p-8">
+          <DigestContent blocks={digestBlocks} />
+        </article>
+      )}
 
       <nav className="grid gap-3 sm:grid-cols-2">
         {previous ? (

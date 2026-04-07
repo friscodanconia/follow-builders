@@ -163,6 +163,20 @@ export function renderDigestPreview(markdown, maxLength = 220) {
   return escapeHtml(markdown.replace(/\s+/g, ' ').trim().slice(0, maxLength));
 }
 
+export function extractEditorialIntro(markdown) {
+  const lines = markdown.split(/\r?\n/).filter((l) => l.trim());
+  for (let i = 1; i < lines.length; i++) {
+    const trimmed = lines[i].trim();
+    if (!trimmed.startsWith('**') && trimmed.length > 20) return trimmed;
+  }
+  return '';
+}
+
+export function estimateReadingTime(markdown) {
+  const words = markdown.split(/\s+/).length;
+  return Math.max(1, Math.ceil(words / 200));
+}
+
 export async function getDigestIndex() {
   if (!existsSync(INDEX_PATH)) return [];
 

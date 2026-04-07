@@ -1,5 +1,5 @@
 import { AppLink } from '../../components/app-link';
-import { getDigestIndex } from '../../lib/digests';
+import { getDigest, getDigestIndex, extractEditorialIntro } from '../../lib/digests';
 import { formatIssueDate, formatMonthLabel } from '../../lib/presentation';
 
 export const dynamic = 'force-static';
@@ -11,6 +11,15 @@ export const metadata = {
 
 export default async function ArchivePage() {
   const index = await getDigestIndex();
+
+  // Load previews for each digest
+  const previews = new Map();
+  for (const entry of index) {
+    const digest = await getDigest(entry.date);
+    if (digest) {
+      previews.set(entry.date, extractEditorialIntro(digest.content));
+    }
+  }
 
   const grouped = {};
   for (const entry of index) {
@@ -48,14 +57,14 @@ export default async function ArchivePage() {
                   href={`/digest/${entry.date}`}
                   className="card block px-5 py-4"
                 >
-                  <div className="flex items-center justify-between">
-                    <span className="text-base font-medium text-[var(--color-ink)]">
-                      {formatIssueDate(entry.date)}
-                    </span>
-                    <span className="text-sm text-[var(--color-ink-muted)]">
-                      {entry.date}
-                    </span>
-                  </div>
+                  <span className="text-base font-medium text-[var(--color-ink)]">
+                    {formatIssueDate(entry.date)}
+                  </span>
+                  {previews.get(entry.date) && (
+                    <p className="mt-1 line-clamp-2 text-sm leading-6 text-[var(--color-ink-secondary)]">
+                      {previews.get(entry.date)}
+                    </p>
+                  )}
                 </AppLink>
               ))}
             </div>

@@ -1,18 +1,18 @@
 import { AppLink } from '../components/app-link';
 import { DigestContent } from '../components/digest-content';
-import { TopicBadge } from '../components/topic-badge';
-import { getDigestIndex, getLatestDigest, parseDigestMarkdown } from '../lib/digests';
-import { getTopicIndex } from '../lib/content-data';
+import { SignalCard } from '../components/signal-card';
+import { getDigestIndex, getLatestDigest, parseDigestMarkdown, extractEditorialIntro, estimateReadingTime } from '../lib/digests';
+import { getLatestStructuredItems } from '../lib/content-data';
 import { formatIssueDate } from '../lib/presentation';
 
 export const dynamic = 'force-static';
 export const revalidate = 3600;
 
 export default async function Home() {
-  const [latest, index, topics] = await Promise.all([
+  const [latest, index, structured] = await Promise.all([
     getLatestDigest(),
     getDigestIndex(),
-    getTopicIndex(),
+    getLatestStructuredItems(),
   ]);
 
   if (!latest) {
@@ -34,35 +34,49 @@ export default async function Home() {
     );
   }
 
-  const digestBlocks = parseDigestMarkdown(latest.content);
+  const selectedItems = structured?.selectedItems || [];
+  const editorialIntro = extractEditorialIntro(latest.content);
+  const readingTime = estimateReadingTime(latest.content);
+  const storyCount = selectedItems.length;
   const recentArchive = index.slice(1, 5);
 
+  // Fallback to markdown rendering if no structured data
+  const useCards = storyCount > 0;
+  const digestBlocks = useCards ? null : parseDigestMarkdown(latest.content);
+
   return (
-    <div className="space-y-10">
-      {/* Today's digest */}
+    <div className="space-y-8">
+      {/* Header */}
       <section>
         <p className="label">{formatIssueDate(latest.date)}</p>
         <h1 className="mt-3 font-display text-2xl font-bold leading-tight text-[var(--color-ink)] sm:text-3xl">
           Today in AI
         </h1>
+        {useCards && (
+          <p className="mt-2 text-sm text-[var(--color-ink-muted)]">
+            {storyCount} stories &middot; {readingTime} min read
+          </p>
+        )}
       </section>
 
-      <article className="card p-5 sm:p-8">
-        <DigestContent blocks={digestBlocks} />
-      </article>
+      {/* Editorial intro */}
+      {editorialIntro && (
+        <p className="text-lg leading-8 text-[var(--color-ink-secondary)]">
+          {editorialIntro}
+        </p>
+      )}
 
-      {/* Topics */}
-      {topics.length > 0 && (
-        <section>
-          <h2 className="font-display text-2xl font-bold text-[var(--color-ink)]">
-            Browse by topic
-          </h2>
-          <div className="mt-4 flex flex-wrap gap-2">
-            {topics.slice(0, 10).map((topic) => (
-              <TopicBadge key={topic.slug} topic={topic} />
-            ))}
-          </div>
-        </section>
+      {/* Stories */}
+      {useCards ? (
+        <div className="space-y-4">
+          {selectedItems.map((item, i) => (
+            <SignalCard key={item.id} item={item} storyNumber={i + 1} />
+          ))}
+        </div>
+      ) : (
+        <article className="card p-5 sm:p-8">
+          <DigestContent blocks={digestBlocks} />
+        </article>
       )}
 
       {/* Recent issues */}
