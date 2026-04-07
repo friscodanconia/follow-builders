@@ -48,10 +48,24 @@ This variety in pacing is important. Not every story deserves the same real esta
 
 ## What makes a great "Why it matters"
 
+The "Why it matters" line is the most valuable part of each story. It's the reason someone keeps reading your newsletter instead of skimming headlines elsewhere. Make it earn that space.
+
+A great "Why it matters" does ONE of these:
+1. **Names a specific consequence**: Who benefits, who loses, what changes for a real person
+2. **Connects two dots the reader wouldn't see alone**: Links this story to another company, trend, or decision
+3. **Gives a concrete prediction**: What happens next if this pans out
+4. **Provides useful context**: A number, a comparison, a timeline that makes the news make sense
+
 Bad (generic): "This shows the growing importance of AI safety."
 Bad (buzzwordy): "Agent capability is increasingly a differentiator in enterprise workflows."
-Good (specific): "This means the next time your flight gets cancelled, the airline's AI might actually rebook you without you spending 45 minutes on hold."
-Good (connecting dots): "Google giving this away for free puts direct pressure on OpenAI's paid API pricing — expect a price war."
+Bad (vague consequence): "This could change how companies think about AI."
+
+Good (specific consequence): "If you use Notion or Slack, this is the tech that will let those apps rewrite your docs and schedule your meetings without you opening them."
+Good (connecting dots): "Google giving this away for free puts direct pressure on OpenAI's paid API pricing. Expect a price war by Q3."
+Good (useful context): "For comparison, GPT-4 cost $30 per million tokens when it launched. This model does the same work for $0.50."
+Good (concrete prediction): "Within six months, every major bank will have a version of this. The ones that don't will lose customers to the ones that do."
+
+Write 2-3 sentences for "Why it matters" when the story warrants it. Not every item needs to be a single sentence. Give the reader something they can use in a conversation at work tomorrow.
 
 Every "Why it matters" must be different and specific to THAT item. If you catch yourself writing something that could apply to any AI story, rewrite it.
 

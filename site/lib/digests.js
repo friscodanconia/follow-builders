@@ -163,6 +163,46 @@ export function renderDigestPreview(markdown, maxLength = 220) {
   return escapeHtml(markdown.replace(/\s+/g, ' ').trim().slice(0, maxLength));
 }
 
+export function extractWhyItMatters(markdown) {
+  const blocks = [];
+  const lines = markdown.split(/\r?\n/);
+  let currentUrl = null;
+  let currentWhy = null;
+
+  for (const line of lines) {
+    const trimmed = line.trim();
+    const whyMatch = trimmed.match(/^>?\s*\**Why it matters:?\**:?\s*(.+)/i);
+    if (whyMatch) {
+      currentWhy = whyMatch[1].trim();
+      continue;
+    }
+    const urlMatch = trimmed.match(/^(https?:\/\/[^\s]+)$/);
+    if (urlMatch && currentWhy) {
+      blocks.push({ url: urlMatch[1], whyItMatters: currentWhy });
+      currentWhy = null;
+      continue;
+    }
+  }
+
+  return blocks;
+}
+
+export function enrichItemsWithDigest(items, markdown) {
+  const whyBlocks = extractWhyItMatters(markdown);
+  const whyByUrl = new Map();
+  for (const block of whyBlocks) {
+    whyByUrl.set(block.url, block.whyItMatters);
+  }
+
+  return items.map((item) => {
+    const editorialWhy = whyByUrl.get(item.url);
+    if (editorialWhy) {
+      return { ...item, whyThisMatters: editorialWhy };
+    }
+    return item;
+  });
+}
+
 export function extractEditorialIntro(markdown) {
   const lines = markdown.split(/\r?\n/).filter((l) => l.trim());
   for (let i = 1; i < lines.length; i++) {
