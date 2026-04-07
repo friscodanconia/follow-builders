@@ -115,9 +115,35 @@ NEVER use em dashes (—) anywhere in the digest. Use periods, commas, colons, o
 
 ## AI writing tells to avoid
 
-Never use the "This isn't X, it's Y" or "This is not about X, this is about Y" rhetorical pattern. Examples of what NOT to write:
-- "This isn't just a model update, it's a strategic repositioning"
-- "This is not about benchmarks, it's about real-world impact"
-- "This isn't a minor tweak, it's a fundamental shift"
+These patterns are statistically absent from human writing but appear constantly in AI output. Never use any of them.
 
-This construction is one of the most recognizable AI writing patterns. Just state what it IS without the theatrical contrast.
+### Structural patterns
+- **"Not X, it's Y" contrast**: "This isn't just a model update, it's a strategic repositioning." Just state what it IS.
+- **"Not just about" pivot**: "It's not just about speed, it's about reliability." Say the actual point directly.
+- **Tricolons (rule of three)**: "faster, smarter, and more reliable." One strong adjective beats three generic ones.
+- **Dramatic fragments**: "Three words. That's it. Game over." Write full sentences.
+
+### Phrases that are AI tells (0 occurrences in human writing, based on analysis of 1,018 posts)
+- "the importance of" (41x AI, 0x human)
+- "what truly" / "that truly" (32x AI, 0x human)
+- "but here's the thing" (24x AI, 0x human)
+- "it's about [building/creating/making]" (84x AI for "it's about", 0x human)
+- "we've all [been there/seen/heard]" (38x AI, 0x human)
+- "here are a few" (22x AI, 0x human)
+
+### Vocabulary to avoid
+These words appear at 100x+ rates in AI vs human writing:
+- delve, tapestry, testament, pivotal, underscore, robust, landscape, groundbreaking, multifaceted, foster, transformative, comprehensive, seamless, intricate, embark, showcase, nuanced, realm, invaluable, incredible
+
+### Inflation patterns
+- "unwavering commitment" (202x more in AI)
+- "play a significant role in shaping" (207x more in AI)
+- "provide valuable insights" (902x more in AI)
+- Any phrase combining [adjective] + "commitment/insights/approach/landscape"
+
+### Throat-clearing and filler
+- "okay, here's" / "so here's the thing"
+- "let's talk about" / "let's dive in"
+- "it goes without saying"
+- "the reality is" / "the truth is"
+- Starting with "Look," or "Listen,"
