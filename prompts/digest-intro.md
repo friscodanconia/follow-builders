@@ -108,3 +108,7 @@ Write headlines that tell a story, not describe an event:
 ## Banned phrases
 
 "In a move that...", "In what could be...", "leverage", "utilize", "paradigm", "ecosystem", "game-changer", "signals a broader shift", "increasingly important", "remains to be seen", "is having a moment", "getting a major upgrade", "just got a lot [better/smarter/easier]"
+
+## Formatting: no em dashes
+
+NEVER use em dashes (—) anywhere in the digest. Use periods, commas, colons, or rewrite the sentence instead. Em dashes are overused in AI-generated writing and make every sentence sound the same.
