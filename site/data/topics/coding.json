@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-07T14:56:22.396Z",
+  "generatedAt": "2026-04-07T22:56:23.899Z",
   "slug": "coding",
   "label": "Coding",
   "items": [
@@ -437,21 +437,19 @@
       "whyThisMatters": "AI benchmarks report how large language models (LLMs) perform on specific tasks but provide little insight into their underlying capabilities that drive their performance. They do not explain failures or reliably predict outcomes on new ta…"
     },
     {
-      "id": "29039da241ae5ec4",
+      "id": "f2b63d2d1473098c",
       "date": "2026-04-07",
       "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Together AI Blog",
-      "sourceKey": "official:Together AI Blog",
-      "builderOrOrg": "Together AI",
-      "title": "Aurora",
-      "url": "https://www.together.ai/blog/aurora",
-      "publishedAt": "2026-03-31T00:00:00.000Z",
-      "content": "1.25x over a well-trained static speculator. Aurora is an open-source RL framework that turns speculative decoding from a one-time offline setup into a self-improving system that learns from every request it serves.",
-      "summary": "1.25x over a well-trained static speculator. Aurora is an open-source RL framework that turns speculative decoding from a one-time offline setup into a self-improving system that learns from every request it serves.",
-      "regionTags": [
-        "open-models"
-      ],
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Extreme Harness Engineering for Token Billionaires: 1M LOC, 1B toks/day, 0% human code, 0% human review — Ryan Lopopolo, OpenAI Frontier & Symphony",
+      "url": "https://www.latent.space/p/harness-eng",
+      "publishedAt": "2026-04-07T17:14:26.000Z",
+      "content": "We shed light on OpenAI's first Dark Factory for the first time.",
+      "summary": "We shed light on OpenAI's first Dark Factory for the first time.",
+      "regionTags": [],
       "metrics": {},
       "topics": [
         {
@@ -459,35 +457,17 @@
           "label": "Coding",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "coding"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open-source"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
+            "code"
           ],
           "score": 1
         }
       ],
-      "section": "Official Sources",
-      "importanceScore": 0.62,
-      "noveltyScore": 0.3,
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.51,
-      "whyThisMatters": "1.25x over a well-trained static speculator. Aurora is an open-source RL framework that turns speculative decoding from a one-time offline setup into a self-improving system that learns from every request it serves."
+      "digestScore": 0.61,
+      "whyThisMatters": "We shed light on OpenAI's first Dark Factory for the first time."
     },
     {
       "id": "d58b77951a177a42",
@@ -539,7 +519,7 @@
       "section": "Chinese Models",
       "importanceScore": 0.76,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.6,
       "whyThisMatters": "Tech Report GitHub Hugging Face ModelScope DISCORD Introduction We are excited to introduce Qwen3Guard, the first safety guardrail model in the Qwen family. Built upon the powerful Qwen3 foundation models and fine-tuned specifically for sa…"
     },
@@ -607,7 +587,7 @@
       "builderOrOrg": "MiniMax",
       "title": "MiniMax M2.1: Significantly Enhanced Multi-Language Programming, Built for Real-World Complex Tasks - MiniMax News | MiniMax",
       "url": "https://www.minimax.io/news/minimax-m21",
-      "publishedAt": "2026-04-07T14:56:10.307Z",
+      "publishedAt": "2026-04-07T22:56:15.589Z",
       "content": "",
       "summary": "",
       "regionTags": [
@@ -650,6 +630,59 @@
       "previouslySelected": false,
       "digestScore": 0.6,
       "whyThisMatters": ""
+    },
+    {
+      "id": "29039da241ae5ec4",
+      "date": "2026-04-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "Aurora",
+      "url": "https://www.together.ai/blog/aurora",
+      "publishedAt": "2026-03-31T00:00:00.000Z",
+      "content": "1.25x over a well-trained static speculator. Aurora is an open-source RL framework that turns speculative decoding from a one-time offline setup into a self-improving system that learns from every request it serves.",
+      "summary": "1.25x over a well-trained static speculator. Aurora is an open-source RL framework that turns speculative decoding from a one-time offline setup into a self-improving system that learns from every request it serves.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open-source"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.62,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.51,
+      "whyThisMatters": "1.25x over a well-trained static speculator. Aurora is an open-source RL framework that turns speculative decoding from a one-time offline setup into a self-improving system that learns from every request it serves."
     },
     {
       "id": "8efd7e0f4419df63",
