@@ -123,14 +123,37 @@ export function parseDigestMarkdown(markdown) {
         break;
       }
 
+      // Detect "Why it matters:" lines and emit as a separate blockquote block
+      if (/^>?\s*\**Why it matters:?\**:?\s*/i.test(candidateTrimmed)) {
+        // Flush any accumulated paragraph lines first
+        if (paragraphLines.length > 0) {
+          blocks.push({
+            type: 'paragraph',
+            lines: paragraphLines.map((paragraphLine) => parseInline(paragraphLine)),
+          });
+          paragraphLines.length = 0;
+        }
+
+        const whyText = candidateTrimmed.replace(/^>?\s*\**Why it matters:?\**:?\s*/i, '');
+        blocks.push({
+          type: 'blockquote',
+          label: 'Why it matters:',
+          content: parseInline(whyText),
+        });
+        index += 1;
+        continue;
+      }
+
       paragraphLines.push(candidateTrimmed);
       index += 1;
     }
 
-    blocks.push({
-      type: 'paragraph',
-      lines: paragraphLines.map((paragraphLine) => parseInline(paragraphLine)),
-    });
+    if (paragraphLines.length > 0) {
+      blocks.push({
+        type: 'paragraph',
+        lines: paragraphLines.map((paragraphLine) => parseInline(paragraphLine)),
+      });
+    }
   }
 
   return blocks;

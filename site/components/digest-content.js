@@ -64,6 +64,15 @@ export function DigestContent({ blocks }) {
           );
         }
 
+        if (block.type === 'blockquote') {
+          return (
+            <p key={key} className="border-l-2 border-[var(--color-accent)] pl-4 text-[15px] leading-7 text-[var(--color-ink-secondary)]">
+              <span className="font-semibold text-[var(--color-ink)]">{block.label} </span>
+              <InlineTokens tokens={block.content} />
+            </p>
+          );
+        }
+
         if (block.type === 'paragraph') {
           return (
             <p key={key}>
