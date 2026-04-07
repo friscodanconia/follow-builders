@@ -18,7 +18,7 @@ export default async function Home() {
   if (!latest) {
     return (
       <section className="card p-6 sm:p-8">
-        <h1 className="font-display text-3xl font-bold text-[var(--color-ink)]">
+        <h1 className="font-display text-2xl font-bold text-[var(--color-ink)]">
           First issue coming soon
         </h1>
         <p className="mt-3 text-base leading-7 text-[var(--color-ink-secondary)]">
@@ -42,7 +42,7 @@ export default async function Home() {
       {/* Today's digest */}
       <section>
         <p className="label">{formatIssueDate(latest.date)}</p>
-        <h1 className="mt-3 font-display text-3xl font-bold leading-tight text-[var(--color-ink)] sm:text-4xl">
+        <h1 className="mt-3 font-display text-2xl font-bold leading-tight text-[var(--color-ink)] sm:text-3xl">
           Today in AI
         </h1>
       </section>

@@ -46,7 +46,7 @@ export default async function DigestPage({ params }) {
         <AppLink href="/" className="text-sm font-medium text-[var(--color-accent)] hover:text-[var(--color-accent-warm)]">
           &larr; Back to today
         </AppLink>
-        <h1 className="mt-4 font-display text-3xl font-bold text-[var(--color-ink)] sm:text-4xl">
+        <h1 className="mt-4 font-display text-2xl font-bold text-[var(--color-ink)] sm:text-3xl">
           {formatIssueDate(date)}
         </h1>
       </section>

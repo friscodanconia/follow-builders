@@ -12,7 +12,7 @@ export default function SubscribePage() {
   return (
     <div className="mx-auto max-w-lg space-y-8">
       <section>
-        <h1 className="font-display text-3xl font-bold text-[var(--color-ink)] sm:text-4xl">
+        <h1 className="font-display text-2xl font-bold text-[var(--color-ink)] sm:text-3xl">
           Get the digest in your inbox
         </h1>
         <p className="mt-3 text-base leading-7 text-[var(--color-ink-secondary)]">

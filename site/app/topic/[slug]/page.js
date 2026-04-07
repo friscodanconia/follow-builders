@@ -32,7 +32,7 @@ export default async function TopicPage({ params }) {
         <AppLink href="/" className="text-sm font-medium text-[var(--color-accent)] hover:text-[var(--color-accent-warm)]">
           &larr; Back to home
         </AppLink>
-        <h1 className="mt-4 font-display text-3xl font-bold text-[var(--color-ink)] sm:text-4xl">
+        <h1 className="mt-4 font-display text-2xl font-bold text-[var(--color-ink)] sm:text-3xl">
           {payload.label}
         </h1>
         <p className="mt-2 text-base text-[var(--color-ink-secondary)]">

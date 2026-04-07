@@ -24,7 +24,7 @@ export default async function ArchivePage() {
   return (
     <div className="space-y-8">
       <section>
-        <h1 className="font-display text-3xl font-bold text-[var(--color-ink)] sm:text-4xl">
+        <h1 className="font-display text-2xl font-bold text-[var(--color-ink)] sm:text-3xl">
           Archive
         </h1>
         <p className="mt-2 text-base text-[var(--color-ink-secondary)]">

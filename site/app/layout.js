@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
           <div className="mx-auto max-w-3xl px-5 py-4">
             <div className="flex items-center justify-between">
               <AppLink href="/" className="block">
-                <span className="font-display text-xl font-bold text-[var(--color-ink)]">
+                <span className="font-display text-2xl font-bold text-[var(--color-ink)] sm:text-3xl">
                   {siteConfig.projectName}
                 </span>
               </AppLink>
