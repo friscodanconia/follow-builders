@@ -146,7 +146,7 @@ async function normalizeBlogFeed(feedBlogs, digestDate) {
 }
 
 async function normalizeExternalFeed(externalFeed, digestDate) {
-  return ensureArray(externalFeed?.articles).map((article) => {
+  return ensureArray(externalFeed?.articles).filter((article) => article.sourceType !== 'meta').map((article) => {
     const content = truncateText(stripHtml(article.content || article.summary || ''), 2000);
     return {
       id: article.id || stableId(['external', article.url, article.name]),

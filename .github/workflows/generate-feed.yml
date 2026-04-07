@@ -4,6 +4,8 @@ on:
   schedule:
     # Daily at 6 AM IST (00:30 UTC)
     - cron: '30 0 * * *'
+    # Backup trigger at 7 AM IST in case GitHub skips the first one
+    - cron: '30 1 * * *'
   workflow_dispatch:
     inputs:
       skip_digest:

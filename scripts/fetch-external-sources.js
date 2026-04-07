@@ -187,7 +187,7 @@ async function main() {
   const sources = manifests.flat();
   const articleGroups = await Promise.all(sources.map((source) => fetchSource(source)));
   const articles = articleGroups.flat()
-    .filter((article) => article.url)
+    .filter((article) => article.url && article.sourceType !== 'meta')
     .slice(0, 40);
 
   const payload = {
