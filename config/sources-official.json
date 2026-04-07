@@ -14,8 +14,8 @@
       "id": "cursor-blog",
       "name": "Cursor Blog",
       "sourceGroup": "official",
-      "sourceType": "json-feed",
-      "feedUrl": "https://cursor.com/rss.json",
+      "sourceType": "rss",
+      "feedUrl": "https://cursor.com/atom.xml",
       "homepageUrl": "https://cursor.com/blog",
       "builderOrOrg": "Cursor",
       "regionTags": []
@@ -36,13 +36,63 @@
       "id": "google-deepmind-blog",
       "name": "Google DeepMind Blog",
       "sourceGroup": "official",
-      "sourceType": "html-index",
-      "indexUrl": "https://deepmind.google/discover/blog/",
+      "sourceType": "rss",
+      "feedUrl": "https://deepmind.google/discover/blog/feed",
       "homepageUrl": "https://deepmind.google/discover/blog/",
-      "baseUrl": "https://deepmind.google",
-      "articlePathPrefix": "/discover/blog/",
       "builderOrOrg": "Google DeepMind",
       "regionTags": ["us-model-labs"]
+    },
+    {
+      "id": "huggingface-blog",
+      "name": "Hugging Face Blog",
+      "sourceGroup": "official",
+      "sourceType": "rss",
+      "feedUrl": "https://huggingface.co/blog/feed.xml",
+      "homepageUrl": "https://huggingface.co/blog",
+      "builderOrOrg": "Hugging Face",
+      "regionTags": ["open-models"]
+    },
+    {
+      "id": "google-ai-blog",
+      "name": "Google AI Blog",
+      "sourceGroup": "official",
+      "sourceType": "rss",
+      "feedUrl": "https://blog.google/technology/ai/rss/",
+      "homepageUrl": "https://blog.google/technology/ai/",
+      "builderOrOrg": "Google",
+      "regionTags": ["us-model-labs"]
+    },
+    {
+      "id": "microsoft-research-blog",
+      "name": "Microsoft Research Blog",
+      "sourceGroup": "official",
+      "sourceType": "rss",
+      "feedUrl": "https://www.microsoft.com/en-us/research/blog/feed/",
+      "homepageUrl": "https://www.microsoft.com/en-us/research/blog/",
+      "builderOrOrg": "Microsoft",
+      "regionTags": ["us-model-labs"]
+    },
+    {
+      "id": "together-ai-blog",
+      "name": "Together AI Blog",
+      "sourceGroup": "official",
+      "sourceType": "rss",
+      "feedUrl": "https://www.together.ai/blog/rss.xml",
+      "homepageUrl": "https://www.together.ai/blog",
+      "builderOrOrg": "Together AI",
+      "regionTags": ["open-models"]
+    },
+{
+      "id": "mistral-ai-blog",
+      "name": "Mistral AI Blog",
+      "sourceGroup": "official",
+      "sourceType": "html-index",
+      "indexUrl": "https://mistral.ai/news/",
+      "homepageUrl": "https://mistral.ai/news/",
+      "baseUrl": "https://mistral.ai",
+      "articlePathPrefix": "/news/",
+      "builderOrOrg": "Mistral AI",
+      "regionTags": ["open-models"]
     }
   ]
 }

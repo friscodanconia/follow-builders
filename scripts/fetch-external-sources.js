@@ -9,6 +9,8 @@ const ROOT_DIR = join(SCRIPT_DIR, '..');
 
 function parseRssFeed(xml) {
   const items = [];
+
+  // Try RSS 2.0 (<item> tags)
   const itemRegex = /<item>([\s\S]*?)<\/item>/gi;
   let itemMatch;
 
@@ -25,6 +27,27 @@ function parseRssFeed(xml) {
       summary: stripHtml(descriptionMatch ? descriptionMatch[1].trim() : ''),
       publishedAt: pubDateMatch ? new Date(pubDateMatch[1].trim()).toISOString() : null,
     });
+  }
+
+  // Try Atom (<entry> tags) if no RSS items found
+  if (items.length === 0) {
+    const entryRegex = /<entry>([\s\S]*?)<\/entry>/gi;
+    let entryMatch;
+
+    while ((entryMatch = entryRegex.exec(xml)) !== null) {
+      const block = entryMatch[1];
+      const titleMatch = block.match(/<title[^>]*>([\s\S]*?)<\/title>/);
+      const linkMatch = block.match(/<link[^>]*href="([^"]+)"[^>]*\/?>/) || block.match(/<link[^>]*>([\s\S]*?)<\/link>/);
+      const summaryMatch = block.match(/<summary[^>]*>([\s\S]*?)<\/summary>/) || block.match(/<content[^>]*>([\s\S]*?)<\/content>/);
+      const updatedMatch = block.match(/<updated>([\s\S]*?)<\/updated>/) || block.match(/<published>([\s\S]*?)<\/published>/);
+
+      items.push({
+        title: stripHtml(titleMatch ? titleMatch[1].trim() : 'Untitled'),
+        url: safeUrl(linkMatch ? linkMatch[1].trim() : ''),
+        summary: stripHtml(summaryMatch ? summaryMatch[1].trim() : ''),
+        publishedAt: updatedMatch ? new Date(updatedMatch[1].trim()).toISOString() : null,
+      });
+    }
   }
 
   return items.filter((item) => item.url);
@@ -186,9 +209,20 @@ async function main() {
 
   const sources = manifests.flat();
   const articleGroups = await Promise.all(sources.map((source) => fetchSource(source)));
+
+  for (let i = 0; i < sources.length; i++) {
+    const count = articleGroups[i].filter((a) => a.sourceType !== 'meta').length;
+    const errors = articleGroups[i].filter((a) => a.sourceType === 'meta').length;
+    if (errors > 0) {
+      console.error(`  [WARN] ${sources[i].name}: fetch failed`);
+    } else {
+      console.error(`  [OK]   ${sources[i].name}: ${count} articles`);
+    }
+  }
+
   const articles = articleGroups.flat()
     .filter((article) => article.url && article.sourceType !== 'meta')
-    .slice(0, 40);
+    .slice(0, 80);
 
   const payload = {
     generatedAt: new Date().toISOString(),
