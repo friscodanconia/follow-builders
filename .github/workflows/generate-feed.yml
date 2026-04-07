@@ -26,6 +26,7 @@ jobs:
       contents: write
     env:
       UPSTREAM_RAW_BASE_URL: https://raw.githubusercontent.com/zarazhangrui/follow-builders/main
+      FOLLOW_BUILDERS_SUBSCRIBE_URL: https://buttondown.com/api/emails/soumyo
 
     steps:
       - uses: actions/checkout@v4

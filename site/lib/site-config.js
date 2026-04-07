@@ -25,7 +25,7 @@ export const siteConfig = {
   repoUrl: normalizeOptionalUrl(process.env.FOLLOW_BUILDERS_REPO_URL) || 'https://github.com/friscodanconia/follow-builders',
   upstreamRepoUrl: normalizeOptionalUrl(process.env.FOLLOW_BUILDERS_UPSTREAM_REPO_URL) || 'https://github.com/zarazhangrui/follow-builders',
   siteUrl: normalizeOptionalUrl(process.env.FOLLOW_BUILDERS_SITE_URL) || 'https://aiupdates.soumyosinha.com',
-  subscribeUrl: normalizeOptionalUrl(process.env.FOLLOW_BUILDERS_SUBSCRIBE_URL),
+  subscribeUrl: normalizeOptionalUrl(process.env.FOLLOW_BUILDERS_SUBSCRIBE_URL) || 'https://buttondown.com/api/emails/soumyo',
   newsletterProvider: process.env.FOLLOW_BUILDERS_NEWSLETTER_PROVIDER || 'Buttondown',
   subscribeCtaLabel: process.env.FOLLOW_BUILDERS_SUBSCRIBE_CTA_LABEL || 'Subscribe',
 };
