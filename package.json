@@ -3,7 +3,7 @@
   "scripts": {
     "setup": "npm --prefix scripts install && npm --prefix site install",
     "prepare:site-data": "npm run build:structured && npm --prefix scripts run sync-site-data",
-    "build": "npm run prepare:site-data && npm --prefix site run build",
+    "build": "npm run prepare:site-data && node scripts/enrich-structured-data.js --all && npm --prefix site run build",
     "test": "node --test scripts/tests/*.test.js site/lib/*.test.js",
     "verify:feeds": "node scripts/validate-feeds.js",
     "build:structured": "node scripts/build-structured-history.js",
