@@ -1,54 +1,108 @@
 {
-  "generatedAt": "2026-04-07T04:08:22.916Z",
+  "generatedAt": "2026-04-07T11:16:13.984Z",
   "slug": "research",
   "label": "Research",
   "items": [
     {
-      "id": "2b016b2224fe563b",
+      "id": "d2b128cac5406836",
+      "date": "2026-04-07",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:petergyang",
+      "builderOrOrg": "Peter Yang",
+      "title": "I had a wonderful chat with my friend @illscience (a16z GP) about the future of work in an AI a…",
+      "url": "https://x.com/petergyang/status/2041331383344443795",
+      "publishedAt": "2026-04-07T01:45:02.000Z",
+      "content": "I had a wonderful chat with my friend @illscience (a16z GP) about the future of work in an AI agent first world: 1. Coding will eat all knowledge work Writing docs, building slides, pulling analytics — I now get the first 80% done through AI coding agents before doing manual polish for the last 20%. I never start from zero anymore. 2. Small teams will outperform large orgs Anish and I both remember sitting in 3-hour OKR meetings thinking \"this is wasting my life.\" This generation's founders kno…",
+      "summary": "I had a wonderful chat with my friend @illscience (a16z GP) about the future of work in an AI agent first world: 1. Coding will eat all knowledge work Writing docs, building slides, pulling analytics — I now get the fir…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 74,
+        "retweets": 11,
+        "replies": 11
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "science"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.63,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.76,
+      "whyThisMatters": "I had a wonderful chat with my friend @illscience (a16z GP) about the future of work in an AI agent first world: 1. Coding will eat all knowledge work Writing docs, building slides, pulling analytics — I now get the fir…"
+    },
+    {
+      "id": "9991618706b82ec2",
       "date": "2026-04-07",
       "sourceType": "podcast",
       "sourceGroup": "mirrored",
       "sourceName": "Latent Space",
       "sourceKey": "podcast:Latent Space",
       "builderOrOrg": "Latent Space",
-      "title": "Moonlake: Causal World Models should be Multimodal, Interactive, and Efficient — with Chris Manning and Fan-yun Sun",
+      "title": "Mistral: Voxtral TTS, Forge, Leanstral, & what's next for Mistral 4 — w/ Pavan Kumar Reddy & Guillaume Lample",
       "url": "https://www.youtube.com/@LatentSpacePod",
-      "publishedAt": "2026-04-02T17:55:29.000Z",
-      "content": "Speaker 1 | 00:00 - 00:20 I think this whole space is extremely difficult as things are emerging now. And, I mean, it's not only for world models. I think it's for everything, including text based models. Right? Because, you know, in the early days, it seemed very easy to have good benchmarks because we could do things like question answering benchmarks. Speaker 1 | 00:20 - 00:43 But, you know, these days, so much of what people are wanting to do is nothing like that. Right? You're wanting to get some recommendations about which backpack would be best for you for your trip in Europe next month. It's not so easy to come up with a benchmark, and it's the same problem with these world models. Speaker 2 | 00:43 - 01:09 Before we get into today's episode, I just have a small message for listeners. Thank you. We would not be able to bring you the AI engineering, science, and entertainment contents that you so clearly want if you didn't choose to also click in and tune into our content. We've been approached by sponsors on an almost daily basis, but, fortunately, enough of you actually subscribed to us to keep all this sustainable without ads, and we wanna keep it that way. But I just have one favor to ask all of you. Speaker 2 | 01:09 - 01:34 The single most powerful, completely free thing you can do is to click that subscribe button. It's the only thing I'll ever ask of you, and it means absolutely everything to me and my team that work so hard to bring the In Space to you each and every week. If you do it, I promise you, we'll never stop working to make the show even better. Now let's get into it. Okay. Speaker 2 | 01:34 - 01:43 We're back in the studio with Moon Lake's, two leads. I I guess there's there's other founders as well, but, Sun and Chris Manning, welcome to the studio. Thanks a lot, Chris. Speaker 3 | 01:43 - 01:44 Thanks for having us. Speaker 2 | 01:44 - 02:00 You've got you guys have, you know, come burst onto the scene with a really refreshing new take home of models. I would just want to, sort of, I guess, ask how you the two of you came together. Chris, you're a legend in NLP and just AI in in in general. You're you're his grad student, I guess. Speaker 3 | 02:01 - 02:14 Actually, my cofounder. Oh, yeah. I should give a lot of credit to my cofounder, Sharon. Yeah. She was she was actually working with professor Peve Lin Jajan, and then she ended up working with Ron and Chris Manning here. Speaker 3 | 02:14 - 02:18 And then so I got connected through to Chris initially, actually, through my cofounder. Speaker 2 | 02:18 - 02:27 What is Moon Lake? What what is actually, I'm also very curious about the name, but, like, why going into world models? So I was working a lot Speaker 3 | 02:28 - 03:10 with, actually, NVIDIA research during my PhD years on essentially generating interactive worlds to train reinforcement learning agents or embodied AI agents. And then there's two observations, one in academia and one in industry. An industry, like folks at NVIDIA are actually paying a lot of dollars to purchase these types of interactive worlds, whether it's for the sake of evaluation or training the robots or policies or models. And then in academia, same thing is happening. And more specifically, when I was actually working with NVIDIA on the synthetic data foundation model training project, we were actually generating a lot of synthetic data and showing that, hey, you can actually these synthetic data are actually as useful as real world data when it comes to multimodal pre training. Speaker 3 | 03:10 - 03:48 But then, like I said, there's a lot of dollars being paid out to, like, external vendors or or, like, other folks to manually curate these types of data. It was very clear to us that, okay, on our way to let's call it embodied general intelligence, models need to learn the consequences behind their actions, which means that they need interactive data. And the demand for those types of data are growing exponentially…",
-      "summary": "Speaker 1 | 00:00 - 00:20 I think this whole space is extremely difficult as things are emerging now. And, I mean, it's not only for world models. I think it's for everything, including text based models. Right? Because, you know, in the e…",
+      "publishedAt": "2026-03-30T19:25:21.000Z",
+      "content": "Speaker 1 | 00:05 - 00:10 Okay. Welcome to Lanespace. We're here in the studio with trusty cohost, Bibou. Welcome. Speaker 2 | 00:11 - 00:12 Very excited for this one. Speaker 1 | 00:12 - 00:22 As well as Guillaume and Pavan from Mistral. Welcome. I'm glad to be here. Thank you for all this. Pavan, you are leading audio research at Mistral, and, Guillaume, you're a chief scientist. Speaker 1 | 00:22 - 00:26 What are we announcing today where we're coordinating this release with you guys? Speaker 3 | 00:26 - 00:35 Yeah. So we are releasing Voxtrail TTS. So it's our first audio model that generates speech. It's not our first audio model. We had a couple of releases before. Speaker 3 | 00:35 - 01:11 We had one in the summer that was Voxtral, our first audio model, but it's it was like a transcription model, ASR. Like, a few months later, we released some update on top of this, supporting more languages, also a lot of table stake features for our customers, context biasing, position, time stamping, and the transcription. We also had some real time model that can transcribe not just at the end of the it was don't need to fill your entire audio file, but that can also come in real time. And here, is a natural extension in the audio, so, basically, speech generation. So, yeah, so we support nine languages, and this is a pretty small model, three d model, so very fast and also status. Speaker 3 | 01:11 - 01:25 Yeah. Carphone is the same level of the of the best model, but it's much more efficient in terms of cost and also much in terms of cost, it's also much to go. They're only a fraction of the cost of Parham competitors. And we are also releasing the weight of this model that only he faced. Speaker 1 | 01:25 - 01:27 Yeah. Miami linked? Speaker 3 | 01:27 - 01:28 Not this time. What yeah. Speaker 1 | 01:28 - 01:33 What's the decision factor him? It's a good question. Speaker 3 | 01:33 - 01:35 There will be more w o. Speaker 1 | 01:36 - 01:39 Yeah. Pavan, any other sort of research notes to add on what you No. Speaker 4 | 01:39 - 02:12 We maybe we'll dive into it later in the forecast too, but it's a novel architecture that we developed in house. We iterated it on several internal architectures and ended up with a autoregressive flow matching architecture and also have a new in house neural audio codec, which converts this audio into all point by Hertz latent tokens, semantic and acoustic tokens. And yeah, that's the new part about this model. And we're pretty excited that it came out with such good quality. And Guillaume was mentioning, yeah, it's a three d model. Speaker 4 | 02:12 - 02:24 It's based off of the Minestral model that we actually released just a few months back and insert trunk. And it mainly meant for, like, the TTS stuff, but the innate text capabilities are also there. Yeah. Speaker 1 | 02:24 - 02:52 So there's a lot to cover. I always I love any anything to do with novel encodings and all those things because I think that's obviously increased a lot of efficiency, but also maybe bugs that sometimes happen. You were previously at Gemini, and you worked on post training for language models. And maybe a lot of people will have less experience with audio models just in general compared to pure language. What did you find that you have to revisit from scratch as you joined Mistral and started doing this? Speaker 4 | 02:53 - 03:25 At least when it comes to for I think there there are two buckets, I guess, the audio understanding and audio generation. The audio understanding, like the Voxel models that Kim was mentioning that we released earlier, the Voxel chat that we released, think, July, and the follow-up transcription only models family that we released in January. That could be one bucket and the generation is another bucket. I think you can also treat them as a unified set of models. But currently, the approaches are a little different between these two, to your question on how audio is fed to the model. Speaker 4…",
+      "summary": "Speaker 1 | 00:05 - 00:10 Okay. Welcome to Lanespace. We're here in the studio with trusty cohost, Bibou. Welcome. Speaker 2 | 00:11 - 00:12 Very excited for this one. Speaker 1 | 00:12 - 00:22 As well as Guillaume and Pavan from Mistral.…",
       "regionTags": [],
       "metrics": {},
       "topics": [
         {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.9299999999999999,
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.81,
           "rationale": [
-            "benchmark",
-            "imo",
-            "eval"
+            "speech",
+            "tts",
+            "audio"
           ],
-          "score": 4
+          "score": 3
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
         },
         {
           "slug": "research",
           "label": "Research",
-          "confidence": 0.69,
+          "confidence": 0.5700000000000001,
           "rationale": [
-            "research",
-            "science"
+            "research"
           ],
-          "score": 2
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.69,
-          "rationale": [
-            "rl",
-            "reinforcement learning"
-          ],
-          "score": 2
+          "score": 1
         }
       ],
       "section": "Podcasts & Newsletters",
@@ -56,7 +110,7 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.44,
-      "whyThisMatters": "Speaker 1 | 00:00 - 00:20 I think this whole space is extremely difficult as things are emerging now. And, I mean, it's not only for world models. I think it's for everything, including text based models. Right? Because, you know, in the e…"
+      "whyThisMatters": "Speaker 1 | 00:05 - 00:10 Okay. Welcome to Lanespace. We're here in the studio with trusty cohost, Bibou. Welcome. Speaker 2 | 00:11 - 00:12 Very excited for this one. Speaker 1 | 00:12 - 00:22 As well as Guillaume and Pavan from Mistral.…"
     },
     {
       "id": "2f3568f51a2009a3",
@@ -99,7 +153,7 @@
       "section": "Official Sources",
       "importanceScore": 0.62,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.51,
       "whyThisMatters": "A pilot program to support independent safety and alignment research and develop the next generation of talent"
     },
@@ -199,6 +253,361 @@
       "previouslySelected": false,
       "digestScore": 0.51,
       "whyThisMatters": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems."
+    },
+    {
+      "id": "80ea78c285177b2d",
+      "date": "2026-04-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google DeepMind Blog",
+      "sourceKey": "official:Google DeepMind Blog",
+      "builderOrOrg": "Google DeepMind",
+      "title": "Protecting people from harmful manipulation",
+      "url": "https://deepmind.google/blog/protecting-people-from-harmful-manipulation/",
+      "publishedAt": "2026-03-25T16:46:20.000Z",
+      "content": "Google DeepMind researches AI's harmful manipulation risks across areas like finance and health, leading to new safety measures.",
+      "summary": "Google DeepMind researches AI's harmful manipulation risks across areas like finance and health, leading to new safety measures.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.62,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.75,
+      "whyThisMatters": "Google DeepMind researches AI's harmful manipulation risks across areas like finance and health, leading to new safety measures."
+    },
+    {
+      "id": "f1118ae730f3ee66",
+      "date": "2026-04-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "ADeLe: Predicting and explaining AI performance across tasks",
+      "url": "https://www.microsoft.com/en-us/research/blog/adele-predicting-and-explaining-ai-performance-across-tasks/",
+      "publishedAt": "2026-04-01T16:00:58.000Z",
+      "content": "AI benchmarks report how large language models (LLMs) perform on specific tasks but provide little insight into their underlying capabilities that drive their performance. They do not explain failures or reliably predict outcomes on new tasks. To address this, Microsoft researchers in collaboration with Princeton University and&#160;Universitat&#160;Politècnica&#160;de València introduce ADeLe (opens in new tab) (AI [&#8230;] The post ADeLe: Predicting and explaining AI performance across tasks appeared first on Microsoft Research .",
+      "summary": "AI benchmarks report how large language models (LLMs) perform on specific tasks but provide little insight into their underlying capabilities that drive their performance. They do not explain failures or reliably predict outcomes on new ta…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.62,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.75,
+      "whyThisMatters": "AI benchmarks report how large language models (LLMs) perform on specific tasks but provide little insight into their underlying capabilities that drive their performance. They do not explain failures or reliably predict outcomes on new ta…"
+    },
+    {
+      "id": "7097eeadc6457997",
+      "date": "2026-04-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "AsgardBench: A benchmark for visually grounded interactive planning",
+      "url": "https://www.microsoft.com/en-us/research/blog/asgardbench-a-benchmark-for-visually-grounded-interactive-planning/",
+      "publishedAt": "2026-03-26T19:02:53.000Z",
+      "content": "Imagine a robot tasked with cleaning a kitchen. It needs to observe its environment, decide what to do, and adjust when things don&#8217;t go as expected, for example, when the mug it was tasked to wash is already clean, or the sink is full of other items. This is the domain of embodied AI: systems [&#8230;] The post AsgardBench: A benchmark for visually grounded interactive planning appeared first on Microsoft Research .",
+      "summary": "Imagine a robot tasked with cleaning a kitchen. It needs to observe its environment, decide what to do, and adjust when things don&#8217;t go as expected, for example, when the mug it was tasked to wash is already clean, or the sink is ful…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "benchmark"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.62,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.75,
+      "whyThisMatters": "Imagine a robot tasked with cleaning a kitchen. It needs to observe its environment, decide what to do, and adjust when things don&#8217;t go as expected, for example, when the mug it was tasked to wash is already clean, or the sink is ful…"
+    },
+    {
+      "id": "de1eac265e114a1d",
+      "date": "2026-04-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "GroundedPlanBench: Spatially grounded long-horizon task planning for robot manipulation",
+      "url": "https://www.microsoft.com/en-us/research/blog/groundedplanbench-spatially-grounded-long-horizon-task-planning-for-robot-manipulation/",
+      "publishedAt": "2026-03-26T16:03:56.000Z",
+      "content": "Vision-language models (VLMs) use images and text to plan robot actions, but they still struggle to decide what actions to take and where to take them. Most systems split these decisions into two steps: a VLM generates a plan in natural language, and a separate model translates it into executable actions. This approach often breaks [&#8230;] The post GroundedPlanBench: Spatially grounded long-horizon task planning for robot manipulation appeared first on Microsoft Research .",
+      "summary": "Vision-language models (VLMs) use images and text to plan robot actions, but they still struggle to decide what actions to take and where to take them. Most systems split these decisions into two steps: a VLM generates a plan in natural la…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.81,
+          "rationale": [
+            "vision",
+            "image",
+            "vlm"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "long-horizon"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.62,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.75,
+      "whyThisMatters": "Vision-language models (VLMs) use images and text to plan robot actions, but they still struggle to decide what actions to take and where to take them. Most systems split these decisions into two steps: a VLM generates a plan in natural la…"
+    },
+    {
+      "id": "c4c4642563e89584",
+      "date": "2026-04-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Systematic debugging for AI agents: Introducing the AgentRx framework",
+      "url": "https://www.microsoft.com/en-us/research/blog/systematic-debugging-for-ai-agents-introducing-the-agentrx-framework/",
+      "publishedAt": "2026-03-12T16:38:45.000Z",
+      "content": "As AI agents transition from simple chatbots to autonomous systems capable of managing cloud incidents, navigating complex web interfaces, and executing multi-step API workflows, a new challenge has emerged: transparency. When a human makes a mistake, we can usually trace the logic. But when an AI agent fails, perhaps by hallucinating a tool output or [&#8230;] The post Systematic debugging for AI agents: Introducing the AgentRx framework appeared first on Microsoft Research .",
+      "summary": "As AI agents transition from simple chatbots to autonomous systems capable of managing cloud incidents, navigating complex web interfaces, and executing multi-step API workflows, a new challenge has emerged: transparency. When a human make…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "autonomous"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.78,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.86,
+      "whyThisMatters": "As AI agents transition from simple chatbots to autonomous systems capable of managing cloud incidents, navigating complex web interfaces, and executing multi-step API workflows, a new challenge has emerged: transparency. When a human make…"
+    },
+    {
+      "id": "bf04fe39233f5cca",
+      "date": "2026-04-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "PlugMem: Transforming raw agent interactions into reusable knowledge",
+      "url": "https://www.microsoft.com/en-us/research/blog/from-raw-interaction-to-reusable-knowledge-rethinking-memory-for-ai-agents/",
+      "publishedAt": "2026-03-10T16:00:41.000Z",
+      "content": "It seems counterintuitive: giving AI agents more memory can make them less effective. As interaction logs accumulate, they grow large, fill with irrelevant content, and become increasingly difficult to use. More memory means that agents must search through larger volumes of past interactions to find information relevant to the current task. Without structure, these records mix [&#8230;] The post PlugMem: Transforming raw agent interactions into reusable knowledge appeared first on Microsoft Research .",
+      "summary": "It seems counterintuitive: giving AI agents more memory can make them less effective. As interaction logs accumulate, they grow large, fill with irrelevant content, and become increasingly difficult to use. More memory means that agents mu…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.78,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.86,
+      "whyThisMatters": "It seems counterintuitive: giving AI agents more memory can make them less effective. As interaction logs accumulate, they grow large, fill with irrelevant content, and become increasingly difficult to use. More memory means that agents mu…"
+    },
+    {
+      "id": "c58470f0c50dd682",
+      "date": "2026-04-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "AI for Systems: Using LLMs to Optimize Database Query Execution",
+      "url": "https://www.together.ai/blog/using-llms-to-optimize-database-query-execution",
+      "publishedAt": "2026-04-03T00:00:00.000Z",
+      "content": "New research shows LLMs can optimize database query execution plans—achieving up to 4.78x speedups by correcting the cardinality estimation errors that statistical heuristics miss.",
+      "summary": "New research shows LLMs can optimize database query execution plans—achieving up to 4.78x speedups by correcting the cardinality estimation errors that statistical heuristics miss.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.62,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.75,
+      "whyThisMatters": "New research shows LLMs can optimize database query execution plans—achieving up to 4.78x speedups by correcting the cardinality estimation errors that statistical heuristics miss."
+    },
+    {
+      "id": "4c1659115253c165",
+      "date": "2026-04-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "Inside the Together AI kernels team",
+      "url": "https://www.together.ai/blog/inside-the-together-ai-kernels-team",
+      "publishedAt": "2026-04-01T00:00:00.000Z",
+      "content": "The team behind FlashAttention and ThunderKittens — how Together AI's kernel researchers close the gap between GPU hardware and production AI.",
+      "summary": "The team behind FlashAttention and ThunderKittens — how Together AI's kernel researchers close the gap between GPU hardware and production AI.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.62,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.75,
+      "whyThisMatters": "The team behind FlashAttention and ThunderKittens — how Together AI's kernel researchers close the gap between GPU hardware and production AI."
     },
     {
       "id": "6f5a266128c55aa5",
@@ -400,6 +809,116 @@
       "previouslySelected": false,
       "digestScore": 0.47,
       "whyThisMatters": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI progress is moving faster than even well regarded forecasters can gu…"
+    },
+    {
+      "id": "081249408cb5f0dc",
+      "date": "2026-04-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "china",
+      "sourceName": "Qwen Blog",
+      "sourceKey": "china:Qwen Blog",
+      "builderOrOrg": "Qwen",
+      "title": "GSPO: Towards Scalable Reinforcement Learning for Language Models",
+      "url": "https://qwenlm.github.io/blog/gspo/",
+      "publishedAt": "2025-07-27T07:00:00.000Z",
+      "content": "PAPER DISCORD Introduction Reinforcement Learning (RL) has emerged as a pivotal paradigm for scaling language models and enhancing their deep reasoning and problem-solving capabilities. To scale RL, the foremost prerequisite is maintaining stable and robust training dynamics. However, we observe that existing RL algorithms (such as GRPO) exhibit severe instability issues during long training and lead to irreversible model collapse, hindering further performance improvements with increased compute. To enable successful RL scaling, we propose the Group Sequence Policy Optimization (GSPO) algorithm.",
+      "summary": "PAPER DISCORD Introduction Reinforcement Learning (RL) has emerged as a pivotal paradigm for scaling language models and enhancing their deep reasoning and problem-solving capabilities. To scale RL, the foremost prerequisite is maintaining…",
+      "regionTags": [
+        "china-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "china-models",
+          "label": "Chinese AI",
+          "confidence": 0.81,
+          "rationale": [
+            "qwen",
+            "china-models"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "rl",
+            "reinforcement learning"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "paper"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Chinese Models",
+      "importanceScore": 0.76,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.84,
+      "whyThisMatters": "PAPER DISCORD Introduction Reinforcement Learning (RL) has emerged as a pivotal paradigm for scaling language models and enhancing their deep reasoning and problem-solving capabilities. To scale RL, the foremost prerequisite is maintaining…"
+    },
+    {
+      "id": "2b016b2224fe563b",
+      "date": "2026-04-07",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "Latent Space",
+      "sourceKey": "podcast:Latent Space",
+      "builderOrOrg": "Latent Space",
+      "title": "Moonlake: Causal World Models should be Multimodal, Interactive, and Efficient — with Chris Manning and Fan-yun Sun",
+      "url": "https://www.youtube.com/@LatentSpacePod",
+      "publishedAt": "2026-04-02T17:55:29.000Z",
+      "content": "Speaker 1 | 00:00 - 00:20 I think this whole space is extremely difficult as things are emerging now. And, I mean, it's not only for world models. I think it's for everything, including text based models. Right? Because, you know, in the early days, it seemed very easy to have good benchmarks because we could do things like question answering benchmarks. Speaker 1 | 00:20 - 00:43 But, you know, these days, so much of what people are wanting to do is nothing like that. Right? You're wanting to get some recommendations about which backpack would be best for you for your trip in Europe next month. It's not so easy to come up with a benchmark, and it's the same problem with these world models. Speaker 2 | 00:43 - 01:09 Before we get into today's episode, I just have a small message for listeners. Thank you. We would not be able to bring you the AI engineering, science, and entertainment contents that you so clearly want if you didn't choose to also click in and tune into our content. We've been approached by sponsors on an almost daily basis, but, fortunately, enough of you actually subscribed to us to keep all this sustainable without ads, and we wanna keep it that way. But I just have one favor to ask all of you. Speaker 2 | 01:09 - 01:34 The single most powerful, completely free thing you can do is to click that subscribe button. It's the only thing I'll ever ask of you, and it means absolutely everything to me and my team that work so hard to bring the In Space to you each and every week. If you do it, I promise you, we'll never stop working to make the show even better. Now let's get into it. Okay. Speaker 2 | 01:34 - 01:43 We're back in the studio with Moon Lake's, two leads. I I guess there's there's other founders as well, but, Sun and Chris Manning, welcome to the studio. Thanks a lot, Chris. Speaker 3 | 01:43 - 01:44 Thanks for having us. Speaker 2 | 01:44 - 02:00 You've got you guys have, you know, come burst onto the scene with a really refreshing new take home of models. I would just want to, sort of, I guess, ask how you the two of you came together. Chris, you're a legend in NLP and just AI in in in general. You're you're his grad student, I guess. Speaker 3 | 02:01 - 02:14 Actually, my cofounder. Oh, yeah. I should give a lot of credit to my cofounder, Sharon. Yeah. She was she was actually working with professor Peve Lin Jajan, and then she ended up working with Ron and Chris Manning here. Speaker 3 | 02:14 - 02:18 And then so I got connected through to Chris initially, actually, through my cofounder. Speaker 2 | 02:18 - 02:27 What is Moon Lake? What what is actually, I'm also very curious about the name, but, like, why going into world models? So I was working a lot Speaker 3 | 02:28 - 03:10 with, actually, NVIDIA research during my PhD years on essentially generating interactive worlds to train reinforcement learning agents or embodied AI agents. And then there's two observations, one in academia and one in industry. An industry, like folks at NVIDIA are actually paying a lot of dollars to purchase these types of interactive worlds, whether it's for the sake of evaluation or training the robots or policies or models. And then in academia, same thing is happening. And more specifically, when I was actually working with NVIDIA on the synthetic data foundation model training project, we were actually generating a lot of synthetic data and showing that, hey, you can actually these synthetic data are actually as useful as real world data when it comes to multimodal pre training. Speaker 3 | 03:10 - 03:48 But then, like I said, there's a lot of dollars being paid out to, like, external vendors or or, like, other folks to manually curate these types of data. It was very clear to us that, okay, on our way to let's call it embodied general intelligence, models need to learn the consequences behind their actions, which means that they need interactive data. And the demand for those types of data are growing exponentially…",
+      "summary": "Speaker 1 | 00:00 - 00:20 I think this whole space is extremely difficult as things are emerging now. And, I mean, it's not only for world models. I think it's for everything, including text based models. Right? Because, you know, in the e…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.9299999999999999,
+          "rationale": [
+            "benchmark",
+            "imo",
+            "eval"
+          ],
+          "score": 4
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "rl",
+            "reinforcement learning"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.52,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.44,
+      "whyThisMatters": "Speaker 1 | 00:00 - 00:20 I think this whole space is extremely difficult as things are emerging now. And, I mean, it's not only for world models. I think it's for everything, including text based models. Right? Because, you know, in the e…"
     },
     {
       "id": "5c880f26bb858d91",
