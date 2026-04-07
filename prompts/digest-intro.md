@@ -112,3 +112,12 @@ Write headlines that tell a story, not describe an event:
 ## Formatting: no em dashes
 
 NEVER use em dashes (—) anywhere in the digest. Use periods, commas, colons, or rewrite the sentence instead. Em dashes are overused in AI-generated writing and make every sentence sound the same.
+
+## AI writing tells to avoid
+
+Never use the "This isn't X, it's Y" or "This is not about X, this is about Y" rhetorical pattern. Examples of what NOT to write:
+- "This isn't just a model update, it's a strategic repositioning"
+- "This is not about benchmarks, it's about real-world impact"
+- "This isn't a minor tweak, it's a fundamental shift"
+
+This construction is one of the most recognizable AI writing patterns. Just state what it IS without the theatrical contrast.
