@@ -2,8 +2,10 @@ import { notFound } from 'next/navigation';
 import { AppLink } from '../../../components/app-link';
 import { DigestContent } from '../../../components/digest-content';
 import { DigestStoryCard } from '../../../components/digest-story-card';
+import { TopicBadge } from '../../../components/topic-badge';
+import { getStructuredItems } from '../../../lib/content-data';
 import { getDigest, getDigestIndex, parseDigestMarkdown, parseDigestStories, extractEditorialIntro, estimateReadingTime } from '../../../lib/digests';
-import { formatIssueDate } from '../../../lib/presentation';
+import { formatIssueDate, summarizeTopics } from '../../../lib/presentation';
 
 export const dynamic = 'force-static';
 
@@ -23,9 +25,10 @@ export async function generateMetadata({ params }) {
 export default async function DigestPage({ params }) {
   const { date } = await params;
 
-  const [digest, index] = await Promise.all([
+  const [digest, index, structured] = await Promise.all([
     getDigest(date),
     getDigestIndex(),
+    getStructuredItems(date),
   ]);
 
   if (!digest) {
@@ -37,6 +40,7 @@ export default async function DigestPage({ params }) {
   const digestBlocks = useCards ? null : parseDigestMarkdown(digest.content);
   const editorialIntro = extractEditorialIntro(digest.content);
   const readingTime = estimateReadingTime(digest.content);
+  const relatedTopics = summarizeTopics(structured?.items || [], 8);
 
   const currentIdx = index.findIndex((entry) => entry.date === date);
   const previous = currentIdx < index.length - 1 ? index[currentIdx + 1] : null;
@@ -74,6 +78,19 @@ export default async function DigestPage({ params }) {
         <article className="card p-5 sm:p-8">
           <DigestContent blocks={digestBlocks} />
         </article>
+      )}
+
+      {relatedTopics.length > 0 && (
+        <section>
+          <h2 className="font-display text-xl font-bold text-[var(--color-ink)]">
+            Related topics
+          </h2>
+          <div className="mt-3 flex flex-wrap gap-2">
+            {relatedTopics.map((topic) => (
+              <TopicBadge key={topic.slug} topic={topic} />
+            ))}
+          </div>
+        </section>
       )}
 
       <nav className="grid gap-3 sm:grid-cols-2">

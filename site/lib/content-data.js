@@ -31,3 +31,11 @@ export async function getTopicIndex() {
 export async function getTopicItems(slug) {
   return readJsonIfExists(join(DATA_DIR, 'topics', `${slug}.json`), null);
 }
+
+export async function getBuilderIndex() {
+  return readJsonIfExists(join(DATA_DIR, 'builders', 'index.json'), []);
+}
+
+export async function getBuilderItems(handle) {
+  return readJsonIfExists(join(DATA_DIR, 'builders', `${handle}.json`), null);
+}

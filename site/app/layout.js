@@ -23,6 +23,9 @@ export { metadata };
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="alternate" type="application/rss+xml" title={siteConfig.projectName} href="/feed.xml" />
+      </head>
       <body className="min-h-screen antialiased">
         <header className="sticky top-0 z-40 border-b border-[var(--color-border)] bg-[rgba(250,248,245,0.92)] backdrop-blur-md">
           <div className="mx-auto max-w-3xl px-5 py-4">
@@ -34,11 +37,14 @@ export default function RootLayout({ children }) {
               </AppLink>
 
               <nav className="flex items-center gap-5 text-sm">
-                <AppLink href="/about" className="font-medium text-[var(--color-ink-secondary)] transition hover:text-[var(--color-ink)]">
-                  About
+                <AppLink href="/builders" className="font-medium text-[var(--color-ink-secondary)] transition hover:text-[var(--color-ink)]">
+                  Builders
                 </AppLink>
                 <AppLink href="/archive" className="font-medium text-[var(--color-ink-secondary)] transition hover:text-[var(--color-ink)]">
                   Archive
+                </AppLink>
+                <AppLink href="/about" className="font-medium text-[var(--color-ink-secondary)] transition hover:text-[var(--color-ink)]">
+                  About
                 </AppLink>
                 {siteConfig.subscribeUrl && (
                   <AppLink href="/subscribe" className="rounded-full bg-[var(--color-accent)] px-4 py-2 font-medium text-white transition hover:bg-[var(--color-accent-warm)]">

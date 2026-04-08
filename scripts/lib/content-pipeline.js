@@ -12,6 +12,8 @@ const TOPICS_DIR = join(HISTORY_DIR, 'topics');
 const SITE_DATA_DIR = join(ROOT_DIR, 'site', 'data');
 const SITE_TOPICS_DIR = join(SITE_DATA_DIR, 'topics');
 const SITE_ITEMS_DIR = join(SITE_DATA_DIR, 'items');
+const BUILDERS_DIR = join(HISTORY_DIR, 'builders');
+const SITE_BUILDERS_DIR = join(SITE_DATA_DIR, 'builders');
 
 function normalizeDate(value) {
   if (!value) return null;
@@ -338,4 +340,76 @@ export async function saveStructuredDataset(dataset) {
   const sortedTopicSummaries = topicSummaries.sort((a, b) => b.count - a.count || a.label.localeCompare(b.label));
   await writeJson(join(TOPICS_DIR, 'index.json'), sortedTopicSummaries);
   await writeJson(join(SITE_TOPICS_DIR, 'index.json'), sortedTopicSummaries);
+
+  // Accumulate builder data from X/Twitter items
+  const builderItems = dataset.items.filter((item) => item.sourceType === 'x' && item.sourceKey);
+  const builderMap = new Map();
+
+  for (const item of builderItems) {
+    const handle = item.sourceKey.replace('x:', '');
+    if (!handle) continue;
+
+    if (!builderMap.has(handle)) {
+      builderMap.set(handle, {
+        handle,
+        name: item.builderOrOrg || handle,
+        items: [],
+      });
+    }
+    builderMap.get(handle).items.push(item);
+  }
+
+  const builderSummaries = [];
+
+  for (const [handle, builder] of builderMap) {
+    const existingPayload = await readJson(join(BUILDERS_DIR, `${handle}.json`), {
+      generatedAt: null,
+      handle,
+      name: builder.name,
+      items: [],
+    });
+
+    const mergedItems = [...builder.items, ...(existingPayload.items || [])];
+    const dedupedItems = [];
+    const seen = new Set();
+
+    for (const item of mergedItems) {
+      if (seen.has(item.id)) continue;
+      seen.add(item.id);
+      dedupedItems.push(item);
+    }
+
+    const sortedItems = dedupedItems
+      .sort((a, b) => (b.publishedAt || '').localeCompare(a.publishedAt || ''))
+      .slice(0, 50);
+
+    const payload = {
+      generatedAt: dataset.generatedAt,
+      handle,
+      name: existingPayload.name || builder.name,
+      itemCount: sortedItems.length,
+      latestDate: dataset.date,
+      items: sortedItems,
+    };
+
+    await writeJson(join(BUILDERS_DIR, `${handle}.json`), payload);
+    await writeJson(join(SITE_BUILDERS_DIR, `${handle}.json`), payload);
+
+    builderSummaries.push({
+      handle,
+      name: payload.name,
+      itemCount: sortedItems.length,
+      latestDate: dataset.date,
+    });
+  }
+
+  // Merge with existing builder index (preserve builders not in today's feed)
+  const existingBuilderIndex = await readJson(join(BUILDERS_DIR, 'index.json'), []);
+  const indexMap = new Map(existingBuilderIndex.map((b) => [b.handle, b]));
+  for (const summary of builderSummaries) {
+    indexMap.set(summary.handle, summary);
+  }
+  const sortedBuilderIndex = [...indexMap.values()].sort((a, b) => b.itemCount - a.itemCount || a.name.localeCompare(b.name));
+  await writeJson(join(BUILDERS_DIR, 'index.json'), sortedBuilderIndex);
+  await writeJson(join(SITE_BUILDERS_DIR, 'index.json'), sortedBuilderIndex);
 }
