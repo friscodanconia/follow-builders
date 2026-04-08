@@ -9,7 +9,7 @@ export function InlineSubscribe() {
         Get this in your inbox
       </h3>
       <p className="mt-2 text-sm leading-6 text-[var(--color-ink-secondary)]">
-        5 stories. 3 minutes. Every weekday morning.
+        3-5 stories. 3 minutes. Every weekday morning.
       </p>
       <form
         action={siteConfig.subscribeUrl}

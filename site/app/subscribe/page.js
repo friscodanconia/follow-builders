@@ -16,7 +16,7 @@ export default function SubscribePage() {
           Get the digest in your inbox
         </h1>
         <p className="mt-3 text-base leading-7 text-[var(--color-ink-secondary)]">
-          5 curated AI stories. 3 minutes to read. Every weekday morning.
+          3-5 curated AI stories. 3 minutes to read. Every weekday morning.
           No hype, no fluff, no engagement bait.
         </p>
       </section>

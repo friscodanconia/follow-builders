@@ -8,13 +8,7 @@ export function DigestStoryCard({ story, number }) {
 
         <div className="min-w-0 flex-1">
           <h3 className="text-lg font-semibold leading-snug text-[var(--color-ink)]">
-            {story.url ? (
-              <a href={story.url} target="_blank" rel="noopener noreferrer" className="transition hover:text-[var(--color-accent)]">
-                {story.title}
-              </a>
-            ) : (
-              story.title
-            )}
+            {story.title}
           </h3>
 
           <p className="mt-3 text-[15px] leading-7 text-[var(--color-ink-secondary)]">
@@ -29,14 +23,16 @@ export function DigestStoryCard({ story, number }) {
           )}
 
           {story.url && (
-            <a
-              href={story.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-3 inline-block text-sm font-medium text-[var(--color-accent)] transition hover:text-[var(--color-accent-warm)]"
-            >
-              Read more &rarr;
-            </a>
+            <p className="mt-3 text-xs text-[var(--color-ink-muted)]">
+              <a
+                href={story.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition hover:text-[var(--color-accent)]"
+              >
+                Source &rarr;
+              </a>
+            </p>
           )}
         </div>
       </div>
