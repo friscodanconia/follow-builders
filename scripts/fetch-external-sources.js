@@ -98,6 +98,25 @@ function parseHtmlIndex(html, source) {
   return [...links].slice(0, 5);
 }
 
+// Extract publication date from URL patterns when HTML metadata is missing.
+// Covers: /newsYYMMDD (DeepSeek), /YYYY/MM/DD/, /YYYY-MM-DD-slug
+function extractDateFromUrl(url) {
+  if (!url) return null;
+  const newsPattern = url.match(/\/news(\d{2})(\d{2})(\d{2})/);
+  if (newsPattern) {
+    const [, yy, mm, dd] = newsPattern;
+    const date = new Date(2000 + parseInt(yy, 10), parseInt(mm, 10) - 1, parseInt(dd, 10));
+    if (!isNaN(date.getTime())) return date.toISOString();
+  }
+  const datePathPattern = url.match(/\/(\d{4})[-/](\d{2})[-/](\d{2})/);
+  if (datePathPattern) {
+    const [, yyyy, mm, dd] = datePathPattern;
+    const date = new Date(parseInt(yyyy, 10), parseInt(mm, 10) - 1, parseInt(dd, 10));
+    if (!isNaN(date.getTime())) return date.toISOString();
+  }
+  return null;
+}
+
 function extractArticleMetadata(html, url) {
   const titleMatch = html.match(/<title>([\s\S]*?)<\/title>/i)
     || html.match(/property="og:title"\s+content="([^"]+)"/i)
@@ -112,10 +131,15 @@ function extractArticleMetadata(html, url) {
   const title = stripHtml(titleMatch ? titleMatch[1] : url);
   const summary = truncateText(stripHtml(descriptionMatch ? descriptionMatch[1] : ''), 240);
 
+  // Fall back to URL-based date extraction when HTML metadata has no date
+  const publishedAt = timeMatch
+    ? new Date(timeMatch[1]).toISOString()
+    : extractDateFromUrl(url);
+
   return {
     title,
     summary,
-    publishedAt: timeMatch ? new Date(timeMatch[1]).toISOString() : null,
+    publishedAt,
     content: summary,
   };
 }

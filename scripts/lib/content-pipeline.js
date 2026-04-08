@@ -15,6 +15,8 @@ const SITE_ITEMS_DIR = join(SITE_DATA_DIR, 'items');
 const BUILDERS_DIR = join(HISTORY_DIR, 'builders');
 const SITE_BUILDERS_DIR = join(SITE_DATA_DIR, 'builders');
 
+const MAX_AGE_DAYS = 7;
+
 function normalizeDate(value) {
   if (!value) return null;
   try {
@@ -22,6 +24,42 @@ function normalizeDate(value) {
   } catch {
     return null;
   }
+}
+
+// Extract publication date from URL patterns when publishedAt is missing.
+// Covers patterns like: /news250821 (YYMMDD), /2025/08/21/, /blog/2025-08-21-slug
+function extractDateFromUrl(url) {
+  if (!url) return null;
+
+  // Pattern: newsYYMMDD (e.g., DeepSeek's /news250821)
+  const newsPattern = url.match(/\/news(\d{2})(\d{2})(\d{2})/);
+  if (newsPattern) {
+    const [, yy, mm, dd] = newsPattern;
+    const year = 2000 + parseInt(yy, 10);
+    const date = new Date(year, parseInt(mm, 10) - 1, parseInt(dd, 10));
+    if (!isNaN(date.getTime())) return date.toISOString();
+  }
+
+  // Pattern: /YYYY/MM/DD/ or /YYYY-MM-DD
+  const datePathPattern = url.match(/\/(\d{4})[-/](\d{2})[-/](\d{2})/);
+  if (datePathPattern) {
+    const [, yyyy, mm, dd] = datePathPattern;
+    const date = new Date(parseInt(yyyy, 10), parseInt(mm, 10) - 1, parseInt(dd, 10));
+    if (!isNaN(date.getTime())) return date.toISOString();
+  }
+
+  return null;
+}
+
+// Returns true if the item is too old to include in a digest for the given date.
+function isStale(item, digestDate) {
+  const pubDate = item.publishedAt || extractDateFromUrl(item.url);
+  if (!pubDate) return false; // can't determine age — let it through
+  const pub = new Date(pubDate);
+  const digest = new Date(digestDate);
+  const ageMs = digest.getTime() - pub.getTime();
+  const ageDays = ageMs / (1000 * 60 * 60 * 24);
+  return ageDays > MAX_AGE_DAYS;
 }
 
 function sectionFromItem(item) {
@@ -151,6 +189,8 @@ async function normalizeBlogFeed(feedBlogs, digestDate) {
 async function normalizeExternalFeed(externalFeed, digestDate) {
   return ensureArray(externalFeed?.articles).filter((article) => article.sourceType !== 'meta').map((article) => {
     const content = truncateText(stripHtml(article.content || article.summary || ''), 2000);
+    // Use publishedAt if available, otherwise try to extract date from URL
+    const publishedAt = normalizeDate(article.publishedAt) || extractDateFromUrl(article.url);
     return {
       id: article.id || stableId(['external', article.url, article.name]),
       date: digestDate,
@@ -161,7 +201,7 @@ async function normalizeExternalFeed(externalFeed, digestDate) {
       builderOrOrg: article.builderOrOrg || article.name,
       title: stripHtml(article.title || article.name),
       url: article.url,
-      publishedAt: normalizeDate(article.publishedAt),
+      publishedAt,
       content,
       summary: truncateText(stripHtml(article.summary || content), 240),
       regionTags: ensureArray(article.regionTags),
@@ -277,9 +317,25 @@ export async function buildStructuredDataset({ digestDate, feedX, feedPodcasts, 
     ...(await normalizeExternalFeed(externalFeed, digestDate)),
   ];
 
+  // Filter out stale items before scoring — prevents old content from being
+  // presented as breaking news, which destroys credibility.
+  const fresh = [];
+  const staleCount = { total: 0, bySource: {} };
+  for (const item of normalized) {
+    if (isStale(item, digestDate)) {
+      staleCount.total += 1;
+      staleCount.bySource[item.sourceName] = (staleCount.bySource[item.sourceName] || 0) + 1;
+      continue;
+    }
+    fresh.push(item);
+  }
+  if (staleCount.total > 0) {
+    console.error(`  Freshness filter: dropped ${staleCount.total} stale items (>${MAX_AGE_DAYS}d old):`, JSON.stringify(staleCount.bySource));
+  }
+
   const items = [];
 
-  for (const item of normalized) {
+  for (const item of fresh) {
     const topics = await tagContent({
       title: item.title,
       content: item.content,

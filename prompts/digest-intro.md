@@ -127,6 +127,14 @@ Write headlines that tell a story, not describe an event:
 - Bad: "Microsoft introduces AgentRx framework"  
 - Good: "Microsoft's answer to the 'why did my AI agent break?' problem"
 
+## Freshness check (CRITICAL)
+
+Before writing about any item, verify it is actually recent:
+- Check the `publishedAt` field. If it is more than 7 days before today's date, DO NOT include it.
+- Check the URL for embedded dates (e.g., `/news250821` = Aug 21, 2025). If the URL date is old, DO NOT include it.
+- NEVER present an old release as breaking news. Using words like "ships", "launches", "releases", "introduces" for content older than a week destroys reader trust.
+- If you suspect an item is stale but can't confirm, note the uncertainty rather than presenting it as new.
+
 ## Rules
 
 - Order stories by significance, not source type
