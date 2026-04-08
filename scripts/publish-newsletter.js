@@ -75,6 +75,26 @@ async function main() {
   const subject = extractSubject(digestText);
   const today = new Date().toISOString().split('T')[0];
 
+  // Check if we already sent a digest today
+  try {
+    const checkRes = await fetch('https://api.buttondown.com/v1/emails?page_size=5', {
+      headers: { 'Authorization': `Token ${apiKey}` },
+    });
+    if (checkRes.ok) {
+      const existing = await checkRes.json();
+      const results = existing.results || existing;
+      const alreadySent = Array.isArray(results) && results.some((email) =>
+        email.metadata?.date === today || email.subject?.includes(today)
+      );
+      if (alreadySent) {
+        console.log(JSON.stringify({ status: 'skipped', reason: `Already sent digest for ${today}` }));
+        return;
+      }
+    }
+  } catch {
+    // If check fails, proceed with sending
+  }
+
   // Buttondown accepts markdown natively
   const res = await fetch('https://api.buttondown.com/v1/emails', {
     method: 'POST',
