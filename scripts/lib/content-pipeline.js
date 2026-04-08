@@ -35,12 +35,13 @@ function sectionFromItem(item) {
 function computeImportance(item) {
   let score = 0.4;
 
-  if (item.sourceGroup === 'official') score += 0.22;
-  if (item.sourceGroup === 'china') score += 0.18;
+  if (item.sourceGroup === 'official') score += 0.18;
+  if (item.sourceGroup === 'china') score += 0.15;
   if (item.sourceType === 'podcast') score += 0.12;
-  if (item.sourceType === 'x') score += Math.min(0.2, ((item.metrics?.likes || 0) / 1000));
-  if (item.topics.some((topic) => topic.slug === 'agents')) score += 0.16;
-  if (item.topics.some((topic) => topic.slug === 'china-models')) score += 0.18;
+  // Builder tweets: base boost + engagement scaling (lower threshold than before)
+  if (item.sourceType === 'x') score += 0.15 + Math.min(0.15, ((item.metrics?.likes || 0) / 300));
+  if (item.topics.some((topic) => topic.slug === 'agents')) score += 0.14;
+  if (item.topics.some((topic) => topic.slug === 'china-models')) score += 0.15;
   if (item.topics.some((topic) => topic.slug === 'enterprise')) score += 0.08;
   if (item.topics.some((topic) => topic.slug === 'evals')) score += 0.08;
 
@@ -175,28 +176,53 @@ function selectDigestItems(items) {
   const sourceCounts = new Map();
   const topicCounts = new Map();
   let chinaSelected = 0;
+  let builderSelected = 0;
 
-  for (const item of sorted) {
-    if (selected.length >= 5) break;
-
-    if (item.previouslySelected) continue;
+  function trySelect(item) {
+    if (item.previouslySelected) return false;
 
     const sourceKey = item.sourceKey || item.sourceName;
     const sourceCount = sourceCounts.get(sourceKey) || 0;
-    if (sourceCount >= 1) continue;
+    if (sourceCount >= 1) return false;
 
     const dominantTopic = item.topics[0]?.slug;
     if (dominantTopic) {
       const topicCount = topicCounts.get(dominantTopic) || 0;
-      if (topicCount >= 2 && dominantTopic !== 'china-models') continue;
+      if (topicCount >= 2 && dominantTopic !== 'china-models') return false;
     }
 
-    if (item.section === 'Chinese Models' && chinaSelected >= 2) continue;
+    if (item.section === 'Chinese Models' && chinaSelected >= 2) return false;
 
     selected.push(item);
     sourceCounts.set(sourceKey, sourceCount + 1);
     if (dominantTopic) topicCounts.set(dominantTopic, (topicCounts.get(dominantTopic) || 0) + 1);
     if (item.section === 'Chinese Models') chinaSelected += 1;
+    if (item.sourceType === 'x') builderSelected += 1;
+    return true;
+  }
+
+  // First pass: select top items by score
+  for (const item of sorted) {
+    if (selected.length >= 5) break;
+    trySelect(item);
+  }
+
+  // Guarantee at least 1 builder voice: if none selected, swap the lowest-scored non-builder
+  if (builderSelected === 0) {
+    const topBuilder = sorted.find((item) =>
+      item.sourceType === 'x' &&
+      !item.previouslySelected &&
+      !selected.some((s) => s.id === item.id)
+    );
+
+    if (topBuilder && selected.length > 0) {
+      // Replace the last (lowest-priority) non-builder item
+      const lastNonBuilder = [...selected].reverse().findIndex((s) => s.sourceType !== 'x');
+      if (lastNonBuilder !== -1) {
+        selected.splice(selected.length - 1 - lastNonBuilder, 1);
+        selected.push(topBuilder);
+      }
+    }
   }
 
   return selected;
