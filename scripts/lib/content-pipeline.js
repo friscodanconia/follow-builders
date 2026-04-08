@@ -403,12 +403,48 @@ export async function saveStructuredDataset(dataset) {
     });
   }
 
-  // Merge with existing builder index (preserve builders not in today's feed)
+  // Merge with existing builder index and seed all tracked builders from config
   const existingBuilderIndex = await readJson(join(BUILDERS_DIR, 'index.json'), []);
   const indexMap = new Map(existingBuilderIndex.map((b) => [b.handle, b]));
   for (const summary of builderSummaries) {
     indexMap.set(summary.handle, summary);
   }
+
+  // Seed builders from config that haven't appeared in feeds yet
+  try {
+    const configPath = join(ROOT_DIR, 'config', 'default-sources.json');
+    const config = JSON.parse(await readFile(configPath, 'utf-8'));
+    for (const account of config.x_accounts || []) {
+      if (!indexMap.has(account.handle)) {
+        indexMap.set(account.handle, {
+          handle: account.handle,
+          name: account.name,
+          itemCount: 0,
+          latestDate: null,
+        });
+        // Create empty builder file so the page can render
+        await writeJson(join(BUILDERS_DIR, `${account.handle}.json`), {
+          generatedAt: dataset.generatedAt,
+          handle: account.handle,
+          name: account.name,
+          itemCount: 0,
+          latestDate: null,
+          items: [],
+        });
+        await writeJson(join(SITE_BUILDERS_DIR, `${account.handle}.json`), {
+          generatedAt: dataset.generatedAt,
+          handle: account.handle,
+          name: account.name,
+          itemCount: 0,
+          latestDate: null,
+          items: [],
+        });
+      }
+    }
+  } catch {
+    // Config not found, skip seeding
+  }
+
   const sortedBuilderIndex = [...indexMap.values()].sort((a, b) => b.itemCount - a.itemCount || a.name.localeCompare(b.name));
   await writeJson(join(BUILDERS_DIR, 'index.json'), sortedBuilderIndex);
   await writeJson(join(SITE_BUILDERS_DIR, 'index.json'), sortedBuilderIndex);
