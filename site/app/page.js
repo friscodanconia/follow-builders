@@ -51,7 +51,7 @@ export default async function Home() {
       <section>
         <p className="label">{formatIssueDate(latest.date)}</p>
         <h1 className="mt-3 font-display text-2xl font-bold leading-tight text-[var(--color-ink)] sm:text-3xl">
-          Today in AI
+          Follow builders, not influencers
         </h1>
         {useCards && (
           <p className="mt-2 text-sm text-[var(--color-ink-muted)]">

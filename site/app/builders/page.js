@@ -22,13 +22,13 @@ export default async function BuildersPage() {
         </p>
       </section>
 
-      {builders.length === 0 ? (
+      {builders.filter((b) => b.itemCount > 0).length === 0 ? (
         <p className="text-sm text-[var(--color-ink-muted)]">
           Builder profiles are being accumulated. Check back after the next daily digest run.
         </p>
       ) : (
         <div className="grid gap-3 sm:grid-cols-2">
-          {builders.map((builder) => (
+          {builders.filter((b) => b.itemCount > 0).map((builder) => (
             <AppLink
               key={builder.handle}
               href={`/builder/${builder.handle}`}
