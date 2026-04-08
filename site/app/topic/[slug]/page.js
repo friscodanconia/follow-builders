@@ -9,9 +9,16 @@ export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
+  const payload = await getTopicItems(slug);
+  const label = payload?.label || slug;
+  const count = payload?.items?.length || 0;
   return {
-    title: `${slug} — AI Builders Digest`,
-    description: `All items tagged with ${slug}.`,
+    title: `${label} — AI Builders Digest`,
+    description: `${count} curated items about ${label} from AI builders, research labs, and open-source projects.`,
+    openGraph: {
+      title: `${label} — AI Builders Digest`,
+      description: `${count} curated items about ${label}. Follow builders, not influencers.`,
+    },
   };
 }
 

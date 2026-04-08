@@ -38,9 +38,11 @@ export function SignalCard({ item, compact = false, storyNumber }) {
             )}
           </h3>
 
-          <p className={`${compact ? 'mt-2' : 'mt-3'} text-[15px] leading-7 text-[var(--color-ink-secondary)]`}>
-            {item.summary}
-          </p>
+          {item.summary && !item.title?.startsWith(item.summary?.slice(0, 50)) && item.summary !== item.title && (
+            <p className={`${compact ? 'mt-2' : 'mt-3'} text-[15px] leading-7 text-[var(--color-ink-secondary)]`}>
+              {item.summary}
+            </p>
+          )}
 
           {item.whyThisMatters && item.whyThisMatters !== item.summary && item.whyThisMatters !== item.content && (
             <p className="mt-3 border-l-2 border-[var(--color-accent)] pl-4 text-sm leading-6 text-[var(--color-ink-secondary)]">

@@ -17,9 +17,15 @@ export default async function BuildersPage() {
         <h1 className="font-display text-2xl font-bold text-[var(--color-ink)] sm:text-3xl">
           Builders
         </h1>
-        <p className="mt-2 text-base text-[var(--color-ink-secondary)]">
-          {builders.length} builders we track. Follow what they ship, not what they hype.
-        </p>
+        {(() => {
+          const active = builders.filter((b) => b.itemCount > 0);
+          const tracked = builders.length;
+          return (
+            <p className="mt-2 text-base text-[var(--color-ink-secondary)]">
+              {active.length} active builders{tracked > active.length ? ` of ${tracked} tracked` : ''}. Profiles grow as they post.
+            </p>
+          );
+        })()}
       </section>
 
       {builders.filter((b) => b.itemCount > 0).length === 0 ? (

@@ -14,9 +14,14 @@ export async function generateMetadata({ params }) {
   const { handle } = await params;
   const data = await getBuilderItems(handle);
   const name = data?.name || handle;
+  const count = data?.itemCount || 0;
   return {
     title: `${name} — AI Builders Digest`,
-    description: `What ${name} is building and sharing in AI.`,
+    description: `${count} tracked posts from ${name} (@${handle}). What they're building and shipping in AI.`,
+    openGraph: {
+      title: `${name} — AI Builders Digest`,
+      description: `Follow what ${name} is building in AI. ${count} posts tracked.`,
+    },
   };
 }
 

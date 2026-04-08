@@ -16,9 +16,18 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }) {
   const { date } = await params;
+  const digest = await getDigest(date);
+  const intro = digest ? extractEditorialIntro(digest.content) : '';
+  const formattedDate = new Date(`${date}T00:00:00`).toLocaleDateString('en-US', {
+    weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
+  });
   return {
-    title: `AI Builders Digest — ${date}`,
-    description: `AI Builders Digest for ${date}`,
+    title: `${formattedDate} — AI Builders Digest`,
+    description: intro || `AI Builders Digest for ${formattedDate}`,
+    openGraph: {
+      title: `AI Builders Digest — ${formattedDate}`,
+      description: intro || `Daily AI digest for ${formattedDate}`,
+    },
   };
 }
 
