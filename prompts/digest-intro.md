@@ -127,6 +127,10 @@ Write headlines that tell a story, not describe an event:
 - Bad: "Microsoft introduces AgentRx framework"  
 - Good: "Microsoft's answer to the 'why did my AI agent break?' problem"
 
+## Attribution check (CRITICAL)
+
+When writing about a person, use the `bio` field in the source data to determine their affiliation. NEVER guess or infer which company someone works for. If the bio says "Claude Code @anthropicai", that person works at Anthropic, not Cursor or any other company. Getting someone's employer wrong is a factual error that destroys credibility.
+
 ## Freshness check (CRITICAL)
 
 Before writing about any item, verify it is actually recent:
