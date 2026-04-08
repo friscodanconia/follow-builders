@@ -1,23 +1,11 @@
 import { ImageResponse } from 'next/og';
-import { getDigest, extractEditorialIntro } from '../../../lib/digests';
 
-export const runtime = 'edge';
 export const alt = 'AI Builders Digest';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 
-export default async function Image({ params }) {
-  const { date } = await params;
-
-  let intro = '';
-  try {
-    const digest = await getDigest(date);
-    if (digest) {
-      intro = extractEditorialIntro(digest.content);
-    }
-  } catch {
-    // Fallback to no intro
-  }
+export default function Image({ params }) {
+  const date = params.date;
 
   const formattedDate = new Date(`${date}T00:00:00`).toLocaleDateString('en-US', {
     weekday: 'long',
@@ -63,18 +51,15 @@ export default async function Image({ params }) {
           </div>
         </div>
 
-        {intro && (
-          <div
-            style={{
-              fontSize: 28,
-              color: '#4a4540',
-              lineHeight: 1.5,
-              maxWidth: '90%',
-            }}
-          >
-            {intro.length > 200 ? `${intro.slice(0, 200)}...` : intro}
-          </div>
-        )}
+        <div
+          style={{
+            fontSize: 28,
+            color: '#4a4540',
+            lineHeight: 1.5,
+          }}
+        >
+          A daily summary of what top AI builders are shipping.
+        </div>
 
         <div
           style={{
