@@ -32,6 +32,17 @@ export default function AboutPage() {
         </p>
 
         <h2 className="font-display text-xl font-bold text-[var(--color-ink)]">
+          Chinese AI coverage most digests miss
+        </h2>
+        <p>
+          Most Western AI newsletters ignore Chinese labs entirely, or cover them as a geopolitical
+          threat. We track DeepSeek, Qwen, and MiniMax as what they are: engineering teams shipping
+          competitive products. When DeepSeek releases a reasoning model or Qwen ships a safety
+          guardrail, we cover it the same way we cover Google or Anthropic. If you only read
+          Western sources, you are missing half the picture.
+        </p>
+
+        <h2 className="font-display text-xl font-bold text-[var(--color-ink)]">
           What we filter out
         </h2>
         <ul className="ml-5 list-disc space-y-2 marker:text-[var(--color-accent)]">

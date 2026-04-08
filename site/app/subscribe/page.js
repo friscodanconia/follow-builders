@@ -71,6 +71,10 @@ export default function SubscribePage() {
             <span className="shrink-0 text-[var(--color-accent)]">&#10003;</span>
             Sources from 14 curated blogs, research labs, and builder communities
           </li>
+          <li className="flex gap-2">
+            <span className="shrink-0 text-[var(--color-accent)]">&#10003;</span>
+            Chinese AI lab coverage (DeepSeek, Qwen, MiniMax) most Western digests skip
+          </li>
         </ul>
       </section>
 
