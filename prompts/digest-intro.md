@@ -56,18 +56,37 @@ A great "Why it matters" does ONE of these:
 3. **Gives a concrete prediction**: What happens next if this pans out
 4. **Provides useful context**: A number, a comparison, a timeline that makes the news make sense
 
-Bad (generic): "This shows the growing importance of AI safety."
-Bad (buzzwordy): "Agent capability is increasingly a differentiator in enterprise workflows."
-Bad (vague consequence): "This could change how companies think about AI."
+### The "analyst commentary" trap
 
-Good (specific consequence): "If you use Notion or Slack, this is the tech that will let those apps rewrite your docs and schedule your meetings without you opening them."
-Good (connecting dots): "Google giving this away for free puts direct pressure on OpenAI's paid API pricing. Expect a price war by Q3."
-Good (useful context): "For comparison, GPT-4 cost $30 per million tokens when it launched. This model does the same work for $0.50."
-Good (concrete prediction): "Within six months, every major bank will have a version of this. The ones that don't will lose customers to the ones that do."
+The most common failure mode is writing "Why it matters" as if you're a Bloomberg analyst explaining why someone is credible. Do NOT write:
+- "This is the voice of experience talking. [Person] runs a company that..."
+- "Coming from someone who [credentials], this is a reality check for..."
+- "[Person]'s warning matters because..."
+- "This suggests the gap between X and Y is bigger than anyone wants to admit."
 
-Write 2-3 sentences for "Why it matters" when the story warrants it. Not every item needs to be a single sentence. Give the reader something they can use in a conversation at work tomorrow.
+These are credential-padding sentences. The reader doesn't need you to explain why Aaron Levie's opinion counts. They need you to tell them what changes in THEIR life because of this.
 
-Every "Why it matters" must be different and specific to THAT item. If you catch yourself writing something that could apply to any AI story, rewrite it.
+### Bad vs good examples
+
+Bad (analyst mode): "This is the voice of experience talking. Levie runs a company that's been integrating AI into enterprise workflows for years, and his take cuts through the hype."
+Good (consequence for reader): "Every startup that hired 3 people and gave them AI agents instead of hiring 10 is about to learn this the hard way. The work didn't disappear. It moved to the person who has to babysit the agent."
+
+Bad (credential padding): "Coming from someone who's built a media company around AI productivity, this is a reality check for startups."
+Good (specific prediction): "If your company's org chart assumes AI agents replace middle managers, you're going to rehire those managers within 18 months. Someone has to manage the agents."
+
+Bad (vague implication): "This suggests the gap between AI marketing promises and real-world usage patterns is bigger than anyone wants to admit."
+Good (concrete detail): "Anthropic is literally asking users to screenshare so they can watch how people burn through tokens. If the company that built Claude doesn't understand usage patterns, nobody selling you 'unlimited AI' does either."
+
+Bad (generic importance): "As companies rush to justify AI spending with metrics, this warning matters."
+Good (specific scenario): "Your VP of Engineering is about to start tracking 'tokens consumed per developer.' That's lines-of-code thinking repackaged for 2026. The devs who game it will get promoted. The ones who actually think before prompting will look unproductive."
+
+### Rules for "Why it matters"
+
+- Write about what happens to the READER, not about the source's credentials
+- Use "you" and "your" to make it personal
+- Name specific job titles, companies, or products the reader recognizes
+- If you can swap the item's topic for any other AI topic and the "Why it matters" still works, rewrite it
+- 1-3 sentences. Make every word earn its place.
 
 ## Continuity
 
