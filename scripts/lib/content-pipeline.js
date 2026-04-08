@@ -216,11 +216,30 @@ function selectDigestItems(items) {
     );
 
     if (topBuilder && selected.length > 0) {
-      // Replace the last (lowest-priority) non-builder item
       const lastNonBuilder = [...selected].reverse().findIndex((s) => s.sourceType !== 'x');
       if (lastNonBuilder !== -1) {
         selected.splice(selected.length - 1 - lastNonBuilder, 1);
         selected.push(topBuilder);
+      }
+    }
+  }
+
+  // Guarantee at least 1 Chinese AI item
+  const hasChina = selected.some((s) => s.topics?.some((t) => t.slug === 'china-models'));
+  if (!hasChina) {
+    const topChina = sorted.find((item) =>
+      item.topics?.some((t) => t.slug === 'china-models') &&
+      !item.previouslySelected &&
+      !selected.some((s) => s.id === item.id)
+    );
+
+    if (topChina && selected.length > 0) {
+      const lastNonChina = [...selected].reverse().findIndex((s) =>
+        !s.topics?.some((t) => t.slug === 'china-models') && s.sourceType !== 'x'
+      );
+      if (lastNonChina !== -1) {
+        selected.splice(selected.length - 1 - lastNonChina, 1);
+        selected.push(topChina);
       }
     }
   }
