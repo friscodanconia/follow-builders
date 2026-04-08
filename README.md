@@ -82,6 +82,16 @@ Edit the files in the `prompts/` folder:
 
 These are plain English instructions, not code. Changes take effect on the next digest.
 
+## Content Quality Guards
+
+The pipeline includes automated checks to prevent common errors in generated digests:
+
+**Freshness filter:** Items older than 7 days are automatically dropped before they can be selected for a digest. The filter also extracts publication dates from URL patterns (e.g., `/news250821` decodes to Aug 21, 2025) when the source page doesn't provide a date in its metadata.
+
+**Attribution check:** The digest prompt requires the LLM to verify a person's company affiliation from the `bio` field in the source data rather than guessing. This prevents misattribution errors (e.g., writing "Cursor's Thariq" when the bio says "Claude Code @anthropicai").
+
+Both guards are defined in `prompts/digest-intro.md` (LLM-side) and `scripts/lib/content-pipeline.js` (pipeline-side).
+
 ## Default Sources
 
 ### Podcasts (6)
