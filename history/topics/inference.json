@@ -1,8 +1,99 @@
 {
-  "generatedAt": "2026-04-08T04:11:21.709Z",
+  "generatedAt": "2026-04-09T03:21:43.912Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
+    {
+      "id": "12aab15e1679cbc4",
+      "date": "2026-04-09",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google AI Blog",
+      "sourceKey": "official:Google AI Blog",
+      "builderOrOrg": "Google",
+      "title": "New ways to balance cost and reliability in the Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/",
+      "publishedAt": "2026-04-02T16:00:00.000Z",
+      "content": "Google is introducing two new inference tiers to the Gemini API, Flex and Priority, to balance cost and latency.",
+      "summary": "Google is introducing two new inference tiers to the Gemini API, Flex and Priority, to balance cost and latency.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "inference",
+            "latency"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d4966cd2e86ba9ca",
+      "date": "2026-04-09",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "Deepgram speech-to-text and voice models now available natively on Together AI",
+      "url": "https://www.together.ai/blog/deepgram-speech-to-text-and-voice-models-now-available-natively-on-together-ai",
+      "publishedAt": "2026-04-02T00:00:00.000Z",
+      "content": "Production STT and TTS from Deepgram, available on Together AI Dedicated Model Inference for real-time voice agents.",
+      "summary": "Production STT and TTS from Deepgram, available on Together AI Dedicated Model Inference for real-time voice agents.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.81,
+          "rationale": [
+            "voice",
+            "speech",
+            "tts"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
     {
       "id": "b2385b2f3cb04bd5",
       "date": "2026-04-08",
@@ -90,97 +181,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "12aab15e1679cbc4",
-      "date": "2026-04-08",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google AI Blog",
-      "sourceKey": "official:Google AI Blog",
-      "builderOrOrg": "Google",
-      "title": "New ways to balance cost and reliability in the Gemini API",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/",
-      "publishedAt": "2026-04-02T16:00:00.000Z",
-      "content": "Google is introducing two new inference tiers to the Gemini API, Flex and Priority, to balance cost and latency.",
-      "summary": "Google is introducing two new inference tiers to the Gemini API, Flex and Priority, to balance cost and latency.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.69,
-          "rationale": [
-            "inference",
-            "latency"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d4966cd2e86ba9ca",
-      "date": "2026-04-08",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Together AI Blog",
-      "sourceKey": "official:Together AI Blog",
-      "builderOrOrg": "Together AI",
-      "title": "Deepgram speech-to-text and voice models now available natively on Together AI",
-      "url": "https://www.together.ai/blog/deepgram-speech-to-text-and-voice-models-now-available-natively-on-together-ai",
-      "publishedAt": "2026-04-02T00:00:00.000Z",
-      "content": "Production STT and TTS from Deepgram, available on Together AI Dedicated Model Inference for real-time voice agents.",
-      "summary": "Production STT and TTS from Deepgram, available on Together AI Dedicated Model Inference for real-time voice agents.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "voice",
-          "label": "Voice",
-          "confidence": 0.81,
-          "rationale": [
-            "voice",
-            "speech",
-            "tts"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
       "whyThisMatters": ""
     }
   ]
