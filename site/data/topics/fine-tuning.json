@@ -1,8 +1,143 @@
 {
-  "generatedAt": "2026-04-09T04:06:07.247Z",
+  "generatedAt": "2026-04-10T00:52:52.346Z",
   "slug": "fine-tuning",
   "label": "Custom AI",
   "items": [
+    {
+      "id": "5bcd1dcd791b3d69",
+      "date": "2026-04-10",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:danshipper",
+      "builderOrOrg": "Dan Shipper",
+      "title": "We use OpenClaws to do all of our work at @every. We have 25 full-time employees, so we’re one…",
+      "url": "https://x.com/danshipper/status/2041903948873777629",
+      "publishedAt": "2026-04-08T15:40:12.000Z",
+      "content": "We use OpenClaws to do all of our work at @every. We have 25 full-time employees, so we’re one of the few companies in the world that has seen how work changes when everyone has their own personal agent in the company Slack. I chatted with @every COO Brandon (@bran_don_gell) and @every head of platform Willie (@bigwilliestyle) to share what we’ve learned. We get into: - Why agents become mirrors of their owners, and how that influences how other people on the team interact with them - How a par…",
+      "summary": "We use OpenClaws to do all of our work at @every. We have 25 full-time employees, so we’re one of the few companies in the world that has seen how work changes when everyone has their own personal agent in the company S…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 255,
+        "retweets": 18,
+        "replies": 15
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "cd0262b7d1b50131",
+      "date": "2026-04-10",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Hugging Face Blog",
+      "sourceKey": "official:Hugging Face Blog",
+      "builderOrOrg": "Hugging Face",
+      "title": "Waypoint-1.5: Higher-Fidelity Interactive Worlds for Everyday GPUs",
+      "url": "https://huggingface.co/blog/waypoint-1-5",
+      "publishedAt": "2026-04-09T00:00:00.000Z",
+      "content": "",
+      "summary": "",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "e703530ec4f372ea",
+      "date": "2026-04-10",
+      "sourceType": "blog",
+      "sourceGroup": "china",
+      "sourceName": "MiniMax News",
+      "sourceKey": "china:MiniMax News",
+      "builderOrOrg": "MiniMax",
+      "title": "MiniMax M2.1: Significantly Enhanced Multi-Language Programming, Built for Real-World Complex Tasks - MiniMax News | MiniMax",
+      "url": "https://www.minimax.io/news/minimax-m21",
+      "publishedAt": "2026-04-10T00:52:45.190Z",
+      "content": "",
+      "summary": "",
+      "regionTags": [
+        "china-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "china-models",
+          "label": "Chinese AI",
+          "confidence": 0.81,
+          "rationale": [
+            "minimax",
+            "china-models"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "programming"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Chinese Models",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
     {
       "id": "e9b78adf0ec8abba",
       "date": "2026-04-09",
@@ -47,60 +182,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.55,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "e703530ec4f372ea",
-      "date": "2026-04-09",
-      "sourceType": "blog",
-      "sourceGroup": "china",
-      "sourceName": "MiniMax News",
-      "sourceKey": "china:MiniMax News",
-      "builderOrOrg": "MiniMax",
-      "title": "MiniMax M2.1: Significantly Enhanced Multi-Language Programming, Built for Real-World Complex Tasks - MiniMax News | MiniMax",
-      "url": "https://www.minimax.io/news/minimax-m21",
-      "publishedAt": "2026-04-09T04:06:04.259Z",
-      "content": "",
-      "summary": "",
-      "regionTags": [
-        "china-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "china-models",
-          "label": "Chinese AI",
-          "confidence": 0.81,
-          "rationale": [
-            "minimax",
-            "china-models"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "programming"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Chinese Models",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {

@@ -1,11 +1,119 @@
 {
-  "generatedAt": "2026-04-09T04:06:07.247Z",
+  "generatedAt": "2026-04-10T00:52:52.346Z",
   "slug": "open-source",
   "label": "Open Source",
   "items": [
     {
+      "id": "266c1c67293e7034",
+      "date": "2026-04-10",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:nikunj",
+      "builderOrOrg": "Nikunj Kothari",
+      "title": "Inspired by @karpathy & @FarzaTV, introducing LLMwiki.. fully open source to help build yours.…",
+      "url": "https://x.com/nikunj/status/2042020992969744702",
+      "publishedAt": "2026-04-08T23:25:18.000Z",
+      "content": "Inspired by @karpathy & @FarzaTV, introducing LLMwiki.. fully open source to help build yours. Inputs were tweets, bookmarks, iMessage/WhatsApp, and all my writing. Spent a bunch of time refining the frontend design to make it look great. Even though every single article here was written by AI, it was able to make surprisingly sharp connections. To make yours, just give the repo to Claude Code and it'll guide you!",
+      "summary": "Inspired by @karpathy & @FarzaTV, introducing LLMwiki.. fully open source to help build yours. Inputs were tweets, bookmarks, iMessage/WhatsApp, and all my writing. Spent a bunch of time refining the frontend design to…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 209,
+        "retweets": 6,
+        "replies": 13
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "repo"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open source"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "80027091b41fa249",
+      "date": "2026-04-10",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "AI & I by Every",
+      "sourceKey": "podcast:AI & I by Every",
+      "builderOrOrg": "AI & I by Every",
+      "title": "We Gave Every Employee an AI Agent. Here's What Happened.",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "publishedAt": "2026-04-08T15:00:00.000Z",
+      "content": "Speaker 1 | 00:00 - 00:28 Clawed is not mine. Clawed is everybody's. A claw or a plus one is mine because you develop a personal relationship with your claw, and your claw can modify itself in response to talking to you. It becomes this reflection of you and who you are and your personality. If you're known for slaying inside of your org and you're using your claw publicly inside of Slack or Discord, your claw then becomes known for that same kind of thing and people trust it for that. Speaker 1 | 00:28 - 00:51 And I think that's such a useful thing that I don't think people really understand how powerful that is. Willie, what's up? Brandon, welcome to the show. Speaker 2 | 00:51 - 00:52 Thank you. Speaker 3 | 00:52 - 00:53 Thanks for being here. Psyched to have Speaker 1 | 00:53 - 01:14 you guys here. So for people who don't know, Willie, you are the head of platform at Every, and Brandon, you are the COO at Every. And today, we're going to talk about what happens when everyone on your team has an agent, specifically has an OpenClaw. That's something that happened to us over the last month or two. We really got Open Claw pilled. Speaker 1 | 01:14 - 01:54 I really started actually, I think with you two, we were on a retreat in Panama and you started cooking up Open Claw stuff. And here we are about two months later, and it has completely changed everything about the way that we work. We've even actually built our own hosted OpenCLOS service called PlusOne that we launched in Waitlist last week. But I think OpenCLOS is one of those things that it's super hyped, and I think that we're one of the few organizations in the world that is actually using it every day to get work done, and we know the good, bad, and the ugly of it. And so I thought it would be good for us to just talk about our experience with it. Speaker 3 | 01:54 - 02:06 Yeah. Yeah. I think I'd actually love to Brandon, I feel like you were the first one through the door on all this because we were just we were sitting here and you were like, oh, Zosia's doing this and Zosia's doing that. Speaker 1 | 02:06 - 02:20 And Zosia is his claw, which named after a character in what's that? What's the show? Purvis. Well, Brandon, why don't why don't we, like, why don't we start with just tell us how you got claw filled. Speaker 2 | 02:21 - 02:35 Yeah. So I was watching Open Claw kind of blow up for a while. And I am just personally somebody who needs to have like a thing on the side I'm tinkering with. And I was like, screw it. I'm gonna get a Mac mini. Speaker 2 | 02:35 - 02:47 And I'm gonna like just this is gonna be like my next thing that I like, loo basically lose myself in. It's very unhealthy. I get like addicted to these things. Dan, you watched me do that with my speakers. I did it with the DreamRecorder. Speaker 2 | 02:48 - 03:06 OpenClaw was the next thing that I was like gonna get lost in. So I bought it back many. I started setting it up. It was so much work, honestly. Like, it's it is an open source thing that you can launch on a computer and and but, like, the number of things that break and the number of things that you need to set up are really significant. Speaker 2 | 03:07 - 03:45 I went through all of that and made at the end of the day my OpenCLOG, which I named Zosia. And her job was to be the Help me and my wife, like, run our household because we have a newborn, and there's like a lot of little paper cuts that I was finding that were like really paint I started calling them computer errands. So I would like get home from work, and I noticed the amount of things that I needed to do where I was looking at my phone, when I really just wanted to be like looking at my son and spending time with my wife, was increasing with having a child. All household chores. Speaker 1 | 03:45 - 03:46 What would be an example? Speaker 2 | 03:46 - 04:05 Yeah, like a good example is like I do a lot of our food at home. And with a child, I I decided to start doing food deliv…",
+      "summary": "Speaker 1 | 00:00 - 00:28 Clawed is not mine. Clawed is everybody's. A claw or a plus one is mine because you develop a personal relationship with your claw, and your claw can modify itself in response to talking to you. It becomes this re…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "paper",
+            "finding"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open source"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.66,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.78,
+      "whyThisMatters": ""
+    },
+    {
       "id": "14c61f0c0ad6c5dd",
-      "date": "2026-04-09",
+      "date": "2026-04-10",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Mistral AI Blog",
