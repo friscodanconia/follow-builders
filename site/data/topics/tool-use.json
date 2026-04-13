@@ -1,8 +1,173 @@
 {
-  "generatedAt": "2026-04-12T04:23:35.900Z",
+  "generatedAt": "2026-04-13T01:07:59.248Z",
   "slug": "tool-use",
   "label": "AI Using Tools",
   "items": [
+    {
+      "id": "d553e0e13688321b",
+      "date": "2026-04-13",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "This chart puts the datacenter demands into perspective very clearly. Amazon has done more cape…",
+      "url": "https://x.com/levie/status/2043192337111924930",
+      "publishedAt": "2026-04-12T04:59:48.000Z",
+      "content": "This chart puts the datacenter demands into perspective very clearly. Amazon has done more capex in the last 3 years than its entire history. Right now most AI adoption is on chat tools that are relatively token efficient. Comparatively, coding agents, use orders of magnitude more tokens, but are only used by a small population today. These same kind of consumption patterns are about to come for the rest of knowledge work as well. The demand to process tokens for agents is probably 100s of time…",
+      "summary": "This chart puts the datacenter demands into perspective very clearly. Amazon has done more capex in the last 3 years than its entire history. Right now most AI adoption is on chat tools that are relatively token efficie…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 70,
+        "retweets": 15,
+        "replies": 16
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "ebc45f684f21edaf",
+      "date": "2026-04-13",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:steipete",
+      "builderOrOrg": "Peter Steinberger",
+      "title": "Two experiments in the next @openclaw to address some \"GPT is lazy\" issues: 1) Strict mode: age…",
+      "url": "https://x.com/steipete/status/2043136615640694797",
+      "publishedAt": "2026-04-12T01:18:23.000Z",
+      "content": "Two experiments in the next @openclaw to address some \"GPT is lazy\" issues: 1) Strict mode: agents.defaults.embeddedPi.executionContract = \"strict-agentic\" This tells GPT-5.x to keep working: read more code, call tools, make changes, or return a real blocker instead of stopping at “here’s the plan.” https://t.co/QMdeus6Y5J",
+      "summary": "Two experiments in the next @openclaw to address some \"GPT is lazy\" issues: 1) Strict mode: agents.defaults.embeddedPi.executionContract = \"strict-agentic\" This tells GPT-5.x to keep working: read more code, call tools,…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 1009,
+        "retweets": 58,
+        "replies": 82
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7c12c26a34201412",
+      "date": "2026-04-13",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Claude Opus 4.6 \\ Anthropic",
+      "url": "https://www.anthropic.com/news/claude-opus-4-6",
+      "publishedAt": null,
+      "content": "We’re upgrading our smartest model. Across agentic coding, computer use, tool use, search, and finance, Opus 4.6 is an industry-leading model, often by wide margin.",
+      "summary": "We’re upgrading our smartest model. Across agentic coding, computer use, tool use, search, and finance, Opus 4.6 is an industry-leading model, often by wide margin.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tool use"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
     {
       "id": "187a187e64461329",
       "date": "2026-04-12",
@@ -183,60 +348,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "7c12c26a34201412",
-      "date": "2026-04-12",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Claude Opus 4.6 \\ Anthropic",
-      "url": "https://www.anthropic.com/news/claude-opus-4-6",
-      "publishedAt": null,
-      "content": "We’re upgrading our smartest model. Across agentic coding, computer use, tool use, search, and finance, Opus 4.6 is an industry-leading model, often by wide margin.",
-      "summary": "We’re upgrading our smartest model. Across agentic coding, computer use, tool use, search, and finance, Opus 4.6 is an industry-leading model, often by wide margin.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tool use"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
       "whyThisMatters": ""
     },
     {
