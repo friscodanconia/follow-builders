@@ -2,5 +2,11 @@
   "installCommand": "npm run setup",
   "buildCommand": "npm run build",
   "outputDirectory": "site/.next",
-  "framework": "nextjs"
+  "framework": "nextjs",
+  "crons": [
+    {
+      "path": "/api/trigger-digest",
+      "schedule": "30 0 * * *"
+    }
+  ]
 }
