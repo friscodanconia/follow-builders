@@ -4,6 +4,7 @@ import { SignalCard } from '../../../components/signal-card';
 import { TopicBadge } from '../../../components/topic-badge';
 import { getTopicItems } from '../../../lib/content-data';
 import { formatPublishedDate } from '../../../lib/presentation';
+import { siteConfig } from '../../../lib/site-config';
 
 export const dynamic = 'force-dynamic';
 
@@ -15,6 +16,9 @@ export async function generateMetadata({ params }) {
   return {
     title: `${label} — AI Builders Digest`,
     description: `${count} curated items about ${label} from AI builders, research labs, and open-source projects.`,
+    alternates: {
+      canonical: `${siteConfig.siteUrl}/topic/${slug}`,
+    },
     openGraph: {
       title: `${label} — AI Builders Digest`,
       description: `${count} curated items about ${label}. Follow builders, not influencers.`,

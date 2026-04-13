@@ -11,6 +11,9 @@ const metadata = {
     siteName: siteConfig.projectName,
     type: 'website',
   },
+  alternates: siteConfig.siteUrl
+    ? { canonical: siteConfig.siteUrl }
+    : {},
 };
 
 if (siteConfig.siteUrl) {
@@ -25,6 +28,31 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="alternate" type="application/rss+xml" title={siteConfig.projectName} href="/feed.xml" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'WebSite',
+              name: siteConfig.projectName,
+              url: siteConfig.siteUrl,
+              description: 'A daily summary of what top AI builders are shipping. Simple, readable, no hype.',
+              publisher: {
+                '@type': 'Organization',
+                name: siteConfig.projectName,
+                url: siteConfig.siteUrl,
+              },
+              potentialAction: {
+                '@type': 'SearchAction',
+                target: {
+                  '@type': 'EntryPoint',
+                  urlTemplate: `${siteConfig.siteUrl}/archive?q={search_term_string}`,
+                },
+                'query-input': 'required name=search_term_string',
+              },
+            }),
+          }}
+        />
       </head>
       <body className="min-h-screen antialiased">
         <header className="sticky top-0 z-40 border-b border-[var(--color-border)] bg-[rgba(250,248,245,0.92)] backdrop-blur-md">
