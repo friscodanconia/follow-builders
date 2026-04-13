@@ -28,7 +28,7 @@ export async function GET() {
     'User-agent: CCBot',
     'Disallow: /',
     '',
-    `Sitemap: ${siteConfig.siteUrl}/sitemap.xml`,
+    `Sitemap: ${siteConfig.siteUrl.replace(/\/$/, '')}/sitemap.xml`,
   ].join('\n');
 
   return new Response(body, {
