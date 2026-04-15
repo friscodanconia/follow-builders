@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-15T00:35:55.125Z",
+  "generatedAt": "2026-04-15T03:45:46.428Z",
   "slug": "fine-tuning",
   "label": "Custom AI",
   "items": [
@@ -44,9 +44,9 @@
       ],
       "section": "Builders",
       "importanceScore": 0.84,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.9,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.65,
       "whyThisMatters": ""
     },
     {
@@ -81,9 +81,53 @@
       ],
       "section": "Builders",
       "importanceScore": 0.63,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.76,
+      "digestScore": 0.51,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "f1381c8d9bc46b78",
+      "date": "2026-04-15",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "ChatGPT for finance teams",
+      "url": "https://openai.com/academy/finance",
+      "publishedAt": "2026-04-10T00:00:00.000Z",
+      "content": "Learn how finance teams use ChatGPT to streamline reporting, analyze data, improve forecasts, and communicate insights more clearly.",
+      "summary": "Learn how finance teams use ChatGPT to streamline reporting, analyze data, improve forecasts, and communicate insights more clearly.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
       "whyThisMatters": ""
     },
     {
@@ -134,9 +178,9 @@
       ],
       "section": "Official Sources",
       "importanceScore": 0.72,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.82,
+      "digestScore": 0.57,
       "whyThisMatters": ""
     },
     {
@@ -220,9 +264,9 @@
       ],
       "section": "Podcasts & Newsletters",
       "importanceScore": 0.54,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.7,
+      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -235,7 +279,7 @@
       "builderOrOrg": "MiniMax",
       "title": "MiniMax M2.1: Significantly Enhanced Multi-Language Programming, Built for Real-World Complex Tasks - MiniMax News | MiniMax",
       "url": "https://www.minimax.io/news/minimax-m21",
-      "publishedAt": "2026-04-15T00:35:52.739Z",
+      "publishedAt": "2026-04-15T03:45:39.845Z",
       "content": "",
       "summary": "",
       "regionTags": [
@@ -479,50 +523,6 @@
           "confidence": 0.5700000000000001,
           "rationale": [
             "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "f1381c8d9bc46b78",
-      "date": "2026-04-14",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "ChatGPT for finance teams",
-      "url": "https://openai.com/academy/finance",
-      "publishedAt": "2026-04-10T00:00:00.000Z",
-      "content": "Learn how finance teams use ChatGPT to streamline reporting, analyze data, improve forecasts, and communicate insights more clearly.",
-      "summary": "Learn how finance teams use ChatGPT to streamline reporting, analyze data, improve forecasts, and communicate insights more clearly.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
           ],
           "score": 1
         },
