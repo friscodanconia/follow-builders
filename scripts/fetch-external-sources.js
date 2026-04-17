@@ -131,10 +131,19 @@ function extractArticleMetadata(html, url) {
   const title = stripHtml(titleMatch ? titleMatch[1] : url);
   const summary = truncateText(stripHtml(descriptionMatch ? descriptionMatch[1] : ''), 240);
 
-  // Fall back to URL-based date extraction when HTML metadata has no date
-  const publishedAt = timeMatch
-    ? new Date(timeMatch[1]).toISOString()
-    : extractDateFromUrl(url);
+  // Some sites (e.g., MiniMax) return the current server time as datePublished
+  // on every request. Detect and discard dates within 10 minutes of now.
+  let publishedAt = null;
+  if (timeMatch) {
+    const parsed = new Date(timeMatch[1]);
+    const ageMs = Math.abs(Date.now() - parsed.getTime());
+    if (ageMs > 10 * 60 * 1000) {
+      publishedAt = parsed.toISOString();
+    }
+  }
+  if (!publishedAt) {
+    publishedAt = extractDateFromUrl(url);
+  }
 
   return {
     title,

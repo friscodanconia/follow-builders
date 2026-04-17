@@ -51,6 +51,8 @@ function extractDateFromUrl(url) {
   return null;
 }
 
+const MIN_CONTENT_LENGTH = 50;
+
 // Returns true if the item is too old to include in a digest for the given date.
 function isStale(item, digestDate) {
   const pubDate = item.publishedAt || extractDateFromUrl(item.url);
@@ -264,7 +266,7 @@ function selectDigestItems(items) {
     }
   }
 
-  // Guarantee at least 1 Chinese AI item
+  // Guarantee at least 1 Chinese AI item — replace the lowest-scored non-China item
   const hasChina = selected.some((s) => s.topics?.some((t) => t.slug === 'china-models'));
   if (!hasChina) {
     const topChina = sorted.find((item) =>
@@ -275,7 +277,7 @@ function selectDigestItems(items) {
 
     if (topChina && selected.length > 0) {
       const lastNonChina = [...selected].reverse().findIndex((s) =>
-        !s.topics?.some((t) => t.slug === 'china-models') && s.sourceType !== 'x'
+        !s.topics?.some((t) => t.slug === 'china-models')
       );
       if (lastNonChina !== -1) {
         selected.splice(selected.length - 1 - lastNonChina, 1);
@@ -321,16 +323,24 @@ export async function buildStructuredDataset({ digestDate, feedX, feedPodcasts, 
   // presented as breaking news, which destroys credibility.
   const fresh = [];
   const staleCount = { total: 0, bySource: {} };
+  let thinCount = 0;
   for (const item of normalized) {
     if (isStale(item, digestDate)) {
       staleCount.total += 1;
       staleCount.bySource[item.sourceName] = (staleCount.bySource[item.sourceName] || 0) + 1;
       continue;
     }
+    if ((item.content || '').length < MIN_CONTENT_LENGTH) {
+      thinCount += 1;
+      continue;
+    }
     fresh.push(item);
   }
   if (staleCount.total > 0) {
     console.error(`  Freshness filter: dropped ${staleCount.total} stale items (>${MAX_AGE_DAYS}d old):`, JSON.stringify(staleCount.bySource));
+  }
+  if (thinCount > 0) {
+    console.error(`  Substance filter: dropped ${thinCount} thin items (<${MIN_CONTENT_LENGTH} chars)`);
   }
 
   const items = [];
