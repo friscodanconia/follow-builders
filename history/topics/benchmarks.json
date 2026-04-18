@@ -1,28 +1,37 @@
 {
-  "generatedAt": "2026-04-17T04:24:59.147Z",
+  "generatedAt": "2026-04-18T00:41:28.350Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
     {
-      "id": "0b58db265a4d3816",
-      "date": "2026-04-17",
+      "id": "e4f70b7dbf4538e3",
+      "date": "2026-04-18",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:mattturck",
-      "builderOrOrg": "Matt Turck",
-      "title": "The roadmap for Claude Cowork is… one month long. Things are moving too fast in AI to plan any…",
-      "url": "https://x.com/mattturck/status/2044534930684719394",
-      "publishedAt": "2026-04-15T21:54:47.000Z",
-      "content": "The roadmap for Claude Cowork is… one month long. Things are moving too fast in AI to plan any further. Ship, evaluate, iterate. @felixrieseberg, who heads up Cowork at @AnthropicAI https://t.co/8YYpbM2yXU https://t.co/ikBz3rW0sT",
-      "summary": "The roadmap for Claude Cowork is… one month long. Things are moving too fast in AI to plan any further. Ship, evaluate, iterate. @felixrieseberg, who heads up Cowork at @AnthropicAI https://t.co/8YYpbM2yXU https://t.co/…",
+      "sourceKey": "x:petergyang",
+      "builderOrOrg": "Peter Yang",
+      "title": "When I build skills now I always ask AI to spin up a separate eval agent to do yes/no checks to…",
+      "url": "https://x.com/petergyang/status/2044998456062906422",
+      "publishedAt": "2026-04-17T04:36:40.000Z",
+      "content": "When I build skills now I always ask AI to spin up a separate eval agent to do yes/no checks to grade the first agent's output. And if the output isn't \"yes\" across the board it asks the first agent to keep working. Building one for YouTube thumbnails and titles now. https://t.co/UvOoxekYVy",
+      "summary": "When I build skills now I always ask AI to spin up a separate eval agent to do yes/no checks to grade the first agent's output. And if the output isn't \"yes\" across the board it asks the first agent to keep working. Bui…",
       "regionTags": [],
       "metrics": {
-        "likes": 22,
-        "retweets": 5,
-        "replies": 0
+        "likes": 15,
+        "retweets": 0,
+        "replies": 5
       },
       "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
         {
           "slug": "benchmarks",
           "label": "AI Testing",
@@ -34,15 +43,15 @@
         }
       ],
       "section": "Builders",
-      "importanceScore": 0.62,
-      "noveltyScore": 0.3,
+      "importanceScore": 0.74,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.51,
+      "digestScore": 0.83,
       "whyThisMatters": ""
     },
     {
       "id": "4ebe65d424b90206",
-      "date": "2026-04-17",
+      "date": "2026-04-18",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Hugging Face Blog",
@@ -82,6 +91,43 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "0b58db265a4d3816",
+      "date": "2026-04-17",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:mattturck",
+      "builderOrOrg": "Matt Turck",
+      "title": "The roadmap for Claude Cowork is… one month long. Things are moving too fast in AI to plan any…",
+      "url": "https://x.com/mattturck/status/2044534930684719394",
+      "publishedAt": "2026-04-15T21:54:47.000Z",
+      "content": "The roadmap for Claude Cowork is… one month long. Things are moving too fast in AI to plan any further. Ship, evaluate, iterate. @felixrieseberg, who heads up Cowork at @AnthropicAI https://t.co/8YYpbM2yXU https://t.co/ikBz3rW0sT",
+      "summary": "The roadmap for Claude Cowork is… one month long. Things are moving too fast in AI to plan any further. Ship, evaluate, iterate. @felixrieseberg, who heads up Cowork at @AnthropicAI https://t.co/8YYpbM2yXU https://t.co/…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 22,
+        "retweets": 5,
+        "replies": 0
+      },
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.62,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.51,
       "whyThisMatters": ""
     },
     {
