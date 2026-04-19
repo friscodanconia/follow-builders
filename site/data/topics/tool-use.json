@@ -1,8 +1,290 @@
 {
-  "generatedAt": "2026-04-18T04:06:56.294Z",
+  "generatedAt": "2026-04-19T00:42:50.454Z",
   "slug": "tool-use",
   "label": "AI Using Tools",
   "items": [
+    {
+      "id": "a5df3420cb531c42",
+      "date": "2026-04-19",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "Software going headless is inevitable in a world where agents use the tools 100X more than peop…",
+      "url": "https://x.com/levie/status/2045355693050655048",
+      "publishedAt": "2026-04-18T04:16:12.000Z",
+      "content": "Software going headless is inevitable in a world where agents use the tools 100X more than people do. And the reality is for a lot of software this is actually a huge boon to potential use-cases for these platforms. Software business models have largely been predicated on selling to the number of seats that are in the company in a given function, and the usage of your software is constrained by how much people can do in a given day. This means that your technology is often vastly underutilized…",
+      "summary": "Software going headless is inevitable in a world where agents use the tools 100X more than people do. And the reality is for a lot of software this is actually a huge boon to potential use-cases for these platforms. Sof…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 292,
+        "retweets": 22,
+        "replies": 24
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "a5d951233b60ab29",
+      "date": "2026-04-19",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "The next evolution of the Agents SDK",
+      "url": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
+      "publishedAt": "2026-04-15T10:00:00.000Z",
+      "content": "OpenAI updates the Agents SDK with native sandbox execution and a model-native harness, helping developers build secure, long-running agents across files and tools.",
+      "summary": "OpenAI updates the Agents SDK with native sandbox execution and a model-native harness, helping developers build secure, long-running agents across files and tools.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "developer"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "046e5af8aaba07c8",
+      "date": "2026-04-19",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Hugging Face Blog",
+      "sourceKey": "official:Hugging Face Blog",
+      "builderOrOrg": "Hugging Face",
+      "title": "Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents",
+      "url": "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis",
+      "publishedAt": "2026-04-15T12:07:25.000Z",
+      "content": "",
+      "summary": "",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "reasoning"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tool use"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "1b8f6ff4670e149b",
+      "date": "2026-04-19",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google AI Blog",
+      "sourceKey": "official:Google AI Blog",
+      "builderOrOrg": "Google",
+      "title": "7 ways to travel smarter this summer, with help from Google",
+      "url": "https://blog.google/products-and-platforms/products/search/summer-travel-tips-google-search-ai/",
+      "publishedAt": "2026-04-17T14:00:00.000Z",
+      "content": "The latest tools from Google can help you plan trips, find a great deal and explore your next destination.",
+      "summary": "The latest tools from Google can help you plan trips, find a great deal and explore your next destination.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "1c92ce07af6f1a0f",
+      "date": "2026-04-19",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google AI Blog",
+      "sourceKey": "official:Google AI Blog",
+      "builderOrOrg": "Google",
+      "title": "Turn your best AI prompts into one-click tools in Chrome",
+      "url": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
+      "publishedAt": "2026-04-14T17:00:00.000Z",
+      "content": "Skills in Chrome let you discover, save and remix AI workflows — and repeat them instantly.",
+      "summary": "Skills in Chrome let you discover, save and remix AI workflows — and repeat them instantly.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "5f58cf6bb99f7e28",
+      "date": "2026-04-19",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Notion’s Token Town: 5 Rebuilds, 100+ Tools, MCP vs CLIs and the Software Factory Future — Simon Last & Sarah Sachs of Notion",
+      "url": "https://www.latent.space/p/notion",
+      "publishedAt": "2026-04-15T00:31:14.000Z",
+      "content": "Notion's cofounder and head of AI peel back the curtains to talk about finally shipping the Knowledge Work AI agents the world has been waiting for.",
+      "summary": "Notion's cofounder and head of AI peel back the curtains to talk about finally shipping the Knowledge Work AI agents the world has been waiting for.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
     {
       "id": "7121d3fed5d9ca94",
       "date": "2026-04-18",
@@ -146,233 +428,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a5d951233b60ab29",
-      "date": "2026-04-18",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "The next evolution of the Agents SDK",
-      "url": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
-      "publishedAt": "2026-04-15T10:00:00.000Z",
-      "content": "OpenAI updates the Agents SDK with native sandbox execution and a model-native harness, helping developers build secure, long-running agents across files and tools.",
-      "summary": "OpenAI updates the Agents SDK with native sandbox execution and a model-native harness, helping developers build secure, long-running agents across files and tools.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "developer"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "046e5af8aaba07c8",
-      "date": "2026-04-18",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Hugging Face Blog",
-      "sourceKey": "official:Hugging Face Blog",
-      "builderOrOrg": "Hugging Face",
-      "title": "Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents",
-      "url": "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis",
-      "publishedAt": "2026-04-15T12:07:25.000Z",
-      "content": "",
-      "summary": "",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "reasoning",
-          "label": "AI Thinking",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "reasoning"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tool use"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "1b8f6ff4670e149b",
-      "date": "2026-04-18",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google AI Blog",
-      "sourceKey": "official:Google AI Blog",
-      "builderOrOrg": "Google",
-      "title": "7 ways to travel smarter this summer, with help from Google",
-      "url": "https://blog.google/products-and-platforms/products/search/summer-travel-tips-google-search-ai/",
-      "publishedAt": "2026-04-17T14:00:00.000Z",
-      "content": "The latest tools from Google can help you plan trips, find a great deal and explore your next destination.",
-      "summary": "The latest tools from Google can help you plan trips, find a great deal and explore your next destination.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "1c92ce07af6f1a0f",
-      "date": "2026-04-18",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google AI Blog",
-      "sourceKey": "official:Google AI Blog",
-      "builderOrOrg": "Google",
-      "title": "Turn your best AI prompts into one-click tools in Chrome",
-      "url": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
-      "publishedAt": "2026-04-14T17:00:00.000Z",
-      "content": "Skills in Chrome let you discover, save and remix AI workflows — and repeat them instantly.",
-      "summary": "Skills in Chrome let you discover, save and remix AI workflows — and repeat them instantly.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "5f58cf6bb99f7e28",
-      "date": "2026-04-18",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "Notion’s Token Town: 5 Rebuilds, 100+ Tools, MCP vs CLIs and the Software Factory Future — Simon Last & Sarah Sachs of Notion",
-      "url": "https://www.latent.space/p/notion",
-      "publishedAt": "2026-04-15T00:31:14.000Z",
-      "content": "Notion's cofounder and head of AI peel back the curtains to talk about finally shipping the Knowledge Work AI agents the world has been waiting for.",
-      "summary": "Notion's cofounder and head of AI peel back the curtains to talk about finally shipping the Knowledge Work AI agents the world has been waiting for.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
