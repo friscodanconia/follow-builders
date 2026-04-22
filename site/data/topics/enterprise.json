@@ -1,25 +1,117 @@
 {
-  "generatedAt": "2026-04-21T04:24:18.722Z",
+  "generatedAt": "2026-04-22T01:18:48.189Z",
   "slug": "enterprise",
   "label": "Business AI",
   "items": [
     {
-      "id": "0ed36c899adac6ad",
-      "date": "2026-04-21",
+      "id": "891fdf199ee68910",
+      "date": "2026-04-22",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:nikunj",
-      "builderOrOrg": "Nikunj Kothari",
-      "title": "Cybersecurity companies are going to be worth a lot.. the pace of attacks is only going to incr…",
-      "url": "https://x.com/nikunj/status/2046007615512256624",
-      "publishedAt": "2026-04-19T23:26:43.000Z",
-      "content": "Cybersecurity companies are going to be worth a lot.. the pace of attacks is only going to increase as model capabilities improve. Humans will continue to be the primary vector of attack - and we haven’t seen anything yet. Hugops to all the infra providers 🫡",
-      "summary": "Cybersecurity companies are going to be worth a lot.. the pace of attacks is only going to increase as model capabilities improve. Humans will continue to be the primary vector of attack - and we haven’t seen anything y…",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "I’m so encouraged by the way our team and industry peers have shown up to protect the internet.…",
+      "url": "https://x.com/rauchg/status/2046406894269747668",
+      "publishedAt": "2026-04-21T01:53:18.000Z",
+      "content": "I’m so encouraged by the way our team and industry peers have shown up to protect the internet. We’ve now shipped over 20 product improvements across Dashboard and CLI to help your security posture. Easier to set up MFA, audit your Environment Variables, Activity logs and more https://t.co/5Qi2NEvUhw",
+      "summary": "I’m so encouraged by the way our team and industry peers have shown up to protect the internet. We’ve now shipped over 20 product improvements across Dashboard and CLI to help your security posture. Easier to set up MFA…",
       "regionTags": [],
       "metrics": {
-        "likes": 79,
-        "retweets": 7,
+        "likes": 647,
+        "retweets": 33,
+        "replies": 50
+      },
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.78,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.86,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d267b4a86e56f979",
+      "date": "2026-04-22",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "Getting lots of questions about how to learn more about the incident. We're actively maintainin…",
+      "url": "https://x.com/rauchg/status/2046305710120829374",
+      "publishedAt": "2026-04-20T19:11:14.000Z",
+      "content": "Getting lots of questions about how to learn more about the incident. We're actively maintaining the security bulletin. That's the source. The bulletin includes security best practices to take out of an abundance of caution. To reiterate, we directly contacted all Vercel customers that we believe to be impacted by the IOC shared in the bulletin. One misconception we've seen that I need to call out. Deletion (e.g.: of an env var, project, account…) does not imply Rotation. Rotating keys means *i…",
+      "summary": "Getting lots of questions about how to learn more about the incident. We're actively maintaining the security bulletin. That's the source. The bulletin includes security best practices to take out of an abundance of cau…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 38,
+        "retweets": 4,
+        "replies": 3
+      },
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.76,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.84,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "38bae20b2c353af4",
+      "date": "2026-04-22",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:steipete",
+      "builderOrOrg": "Peter Steinberger",
+      "title": "🗃️ wacli 0.6.0 is out! Big security + reliability sweep for WhatsApp CLI. Hardens SQLite/store…",
+      "url": "https://x.com/steipete/status/2046375922031321401",
+      "publishedAt": "2026-04-20T23:50:14.000Z",
+      "content": "🗃️ wacli 0.6.0 is out! Big security + reliability sweep for WhatsApp CLI. Hardens SQLite/store path handling, sanitizes search queries, recovers sync/media panics, adds WACLI_STORE_DIR, and improves SIGINT exits. https://t.co/VabuMQgps5 props @sdinakar7 for doing the work!",
+      "summary": "🗃️ wacli 0.6.0 is out! Big security + reliability sweep for WhatsApp CLI. Hardens SQLite/store path handling, sanitizes search queries, recovers sync/media panics, adds WACLI_STORE_DIR, and improves SIGINT exits. https…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 149,
+        "retweets": 17,
         "replies": 10
       },
       "topics": [
@@ -35,14 +127,67 @@
       ],
       "section": "Builders",
       "importanceScore": 0.78,
-      "noveltyScore": 0.3,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.61,
+      "digestScore": 0.86,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "769e0396cd3a7e4c",
+      "date": "2026-04-22",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Scaling Codex to enterprises worldwide",
+      "url": "https://openai.com/index/scaling-codex-to-enterprises-worldwide",
+      "publishedAt": "2026-04-21T00:00:00.000Z",
+      "content": "OpenAI launches Codex Labs, partners with with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle, and hits 4M Codex WAU.",
+      "summary": "OpenAI launches Codex Labs, partners with with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle, and hits 4M Codex WAU.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.78,
       "whyThisMatters": ""
     },
     {
       "id": "4181ebbbbd85110f",
-      "date": "2026-04-21",
+      "date": "2026-04-22",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
@@ -86,7 +231,7 @@
     },
     {
       "id": "de56d2ba7e811c38",
-      "date": "2026-04-21",
+      "date": "2026-04-22",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
@@ -118,6 +263,78 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "26ae9ff44559d757",
+      "date": "2026-04-22",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Hugging Face Blog",
+      "sourceKey": "official:Hugging Face Blog",
+      "builderOrOrg": "Hugging Face",
+      "title": "AI and the Future of Cybersecurity: Why Openness Matters",
+      "url": "https://huggingface.co/blog/cybersecurity-openness",
+      "publishedAt": "2026-04-21T00:00:00.000Z",
+      "content": "",
+      "summary": "",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.78,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "0ed36c899adac6ad",
+      "date": "2026-04-21",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:nikunj",
+      "builderOrOrg": "Nikunj Kothari",
+      "title": "Cybersecurity companies are going to be worth a lot.. the pace of attacks is only going to incr…",
+      "url": "https://x.com/nikunj/status/2046007615512256624",
+      "publishedAt": "2026-04-19T23:26:43.000Z",
+      "content": "Cybersecurity companies are going to be worth a lot.. the pace of attacks is only going to increase as model capabilities improve. Humans will continue to be the primary vector of attack - and we haven’t seen anything yet. Hugops to all the infra providers 🫡",
+      "summary": "Cybersecurity companies are going to be worth a lot.. the pace of attacks is only going to increase as model capabilities improve. Humans will continue to be the primary vector of attack - and we haven’t seen anything y…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 79,
+        "retweets": 7,
+        "replies": 10
+      },
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.78,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.61,
       "whyThisMatters": ""
     },
     {

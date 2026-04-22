@@ -1,28 +1,44 @@
 {
-  "generatedAt": "2026-04-21T04:24:18.722Z",
+  "generatedAt": "2026-04-22T01:18:48.189Z",
   "slug": "fine-tuning",
   "label": "Custom AI",
   "items": [
     {
-      "id": "69302ff2adc1934a",
-      "date": "2026-04-21",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:mattturck",
-      "builderOrOrg": "Matt Turck",
-      "title": "Yes VCs should do more due diligence but first software went serverless and now it’s becoming h…",
-      "url": "https://x.com/mattturck/status/2045987462409826604",
-      "publishedAt": "2026-04-19T22:06:38.000Z",
-      "content": "Yes VCs should do more due diligence but first software went serverless and now it’s becoming headless so there’s not much left to look at, really",
-      "summary": "Yes VCs should do more due diligence but first software went serverless and now it’s becoming headless so there’s not much left to look at, really",
-      "regionTags": [],
-      "metrics": {
-        "likes": 51,
-        "retweets": 0,
-        "replies": 14
-      },
+      "id": "769e0396cd3a7e4c",
+      "date": "2026-04-22",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Scaling Codex to enterprises worldwide",
+      "url": "https://openai.com/index/scaling-codex-to-enterprises-worldwide",
+      "publishedAt": "2026-04-21T00:00:00.000Z",
+      "content": "OpenAI launches Codex Labs, partners with with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle, and hits 4M Codex WAU.",
+      "summary": "OpenAI launches Codex Labs, partners with with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle, and hits 4M Codex WAU.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
       "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
         {
           "slug": "fine-tuning",
           "label": "Custom AI",
@@ -33,16 +49,16 @@
           "score": 1
         }
       ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.56,
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.78,
       "whyThisMatters": ""
     },
     {
       "id": "786bcdb173e8b3df",
-      "date": "2026-04-21",
+      "date": "2026-04-22",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Hugging Face Blog",
@@ -86,7 +102,7 @@
     },
     {
       "id": "296a47569ed75ef9",
-      "date": "2026-04-21",
+      "date": "2026-04-22",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -130,7 +146,7 @@
     },
     {
       "id": "e703530ec4f372ea",
-      "date": "2026-04-21",
+      "date": "2026-04-22",
       "sourceType": "blog",
       "sourceGroup": "china",
       "sourceName": "MiniMax News",
@@ -138,7 +154,7 @@
       "builderOrOrg": "MiniMax",
       "title": "MiniMax M2.1: Significantly Enhanced Multi-Language Programming, Built for Real-World Complex Tasks - MiniMax News | MiniMax",
       "url": "https://www.minimax.io/news/minimax-m21",
-      "publishedAt": "2026-04-21T04:23:54.605Z",
+      "publishedAt": "2026-04-22T01:18:32.758Z",
       "content": "",
       "summary": "",
       "regionTags": [
@@ -176,6 +192,43 @@
         }
       ],
       "section": "Chinese Models",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "69302ff2adc1934a",
+      "date": "2026-04-21",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:mattturck",
+      "builderOrOrg": "Matt Turck",
+      "title": "Yes VCs should do more due diligence but first software went serverless and now it’s becoming h…",
+      "url": "https://x.com/mattturck/status/2045987462409826604",
+      "publishedAt": "2026-04-19T22:06:38.000Z",
+      "content": "Yes VCs should do more due diligence but first software went serverless and now it’s becoming headless so there’s not much left to look at, really",
+      "summary": "Yes VCs should do more due diligence but first software went serverless and now it’s becoming headless so there’s not much left to look at, really",
+      "regionTags": [],
+      "metrics": {
+        "likes": 51,
+        "retweets": 0,
+        "replies": 14
+      },
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
       "previouslySelected": true,

@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-04-21T04:24:18.722Z",
+  "generatedAt": "2026-04-22T01:18:48.189Z",
   "slug": "open-source",
   "label": "Open Source",
   "items": [
     {
-      "id": "f2b6ff09a4a4f789",
-      "date": "2026-04-21",
+      "id": "d60247f65711e4b7",
+      "date": "2026-04-22",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:garrytan",
-      "builderOrOrg": "Garry Tan",
-      "title": "When I run across needs inside my OpenClaw or in my regular usage, I just have Claude Code make…",
-      "url": "https://x.com/garrytan/status/2046097059057651941",
-      "publishedAt": "2026-04-20T05:22:08.000Z",
-      "content": "When I run across needs inside my OpenClaw or in my regular usage, I just have Claude Code make it, and then I release it open source This is GStack v1.4 - with a new /make-pdf skill It works great with OpenClaw/Hermes as a tool. https://t.co/XgPejzWpoS",
-      "summary": "When I run across needs inside my OpenClaw or in my regular usage, I just have Claude Code make it, and then I release it open source This is GStack v1.4 - with a new /make-pdf skill It works great with OpenClaw/Hermes…",
+      "sourceKey": "x:steipete",
+      "builderOrOrg": "Peter Steinberger",
+      "title": "Kudos to the folks from Tencent for working with us and providing evals to improve OpenClaw's h…",
+      "url": "https://x.com/steipete/status/2046259696722465113",
+      "publishedAt": "2026-04-20T16:08:24.000Z",
+      "content": "Kudos to the folks from Tencent for working with us and providing evals to improve OpenClaw's harness performance! We're also working with them to bring fixes/improvements back to the open source repo. Great option for folks not comfortable with the terminal. https://t.co/sbmx7CMLB7",
+      "summary": "Kudos to the folks from Tencent for working with us and providing evals to improve OpenClaw's harness performance! We're also working with them to bring fixes/improvements back to the open source repo. Great option for…",
       "regionTags": [],
       "metrics": {
-        "likes": 90,
-        "retweets": 7,
-        "replies": 21
+        "likes": 1051,
+        "retweets": 71,
+        "replies": 38
       },
       "topics": [
         {
@@ -28,7 +28,7 @@
           "label": "Coding",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "code"
+            "repo"
           ],
           "score": 1
         },
@@ -40,18 +40,27 @@
             "open source"
           ],
           "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
         }
       ],
       "section": "Builders",
       "importanceScore": 0.7,
-      "noveltyScore": 0.3,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.56,
+      "digestScore": 0.8,
       "whyThisMatters": ""
     },
     {
       "id": "14c61f0c0ad6c5dd",
-      "date": "2026-04-21",
+      "date": "2026-04-22",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Mistral AI Blog",
@@ -102,6 +111,52 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "f2b6ff09a4a4f789",
+      "date": "2026-04-21",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:garrytan",
+      "builderOrOrg": "Garry Tan",
+      "title": "When I run across needs inside my OpenClaw or in my regular usage, I just have Claude Code make…",
+      "url": "https://x.com/garrytan/status/2046097059057651941",
+      "publishedAt": "2026-04-20T05:22:08.000Z",
+      "content": "When I run across needs inside my OpenClaw or in my regular usage, I just have Claude Code make it, and then I release it open source This is GStack v1.4 - with a new /make-pdf skill It works great with OpenClaw/Hermes as a tool. https://t.co/XgPejzWpoS",
+      "summary": "When I run across needs inside my OpenClaw or in my regular usage, I just have Claude Code make it, and then I release it open source This is GStack v1.4 - with a new /make-pdf skill It works great with OpenClaw/Hermes…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 90,
+        "retweets": 7,
+        "replies": 21
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open source"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
