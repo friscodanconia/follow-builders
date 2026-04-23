@@ -102,6 +102,7 @@ Not every item deserves the same space. Before writing, assess each item:
 
 - **Is the source content rich with detail?** Give it full treatment (headline + 2-3 sentences + why it matters).
 - **Is it notable but thin on detail?** Make it a quick hit (headline + one sentence + link). If a source says little more than "we launched X," don't pad it with speculation.
+- **Is the content just a link share or one-liner with no substance?** DROP IT entirely. Do not write filler like "X shared a new link" or "X posted a brief message directing followers to a resource." If you can't say what the person actually said or why it matters, leave it out. 3 great stories beat 5 padded ones.
 - **Are two items part of the same trend?** Combine them into one story — that's better editing than listing them separately.
 - **Is it genuinely less important?** Put it lower and give it less space. Not every item needs a "Why it matters."
 

@@ -19,12 +19,16 @@ function parseRssFeed(xml) {
     const titleMatch = block.match(/<title><!\[CDATA\[([\s\S]*?)\]\]><\/title>/) || block.match(/<title>([\s\S]*?)<\/title>/);
     const linkMatch = block.match(/<link>([\s\S]*?)<\/link>/);
     const descriptionMatch = block.match(/<description><!\[CDATA\[([\s\S]*?)\]\]><\/description>/) || block.match(/<description>([\s\S]*?)<\/description>/);
+    const contentMatch = block.match(/<content:encoded><!\[CDATA\[([\s\S]*?)\]\]><\/content:encoded>/) || block.match(/<content:encoded>([\s\S]*?)<\/content:encoded>/);
     const pubDateMatch = block.match(/<pubDate>([\s\S]*?)<\/pubDate>/);
 
+    const summary = stripHtml(descriptionMatch ? descriptionMatch[1].trim() : '');
+    const content = stripHtml(contentMatch ? contentMatch[1].trim() : '') || summary;
     items.push({
       title: stripHtml(titleMatch ? titleMatch[1].trim() : 'Untitled'),
       url: safeUrl(linkMatch ? linkMatch[1].trim() : ''),
-      summary: stripHtml(descriptionMatch ? descriptionMatch[1].trim() : ''),
+      summary,
+      content,
       publishedAt: pubDateMatch ? new Date(pubDateMatch[1].trim()).toISOString() : null,
     });
   }
@@ -131,10 +135,19 @@ function extractArticleMetadata(html, url) {
   const title = stripHtml(titleMatch ? titleMatch[1] : url);
   const summary = truncateText(stripHtml(descriptionMatch ? descriptionMatch[1] : ''), 240);
 
-  // Fall back to URL-based date extraction when HTML metadata has no date
-  const publishedAt = timeMatch
-    ? new Date(timeMatch[1]).toISOString()
-    : extractDateFromUrl(url);
+  // Some sites (e.g., MiniMax) return the current server time as datePublished
+  // on every request. Detect and discard dates within 10 minutes of now.
+  let publishedAt = null;
+  if (timeMatch) {
+    const parsed = new Date(timeMatch[1]);
+    const ageMs = Math.abs(Date.now() - parsed.getTime());
+    if (ageMs > 10 * 60 * 1000) {
+      publishedAt = parsed.toISOString();
+    }
+  }
+  if (!publishedAt) {
+    publishedAt = extractDateFromUrl(url);
+  }
 
   return {
     title,
