@@ -19,12 +19,16 @@ function parseRssFeed(xml) {
     const titleMatch = block.match(/<title><!\[CDATA\[([\s\S]*?)\]\]><\/title>/) || block.match(/<title>([\s\S]*?)<\/title>/);
     const linkMatch = block.match(/<link>([\s\S]*?)<\/link>/);
     const descriptionMatch = block.match(/<description><!\[CDATA\[([\s\S]*?)\]\]><\/description>/) || block.match(/<description>([\s\S]*?)<\/description>/);
+    const contentMatch = block.match(/<content:encoded><!\[CDATA\[([\s\S]*?)\]\]><\/content:encoded>/) || block.match(/<content:encoded>([\s\S]*?)<\/content:encoded>/);
     const pubDateMatch = block.match(/<pubDate>([\s\S]*?)<\/pubDate>/);
 
+    const summary = stripHtml(descriptionMatch ? descriptionMatch[1].trim() : '');
+    const content = stripHtml(contentMatch ? contentMatch[1].trim() : '') || summary;
     items.push({
       title: stripHtml(titleMatch ? titleMatch[1].trim() : 'Untitled'),
       url: safeUrl(linkMatch ? linkMatch[1].trim() : ''),
-      summary: stripHtml(descriptionMatch ? descriptionMatch[1].trim() : ''),
+      summary,
+      content,
       publishedAt: pubDateMatch ? new Date(pubDateMatch[1].trim()).toISOString() : null,
     });
   }
