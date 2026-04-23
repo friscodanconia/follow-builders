@@ -1,0 +1,31 @@
+# CI-generated feed snapshots: take the incoming version on merge conflict.
+# Prevents merge conflicts on feature branches when CI has committed new
+# daily snapshots to main in the meantime.
+feed-x.json merge=ours
+feed-podcasts.json merge=ours
+feed-blogs.json merge=ours
+feed-external.json merge=ours
+state-feed.json merge=ours
+
+# CI-generated digest and structured history
+history/*.md merge=ours
+history/items/*.json merge=ours
+history/topics/*.json merge=ours
+history/builders/*.json merge=ours
+history/index.json merge=ours
+history/item-index.json merge=ours
+
+# Site data mirrors of the above
+site/data/digests/*.md merge=ours
+site/data/items/*.json merge=ours
+site/data/topics/*.json merge=ours
+site/data/builders/*.json merge=ours
+site/data/item-index.json merge=ours
+
+# Mark as generated for GitHub diff display
+feed-*.json linguist-generated=true
+history/items/*.json linguist-generated=true
+history/topics/*.json linguist-generated=true
+history/builders/*.json linguist-generated=true
+site/data/**/*.json linguist-generated=true
+site/data/**/*.md linguist-generated=true
