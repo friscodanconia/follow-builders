@@ -1,10 +1,467 @@
 {
-  "generatedAt": "2026-04-16T04:27:42.164Z",
+  "generatedAt": "2026-04-23T04:26:34.497Z",
   "handle": "steipete",
   "name": "Peter Steinberger",
-  "itemCount": 18,
-  "latestDate": "2026-04-16",
+  "itemCount": 31,
+  "latestDate": "2026-04-23",
   "items": [
+    {
+      "id": "56c21f36e2242a75",
+      "date": "2026-04-23",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:steipete",
+      "builderOrOrg": "Peter Steinberger",
+      "title": "OpenClaw 2026.4.21 is live. Small release, important fix: npm updates now repair bundled plugin…",
+      "url": "https://x.com/steipete/status/2046803162590335240",
+      "publishedAt": "2026-04-22T04:07:56.000Z",
+      "content": "OpenClaw 2026.4.21 is live. Small release, important fix: npm updates now repair bundled plugin runtime deps, with Docker E2E coverage so Telegram/Discord/Slack do not break after upgrade. Also backports OpenAI Image 2 support. npm i -g openclaw@latest",
+      "summary": "OpenClaw 2026.4.21 is live. Small release, important fix: npm updates now repair bundled plugin runtime deps, with Docker E2E coverage so Telegram/Discord/Slack do not break after upgrade. Also backports OpenAI Image 2…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 492,
+        "retweets": 17,
+        "replies": 45
+      },
+      "topics": [
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "image"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "aeb12582ac6c762f",
+      "date": "2026-04-23",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:steipete",
+      "builderOrOrg": "Peter Steinberger",
+      "title": "Did some work to get our CI times down from 8 to two minutes via some... parallelization. Kudos…",
+      "url": "https://x.com/steipete/status/2046787353906167992",
+      "publishedAt": "2026-04-22T03:05:07.000Z",
+      "content": "Did some work to get our CI times down from 8 to two minutes via some... parallelization. Kudos to the @useblacksmith folks for sponsoring + letting us melt their servers. https://t.co/CkrAuTDsK1",
+      "summary": "Did some work to get our CI times down from 8 to two minutes via some... parallelization. Kudos to the @useblacksmith folks for sponsoring + letting us melt their servers. https://t.co/CkrAuTDsK1",
+      "regionTags": [],
+      "metrics": {
+        "likes": 243,
+        "retweets": 8,
+        "replies": 17
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "00494723b5dc1090",
+      "date": "2026-04-23",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:steipete",
+      "builderOrOrg": "Peter Steinberger",
+      "title": "discrawl 0.3.0 is out. This release adds Git-backed archive sync, so a Discord archive can be p…",
+      "url": "https://x.com/steipete/status/2046748122928263345",
+      "publishedAt": "2026-04-22T00:29:13.000Z",
+      "content": "discrawl 0.3.0 is out. This release adds Git-backed archive sync, so a Discord archive can be published to a private repo and queried locally without every user needing bot credentials. Also: auto-refresh, activity reports, field notes, faster imports. https://t.co/ZFGgZEFtFQ",
+      "summary": "discrawl 0.3.0 is out. This release adds Git-backed archive sync, so a Discord archive can be published to a private repo and queried locally without every user needing bot credentials. Also: auto-refresh, activity repo…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 147,
+        "retweets": 8,
+        "replies": 10
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "38bae20b2c353af4",
+      "date": "2026-04-22",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:steipete",
+      "builderOrOrg": "Peter Steinberger",
+      "title": "🗃️ wacli 0.6.0 is out! Big security + reliability sweep for WhatsApp CLI. Hardens SQLite/store…",
+      "url": "https://x.com/steipete/status/2046375922031321401",
+      "publishedAt": "2026-04-20T23:50:14.000Z",
+      "content": "🗃️ wacli 0.6.0 is out! Big security + reliability sweep for WhatsApp CLI. Hardens SQLite/store path handling, sanitizes search queries, recovers sync/media panics, adds WACLI_STORE_DIR, and improves SIGINT exits. https://t.co/VabuMQgps5 props @sdinakar7 for doing the work!",
+      "summary": "🗃️ wacli 0.6.0 is out! Big security + reliability sweep for WhatsApp CLI. Hardens SQLite/store path handling, sanitizes search queries, recovers sync/media panics, adds WACLI_STORE_DIR, and improves SIGINT exits. https…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 149,
+        "retweets": 17,
+        "replies": 10
+      },
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.78,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "0917eca91a6f6790",
+      "date": "2026-04-22",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:steipete",
+      "builderOrOrg": "Peter Steinberger",
+      "title": "🧭 gog 0.13 is out! Gmail forwarding with notes + attachments, autoreplies, full-body search, M…",
+      "url": "https://x.com/steipete/status/2046356596683411924",
+      "publishedAt": "2026-04-20T22:33:26.000Z",
+      "content": "🧭 gog 0.13 is out! Gmail forwarding with notes + attachments, autoreplies, full-body search, Markdown uploads to Google Docs, rendered Slides thumbnails, Sheets chart editing, secondary calendars, commenter-only Drive shares, and safer no-send controls. https://t.co/7nQoJaa0Ti",
+      "summary": "🧭 gog 0.13 is out! Gmail forwarding with notes + attachments, autoreplies, full-body search, Markdown uploads to Google Docs, rendered Slides thumbnails, Sheets chart editing, secondary calendars, commenter-only Drive…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 702,
+        "retweets": 41,
+        "replies": 19
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d60247f65711e4b7",
+      "date": "2026-04-22",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:steipete",
+      "builderOrOrg": "Peter Steinberger",
+      "title": "Kudos to the folks from Tencent for working with us and providing evals to improve OpenClaw's h…",
+      "url": "https://x.com/steipete/status/2046259696722465113",
+      "publishedAt": "2026-04-20T16:08:24.000Z",
+      "content": "Kudos to the folks from Tencent for working with us and providing evals to improve OpenClaw's harness performance! We're also working with them to bring fixes/improvements back to the open source repo. Great option for folks not comfortable with the terminal. https://t.co/sbmx7CMLB7",
+      "summary": "Kudos to the folks from Tencent for working with us and providing evals to improve OpenClaw's harness performance! We're also working with them to bring fixes/improvements back to the open source repo. Great option for…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 1051,
+        "retweets": 71,
+        "replies": 38
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open source"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "07c3bf87e5b58b76",
+      "date": "2026-04-20",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:steipete",
+      "builderOrOrg": "Peter Steinberger",
+      "title": "🎚️CodexBar 0.21 Abacus AI provider, Codex Pro $100 support, safer OpenAI web extras, fixed loc…",
+      "url": "https://x.com/steipete/status/2045582547996856682",
+      "publishedAt": "2026-04-18T19:17:39.000Z",
+      "content": "🎚️CodexBar 0.21 Abacus AI provider, Codex Pro $100 support, safer OpenAI web extras, fixed local cost scanning, z. ai 5h quotas, Antigravity/Cursor/Ollama fixes, faster refreshes, macOS 26 icon fix and more. The big issue with too much CPU usage was an OpenAI web fetch and is now disabled for new installs. Also keychain issues are resolved. Shoutout to @RatulSarna for maintaining. https://t.co/GSzgKVfBLL",
+      "summary": "🎚️CodexBar 0.21 Abacus AI provider, Codex Pro $100 support, safer OpenAI web extras, fixed local cost scanning, z. ai 5h quotas, Antigravity/Cursor/Ollama fixes, faster refreshes, macOS 26 icon fix and more. The big is…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 516,
+        "retweets": 28,
+        "replies": 23
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "6eac3f60f272277e",
+      "date": "2026-04-19",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:steipete",
+      "builderOrOrg": "Peter Steinberger",
+      "title": "Vancouver, it’s been a blast! 🇨🇦 https://t.co/pGSqgpZZm9",
+      "url": "https://x.com/steipete/status/2045276507527143629",
+      "publishedAt": "2026-04-17T23:01:33.000Z",
+      "content": "Vancouver, it’s been a blast! 🇨🇦 https://t.co/pGSqgpZZm9",
+      "summary": "Vancouver, it’s been a blast! 🇨🇦 https://t.co/pGSqgpZZm9",
+      "regionTags": [],
+      "metrics": {
+        "likes": 883,
+        "retweets": 65,
+        "replies": 54
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7532b32f0869e6c9",
+      "date": "2026-04-18",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:steipete",
+      "builderOrOrg": "Peter Steinberger",
+      "title": "Amazing to see almost 2000 people at ClawCon Michigan!! Weird lobster cult 🦞🥳 https://t.co/uZ…",
+      "url": "https://x.com/steipete/status/2044935917417205796",
+      "publishedAt": "2026-04-17T00:28:10.000Z",
+      "content": "Amazing to see almost 2000 people at ClawCon Michigan!! Weird lobster cult 🦞🥳 https://t.co/uZHA05BDvX",
+      "summary": "Amazing to see almost 2000 people at ClawCon Michigan!! Weird lobster cult 🦞🥳 https://t.co/uZHA05BDvX",
+      "regionTags": [],
+      "metrics": {
+        "likes": 236,
+        "retweets": 12,
+        "replies": 16
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "82ee22ca3b742c74",
+      "date": "2026-04-18",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:steipete",
+      "builderOrOrg": "Peter Steinberger",
+      "title": "they: OpenClaw is so insecure look at all these GHSAs! reality: we are just an indicator of the…",
+      "url": "https://x.com/steipete/status/2044888081141223442",
+      "publishedAt": "2026-04-16T21:18:05.000Z",
+      "content": "they: OpenClaw is so insecure look at all these GHSAs! reality: we are just an indicator of the coming storm https://t.co/UApg11cIzr",
+      "summary": "they: OpenClaw is so insecure look at all these GHSAs! reality: we are just an indicator of the coming storm https://t.co/UApg11cIzr",
+      "regionTags": [],
+      "metrics": {
+        "likes": 274,
+        "retweets": 15,
+        "replies": 21
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c805899816a7ef7b",
+      "date": "2026-04-17",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:steipete",
+      "builderOrOrg": "Peter Steinberger",
+      "title": "That was the case in December. 4 months and thousands of work hours later, we have a great secu…",
+      "url": "https://x.com/steipete/status/2044482797449150520",
+      "publishedAt": "2026-04-15T18:27:38.000Z",
+      "content": "That was the case in December. 4 months and thousands of work hours later, we have a great security concept; you can go all yolo, use a sandbox (Docker or OpenShell), there are allow-lists and per-access exec allow/deny prompts. There’s hundreds of security researchers that pen-tested it.",
+      "summary": "That was the case in December. 4 months and thousands of work hours later, we have a great security concept; you can go all yolo, use a sandbox (Docker or OpenShell), there are allow-lists and per-access exec allow/deny…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 1063,
+        "retweets": 63,
+        "replies": 65
+      },
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.78,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "03d3a8b2db8cf0b6",
+      "date": "2026-04-17",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:steipete",
+      "builderOrOrg": "Peter Steinberger",
+      "title": "If you look at GPT 5.4-Cyber and it's ability for closed source reverse engineering, I have bad…",
+      "url": "https://x.com/steipete/status/2044423791405924562",
+      "publishedAt": "2026-04-15T14:33:10.000Z",
+      "content": "If you look at GPT 5.4-Cyber and it's ability for closed source reverse engineering, I have bad news for you. I do very much feel the pain though, there's hundreds of teams that try to poke holes into @openclaw. Our response has been of rapid iteration and code hardening. Which did introduce occasiaonal regression (and yes you all been yelling at me), but I see as the only way forward. I would be very careful of other open source projects/harnesses that ignore this work and do not publish their…",
+      "summary": "If you look at GPT 5.4-Cyber and it's ability for closed source reverse engineering, I have bad news for you. I do very much feel the pain though, there's hundreds of teams that try to poke holes into @openclaw. Our res…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 1420,
+        "retweets": 84,
+        "replies": 78
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open source"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "3cc8a3904ae0f5e7",
+      "date": "2026-04-17",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:steipete",
+      "builderOrOrg": "Peter Steinberger",
+      "title": "once again, I’m amazed by scammers. https://t.co/IFJYN7EWMv",
+      "url": "https://x.com/steipete/status/2044390067997937716",
+      "publishedAt": "2026-04-15T12:19:09.000Z",
+      "content": "once again, I’m amazed by scammers. https://t.co/IFJYN7EWMv",
+      "summary": "once again, I’m amazed by scammers. https://t.co/IFJYN7EWMv",
+      "regionTags": [],
+      "metrics": {
+        "likes": 170,
+        "retweets": 11,
+        "replies": 17
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
     {
       "id": "a44ae9fd8d5bf11d",
       "date": "2026-04-16",
