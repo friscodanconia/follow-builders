@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T01:06:48.191Z",
+  "generatedAt": "2026-04-24T03:55:54.049Z",
   "slug": "tool-use",
   "label": "AI Using Tools",
   "items": [
@@ -44,9 +44,9 @@
       ],
       "section": "Builders",
       "importanceScore": 0.7,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.8,
+      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
@@ -101,9 +101,9 @@
       ],
       "section": "Builders",
       "importanceScore": 0.92,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.95,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.7,
       "whyThisMatters": ""
     },
     {
@@ -154,24 +154,24 @@
       ],
       "section": "Official Sources",
       "importanceScore": 0.58,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.73,
+      "digestScore": 0.48,
       "whyThisMatters": ""
     },
     {
-      "id": "466b54dfb5459092",
+      "id": "db997ecd0b9051fe",
       "date": "2026-04-24",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
       "sourceKey": "official:OpenAI News",
       "builderOrOrg": "OpenAI",
-      "title": "What is Codex?",
-      "url": "https://openai.com/academy/what-is-codex",
+      "title": "Top 10 uses for Codex at work",
+      "url": "https://openai.com/academy/top-10-use-cases-codex-for-work",
       "publishedAt": "2026-04-23T10:00:00.000Z",
-      "content": "Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.",
-      "summary": "Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.",
+      "content": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
+      "summary": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
       "regionTags": [
         "us-model-labs"
       ],
@@ -242,9 +242,9 @@
       ],
       "section": "Official Sources",
       "importanceScore": 0.58,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.73,
+      "digestScore": 0.48,
       "whyThisMatters": ""
     },
     {
@@ -319,9 +319,9 @@
       ],
       "section": "Podcasts & Newsletters",
       "importanceScore": 0.48,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.66,
+      "digestScore": 0.42,
       "whyThisMatters": ""
     },
     {
@@ -370,9 +370,53 @@
       ],
       "section": "Podcasts & Newsletters",
       "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "466b54dfb5459092",
+      "date": "2026-04-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "What is Codex?",
+      "url": "https://openai.com/academy/what-is-codex",
+      "publishedAt": "2026-04-23T10:00:00.000Z",
+      "content": "Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.",
+      "summary": "Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
       "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.61,
+      "digestScore": 0.73,
       "whyThisMatters": ""
     },
     {
