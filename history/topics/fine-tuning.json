@@ -1,11 +1,119 @@
 {
-  "generatedAt": "2026-04-23T04:26:34.497Z",
+  "generatedAt": "2026-04-24T01:06:48.191Z",
   "slug": "fine-tuning",
   "label": "Custom AI",
   "items": [
     {
+      "id": "ebe77be8e3361865",
+      "date": "2026-04-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "I want to keep everyone updated on the details of the security investigation. The team performe…",
+      "url": "https://x.com/rauchg/status/2047150411170320808",
+      "publishedAt": "2026-04-23T03:07:46.000Z",
+      "content": "I want to keep everyone updated on the details of the security investigation. The team performed an in-depth analysis to search for root causes and to better understand the behavior of the threat actor. We cast a very wide net, pulling and processing nearly a petabyte of logs of the entire Vercel Network and API, extending well beyond the initial Context[.]ai compromise. We now understand that the threat actor has been active beyond that startup's compromise. Threat intel points to the distribu…",
+      "summary": "I want to keep everyone updated on the details of the security investigation. The team performed an in-depth analysis to search for root causes and to better understand the behavior of the threat actor. We cast a very w…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 762,
+        "retweets": 102,
+        "replies": 51
+      },
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.78,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.86,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "5f5256865aa2e946",
+      "date": "2026-04-24",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "AI & I by Every",
+      "sourceKey": "podcast:AI & I by Every",
+      "builderOrOrg": "AI & I by Every",
+      "title": "The AI Sandwich: Where Humans Excel in an AI World",
+      "url": "https://www.youtube.com/watch?v=G0LTv8hQ5Cs",
+      "publishedAt": "2026-04-22T18:53:47.000Z",
+      "content": "Speaker 1 | 00:00 - 00:03 Humans are the bread in the sandwich, and the AI is in the middle. Speaker 2 | 00:03 - 00:24 AI is whatever you put on your sandwich. If you ship something or do something, if you want it to be your own, you cannot fully automate everything. It's like art. If you want it your own, it needs to be from you or somehow be connected. So I believe it's so important to do things you enjoy and you love. Speaker 2 | 00:25 - 00:40 And it's very important to make it feel great because the bar is high, the bar will always get higher. The beginning and the end, and the middles can be automated pretty well. And, Trevin, at some point, said, oh, it's kind of like a sandwich, which was, like, very funny. Speaker 1 | 00:54 - 00:56 Kieran, welcome to the show. Speaker 2 | 00:56 - 00:59 Hello, Dan. Happy to be here. Speaker 1 | 00:59 - 01:19 So for people who don't know, you are the GM of Quora, and you are also the creator of Compan Engineering, the engineering framework and plug in that everyone inside of Ever uses. And everyone who's really coding in with agents is at least aware of, if not using. And so a pleasure to have you on the show. Speaker 2 | 01:20 - 01:22 Thank you. Yeah. It's always great. Speaker 1 | 01:22 - 01:52 So I love getting to chat with you and getting to work with you because every once in a while, you have a thing that you do or you figure out that I'm like, holy shit. That's definitely the future. And you just figured something out along with Trevin also helps out Trevin Chow, who also helps out on compound engineering. And I think it has massive implications for how programming works. And then I think we can also translate that to the rest of AI and its impact on work. Speaker 1 | 01:52 - 02:29 And one of the things you've been doing is you have this compound engineering plug in that you've rebuilt the engineering workflow for how you should work with agents. And in thinking about that and thinking about where a human is used and where a human is like should not be present inside of that process, I think you've you've found something like really interesting and deep about in general how how humans and AI are going to interact with work. So do you want to explain a little bit about compound engineering and that and the process that you've created? And then also explain this insight about where humans fit. Speaker 2 | 02:30 - 02:45 Yeah, absolutely. So compound engineering is, like, a philosophy of, like, doing engineering work, but we realize it applies to more than just engineering work. It's product work as well. It's design work. It could be knowledge work. Speaker 2 | 02:45 - 03:18 It could be other things. But how I build it is while building Quora, I had AI and I was like, how can I use AI to do better work more quickly? And the initial version of Compound Engineering really evolved around four steps, which is planning first. You make a great plan, so it's very clear what you need to build and do. Then the work part where the agent does the work implements it and actually writes the code, does the design work or whatever work needs to be done. Speaker 2 | 03:19 - 03:37 The third is review. So, slop comes out or whatever you call it, something beautiful comes out. One of the two, like something comes out. But how do you know it's good? And traditionally, there's like a code review or like a PR that you review and see like, hey, this can be improved. Speaker 2 | 03:37 - 03:51 And there's some iteration going on there. And then the most important step is the compound step, which is if anything comes up during that review or during the planning that you think like, oh, this is this is Speaker 3 | 03:51 - 03:51 a good Speaker 2 | 03:51 - 04:21 learning, probably you will run into this again. You can compound that knowledge back into the system and we store that as knowledge inside the repository. Agents, next time when they go into planning or when they go into work or review, they can see th…",
+      "summary": "Speaker 1 | 00:00 - 00:03 Humans are the bread in the sandwich, and the AI is in the middle. Speaker 2 | 00:03 - 00:24 AI is whatever you put on your sandwich. If you ship something or do something, if you want it to be your own, you canno…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.9299999999999999,
+          "rationale": [
+            "coding",
+            "code",
+            "repo"
+          ],
+          "score": 4
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.66,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.78,
+      "whyThisMatters": ""
+    },
+    {
       "id": "7d75021c1794828c",
-      "date": "2026-04-23",
+      "date": "2026-04-24",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Google DeepMind Blog",
@@ -36,6 +144,269 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "15dcf9c48792bc13",
+      "date": "2026-04-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "AutoAdapt: Automated domain adaptation for large language models",
+      "url": "https://www.microsoft.com/en-us/research/blog/autoadapt-automated-domain-adaptation-for-large-language-models/",
+      "publishedAt": "2026-04-22T16:25:30.000Z",
+      "content": "At a glance Problem :&nbsp;Adapting large language models to specialized, high-stakes domains is slow, expensive, and hard to reproduce.&nbsp; What we built :&nbsp;AutoAdapt&nbsp;automates&nbsp;planning, strategy selection&nbsp;(e.g., RAG vs. fine-tuning), and tuning under real deployment constraints.&nbsp; How it works :&nbsp; A structured configuration graph&nbsp;maps the&nbsp;full scope&nbsp;of the&nbsp;adaptation&nbsp;process, an agentic planner&nbsp;selects and sequences the right steps, and&nbsp;a&nbsp;budget-aware optimization loop (AutoRefine)&nbsp;refines the process within defined constraints. &nbsp; Why it matters :&nbsp;The result is faster,&nbsp;automated,&nbsp;more reliable domain adaptation that turns weeks of&nbsp;manual&nbsp;iteration into repeatable pipelines.&nbsp; Deploying large language models (LLMs) in real-world, high-stakes settings is harder than it should be. In high-stakes settings like law, medicine, and cloud incident response, performance and reliability can quickly break down because adapting models to domain-specific requirements is a slow and manual process that is difficult to reproduce. The core challenge is domain adaptation, which entails turning a general-purpose model into one that consistently follows domain rules, draws on the right knowledge, and meets constraints such as latency, privacy, and cost. Today, that process typically involves guesswork, choosing among approaches like retrieval-augmented generation (RAG) and fine-tuning, tuning hyperparameters, and iterating through evaluations with no clear path to a good outcome. An operations team responding to an outage can&#8217;t afford a model that drifts from domain requirements or a tuning process that takes weeks with no guarantee of a reproducible result. To tackle this, we&#8217;re pleased to introduce AutoAdapt. In our paper, “ AutoAdapt: An Automated Domain Adaptation Framework for Large Language Models ,” we describe an end-to-end, constraint-aware framework for d…",
+      "summary": "Deploying large language models (LLMs) in real-world, high-stakes settings is harder than it should be. In high-stakes settings like law, medicine, and cloud incident response, performance and reliability can quickly break down because ada…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "fine-tuning",
+            "rl"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "eval",
+            "evaluation"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "92dc1d26dd0b3018",
+      "date": "2026-04-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "AIE Europe Debrief + Agent Labs Thesis: Unsupervised Learning x Latent Space Crossover Special (2026)",
+      "url": "https://www.latent.space/p/unsupervised-learning-2026",
+      "publishedAt": "2026-04-23T19:37:19.000Z",
+      "content": "Today, we check in a year after the first Unsupervised Learning x Latent Space Crossover special to discuss everything that has changed (there is a lot) in the world of AI. This episode was recorded just after AIE Europe , but before the Cursor-xAI deal . Unsupervised Learning is a podcast that interviews the sharpest minds in AI about what&#8217;s real today, what will be real in the future and what it means for businesses and the world - helping builders, researchers and founders deconstruct and understand the biggest breakthroughs. Thanks to Jacob and the UL production team for hosting and editing this! Jacob Effron LinkedIn: https://www.linkedin.com/in/jacobeffron/ X: https://x.com/jacobeffron Full Episode on Their YouTube We discuss: swyx&#8217;s view from the center of the AI engineering zeitgeist: OpenClaw, harness engineering, context engineering, evals, observability, GPUs, multimodality, and why conference tracks now reveal what matters most in AI Whether AI infrastructure has finally stabilized: why &#8220;skills&#8221; may be the minimal viable packaging format for agents, why infra companies have had to reinvent themselves every year, and why application companies have had an easier time surviving model volatility The vertical vs. horizontal AI startup debate: why application companies can act as the outsourced AI team for enterprises, why some horizontal companies still matter, and why sandboxes may be the clearest reinvention of classic cloud infrastructure for the AI era The &#8220;agent lab&#8221; playbook: starting with frontier models, specializing for your domain, then training your own models once you have enough data, workload, and user behavior to justify the cost and latency savings Why domain-specific model training is real, not just marketing: how companies like Cursor and Cognition can get users to choose their in-house models, and why search, domain specialization, and distillation are becoming more important Open models, custom chips, a…",
+      "summary": "Note: This episode was recorded just after AIE Europe, but before the Cursor-xAI deal.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "rl",
+            "distillation"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "imo",
+            "eval"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "9720ecdc946167d5",
+      "date": "2026-04-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "All In On Fusion",
+      "url": "https://www.chinatalk.media/p/all-in-on-fusion",
+      "publishedAt": "2026-04-22T11:21:58.000Z",
+      "content": "Caleb Harding is a Mandarin-speaking BYU CS graduate. He previously interned at the US Embassy in Jakarta and Doublethink Lab in Taiwan. He is currently based in D.C. Today, At its inception in July 2025, China Fusion Energy Co . (CFEC, &#20013;&#22269;&#32858;&#21464;&#33021;&#28304;&#26377;&#38480;&#20844;&#21496;) was the biggest nuclear fusion company in the world by registered capital. 1 Major state-owned enterprises pledged a total of US$2.1 billion in funding, reflecting a serious commitment on the part of these companies &#8212; and by extension, the CCP &#8212; to making nuclear fusion happen. This is one of a series of connected announcements and breakthroughs coming out of China in the nuclear fusion space. In January 2025, China&#8217;s &#8220;Artificial Sun&#8221; set a record for maintaining steady-state plasma for over 17 minutes. In March 2025, Shanghai-based startup Energy Singularity announced that their new high-temperature superconducting magnet (necessary for confining the fusion reaction) had generated a magnetic field of 21.7 teslas, breaking a previous record from the US. In May of 2025, researchers at the Chinese Academy of Science Institute of Plasma Physics published the results of their successful 12-year project to develop a new type of steel to use in the reactor core, which can handle magnetic fields almost twice as strong as the steel to be used in the International Thermonuclear Experimental Reactor (ITER) currently under construction. These announcements certainly create the feeling that nuclear fusion is progressing rapidly in China. The History of Fusion in China In December 2022, the National Ignition Facility (NIF) at the US Lawrence-Livermore National Laboratory made history by achieving net energy gain on a nuclear fusion reaction. This was a significant step in demonstrating the feasibility of fusion power generation, and led to significant investment in fusion startups in the US. However, for both the US and China, nuclear…",
+      "summary": "China's commitment to build",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.66,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c0bc709445729447",
+      "date": "2026-04-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Fixing the GaN Problem",
+      "url": "https://www.chinatalk.media/p/fixing-the-gan-problem",
+      "publishedAt": "2026-04-20T14:20:49.000Z",
+      "content": "In the semiconductor industry, the Trump administration is striving to bring back critical technologies that slipped out of our hands decades ago. The U.S. has attracted billions of dollars in investment to stimulate cutting-edge logic manufacturing, the development of EUV lithography , and HBM production . However, the semiconductor ecosystem is a lot more than just AI chips. And if the administration wants secure supply chains, it should focus on another rising material: gallium. Just as Pluto is technically not a planet, gallium is technically not a rare-earth element despite often being discussed in the same context. Like many rare earths, gallium is not directly mined from the Earth&#8217;s crust but rather a byproduct of aluminum extraction. Although not classified as a rare earth, the mineral plays a major role in compound semiconductors and has critical importance for the future of AI, defense, robotics, and more. China has realized the element&#8217;s importance and has quietly shored up its supply chain while the U.S. has been asleep at the wheel. Now, the U.S. must secure this critical mineral and its downstream technologies before another lead slips from our hands. The Problem China&#8217;s recognition of gallium as a priority &#8212; both for domestic development and weaponization against adversaries &#8212; is unmistakable. As a result of their efforts, China is responsible for 99% of raw gallium production today. Created with Claude Code. Since the early 2000s, China has required domestic aluminum producers to also extract gallium, which has enabled the country to not just become self-sufficient but dominate the global market for gallium extraction. In the meantime, the U.S. has not shored up its supply chain insecurities, particularly in upstream extraction, leaving America vulnerable to weaponization of the mineral. Such vulnerability is not just hypothetical. China noticed its leverage and imposed export restrictions on gallium (and the tools to e…",
+      "summary": "Before Another Supply Chain Emergency",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "bfa6fa2b967339fe",
+      "date": "2026-04-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Not Another Dev Tool",
+      "url": "https://www.chinatalk.media/p/my-favorite-person-needs-a-cofounder",
+      "publishedAt": "2026-04-19T13:33:57.000Z",
+      "content": "A special announcement today from my incredible spouse, who is on the hunt for a CTO and cofounder. Marrying her was the best decision I ever made. Starting a company with her may be the best one you make! Once upon a time, I saw the Komodo dragons in their natural habitat. They were majestic, imposing and the chill they sent down my spine was unforgettable. I am no dragonologist, but a friend and I decided to meet up midway, and that landed us on the Komodo island. For me, it&#8217;s the adventures that give life its magic and the most epic ones start with companions who expand our worlds and draw us to unexpected wonders. Today, I am seeking a partner to embark on the ultimate commercial adventure: entrepreneurship. Perhaps you are about to team up with another developer to build another dev tool, but let me open the door to a whole new world for you . If this goes well, we&#8217;ll spend the next decade together with an exceptional team of fellow adventurers to push the frontier of a real industry. You might be a good fit if you are: Based in NYC Already committed to starting a company As good at your craft (ML+data) as I am at mine (see below) Open-minded but decisive Ambitious; our approach will be frontier and radical, not midwit or marginal Down for a 10-year adventure, which may or may not involve riches or glory, but will definitely involve great people and honorable work About me: I am 10 years out of college, had some big responsibilities professionally, and am now also raising a toddler with Jordan! As a private equity investor for 7 years, I evaluated hundreds of companies (and founders). My portfolio companies exceed $5bn in total valuation, ranging widely from $3mm to $2bn. On this adventure, I developed clarity of thought, a sense for order of magnitude and taste in people As an operator in recent years, I defined strategies, closed deals, opened new markets, ran payroll, delivered hiring and firing decisions, etc. On this adventure, I recognized ho…",
+      "summary": "My Favorite Person Needs a Cofounder",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "developer"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
       "whyThisMatters": ""
     },
     {
@@ -80,50 +451,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "15dcf9c48792bc13",
-      "date": "2026-04-23",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "AutoAdapt: Automated domain adaptation for large language models",
-      "url": "https://www.microsoft.com/en-us/research/blog/autoadapt-automated-domain-adaptation-for-large-language-models/",
-      "publishedAt": "2026-04-22T16:25:30.000Z",
-      "content": "Deploying large language models (LLMs) in real-world, high-stakes settings is harder than it should be. In high-stakes settings like law, medicine, and cloud incident response, performance and reliability can quickly break down because adapting models to domain-specific requirements is a slow and manual process that is difficult to reproduce. The core challenge is domain adaptation, [&#8230;] The post AutoAdapt: Automated domain adaptation for large language models appeared first on Microsoft Research .",
-      "summary": "Deploying large language models (LLMs) in real-world, high-stakes settings is harder than it should be. In high-stakes settings like law, medicine, and cloud incident response, performance and reliability can quickly break down because ada…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     },
     {
@@ -2019,238 +2346,6 @@
       "previouslySelected": true,
       "digestScore": 0.44,
       "whyThisMatters": "Speaker 1 | 00:05 - 00:32 Today, know Priors were talking with Liam Fetis. Liam is one of the co creators of ChatGPT, which I think almost everybody uses at this point. He was the VP of post training at OpenAI, and before that was at Googl…"
-    },
-    {
-      "id": "07bcc9ace50b81ed",
-      "date": "2026-04-05",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:swyx",
-      "builderOrOrg": "Swyx",
-      "title": "you literally watch the recorded videos of the feature working after its implemented with annot…",
-      "url": "https://x.com/swyx/status/2040245613997219902",
-      "publishedAt": "2026-04-04T01:50:34.000Z",
-      "content": "you literally watch the recorded videos of the feature working after its implemented with annotation of whats being tested https://t.co/HrltvzE03C https://t.co/9puvHxvm8Q",
-      "summary": "you literally watch the recorded videos of the feature working after its implemented with annotation of whats being tested https://t.co/HrltvzE03C https://t.co/9puvHxvm8Q",
-      "regionTags": [],
-      "metrics": {
-        "likes": 11,
-        "retweets": 1,
-        "replies": 0
-      },
-      "topics": [
-        {
-          "slug": "multimodal",
-          "label": "Multimodal",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "video"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Fine-tuning",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.41,
-      "noveltyScore": 0.3,
-      "digestScore": 0.37,
-      "whyThisMatters": "This matters because it adds direct signal from people and teams shaping how AI products are actually being built and deployed."
-    },
-    {
-      "id": "e03f8f8a038e6197",
-      "date": "2026-04-05",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:swyx",
-      "builderOrOrg": "Swyx",
-      "title": "We have achieved agentic self improvement - i can just copy paste blogposts and tweets into @de…",
-      "url": "https://x.com/swyx/status/2040181076237443299",
-      "publishedAt": "2026-04-03T21:34:07.000Z",
-      "content": "We have achieved agentic self improvement - i can just copy paste blogposts and tweets into @devinai and it oneshots the complete implementation wasnt actually sure this was gonna work, jaw dropped when it did. this is very out of distribution of the underlying @GoogleDeepMind Gemini Flash Lite model but it Just Worked.",
-      "summary": "We have achieved agentic self improvement - i can just copy paste blogposts and tweets into @devinai and it oneshots the complete implementation wasnt actually sure this was gonna work, jaw dropped when it did. this is…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 130,
-        "retweets": 12,
-        "replies": 23
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "Agents",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Fine-tuning",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.69,
-      "noveltyScore": 0.3,
-      "digestScore": 0.55,
-      "whyThisMatters": "This matters because agent capability is increasingly becoming a product and workflow differentiator, not just a demo category."
-    },
-    {
-      "id": "e85431b927c74b7c",
-      "date": "2026-04-05",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:zarazhangrui",
-      "builderOrOrg": "Zara Zhang",
-      "title": "Zara with a Pearl Earring (made with @PhotaLabs) https://t.co/X1BujWDW7n",
-      "url": "https://x.com/zarazhangrui/status/2040310150565879827",
-      "publishedAt": "2026-04-04T06:07:01.000Z",
-      "content": "Zara with a Pearl Earring (made with @PhotaLabs) https://t.co/X1BujWDW7n",
-      "summary": "Zara with a Pearl Earring (made with @PhotaLabs) https://t.co/X1BujWDW7n",
-      "regionTags": [],
-      "metrics": {
-        "likes": 17,
-        "retweets": 0,
-        "replies": 0
-      },
-      "topics": [
-        {
-          "slug": "fine-tuning",
-          "label": "Fine-tuning",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.42,
-      "noveltyScore": 0.3,
-      "digestScore": 0.38,
-      "whyThisMatters": "This matters because it adds direct signal from people and teams shaping how AI products are actually being built and deployed."
-    },
-    {
-      "id": "72eabcab811637df",
-      "date": "2026-04-05",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "Latent Space",
-      "sourceKey": "podcast:Latent Space",
-      "builderOrOrg": "Latent Space",
-      "title": "Marc Andreessen introspects on The Death of the Browser, Pi + OpenClaw, and Why \"This Time Is Different\"",
-      "url": "https://www.youtube.com/@LatentSpacePod",
-      "publishedAt": "2026-04-03T16:57:46.000Z",
-      "content": "Speaker 1 | 00:00 - 00:25 Something about AI that causes the people in the field, I would say, to become both excessively utopian and excessively apocalyptic. Having said that, I think what's actually happened is an enormous amount of technical progress that built up over time. And like for for example, we now know the neural network is the correct architecture. And I I will tell you, like, was a sixty year run where that was like a, you know, or even seventy years where that was controversial. And so so the way I think about what's happening is basically, think I think about basically the the the period we're in right now is it's I call it eighty year overnight success. Speaker 1 | 00:25 - 00:51 Right? Which is like, it's an overnight success because it's like bam, you know, ChatGPT hits and then then o one hits and then, you know, OpenClaw hits and like, you know, these are open these are these are like overnight, like radical overnight transformative successes, but they're drawing on an eighty year sort of Wellspring backlog, you know, of of ideas and thinking. It's not just that it's all brand new. It's that it's an unlock of all of these decades of, like, very serious hardcore research. If I were 18, like, this is a 100 this is what I would be spending all of my time on. Speaker 1 | 00:51 - 00:53 This is, such an incredible conceptual breakthrough. Speaker 2 | 00:53 - 01:19 Before we get into today's episode, I just have a small message for listeners. Thank you. We would not be able to bring you the AI engineering, science, and entertainment contents that you so clearly want if you didn't choose to also click in and tune into our content. We've been approached by sponsors on an almost daily basis, but fortunately, enough of you actually subscribed to us to keep all this sustainable without ads, and we wanna keep it that way. But I just have one favor to ask all of you. Speaker 2 | 01:19 - 01:39 The single most powerful, completely free thing you can do is to click that subscribe button. It's the only thing I'll ever ask of you, and it means absolutely everything to me and my team that works so hard to bring latent space to you each and every week. If you do it, I promise you, we'll never stop working to make the show even better. Now let's get into it. Speaker 3 | 01:44 - 01:50 Everyone, welcome to the Litin Space pockets. This is Alasio, founder of Kernel Labs, and I'm joined by Squeaks, editor of Litin Space. Speaker 2 | 01:50 - 01:54 Hello. And we're in a 16 z with A. Martin Gson, welcome. Speaker 1 | 01:54 - 01:57 Yes. Yes. A and what? Half of 16? Speaker 2 | 01:57 - 02:02 Of the one. A one. Exactly. Exactly. Apparently, this is the the final few days in your your current office. Speaker 2 | 02:02 - 02:04 You're moving across the road. Speaker 1 | 02:04 - 02:12 We're yeah. We have Olivia, so we have some projects underway. But, yeah, this is actually, although this is the original we're in actually the original office. We're in the we're in we're in the where the whole thing It's beautiful. Yeah. Speaker 1 | 02:12 - 02:13 Great. Thank you. Speaker 2 | 02:13 - 02:35 So I have to come out. This is a you know, I wanted to pick a spicy start. In October 2022, I just made friends with Rune, and I wanted to give him something to sort of be spicy about. And I said, it'll never not be funny that a 16 z was constantly going the future is where the smart people choose to spend their time and then going deep into crypto and not in AI. And that was in 10/22/2022. Speaker 2 | 02:36 - 02:43 And Rune says there was an internal meeting in a 16 to reorient around Gen AI. Obviously, have, but was there a meeting? What what was that? Speaker 1 | 02:43 - 02:49 I mean, I don't look. I've been doing AI since the late eighties. Yeah. So I I don't know, like, all that. As far as I'm concerned, this stuff is all Johnny come lately. Speaker 1 | 02:50 - 03:02 Yeah. You know, I mean, look, we've been doing AI our entire existence. I mean, we've…",
-      "summary": "Speaker 1 | 00:00 - 00:25 Something about AI that causes the people in the field, I would say, to become both excessively utopian and excessively apocalyptic. Having said that, I think what's actually happened is an enormous amount of tech…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "science"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "tool-use",
-          "label": "Tool Use",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "browser"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Fine-tuning",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.52,
-      "noveltyScore": 0.3,
-      "digestScore": 0.44,
-      "whyThisMatters": "This matters because it adds direct signal from people and teams shaping how AI products are actually being built and deployed."
-    },
-    {
-      "id": "96655d42e4748489",
-      "date": "2026-04-05",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "“There is a limit on human cognition. Even if you're not reviewing everything they're doing, ho…",
-      "url": "https://x.com/levie/status/2040264454982480138",
-      "publishedAt": "2026-04-04T03:05:27.000Z",
-      "content": "“There is a limit on human cognition. Even if you're not reviewing everything they're doing, how much you can hold in your head at one time.” There’s a reason that at a certain scale, teams of people have a manager, and then there are managers of many teams, and so on. Companies don’t inherently love being inefficient. It’s because eventually you run into the limits of how much context you can hold on to produce useful work, so you have to delegate parts to someone else who can track their sub-context. In a world where agents don’t need to be prompted or have their work reviewed, or where the agent can know perfectly when to escalate when something is going wrong, then agents can completely break free of these context limits of humans. But for now, agents are generally only as effective as the context they’re provided, the tools they have access to, the human’s ability to keep them on track or review their work, and incorporate that work into a broader system. For now, that will continue to take real (mental) work from the people managing agents. This is also generally why the jobs arguments from those who think people go away will be wrong.",
-      "summary": "“There is a limit on human cognition. Even if you're not reviewing everything they're doing, how much you can hold in your head at one time.” There’s a reason that at a certain scale, teams of people have a manager, and…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 127,
-        "retweets": 16,
-        "replies": 19
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "Agents",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "Tool Use",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Fine-tuning",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.69,
-      "noveltyScore": 0.3,
-      "digestScore": 0.55,
-      "whyThisMatters": "This matters because agent capability is increasingly becoming a product and workflow differentiator, not just a demo category."
     }
   ]
 }

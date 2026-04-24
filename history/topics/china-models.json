@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-23T04:26:34.497Z",
+  "generatedAt": "2026-04-24T01:06:48.191Z",
   "slug": "china-models",
   "label": "Chinese AI",
   "items": [
     {
       "id": "296a47569ed75ef9",
-      "date": "2026-04-23",
+      "date": "2026-04-24",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -14,7 +14,7 @@
       "title": "[AINews] Moonshot Kimi K2.6: the world's leading Open Model refreshes to catch up to Opus 4.6 (ahead of DeepSeek v4?)",
       "url": "https://www.latent.space/p/ainews-moonshot-kimi-k26-the-worlds",
       "publishedAt": "2026-04-21T00:19:33.000Z",
-      "content": "Yay Kimi!!!",
+      "content": "Two days left before Early Bird ends for AI Engineer World&#8217;s Fair this Summer in SF. This is will be THE BIG ONE of the year - lock in discounts up to $500 (refundable). DeepSeek V4 rumors are back, and we learned our lesson not to get too excited, but in their deafening silence since v3.2 , Moonshot has owned the crown of leading Chinese open model lab for all of 2026 to date , and K2.6 refreshes the lead that K2.5 established in January , with (presumably) more continued pre/posttraining (this time, details of how much more training were not disclosed). Comparing the numbers from the two launches 3 months apart demonstrates the staggering amount of progress: Moonshot/Kimi continues to compete at a level far above &#8220;just being open source versions of Frontier models&#8221; (though it is one of the three Chinese labs accused by Anthropic in Feb ) - they are taking on Gemini 3.1 in their home turf of frontend design, touting a 68.6% win+tie rate vs Gemini 3.1 Pro: And scaling out the pioneering work they did with Agent Swarm RL last edition: And, with OpenClaw being the flavor of the quarter, their own ClawBench and a minor rebrand of their Agent Swarm work in to \"Claw Groups&#8221;. Overall not as technically impressive in isolation as K2.5, but overall still showing far more execution and imagination and drive than their peers, an impressive update and incredible gift to the ecosystem. AI News for 4/18/2026-4/20/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Kimi K2.6 and Qwen3.6-Max-Preview Push Open Agentic Coding Forward Moonshot&#8217;s Kimi K2.6 was the clear release of the day: an open-weight 1T-parameter MoE with 32B active , 384 experts (8 routed + 1 shared), MLA attention , 256K context , native multimodality, and INT4 quantization , with day-0 support in…",
       "summary": "Yay Kimi!!!",
       "regionTags": [],
       "metrics": {},
@@ -22,29 +22,39 @@
         {
           "slug": "china-models",
           "label": "Chinese AI",
-          "confidence": 0.81,
+          "confidence": 0.9299999999999999,
           "rationale": [
+            "qwen",
             "deepseek",
-            "kimi",
-            "moonshot"
+            "kimi"
           ],
-          "score": 3
+          "score": 4
         },
         {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "rl"
+            "coding"
           ],
           "score": 1
         }
       ],
       "section": "Chinese Models",
-      "importanceScore": 0.55,
+      "importanceScore": 0.69,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
+      "previouslySelected": true,
+      "digestScore": 0.55,
       "whyThisMatters": ""
     },
     {
