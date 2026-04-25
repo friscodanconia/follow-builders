@@ -1,11 +1,155 @@
 {
-  "generatedAt": "2026-04-24T04:29:57.445Z",
+  "generatedAt": "2026-04-25T00:56:17.450Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
     {
+      "id": "6757328ba97d0f31",
+      "date": "2026-04-25",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "GPT-5.5 is live. We’ve been testing the model over the last couple of weeks at Box on our most…",
+      "url": "https://x.com/levie/status/2047387742951313910",
+      "publishedAt": "2026-04-23T18:50:51.000Z",
+      "content": "GPT-5.5 is live. We’ve been testing the model over the last couple of weeks at Box on our most complex knowledge work evals, and the model saw a 10 percentage point jump on accuracy of these enterprise content tasks vs. GPT-5.4. We test the model on a variety of tasks that represent real work scenarios in financial services, healthcare, public sector, and more industries, dealing with financial filings, clinical records, policy documents, and creative content. Here are some of the examples of t…",
+      "summary": "GPT-5.5 is live. We’ve been testing the model over the last couple of weeks at Box on our most complex knowledge work evals, and the model saw a 10 percentage point jump on accuracy of these enterprise content tasks vs.…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 255,
+        "retweets": 19,
+        "replies": 32
+      },
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "policy"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.78,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.86,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c8e31c380bc09140",
+      "date": "2026-04-25",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:garrytan",
+      "builderOrOrg": "Garry Tan",
+      "title": "Next, I finally created new evals for GBrain which show how much more awesome GBrain is when yo…",
+      "url": "https://x.com/garrytan/status/2047578205528477711",
+      "publishedAt": "2026-04-24T07:27:41.000Z",
+      "content": "Next, I finally created new evals for GBrain which show how much more awesome GBrain is when you have graph AND vector search on top of grep on knowledge wikis https://t.co/eiVHZWvStL",
+      "summary": "Next, I finally created new evals for GBrain which show how much more awesome GBrain is when you have graph AND vector search on top of grep on knowledge wikis https://t.co/eiVHZWvStL",
+      "regionTags": [],
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1
+      },
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.55,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.71,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "a4067cdcfec15777",
+      "date": "2026-04-25",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "Unsupervised Learning",
+      "sourceKey": "podcast:Unsupervised Learning",
+      "builderOrOrg": "Unsupervised Learning",
+      "title": "Ep 85: Has AI Infra Stabilized, FM Vibe Shift, & What&apos;s Next for Coding Agents",
+      "url": "https://www.youtube.com/@RedpointAI",
+      "publishedAt": "2026-04-23T13:00:24.000Z",
+      "content": "Speaker 1 | 00:00 - 00:03 Isn't that crazy? That number is just mind boggling. Speaker 2 | 00:03 - 00:06 What is the state of the AI coding wars today? Speaker 1 | 00:06 - 00:16 We're in a phase of sort of, like, capability exploration. The general thesis that I have been pursuing now is that the same way that 2025 was a year of coding agents, 2026 is coding agents breaking containment, do everything else. Speaker 2 | 00:16 - 00:21 Do you worry about the foundation models just eating into a bunch of these startup categories? Speaker 1 | 00:21 - 00:23 Mid sized startups, yes. Speaker 2 | 00:23 - 00:25 What do you think the end state of this market is? Speaker 1 | 00:25 - 00:28 For the market structure to to significantly change, there would be Speaker 2 | 00:28 - 01:02 Today on unsupervised learning, we had a a fun episode in what's really become an annual tradition, a crossover episode with our friends at Latent Space. Swix and I sat down, and we talked about everything happening in the AI ecosystem today, what we thought of the various changes at the model layer, what's happening in the infra world, the coding wars, and a bunch of other things. It's a ton of fun to do this with someone I really respect and another great podcaster in the game. But without further ado, here's our episode. Well, Switch, this is super fun to be with another unsupervised learning latent space crossover episode. Speaker 1 | 01:02 - 01:02 Yeah. Speaker 2 | 01:02 - 01:21 I feel like a lot of places we could start, but, you know, one thing I always find fascinating about the way you spend your time is you obviously are like at the epicenter of this engineering movement and community, and you run these events and conferences and put on these awesome talks, and and I think just have a great pulse on the zeitgeist of what's going on. Yeah. Maybe to to start just, what are the biggest topics people are thinking about right now? Speaker 1 | 01:21 - 01:26 Yeah. So I just came back from London where we did AIE Europe, and we're doing roughly one per quarter now, Speaker 2 | 01:26 - 01:29 which Yeah. You're really up the up the pace. Speaker 1 | 01:29 - 01:30 It's try we're trying to match AI speed. Speaker 2 | 01:30 - 01:33 Yeah. Exactly. The topics would be completely different, I imagine. Yeah. Speaker 1 | 01:33 - 01:52 You know? I definitely curate the tracks. Like, you can see what I think when you see the track list and the speakers that I invite. Obviously, Open Claw is, like, the story of the last four or five months. And then be be just below that, I would consider harness engineering and context engineering to be two related topics in agents and rag. Speaker 1 | 01:53 - 02:13 And then there's a long tail of evergreen stuff like evals, observability, GPUs, LM infra in just general just in general. We also have other updates on, like, multimodality and generative media, let's call it, but definitely the first three that I mentioned are top of mind Yeah. People. Speaker 2 | 02:13 - 02:36 I think Harness is particularly so interesting. There was this tweet from Harrison Chase, the the Lane Chain CEO that caught my eye recently where he said, it finally feels like we have stability around the infrastructure around AI, and I think what he basically was implying is like, look over the past two, three years as a company at the epicenter of AI infrastructure, it was a bit like playing whack a mole, right? You were constantly moving around with however the building patterns were evolving. Speaker 1 | 02:36 - 02:48 For Harrison, for sure, right? He's basically had to reinvent the company every year since he started LangChain, right? It was LangChain, LangGraph and now DeepAgent, and like, I think he's like one of the most nimble, adept, sharp people about this. Speaker 2 | 02:48 - 02:50 Yeah. But yeah. Basically Now now is Now Speaker 1 | 02:50 - 02:52 this time is different. Yeah. Yeah. Yeah. Speaker 2 | 02:52 - 02:54 Do you buy that, or what have you kind o…",
+      "summary": "Speaker 1 | 00:00 - 00:03 Isn't that crazy? That number is just mind boggling. Speaker 2 | 00:03 - 00:06 What is the state of the AI coding wars today? Speaker 1 | 00:06 - 00:16 We're in a phase of sort of, like, capability exploration. Th…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "imo",
+            "eval"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
       "id": "15dcf9c48792bc13",
-      "date": "2026-04-24",
+      "date": "2026-04-25",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Microsoft Research Blog",
@@ -61,7 +205,7 @@
     },
     {
       "id": "d607f1aa7f746177",
-      "date": "2026-04-24",
+      "date": "2026-04-25",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Import AI",
@@ -115,7 +259,7 @@
     },
     {
       "id": "92dc1d26dd0b3018",
-      "date": "2026-04-24",
+      "date": "2026-04-25",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",

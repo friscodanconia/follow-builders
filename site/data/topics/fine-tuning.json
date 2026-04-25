@@ -1,8 +1,383 @@
 {
-  "generatedAt": "2026-04-24T04:29:57.445Z",
+  "generatedAt": "2026-04-25T00:56:17.450Z",
   "slug": "fine-tuning",
   "label": "Custom AI",
   "items": [
+    {
+      "id": "91a167e04eb4459a",
+      "date": "2026-04-25",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:amasad",
+      "builderOrOrg": "Amjad Masad",
+      "title": "While US politicians/lobbyists are scaremongering about “Chinese distillation,” Chinese scienti…",
+      "url": "https://x.com/amasad/status/2047547275682214384",
+      "publishedAt": "2026-04-24T05:24:46.000Z",
+      "content": "While US politicians/lobbyists are scaremongering about “Chinese distillation,” Chinese scientists are actually sharing real AI breakthroughs in the open. These kind of advances have nothing to do with data and benefit everyone, including small (and possibly big) US labs. https://t.co/sWshcZcUgL",
+      "summary": "While US politicians/lobbyists are scaremongering about “Chinese distillation,” Chinese scientists are actually sharing real AI breakthroughs in the open. These kind of advances have nothing to do with data and benefit…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 875,
+        "retweets": 109,
+        "replies": 34
+      },
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "distillation"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "35b4826a32d19429",
+      "date": "2026-04-25",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "Sorry to anyone who thought AI would mean we’d work less (at least for now). AI makes it easy t…",
+      "url": "https://x.com/levie/status/2047540230694350958",
+      "publishedAt": "2026-04-24T04:56:47.000Z",
+      "content": "Sorry to anyone who thought AI would mean we’d work less (at least for now). AI makes it easy to explore more than you did before, and so you start doing far more as a result. I regularly have seemingly small things that end up quickly consuming 3 hours because the agent made it easy to get started, but you still have to do the rest of the work to complete the project. This is work that I wouldn’t previously have handed out to anyone else, it’s just stuff that never got done because it took too…",
+      "summary": "Sorry to anyone who thought AI would mean we’d work less (at least for now). AI makes it easy to explore more than you did before, and so you start doing far more as a result. I regularly have seemingly small things tha…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 300,
+        "retweets": 30,
+        "replies": 34
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7d75021c1794828c",
+      "date": "2026-04-25",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google DeepMind Blog",
+      "sourceKey": "official:Google DeepMind Blog",
+      "builderOrOrg": "Google DeepMind",
+      "title": "Partnering with industry leaders to accelerate AI transformation",
+      "url": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/",
+      "publishedAt": "2026-04-21T14:54:15.000Z",
+      "content": "Google DeepMind partners with global consultancies to bring the power of frontier AI to organizations around the world.",
+      "summary": "Google DeepMind partners with global consultancies to bring the power of frontier AI to organizations around the world.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "15dcf9c48792bc13",
+      "date": "2026-04-25",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "AutoAdapt: Automated domain adaptation for large language models",
+      "url": "https://www.microsoft.com/en-us/research/blog/autoadapt-automated-domain-adaptation-for-large-language-models/",
+      "publishedAt": "2026-04-22T16:25:30.000Z",
+      "content": "At a glance Problem :&nbsp;Adapting large language models to specialized, high-stakes domains is slow, expensive, and hard to reproduce.&nbsp; What we built :&nbsp;AutoAdapt&nbsp;automates&nbsp;planning, strategy selection&nbsp;(e.g., RAG vs. fine-tuning), and tuning under real deployment constraints.&nbsp; How it works :&nbsp; A structured configuration graph&nbsp;maps the&nbsp;full scope&nbsp;of the&nbsp;adaptation&nbsp;process, an agentic planner&nbsp;selects and sequences the right steps, and&nbsp;a&nbsp;budget-aware optimization loop (AutoRefine)&nbsp;refines the process within defined constraints. &nbsp; Why it matters :&nbsp;The result is faster,&nbsp;automated,&nbsp;more reliable domain adaptation that turns weeks of&nbsp;manual&nbsp;iteration into repeatable pipelines.&nbsp; Deploying large language models (LLMs) in real-world, high-stakes settings is harder than it should be. In high-stakes settings like law, medicine, and cloud incident response, performance and reliability can quickly break down because adapting models to domain-specific requirements is a slow and manual process that is difficult to reproduce. The core challenge is domain adaptation, which entails turning a general-purpose model into one that consistently follows domain rules, draws on the right knowledge, and meets constraints such as latency, privacy, and cost. Today, that process typically involves guesswork, choosing among approaches like retrieval-augmented generation (RAG) and fine-tuning, tuning hyperparameters, and iterating through evaluations with no clear path to a good outcome. An operations team responding to an outage can&#8217;t afford a model that drifts from domain requirements or a tuning process that takes weeks with no guarantee of a reproducible result. To tackle this, we&#8217;re pleased to introduce AutoAdapt. In our paper, “ AutoAdapt: An Automated Domain Adaptation Framework for Large Language Models ,” we describe an end-to-end, constraint-aware framework for d…",
+      "summary": "Deploying large language models (LLMs) in real-world, high-stakes settings is harder than it should be. In high-stakes settings like law, medicine, and cloud incident response, performance and reliability can quickly break down because ada…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "fine-tuning",
+            "rl"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "eval",
+            "evaluation"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "6ad14b840d63c1f3",
+      "date": "2026-04-25",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "Accelerate RL rollouts by up to 50% with distribution-aware speculative decoding",
+      "url": "https://www.together.ai/blog/distribution-aware-speculative-decoding",
+      "publishedAt": "2026-04-24T00:00:00.000Z",
+      "content": "Rollout is the silent bottleneck in RL post-training. DAS fixes it with adaptive speculative decoding — up to 50% faster, zero degradation in reward quality.",
+      "summary": "Rollout is the silent bottleneck in RL post-training. DAS fixes it with adaptive speculative decoding — up to 50% faster, zero degradation in reward quality.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "post-training",
+            "rl"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "92dc1d26dd0b3018",
+      "date": "2026-04-25",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "AIE Europe Debrief + Agent Labs Thesis: Unsupervised Learning x Latent Space Crossover Special (2026)",
+      "url": "https://www.latent.space/p/unsupervised-learning-2026",
+      "publishedAt": "2026-04-23T19:37:19.000Z",
+      "content": "Today, we check in a year after the first Unsupervised Learning x Latent Space Crossover special to discuss everything that has changed (there is a lot) in the world of AI. This episode was recorded just after AIE Europe , but before the Cursor-xAI deal . Unsupervised Learning is a podcast that interviews the sharpest minds in AI about what&#8217;s real today, what will be real in the future and what it means for businesses and the world - helping builders, researchers and founders deconstruct and understand the biggest breakthroughs. Thanks to Jacob and the UL production team for hosting and editing this! Jacob Effron LinkedIn: https://www.linkedin.com/in/jacobeffron/ X: https://x.com/jacobeffron Full Episode on Their YouTube We discuss: swyx&#8217;s view from the center of the AI engineering zeitgeist: OpenClaw, harness engineering, context engineering, evals, observability, GPUs, multimodality, and why conference tracks now reveal what matters most in AI Whether AI infrastructure has finally stabilized: why &#8220;skills&#8221; may be the minimal viable packaging format for agents, why infra companies have had to reinvent themselves every year, and why application companies have had an easier time surviving model volatility The vertical vs. horizontal AI startup debate: why application companies can act as the outsourced AI team for enterprises, why some horizontal companies still matter, and why sandboxes may be the clearest reinvention of classic cloud infrastructure for the AI era The &#8220;agent lab&#8221; playbook: starting with frontier models, specializing for your domain, then training your own models once you have enough data, workload, and user behavior to justify the cost and latency savings Why domain-specific model training is real, not just marketing: how companies like Cursor and Cognition can get users to choose their in-house models, and why search, domain specialization, and distillation are becoming more important Open models, custom chips, a…",
+      "summary": "Note: This episode was recorded just after AIE Europe, but before the Cursor-xAI deal.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "rl",
+            "distillation"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "imo",
+            "eval"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "9720ecdc946167d5",
+      "date": "2026-04-25",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "All In On Fusion",
+      "url": "https://www.chinatalk.media/p/all-in-on-fusion",
+      "publishedAt": "2026-04-22T11:21:58.000Z",
+      "content": "Caleb Harding is a Mandarin-speaking BYU CS graduate. He previously interned at the US Embassy in Jakarta and Doublethink Lab in Taiwan. He is currently based in D.C. Today, At its inception in July 2025, China Fusion Energy Co . (CFEC, &#20013;&#22269;&#32858;&#21464;&#33021;&#28304;&#26377;&#38480;&#20844;&#21496;) was the biggest nuclear fusion company in the world by registered capital. 1 Major state-owned enterprises pledged a total of US$2.1 billion in funding, reflecting a serious commitment on the part of these companies &#8212; and by extension, the CCP &#8212; to making nuclear fusion happen. This is one of a series of connected announcements and breakthroughs coming out of China in the nuclear fusion space. In January 2025, China&#8217;s &#8220;Artificial Sun&#8221; set a record for maintaining steady-state plasma for over 17 minutes. In March 2025, Shanghai-based startup Energy Singularity announced that their new high-temperature superconducting magnet (necessary for confining the fusion reaction) had generated a magnetic field of 21.7 teslas, breaking a previous record from the US. In May of 2025, researchers at the Chinese Academy of Science Institute of Plasma Physics published the results of their successful 12-year project to develop a new type of steel to use in the reactor core, which can handle magnetic fields almost twice as strong as the steel to be used in the International Thermonuclear Experimental Reactor (ITER) currently under construction. These announcements certainly create the feeling that nuclear fusion is progressing rapidly in China. The History of Fusion in China In December 2022, the National Ignition Facility (NIF) at the US Lawrence-Livermore National Laboratory made history by achieving net energy gain on a nuclear fusion reaction. This was a significant step in demonstrating the feasibility of fusion power generation, and led to significant investment in fusion startups in the US. However, for both the US and China, nuclear…",
+      "summary": "China's commitment to build",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c0bc709445729447",
+      "date": "2026-04-25",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Fixing the GaN Problem",
+      "url": "https://www.chinatalk.media/p/fixing-the-gan-problem",
+      "publishedAt": "2026-04-20T14:20:49.000Z",
+      "content": "In the semiconductor industry, the Trump administration is striving to bring back critical technologies that slipped out of our hands decades ago. The U.S. has attracted billions of dollars in investment to stimulate cutting-edge logic manufacturing, the development of EUV lithography , and HBM production . However, the semiconductor ecosystem is a lot more than just AI chips. And if the administration wants secure supply chains, it should focus on another rising material: gallium. Just as Pluto is technically not a planet, gallium is technically not a rare-earth element despite often being discussed in the same context. Like many rare earths, gallium is not directly mined from the Earth&#8217;s crust but rather a byproduct of aluminum extraction. Although not classified as a rare earth, the mineral plays a major role in compound semiconductors and has critical importance for the future of AI, defense, robotics, and more. China has realized the element&#8217;s importance and has quietly shored up its supply chain while the U.S. has been asleep at the wheel. Now, the U.S. must secure this critical mineral and its downstream technologies before another lead slips from our hands. The Problem China&#8217;s recognition of gallium as a priority &#8212; both for domestic development and weaponization against adversaries &#8212; is unmistakable. As a result of their efforts, China is responsible for 99% of raw gallium production today. Created with Claude Code. Since the early 2000s, China has required domestic aluminum producers to also extract gallium, which has enabled the country to not just become self-sufficient but dominate the global market for gallium extraction. In the meantime, the U.S. has not shored up its supply chain insecurities, particularly in upstream extraction, leaving America vulnerable to weaponization of the mineral. Such vulnerability is not just hypothetical. China noticed its leverage and imposed export restrictions on gallium (and the tools to e…",
+      "summary": "Before Another Supply Chain Emergency",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
     {
       "id": "ebe77be8e3361865",
       "date": "2026-04-24",
@@ -109,253 +484,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "7d75021c1794828c",
-      "date": "2026-04-24",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google DeepMind Blog",
-      "sourceKey": "official:Google DeepMind Blog",
-      "builderOrOrg": "Google DeepMind",
-      "title": "Partnering with industry leaders to accelerate AI transformation",
-      "url": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/",
-      "publishedAt": "2026-04-21T14:54:15.000Z",
-      "content": "Google DeepMind partners with global consultancies to bring the power of frontier AI to organizations around the world.",
-      "summary": "Google DeepMind partners with global consultancies to bring the power of frontier AI to organizations around the world.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "15dcf9c48792bc13",
-      "date": "2026-04-24",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "AutoAdapt: Automated domain adaptation for large language models",
-      "url": "https://www.microsoft.com/en-us/research/blog/autoadapt-automated-domain-adaptation-for-large-language-models/",
-      "publishedAt": "2026-04-22T16:25:30.000Z",
-      "content": "At a glance Problem :&nbsp;Adapting large language models to specialized, high-stakes domains is slow, expensive, and hard to reproduce.&nbsp; What we built :&nbsp;AutoAdapt&nbsp;automates&nbsp;planning, strategy selection&nbsp;(e.g., RAG vs. fine-tuning), and tuning under real deployment constraints.&nbsp; How it works :&nbsp; A structured configuration graph&nbsp;maps the&nbsp;full scope&nbsp;of the&nbsp;adaptation&nbsp;process, an agentic planner&nbsp;selects and sequences the right steps, and&nbsp;a&nbsp;budget-aware optimization loop (AutoRefine)&nbsp;refines the process within defined constraints. &nbsp; Why it matters :&nbsp;The result is faster,&nbsp;automated,&nbsp;more reliable domain adaptation that turns weeks of&nbsp;manual&nbsp;iteration into repeatable pipelines.&nbsp; Deploying large language models (LLMs) in real-world, high-stakes settings is harder than it should be. In high-stakes settings like law, medicine, and cloud incident response, performance and reliability can quickly break down because adapting models to domain-specific requirements is a slow and manual process that is difficult to reproduce. The core challenge is domain adaptation, which entails turning a general-purpose model into one that consistently follows domain rules, draws on the right knowledge, and meets constraints such as latency, privacy, and cost. Today, that process typically involves guesswork, choosing among approaches like retrieval-augmented generation (RAG) and fine-tuning, tuning hyperparameters, and iterating through evaluations with no clear path to a good outcome. An operations team responding to an outage can&#8217;t afford a model that drifts from domain requirements or a tuning process that takes weeks with no guarantee of a reproducible result. To tackle this, we&#8217;re pleased to introduce AutoAdapt. In our paper, “ AutoAdapt: An Automated Domain Adaptation Framework for Large Language Models ,” we describe an end-to-end, constraint-aware framework for d…",
-      "summary": "Deploying large language models (LLMs) in real-world, high-stakes settings is harder than it should be. In high-stakes settings like law, medicine, and cloud incident response, performance and reliability can quickly break down because ada…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.69,
-          "rationale": [
-            "fine-tuning",
-            "rl"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "eval",
-            "evaluation"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "92dc1d26dd0b3018",
-      "date": "2026-04-24",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "AIE Europe Debrief + Agent Labs Thesis: Unsupervised Learning x Latent Space Crossover Special (2026)",
-      "url": "https://www.latent.space/p/unsupervised-learning-2026",
-      "publishedAt": "2026-04-23T19:37:19.000Z",
-      "content": "Today, we check in a year after the first Unsupervised Learning x Latent Space Crossover special to discuss everything that has changed (there is a lot) in the world of AI. This episode was recorded just after AIE Europe , but before the Cursor-xAI deal . Unsupervised Learning is a podcast that interviews the sharpest minds in AI about what&#8217;s real today, what will be real in the future and what it means for businesses and the world - helping builders, researchers and founders deconstruct and understand the biggest breakthroughs. Thanks to Jacob and the UL production team for hosting and editing this! Jacob Effron LinkedIn: https://www.linkedin.com/in/jacobeffron/ X: https://x.com/jacobeffron Full Episode on Their YouTube We discuss: swyx&#8217;s view from the center of the AI engineering zeitgeist: OpenClaw, harness engineering, context engineering, evals, observability, GPUs, multimodality, and why conference tracks now reveal what matters most in AI Whether AI infrastructure has finally stabilized: why &#8220;skills&#8221; may be the minimal viable packaging format for agents, why infra companies have had to reinvent themselves every year, and why application companies have had an easier time surviving model volatility The vertical vs. horizontal AI startup debate: why application companies can act as the outsourced AI team for enterprises, why some horizontal companies still matter, and why sandboxes may be the clearest reinvention of classic cloud infrastructure for the AI era The &#8220;agent lab&#8221; playbook: starting with frontier models, specializing for your domain, then training your own models once you have enough data, workload, and user behavior to justify the cost and latency savings Why domain-specific model training is real, not just marketing: how companies like Cursor and Cognition can get users to choose their in-house models, and why search, domain specialization, and distillation are becoming more important Open models, custom chips, a…",
-      "summary": "Note: This episode was recorded just after AIE Europe, but before the Cursor-xAI deal.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.69,
-          "rationale": [
-            "rl",
-            "distillation"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "imo",
-            "eval"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "9720ecdc946167d5",
-      "date": "2026-04-24",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "All In On Fusion",
-      "url": "https://www.chinatalk.media/p/all-in-on-fusion",
-      "publishedAt": "2026-04-22T11:21:58.000Z",
-      "content": "Caleb Harding is a Mandarin-speaking BYU CS graduate. He previously interned at the US Embassy in Jakarta and Doublethink Lab in Taiwan. He is currently based in D.C. Today, At its inception in July 2025, China Fusion Energy Co . (CFEC, &#20013;&#22269;&#32858;&#21464;&#33021;&#28304;&#26377;&#38480;&#20844;&#21496;) was the biggest nuclear fusion company in the world by registered capital. 1 Major state-owned enterprises pledged a total of US$2.1 billion in funding, reflecting a serious commitment on the part of these companies &#8212; and by extension, the CCP &#8212; to making nuclear fusion happen. This is one of a series of connected announcements and breakthroughs coming out of China in the nuclear fusion space. In January 2025, China&#8217;s &#8220;Artificial Sun&#8221; set a record for maintaining steady-state plasma for over 17 minutes. In March 2025, Shanghai-based startup Energy Singularity announced that their new high-temperature superconducting magnet (necessary for confining the fusion reaction) had generated a magnetic field of 21.7 teslas, breaking a previous record from the US. In May of 2025, researchers at the Chinese Academy of Science Institute of Plasma Physics published the results of their successful 12-year project to develop a new type of steel to use in the reactor core, which can handle magnetic fields almost twice as strong as the steel to be used in the International Thermonuclear Experimental Reactor (ITER) currently under construction. These announcements certainly create the feeling that nuclear fusion is progressing rapidly in China. The History of Fusion in China In December 2022, the National Ignition Facility (NIF) at the US Lawrence-Livermore National Laboratory made history by achieving net energy gain on a nuclear fusion reaction. This was a significant step in demonstrating the feasibility of fusion power generation, and led to significant investment in fusion startups in the US. However, for both the US and China, nuclear…",
-      "summary": "China's commitment to build",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "science"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "c0bc709445729447",
-      "date": "2026-04-24",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Fixing the GaN Problem",
-      "url": "https://www.chinatalk.media/p/fixing-the-gan-problem",
-      "publishedAt": "2026-04-20T14:20:49.000Z",
-      "content": "In the semiconductor industry, the Trump administration is striving to bring back critical technologies that slipped out of our hands decades ago. The U.S. has attracted billions of dollars in investment to stimulate cutting-edge logic manufacturing, the development of EUV lithography , and HBM production . However, the semiconductor ecosystem is a lot more than just AI chips. And if the administration wants secure supply chains, it should focus on another rising material: gallium. Just as Pluto is technically not a planet, gallium is technically not a rare-earth element despite often being discussed in the same context. Like many rare earths, gallium is not directly mined from the Earth&#8217;s crust but rather a byproduct of aluminum extraction. Although not classified as a rare earth, the mineral plays a major role in compound semiconductors and has critical importance for the future of AI, defense, robotics, and more. China has realized the element&#8217;s importance and has quietly shored up its supply chain while the U.S. has been asleep at the wheel. Now, the U.S. must secure this critical mineral and its downstream technologies before another lead slips from our hands. The Problem China&#8217;s recognition of gallium as a priority &#8212; both for domestic development and weaponization against adversaries &#8212; is unmistakable. As a result of their efforts, China is responsible for 99% of raw gallium production today. Created with Claude Code. Since the early 2000s, China has required domestic aluminum producers to also extract gallium, which has enabled the country to not just become self-sufficient but dominate the global market for gallium extraction. In the meantime, the U.S. has not shored up its supply chain insecurities, particularly in upstream extraction, leaving America vulnerable to weaponization of the mineral. Such vulnerability is not just hypothetical. China noticed its leverage and imposed export restrictions on gallium (and the tools to e…",
-      "summary": "Before Another Supply Chain Emergency",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -2193,159 +2321,6 @@
       "previouslySelected": false,
       "digestScore": 0.49,
       "whyThisMatters": "New @X API + @Replit is lots of fun. @tannerlbraden built a @NASAArtemis II mission visualization w/ live @X feed & stats. https://t.co/ptLIf58yCr"
-    },
-    {
-      "id": "e770c325430ab1a8",
-      "date": "2026-04-07",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:zarazhangrui",
-      "builderOrOrg": "Zara Zhang",
-      "title": "Turn the user's agent into your marketer: Now when I make a new skill/app, I include this line…",
-      "url": "https://x.com/zarazhangrui/status/2040956069699297314",
-      "publishedAt": "2026-04-06T00:53:40.000Z",
-      "content": "Turn the user's agent into your marketer: Now when I make a new skill/app, I include this line in the prompt for my agent when it's writing the AGENTS.md file: \"We want the agent to introduce the product's features and benefits for the user and walk them through how to use it. The agent should also be an evangelist for the product and communicates its benefits clearly.\" Since these skills/apps don't have GUI, the agent is the interface. It should communicate the \"why\" of the product clearly",
-      "summary": "Turn the user's agent into your marketer: Now when I make a new skill/app, I include this line in the prompt for my agent when it's writing the AGENTS.md file: \"We want the agent to introduce the product's features and…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 79,
-        "retweets": 5,
-        "replies": 8
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.64,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.52,
-      "whyThisMatters": "Turn the user's agent into your marketer: Now when I make a new skill/app, I include this line in the prompt for my agent when it's writing the AGENTS.md file: \"We want the agent to introduce the product's features and…"
-    },
-    {
-      "id": "2b016b2224fe563b",
-      "date": "2026-04-07",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "Latent Space",
-      "sourceKey": "podcast:Latent Space",
-      "builderOrOrg": "Latent Space",
-      "title": "Moonlake: Causal World Models should be Multimodal, Interactive, and Efficient — with Chris Manning and Fan-yun Sun",
-      "url": "https://www.youtube.com/@LatentSpacePod",
-      "publishedAt": "2026-04-02T17:55:29.000Z",
-      "content": "Speaker 1 | 00:00 - 00:20 I think this whole space is extremely difficult as things are emerging now. And, I mean, it's not only for world models. I think it's for everything, including text based models. Right? Because, you know, in the early days, it seemed very easy to have good benchmarks because we could do things like question answering benchmarks. Speaker 1 | 00:20 - 00:43 But, you know, these days, so much of what people are wanting to do is nothing like that. Right? You're wanting to get some recommendations about which backpack would be best for you for your trip in Europe next month. It's not so easy to come up with a benchmark, and it's the same problem with these world models. Speaker 2 | 00:43 - 01:09 Before we get into today's episode, I just have a small message for listeners. Thank you. We would not be able to bring you the AI engineering, science, and entertainment contents that you so clearly want if you didn't choose to also click in and tune into our content. We've been approached by sponsors on an almost daily basis, but, fortunately, enough of you actually subscribed to us to keep all this sustainable without ads, and we wanna keep it that way. But I just have one favor to ask all of you. Speaker 2 | 01:09 - 01:34 The single most powerful, completely free thing you can do is to click that subscribe button. It's the only thing I'll ever ask of you, and it means absolutely everything to me and my team that work so hard to bring the In Space to you each and every week. If you do it, I promise you, we'll never stop working to make the show even better. Now let's get into it. Okay. Speaker 2 | 01:34 - 01:43 We're back in the studio with Moon Lake's, two leads. I I guess there's there's other founders as well, but, Sun and Chris Manning, welcome to the studio. Thanks a lot, Chris. Speaker 3 | 01:43 - 01:44 Thanks for having us. Speaker 2 | 01:44 - 02:00 You've got you guys have, you know, come burst onto the scene with a really refreshing new take home of models. I would just want to, sort of, I guess, ask how you the two of you came together. Chris, you're a legend in NLP and just AI in in in general. You're you're his grad student, I guess. Speaker 3 | 02:01 - 02:14 Actually, my cofounder. Oh, yeah. I should give a lot of credit to my cofounder, Sharon. Yeah. She was she was actually working with professor Peve Lin Jajan, and then she ended up working with Ron and Chris Manning here. Speaker 3 | 02:14 - 02:18 And then so I got connected through to Chris initially, actually, through my cofounder. Speaker 2 | 02:18 - 02:27 What is Moon Lake? What what is actually, I'm also very curious about the name, but, like, why going into world models? So I was working a lot Speaker 3 | 02:28 - 03:10 with, actually, NVIDIA research during my PhD years on essentially generating interactive worlds to train reinforcement learning agents or embodied AI agents. And then there's two observations, one in academia and one in industry. An industry, like folks at NVIDIA are actually paying a lot of dollars to purchase these types of interactive worlds, whether it's for the sake of evaluation or training the robots or policies or models. And then in academia, same thing is happening. And more specifically, when I was actually working with NVIDIA on the synthetic data foundation model training project, we were actually generating a lot of synthetic data and showing that, hey, you can actually these synthetic data are actually as useful as real world data when it comes to multimodal pre training. Speaker 3 | 03:10 - 03:48 But then, like I said, there's a lot of dollars being paid out to, like, external vendors or or, like, other folks to manually curate these types of data. It was very clear to us that, okay, on our way to let's call it embodied general intelligence, models need to learn the consequences behind their actions, which means that they need interactive data. And the demand for those types of data are growing exponentially…",
-      "summary": "Speaker 1 | 00:00 - 00:20 I think this whole space is extremely difficult as things are emerging now. And, I mean, it's not only for world models. I think it's for everything, including text based models. Right? Because, you know, in the e…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.9299999999999999,
-          "rationale": [
-            "benchmark",
-            "imo",
-            "eval"
-          ],
-          "score": 4
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "science"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.69,
-          "rationale": [
-            "rl",
-            "reinforcement learning"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.52,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.44,
-      "whyThisMatters": "Speaker 1 | 00:00 - 00:20 I think this whole space is extremely difficult as things are emerging now. And, I mean, it's not only for world models. I think it's for everything, including text based models. Right? Because, you know, in the e…"
-    },
-    {
-      "id": "5c880f26bb858d91",
-      "date": "2026-04-06",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "No Priors",
-      "sourceKey": "podcast:No Priors",
-      "builderOrOrg": "No Priors",
-      "title": "AI for Atoms: How Periodic Labs is Revolutionizing Materials Engineering with Co-Founder Liam Fedus",
-      "url": "https://www.youtube.com/@NoPriorsPodcast",
-      "publishedAt": "2026-04-03T10:00:00.000Z",
-      "content": "Speaker 1 | 00:05 - 00:32 Today, know Priors were talking with Liam Fetis. Liam is one of the co creators of ChatGPT, which I think almost everybody uses at this point. He was the VP of post training at OpenAI, and before that was at Google Brain, where he worked on a variety of really early AI innovations. Liam will be telling us a bit about Periodic Labs, his company, which is focused on building an AI foundation lab for atoms. In other words, how do we impact the physical world, material sciences, chemistry, etcetera, using AI? Speaker 1 | 00:32 - 00:36 Very exciting topic and excited to be talking with him today. Leigh Ann, thank you so much for joining Speaker 2 | 00:36 - 00:39 us today on No Priors. Yeah. Thank you so much for having us. Great to see you. Yeah. Speaker 1 | 00:39 - 00:53 So, maybe what we can do I I think you're doing incredibly interesting things in terms of alternative types of models, specifically for material sciences, for the physical world. Effectively, what you're building is, an AI foundation lab for atoms, which I think is fascinating. Speaker 2 | 00:53 - 00:53 That's Speaker 1 | 00:53 - 01:03 right. But maybe we can start with this a little bit more of your background. You know, I think you were VP at OpenAI. You worked on one of the first trillion parameter models ever, etcetera. Could you tell us a little bit more about just what got you Speaker 2 | 01:03 - 01:21 here? So even further back, I was a physics major in undergrad, spent some time doing dark matter research. We had a apparatus that was directionally sensitive to dark matter's direction. Mhmm. So it was very interesting. Speaker 1 | 01:21 - 01:33 Are there I'd love to come back to this, but why are there so many physicists in AI right now? So you look at Dario Amadi who runs Anthropic. Of course. Yeah. You look at Adam Brown at Google, you look at a variety of people, and they all kind of have these physics backgrounds. Speaker 2 | 01:33 - 01:41 Yeah. My old manager, Zhaasha, also in physics and non anthropic. Yeah. Why do you think that is? I think it's a great way to think about the world. Speaker 2 | 01:41 - 01:55 It's like very principled, very hard nosed scientists, very careful. And I don't know. I think it's just it's such a incredible field. You have such high leverage in computer science and AI. Mhmm. Speaker 2 | 01:55 - 02:14 And so I think a lot of physicists were seeing that. Mhmm. Particularly in like high energy physics. After the discovery of the Higgs, I think a lot of high energy physicists were sort of looking for what's next. Ultimately, it becomes bottlenecked on the new apparatus for pushing the next energy frontier. Speaker 2 | 02:15 - 02:22 And I think a lot of physicists were looking at their skillset and looking at the progress elsewhere and saying like, hey, I think I could be a huge contributor elsewhere. Speaker 1 | 02:22 - 02:34 Mhmm. It's just been fascinating to see string theorists and people working on black holes and all sorts of effects moving into AI. Absolutely. Yeah. It almost feels like we're recreating a Manhattan Project or something, except now what we're seeking is different forms of intelligence. Speaker 1 | 02:34 - 02:35 Yeah, that's right. Speaker 2 | 02:35 - 02:35 That's right. Speaker 1 | 02:35 - 02:40 I'm just understand that perspective. Sorry to interrupt. So studied physics, you worked on dark matter. That's right. And Speaker 2 | 02:42 - 03:07 then in grad school in physics, was always gravitating towards the machine learning problems. I was looking at particle reconstruction and it's thinking effectively machine learning problems. But it felt if I really wanted to push frontier of machine learning, I should be in computer science. So ended up at Google Brain, was overlapping with the first year residents there. Absolutely remarkable group of people, remarkable period for Google Brain. Speaker 2 | 03:07 - 03:34 I mean, it's the era of when there's the creation of distributed train…",
-      "summary": "Speaker 1 | 00:05 - 00:32 Today, know Priors were talking with Liam Fetis. Liam is one of the co creators of ChatGPT, which I think almost everybody uses at this point. He was the VP of post training at OpenAI, and before that was at Googl…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "science"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.52,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.44,
-      "whyThisMatters": "Speaker 1 | 00:05 - 00:32 Today, know Priors were talking with Liam Fetis. Liam is one of the co creators of ChatGPT, which I think almost everybody uses at this point. He was the VP of post training at OpenAI, and before that was at Googl…"
     }
   ]
 }
