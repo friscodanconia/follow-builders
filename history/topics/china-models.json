@@ -1,11 +1,65 @@
 {
-  "generatedAt": "2026-04-25T04:10:27.649Z",
+  "generatedAt": "2026-04-26T00:59:04.405Z",
   "slug": "china-models",
   "label": "Chinese AI",
   "items": [
     {
+      "id": "71de3d37342f842b",
+      "date": "2026-04-26",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] DeepSeek V4 Pro (1.6T-A49B) and Flash (284B-A13B), Base and Instruct — runnable on Huawei Ascend chips",
+      "url": "https://www.latent.space/p/ainews-deepseek-v4-pro-16t-a49b-and",
+      "publishedAt": "2026-04-25T05:00:48.000Z",
+      "content": "After a couple months&#8217; delay and lots of speculation, DeepSeek finally released the heavily anticipated DSV4 , the first major version model since DSV3 (Dec 2024) and DSR1 (Jan 2025). It brings the DeepSeek family up in line with Kimi K2.6 , the current open model leader, and Xiaomi Mimo 2.5 , a lesser known family released 2 days ago . The DSV4 family is roughly a Gemini 3.1, GPT 5.4, Opus 4.6 level model, up to 1.6T MOE withtrained on 32T tokens with FP4 , with 1M token context (supported by their new Compressed Sparse Attention (CSA) and Heavily Compressed Attention (HCA) techniques), and incredibly rarely, they released both the Base and Instruct versions - surely setting the stage for a possible &#8220;DeepSeek R2&#8221; in future, though this one already has reasoning effort. The technical report is a typically dense 58 pages, demonstrating training and inference insights and improvements from the Manifold Constrained Hyper-Connections (mHC) paper they released in January, continued usage of Moonshot&#8217;s Muon , and CSA/HCA&#8217;s overall INCREDIBLE efficiency improvements on DeepSeek 3.2-Exp&#8217;s already impressive Sparse Attention - at 1M tokens, requiring only 27% of FLOPs and 10% of KV cache memory compared with DeepSeek-V3.2: The geopolitical backdrop behind the Huawei CANN compatibility is DeepSeek weaning dependence off export-controlled NVIDIA/CUDA chips &#8212;&nbsp;Ascends are still a quarter the supply of H100s, but this is an important milestone for Chinese total independence. AI News for 4/23/2026-4/24/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Top Story: DeepSeek V4 DeepSeek released DeepSeek-V4 Pro and DeepSeek-V4 Flash , its first major architecture refresh since V3 and first clear two-tier lineup, with 1M-token context , hybrid reasonin…",
+      "summary": "The prodigal Tiger returns... but is no longer the benchmarks leader.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "china-models",
+          "label": "Chinese AI",
+          "confidence": 0.81,
+          "rationale": [
+            "deepseek",
+            "kimi",
+            "moonshot"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "inference",
+            "sparse attention"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Chinese Models",
+      "importanceScore": 0.55,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.71,
+      "whyThisMatters": ""
+    },
+    {
       "id": "35a940e4dce8f030",
-      "date": "2026-04-25",
+      "date": "2026-04-26",
       "sourceType": "blog",
       "sourceGroup": "china",
       "sourceName": "DeepSeek News",
@@ -45,7 +99,7 @@
       "section": "Chinese Models",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },

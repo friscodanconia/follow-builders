@@ -1,8 +1,464 @@
 {
-  "generatedAt": "2026-04-25T04:10:27.649Z",
+  "generatedAt": "2026-04-26T00:59:04.405Z",
   "slug": "agents",
   "label": "AI Assistants",
   "items": [
+    {
+      "id": "e72a464bca87a4eb",
+      "date": "2026-04-26",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "No Priors",
+      "sourceKey": "podcast:No Priors",
+      "builderOrOrg": "No Priors",
+      "title": "SAP: Bringing the ‘Operating System’ of a Company into the AI Era with CTO Philipp Herzig",
+      "url": "https://www.youtube.com/watch?v=5u7AjPardvo",
+      "publishedAt": "2026-04-23T10:00:00.000Z",
+      "content": "Speaker 1 | 00:05 - 00:37 Hey, listeners. Welcome back to No Priors. Today, I'm here with Filip Herzig, the CTO of SAP, the enterprise juggernaut. We talk about their AI strategy, why SAP has endured and thrived through several technology transitions, why entrepreneurs are underestimating the challenges of scale, why AI is a business model transition, not just a technology transition, why he thinks that LMs are not enough for predictive analytics and even about the traveling salesman problem in the real world and the Strait Of Hermes. Welcome, Philip. Speaker 1 | 00:37 - 00:39 Philip, thanks so much for being with us. Speaker 2 | 00:39 - 00:41 Yeah. It's a pleasure to be here. Thank you. Speaker 1 | 00:41 - 00:58 Everybody knows the name SAP, but I do think that for lots of engineers or people who aren't close to the system in a larger enterprise, they don't really know, like, the breadth and function of the platform. Like, can you just describe what you guys do for customers? Speaker 2 | 00:58 - 01:09 Oh, absolutely. I mean, look. SAP is the market leader, right, in enterprise of software applications and platforms. Right? So 400,000 enterprise customers. Speaker 2 | 01:09 - 01:32 And usually, just running their finance, HR, and, you know, supply chain, manufacturing, execution, logistics, warehouse management, and then, of course, everything on the customer side, sales, services, commerce, procurement, you name it. Right? End to end. Right? So, like SAP, we always say we have the broadest portfolio in terms of end to end, running the business end to end. Speaker 2 | 01:32 - 01:56 This is where SAP started with. Right? The real giving real time insight. And, usually, I really describe this as it's not just software in itself. It's kind of the operating system, right, of a company, essentially, in order to get, you know, from from everything from order to cash or source to pay, right, end to end managed for companies around the around the entire globe. Speaker 1 | 01:56 - 02:13 Mhmm. I definitely wanna talk about AI, LLM, some of those stuff that you guys are doing internally and then around predictive models as well. But just because the the macro backdrop is on everyone's mind, both from a technology and an economic perspective. Speaker 2 | 02:13 - 02:14 Oh, Speaker 1 | 02:14 - 02:57 sure. I want to talk about, like, SAP's position in the market a little bit. SAP has has stood the test of time through multiple technology and market cycles. I, as an early stage venture capitalist, I'm kind of on the other side of this where the narrative is like, well, when you have Internet and cloud and mobile and AI and social, like, you have an opportunity for new players. What what do you like, SAP, you know, even today is the, I believe, the largest, like, market cap enterprise software vendor versus sort of the the last generation of the new guard, like the sales forces of the world. Speaker 1 | 02:58 - 03:03 How has that happened? Like, how did you how did you do it, and what does make what makes it so durable? Speaker 2 | 03:04 - 03:23 Well, what makes it so durable, right, at the end of the day I mean, if you think about this it's happening as a little bit the same way also when we talk about the narrative or the SARS parcalypse. I mean, anyway, we're I I have the feeling, like, in this market last year, AI was in a big bubble, and everybody was kind of doing it. No. It's not. And not this year. Speaker 2 | 03:23 - 03:58 SARS is dead, and and so on and so forth. Look. The the reality is now, of course, with the the the costs of building being so low, right, with specifically agentic coding and all these latest powerful models, I mean, something has always prevailed over the years because even when SAP was founded, right, in 1972, right, a long time ago, I mean, why was it started? Because, actually, in the seventies, when the founders of SAP worked still at IBM, what did they do? They went to each customer, right, and they implemen…",
+      "summary": "Speaker 1 | 00:05 - 00:37 Hey, listeners. Welcome back to No Priors. Today, I'm here with Filip Herzig, the CTO of SAP, the enterprise juggernaut. We talk about their AI strategy, why SAP has endured and thrived through several technology…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.81,
+          "rationale": [
+            "enterprise",
+            "sales",
+            "procurement"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.74,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.83,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "da79b35bab22e5c0",
+      "date": "2026-04-26",
+      "sourceType": "blog",
+      "sourceGroup": "mirrored",
+      "sourceName": "Anthropic Engineering",
+      "sourceKey": "blog:Anthropic Engineering",
+      "builderOrOrg": "Anthropic Engineering",
+      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+      "url": "https://www.anthropic.com/engineering/managed-agents",
+      "publishedAt": null,
+      "content": "Get started with Claude Managed Agents by following our docs . A running topic on the Engineering Blog is how to build effective agents and design harnesses for long-running work . A common thread across this work is that harnesses encode assumptions about what Claude can’t do on its own. However, those assumptions need to be frequently questioned because they can go stale as models improve. As just one example, in prior work we found that Claude Sonnet 4.5 would wrap up tasks prematurely as it sensed its context limit approaching—a behavior sometimes called “context anxiety.” We addressed this by adding context resets to the harness. But when we used the same harness on Claude Opus 4.5, we found that the behavior was gone. The resets had become dead weight. We expect harnesses to continue evolving. So we built Managed Agents: a hosted service in the Claude Platform that runs long-horizon agents on your behalf through a small set of interfaces meant to outlast any particular implementation—including the ones we run today. Building Managed Agents meant solving an old problem in computing: how to design a system for “ programs as yet unthought of .” Decades ago, operating systems solved this problem by virtualizing hardware into abstractions— process, file —general enough for programs that didn&#x27;t exist yet. The abstractions outlasted the hardware. The read() command is agnostic as to whether it’s accessing a disk pack from the 1970s or a modern SSD. The abstractions on top stayed stable while the implementations underneath changed freely. Managed Agents follow the same pattern. We virtualized the components of an agent: a session (the append-only log of everything that happened), a harness (the loop that calls Claude and routes Claude’s tool calls to the relevant infrastructure), and a sandbox (an execution environment where Claude can run code and edit files). This allows the implementation of each to be swapped without disturbing the others. We&#x27;re opinion…",
+      "summary": "Get started with Claude Managed Agents by following our docs . A running topic on the Engineering Blog is how to build effective agents and design harnesses for long-running work . A common thread across this work is that harnesses encode…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "long-horizon"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Watchlist",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "fdb7ae084b7d70f9",
+      "date": "2026-04-26",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google AI Blog",
+      "sourceKey": "official:Google AI Blog",
+      "builderOrOrg": "Google",
+      "title": "We're launching two specialized TPUs for the agentic era.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/",
+      "publishedAt": "2026-04-22T12:00:00.000Z",
+      "content": "The eighth generation of Google’s TPU includes two specialized chips that will power the future of AI.",
+      "summary": "The eighth generation of Google’s TPU includes two specialized chips that will power the future of AI.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "953d1f6ccb996fdb",
+      "date": "2026-04-26",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google AI Blog",
+      "sourceKey": "official:Google AI Blog",
+      "builderOrOrg": "Google",
+      "title": "3 new ways Ads Advisor is making Google Ads safer and faster",
+      "url": "https://blog.google/products/ads-commerce/ads-advisor-google-ads/",
+      "publishedAt": "2026-04-21T14:30:00.000Z",
+      "content": "Three new agentic safety and policy features integrated into Ads Advisor will help protect and streamline your Google Ads account.",
+      "summary": "Three new agentic safety and policy features integrated into Ads Advisor will help protect and streamline your Google Ads account.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.69,
+          "rationale": [
+            "safety",
+            "policy"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "15dcf9c48792bc13",
+      "date": "2026-04-26",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "AutoAdapt: Automated domain adaptation for large language models",
+      "url": "https://www.microsoft.com/en-us/research/blog/autoadapt-automated-domain-adaptation-for-large-language-models/",
+      "publishedAt": "2026-04-22T16:25:30.000Z",
+      "content": "At a glance Problem :&nbsp;Adapting large language models to specialized, high-stakes domains is slow, expensive, and hard to reproduce.&nbsp; What we built :&nbsp;AutoAdapt&nbsp;automates&nbsp;planning, strategy selection&nbsp;(e.g., RAG vs. fine-tuning), and tuning under real deployment constraints.&nbsp; How it works :&nbsp; A structured configuration graph&nbsp;maps the&nbsp;full scope&nbsp;of the&nbsp;adaptation&nbsp;process, an agentic planner&nbsp;selects and sequences the right steps, and&nbsp;a&nbsp;budget-aware optimization loop (AutoRefine)&nbsp;refines the process within defined constraints. &nbsp; Why it matters :&nbsp;The result is faster,&nbsp;automated,&nbsp;more reliable domain adaptation that turns weeks of&nbsp;manual&nbsp;iteration into repeatable pipelines.&nbsp; Deploying large language models (LLMs) in real-world, high-stakes settings is harder than it should be. In high-stakes settings like law, medicine, and cloud incident response, performance and reliability can quickly break down because adapting models to domain-specific requirements is a slow and manual process that is difficult to reproduce. The core challenge is domain adaptation, which entails turning a general-purpose model into one that consistently follows domain rules, draws on the right knowledge, and meets constraints such as latency, privacy, and cost. Today, that process typically involves guesswork, choosing among approaches like retrieval-augmented generation (RAG) and fine-tuning, tuning hyperparameters, and iterating through evaluations with no clear path to a good outcome. An operations team responding to an outage can&#8217;t afford a model that drifts from domain requirements or a tuning process that takes weeks with no guarantee of a reproducible result. To tackle this, we&#8217;re pleased to introduce AutoAdapt. In our paper, “ AutoAdapt: An Automated Domain Adaptation Framework for Large Language Models ,” we describe an end-to-end, constraint-aware framework for d…",
+      "summary": "Deploying large language models (LLMs) in real-world, high-stakes settings is harder than it should be. In high-stakes settings like law, medicine, and cloud incident response, performance and reliability can quickly break down because ada…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "fine-tuning",
+            "rl"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "eval",
+            "evaluation"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "14c61f0c0ad6c5dd",
+      "date": "2026-04-26",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "Speaking of Voxtral | Mistral AI",
+      "url": "https://mistral.ai/news/voxtral-tts",
+      "publishedAt": null,
+      "content": "Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.",
+      "summary": "Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.81,
+          "rationale": [
+            "voice",
+            "speech",
+            "tts"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "weights"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "b5782a914e9ede6a",
+      "date": "2026-04-26",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] GPT 5.5 and OpenAI Codex Superapp",
+      "url": "https://www.latent.space/p/ainews-gpt-55-and-openai-codex-superapp",
+      "publishedAt": "2026-04-24T04:40:43.000Z",
+      "content": "A week after Opus 4.7 , it was OpenAI&#8217;s turn to fire back with very similar Pareto frontier improvement charts for GPT 5.5 (as Noam Brown prefers &#8212;&nbsp;raw 1 dimensional intelligence measures are giving way to 2D intelligence per dollar charts). In the 4.7 vs 5.5 bakeoff, you have to read between the lines to see what was NOT mentioned ( coding ), but in terms of overall intelligence, AA crowns this the top independently validated model in the world, AND&#8230; AA chart &#8230; intelligence per dollar (&#8220; GPT-5.5 (medium) scores the same as Claude Opus 4.7 (max) on our Intelligence Index at one quarter of the cost (~$1,200 vs $4,800) - although Gemini 3.1 Pro Preview scores the same at a cost of ~$900 . &#8221; aa 2D There are some training hardware tidbits and positive RSI vibes and cool alternative benchmarks . But if you just treated today as a mere point update model launch ( some would prefer to call it 5.9 ), you&#8217;d be mistaken - it&#8217;s also bundling a big Codex launch day: twitter With built in browser control and the other features in this mega-update , as well as folding in the now defunct Prism (RIP), OpenAI seems to have made the critical and retoractively obvious choice to turn Codex into the base of its superapp strategy . AI News for 4/22/2026-4/23/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI&#8217;s GPT-5.5 launch: stronger agentic coding, broader computer use, and a push on token-efficiency GPT-5.5 is the day&#8217;s dominant release : OpenAI launched GPT-5.5 , positioned as &#8220;a new class of intelligence for real work,&#8221; with rollout across ChatGPT and Codex and API access delayed pending additional safeguards. OpenAI and community benchmark posts converged on a profile of better long-horizon execution, stronger co…",
+      "summary": "Spud lives!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "long-horizon"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "92dc1d26dd0b3018",
+      "date": "2026-04-26",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "AIE Europe Debrief + Agent Labs Thesis: Unsupervised Learning x Latent Space Crossover Special (2026)",
+      "url": "https://www.latent.space/p/unsupervised-learning-2026",
+      "publishedAt": "2026-04-23T19:37:19.000Z",
+      "content": "Today, we check in a year after the first Unsupervised Learning x Latent Space Crossover special to discuss everything that has changed (there is a lot) in the world of AI. This episode was recorded just after AIE Europe , but before the Cursor-xAI deal . Unsupervised Learning is a podcast that interviews the sharpest minds in AI about what&#8217;s real today, what will be real in the future and what it means for businesses and the world - helping builders, researchers and founders deconstruct and understand the biggest breakthroughs. Thanks to Jacob and the UL production team for hosting and editing this! Jacob Effron LinkedIn: https://www.linkedin.com/in/jacobeffron/ X: https://x.com/jacobeffron Full Episode on Their YouTube We discuss: swyx&#8217;s view from the center of the AI engineering zeitgeist: OpenClaw, harness engineering, context engineering, evals, observability, GPUs, multimodality, and why conference tracks now reveal what matters most in AI Whether AI infrastructure has finally stabilized: why &#8220;skills&#8221; may be the minimal viable packaging format for agents, why infra companies have had to reinvent themselves every year, and why application companies have had an easier time surviving model volatility The vertical vs. horizontal AI startup debate: why application companies can act as the outsourced AI team for enterprises, why some horizontal companies still matter, and why sandboxes may be the clearest reinvention of classic cloud infrastructure for the AI era The &#8220;agent lab&#8221; playbook: starting with frontier models, specializing for your domain, then training your own models once you have enough data, workload, and user behavior to justify the cost and latency savings Why domain-specific model training is real, not just marketing: how companies like Cursor and Cognition can get users to choose their in-house models, and why search, domain specialization, and distillation are becoming more important Open models, custom chips, a…",
+      "summary": "Note: This episode was recorded just after AIE Europe, but before the Cursor-xAI deal.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "rl",
+            "distillation"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "imo",
+            "eval"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "fe93d479160a3541",
+      "date": "2026-04-26",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Shopify’s AI Phase Transition: 2026 Usage Explosion, Unlimited Opus-4.6 Token Budget, Tangle, Tangent, SimGym — with Mikhail Parakhin, Shopify CTO",
+      "url": "https://www.latent.space/p/shopify",
+      "publishedAt": "2026-04-22T19:33:49.000Z",
+      "content": "Early bird discounts for the San Francisco World&#8217;s Fair , the biggest AIE gathering of the year, end today - prices will go up by ~$500 tonight so do please lock in ASAP! From near-universal AI tool adoption inside Shopify to internal systems for ML experimentation, auto-research, customer simulation, and ultra-low-latency search, Mikhail Parakhin joins us for a deep dive into what it actually looks like when a 20-year-old, $200B software company goes all-in on AI . We cover why Shopify has become much more vocal about its internal stack, what changed after the December model-quality inflection , and why the real bottleneck in AI coding is no longer generation , but review, CI/CD, and deployment stability. We also go inside Tangle , Tangent , SimGym , which are three major AI initiatives that Shopify is doing to make experimentation reproducible, optimization automatic, customer behavior simulatable, and search and catalog intelligence faster and cheaper at scale. Along the way, Mikhail explains UCP , Liquid AI , and why token budgets are directionally right but often measured badly, why AI-written code can still increase bugs in production, what makes Shopify&#8217;s customer simulation defensible, and what he learned from the Sydney era at Bing . We discuss: Mikhail&#8217;s path from running a major Microsoft business unit spanning Windows, Edge, Bing, and ads to becoming CTO of Shopify Why Shopify is talking more publicly about AI now, and why staying at the frontier has become necessary for the company Shopify&#8217;s internal AI adoption curve, the December inflection, and why CLI-style tools are rising faster than traditional IDE-based tools Why Jensen Huang is directionally right on token budgets, but raw token count is still the wrong way to evaluate engineering output Why the real unlock is not more agents in parallel, but better critique loops, stronger models, and spending more on review than generation Why AI coding can still lead to more bugs in…",
+      "summary": "A rare interview with Shopify's CTO on -everything- that Shopify is doing to maximize AI for their customers, with exclusive data on their own AI adoption.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "latency"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
     {
       "id": "35b4826a32d19429",
       "date": "2026-04-25",
@@ -365,357 +821,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.51,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "fdb7ae084b7d70f9",
-      "date": "2026-04-25",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google AI Blog",
-      "sourceKey": "official:Google AI Blog",
-      "builderOrOrg": "Google",
-      "title": "We're launching two specialized TPUs for the agentic era.",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/",
-      "publishedAt": "2026-04-22T12:00:00.000Z",
-      "content": "The eighth generation of Google’s TPU includes two specialized chips that will power the future of AI.",
-      "summary": "The eighth generation of Google’s TPU includes two specialized chips that will power the future of AI.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "953d1f6ccb996fdb",
-      "date": "2026-04-25",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google AI Blog",
-      "sourceKey": "official:Google AI Blog",
-      "builderOrOrg": "Google",
-      "title": "3 new ways Ads Advisor is making Google Ads safer and faster",
-      "url": "https://blog.google/products/ads-commerce/ads-advisor-google-ads/",
-      "publishedAt": "2026-04-21T14:30:00.000Z",
-      "content": "Three new agentic safety and policy features integrated into Ads Advisor will help protect and streamline your Google Ads account.",
-      "summary": "Three new agentic safety and policy features integrated into Ads Advisor will help protect and streamline your Google Ads account.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.69,
-          "rationale": [
-            "safety",
-            "policy"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "15dcf9c48792bc13",
-      "date": "2026-04-25",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "AutoAdapt: Automated domain adaptation for large language models",
-      "url": "https://www.microsoft.com/en-us/research/blog/autoadapt-automated-domain-adaptation-for-large-language-models/",
-      "publishedAt": "2026-04-22T16:25:30.000Z",
-      "content": "At a glance Problem :&nbsp;Adapting large language models to specialized, high-stakes domains is slow, expensive, and hard to reproduce.&nbsp; What we built :&nbsp;AutoAdapt&nbsp;automates&nbsp;planning, strategy selection&nbsp;(e.g., RAG vs. fine-tuning), and tuning under real deployment constraints.&nbsp; How it works :&nbsp; A structured configuration graph&nbsp;maps the&nbsp;full scope&nbsp;of the&nbsp;adaptation&nbsp;process, an agentic planner&nbsp;selects and sequences the right steps, and&nbsp;a&nbsp;budget-aware optimization loop (AutoRefine)&nbsp;refines the process within defined constraints. &nbsp; Why it matters :&nbsp;The result is faster,&nbsp;automated,&nbsp;more reliable domain adaptation that turns weeks of&nbsp;manual&nbsp;iteration into repeatable pipelines.&nbsp; Deploying large language models (LLMs) in real-world, high-stakes settings is harder than it should be. In high-stakes settings like law, medicine, and cloud incident response, performance and reliability can quickly break down because adapting models to domain-specific requirements is a slow and manual process that is difficult to reproduce. The core challenge is domain adaptation, which entails turning a general-purpose model into one that consistently follows domain rules, draws on the right knowledge, and meets constraints such as latency, privacy, and cost. Today, that process typically involves guesswork, choosing among approaches like retrieval-augmented generation (RAG) and fine-tuning, tuning hyperparameters, and iterating through evaluations with no clear path to a good outcome. An operations team responding to an outage can&#8217;t afford a model that drifts from domain requirements or a tuning process that takes weeks with no guarantee of a reproducible result. To tackle this, we&#8217;re pleased to introduce AutoAdapt. In our paper, “ AutoAdapt: An Automated Domain Adaptation Framework for Large Language Models ,” we describe an end-to-end, constraint-aware framework for d…",
-      "summary": "Deploying large language models (LLMs) in real-world, high-stakes settings is harder than it should be. In high-stakes settings like law, medicine, and cloud incident response, performance and reliability can quickly break down because ada…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.69,
-          "rationale": [
-            "fine-tuning",
-            "rl"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "eval",
-            "evaluation"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "14c61f0c0ad6c5dd",
-      "date": "2026-04-25",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Mistral AI Blog",
-      "sourceKey": "official:Mistral AI Blog",
-      "builderOrOrg": "Mistral AI",
-      "title": "Speaking of Voxtral | Mistral AI",
-      "url": "https://mistral.ai/news/voxtral-tts",
-      "publishedAt": null,
-      "content": "Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.",
-      "summary": "Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "voice",
-          "label": "Voice",
-          "confidence": 0.81,
-          "rationale": [
-            "voice",
-            "speech",
-            "tts"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "weights"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "b5782a914e9ede6a",
-      "date": "2026-04-25",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] GPT 5.5 and OpenAI Codex Superapp",
-      "url": "https://www.latent.space/p/ainews-gpt-55-and-openai-codex-superapp",
-      "publishedAt": "2026-04-24T04:40:43.000Z",
-      "content": "A week after Opus 4.7 , it was OpenAI&#8217;s turn to fire back with very similar Pareto frontier improvement charts for GPT 5.5 (as Noam Brown prefers &#8212;&nbsp;raw 1 dimensional intelligence measures are giving way to 2D intelligence per dollar charts). In the 4.7 vs 5.5 bakeoff, you have to read between the lines to see what was NOT mentioned ( coding ), but in terms of overall intelligence, AA crowns this the top independently validated model in the world, AND&#8230; AA chart &#8230; intelligence per dollar (&#8220; GPT-5.5 (medium) scores the same as Claude Opus 4.7 (max) on our Intelligence Index at one quarter of the cost (~$1,200 vs $4,800) - although Gemini 3.1 Pro Preview scores the same at a cost of ~$900 . &#8221; aa 2D There are some training hardware tidbits and positive RSI vibes and cool alternative benchmarks . But if you just treated today as a mere point update model launch ( some would prefer to call it 5.9 ), you&#8217;d be mistaken - it&#8217;s also bundling a big Codex launch day: twitter With built in browser control and the other features in this mega-update , as well as folding in the now defunct Prism (RIP), OpenAI seems to have made the critical and retoractively obvious choice to turn Codex into the base of its superapp strategy . AI News for 4/22/2026-4/23/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI&#8217;s GPT-5.5 launch: stronger agentic coding, broader computer use, and a push on token-efficiency GPT-5.5 is the day&#8217;s dominant release : OpenAI launched GPT-5.5 , positioned as &#8220;a new class of intelligence for real work,&#8221; with rollout across ChatGPT and Codex and API access delayed pending additional safeguards. OpenAI and community benchmark posts converged on a profile of better long-horizon execution, stronger co…",
-      "summary": "Spud lives!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "reasoning",
-          "label": "AI Thinking",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "long-horizon"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "92dc1d26dd0b3018",
-      "date": "2026-04-25",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "AIE Europe Debrief + Agent Labs Thesis: Unsupervised Learning x Latent Space Crossover Special (2026)",
-      "url": "https://www.latent.space/p/unsupervised-learning-2026",
-      "publishedAt": "2026-04-23T19:37:19.000Z",
-      "content": "Today, we check in a year after the first Unsupervised Learning x Latent Space Crossover special to discuss everything that has changed (there is a lot) in the world of AI. This episode was recorded just after AIE Europe , but before the Cursor-xAI deal . Unsupervised Learning is a podcast that interviews the sharpest minds in AI about what&#8217;s real today, what will be real in the future and what it means for businesses and the world - helping builders, researchers and founders deconstruct and understand the biggest breakthroughs. Thanks to Jacob and the UL production team for hosting and editing this! Jacob Effron LinkedIn: https://www.linkedin.com/in/jacobeffron/ X: https://x.com/jacobeffron Full Episode on Their YouTube We discuss: swyx&#8217;s view from the center of the AI engineering zeitgeist: OpenClaw, harness engineering, context engineering, evals, observability, GPUs, multimodality, and why conference tracks now reveal what matters most in AI Whether AI infrastructure has finally stabilized: why &#8220;skills&#8221; may be the minimal viable packaging format for agents, why infra companies have had to reinvent themselves every year, and why application companies have had an easier time surviving model volatility The vertical vs. horizontal AI startup debate: why application companies can act as the outsourced AI team for enterprises, why some horizontal companies still matter, and why sandboxes may be the clearest reinvention of classic cloud infrastructure for the AI era The &#8220;agent lab&#8221; playbook: starting with frontier models, specializing for your domain, then training your own models once you have enough data, workload, and user behavior to justify the cost and latency savings Why domain-specific model training is real, not just marketing: how companies like Cursor and Cognition can get users to choose their in-house models, and why search, domain specialization, and distillation are becoming more important Open models, custom chips, a…",
-      "summary": "Note: This episode was recorded just after AIE Europe, but before the Cursor-xAI deal.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.69,
-          "rationale": [
-            "rl",
-            "distillation"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "imo",
-            "eval"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "fe93d479160a3541",
-      "date": "2026-04-25",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "Shopify’s AI Phase Transition: 2026 Usage Explosion, Unlimited Opus-4.6 Token Budget, Tangle, Tangent, SimGym — with Mikhail Parakhin, Shopify CTO",
-      "url": "https://www.latent.space/p/shopify",
-      "publishedAt": "2026-04-22T19:33:49.000Z",
-      "content": "Early bird discounts for the San Francisco World&#8217;s Fair , the biggest AIE gathering of the year, end today - prices will go up by ~$500 tonight so do please lock in ASAP! From near-universal AI tool adoption inside Shopify to internal systems for ML experimentation, auto-research, customer simulation, and ultra-low-latency search, Mikhail Parakhin joins us for a deep dive into what it actually looks like when a 20-year-old, $200B software company goes all-in on AI . We cover why Shopify has become much more vocal about its internal stack, what changed after the December model-quality inflection , and why the real bottleneck in AI coding is no longer generation , but review, CI/CD, and deployment stability. We also go inside Tangle , Tangent , SimGym , which are three major AI initiatives that Shopify is doing to make experimentation reproducible, optimization automatic, customer behavior simulatable, and search and catalog intelligence faster and cheaper at scale. Along the way, Mikhail explains UCP , Liquid AI , and why token budgets are directionally right but often measured badly, why AI-written code can still increase bugs in production, what makes Shopify&#8217;s customer simulation defensible, and what he learned from the Sydney era at Bing . We discuss: Mikhail&#8217;s path from running a major Microsoft business unit spanning Windows, Edge, Bing, and ads to becoming CTO of Shopify Why Shopify is talking more publicly about AI now, and why staying at the frontier has become necessary for the company Shopify&#8217;s internal AI adoption curve, the December inflection, and why CLI-style tools are rising faster than traditional IDE-based tools Why Jensen Huang is directionally right on token budgets, but raw token count is still the wrong way to evaluate engineering output Why the real unlock is not more agents in parallel, but better critique loops, stronger models, and spending more on review than generation Why AI coding can still lead to more bugs in…",
-      "summary": "A rare interview with Shopify's CTO on -everything- that Shopify is doing to maximize AI for their customers, with exclusive data on their own AI adoption.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "latency"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -2281,107 +2386,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a5df3420cb531c42",
-      "date": "2026-04-19",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "Software going headless is inevitable in a world where agents use the tools 100X more than peop…",
-      "url": "https://x.com/levie/status/2045355693050655048",
-      "publishedAt": "2026-04-18T04:16:12.000Z",
-      "content": "Software going headless is inevitable in a world where agents use the tools 100X more than people do. And the reality is for a lot of software this is actually a huge boon to potential use-cases for these platforms. Software business models have largely been predicated on selling to the number of seats that are in the company in a given function, and the usage of your software is constrained by how much people can do in a given day. This means that your technology is often vastly underutilized…",
-      "summary": "Software going headless is inevitable in a world where agents use the tools 100X more than people do. And the reality is for a lot of software this is actually a huge boon to potential use-cases for these platforms. Sof…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 292,
-        "retweets": 22,
-        "replies": 24
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "1a6e87cd45583b8c",
-      "date": "2026-04-19",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "Agents are going to use software 100X more than people will in the future. As a result, enterpr…",
-      "url": "https://x.com/levie/status/2045137708620906573",
-      "publishedAt": "2026-04-17T13:50:01.000Z",
-      "content": "Agents are going to use software 100X more than people will in the future. As a result, enterprise platforms will become headless and be able to work with any agent on or off platform. If you don’t do that you’re DOA. What some have missed is that this creates vastly more use-cases for these platforms than even existed pre-AI. This isn’t zero sum. Software value props have traditionally been capped at the number of users you have in a company. Agents have no upper limit. We’re going to run agen…",
-      "summary": "Agents are going to use software 100X more than people will in the future. As a result, enterprise platforms will become headless and be able to work with any agent on or off platform. If you don’t do that you’re DOA. W…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 1576,
-        "retweets": 161,
-        "replies": 123
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.92,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.7,
       "whyThisMatters": ""
     }
   ]
