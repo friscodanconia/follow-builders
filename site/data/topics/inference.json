@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-28T04:49:08.129Z",
+  "generatedAt": "2026-04-29T01:14:37.142Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
     {
       "id": "b1a3930763c231fa",
-      "date": "2026-04-28",
+      "date": "2026-04-29",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -57,7 +57,7 @@
     },
     {
       "id": "71de3d37342f842b",
-      "date": "2026-04-28",
+      "date": "2026-04-29",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -107,6 +107,57 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "605af05edff076e2",
+      "date": "2026-04-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "No Jensen, Not All Compute is Created Equal",
+      "url": "https://www.chinatalk.media/p/no-jensen-not-all-compute-is-created",
+      "publishedAt": "2026-04-28T11:10:29.000Z",
+      "content": "is in Cape Town for two weeks&#8230; email Nick at nick@chinatalk.media if you&#8217;re interested in joining a ChinaTalk meetup! We&#8217;ve recently tried to pin down how much compute China actually has, approaching the question from both the supply and demand sides. We converged on roughly 2.5 to 2.8 million H100-equivalents. But a single aggregate figure only captures part of the picture. Jensen on China On Dwarkesh&#8217;s podcast last week, Jensen Huang argued that China already has enough compute to build frontier AI. &#8220;They manufacture 60% of the world&#8217;s mainstream chips, maybe more.&#8221; When Dwarkesh raised the gap in advanced chips, Jensen responded, &#8220;AI is a parallel computing problem, isn&#8217;t it? Why can&#8217;t they just put 4x, 10x, as many chips together because energy&#8217;s free?&#8221; Jensen is wrong, but that doesn&#8217;t mean people aren&#8217;t compelled by this line of reasoning. John Moolenaar, who chairs the House Select Committee on China, sent a letter to Lutnick in December proposing a rolling technical threshold that would cap Chinese aggregate AI compute at 10% of US compute capacity. It&#8217;s much more nuanced &#8212; accounting for memory and network bandwidth as part of this calculus &#8212; but ultimately seems motivated by preventing, as the letter calls it, &#8220;death by a thousand sub&#8208;threshold chips.&#8221; Export restrictions are a difficult line to walk, and total computing power does matter. But not all compute is created equal. The compute that can train a frontier model, serve inference on an existing one, and power your laptop are different things, and a &#8220;death by a thousand sub-threshold chips&#8221; is less concerning for the trajectory of AI than a concentration of the most important chips. Legacy Chips Don&#8217;t Matter for AI It&#8217;s hard to know where Jensen is getting his claim that &#8220;China manufactures 60% of the world&#8217;s mainstream chips.&#8221; Perhaps orig…",
+      "summary": "+ Nick in Cape Town!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "reasoning"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
       "whyThisMatters": ""
     },
     {
