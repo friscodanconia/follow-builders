@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T04:09:52.839Z",
+  "generatedAt": "2026-04-30T04:47:51.703Z",
   "slug": "research",
   "label": "Research",
   "items": [
@@ -92,7 +92,7 @@
       "section": "Builders",
       "importanceScore": 0.84,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.65,
       "whyThisMatters": ""
     },
@@ -182,6 +182,59 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "71dd5832d1342e84",
+      "date": "2026-04-30",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "Announcing Together AI and Adaption Partnership",
+      "url": "https://www.together.ai/blog/announcing-together-ai-and-adaption-partnership",
+      "publishedAt": "2026-04-30T00:00:00.000Z",
+      "content": "Together AI and Adaption partner to bring Together Fine-Tuning natively into Adaptive Data, helping teams optimize datasets, run fine-tuning, evaluate results, and deploy stronger open models.",
+      "summary": "Together AI and Adaption partner to bring Together Fine-Tuning natively into Adaptive Data, helping teams optimize datasets, run fine-tuning, evaluate results, and deploy stronger open models.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "dataset"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "fine-tuning"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
       "whyThisMatters": ""
     },
     {
@@ -2268,61 +2321,6 @@
           "confidence": 0.5700000000000001,
           "rationale": [
             "benchmark"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "de1eac265e114a1d",
-      "date": "2026-04-08",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "GroundedPlanBench: Spatially grounded long-horizon task planning for robot manipulation",
-      "url": "https://www.microsoft.com/en-us/research/blog/groundedplanbench-spatially-grounded-long-horizon-task-planning-for-robot-manipulation/",
-      "publishedAt": "2026-03-26T16:03:56.000Z",
-      "content": "Vision-language models (VLMs) use images and text to plan robot actions, but they still struggle to decide what actions to take and where to take them. Most systems split these decisions into two steps: a VLM generates a plan in natural language, and a separate model translates it into executable actions. This approach often breaks [&#8230;] The post GroundedPlanBench: Spatially grounded long-horizon task planning for robot manipulation appeared first on Microsoft Research .",
-      "summary": "Vision-language models (VLMs) use images and text to plan robot actions, but they still struggle to decide what actions to take and where to take them. Most systems split these decisions into two steps: a VLM generates a plan in natural la…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.81,
-          "rationale": [
-            "vision",
-            "image",
-            "vlm"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "reasoning",
-          "label": "AI Thinking",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "long-horizon"
           ],
           "score": 1
         }
