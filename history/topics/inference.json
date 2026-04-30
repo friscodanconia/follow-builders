@@ -1,8 +1,59 @@
 {
-  "generatedAt": "2026-04-30T00:42:41.102Z",
+  "generatedAt": "2026-04-30T04:09:52.839Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
+    {
+      "id": "ba1b867ca6051e4d",
+      "date": "2026-04-30",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] The Inference Inflection",
+      "url": "https://www.latent.space/p/ainews-the-inference-inflection",
+      "publishedAt": "2026-04-30T01:42:51.000Z",
+      "content": "Just as we covered World Models early this year, we&#8217;ll be releasing a short miniseries on the CPU compute/sandbox industry on the pod over the coming weeks, and it&#8217;s a good time to explain why. In recent days: Noam Brown : &#8220;inference compute is a strategic resource, currently undervalued&#8221; Sam Altman : &#8220;To a significant degree, we have to become an AI inference company now.&#8221; Taken individually, these comments might seem unremarkable normal reactions to a very successful GPT 5.5 model launch . But in context they mark a very noteworthy reaction that you, dear reader, should probably be alerted to if you aren&#8217;t already taking this extremely seriously. The proximal trigger for today&#8217;s op-ed is Intel CEO Lip-Bu Tan&#8217;s Q1 earnings call, where he gave numbers to illustrate the rising CPU (not GPU) compute demand: Obviously an Intel CEO has obvious incentives to talk up CPU demand, but that does not mean he is wrong: link We&#8217;ve covered this trend in our SemiAnalysis pod (edited for readability): Doug: We are kind of right at the exact five to six year period of the refresh cycle of COVID. So in 2020 - 2021, you bought like a hundred billion [01:52:00] dollars of CPUs. And so we&#8217;re right at the natural end of life for these chips. [01:52:04] And so usually what you do is you have this big refresh of all these chips, but what what&#8217;s been happening instead is everyone has essentially scrounged all of their budget [for GPUs] as hard as they can &#8230; Everyone&#8217;s scrounged every single dollar they could to essentially invest in as much as AI as possible and just do maintenance CapEx on CPU. Ironically, at the same time for all this Claude Code stuff is going on. where is the software gonna run? on CPUs. So I think we&#8217;re gonna see some increasing utilization as well as the fact that RL is like actually heavily used for like RL gyms. [01:52:52] You have to simulate software and it uses a lot of CP…",
+      "summary": "a quiet day lets us reflect on the growing implications of the inference age",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
     {
       "id": "13a56f5c505590e0",
       "date": "2026-04-30",
