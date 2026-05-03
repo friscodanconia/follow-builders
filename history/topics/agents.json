@@ -1,8 +1,518 @@
 {
-  "generatedAt": "2026-05-02T04:31:56.091Z",
+  "generatedAt": "2026-05-03T00:47:23.950Z",
   "slug": "agents",
   "label": "AI Assistants",
   "items": [
+    {
+      "id": "035e6c9d69c2f45b",
+      "date": "2026-05-03",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "Atlassian’s results surprised Wall Street, but it shouldn’t be a surprise. The simple heuristic…",
+      "url": "https://x.com/levie/status/2050295657836277764",
+      "publishedAt": "2026-05-01T19:25:52.000Z",
+      "content": "Atlassian’s results surprised Wall Street, but it shouldn’t be a surprise. The simple heuristic for the future of software is that when there are 100X more agents than people, which parts of software will grow because agents are doing more work that the underlying software is tied to. If the world generates more code, generates more leads, reviews more contracts, processes more invoices, creates more designs, transacts with more payments, and so on, what are the underlying systems that are mana…",
+      "summary": "Atlassian’s results surprised Wall Street, but it shouldn’t be a surprise. The simple heuristic for the future of software is that when there are 100X more agents than people, which parts of software will grow because a…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 430,
+        "retweets": 48,
+        "replies": 41
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "voice"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d564365645244597",
+      "date": "2026-05-03",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:zarazhangrui",
+      "builderOrOrg": "Zara Zhang",
+      "title": "I realized a lot of people treat coding agents as their employee, whereas I actually treat it a…",
+      "url": "https://x.com/zarazhangrui/status/2050326543797469415",
+      "publishedAt": "2026-05-01T21:28:35.000Z",
+      "content": "I realized a lot of people treat coding agents as their employee, whereas I actually treat it as my cofounder I don't just give orders. I present problems, describe the situation, and ask for their opinion",
+      "summary": "I realized a lot of people treat coding agents as their employee, whereas I actually treat it as my cofounder I don't just give orders. I present problems, describe the situation, and ask for their opinion",
+      "regionTags": [],
+      "metrics": {
+        "likes": 74,
+        "retweets": 6,
+        "replies": 20
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "5d94b23123a81b3f",
+      "date": "2026-05-03",
+      "sourceType": "blog",
+      "sourceGroup": "mirrored",
+      "sourceName": "Anthropic Engineering",
+      "sourceKey": "blog:Anthropic Engineering",
+      "builderOrOrg": "Anthropic Engineering",
+      "title": "An update on recent Claude Code quality reports",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "publishedAt": null,
+      "content": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was not impacted. All three issues have now been resolved as of April 20 (v2.1.116). In this post, we explain what we found, what we fixed, and what we’ll do differently to ensure similar issues are much less likely to happen again. We take reports about degradation very seriously. We never intentionally degrade our models, and we were able to immediately confirm that our API and inference layer were unaffected. After investigation, we identified three different issues: On March 4, we changed Claude Code&#x27;s default reasoning effort from high to medium to reduce the very long latency—enough to make the UI appear frozen—some users were seeing in high mode. This was the wrong tradeoff. We reverted this change on April 7 after users told us they&#x27;d prefer to default to higher intelligence and opt into lower effort for simple tasks. This impacted Sonnet 4.6 and Opus 4.6. On March 26, we shipped a change to clear Claude&#x27;s older thinking from sessions that had been idle for over an hour, to reduce latency when users resumed those sessions. A bug caused this to keep happening every turn for the rest of the session instead of just once, which made Claude seem forgetful and repetitive. We fixed it on April 10. This affected Sonnet 4.6 and Opus 4.6. On April 16, we added a system prompt instruction to reduce verbosity. In combination with other prompt changes, it hurt coding quality and was reverted on April 20. This impacted Sonnet 4.6, Opus 4.6, and Opus 4.7. Because each change affected a different slice of traffic on a different schedule, the aggregate effect looked like broad, inconsistent degradation. While we began investigating reports in early March, they were challenging to distinguish from normal variation in user feedba…",
+      "summary": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "coding",
+            "code",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "inference",
+            "latency"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Watchlist",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "9f8f92f1d2646fbc",
+      "date": "2026-05-03",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google AI Blog",
+      "sourceKey": "official:Google AI Blog",
+      "builderOrOrg": "Google",
+      "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
+      "publishedAt": "2026-04-27T13:00:00.000Z",
+      "content": "Google is bringing back its 5-Day AI Agents Intensive Course with Kaggle and registration is open.",
+      "summary": "Google is bringing back its 5-Day AI Agents Intensive Course with Kaggle and registration is open.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "98beb7ffc4d6e479",
+      "date": "2026-05-03",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Red-teaming a network of agents: Understanding what breaks when AI agents interact at scale",
+      "url": "https://www.microsoft.com/en-us/research/blog/red-teaming-a-network-of-agents-understanding-what-breaks-when-ai-agents-interact-at-scale/",
+      "publishedAt": "2026-04-30T21:53:21.000Z",
+      "content": "At a glance Some risks appear only when agents interact, not when tested alone. Actions that seem harmless can cascade causing a chain reaction across an agent network. In our tests, a single malicious message passed from agent to agent, extracting private data at each step and pulling uninvolved agents into the chain. We saw early signs that some agent networks become more resistant to these attacks, but defenses are still an open challenge being worked on. Agents belonging to different users and organizations are beginning to interact with each other. These networks of agents are emerging as advances in large language models (LLMs) and silicon lower barriers to building agents, while tools like Claude, Copilot, and ChatGPT, along with existing platforms such as email and GitHub, bring them into constant contact. As a result, agents are no longer working in isolation but becoming participants in a shared, interconnected environment. This shift enables capabilities that are not achievable in single-agent settings. Networks of agents can distribute tasks, share resources, and draw on diverse expertise across principals (the humans each agent represents). When agents are always on and communicate faster than humans, information shared with one can spread across a network in minutes. This speed, scale, and persistence can create real value for users. However, these&nbsp;same&nbsp;capabilities&nbsp;also introduce new risks.&nbsp;For example,&nbsp;one&nbsp;early&nbsp;agents-only social network&nbsp;attracted tens of thousands of agents within days of&nbsp;its&nbsp;launch, only to be&nbsp;quickly flooded with spam and&nbsp;scams. In our own early agent marketplace experiments , agents rapidly shared information and coordinated behavior, but failures&nbsp;spread&nbsp;just as quickly. This pattern shows that the reliability of an individual agent does not predict network behavior. Some risks emerge only through interaction, and single-agent benchmarks miss them. To underst…",
+      "summary": "Safe agents don’t guarantee a safe ecosystem of interconnected agents. Microsoft Research examines what breaks when AI agents interact and why network-level risks require new approaches. The post Red-teaming a network of agents: Understand…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "github"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "b419c5c21743a0fc",
+      "date": "2026-05-03",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "DeepSeek-V4 Pro now available on Together AI",
+      "url": "https://www.together.ai/blog/deepseek-v4-pro-now-available-on-together-ai",
+      "publishedAt": "2026-04-29T00:00:00.000Z",
+      "content": "DeepSeek-V4 Pro is now available on Together AI with 512K context, controllable reasoning modes, and cached-input pricing for long-context reasoning workloads like code agents, document intelligence, and research synthesis.",
+      "summary": "DeepSeek-V4 Pro is now available on Together AI with 512K context, controllable reasoning modes, and cached-input pricing for long-context reasoning workloads like code agents, document intelligence, and research synthesis.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "bb63f0f4a9b12dd6",
+      "date": "2026-05-03",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "Together AI Brings NVIDIA Nemotron 3 Nano Omni to Developers on Day 0",
+      "url": "https://www.together.ai/blog/together-ai-brings-nvidia-nemotron-3-nano-omni-to-developers-on-day-0",
+      "publishedAt": "2026-04-28T00:00:00.000Z",
+      "content": "NVIDIA Nemotron 3 Nano Omni is now on Together AI: a single open model that reasons across video, images, audio, and text, built for agentic workloads at scale.",
+      "summary": "NVIDIA Nemotron 3 Nano Omni is now on Together AI: a single open model that reasons across video, images, audio, and text, built for agentic workloads at scale.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "image",
+            "video"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "developer"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "a3008f64c7b0a0de",
+      "date": "2026-05-03",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "Remote agents in Vibe. Powered by Mistral Medium 3.5. | Mistral AI",
+      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5",
+      "publishedAt": null,
+      "content": "Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks.",
+      "summary": "Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "79d3eaf75b836bf0",
+      "date": "2026-05-03",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] AI Engineer World's Fair — Autoresearch, Memory, World Models, Tokenmaxxing, Agentic Commerce, and Vertical AI Call for Speakers",
+      "url": "https://www.latent.space/p/ainews-ai-engineer-worlds-fair-autoresearch",
+      "publishedAt": "2026-05-02T07:21:55.000Z",
+      "content": "TL;DR: we are announcing Wave 2 Call for Speakers for AIE World&#8217;s Fair this summer - apply here: https://sessionize.com/aiewf2026/ ESPECIALLY if you have projects relevant to our new tracks in Autoresearch , Memory , World Models , Tokenmaxxing , Agentic Commerce, and Vertical AI in Law, Healthcare, GTM and Finance ! In January we laid out plans for Scaling without Slop and despite some content exhaustion risk, your reception has been positive, with AIE viewership now trending to at least double 2025&#8217;s peak, serving over a million unique AI engineers a month. This year is our first in Moscone West , doubling for the 3rd year in a row in our mission to bring all of the AI Engineering world to San Francisco to showcase the must-know research and product engineering work of the year, as well as to hire, fundraise, and close business deals. Sales are going well, but traditionally we do one callout a year for the World&#8217;s Fair to widen our net for people who might not traditionally think to submit a talk (because they didn&#8217;t know we were interested!). This year we are adding an entire day&#8217;s worth of talks to the schedule, so on top of the all the evergreen themes we covered in 2025 and in Europe , we&#8217;re adding a few more new ones that I am specifically soliciting applications (and sponsors!) to cover: Autoresearch : recursive self improvement loops in harnesses and model training! Tasteful Tokenmaxxing : as a company leader, how do you make your AI Eng teams 10x more AI-Native/scale AI adoption, BUT without Goodharting waste? Memory : how are your agents/models improving as your users use them? World Models : how are you solving spatial intelligence and adversarial reasoning? Agentic Commerce: how are agents paying for data, APIs, and other agents? Vertical AI in Law, Healthcare, GTM and Finance: how are you applying AI in these specific domains? We are also open to submissions for AI in Government and AI in Education , though generall…",
+      "summary": "a quiet day lets us make a call for speakers!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "serving"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "sales"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.62,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.75,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "13a56f5c505590e0",
+      "date": "2026-05-03",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today",
+      "publishedAt": "2026-04-29T01:46:59.000Z",
+      "content": "When we made the AINews &#8594; Substack move, we committed to having Matt Levine style op-eds every day, but some days there just isn&#8217;t much going on and we will just say so - we are working on small essays around inference demand and multiagents, but today is not that day. Interesting model releases from Nvidia Nemotron , Poolside , and Alec Radford , but it&#8217;s unclear any of them will stand the test of time. GPT-6 hype is beginning. AI News for 4/27/2026-4/28/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Inference Systems, vLLM 0.20, and the Hardware/Kernel Race Around DeepSeek V4 vLLM&#8217;s latest release is heavily about memory and MoE serving efficiency : vLLM v0.20.0 shipped with TurboQuant 2-bit KV cache for 4&#215; KV capacity , FA4 re-enabled for MLA prefill on SM90+ , a new vLLM IR foundation, fused RMSNorm for a reported 2.1% end-to-end latency improvement , plus support updates spanning DeepSeek V4 MegaMoE on Blackwell , Jetson Thor, ROCm, Intel XPU, and easier GB200/Grace-Blackwell setup. In parallel, SemiAnalysis highlighted early DeepSeek V4 Pro serving results on B200/B300/H200/GB200 disaggregated setups , claiming B300 can be up to 8&#215; faster than H200 for this workload and pointing to upcoming vLLM 0.20 benchmarking with DeepGEMM MegaMoE , which fuses EP dispatch + EP combine + GEMMs + SwiGLU into a single mega-kernel. DeepSeek support : several posts focused on serving tradeoffs: Jeremy Howard noted DeepSeek V4&#8217;s support for prefill as a capability many providers have dropped, while Maharshi pointed out the overheads of dynamic activation quantization , arguing that static quantization often wins on inference speed despite calibration cost. There was also growing interest in alternate stack portability: teortaxesTex argued DeepSeek…",
+      "summary": "a quiet day.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.81,
+          "rationale": [
+            "inference",
+            "latency",
+            "serving"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "benchmark",
+            "benchmarking"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
     {
       "id": "f87bee6c8aae1099",
       "date": "2026-05-02",
@@ -242,309 +752,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.7,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "9f8f92f1d2646fbc",
-      "date": "2026-05-02",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google AI Blog",
-      "sourceKey": "official:Google AI Blog",
-      "builderOrOrg": "Google",
-      "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
-      "publishedAt": "2026-04-27T13:00:00.000Z",
-      "content": "Google is bringing back its 5-Day AI Agents Intensive Course with Kaggle and registration is open.",
-      "summary": "Google is bringing back its 5-Day AI Agents Intensive Course with Kaggle and registration is open.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "98beb7ffc4d6e479",
-      "date": "2026-05-02",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Red-teaming a network of agents: Understanding what breaks when AI agents interact at scale",
-      "url": "https://www.microsoft.com/en-us/research/blog/red-teaming-a-network-of-agents-understanding-what-breaks-when-ai-agents-interact-at-scale/",
-      "publishedAt": "2026-04-30T21:53:21.000Z",
-      "content": "At a glance Some risks appear only when agents interact, not when tested alone. Actions that seem harmless can cascade causing a chain reaction across an agent network. In our tests, a single malicious message passed from agent to agent, extracting private data at each step and pulling uninvolved agents into the chain. We saw early signs that some agent networks become more resistant to these attacks, but defenses are still an open challenge being worked on. Agents belonging to different users and organizations are beginning to interact with each other. These networks of agents are emerging as advances in large language models (LLMs) and silicon lower barriers to building agents, while tools like Claude, Copilot, and ChatGPT, along with existing platforms such as email and GitHub, bring them into constant contact. As a result, agents are no longer working in isolation but becoming participants in a shared, interconnected environment. This shift enables capabilities that are not achievable in single-agent settings. Networks of agents can distribute tasks, share resources, and draw on diverse expertise across principals (the humans each agent represents). When agents are always on and communicate faster than humans, information shared with one can spread across a network in minutes. This speed, scale, and persistence can create real value for users. However, these&nbsp;same&nbsp;capabilities&nbsp;also introduce new risks.&nbsp;For example,&nbsp;one&nbsp;early&nbsp;agents-only social network&nbsp;attracted tens of thousands of agents within days of&nbsp;its&nbsp;launch, only to be&nbsp;quickly flooded with spam and&nbsp;scams. In our own early agent marketplace experiments , agents rapidly shared information and coordinated behavior, but failures&nbsp;spread&nbsp;just as quickly. This pattern shows that the reliability of an individual agent does not predict network behavior. Some risks emerge only through interaction, and single-agent benchmarks miss them. To underst…",
-      "summary": "Safe agents don’t guarantee a safe ecosystem of interconnected agents. Microsoft Research examines what breaks when AI agents interact and why network-level risks require new approaches. The post Red-teaming a network of agents: Understand…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "github"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "b419c5c21743a0fc",
-      "date": "2026-05-02",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Together AI Blog",
-      "sourceKey": "official:Together AI Blog",
-      "builderOrOrg": "Together AI",
-      "title": "DeepSeek-V4 Pro now available on Together AI",
-      "url": "https://www.together.ai/blog/deepseek-v4-pro-now-available-on-together-ai",
-      "publishedAt": "2026-04-29T00:00:00.000Z",
-      "content": "DeepSeek-V4 Pro is now available on Together AI with 512K context, controllable reasoning modes, and cached-input pricing for long-context reasoning workloads like code agents, document intelligence, and research synthesis.",
-      "summary": "DeepSeek-V4 Pro is now available on Together AI with 512K context, controllable reasoning modes, and cached-input pricing for long-context reasoning workloads like code agents, document intelligence, and research synthesis.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "bb63f0f4a9b12dd6",
-      "date": "2026-05-02",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Together AI Blog",
-      "sourceKey": "official:Together AI Blog",
-      "builderOrOrg": "Together AI",
-      "title": "Together AI Brings NVIDIA Nemotron 3 Nano Omni to Developers on Day 0",
-      "url": "https://www.together.ai/blog/together-ai-brings-nvidia-nemotron-3-nano-omni-to-developers-on-day-0",
-      "publishedAt": "2026-04-28T00:00:00.000Z",
-      "content": "NVIDIA Nemotron 3 Nano Omni is now on Together AI: a single open model that reasons across video, images, audio, and text, built for agentic workloads at scale.",
-      "summary": "NVIDIA Nemotron 3 Nano Omni is now on Together AI: a single open model that reasons across video, images, audio, and text, built for agentic workloads at scale.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.69,
-          "rationale": [
-            "image",
-            "video"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "developer"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a3008f64c7b0a0de",
-      "date": "2026-05-02",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Mistral AI Blog",
-      "sourceKey": "official:Mistral AI Blog",
-      "builderOrOrg": "Mistral AI",
-      "title": "Remote agents in Vibe. Powered by Mistral Medium 3.5. | Mistral AI",
-      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5",
-      "publishedAt": null,
-      "content": "Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks.",
-      "summary": "Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "13a56f5c505590e0",
-      "date": "2026-05-02",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] not much happened today",
-      "url": "https://www.latent.space/p/ainews-not-much-happened-today",
-      "publishedAt": "2026-04-29T01:46:59.000Z",
-      "content": "When we made the AINews &#8594; Substack move, we committed to having Matt Levine style op-eds every day, but some days there just isn&#8217;t much going on and we will just say so - we are working on small essays around inference demand and multiagents, but today is not that day. Interesting model releases from Nvidia Nemotron , Poolside , and Alec Radford , but it&#8217;s unclear any of them will stand the test of time. GPT-6 hype is beginning. AI News for 4/27/2026-4/28/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Inference Systems, vLLM 0.20, and the Hardware/Kernel Race Around DeepSeek V4 vLLM&#8217;s latest release is heavily about memory and MoE serving efficiency : vLLM v0.20.0 shipped with TurboQuant 2-bit KV cache for 4&#215; KV capacity , FA4 re-enabled for MLA prefill on SM90+ , a new vLLM IR foundation, fused RMSNorm for a reported 2.1% end-to-end latency improvement , plus support updates spanning DeepSeek V4 MegaMoE on Blackwell , Jetson Thor, ROCm, Intel XPU, and easier GB200/Grace-Blackwell setup. In parallel, SemiAnalysis highlighted early DeepSeek V4 Pro serving results on B200/B300/H200/GB200 disaggregated setups , claiming B300 can be up to 8&#215; faster than H200 for this workload and pointing to upcoming vLLM 0.20 benchmarking with DeepGEMM MegaMoE , which fuses EP dispatch + EP combine + GEMMs + SwiGLU into a single mega-kernel. DeepSeek support : several posts focused on serving tradeoffs: Jeremy Howard noted DeepSeek V4&#8217;s support for prefill as a capability many providers have dropped, while Maharshi pointed out the overheads of dynamic activation quantization , arguing that static quantization often wins on inference speed despite calibration cost. There was also growing interest in alternate stack portability: teortaxesTex argued DeepSeek…",
-      "summary": "a quiet day.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.81,
-          "rationale": [
-            "inference",
-            "latency",
-            "serving"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "benchmark",
-            "benchmarking"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -2206,195 +2413,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.63,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "fdb7ae084b7d70f9",
-      "date": "2026-04-28",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google AI Blog",
-      "sourceKey": "official:Google AI Blog",
-      "builderOrOrg": "Google",
-      "title": "We're launching two specialized TPUs for the agentic era.",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/",
-      "publishedAt": "2026-04-22T12:00:00.000Z",
-      "content": "The eighth generation of Google’s TPU includes two specialized chips that will power the future of AI.",
-      "summary": "The eighth generation of Google’s TPU includes two specialized chips that will power the future of AI.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "14c61f0c0ad6c5dd",
-      "date": "2026-04-28",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Mistral AI Blog",
-      "sourceKey": "official:Mistral AI Blog",
-      "builderOrOrg": "Mistral AI",
-      "title": "Speaking of Voxtral | Mistral AI",
-      "url": "https://mistral.ai/news/voxtral-tts",
-      "publishedAt": null,
-      "content": "Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.",
-      "summary": "Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "voice",
-          "label": "Voice",
-          "confidence": 0.81,
-          "rationale": [
-            "voice",
-            "speech",
-            "tts"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "weights"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "953d1f6ccb996fdb",
-      "date": "2026-04-27",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google AI Blog",
-      "sourceKey": "official:Google AI Blog",
-      "builderOrOrg": "Google",
-      "title": "3 new ways Ads Advisor is making Google Ads safer and faster",
-      "url": "https://blog.google/products/ads-commerce/ads-advisor-google-ads/",
-      "publishedAt": "2026-04-21T14:30:00.000Z",
-      "content": "Three new agentic safety and policy features integrated into Ads Advisor will help protect and streamline your Google Ads account.",
-      "summary": "Three new agentic safety and policy features integrated into Ads Advisor will help protect and streamline your Google Ads account.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.69,
-          "rationale": [
-            "safety",
-            "policy"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "fe93d479160a3541",
-      "date": "2026-04-27",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "Shopify’s AI Phase Transition: 2026 Usage Explosion, Unlimited Opus-4.6 Token Budget, Tangle, Tangent, SimGym — with Mikhail Parakhin, Shopify CTO",
-      "url": "https://www.latent.space/p/shopify",
-      "publishedAt": "2026-04-22T19:33:49.000Z",
-      "content": "Early bird discounts for the San Francisco World&#8217;s Fair , the biggest AIE gathering of the year, end today - prices will go up by ~$500 tonight so do please lock in ASAP! From near-universal AI tool adoption inside Shopify to internal systems for ML experimentation, auto-research, customer simulation, and ultra-low-latency search, Mikhail Parakhin joins us for a deep dive into what it actually looks like when a 20-year-old, $200B software company goes all-in on AI . We cover why Shopify has become much more vocal about its internal stack, what changed after the December model-quality inflection , and why the real bottleneck in AI coding is no longer generation , but review, CI/CD, and deployment stability. We also go inside Tangle , Tangent , SimGym , which are three major AI initiatives that Shopify is doing to make experimentation reproducible, optimization automatic, customer behavior simulatable, and search and catalog intelligence faster and cheaper at scale. Along the way, Mikhail explains UCP , Liquid AI , and why token budgets are directionally right but often measured badly, why AI-written code can still increase bugs in production, what makes Shopify&#8217;s customer simulation defensible, and what he learned from the Sydney era at Bing . We discuss: Mikhail&#8217;s path from running a major Microsoft business unit spanning Windows, Edge, Bing, and ads to becoming CTO of Shopify Why Shopify is talking more publicly about AI now, and why staying at the frontier has become necessary for the company Shopify&#8217;s internal AI adoption curve, the December inflection, and why CLI-style tools are rising faster than traditional IDE-based tools Why Jensen Huang is directionally right on token budgets, but raw token count is still the wrong way to evaluate engineering output Why the real unlock is not more agents in parallel, but better critique loops, stronger models, and spending more on review than generation Why AI coding can still lead to more bugs in…",
-      "summary": "A rare interview with Shopify's CTO on -everything- that Shopify is doing to maximize AI for their customers, with exclusive data on their own AI adoption.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "latency"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     }
   ]
