@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-03T04:26:20.868Z",
+  "generatedAt": "2026-05-03T04:52:43.409Z",
   "slug": "open-source",
   "label": "Open Source",
   "items": [
@@ -55,58 +55,6 @@
       "whyThisMatters": ""
     },
     {
-      "id": "3c516b8cd4a9c283",
-      "date": "2026-05-03",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "DeepSeek V4",
-      "url": "https://www.chinatalk.media/p/deepseek-v4",
-      "publishedAt": "2026-04-27T10:55:24.000Z",
-      "content": "Finally, DeepSeek V4 is here. The Pro and Flash models are available through DeepSeek&#8217;s website, mobile apps, and API access as of April 23, and the lab has also released its technical report . Bucking a recent trend of Chinese AI labs moving away from open source, V4 was released under the highly permissive MIT license. It performs admirably on various benchmarks and leads the pack of Chinese open models, but did not close the gap with closed models from the US, with the authors themselves admitting in the paper that V4 is &#8220;3 to 6 months behind&#8221; state-of-the-art frontier models (though we think it feels further). And as we will discuss later, while its architecture shows progress towards indigenizing the Chinese stack, the model probably still relied on Nvidia GPUs. Is V4 a letdown? Today on ChinaTalk, we bring you our takes alongside those from Chinese observers on: Troubles at the lab prior to V4&#8217;s arrival; Why DeepSeek&#8217;s idealism may not hold; What V4 did &#8212; and did not &#8212; achieve with domestic hardware; And why DeepSeek&#8217;s symbolism persists inside China, even after it lost the frontier Translations were drafted with the assistance of Claude Opus 4.7, and then edited for accuracy and fluency. Bold markings added by the editor. How V4 Got Here Chinese tech journalists have doggedly followed the DeepSeek story. Zhou Xinyu &#21608;&#37995;&#38632; of 36Kr, a prominent Beijing-based tech news outlet, has some behind-the-scenes scoops . The reasons behind [V4&#8217;s] belated arrival are related to migrating its training framework from NVIDIA to Huawei Ascend , as well as to internal decision-making changes at DeepSeek. We learned that i n mid-2025, DeepSeek ran into a relatively serious case of training failure. &#8220;At the time, DeepSeek was facing the problem of re-adapting to chips,&#8221; one insider mentioned. &#8220;Internally, opinions on the direction of training were not entirely unified. Liang Wenfeng put fo…",
-      "summary": "Has the \"post-DeepSeek era\" arrived?",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.69,
-          "rationale": [
-            "open source",
-            "mit license"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "paper"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
       "id": "98beb7ffc4d6e479",
       "date": "2026-05-03",
       "sourceType": "newsletter",
@@ -157,6 +105,58 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "3c516b8cd4a9c283",
+      "date": "2026-05-03",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "DeepSeek V4",
+      "url": "https://www.chinatalk.media/p/deepseek-v4",
+      "publishedAt": "2026-04-27T10:55:24.000Z",
+      "content": "Finally, DeepSeek V4 is here. The Pro and Flash models are available through DeepSeek&#8217;s website, mobile apps, and API access as of April 23, and the lab has also released its technical report . Bucking a recent trend of Chinese AI labs moving away from open source, V4 was released under the highly permissive MIT license. It performs admirably on various benchmarks and leads the pack of Chinese open models, but did not close the gap with closed models from the US, with the authors themselves admitting in the paper that V4 is &#8220;3 to 6 months behind&#8221; state-of-the-art frontier models (though we think it feels further). And as we will discuss later, while its architecture shows progress towards indigenizing the Chinese stack, the model probably still relied on Nvidia GPUs. Is V4 a letdown? Today on ChinaTalk, we bring you our takes alongside those from Chinese observers on: Troubles at the lab prior to V4&#8217;s arrival; Why DeepSeek&#8217;s idealism may not hold; What V4 did &#8212; and did not &#8212; achieve with domestic hardware; And why DeepSeek&#8217;s symbolism persists inside China, even after it lost the frontier Translations were drafted with the assistance of Claude Opus 4.7, and then edited for accuracy and fluency. Bold markings added by the editor. How V4 Got Here Chinese tech journalists have doggedly followed the DeepSeek story. Zhou Xinyu &#21608;&#37995;&#38632; of 36Kr, a prominent Beijing-based tech news outlet, has some behind-the-scenes scoops . The reasons behind [V4&#8217;s] belated arrival are related to migrating its training framework from NVIDIA to Huawei Ascend , as well as to internal decision-making changes at DeepSeek. We learned that i n mid-2025, DeepSeek ran into a relatively serious case of training failure. &#8220;At the time, DeepSeek was facing the problem of re-adapting to chips,&#8221; one insider mentioned. &#8220;Internally, opinions on the direction of training were not entirely unified. Liang Wenfeng put fo…",
+      "summary": "Has the \"post-DeepSeek era\" arrived?",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.69,
+          "rationale": [
+            "open source",
+            "mit license"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "paper"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
