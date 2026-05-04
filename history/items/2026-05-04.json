@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T04:15:21.325Z",
+  "generatedAt": "2026-05-04T04:52:56.015Z",
   "date": "2026-05-04",
   "items": [
     {
@@ -44,7 +44,7 @@
       "section": "Builders",
       "importanceScore": 0.78,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.61,
       "whyThisMatters": ""
     },
@@ -81,7 +81,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -172,7 +172,7 @@
       "section": "Builders",
       "importanceScore": 0.84,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.65,
       "whyThisMatters": ""
     },
@@ -199,7 +199,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -236,7 +236,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -263,7 +263,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -344,7 +344,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -554,7 +554,7 @@
       "section": "Builders",
       "importanceScore": 0.84,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.65,
       "whyThisMatters": ""
     },
@@ -1203,6 +1203,59 @@
       "section": "Official Sources",
       "importanceScore": 0.72,
       "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "98beb7ffc4d6e479",
+      "date": "2026-05-04",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Red-teaming a network of agents: Understanding what breaks when AI agents interact at scale",
+      "url": "https://www.microsoft.com/en-us/research/blog/red-teaming-a-network-of-agents-understanding-what-breaks-when-ai-agents-interact-at-scale/",
+      "publishedAt": "2026-04-30T21:53:21.000Z",
+      "content": "At a glance Some risks appear only when agents interact, not when tested alone. Actions that seem harmless can cascade causing a chain reaction across an agent network. In our tests, a single malicious message passed from agent to agent, extracting private data at each step and pulling uninvolved agents into the chain. We saw early signs that some agent networks become more resistant to these attacks, but defenses are still an open challenge being worked on. Agents belonging to different users and organizations are beginning to interact with each other. These networks of agents are emerging as advances in large language models (LLMs) and silicon lower barriers to building agents, while tools like Claude, Copilot, and ChatGPT, along with existing platforms such as email and GitHub, bring them into constant contact. As a result, agents are no longer working in isolation but becoming participants in a shared, interconnected environment. This shift enables capabilities that are not achievable in single-agent settings. Networks of agents can distribute tasks, share resources, and draw on diverse expertise across principals (the humans each agent represents). When agents are always on and communicate faster than humans, information shared with one can spread across a network in minutes. This speed, scale, and persistence can create real value for users. However, these&nbsp;same&nbsp;capabilities&nbsp;also introduce new risks.&nbsp;For example,&nbsp;one&nbsp;early&nbsp;agents-only social network&nbsp;attracted tens of thousands of agents within days of&nbsp;its&nbsp;launch, only to be&nbsp;quickly flooded with spam and&nbsp;scams. In our own early agent marketplace experiments , agents rapidly shared information and coordinated behavior, but failures&nbsp;spread&nbsp;just as quickly. This pattern shows that the reliability of an individual agent does not predict network behavior. Some risks emerge only through interaction, and single-agent benchmarks miss them. To underst…",
+      "summary": "Safe agents don’t guarantee a safe ecosystem of interconnected agents. Microsoft Research examines what breaks when AI agents interact and why network-level risks require new approaches. The post Red-teaming a network of agents: Understand…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "github"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.57,
       "whyThisMatters": ""
@@ -1309,7 +1362,7 @@
       "section": "Official Sources",
       "importanceScore": 0.72,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.57,
       "whyThisMatters": ""
     },
@@ -1907,22 +1960,24 @@
   ],
   "selectedItems": [
     {
-      "id": "9f8f92f1d2646fbc",
+      "id": "abcaad336c210102",
       "date": "2026-05-04",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google AI Blog",
-      "sourceKey": "official:Google AI Blog",
-      "builderOrOrg": "Google",
-      "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
-      "publishedAt": "2026-04-27T13:00:00.000Z",
-      "content": "Google is bringing back its 5-Day AI Agents Intensive Course with Kaggle and registration is open.",
-      "summary": "Google is bringing back its 5-Day AI Agents Intensive Course with Kaggle and registration is open.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:amasad",
+      "builderOrOrg": "Amjad Masad",
+      "title": "10 project 10 parallel agents each 🤯 https://t.co/OGtdcMeGZJ",
+      "url": "https://x.com/amasad/status/2050793150713864678",
+      "publishedAt": "2026-05-03T04:22:43.000Z",
+      "content": "10 project 10 parallel agents each 🤯 https://t.co/OGtdcMeGZJ",
+      "summary": "10 project 10 parallel agents each 🤯 https://t.co/OGtdcMeGZJ",
+      "regionTags": [],
+      "metrics": {
+        "likes": 78,
+        "retweets": 2,
+        "replies": 20
+      },
       "topics": [
         {
           "slug": "agents",
@@ -1930,43 +1985,36 @@
           "confidence": 0.5700000000000001,
           "rationale": [
             "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
           ],
           "score": 1
         }
       ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
+      "section": "Builders",
+      "importanceScore": 0.84,
       "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": "Google is betting that teaching developers to build agents is more valuable than just selling them pre-built ones. If thousands of developers graduate from this program, expect a flood of new agent-based startups by fall."
+      "digestScore": 0.65,
+      "whyThisMatters": "This is either the moment coding becomes infinitely scalable or the moment we discover that managing 100 AI workers is harder than managing 10 human ones. Every startup about to replace their engineering team with agents should watch this closely."
     },
     {
-      "id": "b419c5c21743a0fc",
+      "id": "c38d40138219cd7d",
       "date": "2026-05-04",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Together AI Blog",
-      "sourceKey": "official:Together AI Blog",
-      "builderOrOrg": "Together AI",
-      "title": "DeepSeek-V4 Pro now available on Together AI",
-      "url": "https://www.together.ai/blog/deepseek-v4-pro-now-available-on-together-ai",
-      "publishedAt": "2026-04-29T00:00:00.000Z",
-      "content": "DeepSeek-V4 Pro is now available on Together AI with 512K context, controllable reasoning modes, and cached-input pricing for long-context reasoning workloads like code agents, document intelligence, and research synthesis.",
-      "summary": "DeepSeek-V4 Pro is now available on Together AI with 512K context, controllable reasoning modes, and cached-input pricing for long-context reasoning workloads like code agents, document intelligence, and research synthesis.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:danshipper",
+      "builderOrOrg": "Dan Shipper",
+      "title": "clear that this is how we'll be doing most of our work for the next 10 years: agent running con…",
+      "url": "https://x.com/danshipper/status/2050583747041640608",
+      "publishedAt": "2026-05-02T14:30:37.000Z",
+      "content": "clear that this is how we'll be doing most of our work for the next 10 years: agent running continuously on the left, application that you + the agent use on the right https://t.co/GTLkK20XDS",
+      "summary": "clear that this is how we'll be doing most of our work for the next 10 years: agent running continuously on the left, application that you + the agent use on the right https://t.co/GTLkK20XDS",
+      "regionTags": [],
+      "metrics": {
+        "likes": 323,
+        "retweets": 20,
+        "replies": 34
+      },
       "topics": [
         {
           "slug": "agents",
@@ -1976,7 +2024,81 @@
             "agent"
           ],
           "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.65,
+      "whyThisMatters": "If Shipper's right, every productivity app needs to be rebuilt around continuous AI collaboration. Companies still designing software for solo human users are building for a world that won't exist in 18 months."
+    },
+    {
+      "id": "7240562e5eda8abf",
+      "date": "2026-05-04",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:swyx",
+      "builderOrOrg": "Swyx",
+      "title": "Much respect to @tokengobbler who shutdown Vibe-kanban live onstage at AIE Europe - still with…",
+      "url": "https://x.com/swyx/status/2050753293601935777",
+      "publishedAt": "2026-05-03T01:44:21.000Z",
+      "content": "Much respect to @tokengobbler who shutdown Vibe-kanban live onstage at AIE Europe - still with 30,000 MAU, and still living on as an open source project. \"Everyone who is making money is doing 2 things: selling to enterprise, and reselling tokens. We were doing neither.\" surprisingly not the first company to shutter at AIE but there's a lot to learn from the process and the software engineering retrospective from 2021-2025 will stick in my mind!",
+      "summary": "Much respect to @tokengobbler who shutdown Vibe-kanban live onstage at AIE Europe - still with 30,000 MAU, and still living on as an open source project. \"Everyone who is making money is doing 2 things: selling to enter…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 56,
+        "retweets": 4,
+        "replies": 11
+      },
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
         },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open source"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.78,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": "Having users doesn't mean having a business. If your AI startup isn't selling to enterprises or marking up AI API calls, you're in the same trap that just killed a company with real traction."
+    },
+    {
+      "id": "1033e8f83a0050fe",
+      "date": "2026-05-04",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:petergyang",
+      "builderOrOrg": "Peter Yang",
+      "title": "It's very satisfying to get Codex or Claude Code to \"marie kondo\" your local files and Google D…",
+      "url": "https://x.com/petergyang/status/2050623358488997917",
+      "publishedAt": "2026-05-02T17:08:02.000Z",
+      "content": "It's very satisfying to get Codex or Claude Code to \"marie kondo\" your local files and Google Drive. I give these apps full access to my computer and gws (google workspace cli), then prompt things like: \"Tell me what apps load on computer bootup. Give me a plan to clean this up.\" \"Look at my downloads folder. Give me a plan to clean up and organize it.\" \"Help me organize my Google Drive. Let's review your plan first before doing anything.\" Note that I always ask it for a plan first. These are s…",
+      "summary": "It's very satisfying to get Codex or Claude Code to \"marie kondo\" your local files and Google Drive. I give these apps full access to my computer and gws (google workspace cli), then prompt things like: \"Tell me what ap…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 222,
+        "retweets": 15,
+        "replies": 29
+      },
+      "topics": [
         {
           "slug": "coding",
           "label": "Coding",
@@ -1985,104 +2107,51 @@
             "code"
           ],
           "score": 1
-        },
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
+      "whyThisMatters": "This is AI agent usage that actually makes sense. Instead of asking AI to write code you could write yourself, Yang's using it for the tedious organization work that humans hate but AI can handle systematically."
+    },
+    {
+      "id": "71c56d7227d03b6b",
+      "date": "2026-05-04",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "If you think AI replaces software engineers, here’s a quick thought experiment. Imagine you’re…",
+      "url": "https://x.com/levie/status/2050684160151617603",
+      "publishedAt": "2026-05-02T21:09:38.000Z",
+      "content": "If you think AI replaces software engineers, here’s a quick thought experiment. Imagine you’re a life sciences company. 10 years ago you want to invest heavily in lab automation, processing data at scale, and other software. You look at the cost of doing so and realize you can’t compete with tech for as many engineers as you need, so you pare down your goals and do what you can. Every new software project has a fixed cost of a certain sized team, so you can only do so much given budgets, abilit…",
+      "summary": "If you think AI replaces software engineers, here’s a quick thought experiment. Imagine you’re a life sciences company. 10 years ago you want to invest heavily in lab automation, processing data at scale, and other soft…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 301,
+        "retweets": 52,
+        "replies": 57
+      },
+      "topics": [
         {
           "slug": "research",
           "label": "Research",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "research"
+            "science"
           ],
           "score": 1
         }
       ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": "DeepSeek keeps proving that the \"only American labs can build frontier models\" assumption is wrong. More importantly, 512K context with smart caching makes running agents on long codebases actually affordable."
-    },
-    {
-      "id": "9710bec68e0d76d7",
-      "date": "2026-05-04",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:amasad",
-      "builderOrOrg": "Amjad Masad",
-      "title": "“Prompt” took on an entirely new meaning but somehow many things stayed the same. https://t.co/…",
-      "url": "https://x.com/amasad/status/2050691458920005737",
-      "publishedAt": "2026-05-02T21:38:38.000Z",
-      "content": "“Prompt” took on an entirely new meaning but somehow many things stayed the same. https://t.co/kXMRmWVHHM https://t.co/YxMFjYgW65",
-      "summary": "“Prompt” took on an entirely new meaning but somehow many things stayed the same. https://t.co/kXMRmWVHHM https://t.co/YxMFjYgW65",
-      "regionTags": [],
-      "metrics": {
-        "likes": 124,
-        "retweets": 3,
-        "replies": 8
-      },
-      "topics": [],
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": "The fundamentals of human-computer interaction haven't changed as much as the hype suggests. Good developers were always careful about how they communicated with systems."
-    },
-    {
-      "id": "4a3fbb1e6d329969",
-      "date": "2026-05-04",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:garrytan",
-      "builderOrOrg": "Garry Tan",
-      "title": "Oakland has highest taxes per capita among similar cities while services are among the worst. 4…",
-      "url": "https://x.com/garrytan/status/2050775806574751816",
-      "publishedAt": "2026-05-03T03:13:48.000Z",
-      "content": "Oakland has highest taxes per capita among similar cities while services are among the worst. 44% of Measure E revenue goes to pre-approved union raises. The pattern: wrap dysfunction in moral language, attack anyone who asks where the money went https://t.co/wbkyxt6Zve https://t.co/PArVnY9DLP",
-      "summary": "Oakland has highest taxes per capita among similar cities while services are among the worst. 44% of Measure E revenue goes to pre-approved union raises. The pattern: wrap dysfunction in moral language, attack anyone wh…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 237,
-        "retweets": 36,
-        "replies": 22
-      },
-      "topics": [],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "66e083a934fbcbcf",
-      "date": "2026-05-04",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:nikunj",
-      "builderOrOrg": "Nikunj Kothari",
-      "title": "Too many funds are capping downside right now, instead of maximizing upside.. I’ll often ask th…",
-      "url": "https://x.com/nikunj/status/2050779734116856137",
-      "publishedAt": "2026-05-03T03:29:24.000Z",
-      "content": "Too many funds are capping downside right now, instead of maximizing upside.. I’ll often ask the GP/partner on why they did the deal and on my fifth why the real reason comes out which is “well at least big token factory will acquire them so our downside is capped” I haven’t done this for many years but I don’t think history shows that’s how you return a 5-10x fund? Maybe, the incentives have really simply shifted to AUM-maxxing and so the sentiment is deploy baby deploy. But, sigh, that just s…",
-      "summary": "Too many funds are capping downside right now, instead of maximizing upside.. I’ll often ask the GP/partner on why they did the deal and on my fifth why the real reason comes out which is “well at least big token factor…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 54,
-        "retweets": 0,
-        "replies": 4
-      },
-      "topics": [],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
+      "whyThisMatters": "The companies laying off engineers to \"replace them with AI\" are missing the bigger picture. AI doesn't shrink the market for software. It expands it to every industry that previously couldn't justify the engineering cost."
     }
   ],
   "topicIndex": [
@@ -2095,7 +2164,7 @@
     {
       "slug": "agents",
       "label": "AI Assistants",
-      "count": 10,
+      "count": 11,
       "latestDate": "2026-05-04"
     },
     {
@@ -2129,8 +2198,20 @@
       "latestDate": "2026-05-04"
     },
     {
+      "slug": "tool-use",
+      "label": "AI Using Tools",
+      "count": 3,
+      "latestDate": "2026-05-04"
+    },
+    {
       "slug": "multimodal",
       "label": "Images, Audio & Video",
+      "count": 3,
+      "latestDate": "2026-05-04"
+    },
+    {
+      "slug": "open-source",
+      "label": "Open Source",
       "count": 3,
       "latestDate": "2026-05-04"
     },
@@ -2147,18 +2228,6 @@
       "latestDate": "2026-05-04"
     },
     {
-      "slug": "tool-use",
-      "label": "AI Using Tools",
-      "count": 2,
-      "latestDate": "2026-05-04"
-    },
-    {
-      "slug": "open-source",
-      "label": "Open Source",
-      "count": 2,
-      "latestDate": "2026-05-04"
-    },
-    {
       "slug": "voice",
       "label": "Voice",
       "count": 1,
@@ -2166,11 +2235,10 @@
     }
   ],
   "sections": [
-    "Official Sources",
     "Builders"
   ],
   "stats": {
-    "totalItems": 51,
+    "totalItems": 52,
     "selectedItems": 5,
     "chinaItems": 0
   }
