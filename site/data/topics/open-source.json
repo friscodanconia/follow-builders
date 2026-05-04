@@ -1,8 +1,162 @@
 {
-  "generatedAt": "2026-05-03T04:52:43.409Z",
+  "generatedAt": "2026-05-04T01:28:56.773Z",
   "slug": "open-source",
   "label": "Open Source",
   "items": [
+    {
+      "id": "7240562e5eda8abf",
+      "date": "2026-05-04",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:swyx",
+      "builderOrOrg": "Swyx",
+      "title": "Much respect to @tokengobbler who shutdown Vibe-kanban live onstage at AIE Europe - still with…",
+      "url": "https://x.com/swyx/status/2050753293601935777",
+      "publishedAt": "2026-05-03T01:44:21.000Z",
+      "content": "Much respect to @tokengobbler who shutdown Vibe-kanban live onstage at AIE Europe - still with 30,000 MAU, and still living on as an open source project. \"Everyone who is making money is doing 2 things: selling to enterprise, and reselling tokens. We were doing neither.\" surprisingly not the first company to shutter at AIE but there's a lot to learn from the process and the software engineering retrospective from 2021-2025 will stick in my mind!",
+      "summary": "Much respect to @tokengobbler who shutdown Vibe-kanban live onstage at AIE Europe - still with 30,000 MAU, and still living on as an open source project. \"Everyone who is making money is doing 2 things: selling to enter…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 56,
+        "retweets": 4,
+        "replies": 11
+      },
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open source"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.78,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.86,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "e406a634633dd2c4",
+      "date": "2026-05-04",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:steipete",
+      "builderOrOrg": "Peter Steinberger",
+      "title": "🦀 Crabbox 0.3.0 is out. Remote Linux runs for dirty worktrees 🔐 GitHub browser login 🧰 Black…",
+      "url": "https://x.com/steipete/status/2050490163810230579",
+      "publishedAt": "2026-05-02T08:18:45.000Z",
+      "content": "🦀 Crabbox 0.3.0 is out. Remote Linux runs for dirty worktrees 🔐 GitHub browser login 🧰 Blacksmith Testbox wrap 📡 crabbox attach for live run replay 📜 Durable run events ☁️ AWS image create 🛡️ Cloudflare Access brew upgrade openclaw/tap/crabbox https://t.co/oD7LDHzpSF",
+      "summary": "🦀 Crabbox 0.3.0 is out. Remote Linux runs for dirty worktrees 🔐 GitHub browser login 🧰 Blacksmith Testbox wrap 📡 crabbox attach for live run replay 📜 Durable run events ☁️ AWS image create 🛡️ Cloudflare Access bre…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 580,
+        "retweets": 39,
+        "replies": 20
+      },
+      "topics": [
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "github"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "image"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "browser"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "98beb7ffc4d6e479",
+      "date": "2026-05-04",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Red-teaming a network of agents: Understanding what breaks when AI agents interact at scale",
+      "url": "https://www.microsoft.com/en-us/research/blog/red-teaming-a-network-of-agents-understanding-what-breaks-when-ai-agents-interact-at-scale/",
+      "publishedAt": "2026-04-30T21:53:21.000Z",
+      "content": "At a glance Some risks appear only when agents interact, not when tested alone. Actions that seem harmless can cascade causing a chain reaction across an agent network. In our tests, a single malicious message passed from agent to agent, extracting private data at each step and pulling uninvolved agents into the chain. We saw early signs that some agent networks become more resistant to these attacks, but defenses are still an open challenge being worked on. Agents belonging to different users and organizations are beginning to interact with each other. These networks of agents are emerging as advances in large language models (LLMs) and silicon lower barriers to building agents, while tools like Claude, Copilot, and ChatGPT, along with existing platforms such as email and GitHub, bring them into constant contact. As a result, agents are no longer working in isolation but becoming participants in a shared, interconnected environment. This shift enables capabilities that are not achievable in single-agent settings. Networks of agents can distribute tasks, share resources, and draw on diverse expertise across principals (the humans each agent represents). When agents are always on and communicate faster than humans, information shared with one can spread across a network in minutes. This speed, scale, and persistence can create real value for users. However, these&nbsp;same&nbsp;capabilities&nbsp;also introduce new risks.&nbsp;For example,&nbsp;one&nbsp;early&nbsp;agents-only social network&nbsp;attracted tens of thousands of agents within days of&nbsp;its&nbsp;launch, only to be&nbsp;quickly flooded with spam and&nbsp;scams. In our own early agent marketplace experiments , agents rapidly shared information and coordinated behavior, but failures&nbsp;spread&nbsp;just as quickly. This pattern shows that the reliability of an individual agent does not predict network behavior. Some risks emerge only through interaction, and single-agent benchmarks miss them. To underst…",
+      "summary": "Safe agents don’t guarantee a safe ecosystem of interconnected agents. Microsoft Research examines what breaks when AI agents interact and why network-level risks require new approaches. The post Red-teaming a network of agents: Understand…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "github"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
     {
       "id": "546c572ce81e98d6",
       "date": "2026-05-03",
@@ -52,59 +206,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.44,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "98beb7ffc4d6e479",
-      "date": "2026-05-03",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Red-teaming a network of agents: Understanding what breaks when AI agents interact at scale",
-      "url": "https://www.microsoft.com/en-us/research/blog/red-teaming-a-network-of-agents-understanding-what-breaks-when-ai-agents-interact-at-scale/",
-      "publishedAt": "2026-04-30T21:53:21.000Z",
-      "content": "At a glance Some risks appear only when agents interact, not when tested alone. Actions that seem harmless can cascade causing a chain reaction across an agent network. In our tests, a single malicious message passed from agent to agent, extracting private data at each step and pulling uninvolved agents into the chain. We saw early signs that some agent networks become more resistant to these attacks, but defenses are still an open challenge being worked on. Agents belonging to different users and organizations are beginning to interact with each other. These networks of agents are emerging as advances in large language models (LLMs) and silicon lower barriers to building agents, while tools like Claude, Copilot, and ChatGPT, along with existing platforms such as email and GitHub, bring them into constant contact. As a result, agents are no longer working in isolation but becoming participants in a shared, interconnected environment. This shift enables capabilities that are not achievable in single-agent settings. Networks of agents can distribute tasks, share resources, and draw on diverse expertise across principals (the humans each agent represents). When agents are always on and communicate faster than humans, information shared with one can spread across a network in minutes. This speed, scale, and persistence can create real value for users. However, these&nbsp;same&nbsp;capabilities&nbsp;also introduce new risks.&nbsp;For example,&nbsp;one&nbsp;early&nbsp;agents-only social network&nbsp;attracted tens of thousands of agents within days of&nbsp;its&nbsp;launch, only to be&nbsp;quickly flooded with spam and&nbsp;scams. In our own early agent marketplace experiments , agents rapidly shared information and coordinated behavior, but failures&nbsp;spread&nbsp;just as quickly. This pattern shows that the reliability of an individual agent does not predict network behavior. Some risks emerge only through interaction, and single-agent benchmarks miss them. To underst…",
-      "summary": "Safe agents don’t guarantee a safe ecosystem of interconnected agents. Microsoft Research examines what breaks when AI agents interact and why network-level risks require new approaches. The post Red-teaming a network of agents: Understand…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "github"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
       "whyThisMatters": ""
     },
     {

@@ -1,11 +1,90 @@
 {
-  "generatedAt": "2026-05-03T04:52:43.409Z",
+  "generatedAt": "2026-05-04T01:28:56.773Z",
   "slug": "research",
   "label": "Research",
   "items": [
     {
+      "id": "71c56d7227d03b6b",
+      "date": "2026-05-04",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "If you think AI replaces software engineers, here’s a quick thought experiment. Imagine you’re…",
+      "url": "https://x.com/levie/status/2050684160151617603",
+      "publishedAt": "2026-05-02T21:09:38.000Z",
+      "content": "If you think AI replaces software engineers, here’s a quick thought experiment. Imagine you’re a life sciences company. 10 years ago you want to invest heavily in lab automation, processing data at scale, and other software. You look at the cost of doing so and realize you can’t compete with tech for as many engineers as you need, so you pare down your goals and do what you can. Every new software project has a fixed cost of a certain sized team, so you can only do so much given budgets, abilit…",
+      "summary": "If you think AI replaces software engineers, here’s a quick thought experiment. Imagine you’re a life sciences company. 10 years ago you want to invest heavily in lab automation, processing data at scale, and other soft…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 301,
+        "retweets": 52,
+        "replies": 57
+      },
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "science"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "6ae299281576f316",
+      "date": "2026-05-04",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "Training Data",
+      "sourceKey": "podcast:Training Data",
+      "builderOrOrg": "Training Data",
+      "title": "OpenAI's Greg Brockman: Why Human Attention Is the New Bottleneck",
+      "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
+      "publishedAt": "2026-05-01T18:32:00.000Z",
+      "content": "Speaker 1 | 00:02 - 00:24 So Greg, thank you for coming back here. I don't think we ever charge you for rent. So maybe I'll send you an invoice later. But Greg, you've been part of like two really spectacular companies, Stripe as employee number four and then the first CTO. I just recently heard that they process 1,600,000,000, sorry, 1.6% of the global GDP. Speaker 1 | 00:24 - 00:25 You must be proud of that. Speaker 2 | 00:25 - 00:26 That's amazing. Speaker 1 | 00:26 - 00:34 You must be even more proud of the fact that OpenAI has almost a billion or maybe more than a billion, in weekly active users at this point. Speaker 2 | 00:34 - 00:37 I mean, it's all it's all very exciting. It shows you what technology can do. Speaker 1 | 00:37 - 00:44 And, you're not just co founder and president, but you're also chief builder at OpenAI. I heard that that was one of your titles. Speaker 2 | 00:44 - 00:48 I'm not sure if it's ever an official title, but I I've been called many things. Let's just say that. Speaker 1 | 00:49 - 01:05 Well, you have a audience of great builders here, so we'll start from all the way at the bottom of the stack. OpenAI has multiple stacks of the business, one of which is compute. And you guys have been very aggressive, very aggressive on securing compute. Why is that? Speaker 2 | 01:05 - 01:32 Well, in many ways, we have a very simple business. We buy, rent, build, compute, and we resell it at a margin. That's it. As long as the margin's positive, then you want to scale it because the demand for solving problems, the demand for intelligence, that's unlimited. And the AIs that we have right now really are able to rise to the challenge of effectively any kind of problem that you want to throw at them. Speaker 1 | 01:32 - 01:33 Do you have enough compute? Speaker 2 | 01:33 - 01:36 No. Really? Yeah, definitely not. Speaker 1 | 01:36 - 01:45 I was just with Matt Garman and he says the GPU compute availability in twenty twenty six rounds to zero. Don't you guys have all of it? Speaker 2 | 01:45 - 02:04 I mean, we have we we would love more. We're we're constantly out there hunting for more, honestly. And I'll tell you, like when we first launched, when we launched ChatGPT, I remember being on a call with my team and they were like, all right, how much compute should we buy? And I said, all of it. And they're like, no, no, seriously, like, come on, how much should we buy? Speaker 2 | 02:04 - 02:10 I'm like, no matter how fast we try to ramp compute, I guarantee we're not going be able to keep up with demand. And that has been true ever since. Speaker 1 | 02:11 - 02:34 That's fascinating. Moving up from compute, since I don't know if much of this audience can help you with securing more compute, because most of them are founders of startups. About architecture and scaling laws, what are the, where are we in the scaling laws? Are they still doubling each year? Are you changing architecture? Speaker 1 | 02:36 - 02:39 What are you guys pushing on the frontier on the research side? Speaker 2 | 02:39 - 03:04 Well, I would say, first of all, the scaling laws are a deep and very beautiful mystery. They feel deeply fundamental. It's like this scientific truth that just like you think about physics and Newton's laws and things like that, there's somehow this truth of the universe. And they're empirical. We don't necessarily have all the theory to explain exactly why it works. Speaker 2 | 03:04 - 03:27 But to me, the most beautiful thing is that neural networks were really designed in the 1940s, before they were computers. And somehow, we've been able to take the exact ideas that were developed back then and apply increasing amounts of computation. And as you pour more compute into the models, they get correspondingly more capable. It just keeps going. There's no wall. Speaker 2 | 03:27 - 03:29 And I think that's a beautiful thing. Speaker 1 | 03:29 - 03:49 That's pretty beautiful. Are there more research or more algorithms th…",
+      "summary": "Speaker 1 | 00:02 - 00:24 So Greg, thank you for coming back here. I don't think we ever charge you for rent. So maybe I'll send you an invoice later. But Greg, you've been part of like two really spectacular companies, Stripe as employee…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "voice"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.52,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.44,
+      "whyThisMatters": ""
+    },
+    {
       "id": "585b96ab152dfa42",
-      "date": "2026-05-03",
+      "date": "2026-05-04",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -49,7 +128,7 @@
     },
     {
       "id": "2aad47b968e1c9ad",
-      "date": "2026-05-03",
+      "date": "2026-05-04",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -93,7 +172,7 @@
     },
     {
       "id": "54dcb028ed32ac6c",
-      "date": "2026-05-03",
+      "date": "2026-05-04",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Google DeepMind Blog",
@@ -128,7 +207,7 @@
     },
     {
       "id": "71dd5832d1342e84",
-      "date": "2026-05-03",
+      "date": "2026-05-04",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Together AI Blog",
@@ -181,7 +260,7 @@
     },
     {
       "id": "b419c5c21743a0fc",
-      "date": "2026-05-03",
+      "date": "2026-05-04",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Together AI Blog",
@@ -228,13 +307,13 @@
       "section": "Official Sources",
       "importanceScore": 0.72,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.57,
       "whyThisMatters": ""
     },
     {
       "id": "d73a3e8de1cb7d9f",
-      "date": "2026-05-03",
+      "date": "2026-05-04",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "ChinaTalk",
@@ -2244,86 +2323,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "2f3568f51a2009a3",
-      "date": "2026-04-10",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Announcing the OpenAI Safety Fellowship",
-      "url": "https://openai.com/index/introducing-openai-safety-fellowship",
-      "publishedAt": "2026-04-06T10:00:00.000Z",
-      "content": "A pilot program to support independent safety and alignment research and develop the next generation of talent",
-      "summary": "A pilot program to support independent safety and alignment research and develop the next generation of talent",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.69,
-          "rationale": [
-            "safety",
-            "alignment"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "c58470f0c50dd682",
-      "date": "2026-04-10",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Together AI Blog",
-      "sourceKey": "official:Together AI Blog",
-      "builderOrOrg": "Together AI",
-      "title": "AI for Systems: Using LLMs to Optimize Database Query Execution",
-      "url": "https://www.together.ai/blog/using-llms-to-optimize-database-query-execution",
-      "publishedAt": "2026-04-03T00:00:00.000Z",
-      "content": "New research shows LLMs can optimize database query execution plans—achieving up to 4.78x speedups by correcting the cardinality estimation errors that statistical heuristics miss.",
-      "summary": "New research shows LLMs can optimize database query execution plans—achieving up to 4.78x speedups by correcting the cardinality estimation errors that statistical heuristics miss.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     }
   ]
