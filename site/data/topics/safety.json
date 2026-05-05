@@ -1,47 +1,64 @@
 {
-  "generatedAt": "2026-05-04T04:52:56.015Z",
+  "generatedAt": "2026-05-05T01:29:50.468Z",
   "slug": "safety",
   "label": "AI Safety",
   "items": [
     {
-      "id": "07f8216f09040154",
-      "date": "2026-05-04",
-      "sourceType": "newsletter",
+      "id": "e626abb58dd215bb",
+      "date": "2026-05-05",
+      "sourceType": "blog",
       "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Our commitment to community safety",
-      "url": "https://openai.com/index/our-commitment-to-community-safety",
-      "publishedAt": "2026-04-28T00:00:00.000Z",
-      "content": "Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety experts.",
-      "summary": "Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety experts.",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs \\ Anthropic",
+      "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
+      "publishedAt": null,
+      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
       "regionTags": [
         "us-model-labs"
       ],
       "metrics": {},
       "topics": [
         {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
           "slug": "safety",
           "label": "AI Safety",
-          "confidence": 0.69,
+          "confidence": 0.5700000000000001,
           "rationale": [
-            "safety",
-            "policy"
+            "safety"
           ],
-          "score": 2
+          "score": 1
         }
       ],
       "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
+      "importanceScore": 0.66,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.48,
+      "digestScore": 0.78,
       "whyThisMatters": ""
     },
     {
       "id": "585b96ab152dfa42",
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -74,6 +91,93 @@
             "safety"
           ],
           "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7bb7930d17413901",
+      "date": "2026-05-05",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "China-Proofing the American Industrial Base",
+      "url": "https://www.chinatalk.media/p/china-proofing-the-american-industrial",
+      "publishedAt": "2026-04-28T18:49:45.000Z",
+      "content": "Earlier this year we launched an economic security contest , judged by the likes of: Jake Sullivan , former NSA now at the Harvard Kennedy School Chris Miller , Chip Wars author and belt-holder for most ChinaTalk appearances Dan Kim, former Chief Economist for the Chips Program Office Dan Wang , author of Breakneck We had two prompts: What are the most important high level KPIs that policy should aim for? What is the analogy of the Fed&#8217;s &#8216;2% inflation and full employment&#8217; target for economic security? Where today would you put $10-50bn to get the most for your investment in economic security? Feel free to propose both defensive and offensive ideas, and either a portfolio of ideas or the one large idea you think will deliver the most value. We had a literal four-way tie for first place as each judge gave one of these essays their first-place designation. We will be running the contributions from our winners in the next two weeks. The first essay comes from , a Lieutenant Colonel in the U.S. Air Force, a Fellow at the U.S. Naval War College, and a Senior Fellow at the Payne Institute for Public Policy. Disclaimer: The views of Lt Col Matisek are his own, and not those of the U.S. Air Force, Department of War, or U.S. Government. Economic security is frequently invoked but is the least disciplined policy concept. It now justifies subsidies , export controls , stockpiles , reshoring , and strategic deals . What has emerged is a kind of &#8220; China-light &#8221; strategy in Washington, where activity is everywhere but coherence is not. Government money is committed and facilities are built, yet the U.S. defense industrial base remains a &#8220; Black Box &#8221; to policymakers and Pentagon officials. Key senior leaders still struggle to answer a basic question: which parts of the American industrial ecosystem can actually withstand disruption and which will fail first under pressure? That uncertainty extends well beyond the defense industrial base.…",
+      "summary": "Economic Security Essay Contest Winner!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "policy"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "07f8216f09040154",
+      "date": "2026-05-04",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Our commitment to community safety",
+      "url": "https://openai.com/index/our-commitment-to-community-safety",
+      "publishedAt": "2026-04-28T00:00:00.000Z",
+      "content": "Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety experts.",
+      "summary": "Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety experts.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.69,
+          "rationale": [
+            "safety",
+            "policy"
+          ],
+          "score": 2
         }
       ],
       "section": "Official Sources",
@@ -125,57 +229,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "7bb7930d17413901",
-      "date": "2026-05-04",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "China-Proofing the American Industrial Base",
-      "url": "https://www.chinatalk.media/p/china-proofing-the-american-industrial",
-      "publishedAt": "2026-04-28T18:49:45.000Z",
-      "content": "Earlier this year we launched an economic security contest , judged by the likes of: Jake Sullivan , former NSA now at the Harvard Kennedy School Chris Miller , Chip Wars author and belt-holder for most ChinaTalk appearances Dan Kim, former Chief Economist for the Chips Program Office Dan Wang , author of Breakneck We had two prompts: What are the most important high level KPIs that policy should aim for? What is the analogy of the Fed&#8217;s &#8216;2% inflation and full employment&#8217; target for economic security? Where today would you put $10-50bn to get the most for your investment in economic security? Feel free to propose both defensive and offensive ideas, and either a portfolio of ideas or the one large idea you think will deliver the most value. We had a literal four-way tie for first place as each judge gave one of these essays their first-place designation. We will be running the contributions from our winners in the next two weeks. The first essay comes from , a Lieutenant Colonel in the U.S. Air Force, a Fellow at the U.S. Naval War College, and a Senior Fellow at the Payne Institute for Public Policy. Disclaimer: The views of Lt Col Matisek are his own, and not those of the U.S. Air Force, Department of War, or U.S. Government. Economic security is frequently invoked but is the least disciplined policy concept. It now justifies subsidies , export controls , stockpiles , reshoring , and strategic deals . What has emerged is a kind of &#8220; China-light &#8221; strategy in Washington, where activity is everywhere but coherence is not. Government money is committed and facilities are built, yet the U.S. defense industrial base remains a &#8220; Black Box &#8221; to policymakers and Pentagon officials. Key senior leaders still struggle to answer a basic question: which parts of the American industrial ecosystem can actually withstand disruption and which will fail first under pressure? That uncertainty extends well beyond the defense industrial base.…",
-      "summary": "Economic Security Essay Contest Winner!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "policy"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
       "whyThisMatters": ""
     },
     {

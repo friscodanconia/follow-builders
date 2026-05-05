@@ -1,11 +1,186 @@
 {
-  "generatedAt": "2026-05-04T04:52:56.015Z",
+  "generatedAt": "2026-05-05T01:29:50.468Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
     {
+      "id": "862e0b7ccd729336",
+      "date": "2026-05-05",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "How OpenAI delivers low-latency voice AI at scale",
+      "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+      "publishedAt": "2026-05-04T00:00:00.000Z",
+      "content": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
+      "summary": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "latency"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "voice"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7b58b48d6708d902",
+      "date": "2026-05-05",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google AI Blog",
+      "sourceKey": "official:Google AI Blog",
+      "builderOrOrg": "Google",
+      "title": "Reduce friction and latency for long-running jobs with Webhooks in Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
+      "publishedAt": "2026-05-04T15:30:00.000Z",
+      "content": "Event-Driven Webhooks are a push-based notification system that eliminates the need for inefficient polling.",
+      "summary": "Event-Driven Webhooks are a push-based notification system that eliminates the need for inefficient polling.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "latency"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c7a89f7480235672",
+      "date": "2026-05-05",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "Foundational research powering efficient inference at scale",
+      "url": "https://www.together.ai/blog/foundational-research-powering-efficient-inference-at-scale",
+      "publishedAt": "2026-05-04T00:00:00.000Z",
+      "content": "As AI moves from research to production, the challenge for AI-native teams shifts from building models to running them — efficiently, reliably, and at scale.",
+      "summary": "As AI moves from research to production, the challenge for AI-native teams shifts from building models to running them — efficiently, reliably, and at scale.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "dbe0a40183de8090",
+      "date": "2026-05-05",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Import AI",
+      "sourceKey": "editorial:Import AI",
+      "builderOrOrg": "Jack Clark",
+      "title": "Import AI 455: Automating AI Research",
+      "url": "https://jack-clark.net/2026/05/04/import-ai-455-automating-ai-research/",
+      "publishedAt": "2026-05-04T12:32:09.000Z",
+      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI systems are about to start building themselves. What does that mean? I’m writing this post because when I look at all the publicly available information I reluctantly come to the view that there’s a likely chance (60%+) that no-human-involved AI R&D &#8211; an AI system powerful enough that it could plausibly autonomously build its own successor &#8211; happens by the end of 2028. This is a big deal. I don’t know how to wrap my head around it. It’s a reluctant view because the implications are so large that I feel dwarfed by them, and I’m not sure society is ready for the kinds of changes implied by achieving automated AI R&D. I now believe we are living in the time that AI research will be end-to-end automated. If that happens, we will cross a Rubicon into a nearly-impossible-to-forecast future. More on this later. The purpose of this essay is to enumerate why I think the takeoff towards fully automated AI R&D is happening. I’ll discuss some of the consequences of this, but mostly I expect to spend the majority of this essay discussing the evidence for this belief, and will spend most of 2026 working through the implications. In terms of timing, I don’t expect this to happen in 2026. But I think we could see an example of a “model end-to-end trains it successor” within a year or two &#8211; certainly a proof-of-concept at the non-frontier model stage, though frontier models may be harder (they’re a lot more expensive and are the product of a lot of humans working extremely hard). My reasoning for this stems primarily from public information: papers on arXiv, bioRxiv, and NBER, as well as observing the products being deployed into the world by the frontier companies. From this data I arrive at the conclusion that all the pieces are in place for automating the production of today’s AI systems &#821…",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI systems are about to start building themselves. What does that mean?…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "paper"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "autonomous"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "serving"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
+      "whyThisMatters": ""
+    },
+    {
       "id": "79d3eaf75b836bf0",
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -57,7 +232,7 @@
     },
     {
       "id": "ba1b867ca6051e4d",
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -108,7 +283,7 @@
     },
     {
       "id": "13a56f5c505590e0",
-      "date": "2026-05-04",
+      "date": "2026-05-05",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
