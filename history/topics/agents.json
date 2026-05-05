@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-05T03:54:39.103Z",
+  "generatedAt": "2026-05-05T04:31:33.791Z",
   "slug": "agents",
   "label": "AI Assistants",
   "items": [
@@ -36,7 +36,7 @@
       "section": "Builders",
       "importanceScore": 0.84,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.65,
       "whyThisMatters": ""
     },
@@ -74,7 +74,7 @@
       "section": "Builders",
       "importanceScore": 0.84,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.65,
       "whyThisMatters": ""
     },
@@ -120,7 +120,7 @@
       "section": "Builders",
       "importanceScore": 0.92,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.7,
       "whyThisMatters": ""
     },
@@ -203,7 +203,7 @@
       "section": "Builders",
       "importanceScore": 0.84,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.65,
       "whyThisMatters": ""
     },
@@ -259,6 +259,50 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "060272da0a5f2aa8",
+      "date": "2026-05-05",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "OpenAI and PwC collaborate to reimagine the office of the CFO",
+      "url": "https://openai.com/index/openai-pwc-finance-collaboration",
+      "publishedAt": "2026-05-04T21:00:00.000Z",
+      "content": "OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.",
+      "summary": "OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.8,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.87,
       "whyThisMatters": ""
     },
     {
@@ -2300,61 +2344,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "61d5e471258c51a7",
-      "date": "2026-04-29",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:garrytan",
-      "builderOrOrg": "Garry Tan",
-      "title": "GStack ships with Chromium that has Claude Code as the CLI and you can type /pair-agent from yo…",
-      "url": "https://x.com/garrytan/status/2049035231903301771",
-      "publishedAt": "2026-04-28T07:57:23.000Z",
-      "content": "GStack ships with Chromium that has Claude Code as the CLI and you can type /pair-agent from your real CC or the sidebar one And it'll give you a string to paste into your OpenClaw/Hermes so it can control your browser remotely, and you can log it into stuff and have it scrape https://t.co/Jr7ZF5aq3s",
-      "summary": "GStack ships with Chromium that has Claude Code as the CLI and you can type /pair-agent from your real CC or the sidebar one And it'll give you a string to paste into your OpenClaw/Hermes so it can control your browser…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 27,
-        "retweets": 3,
-        "replies": 9
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "browser"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.78,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.61,
       "whyThisMatters": ""
     }
   ]
