@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-05-05T04:31:33.791Z",
+  "generatedAt": "2026-05-06T00:48:01.195Z",
   "slug": "research",
   "label": "Research",
   "items": [
     {
       "id": "e626abb58dd215bb",
-      "date": "2026-05-05",
+      "date": "2026-05-06",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -57,52 +57,8 @@
       "whyThisMatters": ""
     },
     {
-      "id": "585b96ab152dfa42",
-      "date": "2026-05-05",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Claude for Creative Work \\ Anthropic",
-      "url": "https://www.anthropic.com/news/claude-for-creative-work",
-      "publishedAt": null,
-      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
       "id": "54dcb028ed32ac6c",
-      "date": "2026-05-05",
+      "date": "2026-05-06",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Google DeepMind Blog",
@@ -136,8 +92,63 @@
       "whyThisMatters": ""
     },
     {
+      "id": "2c6fbb991177d5f2",
+      "date": "2026-05-06",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Microsoft at NSDI 2026: Advances in large-scale networked systems",
+      "url": "https://www.microsoft.com/en-us/research/blog/microsoft-at-nsdi-2026-advances-in-large-scale-networked-systems/",
+      "publishedAt": "2026-05-05T16:00:00.000Z",
+      "content": "Large-scale networked systems underpin cloud computing, AI, and distributed applications and services. The USENIX Symposium on Networked Systems Design and Implementation 2026 (opens in new tab) (NSDI ’26) is a leading forum where researchers and practitioners share new research, insights, and advances in the design and operation of these systems. Microsoft is proud to support NSDI ’26 as a returning sponsor, reflecting our ongoing commitment to advancing systems and networking research and engaging with the broader community. Microsoft researchers and engineering leaders are also serving on the program committee and in other organizational roles. This year, 11 papers by Microsoft authors and collaborators were accepted to the conference, spanning datacenter and wide-area networks, AI systems, and cloud infrastructure. Together, they highlight advances in building and operating large-scale networked systems. Spotlight: AI-POWERED EXPERIENCE Microsoft research copilot experience Discover more about research at Microsoft through our AI-powered experience Start now Opens in a new tab Technical sessions Monday, May 4, 2:00–3:20 PM DroidSpeak: KV Cache Sharing Across Fine-tuned Model Variants (opens in new tab) Yuhan Liu, Yuyang Huang, Jiayi Yao, Zhuohan Gu, Kuntai Du, Hanchen Li, Yihua Cheng, and Junchen Jiang, University of Chicago; Shan Lu , Madan Musuvathi , and Esha Choukse , Microsoft DroidSpeak enables LLMs with the same architecture to share and partially reuse KV caches across models, delivering up to 4 times higher throughput and faster responses with minimal impact on output quality. Monday, May 4, 3:50–5:30 PM Eywa: Automating Model-Based Testing using LLMs (opens in new tab) Rajdeep Mondal, Rathin Singha, Todd D. Millstein, and George Varghese, UCLA; Ryan Beckett and Siva Kesava Reddy Kakarla , Microsoft Research Eywa uses LLMs to automatically build protocol models from natural language sources, enabling model-based testing. It uncovered 33 bugs, including…",
+      "summary": "Microsoft researchers share advances in building and operating large-scale distributed systems, spanning datacenters, networking, and the growing intersection with AI during NSDI ’26. The post Microsoft at NSDI 2026: Advances in large-scal…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "throughput",
+            "serving"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "paper"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
       "id": "c7a89f7480235672",
-      "date": "2026-05-05",
+      "date": "2026-05-06",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Together AI Blog",
@@ -181,7 +192,7 @@
     },
     {
       "id": "71dd5832d1342e84",
-      "date": "2026-05-05",
+      "date": "2026-05-06",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Together AI Blog",
@@ -234,7 +245,7 @@
     },
     {
       "id": "b419c5c21743a0fc",
-      "date": "2026-05-05",
+      "date": "2026-05-06",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Together AI Blog",
@@ -287,7 +298,7 @@
     },
     {
       "id": "dbe0a40183de8090",
-      "date": "2026-05-05",
+      "date": "2026-05-06",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Import AI",
@@ -338,8 +349,115 @@
       "whyThisMatters": ""
     },
     {
+      "id": "bd0c64547ecb1685",
+      "date": "2026-05-06",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "🔬Doing Vibe Physics — Alex Lupsasca, OpenAI",
+      "url": "https://www.latent.space/p/lupsasca",
+      "publishedAt": "2026-05-05T20:34:11.000Z",
+      "content": "Some people are going crazy over GPT 5.5. Some people. This is the story of the Jagged Frontier . People who use AI to write emails or even code implementation work find the lift moderate whereas people pushing the limits of the model are figuring out that the limits just moved outwards . Alex Lupsaska has been tracking this limit for a year and a half now. &#8220;When GPT5 came out, it was able to reproduce one of my best papers (that took a very long time to come up with) in 30 minutes .&#8221; But Alex also notes that this shift was mostly invisible. I remember when GPT-5 came out&#8230; on Twitter, the reception was lukewarm. A lot of people were like, well, we expected a lot more, and it&#8217;s not better at writing email. And I remember thinking, well, okay, GPT-3 could write email. How much better can it get at writing email? That&#8217;s not the point. But at the science frontier, the capabilities were really taking off. We walk through his paper and more with him in today&#8217;s Science pod! Watch here . The &#8220;Oscar for physics&#8221; Alex made an early splash in his career with breakthroughs in our understanding of black holes. He&#8217;s also known for Black Hole Explorer and an iPhone app that makes visualizing black holes fun and interactive to regular audiences . Alex won the 2024 New Horizons in Fundamental Physics Breakthrough Prize. Known as the &#8220;Oscar for physics&#8221; this is arguably the most prestigious prize an early stage theoretical physicist can win. 1 Alex first saw promise for AI in theoretical physics after he asked o3 for help on his research. In the podcast, Alex recalls asking GPT for help with a calculation that would have taken days, and getting a result in eleven minutes. tweets He immediately recognized how impactful AI would be for his work even as though his physicist colleagues and the larger community gave it a lukewarm or skeptical reception. The Move 37 Moment for AI x Physics GPT-5 had just been released, and…",
+      "summary": "The full story of how GPT&#8209;5.x derived new results in theoretical physics and quantum gravity.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.81,
+          "rationale": [
+            "research",
+            "paper",
+            "science"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c47efa4aeca4ca08",
+      "date": "2026-05-06",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "How to Buy Cheap Claude Tokens in China",
+      "url": "https://www.chinatalk.media/p/how-to-buy-cheap-claude-tokens-in",
+      "publishedAt": "2026-05-05T11:20:00.000Z",
+      "content": "is a research associate (research) at the Oxford China Policy Lab and holds a Master&#8217;s degree in Social Science of the Internet from the University of Oxford. On April 23, 2026, the White House released a memo warning that Chinese entities were running &#8220;industrial-scale&#8221; distillation campaigns against American frontier AI models, leveraging &#8220;tens of thousands of proxy accounts&#8221; to evade detection. In February 2026, Anthropic similarly reported on Chinese labs&#8217; coordinated distillation attacks using &#8220;a single proxy network managed more than 20,000 fraudulent accounts&#8221;. Both cases see &#8220;proxy&#8221; &#8212; the middlemen between model users and model providers &#8212; as a purposeful design by a selective Chinese frontier labs to systematically extract US AI models. Regardless of whether Chinese labs rely on distillation to &#8220;catch up&#8221;, both documents misread the proxy economy they&#8217;re describing. Underneath the handful of labs sits a much larger market, one that has been operating in public on GitHub, Taobao, Twitter, and Telegram. It is a grey economy of API proxies (commonly called &#8220;transfer stations,&#8221; &#20013;&#36716;&#31449;) that lets Chinese developers access Anthropic&#8217;s models at as low as 10% of the official price. The participants extend far beyond selective experienced AI researchers, and the motivations are much broader than building a frontier model to catch up. Everyone who wants to use more advanced AI models or tools, be they university professors and students, tech workers, individual developers, or hobbyists, uses API proxies. 1 The logs they generate may have become a commodity, traded for purposes ranging from model training to targeted fraud. Meanwhile, every layer of control frontier US AI companies have added (geoblocking, phone verification, credit card requirements, and now live biometric KYC checks) has produced a corresponding layer of evasion infrastruct…",
+      "summary": "The Transfer Station Economy, Explained",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "developer",
+            "repo"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "rl",
+            "distillation"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
+    {
       "id": "80aceb55cd0979d8",
-      "date": "2026-05-05",
+      "date": "2026-05-06",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "ChinaTalk",
@@ -391,7 +509,7 @@
     },
     {
       "id": "d73a3e8de1cb7d9f",
-      "date": "2026-05-05",
+      "date": "2026-05-06",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "ChinaTalk",
@@ -438,6 +556,50 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "585b96ab152dfa42",
+      "date": "2026-05-05",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Claude for Creative Work \\ Anthropic",
+      "url": "https://www.anthropic.com/news/claude-for-creative-work",
+      "publishedAt": null,
+      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
       "whyThisMatters": ""
     },
     {
@@ -2191,144 +2353,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a12bf293cff8b41d",
-      "date": "2026-04-14",
-      "sourceType": "blog",
-      "sourceGroup": "mirrored",
-      "sourceName": "Claude Blog",
-      "sourceKey": "blog:Claude Blog",
-      "builderOrOrg": "Claude Blog",
-      "title": "Preparing your security program for AI-accelerated offense",
-      "url": "https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense",
-      "publishedAt": "2026-04-10T00:00:00.000Z",
-      "content": "Earlier this week, we announced Project Glasswing—our urgent attempt to put the strong cybersecurity capabilities of our newest frontier model, Claude Mythos Preview, to use for defensive purposes. In the announcement —and the accompanying technical blog post —we described how AI models are rapidly reducing the required resources, time, and skill required to find and exploit vulnerabilities in software. With an eye on the lightning-fast progress of AI, we also noted that it will not be long before models of similar capability levels are widely available. Within the next 24 months, vast numbers of bugs that sat unnoticed in code, possibly for years, will be found by AI models and chained into working exploits. Indeed, it is already the case that publicly available, sub-Mythos-level models can find serious vulnerabilities that traditional reviews have missed for long periods of time. Thankfully, this works both ways: although attackers can use AI to move faster, so can defenders who adopt AI tools to secure themselves. In this post, we offer security recommendations and practical tips based on what our security teams and researchers have observed and learned from using frontier AI models to secure real codebases and systems. We hope security teams and others will find this advice useful as we enter the age of AI-driven cybersecurity. Many of the pieces of advice below are already part of the existing security consensus; we have prioritized them according to which controls we have seen hold and which we have seen degrade. If your organization reports against SOC 2 and ISO 27001, these will map directly onto controls you are already tracking. We’ll update this guidance as we and our Project Glasswing partners continue our cybersecurity work. What to do now 1. Close your patch gap AI models are very effective at recognizing the signatures of known, already-patched vulnerabilities in unpatched systems. Reversing a patch into a working exploit is exactly the kind of mecha…",
-      "summary": "Earlier this week, we announced Project Glasswing—our urgent attempt to put the strong cybersecurity capabilities of our newest frontier model, Claude Mythos Preview, to use for defensive purposes. In the announcement —and the accompanying…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "code",
-            "repo"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Watchlist",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "8705db2355704fd3",
-      "date": "2026-04-14",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Australian government and Anthropic sign MOU for AI safety and research \\ Anthropic",
-      "url": "https://www.anthropic.com/news/australia-MOU",
-      "publishedAt": null,
-      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "6f5a266128c55aa5",
-      "date": "2026-04-13",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Import AI",
-      "sourceKey": "editorial:Import AI",
-      "builderOrOrg": "Jack Clark",
-      "title": "Import AI 452: Scaling laws for cyberwar; rising tides of AI automation; and a puzzle over gDP forecasting",
-      "url": "https://jack-clark.net/2026/04/06/import-ai-452-scaling-laws-for-cyberwar-rising-tides-of-ai-automation-and-a-puzzle-over-gdp-forecasting/",
-      "publishedAt": "2026-04-06T12:31:31.000Z",
-      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Uh oh, there’s a scaling war for cyberattacks as well!:…The smarter the system, the better the ability to cyberattack…AI safety research organization Lyptus Research has looked at [&#8230;]",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Uh oh, there’s a scaling war for cyberattacks as well!:…The smarter the…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     }
   ]
