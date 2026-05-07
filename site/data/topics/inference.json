@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T00:53:01.090Z",
+  "generatedAt": "2026-05-07T04:10:36.854Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
@@ -49,7 +49,7 @@
       "title": "Microsoft at NSDI 2026: Advances in large-scale networked systems",
       "url": "https://www.microsoft.com/en-us/research/blog/microsoft-at-nsdi-2026-advances-in-large-scale-networked-systems/",
       "publishedAt": "2026-05-05T16:00:00.000Z",
-      "content": "Large-scale networked systems underpin cloud computing, AI, and distributed applications and services. The USENIX Symposium on Networked Systems Design and Implementation 2026 (opens in new tab) (NSDI ’26) is a leading forum where researchers and practitioners share new research, insights, and advances in the design and operation of these systems. Microsoft is proud to support NSDI ’26 as a returning sponsor, reflecting our ongoing commitment to advancing systems and networking research and engaging with the broader community. Microsoft researchers and engineering leaders are also serving on the program committee and in other organizational roles. This year, 11 papers by Microsoft authors and collaborators were accepted to the conference, spanning datacenter and wide-area networks, AI systems, and cloud infrastructure. Together, they highlight advances in building and operating large-scale networked systems. video series On Second Thought A video series with Sinead Bovell built around the questions everyone’s asking about AI. With expert voices from across Microsoft, we break down the tension and promise of this rapidly changing technology, exploring what’s evolving and what’s possible. Explore the series Opens in a new tab Technical sessions Monday, May 4, 2:00–3:20 PM DroidSpeak: KV Cache Sharing Across Fine-tuned Model Variants (opens in new tab) Yuhan Liu, Yuyang Huang, Jiayi Yao, Zhuohan Gu, Kuntai Du, Hanchen Li, Yihua Cheng, and Junchen Jiang, University of Chicago; Shan Lu , Madan Musuvathi , and Esha Choukse , Microsoft DroidSpeak enables LLMs with the same architecture to share and partially reuse KV caches across models, delivering up to 4 times higher throughput and faster responses with minimal impact on output quality. Monday, May 4, 3:50–5:30 PM Eywa: Automating Model-Based Testing using LLMs (opens in new tab) Rajdeep Mondal, Rathin Singha, Todd D. Millstein, and George Varghese, UCLA; Ryan Beckett and Siva Kesava Reddy Kakarla , Microsoft Research…",
+      "content": "Large-scale networked systems underpin cloud computing, AI, and distributed applications and services. The USENIX Symposium on Networked Systems Design and Implementation 2026 (opens in new tab) (NSDI ’26) is a leading forum where researchers and practitioners share new research, insights, and advances in the design and operation of these systems. Microsoft is proud to support NSDI ’26 as a returning sponsor, reflecting our ongoing commitment to advancing systems and networking research and engaging with the broader community. Microsoft researchers and engineering leaders are also serving on the program committee and in other organizational roles. This year, 11 papers by Microsoft authors and collaborators were accepted to the conference, spanning datacenter and wide-area networks, AI systems, and cloud infrastructure. Together, they highlight advances in building and operating large-scale networked systems. Spotlight: AI-POWERED EXPERIENCE Microsoft research copilot experience Discover more about research at Microsoft through our AI-powered experience Start now Opens in a new tab Technical sessions Monday, May 4, 2:00–3:20 PM DroidSpeak: KV Cache Sharing Across Fine-tuned Model Variants (opens in new tab) Yuhan Liu, Yuyang Huang, Jiayi Yao, Zhuohan Gu, Kuntai Du, Hanchen Li, Yihua Cheng, and Junchen Jiang, University of Chicago; Shan Lu , Madan Musuvathi , and Esha Choukse , Microsoft DroidSpeak enables LLMs with the same architecture to share and partially reuse KV caches across models, delivering up to 4 times higher throughput and faster responses with minimal impact on output quality. Monday, May 4, 3:50–5:30 PM Eywa: Automating Model-Based Testing using LLMs (opens in new tab) Rajdeep Mondal, Rathin Singha, Todd D. Millstein, and George Varghese, UCLA; Ryan Beckett and Siva Kesava Reddy Kakarla , Microsoft Research Eywa uses LLMs to automatically build protocol models from natural language sources, enabling model-based testing. It uncovered 33 bugs, including…",
       "summary": "Microsoft researchers share advances in building and operating large-scale distributed systems, spanning datacenters, networking, and the growing intersection with AI during NSDI ’26. The post Microsoft at NSDI 2026: Advances in large-scal…",
       "regionTags": [
         "us-model-labs"
@@ -77,11 +77,11 @@
           "score": 2
         },
         {
-          "slug": "voice",
-          "label": "Voice",
+          "slug": "fine-tuning",
+          "label": "Custom AI",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "voice"
+            "rl"
           ],
           "score": 1
         }
