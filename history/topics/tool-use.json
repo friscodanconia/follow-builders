@@ -1,52 +1,61 @@
 {
-  "generatedAt": "2026-05-07T04:10:36.854Z",
+  "generatedAt": "2026-05-07T04:48:07.382Z",
   "slug": "tool-use",
   "label": "AI Using Tools",
   "items": [
     {
-      "id": "92b1274de76e8586",
+      "id": "33009e898985e321",
       "date": "2026-05-07",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:steipete",
-      "builderOrOrg": "Peter Steinberger",
-      "title": "Crabbox 0.5.0 is live 🦀 🖥️ Desktop/browser leases 🧑‍💻 VNC + authenticated WebVNC 🪟 AWS Win…",
-      "url": "https://x.com/steipete/status/2051485798613111116",
-      "publishedAt": "2026-05-05T02:15:03.000Z",
-      "content": "Crabbox 0.5.0 is live 🦀 🖥️ Desktop/browser leases 🧑‍💻 VNC + authenticated WebVNC 🪟 AWS Windows + WSL2 📸 Screenshots + app launch Remote CI boxes, now suspiciously usable. https://t.co/4CmPYGC3qz",
-      "summary": "Crabbox 0.5.0 is live 🦀 🖥️ Desktop/browser leases 🧑‍💻 VNC + authenticated WebVNC 🪟 AWS Windows + WSL2 📸 Screenshots + app launch Remote CI boxes, now suspiciously usable. https://t.co/4CmPYGC3qz",
+      "sourceKey": "x:zarazhangrui",
+      "builderOrOrg": "Zara Zhang",
+      "title": "Lots of developer tools are having a missed opportunity Their product is now essentially useful…",
+      "url": "https://x.com/zarazhangrui/status/2051900943831335167",
+      "publishedAt": "2026-05-06T05:44:42.000Z",
+      "content": "Lots of developer tools are having a missed opportunity Their product is now essentially useful to anyone who has access to an agent, not just professional developers. But their messaging & marketing is still speaking to developers and is intimidating & unintelligible to normal people",
+      "summary": "Lots of developer tools are having a missed opportunity Their product is now essentially useful to anyone who has access to an agent, not just professional developers. But their messaging & marketing is still speaking t…",
       "regionTags": [],
       "metrics": {
-        "likes": 260,
-        "retweets": 18,
-        "replies": 15
+        "likes": 88,
+        "retweets": 7,
+        "replies": 27
       },
       "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "developer"
+          ],
+          "score": 1
+        },
         {
           "slug": "tool-use",
           "label": "AI Using Tools",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "browser"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "desktop"
+            "tools"
           ],
           "score": 1
         }
       ],
       "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.56,
+      "digestScore": 0.9,
       "whyThisMatters": ""
     },
     {
@@ -154,6 +163,52 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "92b1274de76e8586",
+      "date": "2026-05-07",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:steipete",
+      "builderOrOrg": "Peter Steinberger",
+      "title": "Crabbox 0.5.0 is live 🦀 🖥️ Desktop/browser leases 🧑‍💻 VNC + authenticated WebVNC 🪟 AWS Win…",
+      "url": "https://x.com/steipete/status/2051485798613111116",
+      "publishedAt": "2026-05-05T02:15:03.000Z",
+      "content": "Crabbox 0.5.0 is live 🦀 🖥️ Desktop/browser leases 🧑‍💻 VNC + authenticated WebVNC 🪟 AWS Windows + WSL2 📸 Screenshots + app launch Remote CI boxes, now suspiciously usable. https://t.co/4CmPYGC3qz",
+      "summary": "Crabbox 0.5.0 is live 🦀 🖥️ Desktop/browser leases 🧑‍💻 VNC + authenticated WebVNC 🪟 AWS Windows + WSL2 📸 Screenshots + app launch Remote CI boxes, now suspiciously usable. https://t.co/4CmPYGC3qz",
+      "regionTags": [],
+      "metrics": {
+        "likes": 260,
+        "retweets": 18,
+        "replies": 15
+      },
+      "topics": [
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "browser"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "desktop"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
@@ -2350,61 +2405,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "33b3143328076487",
-      "date": "2026-04-14",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "Another week on the road meeting with a couple dozen IT and AI leaders from large enterprises a…",
-      "url": "https://x.com/levie/status/2043426157367095397",
-      "publishedAt": "2026-04-12T20:28:55.000Z",
-      "content": "Another week on the road meeting with a couple dozen IT and AI leaders from large enterprises across banking, media, retail, healthcare, consulting, tech, and sports, to discuss agents in the enterprise. Some quick takeaways: * Clear that we’re moving from chat era of AI to agents that use tools, process data, and start to execute real work in the enterprise. Complementing this, enterprises are often evolving from “let a thousand flowers bloom” approach to adoption to targeted automation effort…",
-      "summary": "Another week on the road meeting with a couple dozen IT and AI leaders from large enterprises across banking, media, retail, healthcare, consulting, tech, and sports, to discuss agents in the enterprise. Some quick take…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 2981,
-        "retweets": 342,
-        "replies": 123
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.92,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.7,
       "whyThisMatters": ""
     }
   ]

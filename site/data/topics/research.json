@@ -1,8 +1,59 @@
 {
-  "generatedAt": "2026-05-07T04:10:36.854Z",
+  "generatedAt": "2026-05-07T04:48:07.382Z",
   "slug": "research",
   "label": "Research",
   "items": [
+    {
+      "id": "6a3fa82d3ccc6435",
+      "date": "2026-05-07",
+      "sourceType": "blog",
+      "sourceGroup": "mirrored",
+      "sourceName": "Claude Blog",
+      "sourceKey": "blog:Claude Blog",
+      "builderOrOrg": "Claude Blog",
+      "title": "New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration",
+      "url": "https://claude.com/blog/new-in-claude-managed-agents",
+      "publishedAt": "2026-05-06T00:00:00.000Z",
+      "content": "Today we&#x27;re launching dreaming in Claude Managed Agents as a research preview. Dreaming extends memory by reviewing past sessions to find patterns and help agents self-improve. We&#x27;re also making outcomes, multiagent orchestration, and webhooks available to developers building with Managed Agents. Together, these updates make agents more capable at handling complex tasks with minimal steering. Build self-improving agents with dreaming Dreaming is a scheduled process that reviews your agent sessions and memory stores, extracts patterns, and curates memories so your agents improve over time. You decide how much control you want: dreaming can update memory automatically, or you can review changes before they land. Dreaming surfaces patterns that a single agent can’t see on its own, including recurring mistakes, workflows that agents converge on, and preferences shared across a team. It also restructures memory so it stays high-signal as it evolves. This is especially useful for long-running work and multiagent orchestration. Together, memory and dreaming form a robust memory system for self-improving agents. Memory lets each agent capture what it learns as it works . Dreaming refines that memory between sessions , pulling shared learnings across agents and keeping it up-to-date. Dreaming is available in Managed Agents on the Claude Platform; developers can request access here . Deliver better outcomes With outcomes , you write a rubric describing what success looks like and the agent works toward it. A separate grader evaluates the output against your criteria in its own context window, so it isn&#x27;t influenced by the agent&#x27;s reasoning. When something isn&#x27;t right, the grader pinpoints what needs to change and the agent takes another pass. Agents do their best work when they know what \"good\" looks like. For example, a structural framework, a presentation standard, or a set of requirements that need to be met. With outcomes, agents can check their…",
+      "summary": "Today we&#x27;re launching dreaming in Claude Managed Agents as a research preview. Dreaming extends memory by reviewing past sessions to find patterns and help agents self-improve. We&#x27;re also making outcomes, multiagent orchestration…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "developer"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Watchlist",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
+      "whyThisMatters": ""
+    },
     {
       "id": "f2d3eb3e733ee6f2",
       "date": "2026-05-07",
@@ -2332,52 +2383,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "2e7d29fcb764b2ba",
-      "date": "2026-04-15",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:swyx",
-      "builderOrOrg": "Swyx",
-      "title": "TIL @cognition usage has ~DOUBLED globally since these 2 launches. people are finding all sorts…",
-      "url": "https://x.com/swyx/status/2043770029024653798",
-      "publishedAt": "2026-04-13T19:15:20.000Z",
-      "content": "TIL @cognition usage has ~DOUBLED globally since these 2 launches. people are finding all sorts of creative usecases when u can compose agents together and make them proactive. agent recursion is all you need? https://t.co/YGyuc5O1C0 https://t.co/gakNOYQSas",
-      "summary": "TIL @cognition usage has ~DOUBLED globally since these 2 launches. people are finding all sorts of creative usecases when u can compose agents together and make them proactive. agent recursion is all you need? https://t…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 78,
-        "retweets": 5,
-        "replies": 8
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "finding"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.65,
       "whyThisMatters": ""
     }
   ]
