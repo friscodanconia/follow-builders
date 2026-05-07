@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-05-06T04:47:42.378Z",
+  "generatedAt": "2026-05-07T00:53:01.090Z",
   "slug": "multimodal",
   "label": "Images, Audio & Video",
   "items": [
     {
       "id": "241aebecf439d1f6",
-      "date": "2026-05-06",
+      "date": "2026-05-07",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -36,13 +36,13 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
       "id": "21b00f713a3f1613",
-      "date": "2026-05-06",
+      "date": "2026-05-07",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -88,7 +88,7 @@
     },
     {
       "id": "00cd57ffc8f4a20a",
-      "date": "2026-05-06",
+      "date": "2026-05-07",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Google AI Blog",
@@ -119,6 +119,58 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "1cf17af27c76880a",
+      "date": "2026-05-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Ken Liu on AI and Freedom",
+      "url": "https://www.chinatalk.media/p/ken-liu-on-ai-and-freedom",
+      "publishedAt": "2026-05-06T12:56:57.000Z",
+      "content": "Ken Liu graces ChinaTalk with his presence. He is the author of the Dandelion Dynasty silkpunk fantasy series and a brilliant short fiction writer &#8212; one of his stories was recently adapted into Sam Altman&#8217;s favorite show, Pantheon . We all know his translation work on the first and third volumes of the Three-Body Problem trilogy, but even better was his absolutely brilliant translation and commentary of the Dao De Jing . As much as I hoped that project would get him fully on the classical Chinese translation train, he followed it up with a very different direction &#8212; a techno-AI thriller, All That We See or Seem , released late last year. Irene Zhang of ChinaTalk joins us to co-host. In a wide-ranging conversation, Ken Liu argues that: Technology is the most human thing we do &#8212; humans have always externalized our minds into the world and then allowed those creations to reshape who we are. AI &#8220;slop&#8221; won&#8217;t stop humans from making art that matters, and the real distinction isn&#8217;t quality versus slop, but between desire-fulfilling machines and artists who draw from the collective unconscious. The deeper danger of AI isn&#8217;t machines replacing humans, but systems that train humans to behave like machines. Science fiction isn&#8217;t prophecy, but mythology &#8212; and ideologies are just mythology&#8217;s cheaper, hack cousins. Orwell, Shelley, Tolkien, and Le Guin endure not because they predicted the future, but because they gave us metaphors powerful enough to think with across generations. Large language models are intelligent, but can&#8217;t be wise . Drawing on Laozi and Zhuangzi, Ken explains why everything that truly matters lies beyond language. Listen now on your favorite podcast app . Technology as Human Expression Jordan Schneider: We&#8217;re living in the age of Claude Code, and I want to start with a passage you wrote. Why don&#8217;t you set it up and read this vision of future coding and writing? Ken Li…",
+      "summary": "this show was such a treat",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "science"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "vision"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
       "whyThisMatters": ""
     },
     {
@@ -2110,61 +2162,6 @@
           "confidence": 0.5700000000000001,
           "rationale": [
             "video"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "de1eac265e114a1d",
-      "date": "2026-04-08",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "GroundedPlanBench: Spatially grounded long-horizon task planning for robot manipulation",
-      "url": "https://www.microsoft.com/en-us/research/blog/groundedplanbench-spatially-grounded-long-horizon-task-planning-for-robot-manipulation/",
-      "publishedAt": "2026-03-26T16:03:56.000Z",
-      "content": "Vision-language models (VLMs) use images and text to plan robot actions, but they still struggle to decide what actions to take and where to take them. Most systems split these decisions into two steps: a VLM generates a plan in natural language, and a separate model translates it into executable actions. This approach often breaks [&#8230;] The post GroundedPlanBench: Spatially grounded long-horizon task planning for robot manipulation appeared first on Microsoft Research .",
-      "summary": "Vision-language models (VLMs) use images and text to plan robot actions, but they still struggle to decide what actions to take and where to take them. Most systems split these decisions into two steps: a VLM generates a plan in natural la…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.81,
-          "rationale": [
-            "vision",
-            "image",
-            "vlm"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "reasoning",
-          "label": "AI Thinking",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "long-horizon"
           ],
           "score": 1
         }
