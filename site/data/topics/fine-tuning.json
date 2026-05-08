@@ -1,8 +1,259 @@
 {
-  "generatedAt": "2026-05-07T04:48:07.382Z",
+  "generatedAt": "2026-05-08T00:46:46.795Z",
   "slug": "fine-tuning",
   "label": "Custom AI",
   "items": [
+    {
+      "id": "fb192529c73763ad",
+      "date": "2026-05-08",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:petergyang",
+      "builderOrOrg": "Peter Yang",
+      "title": "Dario: “We saw 80x growth earlier this year on usage and revenue” “That’s why we are going to k…",
+      "url": "https://x.com/petergyang/status/2052117599744672195",
+      "publishedAt": "2026-05-06T20:05:36.000Z",
+      "content": "Dario: “We saw 80x growth earlier this year on usage and revenue” “That’s why we are going to keep acquiring as much compute as we can” https://t.co/Hwj18IV7KB",
+      "summary": "Dario: “We saw 80x growth earlier this year on usage and revenue” “That’s why we are going to keep acquiring as much compute as we can” https://t.co/Hwj18IV7KB",
+      "regionTags": [],
+      "metrics": {
+        "likes": 149,
+        "retweets": 3,
+        "replies": 5
+      },
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "2c6fbb991177d5f2",
+      "date": "2026-05-08",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Microsoft at NSDI 2026: Advances in large-scale networked systems",
+      "url": "https://www.microsoft.com/en-us/research/blog/microsoft-at-nsdi-2026-advances-in-large-scale-networked-systems/",
+      "publishedAt": "2026-05-05T16:00:00.000Z",
+      "content": "Large-scale networked systems underpin cloud computing, AI, and distributed applications and services. The USENIX Symposium on Networked Systems Design and Implementation 2026 (opens in new tab) (NSDI ’26) is a leading forum where researchers and practitioners share new research, insights, and advances in the design and operation of these systems. Microsoft is proud to support NSDI ’26 as a returning sponsor, reflecting our ongoing commitment to advancing systems and networking research and engaging with the broader community. Microsoft researchers and engineering leaders are also serving on the program committee and in other organizational roles. This year, 11 papers by Microsoft authors and collaborators were accepted to the conference, spanning datacenter and wide-area networks, AI systems, and cloud infrastructure. Together, they highlight advances in building and operating large-scale networked systems. Spotlight: AI-POWERED EXPERIENCE Microsoft research copilot experience Discover more about research at Microsoft through our AI-powered experience Start now Opens in a new tab Technical sessions Monday, May 4, 2:00–3:20 PM DroidSpeak: KV Cache Sharing Across Fine-tuned Model Variants (opens in new tab) Yuhan Liu, Yuyang Huang, Jiayi Yao, Zhuohan Gu, Kuntai Du, Hanchen Li, Yihua Cheng, and Junchen Jiang, University of Chicago; Shan Lu , Madan Musuvathi , and Esha Choukse , Microsoft DroidSpeak enables LLMs with the same architecture to share and partially reuse KV caches across models, delivering up to 4 times higher throughput and faster responses with minimal impact on output quality. Monday, May 4, 3:50–5:30 PM Eywa: Automating Model-Based Testing using LLMs (opens in new tab) Rajdeep Mondal, Rathin Singha, Todd D. Millstein, and George Varghese, UCLA; Ryan Beckett and Siva Kesava Reddy Kakarla , Microsoft Research Eywa uses LLMs to automatically build protocol models from natural language sources, enabling model-based testing. It uncovered 33 bugs, including…",
+      "summary": "Microsoft researchers share advances in building and operating large-scale distributed systems, spanning datacenters, networking, and the growing intersection with AI during NSDI ’26. The post Microsoft at NSDI 2026: Advances in large-scal…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "throughput",
+            "serving"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "paper"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "bd0c64547ecb1685",
+      "date": "2026-05-08",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "🔬Doing Vibe Physics — Alex Lupsasca, OpenAI",
+      "url": "https://www.latent.space/p/lupsasca",
+      "publishedAt": "2026-05-05T20:34:11.000Z",
+      "content": "Some people are going crazy over GPT 5.5. Some people. This is the story of the Jagged Frontier . People who use AI to write emails or even code implementation work find the lift moderate whereas people pushing the limits of the model are figuring out that the limits just moved outwards . Alex Lupsaska has been tracking this limit for a year and a half now. &#8220;When GPT5 came out, it was able to reproduce one of my best papers (that took a very long time to come up with) in 30 minutes .&#8221; But Alex also notes that this shift was mostly invisible. I remember when GPT-5 came out&#8230; on Twitter, the reception was lukewarm. A lot of people were like, well, we expected a lot more, and it&#8217;s not better at writing email. And I remember thinking, well, okay, GPT-3 could write email. How much better can it get at writing email? That&#8217;s not the point. But at the science frontier, the capabilities were really taking off. We walk through his paper and more with him in today&#8217;s Science pod! Watch here . The &#8220;Oscar for physics&#8221; Alex made an early splash in his career with breakthroughs in our understanding of black holes. He&#8217;s also known for Black Hole Explorer and an iPhone app that makes visualizing black holes fun and interactive to regular audiences . Alex won the 2024 New Horizons in Fundamental Physics Breakthrough Prize. Known as the &#8220;Oscar for physics&#8221; this is arguably the most prestigious prize an early stage theoretical physicist can win. 1 Alex first saw promise for AI in theoretical physics after he asked o3 for help on his research. In the podcast, Alex recalls asking GPT for help with a calculation that would have taken days, and getting a result in eleven minutes. tweets He immediately recognized how impactful AI would be for his work even as though his physicist colleagues and the larger community gave it a lukewarm or skeptical reception. The Move 37 Moment for AI x Physics GPT-5 had just been released, and…",
+      "summary": "The full story of how GPT&#8209;5.x derived new results in theoretical physics and quantum gravity.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.81,
+          "rationale": [
+            "research",
+            "paper",
+            "science"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c47efa4aeca4ca08",
+      "date": "2026-05-08",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "How to Buy Cheap Claude Tokens in China",
+      "url": "https://www.chinatalk.media/p/how-to-buy-cheap-claude-tokens-in",
+      "publishedAt": "2026-05-05T11:20:00.000Z",
+      "content": "is a research associate at the Oxford China Policy Lab and holds a Master&#8217;s degree in Social Science of the Internet from the University of Oxford. On April 23, 2026, the White House released a memo warning that Chinese entities were running &#8220;industrial-scale&#8221; distillation campaigns against American frontier AI models, leveraging &#8220;tens of thousands of proxy accounts&#8221; to evade detection. In February 2026, Anthropic similarly reported on Chinese labs&#8217; coordinated distillation attacks using &#8220;a single proxy network managed more than 20,000 fraudulent accounts&#8221;. Both cases see &#8220;proxy&#8221; &#8212; the middlemen between model users and model providers &#8212; as a purposeful design by a selective Chinese frontier labs to systematically extract US AI models. Regardless of whether Chinese labs rely on distillation to &#8220;catch up&#8221;, both documents misread the proxy economy they&#8217;re describing. Underneath the handful of labs sits a much larger market, one that has been operating in public on GitHub, Taobao, Twitter, and Telegram. It is a grey economy of API proxies (commonly called &#8220;transfer stations,&#8221; &#20013;&#36716;&#31449;) that lets Chinese developers access Anthropic&#8217;s models at as low as 10% of the official price. The participants extend far beyond selective experienced AI researchers, and the motivations are much broader than building a frontier model to catch up. Everyone who wants to use more advanced AI models or tools, be they university professors and students, tech workers, individual developers, or hobbyists, uses API proxies. 1 The logs they generate may have become a commodity, traded for purposes ranging from model training to targeted fraud. Meanwhile, every layer of control frontier US AI companies have added (geoblocking, phone verification, credit card requirements, and now live biometric KYC checks) has produced a corresponding layer of evasion infrastructure. These…",
+      "summary": "The Transfer Station Economy, Explained",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "developer",
+            "repo"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "rl",
+            "distillation"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "80aceb55cd0979d8",
+      "date": "2026-05-08",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "How to Score Economic Security",
+      "url": "https://www.chinatalk.media/p/measuring-americas-chokepoints",
+      "publishedAt": "2026-05-04T09:49:51.000Z",
+      "content": "Earlier this year we launched an economic security contest . We had two prompts: What are the most important high level KPIs that policy should aim for? What is the analogy of the Fed&#8217;s &#8216;2% inflation and full employment&#8217; target for economic security? Where today would you put $10-50bn to get the most for your investment in economic security? Feel free to propose both defensive and offensive ideas, and either a portfolio of ideas or the one large idea you think will deliver the most value. Last week we ran our first essay winner . Our second essay comes from Naveen Krishnan, a Belfer Young Leaders research fellow at Harvard with the Belfer Center for Science and International Affairs, where he specializes in artificial intelligence capabilities and U.S. national security policy. He is an intelligence officer in the U.S. Navy Reserve. His views are his own and do not represent those of the U.S. Navy or Harvard. The United States stopped manufacturing its own TNT in 1986. For decades afterward, the Army bought its primary explosive fill from Russia and Ukraine. When one supplier invaded the other in February 2022, the Army needed to surge 155mm artillery shell production from 14,500 rounds per month to over 100,000. The binding constraint (instead of money) was America&#8217;s physical inability to produce the explosives, propellants, and shell casings at the required pace. Congress appropriated nearly $5 billion. But four years and billions of dollars later, production has reached only 40,000 rounds per month. This is what an economic security failure looks like: the absence of the industrial base required to turn money into output under crisis conditions - regardless of how &#8216;urgently&#8217; Congress pushes. Money is not a magic wand for manufacturing; in a crisis, you cannot simply legislate or spend your way out of the physical reality of industrial systems. The U.S. remains vulnerable precisely when surges are necessary: a scenario where we…",
+      "summary": "Chokepoints, surge capacity, and accountability",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
     {
       "id": "57682b4634d68ed9",
       "date": "2026-05-07",
@@ -140,61 +391,6 @@
       "whyThisMatters": ""
     },
     {
-      "id": "2c6fbb991177d5f2",
-      "date": "2026-05-07",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Microsoft at NSDI 2026: Advances in large-scale networked systems",
-      "url": "https://www.microsoft.com/en-us/research/blog/microsoft-at-nsdi-2026-advances-in-large-scale-networked-systems/",
-      "publishedAt": "2026-05-05T16:00:00.000Z",
-      "content": "Large-scale networked systems underpin cloud computing, AI, and distributed applications and services. The USENIX Symposium on Networked Systems Design and Implementation 2026 (opens in new tab) (NSDI ’26) is a leading forum where researchers and practitioners share new research, insights, and advances in the design and operation of these systems. Microsoft is proud to support NSDI ’26 as a returning sponsor, reflecting our ongoing commitment to advancing systems and networking research and engaging with the broader community. Microsoft researchers and engineering leaders are also serving on the program committee and in other organizational roles. This year, 11 papers by Microsoft authors and collaborators were accepted to the conference, spanning datacenter and wide-area networks, AI systems, and cloud infrastructure. Together, they highlight advances in building and operating large-scale networked systems. Spotlight: AI-POWERED EXPERIENCE Microsoft research copilot experience Discover more about research at Microsoft through our AI-powered experience Start now Opens in a new tab Technical sessions Monday, May 4, 2:00–3:20 PM DroidSpeak: KV Cache Sharing Across Fine-tuned Model Variants (opens in new tab) Yuhan Liu, Yuyang Huang, Jiayi Yao, Zhuohan Gu, Kuntai Du, Hanchen Li, Yihua Cheng, and Junchen Jiang, University of Chicago; Shan Lu , Madan Musuvathi , and Esha Choukse , Microsoft DroidSpeak enables LLMs with the same architecture to share and partially reuse KV caches across models, delivering up to 4 times higher throughput and faster responses with minimal impact on output quality. Monday, May 4, 3:50–5:30 PM Eywa: Automating Model-Based Testing using LLMs (opens in new tab) Rajdeep Mondal, Rathin Singha, Todd D. Millstein, and George Varghese, UCLA; Ryan Beckett and Siva Kesava Reddy Kakarla , Microsoft Research Eywa uses LLMs to automatically build protocol models from natural language sources, enabling model-based testing. It uncovered 33 bugs, including…",
-      "summary": "Microsoft researchers share advances in building and operating large-scale distributed systems, spanning datacenters, networking, and the growing intersection with AI during NSDI ’26. The post Microsoft at NSDI 2026: Advances in large-scal…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.69,
-          "rationale": [
-            "throughput",
-            "serving"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "paper"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
       "id": "71dd5832d1342e84",
       "date": "2026-05-07",
       "sourceType": "newsletter",
@@ -245,165 +441,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "bd0c64547ecb1685",
-      "date": "2026-05-07",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "🔬Doing Vibe Physics — Alex Lupsasca, OpenAI",
-      "url": "https://www.latent.space/p/lupsasca",
-      "publishedAt": "2026-05-05T20:34:11.000Z",
-      "content": "Some people are going crazy over GPT 5.5. Some people. This is the story of the Jagged Frontier . People who use AI to write emails or even code implementation work find the lift moderate whereas people pushing the limits of the model are figuring out that the limits just moved outwards . Alex Lupsaska has been tracking this limit for a year and a half now. &#8220;When GPT5 came out, it was able to reproduce one of my best papers (that took a very long time to come up with) in 30 minutes .&#8221; But Alex also notes that this shift was mostly invisible. I remember when GPT-5 came out&#8230; on Twitter, the reception was lukewarm. A lot of people were like, well, we expected a lot more, and it&#8217;s not better at writing email. And I remember thinking, well, okay, GPT-3 could write email. How much better can it get at writing email? That&#8217;s not the point. But at the science frontier, the capabilities were really taking off. We walk through his paper and more with him in today&#8217;s Science pod! Watch here . The &#8220;Oscar for physics&#8221; Alex made an early splash in his career with breakthroughs in our understanding of black holes. He&#8217;s also known for Black Hole Explorer and an iPhone app that makes visualizing black holes fun and interactive to regular audiences . Alex won the 2024 New Horizons in Fundamental Physics Breakthrough Prize. Known as the &#8220;Oscar for physics&#8221; this is arguably the most prestigious prize an early stage theoretical physicist can win. 1 Alex first saw promise for AI in theoretical physics after he asked o3 for help on his research. In the podcast, Alex recalls asking GPT for help with a calculation that would have taken days, and getting a result in eleven minutes. tweets He immediately recognized how impactful AI would be for his work even as though his physicist colleagues and the larger community gave it a lukewarm or skeptical reception. The Move 37 Moment for AI x Physics GPT-5 had just been released, and…",
-      "summary": "The full story of how GPT&#8209;5.x derived new results in theoretical physics and quantum gravity.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.81,
-          "rationale": [
-            "research",
-            "paper",
-            "science"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "c47efa4aeca4ca08",
-      "date": "2026-05-07",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "How to Buy Cheap Claude Tokens in China",
-      "url": "https://www.chinatalk.media/p/how-to-buy-cheap-claude-tokens-in",
-      "publishedAt": "2026-05-05T11:20:00.000Z",
-      "content": "is a research associate at the Oxford China Policy Lab and holds a Master&#8217;s degree in Social Science of the Internet from the University of Oxford. On April 23, 2026, the White House released a memo warning that Chinese entities were running &#8220;industrial-scale&#8221; distillation campaigns against American frontier AI models, leveraging &#8220;tens of thousands of proxy accounts&#8221; to evade detection. In February 2026, Anthropic similarly reported on Chinese labs&#8217; coordinated distillation attacks using &#8220;a single proxy network managed more than 20,000 fraudulent accounts&#8221;. Both cases see &#8220;proxy&#8221; &#8212; the middlemen between model users and model providers &#8212; as a purposeful design by a selective Chinese frontier labs to systematically extract US AI models. Regardless of whether Chinese labs rely on distillation to &#8220;catch up&#8221;, both documents misread the proxy economy they&#8217;re describing. Underneath the handful of labs sits a much larger market, one that has been operating in public on GitHub, Taobao, Twitter, and Telegram. It is a grey economy of API proxies (commonly called &#8220;transfer stations,&#8221; &#20013;&#36716;&#31449;) that lets Chinese developers access Anthropic&#8217;s models at as low as 10% of the official price. The participants extend far beyond selective experienced AI researchers, and the motivations are much broader than building a frontier model to catch up. Everyone who wants to use more advanced AI models or tools, be they university professors and students, tech workers, individual developers, or hobbyists, uses API proxies. 1 The logs they generate may have become a commodity, traded for purposes ranging from model training to targeted fraud. Meanwhile, every layer of control frontier US AI companies have added (geoblocking, phone verification, credit card requirements, and now live biometric KYC checks) has produced a corresponding layer of evasion infrastructure. These…",
-      "summary": "The Transfer Station Economy, Explained",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "developer",
-            "repo"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "science"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.69,
-          "rationale": [
-            "rl",
-            "distillation"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "80aceb55cd0979d8",
-      "date": "2026-05-07",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "How to Score Economic Security",
-      "url": "https://www.chinatalk.media/p/measuring-americas-chokepoints",
-      "publishedAt": "2026-05-04T09:49:51.000Z",
-      "content": "Earlier this year we launched an economic security contest . We had two prompts: What are the most important high level KPIs that policy should aim for? What is the analogy of the Fed&#8217;s &#8216;2% inflation and full employment&#8217; target for economic security? Where today would you put $10-50bn to get the most for your investment in economic security? Feel free to propose both defensive and offensive ideas, and either a portfolio of ideas or the one large idea you think will deliver the most value. Last week we ran our first essay winner . Our second essay comes from Naveen Krishnan, a Belfer Young Leaders research fellow at Harvard with the Belfer Center for Science and International Affairs, where he specializes in artificial intelligence capabilities and U.S. national security policy. He is an intelligence officer in the U.S. Navy Reserve. His views are his own and do not represent those of the U.S. Navy or Harvard. The United States stopped manufacturing its own TNT in 1986. For decades afterward, the Army bought its primary explosive fill from Russia and Ukraine. When one supplier invaded the other in February 2022, the Army needed to surge 155mm artillery shell production from 14,500 rounds per month to over 100,000. The binding constraint (instead of money) was America&#8217;s physical inability to produce the explosives, propellants, and shell casings at the required pace. Congress appropriated nearly $5 billion. But four years and billions of dollars later, production has reached only 40,000 rounds per month. This is what an economic security failure looks like: the absence of the industrial base required to turn money into output under crisis conditions - regardless of how &#8216;urgently&#8217; Congress pushes. Money is not a magic wand for manufacturing; in a crisis, you cannot simply legislate or spend your way out of the physical reality of industrial systems. The U.S. remains vulnerable precisely when surges are necessary: a scenario where we…",
-      "summary": "Chokepoints, surge capacity, and accountability",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "science"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
       "whyThisMatters": ""
     },
     {
@@ -2310,52 +2347,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "59545f1f5659c1d5",
-      "date": "2026-04-19",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:claudeai",
-      "builderOrOrg": "Claude",
-      "title": "The Claude Code hackathon is back for Opus 4.7. Join builders from around the world for a week…",
-      "url": "https://x.com/claudeai/status/2045248224659644654",
-      "publishedAt": "2026-04-17T21:09:10.000Z",
-      "content": "The Claude Code hackathon is back for Opus 4.7. Join builders from around the world for a week with the Claude Code team in the room, with a prize pool of $100K in API credits. Apply by Sunday: https://t.co/5MCkMtP5ti https://t.co/xmVhEQGtaL",
-      "summary": "The Claude Code hackathon is back for Opus 4.7. Join builders from around the world for a week with the Claude Code team in the room, with a prize pool of $100K in API credits. Apply by Sunday: https://t.co/5MCkMtP5ti h…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 5733,
-        "retweets": 455,
-        "replies": 264
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]
