@@ -1,8 +1,117 @@
 {
-  "generatedAt": "2026-05-08T04:27:36.090Z",
+  "generatedAt": "2026-05-09T00:47:23.093Z",
   "slug": "safety",
   "label": "AI Safety",
   "items": [
+    {
+      "id": "20c754af72691dc0",
+      "date": "2026-05-09",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:mattturck",
+      "builderOrOrg": "Matt Turck",
+      "title": "Deeply thoughtful conversation with @zicokolter, board member at @OpenAI and head of the machin…",
+      "url": "https://x.com/mattturck/status/2052440959997063309",
+      "publishedAt": "2026-05-07T17:30:32.000Z",
+      "content": "Deeply thoughtful conversation with @zicokolter, board member at @OpenAI and head of the machine learning department at @CarnegieMellon, about AI safety, AI security, agents and frontier AI 00:00 Intro 01:32 OpenAI board role and Safety & Security Committee 03:53 How OpenAI reviews major model releases 05:33 OpenAI’s preparedness framework explained 09:46 Are frontier AI models getting safer? 12:33 Why AI safety does not come from scale 15:23 The four categories of AI risk 19:38 Doomerism vs ac…",
+      "summary": "Deeply thoughtful conversation with @zicokolter, board member at @OpenAI and head of the machine learning department at @CarnegieMellon, about AI safety, AI security, agents and frontier AI 00:00 Intro 01:32 OpenAI boar…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 34,
+        "retweets": 5,
+        "replies": 5
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.88,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.92,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "f43e6d8cd9f01bcf",
+      "date": "2026-05-09",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "The MAD Podcast with Matt Turck",
+      "sourceKey": "podcast:The MAD Podcast with Matt Turck",
+      "builderOrOrg": "The MAD Podcast with Matt Turck",
+      "title": "OpenAI Board Member Zico Kolter on the Real Risks of Frontier AI",
+      "url": "https://www.youtube.com/watch?v=DvyZcCfepeI",
+      "publishedAt": "2026-05-07T11:30:01.000Z",
+      "content": "Speaker 1 | 00:00 - 00:16 I joined the OpenAI board in 2024. Shortly thereafter, I became chair of the safety and security committee. We can delay model release if we feel that we need to understand that better. If a model is not good enough at something, what do you do? You wait, right? Speaker 1 | 00:16 - 00:38 Because the next model will be better at it. So far, we have not seen that same thing happen when it comes to things like the robustness of models. You can't just sort of trust models to get safer by getting bigger. AI systems are incredibly simple, incredibly simple. That entire set of code, probably two to 300 lines of Python code. Speaker 1 | 00:38 - 00:45 That blows my mind. The entire complexity of an AI system evolves from the data they're trained on. Speaker 2 | 00:45 - 01:19 Hi, I'm Matar from FirstMark. Welcome to the MAD podcast. My guest today is Zico Coulter, one of the most respected researchers in the world on AI safety and security and one of the most influential figures in AI governance today. Zico is the head of the machine learning department at Carnegie Mellon and is also a board member at OpenAI where he chairs the safety and security committee. We talked about how OpenAI's safety oversight works in practice, why bigger models don't automatically get safer, what jailbreaking and prompt injection mean in 2026, and why modern AI is far simpler than most people realize. Speaker 2 | 01:19 - 01:31 This is a very substantive but also very clear deep dive on all things AI safety and the AI frontier. Please enjoy this truly excellent chat with Zico Coulter. Hey, Zico. Welcome. Speaker 1 | 01:31 - 01:32 Great to be here. Speaker 2 | 01:32 - 01:54 So over the last couple of years in particular, you've become one of the most powerful figures in the AI governance and safety world. So I thought this would be a great place to start. You joined the OpenAI board a couple of years ago and you're now part of the safety committee. So help us understand where you sit and what you do at Yeah, Speaker 1 | 01:55 - 02:37 absolutely. So I joined the OpenAI board in 2024 in August. And shortly thereafter, joined the, or became chair of the Safety and Security Committee or SSC, which is a committee that oversees the safety of model development and really oversees the governance of model development and safety at OpenAI. Really what it means is look, OpenAI has a very large safety organization and several different groups in the safety organization and on different teams. And so there's safety systems team, there's the preparedness team, alignment teams, model policy teams, many different groups kind of working towards different aspects of safety there. Speaker 1 | 02:38 - 03:24 And the role of the SSC really is to kind of oversee the governance of this. And what that concretely means is that, you know, we meet with the teams, we understand what is being done, we ask questions about what's happening with the safety of model, how they're preparing models for release, how they're implementing and developing the safeguards needed to release those models. And we are not involved in the actual work of the process, but we're involved in kind of the oversight of this process. One of the more sort of, I guess, well publicized roles that we have is that prior to release of models, the SSC holds a big review with many members of the team there. And OpenAI sets many standards for model release. Speaker 1 | 03:24 - 03:46 So we can talk about some of these in more detail, like preparedness and such. And through a lot of information that we get, they present a lot of information about the models, we get third party reports of the models. And from all of this, we're trying to essentially assess, you know, are these things living up to the policies, the open assets, right? This is what the team is doing itself. And they're presenting that to us. Speaker 1 | 03:46 - 03:53 And in the case essentially where we have more questions, can delay mo…",
+      "summary": "Speaker 1 | 00:00 - 00:16 I joined the OpenAI board in 2024. Shortly thereafter, I became chair of the safety and security committee. We can delay model release if we feel that we need to understand that better. If a model is not good enou…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.9299999999999999,
+          "rationale": [
+            "safety",
+            "alignment",
+            "governance"
+          ],
+          "score": 4
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "repo"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.6,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.74,
+      "whyThisMatters": ""
+    },
     {
       "id": "0b9d1279e170b85a",
       "date": "2026-05-08",
