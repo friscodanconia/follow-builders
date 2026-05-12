@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T04:12:36.248Z",
+  "generatedAt": "2026-05-12T04:52:29.807Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
@@ -54,8 +54,64 @@
       "section": "Official Sources",
       "importanceScore": 0.72,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "168aa5c962a55eca",
+      "date": "2026-05-12",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Thinking Machines' Native Interaction Models - TML-Interaction-Small 276B-A12B - advances SOTA Realtime Voice and kills standard VAD",
+      "url": "https://www.latent.space/p/ainews-thinking-machines-native-interaction",
+      "publishedAt": "2026-05-12T04:33:46.000Z",
+      "content": "By complete coincidence, the day we released Neil Zeghidour (CEO of Gradium, the for profit spinoff of the vaunted Kyutai Moshi )&#8217;s talk on what remains to be built for realtime voice, Thinking Machines emerged for only the third time in a ~year (despite much drama) to drop Interaction Models: A Scalable Approach to Human-AI Collaboration , TML-Interaction-Small is a 276B parameter MoE with 12B active., which immediately advances the state of the art of realtime voice models as Neil had laid out, updating the famously dead GPT 4o &#8220;her&#8221; demo with far more detailed demos that are presumably far closer to real use: The full blogpost has lots of demos of the level of continuous interactivity, focusing on streams of &#8220;time-aligned microturns&#8221; of 200ms each: Using encoder-free early fusion, with images and audio all processed 30x), token usage (>3x), cache hit rates (80&#8211;96%), and time per task (>7x). That benchmark was complemented by OpenHands&#8217; updated software-engineering benchmark announcement ( tweet ) and Claw-Eval&#8217;s more agentic task mix across office, finance, terminal, and web tasks, where MiMo-V2.5-Pro led and DeepSeek V4 Flash looked unusually efficient for its size . TurboQuant skepticism is increasing : Multiple posts pointed to a more sober view of the recently popular quantization/serving technique. @_EldarKurtic presented what he described as the first comprehensive study of TurboQuant , covering accuracy, latency, and throughput; @vllm_project linked the Red Hat / vLLM investigation as a starting point; and @jbhuang0604 bluntly summarized the takeaway as &#8220;it doesn&#8217;t really work well.&#8221; This is exactly the sort of infra claim where independent reproduction matters. Local/open models continue to improve faster than hardware ceilings : @ClementDelangue made the strongest high-level argument here: on the same top-end MacBook Pro memory ceiling, the &#8220;smartest open-weight model you can actual…",
+      "summary": "well done, Team Thinky.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.81,
+          "rationale": [
+            "latency",
+            "throughput",
+            "serving"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.81,
+          "rationale": [
+            "benchmark",
+            "imo",
+            "eval"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
       "whyThisMatters": ""
     },
     {
