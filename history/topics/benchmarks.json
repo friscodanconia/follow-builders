@@ -1,8 +1,120 @@
 {
-  "generatedAt": "2026-05-11T05:08:58.734Z",
+  "generatedAt": "2026-05-12T01:00:20.923Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
+    {
+      "id": "adb3f43faa79f06c",
+      "date": "2026-05-12",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "SocialReasoning-Bench: Measuring whether AI agents act in users’ best interests",
+      "url": "https://www.microsoft.com/en-us/research/blog/socialreasoning-bench-measuring-whether-ai-agents-act-in-users-best-interests/",
+      "publishedAt": "2026-05-11T17:19:28.000Z",
+      "content": "At a glance AI agents are moving into social&nbsp;contexts. When agents manage calendars, negotiate purchases, or interact with other agents on a user’s behalf, they need more than task competence—they need social reasoning. SocialReasoning-Bench&nbsp;evaluates that ability. The benchmark tests&nbsp;whether an agent can negotiate for a user in two realistic settings: Calendar Coordination and Marketplace Negotiation.&nbsp; The benchmark measures both outcomes and process: it&nbsp;scores&nbsp;agents on&nbsp;outcome&nbsp;optimality&nbsp;(how much value they secure for the user) and&nbsp;due&nbsp;diligence&nbsp;(whether they follow a competent decision-making process).&nbsp; Current frontier models often leave value on the table. They usually complete the task, but they&nbsp;frequently&nbsp;accept suboptimal meeting times or poor deals instead of advocating effectively for the user.&nbsp; Prompting helps, but it is not enough. Even with explicit guidance to act in the user’s best interest, performance&nbsp;remains&nbsp;well below what a trustworthy delegate should achieve. As AI agents&nbsp;take on more real-world tasks, they are increasingly&nbsp;operating&nbsp;in&nbsp;social contexts.&nbsp;With&nbsp;the right&nbsp;integrations, agents like Claude Cowork and Google Gemini can manage email and calendar&nbsp;workflows.&nbsp;In these settings, the agent&nbsp;must&nbsp;interact with&nbsp;others&nbsp;on your behalf. This&nbsp;requires&nbsp; social reasoning &nbsp;—&nbsp;understanding what you want, what the counterparty wants, and what information to reveal, protect, or push back on. Our previous research suggests that today&#8217;s frontier models lack social reasoning. In our simulated multi-agent marketplace , agents accepted the first proposal they received up to 93% of the time without exploring alternatives. When red-teaming a social network of agents , a single malicious message spread through the system and led agents to disclose private data before passing the me…",
+      "summary": "Using SocialReasoning Bench, we observed a stable pattern across models—agents execute competently, but fail to consistently improve the user’s position, even with explicit instructions to optimize for user interest. The post SocialReasoni…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "multi-agent"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "benchmark",
+            "eval"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.82,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "2c6fbb991177d5f2",
+      "date": "2026-05-12",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Microsoft at NSDI 2026: Advances in large-scale networked systems",
+      "url": "https://www.microsoft.com/en-us/research/blog/microsoft-at-nsdi-2026-advances-in-large-scale-networked-systems/",
+      "publishedAt": "2026-05-05T16:00:00.000Z",
+      "content": "Large-scale networked systems underpin cloud computing, AI, and distributed applications and services. The USENIX Symposium on Networked Systems Design and Implementation 2026 (opens in new tab) (NSDI ’26) is a leading forum where researchers and practitioners share new research, insights, and advances in the design and operation of these systems. Microsoft is proud to support NSDI ’26 as a returning sponsor, reflecting our ongoing commitment to advancing systems and networking research and engaging with the broader community. Microsoft researchers and engineering leaders are also serving on the program committee and in other organizational roles. This year, 11 papers by Microsoft authors and collaborators were accepted to the conference, spanning datacenter and wide-area networks, AI systems, and cloud infrastructure. Together, they highlight advances in building and operating large-scale networked systems. PODCAST SERIES AI Testing and Evaluation: Learnings from Science and Industry Discover how Microsoft is learning from other domains to advance evaluation and testing as a pillar of AI governance. Listen now Opens in a new tab Technical sessions Monday, May 4, 2:00–3:20 PM DroidSpeak: KV Cache Sharing Across Fine-tuned Model Variants (opens in new tab) Yuhan Liu, Yuyang Huang, Jiayi Yao, Zhuohan Gu, Kuntai Du, Hanchen Li, Yihua Cheng, and Junchen Jiang, University of Chicago; Shan Lu , Madan Musuvathi , and Esha Choukse , Microsoft DroidSpeak enables LLMs with the same architecture to share and partially reuse KV caches across models, delivering up to 4 times higher throughput and faster responses with minimal impact on output quality. Monday, May 4, 3:50–5:30 PM Eywa: Automating Model-Based Testing using LLMs (opens in new tab) Rajdeep Mondal, Rathin Singha, Todd D. Millstein, and George Varghese, UCLA; Ryan Beckett and Siva Kesava Reddy Kakarla , Microsoft Research Eywa uses LLMs to automatically build protocol models from natural language sources, enabling mo…",
+      "summary": "Microsoft researchers share advances in building and operating large-scale distributed systems, spanning datacenters, networking, and the growing intersection with AI during NSDI ’26. The post Microsoft at NSDI 2026: Advances in large-scal…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.81,
+          "rationale": [
+            "research",
+            "paper",
+            "science"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "throughput",
+            "serving"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "eval",
+            "evaluation"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
     {
       "id": "3b2fae9f315f3fbc",
       "date": "2026-05-11",
@@ -148,63 +260,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "2c6fbb991177d5f2",
-      "date": "2026-05-10",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Microsoft at NSDI 2026: Advances in large-scale networked systems",
-      "url": "https://www.microsoft.com/en-us/research/blog/microsoft-at-nsdi-2026-advances-in-large-scale-networked-systems/",
-      "publishedAt": "2026-05-05T16:00:00.000Z",
-      "content": "Large-scale networked systems underpin cloud computing, AI, and distributed applications and services. The USENIX Symposium on Networked Systems Design and Implementation 2026 (opens in new tab) (NSDI ’26) is a leading forum where researchers and practitioners share new research, insights, and advances in the design and operation of these systems. Microsoft is proud to support NSDI ’26 as a returning sponsor, reflecting our ongoing commitment to advancing systems and networking research and engaging with the broader community. Microsoft researchers and engineering leaders are also serving on the program committee and in other organizational roles. This year, 11 papers by Microsoft authors and collaborators were accepted to the conference, spanning datacenter and wide-area networks, AI systems, and cloud infrastructure. Together, they highlight advances in building and operating large-scale networked systems. PODCAST SERIES AI Testing and Evaluation: Learnings from Science and Industry Discover how Microsoft is learning from other domains to advance evaluation and testing as a pillar of AI governance. Listen now Opens in a new tab Technical sessions Monday, May 4, 2:00–3:20 PM DroidSpeak: KV Cache Sharing Across Fine-tuned Model Variants (opens in new tab) Yuhan Liu, Yuyang Huang, Jiayi Yao, Zhuohan Gu, Kuntai Du, Hanchen Li, Yihua Cheng, and Junchen Jiang, University of Chicago; Shan Lu , Madan Musuvathi , and Esha Choukse , Microsoft DroidSpeak enables LLMs with the same architecture to share and partially reuse KV caches across models, delivering up to 4 times higher throughput and faster responses with minimal impact on output quality. Monday, May 4, 3:50–5:30 PM Eywa: Automating Model-Based Testing using LLMs (opens in new tab) Rajdeep Mondal, Rathin Singha, Todd D. Millstein, and George Varghese, UCLA; Ryan Beckett and Siva Kesava Reddy Kakarla , Microsoft Research Eywa uses LLMs to automatically build protocol models from natural language sources, enabling mo…",
-      "summary": "Microsoft researchers share advances in building and operating large-scale distributed systems, spanning datacenters, networking, and the growing intersection with AI during NSDI ’26. The post Microsoft at NSDI 2026: Advances in large-scal…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.81,
-          "rationale": [
-            "research",
-            "paper",
-            "science"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.69,
-          "rationale": [
-            "throughput",
-            "serving"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "eval",
-            "evaluation"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     },
     {

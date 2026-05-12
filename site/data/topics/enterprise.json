@@ -1,35 +1,26 @@
 {
-  "generatedAt": "2026-05-11T05:08:58.734Z",
+  "generatedAt": "2026-05-12T01:00:20.923Z",
   "slug": "enterprise",
   "label": "Business AI",
   "items": [
     {
-      "id": "4acf0cae41fc80ea",
-      "date": "2026-05-11",
+      "id": "e6a37ec3dd1d11bc",
+      "date": "2026-05-12",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
       "sourceKey": "official:OpenAI News",
       "builderOrOrg": "OpenAI",
-      "title": "Parloa builds service agents customers want to talk to",
-      "url": "https://openai.com/index/parloa",
-      "publishedAt": "2026-05-07T11:00:00.000Z",
-      "content": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
-      "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
+      "title": "How enterprises are scaling AI",
+      "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
+      "publishedAt": "2026-05-11T10:00:00.000Z",
+      "content": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.",
+      "summary": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.",
       "regionTags": [
         "us-model-labs"
       ],
       "metrics": {},
       "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
         {
           "slug": "enterprise",
           "label": "Business AI",
@@ -40,25 +31,70 @@
           "score": 1
         },
         {
-          "slug": "voice",
-          "label": "Voice",
+          "slug": "fine-tuning",
+          "label": "Custom AI",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "voice"
+            "rl"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "governance"
           ],
           "score": 1
         }
       ],
       "section": "Official Sources",
-      "importanceScore": 0.8,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.63,
+      "importanceScore": 0.66,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.78,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "83e9513c7690f97c",
+      "date": "2026-05-12",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "OpenAI launches DeployCo to help businesses build around intelligence",
+      "url": "https://openai.com/index/openai-launches-the-deployment-company",
+      "publishedAt": "2026-05-11T06:00:00.000Z",
+      "content": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.",
+      "summary": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.69,
+          "rationale": [
+            "enterprise",
+            "deployment"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.78,
       "whyThisMatters": ""
     },
     {
       "id": "20259a865e4e0930",
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -110,7 +146,7 @@
     },
     {
       "id": "508cfed74df67e76",
-      "date": "2026-05-11",
+      "date": "2026-05-12",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -158,6 +194,59 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.51,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "4acf0cae41fc80ea",
+      "date": "2026-05-11",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Parloa builds service agents customers want to talk to",
+      "url": "https://openai.com/index/parloa",
+      "publishedAt": "2026-05-07T11:00:00.000Z",
+      "content": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
+      "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "voice"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.8,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.63,
       "whyThisMatters": ""
     },
     {
@@ -2267,98 +2356,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.51,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "53cb10195cf84507",
-      "date": "2026-04-24",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:amasad",
-      "builderOrOrg": "Amjad Masad",
-      "title": "Replit Security Agent making the internet a better place one app review at a time. https://t.co…",
-      "url": "https://x.com/amasad/status/2047150876423516384",
-      "publishedAt": "2026-04-23T03:09:37.000Z",
-      "content": "Replit Security Agent making the internet a better place one app review at a time. https://t.co/5tet1REHgl",
-      "summary": "Replit Security Agent making the internet a better place one app review at a time. https://t.co/5tet1REHgl",
-      "regionTags": [],
-      "metrics": {
-        "likes": 45,
-        "retweets": 1,
-        "replies": 4
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.92,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.7,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "36430a7296675e59",
-      "date": "2026-04-24",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:amasad",
-      "builderOrOrg": "Amjad Masad",
-      "title": "You can now call Replit Agent from Gemini Enterprise. https://t.co/SpN6qto4Gf",
-      "url": "https://x.com/amasad/status/2047149103294091301",
-      "publishedAt": "2026-04-23T03:02:35.000Z",
-      "content": "You can now call Replit Agent from Gemini Enterprise. https://t.co/SpN6qto4Gf",
-      "summary": "You can now call Replit Agent from Gemini Enterprise. https://t.co/SpN6qto4Gf",
-      "regionTags": [],
-      "metrics": {
-        "likes": 74,
-        "retweets": 5,
-        "replies": 5
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.92,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.7,
       "whyThisMatters": ""
     }
   ]
