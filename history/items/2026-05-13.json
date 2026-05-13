@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T04:27:51.595Z",
+  "generatedAt": "2026-05-13T05:00:44.428Z",
   "date": "2026-05-13",
   "items": [
     {
@@ -55,7 +55,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -82,7 +82,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -146,7 +146,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -210,7 +210,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -256,7 +256,7 @@
       "section": "Builders",
       "importanceScore": 0.84,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.65,
       "whyThisMatters": ""
     },
@@ -311,7 +311,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -487,7 +487,7 @@
       "section": "Official Sources",
       "importanceScore": 0.72,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.57,
       "whyThisMatters": ""
     },
@@ -701,7 +701,7 @@
       "section": "Official Sources",
       "importanceScore": 0.72,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.57,
       "whyThisMatters": ""
     },
@@ -754,7 +754,7 @@
       "section": "Official Sources",
       "importanceScore": 0.72,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.57,
       "whyThisMatters": ""
     },
@@ -1267,9 +1267,9 @@
       ],
       "section": "Podcasts & Newsletters",
       "importanceScore": 0.54,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -1615,77 +1615,24 @@
   ],
   "selectedItems": [
     {
-      "id": "6af5b8d062ddf10e",
+      "id": "7706be7b1e24457f",
       "date": "2026-05-13",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] The End of Finetuning",
-      "url": "https://www.latent.space/p/ainews-the-end-of-finetuning",
-      "publishedAt": "2026-05-13T02:47:22.000Z",
-      "content": "The proximal cause of today&#8217;s op-ed is OpenAI&#8217;s deprecation of their finetuning APIs. For years, OpenAI stood out among the big labs for their finetuning support, and many many many talks and content pieces and AI engineers promoted how you can get some variant of &#8220;get o1 performance at 4o prices&#8221; and insisting that it was an important part of the toolkit. Now the tide is out, Anthropic will probably raise at a higher valuation than OpenAI for the first time ever , and Finetuning is the next casualty of the 2026 Side Quest massacre (after Sora) . If you assume an extreme GPU crunch, that makes sense, but even without dramatic compute constraints, the modal 80% of the AI Engineering industry was probably trending there anyway, with Jeremy Howard calling it out on the pod as early as 2023 . The &#8220;End&#8221; of a thing for most people does NOT mean the &#8220;End&#8221; of a thing period - and in fact the top tier, like Cursor and Cognition (whose $25B round is now public discussion) have both INCREASED open model RLFT and usage, rather than decreased. Open Model finetunes may also be central to the Custom ASIC Thesis , but if Taalas&#8217; model and continued P/D Disaggregation inference solutions are any indication, then maybe Just Very Long Prompts (like Claude&#8217;s Constitution ) are all you need&#8230; AI News for 5/11/2026-5/12/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Research Benchmarks, Hard Evals, and Agentic Science Systems Research-level reasoning benchmarks keep getting harder : Soohak introduces 439 research-level math problems authored from scratch by 64 mathematicians (including 38 faculty ), explicitly targeting capabilities above standard olympiad-style math. In medical evaluation, @SophontAI released Medmarks v1.0 , expandi…",
-      "summary": "a quiet day lets us reflect on whither finetuning",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:_catwu",
+      "builderOrOrg": "Cat Wu",
+      "title": "run `claude agents` for a control plane in your terminal! after, hit `<-` from any cli session…",
+      "url": "https://x.com/_catwu/status/2053999857799672111",
+      "publishedAt": "2026-05-12T00:45:02.000Z",
+      "content": "run `claude agents` for a control plane in your terminal! after, hit `<-` from any cli session to register that with the control plane personally, i like to run `claude agents` from my root code dir to manage all my claude code agents in one place https://t.co/umLJ5tZ5ug",
+      "summary": "run `claude agents` for a control plane in your terminal! after, hit `<-` from any cli session to register that with the control plane personally, i like to run `claude agents` from my root code dir to manage all my cla…",
       "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.81,
-          "rationale": [
-            "benchmark",
-            "eval",
-            "evaluation"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "science"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.7,
-      "whyThisMatters": "Every startup that built their moat around fine-tuning OpenAI models just lost their competitive advantage. The companies still standing are the ones who invested in open models and custom infrastructure from the beginning."
-    },
-    {
-      "id": "568256ef197e5dd6",
-      "date": "2026-05-13",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Agents for financial services \\ Anthropic",
-      "url": "https://www.anthropic.com/news/finance-agents",
-      "publishedAt": null,
-      "content": "We&#x27;re releasing ten new Cowork and Claude Code plugins, integrations with the Microsoft 365 suite, new connectors, and an MCP app for financial services and insurance organizations.",
-      "summary": "We&#x27;re releasing ten new Cowork and Claude Code plugins, integrations with the Microsoft 365 suite, new connectors, and an MCP app for financial services and insurance organizations.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
+      "metrics": {
+        "likes": 327,
+        "retweets": 25,
+        "replies": 27
+      },
       "topics": [
         {
           "slug": "agents",
@@ -1706,26 +1653,26 @@
           "score": 1
         }
       ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
+      "section": "Builders",
+      "importanceScore": 0.84,
       "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": "While everyone else builds general-purpose agents, Anthropic is winning specific industries by solving actual compliance and integration problems. Your bank's next chatbot upgrade will likely run on this."
+      "digestScore": 0.65,
+      "whyThisMatters": "This is the missing infrastructure piece for developers using multiple AI agents. Instead of juggling separate Claude sessions across different projects, you get unified control. Expect other AI companies to copy this approach within weeks."
     },
     {
-      "id": "529a8d93b4a65e6e",
+      "id": "7d636a83d3ea7eda",
       "date": "2026-05-13",
       "sourceType": "newsletter",
       "sourceGroup": "official",
-      "sourceName": "Google DeepMind Blog",
-      "sourceKey": "official:Google DeepMind Blog",
-      "builderOrOrg": "Google DeepMind",
-      "title": "AlphaEvolve: How our Gemini-powered coding agent is scaling impact across fields",
-      "url": "https://deepmind.google/blog/alphaevolve-impact/",
-      "publishedAt": "2026-05-06T10:43:49.000Z",
-      "content": "Explore how AlphaEvolve's Gemini-powered algorithms are driving impact across business, infrastructure, and science.",
-      "summary": "Explore how AlphaEvolve's Gemini-powered algorithms are driving impact across business, infrastructure, and science.",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "What Parameter Golf taught us about AI-assisted research",
+      "url": "https://openai.com/index/what-parameter-golf-taught-us",
+      "publishedAt": "2026-05-12T00:00:00.000Z",
+      "content": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraints.",
+      "summary": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraints.",
       "regionTags": [
         "us-model-labs"
       ],
@@ -1754,7 +1701,7 @@
           "label": "Research",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "science"
+            "research"
           ],
           "score": 1
         }
@@ -1764,34 +1711,54 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.57,
-      "whyThisMatters": "Google is making the same bet as GitHub Copilot, but for entire business processes instead of individual developers. If it works, your company's next digital transformation project might involve AI agents writing the code."
+      "whyThisMatters": "This is OpenAI's data on whether AI actually accelerates scientific progress or just generates more code. The timing matters because every AI lab is betting billions that AI can discover better AI. If Parameter Golf shows human-AI collaboration beats pure automation, expect research teams to restructure around that insight."
     },
     {
-      "id": "862c9b59f62ae896",
+      "id": "622183b3de9a0c4f",
       "date": "2026-05-13",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:AmandaAskell",
-      "builderOrOrg": "Amanda Askell",
-      "title": "You can now listen to me and Joe read out Claude's constitution as an audiobook. Working on add…",
-      "url": "https://x.com/AmandaAskell/status/2054010971765805486",
-      "publishedAt": "2026-05-12T01:29:12.000Z",
-      "content": "You can now listen to me and Joe read out Claude's constitution as an audiobook. Working on adding the option of listening to it on fast mode :) https://t.co/jxIy7Jjnlk",
-      "summary": "You can now listen to me and Joe read out Claude's constitution as an audiobook. Working on adding the option of listening to it on fast mode :) https://t.co/jxIy7Jjnlk",
+      "sourceKey": "x:karpathy",
+      "builderOrOrg": "Andrej Karpathy",
+      "title": "This works really well btw, at the end of your query ask your LLM to \"structure your response a…",
+      "url": "https://x.com/karpathy/status/2053872850101285137",
+      "publishedAt": "2026-05-11T16:20:21.000Z",
+      "content": "This works really well btw, at the end of your query ask your LLM to \"structure your response as HTML\", then view the generated file in your browser. I've also had some success asking the LLM to present its output as slideshows, etc. More generally, imo audio is the human-preferred input to AIs but vision (images/animations/video) is the preferred output from them. Around a ~third of our brains are a massively parallel processor dedicated to vision, it is the 10-lane superhighway of information…",
+      "summary": "This works really well btw, at the end of your query ask your LLM to \"structure your response as HTML\", then view the generated file in your browser. I've also had some success asking the LLM to present its output as sl…",
       "regionTags": [],
       "metrics": {
-        "likes": 416,
-        "retweets": 22,
-        "replies": 61
+        "likes": 13038,
+        "retweets": 1338,
+        "replies": 662
       },
       "topics": [
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.81,
+          "rationale": [
+            "vision",
+            "image",
+            "video"
+          ],
+          "score": 3
+        },
         {
           "slug": "voice",
           "label": "Voice",
           "confidence": 0.5700000000000001,
           "rationale": [
             "audio"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "browser"
           ],
           "score": 1
         }
@@ -1801,46 +1768,55 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
+      "whyThisMatters": "You're probably reading LLM responses as plain text and missing half the value. This technique turns ChatGPT into a presentation tool, data visualization engine, or interactive tutorial creator. Zero additional software required."
     },
     {
-      "id": "48c79713ee128193",
+      "id": "a10688fc07045341",
       "date": "2026-05-13",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:_catwu",
-      "builderOrOrg": "Cat Wu",
-      "title": "We'd love to hear your feedback for Claude Code in the cloud across Desktop (cloud option), iOS…",
-      "url": "https://x.com/_catwu/status/2053873949646405879",
-      "publishedAt": "2026-05-11T16:24:43.000Z",
-      "content": "We'd love to hear your feedback for Claude Code in the cloud across Desktop (cloud option), iOS app, and Android app Sign up for our office hours below: https://t.co/DhH9rl3nvV",
-      "summary": "We'd love to hear your feedback for Claude Code in the cloud across Desktop (cloud option), iOS app, and Android app Sign up for our office hours below: https://t.co/DhH9rl3nvV",
+      "sourceKey": "x:swyx",
+      "builderOrOrg": "Swyx",
+      "title": "I believe the kids call this \"@thinkymachines just brutally framemogged gdm and oai\". basically…",
+      "url": "https://x.com/swyx/status/2053960011748098462",
+      "publishedAt": "2026-05-11T22:06:42.000Z",
+      "content": "I believe the kids call this \"@thinkymachines just brutally framemogged gdm and oai\". basically everyone's definition of \"realtime\" just got a massive frciking upgrade https://t.co/a5fzSV9Yec https://t.co/29N7XIF6F9",
+      "summary": "I believe the kids call this \"@thinkymachines just brutally framemogged gdm and oai\". basically everyone's definition of \"realtime\" just got a massive frciking upgrade https://t.co/a5fzSV9Yec https://t.co/29N7XIF6F9",
       "regionTags": [],
       "metrics": {
-        "likes": 71,
-        "retweets": 2,
-        "replies": 10
+        "likes": 798,
+        "retweets": 31,
+        "replies": 33
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
+      "whyThisMatters": "This continues yesterday's thread about Thinking Machines competing with OpenAI's voice mode. If Swyx is right, the voice AI race just accelerated, and the current leaders might not be leading anymore."
+    },
+    {
+      "id": "d93189bdc57cf6fd",
+      "date": "2026-05-13",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:petergyang",
+      "builderOrOrg": "Peter Yang",
+      "title": "Why does SoCal have so much world class kids stuff (Disney, Legoland, Universal, Zoo, etc) but…",
+      "url": "https://x.com/petergyang/status/2054038194547777993",
+      "publishedAt": "2026-05-12T03:17:22.000Z",
+      "content": "Why does SoCal have so much world class kids stuff (Disney, Legoland, Universal, Zoo, etc) but in the Bay Area we can't keep our only amusement park alive",
+      "summary": "Why does SoCal have so much world class kids stuff (Disney, Legoland, Universal, Zoo, etc) but in the Bay Area we can't keep our only amusement park alive",
+      "regionTags": [],
+      "metrics": {
+        "likes": 317,
+        "retweets": 3,
+        "replies": 48
       },
       "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "desktop"
-          ],
-          "score": 1
-        },
         {
           "slug": "fine-tuning",
           "label": "Custom AI",
@@ -1952,9 +1928,8 @@
     }
   ],
   "sections": [
-    "Podcasts & Newsletters",
-    "Official Sources",
-    "Builders"
+    "Builders",
+    "Official Sources"
   ],
   "stats": {
     "totalItems": 39,
