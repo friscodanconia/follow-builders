@@ -1,46 +1,68 @@
 {
-  "generatedAt": "2026-05-12T04:52:29.807Z",
+  "generatedAt": "2026-05-13T00:40:40.842Z",
   "slug": "multimodal",
   "label": "Images, Audio & Video",
   "items": [
     {
-      "id": "00cd57ffc8f4a20a",
-      "date": "2026-05-12",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google AI Blog",
-      "sourceKey": "official:Google AI Blog",
-      "builderOrOrg": "Google",
-      "title": "Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/future-vision-film-competition-xprize/",
-      "publishedAt": "2026-05-05T16:00:00.000Z",
-      "content": "Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.",
-      "summary": "Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
+      "id": "622183b3de9a0c4f",
+      "date": "2026-05-13",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:karpathy",
+      "builderOrOrg": "Andrej Karpathy",
+      "title": "This works really well btw, at the end of your query ask your LLM to \"structure your response a…",
+      "url": "https://x.com/karpathy/status/2053872850101285137",
+      "publishedAt": "2026-05-11T16:20:21.000Z",
+      "content": "This works really well btw, at the end of your query ask your LLM to \"structure your response as HTML\", then view the generated file in your browser. I've also had some success asking the LLM to present its output as slideshows, etc. More generally, imo audio is the human-preferred input to AIs but vision (images/animations/video) is the preferred output from them. Around a ~third of our brains are a massively parallel processor dedicated to vision, it is the 10-lane superhighway of information…",
+      "summary": "This works really well btw, at the end of your query ask your LLM to \"structure your response as HTML\", then view the generated file in your browser. I've also had some success asking the LLM to present its output as sl…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 13038,
+        "retweets": 1338,
+        "replies": 662
+      },
       "topics": [
         {
           "slug": "multimodal",
           "label": "Images, Audio & Video",
+          "confidence": 0.81,
+          "rationale": [
+            "vision",
+            "image",
+            "video"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "voice",
+          "label": "Voice",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "vision"
+            "audio"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "browser"
           ],
           "score": 1
         }
       ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.48,
+      "digestScore": 0.8,
       "whyThisMatters": ""
     },
     {
       "id": "3eb0474fb02fc118",
-      "date": "2026-05-12",
+      "date": "2026-05-13",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -93,7 +115,7 @@
     },
     {
       "id": "c54a3627a0421bc4",
-      "date": "2026-05-12",
+      "date": "2026-05-13",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -146,7 +168,7 @@
     },
     {
       "id": "1cf17af27c76880a",
-      "date": "2026-05-12",
+      "date": "2026-05-13",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "ChinaTalk",
@@ -194,6 +216,41 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "00cd57ffc8f4a20a",
+      "date": "2026-05-12",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google AI Blog",
+      "sourceKey": "official:Google AI Blog",
+      "builderOrOrg": "Google",
+      "title": "Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/future-vision-film-competition-xprize/",
+      "publishedAt": "2026-05-05T16:00:00.000Z",
+      "content": "Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.",
+      "summary": "Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "vision"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
       "whyThisMatters": ""
     },
     {
@@ -2191,52 +2248,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "e9b78adf0ec8abba",
-      "date": "2026-04-09",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:nikunj",
-      "builderOrOrg": "Nikunj Kothari",
-      "title": "At some point, early stage founders decided to optimize for views and funding instead of focusi…",
-      "url": "https://x.com/nikunj/status/2041757065354293760",
-      "publishedAt": "2026-04-08T05:56:33.000Z",
-      "content": "At some point, early stage founders decided to optimize for views and funding instead of focusing on product and retention.. And, it’s starting to show. One of the very first things I do is look at change logs (or feature releases) of supposedly flashy companies. Or read case studies if they have any. And for weeks, I’ll barely see any changes. And, these are companies that would benefit from sharing this info to use for marketing. Instead of spending your time optimizing the viral launch video…",
-      "summary": "At some point, early stage founders decided to optimize for views and funding instead of focusing on product and retention.. And, it’s starting to show. One of the very first things I do is look at change logs (or featu…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 43,
-        "retweets": 2,
-        "replies": 4
-      },
-      "topics": [
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "video"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.69,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.55,
       "whyThisMatters": ""
     }
   ]

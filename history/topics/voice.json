@@ -1,11 +1,151 @@
 {
-  "generatedAt": "2026-05-12T04:52:29.807Z",
+  "generatedAt": "2026-05-13T00:40:40.842Z",
   "slug": "voice",
   "label": "Voice",
   "items": [
     {
+      "id": "622183b3de9a0c4f",
+      "date": "2026-05-13",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:karpathy",
+      "builderOrOrg": "Andrej Karpathy",
+      "title": "This works really well btw, at the end of your query ask your LLM to \"structure your response a…",
+      "url": "https://x.com/karpathy/status/2053872850101285137",
+      "publishedAt": "2026-05-11T16:20:21.000Z",
+      "content": "This works really well btw, at the end of your query ask your LLM to \"structure your response as HTML\", then view the generated file in your browser. I've also had some success asking the LLM to present its output as slideshows, etc. More generally, imo audio is the human-preferred input to AIs but vision (images/animations/video) is the preferred output from them. Around a ~third of our brains are a massively parallel processor dedicated to vision, it is the 10-lane superhighway of information…",
+      "summary": "This works really well btw, at the end of your query ask your LLM to \"structure your response as HTML\", then view the generated file in your browser. I've also had some success asking the LLM to present its output as sl…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 13038,
+        "retweets": 1338,
+        "replies": 662
+      },
+      "topics": [
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.81,
+          "rationale": [
+            "vision",
+            "image",
+            "video"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "audio"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "browser"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "862c9b59f62ae896",
+      "date": "2026-05-13",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:AmandaAskell",
+      "builderOrOrg": "Amanda Askell",
+      "title": "You can now listen to me and Joe read out Claude's constitution as an audiobook. Working on add…",
+      "url": "https://x.com/AmandaAskell/status/2054010971765805486",
+      "publishedAt": "2026-05-12T01:29:12.000Z",
+      "content": "You can now listen to me and Joe read out Claude's constitution as an audiobook. Working on adding the option of listening to it on fast mode :) https://t.co/jxIy7Jjnlk",
+      "summary": "You can now listen to me and Joe read out Claude's constitution as an audiobook. Working on adding the option of listening to it on fast mode :) https://t.co/jxIy7Jjnlk",
+      "regionTags": [],
+      "metrics": {
+        "likes": 416,
+        "retweets": 22,
+        "replies": 61
+      },
+      "topics": [
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "audio"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "b689d80903a8d585",
+      "date": "2026-05-13",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "Introducing voice finder — a new tool to quickly find the right voice for your app from over 600+ voices",
+      "url": "https://www.together.ai/blog/introducing-voice-finder-a-new-tool-to-quickly-find-the-right-voice-for-your-app-from-over-600-voices",
+      "publishedAt": "2026-05-12T00:00:00.000Z",
+      "content": "Voice finder helps developers search, match, filter, and audition 600+ voices across Together AI TTS models using natural-language prompts or uploaded audio samples.",
+      "summary": "Voice finder helps developers search, match, filter, and audition 600+ voices across Together AI TTS models using natural-language prompts or uploaded audio samples.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.81,
+          "rationale": [
+            "voice",
+            "tts",
+            "audio"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "developer"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
       "id": "c54a3627a0421bc4",
-      "date": "2026-05-12",
+      "date": "2026-05-13",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -54,6 +194,57 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "f45a38a2cdf812fd",
+      "date": "2026-05-13",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Macartney to Mar-a-Lago",
+      "url": "https://www.chinatalk.media/p/the-stalemate-summit",
+      "publishedAt": "2026-05-12T12:14:43.000Z",
+      "content": "Julian Gewirtz , former Biden administration China official, now at Columbia, joins me to chat about the Xi-Trump visit and all things US-China. Matt Sheehan , senior fellow at the Carnegie Endowment for International Peace, drops by to give his takes on the AI angle. We cover: What to expect (and not expect) from the Trump-Xi &#8220;stalemate summit&#8221; Historical echoes from the 1793 Macartney mission and the 1972 Nixon-Kissinger opening: summit optics, status games, and the choreography of power. Taiwan: arms sales, declaratory language, and Beijing&#8217;s long game on Taiwanese morale and politics. The good and bad case for China in the Iran conflict, and how Chinese officials may be reading America&#8217;s military commitments, political cohesion, and staying power. The US-China AI safety conversation after Mythos, China&#8217;s approach to frontier AI risks, and the control, harness, govern playbook for emerging technologies. Listen now on your favorite podcast app . Seriously, listen! Way more people subscribe to this newsletter than listen to the podcast directly. But Julian has a wonderfully sonorous voice. By just reading the transcript you will be missing out! Leverage, Political Will, and Deals Jordan : Let&#8217;s talk about leverage between the two countries and the two leaders. What&#8217;s the right way to think about this? Julian Gewirtz: President Trump is going to China in just a few days. This question of leverage is at the center of everything for both sides. Historically, we&#8217;ve thought that the United States has a lot of leverage over China, and we can exert that leverage and that also shapes the strategic dynamic between the two countries. But over the last year and a half, you have seen China exerting leverage to an unprecedented degree. They&#8217;ve used critical minerals, instituted a global export control regime, and employed other forms of leverage as well. That has had the effect of putting the United States on the back foot.…",
+      "summary": "Julian Gewirtz on Trump-Xi",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "sales"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "voice"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.66,
       "whyThisMatters": ""
     },
     {
