@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T00:40:40.842Z",
+  "generatedAt": "2026-05-13T04:27:51.595Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
@@ -56,6 +56,61 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "6af5b8d062ddf10e",
+      "date": "2026-05-13",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] The End of Finetuning",
+      "url": "https://www.latent.space/p/ainews-the-end-of-finetuning",
+      "publishedAt": "2026-05-13T02:47:22.000Z",
+      "content": "The proximal cause of today&#8217;s op-ed is OpenAI&#8217;s deprecation of their finetuning APIs. For years, OpenAI stood out among the big labs for their finetuning support, and many many many talks and content pieces and AI engineers promoted how you can get some variant of &#8220;get o1 performance at 4o prices&#8221; and insisting that it was an important part of the toolkit. Now the tide is out, Anthropic will probably raise at a higher valuation than OpenAI for the first time ever , and Finetuning is the next casualty of the 2026 Side Quest massacre (after Sora) . If you assume an extreme GPU crunch, that makes sense, but even without dramatic compute constraints, the modal 80% of the AI Engineering industry was probably trending there anyway, with Jeremy Howard calling it out on the pod as early as 2023 . The &#8220;End&#8221; of a thing for most people does NOT mean the &#8220;End&#8221; of a thing period - and in fact the top tier, like Cursor and Cognition (whose $25B round is now public discussion) have both INCREASED open model RLFT and usage, rather than decreased. Open Model finetunes may also be central to the Custom ASIC Thesis , but if Taalas&#8217; model and continued P/D Disaggregation inference solutions are any indication, then maybe Just Very Long Prompts (like Claude&#8217;s Constitution ) are all you need&#8230; AI News for 5/11/2026-5/12/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Research Benchmarks, Hard Evals, and Agentic Science Systems Research-level reasoning benchmarks keep getting harder : Soohak introduces 439 research-level math problems authored from scratch by 64 mathematicians (including 38 faculty ), explicitly targeting capabilities above standard olympiad-style math. In medical evaluation, @SophontAI released Medmarks v1.0 , expandi…",
+      "summary": "a quiet day lets us reflect on whither finetuning",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.81,
+          "rationale": [
+            "benchmark",
+            "eval",
+            "evaluation"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
       "whyThisMatters": ""
     },
     {
