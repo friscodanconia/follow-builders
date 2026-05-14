@@ -1,55 +1,11 @@
 {
-  "generatedAt": "2026-05-13T05:00:44.428Z",
+  "generatedAt": "2026-05-14T00:53:51.186Z",
   "slug": "research",
   "label": "Research",
   "items": [
     {
-      "id": "7f12c6c02ac0ef5e",
-      "date": "2026-05-13",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "How NVIDIA engineers and researchers build with Codex",
-      "url": "https://openai.com/index/nvidia",
-      "publishedAt": "2026-05-12T00:00:00.000Z",
-      "content": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
-      "summary": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
       "id": "7d636a83d3ea7eda",
-      "date": "2026-05-13",
+      "date": "2026-05-14",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
@@ -96,43 +52,34 @@
       "section": "Official Sources",
       "importanceScore": 0.72,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.57,
       "whyThisMatters": ""
     },
     {
-      "id": "529a8d93b4a65e6e",
-      "date": "2026-05-13",
+      "id": "7f12c6c02ac0ef5e",
+      "date": "2026-05-14",
       "sourceType": "newsletter",
       "sourceGroup": "official",
-      "sourceName": "Google DeepMind Blog",
-      "sourceKey": "official:Google DeepMind Blog",
-      "builderOrOrg": "Google DeepMind",
-      "title": "AlphaEvolve: How our Gemini-powered coding agent is scaling impact across fields",
-      "url": "https://deepmind.google/blog/alphaevolve-impact/",
-      "publishedAt": "2026-05-06T10:43:49.000Z",
-      "content": "Explore how AlphaEvolve's Gemini-powered algorithms are driving impact across business, infrastructure, and science.",
-      "summary": "Explore how AlphaEvolve's Gemini-powered algorithms are driving impact across business, infrastructure, and science.",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "How NVIDIA engineers and researchers build with Codex",
+      "url": "https://openai.com/index/nvidia",
+      "publishedAt": "2026-05-12T00:00:00.000Z",
+      "content": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
+      "summary": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
       "regionTags": [
         "us-model-labs"
       ],
       "metrics": {},
       "topics": [
         {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
           "slug": "coding",
           "label": "Coding",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "coding"
+            "code"
           ],
           "score": 1
         },
@@ -141,21 +88,74 @@
           "label": "Research",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "science"
+            "research"
           ],
           "score": 1
         }
       ],
       "section": "Official Sources",
-      "importanceScore": 0.72,
+      "importanceScore": 0.58,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "9defe8a91bcc3b71",
+      "date": "2026-05-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "GridSFM: A new, small foundation model for the electric grid",
+      "url": "https://www.microsoft.com/en-us/research/blog/gridsfm-a-new-small-foundation-model-for-the-electric-grid/",
+      "publishedAt": "2026-05-13T16:00:20.000Z",
+      "content": "Microsoft releases a lightweight foundation model that can predict AC optimal power flow in milliseconds, boosting efficiency and unlocking cost savings in grid analysis. At a glance Microsoft introduces GridSFM, a small foundation model that approximates AC optimal power flow in milliseconds, unlocking decisions that can directly impact up to $20B/year in congestion losses and 3.4 TWh of renewable curtailment. Beyond estimating generator dispatch and costs, GridSFM produces full AC system states, giving operators direct visibility into congestion, stability, and overall system health. It provides a foundation for the community to build advanced power grid simulators and planning tools without recreating data or models from scratch. Microsoft introduces GridSFM , a small foundation model for solving AC optimal power flow (AC-OPF) problems in transmission power grids. This follows our earlier release of a U.S.-based open transmission-topology dataset that powers GridSFM. Power grids face increasing strain from surging demand, the need to integrate renewable energy sources, transportation electrification, and extreme weather events. Across all these challenges, the core question is the same: what are the optimal operating points that keep the grid functioning under each new condition? Answering this requires solving AC optimal power flow (AC‑OPF), a complex, non-convex optimization problem that computes the cheapest generator dispatch (how much each generator produces) that meets demands while respecting power flow physics, voltage limits, thermal constraints, and stability requirements, and underpins core power system operations including reliability, real-time dispatch, market clearing, and contingency analysis. These decisions directly govern outcomes at the scale of up $20 billion per year in congestion costs (opens in new tab) and multi‑terawatt‑hour renewable curtailment (opens in new tab) (lost renewable energy due to congestion), making both economic efficien…",
+      "summary": "Introducing GridSFM, a small foundation model that can predict AC optimal power flow in milliseconds, boosting efficiency and unlocking cost savings. Learn how GridSFM gives grid operators direct visibility into congestion, stability, and…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "dataset"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
       "whyThisMatters": ""
     },
     {
       "id": "a8d4179e548a1dca",
-      "date": "2026-05-13",
+      "date": "2026-05-14",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Microsoft Research Blog",
@@ -200,7 +200,7 @@
     },
     {
       "id": "adb3f43faa79f06c",
-      "date": "2026-05-13",
+      "date": "2026-05-14",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Microsoft Research Blog",
@@ -255,7 +255,7 @@
     },
     {
       "id": "4c113b821654c9ee",
-      "date": "2026-05-13",
+      "date": "2026-05-14",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Microsoft Research Blog",
@@ -309,7 +309,7 @@
     },
     {
       "id": "7e93f0d361b0d9ce",
-      "date": "2026-05-13",
+      "date": "2026-05-14",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Import AI",
@@ -360,7 +360,7 @@
     },
     {
       "id": "6af5b8d062ddf10e",
-      "date": "2026-05-13",
+      "date": "2026-05-14",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -409,8 +409,61 @@
       "section": "Podcasts & Newsletters",
       "importanceScore": 0.54,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "529a8d93b4a65e6e",
+      "date": "2026-05-13",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google DeepMind Blog",
+      "sourceKey": "official:Google DeepMind Blog",
+      "builderOrOrg": "Google DeepMind",
+      "title": "AlphaEvolve: How our Gemini-powered coding agent is scaling impact across fields",
+      "url": "https://deepmind.google/blog/alphaevolve-impact/",
+      "publishedAt": "2026-05-06T10:43:49.000Z",
+      "content": "Explore how AlphaEvolve's Gemini-powered algorithms are driving impact across business, infrastructure, and science.",
+      "summary": "Explore how AlphaEvolve's Gemini-powered algorithms are driving impact across business, infrastructure, and science.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "science"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
       "whyThisMatters": ""
     },
     {
@@ -2408,48 +2461,6 @@
         }
       ],
       "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "5963bebbf8c4860e",
-      "date": "2026-04-25",
-      "sourceType": "blog",
-      "sourceGroup": "mirrored",
-      "sourceName": "Claude Blog",
-      "sourceKey": "blog:Claude Blog",
-      "builderOrOrg": "Claude Blog",
-      "title": "New connectors in Claude for everyday life",
-      "url": "https://claude.com/blog/connectors-for-everyday-life",
-      "publishedAt": "2026-04-23T00:00:00.000Z",
-      "content": "Today we’re expanding what you can connect to Claude. Alongside the work tools you already use, you can now connect the apps you use throughout your week, including AllTrails, Instacart, Audible, TripAdvisor, Intuit TurboTax, and more. How people have been using connectors Since launching in July 2025, the Claude directory has grown to over 200 connectors, spanning popular apps for design, finance, productivity, and health used by millions of people every day. We’ve found that people often connect multiple apps and use them together in a single conversation with Claude. For example, a product manager will pull a query from Amplitude, turn it into a Canva deck, and drop the link into Asana for the team, all without leaving the conversation. This expansion extends that functionality to more of the tools you use outside of work. Starting today, Claude connects to AllTrails, Audible, Booking.com, Instacart, Intuit Credit Karma, Intuit TurboTax, Resy, Spotify, StubHub, Taskrabbit, Thumbtack, TripAdvisor, Uber, Uber Eats, and Viator, with more on the way. Connectors dynamically show up in conversations We’ve also changed how connectors show up in conversations. Claude now suggests the right app for what you’re doing, like finding a reservation, adding to a grocery cart, or identifying a flight. It’s working from what you’ve told it: your preferences, your context, your conversation. This all happens inside your conversation. Ask Claude to recommend a weekend hike, and AllTrails will surface trails nearby that match your preferences. You can then refine the recommendations by asking for something shorter, more scenic, or dog-friendly without leaving the thread. When more than one connected app could help answer your question, Claude shows them all and lets you choose. You control what you see and share Claude is ad-free and will stay that way. There are no paid placements or sponsored answers in conversations with Claude. When two connectors could help, you see both, rank…",
-      "summary": "Today we’re expanding what you can connect to Claude. Alongside the work tools you already use, you can now connect the apps you use throughout your week, including AllTrails, Instacart, Audible, TripAdvisor, Intuit TurboTax, and more. How…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "finding"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Watchlist",
       "importanceScore": 0.4,
       "noveltyScore": 0.3,
       "previouslySelected": false,

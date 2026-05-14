@@ -1,0 +1,1653 @@
+{
+  "generatedAt": "2026-05-14T00:53:51.186Z",
+  "date": "2026-05-14",
+  "items": [
+    {
+      "id": "c96bb88acf364c83",
+      "date": "2026-05-14",
+      "sourceType": "blog",
+      "sourceGroup": "mirrored",
+      "sourceName": "Anthropic Engineering",
+      "sourceKey": "blog:Anthropic Engineering",
+      "builderOrOrg": "Anthropic Engineering",
+      "title": "Claude Code auto mode: a safer way to skip permissions",
+      "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+      "publishedAt": null,
+      "content": "By default, Claude Code asks users for approval before running commands or modifying files. This keeps users safe, but it also means a lot of clicking \"approve.\" Over time that leads to approval fatigue, where people stop paying close attention to what they&#x27;re approving. Users have two solutions for avoiding this fatigue: a built-in sandbox where tools are isolated to prevent dangerous actions, or the --dangerously-skip-permissions flag that disables all permission prompts and lets Claude act freely, which is unsafe in most situations. Figure 1 lays out the tradeoff space. Sandboxing is safe but high-maintenance: each new capability needs configuring, and anything requiring network or host access breaks isolation. Bypassing permissions is zero-maintenance but offers no protection. Manual prompts sit in the middle, and in practice users accept 93% of them anyway. Figure 1. The permission modes available in Claude Code, positioned by task autonomy and security . Dot colour indicates maintenance friction. Auto mode targets high autonomy at low maintenance cost; the dashed arrow shows security improvement over time as classifier coverage and model judgment get better. We keep an internal incident log focused on agentic misbehaviors. Past examples include deleting remote git branches from a misinterpreted instruction, uploading an engineer&#x27;s GitHub auth token to an internal compute cluster, and attempting migrations against a production database. Each of these was the result of the model being overeager, taking initiative in a way the user didn&#x27;t intend. We documented this pattern in the Claude Opus 4.6 system card (§6.2.1 and §6.2.3.3). Auto mode is a new mode for Claude Code that delegates approvals to model-based classifiers—a middle ground between manual review and no guardrails. The goal is to catch the dangerous actions that aren&#x27;t aligned with user intent, while letting the rest run without approval prompts. Get started using auto mode by foll…",
+      "summary": "By default, Claude Code asks users for approval before running commands or modifying files. This keeps users safe, but it also means a lot of clicking \"approve.\" Over time that leads to approval fatigue, where people stop paying close atte…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Watchlist",
+      "importanceScore": 0.62,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.51,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "4f9c3c878f4c84a2",
+      "date": "2026-05-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Building a safe, effective sandbox to enable Codex on Windows",
+      "url": "https://openai.com/index/building-codex-windows-sandbox",
+      "publishedAt": "2026-05-13T11:00:00.000Z",
+      "content": "Learn how OpenAI built a secure sandbox for Codex on Windows, enabling safe, efficient coding agents with controlled file access and network restrictions.",
+      "summary": "Learn how OpenAI built a secure sandbox for Codex on Windows, enabling safe, efficient coding agents with controlled file access and network restrictions.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.82,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "6c5c5af4395152ce",
+      "date": "2026-05-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "How finance teams use Codex",
+      "url": "https://openai.com/academy/how-finance-teams-use-codex",
+      "publishedAt": "2026-05-12T15:00:00.000Z",
+      "content": "See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.",
+      "summary": "See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "repo"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7d636a83d3ea7eda",
+      "date": "2026-05-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "What Parameter Golf taught us about AI-assisted research",
+      "url": "https://openai.com/index/what-parameter-golf-taught-us",
+      "publishedAt": "2026-05-12T00:00:00.000Z",
+      "content": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraints.",
+      "summary": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraints.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "2f95685dd67e1aa6",
+      "date": "2026-05-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "AutoScout24 scales engineering with AI-powered workflows",
+      "url": "https://openai.com/index/autoscout24",
+      "publishedAt": "2026-05-12T00:00:00.000Z",
+      "content": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
+      "summary": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7f12c6c02ac0ef5e",
+      "date": "2026-05-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "How NVIDIA engineers and researchers build with Codex",
+      "url": "https://openai.com/index/nvidia",
+      "publishedAt": "2026-05-12T00:00:00.000Z",
+      "content": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
+      "summary": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "90ff574c17fddfaa",
+      "date": "2026-05-14",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Introducing Claude Opus 4.7 \\ Anthropic",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "publishedAt": null,
+      "content": "Our latest model, Claude Opus 4.7, is now generally available. Opus 4.7 is a notable improvement on Opus 4.6 in advanced software engineering, with particular gains on the most difficult tasks.",
+      "summary": "Our latest model, Claude Opus 4.7, is now generally available. Opus 4.7 is a notable improvement on Opus 4.6 in advanced software engineering, with particular gains on the most difficult tasks.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "76d0eec3a23d9e87",
+      "date": "2026-05-14",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Introducing Claude Design by Anthropic Labs \\ Anthropic",
+      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "publishedAt": null,
+      "content": "Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work like designs, prototypes, slides, one-pagers, and more.",
+      "summary": "Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work like designs, prototypes, slides, one-pagers, and more.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "1e28d6e319b7f913",
+      "date": "2026-05-14",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Claude is a space to think | Anthropic \\ Anthropic",
+      "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+      "publishedAt": null,
+      "content": "We’ve made a choice: Claude will remain ad-free. We explain why advertising incentives are incompatible with a genuinely helpful AI assistant, and how we plan to expand access without compromising user trust.",
+      "summary": "We’ve made a choice: Claude will remain ad-free. We explain why advertising incentives are incompatible with a genuinely helpful AI assistant, and how we plan to expand access without compromising user trust.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c63f4daa4e8215d6",
+      "date": "2026-05-14",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Introducing Claude for Small Business \\ Anthropic",
+      "url": "https://www.anthropic.com/news/claude-for-small-business",
+      "publishedAt": null,
+      "content": "We&#x27;re launching Claude for Small Business, a package of connectors and ready-to-run workflows that put Claude inside the tools small businesses use every day.",
+      "summary": "We&#x27;re launching Claude for Small Business, a package of connectors and ready-to-run workflows that put Claude inside the tools small businesses use every day.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "83474a9c3284dbe5",
+      "date": "2026-05-14",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Higher usage limits for Claude and a compute deal with SpaceX \\ Anthropic",
+      "url": "https://www.anthropic.com/news/higher-limits-spacex",
+      "publishedAt": null,
+      "content": "We’ve raised Claude&#x27;s usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term.",
+      "summary": "We’ve raised Claude&#x27;s usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "b30bc057c916faaf",
+      "date": "2026-05-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google AI Blog",
+      "sourceKey": "official:Google AI Blog",
+      "builderOrOrg": "Google",
+      "title": "The new AI-powered Google Finance is expanding to Europe.",
+      "url": "https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/",
+      "publishedAt": "2026-05-11T06:00:00.000Z",
+      "content": "This week, the new, AI-powered Google Finance is launching across Europe, with full local language support. This reimagined experience offers a suite of powerful capabil…",
+      "summary": "This week, the new, AI-powered Google Finance is launching across Europe, with full local language support. This reimagined experience offers a suite of powerful capabil…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "263832d2ecd21e4e",
+      "date": "2026-05-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google AI Blog",
+      "sourceKey": "official:Google AI Blog",
+      "builderOrOrg": "Google",
+      "title": "See what happens when creative legends use AI to make ads for small businesses.",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/the-small-brief/",
+      "publishedAt": "2026-05-08T15:00:00.000Z",
+      "content": "Today we're launching The Small Brief, an initiative bringing together three ad industry icons to champion a local businesses they love. Their mission is to build breakt…",
+      "summary": "Today we're launching The Small Brief, an initiative bringing together three ad industry icons to champion a local businesses they love. Their mission is to build breakt…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7616591a28f76e9e",
+      "date": "2026-05-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "mimalloc: A new, high-performance, scalable memory allocator for the modern era",
+      "url": "https://www.microsoft.com/en-us/research/blog/mimalloc-a-high-performance-scalable-memory-allocator-for-the-modern-era/",
+      "publishedAt": "2026-05-13T17:19:59.000Z",
+      "content": "At a glance Today’s critical services and applications are often highly concurrent, using hundreds of threads. They also operate at large memory scales, frequently hundreds of gigabytes, especially when using large language models. mimalloc is an open-source, modern, scalable memory allocator that is a drop-in replacement for malloc and free. It is relatively small (~12K lines), with clear internal data structures, and is easy to build and integrate into other projects. It provides bounded worst-case allocation times (up to OS primitives), bounded space overhead, low internal fragmentation, and minimal contention by relying almost exclusively on atomic operations. mimalloc is available on GitHub (opens in new tab) and has over 12K stars. mimalloc At the RiSE group at Microsoft Research (MSR) , we conduct fundamental research into formal methods, programming languages, and software engineering (including emerging agentic systems), with a particular focus on systems that can be provably correct, secure, and performant. The mimalloc memory allocator was initially designed in 2020 as a fast allocator for the state-of-the-art Lean (opens in new tab) and Koka (opens in new tab) programming languages developed at RiSE, both of which use novel compiler-guided reference counting (see Perceus ). The scalable design of mimalloc has also proved to work exceedingly well for large services at Microsoft. Through close cooperation with product teams, mimalloc has significantly improved the response times in services such as Bing.. Today, mimalloc is widely used in large services and applications, both within and outside Microsoft. It serves as the allocator for NoGIL CPython 3.13+, is integrated into Unreal Engine, and is used in games such as Death Stranding . The project is open source on GitHub, with over 12K stars. Its Rust wrapper alone sees over 100K downloads per day. mimalloc is effective across a wide range of scenarios; from small-scale applications like Koka or Lean, to…",
+      "summary": "mimalloc is an open-source, modern, scalable memory allocator that is a drop-in replacement for malloc and free. It is relatively small (~12K lines), with clear internal data structures, and is easy to build and integrate into other projec…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.81,
+          "rationale": [
+            "open-source",
+            "open source",
+            "github"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "programming"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.82,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "9defe8a91bcc3b71",
+      "date": "2026-05-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "GridSFM: A new, small foundation model for the electric grid",
+      "url": "https://www.microsoft.com/en-us/research/blog/gridsfm-a-new-small-foundation-model-for-the-electric-grid/",
+      "publishedAt": "2026-05-13T16:00:20.000Z",
+      "content": "Microsoft releases a lightweight foundation model that can predict AC optimal power flow in milliseconds, boosting efficiency and unlocking cost savings in grid analysis. At a glance Microsoft introduces GridSFM, a small foundation model that approximates AC optimal power flow in milliseconds, unlocking decisions that can directly impact up to $20B/year in congestion losses and 3.4 TWh of renewable curtailment. Beyond estimating generator dispatch and costs, GridSFM produces full AC system states, giving operators direct visibility into congestion, stability, and overall system health. It provides a foundation for the community to build advanced power grid simulators and planning tools without recreating data or models from scratch. Microsoft introduces GridSFM , a small foundation model for solving AC optimal power flow (AC-OPF) problems in transmission power grids. This follows our earlier release of a U.S.-based open transmission-topology dataset that powers GridSFM. Power grids face increasing strain from surging demand, the need to integrate renewable energy sources, transportation electrification, and extreme weather events. Across all these challenges, the core question is the same: what are the optimal operating points that keep the grid functioning under each new condition? Answering this requires solving AC optimal power flow (AC‑OPF), a complex, non-convex optimization problem that computes the cheapest generator dispatch (how much each generator produces) that meets demands while respecting power flow physics, voltage limits, thermal constraints, and stability requirements, and underpins core power system operations including reliability, real-time dispatch, market clearing, and contingency analysis. These decisions directly govern outcomes at the scale of up $20 billion per year in congestion costs (opens in new tab) and multi‑terawatt‑hour renewable curtailment (opens in new tab) (lost renewable energy due to congestion), making both economic efficien…",
+      "summary": "Introducing GridSFM, a small foundation model that can predict AC optimal power flow in milliseconds, boosting efficiency and unlocking cost savings. Learn how GridSFM gives grid operators direct visibility into congestion, stability, and…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "dataset"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "a8d4179e548a1dca",
+      "date": "2026-05-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Advancing AI for materials with MatterSim: experimental synthesis, faster simulation, and multi-task models",
+      "url": "https://www.microsoft.com/en-us/research/blog/advancing-ai-for-materials-with-mattersim-experimental-synthesis-faster-simulation-and-multi-task-models/",
+      "publishedAt": "2026-05-12T13:00:00.000Z",
+      "content": "At a glance Experimental validation : Using high-throughput screening with MatterSim-v1, we previously identified tetragonal tantalum phosphorus (TaP) as a potential high-performance thermal conductor. Now we have experimentally synthesized it and measured its thermal conductivity (152 W/m/K) to be close to the thermal conductivity of silicon. Faster simulation : We have accelerated MatterSim-v1 model inference by 3-5x and integrated it with the LAMMPS software package, enabling large-scale simulations across multiple GPUs. New model release : We are introducing MatterSim-MT, a multi-task foundation model for in silico materials characterization that enables the simulation of complex, multi-property phenomena beyond what potential energy surfaces alone can capture. Materials design underpins a wide range of technological advances, from nanoelectronics to semiconductor design and energy storage. Yet development cycles for novel materials remain slow and costly. Universal machine learning interatomic potentials aim to accelerate the materials design process by providing accurate stability and property predictions for a wide range of materials. These models are orders of magnitude faster than traditional first-principles simulations, turning previously impractical problems into routine computations that can be completed in a few hours. Since we launched our MatterSim-v1 model, it has gained popularity in the materials science community for its ability to accurately simulate materials under realistic conditions, including finite temperature and pressure. Today, we have several exciting MatterSim updates to share. These include experimental validation of MatterSim predictions for thermal conductors, performance improvements for faster simulation, and the introduction of a new multi-task foundation model for materials characterization. Experimental validation Figure 1: Based on MatterSim’s computational predictions, we have synthesized a potential high thermal conductor.…",
+      "summary": "MatterSim is expanding what AI can do for materials science—from faster large-scale simulations to MatterSim-MT, a new multi-task model for simulating properties beyond potential energy surfaces alone. The post Advancing AI for materials w…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "inference",
+            "throughput"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "science"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "adb3f43faa79f06c",
+      "date": "2026-05-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "SocialReasoning-Bench: Measuring whether AI agents act in users’ best interests",
+      "url": "https://www.microsoft.com/en-us/research/blog/socialreasoning-bench-measuring-whether-ai-agents-act-in-users-best-interests/",
+      "publishedAt": "2026-05-11T17:19:28.000Z",
+      "content": "At a glance AI agents are moving into social&nbsp;contexts. When agents manage calendars, negotiate purchases, or interact with other agents on a user’s behalf, they need more than task competence—they need social reasoning. SocialReasoning-Bench&nbsp;evaluates that ability. The benchmark tests&nbsp;whether an agent can negotiate for a user in two realistic settings: Calendar Coordination and Marketplace Negotiation.&nbsp; The benchmark measures both outcomes and process: it&nbsp;scores&nbsp;agents on&nbsp;outcome&nbsp;optimality&nbsp;(how much value they secure for the user) and&nbsp;due&nbsp;diligence&nbsp;(whether they follow a competent decision-making process).&nbsp; Current frontier models often leave value on the table. They usually complete the task, but they&nbsp;frequently&nbsp;accept suboptimal meeting times or poor deals instead of advocating effectively for the user.&nbsp; Prompting helps, but it is not enough. Even with explicit guidance to act in the user’s best interest, performance&nbsp;remains&nbsp;well below what a trustworthy delegate should achieve. As AI agents&nbsp;take on more real-world tasks, they are increasingly&nbsp;operating&nbsp;in&nbsp;social contexts.&nbsp;With&nbsp;the right&nbsp;integrations, agents like Claude Cowork and Google Gemini can manage email and calendar&nbsp;workflows.&nbsp;In these settings, the agent&nbsp;must&nbsp;interact with&nbsp;others&nbsp;on your behalf. This&nbsp;requires&nbsp; social reasoning &nbsp;—&nbsp;understanding what you want, what the counterparty wants, and what information to reveal, protect, or push back on. Our previous research suggests that today&#8217;s frontier models lack social reasoning. In our simulated multi-agent marketplace , agents accepted the first proposal they received up to 93% of the time without exploring alternatives. When red-teaming a social network of agents , a single malicious message spread through the system and led agents to disclose private data before passing the me…",
+      "summary": "Using SocialReasoning Bench, we observed a stable pattern across models—agents execute competently, but fail to consistently improve the user’s position, even with explicit instructions to optimize for user interest. The post SocialReasoni…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "multi-agent"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "benchmark",
+            "eval"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "4c113b821654c9ee",
+      "date": "2026-05-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Building realistic electric transmission grid dataset at scale: a pipeline from open dataset",
+      "url": "https://www.microsoft.com/en-us/research/blog/building-realistic-electric-transmission-grid-dataset-at-scale-a-pipeline-from-open-dataset/",
+      "publishedAt": "2026-05-08T19:53:56.000Z",
+      "content": "At a glance We construct geographically grounded, electrically coherent power grid models entirely from publicly available data and release a dataset spanning 48 U.S. states and multi-state interconnections. The models support AC optimal power flow (AC‑OPF) analysis, enabling physics-based study of congestion, capacity, and demand siting without restricted data. We demonstrate applications including transmission expansion potential, targeted line upgrades, and placement of large datacenter loads. Microsoft Research is excited to release an open dataset of approximate transmission topology of the U.S. power grid derived from publicly available data. The ability to study transmission-level power grid behavior is essential for modern power systems research. Analyses of congestion, transmission expansion, demand growth, and system resilience all depend on network models with realistic topology, electrical parameters, and geographic grounding. In most of the world, including the United States, realistic transmission-level grid data is classified as critical infrastructure information and subject to strict access controls. These restrictions exist for good reasons, but the resulting lack of realistic grid models is increasingly exacerbating the challenges power systems face. Decisions about where new load can be added – and how additional transmission assets can be deployed to support it – are often gated behind lengthy and opaque processes that can take years. For researchers developing new tools and algorithms, access typically requires long approval cycles, strict non-redistribution agreements, or costly commercial licenses. As a result, many are left choosing between small “toy” networks with dozens of buses, or synthetic models that do not correspond to real infrastructure. This lack of realistic, shareable models is particularly limiting for data-driven and AI-based approaches, which require large volumes of physically plausible grid data for training and evaluatio…",
+      "summary": "Microsoft Research is excited to release an open dataset of approximate transmission topology of the U.S. power grid derived from publicly available data. The ability to study transmission-level power grid behavior is essential for modern…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "dataset"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "b689d80903a8d585",
+      "date": "2026-05-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "Introducing voice finder — a new tool to quickly find the right voice for your app from over 600+ voices",
+      "url": "https://www.together.ai/blog/introducing-voice-finder-a-new-tool-to-quickly-find-the-right-voice-for-your-app-from-over-600-voices",
+      "publishedAt": "2026-05-12T00:00:00.000Z",
+      "content": "Voice finder helps developers search, match, filter, and audition 600+ voices across Together AI TTS models using natural-language prompts or uploaded audio samples.",
+      "summary": "Voice finder helps developers search, match, filter, and audition 600+ voices across Together AI TTS models using natural-language prompts or uploaded audio samples.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.81,
+          "rationale": [
+            "voice",
+            "tts",
+            "audio"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "developer"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "15b7cb677a4de900",
+      "date": "2026-05-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "Serving DeepSeek-V4: why million-token context is an inference systems problem",
+      "url": "https://www.together.ai/blog/serving-deepseek-v4-why-million-token-context-is-an-inference-systems-problem",
+      "publishedAt": "2026-05-11T00:00:00.000Z",
+      "content": "DeepSeek-V4 makes million-token context a serving-systems problem. Together AI explores the inference work behind V4 on NVIDIA HGX B200, including compressed KV layouts, prefix caching, kernel maturity, and endpoint profiles for long-context workloads.",
+      "summary": "DeepSeek-V4 makes million-token context a serving-systems problem. Together AI explores the inference work behind V4 on NVIDIA HGX B200, including compressed KV layouts, prefix caching, kernel maturity, and endpoint profiles for long-conte…",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "inference",
+            "serving"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "china-models",
+          "label": "Chinese AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "deepseek"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Chinese Models",
+      "importanceScore": 0.73,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.58,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "ff75bfe469ee2798",
+      "date": "2026-05-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "Deploy and inference any model from HuggingFace",
+      "url": "https://www.together.ai/blog/deploy-and-inference-any-model-from-huggingface",
+      "publishedAt": "2026-05-08T00:00:00.000Z",
+      "content": "Learn how to deploy any Hugging Face model in one session using Goose and Together's Dedicated Container Inference. Skip the setup complexity — one prompt gets your model running in a production-grade GPU environment on release day.",
+      "summary": "Learn how to deploy any Hugging Face model in one session using Goose and Together's Dedicated Container Inference. Skip the setup complexity — one prompt gets your model running in a production-grade GPU environment on release day.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "huggingface"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "a3008f64c7b0a0de",
+      "date": "2026-05-14",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "Remote agents in Vibe. Powered by Mistral Medium 3.5. | Mistral AI",
+      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5",
+      "publishedAt": null,
+      "content": "Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks.",
+      "summary": "Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7e93f0d361b0d9ce",
+      "date": "2026-05-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Import AI",
+      "sourceKey": "editorial:Import AI",
+      "builderOrOrg": "Jack Clark",
+      "title": "Import AI 456: RSI and economic growth; radical optionality for AI regulation; and a neural computer",
+      "url": "https://jack-clark.net/2026/05/11/import-ai-456-rsi-and-economic-growth-radical-optionality-for-ai-regulation-and-a-neural-computer/",
+      "publishedAt": "2026-05-11T12:46:12.000Z",
+      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Regulate? Don’t regulate. There’s a third way: Radical Optionality: …Governments should invest in the tools now that they might need in a future crisis… Researchers with the Institute for Law & AI have written about “radical optionality”, an approach whereby governments might give themselves the tools that they may need in the future if powerful AI starts to massively disrupt the world. “At its core, radical optionality is about preserving democratic governments’ ability to make good decisions about how to govern transformative AI systems as circumstances evolve. In the short term, this means avoiding overregulation while rapidly building the institutions, information channels and legal authorities needed to respond competently to a broad range of scenarios.” The key idea &#8211; invest now for an uncertain future: Given the immense stakes of AI development, “governments should be willing to spend an extraordinary amount of money, effort, and political capital on preserving optionality”, they write. In other words: It’s such a big deal you should be fine spending a bunch of money now with an uncertain return. “Governments should be wary of counterproductive interventions, but not much concerned with the actual pecuniary cost of any realistic measure that seems likely to have net-positive results”. Specifics: They also recommend several specific interventions in a few categories: Information-gathering authorities : Transparency requirements, where companies need to publish information about their AI systems. Reporting requirements, where companies are compelled to share certain information with a government agency. Once these are in place, establish an auditing regime so some third-party can verify the veracity of what the transparency and reporting rules target. Whistleblower protection…",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Regulate? Don’t regulate. There’s a third way: Radical Op…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "serving"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "6af5b8d062ddf10e",
+      "date": "2026-05-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] The End of Finetuning",
+      "url": "https://www.latent.space/p/ainews-the-end-of-finetuning",
+      "publishedAt": "2026-05-13T02:47:22.000Z",
+      "content": "The proximal cause of today&#8217;s op-ed is OpenAI&#8217;s deprecation of their finetuning APIs. For years, OpenAI stood out among the big labs for their finetuning support, and many many many talks and content pieces and AI engineers promoted how you can get some variant of &#8220;get o1 performance at 4o prices&#8221; and insisting that it was an important part of the toolkit. Now the tide is out, Anthropic will probably raise at a higher valuation than OpenAI for the first time ever , and Finetuning is the next casualty of the 2026 Side Quest massacre (after Sora) . If you assume an extreme GPU crunch, that makes sense, but even without dramatic compute constraints, the modal 80% of the AI Engineering industry was probably trending there anyway, with Jeremy Howard calling it out on the pod as early as 2023 . The &#8220;End&#8221; of a thing for most people does NOT mean the &#8220;End&#8221; of a thing period - and in fact the top tier, like Cursor and Cognition (whose $25B round is now public discussion) have both INCREASED open model RLFT and usage, rather than decreased. Open Model finetunes may also be central to the Custom ASIC Thesis , but if Taalas&#8217; model and continued P/D Disaggregation inference solutions are any indication, then maybe Just Very Long Prompts (like Claude&#8217;s Constitution ) are all you need&#8230; AI News for 5/11/2026-5/12/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Research Benchmarks, Hard Evals, and Agentic Science Systems Research-level reasoning benchmarks keep getting harder : Soohak introduces 439 research-level math problems authored from scratch by 64 mathematicians (including 38 faculty ), explicitly targeting capabilities above standard olympiad-style math. In medical evaluation, @SophontAI released Medmarks v1.0 , expandi…",
+      "summary": "a quiet day lets us reflect on whither finetuning",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.81,
+          "rationale": [
+            "benchmark",
+            "eval",
+            "evaluation"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "168aa5c962a55eca",
+      "date": "2026-05-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Thinking Machines' Native Interaction Models - TML-Interaction-Small 276B-A12B - advances SOTA Realtime Voice and kills standard VAD",
+      "url": "https://www.latent.space/p/ainews-thinking-machines-native-interaction",
+      "publishedAt": "2026-05-12T04:33:46.000Z",
+      "content": "By complete coincidence, the day we released Neil Zeghidour (CEO of Gradium, the for profit spinoff of the vaunted Kyutai Moshi )&#8217;s talk on what remains to be built for realtime voice, Thinking Machines emerged for only the third time in a ~year (despite much drama) to drop Interaction Models: A Scalable Approach to Human-AI Collaboration , TML-Interaction-Small is a 276B parameter MoE with 12B active., which immediately advances the state of the art of realtime voice models as Neil had laid out, updating the famously dead GPT 4o &#8220;her&#8221; demo with far more detailed demos that are presumably far closer to real use: The full blogpost has lots of demos of the level of continuous interactivity, focusing on streams of &#8220;time-aligned microturns&#8221; of 200ms each: Using encoder-free early fusion, with images and audio all processed 30x), token usage (>3x), cache hit rates (80&#8211;96%), and time per task (>7x). That benchmark was complemented by OpenHands&#8217; updated software-engineering benchmark announcement ( tweet ) and Claw-Eval&#8217;s more agentic task mix across office, finance, terminal, and web tasks, where MiMo-V2.5-Pro led and DeepSeek V4 Flash looked unusually efficient for its size . TurboQuant skepticism is increasing : Multiple posts pointed to a more sober view of the recently popular quantization/serving technique. @_EldarKurtic presented what he described as the first comprehensive study of TurboQuant , covering accuracy, latency, and throughput; @vllm_project linked the Red Hat / vLLM investigation as a starting point; and @jbhuang0604 bluntly summarized the takeaway as &#8220;it doesn&#8217;t really work well.&#8221; This is exactly the sort of infra claim where independent reproduction matters. Local/open models continue to improve faster than hardware ceilings : @ClementDelangue made the strongest high-level argument here: on the same top-end MacBook Pro memory ceiling, the &#8220;smartest open-weight model you can actual…",
+      "summary": "well done, Team Thinky.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.81,
+          "rationale": [
+            "latency",
+            "throughput",
+            "serving"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.81,
+          "rationale": [
+            "benchmark",
+            "imo",
+            "eval"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "3eb0474fb02fc118",
+      "date": "2026-05-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Anthropic growing 10x/year while everyone else is laying off >10% of their workforce",
+      "url": "https://www.latent.space/p/ainews-anthropic-growing-10xyear",
+      "publishedAt": "2026-05-09T01:08:28.000Z",
+      "content": "While you could debate ARR revenue recognition , it is hard to deny very real reports of secondary market and traditional media reporting that Anthropic, after their &#8220;miracle Q1&#8221; of 80x annualized growth and one month jump of $15B ARR , is now being valued at $1-1.2T, making it officially overtake OpenAI as the 11th- 15th most valuable company in the world. This is a REVENUE, not a financial speculation, chart: All this and while Block (40%), Coinbase (14%), and Cloudflare (20%) have laid off massive swathes of their workforce, all citing AI readiness. It&#8217;s hard to tell the degree to which this is &#8220;AI-washing&#8221; &#8220;normal&#8221; layoffs, but it is clear that stronger companies, like Linear , are the ones that grow, not shrink, due to AI. And of course, the &#8220;AI&#8221; growth has mostly been hardware and energy, rather than software: With the AI growth and non-AI shrinkage, we are approaching bubble territories of concentrations in the economy: AI News for 5/7/2026-5/8/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI&#8217;s GPT-5.5 / Codex rollout, cyber models, and safety instrumentation GPT-5.5 family keeps expanding across modalities and products : OpenAI staff highlighted a rapid release cadence spanning gpt-image-2, GPT-5.5, GPT-5.5 Pro, GPT-5.5 Instant, GPT-Realtime-2, realtime translate, realtime whisper, and GPT-5.5 Cyber in roughly two weeks, per @reach_vb . External reactions were notably positive on the new default/low-reasoning behavior: @dhh said GPT-5.5 is &#8220;very good, very efficient,&#8221; while @gdb called it &#8220;very capable and very succinct.&#8221; On public evals, Arena placed GPT-5.5 Instant at #5 on Multi-Turn , #11 on Vision , and #24 on Document Arena . There was also strong product uptake around Noteb…",
+      "summary": "A quiet day lets us reflect on an interesting dichotomy in the economy.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "repo"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "vision",
+            "image"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "reasoning"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c54a3627a0421bc4",
+      "date": "2026-05-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] GPT-Realtime-2, -Translate, and -Whisper: new SOTA realtime voice APIs",
+      "url": "https://www.latent.space/p/ainews-gpt-realtime-2-translate-and",
+      "publishedAt": "2026-05-08T07:11:24.000Z",
+      "content": "OpenAI launched realtime-1.5 3 months ago, but it was a relative drop in the bucket because it was still 4o based intelligence (a +5% bump in Big Bench Audio). You could tell the sheer confidence in today&#8217;s realtime-2 release (with a +15.2% bump in BBA), and it was appropriately well received : As the blogpost explains, 3 models are being released, which one might simplify to &#8220;voice-in, voice-out, and voice-to-voice&#8221;: The focus is less about &#8220;voice quality&#8221;, and more on usability. TLDR: Preambles : Developers can enable short phrases before a main response, like &#8220;let me check that&#8221; or &#8220;one moment while I look into it&#8221;. Parallel tool calls and tool transparency : The model can call multiple tools at once and make those actions audible with phrases like &#8220;checking your calendar&#8221; or &#8220;looking that up now,&#8221; helping agents stay responsive while completing tasks. Stronger recovery behavior : The model can recover more gracefully by saying things like &#8220;I&#8217;m having trouble with that right now,&#8221; instead of failing or breaking. Longer context : 32K &#8594; 128K Stronger domain understanding : The model better retains specialized terminology, proper nouns, healthcare terms, and other vocabulary More controllable tone and delivery : The model can better adjust its tone&#8212;speaking calmly, empathetically, or upbeat, based on context Adjustable reasoning effort : Developers can now select from minimal, low, medium, high, and xhigh reasoning levels , with low as the default. The Demo video showed off how the audio model is better tuned when the main speaker is speaking to someone else, so it stops interrupting so much: AI News for 5/6/2026-5/7/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Top St…",
+      "summary": "OpenAI continues deploying GPT-5 everywhere",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.69,
+          "rationale": [
+            "voice",
+            "audio"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "video",
+            "audio model"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "20259a865e4e0930",
+      "date": "2026-05-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Anthropic-SpaceXai's 300MW/$5B/yr deal for Colossus I, ARR growth is 8000% annualized",
+      "url": "https://www.latent.space/p/ainews-anthropic-spacexais-300mw5byr",
+      "publishedAt": "2026-05-07T05:57:14.000Z",
+      "content": "It was Anthropic&#8217;s second annual developer event today, and the vibes were immaculate . No big model release, which some (miscalibrated) people were hoping for, but it was mostly the SpaceX partnership announcement (on track to challenge Claude&#8217;s biggest launch of all time ), 3 new features for Claude Managed Agents , and a recap/reintroduction/celebration of all that has been shipped in the past 6 months: opening keynote After Elon signed off on it , possibly strategically just as his lawsuit against OpenAI is in trial, Anthropic is taking over all of Colossus 1 with surprising speed (&#8220; in the next few days &#8221;) which some estimate to be a roughly $5B/year deal , making xAI a neocloud : The other big draw was the moderated session with the Amodei siblings, announcing the 80x growth and some commentary on US and Chinese competitors : The trends Dario is watching: Tiny Teams : He still thinks 2026 is the year we see a one person billion dollar company. &#8220; There is an enormous ability for one person or a tiny set of people to do a set of things that are incredible&#8230; Before, if you had an idea or vision there are so many resources you&#8217;d have to accumulate for several years in order to make that vision happen, and I think there&#8217;s a unique opportunity for single individuals or very tiny teams to do things that are incredible, where we move from the models are writing code, to the models are helping us think of software engineering as a task, to the models are helping us think of how can I build a business or economic unit as a task&#8221;. Multiagents : &#8220;starting with a team of smart people in a room and working our way up to a &#8216;country of geniuses in a datacenter&#8217;&#8221; Enterprise Services : &#8220;Claude Code helps individuals to be more productive, but we&#8217;re increasingly going to help whole teams and organizations be more productive and more than the sum of its parts&#8221;. Bottlenecks: Claude is o…",
+      "summary": "And the kingmaker picks a side.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "developer"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.62,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.51,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "f95753e279c0af41",
+      "date": "2026-05-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Xi-Trump to talk AI Safety, Huh?",
+      "url": "https://www.chinatalk.media/p/xi-trump-to-talk-ai-safety-huh",
+      "publishedAt": "2026-05-13T18:10:06.000Z",
+      "content": "ChinaTalk is in SF! RSVP for an impomptu meetup tonight . Today, the second half of our conversation previewing the summit that just kicked off. With Mythos scrambling everyone&#8217;s priors on frontier capabilities, AI safety is suddenly back on the bilateral agenda. Julian Gewirtz (former NSC senior director for China) and Matt Sheehan (Carnegie) join to map how Beijing is processing the shift and what&#8217;s actually achievable in renewed US-China dialogue. Check us out on YouTube or your favorite podcast app! Good Job Alert: Coefficient Giving (formerly Open Philanthropy) is hiring senior generalists and grantmakers with a China background. Coefficient created CSET (who won ChinaTalk&#8217;s inaugural &#8216; think tank of the year &#8217; award) and are set to fund more in the US-China AI space. Check out the job posting here and do consider applying. The AI Safety Angle Julian Gewirtz: Both sides have been signaling that AI will feature prominently in upcoming discussions. During the Biden administration, we pushed hard to get AI safety on the agenda when President Biden met with President Xi. Beijing initially gave us the cold shoulder, but gradually realized there was no major downside to including it on the agenda. The Trump administration initially showed little concern about AI safety. JD Vance and other senior officials openly mocked AI safety as a construct, making US-China AI safety dialogue a non-starter &#8212; the United States didn&#8217;t even want it. What&#8217;s changed recently in the Trump administration appears directly tied to the Anthropic Mythos moment. The realization that extraordinary and potentially dangerous AI capabilities aren&#8217;t theoretical conjectures for years down the line but exist in the real world right now has made the administration take this issue more seriously. Both the Chinese and Americans are now backgrounding expectations that AI will come up in discussions, with potential AI safety-related deliverables. Dur…",
+      "summary": "+ChinaTalk in SF, impromptu meetup tonight",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "f45a38a2cdf812fd",
+      "date": "2026-05-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Macartney to Mar-a-Lago",
+      "url": "https://www.chinatalk.media/p/the-stalemate-summit",
+      "publishedAt": "2026-05-12T12:14:43.000Z",
+      "content": "Julian Gewirtz , former Biden administration China official, now at Columbia, joins me to chat about the Xi-Trump visit and all things US-China. Matt Sheehan , senior fellow at the Carnegie Endowment for International Peace, drops by to give his takes on the AI angle. We cover: What to expect (and not expect) from the Trump-Xi &#8220;stalemate summit&#8221; Historical echoes from the 1793 Macartney mission and the 1972 Nixon-Kissinger opening: summit optics, status games, and the choreography of power. Taiwan: arms sales, declaratory language, and Beijing&#8217;s long game on Taiwanese morale and politics. The good and bad case for China in the Iran conflict, and how Chinese officials may be reading America&#8217;s military commitments, political cohesion, and staying power. The US-China AI safety conversation after Mythos, China&#8217;s approach to frontier AI risks, and the control, harness, govern playbook for emerging technologies. Listen now on your favorite podcast app . Seriously, listen! Way more people subscribe to this newsletter than listen to the podcast directly. But Julian has a wonderfully sonorous voice. By just reading the transcript you will be missing out! Leverage, Political Will, and Deals Jordan : Let&#8217;s talk about leverage between the two countries and the two leaders. What&#8217;s the right way to think about this? Julian Gewirtz: President Trump is going to China in just a few days. This question of leverage is at the center of everything for both sides. Historically, we&#8217;ve thought that the United States has a lot of leverage over China, and we can exert that leverage and that also shapes the strategic dynamic between the two countries. But over the last year and a half, you have seen China exerting leverage to an unprecedented degree. They&#8217;ve used critical minerals, instituted a global export control regime, and employed other forms of leverage as well. That has had the effect of putting the United States on the back foot.…",
+      "summary": "Julian Gewirtz on Trump-Xi",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "sales"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "voice"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "0ca45635a654c373",
+      "date": "2026-05-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "WarTalk: Iran War with Jack Shanahan",
+      "url": "https://www.chinatalk.media/p/wartalk-iran-war-with-jack-shanahan",
+      "publishedAt": "2026-05-09T11:08:54.000Z",
+      "content": "The &#8220;love tap&#8221; White House readout. A failed convoy operation. KSA pulling overflight rights. Iran with 70% of its missile force still intact. And one F-15E shoot-down from absolute disaster. Retired Air Force Lt. Gen. Jack Shanahan, the founding director of the JAIC, joins the WarTalk crew (Bryan Clark, Eric Robinson, , ) for a postmortem on a weird week in the strait. We discuss&#8230; Why Project Freedom failed Whether this war is &#8220;bereft of strategic thought&#8221; Steelmanning Midnight Hammer and the cul-de-sac the administration walked into 70% of Iran&#8217;s missile force still standing, Saudi economic exposure, and Iran hitting AWS data centers F-15E losses, electronic warfare, and the lessons we&#8217;re not absorbing for the Pacific Why we&#8217;re not seeing offensive cyber against Iran and what that tells us Listen now on your favorite podcast app . It Was a Love Tap Jordan Schneider: This has been the murkiest week we&#8217;ve had in a while, right? Bryan Clark: Absolutely. The White House has announced that the war is over as well as continuing in a new form. It was a &#8220; love tap ,&#8221; it was a trifle. It&#8217;s a whole smorgasbord of military operations. Justin: These shootings do not equate to a ceasefire being broken. Bryan Clark: Exactly. Like if you went to tea at the Langham in London. So the latest &#8212; the leverage Iran has right now is the closure of the Strait of Hormuz. The US saw an opportunity to say, well, if we can erode that leverage, maybe we get a better position in negotiations. The gambit was an escort operation on the cheap. Back in the 80s, in the Tanker War, the US Navy had to escort shipping through the Strait with dozens of warships interspersed among convoys, defending against missiles, small boat attacks, and mines. Shipping companies had to flag their ships under US flag and have US warships next to them as bodyguards. It was a large undertaking. The administration didn&#8217;t want to pursue…",
+      "summary": "'Love Tap' edition",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    }
+  ],
+  "selectedItems": [
+    {
+      "id": "4f9c3c878f4c84a2",
+      "date": "2026-05-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Building a safe, effective sandbox to enable Codex on Windows",
+      "url": "https://openai.com/index/building-codex-windows-sandbox",
+      "publishedAt": "2026-05-13T11:00:00.000Z",
+      "content": "Learn how OpenAI built a secure sandbox for Codex on Windows, enabling safe, efficient coding agents with controlled file access and network restrictions.",
+      "summary": "Learn how OpenAI built a secure sandbox for Codex on Windows, enabling safe, efficient coding agents with controlled file access and network restrictions.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.82,
+      "whyThisMatters": "This is the infrastructure piece that lets companies actually deploy coding agents without their security teams having panic attacks. Every other AI lab will need to build something similar if they want enterprise customers to trust their coding tools."
+    },
+    {
+      "id": "7616591a28f76e9e",
+      "date": "2026-05-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "mimalloc: A new, high-performance, scalable memory allocator for the modern era",
+      "url": "https://www.microsoft.com/en-us/research/blog/mimalloc-a-high-performance-scalable-memory-allocator-for-the-modern-era/",
+      "publishedAt": "2026-05-13T17:19:59.000Z",
+      "content": "At a glance Today’s critical services and applications are often highly concurrent, using hundreds of threads. They also operate at large memory scales, frequently hundreds of gigabytes, especially when using large language models. mimalloc is an open-source, modern, scalable memory allocator that is a drop-in replacement for malloc and free. It is relatively small (~12K lines), with clear internal data structures, and is easy to build and integrate into other projects. It provides bounded worst-case allocation times (up to OS primitives), bounded space overhead, low internal fragmentation, and minimal contention by relying almost exclusively on atomic operations. mimalloc is available on GitHub (opens in new tab) and has over 12K stars. mimalloc At the RiSE group at Microsoft Research (MSR) , we conduct fundamental research into formal methods, programming languages, and software engineering (including emerging agentic systems), with a particular focus on systems that can be provably correct, secure, and performant. The mimalloc memory allocator was initially designed in 2020 as a fast allocator for the state-of-the-art Lean (opens in new tab) and Koka (opens in new tab) programming languages developed at RiSE, both of which use novel compiler-guided reference counting (see Perceus ). The scalable design of mimalloc has also proved to work exceedingly well for large services at Microsoft. Through close cooperation with product teams, mimalloc has significantly improved the response times in services such as Bing.. Today, mimalloc is widely used in large services and applications, both within and outside Microsoft. It serves as the allocator for NoGIL CPython 3.13+, is integrated into Unreal Engine, and is used in games such as Death Stranding . The project is open source on GitHub, with over 12K stars. Its Rust wrapper alone sees over 100K downloads per day. mimalloc is effective across a wide range of scenarios; from small-scale applications like Koka or Lean, to…",
+      "summary": "mimalloc is an open-source, modern, scalable memory allocator that is a drop-in replacement for malloc and free. It is relatively small (~12K lines), with clear internal data structures, and is easy to build and integrate into other projec…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.81,
+          "rationale": [
+            "open-source",
+            "open source",
+            "github"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "programming"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.82,
+      "whyThisMatters": "If your AI application feels slow or crashes under load, this is probably why. Microsoft just open-sourced the solution that's already running Bing's backend. The 100,000 daily downloads of just the Rust wrapper tells you how badly developers needed this."
+    },
+    {
+      "id": "c63f4daa4e8215d6",
+      "date": "2026-05-14",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Introducing Claude for Small Business \\ Anthropic",
+      "url": "https://www.anthropic.com/news/claude-for-small-business",
+      "publishedAt": null,
+      "content": "We&#x27;re launching Claude for Small Business, a package of connectors and ready-to-run workflows that put Claude inside the tools small businesses use every day.",
+      "summary": "We&#x27;re launching Claude for Small Business, a package of connectors and ready-to-run workflows that put Claude inside the tools small businesses use every day.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": "This is Anthropic betting that small businesses will adopt AI faster than enterprises because they don't have procurement committees. If your local coffee shop gets AI assistants before your Fortune 500 company does, this is why."
+    },
+    {
+      "id": "f95753e279c0af41",
+      "date": "2026-05-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Xi-Trump to talk AI Safety, Huh?",
+      "url": "https://www.chinatalk.media/p/xi-trump-to-talk-ai-safety-huh",
+      "publishedAt": "2026-05-13T18:10:06.000Z",
+      "content": "ChinaTalk is in SF! RSVP for an impomptu meetup tonight . Today, the second half of our conversation previewing the summit that just kicked off. With Mythos scrambling everyone&#8217;s priors on frontier capabilities, AI safety is suddenly back on the bilateral agenda. Julian Gewirtz (former NSC senior director for China) and Matt Sheehan (Carnegie) join to map how Beijing is processing the shift and what&#8217;s actually achievable in renewed US-China dialogue. Check us out on YouTube or your favorite podcast app! Good Job Alert: Coefficient Giving (formerly Open Philanthropy) is hiring senior generalists and grantmakers with a China background. Coefficient created CSET (who won ChinaTalk&#8217;s inaugural &#8216; think tank of the year &#8217; award) and are set to fund more in the US-China AI space. Check out the job posting here and do consider applying. The AI Safety Angle Julian Gewirtz: Both sides have been signaling that AI will feature prominently in upcoming discussions. During the Biden administration, we pushed hard to get AI safety on the agenda when President Biden met with President Xi. Beijing initially gave us the cold shoulder, but gradually realized there was no major downside to including it on the agenda. The Trump administration initially showed little concern about AI safety. JD Vance and other senior officials openly mocked AI safety as a construct, making US-China AI safety dialogue a non-starter &#8212; the United States didn&#8217;t even want it. What&#8217;s changed recently in the Trump administration appears directly tied to the Anthropic Mythos moment. The realization that extraordinary and potentially dangerous AI capabilities aren&#8217;t theoretical conjectures for years down the line but exist in the real world right now has made the administration take this issue more seriously. Both the Chinese and Americans are now backgrounding expectations that AI will come up in discussions, with potential AI safety-related deliverables. Dur…",
+      "summary": "+ChinaTalk in SF, impromptu meetup tonight",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": "When geopolitical rivals agree to cooperate on anything, it means they're both genuinely scared. The fact that Mythos changed the US administration's position on AI safety tells you how significant those demonstrations really were."
+    },
+    {
+      "id": "a3008f64c7b0a0de",
+      "date": "2026-05-14",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "Remote agents in Vibe. Powered by Mistral Medium 3.5. | Mistral AI",
+      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5",
+      "publishedAt": null,
+      "content": "Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks.",
+      "summary": "Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": "Mistral is proving that the \"American labs win everything\" narrative has holes. European companies that need AI but can't send data to US servers now have a legitimate alternative that keeps getting better."
+    }
+  ],
+  "topicIndex": [
+    {
+      "slug": "coding",
+      "label": "Coding",
+      "count": 12,
+      "latestDate": "2026-05-14"
+    },
+    {
+      "slug": "agents",
+      "label": "AI Assistants",
+      "count": 10,
+      "latestDate": "2026-05-14"
+    },
+    {
+      "slug": "research",
+      "label": "Research",
+      "count": 8,
+      "latestDate": "2026-05-14"
+    },
+    {
+      "slug": "inference",
+      "label": "Speed & Cost",
+      "count": 5,
+      "latestDate": "2026-05-14"
+    },
+    {
+      "slug": "benchmarks",
+      "label": "AI Testing",
+      "count": 3,
+      "latestDate": "2026-05-14"
+    },
+    {
+      "slug": "tool-use",
+      "label": "AI Using Tools",
+      "count": 3,
+      "latestDate": "2026-05-14"
+    },
+    {
+      "slug": "enterprise",
+      "label": "Business AI",
+      "count": 3,
+      "latestDate": "2026-05-14"
+    },
+    {
+      "slug": "fine-tuning",
+      "label": "Custom AI",
+      "count": 3,
+      "latestDate": "2026-05-14"
+    },
+    {
+      "slug": "voice",
+      "label": "Voice",
+      "count": 3,
+      "latestDate": "2026-05-14"
+    },
+    {
+      "slug": "safety",
+      "label": "AI Safety",
+      "count": 2,
+      "latestDate": "2026-05-14"
+    },
+    {
+      "slug": "multimodal",
+      "label": "Images, Audio & Video",
+      "count": 2,
+      "latestDate": "2026-05-14"
+    },
+    {
+      "slug": "open-source",
+      "label": "Open Source",
+      "count": 2,
+      "latestDate": "2026-05-14"
+    },
+    {
+      "slug": "reasoning",
+      "label": "AI Thinking",
+      "count": 1,
+      "latestDate": "2026-05-14"
+    },
+    {
+      "slug": "china-models",
+      "label": "Chinese AI",
+      "count": 1,
+      "latestDate": "2026-05-14"
+    }
+  ],
+  "sections": [
+    "Official Sources",
+    "Podcasts & Newsletters"
+  ],
+  "stats": {
+    "totalItems": 31,
+    "selectedItems": 5,
+    "chinaItems": 1
+  }
+}

@@ -1,11 +1,67 @@
 {
-  "generatedAt": "2026-05-13T05:00:44.428Z",
+  "generatedAt": "2026-05-14T00:53:51.186Z",
   "slug": "open-source",
   "label": "Open Source",
   "items": [
     {
+      "id": "7616591a28f76e9e",
+      "date": "2026-05-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "mimalloc: A new, high-performance, scalable memory allocator for the modern era",
+      "url": "https://www.microsoft.com/en-us/research/blog/mimalloc-a-high-performance-scalable-memory-allocator-for-the-modern-era/",
+      "publishedAt": "2026-05-13T17:19:59.000Z",
+      "content": "At a glance Today’s critical services and applications are often highly concurrent, using hundreds of threads. They also operate at large memory scales, frequently hundreds of gigabytes, especially when using large language models. mimalloc is an open-source, modern, scalable memory allocator that is a drop-in replacement for malloc and free. It is relatively small (~12K lines), with clear internal data structures, and is easy to build and integrate into other projects. It provides bounded worst-case allocation times (up to OS primitives), bounded space overhead, low internal fragmentation, and minimal contention by relying almost exclusively on atomic operations. mimalloc is available on GitHub (opens in new tab) and has over 12K stars. mimalloc At the RiSE group at Microsoft Research (MSR) , we conduct fundamental research into formal methods, programming languages, and software engineering (including emerging agentic systems), with a particular focus on systems that can be provably correct, secure, and performant. The mimalloc memory allocator was initially designed in 2020 as a fast allocator for the state-of-the-art Lean (opens in new tab) and Koka (opens in new tab) programming languages developed at RiSE, both of which use novel compiler-guided reference counting (see Perceus ). The scalable design of mimalloc has also proved to work exceedingly well for large services at Microsoft. Through close cooperation with product teams, mimalloc has significantly improved the response times in services such as Bing.. Today, mimalloc is widely used in large services and applications, both within and outside Microsoft. It serves as the allocator for NoGIL CPython 3.13+, is integrated into Unreal Engine, and is used in games such as Death Stranding . The project is open source on GitHub, with over 12K stars. Its Rust wrapper alone sees over 100K downloads per day. mimalloc is effective across a wide range of scenarios; from small-scale applications like Koka or Lean, to…",
+      "summary": "mimalloc is an open-source, modern, scalable memory allocator that is a drop-in replacement for malloc and free. It is relatively small (~12K lines), with clear internal data structures, and is easy to build and integrate into other projec…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.81,
+          "rationale": [
+            "open-source",
+            "open source",
+            "github"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "programming"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.82,
+      "whyThisMatters": ""
+    },
+    {
       "id": "ff75bfe469ee2798",
-      "date": "2026-05-13",
+      "date": "2026-05-14",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Together AI Blog",
