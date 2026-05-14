@@ -1,8 +1,60 @@
 {
-  "generatedAt": "2026-05-14T00:53:51.186Z",
+  "generatedAt": "2026-05-14T04:27:00.748Z",
   "slug": "safety",
   "label": "AI Safety",
   "items": [
+    {
+      "id": "040a0514e9f912be",
+      "date": "2026-05-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Codex Rises, Claude Meters Programmatic Usage",
+      "url": "https://www.latent.space/p/ainews-codex-rises-claude-meters",
+      "publishedAt": "2026-05-14T03:53:26.000Z",
+      "content": "It has been a tale of two cities in the past 3 weeks since the launch of GPT 5.5; while the finance folks fall in love with Anthropic&#8217;s growth and CFO ahead of its likely October IPO, there has been a notable rise in pro-Codex sentiment among AI Engineers, likely a combination of GPT 5.5 being a really good (in some scenarios Mythos-tier ) model, launch of Codex for Everything Else , and, a third thing, which is the trigger for today&#8217;s op-ed: more generous limits. The messaging for Claude&#8217;s pricing change was generally pretty well done, it is simply not what uses of alternative harnesses wanted to hear: every Claude subscription now gets a monthly credit of API tokens equal to the dollar amount of the Claude subscription plan. So you pay $200, you get BOTH a Claude subscription with its own limits for using Claude on Anthropic-owned harnesses like Claude.ai and Claude Code (&#8220;interactive usage&#8221;), AND $200 worth of API credits for using Claude everywhere else including claude-p , OpenClaw and others (&#8220;programmatic usage&#8221;). If things had worked this way from the start, it would have been viewed as a very good deal: However, because of the historical subsidy/pricing advantages (estimated between 70-90% discount from API pricing), people are viewing it as a &#8220;rug pull&#8221; of sorts &#8212; however it&#8217;s nice to have an official policy in place as opposed to the selective targeting of OpenClaw , OpenCode , and uncertain status of less popular harnesses. That these headlines come on the same day as OpenAI launches their enterprise switch promo is an incredible coincidence: At the end of the day, we would caution against reading too much into swings either way - both labs are doing very well, and these are in the grand scheme of things normal pricing shifts by people inventing the future of coding while figuring out optimal pricing as they shake up a decades-old industry. Anthropic was more liberal in the beginning, but…",
+      "summary": "a quiet day lets us report on a long trend of the major coding agents",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "policy"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.66,
+      "whyThisMatters": ""
+    },
     {
       "id": "f95753e279c0af41",
       "date": "2026-05-14",
@@ -40,9 +92,9 @@
       ],
       "section": "Podcasts & Newsletters",
       "importanceScore": 0.4,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.61,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
