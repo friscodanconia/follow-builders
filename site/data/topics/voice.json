@@ -1,11 +1,115 @@
 {
-  "generatedAt": "2026-05-14T05:00:19.733Z",
+  "generatedAt": "2026-05-15T01:22:14.410Z",
   "slug": "voice",
   "label": "Voice",
   "items": [
     {
+      "id": "a1c07f5814af4e5d",
+      "date": "2026-05-15",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "Training Data",
+      "sourceKey": "podcast:Training Data",
+      "builderOrOrg": "Training Data",
+      "title": "Suno's Mikey Shulman: Everyone Can Make Music Now",
+      "url": "https://www.youtube.com/watch?v=Jq3BIGz4vXQ",
+      "publishedAt": "2026-05-13T18:55:00.000Z",
+      "content": "Speaker 1 | 00:00 - 00:25 Before Suno, basically everybody was a consumer of music. You know, compared to the 8,000,000,000 people on the planet, there are very few people who make music and the rest of us consume it. The crazy thing about Suno is that in any given day, 90% of the users are going to create something. And the thing that's hard to wrap your head around is you're not creating it to go bring it elsewhere by and large, to do something with it. People are creating music for the fun and enjoyment and fulfillment that comes with being creative. Speaker 1 | 00:25 - 00:30 And so that, the creation, is actually the entertaining bit. And that is the big step change. Speaker 2 | 00:47 - 01:06 I'm delighted to welcome Mikey Schulman. Mikey is founder and CEO of Suno, which is building a music company or a creative entertainment platform and has been one of the most novel consumer applications I've seen out of AI. And I'm very, very excited to ask you about your journey and what's ahead for Suno. So thank you for joining us today. Speaker 1 | 01:06 - 01:08 Thank you for having me. I'm excited. Speaker 2 | 01:09 - 01:25 Okay, awesome. I want start with your background because it is very, very unexpected. You went from a physics PhD at Harvard, I think quantum computing with solid state spins, to building the largest AI music company in the world. What insight connected those two things for you? Speaker 1 | 01:27 - 02:01 You know, I don't know how I don't know, like on paper, I guess I have no business building a consumer entertainment company, but a lot of people went from physics into AI, just like, you know, thirty years ago a lot of people went from physics into quantitative trading. I'll be honest, though. Like, I was an okay physicist only, and there are a lot of better physicists, including one of my cofounders. And I think what I mostly learned is playing at the nexus of two things that don't usually play together is just a massive opportunity in all domains. It can be music and technology. Speaker 1 | 02:01 - 02:07 It can be quantum mechanics and low temperature microwave engineering, or it could be whatever else you're gonna do. Speaker 2 | 02:09 - 02:29 You and I got connected in the very early days of Suno. One of our mutual friends, Harrison Chase, was one of the earliest Suno Discord users, and he was having far too much fun making songs in your Discord. Maybe tell us about the early days of SunO. How did it come together? Did you set out to build a music company? Speaker 1 | 02:31 - 03:06 Originally, we thought this would actually be too hard, and it's because you have to rewind. This is like pre the ChatGPT moment. We did some like back of the envelope math. We knew we loved audio, but the back of the envelope math told us that actually producing good music, making good music, generating good music, was like a couple of orders of magnitude away in terms of compute and model size and capability. And it's because music sound in general is like very unwieldy, it's not in discrete bits like text is. Speaker 1 | 03:06 - 03:21 And so we actually started building a company that was all around using the same technologies to make sense of audio, not to produce it. And, very happily, pretty early on, we had the right breakthroughs, and we realized, oh, we actually can make music. Speaker 2 | 03:21 - 03:24 You're pretty good at math, what'd you get wrong with your back of the napkin math then? Speaker 1 | 03:24 - 03:48 The math was right, we just had some breakthroughs that said like it's actually you don't need that amount of compute. You can make the right technological breakthroughs to, if you wanna think about it, basically just compress audio really, really efficiently. And that worked a hell of a lot better than we anticipated. So it was like a very nice being wrong moment. Not all being wrong moments are are so pleasant. Speaker 1 | 03:48 - 03:54 And to be clear, at the beginning, the music was terrible, but we st…",
+      "summary": "Speaker 1 | 00:00 - 00:25 Before Suno, basically everybody was a consumer of music. You know, compared to the 8,000,000,000 people on the planet, there are very few people who make music and the rest of us consume it. The crazy thing about…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "paper"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "audio"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.52,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.69,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "91a2b4f03a1d9a91",
+      "date": "2026-05-15",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "Violin: An open-source video translation skill that breaks language barriers",
+      "url": "https://www.together.ai/blog/violin-open-source-translation-skill",
+      "publishedAt": "2026-05-14T00:00:00.000Z",
+      "content": "Violin is an open-source AI video translation tool that combines speech recognition, LLM translation, and text-to-speech to make video content accessible across languages.",
+      "summary": "Violin is an open-source AI video translation tool that combines speech recognition, LLM translation, and text-to-speech to make video content accessible across languages.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open-source"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "speech"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "video"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
       "id": "b689d80903a8d585",
-      "date": "2026-05-14",
+      "date": "2026-05-15",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Together AI Blog",
@@ -47,6 +151,57 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "f45a38a2cdf812fd",
+      "date": "2026-05-15",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Macartney to Mar-a-Lago",
+      "url": "https://www.chinatalk.media/p/the-stalemate-summit",
+      "publishedAt": "2026-05-12T12:14:43.000Z",
+      "content": "Julian Gewirtz , former Biden administration China official, now at Columbia, joins me to chat about the Xi-Trump visit and all things US-China. Matt Sheehan , senior fellow at the Carnegie Endowment for International Peace, drops by to give his takes on the AI angle. We cover: What to expect (and not expect) from the Trump-Xi &#8220;stalemate summit&#8221; Historical echoes from the 1793 Macartney mission and the 1972 Nixon-Kissinger opening: summit optics, status games, and the choreography of power. Taiwan: arms sales, declaratory language, and Beijing&#8217;s long game on Taiwanese morale and politics. The good and bad case for China in the Iran conflict, and how Chinese officials may be reading America&#8217;s military commitments, political cohesion, and staying power. The US-China AI safety conversation after Mythos, China&#8217;s approach to frontier AI risks, and the control, harness, govern playbook for emerging technologies. Listen now on your favorite podcast app . Seriously, listen! Way more people subscribe to this newsletter than listen to the podcast directly. But Julian has a wonderfully sonorous voice. By just reading the transcript you will be missing out! Leverage, Political Will, and Deals Jordan : Let&#8217;s talk about leverage between the two countries and the two leaders. What&#8217;s the right way to think about this? Julian Gewirtz: President Trump is going to China in just a few days. This question of leverage is at the center of everything for both sides. Historically, we&#8217;ve thought that the United States has a lot of leverage over China, and we can exert that leverage and that also shapes the strategic dynamic between the two countries. But over the last year and a half, you have seen China exerting leverage to an unprecedented degree. They&#8217;ve used critical minerals, instituted a global export control regime, and employed other forms of leverage as well. That has had the effect of putting the United States on the back foot.…",
+      "summary": "Julian Gewirtz on Trump-Xi",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "sales"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "voice"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
       "whyThisMatters": ""
     },
     {
@@ -100,57 +255,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "f45a38a2cdf812fd",
-      "date": "2026-05-14",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Macartney to Mar-a-Lago",
-      "url": "https://www.chinatalk.media/p/the-stalemate-summit",
-      "publishedAt": "2026-05-12T12:14:43.000Z",
-      "content": "Julian Gewirtz , former Biden administration China official, now at Columbia, joins me to chat about the Xi-Trump visit and all things US-China. Matt Sheehan , senior fellow at the Carnegie Endowment for International Peace, drops by to give his takes on the AI angle. We cover: What to expect (and not expect) from the Trump-Xi &#8220;stalemate summit&#8221; Historical echoes from the 1793 Macartney mission and the 1972 Nixon-Kissinger opening: summit optics, status games, and the choreography of power. Taiwan: arms sales, declaratory language, and Beijing&#8217;s long game on Taiwanese morale and politics. The good and bad case for China in the Iran conflict, and how Chinese officials may be reading America&#8217;s military commitments, political cohesion, and staying power. The US-China AI safety conversation after Mythos, China&#8217;s approach to frontier AI risks, and the control, harness, govern playbook for emerging technologies. Listen now on your favorite podcast app . Seriously, listen! Way more people subscribe to this newsletter than listen to the podcast directly. But Julian has a wonderfully sonorous voice. By just reading the transcript you will be missing out! Leverage, Political Will, and Deals Jordan : Let&#8217;s talk about leverage between the two countries and the two leaders. What&#8217;s the right way to think about this? Julian Gewirtz: President Trump is going to China in just a few days. This question of leverage is at the center of everything for both sides. Historically, we&#8217;ve thought that the United States has a lot of leverage over China, and we can exert that leverage and that also shapes the strategic dynamic between the two countries. But over the last year and a half, you have seen China exerting leverage to an unprecedented degree. They&#8217;ve used critical minerals, instituted a global export control regime, and employed other forms of leverage as well. That has had the effect of putting the United States on the back foot.…",
-      "summary": "Julian Gewirtz on Trump-Xi",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "sales"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "voice",
-          "label": "Voice",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "voice"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
       "whyThisMatters": ""
     },
     {
