@@ -1,11 +1,63 @@
 {
-  "generatedAt": "2026-05-15T05:03:46.621Z",
+  "generatedAt": "2026-05-16T00:53:42.775Z",
   "slug": "tool-use",
   "label": "AI Using Tools",
   "items": [
     {
+      "id": "43eef2a0484eb9a5",
+      "date": "2026-05-16",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "The MAD Podcast with Matt Turck",
+      "sourceKey": "podcast:The MAD Podcast with Matt Turck",
+      "builderOrOrg": "The MAD Podcast with Matt Turck",
+      "title": "Why Every AI Agent Needs Its Own Computer | Ivan Burazin (Daytona)",
+      "url": "https://www.youtube.com/watch?v=kMXJrzAa5fM",
+      "publishedAt": "2026-05-14T11:30:00.000Z",
+      "content": "Speaker 1 | 00:00 - 00:18 We are a part of this like super cycle right now and the super cycle does not last forever. And so if you're gonna pause by the super cycle, you are speeding market. Like that is what you're doing. I would ask Claude, can you go fetch the data from our bank? And then it was like, oh yeah, just log in and give me access. Speaker 1 | 00:18 - 00:36 I'm like, log in and give me a no. I will not give you access. Right away fundamentally for me that was like broke the entire thesis of it. So you give it its own machine. When I think about agents, I think of them as digital knowledge workers And to do anything as a knowledge worker, you do need a computer. Speaker 1 | 00:36 - 00:40 My argument is that every agent will need at least one sandbox, sometimes more. Speaker 2 | 00:40 - 01:11 Claire Matturk. Welcome to the MAD podcast. My guest today is Ivan Borozin, CEO of Daytona, one of the most talked about startups in agent infrastructure. If you've been hearing the word sandbox in every AI agent conversation and quietly wondering what it actually means and why it suddenly matters, this episode is for you. We go from first principles, why does an agent need a computer at all, all the way to the deep technical end, why Daytona had to throw out Kubernetes and write their own scheduler, and why a global CPU shortage might be coming faster than people think. Speaker 2 | 01:11 - 01:34 Ivan also unpacked the full agent stack as he sees it, models, sandboxes, tools, MCP, memory, orchestration, and where each piece is heading. Along the way, Ivan shares some really interesting lessons on go to market and distribution for technical founders that he has learned through sixteen years building developer tool startups. Please enjoy this conversation with Ivan from Daytona. Hey Ivan, welcome. Speaker 1 | 01:34 - 01:35 Great to be here. Speaker 2 | 01:35 - 01:44 So you have said that every agent needs its own computer. What's the simplest way of explaining that idea? Speaker 1 | 01:44 - 02:13 Well, I think about agents, I think of them as digital knowledge workers and to do anything as a knowledge worker you do need a computer or I should say anything sophisticated. So you and I can be on a conversation and we can get something done, but we usually need some sort of tools in our world is usually a computer to get higher productivity, and to be able to do things and so I think of that in the same lens. For me agents are literally just digital knowledge workers. Speaker 2 | 02:13 - 02:20 Great. And so it's on a computer that's the whole concept of Sandbox. As an introduction to this whole conversation, what is a Sandbox? Speaker 1 | 02:20 - 02:49 Absolutely. So Sandbox is although the term Sandbox first comes from isolation. So making sure that there's a secure place for in this case an agent to run and do things but on the other side it is essentially a computer it's a full on computer that an agent has the ability to install tools, access the web, run scripts, run code, whatever it needs to get its job done. So the shortest answer is a sandbox is essentially we call them composable computers for AI agents. Speaker 2 | 02:49 - 02:59 Yeah. And is in some ways like this whole OpenClaw and Mac mini like a good analogy for what a sandbox is like the Mac mini sort of being the sandbox? Speaker 1 | 02:59 - 03:12 Exactly. So I think the Openclaw Mac mini thing helped a lot of people understand what we actually do. It's like, oh, I get it now. I get it. Right? Speaker 1 | 03:12 - 03:17 So it needs a computer. In this case, was a Mac Mini to be able to do different things. So yes, that helped a lot with awareness for sure. Speaker 2 | 03:17 - 03:35 Yeah. Because, again, to unpack it like the, OpenCLaw as as a as a framework and system to help an agent do all sorts of things on your computer. Basically, you wanna be able to kill it if it goes rogue, therefore, you can unplug the Mac mini, the way you could sort of kill a sandbox. Is t…",
+      "summary": "Speaker 1 | 00:00 - 00:18 We are a part of this like super cycle right now and the super cycle does not last forever. And so if you're gonna pause by the super cycle, you are speeding market. Like that is what you're doing. I would ask Cla…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "developer"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.66,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.78,
+      "whyThisMatters": ""
+    },
+    {
       "id": "9defe8a91bcc3b71",
-      "date": "2026-05-15",
+      "date": "2026-05-16",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Microsoft Research Blog",
@@ -52,7 +104,7 @@
       "section": "Official Sources",
       "importanceScore": 0.58,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.48,
       "whyThisMatters": ""
     },
@@ -2358,57 +2410,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "5f58cf6bb99f7e28",
-      "date": "2026-04-20",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "Notion’s Token Town: 5 Rebuilds, 100+ Tools, MCP vs CLIs and the Software Factory Future — Simon Last & Sarah Sachs of Notion",
-      "url": "https://www.latent.space/p/notion",
-      "publishedAt": "2026-04-15T00:31:14.000Z",
-      "content": "Notion's cofounder and head of AI peel back the curtains to talk about finally shipping the Knowledge Work AI agents the world has been waiting for.",
-      "summary": "Notion's cofounder and head of AI peel back the curtains to talk about finally shipping the Knowledge Work AI agents the world has been waiting for.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     }
   ]
