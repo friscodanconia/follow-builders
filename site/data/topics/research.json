@@ -1,11 +1,97 @@
 {
-  "generatedAt": "2026-05-16T04:44:03.335Z",
+  "generatedAt": "2026-05-17T01:08:40.948Z",
   "slug": "research",
   "label": "Research",
   "items": [
     {
+      "id": "671b6c2a2ecb6df7",
+      "date": "2026-05-17",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "Unsupervised Learning",
+      "sourceKey": "podcast:Unsupervised Learning",
+      "builderOrOrg": "Unsupervised Learning",
+      "title": "Ep 86: Yann LeCun on Leaving Meta, Breaking The LLM Paradigm, & Why Hinton is Wrong",
+      "url": "https://www.youtube.com/@RedpointAI",
+      "publishedAt": "2026-05-15T12:50:21.000Z",
+      "content": "Speaker 1 | 00:00 - 00:03 You're one of the godfathers of AI. What's your kind of view of the path of progress here? Speaker 2 | 00:03 - 00:11 Five years complete world domination. The best way to get breakthrough research is you hire the best people, and you get the fuck out of the way. Pardon my French. Speaker 1 | 00:11 - 00:14 You shared the Turing Award with two others. When did your views start diverging? Speaker 2 | 00:14 - 00:15 In 2023. Speaker 1 | 00:15 - 00:16 How you do know it Speaker 2 | 00:16 - 00:16 was time Speaker 1 | 00:16 - 00:19 to leave Meta? It sounds like you were thinking through some of these things over a period of time. Speaker 2 | 00:19 - 00:25 It was a big misconception about my role, my relation to Alex, and how AI was run at Meta. Speaker 1 | 00:25 - 00:27 What's like one thing you've changed your mind on in the last year? Speaker 2 | 00:27 - 00:28 I mean, the whole idea of Speaker 1 | 00:28 - 01:00 Jan Lakun is one of the godfathers of AI. He's an absolute legend in the field, someone I've admired for a long time. And so it was such a treat to get him on unsupervised learning. He's been a noted skeptic of LMs in many ways, and so we dug into what LLMs can do, what they can't do, some of the limitations he sees, and why he ultimately decided to pursue a different architecture. And we also talked about his time at Meta, you know, the things he's proud of in setting up Fare, how the last few years proceeded, and what ultimately led him to, spin out and start his own company, Ami. Speaker 1 | 01:00 - 01:26 I think it's just fascinating to get Jan's thoughts on everything happening in the AI ecosystem today, this tension between basic research and then pushing LLMs forward, and how that's happening in a bunch of organizations today, as well as his thoughts on just where the whole space is headed. He's just an absolute giant in the field, and when I started this podcast, I hope we get guests like him. So it is just such a treat. I think folks will really enjoy hearing the conversation we had. Without further ado, here's Jan. Speaker 1 | 01:28 - 01:37 Jan, this is such a pleasure. You're one of the godfathers of AI. I feel like when I started doing this podcast years ago, I was really hoping we might one day get someone like you on. Speaker 2 | 01:37 - 01:43 You know, I don't like that term because I live in New Jersey. When you're a godfather in New Jersey, it doesn't mean the same thing. Speaker 1 | 01:43 - 02:15 Very fair. Very fair. You know, obviously, you know, your bet on on neural nets when everyone doubted them is legendary, and I feel like today you're making a similar bet in many ways against LMs and the kind of predominant generative architectures that that so many believe in. You've recently started a new company behind this theme. And so, you know, our goal today in the conversation is to leave our listeners with a lot more information about me, what you're doing there, some of your work at Tapestry, why you think the rest of the field is pointed in the wrong direction around some of these generative models, and then also just get your reflections on the way the field's unfolded, your time at Meta and all that. Speaker 1 | 02:16 - 02:38 Modest goals for a single podcast episode. I figured it'd be great to start with Amit because the company feels like the clearest statement of your technical thesis going forward. And so you recently launched the company. It's focused on world models and scaling the JEPR architecture, which you obviously pioneered over at Meta. And I'm wondering if you could talk a little bit about the origins of that architecture and the extent to which you drew inspiration from the human brain and the way that works. Speaker 2 | 02:38 - 03:03 So first of all, I wanna say there's nothing wrong with LLMs in the sense of LLMs, you know, are the basis for a lot of very useful AI products that all of us use, including me. Yeah. They're great, okay, for what they do. They're…",
+      "summary": "Speaker 1 | 00:00 - 00:03 You're one of the godfathers of AI. What's your kind of view of the path of progress here? Speaker 2 | 00:03 - 00:11 Five years complete world domination. The best way to get breakthrough research is you hire the…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.52,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.44,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "97967d387d6f3ec8",
+      "date": "2026-05-17",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "How data science teams use Codex",
+      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "publishedAt": "2026-05-15T00:00:00.000Z",
+      "content": "See how data science teams can use Codex to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+      "summary": "See how data science teams can use Codex to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "science"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
       "id": "76efd14b17ede228",
-      "date": "2026-05-16",
+      "date": "2026-05-17",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -58,7 +144,7 @@
     },
     {
       "id": "441b28bd4ae6a0c7",
-      "date": "2026-05-16",
+      "date": "2026-05-17",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -102,7 +188,7 @@
     },
     {
       "id": "1d0568b3c0e4f1cd",
-      "date": "2026-05-16",
+      "date": "2026-05-17",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Microsoft Research Blog",
@@ -159,7 +245,7 @@
     },
     {
       "id": "9defe8a91bcc3b71",
-      "date": "2026-05-16",
+      "date": "2026-05-17",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Microsoft Research Blog",
@@ -212,7 +298,7 @@
     },
     {
       "id": "a8d4179e548a1dca",
-      "date": "2026-05-16",
+      "date": "2026-05-17",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Microsoft Research Blog",
@@ -257,7 +343,7 @@
     },
     {
       "id": "adb3f43faa79f06c",
-      "date": "2026-05-16",
+      "date": "2026-05-17",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Microsoft Research Blog",
@@ -312,7 +398,7 @@
     },
     {
       "id": "52c16bbdd313b893",
-      "date": "2026-05-16",
+      "date": "2026-05-17",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Together AI Blog",
@@ -365,7 +451,7 @@
     },
     {
       "id": "7e93f0d361b0d9ce",
-      "date": "2026-05-16",
+      "date": "2026-05-17",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Import AI",
@@ -416,7 +502,7 @@
     },
     {
       "id": "22bff0020d3eb9b5",
-      "date": "2026-05-16",
+      "date": "2026-05-17",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -461,14 +547,14 @@
       ],
       "section": "Podcasts & Newsletters",
       "importanceScore": 0.4,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.61,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
       "id": "7d6b2d8557442ac1",
-      "date": "2026-05-16",
+      "date": "2026-05-17",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -519,7 +605,7 @@
     },
     {
       "id": "6af5b8d062ddf10e",
-      "date": "2026-05-16",
+      "date": "2026-05-17",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -2381,89 +2467,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.54,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "46db0b67f0c1d218",
-      "date": "2026-05-01",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:steipete",
-      "builderOrOrg": "Peter Steinberger",
-      "title": "Integrated codex review into clawsweeper. I'm using a very similar system prompt so this gets y…",
-      "url": "https://x.com/steipete/status/2049518771023360010",
-      "publishedAt": "2026-04-29T15:58:47.000Z",
-      "content": "Integrated codex review into clawsweeper. I'm using a very similar system prompt so this gets you the same as /review, and clawsweeper has automerge, loops until it stops finding new issues. https://t.co/AiNNDcvGke https://t.co/3pDc2JdLCm",
-      "summary": "Integrated codex review into clawsweeper. I'm using a very similar system prompt so this gets you the same as /review, and clawsweeper has automerge, loops until it stops finding new issues. https://t.co/AiNNDcvGke http…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 288,
-        "retweets": 10,
-        "replies": 21
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "finding"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "1a89ffb9186f5675",
-      "date": "2026-04-30",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:trq212",
-      "builderOrOrg": "Thariq",
-      "title": "a big part of this is we're working on making the no flicker renderer excellent so we can ship…",
-      "url": "https://x.com/trq212/status/2049234229926695188",
-      "publishedAt": "2026-04-28T21:08:08.000Z",
-      "content": "a big part of this is we're working on making the no flicker renderer excellent so we can ship it as the default renderer, more updates coming there but lots of other papercuts coming",
-      "summary": "a big part of this is we're working on making the no flicker renderer excellent so we can ship it as the default renderer, more updates coming there but lots of other papercuts coming",
-      "regionTags": [],
-      "metrics": {
-        "likes": 191,
-        "retweets": 2,
-        "replies": 12
-      },
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "paper"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]
