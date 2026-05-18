@@ -1,53 +1,48 @@
 {
-  "generatedAt": "2026-05-17T05:03:26.829Z",
+  "generatedAt": "2026-05-18T01:14:56.010Z",
   "slug": "research",
   "label": "Research",
   "items": [
     {
-      "id": "671b6c2a2ecb6df7",
-      "date": "2026-05-17",
-      "sourceType": "podcast",
+      "id": "5ab4fd4c3686c31b",
+      "date": "2026-05-18",
+      "sourceType": "x",
       "sourceGroup": "mirrored",
-      "sourceName": "Unsupervised Learning",
-      "sourceKey": "podcast:Unsupervised Learning",
-      "builderOrOrg": "Unsupervised Learning",
-      "title": "Ep 86: Yann LeCun on Leaving Meta, Breaking The LLM Paradigm, & Why Hinton is Wrong",
-      "url": "https://www.youtube.com/@RedpointAI",
-      "publishedAt": "2026-05-15T12:50:21.000Z",
-      "content": "Speaker 1 | 00:00 - 00:03 You're one of the godfathers of AI. What's your kind of view of the path of progress here? Speaker 2 | 00:03 - 00:11 Five years complete world domination. The best way to get breakthrough research is you hire the best people, and you get the fuck out of the way. Pardon my French. Speaker 1 | 00:11 - 00:14 You shared the Turing Award with two others. When did your views start diverging? Speaker 2 | 00:14 - 00:15 In 2023. Speaker 1 | 00:15 - 00:16 How you do know it Speaker 2 | 00:16 - 00:16 was time Speaker 1 | 00:16 - 00:19 to leave Meta? It sounds like you were thinking through some of these things over a period of time. Speaker 2 | 00:19 - 00:25 It was a big misconception about my role, my relation to Alex, and how AI was run at Meta. Speaker 1 | 00:25 - 00:27 What's like one thing you've changed your mind on in the last year? Speaker 2 | 00:27 - 00:28 I mean, the whole idea of Speaker 1 | 00:28 - 01:00 Jan Lakun is one of the godfathers of AI. He's an absolute legend in the field, someone I've admired for a long time. And so it was such a treat to get him on unsupervised learning. He's been a noted skeptic of LMs in many ways, and so we dug into what LLMs can do, what they can't do, some of the limitations he sees, and why he ultimately decided to pursue a different architecture. And we also talked about his time at Meta, you know, the things he's proud of in setting up Fare, how the last few years proceeded, and what ultimately led him to, spin out and start his own company, Ami. Speaker 1 | 01:00 - 01:26 I think it's just fascinating to get Jan's thoughts on everything happening in the AI ecosystem today, this tension between basic research and then pushing LLMs forward, and how that's happening in a bunch of organizations today, as well as his thoughts on just where the whole space is headed. He's just an absolute giant in the field, and when I started this podcast, I hope we get guests like him. So it is just such a treat. I think folks will really enjoy hearing the conversation we had. Without further ado, here's Jan. Speaker 1 | 01:28 - 01:37 Jan, this is such a pleasure. You're one of the godfathers of AI. I feel like when I started doing this podcast years ago, I was really hoping we might one day get someone like you on. Speaker 2 | 01:37 - 01:43 You know, I don't like that term because I live in New Jersey. When you're a godfather in New Jersey, it doesn't mean the same thing. Speaker 1 | 01:43 - 02:15 Very fair. Very fair. You know, obviously, you know, your bet on on neural nets when everyone doubted them is legendary, and I feel like today you're making a similar bet in many ways against LMs and the kind of predominant generative architectures that that so many believe in. You've recently started a new company behind this theme. And so, you know, our goal today in the conversation is to leave our listeners with a lot more information about me, what you're doing there, some of your work at Tapestry, why you think the rest of the field is pointed in the wrong direction around some of these generative models, and then also just get your reflections on the way the field's unfolded, your time at Meta and all that. Speaker 1 | 02:16 - 02:38 Modest goals for a single podcast episode. I figured it'd be great to start with Amit because the company feels like the clearest statement of your technical thesis going forward. And so you recently launched the company. It's focused on world models and scaling the JEPR architecture, which you obviously pioneered over at Meta. And I'm wondering if you could talk a little bit about the origins of that architecture and the extent to which you drew inspiration from the human brain and the way that works. Speaker 2 | 02:38 - 03:03 So first of all, I wanna say there's nothing wrong with LLMs in the sense of LLMs, you know, are the basis for a lot of very useful AI products that all of us use, including me. Yeah. They're great, okay, for what they do. They're…",
-      "summary": "Speaker 1 | 00:00 - 00:03 You're one of the godfathers of AI. What's your kind of view of the path of progress here? Speaker 2 | 00:03 - 00:11 Five years complete world domination. The best way to get breakthrough research is you hire the…",
+      "sourceName": "X",
+      "sourceKey": "x:garrytan",
+      "builderOrOrg": "Garry Tan",
+      "title": "Saturday morning and it’s a good time to think a bit about how our functional systems are being…",
+      "url": "https://x.com/garrytan/status/2055674791873630650",
+      "publishedAt": "2026-05-16T15:40:37.000Z",
+      "content": "Saturday morning and it’s a good time to think a bit about how our functional systems are being torn down by a mind virus by two philosophers: Foucault and Derrida Foucault: His framework tells you that every institution claiming to know something is really just exercising power. Medicine, engineering, law, science. Apply that at civilizational scale and you get exactly what Dan Wang warns about: a society that lost the will to build. Process knowledge — the tacit know-how that only exists in t…",
+      "summary": "Saturday morning and it’s a good time to think a bit about how our functional systems are being torn down by a mind virus by two philosophers: Foucault and Derrida Foucault: His framework tells you that every institutio…",
       "regionTags": [],
-      "metrics": {},
+      "metrics": {
+        "likes": 709,
+        "retweets": 98,
+        "replies": 71
+      },
       "topics": [
         {
           "slug": "research",
           "label": "Research",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
+            "science"
           ],
           "score": 1
         }
       ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.52,
-      "noveltyScore": 0.3,
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.44,
+      "digestScore": 0.8,
       "whyThisMatters": ""
     },
     {
       "id": "97967d387d6f3ec8",
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
@@ -91,7 +86,7 @@
     },
     {
       "id": "76efd14b17ede228",
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -144,7 +139,7 @@
     },
     {
       "id": "441b28bd4ae6a0c7",
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -188,7 +183,7 @@
     },
     {
       "id": "1d0568b3c0e4f1cd",
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Microsoft Research Blog",
@@ -245,7 +240,7 @@
     },
     {
       "id": "9defe8a91bcc3b71",
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Microsoft Research Blog",
@@ -298,7 +293,7 @@
     },
     {
       "id": "a8d4179e548a1dca",
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Microsoft Research Blog",
@@ -343,7 +338,7 @@
     },
     {
       "id": "adb3f43faa79f06c",
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Microsoft Research Blog",
@@ -398,7 +393,7 @@
     },
     {
       "id": "52c16bbdd313b893",
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Together AI Blog",
@@ -451,7 +446,7 @@
     },
     {
       "id": "7e93f0d361b0d9ce",
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Import AI",
@@ -502,7 +497,7 @@
     },
     {
       "id": "22bff0020d3eb9b5",
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -554,7 +549,7 @@
     },
     {
       "id": "7d6b2d8557442ac1",
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -605,7 +600,7 @@
     },
     {
       "id": "6af5b8d062ddf10e",
-      "date": "2026-05-17",
+      "date": "2026-05-18",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -656,6 +651,48 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "671b6c2a2ecb6df7",
+      "date": "2026-05-17",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "Unsupervised Learning",
+      "sourceKey": "podcast:Unsupervised Learning",
+      "builderOrOrg": "Unsupervised Learning",
+      "title": "Ep 86: Yann LeCun on Leaving Meta, Breaking The LLM Paradigm, & Why Hinton is Wrong",
+      "url": "https://www.youtube.com/@RedpointAI",
+      "publishedAt": "2026-05-15T12:50:21.000Z",
+      "content": "Speaker 1 | 00:00 - 00:03 You're one of the godfathers of AI. What's your kind of view of the path of progress here? Speaker 2 | 00:03 - 00:11 Five years complete world domination. The best way to get breakthrough research is you hire the best people, and you get the fuck out of the way. Pardon my French. Speaker 1 | 00:11 - 00:14 You shared the Turing Award with two others. When did your views start diverging? Speaker 2 | 00:14 - 00:15 In 2023. Speaker 1 | 00:15 - 00:16 How you do know it Speaker 2 | 00:16 - 00:16 was time Speaker 1 | 00:16 - 00:19 to leave Meta? It sounds like you were thinking through some of these things over a period of time. Speaker 2 | 00:19 - 00:25 It was a big misconception about my role, my relation to Alex, and how AI was run at Meta. Speaker 1 | 00:25 - 00:27 What's like one thing you've changed your mind on in the last year? Speaker 2 | 00:27 - 00:28 I mean, the whole idea of Speaker 1 | 00:28 - 01:00 Jan Lakun is one of the godfathers of AI. He's an absolute legend in the field, someone I've admired for a long time. And so it was such a treat to get him on unsupervised learning. He's been a noted skeptic of LMs in many ways, and so we dug into what LLMs can do, what they can't do, some of the limitations he sees, and why he ultimately decided to pursue a different architecture. And we also talked about his time at Meta, you know, the things he's proud of in setting up Fare, how the last few years proceeded, and what ultimately led him to, spin out and start his own company, Ami. Speaker 1 | 01:00 - 01:26 I think it's just fascinating to get Jan's thoughts on everything happening in the AI ecosystem today, this tension between basic research and then pushing LLMs forward, and how that's happening in a bunch of organizations today, as well as his thoughts on just where the whole space is headed. He's just an absolute giant in the field, and when I started this podcast, I hope we get guests like him. So it is just such a treat. I think folks will really enjoy hearing the conversation we had. Without further ado, here's Jan. Speaker 1 | 01:28 - 01:37 Jan, this is such a pleasure. You're one of the godfathers of AI. I feel like when I started doing this podcast years ago, I was really hoping we might one day get someone like you on. Speaker 2 | 01:37 - 01:43 You know, I don't like that term because I live in New Jersey. When you're a godfather in New Jersey, it doesn't mean the same thing. Speaker 1 | 01:43 - 02:15 Very fair. Very fair. You know, obviously, you know, your bet on on neural nets when everyone doubted them is legendary, and I feel like today you're making a similar bet in many ways against LMs and the kind of predominant generative architectures that that so many believe in. You've recently started a new company behind this theme. And so, you know, our goal today in the conversation is to leave our listeners with a lot more information about me, what you're doing there, some of your work at Tapestry, why you think the rest of the field is pointed in the wrong direction around some of these generative models, and then also just get your reflections on the way the field's unfolded, your time at Meta and all that. Speaker 1 | 02:16 - 02:38 Modest goals for a single podcast episode. I figured it'd be great to start with Amit because the company feels like the clearest statement of your technical thesis going forward. And so you recently launched the company. It's focused on world models and scaling the JEPR architecture, which you obviously pioneered over at Meta. And I'm wondering if you could talk a little bit about the origins of that architecture and the extent to which you drew inspiration from the human brain and the way that works. Speaker 2 | 02:38 - 03:03 So first of all, I wanna say there's nothing wrong with LLMs in the sense of LLMs, you know, are the basis for a lot of very useful AI products that all of us use, including me. Yeah. They're great, okay, for what they do. They're…",
+      "summary": "Speaker 1 | 00:00 - 00:03 You're one of the godfathers of AI. What's your kind of view of the path of progress here? Speaker 2 | 00:03 - 00:11 Five years complete world domination. The best way to get breakthrough research is you hire the…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.52,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.44,
       "whyThisMatters": ""
     },
     {
@@ -2421,52 +2458,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.44,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d9e605f276fb7c7b",
-      "date": "2026-05-01",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:swyx",
-      "builderOrOrg": "Swyx",
-      "title": "> be me > \"the internet is polluted by ai slop, we need low-background tokens\" > \"wouldnt it be…",
-      "url": "https://x.com/swyx/status/2049652947408372187",
-      "publishedAt": "2026-04-30T00:51:58.000Z",
-      "content": "> be me > \"the internet is polluted by ai slop, we need low-background tokens\" > \"wouldnt it be cool if we could time travel and see what our ancestors 100 years ago would say to us\" > all the existing vintage models are like we need a chat tuned 13B vintage model > assemble avengers of ML incl the GPT-1/2 guy > need vintage tokens > train new vintage OCR model for old books, newspapers, periodicals, scientific journals, patents, and case law > need vintage RLHF but cant use chat > synthesize R…",
-      "summary": "> be me > \"the internet is polluted by ai slop, we need low-background tokens\" > \"wouldnt it be cool if we could time travel and see what our ancestors 100 years ago would say to us\" > all the existing vintage models ar…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 37,
-        "retweets": 2,
-        "replies": 9
-      },
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "paper"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.67,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.54,
       "whyThisMatters": ""
     }
   ]
