@@ -1,11 +1,118 @@
 {
-  "generatedAt": "2026-05-18T05:36:17.546Z",
+  "generatedAt": "2026-05-19T01:19:24.383Z",
   "slug": "tool-use",
   "label": "AI Using Tools",
   "items": [
     {
+      "id": "fd4115ffcbfb4a78",
+      "date": "2026-05-19",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "One of the best things students and colleges can do is not bail on learning and teaching the fu…",
+      "url": "https://x.com/levie/status/2056051851439857933",
+      "publishedAt": "2026-05-17T16:38:55.000Z",
+      "content": "One of the best things students and colleges can do is not bail on learning and teaching the fundamentals of any given domain. AI will trick you into thinking you don’t need to go deep in a particular area, but that’s wrong. The expert with AI is always going to be far more capable than the novice. Those that can steer AI agents properly, figure out how to evaluate their work, fix their mistakes, and incorporate their work into a workflow will always be the most potent users of these tools. The…",
+      "summary": "One of the best things students and colleges can do is not bail on learning and teaching the fundamentals of any given domain. AI will trick you into thinking you don’t need to go deep in a particular area, but that’s w…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 425,
+        "retweets": 53,
+        "replies": 41
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "aeb5bb1acb5c93b7",
+      "date": "2026-05-19",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "AI & I by Every",
+      "sourceKey": "podcast:AI & I by Every",
+      "builderOrOrg": "AI & I by Every",
+      "title": "Claude Code Can Be Your Second Brain",
+      "url": "https://www.youtube.com/watch?v=in7i-EVDDlk",
+      "publishedAt": "2026-05-13T15:02:38.000Z",
+      "content": "Speaker 1 | 00:00 - 00:28 Noah Breyer might have the coolest Claude code setup I've ever seen. He rigged a home server in his basement, put his Obsidian vault in it, and then runs Claude code on top. So he can think, research, write, and even ship code right from his phone. Today, he shows us how he uses Claude Code as a true second brain, a thinking partner that asks him sharp questions, pulls research from his whole note archive and the web, and even keeps a running log of what he's learned and what his best ideas are. And he walks us through his whole stack and his whole workflow. Speaker 1 | 00:28 - 00:50 If you wanna learn how to use Claude code as a true second brain, this is the episode to watch. Let's dive in. Noah, welcome to the show. Speaker 2 | 00:50 - 00:51 Thanks for having me. Speaker 1 | 00:52 - 01:08 I'm excited to have you. It's really good to, get to chat. This is our first interview in probably, like, five years. You were one of the for people who don't know, you're one of the first, super organizers, interviewees. That was the newsletter that turned into Every. Speaker 1 | 01:08 - 01:45 And I I love the way that your brain works. You have this, like, really interesting taste for tools for thought. And back in the day, you're using Evernote in all these really interesting ways. You were the co founder of a really cool startup called Percolate and then another one called Variance, and now you're running Alethic, which is an AI strategy consultancy. And I'm just really excited to see how your mind has started to use these AI tools now that now that they're now that they're, you know, working so well. Speaker 1 | 01:45 - 01:50 And I know you have some pretty cool Claude code stuff to show us. So, yeah, thanks for coming on. Speaker 2 | 01:50 - 01:55 Thanks for having me. Yeah. I'm super excited. That was a a fun interview all those years back. Speaker 1 | 01:55 - 02:09 It was it was really, really fun. So I wanna just, like, dive right into the the, like, the thing that I think is so cool about what you're doing. So I I know you have a whole, like, vibe coding setup that you built for yourself. Can you talk us through that? Speaker 2 | 02:10 - 02:56 Yeah. I wouldn't I'm not sure about actually the vibe coding part of it. I have a a sort of fairly heavy duty Claude code setup, but actually mostly not for code. So, since those days of, super organizers, like many people, I've abandoned Evernote, and, switched over to Obsidian. And one of the big advantages with Obsidian as a note taking platform is that it's a bunch of markdown files and a bunch of folders, and, they can then be synced with Git, and you can do lots of other fun kinds of things. Speaker 2 | 02:56 - 03:25 And so, actually, probably my number one Claude code use is using it as a tool to interact with my notes. And so that, I've got a fairly serious Claude code setup that I use with Obsidian. And, my most recent obsession, has been, standing up a server in my house so that I could also use code on my phone. Speaker 1 | 03:26 - 03:40 This is incredible. I wanna I wanna go through all of this. So where where should we start? Should we do should we do how you use Claude code as sort of this, like, research assistant notes organizer, notetaker thing, or should we start with how you use it on your phone? Speaker 2 | 03:42 - 04:08 We can use it. We can start with just the sort of general part of it. That that might be the sort of easiest. The phone is really just an extension of that same thing. I, I would say sort of generally, and this is something I feel like not enough people talk about with AI, is, like, one of the things I find really extraordinary about it is the ability for me to work really productively on my phone. Speaker 2 | 04:08 - 04:34 And that's been like a huge, huge change because so much of what I do is sort of writing or coding, and the phone is definitely not the best place for that. And even the phone wasn't always the best place fo…",
+      "summary": "Speaker 1 | 00:00 - 00:28 Noah Breyer might have the coolest Claude code setup I've ever seen. He rigged a home server in his basement, put his Obsidian vault in it, and then runs Claude code on top. So he can think, research, write, and e…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.52,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.69,
+      "whyThisMatters": ""
+    },
+    {
       "id": "9defe8a91bcc3b71",
-      "date": "2026-05-18",
+      "date": "2026-05-19",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Microsoft Research Blog",
@@ -54,6 +161,58 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "9781f84b7f8f0e0a",
+      "date": "2026-05-19",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Import AI",
+      "sourceKey": "editorial:Import AI",
+      "builderOrOrg": "Jack Clark",
+      "title": "Import AI 457: AI stuxnet; cursed Muon optimizer; and positive alignment",
+      "url": "https://jack-clark.net/2026/05/18/import-ai-457-ai-stuxnet-cursed-muon-optimizer-and-positive-alignment/",
+      "publishedAt": "2026-05-18T13:31:17.000Z",
+      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Stuxnet before Stuxnet: …Fast16 bugs software likely used in weapons programs… Here’s a fascinating investigation of a ~20+ year old computer virus called fast16.sys. This software is interesting because it “selectively targets high-precision calculation software, patching code in memory to tamper with results. By combining this payload with self-propagation mechanisms, the attackers aim to produce equivalent inaccurate calculations across an entire facility.” If any of you have read the Three Body Problem, this might sound familiar &#8211; in that (fictional) book, aliens intent on taking over the Earth use a technology called a Sophon to disrupt high-energy physics experiments all over the world, making it impossible for humanity to advance certain types of science. More details on the virus: When the researchers at SentinelOne did their teardown of the virus they found something quite unusual: “Most patched patterns correspond to standard x86 code used for hijacking or influencing execution flow. One injected block is different. It’s a larger and complex sequence of Floating Point Unit instructions dedicated to precision arithmetic and scaling values in internal arrays. This code is a standalone mathematical calculation function unrelated to code flow hijacking or any other typical malicious code injection.” Further investigation deepened the mystery: “We converted the patching rules into hexadecimal YARA signatures and ran them against a large, period‑appropriate corpus. The results showed a very low hit rate: fewer than ten files matched two or more patterns. Those matches, however, shared a clear theme. They were precision calculation tools in specialised domains such as civil engineering, physics and physical process simulations.” Targeted tools: “The strongest overlaps point to…",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Stuxnet before Stuxnet:…Fast16 bugs software likely used…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
       "whyThisMatters": ""
     },
     {
@@ -2260,147 +2419,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a5d951233b60ab29",
-      "date": "2026-04-21",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "The next evolution of the Agents SDK",
-      "url": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
-      "publishedAt": "2026-04-15T10:00:00.000Z",
-      "content": "OpenAI updates the Agents SDK with native sandbox execution and a model-native harness, helping developers build secure, long-running agents across files and tools.",
-      "summary": "OpenAI updates the Agents SDK with native sandbox execution and a model-native harness, helping developers build secure, long-running agents across files and tools.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "developer"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "046e5af8aaba07c8",
-      "date": "2026-04-21",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Hugging Face Blog",
-      "sourceKey": "official:Hugging Face Blog",
-      "builderOrOrg": "Hugging Face",
-      "title": "Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents",
-      "url": "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis",
-      "publishedAt": "2026-04-15T12:07:25.000Z",
-      "content": "",
-      "summary": "",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "reasoning",
-          "label": "AI Thinking",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "reasoning"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tool use"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "1c92ce07af6f1a0f",
-      "date": "2026-04-21",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google AI Blog",
-      "sourceKey": "official:Google AI Blog",
-      "builderOrOrg": "Google",
-      "title": "Turn your best AI prompts into one-click tools in Chrome",
-      "url": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
-      "publishedAt": "2026-04-14T17:00:00.000Z",
-      "content": "Skills in Chrome let you discover, save and remix AI workflows — and repeat them instantly.",
-      "summary": "Skills in Chrome let you discover, save and remix AI workflows — and repeat them instantly.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     }
   ]
