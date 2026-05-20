@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T00:58:22.414Z",
+  "generatedAt": "2026-05-20T04:43:25.227Z",
   "slug": "multimodal",
   "label": "Images, Audio & Video",
   "items": [
@@ -54,6 +54,62 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "8d834efef6559d31",
+      "date": "2026-05-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Google I/O 2026: Gemini 3.5 Flash, Omni (NanoBanana for Video), Spark (background agents), and Antigravity 2.0",
+      "url": "https://www.latent.space/p/ainews-google-io-2026-gemini-35-flash",
+      "publishedAt": "2026-05-20T03:34:17.000Z",
+      "content": "The full keynote livestream was 2 hours, but as usual, The Verge has the best supercut down to 30 mins, which is very worthwhile to get a narrative sense: The mainline Gemini 3.5 Flash is GA today (very nice compared to some staged rollouts) and is sold as a decent step up even compared to 3.1 Pro, with 3.5 Pro coming next month. Perhaps more impressive were the Gemini Live (Voice) and Omni (Video) and Google Pics/Flow (Images/VFX/music) modalities, where Google demonstrated industry leading capabilities and latency, all presumably made possible by industry leading hardware and models. Per longstanding tradition at every bigtech keynote these days, Google also showed off some smart glasses tech, which seems a little more likely to be seen on the street than many prior iterations from both Google and their peers. AI News for 5/18/2026-5/19/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Google used I/O to reposition Gemini as both a consumer AI surface and a developer/agent platform, with three core technical announcements: Gemini 3.5 Flash for fast agentic/coding workloads, Gemini Omni for multimodal generation/editing starting with video, and a broader Antigravity agent stack spanning desktop/CLI/SDK/API. Official posts emphasized scale &#8212; Google says it now processes over 3.2 quadrillion tokens/month , up 7x YoY from 480T/month , while the Gemini app has 900M+ monthly users and is available in 230+ countries and 70+ languages ( Google , Google , GeminiApp ). The most technically substantive release was Gemini 3.5 Flash , framed by Google as its strongest agentic/coding model yet, GA immediately , with 1M-token context , 65k max output , 4 thinking levels (&#8220;minimal/low/medium/high&#8221;), and &#8220;thought preservation&#8221; across turns ( GoogleDeepMind , Googl…",
+      "summary": "Google has been busy!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "coding",
+            "developer",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.81,
+          "rationale": [
+            "multimodal",
+            "image",
+            "video"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
       "whyThisMatters": ""
     },
     {
@@ -154,9 +210,9 @@
       ],
       "section": "Podcasts & Newsletters",
       "importanceScore": 0.48,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.66,
+      "digestScore": 0.42,
       "whyThisMatters": ""
     },
     {
@@ -2225,43 +2281,6 @@
           "confidence": 0.5700000000000001,
           "rationale": [
             "image"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "2b8672f2359724f6",
-      "date": "2026-04-18",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:zarazhangrui",
-      "builderOrOrg": "Zara Zhang",
-      "title": "HTML videos are here! HTML is eating everything https://t.co/HIFQpP6saP",
-      "url": "https://x.com/zarazhangrui/status/2044849748579164328",
-      "publishedAt": "2026-04-16T18:45:46.000Z",
-      "content": "HTML videos are here! HTML is eating everything https://t.co/HIFQpP6saP",
-      "summary": "HTML videos are here! HTML is eating everything https://t.co/HIFQpP6saP",
-      "regionTags": [],
-      "metrics": {
-        "likes": 2089,
-        "retweets": 120,
-        "replies": 36
-      },
-      "topics": [
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "video"
           ],
           "score": 1
         }
