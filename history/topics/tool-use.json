@@ -1,8 +1,157 @@
 {
-  "generatedAt": "2026-05-19T05:15:11.070Z",
+  "generatedAt": "2026-05-20T00:58:22.414Z",
   "slug": "tool-use",
   "label": "AI Using Tools",
   "items": [
+    {
+      "id": "56eeb045e723e8f6",
+      "date": "2026-05-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google DeepMind Blog",
+      "sourceKey": "official:Google DeepMind Blog",
+      "builderOrOrg": "Google DeepMind",
+      "title": "Gemini for Science: AI experiments and tools for a new era of discovery",
+      "url": "https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery/",
+      "publishedAt": "2026-05-17T13:50:34.000Z",
+      "content": "A collection of science tools and experiments to expand the scale and precision of scientific exploration.",
+      "summary": "A collection of science tools and experiments to expand the scale and precision of scientific exploration.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "science"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "9defe8a91bcc3b71",
+      "date": "2026-05-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "GridSFM: A new, small foundation model for the electric grid",
+      "url": "https://www.microsoft.com/en-us/research/blog/gridsfm-a-new-small-foundation-model-for-the-electric-grid/",
+      "publishedAt": "2026-05-13T16:00:20.000Z",
+      "content": "Microsoft releases a lightweight foundation model that can predict AC optimal power flow in milliseconds, boosting efficiency and unlocking cost savings in grid analysis. At a glance Microsoft introduces GridSFM, a small foundation model that approximates AC optimal power flow in milliseconds, unlocking decisions that can directly impact up to $20B/year in congestion losses and 3.4 TWh of renewable curtailment. Beyond estimating generator dispatch and costs, GridSFM produces full AC system states, giving operators direct visibility into congestion, stability, and overall system health. It provides a foundation for the community to build advanced power grid simulators and planning tools without recreating data or models from scratch. Microsoft introduces GridSFM , a small foundation model for solving AC optimal power flow (AC-OPF) problems in transmission power grids. This follows our earlier release of a U.S.-based open transmission-topology dataset that powers GridSFM. Power grids face increasing strain from surging demand, the need to integrate renewable energy sources, transportation electrification, and extreme weather events. Across all these challenges, the core question is the same: what are the optimal operating points that keep the grid functioning under each new condition? Answering this requires solving AC optimal power flow (AC‑OPF), a complex, non-convex optimization problem that computes the cheapest generator dispatch (how much each generator produces) that meets demands while respecting power flow physics, voltage limits, thermal constraints, and stability requirements, and underpins core power system operations including reliability, real-time dispatch, market clearing, and contingency analysis. These decisions directly govern outcomes at the scale of up $20 billion per year in congestion costs (opens in new tab) and multi‑terawatt‑hour renewable curtailment (opens in new tab) (lost renewable energy due to congestion), making both economic efficien…",
+      "summary": "Introducing GridSFM, a small foundation model that can predict AC optimal power flow in milliseconds, boosting efficiency and unlocking cost savings. Learn how GridSFM gives grid operators direct visibility into congestion, stability, and…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "dataset"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "9781f84b7f8f0e0a",
+      "date": "2026-05-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Import AI",
+      "sourceKey": "editorial:Import AI",
+      "builderOrOrg": "Jack Clark",
+      "title": "Import AI 457: AI stuxnet; cursed Muon optimizer; and positive alignment",
+      "url": "https://jack-clark.net/2026/05/18/import-ai-457-ai-stuxnet-cursed-muon-optimizer-and-positive-alignment/",
+      "publishedAt": "2026-05-18T13:31:17.000Z",
+      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Stuxnet before Stuxnet: …Fast16 bugs software likely used in weapons programs… Here’s a fascinating investigation of a ~20+ year old computer virus called fast16.sys. This software is interesting because it “selectively targets high-precision calculation software, patching code in memory to tamper with results. By combining this payload with self-propagation mechanisms, the attackers aim to produce equivalent inaccurate calculations across an entire facility.” If any of you have read the Three Body Problem, this might sound familiar &#8211; in that (fictional) book, aliens intent on taking over the Earth use a technology called a Sophon to disrupt high-energy physics experiments all over the world, making it impossible for humanity to advance certain types of science. More details on the virus: When the researchers at SentinelOne did their teardown of the virus they found something quite unusual: “Most patched patterns correspond to standard x86 code used for hijacking or influencing execution flow. One injected block is different. It’s a larger and complex sequence of Floating Point Unit instructions dedicated to precision arithmetic and scaling values in internal arrays. This code is a standalone mathematical calculation function unrelated to code flow hijacking or any other typical malicious code injection.” Further investigation deepened the mystery: “We converted the patching rules into hexadecimal YARA signatures and ran them against a large, period‑appropriate corpus. The results showed a very low hit rate: fewer than ten files matched two or more patterns. Those matches, however, shared a clear theme. They were precision calculation tools in specialised domains such as civil engineering, physics and physical process simulations.” Targeted tools: “The strongest overlaps point to…",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Stuxnet before Stuxnet:…Fast16 bugs software likely used…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
     {
       "id": "fd4115ffcbfb4a78",
       "date": "2026-05-19",
@@ -108,111 +257,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.44,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "9defe8a91bcc3b71",
-      "date": "2026-05-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "GridSFM: A new, small foundation model for the electric grid",
-      "url": "https://www.microsoft.com/en-us/research/blog/gridsfm-a-new-small-foundation-model-for-the-electric-grid/",
-      "publishedAt": "2026-05-13T16:00:20.000Z",
-      "content": "Microsoft releases a lightweight foundation model that can predict AC optimal power flow in milliseconds, boosting efficiency and unlocking cost savings in grid analysis. At a glance Microsoft introduces GridSFM, a small foundation model that approximates AC optimal power flow in milliseconds, unlocking decisions that can directly impact up to $20B/year in congestion losses and 3.4 TWh of renewable curtailment. Beyond estimating generator dispatch and costs, GridSFM produces full AC system states, giving operators direct visibility into congestion, stability, and overall system health. It provides a foundation for the community to build advanced power grid simulators and planning tools without recreating data or models from scratch. Microsoft introduces GridSFM , a small foundation model for solving AC optimal power flow (AC-OPF) problems in transmission power grids. This follows our earlier release of a U.S.-based open transmission-topology dataset that powers GridSFM. Power grids face increasing strain from surging demand, the need to integrate renewable energy sources, transportation electrification, and extreme weather events. Across all these challenges, the core question is the same: what are the optimal operating points that keep the grid functioning under each new condition? Answering this requires solving AC optimal power flow (AC‑OPF), a complex, non-convex optimization problem that computes the cheapest generator dispatch (how much each generator produces) that meets demands while respecting power flow physics, voltage limits, thermal constraints, and stability requirements, and underpins core power system operations including reliability, real-time dispatch, market clearing, and contingency analysis. These decisions directly govern outcomes at the scale of up $20 billion per year in congestion costs (opens in new tab) and multi‑terawatt‑hour renewable curtailment (opens in new tab) (lost renewable energy due to congestion), making both economic efficien…",
-      "summary": "Introducing GridSFM, a small foundation model that can predict AC optimal power flow in milliseconds, boosting efficiency and unlocking cost savings. Learn how GridSFM gives grid operators direct visibility into congestion, stability, and…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "dataset"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "9781f84b7f8f0e0a",
-      "date": "2026-05-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Import AI",
-      "sourceKey": "editorial:Import AI",
-      "builderOrOrg": "Jack Clark",
-      "title": "Import AI 457: AI stuxnet; cursed Muon optimizer; and positive alignment",
-      "url": "https://jack-clark.net/2026/05/18/import-ai-457-ai-stuxnet-cursed-muon-optimizer-and-positive-alignment/",
-      "publishedAt": "2026-05-18T13:31:17.000Z",
-      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Stuxnet before Stuxnet: …Fast16 bugs software likely used in weapons programs… Here’s a fascinating investigation of a ~20+ year old computer virus called fast16.sys. This software is interesting because it “selectively targets high-precision calculation software, patching code in memory to tamper with results. By combining this payload with self-propagation mechanisms, the attackers aim to produce equivalent inaccurate calculations across an entire facility.” If any of you have read the Three Body Problem, this might sound familiar &#8211; in that (fictional) book, aliens intent on taking over the Earth use a technology called a Sophon to disrupt high-energy physics experiments all over the world, making it impossible for humanity to advance certain types of science. More details on the virus: When the researchers at SentinelOne did their teardown of the virus they found something quite unusual: “Most patched patterns correspond to standard x86 code used for hijacking or influencing execution flow. One injected block is different. It’s a larger and complex sequence of Floating Point Unit instructions dedicated to precision arithmetic and scaling values in internal arrays. This code is a standalone mathematical calculation function unrelated to code flow hijacking or any other typical malicious code injection.” Further investigation deepened the mystery: “We converted the patching rules into hexadecimal YARA signatures and ran them against a large, period‑appropriate corpus. The results showed a very low hit rate: fewer than ten files matched two or more patterns. Those matches, however, shared a clear theme. They were precision calculation tools in specialised domains such as civil engineering, physics and physical process simulations.” Targeted tools: “The strongest overlaps point to…",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Stuxnet before Stuxnet:…Fast16 bugs software likely used…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "science"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -2382,43 +2426,6 @@
       "noveltyScore": 1,
       "previouslySelected": false,
       "digestScore": 0.82,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "326135f4959b536e",
-      "date": "2026-04-21",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "What gets missed with AI productivity gains is that by and large, most roles will continue to b…",
-      "url": "https://x.com/levie/status/2046067263326028108",
-      "publishedAt": "2026-04-20T03:23:44.000Z",
-      "content": "What gets missed with AI productivity gains is that by and large, most roles will continue to be as sophisticated as the tools allow. This is why also thinking through “today’s jobs will be replaced with AI” is a fallacy. Everyone thinks the market is static, but it’s not. As a result of everyone having access to the same technology which augments our work, then users of the tools will increasingly raise their level of output to the point where the prior definition of the job is no longer relev…",
-      "summary": "What gets missed with AI productivity gains is that by and large, most roles will continue to be as sophisticated as the tools allow. This is why also thinking through “today’s jobs will be replaced with AI” is a fallac…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 278,
-        "retweets": 38,
-        "replies": 47
-      },
-      "topics": [
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]
