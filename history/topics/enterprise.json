@@ -1,8 +1,196 @@
 {
-  "generatedAt": "2026-05-21T05:38:28.361Z",
+  "generatedAt": "2026-05-22T00:31:03.964Z",
   "slug": "enterprise",
   "label": "Business AI",
   "items": [
+    {
+      "id": "86c1d8f8f4855423",
+      "date": "2026-05-22",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Introducing OpenAI for Singapore",
+      "url": "https://openai.com/index/introducing-openai-for-singapore",
+      "publishedAt": "2026-05-19T20:30:00.000Z",
+      "content": "OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.",
+      "summary": "OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "deployment"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "3a55f99c5dabddbd",
+      "date": "2026-05-22",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Railway: The Agent-Native Cloud — Jake Cooper",
+      "url": "https://www.latent.space/p/railway",
+      "publishedAt": "2026-05-20T22:42:06.000Z",
+      "content": "Take the 2026 AI Engineering Survey and get >$2k in credits and AIE WF tickets ! This was recorded before Railway suffered a major GCP outage on May 19, despite being a multi-AZ, multi-zone mesh ring, with HA fiber interconnects between their Metal <> GCP <> AWS, because workload discoverability was unintentionally still tied to GCP. All has been resolved with a post-mortem . Railway did not start as an AI infrastructure company. It was founded in 2020 years before agents became the default way people thought about deploying software. Jake Cooper , formerly at Bloomberg and Uber, started Railway with a simple obsession: the activation energy to ship something to production should be near zero. Push code, get a URL, iterate. No Docker files, no Kubernetes manifests, no Ansible scripts stacked on Ansible scripts. For years, this was a slow grind. Railway spent its first 18 months hand-acquiring its first 100 users with Jake personally greeting every Discord signup on a second monitor. src Today, Railway has raised $124m and is growing very fast. A 35-person team supports 3 million users, adding roughly 100,000 signups a week. Their bare metal data centers have a 3-month payback period vs. renting in the cloud, with 70% margins funding aggressive cloud bursting when needed. The servers they own have actually appreciated in value as RAM prices have climbed basically meaning the value of their hardware now exceeds the capital they've raised. From rebuilding Railway&#8217;s network overlay over a weekend to moving the vast majority of workloads onto its own bare metal data centers , Jake Cooper is trying to build a new cloud for an agent-native world . In this episode, Railway&#8217;s founder and &#8220;conductor&#8221; joins swyx and Alessio to unpack why the next era of software infrastructure is not just &#8220; Heroku but newer,&#8221; what agents need that humans did not, and why the old deployment loop of Git, PRs, CI/CD, and static cloud resources may be heading f…",
+      "summary": "3M Users, 100K Signups/Week, Own-Metal Data Centers, $200K+ Coding Agent Spend, and the Death of PRs",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "deployment"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.62,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.51,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "38d54dd13c6334be",
+      "date": "2026-05-22",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "The Empire of Wuxi",
+      "url": "https://www.chinatalk.media/p/the-empire-of-wuxi",
+      "publishedAt": "2026-05-19T12:36:35.000Z",
+      "content": "Lucas Fluegel and Nick Corvino team up to tackle Chinese biotech. Lucas is a visiting scholar at the Carnegie Endowment for International Peace, where he explores biotech and biosecurity policy. He did his Ph.D. research in biochemistry and bacterial genomics at the Scripps Research Institute. China wants to be the world&#8217;s biotech superpower. But to understand how it got here, it&#8217;s best to start with its crown jewel: the WuXi companies. The WuXi companies are the dominant biotech services consortium in China and have become the lightning rod of U.S. political wrath, most notably as an early target of the BIOSECURE Act . When we say &#8220;WuXi,&#8221; we don&#8217;t just mean WuXi AppTec. Although this family of companies is often spoken about as if it were a single company, in reality, it is a group of companies comprised of WuXi AppTec (&#33647;&#26126;&#24247;&#24503;), WuXi Biologics (&#33647;&#26126;&#29983;&#29289;), and a set of tightly integrated businesses, all more or less under the same leadership but dispersed throughout the industry. Together, they are stronger than the sum of their parts, and form what we envision as the Empire of WuXi (hereafter just &#8220;Wuxi&#8221;). The TSMC analogy is tempting, since just as TSMC manufactures chips for companies like NVIDIA and AMD, WuXi, instead of discovering and commercializing its own blockbuster drugs, it provides the services (chemistry, testing, manufacturing) that allow others to do so. And both have the ability to gut-punch the global economy if their employees stop coming to work. But AI analogies, tempting as they are, can do more harm than good . TSMC sits at a true chokepoint, with essentially no major rivals. If you want cutting-edge chips, you go through Taiwan. But WuXi does not monopolize a single irreplaceable step in the biotech supply chain. In fact, it has strong competitors both in China and globally. WuXi AppTec and WuXi Biologics are the third- and fifth- largest contract dev…",
+      "summary": "*Not* the TSMC of biotech",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "vision"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "4e275816e46f5fe6",
+      "date": "2026-05-22",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "A U.S. Economic Security “Latency Fund”",
+      "url": "https://www.chinatalk.media/p/a-us-economic-security-latency-fund",
+      "publishedAt": "2026-05-15T13:09:31.000Z",
+      "content": "With pretty much no news out of this Xi-Trump trip, how about checking out another economic security contest winner? This one comes from Guy Ward-Jackson, a Senior Policy Analyst at the Tony Blair Institute . You can reach him at Guy.Ward-Jackson@institute.global or read more of his writing on his Substack . Views are his own. Economic Deterrence Without Autarky The Cold War sparked an entire academic and policy discipline on nuclear deterrence and statecraft. It is time that the sphere of economic security received its fair share of attention. But we do not have to start entirely from scratch; there is much to learn from our &#8220;Cold War Warrior&#8221; predecessors. This essay suggests borrowing from the theory of &#8220;nuclear latency&#8221; &#8212; the notion not of having a bomb, but of having the capacity to build it in a coercive or crisis context &#8212; and applying it to vulnerable but non-critical elements of U.S. economic security. The combination of rapidly emerging dual-use technologies like AI and quantum, the hyper-interdependence produced by globalisation, and U.S.-China geopolitical rivalry all mean that economic security is having a moment. However, as the lines between technology, economic and national security blur the likelihood of confused policymaking increases dramatically. 1 The question for the United States then becomes not &#8216;should we prioritise economic security?&#8217; but &#8216;how do we prioritise within economic security?&#8217;. Prioritisation matters for two reasons. First, because economic security &#8212; even for the United States &#8212; is not free. Attempting to insure against every vulnerability produces familiar pathologies: blanket &#8220;re-shoring&#8221; agendas, misallocated capital, political capture, and opportunity costs 2 in other areas. If the United States started treating every economic risk as an existential security threat &#8212; shielding industries from competition and innovation &#8212; it would…",
+      "summary": "'Nuclear Latency' for economic security",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "latency"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "policy"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
     {
       "id": "b5950fd9abcee2a5",
       "date": "2026-05-21",
@@ -150,194 +338,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.51,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "86c1d8f8f4855423",
-      "date": "2026-05-21",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Introducing OpenAI for Singapore",
-      "url": "https://openai.com/index/introducing-openai-for-singapore",
-      "publishedAt": "2026-05-19T20:30:00.000Z",
-      "content": "OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.",
-      "summary": "OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "deployment"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "3a55f99c5dabddbd",
-      "date": "2026-05-21",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "Railway: The Agent-Native Cloud — Jake Cooper",
-      "url": "https://www.latent.space/p/railway",
-      "publishedAt": "2026-05-20T22:42:06.000Z",
-      "content": "Take the 2026 AI Engineering Survey and get >$2k in credits and AIE WF tickets ! This was recorded before Railway suffered a major GCP outage on May 19, despite being a multi-AZ, multi-zone mesh ring, with HA fiber interconnects between their Metal <> GCP <> AWS, because workload discoverability was unintentionally still tied to GCP. All has been resolved with a post-mortem . Railway did not start as an AI infrastructure company. It was founded in 2020 years before agents became the default way people thought about deploying software. Jake Cooper , formerly at Bloomberg and Uber, started Railway with a simple obsession: the activation energy to ship something to production should be near zero. Push code, get a URL, iterate. No Docker files, no Kubernetes manifests, no Ansible scripts stacked on Ansible scripts. For years, this was a slow grind. Railway spent its first 18 months hand-acquiring its first 100 users with Jake personally greeting every Discord signup on a second monitor. src Today, Railway has raised $124m and is growing very fast. A 35-person team supports 3 million users, adding roughly 100,000 signups a week. Their bare metal data centers have a 3-month payback period vs. renting in the cloud, with 70% margins funding aggressive cloud bursting when needed. The servers they own have actually appreciated in value as RAM prices have climbed basically meaning the value of their hardware now exceeds the capital they've raised. From rebuilding Railway&#8217;s network overlay over a weekend to moving the vast majority of workloads onto its own bare metal data centers , Jake Cooper is trying to build a new cloud for an agent-native world . In this episode, Railway&#8217;s founder and &#8220;conductor&#8221; joins swyx and Alessio to unpack why the next era of software infrastructure is not just &#8220; Heroku but newer,&#8221; what agents need that humans did not, and why the old deployment loop of Git, PRs, CI/CD, and static cloud resources may be heading f…",
-      "summary": "3M Users, 100K Signups/Week, Own-Metal Data Centers, $200K+ Coding Agent Spend, and the Death of PRs",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "deployment"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.62,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.51,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "38d54dd13c6334be",
-      "date": "2026-05-21",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "The Empire of Wuxi",
-      "url": "https://www.chinatalk.media/p/the-empire-of-wuxi",
-      "publishedAt": "2026-05-19T12:36:35.000Z",
-      "content": "Lucas Fluegel and Nick Corvino team up to tackle Chinese biotech. Lucas is a visiting scholar at the Carnegie Endowment for International Peace, where he explores biotech and biosecurity policy. He did his Ph.D. research in biochemistry and bacterial genomics at the Scripps Research Institute. China wants to be the world&#8217;s biotech superpower. But to understand how it got here, it&#8217;s best to start with its crown jewel: the WuXi companies. The WuXi companies are the dominant biotech services consortium in China and have become the lightning rod of U.S. political wrath, most notably as an early target of the BIOSECURE Act . When we say &#8220;WuXi,&#8221; we don&#8217;t just mean WuXi AppTec. Although this family of companies is often spoken about as if it were a single company, in reality, it is a group of companies comprised of WuXi AppTec (&#33647;&#26126;&#24247;&#24503;), WuXi Biologics (&#33647;&#26126;&#29983;&#29289;), and a set of tightly integrated businesses, all more or less under the same leadership but dispersed throughout the industry. Together, they are stronger than the sum of their parts, and form what we envision as the Empire of WuXi (hereafter just &#8220;Wuxi&#8221;). The TSMC analogy is tempting, since just as TSMC manufactures chips for companies like NVIDIA and AMD, WuXi, instead of discovering and commercializing its own blockbuster drugs, it provides the services (chemistry, testing, manufacturing) that allow others to do so. And both have the ability to gut-punch the global economy if their employees stop coming to work. But AI analogies, tempting as they are, can do more harm than good . TSMC sits at a true chokepoint, with essentially no major rivals. If you want cutting-edge chips, you go through Taiwan. But WuXi does not monopolize a single irreplaceable step in the biotech supply chain. In fact, it has strong competitors both in China and globally. WuXi AppTec and WuXi Biologics are the third- and fifth- largest contract dev…",
-      "summary": "*Not* the TSMC of biotech",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "vision"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4e275816e46f5fe6",
-      "date": "2026-05-21",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "A U.S. Economic Security “Latency Fund”",
-      "url": "https://www.chinatalk.media/p/a-us-economic-security-latency-fund",
-      "publishedAt": "2026-05-15T13:09:31.000Z",
-      "content": "With pretty much no news out of this Xi-Trump trip, how about checking out another economic security contest winner? This one comes from Guy Ward-Jackson, a Senior Policy Analyst at the Tony Blair Institute . You can reach him at Guy.Ward-Jackson@institute.global or read more of his writing on his Substack . Views are his own. Economic Deterrence Without Autarky The Cold War sparked an entire academic and policy discipline on nuclear deterrence and statecraft. It is time that the sphere of economic security received its fair share of attention. But we do not have to start entirely from scratch; there is much to learn from our &#8220;Cold War Warrior&#8221; predecessors. This essay suggests borrowing from the theory of &#8220;nuclear latency&#8221; &#8212; the notion not of having a bomb, but of having the capacity to build it in a coercive or crisis context &#8212; and applying it to vulnerable but non-critical elements of U.S. economic security. The combination of rapidly emerging dual-use technologies like AI and quantum, the hyper-interdependence produced by globalisation, and U.S.-China geopolitical rivalry all mean that economic security is having a moment. However, as the lines between technology, economic and national security blur the likelihood of confused policymaking increases dramatically. 1 The question for the United States then becomes not &#8216;should we prioritise economic security?&#8217; but &#8216;how do we prioritise within economic security?&#8217;. Prioritisation matters for two reasons. First, because economic security &#8212; even for the United States &#8212; is not free. Attempting to insure against every vulnerability produces familiar pathologies: blanket &#8220;re-shoring&#8221; agendas, misallocated capital, political capture, and opportunity costs 2 in other areas. If the United States started treating every economic risk as an existential security threat &#8212; shielding industries from competition and innovation &#8212; it would…",
-      "summary": "'Nuclear Latency' for economic security",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "latency"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "policy"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
       "whyThisMatters": ""
     },
     {
