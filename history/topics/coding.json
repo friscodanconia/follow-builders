@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-23T04:13:24.289Z",
+  "generatedAt": "2026-05-23T04:53:55.218Z",
   "slug": "coding",
   "label": "Coding",
   "items": [
@@ -36,7 +36,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -242,7 +242,7 @@
       "section": "Official Sources",
       "importanceScore": 0.8,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.63,
       "whyThisMatters": ""
     },
@@ -332,7 +332,7 @@
       "section": "Official Sources",
       "importanceScore": 0.72,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.57,
       "whyThisMatters": ""
     },
@@ -487,6 +487,58 @@
       "whyThisMatters": ""
     },
     {
+      "id": "131e0ac893645338",
+      "date": "2026-05-23",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] All Model Labs are now Agent Labs",
+      "url": "https://www.latent.space/p/ainews-all-model-labs-are-now-agent",
+      "publishedAt": "2026-05-23T04:21:17.000Z",
+      "content": "Ahead of OpenAI&#8217;s likely IPO filing next week, Greg makes the latest in a series of comments where Model Labs are increasingly also building Agents as the product: The quote is a big reversal of stance from a position ~uniformly held by anyone who worked at Team Big Model , including his previous head of OpenAI Labs : This comes with the shuttering of AI21&#8217;s model team, which is now pivoting to agents: and even the venerable DeepSeek is now building a &#8220;Harness team&#8221; for the first time: The &#8220;Systems over Models&#8221; people will take this as a point of validation of what they have been saying all along&#8230; except for the nuance that models cotrained with harnesses does open the door for closing access to models even further &#8212; if you can effectively posttrain a model to only meaningfully perform with your closed source agent, then you get to funnel the majority of users to your agent at the expense of your model/API co-opetition. But that&#8217;s a topic of a much larger discussion&#8230; AI News for 5/4/2026-5/5/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Agent Products, Harnesses, and the Shift Beyond &#8220;Just the Model&#8221; The product surface is moving up-stack : A recurring theme was that model quality alone is no longer the moat; the winning product is increasingly model + harness + workflow + UI + memory + economics . @gdb put it bluntly: &#8220;the model alone is no longer the product,&#8221; while @dzhng argued top-tier products need model <> harness <> product symbiosis . The same pattern shows up in practice: @signulll framed ambient AI and agentic AI as the new seam of computing interfaces, and @teortaxesTex noted that harness research still risks converging on &#8220;replicate Claude Code&#8221; instead of exploring b…",
+      "summary": "a quiet day lets us tie together a few quotes as all model labs become agent labs",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
+      "whyThisMatters": ""
+    },
+    {
       "id": "01893f27aade5db8",
       "date": "2026-05-23",
       "sourceType": "newsletter",
@@ -591,6 +643,58 @@
       "whyThisMatters": ""
     },
     {
+      "id": "71082685fad517a6",
+      "date": "2026-05-23",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "China’s AI optimism isn’t what it seems",
+      "url": "https://www.chinatalk.media/p/chinas-ai-optimism-isnt-what-it-seems",
+      "publishedAt": "2026-05-22T11:03:52.000Z",
+      "content": "Zilan Qian is a research associate at the Oxford China Policy Lab and holds a Master&#8217;s degree in Social Science of the Internet from the University of Oxford. This article was originally published in Asterisk Magazine. Americans &#8212; left, right, and everywhere in between &#8212; seem to be afraid of AI. They fear data centers speeding up climate change, disinformation and deepfakes, AI companionship, and, above all, job loss from automation. Meanwhile, the Chinese public seems to be perfectly fine with the technology, or even &#8220;optimistic&#8221; about it. The polling data is striking: Stanford University&#8217;s 2026 AI Index Report shows that more than 85% of Chinese respondents see AI as more beneficial than harmful, compared to less than 45% of respondents in the United States. A 2025 report published by the University of Queensland and KPMG Australia revealed that 73% of Chinese respondents are willing to trust AI system outputs and share relevant information with AI at work, and 88% intentionally use the technology, compared to 52% and 48% of Americans, respectively. Why does Chinese society, which suffers from acute job loss and a youth unemployment rate close to 17%, embrace a technology it knows is likely to take away more jobs? The question was answered three decades ago. The answer is not a narrative about AI, but about an earlier transformation also perceived as inevitable. It is a story about how Chinese society has learned, through repeated upheaval, what it believes to be the only permissible response to disruption. Accurately interpreting that response &#8212; which is often misleadingly called &#8220;enthusiasm&#8221; &#8212; is essential to understanding that worried Americans watching China&#8217;s AI frenzy might not be looking at a rival but into a mirror. The millennium that broke two ways Lived this way for thirty years Until the great mansion collapsed The deep, dark clouds Are drowning the view in my heart. &#22914;&#27492;&#2…",
+      "summary": "The enthusiasm seems real. But for a population that lived through the mass layoffs of the 1990s, optimism and fear can look identical from the outside.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
       "id": "8d834efef6559d31",
       "date": "2026-05-23",
       "sourceType": "newsletter",
@@ -644,58 +748,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "71082685fad517a6",
-      "date": "2026-05-23",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "China’s AI optimism isn’t what it seems",
-      "url": "https://www.chinatalk.media/p/chinas-ai-optimism-isnt-what-it-seems",
-      "publishedAt": "2026-05-22T11:03:52.000Z",
-      "content": "Zilan Qian is a research associate at the Oxford China Policy Lab and holds a Master&#8217;s degree in Social Science of the Internet from the University of Oxford. This article was originally published in Asterisk Magazine. Americans &#8212; left, right, and everywhere in between &#8212; seem to be afraid of AI. They fear data centers speeding up climate change, disinformation and deepfakes, AI companionship, and, above all, job loss from automation. Meanwhile, the Chinese public seems to be perfectly fine with the technology, or even &#8220;optimistic&#8221; about it. The polling data is striking: Stanford University&#8217;s 2026 AI Index Report shows that more than 85% of Chinese respondents see AI as more beneficial than harmful, compared to less than 45% of respondents in the United States. A 2025 report published by the University of Queensland and KPMG Australia revealed that 73% of Chinese respondents are willing to trust AI system outputs and share relevant information with AI at work, and 88% intentionally use the technology, compared to 52% and 48% of Americans, respectively. Why does Chinese society, which suffers from acute job loss and a youth unemployment rate close to 17%, embrace a technology it knows is likely to take away more jobs? The question was answered three decades ago. The answer is not a narrative about AI, but about an earlier transformation also perceived as inevitable. It is a story about how Chinese society has learned, through repeated upheaval, what it believes to be the only permissible response to disruption. Accurately interpreting that response &#8212; which is often misleadingly called &#8220;enthusiasm&#8221; &#8212; is essential to understanding that worried Americans watching China&#8217;s AI frenzy might not be looking at a rival but into a mirror. The millennium that broke two ways Lived this way for thirty years Until the great mansion collapsed The deep, dark clouds Are drowning the view in my heart. &#22914;&#27492;&#2…",
-      "summary": "The enthusiasm seems real. But for a population that lived through the mass layoffs of the 1990s, optimism and fear can look identical from the outside.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "science"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -2324,43 +2376,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "3c8eae1ad13c2999",
-      "date": "2026-05-18",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:steipete",
-      "builderOrOrg": "Peter Steinberger",
-      "title": "deslop your Claude code if you haven’t yet switched to Codex. https://t.co/nJYkYASohj",
-      "url": "https://x.com/steipete/status/2055747016727167035",
-      "publishedAt": "2026-05-16T20:27:37.000Z",
-      "content": "deslop your Claude code if you haven’t yet switched to Codex. https://t.co/nJYkYASohj",
-      "summary": "deslop your Claude code if you haven’t yet switched to Codex. https://t.co/nJYkYASohj",
-      "regionTags": [],
-      "metrics": {
-        "likes": 344,
-        "retweets": 19,
-        "replies": 24
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]
