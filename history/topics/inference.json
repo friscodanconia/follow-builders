@@ -1,11 +1,62 @@
 {
-  "generatedAt": "2026-05-24T05:14:28.462Z",
+  "generatedAt": "2026-05-25T00:48:14.329Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
     {
+      "id": "143370e211a5b612",
+      "date": "2026-05-25",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "No Priors",
+      "sourceKey": "podcast:No Priors",
+      "builderOrOrg": "No Priors",
+      "title": "The Story Behind Cerebras’ $63 Billion IPO with Founder and CEO Andrew Feldman",
+      "url": "https://www.youtube.com/watch?v=jeop9wfb9jU",
+      "publishedAt": "2026-05-21T07:00:00.000Z",
+      "content": "Speaker 1 | 00:00 - 00:12 Netflix used to deliver DVDs and envelopes. And when the Internet got fast, they became a movie studio. Right? It opened up an entirely new business, something fundamentally different. That's what happens with speed. Speaker 1 | 00:12 - 00:30 And I think that's what fast AI does. Right now, we're replacing things that everybody can see, like coding, design, the SaaS tools. But once we start sort of fundamentally reorganizing around this, you're gonna see this sort of new business models and fundamental jumps in productivity. I'm eager for that. That's so cool. Speaker 2 | 00:37 - 01:01 Today at No Prize, we have Andrew Feldman, the cofounder and CEO of Cerebras. Cerebras was founded in the mid two thousand tens to focus on new workloads for AI, particularly the machine learning world, and then has made the transition in a very fast inference for the foundation model world that we live in today. Cerebras recently went public and is currently worth about $63,000,000,000 in the stock market. So Andrew, thank you for joining us on Opriors. Speaker 1 | 01:01 - 01:03 Oh, what a pleasure. It's good to see you guys again. Speaker 2 | 01:03 - 01:12 Yeah. So first of all, congratulations. So your company, Cerebras, just went public. As of today, it's a 60,000,000,000 market cap, which is pretty amazing. Pretty amazing. Speaker 2 | 01:12 - 01:27 Yeah. And I think you were with us a year or two ago on the show in one of the earlier episodes, it was a pleasure to talk to you then. Obviously, we're very excited to have you on today. Can you tell us a bit how the business evolved since that time and what you folks just a reminder for our audience what you do, what you're focused on, how you're moving forward? Speaker 1 | 01:28 - 01:43 We build AI computers. Right? Computers designed to and optimized to accelerate AI workloads. And right now, we're the the fastest at inference, not by a little bit, but by a lot. Fifteen, eighteen, 20x faster than GPUs. Speaker 1 | 01:44 - 02:08 And so what happened was starting at about 2025, AI models got smart enough to be useful. People began using them, and you know, we make AI with training, and we use it with inference. So as people began to use it, it began to to sort of be integrated into their day to day work. Speed became fundamentally important, and we were just crushed with demand. Speaker 2 | 02:08 - 02:13 Is it is this faster across the board, is this specific use cases? Faster across the board. Speaker 1 | 02:13 - 02:48 Big models, small models, US models, Chinese models, trillion parameter models, 1,000,000,000 parameter models across the board. And then what happened was at the end of the year, we signed a deal with OpenAI, of one of the biggest deals ever in Silicon Valley, sort of north of $20,000,000,000 And then in March, we signed an agreement with AWS where we will be deployed in their data centers going forward. And so it was just a whirlwind year and a half of chasing the chasing supply and trying to trying to sort of meet Speaker 2 | 02:48 - 02:54 the demand. And what what shifted in the year and in the last year and a half? Was it the ramp in manufacturing? Was it a new chip design? Was it something else? Speaker 2 | 02:54 - 02:55 Could you help educate What folks on Speaker 1 | 02:57 - 03:07 happened was we built a really, really fast machine, and for a long time nobody cared. Right? That's because Actually, forgive Speaker 3 | 03:07 - 03:14 me for saying so, but a lot of people objected and said this is just a weird architecture. They called it wrong. Like Cerubis called it wrong. Speaker 1 | 03:14 - 03:25 Yeah. Yeah. They did. I think to be radically better, right, you can't build something that is a similar architecture. Right? Speaker 1 | 03:25 - 03:52 You're not going to get 15 or 20 times better than the GPU with a minor modification to their architecture. And that's probably true across the board, that if you're going to aspire to a radical improve…",
+      "summary": "Speaker 1 | 00:00 - 00:12 Netflix used to deliver DVDs and envelopes. And when the Internet got fast, they became a movie studio. Right? It opened up an entirely new business, something fundamentally different. That's what happens with spe…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.52,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.69,
+      "whyThisMatters": ""
+    },
+    {
       "id": "a937d96dacfc825a",
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Microsoft Research Blog",
