@@ -1,8 +1,258 @@
 {
-  "generatedAt": "2026-05-25T05:51:52.394Z",
+  "generatedAt": "2026-05-26T00:35:51.348Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
+    {
+      "id": "48beea30f7d261c6",
+      "date": "2026-05-26",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:nikunj",
+      "builderOrOrg": "Nikunj Kothari",
+      "title": "Spent this weekend building a pretty rad (imo) travel CLI product that I'd love to test in publ…",
+      "url": "https://x.com/nikunj/status/2058692391708897319",
+      "publishedAt": "2026-05-24T23:31:29.000Z",
+      "content": "Spent this weekend building a pretty rad (imo) travel CLI product that I'd love to test in public.. Anyone have a trip coming up soon AND has a boatload of points? Reply here with origin, destination, point breakdown and I'll reply with the output!",
+      "summary": "Spent this weekend building a pretty rad (imo) travel CLI product that I'd love to test in public.. Anyone have a trip coming up soon AND has a boatload of points? Reply here with origin, destination, point breakdown an…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 25,
+        "retweets": 0,
+        "replies": 28
+      },
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "imo"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.63,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.76,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "653b26fff8a5add1",
+      "date": "2026-05-26",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "Benchmarking inference at scale: coding agents",
+      "url": "https://www.together.ai/blog/coding-agent-benchmarks",
+      "publishedAt": "2026-05-19T00:00:00.000Z",
+      "content": "Real-world inference benchmarks for coding agents: 31% more TPS than TensorRT-LLM, 2× better TTFT at saturation, and 76% lower cost than Claude Opus 4.6.",
+      "summary": "Real-world inference benchmarks for coding agents: 31% more TPS than TensorRT-LLM, 2× better TTFT at saturation, and 76% lower cost than Claude Opus 4.6.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "benchmark",
+            "benchmarking"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "6b1f559d1c673f8c",
+      "date": "2026-05-26",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] New AI Infra unicorns: Exa, Modal, TurboPuffer",
+      "url": "https://www.latent.space/p/ainews-new-ai-infra-unicorns-exa",
+      "publishedAt": "2026-05-22T05:50:58.000Z",
+      "content": "Take the 2026 AI Engineering Survey and get >$2k in credits and AIE WF tickets ! Congrats to all our past guests who reached huge milestones this week: Turbopuffer : $100M ARR and profitable ( our podcast ) Exa : $250M@$2.2B Series C ( our podcast ) Modal : $355M@$4.7B Series C ( our podcast ) We really need to be raising that Latent Space fund soon&#8230; but meanwhile.. help us out by taking the 2026 AI Engineering Survey and get >$2k in Notion and Vercel credits and AIE WF tickets ! AI News for 5/20/2026-5/21/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Model, Benchmark, and Research Updates: RAEv2, Gated DeltaNet-2, Data Filtering, and Open Math RAEv2 and representation-first tokenization : Several researchers highlighted RAEv2 as a meaningful follow-on to Representation Autoencoders for unified vision understanding and generation. @1jaskiratsingh says the update yields >10x faster convergence , better reconstruction, and better generation, with tests extending to text-to-image and world models . A Chinese summary from @recatm usefully extracts the three main findings: summing the last K encoder layers instead of only the final layer improves both reconstruction and generation without added inference cost; RAE and REPA are complementary across semantics vs. spatial structure; and REPA can be reformulated as an internal self-guidance mechanism, avoiding extra weak-model guidance passes. @sainingxi`e also points to new evaluation views beyond FID, arguing there is still underexplored headroom in representation-powered pixel decoders. Alternatives to standard attention and tokenizer assumptions : NVIDIA&#8217;s Gated DeltaNet-2 decouples erase and write operations in linear attention with channel-wise gates, outperforming KDA and Mamba-3 at 1.3B parameters on language mode…",
+      "summary": "a quiet day lets us feature fundraises!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.81,
+          "rationale": [
+            "benchmark",
+            "eval",
+            "evaluation"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "finding"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "vision",
+            "image"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "0b9292153eb2e7b4",
+      "date": "2026-05-26",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] OpenAI GPT-next disproves 80 year old Erdős planar unit distance problem for under $1000",
+      "url": "https://www.latent.space/p/ainews-openai-gpt-next-disproves",
+      "publishedAt": "2026-05-21T07:28:36.000Z",
+      "content": "We will leave coverage of the SpaceXAI IPO filing for the actual day of IPO. Today we celebrate OpenAI&#8217;s result, speculated to be GPT 5.6 running for <32 hours or <$1000 , on the planar unit distance problem . Similar to the 2025 IMO Gold result, this is a general purpose LLM, not an AlphaProof/Lean style dedicated model , which lends hope that this extended reasoning will generalize beyond math: Among the 125 pages of output, there exists a &#8220; page 39 moment &#8221; that is getting some attention: As the authors of the opinion letter note, this is a disproof, not a proof, which would have been more impressive, but nevertheless points towards the way of things to come: AI News for 5/4/2026-5/5/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI&#8217;s Math Breakthrough on the Erd&#337;s Unit Distance Problem A general-purpose reasoning model produced a new research result in discrete geometry : OpenAI announced that an internal model disproved a long-standing belief around the planar unit distance problem , a famous Erd&#337;s problem from 1946, discovering a new family of constructions that improves on square-grid-style solutions @OpenAI . OpenAI emphasized this was a general-purpose model , not a domain-specific math system or scaffolded solver @OpenAI , and said the result points to stronger long-horizon reasoning for science broadly @OpenAI . The result drew unusually strong validation from mathematicians and adjacent researchers. Timothy Gowers called it the first really clear example of AI solving a well-known open math problem @wtgowers , while OpenAI researcher Hongxun Wu described it as an internal reasoning-LLM milestone on &#8220;the hardest problems&#8221; @HongxunWu . Additional reactions from @thomasfbloom , @gdb , @alexwei_ , and @polynoamial conv…",
+      "summary": "a quiet day but a nice result in AI x mathematics",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.69,
+          "rationale": [
+            "reasoning",
+            "long-horizon"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "imo"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "53e4878f01426ffc",
+      "date": "2026-05-26",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "'To the Success of our Hopeless Cause'",
+      "url": "https://www.chinatalk.media/p/the-hopeless-cause-of-the-russian",
+      "publishedAt": "2026-05-24T13:45:53.000Z",
+      "content": "F. Ichiro Gifford is an energy analyst and a former civil servant, having worked in electric utilities as a planning-economist integrated resource planner. He is going through a very Soviet period in his life and recently read To the Success of Our Hopeless Cause (2024) by Benjamin Nathans, whom Jordan has interviewed on ChinaTalk ! Ichiro thinks that the story of late-Soviet dissidents (and of the Russia they lived in) offers some guidance for how we should approach the 2020s in the United States. Ichiro&#8217;s Russification has also motivated snippets of fiction written in the style of a Russian-language screenplay translated into English. A core challenge with writing a history of the Russian dissident movement is that they didn&#8217;t do much. There was a transparency meeting &#1084;&#1080;&#1090;&#1080;&#1085;&#1075; &#1075;&#1083;&#1072;&#1089;&#1085;&#1086;&#1089;&#1090;&#1080;, some international contacts that went nowhere for years, a 1968 demonstration on Red Square that served as a peak of direct action (although that was only eight people)&#8230; but little more. The Soviet dissident movement kickass books though. KGB Agent: Good afternoon. Your name is--Aleksei Blagoslavovich Nepobedimov, right? A.N.: Alyosha Blagovich is fine. And you are? KGB Agent: Andrei Il&#8217;ich. A.N.: Quite pleasant to meet you. You--you want some tea? KGB Agent: No. But I have heard you&#8217;ve picked up some new reading material. A.N.: Well--I like reading. KGB Agent: Do you like your job? A.N.: Yes. It&#8217;s good work. KGB Agent: TETs-20, 1 correct? A.N.: That&#8217;s the one. KGB Agent: Do you prefer reading more than doing your job? A.N.: The reading is just for fun. The work--that&#8217;s what helps people. KGB Agent: So why would you read material that harms people? A.N.: How do you mean? KGB Agent: You&#8217;re reading anti-Soviet propaganda. Passed in, passed on. You know that material is harmful, right? A.N.: I don&#8217;t take it seriously. KGB Agent: Why not?…",
+      "summary": "F.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "imo"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
     {
       "id": "bda7a08d45c26bae",
       "date": "2026-05-25",
@@ -93,219 +343,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.66,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "653b26fff8a5add1",
-      "date": "2026-05-25",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Together AI Blog",
-      "sourceKey": "official:Together AI Blog",
-      "builderOrOrg": "Together AI",
-      "title": "Benchmarking inference at scale: coding agents",
-      "url": "https://www.together.ai/blog/coding-agent-benchmarks",
-      "publishedAt": "2026-05-19T00:00:00.000Z",
-      "content": "Real-world inference benchmarks for coding agents: 31% more TPS than TensorRT-LLM, 2× better TTFT at saturation, and 76% lower cost than Claude Opus 4.6.",
-      "summary": "Real-world inference benchmarks for coding agents: 31% more TPS than TensorRT-LLM, 2× better TTFT at saturation, and 76% lower cost than Claude Opus 4.6.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "benchmark",
-            "benchmarking"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "6b1f559d1c673f8c",
-      "date": "2026-05-25",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] New AI Infra unicorns: Exa, Modal, TurboPuffer",
-      "url": "https://www.latent.space/p/ainews-new-ai-infra-unicorns-exa",
-      "publishedAt": "2026-05-22T05:50:58.000Z",
-      "content": "Take the 2026 AI Engineering Survey and get >$2k in credits and AIE WF tickets ! Congrats to all our past guests who reached huge milestones this week: Turbopuffer : $100M ARR and profitable ( our podcast ) Exa : $250M@$2.2B Series C ( our podcast ) Modal : $355M@$4.7B Series C ( our podcast ) We really need to be raising that Latent Space fund soon&#8230; but meanwhile.. help us out by taking the 2026 AI Engineering Survey and get >$2k in Notion and Vercel credits and AIE WF tickets ! AI News for 5/20/2026-5/21/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Model, Benchmark, and Research Updates: RAEv2, Gated DeltaNet-2, Data Filtering, and Open Math RAEv2 and representation-first tokenization : Several researchers highlighted RAEv2 as a meaningful follow-on to Representation Autoencoders for unified vision understanding and generation. @1jaskiratsingh says the update yields >10x faster convergence , better reconstruction, and better generation, with tests extending to text-to-image and world models . A Chinese summary from @recatm usefully extracts the three main findings: summing the last K encoder layers instead of only the final layer improves both reconstruction and generation without added inference cost; RAE and REPA are complementary across semantics vs. spatial structure; and REPA can be reformulated as an internal self-guidance mechanism, avoiding extra weak-model guidance passes. @sainingxi`e also points to new evaluation views beyond FID, arguing there is still underexplored headroom in representation-powered pixel decoders. Alternatives to standard attention and tokenizer assumptions : NVIDIA&#8217;s Gated DeltaNet-2 decouples erase and write operations in linear attention with channel-wise gates, outperforming KDA and Mamba-3 at 1.3B parameters on language mode…",
-      "summary": "a quiet day lets us feature fundraises!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.81,
-          "rationale": [
-            "benchmark",
-            "eval",
-            "evaluation"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "finding"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.69,
-          "rationale": [
-            "vision",
-            "image"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "0b9292153eb2e7b4",
-      "date": "2026-05-25",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] OpenAI GPT-next disproves 80 year old Erdős planar unit distance problem for under $1000",
-      "url": "https://www.latent.space/p/ainews-openai-gpt-next-disproves",
-      "publishedAt": "2026-05-21T07:28:36.000Z",
-      "content": "We will leave coverage of the SpaceXAI IPO filing for the actual day of IPO. Today we celebrate OpenAI&#8217;s result, speculated to be GPT 5.6 running for <32 hours or <$1000 , on the planar unit distance problem . Similar to the 2025 IMO Gold result, this is a general purpose LLM, not an AlphaProof/Lean style dedicated model , which lends hope that this extended reasoning will generalize beyond math: Among the 125 pages of output, there exists a &#8220; page 39 moment &#8221; that is getting some attention: As the authors of the opinion letter note, this is a disproof, not a proof, which would have been more impressive, but nevertheless points towards the way of things to come: AI News for 5/4/2026-5/5/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI&#8217;s Math Breakthrough on the Erd&#337;s Unit Distance Problem A general-purpose reasoning model produced a new research result in discrete geometry : OpenAI announced that an internal model disproved a long-standing belief around the planar unit distance problem , a famous Erd&#337;s problem from 1946, discovering a new family of constructions that improves on square-grid-style solutions @OpenAI . OpenAI emphasized this was a general-purpose model , not a domain-specific math system or scaffolded solver @OpenAI , and said the result points to stronger long-horizon reasoning for science broadly @OpenAI . The result drew unusually strong validation from mathematicians and adjacent researchers. Timothy Gowers called it the first really clear example of AI solving a well-known open math problem @wtgowers , while OpenAI researcher Hongxun Wu described it as an internal reasoning-LLM milestone on &#8220;the hardest problems&#8221; @HongxunWu . Additional reactions from @thomasfbloom , @gdb , @alexwei_ , and @polynoamial conv…",
-      "summary": "a quiet day but a nice result in AI x mathematics",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "science"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "reasoning",
-          "label": "AI Thinking",
-          "confidence": 0.69,
-          "rationale": [
-            "reasoning",
-            "long-horizon"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "imo"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "53e4878f01426ffc",
-      "date": "2026-05-25",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "'To the Success of our Hopeless Cause'",
-      "url": "https://www.chinatalk.media/p/the-hopeless-cause-of-the-russian",
-      "publishedAt": "2026-05-24T13:45:53.000Z",
-      "content": "F. Ichiro Gifford is an energy analyst and a former civil servant, having worked in electric utilities as a planning-economist integrated resource planner. He is going through a very Soviet period in his life and recently read To the Success of Our Hopeless Cause (2024) by Benjamin Nathans, whom Jordan has interviewed on ChinaTalk ! Ichiro thinks that the story of late-Soviet dissidents (and of the Russia they lived in) offers some guidance for how we should approach the 2020s in the United States. Ichiro&#8217;s Russification has also motivated snippets of fiction written in the style of a Russian-language screenplay translated into English. A core challenge with writing a history of the Russian dissident movement is that they didn&#8217;t do much. There was a transparency meeting &#1084;&#1080;&#1090;&#1080;&#1085;&#1075; &#1075;&#1083;&#1072;&#1089;&#1085;&#1086;&#1089;&#1090;&#1080;, some international contacts that went nowhere for years, a 1968 demonstration on Red Square that served as a peak of direct action (although that was only eight people)&#8230; but little more. The Soviet dissident movement kickass books though. KGB Agent: Good afternoon. Your name is--Aleksei Blagoslavovich Nepobedimov, right? A.N.: Alyosha Blagovich is fine. And you are? KGB Agent: Andrei Il&#8217;ich. A.N.: Quite pleasant to meet you. You--you want some tea? KGB Agent: No. But I have heard you&#8217;ve picked up some new reading material. A.N.: Well--I like reading. KGB Agent: Do you like your job? A.N.: Yes. It&#8217;s good work. KGB Agent: TETs-20, 1 correct? A.N.: That&#8217;s the one. KGB Agent: Do you prefer reading more than doing your job? A.N.: The reading is just for fun. The work--that&#8217;s what helps people. KGB Agent: So why would you read material that harms people? A.N.: How do you mean? KGB Agent: You&#8217;re reading anti-Soviet propaganda. Passed in, passed on. You know that material is harmful, right? A.N.: I don&#8217;t take it seriously. KGB Agent: Why not?…",
-      "summary": "F.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "imo"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -2351,42 +2388,6 @@
             "imo"
           ],
           "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "3e9cbb914a6ee022",
-      "date": "2026-04-08",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google DeepMind Blog",
-      "sourceKey": "official:Google DeepMind Blog",
-      "builderOrOrg": "Google DeepMind",
-      "title": "Measuring progress toward AGI: A cognitive framework",
-      "url": "https://deepmind.google/blog/measuring-progress-toward-agi-a-cognitive-framework/",
-      "publishedAt": "2026-03-17T16:03:47.000Z",
-      "content": "We’re introducing a framework to measure progress toward AGI, and launching a Kaggle hackathon to build the relevant evaluations.",
-      "summary": "We’re introducing a framework to measure progress toward AGI, and launching a Kaggle hackathon to build the relevant evaluations.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "eval",
-            "evaluation"
-          ],
-          "score": 2
         }
       ],
       "section": "Official Sources",
