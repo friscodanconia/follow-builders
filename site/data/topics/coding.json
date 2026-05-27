@@ -1,8 +1,497 @@
 {
-  "generatedAt": "2026-05-26T05:15:27.771Z",
+  "generatedAt": "2026-05-27T01:28:15.671Z",
   "slug": "coding",
   "label": "Coding",
   "items": [
+    {
+      "id": "4f2b66490857b7c8",
+      "date": "2026-05-27",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:petergyang",
+      "builderOrOrg": "Peter Yang",
+      "title": "Codex is very good. I'm especially impressed by how it uses the browse to test its own work. Bu…",
+      "url": "https://x.com/petergyang/status/2059099566377693305",
+      "publishedAt": "2026-05-26T02:29:27.000Z",
+      "content": "Codex is very good. I'm especially impressed by how it uses the browse to test its own work. But any design related / frontend tasks, Claude still wins.",
+      "summary": "Codex is very good. I'm especially impressed by how it uses the browse to test its own work. But any design related / frontend tasks, Claude still wins.",
+      "regionTags": [],
+      "metrics": {
+        "likes": 239,
+        "retweets": 8,
+        "replies": 48
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "b1d7da41712fd406",
+      "date": "2026-05-27",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:garrytan",
+      "builderOrOrg": "Garry Tan",
+      "title": "By evals I mean literally tell the agent: given what we discussed about what we are doing and w…",
+      "url": "https://x.com/garrytan/status/2059148823403082154",
+      "publishedAt": "2026-05-26T05:45:11.000Z",
+      "content": "By evals I mean literally tell the agent: given what we discussed about what we are doing and why and what happened, use three different frontier models to look at inputs and outputs of your skill file calling the code, and rate it on effectiveness. Why isn’t it a 10? How could it be made to be so? Run this a few times and you will be surprised how fast it gets astonishingly better And since it is in a skill file plus code with evals (LLM as judge) and unit tests, it stays better forever",
+      "summary": "By evals I mean literally tell the agent: given what we discussed about what we are doing and why and what happened, use three different frontier models to look at inputs and outputs of your skill file calling the code,…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 26,
+        "retweets": 1,
+        "replies": 1
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.78,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.86,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "da7aa5a5f5093b6f",
+      "date": "2026-05-27",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "How Virgin Atlantic ships faster with Codex",
+      "url": "https://openai.com/index/virgin-atlantic",
+      "publishedAt": "2026-05-22T00:00:00.000Z",
+      "content": "How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects.",
+      "summary": "How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "4e2e7f167abb8ac2",
+      "date": "2026-05-27",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
+      "url": "https://openai.com/index/gartner-2026-agentic-coding-leader",
+      "publishedAt": "2026-05-22T00:00:00.000Z",
+      "content": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.",
+      "summary": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.69,
+          "rationale": [
+            "enterprise",
+            "deployment"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.8,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.63,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "91b54da096be95a7",
+      "date": "2026-05-27",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "MagenticLite, MagenticBrain, Fara1.5: An agentic experience optimized for small models",
+      "url": "https://www.microsoft.com/en-us/research/blog/magenticlite-magenticbrain-fara1-5-an-agentic-experience-optimized-for-small-models/",
+      "publishedAt": "2026-05-21T17:00:00.000Z",
+      "content": "At a glance MagenticLite is an agentic application that works across both the browser and local file system in a single workflow. Built as the next generation of Magentic-UI, it combines a redesigned app with a harness optimized for small models. MagenticBrain and Fara1.5 are small models designed for orchestration and computer-use tasks, respectively. Fara1.5 is the next iteration of Fara and delivers measurable gains on real-world browser tasks. Together, these releases explore how far agentic performance can be pushed with smaller models, codesigned tools, and an optimized execution harness. Today, Microsoft Research AI Frontiers releases MagenticLite (opens in new tab) , an experimental agentic application designed for small models. As the next generation of Magentic-UI, it works across the browser and local file system in a single workflow. MagenticLite is powered by two purpose-built models: MagenticBrain, for reasoning, delegation, and terminal use, and Fara1.5, a computer-use model family for browser-based tasks. The three components were designed to work together as a single system. The result is an agent that runs efficiently, keeps data on the user’s machine, and supports a broad range of agentic tasks. It also points toward a broader goal: capable agents that can run directly on users’ hardware. The project is built around a key research bet: that agentic capability depends on tool orchestration and action rather than knowledge alone. That insight makes it possible to use smaller models while still enabling a broad range of agentic tasks at a fraction of the cost. MagenticLite also reflects how we approach agentic AI end-to-end—from training data and model design to orchestration, interaction design, and human oversight throughout the experience. Figure 1. One experience, three components: MagenticLite, MagenticBrain, and Fara1.5. Included in this release MagenticLite (opens in new tab) The next generation of Magentic-UI , our experimental agentic exper…",
+      "summary": "MagenticLite is an agentic system for small models that works across the browser and local file system in a single workflow. It combines specialized models and orchestration to support efficient agentic performance on everyday tasks. The p…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.69,
+          "rationale": [
+            "tools",
+            "browser"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "a3008f64c7b0a0de",
+      "date": "2026-05-27",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "Remote agents in Vibe. Powered by Mistral Medium 3.5. | Mistral AI",
+      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5",
+      "publishedAt": null,
+      "content": "Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks.",
+      "summary": "Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "131e0ac893645338",
+      "date": "2026-05-27",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] All Model Labs are now Agent Labs",
+      "url": "https://www.latent.space/p/ainews-all-model-labs-are-now-agent",
+      "publishedAt": "2026-05-23T04:21:17.000Z",
+      "content": "Ahead of OpenAI&#8217;s likely IPO filing next week, Greg makes the latest in a series of comments where Model Labs are increasingly also building Agents as the product: The quote is a big reversal of stance from a position ~uniformly held by anyone who worked at Team Big Model , including his previous head of OpenAI Labs : This comes with the shuttering of AI21&#8217;s model team, which is now pivoting to agents: and even the venerable DeepSeek is now building a &#8220;Harness team&#8221; for the first time: The &#8220;Systems over Models&#8221; people will take this as a point of validation of what they have been saying all along&#8230; except for the nuance that models cotrained with harnesses does open the door for closing access to models even further &#8212; if you can effectively posttrain a model to only meaningfully perform with your closed source agent, then you get to funnel the majority of users to your agent at the expense of your model/API co-opetition. But that&#8217;s a topic of a much larger discussion&#8230; AI News for 5/4/2026-5/5/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Agent Products, Harnesses, and the Shift Beyond &#8220;Just the Model&#8221; The product surface is moving up-stack : A recurring theme was that model quality alone is no longer the moat; the winning product is increasingly model + harness + workflow + UI + memory + economics . @gdb put it bluntly: &#8220;the model alone is no longer the product,&#8221; while @dzhng argued top-tier products need model <> harness <> product symbiosis . The same pattern shows up in practice: @signulll framed ambient AI and agentic AI as the new seam of computing interfaces, and @teortaxesTex noted that harness research still risks converging on &#8220;replicate Claude Code&#8221; instead of exploring b…",
+      "summary": "a quiet day lets us tie together a few quotes as all model labs become agent labs",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "01893f27aade5db8",
+      "date": "2026-05-27",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Giving Agents Computers — Ivan Burazin, Daytona",
+      "url": "https://www.latent.space/p/daytona",
+      "publishedAt": "2026-05-21T20:37:40.000Z",
+      "content": "Take the 2026 AI Engineering Survey and get >$2k in credits and AIE WF tickets ! On the product side, everyone is getting Computer - Perplexity , Manus , Cursor , and so on. Meanwhile on the research side, agentic evals like TerminalBench and GDPVal are also assuming computer ( Harbor ). On both ends, the consolidating LLM OS stack has become a standard toolkit, and Daytona is one of a small set of AI Infra companies that are booming because of it. &#8220;The end of localhost&#8221; has been Ivan Burazin&#8217;s obsession for more than a decade. Something that is all too familiar&#8230; Infobip Shift 2022 Long before agents became the default way people talked about software development, Ivan was already chasing the idea that development should not depend on a fragile local machine . CodeAnywhere , one of the first browser-based IDEs, was an early attempt at that future: move the development environment into the cloud, make setup reproducible, and free developers from the endless &#8220;works on my machine&#8221; tax. The thesis was directionally right, but the market wasn&#8217;t ready yet. However, agents changed that. They do not care about a laptop, desk setup, or favorite editor. They need a computer they can access through an API: something stateful enough to keep working, fast enough to spin up instantly, flexible enough to resize, isolated enough to be safe, and composable enough to run the messy real-world workflows that real software engineering actually requires. Daytona isn&#8217;t just selling &#8220;sandboxes&#8221; in the narrow code-execution sense. It is the latest version of Ivan&#8217;s original localhost thesis . In this episode, Daytona&#8217;s CEO joins swyx to explain why AI agents need more than code execution boxes : they need composable computers, stateful sandboxes, instant startup, dynamic resources, and infrastructure that can survive workloads going from zero to 100,000 CPUs. We go deep on the new agent compute market : Daytona&#8217;s…",
+      "summary": "We chat with Daytona's CEO about their insane 74% MoM Growth, 850K Daily Runs, Bare Metal Sandboxes, RL Evals, and the New Agent Cloud",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "developer"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "3a55f99c5dabddbd",
+      "date": "2026-05-27",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Railway: The Agent-Native Cloud — Jake Cooper",
+      "url": "https://www.latent.space/p/railway",
+      "publishedAt": "2026-05-20T22:42:06.000Z",
+      "content": "Take the 2026 AI Engineering Survey and get >$2k in credits and AIE WF tickets ! This was recorded before Railway suffered a major GCP outage on May 19, despite being a multi-AZ, multi-zone mesh ring, with HA fiber interconnects between their Metal <> GCP <> AWS, because workload discoverability was unintentionally still tied to GCP. All has been resolved with a post-mortem . Railway did not start as an AI infrastructure company. It was founded in 2020 years before agents became the default way people thought about deploying software. Jake Cooper , formerly at Bloomberg and Uber, started Railway with a simple obsession: the activation energy to ship something to production should be near zero. Push code, get a URL, iterate. No Docker files, no Kubernetes manifests, no Ansible scripts stacked on Ansible scripts. For years, this was a slow grind. Railway spent its first 18 months hand-acquiring its first 100 users with Jake personally greeting every Discord signup on a second monitor. src Today, Railway has raised $124m and is growing very fast. A 35-person team supports 3 million users, adding roughly 100,000 signups a week. Their bare metal data centers have a 3-month payback period vs. renting in the cloud, with 70% margins funding aggressive cloud bursting when needed. The servers they own have actually appreciated in value as RAM prices have climbed basically meaning the value of their hardware now exceeds the capital they've raised. From rebuilding Railway&#8217;s network overlay over a weekend to moving the vast majority of workloads onto its own bare metal data centers , Jake Cooper is trying to build a new cloud for an agent-native world . In this episode, Railway&#8217;s founder and &#8220;conductor&#8221; joins swyx and Alessio to unpack why the next era of software infrastructure is not just &#8220; Heroku but newer,&#8221; what agents need that humans did not, and why the old deployment loop of Git, PRs, CI/CD, and static cloud resources may be heading f…",
+      "summary": "3M Users, 100K Signups/Week, Own-Metal Data Centers, $200K+ Coding Agent Spend, and the Death of PRs",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "deployment"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.62,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.51,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "71082685fad517a6",
+      "date": "2026-05-27",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "China’s AI optimism isn’t what it seems",
+      "url": "https://www.chinatalk.media/p/chinas-ai-optimism-isnt-what-it-seems",
+      "publishedAt": "2026-05-22T11:03:52.000Z",
+      "content": "Zilan Qian is a research associate at the Oxford China Policy Lab and holds a Master&#8217;s degree in Social Science of the Internet from the University of Oxford. This article was originally published in Asterisk Magazine. Americans &#8212; left, right, and everywhere in between &#8212; seem to be afraid of AI. They fear data centers speeding up climate change, disinformation and deepfakes, AI companionship, and, above all, job loss from automation. Meanwhile, the Chinese public seems to be perfectly fine with the technology, or even &#8220;optimistic&#8221; about it. The polling data is striking: Stanford University&#8217;s 2026 AI Index Report shows that more than 85% of Chinese respondents see AI as more beneficial than harmful, compared to less than 45% of respondents in the United States. A 2025 report published by the University of Queensland and KPMG Australia revealed that 73% of Chinese respondents are willing to trust AI system outputs and share relevant information with AI at work, and 88% intentionally use the technology, compared to 52% and 48% of Americans, respectively. Why does Chinese society, which suffers from acute job loss and a youth unemployment rate close to 17%, embrace a technology it knows is likely to take away more jobs? The question was answered three decades ago. The answer is not a narrative about AI, but about an earlier transformation also perceived as inevitable. It is a story about how Chinese society has learned, through repeated upheaval, what it believes to be the only permissible response to disruption. Accurately interpreting that response &#8212; which is often misleadingly called &#8220;enthusiasm&#8221; &#8212; is essential to understanding that worried Americans watching China&#8217;s AI frenzy might not be looking at a rival but into a mirror. The millennium that broke two ways Lived this way for thirty years Until the great mansion collapsed The deep, dark clouds Are drowning the view in my heart. &#22914;&#27492;&#2…",
+      "summary": "The enthusiasm seems real. But for a population that lived through the mass layoffs of the 1990s, optimism and fear can look identical from the outside.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
     {
       "id": "5844dfa476a95a8a",
       "date": "2026-05-26",
@@ -243,151 +732,6 @@
       "whyThisMatters": ""
     },
     {
-      "id": "da7aa5a5f5093b6f",
-      "date": "2026-05-26",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "How Virgin Atlantic ships faster with Codex",
-      "url": "https://openai.com/index/virgin-atlantic",
-      "publishedAt": "2026-05-22T00:00:00.000Z",
-      "content": "How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects.",
-      "summary": "How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4e2e7f167abb8ac2",
-      "date": "2026-05-26",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
-      "url": "https://openai.com/index/gartner-2026-agentic-coding-leader",
-      "publishedAt": "2026-05-22T00:00:00.000Z",
-      "content": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.",
-      "summary": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.69,
-          "rationale": [
-            "enterprise",
-            "deployment"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.8,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.63,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "91b54da096be95a7",
-      "date": "2026-05-26",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "MagenticLite, MagenticBrain, Fara1.5: An agentic experience optimized for small models",
-      "url": "https://www.microsoft.com/en-us/research/blog/magenticlite-magenticbrain-fara1-5-an-agentic-experience-optimized-for-small-models/",
-      "publishedAt": "2026-05-21T17:00:00.000Z",
-      "content": "At a glance MagenticLite is an agentic application that works across both the browser and local file system in a single workflow. Built as the next generation of Magentic-UI, it combines a redesigned app with a harness optimized for small models. MagenticBrain and Fara1.5 are small models designed for orchestration and computer-use tasks, respectively. Fara1.5 is the next iteration of Fara and delivers measurable gains on real-world browser tasks. Together, these releases explore how far agentic performance can be pushed with smaller models, codesigned tools, and an optimized execution harness. Today, Microsoft Research AI Frontiers releases MagenticLite (opens in new tab) , an experimental agentic application designed for small models. As the next generation of Magentic-UI, it works across the browser and local file system in a single workflow. MagenticLite is powered by two purpose-built models: MagenticBrain, for reasoning, delegation, and terminal use, and Fara1.5, a computer-use model family for browser-based tasks. The three components were designed to work together as a single system. The result is an agent that runs efficiently, keeps data on the user’s machine, and supports a broad range of agentic tasks. It also points toward a broader goal: capable agents that can run directly on users’ hardware. The project is built around a key research bet: that agentic capability depends on tool orchestration and action rather than knowledge alone. That insight makes it possible to use smaller models while still enabling a broad range of agentic tasks at a fraction of the cost. MagenticLite also reflects how we approach agentic AI end-to-end—from training data and model design to orchestration, interaction design, and human oversight throughout the experience. Figure 1. One experience, three components: MagenticLite, MagenticBrain, and Fara1.5. Included in this release MagenticLite (opens in new tab) The next generation of Magentic-UI , our experimental agentic exper…",
-      "summary": "MagenticLite is an agentic system for small models that works across the browser and local file system in a single workflow. It combines specialized models and orchestration to support efficient agentic performance on everyday tasks. The p…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.69,
-          "rationale": [
-            "tools",
-            "browser"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
       "id": "653b26fff8a5add1",
       "date": "2026-05-26",
       "sourceType": "newsletter",
@@ -439,258 +783,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a3008f64c7b0a0de",
-      "date": "2026-05-26",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Mistral AI Blog",
-      "sourceKey": "official:Mistral AI Blog",
-      "builderOrOrg": "Mistral AI",
-      "title": "Remote agents in Vibe. Powered by Mistral Medium 3.5. | Mistral AI",
-      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5",
-      "publishedAt": null,
-      "content": "Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks.",
-      "summary": "Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "131e0ac893645338",
-      "date": "2026-05-26",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] All Model Labs are now Agent Labs",
-      "url": "https://www.latent.space/p/ainews-all-model-labs-are-now-agent",
-      "publishedAt": "2026-05-23T04:21:17.000Z",
-      "content": "Ahead of OpenAI&#8217;s likely IPO filing next week, Greg makes the latest in a series of comments where Model Labs are increasingly also building Agents as the product: The quote is a big reversal of stance from a position ~uniformly held by anyone who worked at Team Big Model , including his previous head of OpenAI Labs : This comes with the shuttering of AI21&#8217;s model team, which is now pivoting to agents: and even the venerable DeepSeek is now building a &#8220;Harness team&#8221; for the first time: The &#8220;Systems over Models&#8221; people will take this as a point of validation of what they have been saying all along&#8230; except for the nuance that models cotrained with harnesses does open the door for closing access to models even further &#8212; if you can effectively posttrain a model to only meaningfully perform with your closed source agent, then you get to funnel the majority of users to your agent at the expense of your model/API co-opetition. But that&#8217;s a topic of a much larger discussion&#8230; AI News for 5/4/2026-5/5/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Agent Products, Harnesses, and the Shift Beyond &#8220;Just the Model&#8221; The product surface is moving up-stack : A recurring theme was that model quality alone is no longer the moat; the winning product is increasingly model + harness + workflow + UI + memory + economics . @gdb put it bluntly: &#8220;the model alone is no longer the product,&#8221; while @dzhng argued top-tier products need model <> harness <> product symbiosis . The same pattern shows up in practice: @signulll framed ambient AI and agentic AI as the new seam of computing interfaces, and @teortaxesTex noted that harness research still risks converging on &#8220;replicate Claude Code&#8221; instead of exploring b…",
-      "summary": "a quiet day lets us tie together a few quotes as all model labs become agent labs",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "01893f27aade5db8",
-      "date": "2026-05-26",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "Giving Agents Computers — Ivan Burazin, Daytona",
-      "url": "https://www.latent.space/p/daytona",
-      "publishedAt": "2026-05-21T20:37:40.000Z",
-      "content": "Take the 2026 AI Engineering Survey and get >$2k in credits and AIE WF tickets ! On the product side, everyone is getting Computer - Perplexity , Manus , Cursor , and so on. Meanwhile on the research side, agentic evals like TerminalBench and GDPVal are also assuming computer ( Harbor ). On both ends, the consolidating LLM OS stack has become a standard toolkit, and Daytona is one of a small set of AI Infra companies that are booming because of it. &#8220;The end of localhost&#8221; has been Ivan Burazin&#8217;s obsession for more than a decade. Something that is all too familiar&#8230; Infobip Shift 2022 Long before agents became the default way people talked about software development, Ivan was already chasing the idea that development should not depend on a fragile local machine . CodeAnywhere , one of the first browser-based IDEs, was an early attempt at that future: move the development environment into the cloud, make setup reproducible, and free developers from the endless &#8220;works on my machine&#8221; tax. The thesis was directionally right, but the market wasn&#8217;t ready yet. However, agents changed that. They do not care about a laptop, desk setup, or favorite editor. They need a computer they can access through an API: something stateful enough to keep working, fast enough to spin up instantly, flexible enough to resize, isolated enough to be safe, and composable enough to run the messy real-world workflows that real software engineering actually requires. Daytona isn&#8217;t just selling &#8220;sandboxes&#8221; in the narrow code-execution sense. It is the latest version of Ivan&#8217;s original localhost thesis . In this episode, Daytona&#8217;s CEO joins swyx to explain why AI agents need more than code execution boxes : they need composable computers, stateful sandboxes, instant startup, dynamic resources, and infrastructure that can survive workloads going from zero to 100,000 CPUs. We go deep on the new agent compute market : Daytona&#8217;s…",
-      "summary": "We chat with Daytona's CEO about their insane 74% MoM Growth, 850K Daily Runs, Bare Metal Sandboxes, RL Evals, and the New Agent Cloud",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "code",
-            "developer"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "3a55f99c5dabddbd",
-      "date": "2026-05-26",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "Railway: The Agent-Native Cloud — Jake Cooper",
-      "url": "https://www.latent.space/p/railway",
-      "publishedAt": "2026-05-20T22:42:06.000Z",
-      "content": "Take the 2026 AI Engineering Survey and get >$2k in credits and AIE WF tickets ! This was recorded before Railway suffered a major GCP outage on May 19, despite being a multi-AZ, multi-zone mesh ring, with HA fiber interconnects between their Metal <> GCP <> AWS, because workload discoverability was unintentionally still tied to GCP. All has been resolved with a post-mortem . Railway did not start as an AI infrastructure company. It was founded in 2020 years before agents became the default way people thought about deploying software. Jake Cooper , formerly at Bloomberg and Uber, started Railway with a simple obsession: the activation energy to ship something to production should be near zero. Push code, get a URL, iterate. No Docker files, no Kubernetes manifests, no Ansible scripts stacked on Ansible scripts. For years, this was a slow grind. Railway spent its first 18 months hand-acquiring its first 100 users with Jake personally greeting every Discord signup on a second monitor. src Today, Railway has raised $124m and is growing very fast. A 35-person team supports 3 million users, adding roughly 100,000 signups a week. Their bare metal data centers have a 3-month payback period vs. renting in the cloud, with 70% margins funding aggressive cloud bursting when needed. The servers they own have actually appreciated in value as RAM prices have climbed basically meaning the value of their hardware now exceeds the capital they've raised. From rebuilding Railway&#8217;s network overlay over a weekend to moving the vast majority of workloads onto its own bare metal data centers , Jake Cooper is trying to build a new cloud for an agent-native world . In this episode, Railway&#8217;s founder and &#8220;conductor&#8221; joins swyx and Alessio to unpack why the next era of software infrastructure is not just &#8220; Heroku but newer,&#8221; what agents need that humans did not, and why the old deployment loop of Git, PRs, CI/CD, and static cloud resources may be heading f…",
-      "summary": "3M Users, 100K Signups/Week, Own-Metal Data Centers, $200K+ Coding Agent Spend, and the Death of PRs",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "deployment"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.62,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.51,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "71082685fad517a6",
-      "date": "2026-05-26",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "China’s AI optimism isn’t what it seems",
-      "url": "https://www.chinatalk.media/p/chinas-ai-optimism-isnt-what-it-seems",
-      "publishedAt": "2026-05-22T11:03:52.000Z",
-      "content": "Zilan Qian is a research associate at the Oxford China Policy Lab and holds a Master&#8217;s degree in Social Science of the Internet from the University of Oxford. This article was originally published in Asterisk Magazine. Americans &#8212; left, right, and everywhere in between &#8212; seem to be afraid of AI. They fear data centers speeding up climate change, disinformation and deepfakes, AI companionship, and, above all, job loss from automation. Meanwhile, the Chinese public seems to be perfectly fine with the technology, or even &#8220;optimistic&#8221; about it. The polling data is striking: Stanford University&#8217;s 2026 AI Index Report shows that more than 85% of Chinese respondents see AI as more beneficial than harmful, compared to less than 45% of respondents in the United States. A 2025 report published by the University of Queensland and KPMG Australia revealed that 73% of Chinese respondents are willing to trust AI system outputs and share relevant information with AI at work, and 88% intentionally use the technology, compared to 52% and 48% of Americans, respectively. Why does Chinese society, which suffers from acute job loss and a youth unemployment rate close to 17%, embrace a technology it knows is likely to take away more jobs? The question was answered three decades ago. The answer is not a narrative about AI, but about an earlier transformation also perceived as inevitable. It is a story about how Chinese society has learned, through repeated upheaval, what it believes to be the only permissible response to disruption. Accurately interpreting that response &#8212; which is often misleadingly called &#8220;enthusiasm&#8221; &#8212; is essential to understanding that worried Americans watching China&#8217;s AI frenzy might not be looking at a rival but into a mirror. The millennium that broke two ways Lived this way for thirty years Until the great mansion collapsed The deep, dark clouds Are drowning the view in my heart. &#22914;&#27492;&#2…",
-      "summary": "The enthusiasm seems real. But for a population that lived through the mass layoffs of the 1990s, optimism and fear can look identical from the outside.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "science"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -2294,107 +2386,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "ff2e496da720f931",
-      "date": "2026-05-20",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "This is true of all agents, not just coding agents. Probably the biggest challenge that most co…",
-      "url": "https://x.com/levie/status/2056574979236409521",
-      "publishedAt": "2026-05-19T03:17:39.000Z",
-      "content": "This is true of all agents, not just coding agents. Probably the biggest challenge that most companies run into in their agent strategy is getting agents the right constrained context to work with for a task. Too much information or conflicting sources, and the agent can easily draw from the data and produce the wrong result. Conflicting sources of truth for documents, data sources that haven’t been kept up to date, knowledge management systems that rely on tribal knowledge to navigate, and so…",
-      "summary": "This is true of all agents, not just coding agents. Probably the biggest challenge that most companies run into in their agent strategy is getting agents the right constrained context to work with for a task. Too much i…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 132,
-        "retweets": 14,
-        "replies": 25
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "1363bb6fd70857b2",
-      "date": "2026-05-20",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:garrytan",
-      "builderOrOrg": "Garry Tan",
-      "title": "Full eval report and fixtures published and open source here https://t.co/uuaaeAYzGI Any memory…",
-      "url": "https://x.com/garrytan/status/2056571771965538501",
-      "publishedAt": "2026-05-19T03:04:54.000Z",
-      "content": "Full eval report and fixtures published and open source here https://t.co/uuaaeAYzGI Any memory system is welcome to run theirs against these evals and I'll publish them alongside. https://t.co/rlIyzIEwZS",
-      "summary": "Full eval report and fixtures published and open source here https://t.co/uuaaeAYzGI Any memory system is welcome to run theirs against these evals and I'll publish them alongside. https://t.co/rlIyzIEwZS",
-      "regionTags": [],
-      "metrics": {
-        "likes": 8,
-        "retweets": 0,
-        "replies": 1
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open source"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     }
   ]

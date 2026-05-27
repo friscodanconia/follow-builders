@@ -1,8 +1,63 @@
 {
-  "generatedAt": "2026-05-26T05:15:27.771Z",
+  "generatedAt": "2026-05-27T01:28:15.671Z",
   "slug": "tool-use",
   "label": "AI Using Tools",
   "items": [
+    {
+      "id": "91b54da096be95a7",
+      "date": "2026-05-27",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "MagenticLite, MagenticBrain, Fara1.5: An agentic experience optimized for small models",
+      "url": "https://www.microsoft.com/en-us/research/blog/magenticlite-magenticbrain-fara1-5-an-agentic-experience-optimized-for-small-models/",
+      "publishedAt": "2026-05-21T17:00:00.000Z",
+      "content": "At a glance MagenticLite is an agentic application that works across both the browser and local file system in a single workflow. Built as the next generation of Magentic-UI, it combines a redesigned app with a harness optimized for small models. MagenticBrain and Fara1.5 are small models designed for orchestration and computer-use tasks, respectively. Fara1.5 is the next iteration of Fara and delivers measurable gains on real-world browser tasks. Together, these releases explore how far agentic performance can be pushed with smaller models, codesigned tools, and an optimized execution harness. Today, Microsoft Research AI Frontiers releases MagenticLite (opens in new tab) , an experimental agentic application designed for small models. As the next generation of Magentic-UI, it works across the browser and local file system in a single workflow. MagenticLite is powered by two purpose-built models: MagenticBrain, for reasoning, delegation, and terminal use, and Fara1.5, a computer-use model family for browser-based tasks. The three components were designed to work together as a single system. The result is an agent that runs efficiently, keeps data on the user’s machine, and supports a broad range of agentic tasks. It also points toward a broader goal: capable agents that can run directly on users’ hardware. The project is built around a key research bet: that agentic capability depends on tool orchestration and action rather than knowledge alone. That insight makes it possible to use smaller models while still enabling a broad range of agentic tasks at a fraction of the cost. MagenticLite also reflects how we approach agentic AI end-to-end—from training data and model design to orchestration, interaction design, and human oversight throughout the experience. Figure 1. One experience, three components: MagenticLite, MagenticBrain, and Fara1.5. Included in this release MagenticLite (opens in new tab) The next generation of Magentic-UI , our experimental agentic exper…",
+      "summary": "MagenticLite is an agentic system for small models that works across the browser and local file system in a single workflow. It combines specialized models and orchestration to support efficient agentic performance on everyday tasks. The p…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.69,
+          "rationale": [
+            "tools",
+            "browser"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
     {
       "id": "e26db0c0031992b3",
       "date": "2026-05-26",
@@ -56,61 +111,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "91b54da096be95a7",
-      "date": "2026-05-26",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "MagenticLite, MagenticBrain, Fara1.5: An agentic experience optimized for small models",
-      "url": "https://www.microsoft.com/en-us/research/blog/magenticlite-magenticbrain-fara1-5-an-agentic-experience-optimized-for-small-models/",
-      "publishedAt": "2026-05-21T17:00:00.000Z",
-      "content": "At a glance MagenticLite is an agentic application that works across both the browser and local file system in a single workflow. Built as the next generation of Magentic-UI, it combines a redesigned app with a harness optimized for small models. MagenticBrain and Fara1.5 are small models designed for orchestration and computer-use tasks, respectively. Fara1.5 is the next iteration of Fara and delivers measurable gains on real-world browser tasks. Together, these releases explore how far agentic performance can be pushed with smaller models, codesigned tools, and an optimized execution harness. Today, Microsoft Research AI Frontiers releases MagenticLite (opens in new tab) , an experimental agentic application designed for small models. As the next generation of Magentic-UI, it works across the browser and local file system in a single workflow. MagenticLite is powered by two purpose-built models: MagenticBrain, for reasoning, delegation, and terminal use, and Fara1.5, a computer-use model family for browser-based tasks. The three components were designed to work together as a single system. The result is an agent that runs efficiently, keeps data on the user’s machine, and supports a broad range of agentic tasks. It also points toward a broader goal: capable agents that can run directly on users’ hardware. The project is built around a key research bet: that agentic capability depends on tool orchestration and action rather than knowledge alone. That insight makes it possible to use smaller models while still enabling a broad range of agentic tasks at a fraction of the cost. MagenticLite also reflects how we approach agentic AI end-to-end—from training data and model design to orchestration, interaction design, and human oversight throughout the experience. Figure 1. One experience, three components: MagenticLite, MagenticBrain, and Fara1.5. Included in this release MagenticLite (opens in new tab) The next generation of Magentic-UI , our experimental agentic exper…",
-      "summary": "MagenticLite is an agentic system for small models that works across the browser and local file system in a single workflow. It combines specialized models and orchestration to support efficient agentic performance on everyday tasks. The p…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.69,
-          "rationale": [
-            "tools",
-            "browser"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
       "whyThisMatters": ""
     },
     {
