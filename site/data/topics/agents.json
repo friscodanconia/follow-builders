@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T01:28:15.671Z",
+  "generatedAt": "2026-05-27T04:54:07.616Z",
   "slug": "agents",
   "label": "AI Assistants",
   "items": [
@@ -35,9 +35,9 @@
       ],
       "section": "Builders",
       "importanceScore": 0.8,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.87,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.63,
       "whyThisMatters": ""
     },
     {
@@ -90,9 +90,9 @@
       ],
       "section": "Builders",
       "importanceScore": 0.78,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.86,
+      "digestScore": 0.61,
       "whyThisMatters": ""
     },
     {
@@ -127,9 +127,9 @@
       ],
       "section": "Builders",
       "importanceScore": 0.84,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.9,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.65,
       "whyThisMatters": ""
     },
     {
@@ -447,57 +447,6 @@
       "whyThisMatters": ""
     },
     {
-      "id": "3a55f99c5dabddbd",
-      "date": "2026-05-27",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "Railway: The Agent-Native Cloud — Jake Cooper",
-      "url": "https://www.latent.space/p/railway",
-      "publishedAt": "2026-05-20T22:42:06.000Z",
-      "content": "Take the 2026 AI Engineering Survey and get >$2k in credits and AIE WF tickets ! This was recorded before Railway suffered a major GCP outage on May 19, despite being a multi-AZ, multi-zone mesh ring, with HA fiber interconnects between their Metal <> GCP <> AWS, because workload discoverability was unintentionally still tied to GCP. All has been resolved with a post-mortem . Railway did not start as an AI infrastructure company. It was founded in 2020 years before agents became the default way people thought about deploying software. Jake Cooper , formerly at Bloomberg and Uber, started Railway with a simple obsession: the activation energy to ship something to production should be near zero. Push code, get a URL, iterate. No Docker files, no Kubernetes manifests, no Ansible scripts stacked on Ansible scripts. For years, this was a slow grind. Railway spent its first 18 months hand-acquiring its first 100 users with Jake personally greeting every Discord signup on a second monitor. src Today, Railway has raised $124m and is growing very fast. A 35-person team supports 3 million users, adding roughly 100,000 signups a week. Their bare metal data centers have a 3-month payback period vs. renting in the cloud, with 70% margins funding aggressive cloud bursting when needed. The servers they own have actually appreciated in value as RAM prices have climbed basically meaning the value of their hardware now exceeds the capital they've raised. From rebuilding Railway&#8217;s network overlay over a weekend to moving the vast majority of workloads onto its own bare metal data centers , Jake Cooper is trying to build a new cloud for an agent-native world . In this episode, Railway&#8217;s founder and &#8220;conductor&#8221; joins swyx and Alessio to unpack why the next era of software infrastructure is not just &#8220; Heroku but newer,&#8221; what agents need that humans did not, and why the old deployment loop of Git, PRs, CI/CD, and static cloud resources may be heading f…",
-      "summary": "3M Users, 100K Signups/Week, Own-Metal Data Centers, $200K+ Coding Agent Spend, and the Death of PRs",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "deployment"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.62,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.51,
-      "whyThisMatters": ""
-    },
-    {
       "id": "53e4878f01426ffc",
       "date": "2026-05-27",
       "sourceType": "newsletter",
@@ -546,6 +495,57 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "3a55f99c5dabddbd",
+      "date": "2026-05-27",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Railway: The Agent-Native Cloud — Jake Cooper",
+      "url": "https://www.latent.space/p/railway",
+      "publishedAt": "2026-05-20T22:42:06.000Z",
+      "content": "Take the 2026 AI Engineering Survey and get >$2k in credits and AIE WF tickets ! This was recorded before Railway suffered a major GCP outage on May 19, despite being a multi-AZ, multi-zone mesh ring, with HA fiber interconnects between their Metal <> GCP <> AWS, because workload discoverability was unintentionally still tied to GCP. All has been resolved with a post-mortem . Railway did not start as an AI infrastructure company. It was founded in 2020 years before agents became the default way people thought about deploying software. Jake Cooper , formerly at Bloomberg and Uber, started Railway with a simple obsession: the activation energy to ship something to production should be near zero. Push code, get a URL, iterate. No Docker files, no Kubernetes manifests, no Ansible scripts stacked on Ansible scripts. For years, this was a slow grind. Railway spent its first 18 months hand-acquiring its first 100 users with Jake personally greeting every Discord signup on a second monitor. src Today, Railway has raised $124m and is growing very fast. A 35-person team supports 3 million users, adding roughly 100,000 signups a week. Their bare metal data centers have a 3-month payback period vs. renting in the cloud, with 70% margins funding aggressive cloud bursting when needed. The servers they own have actually appreciated in value as RAM prices have climbed basically meaning the value of their hardware now exceeds the capital they've raised. From rebuilding Railway&#8217;s network overlay over a weekend to moving the vast majority of workloads onto its own bare metal data centers , Jake Cooper is trying to build a new cloud for an agent-native world . In this episode, Railway&#8217;s founder and &#8220;conductor&#8221; joins swyx and Alessio to unpack why the next era of software infrastructure is not just &#8220; Heroku but newer,&#8221; what agents need that humans did not, and why the old deployment loop of Git, PRs, CI/CD, and static cloud resources may be heading f…",
+      "summary": "3M Users, 100K Signups/Week, Own-Metal Data Centers, $200K+ Coding Agent Spend, and the Death of PRs",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "deployment"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.62,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.51,
       "whyThisMatters": ""
     },
     {
