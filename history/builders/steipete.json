@@ -1,10 +1,120 @@
 {
-  "generatedAt": "2026-05-27T05:44:41.366Z",
+  "generatedAt": "2026-05-28T01:08:18.108Z",
   "handle": "steipete",
   "name": "Peter Steinberger",
   "itemCount": 50,
-  "latestDate": "2026-05-27",
+  "latestDate": "2026-05-28",
   "items": [
+    {
+      "id": "af10caad25d3b2bc",
+      "date": "2026-05-28",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:steipete",
+      "builderOrOrg": "Peter Steinberger",
+      "title": "autoreview is the most impactful skill I've added to my stack (next to https://t.co/SEj2XRpaD1)…",
+      "url": "https://x.com/steipete/status/2059453909819654554",
+      "publishedAt": "2026-05-27T01:57:29.000Z",
+      "content": "autoreview is the most impactful skill I've added to my stack (next to https://t.co/SEj2XRpaD1). It automatically reviews your code before landing a PR. Finds so many edge cases. Sometimes it runs for hours. https://t.co/zbUjIS2e1i",
+      "summary": "autoreview is the most impactful skill I've added to my stack (next to https://t.co/SEj2XRpaD1). It automatically reviews your code before landing a PR. Finds so many edge cases. Sometimes it runs for hours. https://t.c…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 998,
+        "retweets": 38,
+        "replies": 36
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "04f382fd2fcefa74",
+      "date": "2026-05-28",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:steipete",
+      "builderOrOrg": "Peter Steinberger",
+      "title": "Also extracted our image-logic into a separate library. Especially useful if you want to ensure…",
+      "url": "https://x.com/steipete/status/2059423344961671290",
+      "publishedAt": "2026-05-26T23:56:02.000Z",
+      "content": "Also extracted our image-logic into a separate library. Especially useful if you want to ensure small hacked images don't explode your process. Rastermill - Portable image processing for Node agents. Uses Wasm+Rust to be fast. https://t.co/YW6iCQZX4V",
+      "summary": "Also extracted our image-logic into a separate library. Especially useful if you want to ensure small hacked images don't explode your process. Rastermill - Portable image processing for Node agents. Uses Wasm+Rust to b…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 86,
+        "retweets": 1,
+        "replies": 8
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "image"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "5d73745dc9769025",
+      "date": "2026-05-28",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:steipete",
+      "builderOrOrg": "Peter Steinberger",
+      "title": "All the deps around opus are old or terrible, so vibed my own and replaced octoscript and opus-…",
+      "url": "https://x.com/steipete/status/2059422568352714981",
+      "publishedAt": "2026-05-26T23:52:57.000Z",
+      "content": "All the deps around opus are old or terrible, so vibed my own and replaced octoscript and opus-native. Performance of modern wasm on node/V8 is ~equivalent to native. Your claw now automatically takes meetings notes and you can talk to it in meetings. https://t.co/K0uXTLCuYt",
+      "summary": "All the deps around opus are old or terrible, so vibed my own and replaced octoscript and opus-native. Performance of modern wasm on node/V8 is ~equivalent to native. Your claw now automatically takes meetings notes and…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 347,
+        "retweets": 25,
+        "replies": 17
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
     {
       "id": "d79449ca238de965",
       "date": "2026-05-27",
@@ -1803,116 +1913,6 @@
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "91e89261118a41e0",
-      "date": "2026-04-29",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:steipete",
-      "builderOrOrg": "Peter Steinberger",
-      "title": "Finally have great solutions for PR/Issue management, remote test execution, massive CI infra f…",
-      "url": "https://x.com/steipete/status/2048957477106938075",
-      "publishedAt": "2026-04-28T02:48:24.000Z",
-      "content": "Finally have great solutions for PR/Issue management, remote test execution, massive CI infra for testing. Streamlines a lot of the work. https://t.co/xetfW6dm4o",
-      "summary": "Finally have great solutions for PR/Issue management, remote test execution, massive CI infra for testing. Streamlines a lot of the work. https://t.co/xetfW6dm4o",
-      "regionTags": [],
-      "metrics": {
-        "likes": 439,
-        "retweets": 14,
-        "replies": 29
-      },
-      "topics": [],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "c58bcdced105c620",
-      "date": "2026-04-28",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:steipete",
-      "builderOrOrg": "Peter Steinberger",
-      "title": "Released wacrawl 0.2.0. New: encrypted Git backup/restore for WhatsApp Desktop archives. `wacra…",
-      "url": "https://x.com/steipete/status/2048660875007914176",
-      "publishedAt": "2026-04-27T07:09:49.000Z",
-      "content": "Released wacrawl 0.2.0. New: encrypted Git backup/restore for WhatsApp Desktop archives. `wacrawl backup push` writes age-encrypted shards to GitHub; `backup pull` decrypts, verifies, and restores locally. https://t.co/gzCQO6eSAe",
-      "summary": "Released wacrawl 0.2.0. New: encrypted Git backup/restore for WhatsApp Desktop archives. `wacrawl backup push` writes age-encrypted shards to GitHub; `backup pull` decrypts, verifies, and restores locally. https://t.co/…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 89,
-        "retweets": 5,
-        "replies": 12
-      },
-      "topics": [
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "github"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "desktop"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a204e0be98aed519",
-      "date": "2026-04-28",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:steipete",
-      "builderOrOrg": "Peter Steinberger",
-      "title": "Been so CPU-constrained on OpenClaw work. Switched local tests running to @useblacksmith and IT…",
-      "url": "https://x.com/steipete/status/2048630704972443918",
-      "publishedAt": "2026-04-27T05:09:56.000Z",
-      "content": "Been so CPU-constrained on OpenClaw work. Switched local tests running to @useblacksmith and IT IS SO GOOD. codex can literally spin up to 32vCPU instances and rip through our test suite. https://t.co/cks45534su",
-      "summary": "Been so CPU-constrained on OpenClaw work. Switched local tests running to @useblacksmith and IT IS SO GOOD. codex can literally spin up to 32vCPU instances and rip through our test suite. https://t.co/cks45534su",
-      "regionTags": [],
-      "metrics": {
-        "likes": 332,
-        "retweets": 15,
-        "replies": 16
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
       "digestScore": 0.56,
       "whyThisMatters": ""
     }
