@@ -1,8 +1,220 @@
 {
-  "generatedAt": "2026-05-28T05:38:33.063Z",
+  "generatedAt": "2026-05-29T01:26:13.513Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
+    {
+      "id": "5d94b23123a81b3f",
+      "date": "2026-05-29",
+      "sourceType": "blog",
+      "sourceGroup": "mirrored",
+      "sourceName": "Anthropic Engineering",
+      "sourceKey": "blog:Anthropic Engineering",
+      "builderOrOrg": "Anthropic Engineering",
+      "title": "An update on recent Claude Code quality reports",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "publishedAt": null,
+      "content": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was not impacted. All three issues have now been resolved as of April 20 (v2.1.116). In this post, we explain what we found, what we fixed, and what we’ll do differently to ensure similar issues are much less likely to happen again. We take reports about degradation very seriously. We never intentionally degrade our models, and we were able to immediately confirm that our API and inference layer were unaffected. After investigation, we identified three different issues: On March 4, we changed Claude Code&#x27;s default reasoning effort from high to medium to reduce the very long latency—enough to make the UI appear frozen—some users were seeing in high mode. This was the wrong tradeoff. We reverted this change on April 7 after users told us they&#x27;d prefer to default to higher intelligence and opt into lower effort for simple tasks. This impacted Sonnet 4.6 and Opus 4.6. On March 26, we shipped a change to clear Claude&#x27;s older thinking from sessions that had been idle for over an hour, to reduce latency when users resumed those sessions. A bug caused this to keep happening every turn for the rest of the session instead of just once, which made Claude seem forgetful and repetitive. We fixed it on April 10. This affected Sonnet 4.6 and Opus 4.6. On April 16, we added a system prompt instruction to reduce verbosity. In combination with other prompt changes, it hurt coding quality and was reverted on April 20. This impacted Sonnet 4.6, Opus 4.6, and Opus 4.7. Because each change affected a different slice of traffic on a different schedule, the aggregate effect looked like broad, inconsistent degradation. While we began investigating reports in early March, they were challenging to distinguish from normal variation in user feedba…",
+      "summary": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "coding",
+            "code",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "inference",
+            "latency"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Watchlist",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "8542cd8bca67b518",
+      "date": "2026-05-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Cognition raises $1B in $26B Series D",
+      "url": "https://www.latent.space/p/ainews-cognition-raises-1b-in-26b",
+      "publishedAt": "2026-05-28T07:26:09.000Z",
+      "content": "We last wrote about Cognition in September&#8217;s $10B Series C when Smol.ai also joined Cognition and AINews was eventually moved here to Latent Space . 8 months later, it is worth 2.5x more , and officially the largest remaining independent agent lab in AI, a thesis we mapped out last year . With official ARR disclosures (now projecting >$1B ARR by EOY ) you can map out the growth, which looks oddly similar to the WTF Happened in 2025 charts (this isn&#8217;t a coincidence ): In the enterprise SaaS business, ARR is a trailing indicator of utilization, as are the logos of some of the toughest/most discerning customers in the enterprise and startup ecosystem (including Exa and Modal , featured last week) We will release more on the Cognition podcast tomorrow. AI News for 5/26/2026-5/27/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Inference Efficiency, Serving Architectures, and Cost Curves Inference optimization is increasingly architectural, not just kernel-level : EAGLE 3.1 improves speculative decoding robustness by stabilizing hidden-state feedback and reducing attention drift at deeper decode steps, with explicit emphasis on long-context acceptance length and real-world serving reliability; the team also highlighted collaboration with vLLM and TorchSpec. At the kernel/system layer, Perplexity open-sourced a rebuilt Unigram tokenizer that cuts CPU utilization 5&#8211;6&#215; and reaches 63 &#181;s at 514 tokens with zero heap allocations, while Qwen3.5 on TokenSpeed reportedly hits 580 tokens/s for agentic workloads via joint optimization across Alibaba, LightSeek, NVIDIA, Mooncake, and FlashAttention-4 contributors. Supporting libraries also improved: MaxSim v2 adds backprop and reports 10.33&#215; faster on H200 and 11.94&#215; on A100 versus na&#239;ve PyTorch. Pric…",
+      "summary": "coding is an uncapped TAM market",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "coding",
+            "code",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "inference",
+            "serving"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "4c3bd53d4e273164",
+      "date": "2026-05-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "🔬ESM: The Bitter Lesson is Coming for Proteins - Alex Rives, BioHub",
+      "url": "https://www.latent.space/p/esmfold2",
+      "publishedAt": "2026-05-27T17:46:16.000Z",
+      "content": "Editor&#8217;s note: In our first BioHub pod with Priscilla and Mark they discussed their acquisition of EvoScale , led by Alex Rives , who is now Head of Science at BioHub. With ESM-1 they trained language models on millions of protein sequences drawn from across life, with a simple &#8220;next token&#8221; objective: predict the amino acids that have been randomly masked out, based on the context of the rest of the sequence. But they soon found that these models also learned biological structure and function, including properties the model had never been explicitly shown AND that this ability scales predictably with compute , leading to ESM2 and ESM3 . Today, Alex announced ESMFold 2, an open scientific engine to power prediction, design, and discovery across protein biology. Building on Cryo-EM data (discussed in the CZI pod), ESMFold2 reports state of the art performance on protein interactions, especially antibodies, a critical modality for therapeutics, and evidence that inference time scaling is also working across five targets in cancer and immunology . In a nod to that other famous AI x protein folding project, they are also releasing an atlas of 6.8 billion proteins, and 1.1 billion predicted structures, which you can play around with on their website . We are honored to work with them for this huge release! One of the refrains we&#8217;ve heard on the Science pod has been that protein folding, materials design, cellular biology, etc. are very different problems from Language Modeling. They definitely are. Yet Alex Rives and the ESM team at BioHub just released a preprint and model , demonstrating that vanilla BERT-like transformer models trained on sufficiently large and diverse data sets can beat specialized models like AlphaFold3 on some of the hardest protein-related problems. Andrew White had a great segment in our first LS-Science episode that explained how mind blowing AlphaFold2 was when it was released in 2020: it suddenly solved problems on a GP…",
+      "summary": "Biohub&#8217;s Protein World Model: ESMC-6B, ESMFold2, 6.8B proteins, 1.1B structures, antibody design, SAEs, & the potential for programmable biology",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "science"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "8ecf7f4a24fca207",
+      "date": "2026-05-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] New AI Infra decacorns: Fireworks, Baseten (with OpenRouter on the way)",
+      "url": "https://www.latent.space/p/ainews-new-ai-infra-decacorns-fireworks",
+      "publishedAt": "2026-05-27T03:33:53.000Z",
+      "content": "Take the 2026 AI Engineering Survey and get >$2k in credits and AIE WF tickets ! Readers like when we report no news, but our second favorite to that is when we can simply reinforce a trend you should be aware of. In April we highlighted the Inference Inflection , and If today&#8217;s headline reminds you of last week&#8217;s headline , it is exactly the point we are making. $2k in credits and AIE WF tickets!\",\"cta\":null,\"showBylines\":true,\"size\":\"sm\",\"isEditorNode\":true,\"title\":\"[AINews] New AI Infra unicorns: Exa, Modal, TurboPuffer\",\"publishedBylines\":[{\"id\":89230629,\"name\":\"Latent.Space\",\"bio\":\"Writer, curator, latent space explorer. Main blog: https://swyx.io Devrel/Dev community: https://dx.tips/ Twitter: https://twitter.com/swyx\",\"photo_url\":\"https://substack-post-media.s3.amazonaws.com/public/images/db0f8d45-1eb8-4c02-a120-650d377ee52d_640x640.jpeg\",\"is_guest\":false,\"bestseller_tier\":1000}],\"post_date\":\"2026-05-22T05:50:58.325Z\",\"cover_image\":\"https://substack-post-media.s3.amazonaws.com/public/images/ab2507aa-9755-4e9d-9cbf-4c7f755a8527_1086x280.png\",\"cover_image_alt\":null,\"canonical_url\":\"https://www.latent.space/p/ainews-new-ai-infra-unicorns-exa\",\"section_name\":\"AINews: Weekday Roundups\",\"video_upload_id\":null,\"id\":198804002,\"type\":\"newsletter\",\"reaction_count\":43,\"comment_count\":0,\"publication_id\":1084089,\"publication_name\":\"Latent.Space\",\"publication_logo_url\":\"https://substackcdn.com/image/fetch/$s_!DbYa!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png\",\"belowTheFold\":false,\"youtube_url\":null,\"show_links\":null,\"feed_url\":null}\"> With the pace of AI fundraising these days, our general policy is to only cover startups when they cross decacorn status (>$10B) - but only when confirmed, and today&#8217;s news of Fireworks&#8217; $15B round (&#8220;in talks&#8221;, 3.75x in 7 months, our podcast here ) and Baseten&#8217;s $11B round (&#8220;is…",
+      "summary": "it's funding news, but it's good news.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "image",
+            "video"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
     {
       "id": "a937d96dacfc825a",
       "date": "2026-05-28",
@@ -56,109 +268,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4c3bd53d4e273164",
-      "date": "2026-05-28",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "🔬ESMFold2: The Bitter Lesson is Coming for Proteins - Alex Rives, BioHub",
-      "url": "https://www.latent.space/p/esmfold2",
-      "publishedAt": "2026-05-27T17:46:16.000Z",
-      "content": "Editor&#8217;s note: In our first BioHub pod with Priscilla and Mark they discussed their acquisition of EvoScale , led by Alex Rives , who is now Head of Science at BioHub. With ESM-1 they trained language models on millions of protein sequences drawn from across life, with a simple &#8220;next token&#8221; objective: predict the amino acids that have been randomly masked out, based on the context of the rest of the sequence. But they soon found that these models also learned biological structure and function, including properties the model had never been explicitly shown AND that this ability scales predictably with compute , leading to ESM2 and ESM3 . Today, Alex announced ESMFold 2, an open scientific engine to power prediction, design, and discovery across protein biology. Building on Cryo-EM data (discussed in the CZI pod), ESMFold2 reports state of the art performance on protein interactions, especially antibodies, a critical modality for therapeutics, and evidence that inference time scaling is also working across five targets in cancer and immunology . In a nod to that other famous AI x protein folding project, they are also releasing an atlas of 6.8 billion proteins, and 1.1 billion predicted structures, which you can play around with on their website . We are honored to work with them for this huge release! One of the refrains we&#8217;ve heard on the Science pod has been that protein folding, materials design, cellular biology, etc. are very different problems from Language Modeling. They definitely are. Yet Alex Rives and the ESM team at BioHub just released a preprint and model , demonstrating that vanilla BERT-like transformer models trained on sufficiently large and diverse data sets can beat specialized models like AlphaFold3 on some of the hardest protein-related problems. Andrew White had a great segment in our first LS-Science episode that explained how mind blowing AlphaFold2 was when it was released in 2020: it suddenly solved problems on a GP…",
-      "summary": "Datasets vs. inductive bias, world models, and programmable biology",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "science"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "8ecf7f4a24fca207",
-      "date": "2026-05-28",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] New AI Infra decacorns: Fireworks, Baseten (with OpenRouter on the way)",
-      "url": "https://www.latent.space/p/ainews-new-ai-infra-decacorns-fireworks",
-      "publishedAt": "2026-05-27T03:33:53.000Z",
-      "content": "Take the 2026 AI Engineering Survey and get >$2k in credits and AIE WF tickets ! Readers like when we report no news, but our second favorite to that is when we can simply reinforce a trend you should be aware of. In April we highlighted the Inference Inflection , and If today&#8217;s headline reminds you of last week&#8217;s headline , it is exactly the point we are making. $2k in credits and AIE WF tickets!\",\"cta\":null,\"showBylines\":true,\"size\":\"sm\",\"isEditorNode\":true,\"title\":\"[AINews] New AI Infra unicorns: Exa, Modal, TurboPuffer\",\"publishedBylines\":[{\"id\":89230629,\"name\":\"Latent.Space\",\"bio\":\"Writer, curator, latent space explorer. Main blog: https://swyx.io Devrel/Dev community: https://dx.tips/ Twitter: https://twitter.com/swyx\",\"photo_url\":\"https://substack-post-media.s3.amazonaws.com/public/images/db0f8d45-1eb8-4c02-a120-650d377ee52d_640x640.jpeg\",\"is_guest\":false,\"bestseller_tier\":1000}],\"post_date\":\"2026-05-22T05:50:58.325Z\",\"cover_image\":\"https://substack-post-media.s3.amazonaws.com/public/images/ab2507aa-9755-4e9d-9cbf-4c7f755a8527_1086x280.png\",\"cover_image_alt\":null,\"canonical_url\":\"https://www.latent.space/p/ainews-new-ai-infra-unicorns-exa\",\"section_name\":\"AINews: Weekday Roundups\",\"video_upload_id\":null,\"id\":198804002,\"type\":\"newsletter\",\"reaction_count\":43,\"comment_count\":0,\"publication_id\":1084089,\"publication_name\":\"Latent.Space\",\"publication_logo_url\":\"https://substackcdn.com/image/fetch/$s_!DbYa!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png\",\"belowTheFold\":false,\"youtube_url\":null,\"show_links\":null,\"feed_url\":null}\"> With the pace of AI fundraising these days, our general policy is to only cover startups when they cross decacorn status (>$10B) - but only when confirmed, and today&#8217;s news of Fireworks&#8217; $15B round (&#8220;in talks&#8221;, 3.75x in 7 months, our podcast here ) and Baseten&#8217;s $11B round (&#8220;is…",
-      "summary": "it's funding news, but it's good news.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.69,
-          "rationale": [
-            "image",
-            "video"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -421,60 +530,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "5d94b23123a81b3f",
-      "date": "2026-05-20",
-      "sourceType": "blog",
-      "sourceGroup": "mirrored",
-      "sourceName": "Anthropic Engineering",
-      "sourceKey": "blog:Anthropic Engineering",
-      "builderOrOrg": "Anthropic Engineering",
-      "title": "An update on recent Claude Code quality reports",
-      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
-      "publishedAt": null,
-      "content": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was not impacted. All three issues have now been resolved as of April 20 (v2.1.116). In this post, we explain what we found, what we fixed, and what we’ll do differently to ensure similar issues are much less likely to happen again. We take reports about degradation very seriously. We never intentionally degrade our models, and we were able to immediately confirm that our API and inference layer were unaffected. After investigation, we identified three different issues: On March 4, we changed Claude Code&#x27;s default reasoning effort from high to medium to reduce the very long latency—enough to make the UI appear frozen—some users were seeing in high mode. This was the wrong tradeoff. We reverted this change on April 7 after users told us they&#x27;d prefer to default to higher intelligence and opt into lower effort for simple tasks. This impacted Sonnet 4.6 and Opus 4.6. On March 26, we shipped a change to clear Claude&#x27;s older thinking from sessions that had been idle for over an hour, to reduce latency when users resumed those sessions. A bug caused this to keep happening every turn for the rest of the session instead of just once, which made Claude seem forgetful and repetitive. We fixed it on April 10. This affected Sonnet 4.6 and Opus 4.6. On April 16, we added a system prompt instruction to reduce verbosity. In combination with other prompt changes, it hurt coding quality and was reverted on April 20. This impacted Sonnet 4.6, Opus 4.6, and Opus 4.7. Because each change affected a different slice of traffic on a different schedule, the aggregate effect looked like broad, inconsistent degradation. While we began investigating reports in early March, they were challenging to distinguish from normal variation in user feedba…",
-      "summary": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.81,
-          "rationale": [
-            "coding",
-            "code",
-            "repo"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.69,
-          "rationale": [
-            "inference",
-            "latency"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Watchlist",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {

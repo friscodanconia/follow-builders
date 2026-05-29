@@ -1,8 +1,408 @@
 {
-  "generatedAt": "2026-05-28T05:38:33.063Z",
+  "generatedAt": "2026-05-29T01:26:13.513Z",
   "slug": "enterprise",
   "label": "Business AI",
   "items": [
+    {
+      "id": "d1c81bbf3554d7fa",
+      "date": "2026-05-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "OpenAI’s Frontier Governance Framework",
+      "url": "https://openai.com/index/openai-frontier-governance-framework",
+      "publishedAt": "2026-05-28T00:00:00.000Z",
+      "content": "Explore OpenAI’s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging EU and California regulations.",
+      "summary": "Explore OpenAI’s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging EU and California regulations.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.69,
+          "rationale": [
+            "safety",
+            "governance"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.78,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "44af8cf661c9e21a",
+      "date": "2026-05-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
+      "url": "https://openai.com/index/cisco",
+      "publishedAt": "2026-05-27T11:00:00.000Z",
+      "content": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
+      "summary": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "1a473b93a64cb07f",
+      "date": "2026-05-29",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Anthropic opens Milan office to support Italian enterprise, research, and developers \\ Anthropic",
+      "url": "https://www.anthropic.com/news/milan-office-opening",
+      "publishedAt": null,
+      "content": "We&#x27;re opening a new office in Milan, our sixth in Europe.",
+      "summary": "We&#x27;re opening a new office in Milan, our sixth in Europe.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "developer"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.78,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "01cadff5eec5d28e",
+      "date": "2026-05-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Data Formulator 0.7: AI-powered data analytics for enterprise data",
+      "url": "https://www.microsoft.com/en-us/research/blog/data-formulator-0-7-ai-powered-data-analytics-for-enterprise-data/",
+      "publishedAt": "2026-05-28T16:00:00.000Z",
+      "content": "At a glance Data Formulator 0.7 is an open-source AI-powered system for enterprise data analytics that combines data connectivity, agent-guided exploration, and visualization refinement in a shared workspace. It includes a Data Connectors feature, which supports governed, reusable connections across databases, warehouses, BI systems, object stores, and local files, reducing integration work for platform teams. Context-aware agents help users prepare data, explore analyses, generate visualizations, and navigate long-running and branching analytical workflows. An interactive, multimodal interface allows teams to iteratively explore and refine analyses across fragmented data sources, with no SQL or programming expertise required. Enterprise teams increasingly rely on AI systems for analytics, but enterprise data workflows are often fragmented across storage systems and tools. Before analysis can begin, teams often need to establish governed connections, prepare metadata, manage permissions, and build workflows for combining and reshaping data across multiple systems. Beyond data connection, analysis itself remains challenging for analysts and domain experts, many of whom lack deep coding expertise. They frequently need to compute new metrics, compare different ways of organizing data, inspect intermediate outputs, and refine visualizations as needs evolve. These workflows are difficult to reproduce inside isolated chat interactions that lack persistent access to enterprise data, workflow history, and visualization context. Our new release, Data Formulator 0.7 (opens in new tab) , is designed to address these challenges. It is an open-source AI-powered data analysis system that connects fragmented enterprise data and iterative analytical workflows. It provides a lightweight way to connect across a variety of data sources, context-aware agents that assist with data preparation, exploration, and visualization, and an interactive workspace where users can iteratively refi…",
+      "summary": "Data Formulator introduces AI-powered analytics for enterprise data workflows. Data teams can easily bring enterprise data into an AI-ready workspace where users can explore, analyze, and visualize data with AI agents to turn raw data into…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "programming"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.8,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.87,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "155df4c562ef069b",
+      "date": "2026-05-29",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "Introducing Mistral Small 4 | Mistral AI",
+      "url": "https://mistral.ai/news/mistral-small-4/",
+      "publishedAt": null,
+      "content": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
+      "summary": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "autonomous"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "multimodal"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.8,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.87,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d7791bf6db4a148c",
+      "date": "2026-05-29",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "Introducing Mistral 3 | Mistral AI",
+      "url": "https://mistral.ai/news/mistral-3/",
+      "publishedAt": null,
+      "content": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
+      "summary": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "autonomous"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "multimodal"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.8,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.87,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "6fbab82303847a68",
+      "date": "2026-05-29",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "AI Now Summit 2026 | Mistral AI",
+      "url": "https://mistral.ai/news/ai-now-summit-2026",
+      "publishedAt": null,
+      "content": "Innovations for global enterprises solving the world’s hardest problems.",
+      "summary": "Innovations for global enterprises solving the world’s hardest problems.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.78,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "980446a0dcbd045b",
+      "date": "2026-05-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "China's Robotics Dream Began in 1972",
+      "url": "https://www.chinatalk.media/p/chinas-father-of-robotics",
+      "publishedAt": "2026-05-27T09:52:04.000Z",
+      "content": "ChinaTalk analyst yearns for the mines. He&#8217;s on a mission to visit rare earths and other critical minerals mining sites, refineries, and permanent magnet facilities around the world. If you or anyone you know can help him fulfill this mission, please reach out to aqib@chinatalk.media. Less than one in a thousand Chinese people owned private cars in the 1990s. But in 1993, a vehicle guided by a computer program landed on the floor of a car plant in Shenyang, capital of Liaoning province. Xianfeng 1 &#20808;&#38155;1&#21495; was the first of its kind in China, developed entirely by Chinese researchers. The car plant had previously relied on American-made autonomous-guided vehicles, but the US tightened export controls in 1991 and cut off sales to China. The plant turned to the Shenyang Institute of Automation (SIA), an institution of China&#8217;s national academy, the Chinese Academy of Sciences (CAS). It was led by a scientist called Jiang Xinsong &#33931;&#26032;&#26494;. Xianfeng 1. Source . To the average person today, &#8220;AI&#8221; is synonymous with chatbots &#8212; or, at least, tools that exist only in the digital realm. Hardware manifestations, like humanoid robots or intelligent Roombas, are instead considered futuristic. But &#8220;Chinese AI,&#8221; as an idea, did not necessarily begin with DeepSeek or tech companies in Hangzhou. It started on assembly lines in the Northeast, with dreams of intelligent oxygen furnaces for steel production and automated car plants. Some of the earliest champions of artificial intelligence research were not software engineers or information scientists, but those working shoulder-to-shoulder with factory workers. As Chinese firms like Unitree became forerunners in the race to build autonomous robots, I grew curious about Jiang&#8217;s story. State media has dubbed him China&#8217;s &#8220;father of robotics.&#8221; His work &#8212; and what he would have conceived of as &#8220;artificial intelligence&#8221; &#8212…",
+      "summary": "a history!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "autonomous"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "sales"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.62,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.51,
+      "whyThisMatters": ""
+    },
     {
       "id": "c103b6a2bd07db61",
       "date": "2026-05-28",
@@ -151,102 +551,6 @@
         }
       ],
       "section": "Watchlist",
-      "importanceScore": 0.62,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.51,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "44af8cf661c9e21a",
-      "date": "2026-05-28",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
-      "url": "https://openai.com/index/cisco",
-      "publishedAt": "2026-05-27T11:00:00.000Z",
-      "content": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
-      "summary": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "980446a0dcbd045b",
-      "date": "2026-05-28",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "China's Robotics Dream Began in 1972",
-      "url": "https://www.chinatalk.media/p/chinas-father-of-robotics",
-      "publishedAt": "2026-05-27T09:52:04.000Z",
-      "content": "ChinaTalk analyst yearns for the mines. He&#8217;s on a mission to visit rare earths and other critical minerals mining sites, refineries, and permanent magnet facilities around the world. If you or anyone you know can help him fulfill this mission, please reach out to aqib@chinatalk.media. Less than one in a thousand Chinese people owned private cars in the 1990s. But in 1993, a vehicle guided by a computer program landed on the floor of a car plant in Shenyang, capital of Liaoning province. Xianfeng 1 &#20808;&#38155;1&#21495; was the first of its kind in China, developed entirely by Chinese researchers. The car plant had previously relied on American-made autonomous-guided vehicles, but the US tightened export controls in 1991 and cut off sales to China. The plant turned to the Shenyang Institute of Automation (SIA), an institution of China&#8217;s national academy, the Chinese Academy of Sciences (CAS). It was led by a scientist called Jiang Xinsong &#33931;&#26032;&#26494;. Xianfeng 1. Source . To the average person today, &#8220;AI&#8221; is synonymous with chatbots &#8212; or, at least, tools that exist only in the digital realm. Hardware manifestations, like humanoid robots or intelligent Roombas, are instead considered futuristic. But &#8220;Chinese AI,&#8221; as an idea, did not necessarily begin with DeepSeek or tech companies in Hangzhou. It started on assembly lines in the Northeast, with dreams of intelligent oxygen furnaces for steel production and automated car plants. Some of the earliest champions of artificial intelligence research were not software engineers or information scientists, but those working shoulder-to-shoulder with factory workers. As Chinese firms like Unitree became forerunners in the race to build autonomous robots, I grew curious about Jiang&#8217;s story. State media has dubbed him China&#8217;s &#8220;father of robotics.&#8221; His work &#8212; and what he would have conceived of as &#8220;artificial intelligence&#8221; &#8212…",
-      "summary": "a history!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "science"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "autonomous"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "sales"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
       "importanceScore": 0.62,
       "noveltyScore": 0.3,
       "previouslySelected": false,
@@ -2157,304 +2461,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.63,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "0680bc9b920da8e8",
-      "date": "2026-05-07",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Agents for Everything Else: Codex for Knowledge Work, Claude for Creative Work",
-      "url": "https://www.latent.space/p/ainews-agents-for-everything-else",
-      "publishedAt": "2026-05-01T04:53:41.000Z",
-      "content": "We mentioned on the Unsupervised Learning pod about the thesis that &#8220;coding agents are breaking containment&#8221;, and that talk is published live today. Some launches are discrete; others roll up over time. Both Claude and Codex had very big weeks, with Claude generally winning the impression count war as has been happening for a while now . Codex Today&#8217;s big Codex update was &#8220; Codex for Work &#8221;, basically a landing page that pitches Codex for Knowledge Work (not just coding), following on from last week&#8217;s beginnings of turning Codex into the presumptive OpenAI &#8220;SuperApp &#8221;. But it&#8217;s not just a landing page update; the latest Codex now has 42% faster CUA , responsive browser , /chronicle , /goal (&#8220; our take on the Ralph loop ), and the onboarding now encourages you to plug into the Microsoft/Google/Salesforce suite and the agent now has a curiously Cowork-like planning UI and shows an in-app file editor for MS Office files. Basically, as Tibo says, &#8220; Codex now available for non-coders &#8221;, Greg &#8220; Codex is for everyone, for any task done with a computer &#8221;, and Sam &#8220; try it for non-coding computer work .&#8221; You get the picture. The &#8220; dynamic UI &#8221; is an interesting choice - the team explicitly rejects the Claude Cowork-like toggle, choosing instead to let the agent route the UI experience. source Claude Against the backdrop of increasing security vulnerabilities , and a meta mythos around Mythos, Anthropic launched Claude Security , a code review tool. But probably the bigger news this week was the support of creative tools like Blender, Autodesk, Adobe Creative Cloud, Ableton, Splice, Canva Affinity, and more. AI News for 4/29/2026-4/30/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Reca…",
-      "summary": "a quiet day lets us reflect on coding agents \"breaking containment\"",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.69,
-          "rationale": [
-            "security",
-            "sales"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.69,
-          "rationale": [
-            "tools",
-            "browser"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "bd0bbd71553bb2e9",
-      "date": "2026-05-07",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:rauchg",
-      "builderOrOrg": "Guillermo Rauch",
-      "title": "𝚗𝚙𝚡 𝚍𝚎𝚎𝚙𝚜𝚎𝚌 We're introducing an open-source agent orchestrator for deep security rev…",
-      "url": "https://x.com/rauchg/status/2051386798899888539",
-      "publishedAt": "2026-05-04T19:41:40.000Z",
-      "content": "𝚗𝚙𝚡 𝚍𝚎𝚎𝚙𝚜𝚎𝚌 We're introducing an open-source agent orchestrator for deep security reviews. We built it for internal use, and after running it against some major OSS projects, we gained conviction to share it with the world. Coding agents can now find critical vulnerabilities in minutes that would take teams of people months (if they can spot them at all). Since 𝚍𝚎𝚎𝚙𝚜𝚎𝚌 is optimized to work with Vercel Sandbox, you can effectively harness the power of thousands of agents scrutin…",
-      "summary": "𝚗𝚙𝚡 𝚍𝚎𝚎𝚙𝚜𝚎𝚌 We're introducing an open-source agent orchestrator for deep security reviews. We built it for internal use, and after running it against some major OSS projects, we gained conviction to share it w…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 1229,
-        "retweets": 86,
-        "replies": 48
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.92,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.7,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "9dee1f9529e4c8d8",
-      "date": "2026-05-07",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "Both Anthropic and OpenAI have new initiatives to help enterprises deploy AI agents within thei…",
-      "url": "https://x.com/levie/status/2051344780328858040",
-      "publishedAt": "2026-05-04T16:54:42.000Z",
-      "content": "Both Anthropic and OpenAI have new initiatives to help enterprises deploy AI agents within their organizations. This is a trend that’s early but going to get very big fast. As agents enter knowledge work beyond coding, there is very real work to upgrade IT systems, get agents the context they need, modernize the workflows to work with agents, figure out the human-agent relationship in the workflow, drive adoption and do change management, and much more. While AI models have an incredible amount…",
-      "summary": "Both Anthropic and OpenAI have new initiatives to help enterprises deploy AI agents within their organizations. This is a trend that’s early but going to get very big fast. As agents enter knowledge work beyond coding,…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 836,
-        "retweets": 110,
-        "replies": 124
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.92,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.7,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "168fcc9ad245e155",
-      "date": "2026-05-07",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:mattturck",
-      "builderOrOrg": "Matt Turck",
-      "title": "VCs need to start following the literal description naming trend: The Capital Deployment Compan…",
-      "url": "https://x.com/mattturck/status/2051382629681828306",
-      "publishedAt": "2026-05-04T19:25:06.000Z",
-      "content": "VCs need to start following the literal description naming trend: The Capital Deployment Company of San Francisco The Check Writing Company of New York The Bridge Round Partnership of Brooklyn The Ghosting Company The Liquidated Preference Firm of Miami https://t.co/re4lweksYF",
-      "summary": "VCs need to start following the literal description naming trend: The Capital Deployment Company of San Francisco The Check Writing Company of New York The Bridge Round Partnership of Brooklyn The Ghosting Company The L…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 32,
-        "retweets": 0,
-        "replies": 9
-      },
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "deployment"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.74,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.59,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "060272da0a5f2aa8",
-      "date": "2026-05-06",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "OpenAI and PwC collaborate to reimagine the office of the CFO",
-      "url": "https://openai.com/index/openai-pwc-finance-collaboration",
-      "publishedAt": "2026-05-04T21:00:00.000Z",
-      "content": "OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.",
-      "summary": "OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.8,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.63,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "e626abb58dd215bb",
-      "date": "2026-05-06",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs \\ Anthropic",
-      "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
-      "publishedAt": null,
-      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
       "whyThisMatters": ""
     }
   ]

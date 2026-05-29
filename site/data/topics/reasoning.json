@@ -1,8 +1,110 @@
 {
-  "generatedAt": "2026-05-27T05:44:41.366Z",
+  "generatedAt": "2026-05-29T01:26:13.513Z",
   "slug": "reasoning",
   "label": "AI Thinking",
   "items": [
+    {
+      "id": "add0aff07075fa34",
+      "date": "2026-05-29",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "AI & I by Every",
+      "sourceKey": "podcast:AI & I by Every",
+      "builderOrOrg": "AI & I by Every",
+      "title": "We Automated Everything With AI and Tripled Our Headcount",
+      "url": "https://www.youtube.com/watch?v=dCmOTURRf1Y",
+      "publishedAt": "2026-05-27T16:28:59.000Z",
+      "content": "Speaker 1 | 00:00 - 00:06 You prompt AI to do something. It blows your mind. You feel inadequate. You feel like, oh my god. This thing's gonna take my job. Speaker 1 | 00:07 - 00:11 And then it stops working, it looks back at you and says, what should I do next? Speaker 2 | 00:11 - 00:47 The further away an agent gets from a human, the less valuable it is. If you just ride the models, you're going to be fine. If you care about leading a really ambitious life, I truly think that this is going to make that more possible for more people. Every is the only subscription you need to stay at the edge of AI. If you care about being on top of the latest models and using the latest tools, you have to subscribe to Every to separate out the signal from the noise. Speaker 1 | 00:47 - 00:55 Go to every. Tosubscribe today. So we are here because we're gonna flip the script a little bit. I am gonna be interviewing Dan Speaker 2 | 00:55 - 00:55 Sick. Speaker 1 | 00:56 - 01:08 About the piece that he published yesterday, May 21, and we're gonna try to understand why he wrote it, what's underneath his reasoning for it. There's gonna be some conflict. I'm gonna fight with him on it. Speaker 2 | 01:08 - 01:09 Let's go. Let's fight. Speaker 1 | 01:09 - 01:21 And see, you know, bring in some of my opinions, which are more or less aligned, but trying to understand, is this piece gonna reflect the future in ten years and five years? Speaker 2 | 01:21 - 01:22 And who are you again? Speaker 1 | 01:23 - 01:29 I'm Brandon. I'm our COO, and that's it. Speaker 2 | 01:29 - 02:25 So the piece is called After Automation, and it comes from this feeling that I have, and there's a video about this and there's there's a piece, but just for people who who have not seen either of those things, it comes from this feeling that I have that at every we are as AI native, as agent native as it as as it gets, You know, if you swing a stick around in our Slack, you're as likely to hit a human as you are an agent. Everyone's using Cloud Code and Codex and all these tools to do their job every day. And yet it feels like there's more human work to do than ever. And in fact, since the GBT three days, we've grown from four people to 30 people, and we're hiring more now. And so it came from me looking at that and then looking at the environment and being like, what's going on? Speaker 2 | 02:25 - 03:14 Because the whole information environment, if you look at Dario, is out there saying like half of entry level white collar jobs may be wiped out. Even people like Ken Griffin from Citadel, you can tell he just had this moment where someone showed him an AI doing an advanced data or finance question. And he was like, holy shit, like, that's what I would pay PhDs to do for me. And it just did it. And I feel like I'm watching a lot of people who maybe don't have a ton of experience with agents and don't have a ton of experience with the curve of improvement that we've been writing for the last like three, three and a half years, hit it for the first time and then come to all these conclusions about, oh my god, all work is going away, we're not going to have jobs. Speaker 2 | 03:14 - 04:12 And I'm just sitting here being like, actually, your intuitions when you first see a technology like this are usually very off. And we've seen a lot over and over again over the years that EVRI is a very good bellwether for where things are going because it's a group of early adopters, we have people doing all sorts of work internally at EVRI, and if something works here, there's a good bet that it's gonna spread to other businesses that are adjacent to ours. And so when I look around at Every, I see so much automation, and I also see way more human work. So I was really The whole piece is saying, here's the current state of work with agents, and then pulling apart that paradox and explaining, does more automation mean more work? Speaker 1 | 04:13 - 04:54 Yeah, when I read the piece, there wasn't an…",
+      "summary": "Speaker 1 | 00:00 - 00:06 You prompt AI to do something. It blows your mind. You feel inadequate. You feel like, oh my god. This thing's gonna take my job. Speaker 1 | 00:07 - 00:11 And then it stops working, it looks back at you and says,…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "reasoning"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.66,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.78,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "da79b35bab22e5c0",
+      "date": "2026-05-29",
+      "sourceType": "blog",
+      "sourceGroup": "mirrored",
+      "sourceName": "Anthropic Engineering",
+      "sourceKey": "blog:Anthropic Engineering",
+      "builderOrOrg": "Anthropic Engineering",
+      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+      "url": "https://www.anthropic.com/engineering/managed-agents",
+      "publishedAt": null,
+      "content": "Get started with Claude Managed Agents by following our docs . A running topic on the Engineering Blog is how to build effective agents and design harnesses for long-running work . A common thread across this work is that harnesses encode assumptions about what Claude can’t do on its own. However, those assumptions need to be frequently questioned because they can go stale as models improve. As just one example, in prior work we found that Claude Sonnet 4.5 would wrap up tasks prematurely as it sensed its context limit approaching—a behavior sometimes called “context anxiety.” We addressed this by adding context resets to the harness. But when we used the same harness on Claude Opus 4.5, we found that the behavior was gone. The resets had become dead weight. We expect harnesses to continue evolving. So we built Managed Agents: a hosted service in the Claude Platform that runs long-horizon agents on your behalf through a small set of interfaces meant to outlast any particular implementation—including the ones we run today. Building Managed Agents meant solving an old problem in computing: how to design a system for “ programs as yet unthought of .” Decades ago, operating systems solved this problem by virtualizing hardware into abstractions— process, file —general enough for programs that didn&#x27;t exist yet. The abstractions outlasted the hardware. The read() command is agnostic as to whether it’s accessing a disk pack from the 1970s or a modern SSD. The abstractions on top stayed stable while the implementations underneath changed freely. Managed Agents follow the same pattern. We virtualized the components of an agent: a session (the append-only log of everything that happened), a harness (the loop that calls Claude and routes Claude’s tool calls to the relevant infrastructure), and a sandbox (an execution environment where Claude can run code and edit files). This allows the implementation of each to be swapped without disturbing the others. We&#x27;re opinion…",
+      "summary": "Get started with Claude Managed Agents by following our docs . A running topic on the Engineering Blog is how to build effective agents and design harnesses for long-running work . A common thread across this work is that harnesses encode…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "long-horizon"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Watchlist",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
     {
       "id": "0b9292153eb2e7b4",
       "date": "2026-05-27",
@@ -101,57 +203,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.5,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "da79b35bab22e5c0",
-      "date": "2026-05-21",
-      "sourceType": "blog",
-      "sourceGroup": "mirrored",
-      "sourceName": "Anthropic Engineering",
-      "sourceKey": "blog:Anthropic Engineering",
-      "builderOrOrg": "Anthropic Engineering",
-      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
-      "url": "https://www.anthropic.com/engineering/managed-agents",
-      "publishedAt": null,
-      "content": "Get started with Claude Managed Agents by following our docs . A running topic on the Engineering Blog is how to build effective agents and design harnesses for long-running work . A common thread across this work is that harnesses encode assumptions about what Claude can’t do on its own. However, those assumptions need to be frequently questioned because they can go stale as models improve. As just one example, in prior work we found that Claude Sonnet 4.5 would wrap up tasks prematurely as it sensed its context limit approaching—a behavior sometimes called “context anxiety.” We addressed this by adding context resets to the harness. But when we used the same harness on Claude Opus 4.5, we found that the behavior was gone. The resets had become dead weight. We expect harnesses to continue evolving. So we built Managed Agents: a hosted service in the Claude Platform that runs long-horizon agents on your behalf through a small set of interfaces meant to outlast any particular implementation—including the ones we run today. Building Managed Agents meant solving an old problem in computing: how to design a system for “ programs as yet unthought of .” Decades ago, operating systems solved this problem by virtualizing hardware into abstractions— process, file —general enough for programs that didn&#x27;t exist yet. The abstractions outlasted the hardware. The read() command is agnostic as to whether it’s accessing a disk pack from the 1970s or a modern SSD. The abstractions on top stayed stable while the implementations underneath changed freely. Managed Agents follow the same pattern. We virtualized the components of an agent: a session (the append-only log of everything that happened), a harness (the loop that calls Claude and routes Claude’s tool calls to the relevant infrastructure), and a sandbox (an execution environment where Claude can run code and edit files). This allows the implementation of each to be swapped without disturbing the others. We&#x27;re opinion…",
-      "summary": "Get started with Claude Managed Agents by following our docs . A running topic on the Engineering Blog is how to build effective agents and design harnesses for long-running work . A common thread across this work is that harnesses encode…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "reasoning",
-          "label": "AI Thinking",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "long-horizon"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Watchlist",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {

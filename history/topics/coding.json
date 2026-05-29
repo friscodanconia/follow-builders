@@ -1,8 +1,916 @@
 {
-  "generatedAt": "2026-05-28T05:38:33.063Z",
+  "generatedAt": "2026-05-29T01:26:13.513Z",
   "slug": "coding",
   "label": "Coding",
   "items": [
+    {
+      "id": "add0aff07075fa34",
+      "date": "2026-05-29",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "AI & I by Every",
+      "sourceKey": "podcast:AI & I by Every",
+      "builderOrOrg": "AI & I by Every",
+      "title": "We Automated Everything With AI and Tripled Our Headcount",
+      "url": "https://www.youtube.com/watch?v=dCmOTURRf1Y",
+      "publishedAt": "2026-05-27T16:28:59.000Z",
+      "content": "Speaker 1 | 00:00 - 00:06 You prompt AI to do something. It blows your mind. You feel inadequate. You feel like, oh my god. This thing's gonna take my job. Speaker 1 | 00:07 - 00:11 And then it stops working, it looks back at you and says, what should I do next? Speaker 2 | 00:11 - 00:47 The further away an agent gets from a human, the less valuable it is. If you just ride the models, you're going to be fine. If you care about leading a really ambitious life, I truly think that this is going to make that more possible for more people. Every is the only subscription you need to stay at the edge of AI. If you care about being on top of the latest models and using the latest tools, you have to subscribe to Every to separate out the signal from the noise. Speaker 1 | 00:47 - 00:55 Go to every. Tosubscribe today. So we are here because we're gonna flip the script a little bit. I am gonna be interviewing Dan Speaker 2 | 00:55 - 00:55 Sick. Speaker 1 | 00:56 - 01:08 About the piece that he published yesterday, May 21, and we're gonna try to understand why he wrote it, what's underneath his reasoning for it. There's gonna be some conflict. I'm gonna fight with him on it. Speaker 2 | 01:08 - 01:09 Let's go. Let's fight. Speaker 1 | 01:09 - 01:21 And see, you know, bring in some of my opinions, which are more or less aligned, but trying to understand, is this piece gonna reflect the future in ten years and five years? Speaker 2 | 01:21 - 01:22 And who are you again? Speaker 1 | 01:23 - 01:29 I'm Brandon. I'm our COO, and that's it. Speaker 2 | 01:29 - 02:25 So the piece is called After Automation, and it comes from this feeling that I have, and there's a video about this and there's there's a piece, but just for people who who have not seen either of those things, it comes from this feeling that I have that at every we are as AI native, as agent native as it as as it gets, You know, if you swing a stick around in our Slack, you're as likely to hit a human as you are an agent. Everyone's using Cloud Code and Codex and all these tools to do their job every day. And yet it feels like there's more human work to do than ever. And in fact, since the GBT three days, we've grown from four people to 30 people, and we're hiring more now. And so it came from me looking at that and then looking at the environment and being like, what's going on? Speaker 2 | 02:25 - 03:14 Because the whole information environment, if you look at Dario, is out there saying like half of entry level white collar jobs may be wiped out. Even people like Ken Griffin from Citadel, you can tell he just had this moment where someone showed him an AI doing an advanced data or finance question. And he was like, holy shit, like, that's what I would pay PhDs to do for me. And it just did it. And I feel like I'm watching a lot of people who maybe don't have a ton of experience with agents and don't have a ton of experience with the curve of improvement that we've been writing for the last like three, three and a half years, hit it for the first time and then come to all these conclusions about, oh my god, all work is going away, we're not going to have jobs. Speaker 2 | 03:14 - 04:12 And I'm just sitting here being like, actually, your intuitions when you first see a technology like this are usually very off. And we've seen a lot over and over again over the years that EVRI is a very good bellwether for where things are going because it's a group of early adopters, we have people doing all sorts of work internally at EVRI, and if something works here, there's a good bet that it's gonna spread to other businesses that are adjacent to ours. And so when I look around at Every, I see so much automation, and I also see way more human work. So I was really The whole piece is saying, here's the current state of work with agents, and then pulling apart that paradox and explaining, does more automation mean more work? Speaker 1 | 04:13 - 04:54 Yeah, when I read the piece, there wasn't an…",
+      "summary": "Speaker 1 | 00:00 - 00:06 You prompt AI to do something. It blows your mind. You feel inadequate. You feel like, oh my god. This thing's gonna take my job. Speaker 1 | 00:07 - 00:11 And then it stops working, it looks back at you and says,…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "reasoning"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.66,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.78,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "5d94b23123a81b3f",
+      "date": "2026-05-29",
+      "sourceType": "blog",
+      "sourceGroup": "mirrored",
+      "sourceName": "Anthropic Engineering",
+      "sourceKey": "blog:Anthropic Engineering",
+      "builderOrOrg": "Anthropic Engineering",
+      "title": "An update on recent Claude Code quality reports",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "publishedAt": null,
+      "content": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was not impacted. All three issues have now been resolved as of April 20 (v2.1.116). In this post, we explain what we found, what we fixed, and what we’ll do differently to ensure similar issues are much less likely to happen again. We take reports about degradation very seriously. We never intentionally degrade our models, and we were able to immediately confirm that our API and inference layer were unaffected. After investigation, we identified three different issues: On March 4, we changed Claude Code&#x27;s default reasoning effort from high to medium to reduce the very long latency—enough to make the UI appear frozen—some users were seeing in high mode. This was the wrong tradeoff. We reverted this change on April 7 after users told us they&#x27;d prefer to default to higher intelligence and opt into lower effort for simple tasks. This impacted Sonnet 4.6 and Opus 4.6. On March 26, we shipped a change to clear Claude&#x27;s older thinking from sessions that had been idle for over an hour, to reduce latency when users resumed those sessions. A bug caused this to keep happening every turn for the rest of the session instead of just once, which made Claude seem forgetful and repetitive. We fixed it on April 10. This affected Sonnet 4.6 and Opus 4.6. On April 16, we added a system prompt instruction to reduce verbosity. In combination with other prompt changes, it hurt coding quality and was reverted on April 20. This impacted Sonnet 4.6, Opus 4.6, and Opus 4.7. Because each change affected a different slice of traffic on a different schedule, the aggregate effect looked like broad, inconsistent degradation. While we began investigating reports in early March, they were challenging to distinguish from normal variation in user feedba…",
+      "summary": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "coding",
+            "code",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "inference",
+            "latency"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Watchlist",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "da79b35bab22e5c0",
+      "date": "2026-05-29",
+      "sourceType": "blog",
+      "sourceGroup": "mirrored",
+      "sourceName": "Anthropic Engineering",
+      "sourceKey": "blog:Anthropic Engineering",
+      "builderOrOrg": "Anthropic Engineering",
+      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+      "url": "https://www.anthropic.com/engineering/managed-agents",
+      "publishedAt": null,
+      "content": "Get started with Claude Managed Agents by following our docs . A running topic on the Engineering Blog is how to build effective agents and design harnesses for long-running work . A common thread across this work is that harnesses encode assumptions about what Claude can’t do on its own. However, those assumptions need to be frequently questioned because they can go stale as models improve. As just one example, in prior work we found that Claude Sonnet 4.5 would wrap up tasks prematurely as it sensed its context limit approaching—a behavior sometimes called “context anxiety.” We addressed this by adding context resets to the harness. But when we used the same harness on Claude Opus 4.5, we found that the behavior was gone. The resets had become dead weight. We expect harnesses to continue evolving. So we built Managed Agents: a hosted service in the Claude Platform that runs long-horizon agents on your behalf through a small set of interfaces meant to outlast any particular implementation—including the ones we run today. Building Managed Agents meant solving an old problem in computing: how to design a system for “ programs as yet unthought of .” Decades ago, operating systems solved this problem by virtualizing hardware into abstractions— process, file —general enough for programs that didn&#x27;t exist yet. The abstractions outlasted the hardware. The read() command is agnostic as to whether it’s accessing a disk pack from the 1970s or a modern SSD. The abstractions on top stayed stable while the implementations underneath changed freely. Managed Agents follow the same pattern. We virtualized the components of an agent: a session (the append-only log of everything that happened), a harness (the loop that calls Claude and routes Claude’s tool calls to the relevant infrastructure), and a sandbox (an execution environment where Claude can run code and edit files). This allows the implementation of each to be swapped without disturbing the others. We&#x27;re opinion…",
+      "summary": "Get started with Claude Managed Agents by following our docs . A running topic on the Engineering Blog is how to build effective agents and design harnesses for long-running work . A common thread across this work is that harnesses encode…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "long-horizon"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Watchlist",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "0023524921148af6",
+      "date": "2026-05-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "How Endava builds an agentic organization with Codex",
+      "url": "https://openai.com/index/endava",
+      "publishedAt": "2026-05-28T12:00:00.000Z",
+      "content": "Learn how Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours.",
+      "summary": "Learn how Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.82,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "44af8cf661c9e21a",
+      "date": "2026-05-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
+      "url": "https://openai.com/index/cisco",
+      "publishedAt": "2026-05-27T11:00:00.000Z",
+      "content": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
+      "summary": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "543616156e3c39bc",
+      "date": "2026-05-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Building self-improving tax agents with Codex",
+      "url": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
+      "publishedAt": "2026-05-27T07:00:00.000Z",
+      "content": "See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.",
+      "summary": "See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "670a836f5e5ed879",
+      "date": "2026-05-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Warp’s big bet on building open source with GPT-5.5",
+      "url": "https://openai.com/index/warp",
+      "publishedAt": "2026-05-27T00:00:00.000Z",
+      "content": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.",
+      "summary": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.69,
+          "rationale": [
+            "open-source",
+            "open source"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "cb43ab2e1137b6c7",
+      "date": "2026-05-29",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Introducing Claude Opus 4.8 \\ Anthropic",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "publishedAt": null,
+      "content": "Our latest model, Claude Opus 4.8, is an upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.",
+      "summary": "Our latest model, Claude Opus 4.8, is an upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.82,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "1a473b93a64cb07f",
+      "date": "2026-05-29",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Anthropic opens Milan office to support Italian enterprise, research, and developers \\ Anthropic",
+      "url": "https://www.anthropic.com/news/milan-office-opening",
+      "publishedAt": null,
+      "content": "We&#x27;re opening a new office in Milan, our sixth in Europe.",
+      "summary": "We&#x27;re opening a new office in Milan, our sixth in Europe.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "developer"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.78,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "01cadff5eec5d28e",
+      "date": "2026-05-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Data Formulator 0.7: AI-powered data analytics for enterprise data",
+      "url": "https://www.microsoft.com/en-us/research/blog/data-formulator-0-7-ai-powered-data-analytics-for-enterprise-data/",
+      "publishedAt": "2026-05-28T16:00:00.000Z",
+      "content": "At a glance Data Formulator 0.7 is an open-source AI-powered system for enterprise data analytics that combines data connectivity, agent-guided exploration, and visualization refinement in a shared workspace. It includes a Data Connectors feature, which supports governed, reusable connections across databases, warehouses, BI systems, object stores, and local files, reducing integration work for platform teams. Context-aware agents help users prepare data, explore analyses, generate visualizations, and navigate long-running and branching analytical workflows. An interactive, multimodal interface allows teams to iteratively explore and refine analyses across fragmented data sources, with no SQL or programming expertise required. Enterprise teams increasingly rely on AI systems for analytics, but enterprise data workflows are often fragmented across storage systems and tools. Before analysis can begin, teams often need to establish governed connections, prepare metadata, manage permissions, and build workflows for combining and reshaping data across multiple systems. Beyond data connection, analysis itself remains challenging for analysts and domain experts, many of whom lack deep coding expertise. They frequently need to compute new metrics, compare different ways of organizing data, inspect intermediate outputs, and refine visualizations as needs evolve. These workflows are difficult to reproduce inside isolated chat interactions that lack persistent access to enterprise data, workflow history, and visualization context. Our new release, Data Formulator 0.7 (opens in new tab) , is designed to address these challenges. It is an open-source AI-powered data analysis system that connects fragmented enterprise data and iterative analytical workflows. It provides a lightweight way to connect across a variety of data sources, context-aware agents that assist with data preparation, exploration, and visualization, and an interactive workspace where users can iteratively refi…",
+      "summary": "Data Formulator introduces AI-powered analytics for enterprise data workflows. Data teams can easily bring enterprise data into an AI-ready workspace where users can explore, analyze, and visualize data with AI agents to turn raw data into…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "programming"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.8,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.87,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "ef420e0cc1354d31",
+      "date": "2026-05-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Extending Human Intelligence Through AI",
+      "url": "https://www.microsoft.com/en-us/research/blog/extending-human-intelligence-through-ai/",
+      "publishedAt": "2026-05-27T16:00:00.000Z",
+      "content": "At a glance Modern AI systems are powerful not because they replicate human intelligence, but because they&nbsp;presuppose it, by&nbsp;extending&nbsp;structures already present in human cognition and language. This perspective helps explain both AI’s remarkable capabilities and its recurring boundaries, including hallucinations and breakdowns in reasoning. This research argues that AI safety is a system-level challenge, shifting attention from “rogue AI” narratives toward harnessing engineering and governance. Understanding AI as an extension of human intelligence—not a replacement for it—offers a more grounded path for building trustworthy AI systems. AI&nbsp;systems today can write essays, generate code, summarize complex ideas, and carry on conversations with remarkable fluency. Yet those same systems still struggle with tasks humans find intuitive: reliably tracking objects through change, reasoning compositionally in unfamiliar situations, or distinguishing truth from plausible fiction. These contradictions have fueled polarized debates about AI.&nbsp;Some see current systems as early forms of human-like intelligence; others dismiss them as sophisticated autocomplete.&nbsp; In recent interdisciplinary work &#8211; including Adam Frank, Marcelo Gleiser, and Evan Thompson&#8217;s The Blind Spot (opens in new tab) and DeepMind researcher Alexander Lerchner&#8217;s The Abstraction Fallacy (opens in new tab) &#8211; a different picture is emerging. Rather than asking whether AI systems are becoming intelligent in the human sense, these approaches ask a more basic question: What if AI systems work because they rely on structures that are rooted in human cognition? This shift in perspective, which draws on the phenomenology of Edmund Husserl, helps make sense of both the capabilities and the limits of modern AI. In our recent paper,&nbsp; The Origins of Artificial Intelligence in Natural Intelligence , we argue that modern AI systems are best understood&nbsp;neither…",
+      "summary": "Understanding AI as an extension of human intelligence—not a replacement for it—offers a more grounded path for building trustworthy AI systems. The post Extending Human Intelligence Through AI appeared first on Microsoft Research .",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "paper"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.69,
+          "rationale": [
+            "safety",
+            "governance"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "4dc0bb01688349c1",
+      "date": "2026-05-29",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "Remote agents in Vibe. Powered by Mistral Medium 3.5. | Mistral AI",
+      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/",
+      "publishedAt": null,
+      "content": "Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks.",
+      "summary": "Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.82,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "0a1c36bdfd7b9b0c",
+      "date": "2026-05-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "The Age of Async Agents — Cognition's Walden Yan & OpenInspect's Cole Murray",
+      "url": "https://www.latent.space/p/cognition",
+      "publishedAt": "2026-05-28T18:41:24.000Z",
+      "content": "The new AIEWF website is live! CFPs close in 2 days and we will run our first New Engineer Orientation this weekend, get your tickets booked ASAP as they -will- sell out. Take the AI Engineering Survey and get >$2k in credits and free AIE WF tickets ! One of the central tensions in the agents industry is that even while there are major decacorn agent labs like Sierra, Decagon, Notion and Cursor being built up, it is also true that it has never been easier to DIY agents, with a plethora of agent frameworks like LangGraph and Pydantic and Flue , and managed agents from Anthropic and Gemini and Amazon . There has been a wave of companies building their own background agents from Shopify to Stripe to Paradigm to Razorpay , and even Cognition&#8217;s friends Ramp have built their own coding agent with other friend Modal . You&#8217;d think Cognition might feel a bit threatened, but they&#8217;re not - even after all this, they were way oversubscribed for the $1B Series D they just announced: @Lux_Capital , @generalcatalyst , and @8vc .\\n\\nOur enterprise usage has grown >10x since the start of this year, and our run-rate revenue grew to $492 M.\\n\\nWe launched Devin two years ago as the first AI software engineer. Since \",\"username\":\"cognition\",\"name\":\"Cognition\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/1765909640364068865/MvH-m0gd_normal.jpg\",\"date\":\"2026-05-27T15:39:26.000Z\",\"photos\":[{\"img_url\":\"https://pbs.substack.com/media/HJViewebAAE1uVB.jpg\",\"link_url\":\"https://t.co/k99LLLyWhZ\"}],\"quoted_tweet\":{},\"reply_count\":157,\"retweet_count\":194,\"like_count\":2372,\"impression_count\":733289,\"expanded_url\":null,\"video_url\":null,\"belowTheFold\":false}\" data-component-name=\"Twitter2ToDOM\"> Walden Yan , coiner of context engineering and Chief Product Officer/Cofounder of Cognition, invited OpenInspect&#8217;s Cole Murray to talk about why the Devin is in the Details . Full conversation live on the pod today: In retrospect, async agents were the most AGI pilled b…",
+      "summary": "80% Devin Commits, Spec-to-PR Workflows, Full VMs, Agent Memory, and PMs Shipping Code",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "image",
+            "video"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "8542cd8bca67b518",
+      "date": "2026-05-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Cognition raises $1B in $26B Series D",
+      "url": "https://www.latent.space/p/ainews-cognition-raises-1b-in-26b",
+      "publishedAt": "2026-05-28T07:26:09.000Z",
+      "content": "We last wrote about Cognition in September&#8217;s $10B Series C when Smol.ai also joined Cognition and AINews was eventually moved here to Latent Space . 8 months later, it is worth 2.5x more , and officially the largest remaining independent agent lab in AI, a thesis we mapped out last year . With official ARR disclosures (now projecting >$1B ARR by EOY ) you can map out the growth, which looks oddly similar to the WTF Happened in 2025 charts (this isn&#8217;t a coincidence ): In the enterprise SaaS business, ARR is a trailing indicator of utilization, as are the logos of some of the toughest/most discerning customers in the enterprise and startup ecosystem (including Exa and Modal , featured last week) We will release more on the Cognition podcast tomorrow. AI News for 5/26/2026-5/27/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Inference Efficiency, Serving Architectures, and Cost Curves Inference optimization is increasingly architectural, not just kernel-level : EAGLE 3.1 improves speculative decoding robustness by stabilizing hidden-state feedback and reducing attention drift at deeper decode steps, with explicit emphasis on long-context acceptance length and real-world serving reliability; the team also highlighted collaboration with vLLM and TorchSpec. At the kernel/system layer, Perplexity open-sourced a rebuilt Unigram tokenizer that cuts CPU utilization 5&#8211;6&#215; and reaches 63 &#181;s at 514 tokens with zero heap allocations, while Qwen3.5 on TokenSpeed reportedly hits 580 tokens/s for agentic workloads via joint optimization across Alibaba, LightSeek, NVIDIA, Mooncake, and FlashAttention-4 contributors. Supporting libraries also improved: MaxSim v2 adds backprop and reports 10.33&#215; faster on H200 and 11.94&#215; on A100 versus na&#239;ve PyTorch. Pric…",
+      "summary": "coding is an uncapped TAM market",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "coding",
+            "code",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "inference",
+            "serving"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "4c3bd53d4e273164",
+      "date": "2026-05-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "🔬ESM: The Bitter Lesson is Coming for Proteins - Alex Rives, BioHub",
+      "url": "https://www.latent.space/p/esmfold2",
+      "publishedAt": "2026-05-27T17:46:16.000Z",
+      "content": "Editor&#8217;s note: In our first BioHub pod with Priscilla and Mark they discussed their acquisition of EvoScale , led by Alex Rives , who is now Head of Science at BioHub. With ESM-1 they trained language models on millions of protein sequences drawn from across life, with a simple &#8220;next token&#8221; objective: predict the amino acids that have been randomly masked out, based on the context of the rest of the sequence. But they soon found that these models also learned biological structure and function, including properties the model had never been explicitly shown AND that this ability scales predictably with compute , leading to ESM2 and ESM3 . Today, Alex announced ESMFold 2, an open scientific engine to power prediction, design, and discovery across protein biology. Building on Cryo-EM data (discussed in the CZI pod), ESMFold2 reports state of the art performance on protein interactions, especially antibodies, a critical modality for therapeutics, and evidence that inference time scaling is also working across five targets in cancer and immunology . In a nod to that other famous AI x protein folding project, they are also releasing an atlas of 6.8 billion proteins, and 1.1 billion predicted structures, which you can play around with on their website . We are honored to work with them for this huge release! One of the refrains we&#8217;ve heard on the Science pod has been that protein folding, materials design, cellular biology, etc. are very different problems from Language Modeling. They definitely are. Yet Alex Rives and the ESM team at BioHub just released a preprint and model , demonstrating that vanilla BERT-like transformer models trained on sufficiently large and diverse data sets can beat specialized models like AlphaFold3 on some of the hardest protein-related problems. Andrew White had a great segment in our first LS-Science episode that explained how mind blowing AlphaFold2 was when it was released in 2020: it suddenly solved problems on a GP…",
+      "summary": "Biohub&#8217;s Protein World Model: ESMC-6B, ESMFold2, 6.8B proteins, 1.1B structures, antibody design, SAEs, & the potential for programmable biology",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "science"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "8ecf7f4a24fca207",
+      "date": "2026-05-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] New AI Infra decacorns: Fireworks, Baseten (with OpenRouter on the way)",
+      "url": "https://www.latent.space/p/ainews-new-ai-infra-decacorns-fireworks",
+      "publishedAt": "2026-05-27T03:33:53.000Z",
+      "content": "Take the 2026 AI Engineering Survey and get >$2k in credits and AIE WF tickets ! Readers like when we report no news, but our second favorite to that is when we can simply reinforce a trend you should be aware of. In April we highlighted the Inference Inflection , and If today&#8217;s headline reminds you of last week&#8217;s headline , it is exactly the point we are making. $2k in credits and AIE WF tickets!\",\"cta\":null,\"showBylines\":true,\"size\":\"sm\",\"isEditorNode\":true,\"title\":\"[AINews] New AI Infra unicorns: Exa, Modal, TurboPuffer\",\"publishedBylines\":[{\"id\":89230629,\"name\":\"Latent.Space\",\"bio\":\"Writer, curator, latent space explorer. Main blog: https://swyx.io Devrel/Dev community: https://dx.tips/ Twitter: https://twitter.com/swyx\",\"photo_url\":\"https://substack-post-media.s3.amazonaws.com/public/images/db0f8d45-1eb8-4c02-a120-650d377ee52d_640x640.jpeg\",\"is_guest\":false,\"bestseller_tier\":1000}],\"post_date\":\"2026-05-22T05:50:58.325Z\",\"cover_image\":\"https://substack-post-media.s3.amazonaws.com/public/images/ab2507aa-9755-4e9d-9cbf-4c7f755a8527_1086x280.png\",\"cover_image_alt\":null,\"canonical_url\":\"https://www.latent.space/p/ainews-new-ai-infra-unicorns-exa\",\"section_name\":\"AINews: Weekday Roundups\",\"video_upload_id\":null,\"id\":198804002,\"type\":\"newsletter\",\"reaction_count\":43,\"comment_count\":0,\"publication_id\":1084089,\"publication_name\":\"Latent.Space\",\"publication_logo_url\":\"https://substackcdn.com/image/fetch/$s_!DbYa!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png\",\"belowTheFold\":false,\"youtube_url\":null,\"show_links\":null,\"feed_url\":null}\"> With the pace of AI fundraising these days, our general policy is to only cover startups when they cross decacorn status (>$10B) - but only when confirmed, and today&#8217;s news of Fireworks&#8217; $15B round (&#8220;in talks&#8221;, 3.75x in 7 months, our podcast here ) and Baseten&#8217;s $11B round (&#8220;is…",
+      "summary": "it's funding news, but it's good news.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "image",
+            "video"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "131e0ac893645338",
+      "date": "2026-05-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] All Model Labs are now Agent Labs",
+      "url": "https://www.latent.space/p/ainews-all-model-labs-are-now-agent",
+      "publishedAt": "2026-05-23T04:21:17.000Z",
+      "content": "Ahead of OpenAI&#8217;s likely IPO filing next week, Greg makes the latest in a series of comments where Model Labs are increasingly also building Agents as the product: The quote is a big reversal of stance from a position ~uniformly held by anyone who worked at Team Big Model , including his previous head of OpenAI Labs : This comes with the shuttering of AI21&#8217;s model team, which is now pivoting to agents: and even the venerable DeepSeek is now building a &#8220;Harness team&#8221; for the first time: The &#8220;Systems over Models&#8221; people will take this as a point of validation of what they have been saying all along&#8230; except for the nuance that models cotrained with harnesses does open the door for closing access to models even further &#8212; if you can effectively posttrain a model to only meaningfully perform with your closed source agent, then you get to funnel the majority of users to your agent at the expense of your model/API co-opetition. But that&#8217;s a topic of a much larger discussion&#8230; AI News for 5/4/2026-5/5/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Agent Products, Harnesses, and the Shift Beyond &#8220;Just the Model&#8221; The product surface is moving up-stack : A recurring theme was that model quality alone is no longer the moat; the winning product is increasingly model + harness + workflow + UI + memory + economics . @gdb put it bluntly: &#8220;the model alone is no longer the product,&#8221; while @dzhng argued top-tier products need model <> harness <> product symbiosis . The same pattern shows up in practice: @signulll framed ambient AI and agentic AI as the new seam of computing interfaces, and @teortaxesTex noted that harness research still risks converging on &#8220;replicate Claude Code&#8221; instead of exploring b…",
+      "summary": "a quiet day lets us tie together a few quotes as all model labs become agent labs",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "71082685fad517a6",
+      "date": "2026-05-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "China’s AI optimism isn’t what it seems",
+      "url": "https://www.chinatalk.media/p/chinas-ai-optimism-isnt-what-it-seems",
+      "publishedAt": "2026-05-22T11:03:52.000Z",
+      "content": "Zilan Qian is a research associate at the Oxford China Policy Lab and holds a Master&#8217;s degree in Social Science of the Internet from the University of Oxford. This article was originally published in Asterisk Magazine. Americans &#8212; left, right, and everywhere in between &#8212; seem to be afraid of AI. They fear data centers speeding up climate change, disinformation and deepfakes, AI companionship, and, above all, job loss from automation. Meanwhile, the Chinese public seems to be perfectly fine with the technology, or even &#8220;optimistic&#8221; about it. The polling data is striking: Stanford University&#8217;s 2026 AI Index Report shows that more than 85% of Chinese respondents see AI as more beneficial than harmful, compared to less than 45% of respondents in the United States. A 2025 report published by the University of Queensland and KPMG Australia revealed that 73% of Chinese respondents are willing to trust AI system outputs and share relevant information with AI at work, and 88% intentionally use the technology, compared to 52% and 48% of Americans, respectively. Why does Chinese society, which suffers from acute job loss and a youth unemployment rate close to 17%, embrace a technology it knows is likely to take away more jobs? The question was answered three decades ago. The answer is not a narrative about AI, but about an earlier transformation also perceived as inevitable. It is a story about how Chinese society has learned, through repeated upheaval, what it believes to be the only permissible response to disruption. Accurately interpreting that response &#8212; which is often misleadingly called &#8220;enthusiasm&#8221; &#8212; is essential to understanding that worried Americans watching China&#8217;s AI frenzy might not be looking at a rival but into a mirror. The millennium that broke two ways Lived this way for thirty years Until the great mansion collapsed The deep, dark clouds Are drowning the view in my heart. &#22914;&#27492;&#2…",
+      "summary": "The enthusiasm seems real. But for a population that lived through the mass layoffs of the 1990s, optimism and fear can look identical from the outside.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
     {
       "id": "725a242d96c42dbb",
       "date": "2026-05-28",
@@ -352,203 +1260,6 @@
       "whyThisMatters": ""
     },
     {
-      "id": "44af8cf661c9e21a",
-      "date": "2026-05-28",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
-      "url": "https://openai.com/index/cisco",
-      "publishedAt": "2026-05-27T11:00:00.000Z",
-      "content": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
-      "summary": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "543616156e3c39bc",
-      "date": "2026-05-28",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Building self-improving tax agents with Codex",
-      "url": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
-      "publishedAt": "2026-05-27T07:00:00.000Z",
-      "content": "See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.",
-      "summary": "See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "670a836f5e5ed879",
-      "date": "2026-05-28",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Warp’s big bet on building open source with GPT-5.5",
-      "url": "https://openai.com/index/warp",
-      "publishedAt": "2026-05-27T00:00:00.000Z",
-      "content": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.",
-      "summary": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.69,
-          "rationale": [
-            "open-source",
-            "open source"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "ef420e0cc1354d31",
-      "date": "2026-05-28",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Extending Human Intelligence Through AI",
-      "url": "https://www.microsoft.com/en-us/research/blog/extending-human-intelligence-through-ai/",
-      "publishedAt": "2026-05-27T16:00:00.000Z",
-      "content": "At a glance Modern AI systems are powerful not because they replicate human intelligence, but because they&nbsp;presuppose it, by&nbsp;extending&nbsp;structures already present in human cognition and language. This perspective helps explain both AI’s remarkable capabilities and its recurring boundaries, including hallucinations and breakdowns in reasoning. This research argues that AI safety is a system-level challenge, shifting attention from “rogue AI” narratives toward harnessing engineering and governance. Understanding AI as an extension of human intelligence—not a replacement for it—offers a more grounded path for building trustworthy AI systems. AI&nbsp;systems today can write essays, generate code, summarize complex ideas, and carry on conversations with remarkable fluency. Yet those same systems still struggle with tasks humans find intuitive: reliably tracking objects through change, reasoning compositionally in unfamiliar situations, or distinguishing truth from plausible fiction. These contradictions have fueled polarized debates about AI.&nbsp;Some see current systems as early forms of human-like intelligence; others dismiss them as sophisticated autocomplete.&nbsp; In recent interdisciplinary work &#8211; including Adam Frank, Marcelo Gleiser, and Evan Thompson&#8217;s The Blind Spot (opens in new tab) and DeepMind researcher Alexander Lerchner&#8217;s The Abstraction Fallacy (opens in new tab) &#8211; a different picture is emerging. Rather than asking whether AI systems are becoming intelligent in the human sense, these approaches ask a more basic question: What if AI systems work because they rely on structures that are rooted in human cognition? This shift in perspective, which draws on the phenomenology of Edmund Husserl, helps make sense of both the capabilities and the limits of modern AI. In our recent paper,&nbsp; The Origins of Artificial Intelligence in Natural Intelligence , we argue that modern AI systems are best understood&nbsp;neither…",
-      "summary": "Understanding AI as an extension of human intelligence—not a replacement for it—offers a more grounded path for building trustworthy AI systems. The post Extending Human Intelligence Through AI appeared first on Microsoft Research .",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "paper"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.69,
-          "rationale": [
-            "safety",
-            "governance"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
       "id": "91b54da096be95a7",
       "date": "2026-05-28",
       "sourceType": "newsletter",
@@ -648,161 +1359,6 @@
       "whyThisMatters": ""
     },
     {
-      "id": "4c3bd53d4e273164",
-      "date": "2026-05-28",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "🔬ESMFold2: The Bitter Lesson is Coming for Proteins - Alex Rives, BioHub",
-      "url": "https://www.latent.space/p/esmfold2",
-      "publishedAt": "2026-05-27T17:46:16.000Z",
-      "content": "Editor&#8217;s note: In our first BioHub pod with Priscilla and Mark they discussed their acquisition of EvoScale , led by Alex Rives , who is now Head of Science at BioHub. With ESM-1 they trained language models on millions of protein sequences drawn from across life, with a simple &#8220;next token&#8221; objective: predict the amino acids that have been randomly masked out, based on the context of the rest of the sequence. But they soon found that these models also learned biological structure and function, including properties the model had never been explicitly shown AND that this ability scales predictably with compute , leading to ESM2 and ESM3 . Today, Alex announced ESMFold 2, an open scientific engine to power prediction, design, and discovery across protein biology. Building on Cryo-EM data (discussed in the CZI pod), ESMFold2 reports state of the art performance on protein interactions, especially antibodies, a critical modality for therapeutics, and evidence that inference time scaling is also working across five targets in cancer and immunology . In a nod to that other famous AI x protein folding project, they are also releasing an atlas of 6.8 billion proteins, and 1.1 billion predicted structures, which you can play around with on their website . We are honored to work with them for this huge release! One of the refrains we&#8217;ve heard on the Science pod has been that protein folding, materials design, cellular biology, etc. are very different problems from Language Modeling. They definitely are. Yet Alex Rives and the ESM team at BioHub just released a preprint and model , demonstrating that vanilla BERT-like transformer models trained on sufficiently large and diverse data sets can beat specialized models like AlphaFold3 on some of the hardest protein-related problems. Andrew White had a great segment in our first LS-Science episode that explained how mind blowing AlphaFold2 was when it was released in 2020: it suddenly solved problems on a GP…",
-      "summary": "Datasets vs. inductive bias, world models, and programmable biology",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "science"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "8ecf7f4a24fca207",
-      "date": "2026-05-28",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] New AI Infra decacorns: Fireworks, Baseten (with OpenRouter on the way)",
-      "url": "https://www.latent.space/p/ainews-new-ai-infra-decacorns-fireworks",
-      "publishedAt": "2026-05-27T03:33:53.000Z",
-      "content": "Take the 2026 AI Engineering Survey and get >$2k in credits and AIE WF tickets ! Readers like when we report no news, but our second favorite to that is when we can simply reinforce a trend you should be aware of. In April we highlighted the Inference Inflection , and If today&#8217;s headline reminds you of last week&#8217;s headline , it is exactly the point we are making. $2k in credits and AIE WF tickets!\",\"cta\":null,\"showBylines\":true,\"size\":\"sm\",\"isEditorNode\":true,\"title\":\"[AINews] New AI Infra unicorns: Exa, Modal, TurboPuffer\",\"publishedBylines\":[{\"id\":89230629,\"name\":\"Latent.Space\",\"bio\":\"Writer, curator, latent space explorer. Main blog: https://swyx.io Devrel/Dev community: https://dx.tips/ Twitter: https://twitter.com/swyx\",\"photo_url\":\"https://substack-post-media.s3.amazonaws.com/public/images/db0f8d45-1eb8-4c02-a120-650d377ee52d_640x640.jpeg\",\"is_guest\":false,\"bestseller_tier\":1000}],\"post_date\":\"2026-05-22T05:50:58.325Z\",\"cover_image\":\"https://substack-post-media.s3.amazonaws.com/public/images/ab2507aa-9755-4e9d-9cbf-4c7f755a8527_1086x280.png\",\"cover_image_alt\":null,\"canonical_url\":\"https://www.latent.space/p/ainews-new-ai-infra-unicorns-exa\",\"section_name\":\"AINews: Weekday Roundups\",\"video_upload_id\":null,\"id\":198804002,\"type\":\"newsletter\",\"reaction_count\":43,\"comment_count\":0,\"publication_id\":1084089,\"publication_name\":\"Latent.Space\",\"publication_logo_url\":\"https://substackcdn.com/image/fetch/$s_!DbYa!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png\",\"belowTheFold\":false,\"youtube_url\":null,\"show_links\":null,\"feed_url\":null}\"> With the pace of AI fundraising these days, our general policy is to only cover startups when they cross decacorn status (>$10B) - but only when confirmed, and today&#8217;s news of Fireworks&#8217; $15B round (&#8220;in talks&#8221;, 3.75x in 7 months, our podcast here ) and Baseten&#8217;s $11B round (&#8220;is…",
-      "summary": "it's funding news, but it's good news.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.69,
-          "rationale": [
-            "image",
-            "video"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "131e0ac893645338",
-      "date": "2026-05-28",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] All Model Labs are now Agent Labs",
-      "url": "https://www.latent.space/p/ainews-all-model-labs-are-now-agent",
-      "publishedAt": "2026-05-23T04:21:17.000Z",
-      "content": "Ahead of OpenAI&#8217;s likely IPO filing next week, Greg makes the latest in a series of comments where Model Labs are increasingly also building Agents as the product: The quote is a big reversal of stance from a position ~uniformly held by anyone who worked at Team Big Model , including his previous head of OpenAI Labs : This comes with the shuttering of AI21&#8217;s model team, which is now pivoting to agents: and even the venerable DeepSeek is now building a &#8220;Harness team&#8221; for the first time: The &#8220;Systems over Models&#8221; people will take this as a point of validation of what they have been saying all along&#8230; except for the nuance that models cotrained with harnesses does open the door for closing access to models even further &#8212; if you can effectively posttrain a model to only meaningfully perform with your closed source agent, then you get to funnel the majority of users to your agent at the expense of your model/API co-opetition. But that&#8217;s a topic of a much larger discussion&#8230; AI News for 5/4/2026-5/5/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Agent Products, Harnesses, and the Shift Beyond &#8220;Just the Model&#8221; The product surface is moving up-stack : A recurring theme was that model quality alone is no longer the moat; the winning product is increasingly model + harness + workflow + UI + memory + economics . @gdb put it bluntly: &#8220;the model alone is no longer the product,&#8221; while @dzhng argued top-tier products need model <> harness <> product symbiosis . The same pattern shows up in practice: @signulll framed ambient AI and agentic AI as the new seam of computing interfaces, and @teortaxesTex noted that harness research still risks converging on &#8220;replicate Claude Code&#8221; instead of exploring b…",
-      "summary": "a quiet day lets us tie together a few quotes as all model labs become agent labs",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
       "id": "01893f27aade5db8",
       "date": "2026-05-28",
       "sourceType": "newsletter",
@@ -853,58 +1409,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "71082685fad517a6",
-      "date": "2026-05-28",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "China’s AI optimism isn’t what it seems",
-      "url": "https://www.chinatalk.media/p/chinas-ai-optimism-isnt-what-it-seems",
-      "publishedAt": "2026-05-22T11:03:52.000Z",
-      "content": "Zilan Qian is a research associate at the Oxford China Policy Lab and holds a Master&#8217;s degree in Social Science of the Internet from the University of Oxford. This article was originally published in Asterisk Magazine. Americans &#8212; left, right, and everywhere in between &#8212; seem to be afraid of AI. They fear data centers speeding up climate change, disinformation and deepfakes, AI companionship, and, above all, job loss from automation. Meanwhile, the Chinese public seems to be perfectly fine with the technology, or even &#8220;optimistic&#8221; about it. The polling data is striking: Stanford University&#8217;s 2026 AI Index Report shows that more than 85% of Chinese respondents see AI as more beneficial than harmful, compared to less than 45% of respondents in the United States. A 2025 report published by the University of Queensland and KPMG Australia revealed that 73% of Chinese respondents are willing to trust AI system outputs and share relevant information with AI at work, and 88% intentionally use the technology, compared to 52% and 48% of Americans, respectively. Why does Chinese society, which suffers from acute job loss and a youth unemployment rate close to 17%, embrace a technology it knows is likely to take away more jobs? The question was answered three decades ago. The answer is not a narrative about AI, but about an earlier transformation also perceived as inevitable. It is a story about how Chinese society has learned, through repeated upheaval, what it believes to be the only permissible response to disruption. Accurately interpreting that response &#8212; which is often misleadingly called &#8220;enthusiasm&#8221; &#8212; is essential to understanding that worried Americans watching China&#8217;s AI frenzy might not be looking at a rival but into a mirror. The millennium that broke two ways Lived this way for thirty years Until the great mansion collapsed The deep, dark clouds Are drowning the view in my heart. &#22914;&#27492;&#2…",
-      "summary": "The enthusiasm seems real. But for a population that lived through the mass layoffs of the 1990s, optimism and fear can look identical from the outside.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "science"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -1929,484 +2433,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "306ba2cce73adf46",
-      "date": "2026-05-24",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "Unsupervised Learning",
-      "sourceKey": "podcast:Unsupervised Learning",
-      "builderOrOrg": "Unsupervised Learning",
-      "title": "Ep 87: Gemini Co-Lead on World Models, RL&apos;s Next Domains & Continual Learning",
-      "url": "https://www.youtube.com/watch?v=NQczevdpxq0",
-      "publishedAt": "2026-05-22T12:50:04.000Z",
-      "content": "Speaker 1 | 00:00 - 00:28 Oriol Vinyals is the co lead of Gemini alongside Noam Shazir and Jeff Dean. He's had an incredible career in AI, pioneering many of the breakthroughs in deep learning in the last decade, and it was a ton of fun to get to sit down with him after Google IO. If you've been following Google IO, they basically shipped a bunch of products across a a ton of interesting surface areas throughout AI. And so Oriel and I hit all of them. We talked about what's required for further advances in multimodal models and what's going to make these world models actually usable. Speaker 1 | 00:29 - 00:55 We talked about the increase in memory and the importance of memory and how the advances there will look like reasoning these next few years as well as what Oriol thinks the path forward is. And we hit on the state of scaffolding today, what folks are building, and what Oriol thinks persists. It's a ton of fun to get to basically take all the top questions that founders, investors are thinking through, and just pose them to Oriole. So I think folks will really enjoy this conversation. Without further ado, here he is. Speaker 1 | 00:57 - 00:59 Oriole, thanks so much for coming on the podcast. Speaker 2 | 00:59 - 01:02 Yeah. It's great to be here. Thanks, Jacob. Speaker 1 | 01:02 - 01:36 Yeah. Very exciting to have you a a day after IO. I know things have been have been busy, but I've been really excited for this because you're one of the people kinda most directly shaping the frontier of of models today in your work at Google. And you obviously in in the releases that happened yesterday at IO, they hit on like pretty much all the themes that people are thinking about in the in the space, where these products and models are going. And so I feel like there's just our our goal today is to to talk through kind of the research behind those announcements, you know, where where this is all headed, know, the kind of future path path of RL and post training and, you know, get your read on the on the space as a whole. Speaker 1 | 01:36 - 01:57 I figured where I start was with world models because I think that was just a really impressive part of, you know, of yesterday and also I I think a pretty where Google's pretty distinct from a lot of the rest of the field. So you obviously shipped this incredibly impressive world model in Omni yesterday. And I think Demis has talked a lot about seeing world models as a path to AGI. And it's interesting. Right? Speaker 1 | 01:57 - 02:11 Because it seems like other labs maybe are more focused on code and, you know, getting to recursive self improvement. And so I'm wondering if it's a fair characterization and, you know, why you think, you know, you and the team and Google have been somewhat uniquely focused on this world model space. Speaker 2 | 02:11 - 02:55 First of all, I guess the the coding or, like, self improvement angle is is it is it at a bit of a different layer. Right? So you can certainly bet and believe that, you know, these models can can reprogram and improve themselves, and it's something I've been actually quite actively working on at the moment. But then the object that they improve, the model, whether it's multimodal and closer or a world model as we call it, and that even how to define that is a bit abstract. Since day one and way before actually Gemini program started, we were working on not just language, but, you know, understanding the visual world and kind of jointly modeling words in the context of vision, blind video, etcetera. Speaker 2 | 02:56 - 03:22 So I think that part, you know, it's been at the core of Gemini and and before our research. And I think maybe one way to characterize it is, you know, language, clearly, there's a lot of information collectively that we wrote about the world, so that's clearly paid off big time. We've kind of distilled, in a way, all the knowledge written and that is being written at the moment into into these weights. Speaker 1 | 03…",
-      "summary": "Speaker 1 | 00:00 - 00:28 Oriol Vinyals is the co lead of Gemini alongside Noam Shazir and Jeff Dean. He's had an incredible career in AI, pioneering many of the breakthroughs in deep learning in the last decade, and it was a ton of fun to…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.81,
-          "rationale": [
-            "multimodal",
-            "vision",
-            "video"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "weights"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.52,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.44,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d8957cae33e76382",
-      "date": "2026-05-23",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:petergyang",
-      "builderOrOrg": "Peter Yang",
-      "title": "Game changer Codex automation 🙂 https://t.co/XUR4q6gI7v",
-      "url": "https://x.com/petergyang/status/2057674020481593710",
-      "publishedAt": "2026-05-22T04:04:50.000Z",
-      "content": "Game changer Codex automation 🙂 https://t.co/XUR4q6gI7v",
-      "summary": "Game changer Codex automation 🙂 https://t.co/XUR4q6gI7v",
-      "regionTags": [],
-      "metrics": {
-        "likes": 69,
-        "retweets": 0,
-        "replies": 4
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "37d0d892fb8e0c34",
-      "date": "2026-05-23",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:zarazhangrui",
-      "builderOrOrg": "Zara Zhang",
-      "title": "Introducing the Claude Code Lark/Feishu Bridge 🌉 (open-source) Talk to Claude Code in Lark/Fei…",
-      "url": "https://x.com/zarazhangrui/status/2057710284920520906",
-      "publishedAt": "2026-05-22T06:28:56.000Z",
-      "content": "Introducing the Claude Code Lark/Feishu Bridge 🌉 (open-source) Talk to Claude Code in Lark/Feishu like a colleague - Use Claude Code on your phone via Lark chat - Manage multiple CC sessions as group chats in Lark (one chat = one session), say goodbye to messy terminal tabs - Claude Code can read all your work context in Lark (chat, docs, meeting transcripts, etc) via CLI - Claude Code can write Lark Docs for you; you can even @ mention it in the comment and it will reply - Forward any Lark me…",
-      "summary": "Introducing the Claude Code Lark/Feishu Bridge 🌉 (open-source) Talk to Claude Code in Lark/Feishu like a colleague - Use Claude Code on your phone via Lark chat - Manage multiple CC sessions as group chats in Lark (one…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 28,
-        "retweets": 2,
-        "replies": 5
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open-source"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.64,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.52,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "ab7869f1acd59624",
-      "date": "2026-05-23",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "The MAD Podcast with Matt Turck",
-      "sourceKey": "podcast:The MAD Podcast with Matt Turck",
-      "builderOrOrg": "The MAD Podcast with Matt Turck",
-      "title": "OpenAI's Yann Dubois: Why AI Progress Suddenly Feels Real",
-      "url": "https://www.youtube.com/watch?v=DhD1zZ8w8Mw",
-      "publishedAt": "2026-05-21T11:30:00.000Z",
-      "content": "Speaker 1 | 00:00 - 00:26 You need to reach this level of reliability to really make any of these AI tools very useful, and I think we just crossed that probably December last year, at least at OpenAI. Now we can trust these models to do a lot of the work that we are doing. The last few months have been pretty wild. We moved from like competitions to usefulness to users and that's what we are feeling right now. I think most of the time the Bionic is the last mile. Speaker 1 | 00:26 - 00:34 There will always be a lot of space left for this last mile in different verticals. And I would highly encourage people to continue working on that. Speaker 2 | 00:34 - 01:03 Hi, I'm Matt Turk. Welcome to the MAD Podcast. My guest today is Jan Dubois, who co leads the post training Frontiers team at OpenAI. The recent release of GBT 5.5 was yet another major milestone in AI, and Jan's team helped build it alongside OpenAI's prior top reasoning models, including o three and GBT five thinking. Before OpenAI, Jan was at Stanford, where he co authored Stanford Alpaca, the landmark project that kicked off much of the modern post training research community. Speaker 2 | 01:03 - 01:29 In this conversation, we go deep on what's actually new in GPT 5.5, why reinforcement learning is moving from math and coding competitions into messy real world work, why AI progress can feel like a sudden step function, and why continual learning remains one of the big unsolved problems in AI three years after ChatGPT. Please enjoy this fantastic conversation with Jan Dubois. Hey, Jan. Welcome. Speaker 1 | 01:29 - 01:30 Hi, Matt. Thanks for having me. Speaker 2 | 01:30 - 01:57 It's been another wild, last few weeks in the world of, Frontier AI with the release of, GBT 5.5, of, Claude Muthos preview. So it it feels like, we have unlocked yet another step function in progress, particularly in cybersecurity, agent decoding. What's the best way to think about this from your perspective? Are things accelerating? What is happening? Speaker 1 | 01:57 - 02:31 Yeah. The last few months have been pretty wild. Internally, also really feel it, and I think anyone who's working with anyone who's work who's coding, basically, is really feeling it right now. I think that's really because of three reasons. The first one is even though in my mind, the progress is actually pretty continuous, you need to reach this level of reliability to really make any of these AI tools very useful, and I think we just crossed that probably December last year, at least at OpenAI. Speaker 1 | 02:31 - 03:05 That's where I thought we really crossed that threshold, where now we can trust these models to do a lot of the work that we are doing. So it feels like a stem function, even though I think actually in terms of capability, it's pretty continuous. So that's the first thing. The second reason is once you start having models that are really good, you accelerate yourself, especially in terms of coding, given that we all code internally. You accelerate yourself both for having these models train the other models, but also build the tooling that we need as researchers to do our job. Speaker 1 | 03:05 - 03:44 All this acceleration, I think, means that we saw these last few months going faster and faster. The third thing that I think we are feeling is all of last year, we really built these reasoning models, and we really pushing a lot on reinforcement learning. And initially, when we had like 'one, 'one preview, even 'three, these models were still optimized for what we call verifiable rewards, things where we actually have access to ground truth. It's easy to test whether you're correct or not. That is, for example, the case in math questions or coding competitions. Speaker 1 | 03:45 - 04:13 And what I think we are realizing now is that we were able to take many of the tools that we built for these verifiable reward cases, and we were able to use them more generally for reinforcement learning on real use…",
-      "summary": "Speaker 1 | 00:00 - 00:26 You need to reach this level of reliability to really make any of these AI tools very useful, and I think we just crossed that probably December last year, at least at OpenAI. Now we can trust these models to do a…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.69,
-          "rationale": [
-            "rl",
-            "reinforcement learning"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "c96bb88acf364c83",
-      "date": "2026-05-23",
-      "sourceType": "blog",
-      "sourceGroup": "mirrored",
-      "sourceName": "Anthropic Engineering",
-      "sourceKey": "blog:Anthropic Engineering",
-      "builderOrOrg": "Anthropic Engineering",
-      "title": "Claude Code auto mode: a safer way to skip permissions",
-      "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
-      "publishedAt": null,
-      "content": "By default, Claude Code asks users for approval before running commands or modifying files. This keeps users safe, but it also means a lot of clicking \"approve.\" Over time that leads to approval fatigue, where people stop paying close attention to what they&#x27;re approving. Users have two solutions for avoiding this fatigue: a built-in sandbox where tools are isolated to prevent dangerous actions, or the --dangerously-skip-permissions flag that disables all permission prompts and lets Claude act freely, which is unsafe in most situations. Figure 1 lays out the tradeoff space. Sandboxing is safe but high-maintenance: each new capability needs configuring, and anything requiring network or host access breaks isolation. Bypassing permissions is zero-maintenance but offers no protection. Manual prompts sit in the middle, and in practice users accept 93% of them anyway. Figure 1. The permission modes available in Claude Code, positioned by task autonomy and security . Dot colour indicates maintenance friction. Auto mode targets high autonomy at low maintenance cost; the dashed arrow shows security improvement over time as classifier coverage and model judgment get better. We keep an internal incident log focused on agentic misbehaviors. Past examples include deleting remote git branches from a misinterpreted instruction, uploading an engineer&#x27;s GitHub auth token to an internal compute cluster, and attempting migrations against a production database. Each of these was the result of the model being overeager, taking initiative in a way the user didn&#x27;t intend. We documented this pattern in the Claude Opus 4.6 system card (§6.2.1 and §6.2.3.3). Auto mode is a new mode for Claude Code that delegates approvals to model-based classifiers—a middle ground between manual review and no guardrails. The goal is to catch the dangerous actions that aren&#x27;t aligned with user intent, while letting the rest run without approval prompts. Get started using auto mode by foll…",
-      "summary": "By default, Claude Code asks users for approval before running commands or modifying files. This keeps users safe, but it also means a lot of clicking \"approve.\" Over time that leads to approval fatigue, where people stop paying close atte…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Watchlist",
-      "importanceScore": 0.62,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.51,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "8d834efef6559d31",
-      "date": "2026-05-23",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Google I/O 2026: Gemini 3.5 Flash, Omni (NanoBanana for Video), Spark (background agents), and Antigravity 2.0",
-      "url": "https://www.latent.space/p/ainews-google-io-2026-gemini-35-flash",
-      "publishedAt": "2026-05-20T03:34:17.000Z",
-      "content": "The full keynote livestream was 2 hours, but as usual, The Verge has the best supercut down to 30 mins, which is very worthwhile to get a narrative sense: The mainline Gemini 3.5 Flash is GA today (very nice compared to some staged rollouts) and is sold as a decent step up even compared to 3.1 Pro, with 3.5 Pro coming next month. Perhaps more impressive were the Gemini Live (Voice) and Omni (Video) and Google Pics/Flow (Images/VFX/music) modalities, where Google demonstrated industry leading capabilities and latency, all presumably made possible by industry leading hardware and models. Per longstanding tradition at every bigtech keynote these days, Google also showed off some smart glasses tech, which seems a little more likely to be seen on the street than many prior iterations from both Google and their peers. AI News for 5/18/2026-5/19/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Google used I/O to reposition Gemini as both a consumer AI surface and a developer/agent platform, with three core technical announcements: Gemini 3.5 Flash for fast agentic/coding workloads, Gemini Omni for multimodal generation/editing starting with video, and a broader Antigravity agent stack spanning desktop/CLI/SDK/API. Official posts emphasized scale &#8212; Google says it now processes over 3.2 quadrillion tokens/month , up 7x YoY from 480T/month , while the Gemini app has 900M+ monthly users and is available in 230+ countries and 70+ languages ( Google , Google , GeminiApp ). The most technically substantive release was Gemini 3.5 Flash , framed by Google as its strongest agentic/coding model yet, GA immediately , with 1M-token context , 65k max output , 4 thinking levels (&#8220;minimal/low/medium/high&#8221;), and &#8220;thought preservation&#8221; across turns ( GoogleDeepMind , Googl…",
-      "summary": "Google has been busy!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.81,
-          "rationale": [
-            "coding",
-            "developer",
-            "repo"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.81,
-          "rationale": [
-            "multimodal",
-            "image",
-            "video"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "aa074fe6596a2bec",
-      "date": "2026-05-22",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "Great post on FDEs. Everyone should read it if you’re interested in this job category. This is…",
-      "url": "https://x.com/levie/status/2057315272156135501",
-      "publishedAt": "2026-05-21T04:19:18.000Z",
-      "content": "Great post on FDEs. Everyone should read it if you’re interested in this job category. This is a job that is going to be around as long as AI keeps changing rapidly, which it inevitably will. People often wonder why isn’t this like just deploying other forms of technology in the past, like cloud. Because something like cloud adoption affected a fairly concentrated set of users (developers and IT), and generally didn’t require a fundamental change to the workflows of employees to get the benefit…",
-      "summary": "Great post on FDEs. Everyone should read it if you’re interested in this job category. This is a job that is going to be around as long as AI keeps changing rapidly, which it inevitably will. People often wonder why isn…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 556,
-        "retweets": 62,
-        "replies": 37
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "developer"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "7ae859c797e4a63c",
-      "date": "2026-05-22",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:zarazhangrui",
-      "builderOrOrg": "Zara Zhang",
-      "title": "Great slide from the “How to thrive as an AI-era developer” session at Google I/O today I think…",
-      "url": "https://x.com/zarazhangrui/status/2057267931025957348",
-      "publishedAt": "2026-05-21T01:11:11.000Z",
-      "content": "Great slide from the “How to thrive as an AI-era developer” session at Google I/O today I think this T-shape will apply to not just developers but every job function We need to - go deeper with our domain expertise - go wider with adjacent skills and fields - learn to use AI well on top",
-      "summary": "Great slide from the “How to thrive as an AI-era developer” session at Google I/O today I think this T-shape will apply to not just developers but every job function We need to - go deeper with our domain expertise - go…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 151,
-        "retweets": 20,
-        "replies": 8
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "developer"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a5b0d3a8f3458060",
-      "date": "2026-05-22",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:danshipper",
-      "builderOrOrg": "Dan Shipper",
-      "title": "Anthropic just acquired developer tool startup @StainlessAPI, whose biggest customers were Open…",
-      "url": "https://x.com/danshipper/status/2057122805657821240",
-      "publishedAt": "2026-05-20T15:34:31.000Z",
-      "content": "Anthropic just acquired developer tool startup @StainlessAPI, whose biggest customers were OpenAI and Google. Back in October, I had Stainless CEO and founder Alex Rattray (@RattrayAlex) on AI & I to talk about MCP servers and the unglamorous plumbing that makes AI agents actually work. (Disclosure: I’m a small investor in the company.) After Monday's news, the conversation lands differently—in it, Alex essentially walks me through the design thinking for building APIs, SDKs, and MCP servers th…",
-      "summary": "Anthropic just acquired developer tool startup @StainlessAPI, whose biggest customers were OpenAI and Google. Back in October, I had Stainless CEO and founder Alex Rattray (@RattrayAlex) on AI & I to talk about MCP serv…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 51,
-        "retweets": 3,
-        "replies": 11
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "developer"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a89ea0ec5a05692c",
-      "date": "2026-05-22",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "AI & I by Every",
-      "sourceKey": "podcast:AI & I by Every",
-      "builderOrOrg": "AI & I by Every",
-      "title": "Inside Stainless: The Developer Tools Startup Anthropic Just Bought for $300 Million",
-      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
-      "publishedAt": "2026-05-20T15:00:00.000Z",
-      "content": "Speaker 1 | 00:00 - 00:31 The internet runs on computers talking to each other, but its entire architecture was built for a pre AI world. Now we're trying to hook AI up to the internet with MCP, Model Context Protocol, which turns any website or web service into a set of tools that an AI can use natively to get worked on. And the software companies that learn how to do MCP well are going to win over the next decade. That's why I brought Alex Rattray, the founder and CEO of Stainless, onto the show. Stainless' job is to help computers talk to each other. Speaker 1 | 00:31 - 00:59 They make the API and SDKs for all the big companies that you know about, like OpenAI and Anthropic, and they're starting to build MCP servers too. So Alex and I get into the nitty gritty of what the future of MCP looks like, how to design good MCPs, why MCPs are actually really hard to scale and possibly insecure. And we try to figure out together what a better model for allowing AIs to use the Internet might look like. This is a great episode. Alex is a good friend of mine. Speaker 1 | 00:59 - 01:15 Let's dive in. Alex, welcome to the show. Speaker 2 | 01:16 - 01:18 Thanks, Dan. It's, really exciting to be here. Speaker 1 | 01:18 - 01:36 It's good to have you. So for people who don't know, you are the founder and CEO of Stainless, which is the API company. You make APIs for companies like OpenAI and Anthropic, and just name your big company that you might use their API. Stainless is probably behind it. Before that, you worked at Stripe doing their API. Speaker 1 | 01:36 - 02:01 Surprise. And before that, most importantly, we were very good friends in college, we remained good friends. And we were both starting companies in college, I'm a tiny investor in stainless. But it's been really, really fun to watch your journey and get to get to hang out together so much over the years. And, I'm just very excited to bring you on to talk about AI and and what you're doing at stainless. Speaker 2 | 02:01 - 02:12 Thanks, Dan. Yeah. It's it's been really fun over the years. I mean, you know, when when we were in college, I was working on a start up. You were working on a start up. Speaker 2 | 02:12 - 02:38 You you had a conference room at a venture capitalist office as your office, and you let me crash there with my co founder and team. And we were just like on the other side of the conference table hacking away into the evening. And very fond memories of those days. And these days, it's not every evening, but on the weekends, whatever, same thing is still happening. You don't see that every day. Speaker 2 | 02:38 - 02:46 It's really a nice feeling. And it's been great to see everything happening with every, along the way. Speaker 1 | 02:46 - 03:13 Thank you. As I say, it started from the bottom, now we're here. I and, yeah. I mean, I the thing that I always say when people when I run into people and they ask me about you, in order to embarrass you, I I just talk about how you're the only person that I know of who has consistently run barefoot through the streets of Philadelphia. Because when we first met, you were you were not a fan of shoes and you were a fan of running. Speaker 1 | 03:13 - 03:14 You wanna talk about that? Speaker 2 | 03:15 - 03:31 Yeah. It wasn't that I didn't like the concept of shoes. It's that I couldn't find a good pair. And at a certain point, you know, it's like I was running through Nikes and they would they would bust open every few months. I think was actually going on as I had really wide feet. Speaker 2 | 03:31 - 03:51 And was I I was buying probably narrow shoes, but they would shoes would constantly get ruined. And, you know, on a college budget, it's just like, this is this is it. This is no good. And eventually, I decided, okay, the longer you wear your shoes, the the more worn out they get. But the longer you just wear your feet, the tougher they get. Speaker 2 | 03:52 - 03:53 So Speaker 1 | 03:54 - 03:56 the longer you wear y…",
-      "summary": "Speaker 1 | 00:00 - 00:31 The internet runs on computers talking to each other, but its entire architecture was built for a pre AI world. Now we're trying to hook AI up to the internet with MCP, Model Context Protocol, which turns any webs…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "developer"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.52,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.44,
       "whyThisMatters": ""
     }
   ]
