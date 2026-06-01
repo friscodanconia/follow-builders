@@ -1,8 +1,610 @@
 {
-  "generatedAt": "2026-05-31T05:47:43.275Z",
+  "generatedAt": "2026-06-01T01:22:02.375Z",
   "slug": "agents",
   "label": "AI Assistants",
   "items": [
+    {
+      "id": "0085f8a00931c56c",
+      "date": "2026-06-01",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:steipete",
+      "builderOrOrg": "Peter Steinberger",
+      "title": "With GPT 5.5, /goal, autoreview and crabbox my prompts moved from ~30-60min to often 4-10h task…",
+      "url": "https://x.com/steipete/status/2060678430031597696",
+      "publishedAt": "2026-05-30T11:03:17.000Z",
+      "content": "With GPT 5.5, /goal, autoreview and crabbox my prompts moved from ~30-60min to often 4-10h tasks and my confidence that it’s ready is much much higher. Yielding agents is a skill.",
+      "summary": "With GPT 5.5, /goal, autoreview and crabbox my prompts moved from ~30-60min to often 4-10h tasks and my confidence that it’s ready is much much higher. Yielding agents is a skill.",
+      "regionTags": [],
+      "metrics": {
+        "likes": 2905,
+        "retweets": 103,
+        "replies": 145
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "0023524921148af6",
+      "date": "2026-06-01",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "How Endava builds an agentic organization with Codex",
+      "url": "https://openai.com/index/endava",
+      "publishedAt": "2026-05-28T12:00:00.000Z",
+      "content": "Learn how Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours.",
+      "summary": "Learn how Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "cb43ab2e1137b6c7",
+      "date": "2026-06-01",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Introducing Claude Opus 4.8 \\ Anthropic",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "publishedAt": null,
+      "content": "Our latest model, Claude Opus 4.8, is an upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.",
+      "summary": "Our latest model, Claude Opus 4.8, is an upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "01cadff5eec5d28e",
+      "date": "2026-06-01",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Data Formulator 0.7: AI-powered data analytics for enterprise data",
+      "url": "https://www.microsoft.com/en-us/research/blog/data-formulator-0-7-ai-powered-data-analytics-for-enterprise-data/",
+      "publishedAt": "2026-05-28T16:00:00.000Z",
+      "content": "At a glance Data Formulator 0.7 is an open-source AI-powered system for enterprise data analytics that combines data connectivity, agent-guided exploration, and visualization refinement in a shared workspace. It includes a Data Connectors feature, which supports governed, reusable connections across databases, warehouses, BI systems, object stores, and local files, reducing integration work for platform teams. Context-aware agents help users prepare data, explore analyses, generate visualizations, and navigate long-running and branching analytical workflows. An interactive, multimodal interface allows teams to iteratively explore and refine analyses across fragmented data sources, with no SQL or programming expertise required. Enterprise teams increasingly rely on AI systems for analytics, but enterprise data workflows are often fragmented across storage systems and tools. Before analysis can begin, teams often need to establish governed connections, prepare metadata, manage permissions, and build workflows for combining and reshaping data across multiple systems. Beyond data connection, analysis itself remains challenging for analysts and domain experts, many of whom lack deep coding expertise. They frequently need to compute new metrics, compare different ways of organizing data, inspect intermediate outputs, and refine visualizations as needs evolve. These workflows are difficult to reproduce inside isolated chat interactions that lack persistent access to enterprise data, workflow history, and visualization context. Our new release, Data Formulator 0.7 (opens in new tab) , is designed to address these challenges. It is an open-source AI-powered data analysis system that connects fragmented enterprise data and iterative analytical workflows. It provides a lightweight way to connect across a variety of data sources, context-aware agents that assist with data preparation, exploration, and visualization, and an interactive workspace where users can iteratively refi…",
+      "summary": "Data Formulator introduces AI-powered analytics for enterprise data workflows. Data teams can easily bring enterprise data into an AI-ready workspace where users can explore, analyze, and visualize data with AI agents to turn raw data into…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "programming"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.8,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.63,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "4dc0bb01688349c1",
+      "date": "2026-06-01",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "Remote agents in Vibe. Powered by Mistral Medium 3.5. | Mistral AI",
+      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/",
+      "publishedAt": null,
+      "content": "Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks.",
+      "summary": "Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "155df4c562ef069b",
+      "date": "2026-06-01",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "Introducing Mistral Small 4 | Mistral AI",
+      "url": "https://mistral.ai/news/mistral-small-4/",
+      "publishedAt": null,
+      "content": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
+      "summary": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "autonomous"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "multimodal"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.8,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.63,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d7791bf6db4a148c",
+      "date": "2026-06-01",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "Introducing Mistral 3 | Mistral AI",
+      "url": "https://mistral.ai/news/mistral-3/",
+      "publishedAt": null,
+      "content": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
+      "summary": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "autonomous"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "multimodal"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.8,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.63,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "261f692f80623caf",
+      "date": "2026-06-01",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "Speaking of Voxtral | Mistral AI",
+      "url": "https://mistral.ai/news/voxtral-tts/",
+      "publishedAt": null,
+      "content": "Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.",
+      "summary": "Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.81,
+          "rationale": [
+            "voice",
+            "speech",
+            "tts"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "weights"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c5e4dffb009c0ad0",
+      "date": "2026-06-01",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Founders and Forward Deployed Engineers",
+      "url": "https://www.latent.space/p/ainews-founders-and-forward-deployed",
+      "publishedAt": "2026-05-30T01:57:15.000Z",
+      "content": "Most people are still digesting the massive Anthropic news from yesterday. We&#8217;re taking the opportunity to solicit the leading AI FDE&#8217;s in the world for AIE&#8217;s new Forward Deployed Engineer track, mirroring similar pushes from both OpenAI DeployCo and Anthropic DeployCo : as well as AIE&#8217;s new Founders program, where we are doing our version of the Startup Battlefield, a competitive pitch contest anchored by YCombinator&#8217;s Garry Tan and Howie Lu&#8217;s $10 Million dollar Hyperagent contest. Sign up (and book hotel !) for details today if you are keen. AI News for 5/28/2026-5/29/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Claude Opus 4.8 Rollout, Benchmark Friction, and API Ergonomics Opus 4.8 landed into a noisy, mixed eval landscape : multiple independent benches converged on &#8220;incremental but not dominant.&#8221; @arena pushed 200+ frontend/code tests comparing Opus 4.8 against prior Opus variants, Gemini, and GLM; @theo reported CursorBench shows it as more efficient but slightly worse than 4.7 within margin of error ; @jerryjliu0 and @llama_index found small gains on tables/layout but regressions on content faithfulness/charts in document parsing; @scaling01 said no progress on ALE-Bench and separately flagged interesting failure modes on LisanBench. On the positive side, @jeremyphoward found 4.8 less over-agentic and more cooperative than 4.7/GPT-5.5 in coding, while @leo_linsky called it a tangible product improvement over prior Anthropic releases. Anthropic also shipped useful platform-level changes : @ClaudeDevs announced mid-conversation system instructions without breaking prompt cache , plus authoritative mid-conversation system-role updates, which matters for long-running agent sessions and cost control. But pricing remains a ma…",
+      "summary": "a quiet day lets us highlight the new AIE WF focuses",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "coding",
+            "code",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "benchmark",
+            "eval"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "0a1c36bdfd7b9b0c",
+      "date": "2026-06-01",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "The Age of Async Agents — Cognition's Walden Yan & OpenInspect's Cole Murray",
+      "url": "https://www.latent.space/p/cognition",
+      "publishedAt": "2026-05-28T18:41:24.000Z",
+      "content": "The new AIEWF website is live! CFPs close in 2 days and we will run our first New Engineer Orientation this weekend, get your tickets booked ASAP as they -will- sell out. Take the AI Engineering Survey and get >$2k in credits and free AIE WF tickets ! One of the central tensions in the agents industry is that even while there are major decacorn agent labs like Sierra, Decagon, Notion and Cursor being built up, it is also true that it has never been easier to DIY agents, with a plethora of agent frameworks like LangGraph and Pydantic and Flue , and managed agents from Anthropic and Gemini and Amazon . There has been a wave of companies building their own background agents from Shopify to Stripe to Paradigm to Razorpay , and even Cognition&#8217;s friends Ramp have built their own coding agent with other friend Modal . You&#8217;d think Cognition might feel a bit threatened, but they&#8217;re not - even after all this, they were way oversubscribed for the $1B Series D they just announced: @Lux_Capital , @generalcatalyst , and @8vc .\\n\\nOur enterprise usage has grown >10x since the start of this year, and our run-rate revenue grew to $492 M.\\n\\nWe launched Devin two years ago as the first AI software engineer. Since \",\"username\":\"cognition\",\"name\":\"Cognition\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/1765909640364068865/MvH-m0gd_normal.jpg\",\"date\":\"2026-05-27T15:39:26.000Z\",\"photos\":[{\"img_url\":\"https://pbs.substack.com/media/HJViewebAAE1uVB.jpg\",\"link_url\":\"https://t.co/k99LLLyWhZ\"}],\"quoted_tweet\":{},\"reply_count\":157,\"retweet_count\":194,\"like_count\":2372,\"impression_count\":733289,\"expanded_url\":null,\"video_url\":null,\"belowTheFold\":false}\" data-component-name=\"Twitter2ToDOM\"> Walden Yan , coiner of context engineering and Chief Product Officer/Cofounder of Cognition, invited OpenInspect&#8217;s Cole Murray to talk about why the Devin is in the Details . Full conversation live on the pod today: In retrospect, async agents were the most AGI pilled b…",
+      "summary": "80% Devin Commits, Spec-to-PR Workflows, Full VMs, Agent Memory, and PMs Shipping Code",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "image",
+            "video"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "8542cd8bca67b518",
+      "date": "2026-06-01",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Cognition raises $1B in $26B Series D",
+      "url": "https://www.latent.space/p/ainews-cognition-raises-1b-in-26b",
+      "publishedAt": "2026-05-28T07:26:09.000Z",
+      "content": "We last wrote about Cognition in September&#8217;s $10B Series C when Smol.ai also joined Cognition and AINews was eventually moved here to Latent Space . 8 months later, it is worth 2.5x more , and officially the largest remaining independent agent lab in AI, a thesis we mapped out last year . With official ARR disclosures (now projecting >$1B ARR by EOY ) you can map out the growth, which looks oddly similar to the WTF Happened in 2025 charts (this isn&#8217;t a coincidence ): In the enterprise SaaS business, ARR is a trailing indicator of utilization, as are the logos of some of the toughest/most discerning customers in the enterprise and startup ecosystem (including Exa and Modal , featured last week) We will release more on the Cognition podcast tomorrow. AI News for 5/26/2026-5/27/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Inference Efficiency, Serving Architectures, and Cost Curves Inference optimization is increasingly architectural, not just kernel-level : EAGLE 3.1 improves speculative decoding robustness by stabilizing hidden-state feedback and reducing attention drift at deeper decode steps, with explicit emphasis on long-context acceptance length and real-world serving reliability; the team also highlighted collaboration with vLLM and TorchSpec. At the kernel/system layer, Perplexity open-sourced a rebuilt Unigram tokenizer that cuts CPU utilization 5&#8211;6&#215; and reaches 63 &#181;s at 514 tokens with zero heap allocations, while Qwen3.5 on TokenSpeed reportedly hits 580 tokens/s for agentic workloads via joint optimization across Alibaba, LightSeek, NVIDIA, Mooncake, and FlashAttention-4 contributors. Supporting libraries also improved: MaxSim v2 adds backprop and reports 10.33&#215; faster on H200 and 11.94&#215; on A100 versus na&#239;ve PyTorch. Pric…",
+      "summary": "coding is an uncapped TAM market",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "coding",
+            "code",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "inference",
+            "serving"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "980446a0dcbd045b",
+      "date": "2026-06-01",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "China's Robotics Dream Began in 1972",
+      "url": "https://www.chinatalk.media/p/chinas-father-of-robotics",
+      "publishedAt": "2026-05-27T09:52:04.000Z",
+      "content": "ChinaTalk analyst yearns for the mines. He&#8217;s on a mission to visit rare earths and other critical minerals mining sites, refineries, and permanent magnet facilities around the world. If you or anyone you know can help him fulfill this mission, please reach out to aqib@chinatalk.media. Less than one in a thousand Chinese people owned private cars in the 1990s. But in 1993, a vehicle guided by a computer program landed on the floor of a car plant in Shenyang, capital of Liaoning province. Xianfeng 1 &#20808;&#38155;1&#21495; was the first of its kind in China, developed entirely by Chinese researchers. The car plant had previously relied on American-made autonomous-guided vehicles, but the US tightened export controls in 1991 and cut off sales to China. The plant turned to the Shenyang Institute of Automation (SIA), an institution of China&#8217;s national academy, the Chinese Academy of Sciences (CAS). It was led by a scientist called Jiang Xinsong &#33931;&#26032;&#26494;. Xianfeng 1. Source . To the average person today, &#8220;AI&#8221; is synonymous with chatbots &#8212; or, at least, tools that exist only in the digital realm. Hardware manifestations, like humanoid robots or intelligent Roombas, are instead considered futuristic. But &#8220;Chinese AI,&#8221; as an idea, did not necessarily begin with DeepSeek or tech companies in Hangzhou. It started on assembly lines in the Northeast, with dreams of intelligent oxygen furnaces for steel production and automated car plants. Some of the earliest champions of artificial intelligence research were not software engineers or information scientists, but those working shoulder-to-shoulder with factory workers. As Chinese firms like Unitree became forerunners in the race to build autonomous robots, I grew curious about Jiang&#8217;s story. State media has dubbed him China&#8217;s &#8220;father of robotics.&#8221; His work &#8212; and what he would have conceived of as &#8220;artificial intelligence&#8221; &#8212…",
+      "summary": "a history!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "autonomous"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "sales"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.62,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.51,
+      "whyThisMatters": ""
+    },
     {
       "id": "876063d9e73653d6",
       "date": "2026-05-31",
@@ -203,571 +805,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.59,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "0023524921148af6",
-      "date": "2026-05-31",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "How Endava builds an agentic organization with Codex",
-      "url": "https://openai.com/index/endava",
-      "publishedAt": "2026-05-28T12:00:00.000Z",
-      "content": "Learn how Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours.",
-      "summary": "Learn how Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "cb43ab2e1137b6c7",
-      "date": "2026-05-31",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Introducing Claude Opus 4.8 \\ Anthropic",
-      "url": "https://www.anthropic.com/news/claude-opus-4-8",
-      "publishedAt": null,
-      "content": "Our latest model, Claude Opus 4.8, is an upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.",
-      "summary": "Our latest model, Claude Opus 4.8, is an upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "01cadff5eec5d28e",
-      "date": "2026-05-31",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Data Formulator 0.7: AI-powered data analytics for enterprise data",
-      "url": "https://www.microsoft.com/en-us/research/blog/data-formulator-0-7-ai-powered-data-analytics-for-enterprise-data/",
-      "publishedAt": "2026-05-28T16:00:00.000Z",
-      "content": "At a glance Data Formulator 0.7 is an open-source AI-powered system for enterprise data analytics that combines data connectivity, agent-guided exploration, and visualization refinement in a shared workspace. It includes a Data Connectors feature, which supports governed, reusable connections across databases, warehouses, BI systems, object stores, and local files, reducing integration work for platform teams. Context-aware agents help users prepare data, explore analyses, generate visualizations, and navigate long-running and branching analytical workflows. An interactive, multimodal interface allows teams to iteratively explore and refine analyses across fragmented data sources, with no SQL or programming expertise required. Enterprise teams increasingly rely on AI systems for analytics, but enterprise data workflows are often fragmented across storage systems and tools. Before analysis can begin, teams often need to establish governed connections, prepare metadata, manage permissions, and build workflows for combining and reshaping data across multiple systems. Beyond data connection, analysis itself remains challenging for analysts and domain experts, many of whom lack deep coding expertise. They frequently need to compute new metrics, compare different ways of organizing data, inspect intermediate outputs, and refine visualizations as needs evolve. These workflows are difficult to reproduce inside isolated chat interactions that lack persistent access to enterprise data, workflow history, and visualization context. Our new release, Data Formulator 0.7 (opens in new tab) , is designed to address these challenges. It is an open-source AI-powered data analysis system that connects fragmented enterprise data and iterative analytical workflows. It provides a lightweight way to connect across a variety of data sources, context-aware agents that assist with data preparation, exploration, and visualization, and an interactive workspace where users can iteratively refi…",
-      "summary": "Data Formulator introduces AI-powered analytics for enterprise data workflows. Data teams can easily bring enterprise data into an AI-ready workspace where users can explore, analyze, and visualize data with AI agents to turn raw data into…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "programming"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.8,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.63,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4dc0bb01688349c1",
-      "date": "2026-05-31",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Mistral AI Blog",
-      "sourceKey": "official:Mistral AI Blog",
-      "builderOrOrg": "Mistral AI",
-      "title": "Remote agents in Vibe. Powered by Mistral Medium 3.5. | Mistral AI",
-      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/",
-      "publishedAt": null,
-      "content": "Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks.",
-      "summary": "Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "155df4c562ef069b",
-      "date": "2026-05-31",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Mistral AI Blog",
-      "sourceKey": "official:Mistral AI Blog",
-      "builderOrOrg": "Mistral AI",
-      "title": "Introducing Mistral Small 4 | Mistral AI",
-      "url": "https://mistral.ai/news/mistral-small-4/",
-      "publishedAt": null,
-      "content": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
-      "summary": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "autonomous"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "multimodal"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.8,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.63,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d7791bf6db4a148c",
-      "date": "2026-05-31",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Mistral AI Blog",
-      "sourceKey": "official:Mistral AI Blog",
-      "builderOrOrg": "Mistral AI",
-      "title": "Introducing Mistral 3 | Mistral AI",
-      "url": "https://mistral.ai/news/mistral-3/",
-      "publishedAt": null,
-      "content": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
-      "summary": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "autonomous"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "multimodal"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.8,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.63,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "261f692f80623caf",
-      "date": "2026-05-31",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Mistral AI Blog",
-      "sourceKey": "official:Mistral AI Blog",
-      "builderOrOrg": "Mistral AI",
-      "title": "Speaking of Voxtral | Mistral AI",
-      "url": "https://mistral.ai/news/voxtral-tts/",
-      "publishedAt": null,
-      "content": "Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.",
-      "summary": "Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "voice",
-          "label": "Voice",
-          "confidence": 0.81,
-          "rationale": [
-            "voice",
-            "speech",
-            "tts"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "weights"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "c5e4dffb009c0ad0",
-      "date": "2026-05-31",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Founders and Forward Deployed Engineers",
-      "url": "https://www.latent.space/p/ainews-founders-and-forward-deployed",
-      "publishedAt": "2026-05-30T01:57:15.000Z",
-      "content": "Most people are still digesting the massive Anthropic news from yesterday. We&#8217;re taking the opportunity to solicit the leading AI FDE&#8217;s in the world for AIE&#8217;s new Forward Deployed Engineer track, mirroring similar pushes from both OpenAI DeployCo and Anthropic DeployCo : as well as AIE&#8217;s new Founders program, where we are doing our version of the Startup Battlefield, a competitive pitch contest anchored by YCombinator&#8217;s Garry Tan and Howie Lu&#8217;s $10 Million dollar Hyperagent contest. Sign up (and book hotel !) for details today if you are keen. AI News for 5/28/2026-5/29/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Claude Opus 4.8 Rollout, Benchmark Friction, and API Ergonomics Opus 4.8 landed into a noisy, mixed eval landscape : multiple independent benches converged on &#8220;incremental but not dominant.&#8221; @arena pushed 200+ frontend/code tests comparing Opus 4.8 against prior Opus variants, Gemini, and GLM; @theo reported CursorBench shows it as more efficient but slightly worse than 4.7 within margin of error ; @jerryjliu0 and @llama_index found small gains on tables/layout but regressions on content faithfulness/charts in document parsing; @scaling01 said no progress on ALE-Bench and separately flagged interesting failure modes on LisanBench. On the positive side, @jeremyphoward found 4.8 less over-agentic and more cooperative than 4.7/GPT-5.5 in coding, while @leo_linsky called it a tangible product improvement over prior Anthropic releases. Anthropic also shipped useful platform-level changes : @ClaudeDevs announced mid-conversation system instructions without breaking prompt cache , plus authoritative mid-conversation system-role updates, which matters for long-running agent sessions and cost control. But pricing remains a ma…",
-      "summary": "a quiet day lets us highlight the new AIE WF focuses",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.81,
-          "rationale": [
-            "coding",
-            "code",
-            "repo"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "benchmark",
-            "eval"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "0a1c36bdfd7b9b0c",
-      "date": "2026-05-31",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "The Age of Async Agents — Cognition's Walden Yan & OpenInspect's Cole Murray",
-      "url": "https://www.latent.space/p/cognition",
-      "publishedAt": "2026-05-28T18:41:24.000Z",
-      "content": "The new AIEWF website is live! CFPs close in 2 days and we will run our first New Engineer Orientation this weekend, get your tickets booked ASAP as they -will- sell out. Take the AI Engineering Survey and get >$2k in credits and free AIE WF tickets ! One of the central tensions in the agents industry is that even while there are major decacorn agent labs like Sierra, Decagon, Notion and Cursor being built up, it is also true that it has never been easier to DIY agents, with a plethora of agent frameworks like LangGraph and Pydantic and Flue , and managed agents from Anthropic and Gemini and Amazon . There has been a wave of companies building their own background agents from Shopify to Stripe to Paradigm to Razorpay , and even Cognition&#8217;s friends Ramp have built their own coding agent with other friend Modal . You&#8217;d think Cognition might feel a bit threatened, but they&#8217;re not - even after all this, they were way oversubscribed for the $1B Series D they just announced: @Lux_Capital , @generalcatalyst , and @8vc .\\n\\nOur enterprise usage has grown >10x since the start of this year, and our run-rate revenue grew to $492 M.\\n\\nWe launched Devin two years ago as the first AI software engineer. Since \",\"username\":\"cognition\",\"name\":\"Cognition\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/1765909640364068865/MvH-m0gd_normal.jpg\",\"date\":\"2026-05-27T15:39:26.000Z\",\"photos\":[{\"img_url\":\"https://pbs.substack.com/media/HJViewebAAE1uVB.jpg\",\"link_url\":\"https://t.co/k99LLLyWhZ\"}],\"quoted_tweet\":{},\"reply_count\":157,\"retweet_count\":194,\"like_count\":2372,\"impression_count\":733289,\"expanded_url\":null,\"video_url\":null,\"belowTheFold\":false}\" data-component-name=\"Twitter2ToDOM\"> Walden Yan , coiner of context engineering and Chief Product Officer/Cofounder of Cognition, invited OpenInspect&#8217;s Cole Murray to talk about why the Devin is in the Details . Full conversation live on the pod today: In retrospect, async agents were the most AGI pilled b…",
-      "summary": "80% Devin Commits, Spec-to-PR Workflows, Full VMs, Agent Memory, and PMs Shipping Code",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.69,
-          "rationale": [
-            "image",
-            "video"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "8542cd8bca67b518",
-      "date": "2026-05-31",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Cognition raises $1B in $26B Series D",
-      "url": "https://www.latent.space/p/ainews-cognition-raises-1b-in-26b",
-      "publishedAt": "2026-05-28T07:26:09.000Z",
-      "content": "We last wrote about Cognition in September&#8217;s $10B Series C when Smol.ai also joined Cognition and AINews was eventually moved here to Latent Space . 8 months later, it is worth 2.5x more , and officially the largest remaining independent agent lab in AI, a thesis we mapped out last year . With official ARR disclosures (now projecting >$1B ARR by EOY ) you can map out the growth, which looks oddly similar to the WTF Happened in 2025 charts (this isn&#8217;t a coincidence ): In the enterprise SaaS business, ARR is a trailing indicator of utilization, as are the logos of some of the toughest/most discerning customers in the enterprise and startup ecosystem (including Exa and Modal , featured last week) We will release more on the Cognition podcast tomorrow. AI News for 5/26/2026-5/27/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Inference Efficiency, Serving Architectures, and Cost Curves Inference optimization is increasingly architectural, not just kernel-level : EAGLE 3.1 improves speculative decoding robustness by stabilizing hidden-state feedback and reducing attention drift at deeper decode steps, with explicit emphasis on long-context acceptance length and real-world serving reliability; the team also highlighted collaboration with vLLM and TorchSpec. At the kernel/system layer, Perplexity open-sourced a rebuilt Unigram tokenizer that cuts CPU utilization 5&#8211;6&#215; and reaches 63 &#181;s at 514 tokens with zero heap allocations, while Qwen3.5 on TokenSpeed reportedly hits 580 tokens/s for agentic workloads via joint optimization across Alibaba, LightSeek, NVIDIA, Mooncake, and FlashAttention-4 contributors. Supporting libraries also improved: MaxSim v2 adds backprop and reports 10.33&#215; faster on H200 and 11.94&#215; on A100 versus na&#239;ve PyTorch. Pric…",
-      "summary": "coding is an uncapped TAM market",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.81,
-          "rationale": [
-            "coding",
-            "code",
-            "repo"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.69,
-          "rationale": [
-            "inference",
-            "serving"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "980446a0dcbd045b",
-      "date": "2026-05-31",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "China's Robotics Dream Began in 1972",
-      "url": "https://www.chinatalk.media/p/chinas-father-of-robotics",
-      "publishedAt": "2026-05-27T09:52:04.000Z",
-      "content": "ChinaTalk analyst yearns for the mines. He&#8217;s on a mission to visit rare earths and other critical minerals mining sites, refineries, and permanent magnet facilities around the world. If you or anyone you know can help him fulfill this mission, please reach out to aqib@chinatalk.media. Less than one in a thousand Chinese people owned private cars in the 1990s. But in 1993, a vehicle guided by a computer program landed on the floor of a car plant in Shenyang, capital of Liaoning province. Xianfeng 1 &#20808;&#38155;1&#21495; was the first of its kind in China, developed entirely by Chinese researchers. The car plant had previously relied on American-made autonomous-guided vehicles, but the US tightened export controls in 1991 and cut off sales to China. The plant turned to the Shenyang Institute of Automation (SIA), an institution of China&#8217;s national academy, the Chinese Academy of Sciences (CAS). It was led by a scientist called Jiang Xinsong &#33931;&#26032;&#26494;. Xianfeng 1. Source . To the average person today, &#8220;AI&#8221; is synonymous with chatbots &#8212; or, at least, tools that exist only in the digital realm. Hardware manifestations, like humanoid robots or intelligent Roombas, are instead considered futuristic. But &#8220;Chinese AI,&#8221; as an idea, did not necessarily begin with DeepSeek or tech companies in Hangzhou. It started on assembly lines in the Northeast, with dreams of intelligent oxygen furnaces for steel production and automated car plants. Some of the earliest champions of artificial intelligence research were not software engineers or information scientists, but those working shoulder-to-shoulder with factory workers. As Chinese firms like Unitree became forerunners in the race to build autonomous robots, I grew curious about Jiang&#8217;s story. State media has dubbed him China&#8217;s &#8220;father of robotics.&#8221; His work &#8212; and what he would have conceived of as &#8220;artificial intelligence&#8221; &#8212…",
-      "summary": "a history!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "science"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "autonomous"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "sales"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.62,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.51,
       "whyThisMatters": ""
     },
     {
@@ -2438,52 +2475,6 @@
         "likes": 158,
         "retweets": 4,
         "replies": 10
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "5e841f574adf7cf8",
-      "date": "2026-05-24",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:swyx",
-      "builderOrOrg": "Swyx",
-      "title": "Kakuna: skills with checklists that only know how to harden your codebase /plan with it then le…",
-      "url": "https://x.com/swyx/status/2057876022553690327",
-      "publishedAt": "2026-05-22T17:27:31.000Z",
-      "content": "Kakuna: skills with checklists that only know how to harden your codebase /plan with it then let it /goal for a day, it comes back with same functionality but all the boring stuff done for you + an audit of its own work. focus on subagent parallelism and encodes strong opinions on how AI engineers should design apps for human and agent access/devops/product mgmt. instead of dark factory, go \"mullet factory\" - party in front (ship unique lovable features), dark in the back (timeless production p…",
-      "summary": "Kakuna: skills with checklists that only know how to harden your codebase /plan with it then let it /goal for a day, it comes back with same functionality but all the boring stuff done for you + an audit of its own work…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 153,
-        "retweets": 11,
-        "replies": 22
       },
       "topics": [
         {
