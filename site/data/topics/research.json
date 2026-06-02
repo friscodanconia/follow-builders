@@ -1,8 +1,416 @@
 {
-  "generatedAt": "2026-06-01T06:20:54.164Z",
+  "generatedAt": "2026-06-02T01:13:05.250Z",
   "slug": "research",
   "label": "Research",
   "items": [
+    {
+      "id": "4e80c45d9f278af0",
+      "date": "2026-06-02",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:sama",
+      "builderOrOrg": "Sam Altman",
+      "title": "OpenAI Robotics is hiring, looking for exceptional full-stack hardware, ops, systems, and ML en…",
+      "url": "https://x.com/sama/status/2061117302528188712",
+      "publishedAt": "2026-05-31T16:07:13.000Z",
+      "content": "OpenAI Robotics is hiring, looking for exceptional full-stack hardware, ops, systems, and ML engineers to help us program and manufacture robots that are useful for society. AI should be able to help people in the physical world. In the short term, we are focused on robots to support skilled workers to build our future infrastructure; in the long term, we imagine everyone having a personal robot doing anything they need. Our world simulation research program, led by Aditya Ramesh (@model_mechan…",
+      "summary": "OpenAI Robotics is hiring, looking for exceptional full-stack hardware, ops, systems, and ML engineers to help us program and manufacture robots that are useful for society. AI should be able to help people in the physi…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 11049,
+        "retweets": 840,
+        "replies": 958
+      },
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "ef420e0cc1354d31",
+      "date": "2026-06-02",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Extending Human Intelligence Through AI",
+      "url": "https://www.microsoft.com/en-us/research/blog/extending-human-intelligence-through-ai/",
+      "publishedAt": "2026-05-27T16:00:00.000Z",
+      "content": "At a glance Modern AI systems are powerful not because they replicate human intelligence, but because they&nbsp;presuppose it, by&nbsp;extending&nbsp;structures already present in human cognition and language. This perspective helps explain both AI’s remarkable capabilities and its recurring boundaries, including hallucinations and breakdowns in reasoning. This research argues that AI safety is a system-level challenge, shifting attention from “rogue AI” narratives toward harnessing engineering and governance. Understanding AI as an extension of human intelligence—not a replacement for it—offers a more grounded path for building trustworthy AI systems. AI&nbsp;systems today can write essays, generate code, summarize complex ideas, and carry on conversations with remarkable fluency. Yet those same systems still struggle with tasks humans find intuitive: reliably tracking objects through change, reasoning compositionally in unfamiliar situations, or distinguishing truth from plausible fiction. These contradictions have fueled polarized debates about AI.&nbsp;Some see current systems as early forms of human-like intelligence; others dismiss them as sophisticated autocomplete.&nbsp; In recent interdisciplinary work &#8211; including Adam Frank, Marcelo Gleiser, and Evan Thompson&#8217;s The Blind Spot (opens in new tab) and DeepMind researcher Alexander Lerchner&#8217;s The Abstraction Fallacy (opens in new tab) &#8211; a different picture is emerging. Rather than asking whether AI systems are becoming intelligent in the human sense, these approaches ask a more basic question: What if AI systems work because they rely on structures that are rooted in human cognition? This shift in perspective, which draws on the phenomenology of Edmund Husserl, helps make sense of both the capabilities and the limits of modern AI. In our recent paper,&nbsp; The Origins of Artificial Intelligence in Natural Intelligence , we argue that modern AI systems are best understood&nbsp;neither…",
+      "summary": "Understanding AI as an extension of human intelligence—not a replacement for it—offers a more grounded path for building trustworthy AI systems. The post Extending Human Intelligence Through AI appeared first on Microsoft Research .",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "paper"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.69,
+          "rationale": [
+            "safety",
+            "governance"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "e147ca0974566e8d",
+      "date": "2026-06-02",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Import AI",
+      "sourceKey": "editorial:Import AI",
+      "builderOrOrg": "Jack Clark",
+      "title": "Import AI 459: AI oversight is difficult; scaling laws for protein folding models; and pricing the extinction risk of AI systems",
+      "url": "https://jack-clark.net/2026/06/01/import-ai-459-ai-oversight-is-difficult-scaling-laws-for-protein-folding-models-and-pricing-the-extinction-risk-of-ai-systems/",
+      "publishedAt": "2026-06-01T13:31:56.000Z",
+      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now The AI economy in the US is growing at 2,000% a year: …The more directly you measure the AI economy, the weirder and more unprecedented it seems to get… Economists with the University of Virginia* and Anthropic, and the Bank of Canada have written a paper outlining both the tremendous growth of the emerging “AI economy” in the US, and wrestling with why this growth is hard to see in aggregate GDP statistics. “The AI economy in the United States has been growing at an unprecedented rate, but this extraordinary growth is largely invisible in conventional GDP statistics,” they write. “Treating the AI sector as a coherent economic entity yields preliminary estimates of nominal AI GDP at approximately $250 billion in 2025, growing at roughly 2,600 percent per year in quality-adjusted real terms.” Why it’s hard to see: There are a couple of factors here &#8211; one is that though the datacenter building boom is large it still isn’t quite large enough to uplift GDP significantly. By comparison, where the majority of AI’s economic impact is taking place is in AI inference &#8211; the usage of AI’s systems &#8211; but there are confounding factors here as it relates to GDP measurement: “Nominal AI revenues grow only moderately because per-unit prices for any given level of AI capability fall almost as fast as quality-adjusted output rises,” they write. If we can’t measure this, we might end up surprised in a way that’s hard to recover from: “AI is the latest in a series of fast-moving technologies that have raised measurement concerns; semiconductors and the internet generated similar debates in their time,” they write. But a key difference is that AI as a technology might have a far bigger impact on labor than these other technologies. “In the prior episodes, the rapidly improving technology wa…",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now The AI economy in the US is growing at 2,000% a year:…The…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "paper"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d7d0f697aa8e05dd",
+      "date": "2026-06-02",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Import AI",
+      "sourceKey": "editorial:Import AI",
+      "builderOrOrg": "Jack Clark",
+      "title": "Import AI 458: Reckoning with the future; and a singularity story",
+      "url": "https://jack-clark.net/2026/05/26/import-ai-458-reckoning-with-the-future-and-a-singularity-story/",
+      "publishedAt": "2026-05-26T12:32:03.000Z",
+      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. This issue consists of a lengthy essay based on a speech I recently gave, and a fictional story attempting to think through what a positive singularity might look like. The talk is the 2026 Cosmos HAI Lab Lecture, given at the Human-Centered AI Lab (HAI Lab) in the Institute for Ethics in AI, University of Oxford, in collaboration with the Cosmos Institute. Subscribe now Cosmos lecture: Explore the future, or retreat from the present. Video here. This is a talk about how to think about and deal with the success of AI as a technology, and to think about how its continued maturation might change us as individuals and as societies. In short, the rapid advance in AI technology presents all of us with a choice: explore the future, or retreat from the present. Exploring the future requires us to reckon with the fact of continued AI progress, and ask ourselves what we want to do with this technology as it becomes more powerful. Retreating from the present is when we ignore the implications of the technology and dismiss it. Retreating from the present forces us as individuals and as society into states of reactivity or passivity in the face of AIs continued advance. In the coming years, we will need to make many decisions as individuals and as societies about how we want to shape AI, how we want to use it, how we want to direct it, and how we want to distribute its benefits. Making these decisions requires us to reckon with the power of the technology &#8211; and see the future that its continued advance implies. In Part 1, I outline what the past few years of AI progress have looked like and discuss why, if the technology advances as much as I think, that AI cannot be treated as a normal technology. In Part 2, I try to make sense of the advance of AI through the lens of my own experience with the technology…",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. This issue consists of a lengthy essay based on a speech I recently gav…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "speech"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "video"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "ba69d8cd2151c287",
+      "date": "2026-06-02",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Why Video Agent models are next — Ethan He, xAI Grok Imagine",
+      "url": "https://www.latent.space/p/video-agents",
+      "publishedAt": "2026-06-01T15:41:48.000Z",
+      "content": "We&#8217;re announcing AIEWF speakers this week! Take the AI Engineering Survey ! Today&#8217;s guest Ethan first joined us for the LS Paper Club as the lead on NVIDIA Cosmos World Model , but then joined xAI and built Grok Imagine in 3 months: He comes back on Latent Space with some nuclear hot takes: that Video Models primarily get their intelligence from LLMs , not from training on video data, and that the next frontier for truly interactive, realtime, long-horizon world models is to work on LLMs (perhaps Interaction Models as well&#8230;) Put it this way: In the near term, the next Sora won&#8217;t be a better video model, but a video agent . Generative Media may more closely follow the evolution of AI coding which went from focusing on one-shot output performance and cost, to multiturn reasoning and planning models for agents and systems that can plan, edit, test, debug, and submit PRs. At a certain point, coding models got so good that the only significant next step to improve performance was handling the orchestration of these models. Now as the performance of video models increases significantly across realism, consistency, & prompt adherence while becoming more cost efficient, the next evolution of video generation may also be systems that can plan, generate, edit, critique, and iterate across an entire creative task. In this episode, Ethan joins swyx and Vibhu to unpack what it actually takes to build frontier image and video systems : data, VAEs, diffusion transformers, audio-video alignment, inference speedups, and the hidden cost of storing and moving massive video datasets. From building NVIDIA&#8217;s Cosmos world model to joining xAI as Grok Imagine was being built from zero to one, Ethan He has been at the center of some of the most important work in video generation, multimodal models, and real-time world models. We go deep on Grok Imagine , how a small xAI team shipped its first multimodal video model in three months , why iteration speed matters…",
+      "summary": "Inside xAI: Building Grok Imagine in 3 Months, Videogen vs World Models, and why Grok Imagine is so underrated. For the first time, we do a deep dive with the guy who led it!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.81,
+          "rationale": [
+            "multimodal",
+            "image",
+            "video"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "paper",
+            "dataset"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.69,
+          "rationale": [
+            "reasoning",
+            "long-horizon"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "1c90050e98f29bc2",
+      "date": "2026-06-02",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Anthropic raises $965B Series H, releases Opus 4.8 and Dynamic Workflows/ultracode",
+      "url": "https://www.latent.space/p/ainews-anthropic-raises-965b-series",
+      "publishedAt": "2026-05-29T02:07:24.000Z",
+      "content": "Anthropic&#8217;s path as the fastest growing company of all time has put overtaking OpenAI in its sights for a while, but there were numerous asterisks for the past few months that put the timing (though perhaps not the fact) of the flippening in question. Today Anthropic officially reported $47B in revenue run-rate (reminder, this number was $9B in December!) and confirmed their Series H raising $65B at a $900B pre-money valuation (including $15B from hyperscalers including Amazon , but also the entire memory industrial complex), putting them at least temporarily ahead of OpenAI in every headline dimension outside of compute and non-coding benchmarks: By way of celebration, the company also released Opus 4.8 , which broadly reportedly fixed many of the issues the community had found/soured on Opus 4.7 post launch (see recap below for details). It is notably SOTA on basically every economically relevant bench (a nice detail is they agree with Google&#8217;s messaging that Gemini 3.5 Flash is an improvement over Gemini 3.1 Pro): But perhaps of more long term significance is the massively parallel &#8220;dynamic workflows&#8221; feature in Claude Code, also called ultracode , which was behind Jarred Sumner&#8217;s 750k LOC rewrite of Bun from Zig to Rust in 6 days : > AI News for 5/27/2026-5/28/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Anthropic announced a massive new financing and simultaneously shipped Claude Opus 4.8. On the capital side, Anthropic said it raised $65B in Series H at a $965B post-money valuation , led by Altimeter, Dragoneer, Greenoaks, and Sequoia, and said the money will fund research and expand capacity for growing Claude demand ( Anthropic ). The company also disclosed that its run-rate revenue surpassed $47B , attributing growth to enterprise depl…",
+      "summary": "Total Anthropic victory!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "coding",
+            "code",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7f312a658230e56e",
+      "date": "2026-06-02",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Adventures in Vibecoding Policy",
+      "url": "https://www.chinatalk.media/p/adventures-in-vibecoding-policy",
+      "publishedAt": "2026-05-29T10:47:26.000Z",
+      "content": "Can AI replace policy work today? I picked a few ChinaTalk-adjacent questions around immigration, biotech, and Chinese EV imports, and put the models to work, identifying policy levers and building microsites to advocate for ideas. This stupid new green card regulation USCIS recently announced an idiotic new memo making green card applicants leave the country to do so. Besides separating hundreds of thousands of families , it would force Chinese AI researchers who want to work in America to go back to China, where recent reporting indicated that the Chinese government was taking away passports for top AI talent. Can AI solve this? All I told claude code to do was &#8220;make a maga microsite arguing that the latest green card application proposed changes are a terrible idea make it appeal to the trump white house.&#8221; I told it to &#8220;make it better&#8221; a few times and then asked for toggles for this site for five different political viewpoints, from MAGA to progressive. It delivered an absolute gem, now live at FollowedEveryRule.org . Some highlights: Evangelical version: The tech right SKU: And the progressive SKU: Fwiw, OpenAI&#8217;s Codex rejects this as a use case&#65306; Saving American Biotech with a China Tariff I caught up with a Senate staffer who wanted some ideas on how to save the American biotech industry. Some have started to fear that the speed and cost advantages of developing and testing new drugs in China threaten the long term viability of America&#8217;s biotech R&D ecosystem. But the one thing Chinese biotech doesn&#8217;t have is direct access to the US market, far and away the most lucrative in the world. I came up with an idea to take 10% of all the profits made by licensing Chinese drugs into America and putting that money back into the American biotech R&D ecosystem. While I can cosplay as an AI subject matter expert, biotech is an industry I&#8217;ve invested far less time in. But with this kernel of an idea, how far could Clau…",
+      "summary": "can policy microsites save America?",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "coding",
+            "code",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "980446a0dcbd045b",
+      "date": "2026-06-02",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "China's Robotics Dream Began in 1972",
+      "url": "https://www.chinatalk.media/p/chinas-father-of-robotics",
+      "publishedAt": "2026-05-27T09:52:04.000Z",
+      "content": "ChinaTalk analyst yearns for the mines. He&#8217;s on a mission to visit rare earths and other critical minerals mining sites, refineries, and permanent magnet facilities around the world. If you or anyone you know can help him fulfill this mission, please reach out to aqib@chinatalk.media. Less than one in a thousand Chinese people owned private cars in the 1990s. But in 1993, a vehicle guided by a computer program landed on the floor of a car plant in Shenyang, capital of Liaoning province. Xianfeng 1 &#20808;&#38155;1&#21495; was the first of its kind in China, developed entirely by Chinese researchers. The car plant had previously relied on American-made autonomous-guided vehicles, but the US tightened export controls in 1991 and cut off sales to China. The plant turned to the Shenyang Institute of Automation (SIA), an institution of China&#8217;s national academy, the Chinese Academy of Sciences (CAS). It was led by a scientist called Jiang Xinsong &#33931;&#26032;&#26494;. Xianfeng 1. Source . To the average person today, &#8220;AI&#8221; is synonymous with chatbots &#8212; or, at least, tools that exist only in the digital realm. Hardware manifestations, like humanoid robots or intelligent Roombas, are instead considered futuristic. But &#8220;Chinese AI,&#8221; as an idea, did not necessarily begin with DeepSeek or tech companies in Hangzhou. It started on assembly lines in the Northeast, with dreams of intelligent oxygen furnaces for steel production and automated car plants. Some of the earliest champions of artificial intelligence research were not software engineers or information scientists, but those working shoulder-to-shoulder with factory workers. As Chinese firms like Unitree became forerunners in the race to build autonomous robots, I grew curious about Jiang&#8217;s story. State media has dubbed him China&#8217;s &#8220;father of robotics.&#8221; His work &#8212; and what he would have conceived of as &#8220;artificial intelligence&#8221; &#8212…",
+      "summary": "a history!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "autonomous"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "sales"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.62,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.51,
+      "whyThisMatters": ""
+    },
     {
       "id": "1a473b93a64cb07f",
       "date": "2026-06-01",
@@ -57,165 +465,6 @@
       "whyThisMatters": ""
     },
     {
-      "id": "ef420e0cc1354d31",
-      "date": "2026-06-01",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Extending Human Intelligence Through AI",
-      "url": "https://www.microsoft.com/en-us/research/blog/extending-human-intelligence-through-ai/",
-      "publishedAt": "2026-05-27T16:00:00.000Z",
-      "content": "At a glance Modern AI systems are powerful not because they replicate human intelligence, but because they&nbsp;presuppose it, by&nbsp;extending&nbsp;structures already present in human cognition and language. This perspective helps explain both AI’s remarkable capabilities and its recurring boundaries, including hallucinations and breakdowns in reasoning. This research argues that AI safety is a system-level challenge, shifting attention from “rogue AI” narratives toward harnessing engineering and governance. Understanding AI as an extension of human intelligence—not a replacement for it—offers a more grounded path for building trustworthy AI systems. AI&nbsp;systems today can write essays, generate code, summarize complex ideas, and carry on conversations with remarkable fluency. Yet those same systems still struggle with tasks humans find intuitive: reliably tracking objects through change, reasoning compositionally in unfamiliar situations, or distinguishing truth from plausible fiction. These contradictions have fueled polarized debates about AI.&nbsp;Some see current systems as early forms of human-like intelligence; others dismiss them as sophisticated autocomplete.&nbsp; In recent interdisciplinary work &#8211; including Adam Frank, Marcelo Gleiser, and Evan Thompson&#8217;s The Blind Spot (opens in new tab) and DeepMind researcher Alexander Lerchner&#8217;s The Abstraction Fallacy (opens in new tab) &#8211; a different picture is emerging. Rather than asking whether AI systems are becoming intelligent in the human sense, these approaches ask a more basic question: What if AI systems work because they rely on structures that are rooted in human cognition? This shift in perspective, which draws on the phenomenology of Edmund Husserl, helps make sense of both the capabilities and the limits of modern AI. In our recent paper,&nbsp; The Origins of Artificial Intelligence in Natural Intelligence , we argue that modern AI systems are best understood&nbsp;neither…",
-      "summary": "Understanding AI as an extension of human intelligence—not a replacement for it—offers a more grounded path for building trustworthy AI systems. The post Extending Human Intelligence Through AI appeared first on Microsoft Research .",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "paper"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.69,
-          "rationale": [
-            "safety",
-            "governance"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d7d0f697aa8e05dd",
-      "date": "2026-06-01",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Import AI",
-      "sourceKey": "editorial:Import AI",
-      "builderOrOrg": "Jack Clark",
-      "title": "Import AI 458: Reckoning with the future; and a singularity story",
-      "url": "https://jack-clark.net/2026/05/26/import-ai-458-reckoning-with-the-future-and-a-singularity-story/",
-      "publishedAt": "2026-05-26T12:32:03.000Z",
-      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. This issue consists of a lengthy essay based on a speech I recently gave, and a fictional story attempting to think through what a positive singularity might look like. The talk is the 2026 Cosmos HAI Lab Lecture, given at the Human-Centered AI Lab (HAI Lab) in the Institute for Ethics in AI, University of Oxford, in collaboration with the Cosmos Institute. Subscribe now Cosmos lecture: Explore the future, or retreat from the present. Video here. This is a talk about how to think about and deal with the success of AI as a technology, and to think about how its continued maturation might change us as individuals and as societies. In short, the rapid advance in AI technology presents all of us with a choice: explore the future, or retreat from the present. Exploring the future requires us to reckon with the fact of continued AI progress, and ask ourselves what we want to do with this technology as it becomes more powerful. Retreating from the present is when we ignore the implications of the technology and dismiss it. Retreating from the present forces us as individuals and as society into states of reactivity or passivity in the face of AIs continued advance. In the coming years, we will need to make many decisions as individuals and as societies about how we want to shape AI, how we want to use it, how we want to direct it, and how we want to distribute its benefits. Making these decisions requires us to reckon with the power of the technology &#8211; and see the future that its continued advance implies. In Part 1, I outline what the past few years of AI progress have looked like and discuss why, if the technology advances as much as I think, that AI cannot be treated as a normal technology. In Part 2, I try to make sense of the advance of AI through the lens of my own experience with the technology…",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. This issue consists of a lengthy essay based on a speech I recently gav…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "voice",
-          "label": "Voice",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "speech"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "video"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "1c90050e98f29bc2",
-      "date": "2026-06-01",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Anthropic raises $965B Series H, releases Opus 4.8 and Dynamic Workflows/ultracode",
-      "url": "https://www.latent.space/p/ainews-anthropic-raises-965b-series",
-      "publishedAt": "2026-05-29T02:07:24.000Z",
-      "content": "Anthropic&#8217;s path as the fastest growing company of all time has put overtaking OpenAI in its sights for a while, but there were numerous asterisks for the past few months that put the timing (though perhaps not the fact) of the flippening in question. Today Anthropic officially reported $47B in revenue run-rate (reminder, this number was $9B in December!) and confirmed their Series H raising $65B at a $900B pre-money valuation (including $15B from hyperscalers including Amazon , but also the entire memory industrial complex), putting them at least temporarily ahead of OpenAI in every headline dimension outside of compute and non-coding benchmarks: By way of celebration, the company also released Opus 4.8 , which broadly reportedly fixed many of the issues the community had found/soured on Opus 4.7 post launch (see recap below for details). It is notably SOTA on basically every economically relevant bench (a nice detail is they agree with Google&#8217;s messaging that Gemini 3.5 Flash is an improvement over Gemini 3.1 Pro): But perhaps of more long term significance is the massively parallel &#8220;dynamic workflows&#8221; feature in Claude Code, also called ultracode , which was behind Jarred Sumner&#8217;s 750k LOC rewrite of Bun from Zig to Rust in 6 days : > AI News for 5/27/2026-5/28/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Anthropic announced a massive new financing and simultaneously shipped Claude Opus 4.8. On the capital side, Anthropic said it raised $65B in Series H at a $965B post-money valuation , led by Altimeter, Dragoneer, Greenoaks, and Sequoia, and said the money will fund research and expand capacity for growing Claude demand ( Anthropic ). The company also disclosed that its run-rate revenue surpassed $47B , attributing growth to enterprise depl…",
-      "summary": "Total Anthropic victory!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.81,
-          "rationale": [
-            "coding",
-            "code",
-            "repo"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
       "id": "4c3bd53d4e273164",
       "date": "2026-06-01",
       "sourceType": "newsletter",
@@ -264,111 +513,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "7f312a658230e56e",
-      "date": "2026-06-01",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Adventures in Vibecoding Policy",
-      "url": "https://www.chinatalk.media/p/adventures-in-vibecoding-policy",
-      "publishedAt": "2026-05-29T10:47:26.000Z",
-      "content": "Can AI replace policy work today? I picked a few ChinaTalk-adjacent questions around immigration, biotech, and Chinese EV imports, and put the models to work, identifying policy levers and building microsites to advocate for ideas. This stupid new green card regulation USCIS recently announced an idiotic new memo making green card applicants leave the country to do so. Besides separating hundreds of thousands of families , it would force Chinese AI researchers who want to work in America to go back to China, where recent reporting indicated that the Chinese government was taking away passports for top AI talent. Can AI solve this? All I told claude code to do was &#8220;make a maga microsite arguing that the latest green card application proposed changes are a terrible idea make it appeal to the trump white house.&#8221; I told it to &#8220;make it better&#8221; a few times and then asked for toggles for this site for five different political viewpoints, from MAGA to progressive. It delivered an absolute gem, now live at FollowedEveryRule.org . Some highlights: Evangelical version: The tech right SKU: And the progressive SKU: Fwiw, OpenAI&#8217;s Codex rejects this as a use case&#65306; Saving American Biotech with a China Tariff I caught up with a Senate staffer who wanted some ideas on how to save the American biotech industry. Some have started to fear that the speed and cost advantages of developing and testing new drugs in China threaten the long term viability of America&#8217;s biotech R&D ecosystem. But the one thing Chinese biotech doesn&#8217;t have is direct access to the US market, far and away the most lucrative in the world. I came up with an idea to take 10% of all the profits made by licensing Chinese drugs into America and putting that money back into the American biotech R&D ecosystem. While I can cosplay as an AI subject matter expert, biotech is an industry I&#8217;ve invested far less time in. But with this kernel of an idea, how far could Clau…",
-      "summary": "can policy microsites save America?",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.81,
-          "rationale": [
-            "coding",
-            "code",
-            "repo"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "980446a0dcbd045b",
-      "date": "2026-06-01",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "China's Robotics Dream Began in 1972",
-      "url": "https://www.chinatalk.media/p/chinas-father-of-robotics",
-      "publishedAt": "2026-05-27T09:52:04.000Z",
-      "content": "ChinaTalk analyst yearns for the mines. He&#8217;s on a mission to visit rare earths and other critical minerals mining sites, refineries, and permanent magnet facilities around the world. If you or anyone you know can help him fulfill this mission, please reach out to aqib@chinatalk.media. Less than one in a thousand Chinese people owned private cars in the 1990s. But in 1993, a vehicle guided by a computer program landed on the floor of a car plant in Shenyang, capital of Liaoning province. Xianfeng 1 &#20808;&#38155;1&#21495; was the first of its kind in China, developed entirely by Chinese researchers. The car plant had previously relied on American-made autonomous-guided vehicles, but the US tightened export controls in 1991 and cut off sales to China. The plant turned to the Shenyang Institute of Automation (SIA), an institution of China&#8217;s national academy, the Chinese Academy of Sciences (CAS). It was led by a scientist called Jiang Xinsong &#33931;&#26032;&#26494;. Xianfeng 1. Source . To the average person today, &#8220;AI&#8221; is synonymous with chatbots &#8212; or, at least, tools that exist only in the digital realm. Hardware manifestations, like humanoid robots or intelligent Roombas, are instead considered futuristic. But &#8220;Chinese AI,&#8221; as an idea, did not necessarily begin with DeepSeek or tech companies in Hangzhou. It started on assembly lines in the Northeast, with dreams of intelligent oxygen furnaces for steel production and automated car plants. Some of the earliest champions of artificial intelligence research were not software engineers or information scientists, but those working shoulder-to-shoulder with factory workers. As Chinese firms like Unitree became forerunners in the race to build autonomous robots, I grew curious about Jiang&#8217;s story. State media has dubbed him China&#8217;s &#8220;father of robotics.&#8221; His work &#8212; and what he would have conceived of as &#8220;artificial intelligence&#8221; &#8212…",
-      "summary": "a history!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "science"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "autonomous"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "sales"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.62,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.51,
       "whyThisMatters": ""
     },
     {
@@ -2320,150 +2464,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "1cf17af27c76880a",
-      "date": "2026-05-13",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Ken Liu on AI and Freedom",
-      "url": "https://www.chinatalk.media/p/ken-liu-on-ai-and-freedom",
-      "publishedAt": "2026-05-06T12:56:57.000Z",
-      "content": "Ken Liu graces ChinaTalk with his presence. He is the author of the Dandelion Dynasty silkpunk fantasy series and a brilliant short fiction writer &#8212; one of his stories was recently adapted into Sam Altman&#8217;s favorite show, Pantheon . We all know his translation work on the first and third volumes of the Three-Body Problem trilogy, but even better was his absolutely brilliant translation and commentary of the Dao De Jing . As much as I hoped that project would get him fully on the classical Chinese translation train, he followed it up with a very different direction &#8212; a techno-AI thriller, All That We See or Seem , released late last year. Irene Zhang of ChinaTalk joins us to co-host. In a wide-ranging conversation, Ken Liu argues that: Technology is the most human thing we do &#8212; humans have always externalized our minds into the world and then allowed those creations to reshape who we are. AI &#8220;slop&#8221; won&#8217;t stop humans from making art that matters, and the real distinction isn&#8217;t quality versus slop, but between desire-fulfilling machines and artists who draw from the collective unconscious. The deeper danger of AI isn&#8217;t machines replacing humans, but systems that train humans to behave like machines. Science fiction isn&#8217;t prophecy, but mythology &#8212; and ideologies are just mythology&#8217;s cheaper, hack cousins. Orwell, Shelley, Tolkien, and Le Guin endure not because they predicted the future, but because they gave us metaphors powerful enough to think with across generations. Large language models are intelligent, but can&#8217;t be wise . Drawing on Laozi and Zhuangzi, Ken explains why everything that truly matters lies beyond language. Listen now on your favorite podcast app . Technology as Human Expression Jordan Schneider: We&#8217;re living in the age of Claude Code, and I want to start with a passage you wrote. Why don&#8217;t you set it up and read this vision of future coding and writing? Ken Li…",
-      "summary": "this show was such a treat",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "science"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "vision"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "81e895538d9a1778",
-      "date": "2026-05-12",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:danshipper",
-      "builderOrOrg": "Dan Shipper",
-      "title": "we hired someone new to help out with social and YouTube and she’s finding INSANE A/B test upli…",
-      "url": "https://x.com/danshipper/status/2053580741515051114",
-      "publishedAt": "2026-05-10T20:59:37.000Z",
-      "content": "we hired someone new to help out with social and YouTube and she’s finding INSANE A/B test uplifts like this https://t.co/tU9pyYxAEm",
-      "summary": "we hired someone new to help out with social and YouTube and she’s finding INSANE A/B test uplifts like this https://t.co/tU9pyYxAEm",
-      "regionTags": [],
-      "metrics": {
-        "likes": 344,
-        "retweets": 4,
-        "replies": 34
-      },
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "finding"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "2c6fbb991177d5f2",
-      "date": "2026-05-12",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Microsoft at NSDI 2026: Advances in large-scale networked systems",
-      "url": "https://www.microsoft.com/en-us/research/blog/microsoft-at-nsdi-2026-advances-in-large-scale-networked-systems/",
-      "publishedAt": "2026-05-05T16:00:00.000Z",
-      "content": "Large-scale networked systems underpin cloud computing, AI, and distributed applications and services. The USENIX Symposium on Networked Systems Design and Implementation 2026 (opens in new tab) (NSDI ’26) is a leading forum where researchers and practitioners share new research, insights, and advances in the design and operation of these systems. Microsoft is proud to support NSDI ’26 as a returning sponsor, reflecting our ongoing commitment to advancing systems and networking research and engaging with the broader community. Microsoft researchers and engineering leaders are also serving on the program committee and in other organizational roles. This year, 11 papers by Microsoft authors and collaborators were accepted to the conference, spanning datacenter and wide-area networks, AI systems, and cloud infrastructure. Together, they highlight advances in building and operating large-scale networked systems. Spotlight: Event Series Microsoft Research Forum Join us for a continuous exchange of ideas about research in the era of general AI. Watch the latest episodes on demand. Watch on-demand Opens in a new tab Technical sessions Monday, May 4, 2:00–3:20 PM DroidSpeak: KV Cache Sharing Across Fine-tuned Model Variants (opens in new tab) Yuhan Liu, Yuyang Huang, Jiayi Yao, Zhuohan Gu, Kuntai Du, Hanchen Li, Yihua Cheng, and Junchen Jiang, University of Chicago; Shan Lu , Madan Musuvathi , and Esha Choukse , Microsoft DroidSpeak enables LLMs with the same architecture to share and partially reuse KV caches across models, delivering up to 4 times higher throughput and faster responses with minimal impact on output quality. Monday, May 4, 3:50–5:30 PM Eywa: Automating Model-Based Testing using LLMs (opens in new tab) Rajdeep Mondal, Rathin Singha, Todd D. Millstein, and George Varghese, UCLA; Ryan Beckett and Siva Kesava Reddy Kakarla , Microsoft Research Eywa uses LLMs to automatically build protocol models from natural language sources, enabling model-based testing. It…",
-      "summary": "Microsoft researchers share advances in building and operating large-scale distributed systems, spanning datacenters, networking, and the growing intersection with AI during NSDI ’26. The post Microsoft at NSDI 2026: Advances in large-scal…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.69,
-          "rationale": [
-            "throughput",
-            "serving"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "paper"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     }
   ]

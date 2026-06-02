@@ -1,8 +1,63 @@
 {
-  "generatedAt": "2026-05-29T05:41:41.759Z",
+  "generatedAt": "2026-06-02T01:13:05.250Z",
   "slug": "reasoning",
   "label": "AI Thinking",
   "items": [
+    {
+      "id": "ba69d8cd2151c287",
+      "date": "2026-06-02",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Why Video Agent models are next — Ethan He, xAI Grok Imagine",
+      "url": "https://www.latent.space/p/video-agents",
+      "publishedAt": "2026-06-01T15:41:48.000Z",
+      "content": "We&#8217;re announcing AIEWF speakers this week! Take the AI Engineering Survey ! Today&#8217;s guest Ethan first joined us for the LS Paper Club as the lead on NVIDIA Cosmos World Model , but then joined xAI and built Grok Imagine in 3 months: He comes back on Latent Space with some nuclear hot takes: that Video Models primarily get their intelligence from LLMs , not from training on video data, and that the next frontier for truly interactive, realtime, long-horizon world models is to work on LLMs (perhaps Interaction Models as well&#8230;) Put it this way: In the near term, the next Sora won&#8217;t be a better video model, but a video agent . Generative Media may more closely follow the evolution of AI coding which went from focusing on one-shot output performance and cost, to multiturn reasoning and planning models for agents and systems that can plan, edit, test, debug, and submit PRs. At a certain point, coding models got so good that the only significant next step to improve performance was handling the orchestration of these models. Now as the performance of video models increases significantly across realism, consistency, & prompt adherence while becoming more cost efficient, the next evolution of video generation may also be systems that can plan, generate, edit, critique, and iterate across an entire creative task. In this episode, Ethan joins swyx and Vibhu to unpack what it actually takes to build frontier image and video systems : data, VAEs, diffusion transformers, audio-video alignment, inference speedups, and the hidden cost of storing and moving massive video datasets. From building NVIDIA&#8217;s Cosmos world model to joining xAI as Grok Imagine was being built from zero to one, Ethan He has been at the center of some of the most important work in video generation, multimodal models, and real-time world models. We go deep on Grok Imagine , how a small xAI team shipped its first multimodal video model in three months , why iteration speed matters…",
+      "summary": "Inside xAI: Building Grok Imagine in 3 Months, Videogen vs World Models, and why Grok Imagine is so underrated. For the first time, we do a deep dive with the guy who led it!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.81,
+          "rationale": [
+            "multimodal",
+            "image",
+            "video"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "paper",
+            "dataset"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.69,
+          "rationale": [
+            "reasoning",
+            "long-horizon"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
     {
       "id": "add0aff07075fa34",
       "date": "2026-05-29",
