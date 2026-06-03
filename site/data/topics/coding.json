@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T05:23:31.443Z",
+  "generatedAt": "2026-06-03T06:18:47.923Z",
   "slug": "coding",
   "label": "Coding",
   "items": [
@@ -36,7 +36,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -534,6 +534,59 @@
       "whyThisMatters": ""
     },
     {
+      "id": "6ca5c2500151cbcf",
+      "date": "2026-06-03",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Microsoft Build: MAI-Thinking-1 and MAI Family models",
+      "url": "https://www.latent.space/p/ainews-microsoft-build-mai-thinking",
+      "publishedAt": "2026-06-03T05:49:02.000Z",
+      "content": "Today was a big day, not least because we caught up on the state of GitHub vs Agents , and recorded a special pod with No Priors and Satya Nadella &#8212;&nbsp;at MS Build, Satya and Mustafa announced 7 new MAI models: This is an impressive lineup, especially considering that the Microsoft-Inflection deal that set up MAI only happened 2 years ago, and that these are all from-scratch pretrains. MAI today is by no means an unqualified frontier lab, but it is a good tier 2 neolab with obvious incentives to support domain specific finetunes (as opposed to the frontier labs who have ~all killed finetuning ). The star of the show was the 100+ page MAI tech report , which the research community is giving glowing reviews: You can catch up on all the rest of the announcement in the excellent Verge recap, and the tweet summaries below: AI News for 06/1/2026-6/2/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Top Story: Microsoft Build recap, and new MAI model technical details What happened Microsoft used Build to position itself as both an AI platform company and a frontier-model lab, pairing broad product launches with unusually detailed disclosures about its new MAI model family. Microsoft AI announced seven new MAI models spanning reasoning, code, image, speech transcription, and voice, led by MAI-Thinking-1 , MAI-Code-1-Flash , MAI-Image-2.5 , MAI-Transcribe-1.5 , and MAI-Voice-2 according to @MicrosoftAI and @mustafasuleyman The flagship reasoning model MAI-Thinking-1 was presented as Microsoft&#8217;s first reasoning model , built with clean data lineage and zero distillation from third-party models in posts from @mustafasuleyman , @baseten , @tuhinone , and @HannaHajishirzi Microsoft released a 109-page technical report for MAI-Thinking-1, which drew strong positive reactions fr…",
+      "summary": "Microsoft Build recap, and new MAI model technical details",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "repo"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.69,
+          "rationale": [
+            "voice",
+            "speech"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
+      "whyThisMatters": ""
+    },
+    {
       "id": "4291a964702ffd5b",
       "date": "2026-06-03",
       "sourceType": "newsletter",
@@ -645,59 +698,6 @@
       "whyThisMatters": ""
     },
     {
-      "id": "1c90050e98f29bc2",
-      "date": "2026-06-03",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Anthropic raises $965B Series H, releases Opus 4.8 and Dynamic Workflows/ultracode",
-      "url": "https://www.latent.space/p/ainews-anthropic-raises-965b-series",
-      "publishedAt": "2026-05-29T02:07:24.000Z",
-      "content": "Anthropic&#8217;s path as the fastest growing company of all time has put overtaking OpenAI in its sights for a while, but there were numerous asterisks for the past few months that put the timing (though perhaps not the fact) of the flippening in question. Today Anthropic officially reported $47B in revenue run-rate (reminder, this number was $9B in December!) and confirmed their Series H raising $65B at a $900B pre-money valuation (including $15B from hyperscalers including Amazon , but also the entire memory industrial complex), putting them at least temporarily ahead of OpenAI in every headline dimension outside of compute and non-coding benchmarks: By way of celebration, the company also released Opus 4.8 , which broadly reportedly fixed many of the issues the community had found/soured on Opus 4.7 post launch (see recap below for details). It is notably SOTA on basically every economically relevant bench (a nice detail is they agree with Google&#8217;s messaging that Gemini 3.5 Flash is an improvement over Gemini 3.1 Pro): But perhaps of more long term significance is the massively parallel &#8220;dynamic workflows&#8221; feature in Claude Code, also called ultracode , which was behind Jarred Sumner&#8217;s 750k LOC rewrite of Bun from Zig to Rust in 6 days : > AI News for 5/27/2026-5/28/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Anthropic announced a massive new financing and simultaneously shipped Claude Opus 4.8. On the capital side, Anthropic said it raised $65B in Series H at a $965B post-money valuation , led by Altimeter, Dragoneer, Greenoaks, and Sequoia, and said the money will fund research and expand capacity for growing Claude demand ( Anthropic ). The company also disclosed that its run-rate revenue surpassed $47B , attributing growth to enterprise depl…",
-      "summary": "Total Anthropic victory!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.81,
-          "rationale": [
-            "coding",
-            "code",
-            "repo"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
       "id": "7f312a658230e56e",
       "date": "2026-06-03",
       "sourceType": "newsletter",
@@ -748,6 +748,59 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "1c90050e98f29bc2",
+      "date": "2026-06-03",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Anthropic raises $965B Series H, releases Opus 4.8 and Dynamic Workflows/ultracode",
+      "url": "https://www.latent.space/p/ainews-anthropic-raises-965b-series",
+      "publishedAt": "2026-05-29T02:07:24.000Z",
+      "content": "Anthropic&#8217;s path as the fastest growing company of all time has put overtaking OpenAI in its sights for a while, but there were numerous asterisks for the past few months that put the timing (though perhaps not the fact) of the flippening in question. Today Anthropic officially reported $47B in revenue run-rate (reminder, this number was $9B in December!) and confirmed their Series H raising $65B at a $900B pre-money valuation (including $15B from hyperscalers including Amazon , but also the entire memory industrial complex), putting them at least temporarily ahead of OpenAI in every headline dimension outside of compute and non-coding benchmarks: By way of celebration, the company also released Opus 4.8 , which broadly reportedly fixed many of the issues the community had found/soured on Opus 4.7 post launch (see recap below for details). It is notably SOTA on basically every economically relevant bench (a nice detail is they agree with Google&#8217;s messaging that Gemini 3.5 Flash is an improvement over Gemini 3.1 Pro): But perhaps of more long term significance is the massively parallel &#8220;dynamic workflows&#8221; feature in Claude Code, also called ultracode , which was behind Jarred Sumner&#8217;s 750k LOC rewrite of Bun from Zig to Rust in 6 days : > AI News for 5/27/2026-5/28/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Anthropic announced a massive new financing and simultaneously shipped Claude Opus 4.8. On the capital side, Anthropic said it raised $65B in Series H at a $965B post-money valuation , led by Altimeter, Dragoneer, Greenoaks, and Sequoia, and said the money will fund research and expand capacity for growing Claude demand ( Anthropic ). The company also disclosed that its run-rate revenue surpassed $47B , attributing growth to enterprise depl…",
+      "summary": "Total Anthropic victory!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "coding",
+            "code",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
       "whyThisMatters": ""
     },
     {
@@ -2246,60 +2299,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "5d94b23123a81b3f",
-      "date": "2026-05-29",
-      "sourceType": "blog",
-      "sourceGroup": "mirrored",
-      "sourceName": "Anthropic Engineering",
-      "sourceKey": "blog:Anthropic Engineering",
-      "builderOrOrg": "Anthropic Engineering",
-      "title": "An update on recent Claude Code quality reports",
-      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
-      "publishedAt": null,
-      "content": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was not impacted. All three issues have now been resolved as of April 20 (v2.1.116). In this post, we explain what we found, what we fixed, and what we’ll do differently to ensure similar issues are much less likely to happen again. We take reports about degradation very seriously. We never intentionally degrade our models, and we were able to immediately confirm that our API and inference layer were unaffected. After investigation, we identified three different issues: On March 4, we changed Claude Code&#x27;s default reasoning effort from high to medium to reduce the very long latency—enough to make the UI appear frozen—some users were seeing in high mode. This was the wrong tradeoff. We reverted this change on April 7 after users told us they&#x27;d prefer to default to higher intelligence and opt into lower effort for simple tasks. This impacted Sonnet 4.6 and Opus 4.6. On March 26, we shipped a change to clear Claude&#x27;s older thinking from sessions that had been idle for over an hour, to reduce latency when users resumed those sessions. A bug caused this to keep happening every turn for the rest of the session instead of just once, which made Claude seem forgetful and repetitive. We fixed it on April 10. This affected Sonnet 4.6 and Opus 4.6. On April 16, we added a system prompt instruction to reduce verbosity. In combination with other prompt changes, it hurt coding quality and was reverted on April 20. This impacted Sonnet 4.6, Opus 4.6, and Opus 4.7. Because each change affected a different slice of traffic on a different schedule, the aggregate effect looked like broad, inconsistent degradation. While we began investigating reports in early March, they were challenging to distinguish from normal variation in user feedba…",
-      "summary": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.81,
-          "rationale": [
-            "coding",
-            "code",
-            "repo"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.69,
-          "rationale": [
-            "inference",
-            "latency"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Watchlist",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     }
   ]
