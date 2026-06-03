@@ -1,8 +1,119 @@
 {
-  "generatedAt": "2026-06-02T06:05:07.909Z",
+  "generatedAt": "2026-06-03T00:33:26.125Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
+    {
+      "id": "1c4d8a6fe2dee700",
+      "date": "2026-06-03",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "MiniMax M3 is now the leading open model on the Next.js agent evaluations (https://t.co/SnZ54Xo…",
+      "url": "https://x.com/rauchg/status/2061593874498531707",
+      "publishedAt": "2026-06-01T23:40:56.000Z",
+      "content": "MiniMax M3 is now the leading open model on the Next.js agent evaluations (https://t.co/SnZ54XoRWV). Right behind Opus & GPT5, but 10× cheaper (And 20× cheaper right now on ▲ AI Gateway!) https://t.co/z9ts1NZDyu",
+      "summary": "MiniMax M3 is now the leading open model on the Next.js agent evaluations (https://t.co/SnZ54XoRWV). Right behind Opus & GPT5, but 10× cheaper (And 20× cheaper right now on ▲ AI Gateway!) https://t.co/z9ts1NZDyu",
+      "regionTags": [],
+      "metrics": {
+        "likes": 596,
+        "retweets": 25,
+        "replies": 32
+      },
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "eval",
+            "evaluation"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c5e4dffb009c0ad0",
+      "date": "2026-06-03",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Founders and Forward Deployed Engineers",
+      "url": "https://www.latent.space/p/ainews-founders-and-forward-deployed",
+      "publishedAt": "2026-05-30T01:57:15.000Z",
+      "content": "Most people are still digesting the massive Anthropic news from yesterday. We&#8217;re taking the opportunity to solicit the leading AI FDE&#8217;s in the world for AIE&#8217;s new Forward Deployed Engineer track, mirroring similar pushes from both OpenAI DeployCo and Anthropic DeployCo : as well as AIE&#8217;s new Founders program, where we are doing our version of the Startup Battlefield, a competitive pitch contest anchored by YCombinator&#8217;s Garry Tan and Howie Lu&#8217;s $10 Million dollar Hyperagent contest. Sign up (and book hotel !) for details today if you are keen. AI News for 5/28/2026-5/29/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Claude Opus 4.8 Rollout, Benchmark Friction, and API Ergonomics Opus 4.8 landed into a noisy, mixed eval landscape : multiple independent benches converged on &#8220;incremental but not dominant.&#8221; @arena pushed 200+ frontend/code tests comparing Opus 4.8 against prior Opus variants, Gemini, and GLM; @theo reported CursorBench shows it as more efficient but slightly worse than 4.7 within margin of error ; @jerryjliu0 and @llama_index found small gains on tables/layout but regressions on content faithfulness/charts in document parsing; @scaling01 said no progress on ALE-Bench and separately flagged interesting failure modes on LisanBench. On the positive side, @jeremyphoward found 4.8 less over-agentic and more cooperative than 4.7/GPT-5.5 in coding, while @leo_linsky called it a tangible product improvement over prior Anthropic releases. Anthropic also shipped useful platform-level changes : @ClaudeDevs announced mid-conversation system instructions without breaking prompt cache , plus authoritative mid-conversation system-role updates, which matters for long-running agent sessions and cost control. But pricing remains a ma…",
+      "summary": "a quiet day lets us highlight the new AIE WF focuses",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "coding",
+            "code",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "benchmark",
+            "eval"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
     {
       "id": "f9088251775b4676",
       "date": "2026-06-02",
@@ -93,61 +204,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "c5e4dffb009c0ad0",
-      "date": "2026-06-02",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Founders and Forward Deployed Engineers",
-      "url": "https://www.latent.space/p/ainews-founders-and-forward-deployed",
-      "publishedAt": "2026-05-30T01:57:15.000Z",
-      "content": "Most people are still digesting the massive Anthropic news from yesterday. We&#8217;re taking the opportunity to solicit the leading AI FDE&#8217;s in the world for AIE&#8217;s new Forward Deployed Engineer track, mirroring similar pushes from both OpenAI DeployCo and Anthropic DeployCo : as well as AIE&#8217;s new Founders program, where we are doing our version of the Startup Battlefield, a competitive pitch contest anchored by YCombinator&#8217;s Garry Tan and Howie Lu&#8217;s $10 Million dollar Hyperagent contest. Sign up (and book hotel !) for details today if you are keen. AI News for 5/28/2026-5/29/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Claude Opus 4.8 Rollout, Benchmark Friction, and API Ergonomics Opus 4.8 landed into a noisy, mixed eval landscape : multiple independent benches converged on &#8220;incremental but not dominant.&#8221; @arena pushed 200+ frontend/code tests comparing Opus 4.8 against prior Opus variants, Gemini, and GLM; @theo reported CursorBench shows it as more efficient but slightly worse than 4.7 within margin of error ; @jerryjliu0 and @llama_index found small gains on tables/layout but regressions on content faithfulness/charts in document parsing; @scaling01 said no progress on ALE-Bench and separately flagged interesting failure modes on LisanBench. On the positive side, @jeremyphoward found 4.8 less over-agentic and more cooperative than 4.7/GPT-5.5 in coding, while @leo_linsky called it a tangible product improvement over prior Anthropic releases. Anthropic also shipped useful platform-level changes : @ClaudeDevs announced mid-conversation system instructions without breaking prompt cache , plus authoritative mid-conversation system-role updates, which matters for long-running agent sessions and cost control. But pricing remains a ma…",
-      "summary": "a quiet day lets us highlight the new AIE WF focuses",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.81,
-          "rationale": [
-            "coding",
-            "code",
-            "repo"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "benchmark",
-            "eval"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -2376,52 +2432,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "75508d0c113829aa",
-      "date": "2026-04-15",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:garrytan",
-      "builderOrOrg": "Garry Tan",
-      "title": "GBrain v0.9.3 now available. Search tuning, search evals, CJK queries, and better health checks…",
-      "url": "https://x.com/garrytan/status/2043948627291451625",
-      "publishedAt": "2026-04-14T07:05:02.000Z",
-      "content": "GBrain v0.9.3 now available. Search tuning, search evals, CJK queries, and better health checks! Plus lots of security hotfixes. Ask your claw or hermes to upgrade. https://t.co/ywYaRruXEZ",
-      "summary": "GBrain v0.9.3 now available. Search tuning, search evals, CJK queries, and better health checks! Plus lots of security hotfixes. Ask your claw or hermes to upgrade. https://t.co/ywYaRruXEZ",
-      "regionTags": [],
-      "metrics": {
-        "likes": 33,
-        "retweets": 1,
-        "replies": 7
-      },
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "eval"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.74,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.59,
       "whyThisMatters": ""
     }
   ]
