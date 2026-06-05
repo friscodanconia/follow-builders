@@ -1,8 +1,204 @@
 {
-  "generatedAt": "2026-06-04T06:10:35.812Z",
+  "generatedAt": "2026-06-05T01:07:09.289Z",
   "slug": "research",
   "label": "Research",
   "items": [
+    {
+      "id": "4a151b203e3898a9",
+      "date": "2026-06-05",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Introducing new capabilities to GPT-Rosalind",
+      "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+      "publishedAt": "2026-06-03T13:15:00.000Z",
+      "content": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
+      "summary": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "reasoning"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "e147ca0974566e8d",
+      "date": "2026-06-05",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Import AI",
+      "sourceKey": "editorial:Import AI",
+      "builderOrOrg": "Jack Clark",
+      "title": "Import AI 459: AI oversight is difficult; scaling laws for protein folding models; and pricing the extinction risk of AI systems",
+      "url": "https://jack-clark.net/2026/06/01/import-ai-459-ai-oversight-is-difficult-scaling-laws-for-protein-folding-models-and-pricing-the-extinction-risk-of-ai-systems/",
+      "publishedAt": "2026-06-01T13:31:56.000Z",
+      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now The AI economy in the US is growing at 2,000% a year: …The more directly you measure the AI economy, the weirder and more unprecedented it seems to get… Economists with the University of Virginia* and Anthropic, and the Bank of Canada have written a paper outlining both the tremendous growth of the emerging “AI economy” in the US, and wrestling with why this growth is hard to see in aggregate GDP statistics. “The AI economy in the United States has been growing at an unprecedented rate, but this extraordinary growth is largely invisible in conventional GDP statistics,” they write. “Treating the AI sector as a coherent economic entity yields preliminary estimates of nominal AI GDP at approximately $250 billion in 2025, growing at roughly 2,600 percent per year in quality-adjusted real terms.” Why it’s hard to see: There are a couple of factors here &#8211; one is that though the datacenter building boom is large it still isn’t quite large enough to uplift GDP significantly. By comparison, where the majority of AI’s economic impact is taking place is in AI inference &#8211; the usage of AI’s systems &#8211; but there are confounding factors here as it relates to GDP measurement: “Nominal AI revenues grow only moderately because per-unit prices for any given level of AI capability fall almost as fast as quality-adjusted output rises,” they write. If we can’t measure this, we might end up surprised in a way that’s hard to recover from: “AI is the latest in a series of fast-moving technologies that have raised measurement concerns; semiconductors and the internet generated similar debates in their time,” they write. But a key difference is that AI as a technology might have a far bigger impact on labor than these other technologies. “In the prior episodes, the rapidly improving technology wa…",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now The AI economy in the US is growing at 2,000% a year:…The…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "paper"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "e0690595dc2d5a1e",
+      "date": "2026-06-05",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Reve 2 and Ideogram 4: Layouts in Imagegen",
+      "url": "https://www.latent.space/p/ainews-reve-2-and-ideogram-4-layouts",
+      "publishedAt": "2026-06-04T03:24:07.000Z",
+      "content": "4 years ago we argued that image composition was partially AGI-Hard . That gate has fallen this year. It can&#8217;t be pure coincidence that both Reve and Ideogram launched today, both with a heavy emphasis on how they made advances with strong labeling and code for layouts: and here&#8217;s Ideogram 4.0, now the best open image model : These are great achievements, and all great US model achievements, but the Arena rankings do show how far ahead GPT-Image-2 is&#8230; AI News for 6/2/2026-6/3/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Microsoft&#8217;s MAI-Thinking-1 Tech Report, Training Stack, and Frontier-Tuning Push MAI-Thinking-1 is the day&#8217;s densest technical release : Microsoft introduced MAI-Thinking-1 , a generalist/reasoning model trained without third-party distillation , reporting 97% on AIME 2025 , 53% on SWE-Bench Pro , and human preference wins over Sonnet 4.6 in blind side-by-sides. The 109-page report was widely praised for unusual transparency by @eliebakouch , @nrehiew_ , and @mustafasuleyman . The main technical theme: Microsoft appears to have &#8220;hillclimbed from scratch,&#8221; with @MinjiYoon90 explicitly framing the effort that way. Why researchers cared about the report : The most-cited detail was not just benchmark quality, but the amount of systems/training information released. @eliebakouch highlighted zero synthetic data and zero prior-model distillation , meaning reasoning, tool use, and agentic behaviors were learned in post-training without a synthetic &#8220;cold start.&#8221; The thread also called out publication of the scaling ladder recipe , exact MFU numbers , and target-loss construction. In follow-ups, @eliebakouch noted the private NLL mixture was weighted 50% code, 17.5% STEM, 17.5% math, 10% general knowledge, 5% multi…",
+      "summary": "a quiet day.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "code",
+            "swe-bench",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "publication"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7f312a658230e56e",
+      "date": "2026-06-05",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Adventures in Vibecoding Policy",
+      "url": "https://www.chinatalk.media/p/adventures-in-vibecoding-policy",
+      "publishedAt": "2026-05-29T10:47:26.000Z",
+      "content": "Can AI replace policy work today? I picked a few ChinaTalk-adjacent questions around immigration, biotech, and Chinese EV imports, and put the models to work, identifying policy levers and building microsites to advocate for ideas. This stupid new green card regulation USCIS recently announced an idiotic new memo making green card applicants leave the country to do so. Besides separating hundreds of thousands of families , it would force Chinese AI researchers who want to work in America to go back to China, where recent reporting indicated that the Chinese government was taking away passports for top AI talent. Can AI solve this? All I told claude code to do was &#8220;make a maga microsite arguing that the latest green card application proposed changes are a terrible idea make it appeal to the trump white house.&#8221; I told it to &#8220;make it better&#8221; a few times and then asked for toggles for this site for five different political viewpoints, from MAGA to progressive. It delivered an absolute gem, now live at FollowedEveryRule.org . Some highlights: Evangelical version: The tech right SKU: And the progressive SKU: Fwiw, OpenAI&#8217;s Codex rejects this as a use case&#65306; Saving American Biotech with a China Tariff I caught up with a Senate staffer who wanted some ideas on how to save the American biotech industry. Some have started to fear that the speed and cost advantages of developing and testing new drugs in China threaten the long term viability of America&#8217;s biotech R&D ecosystem. But the one thing Chinese biotech doesn&#8217;t have is direct access to the US market, far and away the most lucrative in the world. I came up with an idea to take 10% of all the profits made by licensing Chinese drugs into America and putting that money back into the American biotech R&D ecosystem. While I can cosplay as an AI subject matter expert, biotech is an industry I&#8217;ve invested far less time in. But with this kernel of an idea, how far could Clau…",
+      "summary": "can policy microsites save America?",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "coding",
+            "code",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
     {
       "id": "25c54bb1b7eb3b73",
       "date": "2026-06-04",
@@ -137,202 +333,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4a151b203e3898a9",
-      "date": "2026-06-04",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Introducing new capabilities to GPT-Rosalind",
-      "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
-      "publishedAt": "2026-06-03T13:15:00.000Z",
-      "content": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
-      "summary": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "science"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "reasoning",
-          "label": "AI Thinking",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "reasoning"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "e147ca0974566e8d",
-      "date": "2026-06-04",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Import AI",
-      "sourceKey": "editorial:Import AI",
-      "builderOrOrg": "Jack Clark",
-      "title": "Import AI 459: AI oversight is difficult; scaling laws for protein folding models; and pricing the extinction risk of AI systems",
-      "url": "https://jack-clark.net/2026/06/01/import-ai-459-ai-oversight-is-difficult-scaling-laws-for-protein-folding-models-and-pricing-the-extinction-risk-of-ai-systems/",
-      "publishedAt": "2026-06-01T13:31:56.000Z",
-      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now The AI economy in the US is growing at 2,000% a year: …The more directly you measure the AI economy, the weirder and more unprecedented it seems to get… Economists with the University of Virginia* and Anthropic, and the Bank of Canada have written a paper outlining both the tremendous growth of the emerging “AI economy” in the US, and wrestling with why this growth is hard to see in aggregate GDP statistics. “The AI economy in the United States has been growing at an unprecedented rate, but this extraordinary growth is largely invisible in conventional GDP statistics,” they write. “Treating the AI sector as a coherent economic entity yields preliminary estimates of nominal AI GDP at approximately $250 billion in 2025, growing at roughly 2,600 percent per year in quality-adjusted real terms.” Why it’s hard to see: There are a couple of factors here &#8211; one is that though the datacenter building boom is large it still isn’t quite large enough to uplift GDP significantly. By comparison, where the majority of AI’s economic impact is taking place is in AI inference &#8211; the usage of AI’s systems &#8211; but there are confounding factors here as it relates to GDP measurement: “Nominal AI revenues grow only moderately because per-unit prices for any given level of AI capability fall almost as fast as quality-adjusted output rises,” they write. If we can’t measure this, we might end up surprised in a way that’s hard to recover from: “AI is the latest in a series of fast-moving technologies that have raised measurement concerns; semiconductors and the internet generated similar debates in their time,” they write. But a key difference is that AI as a technology might have a far bigger impact on labor than these other technologies. “In the prior episodes, the rapidly improving technology wa…",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now The AI economy in the US is growing at 2,000% a year:…The…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "paper"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "e0690595dc2d5a1e",
-      "date": "2026-06-04",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Reve 2 and Ideogram 4: Layouts in Imagegen",
-      "url": "https://www.latent.space/p/ainews-reve-2-and-ideogram-4-layouts",
-      "publishedAt": "2026-06-04T03:24:07.000Z",
-      "content": "4 years ago we argued that image composition was partially AGI-Hard . That gate has fallen this year. It can&#8217;t be pure coincidence that both Reve and Ideogram launched today, both with a heavy emphasis on how they made advances with strong labeling and code for layouts: and here&#8217;s Ideogram 4.0, now the best open image model : These are great achievements, and all great US model achievements, but the Arena rankings do show how far ahead GPT-Image-2 is&#8230; AI News for 6/2/2026-6/3/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Microsoft&#8217;s MAI-Thinking-1 Tech Report, Training Stack, and Frontier-Tuning Push MAI-Thinking-1 is the day&#8217;s densest technical release : Microsoft introduced MAI-Thinking-1 , a generalist/reasoning model trained without third-party distillation , reporting 97% on AIME 2025 , 53% on SWE-Bench Pro , and human preference wins over Sonnet 4.6 in blind side-by-sides. The 109-page report was widely praised for unusual transparency by @eliebakouch , @nrehiew_ , and @mustafasuleyman . The main technical theme: Microsoft appears to have &#8220;hillclimbed from scratch,&#8221; with @MinjiYoon90 explicitly framing the effort that way. Why researchers cared about the report : The most-cited detail was not just benchmark quality, but the amount of systems/training information released. @eliebakouch highlighted zero synthetic data and zero prior-model distillation , meaning reasoning, tool use, and agentic behaviors were learned in post-training without a synthetic &#8220;cold start.&#8221; The thread also called out publication of the scaling ladder recipe , exact MFU numbers , and target-loss construction. In follow-ups, @eliebakouch noted the private NLL mixture was weighted 50% code, 17.5% STEM, 17.5% math, 10% general knowledge, 5% multi…",
-      "summary": "a quiet day.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.81,
-          "rationale": [
-            "code",
-            "swe-bench",
-            "repo"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "publication"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "7f312a658230e56e",
-      "date": "2026-06-04",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Adventures in Vibecoding Policy",
-      "url": "https://www.chinatalk.media/p/adventures-in-vibecoding-policy",
-      "publishedAt": "2026-05-29T10:47:26.000Z",
-      "content": "Can AI replace policy work today? I picked a few ChinaTalk-adjacent questions around immigration, biotech, and Chinese EV imports, and put the models to work, identifying policy levers and building microsites to advocate for ideas. This stupid new green card regulation USCIS recently announced an idiotic new memo making green card applicants leave the country to do so. Besides separating hundreds of thousands of families , it would force Chinese AI researchers who want to work in America to go back to China, where recent reporting indicated that the Chinese government was taking away passports for top AI talent. Can AI solve this? All I told claude code to do was &#8220;make a maga microsite arguing that the latest green card application proposed changes are a terrible idea make it appeal to the trump white house.&#8221; I told it to &#8220;make it better&#8221; a few times and then asked for toggles for this site for five different political viewpoints, from MAGA to progressive. It delivered an absolute gem, now live at FollowedEveryRule.org . Some highlights: Evangelical version: The tech right SKU: And the progressive SKU: Fwiw, OpenAI&#8217;s Codex rejects this as a use case&#65306; Saving American Biotech with a China Tariff I caught up with a Senate staffer who wanted some ideas on how to save the American biotech industry. Some have started to fear that the speed and cost advantages of developing and testing new drugs in China threaten the long term viability of America&#8217;s biotech R&D ecosystem. But the one thing Chinese biotech doesn&#8217;t have is direct access to the US market, far and away the most lucrative in the world. I came up with an idea to take 10% of all the profits made by licensing Chinese drugs into America and putting that money back into the American biotech R&D ecosystem. While I can cosplay as an AI subject matter expert, biotech is an industry I&#8217;ve invested far less time in. But with this kernel of an idea, how far could Clau…",
-      "summary": "can policy microsites save America?",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.81,
-          "rationale": [
-            "coding",
-            "code",
-            "repo"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {

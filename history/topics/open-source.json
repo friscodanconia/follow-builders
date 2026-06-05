@@ -1,28 +1,37 @@
 {
-  "generatedAt": "2026-06-04T06:10:35.812Z",
+  "generatedAt": "2026-06-05T01:07:09.289Z",
   "slug": "open-source",
   "label": "Open Source",
   "items": [
     {
-      "id": "41ae3c8b19c62aac",
-      "date": "2026-06-04",
+      "id": "e472a5cfd4ada1e1",
+      "date": "2026-06-05",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:zarazhangrui",
-      "builderOrOrg": "Zara Zhang",
-      "title": "Frontend Slides now has 20k stars on GitHub 😮 It's insane how many people have already replace…",
-      "url": "https://x.com/zarazhangrui/status/2061889286585405790",
-      "publishedAt": "2026-06-02T19:14:48.000Z",
-      "content": "Frontend Slides now has 20k stars on GitHub 😮 It's insane how many people have already replaced PPTs with HTML decks and never looked back Recently added new features including beautiful templates, publish as webpage/export as PDF, and inline editing https://t.co/eH6VDaqoeS https://t.co/L6RgRTDVOU",
-      "summary": "Frontend Slides now has 20k stars on GitHub 😮 It's insane how many people have already replaced PPTs with HTML decks and never looked back Recently added new features including beautiful templates, publish as webpage/e…",
+      "sourceKey": "x:steipete",
+      "builderOrOrg": "Peter Steinberger",
+      "title": "We never had more npm downloads than this week on @openclaw - comined with Docker, GitHub, comp…",
+      "url": "https://x.com/steipete/status/2062276065448669627",
+      "publishedAt": "2026-06-03T20:51:43.000Z",
+      "content": "We never had more npm downloads than this week on @openclaw - comined with Docker, GitHub, company-internal deployments and the numerous forks, real number is more in the 10-20 million downloads/week. https://t.co/ie8bXfD2ES",
+      "summary": "We never had more npm downloads than this week on @openclaw - comined with Docker, GitHub, company-internal deployments and the numerous forks, real number is more in the 10-20 million downloads/week. https://t.co/ie8bX…",
       "regionTags": [],
       "metrics": {
-        "likes": 62,
-        "retweets": 0,
-        "replies": 4
+        "likes": 602,
+        "retweets": 29,
+        "replies": 52
       },
       "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "deployment"
+          ],
+          "score": 1
+        },
         {
           "slug": "open-source",
           "label": "Open Source",
@@ -34,15 +43,15 @@
         }
       ],
       "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
+      "importanceScore": 0.78,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.56,
+      "digestScore": 0.86,
       "whyThisMatters": ""
     },
     {
       "id": "261f692f80623caf",
-      "date": "2026-06-04",
+      "date": "2026-06-05",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Mistral AI Blog",
@@ -93,6 +102,43 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "41ae3c8b19c62aac",
+      "date": "2026-06-04",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:zarazhangrui",
+      "builderOrOrg": "Zara Zhang",
+      "title": "Frontend Slides now has 20k stars on GitHub 😮 It's insane how many people have already replace…",
+      "url": "https://x.com/zarazhangrui/status/2061889286585405790",
+      "publishedAt": "2026-06-02T19:14:48.000Z",
+      "content": "Frontend Slides now has 20k stars on GitHub 😮 It's insane how many people have already replaced PPTs with HTML decks and never looked back Recently added new features including beautiful templates, publish as webpage/export as PDF, and inline editing https://t.co/eH6VDaqoeS https://t.co/L6RgRTDVOU",
+      "summary": "Frontend Slides now has 20k stars on GitHub 😮 It's insane how many people have already replaced PPTs with HTML decks and never looked back Recently added new features including beautiful templates, publish as webpage/e…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 62,
+        "retweets": 0,
+        "replies": 4
+      },
+      "topics": [
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "github"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
@@ -2384,52 +2430,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.61,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "03d3a8b2db8cf0b6",
-      "date": "2026-04-17",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:steipete",
-      "builderOrOrg": "Peter Steinberger",
-      "title": "If you look at GPT 5.4-Cyber and it's ability for closed source reverse engineering, I have bad…",
-      "url": "https://x.com/steipete/status/2044423791405924562",
-      "publishedAt": "2026-04-15T14:33:10.000Z",
-      "content": "If you look at GPT 5.4-Cyber and it's ability for closed source reverse engineering, I have bad news for you. I do very much feel the pain though, there's hundreds of teams that try to poke holes into @openclaw. Our response has been of rapid iteration and code hardening. Which did introduce occasiaonal regression (and yes you all been yelling at me), but I see as the only way forward. I would be very careful of other open source projects/harnesses that ignore this work and do not publish their…",
-      "summary": "If you look at GPT 5.4-Cyber and it's ability for closed source reverse engineering, I have bad news for you. I do very much feel the pain though, there's hundreds of teams that try to poke holes into @openclaw. Our res…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 1420,
-        "retweets": 84,
-        "replies": 78
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open source"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]

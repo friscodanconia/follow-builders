@@ -1,8 +1,150 @@
 {
-  "generatedAt": "2026-06-04T06:10:35.812Z",
+  "generatedAt": "2026-06-05T01:07:09.289Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
+    {
+      "id": "21dd2b85bb1053da",
+      "date": "2026-06-05",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:_catwu",
+      "builderOrOrg": "Cat Wu",
+      "title": "Excited to share how Anthropic's data team has automated 95% of business analytics queries with…",
+      "url": "https://x.com/_catwu/status/2062408623565984209",
+      "publishedAt": "2026-06-04T05:38:28.000Z",
+      "content": "Excited to share how Anthropic's data team has automated 95% of business analytics queries with Claude. Blog post covers how we approach evals, ablations, and online validation! https://t.co/sMPtM0GscN",
+      "summary": "Excited to share how Anthropic's data team has automated 95% of business analytics queries with Claude. Blog post covers how we approach evals, ablations, and online validation! https://t.co/sMPtM0GscN",
+      "regionTags": [],
+      "metrics": {
+        "likes": 280,
+        "retweets": 6,
+        "replies": 14
+      },
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "a3f12d6f76d76044",
+      "date": "2026-06-05",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Reality: The Final Eval — Lukas Petersson and Axel Backlund of Andon Labs",
+      "url": "https://www.latent.space/p/andon",
+      "publishedAt": "2026-06-04T20:39:18.000Z",
+      "content": "The new AIEWF website is live! Get your tickets booked ASAP as they -will- sell out. Take the AI Engineering Survey and get >$2k in credits and free AIE WF tickets ! Most industry benchmarks compress intelligence and reasoning ability into scores. SWE-Bench Pro , MMLU , Humanity&#8217;s Last Exam , etc. These metrics are useful, but don&#8217;t always represent the full extent of how a model performs in the real world . Some of the most interesting evals today look less like exams and more like operating businesses in the real world. One of which is Vending Bench . In Anthropic&#8217;s Mythos Preview System Card , Andon was the only third party eval to get their own section, observing increasingly concerning aggressive behavior: You don&#8217;t know what a model is capable of doing in the real world unless you actually give it inventory, a wallet, tools, customers, competitors, humans, & some time. More often than not, it&#8217;ll surprise you how much a model is capable of and in doing so, also reveal unexpected behavior : deception , context collapse, emergent coordination, & bizarre negotiation behavior. While an inflection point in personal agents came post-OpenClaw after full file access with bypass permissions became the norm, it is yet to come for agents in the real-world. However Andon Market , an actual in person store fully run and managed by AI, is paving the way for what is possible. Full Video Pod From Claude trying to call the FBI over a $2/day vending machine charge to AI agents forming price cartels , hiring human employees, running physical stores, and writing existential robot musicals, Andon Labs is stress-testing what happens when frontier models stop being chatbots and start acting in the real world. In this episode, Andon Labs cofounders Lukas Petersson and Axel Backlund join swyx and Vibhu to unpack the strange, funny, and genuinely concerning edge cases that emerge when agents run businesses over long horizons. We go deep on Vending-Bench ,…",
+      "summary": "We talk with the VendingBench authors on evaling Claudes from Haiku to Mythos, and how they build leading, and lasting, frontier evals from scratch.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.9299999999999999,
+          "rationale": [
+            "benchmark",
+            "swe-bench",
+            "mmlu"
+          ],
+          "score": 4
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "swe-bench"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "30e40f3237c9d05d",
+      "date": "2026-06-05",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "⚡️Satya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
+      "url": "https://www.latent.space/p/satya-2026",
+      "publishedAt": "2026-06-03T17:13:57.000Z",
+      "content": "We&#8217;ve informally heard that Satya is a listener to LS for a couple years now, but it was still absolutely surreal to meet him and do a live pod at Build, together with our friends at No Priors , the leading VC AI Podcast that we also greatly admire! We covered the MAI model technical takeaways on yesterday&#8217;s AINews , so I will focus our recap of Satya&#8217;s main messages around three elements: Satya&#8217;s adaptation of the Bill Gates Line for positioning Microsoft as the Frontier Intelligence Platform &#8212; customers must gain much more value from the Microsoft ecosystem than Microsoft itself, by building on multi-model harnesses like OpenClaw and Scout, drawing on the full enterprise context exposed by context layers like Work IQ (heavily dogfooded by his C-suite ), and building up private evals and traces as a new form of Token IP AI ROI: On one hand, enterprises are having difficult conversations around Tokenmaxxing and Layoffs, and on the other hand, there are serious re-evaluations of the End of SaaS since the Build vs Buy equation has changed so much. Our previous SemiAnalysis guest had&#8230; interesting comments on Microsoft&#8217;s position on this as the ur-SaaS titan, and Satya had great answers Making the Impossible Possible: Kevin Scott&#8217;s inspiring framing around what the most ambitious version of applying AI and technology at large to business and social problems, like education and social impact. Enjoy! Full Video Transcript Voiceover: Welcome swyx, Sarah Guo, Elad Gil,, and Chairman and Chief Executive Officer of Microsoft, Satya Nadella Sarah Guo: Welcome to a crossover episode of No Priors and Lane Space with Satya Nadella. Um, congratulations on an amazing build. No, thank you so much, and it&#8217;s great to be with both of you. I listen to both of you or b- both the podcasts all the time. It&#8217;s great to be on it. Thank you so much. [00:01:00] So you&#8217;re just talking about, um, these amazing, uh, announcements f…",
+      "summary": "The legendary Microsoft CEO makes his first Latent Space appearance!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "eval",
+            "evaluation"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "voice"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
     {
       "id": "d8fbe4f4a091b8bc",
       "date": "2026-06-04",
@@ -160,58 +302,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "30e40f3237c9d05d",
-      "date": "2026-06-04",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "⚡️Satya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
-      "url": "https://www.latent.space/p/satya-2026",
-      "publishedAt": "2026-06-03T17:13:57.000Z",
-      "content": "We&#8217;ve informally heard that Satya is a listener to LS for a couple years now, but it was still absolutely surreal to meet him and do a live pod at Build, together with our friends at No Priors , the leading VC AI Podcast that we also greatly admire! We covered the MAI model technical takeaways on yesterday&#8217;s AINews , so I will focus our recap of Satya&#8217;s main messages around three elements: Satya&#8217;s adaptation of the Bill Gates Line for positioning Microsoft as the Frontier Intelligence Platform &#8212; customers must gain much more value from the Microsoft ecosystem than Microsoft itself, by building on multi-model harnesses like OpenClaw and Scout, drawing on the full enterprise context exposed by context layers like Work IQ (heavily dogfooded by his C-suite ), and building up private evals and traces as a new form of Token IP AI ROI: On one hand, enterprises are having difficult conversations around Tokenmaxxing and Layoffs, and on the other hand, there are serious re-evaluations of the End of SaaS since the Build vs Buy equation has changed so much. Our previous SemiAnalysis guest had&#8230; interesting comments on Microsoft&#8217;s position on this as the ur-SaaS titan, and Satya had great answers Making the Impossible Possible: Kevin Scott&#8217;s inspiring framing around what the most ambitious version of applying AI and technology at large to business and social problems, like education and social impact. Enjoy! Full Video Transcript Voiceover: Welcome swyx, Sarah Guo, Elad Gil,, and Chairman and Chief Executive Officer of Microsoft, Satya Nadella Sarah Guo: Welcome to a crossover episode of No Priors and Lane Space with Satya Nadella. Um, congratulations on an amazing build. No, thank you so much, and it&#8217;s great to be with both of you. I listen to both of you or b- both the podcasts all the time. It&#8217;s great to be on it. Thank you so much. [00:01:00] So you&#8217;re just talking about, um, these amazing, uh, announcements f…",
-      "summary": "The legendary Microsoft CEO makes his first Latent Space appearance!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "eval",
-            "evaluation"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "voice",
-          "label": "Voice",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "voice"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
       "whyThisMatters": ""
     },
     {
@@ -2332,87 +2422,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4ac49d51e8c335fc",
-      "date": "2026-04-21",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:mattturck",
-      "builderOrOrg": "Matt Turck",
-      "title": "When you ask Claude to evaluate a potential investment and it replies “cute, just not as good a…",
-      "url": "https://x.com/mattturck/status/2045909221997224000",
-      "publishedAt": "2026-04-19T16:55:44.000Z",
-      "content": "When you ask Claude to evaluate a potential investment and it replies “cute, just not as good as me” lol https://t.co/HL1aByBAoj",
-      "summary": "When you ask Claude to evaluate a potential investment and it replies “cute, just not as good as me” lol https://t.co/HL1aByBAoj",
-      "regionTags": [],
-      "metrics": {
-        "likes": 17,
-        "retweets": 0,
-        "replies": 6
-      },
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "eval"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.61,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.5,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4ebe65d424b90206",
-      "date": "2026-04-21",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Hugging Face Blog",
-      "sourceKey": "official:Hugging Face Blog",
-      "builderOrOrg": "Hugging Face",
-      "title": "Training and Finetuning Multimodal Embedding & Reranker Models with Sentence Transformers",
-      "url": "https://huggingface.co/blog/train-multimodal-sentence-transformers",
-      "publishedAt": "2026-04-16T00:00:00.000Z",
-      "content": "",
-      "summary": "",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "multimodal"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "imo"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     }
   ]
