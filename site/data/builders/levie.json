@@ -1,10 +1,47 @@
 {
-  "generatedAt": "2026-06-05T05:50:25.492Z",
+  "generatedAt": "2026-06-06T01:28:39.098Z",
   "handle": "levie",
   "name": "Aaron Levie",
   "itemCount": 50,
-  "latestDate": "2026-06-05",
+  "latestDate": "2026-06-06",
   "items": [
+    {
+      "id": "a32956ed2fde5f3d",
+      "date": "2026-06-06",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "Good thought provoking post from Anthropic. I think this paragraph points to the key element of…",
+      "url": "https://x.com/levie/status/2062728257359790292",
+      "publishedAt": "2026-06-05T02:48:34.000Z",
+      "content": "Good thought provoking post from Anthropic. I think this paragraph points to the key element of the optimistic scenario of AI: “There has been an explosion of new ideas, initiatives, tools, and simulations, as a result of Anthropic employees working with highly capable models—far more than we have the capacity to pursue. The rate at which organizations can spot and fix these bottlenecks may be a skill that improves over time, and it may become the most important skill for any organization.” AI…",
+      "summary": "Good thought provoking post from Anthropic. I think this paragraph points to the key element of the optimistic scenario of AI: “There has been an explosion of new ideas, initiatives, tools, and simulations, as a result…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 195,
+        "retweets": 18,
+        "replies": 33
+      },
+      "topics": [
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
     {
       "id": "3aabe9386d1ea2b0",
       "date": "2026-06-05",
@@ -2038,43 +2075,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "bb3615b801668ea2",
-      "date": "2026-04-20",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "It’s remarkable how often you need to be dramatically upgrading your AI architecture given the…",
-      "url": "https://x.com/levie/status/2045680043607941548",
-      "publishedAt": "2026-04-19T01:45:03.000Z",
-      "content": "It’s remarkable how often you need to be dramatically upgrading your AI architecture given the pace of progress in AI models right now. If you’re building agents, you basically need to throw away large parts of previous work that you setup to compensate for model limitations every few quarters. The systems you built to mitigate context window limits aren’t useful anymore, and for many use-cases it’s easier just to throw more compute at a problem today in ways that wouldn’t have worked previousl…",
-      "summary": "It’s remarkable how often you need to be dramatically upgrading your AI architecture given the pace of progress in AI models right now. If you’re building agents, you basically need to throw away large parts of previous…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 335,
-        "retweets": 36,
-        "replies": 41
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.65,
       "whyThisMatters": ""
     }
   ]

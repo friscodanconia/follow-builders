@@ -1,11 +1,116 @@
 {
-  "generatedAt": "2026-06-05T05:50:25.492Z",
+  "generatedAt": "2026-06-06T01:28:39.098Z",
   "slug": "reasoning",
   "label": "AI Thinking",
   "items": [
     {
+      "id": "2637650b9cd6320a",
+      "date": "2026-06-06",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "The MAD Podcast with Matt Turck",
+      "sourceKey": "podcast:The MAD Podcast with Matt Turck",
+      "builderOrOrg": "The MAD Podcast with Matt Turck",
+      "title": "OpenAI's Dan Roberts: Why AI Can Now Make Discoveries",
+      "url": "https://www.youtube.com/watch?v=oWOz2htozfI",
+      "publishedAt": "2026-06-04T12:30:00.000Z",
+      "content": "Speaker 1 | 00:00 - 00:23 One of the things that CHAT GPT was able to do was assume it was false. When you go against the grain and do something contrarian like that, you really have to have strong conviction in what you're doing in order to persevere down a really long calculation path. I feel really excited that we will get to really answer a lot of fundamental questions in the field of science that that we care about with the aid or the models being the driving force. And so that's just really thrilling. Speaker 2 | 00:23 - 01:03 Hi. I'm Matt Turk. Welcome to the Matt podcast. It's been yet another extraordinary last few days in AI with OpenAI, DeepMind, and Anthropic cracking some of the most famous long unsolved questions in mathematics known as the Erdosch problems, a moment many view as a stunning breakthrough and yet another signal that AI is moving from doing the work we ask of it to autonomously making deep science discoveries. To unpack the moment and the fundamental advances in model reasoning that make it possible, I'm excited to welcome Dan Roberts, a top AI researcher at OpenAI who comes from a deep background in theoretical physics and has a particular interest in the intersection of science and AI. Speaker 2 | 01:03 - 01:20 In this conversation, we go deep on what reinforcement learning is, it's the most important paradigm in AI right now, and what's ahead for AI and science. Please enjoy my conversation with Dan Roberts. Hey, Excited to do this. Thanks for taking the time. Speaker 1 | 01:20 - 01:21 Course. Very happy to be here. Speaker 2 | 01:21 - 01:31 You are the lead of the foundations of reinforcement learning team at OpenAI. So what what does that mean? What does the name mean? Speaker 1 | 01:31 - 02:01 The larger team that that we're on is called foundations, and we think about reinforcement learning. So very boring foundations of reinforcement learning. But the team comes from a mandate of of thinking about the science of reinforcement learning. And a long time ago, which in AI speak is like six months ago, maybe a year, I guess now two years. So before we released a one and thinking reasoning models, we were studying this internally. Speaker 1 | 02:01 - 02:31 And one of the advantages to being first or at least to being forced and and spending a lot of resources on scaling things up is that you can empower a group of people to not just work on making the thing work, but work on understanding how it works. And then beyond that, how do we scale? How should we think about scaling reinforcement learning versus scaling pretraining? So what what are scaling laws look like? But then going beyond that, what what sort of things does this kind of training teach us? Speaker 1 | 02:31 - 02:56 What doesn't it teach us? We're very interested in at the frontier for exploratory scenarios. How do we either improve or understand better what reinforcement learning is doing? We have all this compute that famously we are in the process of of of acquiring, and we would like to turn that compute into intelligence. And to do that, we need to make thinking models. Speaker 1 | 02:56 - 03:08 And some somewhere along the way, we interact with that process usually at the earlier stage, for models, you know, not the next model, but things that are like the next model or the next next model. Speaker 2 | 03:08 - 03:16 Great. And, quickly, what was your path to OpenAI? So how did you go from studying physics to being where you are today? Speaker 1 | 03:16 - 03:45 I did a PhD in in theoretical physics, from from MIT, thinking about the intersection of quantum gravity and quantum information, thought a lot about black holes and quantum chaos kind of thing of what if you throw something into a black hole? What happens to the information? Does it does it come out? How if we think about black holes as computers, how fast are they? I was very interested in this fundamental question in theoretical physics, which is how do you find a quant…",
+      "summary": "Speaker 1 | 00:00 - 00:23 One of the things that CHAT GPT was able to do was assume it was false. When you go against the grain and do something contrarian like that, you really have to have strong conviction in what you're doing in order…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.69,
+          "rationale": [
+            "reasoning",
+            "thinking mode"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "rl",
+            "reinforcement learning"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.52,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.69,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "da79b35bab22e5c0",
+      "date": "2026-06-06",
+      "sourceType": "blog",
+      "sourceGroup": "mirrored",
+      "sourceName": "Anthropic Engineering",
+      "sourceKey": "blog:Anthropic Engineering",
+      "builderOrOrg": "Anthropic Engineering",
+      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+      "url": "https://www.anthropic.com/engineering/managed-agents",
+      "publishedAt": null,
+      "content": "Get started with Claude Managed Agents by following our docs . A running topic on the Engineering Blog is how to build effective agents and design harnesses for long-running work . A common thread across this work is that harnesses encode assumptions about what Claude can’t do on its own. However, those assumptions need to be frequently questioned because they can go stale as models improve. As just one example, in prior work we found that Claude Sonnet 4.5 would wrap up tasks prematurely as it sensed its context limit approaching—a behavior sometimes called “context anxiety.” We addressed this by adding context resets to the harness. But when we used the same harness on Claude Opus 4.5, we found that the behavior was gone. The resets had become dead weight. We expect harnesses to continue evolving. So we built Managed Agents: a hosted service in the Claude Platform that runs long-horizon agents on your behalf through a small set of interfaces meant to outlast any particular implementation—including the ones we run today. Building Managed Agents meant solving an old problem in computing: how to design a system for “ programs as yet unthought of .” Decades ago, operating systems solved this problem by virtualizing hardware into abstractions— process, file —general enough for programs that didn&#x27;t exist yet. The abstractions outlasted the hardware. The read() command is agnostic as to whether it’s accessing a disk pack from the 1970s or a modern SSD. The abstractions on top stayed stable while the implementations underneath changed freely. Managed Agents follow the same pattern. We virtualized the components of an agent: a session (the append-only log of everything that happened), a harness (the loop that calls Claude and routes Claude’s tool calls to the relevant infrastructure), and a sandbox (an execution environment where Claude can run code and edit files). This allows the implementation of each to be swapped without disturbing the others. We&#x27;re opinion…",
+      "summary": "Get started with Claude Managed Agents by following our docs . A running topic on the Engineering Blog is how to build effective agents and design harnesses for long-running work . A common thread across this work is that harnesses encode…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "long-horizon"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Watchlist",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
       "id": "4a151b203e3898a9",
-      "date": "2026-06-05",
+      "date": "2026-06-06",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
@@ -189,57 +294,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "da79b35bab22e5c0",
-      "date": "2026-05-29",
-      "sourceType": "blog",
-      "sourceGroup": "mirrored",
-      "sourceName": "Anthropic Engineering",
-      "sourceKey": "blog:Anthropic Engineering",
-      "builderOrOrg": "Anthropic Engineering",
-      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
-      "url": "https://www.anthropic.com/engineering/managed-agents",
-      "publishedAt": null,
-      "content": "Get started with Claude Managed Agents by following our docs . A running topic on the Engineering Blog is how to build effective agents and design harnesses for long-running work . A common thread across this work is that harnesses encode assumptions about what Claude can’t do on its own. However, those assumptions need to be frequently questioned because they can go stale as models improve. As just one example, in prior work we found that Claude Sonnet 4.5 would wrap up tasks prematurely as it sensed its context limit approaching—a behavior sometimes called “context anxiety.” We addressed this by adding context resets to the harness. But when we used the same harness on Claude Opus 4.5, we found that the behavior was gone. The resets had become dead weight. We expect harnesses to continue evolving. So we built Managed Agents: a hosted service in the Claude Platform that runs long-horizon agents on your behalf through a small set of interfaces meant to outlast any particular implementation—including the ones we run today. Building Managed Agents meant solving an old problem in computing: how to design a system for “ programs as yet unthought of .” Decades ago, operating systems solved this problem by virtualizing hardware into abstractions— process, file —general enough for programs that didn&#x27;t exist yet. The abstractions outlasted the hardware. The read() command is agnostic as to whether it’s accessing a disk pack from the 1970s or a modern SSD. The abstractions on top stayed stable while the implementations underneath changed freely. Managed Agents follow the same pattern. We virtualized the components of an agent: a session (the append-only log of everything that happened), a harness (the loop that calls Claude and routes Claude’s tool calls to the relevant infrastructure), and a sandbox (an execution environment where Claude can run code and edit files). This allows the implementation of each to be swapped without disturbing the others. We&#x27;re opinion…",
-      "summary": "Get started with Claude Managed Agents by following our docs . A running topic on the Engineering Blog is how to build effective agents and design harnesses for long-running work . A common thread across this work is that harnesses encode…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "reasoning",
-          "label": "AI Thinking",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "long-horizon"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Watchlist",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
