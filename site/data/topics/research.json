@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T04:33:30.283Z",
+  "generatedAt": "2026-06-06T05:07:04.302Z",
   "slug": "research",
   "label": "Research",
   "items": [
@@ -55,7 +55,7 @@
       "section": "Builders",
       "importanceScore": 0.78,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.61,
       "whyThisMatters": ""
     },
@@ -111,7 +111,7 @@
       "section": "Builders",
       "importanceScore": 0.84,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.65,
       "whyThisMatters": ""
     },
@@ -392,6 +392,58 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7bd81b8b59700614",
+      "date": "2026-06-06",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-6b8",
+      "publishedAt": "2026-06-06T04:34:47.000Z",
+      "content": "Do check out the excellent RL Env guide we posted today! And more lightning pods over the weekend, starting with our CommandCode remote pod on harness optimization for DeepSeek v4 Pro . AI News for 6/4/2026-6/5/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Frontier Models, RSI, and the &#8220;AI Builds AI&#8221; Narrative Anthropic&#8217;s Mythos/Opus cycle dominated discussion, but substance was mixed with speculation : Community attention centered on Claude Mythos , with multiple users calling outputs &#8220;next level&#8221; and highlighting strong one-shot desktop and MacOS workflows ( kimmonismus on Mythos outputs , more reactions , earlier post ). At the same time, there were questions about benchmark regressions&#8212;e.g. claims that Opus 4.8 underperforms 4.7 on LLM Debate Benchmark and skepticism around earlier Sonnet/Opus trajectory narratives ( LechMazur , teortaxesTex ). Anthropic also published a concrete science result: Opus 4.7 matching or beating dedicated NMR software on some tasks , framed as &#8220;making Claude a chemist&#8221; ( AnthropicAI ). Recursive self-improvement moved from vague theory to explicit org strategy : Sakana AI launched a dedicated RSI Lab in Tokyo, tying together prior projects like The AI Scientist , Darwin G&#246;del Machine , and ShinkaEvolve , with an explicit claim that self-improving systems can be built under compute constraints rather than hyperscale-only regimes. hardmaru emphasized sample efficiency as the design constraint. This lined up with broader industry rhetoric around self-improving systems: kimmonismus argued Anthropic/OpenAI RSI claims are not just IPO theater, while andrew_n_carr suggested only &#8220;1 or 2 hard problems&#8221; may remain on the path to AGI. The notable shift is that RSI is no longer just blog-p…",
+      "summary": "a quiet day of RSI.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.69,
+          "rationale": [
+            "desktop",
+            "gui"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "science"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
       "whyThisMatters": ""
     },
     {
@@ -2425,50 +2477,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.44,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "bd57861753e5d6d7",
-      "date": "2026-05-19",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Anthropic acquires Stainless \\ Anthropic",
-      "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
-      "publishedAt": null,
-      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     }
   ]
