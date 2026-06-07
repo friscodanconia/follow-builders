@@ -1,8 +1,98 @@
 {
-  "generatedAt": "2026-06-06T05:07:04.302Z",
+  "generatedAt": "2026-06-07T01:09:56.935Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
+    {
+      "id": "770ceb3e666fdaef",
+      "date": "2026-06-07",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:petergyang",
+      "builderOrOrg": "Peter Yang",
+      "title": "How to build AI skills that check their own work and improve over time: 1. Give it context Ask…",
+      "url": "https://x.com/petergyang/status/2062899832965255443",
+      "publishedAt": "2026-06-05T14:10:21.000Z",
+      "content": "How to build AI skills that check their own work and improve over time: 1. Give it context Ask AI: \"Create a skill for this [repeated task]. Here are examples of good output so it knows what good looks like.\" 2. Make it easy to trigger “Write a clear skill description using this pattern: Use when the user wants to [do this].” 3. Add evals \"Create an evals md with 10 pass/fail checks for common errors in the skill's output.\" 4. Add memory \"Create a memory md to capture one-sentence learnings fro…",
+      "summary": "How to build AI skills that check their own work and improve over time: 1. Give it context Ask AI: \"Create a skill for this [repeated task]. Here are examples of good output so it knows what good looks like.\" 2. Make it…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 154,
+        "retweets": 19,
+        "replies": 15
+      },
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "a3f12d6f76d76044",
+      "date": "2026-06-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Reality: The Final Eval — Lukas Petersson and Axel Backlund of Andon Labs",
+      "url": "https://www.latent.space/p/andon",
+      "publishedAt": "2026-06-04T20:39:18.000Z",
+      "content": "The new AIEWF website is live! Get your tickets booked ASAP as they -will- sell out. Take the AI Engineering Survey and get >$2k in credits and free AIE WF tickets ! Most industry benchmarks compress intelligence and reasoning ability into scores. SWE-Bench Pro , MMLU , Humanity&#8217;s Last Exam , etc. These metrics are useful, but don&#8217;t always represent the full extent of how a model performs in the real world . Some of the most interesting evals today look less like exams and more like operating businesses in the real world. One of which is Vending Bench . In Anthropic&#8217;s Mythos Preview System Card , Andon was the only third party eval to get their own section, observing increasingly concerning aggressive behavior: You don&#8217;t know what a model is capable of doing in the real world unless you actually give it inventory, a wallet, tools, customers, competitors, humans, & some time. More often than not, it&#8217;ll surprise you how much a model is capable of and in doing so, also reveal unexpected behavior : deception , context collapse, emergent coordination, & bizarre negotiation behavior. While an inflection point in personal agents came post-OpenClaw after full file access with bypass permissions became the norm, it is yet to come for agents in the real-world. However Andon Market , an actual in person store fully run and managed by AI, is paving the way for what is possible. Full Video Pod From Claude trying to call the FBI over a $2/day vending machine charge to AI agents forming price cartels , hiring human employees, running physical stores, and writing existential robot musicals, Andon Labs is stress-testing what happens when frontier models stop being chatbots and start acting in the real world. In this episode, Andon Labs cofounders Lukas Petersson and Axel Backlund join swyx and Vibhu to unpack the strange, funny, and genuinely concerning edge cases that emerge when agents run businesses over long horizons. We go deep on Vending-Bench ,…",
+      "summary": "We talk with the VendingBench authors on evaling Claudes from Haiku to Mythos, and how they build leading, and lasting, frontier evals from scratch.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.9299999999999999,
+          "rationale": [
+            "benchmark",
+            "swe-bench",
+            "mmlu"
+          ],
+          "score": 4
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "swe-bench"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
     {
       "id": "0b4915eab6162b78",
       "date": "2026-06-06",
@@ -57,59 +147,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a3f12d6f76d76044",
-      "date": "2026-06-06",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "Reality: The Final Eval — Lukas Petersson and Axel Backlund of Andon Labs",
-      "url": "https://www.latent.space/p/andon",
-      "publishedAt": "2026-06-04T20:39:18.000Z",
-      "content": "The new AIEWF website is live! Get your tickets booked ASAP as they -will- sell out. Take the AI Engineering Survey and get >$2k in credits and free AIE WF tickets ! Most industry benchmarks compress intelligence and reasoning ability into scores. SWE-Bench Pro , MMLU , Humanity&#8217;s Last Exam , etc. These metrics are useful, but don&#8217;t always represent the full extent of how a model performs in the real world . Some of the most interesting evals today look less like exams and more like operating businesses in the real world. One of which is Vending Bench . In Anthropic&#8217;s Mythos Preview System Card , Andon was the only third party eval to get their own section, observing increasingly concerning aggressive behavior: You don&#8217;t know what a model is capable of doing in the real world unless you actually give it inventory, a wallet, tools, customers, competitors, humans, & some time. More often than not, it&#8217;ll surprise you how much a model is capable of and in doing so, also reveal unexpected behavior : deception , context collapse, emergent coordination, & bizarre negotiation behavior. While an inflection point in personal agents came post-OpenClaw after full file access with bypass permissions became the norm, it is yet to come for agents in the real-world. However Andon Market , an actual in person store fully run and managed by AI, is paving the way for what is possible. Full Video Pod From Claude trying to call the FBI over a $2/day vending machine charge to AI agents forming price cartels , hiring human employees, running physical stores, and writing existential robot musicals, Andon Labs is stress-testing what happens when frontier models stop being chatbots and start acting in the real world. In this episode, Andon Labs cofounders Lukas Petersson and Axel Backlund join swyx and Vibhu to unpack the strange, funny, and genuinely concerning edge cases that emerge when agents run businesses over long horizons. We go deep on Vending-Bench ,…",
-      "summary": "We talk with the VendingBench authors on evaling Claudes from Haiku to Mythos, and how they build leading, and lasting, frontier evals from scratch.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.9299999999999999,
-          "rationale": [
-            "benchmark",
-            "swe-bench",
-            "mmlu"
-          ],
-          "score": 4
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "swe-bench"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -2388,41 +2425,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "5876a4233a2da470",
-      "date": "2026-04-23",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Hugging Face Blog",
-      "sourceKey": "official:Hugging Face Blog",
-      "builderOrOrg": "Hugging Face",
-      "title": "QIMMA قِمّة ⛰: A Quality-First Arabic LLM Leaderboard",
-      "url": "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard",
-      "publishedAt": "2026-04-21T10:09:58.000Z",
-      "content": "",
-      "summary": "",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "leaderboard"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     }
   ]
