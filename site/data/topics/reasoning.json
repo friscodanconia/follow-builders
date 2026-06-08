@@ -1,11 +1,65 @@
 {
-  "generatedAt": "2026-06-07T05:54:39.438Z",
+  "generatedAt": "2026-06-08T00:32:00.684Z",
   "slug": "reasoning",
   "label": "AI Thinking",
   "items": [
     {
+      "id": "9910a867b6ff153f",
+      "date": "2026-06-08",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "Unsupervised Learning",
+      "sourceKey": "podcast:Unsupervised Learning",
+      "builderOrOrg": "Unsupervised Learning",
+      "title": "Ep 89: AI Research Legend’s Honest Assessment of Where We Are",
+      "url": "https://www.youtube.com/watch?v=N1geOimmdDo",
+      "publishedAt": "2026-06-03T12:50:11.000Z",
+      "content": "Speaker 1 | 00:00 - 00:04 Is reasoning enough to get to generalization, or is another method needed? Speaker 2 | 00:04 - 00:08 It does feel like there is something else that possibly could generalize much better. Speaker 1 | 00:08 - 00:12 Why do you think Anthropic was the first to be, like, really successful on the coding side? Speaker 2 | 00:12 - 00:21 Anthropic made this very good decision to focus on coding. OpenAI was like, we're doing chat GPT. Partway Anthropic made this decision was that they just could not compete. Speaker 1 | 00:21 - 00:26 What's your kind of gut intuition on the gap we'll see between closed source and open source models and whether that widens or shrinks in the next few years? Speaker 2 | 00:26 - 00:28 I think it's a fair question, but Speaker 1 | 00:28 - 00:56 Lucas Kaiser is one of the authors of the transformer paper and has had amazing roles at both Google and OpenAI. On unsupervised learning, I got to ask him all the top of mind questions of what's happening in AI today. Of course, we had to talk about the transformer and how he thinks about its persistence and whether it will remain the dominant architecture and what its shortcomings are. We also got his thoughts on what changed in the fall to really make coding models so much better and why Anthropic was really first to code. We talked about what the future research directions that he's really excited about. Speaker 1 | 00:56 - 01:20 And we also hit on a bunch of things around how he thinks the ecosystem will evolve from open versus closed source model to application companies. I think folks will really enjoy this episode with a top researcher whose research really set off a lot in the space. Without further ado, here's Lucas. It's it's a pleasure to have a transformer paper coauthor on the podcast. I feel like you've been at the forefront of of of so many major changes in the AI world. Speaker 1 | 01:20 - 01:27 And, you know, our goal is really to get your thoughts on on all the questions around the AI frontiers today. So I really appreciate you coming on the podcast. Speaker 2 | 01:27 - 01:29 Thank you very much. Thank you for having me. Speaker 1 | 01:29 - 01:51 I can think of kind of no better place to start than generalization. Right? It feels like that's the the question in the air right now. And I think in November, I heard you say, you know, basically, the big this big question of is reasoning enough to get to generalization, or is another method needed? I'm wondering, I guess you said that, you know, maybe six months ago now, which is, you know, dog ears in AI world, so years ago. Speaker 1 | 01:51 - 01:54 How is your thinking on that that question evolved since then? Speaker 2 | 01:54 - 02:28 If we we take the current transformers with reasoning, right, and and and agents and they have access to a shell and and and stuff, they can do amazing things. Right? It's incredible how far we've gotten, like, two years ago even, not to mention before transformers. I would have never believed that, you know, you just take this next word predictor, give it then chain of thought and a r l dot and tools, and that it will, I know every day spend hours talking to Codex, in my case, or other people just and it works. Right? Speaker 2 | 02:28 - 03:03 You you talk to it about hard problems at work, and it makes sense, and it implements things. And So that's incredible. On the other hand, there is this feeling that it is not quite us, that it's not quite at the edge of what's that we we all feel that it possibly should be even better. Right? That that we can generalize from less data, like, somehow make, like, bigger leaps, get these concepts from way less. Speaker 2 | 03:04 - 03:25 I recently have this saying that, you know, people say, like, Americans will do the right thing after exhausting all other options, and, like, LLMs, they will learn the concept. They will learn it. But after exhausting all other options. You need this trillion tokens. You…",
+      "summary": "Speaker 1 | 00:00 - 00:04 Is reasoning enough to get to generalization, or is another method needed? Speaker 2 | 00:04 - 00:08 It does feel like there is something else that possibly could generalize much better. Speaker 1 | 00:08 - 00:12…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "paper"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.69,
+          "rationale": [
+            "reasoning",
+            "chain of thought"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.52,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.69,
+      "whyThisMatters": ""
+    },
+    {
       "id": "4a151b203e3898a9",
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
