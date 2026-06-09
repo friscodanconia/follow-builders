@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T04:43:05.369Z",
+  "generatedAt": "2026-06-09T05:35:33.495Z",
   "date": "2026-06-09",
   "items": [
     {
@@ -54,7 +54,7 @@
       "section": "Builders",
       "importanceScore": 0.84,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.65,
       "whyThisMatters": ""
     },
@@ -91,7 +91,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -145,7 +145,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -228,7 +228,7 @@
       "section": "Builders",
       "importanceScore": 0.84,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.65,
       "whyThisMatters": ""
     },
@@ -255,7 +255,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -292,7 +292,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -319,7 +319,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -356,7 +356,7 @@
       "section": "Builders",
       "importanceScore": 0.78,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.61,
       "whyThisMatters": ""
     },
@@ -593,7 +593,7 @@
       "section": "Builders",
       "importanceScore": 0.84,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.65,
       "whyThisMatters": ""
     },
@@ -814,7 +814,7 @@
       "section": "Official Sources",
       "importanceScore": 0.8,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.63,
       "whyThisMatters": ""
     },
@@ -1768,77 +1768,34 @@
   ],
   "selectedItems": [
     {
-      "id": "a16e894c57ba7f38",
+      "id": "57feb05d15ba2b0f",
       "date": "2026-06-09",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:steipete",
-      "builderOrOrg": "Peter Steinberger",
-      "title": "Here’s your monthly reminder that you shouldn’t be prompting coding agents anymore. You should…",
-      "url": "https://x.com/steipete/status/2063697162748260627",
-      "publishedAt": "2026-06-07T18:58:39.000Z",
-      "content": "Here’s your monthly reminder that you shouldn’t be prompting coding agents anymore. You should be designing loops that prompt your agents.",
-      "summary": "Here’s your monthly reminder that you shouldn’t be prompting coding agents anymore. You should be designing loops that prompt your agents.",
+      "sourceKey": "x:bcherny",
+      "builderOrOrg": "Boris Cherny",
+      "title": "Seeing a number of benchmarks showing Opus is the best model for long-running work. Five tips f…",
+      "url": "https://x.com/bcherny/status/2063792263067754658",
+      "publishedAt": "2026-06-08T01:16:33.000Z",
+      "content": "Seeing a number of benchmarks showing Opus is the best model for long-running work. Five tips for running Opus autonomously for hours/days: 1. Use auto mode for permissions, so Claude doesn’t ask for approval 2. Use dynamic workflows, to have Claude orchestrate hundreds/thousands of agents to get a task done 3. Use /goal or /loop, to nudge Claude to keep going until it’s done 4. Use Claude Code in the cloud, so you can close your laptop (easiest way is the desktop or mobile app) 5. Make sure Cl…",
+      "summary": "Seeing a number of benchmarks showing Opus is the best model for long-running work. Five tips for running Opus autonomously for hours/days: 1. Use auto mode for permissions, so Claude doesn’t ask for approval 2. Use dyn…",
       "regionTags": [],
       "metrics": {
-        "likes": 13734,
-        "retweets": 870,
-        "replies": 1148
+        "likes": 1865,
+        "retweets": 147,
+        "replies": 184
       },
       "topics": [
         {
           "slug": "agents",
           "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
+          "confidence": 0.69,
           "rationale": [
-            "agent"
+            "agent",
+            "autonomous"
           ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.65,
-      "whyThisMatters": "Manual prompting doesn't scale when you're burning through millions of tokens monthly. The developers building automated agent workflows now will have a massive productivity edge over those still doing it by hand."
-    },
-    {
-      "id": "dfeef81c4cb9cca1",
-      "date": "2026-06-09",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "How Endava is redesigning software delivery around AI agents",
-      "url": "https://openai.com/index/endava-frontiers",
-      "publishedAt": "2026-06-04T12:00:00.000Z",
-      "content": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
-      "summary": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
+          "score": 2
         },
         {
           "slug": "coding",
@@ -1850,6 +1807,89 @@
           "score": 1
         },
         {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "desktop"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.65,
+      "whyThisMatters": "These aren't theoretical tips. Cherny is describing actual workflows that let you start an AI project on Monday and check the results on Wednesday. The bottleneck is shifting from \"can AI do this?\" to \"do you trust AI to do this unsupervised?\""
+    },
+    {
+      "id": "abe1f5d1e1764f0a",
+      "date": "2026-06-09",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:realmadhuguru",
+      "builderOrOrg": "Madhu Guru",
+      "title": "A common misconception is that training data is low skill, grunt work - scan some notebooks, mi…",
+      "url": "https://x.com/realmadhuguru/status/2063704354910347520",
+      "publishedAt": "2026-06-07T19:27:14.000Z",
+      "content": "A common misconception is that training data is low skill, grunt work - scan some notebooks, mine the internet, create labeled samples. The data required to advance the model frontier is the opposite. Labs need training data for high-economic-value tasks. And most of these tasks outside of SWE have little documentation - it is complex, domain-specific knowledge built over the years, spanning legacy tools that don’t talk to each other. That's why we have SWE agents and not knowledge work agents…",
+      "summary": "A common misconception is that training data is low skill, grunt work - scan some notebooks, mine the internet, create labeled samples. The data required to advance the model frontier is the opposite. Labs need training…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 60,
+        "retweets": 2,
+        "replies": 3
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.65,
+      "whyThisMatters": "This explains why your company's AI coding assistant works great but the AI lawyer is still useless. The data bottleneck means we'll see AI agents roll out in very specific order, and legal, medical, and finance work will be last, not first."
+    },
+    {
+      "id": "da26d04cd2f147e7",
+      "date": "2026-06-09",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "This is what the market got wrong about AI eating enterprise software. Building good software i…",
+      "url": "https://x.com/levie/status/2063756386572681606",
+      "publishedAt": "2026-06-07T22:53:59.000Z",
+      "content": "This is what the market got wrong about AI eating enterprise software. Building good software in the past was very hard. Yes, AI has made that a bit easier, though it’s still hard to build something that’s got good taste, differentiated, high quality, secure, and so on. But nevertheless, that’s only one component of building a platform that enterprises rely on. The plurality of costs in most enterprise software companies is actually on GTM, because at scale most enterprise software categories a…",
+      "summary": "This is what the market got wrong about AI eating enterprise software. Building good software in the past was very hard. Yes, AI has made that a bit easier, though it’s still hard to build something that’s got good tast…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 378,
+        "retweets": 43,
+        "replies": 67
+      },
+      "topics": [
+        {
           "slug": "enterprise",
           "label": "Business AI",
           "confidence": 0.5700000000000001,
@@ -1859,66 +1899,39 @@
           "score": 1
         }
       ],
-      "section": "Official Sources",
-      "importanceScore": 0.8,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.63,
-      "whyThisMatters": "When consulting firms start rebuilding their core business around AI agents, that's your signal that manual project management is about to look as outdated as fax machines."
-    },
-    {
-      "id": "ec5a1b7376284305",
-      "date": "2026-06-09",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:amasad",
-      "builderOrOrg": "Amjad Masad",
-      "title": "Replit is about removing all distractions and have you focus on what matters — getting to marke…",
-      "url": "https://x.com/amasad/status/2063744208587125142",
-      "publishedAt": "2026-06-07T22:05:36.000Z",
-      "content": "Replit is about removing all distractions and have you focus on what matters — getting to market and getting the bag. Congrats! https://t.co/Z2gcG0WF0t",
-      "summary": "Replit is about removing all distractions and have you focus on what matters — getting to market and getting the bag. Congrats! https://t.co/Z2gcG0WF0t",
-      "regionTags": [],
-      "metrics": {
-        "likes": 214,
-        "retweets": 4,
-        "replies": 16
-      },
-      "topics": [],
       "section": "Builders",
-      "importanceScore": 0.7,
+      "importanceScore": 0.78,
       "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
+      "digestScore": 0.61,
+      "whyThisMatters": "All those \"AI will replace Salesforce\" predictions missed the point. Your AI startup might build better software than Salesforce, but Salesforce has 8,000 salespeople and relationships with every Fortune 500 CIO. That doesn't disappear because you have a better algorithm."
     },
     {
-      "id": "27d0d11de940150e",
+      "id": "a4a0cfcf89c3b2a4",
       "date": "2026-06-09",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:rauchg",
-      "builderOrOrg": "Guillermo Rauch",
-      "title": "Vercel AI Gateway recovers on average over 1T tokens a month 🤯 Much like Stripe recovers reven…",
-      "url": "https://x.com/rauchg/status/2063714700618334260",
-      "publishedAt": "2026-06-07T20:08:21.000Z",
-      "content": "Vercel AI Gateway recovers on average over 1T tokens a month 🤯 Much like Stripe recovers revenue with smart retries on failed payments or credit card updates. And we do it with 0️⃣ zero markup over the labs; adding redundancy, zero-data retention enforcement, observability, usage APIs, caps, … https://t.co/OougSipbBX",
-      "summary": "Vercel AI Gateway recovers on average over 1T tokens a month 🤯 Much like Stripe recovers revenue with smart retries on failed payments or credit card updates. And we do it with 0️⃣ zero markup over the labs; adding red…",
+      "sourceKey": "x:thsottiaux",
+      "builderOrOrg": "Thibault Sottiaux",
+      "title": "I have a new kind of big button that I can press for Codex. Over the next 100 days, we will sel…",
+      "url": "https://x.com/thsottiaux/status/2063748242681307611",
+      "publishedAt": "2026-06-07T22:21:38.000Z",
+      "content": "I have a new kind of big button that I can press for Codex. Over the next 100 days, we will select one person per day who does impressive or incredibly useful work with Codex and give them 10X usage limits for a month to see what they can do with it. First one tomorrow.",
+      "summary": "I have a new kind of big button that I can press for Codex. Over the next 100 days, we will select one person per day who does impressive or incredibly useful work with Codex and give them 10X usage limits for a month t…",
       "regionTags": [],
       "metrics": {
-        "likes": 266,
-        "retweets": 26,
-        "replies": 32
+        "likes": 6454,
+        "retweets": 236,
+        "replies": 1128
       },
       "topics": [
         {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
+          "slug": "coding",
+          "label": "Coding",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "gui"
+            "code"
           ],
           "score": 1
         }
@@ -1928,26 +1941,26 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": "Your AI app probably fails silently more than you realize. Every failed API call is wasted tokens and frustrated users. Companies like Vercel are building the reliability layer that most startups don't want to build themselves."
+      "whyThisMatters": ""
     },
     {
-      "id": "80dc8d13c0219c57",
+      "id": "951e7966714b9626",
       "date": "2026-06-09",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "The numbers may be a bit extreme here, but unquestionably use-cases have to stratify in the nex…",
-      "url": "https://x.com/levie/status/2063835799096090749",
-      "publishedAt": "2026-06-08T04:09:33.000Z",
-      "content": "The numbers may be a bit extreme here, but unquestionably use-cases have to stratify in the next year or two between model families. We’ll see a split between frontier intelligence for high end tasks and work, and much cheaper models for high volume workloads that can sufficiently be peeled off to cheaper models. Frontier will still be far bigger than today because the use-cases will demand it, but the low-end will get quite a bit larger as well. The big update here is that the layer that can e…",
-      "summary": "The numbers may be a bit extreme here, but unquestionably use-cases have to stratify in the next year or two between model families. We’ll see a split between frontier intelligence for high end tasks and work, and much…",
+      "sourceKey": "x:petergyang",
+      "builderOrOrg": "Peter Yang",
+      "title": "My wife asked me to take out the trash. I said, “You shouldn’t be prompting me anymore. You sho…",
+      "url": "https://x.com/petergyang/status/2063818032280170721",
+      "publishedAt": "2026-06-08T02:58:57.000Z",
+      "content": "My wife asked me to take out the trash. I said, “You shouldn’t be prompting me anymore. You should be designing loops.\" Finish the punch line of this dad joke please.",
+      "summary": "My wife asked me to take out the trash. I said, “You shouldn’t be prompting me anymore. You should be designing loops.\" Finish the punch line of this dad joke please.",
       "regionTags": [],
       "metrics": {
-        "likes": 141,
-        "retweets": 6,
-        "replies": 37
+        "likes": 102,
+        "retweets": 3,
+        "replies": 26
       },
       "topics": [],
       "section": "Builders",
@@ -1955,7 +1968,7 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": "If your AI strategy is still \"use the best model for everything,\" you're about to get priced out. The companies that master model routing will cut costs by 80% while maintaining quality."
+      "whyThisMatters": ""
     }
   ],
   "topicIndex": [
@@ -2039,8 +2052,7 @@
     }
   ],
   "sections": [
-    "Builders",
-    "Official Sources"
+    "Builders"
   ],
   "stats": {
     "totalItems": 45,
