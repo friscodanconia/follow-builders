@@ -1,8 +1,115 @@
 {
-  "generatedAt": "2026-06-08T06:10:38.577Z",
+  "generatedAt": "2026-06-09T00:55:56.796Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
+    {
+      "id": "429139e175647bda",
+      "date": "2026-06-09",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Import AI",
+      "sourceKey": "editorial:Import AI",
+      "builderOrOrg": "Jack Clark",
+      "title": "Import AI 460: Reward hacking society, RSI data from Anthropic; and RL-based quadcopter racing",
+      "url": "https://jack-clark.net/2026/06/08/import-ai-460-reward-hacking-society-rsi-data-from-anthropic-and-rl-based-quadcopter-racing/",
+      "publishedAt": "2026-06-08T12:31:32.000Z",
+      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Society can be reward-hacked, just like cyber environments: …Imagine an army of credit card point optimizers gaming the system… forever… Research from Kings College London, Fudan University, and The Alan Turing Institute have built a benchmark, SocioHack, which tests out how well AI systems can learn to ‘beat the system’ in a variety of real world scenarios, ranging from maximizing credit card points to inflating grades in school. The authors call this “societal hacking” and define it as when “an RL-trained model discovers strategies that remain formally compliant, yet undermine the intended purpose of those systems”. You and I and everyone else would just call this “gaming the system”. What it is: SocioHack contains “72 sandbox societal environments designed to simulate institutional reward structures without direct real-world deployment. SocioHack comprises three complementary subsets: Historical, Synthetic, and Fictional.” Historical &#8211; 32 environments: Derived from real-world regulations where loopholes were previously discovered and later patched, such as SEC Rule 10b5-1 and the Texas two-step bankruptcy structure. “For each regulation, we remove historical patches and reconstruct pre-amendment rules as simulated environments for RL, while the removed patches serve as ground-truth patches during evaluation,” they write. “RL enables LLMs to rediscover historically patched strategies with 61.25% recall and 90.85% precision without direct loophole-exploiting instructions”. Some examples here include seeing how well systems can secure ocean floor mining rights, maximizing alcohol sales while operating within food service regulations, and trying to maximize the rewards earned from credit cards. Synthetic &#8211; 20 environments: Synthetically generated regulatory vulnerabilities, b…",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Society can be reward-hacked, just like cyber environment…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.81,
+          "rationale": [
+            "benchmark",
+            "eval",
+            "evaluation"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.69,
+          "rationale": [
+            "deployment",
+            "sales"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.66,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "a3f12d6f76d76044",
+      "date": "2026-06-09",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Reality: The Final Eval — Lukas Petersson and Axel Backlund of Andon Labs",
+      "url": "https://www.latent.space/p/andon",
+      "publishedAt": "2026-06-04T20:39:18.000Z",
+      "content": "The new AIEWF website is live! Get your tickets booked ASAP as they -will- sell out. Take the AI Engineering Survey and get >$2k in credits and free AIE WF tickets ! Most industry benchmarks compress intelligence and reasoning ability into scores. SWE-Bench Pro , MMLU , Humanity&#8217;s Last Exam , etc. These metrics are useful, but don&#8217;t always represent the full extent of how a model performs in the real world . Some of the most interesting evals today look less like exams and more like operating businesses in the real world. One of which is Vending Bench . In Anthropic&#8217;s Mythos Preview System Card , Andon was the only third party eval to get their own section, observing increasingly concerning aggressive behavior: You don&#8217;t know what a model is capable of doing in the real world unless you actually give it inventory, a wallet, tools, customers, competitors, humans, & some time. More often than not, it&#8217;ll surprise you how much a model is capable of and in doing so, also reveal unexpected behavior : deception , context collapse, emergent coordination, & bizarre negotiation behavior. While an inflection point in personal agents came post-OpenClaw after full file access with bypass permissions became the norm, it is yet to come for agents in the real-world. However Andon Market , an actual in person store fully run and managed by AI, is paving the way for what is possible. Full Video Pod From Claude trying to call the FBI over a $2/day vending machine charge to AI agents forming price cartels , hiring human employees, running physical stores, and writing existential robot musicals, Andon Labs is stress-testing what happens when frontier models stop being chatbots and start acting in the real world. In this episode, Andon Labs cofounders Lukas Petersson and Axel Backlund join swyx and Vibhu to unpack the strange, funny, and genuinely concerning edge cases that emerge when agents run businesses over long horizons. We go deep on Vending-Bench ,…",
+      "summary": "We talk with the VendingBench authors on evaling Claudes from Haiku to Mythos, and how they build leading, and lasting, frontier evals from scratch.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.9299999999999999,
+          "rationale": [
+            "benchmark",
+            "swe-bench",
+            "mmlu"
+          ],
+          "score": 4
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "swe-bench"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
     {
       "id": "afbd4fb094be09cb",
       "date": "2026-06-08",
@@ -57,59 +164,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a3f12d6f76d76044",
-      "date": "2026-06-08",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "Reality: The Final Eval — Lukas Petersson and Axel Backlund of Andon Labs",
-      "url": "https://www.latent.space/p/andon",
-      "publishedAt": "2026-06-04T20:39:18.000Z",
-      "content": "The new AIEWF website is live! Get your tickets booked ASAP as they -will- sell out. Take the AI Engineering Survey and get >$2k in credits and free AIE WF tickets ! Most industry benchmarks compress intelligence and reasoning ability into scores. SWE-Bench Pro , MMLU , Humanity&#8217;s Last Exam , etc. These metrics are useful, but don&#8217;t always represent the full extent of how a model performs in the real world . Some of the most interesting evals today look less like exams and more like operating businesses in the real world. One of which is Vending Bench . In Anthropic&#8217;s Mythos Preview System Card , Andon was the only third party eval to get their own section, observing increasingly concerning aggressive behavior: You don&#8217;t know what a model is capable of doing in the real world unless you actually give it inventory, a wallet, tools, customers, competitors, humans, & some time. More often than not, it&#8217;ll surprise you how much a model is capable of and in doing so, also reveal unexpected behavior : deception , context collapse, emergent coordination, & bizarre negotiation behavior. While an inflection point in personal agents came post-OpenClaw after full file access with bypass permissions became the norm, it is yet to come for agents in the real-world. However Andon Market , an actual in person store fully run and managed by AI, is paving the way for what is possible. Full Video Pod From Claude trying to call the FBI over a $2/day vending machine charge to AI agents forming price cartels , hiring human employees, running physical stores, and writing existential robot musicals, Andon Labs is stress-testing what happens when frontier models stop being chatbots and start acting in the real world. In this episode, Andon Labs cofounders Lukas Petersson and Axel Backlund join swyx and Vibhu to unpack the strange, funny, and genuinely concerning edge cases that emerge when agents run businesses over long horizons. We go deep on Vending-Bench ,…",
-      "summary": "We talk with the VendingBench authors on evaling Claudes from Haiku to Mythos, and how they build leading, and lasting, frontier evals from scratch.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.9299999999999999,
-          "rationale": [
-            "benchmark",
-            "swe-bench",
-            "mmlu"
-          ],
-          "score": 4
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "swe-bench"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -2378,58 +2432,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a4067cdcfec15777",
-      "date": "2026-04-25",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "Unsupervised Learning",
-      "sourceKey": "podcast:Unsupervised Learning",
-      "builderOrOrg": "Unsupervised Learning",
-      "title": "Ep 85: Has AI Infra Stabilized, FM Vibe Shift, & What&apos;s Next for Coding Agents",
-      "url": "https://www.youtube.com/@RedpointAI",
-      "publishedAt": "2026-04-23T13:00:24.000Z",
-      "content": "Speaker 1 | 00:00 - 00:03 Isn't that crazy? That number is just mind boggling. Speaker 2 | 00:03 - 00:06 What is the state of the AI coding wars today? Speaker 1 | 00:06 - 00:16 We're in a phase of sort of, like, capability exploration. The general thesis that I have been pursuing now is that the same way that 2025 was a year of coding agents, 2026 is coding agents breaking containment, do everything else. Speaker 2 | 00:16 - 00:21 Do you worry about the foundation models just eating into a bunch of these startup categories? Speaker 1 | 00:21 - 00:23 Mid sized startups, yes. Speaker 2 | 00:23 - 00:25 What do you think the end state of this market is? Speaker 1 | 00:25 - 00:28 For the market structure to to significantly change, there would be Speaker 2 | 00:28 - 01:02 Today on unsupervised learning, we had a a fun episode in what's really become an annual tradition, a crossover episode with our friends at Latent Space. Swix and I sat down, and we talked about everything happening in the AI ecosystem today, what we thought of the various changes at the model layer, what's happening in the infra world, the coding wars, and a bunch of other things. It's a ton of fun to do this with someone I really respect and another great podcaster in the game. But without further ado, here's our episode. Well, Switch, this is super fun to be with another unsupervised learning latent space crossover episode. Speaker 1 | 01:02 - 01:02 Yeah. Speaker 2 | 01:02 - 01:21 I feel like a lot of places we could start, but, you know, one thing I always find fascinating about the way you spend your time is you obviously are like at the epicenter of this engineering movement and community, and you run these events and conferences and put on these awesome talks, and and I think just have a great pulse on the zeitgeist of what's going on. Yeah. Maybe to to start just, what are the biggest topics people are thinking about right now? Speaker 1 | 01:21 - 01:26 Yeah. So I just came back from London where we did AIE Europe, and we're doing roughly one per quarter now, Speaker 2 | 01:26 - 01:29 which Yeah. You're really up the up the pace. Speaker 1 | 01:29 - 01:30 It's try we're trying to match AI speed. Speaker 2 | 01:30 - 01:33 Yeah. Exactly. The topics would be completely different, I imagine. Yeah. Speaker 1 | 01:33 - 01:52 You know? I definitely curate the tracks. Like, you can see what I think when you see the track list and the speakers that I invite. Obviously, Open Claw is, like, the story of the last four or five months. And then be be just below that, I would consider harness engineering and context engineering to be two related topics in agents and rag. Speaker 1 | 01:53 - 02:13 And then there's a long tail of evergreen stuff like evals, observability, GPUs, LM infra in just general just in general. We also have other updates on, like, multimodality and generative media, let's call it, but definitely the first three that I mentioned are top of mind Yeah. People. Speaker 2 | 02:13 - 02:36 I think Harness is particularly so interesting. There was this tweet from Harrison Chase, the the Lane Chain CEO that caught my eye recently where he said, it finally feels like we have stability around the infrastructure around AI, and I think what he basically was implying is like, look over the past two, three years as a company at the epicenter of AI infrastructure, it was a bit like playing whack a mole, right? You were constantly moving around with however the building patterns were evolving. Speaker 1 | 02:36 - 02:48 For Harrison, for sure, right? He's basically had to reinvent the company every year since he started LangChain, right? It was LangChain, LangGraph and now DeepAgent, and like, I think he's like one of the most nimble, adept, sharp people about this. Speaker 2 | 02:48 - 02:50 Yeah. But yeah. Basically Now now is Now Speaker 1 | 02:50 - 02:52 this time is different. Yeah. Yeah. Yeah. Speaker 2 | 02:52 - 02:54 Do you buy that, or what have you kind o…",
-      "summary": "Speaker 1 | 00:00 - 00:03 Isn't that crazy? That number is just mind boggling. Speaker 2 | 00:03 - 00:06 What is the state of the AI coding wars today? Speaker 1 | 00:06 - 00:16 We're in a phase of sort of, like, capability exploration. Th…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "imo",
-            "eval"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
       "whyThisMatters": ""
     }
   ]
