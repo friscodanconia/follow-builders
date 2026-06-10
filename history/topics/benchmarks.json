@@ -1,11 +1,105 @@
 {
-  "generatedAt": "2026-06-09T05:35:33.495Z",
+  "generatedAt": "2026-06-10T01:08:27.882Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
     {
+      "id": "451d768718f10498",
+      "date": "2026-06-10",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:swyx",
+      "builderOrOrg": "Swyx",
+      "title": "@METR_Evals previously on @cognition_labs https://t.co/PdMrqxtuV0",
+      "url": "https://x.com/swyx/status/2064100566536708503",
+      "publishedAt": "2026-06-08T21:41:38.000Z",
+      "content": "@METR_Evals previously on @cognition_labs https://t.co/PdMrqxtuV0",
+      "summary": "@METR_Evals previously on @cognition_labs https://t.co/PdMrqxtuV0",
+      "regionTags": [],
+      "metrics": {
+        "likes": 5,
+        "retweets": 0,
+        "replies": 2
+      },
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.57,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.72,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "6ec5eb2c5f0e9f72",
+      "date": "2026-06-10",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:swyx",
+      "builderOrOrg": "Swyx",
+      "title": "It's finally out!!! @METR_Evals found that more than half of SWEBench results is unmergeable sl…",
+      "url": "https://x.com/swyx/status/2064081945567580323",
+      "publishedAt": "2026-06-08T20:27:39.000Z",
+      "content": "It's finally out!!! @METR_Evals found that more than half of SWEBench results is unmergeable slop. FrontierCode represents over 1000+ hours of maintainer validated software engineering work most frontier models cannot yet solve, much less solve with high quality. Cog had IOI Gold medalists and top code maintainers Look At The Data — FrontierCode includes 3000+ rubrics covering code quality and anticheat reward hacking plaguing other benchmarks. FC Diamond is so hard that Opus 4.8 scores 13.8%.…",
+      "summary": "It's finally out!!! @METR_Evals found that more than half of SWEBench results is unmergeable slop. FrontierCode represents over 1000+ hours of maintainer validated software engineering work most frontier models cannot y…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 631,
+        "retweets": 59,
+        "replies": 70
+      },
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.81,
+          "rationale": [
+            "benchmark",
+            "ioi",
+            "eval"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
       "id": "429139e175647bda",
-      "date": "2026-06-09",
+      "date": "2026-06-10",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Import AI",
@@ -58,8 +152,64 @@
       "whyThisMatters": ""
     },
     {
+      "id": "45102942908d1c60",
+      "date": "2026-06-10",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] FrontierCode: Benchmarking for Code Quality over Slop",
+      "url": "https://www.latent.space/p/ainews-frontiercode-benchmarking",
+      "publishedAt": "2026-06-09T06:12:33.000Z",
+      "content": "Second batch of AI Leadership and Engineering+Workshops tickets for AI Engineer World&#8217;s Fair sold out last night! Last 500 tickets on sale now - get while stocks last! 20% off for the first 20 readers who see this. It is rare that we are personally involved in the title story of the day, and Apple&#8217;s WWDC announcing Gemini-powered Siri was a possible candidate, but we&#8217;ve been fooled before . So instead, we&#8217;ve got FrontierCode , the latest in our War on Slop ! If that chart looks familiar, it&#8217;s because FrontierCode was explicitly inspired and named for FrontierMath - focusing its hardest tier on extremely hard problems for frontier models 2 years ago: The context of FrontierCode revolves around past work we have done around SWEBench-Verified . It is clear that even with the switch to SWEBench Pro, there has been insufficient articulation around WTF Happened in 2025 . As discussed with the OpenAI team in that podcast, there needed to be a lot more work around the rubrics for code quality and maintainability, and that is exactly what the Cog research team ended up building in this first release of FrontierCode. Separately, METR found that Many SWE-bench-Passing PRs Would Not Be Merged into Main and the problem of false positive trajectories (not quite &#8220;reward hacks&#8221;, but spiritually similar in terms of the unreliability of the benchmark rather than the model) was directly measured and addressed in the FrontierCode report. With hindsight, FrontierCode&#8217;s third tier of problems shows the huge accceleration going into Dec 2025 that suddenly made agentic engineering and vibe coding possible to go up one level of abstraction , to the /goals and loops and metaprompts we are discussing today. more context here AI News for 6/5/2026-6/8/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/o…",
+      "summary": "We made a thing!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.9299999999999999,
+          "rationale": [
+            "coding",
+            "code",
+            "swe-bench"
+          ],
+          "score": 4
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.81,
+          "rationale": [
+            "benchmark",
+            "swe-bench",
+            "benchmarking"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
+      "whyThisMatters": ""
+    },
+    {
       "id": "a3f12d6f76d76044",
-      "date": "2026-06-09",
+      "date": "2026-06-10",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -2286,152 +2436,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.55,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d607f1aa7f746177",
-      "date": "2026-04-27",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Import AI",
-      "sourceKey": "editorial:Import AI",
-      "builderOrOrg": "Jack Clark",
-      "title": "Import AI 454: Automating alignment research; safety study of a Chinese model; HiFloat4",
-      "url": "https://jack-clark.net/2026/04/20/import-ai-454-automating-alignment-research-safety-study-of-a-chinese-model-hifloat4/",
-      "publishedAt": "2026-04-20T12:30:19.000Z",
-      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Huawei’s HiFloat4 training format beats Western-developed MXFP4 in Ascend chip bakeoff: …Could this also be a symptom of the impact of export controls in driving Chinese interest towards maximizing training and inference efficiency? Perhaps… Huawei researchers have tested out HiFloat4, a 4-bit precision format for AI training and inference, against MXFP4, an Open Compute Project 4-bit format, and found that HiFloat4 is superior. This is interesting because it correlates to a broader level of interest in Chinese companies seeking to develop their own low-precision data formats explicitly coupled with their own hardware platforms. “Our goal is to enable efficient FP4 LLM pretraining on specialized AI accelerators with strict power constraints. We focus on Huawei Ascend NPUs, which are domain-specific accelerators designed for deep learning workloads,” they write. What they tested: In this paper, the authors train 3 model types on HuaWei Ascend chips &#8211; OpenPangu-1B, Llama3-8B, and Qwen3-MoE-30B. In tests, the bigger they make the models, the better HiFloat4 does at reducing its loss error on these models relative to a BF16 baseline &#8211; and in all cases it does better than MXFP4. What they found: “We conduct a systematic evaluation of the HiFloat4 (HiF4) format and show that it achieves lower relative loss (≈ 1.0%) compared to MXFP4 (≈ 1.5%) when measured against a full-precision baseline,” they write. “HiF4 consistently achieves significantly lower relative error compared to MXFP4. For Llama and Qwen, HiF4 attains an error gap of less than 1% with respect to the baseline… HiF4 gets within ~1% of BF16 loss with only RHT as a stabilization trick, while MXFP4 needs RHT + stochastic rounding + truncation-free scaling to get to ~1.5%.” Why this matters &#8211; symptom of hardware maturity, and a po…",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Huawei’s HiFloat4 training format beats Western-developed MXFP4 in Asce…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "paper"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "eval",
-            "evaluation"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.69,
-          "rationale": [
-            "safety",
-            "alignment"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "6757328ba97d0f31",
-      "date": "2026-04-25",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "GPT-5.5 is live. We’ve been testing the model over the last couple of weeks at Box on our most…",
-      "url": "https://x.com/levie/status/2047387742951313910",
-      "publishedAt": "2026-04-23T18:50:51.000Z",
-      "content": "GPT-5.5 is live. We’ve been testing the model over the last couple of weeks at Box on our most complex knowledge work evals, and the model saw a 10 percentage point jump on accuracy of these enterprise content tasks vs. GPT-5.4. We test the model on a variety of tasks that represent real work scenarios in financial services, healthcare, public sector, and more industries, dealing with financial filings, clinical records, policy documents, and creative content. Here are some of the examples of t…",
-      "summary": "GPT-5.5 is live. We’ve been testing the model over the last couple of weeks at Box on our most complex knowledge work evals, and the model saw a 10 percentage point jump on accuracy of these enterprise content tasks vs.…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 255,
-        "retweets": 19,
-        "replies": 32
-      },
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "eval"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "policy"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.78,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.61,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "c8e31c380bc09140",
-      "date": "2026-04-25",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:garrytan",
-      "builderOrOrg": "Garry Tan",
-      "title": "Next, I finally created new evals for GBrain which show how much more awesome GBrain is when yo…",
-      "url": "https://x.com/garrytan/status/2047578205528477711",
-      "publishedAt": "2026-04-24T07:27:41.000Z",
-      "content": "Next, I finally created new evals for GBrain which show how much more awesome GBrain is when you have graph AND vector search on top of grep on knowledge wikis https://t.co/eiVHZWvStL",
-      "summary": "Next, I finally created new evals for GBrain which show how much more awesome GBrain is when you have graph AND vector search on top of grep on knowledge wikis https://t.co/eiVHZWvStL",
-      "regionTags": [],
-      "metrics": {
-        "likes": 1,
-        "retweets": 0,
-        "replies": 1
-      },
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "eval"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.55,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     }
   ]
