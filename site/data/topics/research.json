@@ -1,11 +1,58 @@
 {
-  "generatedAt": "2026-06-12T06:03:35.656Z",
+  "generatedAt": "2026-06-13T01:14:57.316Z",
   "slug": "research",
   "label": "Research",
   "items": [
     {
+      "id": "1ddb13ea99c7779a",
+      "date": "2026-06-13",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "At Box, we just surveyed 1,640 IT leaders across the US, Japan, and Europe about agentic AI ado…",
+      "url": "https://x.com/levie/status/2065287110744297809",
+      "publishedAt": "2026-06-12T04:16:33.000Z",
+      "content": "At Box, we just surveyed 1,640 IT leaders across the US, Japan, and Europe about agentic AI adoption. Many standout findings, but a big one was that the companies that adopted AI the most are planning to grow headcount the most. Obviously lots of ways you can read that data and variables mixed in, but it’s actually quite intuitive that the companies that become most productive want to (and are able to) reinvest back into the business to keep getting the gains going. The narrative of jobs being…",
+      "summary": "At Box, we just surveyed 1,640 IT leaders across the US, Japan, and Europe about agentic AI adoption. Many standout findings, but a big one was that the companies that adopted AI the most are planning to grow headcount…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 124,
+        "retweets": 24,
+        "replies": 23
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "finding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
       "id": "bef4d711b01e216a",
-      "date": "2026-06-12",
+      "date": "2026-06-13",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Google DeepMind Blog",
@@ -58,8 +105,63 @@
       "whyThisMatters": ""
     },
     {
+      "id": "a70bf206657b77b6",
+      "date": "2026-06-13",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Ire identifies another LOTUSLITE specimen",
+      "url": "https://www.microsoft.com/en-us/research/blog/ire-identifies-another-lotuslite-specimen/",
+      "publishedAt": "2026-06-12T20:30:48.000Z",
+      "content": "At a glance Project Ire identifies a LOTUSLITE variant that shares TTPs (tools, tactics, procedures) with the public family but none of its indicators of compromise (IOC).&nbsp; The LLM-driven agent produces a function-by-function behavioral report on the sample without any user interaction to determine whether it is malicious. The binary names a threat actor in cleartext; the agent declines to attribute and instead focuses on statically analyzing the behaviors. We pointed Project Ire , Microsoft&#8217;s autonomous malware-classification agent, at a malware sample—blind—and asked for a verdict. The sample is a variant of LOTUSLITE, a Windows DLL backdoor recently documented by Acronis. Our copy&#8217;s hash isn&#8217;t in their IOC list, and as of June 4, most major EDRs (CrowdStrike Falcon, SentinelOne, Sophos, Trellix, Palo Alto, ESET) still don&#8217;t flag it as malware. Ire produced a function-by-function behavioral report—install routine, C2 packet layout, command IDs, persistence mechanism, obfuscation—that lines up with Acronis&#8217;s published analysis. One decompiler-based run, no human priors. This is what behavioral, agentic reverse engineering can achieve when signature matching and manual inspections fall short. Variants that share TTPs but not indicators of compromise (IOC) get caught instead of slipping past signature lists. Novel malware classification is a domain with no automatic validator, requiring in-depth investigation and holistic understanding of the software’s behaviors to surface and determine intent. Ire operates without context: no origin metadata, no telemetry, no analyst prompt. It invokes decompilers and binary-analysis tools, builds an auditable chain of evidence, and reaches a malicious-or-benign verdict. Acronis&#8217;s Threat Research Unit (TRU) published a writeup (opens in new tab) on LOTUSLITE, a DLL backdoor delivered through a politically themed ZIP, sideloaded through a renamed Tencent KuGou launcher. They attribute it to…",
+      "summary": "Project Ire examined a timely malware sample and determined its intent through reverse engineering—identifying LOTUSLITE characteristics even as most major EDR tools did not detect it. The post Ire identifies another LOTUSLITE specimen app…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.81,
+          "rationale": [
+            "agent",
+            "agentic",
+            "autonomous"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.82,
+      "whyThisMatters": ""
+    },
+    {
       "id": "429139e175647bda",
-      "date": "2026-06-12",
+      "date": "2026-06-13",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Import AI",
@@ -113,7 +215,7 @@
     },
     {
       "id": "7bd81b8b59700614",
-      "date": "2026-06-12",
+      "date": "2026-06-13",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -2355,80 +2457,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d63b7e7934bf7b20",
-      "date": "2026-05-22",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:nikunj",
-      "builderOrOrg": "Nikunj Kothari",
-      "title": "If you don't have time to read 308 pages of the @SpaceX S-1, here's a summary that Claude helpe…",
-      "url": "https://x.com/nikunj/status/2057242868293816569",
-      "publishedAt": "2026-05-20T23:31:36.000Z",
-      "content": "If you don't have time to read 308 pages of the @SpaceX S-1, here's a summary that Claude helped me put together based on the most interesting findings 🚀 https://t.co/ByhTPsspBk",
-      "summary": "If you don't have time to read 308 pages of the @SpaceX S-1, here's a summary that Claude helped me put together based on the most interesting findings 🚀 https://t.co/ByhTPsspBk",
-      "regionTags": [],
-      "metrics": {
-        "likes": 17,
-        "retweets": 2,
-        "replies": 3
-      },
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "finding"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.61,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.5,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "0efa4aa4c1b57634",
-      "date": "2026-05-22",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:sama",
-      "builderOrOrg": "Sam Altman",
-      "title": "three of the things we are most excited about: 1. AGI accelerating research 2. AGI accelerating…",
-      "url": "https://x.com/sama/status/2057218997503086888",
-      "publishedAt": "2026-05-20T21:56:44.000Z",
-      "content": "three of the things we are most excited about: 1. AGI accelerating research 2. AGI accelerating companies 3. personal AGI accelerating everyone in achieving their goals today it was great to announce the unit distance result. yesterday it was great to announce that we are offering to invest $2M in openai credits into every YC company. now we need to increase our efforts on the third!",
-      "summary": "three of the things we are most excited about: 1. AGI accelerating research 2. AGI accelerating companies 3. personal AGI accelerating everyone in achieving their goals today it was great to announce the unit distance r…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 5942,
-        "retweets": 320,
-        "replies": 817
-      },
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]

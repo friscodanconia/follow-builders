@@ -1,8 +1,115 @@
 {
-  "generatedAt": "2026-06-12T06:03:35.656Z",
+  "generatedAt": "2026-06-13T01:14:57.316Z",
   "slug": "safety",
   "label": "AI Safety",
   "items": [
+    {
+      "id": "bef4d711b01e216a",
+      "date": "2026-06-13",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google DeepMind Blog",
+      "sourceKey": "official:Google DeepMind Blog",
+      "builderOrOrg": "Google DeepMind",
+      "title": "Investing in multi-agent AI safety research",
+      "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
+      "publishedAt": "2026-06-10T10:21:19.000Z",
+      "content": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research.",
+      "summary": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "multi-agent"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "77726b1b6c9ecf4c",
+      "date": "2026-06-13",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Anthropic Claude Fable 5 — Mythos but Safe, with Controversial Terms",
+      "url": "https://www.latent.space/p/ainews-anthropic-claude-fable-5-mythos",
+      "publishedAt": "2026-06-10T03:50:21.000Z",
+      "content": "By some measures, Opus 4.8, barely two weeks old , was already the leading model in the world. But now, 34 days after the SpaceXai deal and 63 days after the original Mythos announcement*, we have a Mythos-class model (at least 2x size of Opus) available to everyone (in coinciding with Claude Tokyo ). It is a feat of incredible engineering (and commitment to access) to make these research models GA, and the benchmarks are great&#8230; with asterisks. Here they are on yesterday&#8217;s brand new, out of distribution, FrontierCode Diamond , going from 13.4% to 29.3%: tweet The blog and the system card contain most of the authoritative information, but don&#8217;t miss the youtube videos showing it playing Factorio , Pokemon (unlike Claude Plays Pokemon , this is just using vision, no complex harness as we covered in our pod), EDM visualization (never having head music before), 3D CAD editor creation and printing and more from their main intro video . API pricing is also fantastic, at roughly 2x Opus. The asterisks come because Fable is released with two controversial changes: No ZDR : &#8220;We will r equire 30-day retention for all traffic on Mythos-class models, on both first- and third-party surfaces. We won&#8217;t use this data to train new Claude models, or for any non-safety-related purpose, and we&#8217;ve instituted new privacy protections including logging all human access to the data and ensuring its deletion after 30 days in almost all cases ...&#8221; (see full policy ) RSI suppression : &#8220;In light of the ability of recent models to accelerate their own development , we&#8217;ve implemented new interventions that limit Claude&#8217;s effectiveness for requests targeting frontier LLM development (for example, on building pretraining pipelines, distributed training infrastructure, or ML accelerator design). Using Claude to develop competing models already violates our Terms of Service, but enforcing this restriction through our safeguards avoids accel…",
+      "summary": "The much anticipated launch of the Mythos-class model was marred by some controversial usage policies",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "vision",
+            "video"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.69,
+          "rationale": [
+            "safety",
+            "policy"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
     {
       "id": "9e1deac3fb1412a8",
       "date": "2026-06-12",
@@ -92,113 +199,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "bef4d711b01e216a",
-      "date": "2026-06-12",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google DeepMind Blog",
-      "sourceKey": "official:Google DeepMind Blog",
-      "builderOrOrg": "Google DeepMind",
-      "title": "Investing in multi-agent AI safety research",
-      "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
-      "publishedAt": "2026-06-10T10:21:19.000Z",
-      "content": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research.",
-      "summary": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "multi-agent"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "77726b1b6c9ecf4c",
-      "date": "2026-06-12",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Anthropic Claude Fable 5 — Mythos but Safe, with Controversial Terms",
-      "url": "https://www.latent.space/p/ainews-anthropic-claude-fable-5-mythos",
-      "publishedAt": "2026-06-10T03:50:21.000Z",
-      "content": "By some measures, Opus 4.8, barely two weeks old , was already the leading model in the world. But now, 34 days after the SpaceXai deal and 63 days after the original Mythos announcement*, we have a Mythos-class model (at least 2x size of Opus) available to everyone (in coinciding with Claude Tokyo ). It is a feat of incredible engineering (and commitment to access) to make these research models GA, and the benchmarks are great&#8230; with asterisks. Here they are on yesterday&#8217;s brand new, out of distribution, FrontierCode Diamond , going from 13.4% to 29.3%: tweet The blog and the system card contain most of the authoritative information, but don&#8217;t miss the youtube videos showing it playing Factorio , Pokemon (unlike Claude Plays Pokemon , this is just using vision, no complex harness as we covered in our pod), EDM visualization (never having head music before), 3D CAD editor creation and printing and more from their main intro video . API pricing is also fantastic, at roughly 2x Opus. The asterisks come because Fable is released with two controversial changes: No ZDR : &#8220;We will r equire 30-day retention for all traffic on Mythos-class models, on both first- and third-party surfaces. We won&#8217;t use this data to train new Claude models, or for any non-safety-related purpose, and we&#8217;ve instituted new privacy protections including logging all human access to the data and ensuring its deletion after 30 days in almost all cases ...&#8221; (see full policy ) RSI suppression : &#8220;In light of the ability of recent models to accelerate their own development , we&#8217;ve implemented new interventions that limit Claude&#8217;s effectiveness for requests targeting frontier LLM development (for example, on building pretraining pipelines, distributed training infrastructure, or ML accelerator design). Using Claude to develop competing models already violates our Terms of Service, but enforcing this restriction through our safeguards avoids accel…",
-      "summary": "The much anticipated launch of the Mythos-class model was marred by some controversial usage policies",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.69,
-          "rationale": [
-            "vision",
-            "video"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.69,
-          "rationale": [
-            "safety",
-            "policy"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
