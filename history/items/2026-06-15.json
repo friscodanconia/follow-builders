@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T05:34:27.970Z",
+  "generatedAt": "2026-06-15T06:39:42.971Z",
   "date": "2026-06-15",
   "items": [
     {
@@ -180,7 +180,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -217,7 +217,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -244,7 +244,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -281,7 +281,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -354,7 +354,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -391,7 +391,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -445,7 +445,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -499,7 +499,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -814,7 +814,7 @@
       "section": "Official Sources",
       "importanceScore": 0.72,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.57,
       "whyThisMatters": ""
     },
@@ -1136,7 +1136,7 @@
       "section": "Official Sources",
       "importanceScore": 0.72,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.57,
       "whyThisMatters": ""
     },
@@ -1971,18 +1971,18 @@
   ],
   "selectedItems": [
     {
-      "id": "da82965cee0a6c35",
+      "id": "a70bf206657b77b6",
       "date": "2026-06-15",
       "sourceType": "newsletter",
       "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "New OpenAI Academy courses for the next era of work",
-      "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
-      "publishedAt": "2026-06-12T10:00:00.000Z",
-      "content": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
-      "summary": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Ire identifies another LOTUSLITE specimen",
+      "url": "https://www.microsoft.com/en-us/research/blog/ire-identifies-another-lotuslite-specimen/",
+      "publishedAt": "2026-06-12T20:30:48.000Z",
+      "content": "At a glance Project Ire identifies a LOTUSLITE variant that shares TTPs (tools, tactics, procedures) with the public family but none of its indicators of compromise (IOC).&nbsp; The LLM-driven agent produces a function-by-function behavioral report on the sample without any user interaction to determine whether it is malicious. The binary names a threat actor in cleartext; the agent declines to attribute and instead focuses on statically analyzing the behaviors. We pointed Project Ire , Microsoft&#8217;s autonomous malware-classification agent, at a malware sample—blind—and asked for a verdict. The sample is a variant of LOTUSLITE, a Windows DLL backdoor recently documented by Acronis. Our copy&#8217;s hash isn&#8217;t in their IOC list, and as of June 4, most major EDRs (CrowdStrike Falcon, SentinelOne, Sophos, Trellix, Palo Alto, ESET) still don&#8217;t flag it as malware. Ire produced a function-by-function behavioral report—install routine, C2 packet layout, command IDs, persistence mechanism, obfuscation—that lines up with Acronis&#8217;s published analysis. One decompiler-based run, no human priors. This is what behavioral, agentic reverse engineering can achieve when signature matching and manual inspections fall short. Variants that share TTPs but not indicators of compromise (IOC) get caught instead of slipping past signature lists. Novel malware classification is a domain with no automatic validator, requiring in-depth investigation and holistic understanding of the software’s behaviors to surface and determine intent. Ire operates without context: no origin metadata, no telemetry, no analyst prompt. It invokes decompilers and binary-analysis tools, builds an auditable chain of evidence, and reaches a malicious-or-benign verdict. Acronis&#8217;s Threat Research Unit (TRU) published a writeup (opens in new tab) on LOTUSLITE, a DLL backdoor delivered through a politically themed ZIP, sideloaded through a renamed Tencent KuGou launcher. They attribute it to…",
+      "summary": "Project Ire examined a timely malware sample and determined its intent through reverse engineering—identifying LOTUSLITE characteristics even as most major EDR tools did not detect it. The post Ire identifies another LOTUSLITE specimen app…",
       "regionTags": [
         "us-model-labs"
       ],
@@ -1991,47 +1991,22 @@
         {
           "slug": "agents",
           "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": "OpenAI is positioning itself as the adult education provider for the AI transition. When your company mandates AI training next year, there's a good chance employees will be taking OpenAI's courses, not your internal workshops."
-    },
-    {
-      "id": "bef4d711b01e216a",
-      "date": "2026-06-15",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google DeepMind Blog",
-      "sourceKey": "official:Google DeepMind Blog",
-      "builderOrOrg": "Google DeepMind",
-      "title": "Investing in multi-agent AI safety research",
-      "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
-      "publishedAt": "2026-06-10T10:21:19.000Z",
-      "content": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research.",
-      "summary": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
+          "confidence": 0.81,
           "rationale": [
             "agent",
-            "multi-agent"
+            "agentic",
+            "autonomous"
           ],
-          "score": 2
+          "score": 3
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
         },
         {
           "slug": "research",
@@ -2039,15 +2014,6 @@
           "confidence": 0.5700000000000001,
           "rationale": [
             "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
           ],
           "score": 1
         }
@@ -2057,100 +2023,26 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.57,
-      "whyThisMatters": "This is Google admitting that the future isn't one superintelligent AI, but swarms of specialized agents that need to work together safely. The company that figures out multi-agent coordination first controls the next phase of AI deployment."
+      "whyThisMatters": "When AI can spot threats that billion-dollar security companies miss, every CISO is about to reconsider their detection strategy. This isn't about replacing analysts — it's about catching the variants that signature-based tools will always miss."
     },
     {
-      "id": "f32b4ad3d09f236b",
+      "id": "d0bf5d7131428475",
       "date": "2026-06-15",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "Everyone thinks this is some kind of 4D chess or conspiracy. But it’s quite standard to try and…",
-      "url": "https://x.com/levie/status/2065964446489710939",
-      "publishedAt": "2026-06-14T01:08:02.000Z",
-      "content": "Everyone thinks this is some kind of 4D chess or conspiracy. But it’s quite standard to try and jailbreak AI models, and by definition they would share that research with the government given that’s whole point. I don’t think Amazon assumed this would be the next move. https://t.co/DizjwNcaLG",
-      "summary": "Everyone thinks this is some kind of 4D chess or conspiracy. But it’s quite standard to try and jailbreak AI models, and by definition they would share that research with the government given that’s whole point. I don’t…",
+      "sourceKey": "x:amasad",
+      "builderOrOrg": "Amjad Masad",
+      "title": "Feels like we’re getting psyoped. The end-game here is something bigger. https://t.co/4ye6B0RyBH",
+      "url": "https://x.com/amasad/status/2065838585358745653",
+      "publishedAt": "2026-06-13T16:47:54.000Z",
+      "content": "Feels like we’re getting psyoped. The end-game here is something bigger. https://t.co/4ye6B0RyBH",
+      "summary": "Feels like we’re getting psyoped. The end-game here is something bigger. https://t.co/4ye6B0RyBH",
       "regionTags": [],
       "metrics": {
-        "likes": 195,
-        "retweets": 8,
-        "replies": 30
-      },
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": "As AI models get more powerful, every security test becomes a political flashpoint. Levie's trying to normalize what should be routine safety research before public hysteria makes it impossible to do properly."
-    },
-    {
-      "id": "455444be6ab31fbb",
-      "date": "2026-06-15",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:garrytan",
-      "builderOrOrg": "Garry Tan",
-      "title": "I wish the significance of the model came from more people actually using it and coming to thei…",
-      "url": "https://x.com/garrytan/status/2065791421362352476",
-      "publishedAt": "2026-06-13T13:40:30.000Z",
-      "content": "I wish the significance of the model came from more people actually using it and coming to their own conclusions But yes most people in the world learn about it through signifiers and not through interacting with that which is signified https://t.co/TcbmeHuXGQ",
-      "summary": "I wish the significance of the model came from more people actually using it and coming to their own conclusions But yes most people in the world learn about it through signifiers and not through interacting with that w…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 198,
-        "retweets": 8,
-        "replies": 21
-      },
-      "topics": [
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": "This is the venture capital equivalent of \"try it before you buy it.\" If the person funding AI startups thinks public perception is disconnected from reality, expect a wave of companies focused on hands-on demos rather than technical benchmarks."
-    },
-    {
-      "id": "0a98422ba7048a47",
-      "date": "2026-06-15",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:steipete",
-      "builderOrOrg": "Peter Steinberger",
-      "title": "This shortage of chips is getting out of hand. https://t.co/vZS92xB1Lv",
-      "url": "https://x.com/steipete/status/2065998839467933862",
-      "publishedAt": "2026-06-14T03:24:42.000Z",
-      "content": "This shortage of chips is getting out of hand. https://t.co/vZS92xB1Lv",
-      "summary": "This shortage of chips is getting out of hand. https://t.co/vZS92xB1Lv",
-      "regionTags": [],
-      "metrics": {
-        "likes": 512,
-        "retweets": 23,
-        "replies": 21
+        "likes": 2292,
+        "retweets": 104,
+        "replies": 129
       },
       "topics": [],
       "section": "Builders",
@@ -2159,6 +2051,97 @@
       "previouslySelected": false,
       "digestScore": 0.56,
       "whyThisMatters": ""
+    },
+    {
+      "id": "fe390d23dbebc804",
+      "date": "2026-06-15",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "If you don’t love her at her foggiest, you don’t deserve at her sunniest https://t.co/emfuSvU6nF",
+      "url": "https://x.com/rauchg/status/2065856253428179357",
+      "publishedAt": "2026-06-13T17:58:07.000Z",
+      "content": "If you don’t love her at her foggiest, you don’t deserve at her sunniest https://t.co/emfuSvU6nF",
+      "summary": "If you don’t love her at her foggiest, you don’t deserve at her sunniest https://t.co/emfuSvU6nF",
+      "regionTags": [],
+      "metrics": {
+        "likes": 816,
+        "retweets": 27,
+        "replies": 27
+      },
+      "topics": [
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "325dc7e6d221f4c2",
+      "date": "2026-06-15",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "The layer that can route to the best AI model for the particular job is going to increase in va…",
+      "url": "https://x.com/levie/status/2065989559905812973",
+      "publishedAt": "2026-06-14T02:47:49.000Z",
+      "content": "The layer that can route to the best AI model for the particular job is going to increase in value substantially. There are at least 3 big reasons: * Cost optimization: there are plenty of use cases where you need frontier intelligence for some tasks and something far cheaper for others. Even in the same task you may use frontier intelligence for planning and review of the work, but an OSS or cheaper model for the bulk of the workload. This is going to be standard across large buckets of work g…",
+      "summary": "The layer that can route to the best AI model for the particular job is going to increase in value substantially. There are at least 3 big reasons: * Cost optimization: there are plenty of use cases where you need front…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 209,
+        "retweets": 16,
+        "replies": 27
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
+      "whyThisMatters": "Every company running multiple AI models is building this routing logic from scratch right now. The first platform to nail model routing wins the enterprise AI orchestration market."
+    },
+    {
+      "id": "e1ee130a2c8239b4",
+      "date": "2026-06-15",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:garrytan",
+      "builderOrOrg": "Garry Tan",
+      "title": "In AI most people are still trying to use old maps on a new territory. Throw the maps away. It'…",
+      "url": "https://x.com/garrytan/status/2065877443874038203",
+      "publishedAt": "2026-06-13T19:22:19.000Z",
+      "content": "In AI most people are still trying to use old maps on a new territory. Throw the maps away. It's time to draw new ones. The only way you can do it is walking the land.",
+      "summary": "In AI most people are still trying to use old maps on a new territory. Throw the maps away. It's time to draw new ones. The only way you can do it is walking the land.",
+      "regionTags": [],
+      "metrics": {
+        "likes": 1154,
+        "retweets": 128,
+        "replies": 148
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
+      "whyThisMatters": "This is coming from the person who sees more AI startups than almost anyone. If the head of YC is telling founders to ignore conventional wisdom, expect a wave of companies pivoting away from safe, obvious AI applications."
     }
   ],
   "topicIndex": [
