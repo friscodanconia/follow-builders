@@ -18,6 +18,11 @@ on:
         required: false
         default: false
         type: boolean
+      skip_publish:
+        description: 'Skip newsletter email (still generates and saves the digest)'
+        required: false
+        default: false
+        type: boolean
 
 jobs:
   generate:
@@ -83,7 +88,7 @@ jobs:
         run: npm --prefix scripts run sync-site-data
 
       - name: Publish newsletter
-        if: ${{ github.event.inputs.skip_digest != 'true' }}
+        if: ${{ github.event.inputs.skip_digest != 'true' && github.event.inputs.skip_publish != 'true' }}
         continue-on-error: true
         env:
           BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
