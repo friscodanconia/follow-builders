@@ -1,8 +1,208 @@
 {
-  "generatedAt": "2026-06-15T06:39:42.971Z",
+  "generatedAt": "2026-06-17T06:29:29.276Z",
   "slug": "research",
   "label": "Research",
   "items": [
+    {
+      "id": "4d9595e96ee44d8f",
+      "date": "2026-06-17",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "It’s very easy to say “we need an FDA for AI” or some equivalent government agency. Well this i…",
+      "url": "https://x.com/levie/status/2066554018953146689",
+      "publishedAt": "2026-06-15T16:10:47.000Z",
+      "content": "It’s very easy to say “we need an FDA for AI” or some equivalent government agency. Well this is what that would look like. The capabilities of AI models have near infinite permutations. It’s going to be very hard have a purely objective set of metrics that can be universally applied before every model release, without extended back and forth, research, and debate between model labs, academics, and the government. Now, imagine this same process with every country that you’re doing business with…",
+      "summary": "It’s very easy to say “we need an FDA for AI” or some equivalent government agency. Well this is what that would look like. The capabilities of AI models have near infinite permutations. It’s going to be very hard have…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 151,
+        "retweets": 18,
+        "replies": 37
+      },
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "bef4d711b01e216a",
+      "date": "2026-06-17",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google DeepMind Blog",
+      "sourceKey": "official:Google DeepMind Blog",
+      "builderOrOrg": "Google DeepMind",
+      "title": "Investing in multi-agent AI safety research",
+      "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
+      "publishedAt": "2026-06-10T10:21:19.000Z",
+      "content": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research.",
+      "summary": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "multi-agent"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "a70bf206657b77b6",
+      "date": "2026-06-17",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Ire identifies another LOTUSLITE specimen",
+      "url": "https://www.microsoft.com/en-us/research/blog/ire-identifies-another-lotuslite-specimen/",
+      "publishedAt": "2026-06-12T20:30:48.000Z",
+      "content": "At a glance Project Ire identifies a LOTUSLITE variant that shares TTPs (tools, tactics, procedures) with the public family but none of its indicators of compromise (IOC).&nbsp; The LLM-driven agent produces a function-by-function behavioral report on the sample without any user interaction to determine whether it is malicious. The binary names a threat actor in cleartext; the agent declines to attribute and instead focuses on statically analyzing the behaviors. We pointed Project Ire , Microsoft&#8217;s autonomous malware-classification agent, at a malware sample—blind—and asked for a verdict. The sample is a variant of LOTUSLITE, a Windows DLL backdoor recently documented by Acronis. Our copy&#8217;s hash isn&#8217;t in their IOC list, and as of June 4, most major EDRs (CrowdStrike Falcon, SentinelOne, Sophos, Trellix, Palo Alto, ESET) still don&#8217;t flag it as malware. Ire produced a function-by-function behavioral report—install routine, C2 packet layout, command IDs, persistence mechanism, obfuscation—that lines up with Acronis&#8217;s published analysis. One decompiler-based run, no human priors. This is what behavioral, agentic reverse engineering can achieve when signature matching and manual inspections fall short. Variants that share TTPs but not indicators of compromise (IOC) get caught instead of slipping past signature lists. Novel malware classification is a domain with no automatic validator, requiring in-depth investigation and holistic understanding of the software’s behaviors to surface and determine intent. Ire operates without context: no origin metadata, no telemetry, no analyst prompt. It invokes decompilers and binary-analysis tools, builds an auditable chain of evidence, and reaches a malicious-or-benign verdict. Acronis&#8217;s Threat Research Unit (TRU) published a writeup (opens in new tab) on LOTUSLITE, a DLL backdoor delivered through a politically themed ZIP, sideloaded through a renamed Tencent KuGou launcher. They attribute it to…",
+      "summary": "Project Ire examined a timely malware sample and determined its intent through reverse engineering—identifying LOTUSLITE characteristics even as most major EDR tools did not detect it. The post Ire identifies another LOTUSLITE specimen app…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.81,
+          "rationale": [
+            "agent",
+            "agentic",
+            "autonomous"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "6ebbc66cbf5d1ad1",
+      "date": "2026-06-17",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] GLM-5.2: the top Frontend Coding model in the world, IndexShare for Speculative Decoding",
+      "url": "https://www.latent.space/p/ainews-glm-52-the-top-frontend-coding",
+      "publishedAt": "2026-06-17T05:37:40.000Z",
+      "content": "Last 6 days before regular tickets sell out at AI Engineer World&#8217;s Fair - this is the single biggest gathering of AI Engineers, Founders, Leaders, and Researchers in the world. Talk tracks are looking FANTASTIC. Join us. Since February we have been banging the drum about GLM 5, Z.ai&#8217;s biggest model launch that nudged it ahead of top open model labs like DeepSeek, Mistral, Cohere and Moonshot in most evals. 5.1 was more of a minor update, but 5.2, released opportunistically this weekend after the Fable ban (still unresolved ), is a much stronger play at being your default coding model: This third party eval validates official offline evals that put GLM 5.2 just behind Opus 4.8 as the best coding model in the world - an impressive feat for a merely 744B parameter model (vs Opus rumored to be at least twice as large , with Cursor&#8217;s next Composer model also in that range). But it is a particularly notable achievement to beat ALL Opuses, including 4.8, at frontend coding , a key battleground: Technical disclosures are light - no paper, just a minor improvement on DeepSeek Sparse Attention that improves efficiency at ultra long contexts: AI News for 6/15/2026-6/16/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Top Story: GLM 5.2 release and technical details What happened Z.ai released GLM-5.2 as an MIT-licensed open-weight frontier model aimed at coding and long-horizon agentic work. Z.ai announced GLM-5.2 , emphasizing coding/agentic improvements , a 1M-token context window , two reasoning-effort modes ( high and max ), and same API pricing as GLM-5.1 . Z.ai separately highlighted that the release includes infrastructure innovations for 1M context and agentic RL in the technical blog, not just benchmark claims @Zai_org . The model was immediately positioned by t…",
+      "summary": "We have a new top open model in the world!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "paper"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.69,
+          "rationale": [
+            "reasoning",
+            "long-horizon"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
+      "whyThisMatters": ""
+    },
     {
       "id": "f32b4ad3d09f236b",
       "date": "2026-06-15",
@@ -90,115 +290,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.44,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "bef4d711b01e216a",
-      "date": "2026-06-15",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google DeepMind Blog",
-      "sourceKey": "official:Google DeepMind Blog",
-      "builderOrOrg": "Google DeepMind",
-      "title": "Investing in multi-agent AI safety research",
-      "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
-      "publishedAt": "2026-06-10T10:21:19.000Z",
-      "content": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research.",
-      "summary": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "multi-agent"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a70bf206657b77b6",
-      "date": "2026-06-15",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Ire identifies another LOTUSLITE specimen",
-      "url": "https://www.microsoft.com/en-us/research/blog/ire-identifies-another-lotuslite-specimen/",
-      "publishedAt": "2026-06-12T20:30:48.000Z",
-      "content": "At a glance Project Ire identifies a LOTUSLITE variant that shares TTPs (tools, tactics, procedures) with the public family but none of its indicators of compromise (IOC).&nbsp; The LLM-driven agent produces a function-by-function behavioral report on the sample without any user interaction to determine whether it is malicious. The binary names a threat actor in cleartext; the agent declines to attribute and instead focuses on statically analyzing the behaviors. We pointed Project Ire , Microsoft&#8217;s autonomous malware-classification agent, at a malware sample—blind—and asked for a verdict. The sample is a variant of LOTUSLITE, a Windows DLL backdoor recently documented by Acronis. Our copy&#8217;s hash isn&#8217;t in their IOC list, and as of June 4, most major EDRs (CrowdStrike Falcon, SentinelOne, Sophos, Trellix, Palo Alto, ESET) still don&#8217;t flag it as malware. Ire produced a function-by-function behavioral report—install routine, C2 packet layout, command IDs, persistence mechanism, obfuscation—that lines up with Acronis&#8217;s published analysis. One decompiler-based run, no human priors. This is what behavioral, agentic reverse engineering can achieve when signature matching and manual inspections fall short. Variants that share TTPs but not indicators of compromise (IOC) get caught instead of slipping past signature lists. Novel malware classification is a domain with no automatic validator, requiring in-depth investigation and holistic understanding of the software’s behaviors to surface and determine intent. Ire operates without context: no origin metadata, no telemetry, no analyst prompt. It invokes decompilers and binary-analysis tools, builds an auditable chain of evidence, and reaches a malicious-or-benign verdict. Acronis&#8217;s Threat Research Unit (TRU) published a writeup (opens in new tab) on LOTUSLITE, a DLL backdoor delivered through a politically themed ZIP, sideloaded through a renamed Tencent KuGou launcher. They attribute it to…",
-      "summary": "Project Ire examined a timely malware sample and determined its intent through reverse engineering—identifying LOTUSLITE characteristics even as most major EDR tools did not detect it. The post Ire identifies another LOTUSLITE specimen app…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.81,
-          "rationale": [
-            "agent",
-            "agentic",
-            "autonomous"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
       "whyThisMatters": ""
     },
     {
@@ -2354,103 +2445,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "0b9292153eb2e7b4",
-      "date": "2026-05-27",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] OpenAI GPT-next disproves 80 year old Erdős planar unit distance problem for under $1000",
-      "url": "https://www.latent.space/p/ainews-openai-gpt-next-disproves",
-      "publishedAt": "2026-05-21T07:28:36.000Z",
-      "content": "We will leave coverage of the SpaceXAI IPO filing for the actual day of IPO. Today we celebrate OpenAI&#8217;s result, speculated to be GPT 5.6 running for <32 hours or <$1000 , on the planar unit distance problem . Similar to the 2025 IMO Gold result, this is a general purpose LLM, not an AlphaProof/Lean style dedicated model , which lends hope that this extended reasoning will generalize beyond math: Among the 125 pages of output, there exists a &#8220; page 39 moment &#8221; that is getting some attention: As the authors of the opinion letter note, this is a disproof, not a proof, which would have been more impressive, but nevertheless points towards the way of things to come: AI News for 5/4/2026-5/5/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI&#8217;s Math Breakthrough on the Erd&#337;s Unit Distance Problem A general-purpose reasoning model produced a new research result in discrete geometry : OpenAI announced that an internal model disproved a long-standing belief around the planar unit distance problem , a famous Erd&#337;s problem from 1946, discovering a new family of constructions that improves on square-grid-style solutions @OpenAI . OpenAI emphasized this was a general-purpose model , not a domain-specific math system or scaffolded solver @OpenAI , and said the result points to stronger long-horizon reasoning for science broadly @OpenAI . The result drew unusually strong validation from mathematicians and adjacent researchers. Timothy Gowers called it the first really clear example of AI solving a well-known open math problem @wtgowers , while OpenAI researcher Hongxun Wu described it as an internal reasoning-LLM milestone on &#8220;the hardest problems&#8221; @HongxunWu . Additional reactions from @thomasfbloom , @gdb , @alexwei_ , and @polynoamial conv…",
-      "summary": "a quiet day but a nice result in AI x mathematics",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "science"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "reasoning",
-          "label": "AI Thinking",
-          "confidence": 0.69,
-          "rationale": [
-            "reasoning",
-            "long-horizon"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "imo"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "e7cc609de4fc1c89",
-      "date": "2026-05-26",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Widening the conversation on frontier AI \\ Anthropic",
-      "url": "https://www.anthropic.com/news/widening-conversation-ai",
-      "publishedAt": null,
-      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     }
   ]
