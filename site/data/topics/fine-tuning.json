@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T01:17:08.419Z",
+  "generatedAt": "2026-06-18T05:12:46.889Z",
   "slug": "fine-tuning",
   "label": "Custom AI",
   "items": [
@@ -35,9 +35,9 @@
       ],
       "section": "Builders",
       "importanceScore": 0.7,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.8,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
@@ -90,9 +90,9 @@
       ],
       "section": "Official Sources",
       "importanceScore": 0.58,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.73,
+      "digestScore": 0.48,
       "whyThisMatters": ""
     },
     {
@@ -172,6 +172,57 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "dbb71862316c0c6f",
+      "date": "2026-06-18",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Midjourney Medical: scan your organs like you step on a scale",
+      "url": "https://www.latent.space/p/ainews-midjourney-medical-scan-your",
+      "publishedAt": "2026-06-18T04:23:05.000Z",
+      "content": "It&#8217;s a tough choice whether or not the buzzy Midjourney Medical launch today counts as AINews. Yes, Midjourney is one of the most significant and unique AI labs in the world. No, as David Holz was quick to point out, there&#8217;s not even any AI immediately present in the Scanner or Spa . But yes, ultrasound CT imaging obviously needs heavy AI assistance, and unlocks massive new applications downstream as BioHub&#8217;s CryoEMs did for ESM . And no, as Hacker News is quick to point out , there are a lot of unsolved questions as to how ready or useful this scanner really is. And yes, that was me in the livestream, which we are transcribing to save you 2 hours . Overall the vibe was electric and inspiring; I sat next to Robert Scoble, who was there at the original iPhone and Tesla (and Google Glass) launches, who agreed that this launch was comparable in ambition; and next to Tanishq Abraham, who, by sheer coincidence, just so happened to tweet out this Nature paper on ultrasound CT : On to the facts you must know. Facts / Announcements Midjourney announced a medical imaging project , calling it the Midjourney Scanner . The device is described as a full-body ultrasonic CT / full-body ultrasound system. David Holz framed it as the &#8220;first new whole-body medical imaging modality in 50 years.&#8221; The scanner uses ultrasound rather than MRI, X-ray, or CT radiation. The system involves: 8,960 transducers per chip/system 40 systems arranged in a ring 358,000 ultrasonic elements total A 70 cm diameter ring Waves traveling through water at about 1,481 m/s Data capture around 17 GB/s Around 40 GB of data per body slice Reconstruction using 21 servers Claimed 2 PFLOPS compute Claimed 806 TB raw data Lift movement at 4 cm/s Goal of several hundred slices in 60 seconds Claimed resolution of internal tissue details down to about 0.5 mm Current imagery shown included: Real body slices Comparisons with MRI, especially thigh/muscle boundary imagery Ultrasonic phantom…",
+      "summary": "The only bootstrapped frontier lab announces its second product and second",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "paper"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "image"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
       "whyThisMatters": ""
     },
     {
@@ -2061,57 +2112,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.64,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "53ef9f406949e3ee",
-      "date": "2026-06-03",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "Unsupervised Learning",
-      "sourceKey": "podcast:Unsupervised Learning",
-      "builderOrOrg": "Unsupervised Learning",
-      "title": "Ep 88: Unpacking DeepMind&apos;s Quest for SuperIntelligence with Demis Hassabis&apos; Biographer",
-      "url": "https://www.youtube.com/@RedpointAI",
-      "publishedAt": "2026-06-01T12:46:52.000Z",
-      "content": "Speaker 1 | 00:00 - 00:05 Demis has a Nobel Prize. Sam didn't finish his first degree. Therefore, Demis doesn't take Sam very seriously. Speaker 2 | 00:05 - 00:09 Do you think he feels like or or will have to become more of a public figure than he is today? Speaker 1 | 00:09 - 00:12 Demis, in some ways, is too sensible. Speaker 2 | 00:12 - 00:15 What was the moment, I guess, your view of him kind of shifted the most? Speaker 1 | 00:15 - 00:28 He would sometimes erupt in these conversations I was having, and he would start banging the table and saying, maybe if we approach science the right way, we understand more about nature, we will be getting closer to something that we could perhaps call God. Speaker 2 | 00:28 - 01:02 Sebastian Malaby spent over thirty hours with DeepMind CEO and cofounder, Demis Esabas, in preparation to write his book, The Infinity Machine. I got to sit down with Sebastian to get all his reflections on this experience. It was fascinating to talk about some of the stories that Sebastian reported on in this book, including the fact that Reid Hoffman offered a billion dollars to Demis to spin DeepMind out of Google at some point. We talked about Demis' relationship with Elon and how that's evolved over the years, as well as what he thinks of Sam, Dario, and the general relationship between all the AI leaders in the space today. And we hit on Sebastian's reflections on Demis, what motivates him, what his blind spots are. Speaker 2 | 01:02 - 01:20 Just a fascinating conversation with someone who's spent unprecedented time with someone who's really, at the cutting edge of AI today. I think folks will really enjoy Sebastian's candid takes here. Without further ado, here he is. Well, Sebastian, thanks so much for coming on the podcast. Really appreciate it. Speaker 1 | 01:20 - 01:21 Thank you. It's great to be with you. Speaker 2 | 01:21 - 01:42 I feel like the Infinity Machine and your kind of story of DeepMind and Demis Esabas has captivated a bunch of folks in the AI world. I know that I inhaled this book. I think I finished it in, like, twenty four hours. It's just a a gripping story, and you got this just incredible access to Demis. I think, you know, the sitting in this pub for for multi hours at a time, talking about all sorts of things. Speaker 2 | 01:42 - 02:16 Just just a fascinating, you know, opportunity and window into to definitely one of the most interesting people and and companies in this AI race today. And so appreciate you writing the book and appreciate you coming on the podcast to talk about So our goal today is to, you know, use your reporting to understand the people, decisions, and dynamics that shape the AI race that we're living through. And so maybe to start, I feel like one of the interesting themes in your book is whether this race that we have today between the labs was inevitable or could have gone differently, if different players or decisions had had been done. I guess I'm curious. After doing this work, do you think there was another path, or or was this kind of inevitable? Speaker 1 | 02:16 - 02:40 You know, I think it was inevitable. I think when you have this sort of supremely strong technology, there's gonna be multiple labs in multiple countries that are just desperate to try and build it. And we know the China stack, you know, is pretty strong. And so despite the lack of semiconductors, they were gonna have a go at it and they are actually doing pretty well. And then clearly in The US, and then in a few other countries, you've got the Austral in France, Coher in Canada. Speaker 1 | 02:40 - 02:58 You know, there was bound to be many players just as it's the technology is too sweet for it to be only interesting to one team. What's strange about this whole debate though is that's not how people saw it ex ante, that, you know, when Demis was starting DeepMind, he really hoped that he could avoid the race dynamic. It seems naive in retrospect, but that's what he hoped. Speaker…",
-      "summary": "Speaker 1 | 00:00 - 00:05 Demis has a Nobel Prize. Sam didn't finish his first degree. Therefore, Demis doesn't take Sam very seriously. Speaker 2 | 00:05 - 00:09 Do you think he feels like or or will have to become more of a public figure…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "science"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.52,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.44,
       "whyThisMatters": ""
     }
   ]
