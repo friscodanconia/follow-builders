@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T05:31:51.742Z",
+  "generatedAt": "2026-06-19T06:33:03.054Z",
   "slug": "coding",
   "label": "Coding",
   "items": [
@@ -36,7 +36,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -82,7 +82,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -138,7 +138,7 @@
       "section": "Builders",
       "importanceScore": 0.92,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.7,
       "whyThisMatters": ""
     },
@@ -576,6 +576,58 @@
       "whyThisMatters": ""
     },
     {
+      "id": "1c2790a52095dbc8",
+      "date": "2026-06-19",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] GLM > GPT? GLM-5.2 passes vibe check; Z.ai forecasts Open Fable by December",
+      "url": "https://www.latent.space/p/ainews-glm-gpt-glm-52-passes-vibe",
+      "publishedAt": "2026-06-19T05:53:54.000Z",
+      "content": "Don&#8217;t miss out on our Anj Midha episode today and regular tix for AIE World&#8217;s Fair ! In the AI News business, there&#8217;s a bit of trepidation talking about open models: they come out guns blazing, looking pretty on notable benchmarks, and then a month later they fade into disuse like they never existed. In other words: they were &#8220; benchmaxxed &#8221;. And we hate reporting news that you won&#8217;t remember here at LS. One of the policies readers tell us they like about AINews is that we will simply say if nothing much happened today (a newsletter that tells you that you can skip it is rare, partly because we don&#8217;t have an eyeballs driven business model. 1 ). Increasingly, we&#8217;ve also tried to do the inverse &#8212; repeatedly calling out a notable trend is just as important as filtering out low signal. GLM 5 passed that bar, and GLM 5.1 didn&#8217;t. GLM 5.2 , which we reported on 2 days ago, felt a little different, and that instinct was confirmed today, with multiple out of sample datapoints passing the &#8220; this is a frontier model that just happens to be open &#8221; vibe check: Jeremy Howard, friend of the show not given to hype, sincerely complimenting it: and Artificial Analysis&#8217; new knowledge work benchmark rates it higher than GPT 5.5: And it is passing the /r/LocalLlama vibe check : This trajectory of Z.ai getting validation as a true frontier lab is now a serious trend; the final milestone of (Chinese) open models winning is the timeline for when we will get an open Fable-class model, without the possibility of distillation attacks (Z.ai was notably missing from the list of accused Chinese labs in Anthropic&#8217;s Feb &#8220;industrial-scale distillation&#8221; report ): The tricky question no one can answer is - will any of the top 4 labs be able to release another Fable-class model again in the next 6 months, or has the ongoing Mythos ban put everything on ice? AI News for 6/17/2026-6/18/2026. We checked 12 su…",
+      "summary": "With GLM-5.2 passing everyone's vibe check, the open models story finally becomes a real frontier story.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "rl",
+            "distillation"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "benchmark"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
+    {
       "id": "bcd169ba5f3535a2",
       "date": "2026-06-19",
       "sourceType": "newsletter",
@@ -606,6 +658,57 @@
           "confidence": 0.5700000000000001,
           "rationale": [
             "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "f92b97320da4068d",
+      "date": "2026-06-19",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Blaming China for Datacenter NIMBYism Is Cope",
+      "url": "https://www.chinatalk.media/p/blaming-china-for-datacenter-nimbyism",
+      "publishedAt": "2026-06-18T10:47:35.000Z",
+      "content": "Last week, congressmembers amplified a claim that Chinese propaganda is driving anti-datacenter sentiment in the United States. And recently OpenAI exposed a Chinese influence operation that used ChatGPT to make anti-datacenter AI slop. Someone in China&#8217;s deep state clearly thought it was a good idea to push narratives that throw sand in the gears of America&#8217;s domestic AI buildout. But blaming the United Front for datacenter resistance is cope that overlooks all the ways labs and hyperscalers could get communities onboard. As actual Chinese influence expert Bethany Allen tweeted in a thread you should read arguing reports like the one coming out of the &#8216;Bitcoin Policy Institute&#8217; &#8220;delegitimize what are very obviously organic US movements&#8230;and are also a form of disinformation and propaganda, very similar to how China paints Hong Kong pro-democracy protesters as stooges of America.&#8221; Just as voters had legitimate reasons not to vote for Hillary in 2016 beyond Putin buying some ads on Facebook, citizens today have plenty of acute reasons to be wary of a datacenter popping up in their neighborhood. See below for my taxonomy of complaints and how much credibility I&#8217;d give them. Fueling all of this, of course, we have a generalized dislike of big tech and anxiety about how AI is going to make life worse. But here&#8217;s the good news: money can solve pretty much all of this! As Kevin Xu has pointed out , AI gains are diffuse, while the perceived pain associated with living near a datacenter is concentrated. A core advantage America has over China is just how well capitalized our AI ecosystem is. While ByteDance, Ali, Tencent, and Baidu will spend around $70 billion in capex this year, Microsoft, Google, Amazon, and Meta are set to drop $725 billion in 2026, with $500bn landing domestically. Putting a tiny slice of that into communities next to new builds will turn towns from fighting datacenters to scrambling to attract them…",
+      "summary": "Instead, just pay people to love them",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
           ],
           "score": 1
         },
@@ -666,57 +769,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "f92b97320da4068d",
-      "date": "2026-06-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Blaming China for Datacenter NIMBYism Is Cope",
-      "url": "https://www.chinatalk.media/p/blaming-china-for-datacenter-nimbyism",
-      "publishedAt": "2026-06-18T10:47:35.000Z",
-      "content": "Last week, congressmembers amplified a claim that Chinese propaganda is driving anti-datacenter sentiment in the United States. And recently OpenAI exposed a Chinese influence operation that used ChatGPT to make anti-datacenter AI slop. Someone in China&#8217;s deep state clearly thought it was a good idea to push narratives that throw sand in the gears of America&#8217;s domestic AI buildout. But blaming the United Front for datacenter resistance is cope that overlooks all the ways labs and hyperscalers could get communities onboard. As actual Chinese influence expert Bethany Allen tweeted in a thread you should read arguing reports like the one coming out of the &#8216;Bitcoin Policy Institute&#8217; &#8220;delegitimize what are very obviously organic US movements&#8230;and are also a form of disinformation and propaganda, very similar to how China paints Hong Kong pro-democracy protesters as stooges of America.&#8221; Just as voters had legitimate reasons not to vote for Hillary in 2016 beyond Putin buying some ads on Facebook, citizens today have plenty of acute reasons to be wary of a datacenter popping up in their neighborhood. See below for my taxonomy of complaints and how much credibility I&#8217;d give them. Fueling all of this, of course, we have a generalized dislike of big tech and anxiety about how AI is going to make life worse. But here&#8217;s the good news: money can solve pretty much all of this! As Kevin Xu has pointed out , AI gains are diffuse, while the perceived pain associated with living near a datacenter is concentrated. A core advantage America has over China is just how well capitalized our AI ecosystem is. While ByteDance, Ali, Tencent, and Baidu will spend around $70 billion in capex this year, Microsoft, Google, Amazon, and Meta are set to drop $725 billion in 2026, with $500bn landing domestically. Putting a tiny slice of that into communities next to new builds will turn towns from fighting datacenters to scrambling to attract them…",
-      "summary": "Instead, just pay people to love them",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -2184,43 +2236,6 @@
         "likes": 802,
         "retweets": 21,
         "replies": 39
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "37e263918d16dc61",
-      "date": "2026-06-13",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:danshipper",
-      "builderOrOrg": "Dan Shipper",
-      "title": "had an idea for a big fable project, set it up, and let it cook came back an hour later and it…",
-      "url": "https://x.com/danshipper/status/2065269582961737957",
-      "publishedAt": "2026-06-12T03:06:54.000Z",
-      "content": "had an idea for a big fable project, set it up, and let it cook came back an hour later and it had triggered the safeguards and fell back to 4.8 10 minutes in back to codex 😬",
-      "summary": "had an idea for a big fable project, set it up, and let it cook came back an hour later and it had triggered the safeguards and fell back to 4.8 10 minutes in back to codex 😬",
-      "regionTags": [],
-      "metrics": {
-        "likes": 420,
-        "retweets": 5,
-        "replies": 31
       },
       "topics": [
         {
