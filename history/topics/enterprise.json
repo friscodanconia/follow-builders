@@ -1,8 +1,393 @@
 {
-  "generatedAt": "2026-06-20T05:46:30.518Z",
+  "generatedAt": "2026-06-21T01:02:50.152Z",
   "slug": "enterprise",
   "label": "Business AI",
   "items": [
+    {
+      "id": "f15c2b5cf541ba9f",
+      "date": "2026-06-21",
+      "sourceType": "blog",
+      "sourceGroup": "mirrored",
+      "sourceName": "Anthropic Engineering",
+      "sourceKey": "blog:Anthropic Engineering",
+      "builderOrOrg": "Anthropic Engineering",
+      "title": "How we contain Claude across products",
+      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+      "publishedAt": null,
+      "content": "Twelve months ago, we&#x27;d have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service. Today that level of access is routine, and Anthropic developers are more productive for it. The risk of these deployments has two components: how likely a failure is, and how much damage one could do. Progress on safeguards and model training has steadily driven down the first; the second—the theoretical blast radius—only grows as capabilities and access expand. Yet as agents become capable of doing work that once required a person or even a team, the cost of not deploying grows large enough that the risk-reward calculation tips heavily toward adoption, as long as products can be made safe. The engineering question becomes how to cap the blast radius. When bounds can be placed on the relative damage of an autonomous agent—such as through control over its environment—high-utility capabilities can motivate deployment. Claude Mythos Preview is an example of a model whose blast radius was deemed too high to ship in April 2026. However, we expect broader release of models with similar levels of capability to become appropriate as defenders harden critical systems and safeguards mature—even though some risk will always remain. Model capability is an important factor in the total risk of an agent’s deployment. There are broadly two ways to do this. The first is to supervise the agent’s behavior via a human-in-the-loop. Claude Code previously protected against agents taking unintended actions by asking users for permission at each turn. Theoretically that works, but we’ve found the approach to be fallible. Our telemetry showed users approved roughly 93% of permission prompts. The more approvals a user sees, the less attention they pay to each, becoming over time much less diligent in their supervision. We recently built Claude Code auto mode, which automates safer approvals in order to reduce this approval fatigue. Still, vulnerab…",
+      "summary": "Twelve months ago, we&#x27;d have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service. Today that level of access is routine, and Anthropic developers are more productive for it. Th…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "autonomous"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "developer"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "deployment"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Watchlist",
+      "importanceScore": 0.62,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.51,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "f9b945bf24ef7598",
+      "date": "2026-06-21",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "New usage analytics and updated spend controls for enterprises",
+      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "publishedAt": "2026-06-18T17:00:00.000Z",
+      "content": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
+      "summary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "155df4c562ef069b",
+      "date": "2026-06-21",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "Introducing Mistral Small 4 | Mistral AI",
+      "url": "https://mistral.ai/news/mistral-small-4/",
+      "publishedAt": null,
+      "content": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
+      "summary": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "autonomous"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "multimodal"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.8,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.63,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d7791bf6db4a148c",
+      "date": "2026-06-21",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "Introducing Mistral 3 | Mistral AI",
+      "url": "https://mistral.ai/news/mistral-3/",
+      "publishedAt": null,
+      "content": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
+      "summary": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "autonomous"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "multimodal"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.8,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.63,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "6fbab82303847a68",
+      "date": "2026-06-21",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "AI Now Summit 2026 | Mistral AI",
+      "url": "https://mistral.ai/news/ai-now-summit-2026",
+      "publishedAt": null,
+      "content": "Innovations for global enterprises solving the world’s hardest problems.",
+      "summary": "Innovations for global enterprises solving the world’s hardest problems.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "70f8e53feb18e506",
+      "date": "2026-06-21",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Yes, Transformers Are a Problem...",
+      "url": "https://www.chinatalk.media/p/yes-transformers-are-a-problem",
+      "publishedAt": "2026-06-20T11:26:25.000Z",
+      "content": "Dana Golden is an economist at Argonne National Labs. All opinions in the article are her own and should not be interpreted as reflecting the views of the Department of Energy or Argonne National Labs. I want to offer you a thought experiment. A genie has agreed to conjure an infinite supply of transformers for integration into US power systems. We&#8217;ve heard plenty about the transformer shortage. They&#8217;re vital to data centers, construction projects, and grid expansion. With one rub of the lamp, that bottleneck vanishes. Do our power supply chain problems disappear? Can we build all the data centers we want? Let&#8217;s go further. The genie also supplies limitless gas turbines. If you&#8217;ve been following the data center energy discourse, this feels like a double whammy &#8212; the two big bottlenecks, gone. Throw in a third wish for streamlined permitting. Is the grid supply chain fixed? Can we build out data centers like railroads in 1872? The answer is clearly no. Grid supply chain problems go far deeper than transformers and gas turbines. Grid modernization requires many other components with equal or greater supply chain challenges. The DOE&#8217;s supply chain mapping for large power transformers alone reveals many inputs with significant interdependencies throughout the power electronics supply chain. If these inputs threaten transformer supply chains, they equally create headaches for the supply chains of other important power electronics. Source . Go further into the DOE&#8217;s work, and you find that the HVDC supply chain lacks significant domestic manufacturing capacity throughout, with components like converters (circuits that help change between voltage levels) and DC filters (devices to suppress electromagnetic interference) not even generating enough domestic demand to encourage new capacity entry. Source . The economic security community spent years learning the semiconductor supply chain map for compute. We all read Chip War and lear…",
+      "summary": "But So Are Converters, Inverters, and MMCs!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.66,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "91cae8f5ca1398ed",
+      "date": "2026-06-21",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Will the MATCH Act Change Chip Controls?",
+      "url": "https://www.chinatalk.media/p/will-the-match-act-change-chip-controls",
+      "publishedAt": "2026-06-17T10:49:54.000Z",
+      "content": "Starting in October 2022, the Biden administration&#8217;s Bureau of Industry and Security (BIS) updated chip controls like clockwork, with a cadence of updates every year. Since Trump 2.0, however, the clock has stood still. Export controls on semiconductors and semiconductor manufacturing equipment have not been substantively updated since December 2024. The Trump administration has been reticent to update controls and has even considered walking them back. Over the past year alone, there have been tiffs over allowing sales of the H20 and then the H200. But the government has not been united in this stance, and Congress is now taking its own stab at export controls. In April, both the House and the Senate introduced versions of the Multilateral Alignment of Technology Controls on Hardware (MATCH) Act. If passed, the MATCH Act would serve as the legislative branch&#8217;s first major attempt to enshrine export control into law, a prerogative that has traditionally been the purview of the executive branch and its agencies. The MATCH Act, which has already passed through the House&#8217;s Foreign Affairs Committee (HFAC), would carve export controls on semiconductor-manufacturing equipment (SME) into stone, meaning that America&#8217;s posture of chip controls would be almost immutable. This stands in contrast with the status quo of chip controls that can be changed at the whim of an administration. Given the MATCH Act&#8217;s potential for near permanence as an enshrined bill, it is worth exploring the bill in detail. This article explores these questions: What does the MATCH Act do? What are the bill&#8217;s goals? How likely is the bill to actually accomplish those goals? What are the drawbacks and negative side effects of the MATCH Act? How does the MATCH Act affect geopolitics? I also include some lagniappe at the end where I run the eval of seeing whether Opus 4.8 could&#8217;ve done all this analysis itself. What Does the MATCH Act Do? The MATCH has two main…",
+      "summary": "Congress's Push to Take the Lead on China",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.69,
+          "rationale": [
+            "security",
+            "sales"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "alignment"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "9f839fe3fb238b7d",
+      "date": "2026-06-21",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Emergency Pod: Claude Fable",
+      "url": "https://www.chinatalk.media/p/emergency-pod-claude-fable-fried",
+      "publishedAt": "2026-06-16T09:41:15.000Z",
+      "content": "Last Tuesday, Anthropic&#8217;s Claude Fable 5 went live as the most powerful model in the world. By Friday it was dark, pulled offline after a private &#8220;is-informed&#8221; letter from Commerce&#8217;s Bureau of Industry and Security restricted foreign access to it, apparently triggered by a jailbreak concern and a phone call from Amazon&#8217;s Andy Jassy. An administration that spent two years making fun of the Biden admin for regulatory AI overreach showed they really just caught the AI safety bug. To make sense of it, we&#8217;re joined by Chris McGuire , longtime State Department and White House civil servant who worked AI and chips now at CFR. We discuss&#8230; The 5:21 PM letter that took the world&#8217;s most powerful model offline in a single day Why the &#8216;let it rip&#8217; admin pivoted to mandatory AI regulation overnight. The overseas-subsidiary loophole, the Sunday emergency patch, and the foundry gap still wide open Listen now on your favorite podcast app . Live Tuesday, Dark by Friday Jordan Schneider: My mayor Muslim My bagel Jewish. Fable is fried. Knicks in five. Congratulations to the New York Knickerbockers and the city of New York on their first championship in 53 years. And a hearty &#8212; perhaps &#8212; message of concern for the Trump administration&#8217;s Bureau of Industry and Security at Commerce, which has been taking care of America&#8217;s lead about as well as De&#8217;Aaron Fox took care of the basketball over the past two weeks. To discuss why Trump took Fable offline, what&#8217;s going on with chip and AI loopholes, and what this all means for the future of AI development in America and beyond, we&#8217;re joined today by native New Yorker and longtime State Department and White House civil servant covering AI, chips, and whatnot. You know him, you love him &#8212; Chris McGuire. Welcome back to the show. Chris McGuire: I&#8217;ve been a Knicks fan much longer than I&#8217;ve been any of those things, so that&#8217;s…",
+      "summary": "Chris McGuire on a chaotic two weeks in AI policy",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
     {
       "id": "9f0d2f35602c408f",
       "date": "2026-06-20",
@@ -139,296 +524,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.61,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "f9b945bf24ef7598",
-      "date": "2026-06-20",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "New usage analytics and updated spend controls for enterprises",
-      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "publishedAt": "2026-06-18T17:00:00.000Z",
-      "content": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
-      "summary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "155df4c562ef069b",
-      "date": "2026-06-20",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Mistral AI Blog",
-      "sourceKey": "official:Mistral AI Blog",
-      "builderOrOrg": "Mistral AI",
-      "title": "Introducing Mistral Small 4 | Mistral AI",
-      "url": "https://mistral.ai/news/mistral-small-4/",
-      "publishedAt": null,
-      "content": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
-      "summary": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "autonomous"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "multimodal"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.8,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.63,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d7791bf6db4a148c",
-      "date": "2026-06-20",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Mistral AI Blog",
-      "sourceKey": "official:Mistral AI Blog",
-      "builderOrOrg": "Mistral AI",
-      "title": "Introducing Mistral 3 | Mistral AI",
-      "url": "https://mistral.ai/news/mistral-3/",
-      "publishedAt": null,
-      "content": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
-      "summary": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "autonomous"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "multimodal"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.8,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.63,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "6fbab82303847a68",
-      "date": "2026-06-20",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Mistral AI Blog",
-      "sourceKey": "official:Mistral AI Blog",
-      "builderOrOrg": "Mistral AI",
-      "title": "AI Now Summit 2026 | Mistral AI",
-      "url": "https://mistral.ai/news/ai-now-summit-2026",
-      "publishedAt": null,
-      "content": "Innovations for global enterprises solving the world’s hardest problems.",
-      "summary": "Innovations for global enterprises solving the world’s hardest problems.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "91cae8f5ca1398ed",
-      "date": "2026-06-20",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Will the MATCH Act Change Chip Controls?",
-      "url": "https://www.chinatalk.media/p/will-the-match-act-change-chip-controls",
-      "publishedAt": "2026-06-17T10:49:54.000Z",
-      "content": "Starting in October 2022, the Biden administration&#8217;s Bureau of Industry and Security (BIS) updated chip controls like clockwork, with a cadence of updates every year. Since Trump 2.0, however, the clock has stood still. Export controls on semiconductors and semiconductor manufacturing equipment have not been substantively updated since December 2024. The Trump administration has been reticent to update controls and has even considered walking them back. Over the past year alone, there have been tiffs over allowing sales of the H20 and then the H200. But the government has not been united in this stance, and Congress is now taking its own stab at export controls. In April, both the House and the Senate introduced versions of the Multilateral Alignment of Technology Controls on Hardware (MATCH) Act. If passed, the MATCH Act would serve as the legislative branch&#8217;s first major attempt to enshrine export control into law, a prerogative that has traditionally been the purview of the executive branch and its agencies. The MATCH Act, which has already passed through the House&#8217;s Foreign Affairs Committee (HFAC), would carve export controls on semiconductor-manufacturing equipment (SME) into stone, meaning that America&#8217;s posture of chip controls would be almost immutable. This stands in contrast with the status quo of chip controls that can be changed at the whim of an administration. Given the MATCH Act&#8217;s potential for near permanence as an enshrined bill, it is worth exploring the bill in detail. This article explores these questions: What does the MATCH Act do? What are the bill&#8217;s goals? How likely is the bill to actually accomplish those goals? What are the drawbacks and negative side effects of the MATCH Act? How does the MATCH Act affect geopolitics? I also include some lagniappe at the end where I run the eval of seeing whether Opus 4.8 could&#8217;ve done all this analysis itself. What Does the MATCH Act Do? The MATCH has two main…",
-      "summary": "Congress's Push to Take the Lead on China",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.69,
-          "rationale": [
-            "security",
-            "sales"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "eval"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "alignment"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "9f839fe3fb238b7d",
-      "date": "2026-06-20",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Emergency Pod: Claude Fable",
-      "url": "https://www.chinatalk.media/p/emergency-pod-claude-fable-fried",
-      "publishedAt": "2026-06-16T09:41:15.000Z",
-      "content": "Last Tuesday, Anthropic&#8217;s Claude Fable 5 went live as the most powerful model in the world. By Friday it was dark, pulled offline after a private &#8220;is-informed&#8221; letter from Commerce&#8217;s Bureau of Industry and Security restricted foreign access to it, apparently triggered by a jailbreak concern and a phone call from Amazon&#8217;s Andy Jassy. An administration that spent two years making fun of the Biden admin for regulatory AI overreach showed they really just caught the AI safety bug. To make sense of it, we&#8217;re joined by Chris McGuire , longtime State Department and White House civil servant who worked AI and chips now at CFR. We discuss&#8230; The 5:21 PM letter that took the world&#8217;s most powerful model offline in a single day Why the &#8216;let it rip&#8217; admin pivoted to mandatory AI regulation overnight. The overseas-subsidiary loophole, the Sunday emergency patch, and the foundry gap still wide open Listen now on your favorite podcast app . Live Tuesday, Dark by Friday Jordan Schneider: My mayor Muslim My bagel Jewish. Fable is fried. Knicks in five. Congratulations to the New York Knickerbockers and the city of New York on their first championship in 53 years. And a hearty &#8212; perhaps &#8212; message of concern for the Trump administration&#8217;s Bureau of Industry and Security at Commerce, which has been taking care of America&#8217;s lead about as well as De&#8217;Aaron Fox took care of the basketball over the past two weeks. To discuss why Trump took Fable offline, what&#8217;s going on with chip and AI loopholes, and what this all means for the future of AI development in America and beyond, we&#8217;re joined today by native New Yorker and longtime State Department and White House civil servant covering AI, chips, and whatnot. You know him, you love him &#8212; Chris McGuire. Welcome back to the show. Chris McGuire: I&#8217;ve been a Knicks fan much longer than I&#8217;ve been any of those things, so that&#8217;s…",
-      "summary": "Chris McGuire on a chaotic two weeks in AI policy",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
       "whyThisMatters": ""
     },
     {
@@ -1022,59 +1117,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.63,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "f15c2b5cf541ba9f",
-      "date": "2026-06-13",
-      "sourceType": "blog",
-      "sourceGroup": "mirrored",
-      "sourceName": "Anthropic Engineering",
-      "sourceKey": "blog:Anthropic Engineering",
-      "builderOrOrg": "Anthropic Engineering",
-      "title": "How we contain Claude across products",
-      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
-      "publishedAt": null,
-      "content": "Twelve months ago, we&#x27;d have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service. Today that level of access is routine, and Anthropic developers are more productive for it. The risk of these deployments has two components: how likely a failure is, and how much damage one could do. Progress on safeguards and model training has steadily driven down the first; the second—the theoretical blast radius—only grows as capabilities and access expand. Yet as agents become capable of doing work that once required a person or even a team, the cost of not deploying grows large enough that the risk-reward calculation tips heavily toward adoption, as long as products can be made safe. The engineering question becomes how to cap the blast radius. When bounds can be placed on the relative damage of an autonomous agent—such as through control over its environment—high-utility capabilities can motivate deployment. Claude Mythos Preview is an example of a model whose blast radius was deemed too high to ship in April 2026. However, we expect broader release of models with similar levels of capability to become appropriate as defenders harden critical systems and safeguards mature—even though some risk will always remain. Model capability is an important factor in the total risk of an agent’s deployment. There are broadly two ways to do this. The first is to supervise the agent’s behavior via a human-in-the-loop. Claude Code previously protected against agents taking unintended actions by asking users for permission at each turn. Theoretically that works, but we’ve found the approach to be fallible. Our telemetry showed users approved roughly 93% of permission prompts. The more approvals a user sees, the less attention they pay to each, becoming over time much less diligent in their supervision. We recently built Claude Code auto mode, which automates safer approvals in order to reduce this approval fatigue. Still, vulnerab…",
-      "summary": "Twelve months ago, we&#x27;d have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service. Today that level of access is routine, and Anthropic developers are more productive for it. Th…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "autonomous"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "code",
-            "developer"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "deployment"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Watchlist",
-      "importanceScore": 0.62,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.51,
       "whyThisMatters": ""
     },
     {
@@ -2257,58 +2299,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.61,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "980446a0dcbd045b",
-      "date": "2026-06-03",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "China's Robotics Dream Began in 1972",
-      "url": "https://www.chinatalk.media/p/chinas-father-of-robotics",
-      "publishedAt": "2026-05-27T09:52:04.000Z",
-      "content": "ChinaTalk analyst yearns for the mines. He&#8217;s on a mission to visit rare earths and other critical minerals mining sites, refineries, and permanent magnet facilities around the world. If you or anyone you know can help him fulfill this mission, please reach out to aqib@chinatalk.media. Less than one in a thousand Chinese people owned private cars in the 1990s. But in 1993, a vehicle guided by a computer program landed on the floor of a car plant in Shenyang, capital of Liaoning province. Xianfeng 1 &#20808;&#38155;1&#21495; was the first of its kind in China, developed entirely by Chinese researchers. The car plant had previously relied on American-made autonomous-guided vehicles, but the US tightened export controls in 1991 and cut off sales to China. The plant turned to the Shenyang Institute of Automation (SIA), an institution of China&#8217;s national academy, the Chinese Academy of Sciences (CAS). It was led by a scientist called Jiang Xinsong &#33931;&#26032;&#26494;. Xianfeng 1. Source . To the average person today, &#8220;AI&#8221; is synonymous with chatbots &#8212; or, at least, tools that exist only in the digital realm. Hardware manifestations, like humanoid robots or intelligent Roombas, are instead considered futuristic. But &#8220;Chinese AI,&#8221; as an idea, did not necessarily begin with DeepSeek or tech companies in Hangzhou. It started on assembly lines in the Northeast, with dreams of intelligent oxygen furnaces for steel production and automated car plants. Some of the earliest champions of artificial intelligence research were not software engineers or information scientists, but those working shoulder-to-shoulder with factory workers. As Chinese firms like Unitree became forerunners in the race to build autonomous robots, I grew curious about Jiang&#8217;s story. State media has dubbed him China&#8217;s &#8220;father of robotics.&#8221; His work &#8212; and what he would have conceived of as &#8220;artificial intelligence&#8221; &#8212…",
-      "summary": "a history!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "science"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "autonomous"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "sales"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.62,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.51,
       "whyThisMatters": ""
     }
   ]
