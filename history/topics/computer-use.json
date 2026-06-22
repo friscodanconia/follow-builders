@@ -1,8 +1,105 @@
 {
-  "generatedAt": "2026-06-21T06:19:48.667Z",
+  "generatedAt": "2026-06-22T01:17:32.608Z",
   "slug": "computer-use",
   "label": "AI Using Computers",
   "items": [
+    {
+      "id": "a29e796738ba8547",
+      "date": "2026-06-22",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "Genuinely impressed, almost shocked, at how good GLM-5.2 by @zai_org is at coding. This changes…",
+      "url": "https://x.com/rauchg/status/2068517095818809770",
+      "publishedAt": "2026-06-21T02:11:21.000Z",
+      "content": "Genuinely impressed, almost shocked, at how good GLM-5.2 by @zai_org is at coding. This changes things.",
+      "summary": "Genuinely impressed, almost shocked, at how good GLM-5.2 by @zai_org is at coding. This changes things.",
+      "regionTags": [],
+      "metrics": {
+        "likes": 2965,
+        "retweets": 153,
+        "replies": 119
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "f92b97320da4068d",
+      "date": "2026-06-22",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Blaming China for Datacenter NIMBYism Is Cope",
+      "url": "https://www.chinatalk.media/p/blaming-china-for-datacenter-nimbyism",
+      "publishedAt": "2026-06-18T10:47:35.000Z",
+      "content": "Last week, congressmembers amplified a claim that Chinese propaganda is driving anti-datacenter sentiment in the United States. And recently OpenAI exposed a Chinese influence operation that used ChatGPT to make anti-datacenter AI slop. Someone in China&#8217;s deep state clearly thought it was a good idea to push narratives that throw sand in the gears of America&#8217;s domestic AI buildout. But blaming the United Front for datacenter resistance is cope that overlooks all the ways labs and hyperscalers could get communities onboard. As actual Chinese influence expert Bethany Allen tweeted in a thread you should read arguing reports like the one coming out of the &#8216;Bitcoin Policy Institute&#8217; &#8220;delegitimize what are very obviously organic US movements&#8230;and are also a form of disinformation and propaganda, very similar to how China paints Hong Kong pro-democracy protesters as stooges of America.&#8221; Just as voters had legitimate reasons not to vote for Hillary in 2016 beyond Putin buying some ads on Facebook, citizens today have plenty of acute reasons to be wary of a datacenter popping up in their neighborhood. See below for my taxonomy of complaints and how much credibility I&#8217;d give them. Fueling all of this, of course, we have a generalized dislike of big tech and anxiety about how AI is going to make life worse. But here&#8217;s the good news: money can solve pretty much all of this! As Kevin Xu has pointed out , AI gains are diffuse, while the perceived pain associated with living near a datacenter is concentrated. A core advantage America has over China is just how well capitalized our AI ecosystem is. While ByteDance, Ali, Tencent, and Baidu will spend around $70 billion in capex this year, Microsoft, Google, Amazon, and Meta are set to drop $725 billion in 2026, with $500bn landing domestically. Putting a tiny slice of that into communities next to new builds will turn towns from fighting datacenters to scrambling to attract them…",
+      "summary": "Instead, just pay people to love them",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
     {
       "id": "733b43cad8a3032f",
       "date": "2026-06-21",
@@ -167,57 +264,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "f92b97320da4068d",
-      "date": "2026-06-21",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Blaming China for Datacenter NIMBYism Is Cope",
-      "url": "https://www.chinatalk.media/p/blaming-china-for-datacenter-nimbyism",
-      "publishedAt": "2026-06-18T10:47:35.000Z",
-      "content": "Last week, congressmembers amplified a claim that Chinese propaganda is driving anti-datacenter sentiment in the United States. And recently OpenAI exposed a Chinese influence operation that used ChatGPT to make anti-datacenter AI slop. Someone in China&#8217;s deep state clearly thought it was a good idea to push narratives that throw sand in the gears of America&#8217;s domestic AI buildout. But blaming the United Front for datacenter resistance is cope that overlooks all the ways labs and hyperscalers could get communities onboard. As actual Chinese influence expert Bethany Allen tweeted in a thread you should read arguing reports like the one coming out of the &#8216;Bitcoin Policy Institute&#8217; &#8220;delegitimize what are very obviously organic US movements&#8230;and are also a form of disinformation and propaganda, very similar to how China paints Hong Kong pro-democracy protesters as stooges of America.&#8221; Just as voters had legitimate reasons not to vote for Hillary in 2016 beyond Putin buying some ads on Facebook, citizens today have plenty of acute reasons to be wary of a datacenter popping up in their neighborhood. See below for my taxonomy of complaints and how much credibility I&#8217;d give them. Fueling all of this, of course, we have a generalized dislike of big tech and anxiety about how AI is going to make life worse. But here&#8217;s the good news: money can solve pretty much all of this! As Kevin Xu has pointed out , AI gains are diffuse, while the perceived pain associated with living near a datacenter is concentrated. A core advantage America has over China is just how well capitalized our AI ecosystem is. While ByteDance, Ali, Tencent, and Baidu will spend around $70 billion in capex this year, Microsoft, Google, Amazon, and Meta are set to drop $725 billion in 2026, with $500bn landing domestically. Putting a tiny slice of that into communities next to new builds will turn towns from fighting datacenters to scrambling to attract them…",
-      "summary": "Instead, just pay people to love them",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -2146,43 +2192,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "f3ac81611a316a7e",
-      "date": "2026-06-03",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:rauchg",
-      "builderOrOrg": "Guillermo Rauch",
-      "title": "Git is all you need. Always has been https://t.co/PEt3D4Pt70",
-      "url": "https://x.com/rauchg/status/2061533151676293430",
-      "publishedAt": "2026-06-01T19:39:39.000Z",
-      "content": "Git is all you need. Always has been https://t.co/PEt3D4Pt70",
-      "summary": "Git is all you need. Always has been https://t.co/PEt3D4Pt70",
-      "regionTags": [],
-      "metrics": {
-        "likes": 336,
-        "retweets": 11,
-        "replies": 27
-      },
-      "topics": [
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]

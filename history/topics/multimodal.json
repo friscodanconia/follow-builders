@@ -1,66 +1,57 @@
 {
-  "generatedAt": "2026-06-21T06:19:48.667Z",
+  "generatedAt": "2026-06-22T01:17:32.608Z",
   "slug": "multimodal",
   "label": "Images, Audio & Video",
   "items": [
     {
-      "id": "e388e8cd5376e028",
-      "date": "2026-06-21",
+      "id": "47bfb39140c47517",
+      "date": "2026-06-22",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:rauchg",
-      "builderOrOrg": "Guillermo Rauch",
-      "title": "Agents are motivating so many healthy software habits. Open APIs, documentation (skills), tests…",
-      "url": "https://x.com/rauchg/status/2067936390285807940",
-      "publishedAt": "2026-06-19T11:43:50.000Z",
-      "content": "Agents are motivating so many healthy software habits. Open APIs, documentation (skills), tests (evals), Unix (CLIs), payment & commerce protocols, even wide 𝙰𝚌𝚌𝚎𝚙𝚝 use (markdown/json/html). The original vision of the WWW coming to life before our eyes.",
-      "summary": "Agents are motivating so many healthy software habits. Open APIs, documentation (skills), tests (evals), Unix (CLIs), payment & commerce protocols, even wide 𝙰𝚌𝚌𝚎𝚙𝚝 use (markdown/json/html). The original vision of…",
+      "sourceKey": "x:petergyang",
+      "builderOrOrg": "Peter Yang",
+      "title": "For folks who make talking head videos with screen share what platform do you use? I'd love som…",
+      "url": "https://x.com/petergyang/status/2068398871236264428",
+      "publishedAt": "2026-06-20T18:21:34.000Z",
+      "content": "For folks who make talking head videos with screen share what platform do you use? I'd love something that lets me easily zoom in and out on the screen to point out specific things. @screenstudio seems cool but does it work well with other recording tools? It doesn't record the talking head as far I can see.",
+      "summary": "For folks who make talking head videos with screen share what platform do you use? I'd love something that lets me easily zoom in and out on the screen to point out specific things. @screenstudio seems cool but does it…",
       "regionTags": [],
       "metrics": {
-        "likes": 1244,
-        "retweets": 85,
-        "replies": 86
+        "likes": 33,
+        "retweets": 0,
+        "replies": 36
       },
       "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
         {
           "slug": "multimodal",
           "label": "Images, Audio & Video",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "vision"
+            "video"
           ],
           "score": 1
         },
         {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
+          "slug": "tool-use",
+          "label": "AI Using Tools",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "gui"
+            "tools"
           ],
           "score": 1
         }
       ],
       "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.65,
+      "importanceScore": 0.66,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.78,
       "whyThisMatters": ""
     },
     {
       "id": "155df4c562ef069b",
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Mistral AI Blog",
@@ -114,7 +105,7 @@
     },
     {
       "id": "d7791bf6db4a148c",
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Mistral AI Blog",
@@ -168,7 +159,7 @@
     },
     {
       "id": "dbb71862316c0c6f",
-      "date": "2026-06-21",
+      "date": "2026-06-22",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -215,6 +206,61 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "e388e8cd5376e028",
+      "date": "2026-06-21",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "Agents are motivating so many healthy software habits. Open APIs, documentation (skills), tests…",
+      "url": "https://x.com/rauchg/status/2067936390285807940",
+      "publishedAt": "2026-06-19T11:43:50.000Z",
+      "content": "Agents are motivating so many healthy software habits. Open APIs, documentation (skills), tests (evals), Unix (CLIs), payment & commerce protocols, even wide 𝙰𝚌𝚌𝚎𝚙𝚝 use (markdown/json/html). The original vision of the WWW coming to life before our eyes.",
+      "summary": "Agents are motivating so many healthy software habits. Open APIs, documentation (skills), tests (evals), Unix (CLIs), payment & commerce protocols, even wide 𝙰𝚌𝚌𝚎𝚙𝚝 use (markdown/json/html). The original vision of…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 1244,
+        "retweets": 85,
+        "replies": 86
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "vision"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.65,
       "whyThisMatters": ""
     },
     {
@@ -2438,43 +2484,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "9afb9664f30a8f3c",
-      "date": "2026-05-19",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:sama",
-      "builderOrOrg": "Sam Altman",
-      "title": "ChatGPT Images 2.0 💚 India. Already more than 1 billion images created there; awesome to see.",
-      "url": "https://x.com/sama/status/2056165722804654196",
-      "publishedAt": "2026-05-18T00:11:24.000Z",
-      "content": "ChatGPT Images 2.0 💚 India. Already more than 1 billion images created there; awesome to see.",
-      "summary": "ChatGPT Images 2.0 💚 India. Already more than 1 billion images created there; awesome to see.",
-      "regionTags": [],
-      "metrics": {
-        "likes": 6805,
-        "retweets": 250,
-        "replies": 773
-      },
-      "topics": [
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "image"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]

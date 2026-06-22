@@ -1,8 +1,233 @@
 {
-  "generatedAt": "2026-06-21T06:19:48.667Z",
+  "generatedAt": "2026-06-22T01:17:32.608Z",
   "slug": "research",
   "label": "Research",
   "items": [
+    {
+      "id": "7ce27c31e8cbb2ec",
+      "date": "2026-06-22",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+      "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
+      "publishedAt": "2026-06-18T08:00:00.000Z",
+      "content": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
+      "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "reasoning"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7cb5e7bfae06ffe5",
+      "date": "2026-06-22",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+      "url": "https://openai.com/index/ai-chemist-improves-reaction",
+      "publishedAt": "2026-06-17T10:00:00.000Z",
+      "content": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
+      "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "autonomous"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d777fd066b69197e",
+      "date": "2026-06-22",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google AI Blog",
+      "sourceKey": "official:Google AI Blog",
+      "builderOrOrg": "Google",
+      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+      "publishedAt": "2026-06-17T15:00:00.000Z",
+      "content": "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
+      "summary": "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "bcd169ba5f3535a2",
+      "date": "2026-06-22",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "The Professor of Outputmaxxing — Anjney Midha, AMP",
+      "url": "https://www.latent.space/p/anj",
+      "publishedAt": "2026-06-18T17:30:00.000Z",
+      "content": "Last 4 days before regular tickets sell out at AI Engineer World&#8217;s Fair - this is the single biggest gathering of AI Engineers, Founders, Leaders, and Researchers in the world. Attendees get >$5000 worth of sponsor credits and talk tracks are looking FANTASTIC. Join us! The AI scaling debate always focuses on the question of &#8220;how do we get more GPUs?&#8221; but the better question may be: how do we make the most of ones we already have. The fact that a frontier lab like xAI could be running at sub-10% MFU (Model FLOPs Utilization) is just a hint at what the real problem may be. tweet For context, older frontier-scale training runs were already much higher than 10%. GPT-3 was around 21% MFU . Gopher was around 32% . Megatron-Turing NLG was around 30% . PaLM reached around 46% . And our guest Anjney says best-in-class MFU today is closer to 60&#8211;70% . PaLM: Scaling Language Modeling with Pathways It&#8217;s not necessarily that xAI is uniquely incompetent (it&#8217;s clear they have talented folks) but rather the priorities may be flipped in the GPU arms race. While GPU access is a bottleneck, simply increasing CapEx won&#8217;t automatically translate to better models as frontier AI is increasingly a systems problem : scheduling, utilization, networking, kernels, frameworks, data pipelines, parallelism, cluster reliability, and the thousand small decisions that determine whether your theoretical FLOPs become real training progress. From building Discord&#8217;s developer platform and backing frontier AI companies like Anthropic, Mistral, Black Forest Labs, and Periodic Labs to now building AMP&#8217;s independent compute grid, Anjney Midha has spent years close to the real bottlenecks of AI scaling. In this episode, Anjney joins swyx at Periodic Labs to unpack why the AI race is not just about buying more GPUs , why 95% utilization would have been considered an outage at Google, and why the next era of AI infrastructure has to be more aligned, more e…",
+      "summary": "We talk about how this legendary investor went from humble beginnings in Singapore to leading rounds in Anthropic, Mistral, Black Forest Labs, and Periodic Labs... and the AMP secret master plan!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "developer"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "dbb71862316c0c6f",
+      "date": "2026-06-22",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Midjourney Medical: scan your organs like you step on a scale",
+      "url": "https://www.latent.space/p/ainews-midjourney-medical-scan-your",
+      "publishedAt": "2026-06-18T04:23:05.000Z",
+      "content": "It&#8217;s a tough choice whether or not the buzzy Midjourney Medical launch today counts as AINews. Yes, Midjourney is one of the most significant and unique AI labs in the world. No, as David Holz was quick to point out, there&#8217;s not even any AI immediately present in the Scanner or Spa . But yes, ultrasound CT imaging obviously needs heavy AI assistance, and unlocks massive new applications downstream as BioHub&#8217;s CryoEMs did for ESM . And no, as Hacker News is quick to point out , there are a lot of unsolved questions as to how ready or useful this scanner really is. And yes, that was me in the livestream, which we are transcribing to save you 2 hours . Overall the vibe was electric and inspiring; I sat next to Robert Scoble, who was there at the original iPhone and Tesla (and Google Glass) launches, who agreed that this launch was comparable in ambition; and next to Tanishq Abraham, who, by sheer coincidence, just so happened to tweet out this Nature paper on ultrasound CT : On to the facts you must know. Facts / Announcements Midjourney announced a medical imaging project , calling it the Midjourney Scanner . The device is described as a full-body ultrasonic CT / full-body ultrasound system. David Holz framed it as the &#8220;first new whole-body medical imaging modality in 50 years.&#8221; The scanner uses ultrasound rather than MRI, X-ray, or CT radiation. The system involves: 8,960 transducers per chip/system 40 systems arranged in a ring 358,000 ultrasonic elements total A 70 cm diameter ring Waves traveling through water at about 1,481 m/s Data capture around 17 GB/s Around 40 GB of data per body slice Reconstruction using 21 servers Claimed 2 PFLOPS compute Claimed 806 TB raw data Lift movement at 4 cm/s Goal of several hundred slices in 60 seconds Claimed resolution of internal tissue details down to about 0.5 mm Current imagery shown included: Real body slices Comparisons with MRI, especially thigh/muscle boundary imagery Ultrasonic phantom…",
+      "summary": "The only bootstrapped frontier lab announces its second product and second",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "paper"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "image"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
     {
       "id": "e8f6a78cd4fdcce7",
       "date": "2026-06-21",
@@ -115,94 +340,6 @@
       "whyThisMatters": ""
     },
     {
-      "id": "7ce27c31e8cbb2ec",
-      "date": "2026-06-21",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
-      "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
-      "publishedAt": "2026-06-18T08:00:00.000Z",
-      "content": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
-      "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "reasoning",
-          "label": "AI Thinking",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "reasoning"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "7cb5e7bfae06ffe5",
-      "date": "2026-06-21",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
-      "url": "https://openai.com/index/ai-chemist-improves-reaction",
-      "publishedAt": "2026-06-17T10:00:00.000Z",
-      "content": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
-      "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "autonomous"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
       "id": "5831b40ddea3782c",
       "date": "2026-06-21",
       "sourceType": "newsletter",
@@ -255,143 +392,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d777fd066b69197e",
-      "date": "2026-06-21",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google AI Blog",
-      "sourceKey": "official:Google AI Blog",
-      "builderOrOrg": "Google",
-      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
-      "publishedAt": "2026-06-17T15:00:00.000Z",
-      "content": "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
-      "summary": "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "bcd169ba5f3535a2",
-      "date": "2026-06-21",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "The Professor of Outputmaxxing — Anjney Midha, AMP",
-      "url": "https://www.latent.space/p/anj",
-      "publishedAt": "2026-06-18T17:30:00.000Z",
-      "content": "Last 4 days before regular tickets sell out at AI Engineer World&#8217;s Fair - this is the single biggest gathering of AI Engineers, Founders, Leaders, and Researchers in the world. Attendees get >$5000 worth of sponsor credits and talk tracks are looking FANTASTIC. Join us! The AI scaling debate always focuses on the question of &#8220;how do we get more GPUs?&#8221; but the better question may be: how do we make the most of ones we already have. The fact that a frontier lab like xAI could be running at sub-10% MFU (Model FLOPs Utilization) is just a hint at what the real problem may be. tweet For context, older frontier-scale training runs were already much higher than 10%. GPT-3 was around 21% MFU . Gopher was around 32% . Megatron-Turing NLG was around 30% . PaLM reached around 46% . And our guest Anjney says best-in-class MFU today is closer to 60&#8211;70% . PaLM: Scaling Language Modeling with Pathways It&#8217;s not necessarily that xAI is uniquely incompetent (it&#8217;s clear they have talented folks) but rather the priorities may be flipped in the GPU arms race. While GPU access is a bottleneck, simply increasing CapEx won&#8217;t automatically translate to better models as frontier AI is increasingly a systems problem : scheduling, utilization, networking, kernels, frameworks, data pipelines, parallelism, cluster reliability, and the thousand small decisions that determine whether your theoretical FLOPs become real training progress. From building Discord&#8217;s developer platform and backing frontier AI companies like Anthropic, Mistral, Black Forest Labs, and Periodic Labs to now building AMP&#8217;s independent compute grid, Anjney Midha has spent years close to the real bottlenecks of AI scaling. In this episode, Anjney joins swyx at Periodic Labs to unpack why the AI race is not just about buying more GPUs , why 95% utilization would have been considered an outage at Google, and why the next era of AI infrastructure has to be more aligned, more e…",
-      "summary": "We talk about how this legendary investor went from humble beginnings in Singapore to leading rounds in Anthropic, Mistral, Black Forest Labs, and Periodic Labs... and the AMP secret master plan!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "developer"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "dbb71862316c0c6f",
-      "date": "2026-06-21",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Midjourney Medical: scan your organs like you step on a scale",
-      "url": "https://www.latent.space/p/ainews-midjourney-medical-scan-your",
-      "publishedAt": "2026-06-18T04:23:05.000Z",
-      "content": "It&#8217;s a tough choice whether or not the buzzy Midjourney Medical launch today counts as AINews. Yes, Midjourney is one of the most significant and unique AI labs in the world. No, as David Holz was quick to point out, there&#8217;s not even any AI immediately present in the Scanner or Spa . But yes, ultrasound CT imaging obviously needs heavy AI assistance, and unlocks massive new applications downstream as BioHub&#8217;s CryoEMs did for ESM . And no, as Hacker News is quick to point out , there are a lot of unsolved questions as to how ready or useful this scanner really is. And yes, that was me in the livestream, which we are transcribing to save you 2 hours . Overall the vibe was electric and inspiring; I sat next to Robert Scoble, who was there at the original iPhone and Tesla (and Google Glass) launches, who agreed that this launch was comparable in ambition; and next to Tanishq Abraham, who, by sheer coincidence, just so happened to tweet out this Nature paper on ultrasound CT : On to the facts you must know. Facts / Announcements Midjourney announced a medical imaging project , calling it the Midjourney Scanner . The device is described as a full-body ultrasonic CT / full-body ultrasound system. David Holz framed it as the &#8220;first new whole-body medical imaging modality in 50 years.&#8221; The scanner uses ultrasound rather than MRI, X-ray, or CT radiation. The system involves: 8,960 transducers per chip/system 40 systems arranged in a ring 358,000 ultrasonic elements total A 70 cm diameter ring Waves traveling through water at about 1,481 m/s Data capture around 17 GB/s Around 40 GB of data per body slice Reconstruction using 21 servers Claimed 2 PFLOPS compute Claimed 806 TB raw data Lift movement at 4 cm/s Goal of several hundred slices in 60 seconds Claimed resolution of internal tissue details down to about 0.5 mm Current imagery shown included: Real body slices Comparisons with MRI, especially thigh/muscle boundary imagery Ultrasonic phantom…",
-      "summary": "The only bootstrapped frontier lab announces its second product and second",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "paper"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "image"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
