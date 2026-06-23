@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T04:37:11.916Z",
+  "generatedAt": "2026-06-23T05:16:24.351Z",
   "date": "2026-06-23",
   "items": [
     {
@@ -25,7 +25,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -89,7 +89,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -126,7 +126,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -237,7 +237,7 @@
       "section": "Builders",
       "importanceScore": 0.84,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.65,
       "whyThisMatters": ""
     },
@@ -264,7 +264,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -328,7 +328,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -383,7 +383,7 @@
       "section": "Builders",
       "importanceScore": 0.84,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.65,
       "whyThisMatters": ""
     },
@@ -458,7 +458,7 @@
       "section": "Builders",
       "importanceScore": 0.84,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.65,
       "whyThisMatters": ""
     },
@@ -550,7 +550,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -1203,7 +1203,7 @@
       "section": "Official Sources",
       "importanceScore": 0.72,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.57,
       "whyThisMatters": ""
     },
@@ -2023,23 +2023,23 @@
   ],
   "selectedItems": [
     {
-      "id": "5c4758ad79c54a1a",
+      "id": "c5c045bda839437d",
       "date": "2026-06-23",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "Another new idea to push the state of AI architectures forward. Sakana released a model that ef…",
-      "url": "https://x.com/levie/status/2068917230570795178",
-      "publishedAt": "2026-06-22T04:41:21.000Z",
-      "content": "Another new idea to push the state of AI architectures forward. Sakana released a model that effectively uses a mixture of models to get work done. You get a single API but then the work gets farmed out the model that best performs the task. “Fugu manages model selection, delegation, verification, and synthesis automatically. It solves tasks directly when that is enough, or coordinates a team of expert models when a problem calls for more. The complexity of a multi-agent system never reaches yo…",
-      "summary": "Another new idea to push the state of AI architectures forward. Sakana released a model that effectively uses a mixture of models to get work done. You get a single API but then the work gets farmed out the model that b…",
+      "sourceKey": "x:petergyang",
+      "builderOrOrg": "Peter Yang",
+      "title": "Why HTML turned out to be the foundation for agentic video making from @liu8in: “We’ve been try…",
+      "url": "https://x.com/petergyang/status/2068755908319236338",
+      "publishedAt": "2026-06-21T18:00:18.000Z",
+      "content": "Why HTML turned out to be the foundation for agentic video making from @liu8in: “We’ve been trying to build a video agent. However, we learned the hard way that agents have no visual intelligence. So that’s when we turned to code. HTML is the LLM’s native language. LLMs can express not only information, but also visual aesthetics through HTML, CSS, and JavaScript. Footage, images, assets, SVGs can all sit on top of HTML.\" 📌 As an example, see how you can make a product video from any website U…",
+      "summary": "Why HTML turned out to be the foundation for agentic video making from @liu8in: “We’ve been trying to build a video agent. However, we learned the hard way that agents have no visual intelligence. So that’s when we turn…",
       "regionTags": [],
       "metrics": {
-        "likes": 206,
-        "retweets": 23,
-        "replies": 25
+        "likes": 46,
+        "retweets": 3,
+        "replies": 6
       },
       "topics": [
         {
@@ -2048,9 +2048,28 @@
           "confidence": 0.69,
           "rationale": [
             "agent",
-            "multi-agent"
+            "agentic"
           ],
           "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "image",
+            "video"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
         }
       ],
       "section": "Builders",
@@ -2058,25 +2077,27 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.65,
-      "whyThisMatters": "Every company building AI products right now is managing a growing stack of specialized models. Your team is writing glue code to route tasks between them. Fugu is a bet that this routing layer becomes a product, not something you build yourself. If it works reliably, the companies currently selling you \"choose the right model for each task\" consulting are in trouble."
+      "whyThisMatters": "If you're building anything that asks AI to create visual output, this is the architecture worth copying. The frame \"what format does the model actually understand?\" is more useful than \"what output do I want?\" and it applies well beyond video."
     },
     {
-      "id": "30c92330dda31d21",
+      "id": "6965dfbd08a94cbb",
       "date": "2026-06-23",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google DeepMind Blog",
-      "sourceKey": "official:Google DeepMind Blog",
-      "builderOrOrg": "Google DeepMind",
-      "title": "Securing the future of AI agents",
-      "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
-      "publishedAt": "2026-06-16T15:46:31.000Z",
-      "content": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.",
-      "summary": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "Coding agents will squeeze every ounce of IKEA effect out of you, if you let them.",
+      "url": "https://x.com/rauchg/status/2068778558672273422",
+      "publishedAt": "2026-06-21T19:30:19.000Z",
+      "content": "Coding agents will squeeze every ounce of IKEA effect out of you, if you let them.",
+      "summary": "Coding agents will squeeze every ounce of IKEA effect out of you, if you let them.",
+      "regionTags": [],
+      "metrics": {
+        "likes": 1335,
+        "retweets": 37,
+        "replies": 86
+      },
       "topics": [
         {
           "slug": "agents",
@@ -2086,33 +2107,78 @@
             "agent"
           ],
           "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
         }
       ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
+      "section": "Builders",
+      "importanceScore": 0.84,
       "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": "Most companies deploying AI agents are doing so with the same security assumptions they use for regular software. An agent that can browse, write code, and call APIs is a much larger attack surface. DeepMind publishing their internal framework gives security teams something concrete to pressure-test their own setups against."
+      "digestScore": 0.65,
+      "whyThisMatters": "This isn't an abstract psychology problem. Engineers who don't feel ownership over their code make worse decisions about it. If your team ships agent-written code nobody feels responsible for, the blame-shifting starts before the first bug lands in production."
     },
     {
-      "id": "d088bfb688c2b21c",
+      "id": "cbbbe5faf4b95a30",
+      "date": "2026-06-23",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:swyx",
+      "builderOrOrg": "Swyx",
+      "title": "btw i've been shopping around for insurers for the New Media Lab we are setting up (basically t…",
+      "url": "https://x.com/swyx/status/2068924451887129055",
+      "publishedAt": "2026-06-22T05:10:02.000Z",
+      "content": "btw i've been shopping around for insurers for the New Media Lab we are setting up (basically the creative playground housing swyx inc) and yeah the NPS of Corgi is insanely high my real estate broker: \"just go with corgi they are covering every single one of my clients rn\" breaking through with ~100% greenfield market share like this is unheard of in the insurance industry",
+      "summary": "btw i've been shopping around for insurers for the New Media Lab we are setting up (basically the creative playground housing swyx inc) and yeah the NPS of Corgi is insanely high my real estate broker: \"just go with cor…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 56,
+        "retweets": 1,
+        "replies": 9
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "6eaba6a6b7ca5e40",
       "date": "2026-06-23",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
       "sourceKey": "x:thsottiaux",
       "builderOrOrg": "Thibault Sottiaux",
-      "title": "What should we improve in the Codex app. What's not delightful?",
-      "url": "https://x.com/thsottiaux/status/2068736857312198928",
-      "publishedAt": "2026-06-21T16:44:36.000Z",
-      "content": "What should we improve in the Codex app. What's not delightful?",
-      "summary": "What should we improve in the Codex app. What's not delightful?",
+      "title": "Now that you can bank usage resets in Codex. Are you a hoarder or do you use them without break…",
+      "url": "https://x.com/thsottiaux/status/2068792010715324444",
+      "publishedAt": "2026-06-21T20:23:46.000Z",
+      "content": "Now that you can bank usage resets in Codex. Are you a hoarder or do you use them without breaking a sweat? How do you think about them?",
+      "summary": "Now that you can bank usage resets in Codex. Are you a hoarder or do you use them without breaking a sweat? How do you think about them?",
       "regionTags": [],
       "metrics": {
-        "likes": 2581,
-        "retweets": 57,
-        "replies": 3380
+        "likes": 2237,
+        "retweets": 27,
+        "replies": 868
       },
       "topics": [
         {
@@ -2130,63 +2196,26 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": "Yesterday we covered Sottiaux's hint that current Codex models are \"okayish at front-end\" with better ones coming. Today he's collecting a public bug list. The combination tells you something: OpenAI is close enough to confident about the next generation that they're already cataloging what needs fixing when it ships. If you've been holding off on AI coding tools because the UI output felt off, now is a good time to say so."
+      "whyThisMatters": "The fact that this generated nearly 900 replies tells you developers are actively strategizing around AI usage limits. When people start hoarding AI compute the way they hoard vacation days, the pricing model has officially become its own behavioral problem."
     },
     {
-      "id": "6047f15eac8082f3",
+      "id": "97cef04367244267",
       "date": "2026-06-23",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:rauchg",
-      "builderOrOrg": "Guillermo Rauch",
-      "title": "The team cooked on https://t.co/A1yfEM3p7O performance. 'Everything the light touches' was opti…",
-      "url": "https://x.com/rauchg/status/2068838709517336756",
-      "publishedAt": "2026-06-21T23:29:20.000Z",
-      "content": "The team cooked on https://t.co/A1yfEM3p7O performance. 'Everything the light touches' was optimized Simba. Painting, layout, WebGPU shaders, blocking scripts. Every frame scrutinized. The best part is that we'll be updating our https://t.co/pYz1Gn9F9b with the lessons learned! https://t.co/NkxvURcNbq",
-      "summary": "The team cooked on https://t.co/A1yfEM3p7O performance. 'Everything the light touches' was optimized Simba. Painting, layout, WebGPU shaders, blocking scripts. Every frame scrutinized. The best part is that we'll be upd…",
+      "sourceKey": "x:thenanyu",
+      "builderOrOrg": "Nan Yu",
+      "title": "“Quality is irrational” is a great way to describe it. You have to have an irrational level of…",
+      "url": "https://x.com/thenanyu/status/2068778750800531640",
+      "publishedAt": "2026-06-21T19:31:04.000Z",
+      "content": "“Quality is irrational” is a great way to describe it. You have to have an irrational level of commitment to constantly choose quality and an irrational level of self-belief that controlling things top to bottom will yield better results than using common frameworks. https://t.co/NPtm8c7sid",
+      "summary": "“Quality is irrational” is a great way to describe it. You have to have an irrational level of commitment to constantly choose quality and an irrational level of self-belief that controlling things top to bottom will yi…",
       "regionTags": [],
       "metrics": {
-        "likes": 791,
-        "retweets": 20,
-        "replies": 52
-      },
-      "topics": [
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": "Performance deep-dives that get published as guides are worth more than the original project. If you're shipping web apps with AI-generated front-ends (and your output quality is still limited, as yesterday's Codex story noted), Vercel's coming documentation update could be a practical cheat sheet for making that output not feel slow."
-    },
-    {
-      "id": "73e2e1cf4986fc3a",
-      "date": "2026-06-23",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:ryolu_",
-      "builderOrOrg": "Ryo Lu",
-      "title": "missing wooden shelves so i made Books in ryOS started in Cursor mobile, then hand-tuned the an…",
-      "url": "https://x.com/ryolu_/status/2068923971136098633",
-      "publishedAt": "2026-06-22T05:08:08.000Z",
-      "content": "missing wooden shelves so i made Books in ryOS started in Cursor mobile, then hand-tuned the animations and textures until things felt right https://t.co/f2yFZ2N1CQ",
-      "summary": "missing wooden shelves so i made Books in ryOS started in Cursor mobile, then hand-tuned the animations and textures until things felt right https://t.co/f2yFZ2N1CQ",
-      "regionTags": [],
-      "metrics": {
-        "likes": 324,
-        "retweets": 5,
-        "replies": 19
+        "likes": 69,
+        "retweets": 6,
+        "replies": 2
       },
       "topics": [],
       "section": "Builders",
@@ -2194,7 +2223,7 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
+      "whyThisMatters": "This cuts directly at the AI-speed moment everyone is in. When agents can generate code, copy, and designs in seconds, the pressure to ship fast gets louder and the case for slowing down to get it right gets harder to make. \"Quality is irrational\" is a useful reminder that it was always a deliberate choice, not a default."
     }
   ],
   "topicIndex": [
@@ -2278,8 +2307,7 @@
     }
   ],
   "sections": [
-    "Builders",
-    "Official Sources"
+    "Builders"
   ],
   "stats": {
     "totalItems": 54,
