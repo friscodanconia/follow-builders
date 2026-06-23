@@ -1,8 +1,146 @@
 {
-  "generatedAt": "2026-06-22T06:42:36.325Z",
+  "generatedAt": "2026-06-23T00:34:49.293Z",
   "slug": "research",
   "label": "Research",
   "items": [
+    {
+      "id": "d777fd066b69197e",
+      "date": "2026-06-23",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google AI Blog",
+      "sourceKey": "official:Google AI Blog",
+      "builderOrOrg": "Google",
+      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+      "publishedAt": "2026-06-17T15:00:00.000Z",
+      "content": "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
+      "summary": "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "0e81c6e62f9ffa74",
+      "date": "2026-06-23",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Import AI",
+      "sourceKey": "editorial:Import AI",
+      "builderOrOrg": "Jack Clark",
+      "title": "Import AI 462: Superpersuasion; self-sustaining AI; paths to ASI",
+      "url": "https://jack-clark.net/2026/06/22/import-ai-462-superpersuasion-self-sustaining-ai-paths-to-asi/",
+      "publishedAt": "2026-06-22T12:31:45.000Z",
+      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI can decisively out-persuade humans: …“AI systems were reliably more persuasive than expert humans”&#8230; Researchers with the University of Oxford, UK AI Security Institute, Stanford University, and the London School of Economics and Political Science, have studied how well AI systems can persuade humans to change their minds around policy issues and change how much money they might donate to charity. The results are definitive: across four experiments involving 18,978 conversations across 6,923 people, AI systems are, today, better than humans at text-based persuasion with real world consequences &#8211; though humans can be equivalent to them if we place some artificial constraints on the AI systems. “AI systems were reliably more persuasive than expert humans, even when expert humans chose their issues, researched in advance, underwent hours of live, structured practice, and were incentivized with £1,000 cash bonuses”, they write. “AI’s advantage stemmed from rapidly deploying larger quantities of information: after coaching, expert humans could tie an AI constrained to respond at human speeds and with human-length messages.” “AI’s advantage extends to consequential real-world behavior: AI was nearly 3x more effective than professional canvassers from a UK fundraising firm at raising real-money donations to Save the Children.” The strongest persuaders were Opus 4.1 and Opus 4.6, followed by a range of models from OpenAI (GPT-4o and GPT-5.4), Google (Gemini 2.5 Pro), and xAI (Grok 4.20). What they studied and what they found: The researchers evaluated the AI systems in four different studies. Study 1 &#8211; persuasion: “Persuadees first rated their agreement with one of 10 prespecified UK policy stances on a 0–100 scale, then were randomized in real time (via a custom multiplayer…",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI can decisively out-persuade humans:…“AI systems were r…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.66,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "bcd169ba5f3535a2",
+      "date": "2026-06-23",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "The Professor of Outputmaxxing — Anjney Midha, AMP",
+      "url": "https://www.latent.space/p/anj",
+      "publishedAt": "2026-06-18T17:30:00.000Z",
+      "content": "Last 4 days before regular tickets sell out at AI Engineer World&#8217;s Fair - this is the single biggest gathering of AI Engineers, Founders, Leaders, and Researchers in the world. Attendees get >$5000 worth of sponsor credits and talk tracks are looking FANTASTIC. Join us! The AI scaling debate always focuses on the question of &#8220;how do we get more GPUs?&#8221; but the better question may be: how do we make the most of ones we already have. The fact that a frontier lab like xAI could be running at sub-10% MFU (Model FLOPs Utilization) is just a hint at what the real problem may be. tweet For context, older frontier-scale training runs were already much higher than 10%. GPT-3 was around 21% MFU . Gopher was around 32% . Megatron-Turing NLG was around 30% . PaLM reached around 46% . And our guest Anjney says best-in-class MFU today is closer to 60&#8211;70% . PaLM: Scaling Language Modeling with Pathways It&#8217;s not necessarily that xAI is uniquely incompetent (it&#8217;s clear they have talented folks) but rather the priorities may be flipped in the GPU arms race. While GPU access is a bottleneck, simply increasing CapEx won&#8217;t automatically translate to better models as frontier AI is increasingly a systems problem : scheduling, utilization, networking, kernels, frameworks, data pipelines, parallelism, cluster reliability, and the thousand small decisions that determine whether your theoretical FLOPs become real training progress. From building Discord&#8217;s developer platform and backing frontier AI companies like Anthropic, Mistral, Black Forest Labs, and Periodic Labs to now building AMP&#8217;s independent compute grid, Anjney Midha has spent years close to the real bottlenecks of AI scaling. In this episode, Anjney joins swyx at Periodic Labs to unpack why the AI race is not just about buying more GPUs , why 95% utilization would have been considered an outage at Google, and why the next era of AI infrastructure has to be more aligned, more e…",
+      "summary": "We talk about how this legendary investor went from humble beginnings in Singapore to leading rounds in Anthropic, Mistral, Black Forest Labs, and Periodic Labs... and the AMP secret master plan!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "developer"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
     {
       "id": "7ce27c31e8cbb2ec",
       "date": "2026-06-22",
@@ -89,92 +227,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d777fd066b69197e",
-      "date": "2026-06-22",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google AI Blog",
-      "sourceKey": "official:Google AI Blog",
-      "builderOrOrg": "Google",
-      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
-      "publishedAt": "2026-06-17T15:00:00.000Z",
-      "content": "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
-      "summary": "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "bcd169ba5f3535a2",
-      "date": "2026-06-22",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "The Professor of Outputmaxxing — Anjney Midha, AMP",
-      "url": "https://www.latent.space/p/anj",
-      "publishedAt": "2026-06-18T17:30:00.000Z",
-      "content": "Last 4 days before regular tickets sell out at AI Engineer World&#8217;s Fair - this is the single biggest gathering of AI Engineers, Founders, Leaders, and Researchers in the world. Attendees get >$5000 worth of sponsor credits and talk tracks are looking FANTASTIC. Join us! The AI scaling debate always focuses on the question of &#8220;how do we get more GPUs?&#8221; but the better question may be: how do we make the most of ones we already have. The fact that a frontier lab like xAI could be running at sub-10% MFU (Model FLOPs Utilization) is just a hint at what the real problem may be. tweet For context, older frontier-scale training runs were already much higher than 10%. GPT-3 was around 21% MFU . Gopher was around 32% . Megatron-Turing NLG was around 30% . PaLM reached around 46% . And our guest Anjney says best-in-class MFU today is closer to 60&#8211;70% . PaLM: Scaling Language Modeling with Pathways It&#8217;s not necessarily that xAI is uniquely incompetent (it&#8217;s clear they have talented folks) but rather the priorities may be flipped in the GPU arms race. While GPU access is a bottleneck, simply increasing CapEx won&#8217;t automatically translate to better models as frontier AI is increasingly a systems problem : scheduling, utilization, networking, kernels, frameworks, data pipelines, parallelism, cluster reliability, and the thousand small decisions that determine whether your theoretical FLOPs become real training progress. From building Discord&#8217;s developer platform and backing frontier AI companies like Anthropic, Mistral, Black Forest Labs, and Periodic Labs to now building AMP&#8217;s independent compute grid, Anjney Midha has spent years close to the real bottlenecks of AI scaling. In this episode, Anjney joins swyx at Periodic Labs to unpack why the AI race is not just about buying more GPUs , why 95% utilization would have been considered an outage at Google, and why the next era of AI infrastructure has to be more aligned, more e…",
-      "summary": "We talk about how this legendary investor went from humble beginnings in Singapore to leading rounds in Anthropic, Mistral, Black Forest Labs, and Periodic Labs... and the AMP secret master plan!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "developer"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -2257,57 +2309,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "53ef9f406949e3ee",
-      "date": "2026-06-03",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "Unsupervised Learning",
-      "sourceKey": "podcast:Unsupervised Learning",
-      "builderOrOrg": "Unsupervised Learning",
-      "title": "Ep 88: Unpacking DeepMind&apos;s Quest for SuperIntelligence with Demis Hassabis&apos; Biographer",
-      "url": "https://www.youtube.com/@RedpointAI",
-      "publishedAt": "2026-06-01T12:46:52.000Z",
-      "content": "Speaker 1 | 00:00 - 00:05 Demis has a Nobel Prize. Sam didn't finish his first degree. Therefore, Demis doesn't take Sam very seriously. Speaker 2 | 00:05 - 00:09 Do you think he feels like or or will have to become more of a public figure than he is today? Speaker 1 | 00:09 - 00:12 Demis, in some ways, is too sensible. Speaker 2 | 00:12 - 00:15 What was the moment, I guess, your view of him kind of shifted the most? Speaker 1 | 00:15 - 00:28 He would sometimes erupt in these conversations I was having, and he would start banging the table and saying, maybe if we approach science the right way, we understand more about nature, we will be getting closer to something that we could perhaps call God. Speaker 2 | 00:28 - 01:02 Sebastian Malaby spent over thirty hours with DeepMind CEO and cofounder, Demis Esabas, in preparation to write his book, The Infinity Machine. I got to sit down with Sebastian to get all his reflections on this experience. It was fascinating to talk about some of the stories that Sebastian reported on in this book, including the fact that Reid Hoffman offered a billion dollars to Demis to spin DeepMind out of Google at some point. We talked about Demis' relationship with Elon and how that's evolved over the years, as well as what he thinks of Sam, Dario, and the general relationship between all the AI leaders in the space today. And we hit on Sebastian's reflections on Demis, what motivates him, what his blind spots are. Speaker 2 | 01:02 - 01:20 Just a fascinating conversation with someone who's spent unprecedented time with someone who's really, at the cutting edge of AI today. I think folks will really enjoy Sebastian's candid takes here. Without further ado, here he is. Well, Sebastian, thanks so much for coming on the podcast. Really appreciate it. Speaker 1 | 01:20 - 01:21 Thank you. It's great to be with you. Speaker 2 | 01:21 - 01:42 I feel like the Infinity Machine and your kind of story of DeepMind and Demis Esabas has captivated a bunch of folks in the AI world. I know that I inhaled this book. I think I finished it in, like, twenty four hours. It's just a a gripping story, and you got this just incredible access to Demis. I think, you know, the sitting in this pub for for multi hours at a time, talking about all sorts of things. Speaker 2 | 01:42 - 02:16 Just just a fascinating, you know, opportunity and window into to definitely one of the most interesting people and and companies in this AI race today. And so appreciate you writing the book and appreciate you coming on the podcast to talk about So our goal today is to, you know, use your reporting to understand the people, decisions, and dynamics that shape the AI race that we're living through. And so maybe to start, I feel like one of the interesting themes in your book is whether this race that we have today between the labs was inevitable or could have gone differently, if different players or decisions had had been done. I guess I'm curious. After doing this work, do you think there was another path, or or was this kind of inevitable? Speaker 1 | 02:16 - 02:40 You know, I think it was inevitable. I think when you have this sort of supremely strong technology, there's gonna be multiple labs in multiple countries that are just desperate to try and build it. And we know the China stack, you know, is pretty strong. And so despite the lack of semiconductors, they were gonna have a go at it and they are actually doing pretty well. And then clearly in The US, and then in a few other countries, you've got the Austral in France, Coher in Canada. Speaker 1 | 02:40 - 02:58 You know, there was bound to be many players just as it's the technology is too sweet for it to be only interesting to one team. What's strange about this whole debate though is that's not how people saw it ex ante, that, you know, when Demis was starting DeepMind, he really hoped that he could avoid the race dynamic. It seems naive in retrospect, but that's what he hoped. Speaker…",
-      "summary": "Speaker 1 | 00:00 - 00:05 Demis has a Nobel Prize. Sam didn't finish his first degree. Therefore, Demis doesn't take Sam very seriously. Speaker 2 | 00:05 - 00:09 Do you think he feels like or or will have to become more of a public figure…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "science"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.52,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.44,
       "whyThisMatters": ""
     }
   ]
