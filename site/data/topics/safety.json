@@ -1,11 +1,100 @@
 {
-  "generatedAt": "2026-06-23T05:16:24.351Z",
+  "generatedAt": "2026-06-24T00:50:53.544Z",
   "slug": "safety",
   "label": "AI Safety",
   "items": [
     {
+      "id": "37b8010b6c50a794",
+      "date": "2026-06-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Helping build shared standards for advanced AI",
+      "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+      "publishedAt": "2026-06-23T13:00:00.000Z",
+      "content": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
+      "summary": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "eval",
+            "evaluation"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "9d39800e7fb04f05",
+      "date": "2026-06-24",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Introducing Claude Tag \\ Anthropic",
+      "url": "https://www.anthropic.com/news/introducing-claude-tag",
+      "publishedAt": null,
+      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
       "id": "9c1e867ce7a4461c",
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "ChinaTalk",
@@ -56,7 +145,7 @@
     },
     {
       "id": "a8f378a8daa35eaf",
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "ChinaTalk",
@@ -2220,115 +2309,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d607f1aa7f746177",
-      "date": "2026-04-27",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Import AI",
-      "sourceKey": "editorial:Import AI",
-      "builderOrOrg": "Jack Clark",
-      "title": "Import AI 454: Automating alignment research; safety study of a Chinese model; HiFloat4",
-      "url": "https://jack-clark.net/2026/04/20/import-ai-454-automating-alignment-research-safety-study-of-a-chinese-model-hifloat4/",
-      "publishedAt": "2026-04-20T12:30:19.000Z",
-      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Huawei’s HiFloat4 training format beats Western-developed MXFP4 in Ascend chip bakeoff: …Could this also be a symptom of the impact of export controls in driving Chinese interest towards maximizing training and inference efficiency? Perhaps… Huawei researchers have tested out HiFloat4, a 4-bit precision format for AI training and inference, against MXFP4, an Open Compute Project 4-bit format, and found that HiFloat4 is superior. This is interesting because it correlates to a broader level of interest in Chinese companies seeking to develop their own low-precision data formats explicitly coupled with their own hardware platforms. “Our goal is to enable efficient FP4 LLM pretraining on specialized AI accelerators with strict power constraints. We focus on Huawei Ascend NPUs, which are domain-specific accelerators designed for deep learning workloads,” they write. What they tested: In this paper, the authors train 3 model types on HuaWei Ascend chips &#8211; OpenPangu-1B, Llama3-8B, and Qwen3-MoE-30B. In tests, the bigger they make the models, the better HiFloat4 does at reducing its loss error on these models relative to a BF16 baseline &#8211; and in all cases it does better than MXFP4. What they found: “We conduct a systematic evaluation of the HiFloat4 (HiF4) format and show that it achieves lower relative loss (≈ 1.0%) compared to MXFP4 (≈ 1.5%) when measured against a full-precision baseline,” they write. “HiF4 consistently achieves significantly lower relative error compared to MXFP4. For Llama and Qwen, HiF4 attains an error gap of less than 1% with respect to the baseline… HiF4 gets within ~1% of BF16 loss with only RHT as a stabilization trick, while MXFP4 needs RHT + stochastic rounding + truncation-free scaling to get to ~1.5%.” Why this matters &#8211; symptom of hardware maturity, and a po…",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Huawei’s HiFloat4 training format beats Western-developed MXFP4 in Asce…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "paper"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "eval",
-            "evaluation"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.69,
-          "rationale": [
-            "safety",
-            "alignment"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "6757328ba97d0f31",
-      "date": "2026-04-25",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "GPT-5.5 is live. We’ve been testing the model over the last couple of weeks at Box on our most…",
-      "url": "https://x.com/levie/status/2047387742951313910",
-      "publishedAt": "2026-04-23T18:50:51.000Z",
-      "content": "GPT-5.5 is live. We’ve been testing the model over the last couple of weeks at Box on our most complex knowledge work evals, and the model saw a 10 percentage point jump on accuracy of these enterprise content tasks vs. GPT-5.4. We test the model on a variety of tasks that represent real work scenarios in financial services, healthcare, public sector, and more industries, dealing with financial filings, clinical records, policy documents, and creative content. Here are some of the examples of t…",
-      "summary": "GPT-5.5 is live. We’ve been testing the model over the last couple of weeks at Box on our most complex knowledge work evals, and the model saw a 10 percentage point jump on accuracy of these enterprise content tasks vs.…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 255,
-        "retweets": 19,
-        "replies": 32
-      },
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "eval"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "policy"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.78,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.61,
       "whyThisMatters": ""
     }
   ]
