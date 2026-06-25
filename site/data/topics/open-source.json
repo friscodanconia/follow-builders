@@ -1,8 +1,153 @@
 {
-  "generatedAt": "2026-06-24T05:12:52.695Z",
+  "generatedAt": "2026-06-25T01:17:02.504Z",
   "slug": "open-source",
   "label": "Open Source",
   "items": [
+    {
+      "id": "adac491414563e42",
+      "date": "2026-06-25",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "Good post on the dynamics of AI pricing right now. We’re basically going to see a barbell dynam…",
+      "url": "https://x.com/levie/status/2069639600310767616",
+      "publishedAt": "2026-06-24T04:31:47.000Z",
+      "content": "Good post on the dynamics of AI pricing right now. We’re basically going to see a barbell dynamic on pricing between high cost frontier models and cheap but good open or closed weights models. Then the question is how do you maximize efficiency from the frontier models, and get better quality and performance of the cheaper models. That’s where the applied AI layer comes in. The applied layer can route to the best model at any time given the workload at hand, as well as mitigate either high toke…",
+      "summary": "Good post on the dynamics of AI pricing right now. We’re basically going to see a barbell dynamic on pricing between high cost frontier models and cheap but good open or closed weights models. Then the question is how d…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 108,
+        "retweets": 11,
+        "replies": 20
+      },
+      "topics": [
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "weights"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "4220aae7755a1c93",
+      "date": "2026-06-25",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Talos: Scaling rare disease diagnosis with automated, iterative genomic reanalysis",
+      "url": "https://www.microsoft.com/en-us/research/blog/talos-scaling-rare-disease-diagnosis-with-automated-iterative-genomic-reanalysis/",
+      "publishedAt": "2026-06-24T14:00:14.000Z",
+      "content": "At a glance Talos is an open-source tool for automated, iterative reanalysis of genomic data in rare disease. It efficiently re-examines stored sequencing data as scientific knowledge evolves and flags variants with newly actionable evidence. Talos is tuned for a low false-positive rate: across a validation set of nearly 1,100 patients, it recovered 90% of in-scope diagnoses while flagging only 1.3 candidate variants per patient for expert review. This is essential to making reanalysis sustainable at scale. Deployed across a prospective cohort of almost 5,000 undiagnosed patients, Talos delivered 241 new diagnoses (5.1% additional yield). An average of only 32 days passed between supporting evidence becoming public and the resultant diagnosis. On monthly iterative cycles, analysts only needed to review one new variant per 200 patients, demonstrating that frequent, systematic reanalysis can be run sustainably. Why genome reanalysis matters Genomic testing has transformed the diagnosis of rare disease, but even with this advancement, more than half of patients remain undiagnosed after their first test. This is because our knowledge of the genome is still incomplete. Researchers are learning more every day about the function of specific genes and how they relate to disease. However, unlike most diagnostic investigations, genomic data has a unique property: it can be stored and reexamined indefinitely. Because our understanding of the genome improves constantly, simply rerunning the analysis later can yield a diagnosis that was impossible to make the first time. This is because there are hundreds of new gene–disease associations and thousands of new variant classifications reported every year. Reanalysis of the genomes of undiagnosed patients is the solution; a meta-analysis of nearly 9,500 undiagnosed patients found that reanalysis lifted diagnostic yield by about 10% over roughly two years. However, the problem is that reanalysis today is overwhelmingly manual. It de…",
+      "summary": "Talos was built to help resolve a major bottleneck in genomic medicine: human review time. The open-source system recovered 90% of in-scope diagnoses while surfacing just 1.3 candidate variants per patient for expert review. The post Talos…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open-source"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "261f692f80623caf",
+      "date": "2026-06-25",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "Speaking of Voxtral | Mistral AI",
+      "url": "https://mistral.ai/news/voxtral-tts/",
+      "publishedAt": null,
+      "content": "Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.",
+      "summary": "Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.81,
+          "rationale": [
+            "voice",
+            "speech",
+            "tts"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "weights"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
     {
       "id": "61db28b51180398c",
       "date": "2026-06-24",
@@ -150,61 +295,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "261f692f80623caf",
-      "date": "2026-06-24",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Mistral AI Blog",
-      "sourceKey": "official:Mistral AI Blog",
-      "builderOrOrg": "Mistral AI",
-      "title": "Speaking of Voxtral | Mistral AI",
-      "url": "https://mistral.ai/news/voxtral-tts/",
-      "publishedAt": null,
-      "content": "Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.",
-      "summary": "Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "voice",
-          "label": "Voice",
-          "confidence": 0.81,
-          "rationale": [
-            "voice",
-            "speech",
-            "tts"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "weights"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
       "whyThisMatters": ""
     },
     {
@@ -2318,98 +2408,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "397584593916a76b",
-      "date": "2026-05-02",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:garrytan",
-      "builderOrOrg": "Garry Tan",
-      "title": "If you use Hermes Agent or OpenClaw, installing GBrain on top of your Karpathy-style Knowledge…",
-      "url": "https://x.com/garrytan/status/2050096324100682097",
-      "publishedAt": "2026-05-01T06:13:47.000Z",
-      "content": "If you use Hermes Agent or OpenClaw, installing GBrain on top of your Karpathy-style Knowledge Wiki will pay you massive dividends. GBrain is MIT-licensed and open source, and can help your project immensely. https://t.co/yFpFU4pn5b",
-      "summary": "If you use Hermes Agent or OpenClaw, installing GBrain on top of your Karpathy-style Knowledge Wiki will pay you massive dividends. GBrain is MIT-licensed and open source, and can help your project immensely. https://t.…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 20,
-        "retweets": 0,
-        "replies": 4
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open source"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.76,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.6,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d671870d8f13b745",
-      "date": "2026-05-02",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:steipete",
-      "builderOrOrg": "Peter Steinberger",
-      "title": "I learned a lot about the security ecosystem in the last few months. Amazing to work with @nvid…",
-      "url": "https://x.com/steipete/status/2049976855617314991",
-      "publishedAt": "2026-04-30T22:19:03.000Z",
-      "content": "I learned a lot about the security ecosystem in the last few months. Amazing to work with @nvidia @OpenAI @Microsoft @GitHub @TencentHunyuan @convex @Atlassian @useblacksmith to get secure the claw. https://t.co/JCcmjltZS4",
-      "summary": "I learned a lot about the security ecosystem in the last few months. Amazing to work with @nvidia @OpenAI @Microsoft @GitHub @TencentHunyuan @convex @Atlassian @useblacksmith to get secure the claw. https://t.co/JCcmjlt…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 509,
-        "retweets": 16,
-        "replies": 23
-      },
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "github"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.78,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.61,
       "whyThisMatters": ""
     }
   ]
