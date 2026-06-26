@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T00:32:09.765Z",
+  "generatedAt": "2026-06-26T04:47:51.690Z",
   "slug": "agents",
   "label": "AI Assistants",
   "items": [
@@ -44,9 +44,9 @@
       ],
       "section": "Builders",
       "importanceScore": 0.84,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.9,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.65,
       "whyThisMatters": ""
     },
     {
@@ -91,9 +91,9 @@
       ],
       "section": "Builders",
       "importanceScore": 0.84,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.9,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.65,
       "whyThisMatters": ""
     },
     {
@@ -136,9 +136,9 @@
       ],
       "section": "Official Sources",
       "importanceScore": 0.72,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.82,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
       "whyThisMatters": ""
     },
     {
@@ -391,6 +391,60 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.63,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "8c5da366acafcffc",
+      "date": "2026-06-26",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] OpenAI reports median internal Codex output tokens grew 56x in Research, 32x in Customer Support, 27x in Engineering, and 13x in Legal since November 2025.",
+      "url": "https://www.latent.space/p/ainews-openai-reports-median-internal",
+      "publishedAt": "2026-06-26T01:12:30.000Z",
+      "content": "Only 200 AI Engineer tickets left - on track to sell out in the next 24 hours. Grab now for over $60k in sponsor credits! Add this to the WTF Happened in 2025? files: OpenAI Economic Research is reporting that token usage for everything outside coding is exploding: Through August 2025, the average OpenAI worker spent less than 10% of their tokens on Codex&#8230; Over the last six months, Codex usage has deepened and intensified at OpenAI. Among active internal users, change in combined output tokens rose sharply across departments. Research saw the biggest jump: by June 2026, median use was 56 times higher than in November 2025. Customer Support rose 32 times and Engineering rose 27 times, while Legal grew more gradually but still reached 13 times its November level. This should form an interesting baseline against Tokenmaxxing concerns - remember that OpenAI employees have had unlimited access at all times anyway, and SOMEHOW they were still grossly underusing AI even up til late 2025. Sometimes, you just have to let them cook : AI News for 6/24/2026-6/25/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Open Models, Coding Benchmarks, and the GLM/Ornith/Liquid Wave GLM-5.2&#8217;s rapid ascent in coding and agent benchmarks : Multiple posts converged on Z.ai&#8217;s GLM-5.2 as the day&#8217;s most important open-model story. On frontend coding, Arena reported that GLM-5.2 Max reached 1595 on Code Arena: Frontend, surpassing Opus 4.8 and narrowing the gap to Claude Fable 5 . On agentic reliability, PostTrainBench noted 34.29% for GLM 5.2 Max reasoning , narrowly ahead of Opus 4.8 Max at 34.08% , with zero failed runs across 84 runs . The speed side also moved: @Yuchenj_UW said Databricks pushed GLM-5.2 to 392 tok/s on Artificial Analysis, up from 201 tok/s on H200s before furth…",
+      "summary": "It's happening.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "coding",
+            "code",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
       "whyThisMatters": ""
     },
     {
@@ -2360,60 +2414,6 @@
       "noveltyScore": 1,
       "previouslySelected": false,
       "digestScore": 0.95,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "bef4d711b01e216a",
-      "date": "2026-06-17",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google DeepMind Blog",
-      "sourceKey": "official:Google DeepMind Blog",
-      "builderOrOrg": "Google DeepMind",
-      "title": "Investing in multi-agent AI safety research",
-      "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
-      "publishedAt": "2026-06-10T10:21:19.000Z",
-      "content": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research.",
-      "summary": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "multi-agent"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
       "whyThisMatters": ""
     }
   ]
