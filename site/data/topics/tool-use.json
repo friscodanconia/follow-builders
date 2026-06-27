@@ -1,11 +1,57 @@
 {
-  "generatedAt": "2026-06-26T05:39:53.792Z",
+  "generatedAt": "2026-06-27T01:19:15.593Z",
   "slug": "tool-use",
   "label": "AI Using Tools",
   "items": [
     {
+      "id": "ef2c0934a9b502aa",
+      "date": "2026-06-27",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:petergyang",
+      "builderOrOrg": "Peter Yang",
+      "title": "I'm planning to go to Japan (again!) in December and this time I asked Codex to use the browser…",
+      "url": "https://x.com/petergyang/status/2070353698140958818",
+      "publishedAt": "2026-06-26T03:49:21.000Z",
+      "content": "I'm planning to go to Japan (again!) in December and this time I asked Codex to use the browser to navigate Google Flights and individual hotel websites, find and save all the prices, give me the direct booking links on the dates that I want + save it all in a doc. I should just tell it to book everything next.",
+      "summary": "I'm planning to go to Japan (again!) in December and this time I asked Codex to use the browser to navigate Google Flights and individual hotel websites, find and save all the prices, give me the direct booking links on…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 40,
+        "retweets": 1,
+        "replies": 10
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "browser"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.68,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.79,
+      "whyThisMatters": ""
+    },
+    {
       "id": "c3a39fba9c28ca85",
-      "date": "2026-06-26",
+      "date": "2026-06-27",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Microsoft Research Blog",
@@ -2346,41 +2392,6 @@
           "confidence": 0.5700000000000001,
           "rationale": [
             "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "c63f4daa4e8215d6",
-      "date": "2026-05-14",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Introducing Claude for Small Business \\ Anthropic",
-      "url": "https://www.anthropic.com/news/claude-for-small-business",
-      "publishedAt": null,
-      "content": "We&#x27;re launching Claude for Small Business, a package of connectors and ready-to-run workflows that put Claude inside the tools small businesses use every day.",
-      "summary": "We&#x27;re launching Claude for Small Business, a package of connectors and ready-to-run workflows that put Claude inside the tools small businesses use every day.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
           ],
           "score": 1
         }
