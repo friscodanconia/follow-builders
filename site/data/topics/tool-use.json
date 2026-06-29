@@ -1,8 +1,106 @@
 {
-  "generatedAt": "2026-06-28T05:47:30.020Z",
+  "generatedAt": "2026-06-29T00:55:39.687Z",
   "slug": "tool-use",
   "label": "AI Using Tools",
   "items": [
+    {
+      "id": "ac04a423d266fc70",
+      "date": "2026-06-29",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "Training Data",
+      "sourceKey": "podcast:Training Data",
+      "builderOrOrg": "Training Data",
+      "title": "Memory and Continual Learning: Engram's Dan Biderman and Jessy Lin",
+      "url": "https://www.youtube.com/watch?v=aiR7F4jqjXY",
+      "publishedAt": "2026-06-24T14:22:00.000Z",
+      "content": "Speaker 1 | 00:00 - 00:24 What about pre training or even post training makes it possible for the models to generalize in these magical emergent ways and controlling that process so that a company has a set of private data? How do we make the models learn that just as well as the models know, like, the capital of France or, you know, like, how to write Python? So I think it's a really fun problem to think about. Speaker 2 | 00:41 - 00:57 Welcome to training data. We are delighted to have Don Biederman and Jesse Lynn, cofounders of Ngram today. Ngram is a NeoLab focused on memory and continual learning and two of the hottest topics in all of AI research today. And Sean and I are delighted to dig in on those topics with you today. Speaker 3 | 00:57 - 00:59 Awesome. Happy Great. To be Speaker 2 | 00:59 - 01:09 So maybe to kick off, the Engram website says, we don't see the world through the lens of pretraining or post training. Our models are always training. What does that mean? Speaker 1 | 01:09 - 01:51 I think models today obviously know a lot of things. They're incredibly smart, but we think the bottleneck for making these models more useful these days is not really raw intelligence, but understanding new and evolving context. Whether it's a new task that you're doing or a particular context for a job or something like this, how do you bake that into the model weights the same way that pre training and post training bakes that into the model weights very deeply? This is why we think of ourselves as working on these fundamental problems of memory and continual learning, which are really two sides of the same coin. How do you make the models learn new things and bake them deeply into the weights of the model? Speaker 2 | 01:51 - 02:01 And is your premise then that memory as a separate database or a separate thing that you've shoved into the context window is not true memory and is not true continual learning? Speaker 1 | 02:01 - 02:39 I think all of these tools will kind of come together. So these days, the way that people are solving these problems is with context engineering. So you take a huge prompt, maybe you keep talking to the model over many, many turns and hours and reorganize the context to better understand what you're trying to do. We think these kinds of things, like tool use, context engineering will play a part, but I think an under leveraged tool these days is using the same training pipeline or framework or kind of workflow that the frontier labs are using to make these models really good at frontier math or code, but applying that to every kind of domain, every kind of context that you have, let's say in a company. Speaker 3 | 02:40 - 03:00 Yeah. To me, it's like as an individual, taking notes and having sticky notes is a very valuable thing. We should never discard this. But whenever we get back to business the next day, we always have some sort of trace of memory in our brain, some new intuition about how things should be and where should we look. So these two things should come together. Speaker 3 | 03:00 - 03:23 And current solutions are more kind of externalized memory. And this has two issues. One is that the amount of tokens we will all collectively individually generate is going be in the tens of millions of tokens per day soon. So just keeping it and searching through it is going to be and rereading it, it's going to be pretty expensive, but it's going to also be pretty hard, pretty confusing for the models, unless we have major, major breakthroughs in Speaker 2 | 03:23 - 03:25 Depends how on billions of tokens for Sean. Speaker 3 | 03:26 - 03:27 That's good. Speaker 4 | 03:27 - 03:28 Depends on the day. Speaker 2 | 03:29 - 03:35 Could you maybe tell us a little bit about the Ngram architecture or the Ngram product and how it works? Speaker 1 | 03:35 - 04:15 Yeah, mean, at a high level, what we're trying to do is take any context. There's all these different workspaces, let's say. We're working with…",
+      "summary": "Speaker 1 | 00:00 - 00:24 What about pre training or even post training makes it possible for the models to generalize in these magical emergent ways and controlling that process so that a company has a set of private data? How do we make…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.69,
+          "rationale": [
+            "tool use",
+            "tools"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "weights"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.52,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.69,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c3a39fba9c28ca85",
+      "date": "2026-06-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Understanding the brain with AI-driven explanations and experiments",
+      "url": "https://www.microsoft.com/en-us/research/blog/understanding-the-brain-with-ai-driven-explanations-and-experiments/",
+      "publishedAt": "2026-06-25T16:00:00.000Z",
+      "content": "At a glance LLM-based models can predict the human brain’s responses to language with high accuracy. But what drives that performance is essentially unreadable: a vast collection of learned parameters, not scientific theories anyone can read. Generative causal testing (GCT), developed in a collaboration between Microsoft Research, the University of California, Berkeley, the University of California, San Francisco, and Columbia University, distills these brain-prediction models into short verbal explanations of what each patch of cortex responds to: phrases like “food preparation” or “location names.” GCT then closes the loop: an LLM writes new stories designed to activate a targeted brain area, subjects hear them in the scanner, and the region lights up only if the explanation is right. In experiments, GCT confirmed known selectivity, teased apart neighboring place-processing regions long thought interchangeable, and revealed tiny prefrontal “micro-regions” tuned to specific concepts like dialogue, clock times, and measurements. The explainability problem in language neuroscience Over the past decade, LLMs have become the most accurate tools we have for predicting how the human brain responds to language. Feed an LLM the same story a person hears in an fMRI scanner, and the model’s internal representations can predict the activity of individual patches of cortex with remarkable fidelity. But this success comes with a catch: nobody can read these models. They are millions of inscrutable parameters that can’t be directly translated into interpretations. A model that predicts brain activity tells us that a region responds to language, but not what it is actually picking up on, whether it’s food, places, numbers, or something else entirely. As black-box models spread, the gap between prediction and understanding has become one of the central problems in computational neuroscience. Turning black boxes into testable theories In a new paper accepted in Nature Neuroscience…",
+      "summary": "Researchers introduce generative causal testing, which translates black box models into clear hypotheses and verifies them in the scanner, revealing what specific brain regions respond to in language. The post Understanding the brain with…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.81,
+          "rationale": [
+            "research",
+            "paper",
+            "science"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
     {
       "id": "32fb55d52dc87dd1",
       "date": "2026-06-28",
@@ -102,52 +200,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "c3a39fba9c28ca85",
-      "date": "2026-06-28",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Understanding the brain with AI-driven explanations and experiments",
-      "url": "https://www.microsoft.com/en-us/research/blog/understanding-the-brain-with-ai-driven-explanations-and-experiments/",
-      "publishedAt": "2026-06-25T16:00:00.000Z",
-      "content": "At a glance LLM-based models can predict the human brain’s responses to language with high accuracy. But what drives that performance is essentially unreadable: a vast collection of learned parameters, not scientific theories anyone can read. Generative causal testing (GCT), developed in a collaboration between Microsoft Research, the University of California, Berkeley, the University of California, San Francisco, and Columbia University, distills these brain-prediction models into short verbal explanations of what each patch of cortex responds to: phrases like “food preparation” or “location names.” GCT then closes the loop: an LLM writes new stories designed to activate a targeted brain area, subjects hear them in the scanner, and the region lights up only if the explanation is right. In experiments, GCT confirmed known selectivity, teased apart neighboring place-processing regions long thought interchangeable, and revealed tiny prefrontal “micro-regions” tuned to specific concepts like dialogue, clock times, and measurements. The explainability problem in language neuroscience Over the past decade, LLMs have become the most accurate tools we have for predicting how the human brain responds to language. Feed an LLM the same story a person hears in an fMRI scanner, and the model’s internal representations can predict the activity of individual patches of cortex with remarkable fidelity. But this success comes with a catch: nobody can read these models. They are millions of inscrutable parameters that can’t be directly translated into interpretations. A model that predicts brain activity tells us that a region responds to language, but not what it is actually picking up on, whether it’s food, places, numbers, or something else entirely. As black-box models spread, the gap between prediction and understanding has become one of the central problems in computational neuroscience. Turning black boxes into testable theories In a new paper accepted in Nature Neuroscience…",
-      "summary": "Researchers introduce generative causal testing, which translates black box models into clear hypotheses and verifies them in the scanner, revealing what specific brain regions respond to in language. The post Understanding the brain with…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.81,
-          "rationale": [
-            "research",
-            "paper",
-            "science"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     },
     {
@@ -2349,53 +2401,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.44,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "542b1443437cde31",
-      "date": "2026-05-17",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:nikunj",
-      "builderOrOrg": "Nikunj Kothari",
-      "title": "Man, /goal is just AGI if given the right tools.. Like what do you mean you went through all th…",
-      "url": "https://x.com/nikunj/status/2055426430654439485",
-      "publishedAt": "2026-05-15T23:13:43.000Z",
-      "content": "Man, /goal is just AGI if given the right tools.. Like what do you mean you went through all the entire database of 2k+ line items, fixed all the product images, the frontend bugs caused by different images, the descriptions, used browser harness to get real-time info from the web, used web search for fact checking, wrote scripts for all the work you did for the future.. and ran for 2 hours while I met founders for coffee. I'm just shook 😅",
-      "summary": "Man, /goal is just AGI if given the right tools.. Like what do you mean you went through all the entire database of 2k+ line items, fixed all the product images, the frontend bugs caused by different images, the descrip…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 304,
-        "retweets": 8,
-        "replies": 24
-      },
-      "topics": [
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.69,
-          "rationale": [
-            "tools",
-            "browser"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "image"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]

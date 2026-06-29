@@ -1,8 +1,151 @@
 {
-  "generatedAt": "2026-06-28T05:47:30.020Z",
+  "generatedAt": "2026-06-29T00:55:39.687Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
+    {
+      "id": "eefc86b794406aa5",
+      "date": "2026-06-29",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:swyx",
+      "builderOrOrg": "Swyx",
+      "title": "An interesting way to take Noam at his word in regards to always keeping a constant inference b…",
+      "url": "https://x.com/swyx/status/2070949306060931312",
+      "publishedAt": "2026-06-27T19:16:05.000Z",
+      "content": "An interesting way to take Noam at his word in regards to always keeping a constant inference budget for any eval reporting - is that open models have a lot more dollar per token mileage than closed model APIs. So anyone launching an open model today or situationally incentivized toward open models should obviously report thinking levels measured by dollar inference on popular inference providers, instead of by number of tokens on the x axis",
+      "summary": "An interesting way to take Noam at his word in regards to always keeping a constant inference budget for any eval reporting - is that open models have a lot more dollar per token mileage than closed model APIs. So anyon…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 100,
+        "retweets": 4,
+        "replies": 11
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d4f054c8090c3c4e",
+      "date": "2026-06-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "publishedAt": "2026-06-24T06:00:00.000Z",
+      "content": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
+      "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "df6207faa468e4ad",
+      "date": "2026-06-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] It's Meta-Harness Summer",
+      "url": "https://www.latent.space/p/ainews-its-meta-harness-summer",
+      "publishedAt": "2026-06-25T02:14:08.000Z",
+      "content": "The brief history of Meta-Harnesses is a little undocumented, but it roughly goes: at first there was Conductor and Zed&#8217;s ACP , then there came OpenInspect , Cloudflare&#8217;s Flue , and then Vercel&#8217;s Eve and HarnessAgent , and Heypi . It should not go unnoticed that today&#8217;s podcast guest Matei Zaharia, CTO of the enormously successful (for a pre LLM era company) Databricks, has a big bet now on meta-harnesses - Omnigent, an open source, pluggable architecture for pulling in any coding or knowledge work agent into a standardized, secure, reliable, scalable system: omnigent It&#8217;s unclear whether or not Omnigent has the same kind of ingredients that made MCP&#8217;s success inevitable , but it is clear on an architectural level that some open source architecture that looks like this will probably win, if only because it is currently being independently rediscvoered at 1000 AI native shops. AI News for 6/23/2026-6/24/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI&#8217;s Jalape&#241;o Chip and the Race Toward Full-Stack AI Infrastructure OpenAI goes deeper into hardware : OpenAI announced Jalape&#241;o , its first custom AI chip for LLM inference, built with Broadcom and intended for ChatGPT, Codex, API traffic, and future agent products. The strategic message is straightforward: own more of the stack&#8212;chips, kernels, memory, networking, scheduling, deployment&#8212;so compute economics and product behavior become less dependent on merchant GPU supply. @gdb emphasized strong performance-per-watt , while @kimmonismus highlighted the reported 9-month design-to-tapeout cycle , unusually fast for a high-performance ASIC and reportedly accelerated by OpenAI&#8217;s own models. Technical read-through and ecosystem implications : Community reverse-en…",
+      "summary": "Move over, Harness Engineering, it is time for the harness of harnesses!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "coding",
+            "code",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
     {
       "id": "8b7f2148d50273c8",
       "date": "2026-06-28",
@@ -55,94 +198,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.44,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d4f054c8090c3c4e",
-      "date": "2026-06-28",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-      "publishedAt": "2026-06-24T06:00:00.000Z",
-      "content": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
-      "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "df6207faa468e4ad",
-      "date": "2026-06-28",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] It's Meta-Harness Summer",
-      "url": "https://www.latent.space/p/ainews-its-meta-harness-summer",
-      "publishedAt": "2026-06-25T02:14:08.000Z",
-      "content": "The brief history of Meta-Harnesses is a little undocumented, but it roughly goes: at first there was Conductor and Zed&#8217;s ACP , then there came OpenInspect , Cloudflare&#8217;s Flue , and then Vercel&#8217;s Eve and HarnessAgent , and Heypi . It should not go unnoticed that today&#8217;s podcast guest Matei Zaharia, CTO of the enormously successful (for a pre LLM era company) Databricks, has a big bet now on meta-harnesses - Omnigent, an open source, pluggable architecture for pulling in any coding or knowledge work agent into a standardized, secure, reliable, scalable system: omnigent It&#8217;s unclear whether or not Omnigent has the same kind of ingredients that made MCP&#8217;s success inevitable , but it is clear on an architectural level that some open source architecture that looks like this will probably win, if only because it is currently being independently rediscvoered at 1000 AI native shops. AI News for 6/23/2026-6/24/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI&#8217;s Jalape&#241;o Chip and the Race Toward Full-Stack AI Infrastructure OpenAI goes deeper into hardware : OpenAI announced Jalape&#241;o , its first custom AI chip for LLM inference, built with Broadcom and intended for ChatGPT, Codex, API traffic, and future agent products. The strategic message is straightforward: own more of the stack&#8212;chips, kernels, memory, networking, scheduling, deployment&#8212;so compute economics and product behavior become less dependent on merchant GPU supply. @gdb emphasized strong performance-per-watt , while @kimmonismus highlighted the reported 9-month design-to-tapeout cycle , unusually fast for a high-performance ASIC and reportedly accelerated by OpenAI&#8217;s own models. Technical read-through and ecosystem implications : Community reverse-en…",
-      "summary": "Move over, Harness Engineering, it is time for the harness of harnesses!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.81,
-          "rationale": [
-            "coding",
-            "code",
-            "repo"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -2403,50 +2458,6 @@
           "confidence": 0.5700000000000001,
           "rationale": [
             "inference"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "b2385b2f3cb04bd5",
-      "date": "2026-04-08",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Gradient Labs gives every bank customer an AI account manager",
-      "url": "https://openai.com/index/gradient-labs",
-      "publishedAt": "2026-04-01T02:00:00.000Z",
-      "content": "Gradient Labs uses GPT-4.1 and GPT-5.4 mini and nano to power AI agents that automate banking support workflows with low latency and high reliability.",
-      "summary": "Gradient Labs uses GPT-4.1 and GPT-5.4 mini and nano to power AI agents that automate banking support workflows with low latency and high reliability.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "latency"
           ],
           "score": 1
         }
