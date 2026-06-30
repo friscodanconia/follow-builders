@@ -1,8 +1,116 @@
 {
-  "generatedAt": "2026-06-29T06:09:11.205Z",
+  "generatedAt": "2026-06-30T00:36:51.042Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
+    {
+      "id": "77cdffbe7fbb9dc9",
+      "date": "2026-06-30",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Import AI",
+      "sourceKey": "editorial:Import AI",
+      "builderOrOrg": "Jack Clark",
+      "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
+      "url": "https://jack-clark.net/2026/06/29/import-ai-463-self-improving-robots-a-10k-chinese-gpu-cluster-and-an-elegiac-essay-for-the-human-era/",
+      "publishedAt": "2026-06-29T13:03:27.000Z",
+      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now NVIDIA sets up a crude self-improvement loop for real world robotics: …What if you could take the best ideas from AI agents and put them into the real world?&#8230; Researchers with NVIDIA have developed ENPIRE, software to get physical robotics to go through the same kind of autonomous experimentation and execution loop that AI agents go through. The research gives us a taste of what it might look like for a superintelligence to attempt to use robots to instantiate itself in the physical world &#8211; though as with all things in robotics, the current examples are suggestive at best. What ENPIRE is: The software is “a harness framework for coding agents that instantiates this physical feedback routine with four core modules: an Environment module (EN) for automatic reset and verification, a Policy Improvement module (PI) that launches policy refinement, a Rollout module (R) to evaluate policies with single or multiple physical robots operating in parallel, and an Evolution module (E) in which coding agents analyze logs, consult literature, improve training infrastructure and algorithm code to address failure modes”. ENPIRE works the same way that coding agents work &#8211; a scaffold supervises some physical robots which are asked to complete tasks. The robots try to complete the tasks and attempt different strategies for completing stuff, trying and failing and learning. The system both evaluates their success and also resets itself when they fail. “This closed-loop system transforms real-world robot learning into a controllable optimization procedure that agents can manage, thus minimizing human effort while allowing fair ablations across training recipes and agent variants.” Two of the key ingredients for making this work are an automatic evaluation system to help score “the outcome…",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now NVIDIA sets up a crude self-improvement loop for real wor…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "autonomous"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "eval",
+            "evaluation"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "a30729d94e4ee656",
+      "date": "2026-06-30",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] OpenAI GPT-5.6 Sol / Terra / Luna — restricted to trusted partners",
+      "url": "https://www.latent.space/p/ainews-openai-gpt-56-sol-terra-luna",
+      "publishedAt": "2026-06-27T05:23:22.000Z",
+      "content": "Against the backdrop of ongoing Anthropic-Fable negotiations and a relaxation of Mythos controls, GPT-5.6 was announced today, but with limited access to trusted partners. It is Mythos-beating at a subset of coding agent tasks: But OpenAI took strong pains to explain that this model both Mythos-beating and also not as capable at Cyber as Mythos: GPT&#8209;5.6 Sol does not cross the Cyber Critical threshold under our Preparedness Framework&#8288;. In evaluations involving Chromium and Firefox, it identified bugs and exploitation primitives&#8212;the building blocks of an exploit&#8212; but did not autonomously produce a functional full-chain exploit under the conditions tested. AI News for 6/25/2026-6/26/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Top Story: GPT-5.6 launch What happened OpenAI launched GPT-5.6 as a restricted preview rather than a normal broad release. OpenAI announced a new three-model family &#8212; GPT-5.6 Sol, Terra, and Luna &#8212; with Sol positioned as the flagship frontier model, Terra as the balanced mid-tier model, and Luna as the fast/cheap high-volume model, via @OpenAI The company said the launch is limited preview only , with access initially restricted to a small group of trusted partners in Codex and the API , and that broader access is planned &#8220;in the coming weeks,&#8221; via @OpenAI OpenAI explicitly said this constrained rollout is &#8220;at the request of the U.S. government&#8221; , making the policy/release process itself a central part of the story, via @OpenAI Sam Altman added that OpenAI had originally planned a broader launch, but shifted to limited preview due to the government request; he framed the company as working toward a &#8220;transparent, reliable process&#8221; for early access while trying to reach GA quickly, vi…",
+      "summary": "Oddly tiered releases to both OAI and ANT on the same day.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "autonomous"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "eval",
+            "evaluation"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
     {
       "id": "eefc86b794406aa5",
       "date": "2026-06-29",
@@ -101,60 +209,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a30729d94e4ee656",
-      "date": "2026-06-29",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] OpenAI GPT-5.6 Sol / Terra / Luna — restricted to trusted partners",
-      "url": "https://www.latent.space/p/ainews-openai-gpt-56-sol-terra-luna",
-      "publishedAt": "2026-06-27T05:23:22.000Z",
-      "content": "Against the backdrop of ongoing Anthropic-Fable negotiations and a relaxation of Mythos controls, GPT-5.6 was announced today, but with limited access to trusted partners. It is Mythos-beating at a subset of coding agent tasks: But OpenAI took strong pains to explain that this model both Mythos-beating and also not as capable at Cyber as Mythos: GPT&#8209;5.6 Sol does not cross the Cyber Critical threshold under our Preparedness Framework&#8288;. In evaluations involving Chromium and Firefox, it identified bugs and exploitation primitives&#8212;the building blocks of an exploit&#8212; but did not autonomously produce a functional full-chain exploit under the conditions tested. AI News for 6/25/2026-6/26/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Top Story: GPT-5.6 launch What happened OpenAI launched GPT-5.6 as a restricted preview rather than a normal broad release. OpenAI announced a new three-model family &#8212; GPT-5.6 Sol, Terra, and Luna &#8212; with Sol positioned as the flagship frontier model, Terra as the balanced mid-tier model, and Luna as the fast/cheap high-volume model, via @OpenAI The company said the launch is limited preview only , with access initially restricted to a small group of trusted partners in Codex and the API , and that broader access is planned &#8220;in the coming weeks,&#8221; via @OpenAI OpenAI explicitly said this constrained rollout is &#8220;at the request of the U.S. government&#8221; , making the policy/release process itself a central part of the story, via @OpenAI Sam Altman added that OpenAI had originally planned a broader launch, but shifted to limited preview due to the government request; he framed the company as working toward a &#8220;transparent, reliable process&#8221; for early access while trying to reach GA quickly, vi…",
-      "summary": "Oddly tiered releases to both OAI and ANT on the same day.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "autonomous"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "eval",
-            "evaluation"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -2376,61 +2430,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.49,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a1ff511961597c73",
-      "date": "2026-05-25",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:garrytan",
-      "builderOrOrg": "Garry Tan",
-      "title": "Thinking Machines is impressive. In a couple hours I just fine tuned my own Qwen3.5-397B model…",
-      "url": "https://x.com/garrytan/status/2058378310254793013",
-      "publishedAt": "2026-05-24T02:43:26.000Z",
-      "content": "Thinking Machines is impressive. In a couple hours I just fine tuned my own Qwen3.5-397B model this afternoon. Fast usable multimodal is also going to enable very mind-blowing personal AI. https://t.co/mm3laZb766",
-      "summary": "Thinking Machines is impressive. In a couple hours I just fine tuned my own Qwen3.5-397B model this afternoon. Fast usable multimodal is also going to enable very mind-blowing personal AI. https://t.co/mm3laZb766",
-      "regionTags": [],
-      "metrics": {
-        "likes": 996,
-        "retweets": 56,
-        "replies": 63
-      },
-      "topics": [
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "multimodal"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "imo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "china-models",
-          "label": "Chinese AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "qwen"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Chinese Models",
-      "importanceScore": 0.85,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.66,
       "whyThisMatters": ""
     }
   ]

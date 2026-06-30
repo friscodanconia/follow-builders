@@ -1,8 +1,54 @@
 {
-  "generatedAt": "2026-06-29T06:09:11.205Z",
+  "generatedAt": "2026-06-30T00:36:51.042Z",
   "slug": "tool-use",
   "label": "AI Using Tools",
   "items": [
+    {
+      "id": "c3a39fba9c28ca85",
+      "date": "2026-06-30",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Understanding the brain with AI-driven explanations and experiments",
+      "url": "https://www.microsoft.com/en-us/research/blog/understanding-the-brain-with-ai-driven-explanations-and-experiments/",
+      "publishedAt": "2026-06-25T16:00:00.000Z",
+      "content": "At a glance LLM-based models can predict the human brain’s responses to language with high accuracy. But what drives that performance is essentially unreadable: a vast collection of learned parameters, not scientific theories anyone can read. Generative causal testing (GCT), developed in a collaboration between Microsoft Research, the University of California, Berkeley, the University of California, San Francisco, and Columbia University, distills these brain-prediction models into short verbal explanations of what each patch of cortex responds to: phrases like “food preparation” or “location names.” GCT then closes the loop: an LLM writes new stories designed to activate a targeted brain area, subjects hear them in the scanner, and the region lights up only if the explanation is right. In experiments, GCT confirmed known selectivity, teased apart neighboring place-processing regions long thought interchangeable, and revealed tiny prefrontal “micro-regions” tuned to specific concepts like dialogue, clock times, and measurements. The explainability problem in language neuroscience Over the past decade, LLMs have become the most accurate tools we have for predicting how the human brain responds to language. Feed an LLM the same story a person hears in an fMRI scanner, and the model’s internal representations can predict the activity of individual patches of cortex with remarkable fidelity. But this success comes with a catch: nobody can read these models. They are millions of inscrutable parameters that can’t be directly translated into interpretations. A model that predicts brain activity tells us that a region responds to language, but not what it is actually picking up on, whether it’s food, places, numbers, or something else entirely. As black-box models spread, the gap between prediction and understanding has become one of the central problems in computational neuroscience. Turning black boxes into testable theories In a new paper accepted in Nature Neuroscience…",
+      "summary": "Researchers introduce generative causal testing, which translates black box models into clear hypotheses and verifies them in the scanner, revealing what specific brain regions respond to in language. The post Understanding the brain with…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.81,
+          "rationale": [
+            "research",
+            "paper",
+            "science"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
     {
       "id": "ac04a423d266fc70",
       "date": "2026-06-29",
@@ -53,52 +99,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.44,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "c3a39fba9c28ca85",
-      "date": "2026-06-29",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Understanding the brain with AI-driven explanations and experiments",
-      "url": "https://www.microsoft.com/en-us/research/blog/understanding-the-brain-with-ai-driven-explanations-and-experiments/",
-      "publishedAt": "2026-06-25T16:00:00.000Z",
-      "content": "At a glance LLM-based models can predict the human brain’s responses to language with high accuracy. But what drives that performance is essentially unreadable: a vast collection of learned parameters, not scientific theories anyone can read. Generative causal testing (GCT), developed in a collaboration between Microsoft Research, the University of California, Berkeley, the University of California, San Francisco, and Columbia University, distills these brain-prediction models into short verbal explanations of what each patch of cortex responds to: phrases like “food preparation” or “location names.” GCT then closes the loop: an LLM writes new stories designed to activate a targeted brain area, subjects hear them in the scanner, and the region lights up only if the explanation is right. In experiments, GCT confirmed known selectivity, teased apart neighboring place-processing regions long thought interchangeable, and revealed tiny prefrontal “micro-regions” tuned to specific concepts like dialogue, clock times, and measurements. The explainability problem in language neuroscience Over the past decade, LLMs have become the most accurate tools we have for predicting how the human brain responds to language. Feed an LLM the same story a person hears in an fMRI scanner, and the model’s internal representations can predict the activity of individual patches of cortex with remarkable fidelity. But this success comes with a catch: nobody can read these models. They are millions of inscrutable parameters that can’t be directly translated into interpretations. A model that predicts brain activity tells us that a region responds to language, but not what it is actually picking up on, whether it’s food, places, numbers, or something else entirely. As black-box models spread, the gap between prediction and understanding has become one of the central problems in computational neuroscience. Turning black boxes into testable theories In a new paper accepted in Nature Neuroscience…",
-      "summary": "Researchers introduce generative causal testing, which translates black box models into clear hypotheses and verifies them in the scanner, revealing what specific brain regions respond to in language. The post Understanding the brain with…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.81,
-          "rationale": [
-            "research",
-            "paper",
-            "science"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     },
     {
