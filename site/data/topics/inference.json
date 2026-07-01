@@ -1,8 +1,99 @@
 {
-  "generatedAt": "2026-06-30T05:35:46.836Z",
+  "generatedAt": "2026-07-01T00:33:35.564Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
+    {
+      "id": "638f7d028799f22d",
+      "date": "2026-07-01",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:claudeai",
+      "builderOrOrg": "Claude",
+      "title": "Inference runs on Azure infrastructure, operated by Anthropic. Prompt caching and extended thin…",
+      "url": "https://x.com/claudeai/status/2071653962013446586",
+      "publishedAt": "2026-06-29T17:56:08.000Z",
+      "content": "Inference runs on Azure infrastructure, operated by Anthropic. Prompt caching and extended thinking are supported today, with more capabilities on the way. Read more: https://t.co/9MILqQYun4",
+      "summary": "Inference runs on Azure infrastructure, operated by Anthropic. Prompt caching and extended thinking are supported today, with more capabilities on the way. Read more: https://t.co/9MILqQYun4",
+      "regionTags": [],
+      "metrics": {
+        "likes": 153,
+        "retweets": 13,
+        "replies": 14
+      },
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "5d94b23123a81b3f",
+      "date": "2026-07-01",
+      "sourceType": "blog",
+      "sourceGroup": "mirrored",
+      "sourceName": "Anthropic Engineering",
+      "sourceKey": "blog:Anthropic Engineering",
+      "builderOrOrg": "Anthropic Engineering",
+      "title": "An update on recent Claude Code quality reports",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "publishedAt": null,
+      "content": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was not impacted. All three issues have now been resolved as of April 20 (v2.1.116). In this post, we explain what we found, what we fixed, and what we’ll do differently to ensure similar issues are much less likely to happen again. We take reports about degradation very seriously. We never intentionally degrade our models, and we were able to immediately confirm that our API and inference layer were unaffected. After investigation, we identified three different issues: On March 4, we changed Claude Code&#x27;s default reasoning effort from high to medium to reduce the very long latency—enough to make the UI appear frozen—some users were seeing in high mode. This was the wrong tradeoff. We reverted this change on April 7 after users told us they&#x27;d prefer to default to higher intelligence and opt into lower effort for simple tasks. This impacted Sonnet 4.6 and Opus 4.6. On March 26, we shipped a change to clear Claude&#x27;s older thinking from sessions that had been idle for over an hour, to reduce latency when users resumed those sessions. A bug caused this to keep happening every turn for the rest of the session instead of just once, which made Claude seem forgetful and repetitive. We fixed it on April 10. This affected Sonnet 4.6 and Opus 4.6. On April 16, we added a system prompt instruction to reduce verbosity. In combination with other prompt changes, it hurt coding quality and was reverted on April 20. This impacted Sonnet 4.6, Opus 4.6, and Opus 4.7. Because each change affected a different slice of traffic on a different schedule, the aggregate effect looked like broad, inconsistent degradation. While we began investigating reports in early March, they were challenging to distinguish from normal variation in user feedba…",
+      "summary": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "coding",
+            "code",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "inference",
+            "latency"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Watchlist",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
     {
       "id": "d4f054c8090c3c4e",
       "date": "2026-06-30",
@@ -198,60 +289,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.44,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "5d94b23123a81b3f",
-      "date": "2026-06-22",
-      "sourceType": "blog",
-      "sourceGroup": "mirrored",
-      "sourceName": "Anthropic Engineering",
-      "sourceKey": "blog:Anthropic Engineering",
-      "builderOrOrg": "Anthropic Engineering",
-      "title": "An update on recent Claude Code quality reports",
-      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
-      "publishedAt": null,
-      "content": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was not impacted. All three issues have now been resolved as of April 20 (v2.1.116). In this post, we explain what we found, what we fixed, and what we’ll do differently to ensure similar issues are much less likely to happen again. We take reports about degradation very seriously. We never intentionally degrade our models, and we were able to immediately confirm that our API and inference layer were unaffected. After investigation, we identified three different issues: On March 4, we changed Claude Code&#x27;s default reasoning effort from high to medium to reduce the very long latency—enough to make the UI appear frozen—some users were seeing in high mode. This was the wrong tradeoff. We reverted this change on April 7 after users told us they&#x27;d prefer to default to higher intelligence and opt into lower effort for simple tasks. This impacted Sonnet 4.6 and Opus 4.6. On March 26, we shipped a change to clear Claude&#x27;s older thinking from sessions that had been idle for over an hour, to reduce latency when users resumed those sessions. A bug caused this to keep happening every turn for the rest of the session instead of just once, which made Claude seem forgetful and repetitive. We fixed it on April 10. This affected Sonnet 4.6 and Opus 4.6. On April 16, we added a system prompt instruction to reduce verbosity. In combination with other prompt changes, it hurt coding quality and was reverted on April 20. This impacted Sonnet 4.6, Opus 4.6, and Opus 4.7. Because each change affected a different slice of traffic on a different schedule, the aggregate effect looked like broad, inconsistent degradation. While we began investigating reports in early March, they were challenging to distinguish from normal variation in user feedba…",
-      "summary": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.81,
-          "rationale": [
-            "coding",
-            "code",
-            "repo"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.69,
-          "rationale": [
-            "inference",
-            "latency"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Watchlist",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -2412,61 +2449,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d4966cd2e86ba9ca",
-      "date": "2026-04-09",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Together AI Blog",
-      "sourceKey": "official:Together AI Blog",
-      "builderOrOrg": "Together AI",
-      "title": "Deepgram speech-to-text and voice models now available natively on Together AI",
-      "url": "https://www.together.ai/blog/deepgram-speech-to-text-and-voice-models-now-available-natively-on-together-ai",
-      "publishedAt": "2026-04-02T00:00:00.000Z",
-      "content": "Production STT and TTS from Deepgram, available on Together AI Dedicated Model Inference for real-time voice agents.",
-      "summary": "Production STT and TTS from Deepgram, available on Together AI Dedicated Model Inference for real-time voice agents.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "voice",
-          "label": "Voice",
-          "confidence": 0.81,
-          "rationale": [
-            "voice",
-            "speech",
-            "tts"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
       "whyThisMatters": ""
     }
   ]
