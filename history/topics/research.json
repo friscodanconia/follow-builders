@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T04:29:58.934Z",
+  "generatedAt": "2026-07-07T05:12:14.337Z",
   "slug": "research",
   "label": "Research",
   "items": [
@@ -136,6 +136,57 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "4277e5e4b0b28a3e",
+      "date": "2026-07-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] The Field Guide to Fable",
+      "url": "https://www.latent.space/p/ainews-the-field-guide-to-fable",
+      "publishedAt": "2026-07-07T04:44:53.000Z",
+      "content": "While we congratulate (friend of the show!) General Intuition on their new model and (friend of the show!) Shunyu Yao on their new model , and the world awaits the release of GPT-5.6 Sol Ultra , people are racing to find the limits of Fable 5 before the subscription subsidy ends tomorrow . Thariq had been working on a &#8220; Field Guide to Fable &#8221; blog series, and happened to have a keynote planned the day of the relaunch, so he kindly pivoted the entire keynote in one night to give the most timely advice he had, which was released today: The 4 segments are (my watchalong commentary in italics): 0:00 Introduction and setting the stage for Fable 2:32 Unhobbling Claude: Understanding model behavior The constraints on a model are often imposed by US - &#8220;the harness we put them in, and the way we prompt them&#8221; . Therefore when we encounter a new class of model, we should expect to remove or change those harnesses and prompts in order to elicit new behaviors that you otherwise would never see because you were overly limiting (aka hobbling) the model. Case in point: most people have come to agree with Thariq on the unreasonable effectiveness of HTML . 9:08 Finding your unknowns : Navigating the gap between map and territory already blogged here . a close cousin to &#8220;unhobbling&#8221; - if unhobbling is about clearing out outdated knowns, then this is about finding things you didn&#8217;t even know you didn&#8217;t know. easiest techniques: telling claude to do a &#8220; blindspot pass &#8221; for your unknowns brainstorm for &#8220;wildly different design directions&#8221; interview me - similar to /grill-me , but prioritizing high impact questions use references : in the case of migrations keep implementation-notes.md : a running log of underspecified decisions made on your behalf quiz me - ensure MY understanding 14:29 Dealing with Grief: Reflecting on the emotional shift in coding productivity What you used to spend weeks on is now done in hours…",
+      "summary": "a quiet day lets us digest the world's most significant model launch... to date.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "finding"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
       "whyThisMatters": ""
     },
     {
@@ -2272,61 +2323,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.47,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a70bf206657b77b6",
-      "date": "2026-06-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Ire identifies another LOTUSLITE specimen",
-      "url": "https://www.microsoft.com/en-us/research/blog/ire-identifies-another-lotuslite-specimen/",
-      "publishedAt": "2026-06-12T20:30:48.000Z",
-      "content": "At a glance Project Ire identifies a LOTUSLITE variant that shares TTPs (tools, tactics, procedures) with the public family but none of its indicators of compromise (IOC).&nbsp; The LLM-driven agent produces a function-by-function behavioral report on the sample without any user interaction to determine whether it is malicious. The binary names a threat actor in cleartext; the agent declines to attribute and instead focuses on statically analyzing the behaviors. We pointed Project Ire , Microsoft&#8217;s autonomous malware-classification agent, at a malware sample—blind—and asked for a verdict. The sample is a variant of LOTUSLITE, a Windows DLL backdoor recently documented by Acronis. Our copy&#8217;s hash isn&#8217;t in their IOC list, and as of June 4, most major EDRs (CrowdStrike Falcon, SentinelOne, Sophos, Trellix, Palo Alto, ESET) still don&#8217;t flag it as malware. Ire produced a function-by-function behavioral report—install routine, C2 packet layout, command IDs, persistence mechanism, obfuscation—that lines up with Acronis&#8217;s published analysis. One decompiler-based run, no human priors. This is what behavioral, agentic reverse engineering can achieve when signature matching and manual inspections fall short. Variants that share TTPs but not indicators of compromise (IOC) get caught instead of slipping past signature lists. Novel malware classification is a domain with no automatic validator, requiring in-depth investigation and holistic understanding of the software’s behaviors to surface and determine intent. Ire operates without context: no origin metadata, no telemetry, no analyst prompt. It invokes decompilers and binary-analysis tools, builds an auditable chain of evidence, and reaches a malicious-or-benign verdict. Acronis&#8217;s Threat Research Unit (TRU) published a writeup (opens in new tab) on LOTUSLITE, a DLL backdoor delivered through a politically themed ZIP, sideloaded through a renamed Tencent KuGou launcher. They attribute it to…",
-      "summary": "Project Ire examined a timely malware sample and determined its intent through reverse engineering—identifying LOTUSLITE characteristics even as most major EDR tools did not detect it. The post Ire identifies another LOTUSLITE specimen app…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.81,
-          "rationale": [
-            "agent",
-            "agentic",
-            "autonomous"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
       "whyThisMatters": ""
     }
   ]
