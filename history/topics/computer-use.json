@@ -1,8 +1,61 @@
 {
-  "generatedAt": "2026-07-06T05:43:58.707Z",
+  "generatedAt": "2026-07-07T01:27:27.525Z",
   "slug": "computer-use",
   "label": "AI Using Computers",
   "items": [
+    {
+      "id": "30f4311f08c8e9c5",
+      "date": "2026-07-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-900",
+      "publishedAt": "2026-07-02T07:10:14.000Z",
+      "content": "Fable was relaunched on schedule, and AIE was on top of it with the first Field Guide to Fable talk , as well as the rest of the excellent coverage of AIEWF Day 3 across Autoresearch , Cursor FDE , and a followup to Zach Lloyd&#8217;s popular talk yesterday on Software Factories , as well as &#8220;all killer no filler&#8221; closing keynotes: AI News for 7/1/2026-7/1/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Coding Models, Agent Harnesses, and the Fable 5 Re-launch Anthropic re-enabled Claude Fable 5, but with visible safety fallbacks : After a day of pent-up demand, @claudeai announced Fable 5 is back , alongside a clarifying note that updated cybersecurity safeguards may route some requests to Opus 4.8 , with biology/chemistry classifiers still overly broad for now @claudeai . The relaunch immediately propagated into tooling: Cursor says Fable 5 leads its evals but is the most expensive per task @cursor_ai ; Devin added it across Cloud/Desktop/CLI @cognition ; Perplexity restored it as an orchestrator model @perplexity_ai . Anthropic also reset rate limits for users once the model was live again @ClaudeDevs . The interesting story was less &#8220;model is back&#8221; than &#8220;how people are adapting to frontier-model constraints&#8221; : Multiple builders converged on multi-model orchestration rather than single-model dependence. @theo described using Fable only for higher-value reasoning/planning while delegating implementation, verification, and computer-use work to other models; he reports a substantial improvement in end-to-end PR yield @theo . Similar views came from @omarsar0 , who argued teams should design model-combination strategies rather than build around one frontier model, and from @MParakhin , who pushed back on &#8220;simple-task pre-classifiers,&#8…",
+      "summary": "another quiet day.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "repo"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.69,
+          "rationale": [
+            "desktop",
+            "gui"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
     {
       "id": "69135ccf2222e427",
       "date": "2026-07-06",
@@ -84,59 +137,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "30f4311f08c8e9c5",
-      "date": "2026-07-06",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] not much happened today",
-      "url": "https://www.latent.space/p/ainews-not-much-happened-today-900",
-      "publishedAt": "2026-07-02T07:10:14.000Z",
-      "content": "Fable was relaunched on schedule, and AIE was on top of it with the first Field Guide to Fable talk , as well as the rest of the excellent coverage of AIEWF Day 3 across Autoresearch , Cursor FDE , and a followup to Zach Lloyd&#8217;s popular talk yesterday on Software Factories , as well as &#8220;all killer no filler&#8221; closing keynotes: AI News for 7/1/2026-7/1/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Coding Models, Agent Harnesses, and the Fable 5 Re-launch Anthropic re-enabled Claude Fable 5, but with visible safety fallbacks : After a day of pent-up demand, @claudeai announced Fable 5 is back , alongside a clarifying note that updated cybersecurity safeguards may route some requests to Opus 4.8 , with biology/chemistry classifiers still overly broad for now @claudeai . The relaunch immediately propagated into tooling: Cursor says Fable 5 leads its evals but is the most expensive per task @cursor_ai ; Devin added it across Cloud/Desktop/CLI @cognition ; Perplexity restored it as an orchestrator model @perplexity_ai . Anthropic also reset rate limits for users once the model was live again @ClaudeDevs . The interesting story was less &#8220;model is back&#8221; than &#8220;how people are adapting to frontier-model constraints&#8221; : Multiple builders converged on multi-model orchestration rather than single-model dependence. @theo described using Fable only for higher-value reasoning/planning while delegating implementation, verification, and computer-use work to other models; he reports a substantial improvement in end-to-end PR yield @theo . Similar views came from @omarsar0 , who argued teams should design model-combination strategies rather than build around one frontier model, and from @MParakhin , who pushed back on &#8220;simple-task pre-classifiers,&#8…",
-      "summary": "another quiet day.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "repo"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.69,
-          "rationale": [
-            "desktop",
-            "gui"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {

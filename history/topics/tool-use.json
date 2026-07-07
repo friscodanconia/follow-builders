@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-06T05:43:58.707Z",
+  "generatedAt": "2026-07-07T01:27:27.525Z",
   "slug": "tool-use",
   "label": "AI Using Tools",
   "items": [
     {
       "id": "a146ef1164b0071d",
-      "date": "2026-07-06",
+      "date": "2026-07-07",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -46,6 +46,57 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "cda5ebe2b2588cf8",
+      "date": "2026-07-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "The Robots Are Here",
+      "url": "https://www.chinatalk.media/p/the-robots-are-here",
+      "publishedAt": "2026-07-06T11:02:54.000Z",
+      "content": "Robots are here, and they&#8217;re going to change the world, with Unitree currently in pole position. Joining me to discuss are Niko Ciminelli , longtime SemiAnalysis advisor, robot kid, venture investor, and Western New York native &#8212; go Bills! &#8212; along with Reyk Knuhtsen , robotics lead at SemiAnalysis. Lily Ottinger is co-hosting. Our conversation covers: Why robots are the real general-purpose technology because, for the first time in history, we can decouple capital from human labor. How everyone keeps underestimating Unitree: the DJI and BYD playbooks, the danger of dismissing &#8220;robot dogs,&#8221; and why iteration speed matters more than dancing demos. China&#8217;s edge: vertical integration, actuator manufacturing, and supply chains that make Chinese humanoids much cheaper than American ones. Why you can&#8217;t AI your way out of a hardware problem or from a supply chain that makes your robot far more expensive to build. What America should do next: allied supply chains, special economic zones, and industrial policy. Why We Should Care About Robots Now Jordan Schneider: Niko, let me start with you. Why should people care about robots now? Niko Ciminelli: We&#8217;re in a world where everyone&#8217;s excited about digital AI &#8212; Claude Code, Codex, ChatGPT, etc. These tools are boosting productivity in white-collar cognitive work, but today they remain very much complements to people. Whether that stays true remains to be seen. Robots are different. They&#8217;re a true general-purpose technology, the same way you&#8217;d think about AGI. For any subset of tasks where you can deploy a robot, you&#8217;re absolutely replacing someone you&#8217;d otherwise have needed. These jobs are usually fairly harsh, not well paid, and increasingly scarce in the West. What&#8217;s interesting is that this is the first time in the physical world where a general-purpose robot &#8212; at the level of dexterity and capability we&#8217;ve written about &#…",
+      "summary": "Unitree's advantage",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
       "whyThisMatters": ""
     },
     {
@@ -2334,57 +2385,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a89ea0ec5a05692c",
-      "date": "2026-05-22",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "AI & I by Every",
-      "sourceKey": "podcast:AI & I by Every",
-      "builderOrOrg": "AI & I by Every",
-      "title": "Inside Stainless: The Developer Tools Startup Anthropic Just Bought for $300 Million",
-      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
-      "publishedAt": "2026-05-20T15:00:00.000Z",
-      "content": "Speaker 1 | 00:00 - 00:31 The internet runs on computers talking to each other, but its entire architecture was built for a pre AI world. Now we're trying to hook AI up to the internet with MCP, Model Context Protocol, which turns any website or web service into a set of tools that an AI can use natively to get worked on. And the software companies that learn how to do MCP well are going to win over the next decade. That's why I brought Alex Rattray, the founder and CEO of Stainless, onto the show. Stainless' job is to help computers talk to each other. Speaker 1 | 00:31 - 00:59 They make the API and SDKs for all the big companies that you know about, like OpenAI and Anthropic, and they're starting to build MCP servers too. So Alex and I get into the nitty gritty of what the future of MCP looks like, how to design good MCPs, why MCPs are actually really hard to scale and possibly insecure. And we try to figure out together what a better model for allowing AIs to use the Internet might look like. This is a great episode. Alex is a good friend of mine. Speaker 1 | 00:59 - 01:15 Let's dive in. Alex, welcome to the show. Speaker 2 | 01:16 - 01:18 Thanks, Dan. It's, really exciting to be here. Speaker 1 | 01:18 - 01:36 It's good to have you. So for people who don't know, you are the founder and CEO of Stainless, which is the API company. You make APIs for companies like OpenAI and Anthropic, and just name your big company that you might use their API. Stainless is probably behind it. Before that, you worked at Stripe doing their API. Speaker 1 | 01:36 - 02:01 Surprise. And before that, most importantly, we were very good friends in college, we remained good friends. And we were both starting companies in college, I'm a tiny investor in stainless. But it's been really, really fun to watch your journey and get to get to hang out together so much over the years. And, I'm just very excited to bring you on to talk about AI and and what you're doing at stainless. Speaker 2 | 02:01 - 02:12 Thanks, Dan. Yeah. It's it's been really fun over the years. I mean, you know, when when we were in college, I was working on a start up. You were working on a start up. Speaker 2 | 02:12 - 02:38 You you had a conference room at a venture capitalist office as your office, and you let me crash there with my co founder and team. And we were just like on the other side of the conference table hacking away into the evening. And very fond memories of those days. And these days, it's not every evening, but on the weekends, whatever, same thing is still happening. You don't see that every day. Speaker 2 | 02:38 - 02:46 It's really a nice feeling. And it's been great to see everything happening with every, along the way. Speaker 1 | 02:46 - 03:13 Thank you. As I say, it started from the bottom, now we're here. I and, yeah. I mean, I the thing that I always say when people when I run into people and they ask me about you, in order to embarrass you, I I just talk about how you're the only person that I know of who has consistently run barefoot through the streets of Philadelphia. Because when we first met, you were you were not a fan of shoes and you were a fan of running. Speaker 1 | 03:13 - 03:14 You wanna talk about that? Speaker 2 | 03:15 - 03:31 Yeah. It wasn't that I didn't like the concept of shoes. It's that I couldn't find a good pair. And at a certain point, you know, it's like I was running through Nikes and they would they would bust open every few months. I think was actually going on as I had really wide feet. Speaker 2 | 03:31 - 03:51 And was I I was buying probably narrow shoes, but they would shoes would constantly get ruined. And, you know, on a college budget, it's just like, this is this is it. This is no good. And eventually, I decided, okay, the longer you wear your shoes, the the more worn out they get. But the longer you just wear your feet, the tougher they get. Speaker 2 | 03:52 - 03:53 So Speaker 1 | 03:54 - 03:56 the longer you wear y…",
-      "summary": "Speaker 1 | 00:00 - 00:31 The internet runs on computers talking to each other, but its entire architecture was built for a pre AI world. Now we're trying to hook AI up to the internet with MCP, Model Context Protocol, which turns any webs…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "developer"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.52,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.44,
       "whyThisMatters": ""
     }
   ]
