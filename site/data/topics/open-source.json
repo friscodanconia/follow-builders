@@ -1,8 +1,226 @@
 {
-  "generatedAt": "2026-07-08T04:38:50.066Z",
+  "generatedAt": "2026-07-09T04:37:37.008Z",
   "slug": "open-source",
   "label": "Open Source",
   "items": [
+    {
+      "id": "086a76dcad2a980c",
+      "date": "2026-07-09",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "The filesystem is beautiful. Want your https://t.co/99eEa13mZ3 agent to have GitHub powers? Def…",
+      "url": "https://x.com/rauchg/status/2074630835878453601",
+      "publishedAt": "2026-07-07T23:05:10.000Z",
+      "content": "The filesystem is beautiful. Want your https://t.co/99eEa13mZ3 agent to have GitHub powers? Define 𝚝𝚘𝚘𝚕𝚜/𝚐𝚒𝚝𝚑𝚞𝚋.𝚝𝚜 and export 𝚌𝚛𝚎𝚊𝚝𝚎𝙶𝚒𝚝𝚑𝚞𝚋𝚃𝚘𝚘𝚕𝚜(). Eve exists to shape an open ecosystem of pluggable models, skills, channels, and tools like this ↓ https://t.co/3fsag2HwnM",
+      "summary": "The filesystem is beautiful. Want your https://t.co/99eEa13mZ3 agent to have GitHub powers? Define 𝚝𝚘𝚘𝚕𝚜/𝚐𝚒𝚝𝚑𝚞𝚋.𝚝𝚜 and export 𝚌𝚛𝚎𝚊𝚝𝚎𝙶𝚒𝚝𝚑𝚞𝚋𝚃𝚘𝚘𝚕𝚜(). Eve exists to shape an open ecosystem of p…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 243,
+        "retweets": 12,
+        "replies": 19
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "github"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "aac857fc9e851c47",
+      "date": "2026-07-09",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Flint: A visualization language for the AI era",
+      "url": "https://www.microsoft.com/en-us/research/blog/flint-a-visualization-language-for-the-ai-era/",
+      "publishedAt": "2026-07-08T16:00:00.000Z",
+      "content": "At a glance Polished charts from simple specs . Flint allows AI agents to reliably generate expressive, visually polished charts from simple, human-editable specifications. Semantic types guide design . Flint leverages semantic data types to express meanings of data. They help the compiler choose appropriate scales, baselines, formatting, and color schemes. Layouts adapt to the data . Flint automatically manages sizing, spacing, labels, and layout so charts remain readable as cardinality and density change, without explicit user configurations. One spec can target multiple backends . A single Flint specification can compile to Vega-Lite, Apache ECharts, or Chart.js without rewriting the chart from scratch. Built for agent workflows . The open-source project includes the flint-chart library and the flint-chart-mcp server , so agents can create, validate, and render charts directly in chat or coding environments. Figure 1. Flint supports a diverse collection of visualizations with its simple spec, which can be rendered with visualization libraries like Vega-Lite, Echarts, and Chart.js. Creating a good chart requires many design decisions: how dates should be parsed, whether a scale should start at zero, how values should be formatted, how much room labels need, and which colors make the data easier to read. Modern visualization libraries such as Vega-Lite, Apache ECharts, and Chart.js expose these controls, but there is a trade-off: Short specifications that rely on system defaults often produce uninspiring charts, while polished visualizations require detailed specifications with purposely chosen parameters that are often verbose, fragile, and error-prone. This trade-off becomes sharper as large language models (LLMs) and AI agents take on more visualization work. Agents are especially prone to errors when they must manage complex, low-level specification details, and the resulting fragile code can be difficult for people to inspect, repair, or reuse. Ideally, we ne…",
+      "summary": "Short chart specifications are easy to write, but often produce uninspiring results. Flint is an open-source visualization language that offers a middle path, letting AI agents create expressive charts from compact, human-editable specific…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open-source"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.82,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "261f692f80623caf",
+      "date": "2026-07-09",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "Speaking of Voxtral | Mistral AI",
+      "url": "https://mistral.ai/news/voxtral-tts/",
+      "publishedAt": null,
+      "content": "Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.",
+      "summary": "Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.81,
+          "rationale": [
+            "voice",
+            "speech",
+            "tts"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "weights"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "8621c0922a08cb82",
+      "date": "2026-07-09",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Lilian Weng summarizes 35 papers on Harness Engineering for RSI",
+      "url": "https://www.latent.space/p/ainews-lilian-weng-summarizes-35",
+      "publishedAt": "2026-07-08T02:20:25.000Z",
+      "content": "Congrats to Meta Superintelligence on having the top 2/3 image/video models in the world! This would&#8217;ve been a candidate for a title story, but unfortunately that is pretty much all the detail we have about Muse Image/Video - no paper, no technical detail whatsoever. Still, this beats the Microsoft MAI models from last month which is nice. We are noted Lilian Weng fans , so we take notice whenever she drops another research recap, especially rare now that she is a cofounder at Thinky. Today she is thinking about the relationship of harnesses to RSI: lilianweng.github.io/posts/2026-07-&#8230; \\n\\nIt is hard to forecast how much the future of RSI will rely on harnesses. Likely harness engineering will evolve in the direction of self-improvement and enable auto-research, and, in turn, smarter\",\"username\":\"lilianweng\",\"name\":\"Lilian Weng\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/1923619459643711488/qmXOBhZ1_normal.jpg\",\"date\":\"2026-07-07T05:58:07.000Z\",\"photos\":[],\"quoted_tweet\":{},\"reply_count\":72,\"retweet_count\":534,\"like_count\":3888,\"impression_count\":404538,\"expanded_url\":{\"url\":\"https://lilianweng.github.io/posts/2026-07-04-harness/\",\"title\":\"Harness Engineering for Self-Improvement\",\"description\":\"The concept of recursive self-improvement (RSI) dates back to I. J. Good (1965), where he defined an &#8220;ultraintelligent machine&#8221; as a system that can surpass humans in all intellectual activities and design better machines to improve itself. Yudkowsky (2008) used the phrase &#8220;recursive self-improvement&#8221; for a specific feedback loop: an AI uses its current intelligence to improve the cognitive machinery that produces its intelligence. This feedback loop in modern AI may indicate the model rewriting its own weights directly, or more broadly the model improves the training pipeline and the deployment system, which in turn enables a better successor model with improved performance across economically valuable tasks. The speed…",
+      "summary": "a quiet day lets us read some condensed insight",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.69,
+          "rationale": [
+            "weights",
+            "github"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "paper"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "image",
+            "video"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
     {
       "id": "cbcbe3db05f19e65",
       "date": "2026-07-08",
@@ -82,115 +300,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "261f692f80623caf",
-      "date": "2026-07-08",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Mistral AI Blog",
-      "sourceKey": "official:Mistral AI Blog",
-      "builderOrOrg": "Mistral AI",
-      "title": "Speaking of Voxtral | Mistral AI",
-      "url": "https://mistral.ai/news/voxtral-tts/",
-      "publishedAt": null,
-      "content": "Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.",
-      "summary": "Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "voice",
-          "label": "Voice",
-          "confidence": 0.81,
-          "rationale": [
-            "voice",
-            "speech",
-            "tts"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "weights"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "8621c0922a08cb82",
-      "date": "2026-07-08",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Lilian Weng summarizes 35 papers on Harness Engineering for RSI",
-      "url": "https://www.latent.space/p/ainews-lilian-weng-summarizes-35",
-      "publishedAt": "2026-07-08T02:20:25.000Z",
-      "content": "Congrats to Meta Superintelligence on having the top 2/3 image/video models in the world! This would&#8217;ve been a candidate for a title story, but unfortunately that is pretty much all the detail we have about Muse Image/Video - no paper, no technical detail whatsoever. Still, this beats the Microsoft MAI models from last month which is nice. We are noted Lilian Weng fans , so we take notice whenever she drops another research recap, especially rare now that she is a cofounder at Thinky. Today she is thinking about the relationship of harnesses to RSI: lilianweng.github.io/posts/2026-07-&#8230; \\n\\nIt is hard to forecast how much the future of RSI will rely on harnesses. Likely harness engineering will evolve in the direction of self-improvement and enable auto-research, and, in turn, smarter\",\"username\":\"lilianweng\",\"name\":\"Lilian Weng\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/1923619459643711488/qmXOBhZ1_normal.jpg\",\"date\":\"2026-07-07T05:58:07.000Z\",\"photos\":[],\"quoted_tweet\":{},\"reply_count\":72,\"retweet_count\":534,\"like_count\":3888,\"impression_count\":404538,\"expanded_url\":{\"url\":\"https://lilianweng.github.io/posts/2026-07-04-harness/\",\"title\":\"Harness Engineering for Self-Improvement\",\"description\":\"The concept of recursive self-improvement (RSI) dates back to I. J. Good (1965), where he defined an &#8220;ultraintelligent machine&#8221; as a system that can surpass humans in all intellectual activities and design better machines to improve itself. Yudkowsky (2008) used the phrase &#8220;recursive self-improvement&#8221; for a specific feedback loop: an AI uses its current intelligence to improve the cognitive machinery that produces its intelligence. This feedback loop in modern AI may indicate the model rewriting its own weights directly, or more broadly the model improves the training pipeline and the deployment system, which in turn enables a better successor model with improved performance across economically valuable tasks. The speed…",
-      "summary": "a quiet day lets us read some condensed insight",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.69,
-          "rationale": [
-            "weights",
-            "github"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "paper"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.69,
-          "rationale": [
-            "image",
-            "video"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -2268,106 +2377,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "306ba2cce73adf46",
-      "date": "2026-05-24",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "Unsupervised Learning",
-      "sourceKey": "podcast:Unsupervised Learning",
-      "builderOrOrg": "Unsupervised Learning",
-      "title": "Ep 87: Gemini Co-Lead on World Models, RL&apos;s Next Domains & Continual Learning",
-      "url": "https://www.youtube.com/watch?v=NQczevdpxq0",
-      "publishedAt": "2026-05-22T12:50:04.000Z",
-      "content": "Speaker 1 | 00:00 - 00:28 Oriol Vinyals is the co lead of Gemini alongside Noam Shazir and Jeff Dean. He's had an incredible career in AI, pioneering many of the breakthroughs in deep learning in the last decade, and it was a ton of fun to get to sit down with him after Google IO. If you've been following Google IO, they basically shipped a bunch of products across a a ton of interesting surface areas throughout AI. And so Oriel and I hit all of them. We talked about what's required for further advances in multimodal models and what's going to make these world models actually usable. Speaker 1 | 00:29 - 00:55 We talked about the increase in memory and the importance of memory and how the advances there will look like reasoning these next few years as well as what Oriol thinks the path forward is. And we hit on the state of scaffolding today, what folks are building, and what Oriol thinks persists. It's a ton of fun to get to basically take all the top questions that founders, investors are thinking through, and just pose them to Oriole. So I think folks will really enjoy this conversation. Without further ado, here he is. Speaker 1 | 00:57 - 00:59 Oriole, thanks so much for coming on the podcast. Speaker 2 | 00:59 - 01:02 Yeah. It's great to be here. Thanks, Jacob. Speaker 1 | 01:02 - 01:36 Yeah. Very exciting to have you a a day after IO. I know things have been have been busy, but I've been really excited for this because you're one of the people kinda most directly shaping the frontier of of models today in your work at Google. And you obviously in in the releases that happened yesterday at IO, they hit on like pretty much all the themes that people are thinking about in the in the space, where these products and models are going. And so I feel like there's just our our goal today is to to talk through kind of the research behind those announcements, you know, where where this is all headed, know, the kind of future path path of RL and post training and, you know, get your read on the on the space as a whole. Speaker 1 | 01:36 - 01:57 I figured where I start was with world models because I think that was just a really impressive part of, you know, of yesterday and also I I think a pretty where Google's pretty distinct from a lot of the rest of the field. So you obviously shipped this incredibly impressive world model in Omni yesterday. And I think Demis has talked a lot about seeing world models as a path to AGI. And it's interesting. Right? Speaker 1 | 01:57 - 02:11 Because it seems like other labs maybe are more focused on code and, you know, getting to recursive self improvement. And so I'm wondering if it's a fair characterization and, you know, why you think, you know, you and the team and Google have been somewhat uniquely focused on this world model space. Speaker 2 | 02:11 - 02:55 First of all, I guess the the coding or, like, self improvement angle is is it is it at a bit of a different layer. Right? So you can certainly bet and believe that, you know, these models can can reprogram and improve themselves, and it's something I've been actually quite actively working on at the moment. But then the object that they improve, the model, whether it's multimodal and closer or a world model as we call it, and that even how to define that is a bit abstract. Since day one and way before actually Gemini program started, we were working on not just language, but, you know, understanding the visual world and kind of jointly modeling words in the context of vision, blind video, etcetera. Speaker 2 | 02:56 - 03:22 So I think that part, you know, it's been at the core of Gemini and and before our research. And I think maybe one way to characterize it is, you know, language, clearly, there's a lot of information collectively that we wrote about the world, so that's clearly paid off big time. We've kind of distilled, in a way, all the knowledge written and that is being written at the moment into into these weights. Speaker 1 | 03…",
-      "summary": "Speaker 1 | 00:00 - 00:28 Oriol Vinyals is the co lead of Gemini alongside Noam Shazir and Jeff Dean. He's had an incredible career in AI, pioneering many of the breakthroughs in deep learning in the last decade, and it was a ton of fun to…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.81,
-          "rationale": [
-            "multimodal",
-            "vision",
-            "video"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "weights"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.52,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.44,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "37d0d892fb8e0c34",
-      "date": "2026-05-23",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:zarazhangrui",
-      "builderOrOrg": "Zara Zhang",
-      "title": "Introducing the Claude Code Lark/Feishu Bridge 🌉 (open-source) Talk to Claude Code in Lark/Fei…",
-      "url": "https://x.com/zarazhangrui/status/2057710284920520906",
-      "publishedAt": "2026-05-22T06:28:56.000Z",
-      "content": "Introducing the Claude Code Lark/Feishu Bridge 🌉 (open-source) Talk to Claude Code in Lark/Feishu like a colleague - Use Claude Code on your phone via Lark chat - Manage multiple CC sessions as group chats in Lark (one chat = one session), say goodbye to messy terminal tabs - Claude Code can read all your work context in Lark (chat, docs, meeting transcripts, etc) via CLI - Claude Code can write Lark Docs for you; you can even @ mention it in the comment and it will reply - Forward any Lark me…",
-      "summary": "Introducing the Claude Code Lark/Feishu Bridge 🌉 (open-source) Talk to Claude Code in Lark/Feishu like a colleague - Use Claude Code on your phone via Lark chat - Manage multiple CC sessions as group chats in Lark (one…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 28,
-        "retweets": 2,
-        "replies": 5
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open-source"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.64,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.52,
       "whyThisMatters": ""
     }
   ]
