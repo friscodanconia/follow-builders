@@ -1,8 +1,140 @@
 {
-  "generatedAt": "2026-07-10T05:14:00.850Z",
+  "generatedAt": "2026-07-11T01:18:46.510Z",
   "slug": "safety",
   "label": "AI Safety",
   "items": [
+    {
+      "id": "f79588e34c192ef4",
+      "date": "2026-07-11",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:nikunj",
+      "builderOrOrg": "Nikunj Kothari",
+      "title": "Me explaining this week’s model release situation to my wife.. \"babe listen. this matters. GPT-…",
+      "url": "https://x.com/nikunj/status/2075411514773967261",
+      "publishedAt": "2026-07-10T02:47:19.000Z",
+      "content": "Me explaining this week’s model release situation to my wife.. \"babe listen. this matters. GPT-5.6 dropped in three flavors. Sol, Terra, and Luna. Sol is the smart one. It had to clear government safety evals before release, like getting paroled. Luna is the cheap one. Terra exists. Grok 4.5 launched the day BEFORE GPT-5.6. On purpose. So it could have 24 hours of being frontier-adjacent. Elon calls it Opus-class, which is a polite way of saying it competes with Anthropic's previous model. But…",
+      "summary": "Me explaining this week’s model release situation to my wife.. \"babe listen. this matters. GPT-5.6 dropped in three flavors. Sol, Terra, and Luna. Sol is the smart one. It had to clear government safety evals before rel…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 94,
+        "retweets": 6,
+        "replies": 10
+      },
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "dd7fc93a296af996",
+      "date": "2026-07-11",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "Unsupervised Learning",
+      "sourceKey": "podcast:Unsupervised Learning",
+      "builderOrOrg": "Unsupervised Learning",
+      "title": "Ep 90: AI Pioneer Jürgen Schmidhuber on the State of AI Today",
+      "url": "https://www.youtube.com/watch?v=RKjR8DQ40po",
+      "publishedAt": "2026-07-09T13:00:00.000Z",
+      "content": "Speaker 1 | 00:00 - 00:01 Sounds like you think a crash is coming. Speaker 2 | 00:01 - 00:04 That would be one of these stock market crashes. Speaker 1 | 00:04 - 00:05 What about, like, robotics? Speaker 2 | 00:05 - 00:13 Robot hardware is really inferior compared to human bodies, and there's no human made technology that compares to this hand. It seems a Speaker 1 | 00:13 - 00:14 lot more than a hardware problem. Speaker 2 | 00:14 - 00:20 But you can't have AGI without hardware like that. You can't have AGI just behind the screen. Speaker 1 | 00:20 - 00:20 Are we Speaker 2 | 00:20 - 00:22 kinda close to that? It will come, but it will take a Speaker 1 | 00:23 - 01:02 Jurgen Schmidhuber has been set as the father of AI by the New York Times, Forbes, and more. He is behind some of the most important advances in the field that really power the AI revolution today, and it was a real privilege on unsupervised learning to get to sit down with him and talk about everything that's top of mind in the ecosystem today. We talked about what's missing in models today, and what he thinks is required to get artificial scientists that can push them forward. We talked about why he thinks today's CapEx boom is massively overdone, and why he's very optimistic on AI technology, but deeply pessimistic on the model companies, and how he doesn't think recursive self improvement will actually be a moat for the companies. We also talked about AI safety, and why he's notably less worried than a lot of others in the field. Speaker 1 | 01:02 - 01:14 It's just an awesome opportunity to get to sit down with a legend in the field and ask him all these questions. I think folks will really enjoy hearing his perspective. Without further ado, here's Jorgen. Well, thanks so much for for coming on Speaker 2 | 01:14 - 01:18 the podcast. Really excited about this. It's my pleasure, Jacob. Speaker 1 | 01:18 - 01:34 Well, I feel like there there's so many different things I wanna talk about today. You've obviously been a pioneer of of a ton of different parts of this current AI moment. I figured where I'd start at the highest level was, as I understand it, you've had this goal for a long time, which was to build an AI smarter than yourself. How close are we to that right now? Speaker 2 | 01:34 - 02:12 From a cosmic perspective, we are as close as we were in the 1970s when I first formulated that wish. So we are very close. But is it going to be a couple of years or a couple of decades? I'm not totally sure about that because true AI is not just the AI behind the screen, which is working very well and which is passing the Turing test now. True AI is also, you know, real robots, real machinery outside of the stream and the real world and the physical world, and that's not working as well. Speaker 2 | 02:12 - 02:27 So the hardware in the real world has lots of limitations that human bodies don't have, and we still have a way to go to be able to compete with human bodies and physical AI. Speaker 1 | 02:27 - 02:31 Have there been any current AI results over the last few years that have surprised you? Speaker 2 | 02:31 - 03:21 Not really, not to the extent that it surprised people who had no contact to neural networks and artificial neural networks in the previous decades, and suddenly there was a chat CBT moment, and suddenly people started being interested in that thing, which they had never seen before. So they they didn't know that there was a long history of large language models and an even longer history of basic insights and algorithms for training these large language models that goes back to the previous millennium. So for a guy who was in center of all of that, it was much easier to predict that than for someone who had totally different interests. Speaker 1 | 03:21 - 03:40 Well, you know what? I definitely wanna hit on recursive self improvement in meta learning because I feel like you've know, it's been a huge focus of yours for a while. It obviously seems t…",
+      "summary": "Speaker 1 | 00:00 - 00:01 Sounds like you think a crash is coming. Speaker 2 | 00:01 - 00:04 That would be one of these stock market crashes. Speaker 1 | 00:04 - 00:05 What about, like, robotics? Speaker 2 | 00:05 - 00:13 Robot hardware is…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.52,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.69,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "2ae5a218f69e728d",
+      "date": "2026-07-11",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "UST is bringing Claude to physical AI \\ Anthropic",
+      "url": "https://www.anthropic.com/news/ust-claude",
+      "publishedAt": null,
+      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
     {
       "id": "c6303fa67b5a3930",
       "date": "2026-07-10",
@@ -45,50 +177,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "2ae5a218f69e728d",
-      "date": "2026-07-10",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "UST is bringing Claude to physical AI \\ Anthropic",
-      "url": "https://www.anthropic.com/news/ust-claude",
-      "publishedAt": null,
-      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     },
     {
@@ -2193,113 +2281,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.68,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "f43e6d8cd9f01bcf",
-      "date": "2026-05-09",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "The MAD Podcast with Matt Turck",
-      "sourceKey": "podcast:The MAD Podcast with Matt Turck",
-      "builderOrOrg": "The MAD Podcast with Matt Turck",
-      "title": "OpenAI Board Member Zico Kolter on the Real Risks of Frontier AI",
-      "url": "https://www.youtube.com/watch?v=DvyZcCfepeI",
-      "publishedAt": "2026-05-07T11:30:01.000Z",
-      "content": "Speaker 1 | 00:00 - 00:16 I joined the OpenAI board in 2024. Shortly thereafter, I became chair of the safety and security committee. We can delay model release if we feel that we need to understand that better. If a model is not good enough at something, what do you do? You wait, right? Speaker 1 | 00:16 - 00:38 Because the next model will be better at it. So far, we have not seen that same thing happen when it comes to things like the robustness of models. You can't just sort of trust models to get safer by getting bigger. AI systems are incredibly simple, incredibly simple. That entire set of code, probably two to 300 lines of Python code. Speaker 1 | 00:38 - 00:45 That blows my mind. The entire complexity of an AI system evolves from the data they're trained on. Speaker 2 | 00:45 - 01:19 Hi, I'm Matar from FirstMark. Welcome to the MAD podcast. My guest today is Zico Coulter, one of the most respected researchers in the world on AI safety and security and one of the most influential figures in AI governance today. Zico is the head of the machine learning department at Carnegie Mellon and is also a board member at OpenAI where he chairs the safety and security committee. We talked about how OpenAI's safety oversight works in practice, why bigger models don't automatically get safer, what jailbreaking and prompt injection mean in 2026, and why modern AI is far simpler than most people realize. Speaker 2 | 01:19 - 01:31 This is a very substantive but also very clear deep dive on all things AI safety and the AI frontier. Please enjoy this truly excellent chat with Zico Coulter. Hey, Zico. Welcome. Speaker 1 | 01:31 - 01:32 Great to be here. Speaker 2 | 01:32 - 01:54 So over the last couple of years in particular, you've become one of the most powerful figures in the AI governance and safety world. So I thought this would be a great place to start. You joined the OpenAI board a couple of years ago and you're now part of the safety committee. So help us understand where you sit and what you do at Yeah, Speaker 1 | 01:55 - 02:37 absolutely. So I joined the OpenAI board in 2024 in August. And shortly thereafter, joined the, or became chair of the Safety and Security Committee or SSC, which is a committee that oversees the safety of model development and really oversees the governance of model development and safety at OpenAI. Really what it means is look, OpenAI has a very large safety organization and several different groups in the safety organization and on different teams. And so there's safety systems team, there's the preparedness team, alignment teams, model policy teams, many different groups kind of working towards different aspects of safety there. Speaker 1 | 02:38 - 03:24 And the role of the SSC really is to kind of oversee the governance of this. And what that concretely means is that, you know, we meet with the teams, we understand what is being done, we ask questions about what's happening with the safety of model, how they're preparing models for release, how they're implementing and developing the safeguards needed to release those models. And we are not involved in the actual work of the process, but we're involved in kind of the oversight of this process. One of the more sort of, I guess, well publicized roles that we have is that prior to release of models, the SSC holds a big review with many members of the team there. And OpenAI sets many standards for model release. Speaker 1 | 03:24 - 03:46 So we can talk about some of these in more detail, like preparedness and such. And through a lot of information that we get, they present a lot of information about the models, we get third party reports of the models. And from all of this, we're trying to essentially assess, you know, are these things living up to the policies, the open assets, right? This is what the team is doing itself. And they're presenting that to us. Speaker 1 | 03:46 - 03:53 And in the case essentially where we have more questions, can delay mo…",
-      "summary": "Speaker 1 | 00:00 - 00:16 I joined the OpenAI board in 2024. Shortly thereafter, I became chair of the safety and security committee. We can delay model release if we feel that we need to understand that better. If a model is not good enou…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.9299999999999999,
-          "rationale": [
-            "safety",
-            "alignment",
-            "governance"
-          ],
-          "score": 4
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "code",
-            "repo"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.6,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.49,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "e626abb58dd215bb",
-      "date": "2026-05-06",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs \\ Anthropic",
-      "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
-      "publishedAt": null,
-      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
       "whyThisMatters": ""
     }
   ]
