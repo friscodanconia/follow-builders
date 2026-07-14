@@ -1,11 +1,112 @@
 {
-  "generatedAt": "2026-07-13T04:51:57.890Z",
+  "generatedAt": "2026-07-14T00:50:46.594Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
     {
+      "id": "4f4ea0bb2a2a7dde",
+      "date": "2026-07-14",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:thsottiaux",
+      "builderOrOrg": "Thibault Sottiaux",
+      "title": "Updates for Codex and ChatGPT Work users. No nerfing, only good stuff! - We have landed inferen…",
+      "url": "https://x.com/thsottiaux/status/2076495156757577895",
+      "publishedAt": "2026-07-13T02:33:19.000Z",
+      "content": "Updates for Codex and ChatGPT Work users. No nerfing, only good stuff! - We have landed inference optimizations and are passing down savings to all the subscriptions for GPT-5.6 Sol. That should result in around 10% more usage on its own. - We noticed that by changing the context size limit in the product to 372k for GPT-5.6 Sol, up from 272k for GPT-5.5, it resulted in more usage being charged than intended. We have reverted to 272k and will work to roll back out to 372k in the days to come. Y…",
+      "summary": "Updates for Codex and ChatGPT Work users. No nerfing, only good stuff! - We have landed inference optimizations and are passing down savings to all the subscriptions for GPT-5.6 Sol. That should result in around 10% mor…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 6468,
+        "retweets": 442,
+        "replies": 694
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c22f224f72497d41",
+      "date": "2026-07-14",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "Make the model a cog in a machine you own. ◾ AI SDK → open model API ◾ https://t.co/O7y9dmUqk5…",
+      "url": "https://x.com/rauchg/status/2076364176252191222",
+      "publishedAt": "2026-07-12T17:52:51.000Z",
+      "content": "Make the model a cog in a machine you own. ◾ AI SDK → open model API ◾ https://t.co/O7y9dmUqk5 → open Agent API ◾ AI Gateway → open ZDR inference Startups and enterprises must own their data, evals, model choices, software layer. Don't outsource your brain. https://t.co/EpiBG1GD59",
+      "summary": "Make the model a cog in a machine you own. ◾ AI SDK → open model API ◾ https://t.co/O7y9dmUqk5 → open Agent API ◾ AI Gateway → open ZDR inference Startups and enterprises must own their data, evals, model choices, softw…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 793,
+        "retweets": 51,
+        "replies": 54
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.92,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.95,
+      "whyThisMatters": ""
+    },
+    {
       "id": "b919b5fbf17f954b",
-      "date": "2026-07-13",
+      "date": "2026-07-14",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Together AI Blog",
@@ -2392,106 +2493,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "dc2e625ef5247dee",
-      "date": "2026-04-23",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Speeding up agentic workflows with WebSockets in the Responses API",
-      "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
-      "publishedAt": "2026-04-22T10:00:00.000Z",
-      "content": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
-      "summary": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "latency"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.82,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "8e16779959bccf60",
-      "date": "2026-04-18",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:claudeai",
-      "builderOrOrg": "Claude",
-      "title": "On the API, a new xhigh effort level between high and max gives you finer control over reasonin…",
-      "url": "https://x.com/claudeai/status/2044785264313221470",
-      "publishedAt": "2026-04-16T14:29:31.000Z",
-      "content": "On the API, a new xhigh effort level between high and max gives you finer control over reasoning and latency on hard problems. Task budgets (beta) help Claude prioritize work and manage costs across longer runs.",
-      "summary": "On the API, a new xhigh effort level between high and max gives you finer control over reasoning and latency on hard problems. Task budgets (beta) help Claude prioritize work and manage costs across longer runs.",
-      "regionTags": [],
-      "metrics": {
-        "likes": 2392,
-        "retweets": 47,
-        "replies": 13
-      },
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "latency"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "reasoning",
-          "label": "AI Thinking",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "reasoning"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]
