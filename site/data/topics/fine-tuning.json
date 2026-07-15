@@ -1,8 +1,110 @@
 {
-  "generatedAt": "2026-07-14T04:20:01.157Z",
+  "generatedAt": "2026-07-15T00:30:51.186Z",
   "slug": "fine-tuning",
   "label": "Custom AI",
   "items": [
+    {
+      "id": "d610cb600360ee0a",
+      "date": "2026-07-15",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:amasad",
+      "builderOrOrg": "Amjad Masad",
+      "title": "Getting realtime progress updates on my model training runs. This feels like early vibe coding…",
+      "url": "https://x.com/amasad/status/2076776737074184661",
+      "publishedAt": "2026-07-13T21:12:13.000Z",
+      "content": "Getting realtime progress updates on my model training runs. This feels like early vibe coding except it’s making personal models. https://t.co/NBFr2sVJT5",
+      "summary": "Getting realtime progress updates on my model training runs. This feels like early vibe coding except it’s making personal models. https://t.co/NBFr2sVJT5",
+      "regionTags": [],
+      "metrics": {
+        "likes": 180,
+        "retweets": 4,
+        "replies": 19
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "ab48db7a843ab716",
+      "date": "2026-07-15",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Aurora 1.5: Extending open foundation models for weather and Earth-system applications",
+      "url": "https://www.microsoft.com/en-us/research/blog/aurora-1-5-extending-open-foundation-models-for-weather-and-earth-system-applications/",
+      "publishedAt": "2026-07-09T16:46:22.000Z",
+      "content": "At a glance Aurora 1.5 is a major extension of Microsoft’s Aurora Earth System foundation model that adds 22 more weather variables relevant to energy, agriculture, transport, and climate risk, along with hourly temporal resolution and probabilistic ensemble forecasting. Released as open source on GitHub with model checkpoints on Hugging Face, Aurora 1.5 enables researchers and developers to use, evaluate, and build on the model. Aurora 1.5 connects open research to Microsoft Weather services, linking the model with data, infrastructure, managed access, and operational use for weather and Earth-system applications. Aurora 1.5 is a major update to the open Aurora Earth-system foundation model, adding 22 new weather variables for a broader view of atmospheric conditions, hourly forecasts, and probabilistic ensemble forecasting. Developed by Microsoft Weather as an extension of the original model from Microsoft Research AI for Science, Aurora 1.5 shows how frontier research can move into broader use: open for researchers and developers to evaluate and extend, and designed to support customers where additional data, infrastructure, and operational assurance is needed.&nbsp;As climate and weather-related risks continue to affect communities, infrastructure, and economies worldwide, advances in Earth-system forecasting can help improve preparedness and decision-making. What is Aurora? Aurora is a foundation model for the Earth system developed by Microsoft Research AI for Science, first introduced in 2024 and published in Nature (opens in new tab) in 2025. It showed that a single model could be adapted to medium-range weather, ocean waves, atmospheric chemistry, and emerging climate applications, including high-resolution weather forecasting through fine-tuning. Its growing use has reinforced the value of an open, collaborative model that is easier to adapt, evaluate, and put to use.&nbsp; This next phase of Aurora (opens in new tab) builds on that foundation by making t…",
+      "summary": "Aurora 1.5 adds 22 more variables, hourly temporal resolution, and probabilistic ensemble forecasting to the Aurora foundation model, making it more useful for real-world weather, climate, and energy applications. The post Aurora 1.5: Exte…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.69,
+          "rationale": [
+            "open source",
+            "github"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "fine-tuning",
+            "rl"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
     {
       "id": "2bf5a5335cebee9c",
       "date": "2026-07-14",
@@ -130,62 +232,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "ab48db7a843ab716",
-      "date": "2026-07-14",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Aurora 1.5: Extending open foundation models for weather and Earth-system applications",
-      "url": "https://www.microsoft.com/en-us/research/blog/aurora-1-5-extending-open-foundation-models-for-weather-and-earth-system-applications/",
-      "publishedAt": "2026-07-09T16:46:22.000Z",
-      "content": "At a glance Aurora 1.5 is a major extension of Microsoft’s Aurora Earth System foundation model that adds 22 more weather variables relevant to energy, agriculture, transport, and climate risk, along with hourly temporal resolution and probabilistic ensemble forecasting. Released as open source on GitHub with model checkpoints on Hugging Face, Aurora 1.5 enables researchers and developers to use, evaluate, and build on the model. Aurora 1.5 connects open research to Microsoft Weather services, linking the model with data, infrastructure, managed access, and operational use for weather and Earth-system applications. Aurora 1.5 is a major update to the open Aurora Earth-system foundation model, adding 22 new weather variables for a broader view of atmospheric conditions, hourly forecasts, and probabilistic ensemble forecasting. Developed by Microsoft Weather as an extension of the original model from Microsoft Research AI for Science, Aurora 1.5 shows how frontier research can move into broader use: open for researchers and developers to evaluate and extend, and designed to support customers where additional data, infrastructure, and operational assurance is needed.&nbsp;As climate and weather-related risks continue to affect communities, infrastructure, and economies worldwide, advances in Earth-system forecasting can help improve preparedness and decision-making. What is Aurora? Aurora is a foundation model for the Earth system developed by Microsoft Research AI for Science, first introduced in 2024 and published in Nature (opens in new tab) in 2025. It showed that a single model could be adapted to medium-range weather, ocean waves, atmospheric chemistry, and emerging climate applications, including high-resolution weather forecasting through fine-tuning. Its growing use has reinforced the value of an open, collaborative model that is easier to adapt, evaluate, and put to use.&nbsp; This next phase of Aurora (opens in new tab) builds on that foundation by making t…",
-      "summary": "Aurora 1.5 adds 22 more variables, hourly temporal resolution, and probabilistic ensemble forecasting to the Aurora foundation model, making it more useful for real-world weather, climate, and energy applications. The post Aurora 1.5: Exte…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.69,
-          "rationale": [
-            "open source",
-            "github"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "science"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.69,
-          "rationale": [
-            "fine-tuning",
-            "rl"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     },
     {
@@ -2104,60 +2150,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4e8a3c6fe35d01d7",
-      "date": "2026-07-05",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "The MAD Podcast with Matt Turck",
-      "sourceKey": "podcast:The MAD Podcast with Matt Turck",
-      "builderOrOrg": "The MAD Podcast with Matt Turck",
-      "title": "Why NVIDIA Is Giving Away AI Models | Bryan Catanzaro",
-      "url": "https://www.youtube.com/watch?v=Oojrfdl42LI",
-      "publishedAt": "2026-07-02T11:30:00.000Z",
-      "content": "Speaker 1 | 00:00 - 00:21 If you accept as the truth that we're gonna be running at the limit, then what that means is that the way to get more intelligence is to be more efficient. We can't get more intelligence by applying more force if we're already at the limit. We have to be more thoughtful about how we use what we have. We build tools. We build external organs that help us solve problems. Speaker 1 | 00:21 - 00:30 You know, we we have an external stomach. We call it kitchen. Now we're creating an external brain. What is the implications of an external brain? Pretty profound. Speaker 1 | 00:30 - 00:31 Nobody actually really knows. Speaker 2 | 00:32 - 00:48 Hi. I'm Matt Turk. Welcome back to the mad podcast. Open source AI is having yet another moment with powerful new models arriving almost weekly, and my guest today is one of the very best people to unpack it all. Brian Catantaro leads Nemotron, NVIDIA's family of open foundation models. Speaker 2 | 00:48 - 01:31 Now not everyone realizes NVIDIA has a massive effort to build a frontier AI models, but it employs hundreds of AI researchers and Neutron three Ultra immediately became the number one US open weights model when it was released just a couple weeks ago. We begin this conversation with the state of open source AI and the race between The US and China, and then we go deep inside Nemotron. Four bit training, hybrid member transform architecture, mixture of experts, multi token prediction, and multi teacher distillation all in plain language. Finally, get a rare look at how a modern AI research organization actually runs, how you get many brilliant minds to build one model instead of 100 papers. Please enjoy this awesome conversation with Brian Catantaro. Speaker 2 | 01:33 - 01:56 Alright, Brian, excited to do this. It seems that open source is having a banner year. So you guys at NVIDIA just released Nemotron three Ultra, which is an important moment and the best open source, open weight model in The US. And that was just a few days ago. And then even more recently, GLM 5.2 came out, and that was another moment. Speaker 2 | 01:56 - 02:10 So it seems that things are accelerating in open source AI. It feels like a great place to start. What's your assessment, about where we are and how wide the gap between closed source and open source currently is? Speaker 1 | 02:10 - 02:36 Well, it's really exciting to see all of the energy going into open technologies for AI because we know that, open technologies make it possible for people to innovate. You know, the Internet is such a great example of that. We actually did have closed Internets. I don't know if you remember things like America Online and Prodigy back in the day, And they were great. And open Internet has also, been amazing. Speaker 1 | 02:36 - 03:08 Right? Like, so many different companies have been able to figure out how to transform their work, thanks to, an open technology. The application of the Internet to retail is very different from the application of the Internet to health care or manufacturing, but all of them have been totally transformed, by the Internet. AI, I believe, is also a very transformational technology and also a technology that needs to be applied in very diverse ways. And because of that, I believe that open technologies for AI are really fundamental. Speaker 1 | 03:09 - 03:23 And it's very exciting to see continued investment and development of open technologies from, for AI from so many different organizations around the world. And, you know, I I hope that that continues. Speaker 2 | 03:23 - 03:43 And what's your sense for how far behind open source is compared to closed source? This has been the the big trend over the last few years has been this sort of narrowing gap. Do do you think that open source is almost there or the bar keeps getting raised by the close source models? Speaker 1 | 03:43 - 04:17 Well, I I feel like this question, it's maybe a tempting question because, you know,…",
-      "summary": "Speaker 1 | 00:00 - 00:21 If you accept as the truth that we're gonna be running at the limit, then what that means is that the way to get more intelligence is to be more efficient. We can't get more intelligence by applying more force if…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.69,
-          "rationale": [
-            "open source",
-            "weights"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "paper"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.69,
-          "rationale": [
-            "rl",
-            "distillation"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.52,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.44,
       "whyThisMatters": ""
     }
   ]
