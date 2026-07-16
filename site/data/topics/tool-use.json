@@ -1,11 +1,99 @@
 {
-  "generatedAt": "2026-07-15T04:20:06.762Z",
+  "generatedAt": "2026-07-16T01:28:39.214Z",
   "slug": "tool-use",
   "label": "AI Using Tools",
   "items": [
     {
+      "id": "3996525533ebf63f",
+      "date": "2026-07-16",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:ryolu_",
+      "builderOrOrg": "Ryo Lu",
+      "title": "when the dream becomes the job i used to think the dream was to make my hobby my work. to spend…",
+      "url": "https://x.com/ryolu_/status/2077162119506833627",
+      "publishedAt": "2026-07-14T22:43:35.000Z",
+      "content": "when the dream becomes the job i used to think the dream was to make my hobby my work. to spend my life close to the things i loved: computers, tools, interfaces, systems, tiny details, the feeling of making something from nothing. the things i used to do at night, after school, after work, in the margins of life, somehow became the center of my life. and it is a dream. i don’t want to pretend otherwise. there is a very specific happiness in getting paid to care. in meeting other people who car…",
+      "summary": "when the dream becomes the job i used to think the dream was to make my hobby my work. to spend my life close to the things i loved: computers, tools, interfaces, systems, tiny details, the feeling of making something f…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 809,
+        "retweets": 62,
+        "replies": 56
+      },
+      "topics": [
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "57d00e15b8fadc77",
+      "date": "2026-07-16",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "Training Data",
+      "sourceKey": "podcast:Training Data",
+      "builderOrOrg": "Training Data",
+      "title": "Anthropic's Katelyn Lesse & Angela Jiang: Building an Ecosystem, not a Walled Garden",
+      "url": "https://www.youtube.com/watch?v=vPnVTHYplrQ",
+      "publishedAt": "2026-07-14T09:00:00.000Z",
+      "content": "Speaker 1 | 00:00 - 00:31 The last layer of abstraction on top of this is probably the coordination layer. So you have knowledge, and you have execution, and you have coordination. And at the coordination layer, we're beginning to think of these things called, like, strategies where, basically, it's almost like a meta harness. The true low level harness is designed for execution. But the next one is about, okay, if tokens aren't really fungible and you need to give them different jobs, like maybe this token is advising versus this token is executing, you wanna start composing these kind of orchestrated strategies that go together, and they should sit on top of all these things because at the end of the day, still need to execute, and the execution still needs to know what to do. Speaker 1 | 00:31 - 00:47 So everything in theory should kind of, like, ladder together. And so I think, you know, if you were to look at our road map and the maybe kind of project forward a little bit where you kind of expect us to go, we'll move more and more from the knowledge execution layer, from the execution layer to the kind of coordination layer in terms of the abstractions that you can see us put out. Speaker 2 | 01:04 - 01:28 Caitlin and Angela, thank you so much for joining us today. Lauren and I are thrilled to have you here. You are responsible for building Anthropix platform, and so you are responsible for building what I think is one of the most important, if not the most important developer platform in the world. And we are really excited to interview you today to understand more about what's ahead. And so maybe just to get started, can you give us the context of what is Anthropic Platform and where do you sit within Anthropic? Speaker 3 | 01:28 - 01:50 Yeah, so Platform is both our externally facing APIs, our developer platform that people build on top of when they wanna build applications and systems that access Cloud's intelligence, as well as internally, we run our product infrastructure, and basically, we're the layer that our apps build on top of internally as well. Awesome. What's your north star as a team? Speaker 1 | 01:50 - 01:59 It's a great question. Because we have both internal and external, we actually kind of have like two North Stars, which is probably like, you need be like, what? You surely need one North Star. Speaker 2 | 02:00 - 02:02 Have different planetary system. Speaker 1 | 02:02 - 02:27 Yes, exactly. They're separate solar systems, so it's fine. But on the internal side, like we really wanna provide is like literally as much leverage as possible for our internal teams to be able to ship like AGI pilled products. And we want them to be able to move fast, be able to have reliable, like, great platform to be able to build on top of. But I think that key bit about speed is, like, really intentional for us, and we really, really care about that internally. Speaker 1 | 02:27 - 03:00 Externally, we actually have a lot more complicated set of things, but one of the true norths that we have there is to be able to basically give any builder the tools to be able to work with Claude to build whatever they want to build. And so it's a bit of a broad statement, but as a result, that boils itself down into being wherever that business is. We really care about bringing our platform really, really close to that business. This is why we spend a lot of time with the hyperscalers and integrating really closely directly with them, like AWS, Google, so on and so forth. And it is a lot of primitives that we end up creating. Speaker 1 | 03:00 - 03:26 We want people to be able to express what they think their product should be. We want them to be able to almost do like custom software in their own way. You know, like in this new world with AI, what used to be probably economically impossible was that last mile of of custom software now in theory should be like very, very achievable. And we wanna give them all the tools and all the c…",
+      "summary": "Speaker 1 | 00:00 - 00:31 The last layer of abstraction on top of this is probably the coordination layer. So you have knowledge, and you have execution, and you have coordination. And at the coordination layer, we're beginning to think of…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "developer"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.52,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.69,
+      "whyThisMatters": ""
+    },
+    {
       "id": "a146ef1164b0071d",
-      "date": "2026-07-15",
+      "date": "2026-07-16",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -2262,96 +2350,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "91b54da096be95a7",
-      "date": "2026-05-28",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "MagenticLite, MagenticBrain, Fara1.5: An agentic experience optimized for small models",
-      "url": "https://www.microsoft.com/en-us/research/blog/magenticlite-magenticbrain-fara1-5-an-agentic-experience-optimized-for-small-models/",
-      "publishedAt": "2026-05-21T17:00:00.000Z",
-      "content": "At a glance MagenticLite is an agentic application that works across both the browser and local file system in a single workflow. Built as the next generation of Magentic-UI, it combines a redesigned app with a harness optimized for small models. MagenticBrain and Fara1.5 are small models designed for orchestration and computer-use tasks, respectively. Fara1.5 is the next iteration of Fara and delivers measurable gains on real-world browser tasks. Together, these releases explore how far agentic performance can be pushed with smaller models, codesigned tools, and an optimized execution harness. Today, Microsoft Research AI Frontiers releases MagenticLite (opens in new tab) , an experimental agentic application designed for small models. As the next generation of Magentic-UI, it works across the browser and local file system in a single workflow. MagenticLite is powered by two purpose-built models: MagenticBrain, for reasoning, delegation, and terminal use, and Fara1.5, a computer-use model family for browser-based tasks. The three components were designed to work together as a single system. The result is an agent that runs efficiently, keeps data on the user’s machine, and supports a broad range of agentic tasks. It also points toward a broader goal: capable agents that can run directly on users’ hardware. The project is built around a key research bet: that agentic capability depends on tool orchestration and action rather than knowledge alone. That insight makes it possible to use smaller models while still enabling a broad range of agentic tasks at a fraction of the cost. MagenticLite also reflects how we approach agentic AI end-to-end—from training data and model design to orchestration, interaction design, and human oversight throughout the experience. Figure 1. One experience, three components: MagenticLite, MagenticBrain, and Fara1.5. Included in this release MagenticLite (opens in new tab) The next generation of Magentic-UI , our experimental agentic exper…",
-      "summary": "MagenticLite is an agentic system for small models that works across the browser and local file system in a single workflow. It combines specialized models and orchestration to support efficient agentic performance on everyday tasks. The p…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.69,
-          "rationale": [
-            "tools",
-            "browser"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "8f3eeeab2f3a7d3b",
-      "date": "2026-05-27",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "The next phase of OpenAI’s Education for Countries",
-      "url": "https://openai.com/index/the-next-phase-of-education-for-countries",
-      "publishedAt": "2026-05-20T00:00:00.000Z",
-      "content": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
-      "summary": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     }
   ]
