@@ -1,8 +1,43 @@
 {
-  "generatedAt": "2026-07-16T04:29:51.649Z",
+  "generatedAt": "2026-07-17T01:14:42.962Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
+    {
+      "id": "86c48b255ede05f9",
+      "date": "2026-07-17",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "What does 99.9% uptime mean for inference?",
+      "url": "https://www.together.ai/blog/99-9-uptime-for-inference",
+      "publishedAt": "2026-07-16T00:00:00.000Z",
+      "content": "Reliability numbers are easy to publish. We break down what 99%, 99.9%, and 99.99% uptime actually require, the failure domains each tier has to survive, and the questions to ask any inference provider before you commit.",
+      "summary": "Reliability numbers are easy to publish. We break down what 99%, 99.9%, and 99.99% uptime actually require, the failure domains each tier has to survive, and the questions to ask any inference provider before you commit.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
     {
       "id": "bd407d01a9722b05",
       "date": "2026-07-16",
@@ -2426,58 +2461,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "9083f6bef56a5ea7",
-      "date": "2026-04-28",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Tasteful Tokenmaxxing",
-      "url": "https://www.latent.space/p/ainews-tasteful-tokenmaxxing",
-      "publishedAt": "2026-04-23T02:45:37.000Z",
-      "content": "It is Cloud Next today and Google TPUv8&#8217;s (training and inference iterations) were announced as expected , though the numbers are mindboggling, they mostly serve to reinforce the sheer hardware advantage that a decade of investment has given to GDM and any models they train and serve. Over the last 2 days with AIE Miami concluding ( Singapore is next!) the top conversations we have been hearing from AI leadership (CTOs, VPs, Founders) have all centered around the concept of &#8220;Tokenmaxxing&#8221; and how leaders want to get their teams using more AI, WITHOUT the downside of incentivizing the kinds of horrendous waste our friend described at his AIE keynote . Dex Horthy, coiner of Context Engineering and &#8220;the Dumb Zone&#8221;, publicly retracted his extremely vibe-coding-pilled call 6 months ago and encouraged people to please read the code, citing &#8217;s Z/L continuum from AIE Europe : timestamp Off the record, many senior leaders I talk to are more on the Zechner side than the Lopopolo side of the Z/L spectrum &#8212; this does not mean that one side is true for every one in every situation, nor does it mean it will continue to be true with advancing model progress! To point out the most obvious, engineers and engineering leaders are the ones most setup to make a big deal out of minor architectural quality issues that sheer quantity of cheap code generation and code review might overcome. Today&#8217;s LS guest, Mikhail Parakhin, CTO of Shopify, had another take on the &#8220;tasteful tokenmaxxing&#8221; - you want to go for depth (e.g. do more serial autoresearch loops) than go for breadth (e.g. solve a problem by kicking off 5, 10, 50, 500 parallel runs of the LLM slot machine). Worth thinking through. AI News for 4/21/2026-4/22/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequenci…",
-      "summary": "a quiet day lets us reflect on the top conversation that AI leaders are having everywhere.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     }
   ]

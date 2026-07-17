@@ -1,10 +1,140 @@
 {
-  "generatedAt": "2026-07-16T04:29:51.649Z",
+  "generatedAt": "2026-07-17T01:14:42.962Z",
   "handle": "thsottiaux",
   "name": "Thibault Sottiaux",
   "itemCount": 50,
-  "latestDate": "2026-07-16",
+  "latestDate": "2026-07-17",
   "items": [
+    {
+      "id": "20b9e388bae24e42",
+      "date": "2026-07-17",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:thsottiaux",
+      "builderOrOrg": "Thibault Sottiaux",
+      "title": "We've had no 5h limit in Codex plus and pro for a few days. Do you think it is better or are yo…",
+      "url": "https://x.com/thsottiaux/status/2077632589498913087",
+      "publishedAt": "2026-07-16T05:53:04.000Z",
+      "content": "We've had no 5h limit in Codex plus and pro for a few days. Do you think it is better or are you finding it difficult to manage the usage included in the weekly limit effectively? If we were to make this different, what should it look like in an ideal world?",
+      "summary": "We've had no 5h limit in Codex plus and pro for a few days. Do you think it is better or are you finding it difficult to manage the usage included in the weekly limit effectively? If we were to make this different, what…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 3287,
+        "retweets": 59,
+        "replies": 2279
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "finding"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "df932a1693860880",
+      "date": "2026-07-17",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:thsottiaux",
+      "builderOrOrg": "Thibault Sottiaux",
+      "title": "On file deletions. We’ve investigated a handful of reports where GPT-5.6 unexpectedly deleted f…",
+      "url": "https://x.com/thsottiaux/status/2077630111499882637",
+      "publishedAt": "2026-07-16T05:43:13.000Z",
+      "content": "On file deletions. We’ve investigated a handful of reports where GPT-5.6 unexpectedly deleted files. What we have found is that this most commonly occurs when: - Full access mode is enabled and codex is run without sandboxing protections, including without auto review being enabled - The model attempts to override the $HOME env var to define a temporary directory. - The model makes an honest mistake and mistakenly deletes $HOME instead. This is of course not how we want the system to behave, ev…",
+      "summary": "On file deletions. We’ve investigated a handful of reports where GPT-5.6 unexpectedly deleted files. What we have found is that this most commonly occurs when: - Full access mode is enabled and codex is run without sand…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 2225,
+        "retweets": 99,
+        "replies": 208
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "repo"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "777f8781382c1238",
+      "date": "2026-07-17",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:thsottiaux",
+      "builderOrOrg": "Thibault Sottiaux",
+      "title": "Now that we merged ChatGPT and Codex, what should we merge next? What's the double or nothing m…",
+      "url": "https://x.com/thsottiaux/status/2077627035418239230",
+      "publishedAt": "2026-07-16T05:31:00.000Z",
+      "content": "Now that we merged ChatGPT and Codex, what should we merge next? What's the double or nothing move.",
+      "summary": "Now that we merged ChatGPT and Codex, what should we merge next? What's the double or nothing move.",
+      "regionTags": [],
+      "metrics": {
+        "likes": 1594,
+        "retweets": 26,
+        "replies": 1144
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
     {
       "id": "b9809fb10bd63ff2",
       "date": "2026-07-16",
@@ -1666,117 +1796,6 @@
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
       "previouslySelected": true,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "37fb1fd9ba19399a",
-      "date": "2026-06-18",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:thsottiaux",
-      "builderOrOrg": "Thibault Sottiaux",
-      "title": "Bim bada boum. I am in France for the week and we are rolling out all the most exciting Codex f…",
-      "url": "https://x.com/thsottiaux/status/2067064381855187231",
-      "publishedAt": "2026-06-17T01:58:47.000Z",
-      "content": "Bim bada boum. I am in France for the week and we are rolling out all the most exciting Codex features across Europe. Coincidence or did the team think I wasn't able to be productive otherwise? https://t.co/LilIl4XkJF",
-      "summary": "Bim bada boum. I am in France for the week and we are rolling out all the most exciting Codex features across Europe. Coincidence or did the team think I wasn't able to be productive otherwise? https://t.co/LilIl4XkJF",
-      "regionTags": [],
-      "metrics": {
-        "likes": 1223,
-        "retweets": 15,
-        "replies": 106
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4b854a9ed7c8fd7a",
-      "date": "2026-06-18",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:thsottiaux",
-      "builderOrOrg": "Thibault Sottiaux",
-      "title": "This was fixed. You know what's coming 👀 Give us 24 hours to reset the Codex rate limits acros…",
-      "url": "https://x.com/thsottiaux/status/2066956441173323943",
-      "publishedAt": "2026-06-16T18:49:52.000Z",
-      "content": "This was fixed. You know what's coming 👀 Give us 24 hours to reset the Codex rate limits across all plans. https://t.co/vx3Jb7YT6K",
-      "summary": "This was fixed. You know what's coming 👀 Give us 24 hours to reset the Codex rate limits across all plans. https://t.co/vx3Jb7YT6K",
-      "regionTags": [],
-      "metrics": {
-        "likes": 5799,
-        "retweets": 243,
-        "replies": 576
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "1961f9b686bce244",
-      "date": "2026-06-18",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:thsottiaux",
-      "builderOrOrg": "Thibault Sottiaux",
-      "title": "Oy. We are aware that some Codex users are experiencing high error rates with \"model at capacit…",
-      "url": "https://x.com/thsottiaux/status/2066865154902380796",
-      "publishedAt": "2026-06-16T12:47:08.000Z",
-      "content": "Oy. We are aware that some Codex users are experiencing high error rates with \"model at capacity\" and are working to bring things back to being stable. https://t.co/R3dCKGGtQw",
-      "summary": "Oy. We are aware that some Codex users are experiencing high error rates with \"model at capacity\" and are working to bring things back to being stable. https://t.co/R3dCKGGtQw",
-      "regionTags": [],
-      "metrics": {
-        "likes": 3628,
-        "retweets": 107,
-        "replies": 549
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
       "digestScore": 0.56,
       "whyThisMatters": ""
     }
