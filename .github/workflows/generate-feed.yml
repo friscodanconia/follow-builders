@@ -18,6 +18,16 @@ on:
         required: false
         default: false
         type: boolean
+      force_digest:
+        description: 'Regenerate and resend even if today already has a digest'
+        required: false
+        default: false
+        type: boolean
+
+# Serialize runs so two triggers can never both pass the already-published check.
+concurrency:
+  group: publish-digest
+  cancel-in-progress: false
 
 jobs:
   generate:
@@ -30,6 +40,21 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+
+      # Three triggers fire daily (two crons + the fallback workflow). Only the
+      # first should publish; the rest still mirror feeds, but must not generate
+      # or send a second digest. history/<date>.md is the same signal
+      # digest-fallback.yml uses, and is written by the run that publishes.
+      - name: Check whether today's digest was already published
+        id: guard
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          if [ -f "history/${TODAY}.md" ] && [ "${{ github.event.inputs.force_digest }}" != "true" ]; then
+            echo "Digest for ${TODAY} already published — skipping generation and send."
+            echo "publish=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "publish=true" >> "$GITHUB_OUTPUT"
+          fi
 
       - uses: actions/setup-node@v4
         with:
@@ -56,7 +81,7 @@ jobs:
         run: npm run build:structured
 
       - name: Generate digest
-        if: ${{ github.event.inputs.skip_digest != 'true' }}
+        if: ${{ github.event.inputs.skip_digest != 'true' && steps.guard.outputs.publish == 'true' }}
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
@@ -65,12 +90,12 @@ jobs:
           head -c 500 /tmp/digest.md
 
       - name: Save history
-        if: ${{ github.event.inputs.skip_digest != 'true' }}
+        if: ${{ github.event.inputs.skip_digest != 'true' && steps.guard.outputs.publish == 'true' }}
         run: |
           cd scripts && node save-history.js --file /tmp/digest.md
 
       - name: Enrich structured data with editorial Why-it-matters
-        if: ${{ github.event.inputs.skip_digest != 'true' }}
+        if: ${{ github.event.inputs.skip_digest != 'true' && steps.guard.outputs.publish == 'true' }}
         run: node scripts/enrich-structured-data.js --file /tmp/digest.md
 
       - name: Backfill old digests
@@ -83,7 +108,7 @@ jobs:
         run: npm --prefix scripts run sync-site-data
 
       - name: Publish newsletter
-        if: ${{ github.event.inputs.skip_digest != 'true' }}
+        if: ${{ github.event.inputs.skip_digest != 'true' && steps.guard.outputs.publish == 'true' }}
         continue-on-error: true
         env:
           BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}

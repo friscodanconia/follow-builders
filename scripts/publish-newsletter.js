@@ -177,24 +177,32 @@ async function main() {
   const subject = extractSubject(digestText);
   const today = new Date().toISOString().split('T')[0];
 
-  // Check if we already sent a digest today
+  // Check if we already sent a digest today.
+  // Buttondown returns results oldest-first by default, so this MUST order by
+  // -creation_date; without it the page only ever contains the oldest emails
+  // and the check never matches. Match on metadata.date (exact) or the exact
+  // subject — subject.includes(today) can never match, because the subject
+  // carries a human date ("Friday, July 17, 2026"), not an ISO one.
   try {
-    const checkRes = await fetch('https://api.buttondown.com/v1/emails?page_size=5', {
-      headers: { 'Authorization': `Token ${apiKey}` },
-    });
+    const checkRes = await fetch(
+      `https://api.buttondown.com/v1/emails?ordering=-creation_date&creation_date__start=${today}`,
+      { headers: { 'Authorization': `Token ${apiKey}` } }
+    );
     if (checkRes.ok) {
       const existing = await checkRes.json();
       const results = existing.results || existing;
       const alreadySent = Array.isArray(results) && results.some((email) =>
-        email.metadata?.date === today || email.subject?.includes(today)
+        email.metadata?.date === today || email.subject === subject
       );
       if (alreadySent) {
         console.log(JSON.stringify({ status: 'skipped', reason: `Already sent digest for ${today}` }));
         return;
       }
+    } else {
+      console.error(`Duplicate check failed (HTTP ${checkRes.status}) — sending anyway`);
     }
-  } catch {
-    // If check fails, proceed with sending
+  } catch (err) {
+    console.error(`Duplicate check errored (${err.message}) — sending anyway`);
   }
 
   const htmlBody = digestToHtml(digestText);
