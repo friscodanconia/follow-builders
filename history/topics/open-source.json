@@ -1,8 +1,171 @@
 {
-  "generatedAt": "2026-07-17T04:31:43.603Z",
+  "generatedAt": "2026-07-18T00:54:01.941Z",
   "slug": "open-source",
   "label": "Open Source",
   "items": [
+    {
+      "id": "261f692f80623caf",
+      "date": "2026-07-18",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "Speaking of Voxtral | Mistral AI",
+      "url": "https://mistral.ai/news/voxtral-tts/",
+      "publishedAt": null,
+      "content": "Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.",
+      "summary": "Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.81,
+          "rationale": [
+            "voice",
+            "speech",
+            "tts"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "weights"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "8528770f760e9d6e",
+      "date": "2026-07-18",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B)",
+      "url": "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b",
+      "publishedAt": "2026-07-16T06:18:05.000Z",
+      "content": "Thinky only seems to come up for air once every few months; most recently with Interaction models - but each time they do they impress, showing both taste and depth. Today they introduced Inkling &#8212; not a SOTA model, but a very solid new family for a baseline American open model: Our model, called Inkling, is a Mixture-of-Experts transformer with 975B total parameters, 41B active. It supports a context window of up to 1M tokens. It was pretrained on 45 trillion tokens of text, images, audio and video. It is the first in a family of models of different sizes: alongside it we are sharing a preview of Inkling-Small, a lighter-weight model with 12B active parameters, trained with a similar recipe, that achieves strong performance with even lower cost and latency. Inkling reasons natively over text, images, and audio, and balances cost with performance through efficient and controllable thinking effort The Huggingface breakdown covers some interesting technical highlights: AI News for 7/14/2026-7/15/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap What happened Thinking Machines Lab launched Inkling, its first fully released open-weights foundation model family entry, positioning it as a customizable multimodal base model rather than a benchmark-maxed flagship. Thinking Machines announced Inkling as an open-weights model that &#8220;reasons efficiently across text, image, and audio modalities,&#8221; with full weights available and immediate support on its Tinker platform and Playground @thinkymachines . Mira Murati described Inkling as the company&#8217;s &#8220;first model,&#8221; &#8220;trained from scratch,&#8221; with open weights and same-day fine-tuning on Tinker @miramurati . Soumith Chintala framed it as Thinking Machines&#8217; &#8220;first general model,&#8221; stres…",
+      "summary": "Thinky's first full LLM release is a banger and bonus: it's open weights!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.81,
+          "rationale": [
+            "multimodal",
+            "image",
+            "video"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.69,
+          "rationale": [
+            "weights",
+            "huggingface"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "benchmark",
+            "imo"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "e00cb5358fc241c6",
+      "date": "2026-07-18",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "China’s Mythos Moment",
+      "url": "https://www.chinatalk.media/p/chinas-mythos-moment",
+      "publishedAt": "2026-07-16T11:02:08.000Z",
+      "content": "China&#8217;s AI Mythos moment is coming. What happens next? Claude Mythos has completely scrambled American AI policy. Trump 2.0 &#8212; an administration whose AI-dominance rhetoric manifested in a let-it-rip regulatory approach &#8212; is shook. To quote Dean Ball , &#8220;we currently have a de facto involuntary licensing pre-approval regime for frontier models&#8221; from the administration that promised us the opposite of that . Will Beijing also freak out once it faces the prospect of wide domestic access to a model that can hack everything? We may not have long to find out. A Zhipu AI co-founder called his shot, telling Elon on X that China will have a model on par with Mythos before the end of the year. Even if he&#8217;s off by a few months, the American think tank IAPS puts the date at February 2027. A Chinese Mythos-level model is inevitable and only months off. Politics is now shaping not just the hardware ecosystem but the model layer. What does this turning point mean for the domestic Chinese AI ecosystem, Chinese regulation, open source in China and around the world, US-China governance efforts, and broader global AI safety? To discuss, we have back on the show of Interconnected and Matt Sheehan of Carnegie. In this episode, we discuss&#8230; Whether Beijing will panic the way Washington did when China gets its own Mythos-level model, and why that moment may be only months away. Why China&#8217;s existing AI bureaucracy may be better prepared for frontier models than America&#8217;s scramble to figure out who&#8217;s in charge. What a &#8220;Project Glasswing with Chinese characteristics&#8221; would look like and who would make the guest list. Whether increasingly capable AI will kill open source in China, or strengthen Beijing&#8217;s argument that it&#8217;s the more open AI superpower. Why today&#8217;s AI labs may have more influence over government policy than they&#8217;ll ever have again. Listen now on your favorite podcast app . Will Beijin…",
+      "summary": "How will Beijing respond when it comes?",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.81,
+          "rationale": [
+            "safety",
+            "governance",
+            "policy"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open source"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
     {
       "id": "652edd7ea6244b74",
       "date": "2026-07-17",
@@ -94,169 +257,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "261f692f80623caf",
-      "date": "2026-07-17",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Mistral AI Blog",
-      "sourceKey": "official:Mistral AI Blog",
-      "builderOrOrg": "Mistral AI",
-      "title": "Speaking of Voxtral | Mistral AI",
-      "url": "https://mistral.ai/news/voxtral-tts/",
-      "publishedAt": null,
-      "content": "Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.",
-      "summary": "Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "voice",
-          "label": "Voice",
-          "confidence": 0.81,
-          "rationale": [
-            "voice",
-            "speech",
-            "tts"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "weights"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "8528770f760e9d6e",
-      "date": "2026-07-17",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B)",
-      "url": "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b",
-      "publishedAt": "2026-07-16T06:18:05.000Z",
-      "content": "Thinky only seems to come up for air once every few months; most recently with Interaction models - but each time they do they impress, showing both taste and depth. Today they introduced Inkling &#8212; not a SOTA model, but a very solid new family for a baseline American open model: Our model, called Inkling, is a Mixture-of-Experts transformer with 975B total parameters, 41B active. It supports a context window of up to 1M tokens. It was pretrained on 45 trillion tokens of text, images, audio and video. It is the first in a family of models of different sizes: alongside it we are sharing a preview of Inkling-Small, a lighter-weight model with 12B active parameters, trained with a similar recipe, that achieves strong performance with even lower cost and latency. Inkling reasons natively over text, images, and audio, and balances cost with performance through efficient and controllable thinking effort The Huggingface breakdown covers some interesting technical highlights: AI News for 7/14/2026-7/15/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap What happened Thinking Machines Lab launched Inkling, its first fully released open-weights foundation model family entry, positioning it as a customizable multimodal base model rather than a benchmark-maxed flagship. Thinking Machines announced Inkling as an open-weights model that &#8220;reasons efficiently across text, image, and audio modalities,&#8221; with full weights available and immediate support on its Tinker platform and Playground @thinkymachines . Mira Murati described Inkling as the company&#8217;s &#8220;first model,&#8221; &#8220;trained from scratch,&#8221; with open weights and same-day fine-tuning on Tinker @miramurati . Soumith Chintala framed it as Thinking Machines&#8217; &#8220;first general model,&#8221; stres…",
-      "summary": "Thinky's first full LLM release is a banger and bonus: it's open weights!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.81,
-          "rationale": [
-            "multimodal",
-            "image",
-            "video"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.69,
-          "rationale": [
-            "weights",
-            "huggingface"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "benchmark",
-            "imo"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "e00cb5358fc241c6",
-      "date": "2026-07-17",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "China’s Mythos Moment",
-      "url": "https://www.chinatalk.media/p/chinas-mythos-moment",
-      "publishedAt": "2026-07-16T11:02:08.000Z",
-      "content": "China&#8217;s AI Mythos moment is coming. What happens next? Claude Mythos has completely scrambled American AI policy. Trump 2.0 &#8212; an administration whose AI-dominance rhetoric manifested in a let-it-rip regulatory approach &#8212; is shook. To quote Dean Ball , &#8220;we currently have a de facto involuntary licensing pre-approval regime for frontier models&#8221; from the administration that promised us the opposite of that . Will Beijing also freak out once it faces the prospect of wide domestic access to a model that can hack everything? We may not have long to find out. A Zhipu AI co-founder called his shot, telling Elon on X that China will have a model on par with Mythos before the end of the year. Even if he&#8217;s off by a few months, the American think tank IAPS puts the date at February 2027. A Chinese Mythos-level model is inevitable and only months off. Politics is now shaping not just the hardware ecosystem but the model layer. What does this turning point mean for the domestic Chinese AI ecosystem, Chinese regulation, open source in China and around the world, US-China governance efforts, and broader global AI safety? To discuss, we have back on the show of Interconnected and Matt Sheehan of Carnegie. In this episode, we discuss&#8230; Whether Beijing will panic the way Washington did when China gets its own Mythos-level model, and why that moment may be only months away. Why China&#8217;s existing AI bureaucracy may be better prepared for frontier models than America&#8217;s scramble to figure out who&#8217;s in charge. What a &#8220;Project Glasswing with Chinese characteristics&#8221; would look like and who would make the guest list. Whether increasingly capable AI will kill open source in China, or strengthen Beijing&#8217;s argument that it&#8217;s the more open AI superpower. Why today&#8217;s AI labs may have more influence over government policy than they&#8217;ll ever have again. Listen now on your favorite podcast app . Will Beijin…",
-      "summary": "How will Beijing respond when it comes?",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.81,
-          "rationale": [
-            "safety",
-            "governance",
-            "policy"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open source"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
