@@ -1,8 +1,158 @@
 {
-  "generatedAt": "2026-07-18T04:18:16.909Z",
+  "generatedAt": "2026-07-19T01:12:08.557Z",
   "slug": "fine-tuning",
   "label": "Custom AI",
   "items": [
+    {
+      "id": "fc707fcba77675e8",
+      "date": "2026-07-19",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:realmadhuguru",
+      "builderOrOrg": "Madhu Guru",
+      "title": "The reason enterprises struggle to go beyond basic chat bots is the talent gap to build harness…",
+      "url": "https://x.com/realmadhuguru/status/2078131628262752550",
+      "publishedAt": "2026-07-17T14:56:04.000Z",
+      "content": "The reason enterprises struggle to go beyond basic chat bots is the talent gap to build harnesses and evals. 1. Evals: do you clearly understand your use cases and can you replicate that in the form of offline and online evals. Do the evals express your ambition and do they push the jagged frontier of the models? Do they help you pick the right models on the quality-cost-latency curve? 2. Harness: do you have a system that manages routing, multiagency orchestration, context management, tool cal…",
+      "summary": "The reason enterprises struggle to go beyond basic chat bots is the talent gap to build harnesses and evals. 1. Evals: do you clearly understand your use cases and can you replicate that in the form of offline and onlin…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 264,
+        "retweets": 22,
+        "replies": 11
+      },
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "latency"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.78,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.86,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "f28d7dd909ec86c3",
+      "date": "2026-07-19",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "The MAD Podcast with Matt Turck",
+      "sourceKey": "podcast:The MAD Podcast with Matt Turck",
+      "builderOrOrg": "The MAD Podcast with Matt Turck",
+      "title": "OpenAI’s Compute Chief: We Can’t Build Fast Enough | Sachin Katti",
+      "url": "https://www.youtube.com/watch?v=wEZBlmvxx4o",
+      "publishedAt": "2026-07-16T11:30:01.000Z",
+      "content": "Speaker 1 | 00:00 - 00:19 Anytime you have thought you have enough compute, we can slow down. Always negatively surprises like, oh, we should not have slowed down. Demand far outstrips compute supply today. So anything we can bring online, we consume immediately. Our biggest worry is that still at the scale at which we are trying to get compute and build compute. Speaker 1 | 00:19 - 00:30 The physical world does not move that fast. We do believe that the world of recursion is not that far where AI will design the systems it needs to train and run the next generation of AI. Encourages. Speaker 2 | 00:30 - 00:42 Hi. I'm Matt Turk. Welcome to the MAD podcast. My guest today is Sachin Khalti, who holds what might be the most fascinating and relevant title in tech right now, head of industrial compute at OpenAI. Sachin has an incredible background. Speaker 2 | 00:42 - 01:13 He was a professor at Stanford, a multi time founder, and most recently the CTO at Intel. Now he's leading what many are calling the largest infrastructure build out in human history. In this episode, we step away from the model layer and dive deep into compute and the physical reality of the AI boom. We talk about the staggering scale of the data centers being built. We get into the weeds on liquid cooled supercomputers, power grid constraints, the potential of nuclear MG, and OpenAI's move into custom silicon with Jalapeno. Speaker 2 | 01:13 - 01:28 We also discussed the broadest target strategy and the slightly sapphire reality that AI is now beginning to help design its own chips. It is a fantastic look behind the curtain at what it actually takes to power the future of intelligence. Please enjoy my conversation with Sachin Cotti. Speaker 3 | 01:30 - 01:42 Right, Sachin, welcome. Excited to do this. We are recording this on the sidelines of the RACE conference in Paris. So thank you for braving the heat. It's another heat wave here. Speaker 1 | 01:42 - 01:44 Thank you. Great to be here. Great to be here. Speaker 3 | 01:44 - 02:12 To start, some people describe what's currently happening in the world of compute data centers as the largest infrastructure build out in history, bigger than the highway, bigger than railroads. And I'm I'm curious, one, if you agree, and and two, what it feels like on from the inside. Like, what's how do you view what you currently building at OpenAI? Speaker 1 | 02:12 - 02:49 It definitely feels like one of the largest things humanity has ever built effectively. Definitely bigger than many of the things that I've heard of. I'm not old enough to have experienced the highway build out, but no, it's feels exactly like what it sounds like. I'm in the belly of the beast, so to speak. Every day is we are making decisions beyond compute that historically from my previous role, for example, at Intel, we probably take months to make, given the magnitude of those decisions. Speaker 1 | 02:49 - 03:03 But the demand is so insatiable that, and it is growing so rapidly that we have to move very quickly. So, it's an intense time, but it's probably the most exciting thing an engineer would want to be part of. Speaker 3 | 03:04 - 03:16 Yeah. And I read somewhere that OpenAI was planning on spending about 50,000,000,000 in compute this year. Is that is that still the rough number directionally? Directionally, that sounds about right. Yeah. Speaker 3 | 03:16 - 03:29 And the whole industry itself was gonna be 700,000,000,000 in compute spend this year as well. So like insane numbers, seems. Speaker 1 | 03:29 - 03:41 Yeah. And it's probably continuing to grow, right? And a lot of build happening. So a lot of that is also going to translate to compute usage from people like us in a year or two. Speaker 3 | 03:41 - 04:07 Is the right way to think about this, that for OpenAI, it's a bit of a new world, right? There's obviously not quite a pivot because, obviously, the whole AI research is going, you know, full speed ahead. But, like, building a whole ne…",
+      "summary": "Speaker 1 | 00:00 - 00:19 Anytime you have thought you have enough compute, we can slow down. Always negatively surprises like, oh, we should not have slowed down. Demand far outstrips compute supply today. So anything we can bring online,…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.52,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.69,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "e00cb5358fc241c6",
+      "date": "2026-07-19",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "China’s Mythos Moment",
+      "url": "https://www.chinatalk.media/p/chinas-mythos-moment",
+      "publishedAt": "2026-07-16T11:02:08.000Z",
+      "content": "China&#8217;s AI Mythos moment is coming. What happens next? Claude Mythos has completely scrambled American AI policy. Trump 2.0 &#8212; an administration whose AI-dominance rhetoric manifested in a let-it-rip regulatory approach &#8212; is shook. To quote Dean Ball , &#8220;we currently have a de facto involuntary licensing pre-approval regime for frontier models&#8221; from the administration that promised us the opposite of that . Will Beijing also freak out once it faces the prospect of wide domestic access to a model that can hack everything? We may not have long to find out. A Zhipu AI co-founder called his shot, telling Elon on X that China will have a model on par with Mythos before the end of the year. Even if he&#8217;s off by a few months, the American think tank IAPS puts the date at February 2027. A Chinese Mythos-level model is inevitable and only months off. Politics is now shaping not just the hardware ecosystem but the model layer. What does this turning point mean for the domestic Chinese AI ecosystem, Chinese regulation, open source in China and around the world, US-China governance efforts, and broader global AI safety? To discuss, we have back on the show of Interconnected and Matt Sheehan of Carnegie. In this episode, we discuss&#8230; Whether Beijing will panic the way Washington did when China gets its own Mythos-level model, and why that moment may be only months away. Why China&#8217;s existing AI bureaucracy may be better prepared for frontier models than America&#8217;s scramble to figure out who&#8217;s in charge. What a &#8220;Project Glasswing with Chinese characteristics&#8221; would look like and who would make the guest list. Whether increasingly capable AI will kill open source in China, or strengthen Beijing&#8217;s argument that it&#8217;s the more open AI superpower. Why today&#8217;s AI labs may have more influence over government policy than they&#8217;ll ever have again. Listen now on your favorite podcast app . Will Beijin…",
+      "summary": "How will Beijing respond when it comes?",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.81,
+          "rationale": [
+            "safety",
+            "governance",
+            "policy"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open source"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
     {
       "id": "88f19903095a5e6e",
       "date": "2026-07-18",
@@ -135,59 +285,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.49,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "e00cb5358fc241c6",
-      "date": "2026-07-18",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "China’s Mythos Moment",
-      "url": "https://www.chinatalk.media/p/chinas-mythos-moment",
-      "publishedAt": "2026-07-16T11:02:08.000Z",
-      "content": "China&#8217;s AI Mythos moment is coming. What happens next? Claude Mythos has completely scrambled American AI policy. Trump 2.0 &#8212; an administration whose AI-dominance rhetoric manifested in a let-it-rip regulatory approach &#8212; is shook. To quote Dean Ball , &#8220;we currently have a de facto involuntary licensing pre-approval regime for frontier models&#8221; from the administration that promised us the opposite of that . Will Beijing also freak out once it faces the prospect of wide domestic access to a model that can hack everything? We may not have long to find out. A Zhipu AI co-founder called his shot, telling Elon on X that China will have a model on par with Mythos before the end of the year. Even if he&#8217;s off by a few months, the American think tank IAPS puts the date at February 2027. A Chinese Mythos-level model is inevitable and only months off. Politics is now shaping not just the hardware ecosystem but the model layer. What does this turning point mean for the domestic Chinese AI ecosystem, Chinese regulation, open source in China and around the world, US-China governance efforts, and broader global AI safety? To discuss, we have back on the show of Interconnected and Matt Sheehan of Carnegie. In this episode, we discuss&#8230; Whether Beijing will panic the way Washington did when China gets its own Mythos-level model, and why that moment may be only months away. Why China&#8217;s existing AI bureaucracy may be better prepared for frontier models than America&#8217;s scramble to figure out who&#8217;s in charge. What a &#8220;Project Glasswing with Chinese characteristics&#8221; would look like and who would make the guest list. Whether increasingly capable AI will kill open source in China, or strengthen Beijing&#8217;s argument that it&#8217;s the more open AI superpower. Why today&#8217;s AI labs may have more influence over government policy than they&#8217;ll ever have again. Listen now on your favorite podcast app . Will Beijin…",
-      "summary": "How will Beijing respond when it comes?",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.81,
-          "rationale": [
-            "safety",
-            "governance",
-            "policy"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open source"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -2055,98 +2152,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.5,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "ec7989bde5741c31",
-      "date": "2026-07-08",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:thenanyu",
-      "builderOrOrg": "Nan Yu",
-      "title": "Yeah, this resonates. I was horribly inefficient, so I brute forced a lot of stuff. The biggest…",
-      "url": "https://x.com/thenanyu/status/2074258147015897357",
-      "publishedAt": "2026-07-06T22:24:14.000Z",
-      "content": "Yeah, this resonates. I was horribly inefficient, so I brute forced a lot of stuff. The biggest difference now, even for early stage startups, is you can do way more in parallel because of agents. https://t.co/Bplx8imZ9n",
-      "summary": "Yeah, this resonates. I was horribly inefficient, so I brute forced a lot of stuff. The biggest difference now, even for early stage startups, is you can do way more in parallel because of agents. https://t.co/Bplx8imZ9n",
-      "regionTags": [],
-      "metrics": {
-        "likes": 3,
-        "retweets": 0,
-        "replies": 0
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "8e3a193f4d944b7c",
-      "date": "2026-07-08",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:_catwu",
-      "builderOrOrg": "Cat Wu",
-      "title": "a retrospective on making claude code from our early team! https://t.co/Kk9mz4BYXx",
-      "url": "https://x.com/_catwu/status/2074258446686536167",
-      "publishedAt": "2026-07-06T22:25:26.000Z",
-      "content": "a retrospective on making claude code from our early team! https://t.co/Kk9mz4BYXx",
-      "summary": "a retrospective on making claude code from our early team! https://t.co/Kk9mz4BYXx",
-      "regionTags": [],
-      "metrics": {
-        "likes": 196,
-        "retweets": 9,
-        "replies": 15
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]
