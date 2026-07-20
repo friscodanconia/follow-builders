@@ -1,8 +1,354 @@
 {
-  "generatedAt": "2026-07-19T04:40:48.746Z",
+  "generatedAt": "2026-07-20T04:12:03.286Z",
   "slug": "coding",
   "label": "Coding",
   "items": [
+    {
+      "id": "0de9ffcadd06e9d7",
+      "date": "2026-07-20",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Introducing Claude Sonnet 5 \\ Anthropic",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "publishedAt": null,
+      "content": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
+      "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "b4ce2ea563568cd7",
+      "date": "2026-07-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Verifying Rust cryptography in SymCrypt, from standards to code",
+      "url": "https://www.microsoft.com/en-us/research/blog/verifying-rust-cryptography-in-symcrypt-from-standards-to-code/",
+      "publishedAt": "2026-07-13T16:00:00.000Z",
+      "content": "How Rust, Lean, Aeneas, and AI agents are helping scale formal verification for production cryptographic algorithms At a glance SymCrypt develops new verified cryptography using Rust, Aeneas, and Lean to provide higher security assurance. We prove that their code safely and correctly implements standard algorithms, notably for post-quantum cryptography. We are releasing verified code, specs, properties, and proofs initially for SHA-3 and ML-KEM.&nbsp; Aeneas allows verifying a large subset of Rust code and provides efficient automation in Lean to support the proof effort. Agents allow scaling automation by writing proofs that are independently-verifiable. Introduction and motivation for formal verification Cryptographic code sits at the foundation of modern computing. It protects operating systems, cloud services, firmware, messaging systems, and the protocols that connect them. Small mistakes can have outsized consequences: a single arithmetic slip, missing bounds check, or incorrect state transition can undermine the security of an otherwise sound design. Testing and auditing remain essential, but they are not enough on their own. Cryptographic implementations are often optimized, constant-time, architecture-specific, and deliberately low level. The code that ships rarely looks like the clean algorithm in a standard: it contains reductions, bit manipulations, SIMD intrinsics, carefully shaped loops, and portability layers for many environments. Formal verification addresses this gap by deploying machine-checked proofs instead of relying on testing alone. Rather than merely checking that the code usually behaves correctly, verification implements a precise mathematical specification for all inputs that satisfy the stated preconditions. In June last year, Microsoft announced we would formally verify new algorithms written in Rust in SymCrypt , the cryptographic provider used across products and services including Windows and Azure. New cryptographic implementations…",
+      "summary": "Cryptographic code supports vital protections in modern computing systems. Learn how a new method helps verify code as developers write it while preserving speed and adaptability as it gets implemented and evolves. The post Verifying Rust…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.8,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.63,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "4dc0bb01688349c1",
+      "date": "2026-07-20",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "Remote agents in Vibe. Powered by Mistral Medium 3.5. | Mistral AI",
+      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/",
+      "publishedAt": null,
+      "content": "Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks.",
+      "summary": "Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d1bc346c9a723419",
+      "date": "2026-07-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-830",
+      "publishedAt": "2026-07-18T04:30:21.000Z",
+      "content": "People continue to be impressed by yesterday&#8217;s Kimi K3 launch . Congrats to Databricks on their $188B Series M (watch our pod on the latest Databricks narratives ) and OpenRouter might get bought (watch Alex Atallah&#8217;s keynote ). On a slow news day, The most popular talk this week is Abhishek Bhardwaj&#8217;s Sandbox track keynote which recaps a year of growth since his original work on Arrakis got him hired by Greg Brockman , and now building out the cloud infra behind ChatGPT Work (upcoming episode!). Spoilers: if you think running agent sandboxes is just &#8220;run containers on Kubernetes&#8221;, 1) you havent been paying attention to our E2B , Daytona and both Modal podcasts , and 2) you might be overtuned to compute problems and are probably underestimating the importance of storage/filesystems&#8230; If you do leading AI work in NYC, especially for AI x Finance, speaker applications for AIE NYC 2026 opened today. AI News for 7/16/2026-7/17/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Moonshot&#8217;s Kimi K3 Release, Frontier Positioning, and the China/Open-Weight Debate Kimi K3 is the center of gravity today : the release triggered a broad reassessment of how close Chinese open-weight models are to the frontier. Multiple posts frame K3 as the first genuinely useful Chinese model at this tier, with strong coding, agentic, and long-horizon knowledge-work performance. Community reaction ranged from Salakhutdinov congratulating Moonshot founder Zhilin Yang to practitioners simply reporting that &#8220;Kimi K3 is really, really good&#8221; . A recurring theme was that K3 narrows the gap enough to pressure US labs to ship faster, as argued by @kimmonismus and others. The strategic argument shifted from &#8220;compute moat&#8221; to &#8220;efficiency stack&#8221…",
+      "summary": "a quiet day",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "repo"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "china-models",
+          "label": "Chinese AI",
+          "confidence": 0.69,
+          "rationale": [
+            "kimi",
+            "moonshot"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Chinese Models",
+      "importanceScore": 0.69,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.55,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "bb263b20171582ac",
+      "date": "2026-07-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing",
+      "url": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
+      "publishedAt": "2026-07-17T01:46:36.000Z",
+      "content": "Z.ai GLM has been getting a bit too much love recently , so it&#8217;s time for Kimi K3 to fight back! It&#8217;s hard to put the scale of today&#8217;s open model release in perspective, so thankfully Moonshot AI did it for us : Their vibe reel was entirely edited by Kimi K3 and worth a watch: You can read SimonW and Arena for standard takes and rankings, none of which will be particularly unexpected given the large size of the model, but this pic best summarizes the K2.5 to K3 jump: AI News for 7/15/2026-7/16/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Moonshot AI launched Kimi K3 as a frontier-class open-weights model, with official claims that place it near top closed models and above prior open competitors. Moonshot officially introduced Kimi K3 as &#8220;Open Frontier Intelligence&#8221; with 2.8T total parameters , 1M-token context , native multimodal input , Kimi Delta Attention (KDA) , and Attention Residuals , and said the model is live on Kimi.com, Kimi Work, Kimi Code, and API, with open weights promised by July 27, 2026 @Kimi_Moonshot Moonshot also highlighted product positioning around long-horizon agentic coding and self-evolving workflows , plus &#8220;vision in the loop&#8221; coding/game-building workflows that iterate between code and screenshots @Kimi_Moonshot Before the formal announcement, multiple accounts circulated leaked or app-sourced details that K3 was 2.8T params , calling it the largest open-weight model ever if weights ship as promised @scaling01 , @scaling01 , @eliebakouch The official Kimi blog went live later and was widely shared as the primary technical source @Jianlin_S , @scaling01 , @Yulun_Du Moonshot&#8217;s own phrasing acknowledged a limitation: despite being highly competitive overall, K3 still has a &#8220;noticeable gap in user…",
+      "summary": "a great week for open models continues.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "multimodal",
+            "vision"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "1ef278c875995c5c",
+      "date": "2026-07-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-c72",
+      "publishedAt": "2026-07-14T23:54:07.000Z",
+      "content": "Yesterday&#8217;s headline story became even more true, with Superapp usage adding yet another 1M users since we last wrote: In other news, published his final AIEWF26 recap of recaps: Including coverage of Addy Osmani&#8217;s excellent keynote covering what AI engineers should continue doing even when the cost of code generation trends to zero: AI News for 7/13/2026-7/14/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Coding Agents, Harnesses, and the Shift From Chat to Execution OpenAI&#8217;s agent products are seeing unusually strong pull : @sama said usage of Codex + ChatGPT Work grew 2.5x in a week , later adding that GPT-5.6 Sol demand is &#8220;insane&#8221; and may cause scaling hiccups while infra catches up ( 1 , 2 ). The ecosystem response was immediate: JetBrains made Codex its recommended agent , @theo highlighted Codex&#8217;s underexposed &#8220;question tool&#8221; , and OpenAI&#8217;s own team showed command-line eval tooling built start-to-finish with GPT-5.6 . Product-side, OpenAI also ran multiple usage resets , amplified by @reach_vb and users like @kimmonismus . Harness quality and observability are becoming a first-class differentiator : several tweets converged on the idea that model quality alone is no longer enough. @swyx warned that stale agents.md instructions can act like self-inflicted prompt injection , causing multi-hour stalls in long-running tasks. LangChain added tracing for Codex and later expanded to Cursor, Copilot, Pi, and OpenCode in LangSmith , exposing tool calls, subagents, and token usage. @Teknium shipped Hermes updates to parallelize any subset of tool calls and previously exposed banked resets directly in Hermes Agent . The meta-point was stated crisply by @andykonwinski : companies that can encode their value into evals and envi…",
+      "summary": "a continuation: Codex adding 1M users a day now.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c33cf3ebd56b1ee9",
+      "date": "2026-07-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "The Monkey Supply Chain",
+      "url": "https://www.chinatalk.media/p/the-monkey-supply-chain",
+      "publishedAt": "2026-07-14T16:09:16.000Z",
+      "content": "announcements: , ChinaTalk&#8217;s chip lead, is in Hawai&#8217;i! If you&#8217;re interested in joining an Oahu ChinaTalk meetup , reach out to aqib@chinatalk.media. is going to Jakarta later this month and would love to meet folks there! Ping Irene@chinatalk.media to say hi. Could the future of biotech great-power competition be decided by monkeys? In 2020, as COVID spread, China stopped exporting research monkeys. For US vaccine developers, infectious-disease researchers, and drug-testing companies, monkeys that once went for only a few thousand dollars suddenly jumped to $20,000 or more. FDA says it now goes as high as $50,000 &#8212; if you pay peanuts, you unfortunately no longer get monkeys. Important projects were scrapped or delayed. The shortage became serious enough that the NIH created a priority process for COVID studies needing nonhuman primates, warning that there weren&#8217;t enough monkeys to go around. China supplied 50.7% of lab monkeys imported into the US in 2006, 69.6% in 2011, 62.8% in 2018, and 48.5% in 2019. Then China&#8217;s share collapsed to zero from 2020 onwards. A National Academies report later found that 64% of surveyed NIH-supported researchers had trouble obtaining nonhuman primates. Visualized from this dataset . Other sources give similar numbers. I couldn&#8217;t reliably access the 2023-2026 data, but the number of Chinese imports to the US remains zero. Monkeys, mostly macaques, still play a big role in biotech. For vaccines against dangerous pathogens, gene therapies, infectious-disease countermeasures, neurotechnology, and complex biologics, monkeys often remain the model regulators, companies, and funders want to see &#8212; especially when mice are not similar enough to people and human challenge trials are waiting to get going. At ChinaTalk, we write about supply chains quite often. This one is different because it is alive. In one sense, scaling it sounds easy. Put a male and female macaque together, light a few candl…",
+      "summary": "Can the world fix its monkey dependence on China?",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "developer",
+            "repo"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "dataset"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
     {
       "id": "e38bf80f0fdd0dba",
       "date": "2026-07-19",
@@ -327,352 +673,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "0de9ffcadd06e9d7",
-      "date": "2026-07-19",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Introducing Claude Sonnet 5 \\ Anthropic",
-      "url": "https://www.anthropic.com/news/claude-sonnet-5",
-      "publishedAt": null,
-      "content": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
-      "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "b4ce2ea563568cd7",
-      "date": "2026-07-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Verifying Rust cryptography in SymCrypt, from standards to code",
-      "url": "https://www.microsoft.com/en-us/research/blog/verifying-rust-cryptography-in-symcrypt-from-standards-to-code/",
-      "publishedAt": "2026-07-13T16:00:00.000Z",
-      "content": "How Rust, Lean, Aeneas, and AI agents are helping scale formal verification for production cryptographic algorithms At a glance SymCrypt develops new verified cryptography using Rust, Aeneas, and Lean to provide higher security assurance. We prove that their code safely and correctly implements standard algorithms, notably for post-quantum cryptography. We are releasing verified code, specs, properties, and proofs initially for SHA-3 and ML-KEM.&nbsp; Aeneas allows verifying a large subset of Rust code and provides efficient automation in Lean to support the proof effort. Agents allow scaling automation by writing proofs that are independently-verifiable. Introduction and motivation for formal verification Cryptographic code sits at the foundation of modern computing. It protects operating systems, cloud services, firmware, messaging systems, and the protocols that connect them. Small mistakes can have outsized consequences: a single arithmetic slip, missing bounds check, or incorrect state transition can undermine the security of an otherwise sound design. Testing and auditing remain essential, but they are not enough on their own. Cryptographic implementations are often optimized, constant-time, architecture-specific, and deliberately low level. The code that ships rarely looks like the clean algorithm in a standard: it contains reductions, bit manipulations, SIMD intrinsics, carefully shaped loops, and portability layers for many environments. Formal verification addresses this gap by deploying machine-checked proofs instead of relying on testing alone. Rather than merely checking that the code usually behaves correctly, verification implements a precise mathematical specification for all inputs that satisfy the stated preconditions. In June last year, Microsoft announced we would formally verify new algorithms written in Rust in SymCrypt , the cryptographic provider used across products and services including Windows and Azure. New cryptographic implementations…",
-      "summary": "Cryptographic code supports vital protections in modern computing systems. Learn how a new method helps verify code as developers write it while preserving speed and adaptability as it gets implemented and evolves. The post Verifying Rust…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.8,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.63,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4dc0bb01688349c1",
-      "date": "2026-07-19",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Mistral AI Blog",
-      "sourceKey": "official:Mistral AI Blog",
-      "builderOrOrg": "Mistral AI",
-      "title": "Remote agents in Vibe. Powered by Mistral Medium 3.5. | Mistral AI",
-      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/",
-      "publishedAt": null,
-      "content": "Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks.",
-      "summary": "Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d1bc346c9a723419",
-      "date": "2026-07-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] not much happened today",
-      "url": "https://www.latent.space/p/ainews-not-much-happened-today-830",
-      "publishedAt": "2026-07-18T04:30:21.000Z",
-      "content": "People continue to be impressed by yesterday&#8217;s Kimi K3 launch . Congrats to Databricks on their $188B Series M (watch our pod on the latest Databricks narratives ) and OpenRouter might get bought (watch Alex Atallah&#8217;s keynote ). On a slow news day, The most popular talk this week is Abhishek Bhardwaj&#8217;s Sandbox track keynote which recaps a year of growth since his original work on Arrakis got him hired by Greg Brockman , and now building out the cloud infra behind ChatGPT Work (upcoming episode!). Spoilers: if you think running agent sandboxes is just &#8220;run containers on Kubernetes&#8221;, 1) you havent been paying attention to our E2B , Daytona and both Modal podcasts , and 2) you might be overtuned to compute problems and are probably underestimating the importance of storage/filesystems&#8230; If you do leading AI work in NYC, especially for AI x Finance, speaker applications for AIE NYC 2026 opened today. AI News for 7/16/2026-7/17/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Moonshot&#8217;s Kimi K3 Release, Frontier Positioning, and the China/Open-Weight Debate Kimi K3 is the center of gravity today : the release triggered a broad reassessment of how close Chinese open-weight models are to the frontier. Multiple posts frame K3 as the first genuinely useful Chinese model at this tier, with strong coding, agentic, and long-horizon knowledge-work performance. Community reaction ranged from Salakhutdinov congratulating Moonshot founder Zhilin Yang to practitioners simply reporting that &#8220;Kimi K3 is really, really good&#8221; . A recurring theme was that K3 narrows the gap enough to pressure US labs to ship faster, as argued by @kimmonismus and others. The strategic argument shifted from &#8220;compute moat&#8221; to &#8220;efficiency stack&#8221…",
-      "summary": "a quiet day",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "repo"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "china-models",
-          "label": "Chinese AI",
-          "confidence": 0.69,
-          "rationale": [
-            "kimi",
-            "moonshot"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Chinese Models",
-      "importanceScore": 0.69,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.55,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "bb263b20171582ac",
-      "date": "2026-07-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing",
-      "url": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
-      "publishedAt": "2026-07-17T01:46:36.000Z",
-      "content": "Z.ai GLM has been getting a bit too much love recently , so it&#8217;s time for Kimi K3 to fight back! It&#8217;s hard to put the scale of today&#8217;s open model release in perspective, so thankfully Moonshot AI did it for us : Their vibe reel was entirely edited by Kimi K3 and worth a watch: You can read SimonW and Arena for standard takes and rankings, none of which will be particularly unexpected given the large size of the model, but this pic best summarizes the K2.5 to K3 jump: AI News for 7/15/2026-7/16/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Moonshot AI launched Kimi K3 as a frontier-class open-weights model, with official claims that place it near top closed models and above prior open competitors. Moonshot officially introduced Kimi K3 as &#8220;Open Frontier Intelligence&#8221; with 2.8T total parameters , 1M-token context , native multimodal input , Kimi Delta Attention (KDA) , and Attention Residuals , and said the model is live on Kimi.com, Kimi Work, Kimi Code, and API, with open weights promised by July 27, 2026 @Kimi_Moonshot Moonshot also highlighted product positioning around long-horizon agentic coding and self-evolving workflows , plus &#8220;vision in the loop&#8221; coding/game-building workflows that iterate between code and screenshots @Kimi_Moonshot Before the formal announcement, multiple accounts circulated leaked or app-sourced details that K3 was 2.8T params , calling it the largest open-weight model ever if weights ship as promised @scaling01 , @scaling01 , @eliebakouch The official Kimi blog went live later and was widely shared as the primary technical source @Jianlin_S , @scaling01 , @Yulun_Du Moonshot&#8217;s own phrasing acknowledged a limitation: despite being highly competitive overall, K3 still has a &#8220;noticeable gap in user…",
-      "summary": "a great week for open models continues.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.69,
-          "rationale": [
-            "multimodal",
-            "vision"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "1ef278c875995c5c",
-      "date": "2026-07-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] not much happened today",
-      "url": "https://www.latent.space/p/ainews-not-much-happened-today-c72",
-      "publishedAt": "2026-07-14T23:54:07.000Z",
-      "content": "Yesterday&#8217;s headline story became even more true, with Superapp usage adding yet another 1M users since we last wrote: In other news, published his final AIEWF26 recap of recaps: Including coverage of Addy Osmani&#8217;s excellent keynote covering what AI engineers should continue doing even when the cost of code generation trends to zero: AI News for 7/13/2026-7/14/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Coding Agents, Harnesses, and the Shift From Chat to Execution OpenAI&#8217;s agent products are seeing unusually strong pull : @sama said usage of Codex + ChatGPT Work grew 2.5x in a week , later adding that GPT-5.6 Sol demand is &#8220;insane&#8221; and may cause scaling hiccups while infra catches up ( 1 , 2 ). The ecosystem response was immediate: JetBrains made Codex its recommended agent , @theo highlighted Codex&#8217;s underexposed &#8220;question tool&#8221; , and OpenAI&#8217;s own team showed command-line eval tooling built start-to-finish with GPT-5.6 . Product-side, OpenAI also ran multiple usage resets , amplified by @reach_vb and users like @kimmonismus . Harness quality and observability are becoming a first-class differentiator : several tweets converged on the idea that model quality alone is no longer enough. @swyx warned that stale agents.md instructions can act like self-inflicted prompt injection , causing multi-hour stalls in long-running tasks. LangChain added tracing for Codex and later expanded to Cursor, Copilot, Pi, and OpenCode in LangSmith , exposing tool calls, subagents, and token usage. @Teknium shipped Hermes updates to parallelize any subset of tool calls and previously exposed banked resets directly in Hermes Agent . The meta-point was stated crisply by @andykonwinski : companies that can encode their value into evals and envi…",
-      "summary": "a continuation: Codex adding 1M users a day now.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "eval"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "c33cf3ebd56b1ee9",
-      "date": "2026-07-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "The Monkey Supply Chain",
-      "url": "https://www.chinatalk.media/p/the-monkey-supply-chain",
-      "publishedAt": "2026-07-14T16:09:16.000Z",
-      "content": "announcements: , ChinaTalk&#8217;s chip lead, is in Hawai&#8217;i! If you&#8217;re interested in joining an Oahu ChinaTalk meetup , reach out to aqib@chinatalk.media. is going to Jakarta later this month and would love to meet folks there! Ping Irene@chinatalk.media to say hi. Could the future of biotech great-power competition be decided by monkeys? In 2020, as COVID spread, China stopped exporting research monkeys. For US vaccine developers, infectious-disease researchers, and drug-testing companies, monkeys that once went for only a few thousand dollars suddenly jumped to $20,000 or more. FDA says it now goes as high as $50,000 &#8212; if you pay peanuts, you unfortunately no longer get monkeys. Important projects were scrapped or delayed. The shortage became serious enough that the NIH created a priority process for COVID studies needing nonhuman primates, warning that there weren&#8217;t enough monkeys to go around. China supplied 50.7% of lab monkeys imported into the US in 2006, 69.6% in 2011, 62.8% in 2018, and 48.5% in 2019. Then China&#8217;s share collapsed to zero from 2020 onwards. A National Academies report later found that 64% of surveyed NIH-supported researchers had trouble obtaining nonhuman primates. Visualized from this dataset . Other sources give similar numbers. I couldn&#8217;t reliably access the 2023-2026 data, but the number of Chinese imports to the US remains zero. Monkeys, mostly macaques, still play a big role in biotech. For vaccines against dangerous pathogens, gene therapies, infectious-disease countermeasures, neurotechnology, and complex biologics, monkeys often remain the model regulators, companies, and funders want to see &#8212; especially when mice are not similar enough to people and human challenge trials are waiting to get going. At ChinaTalk, we write about supply chains quite often. This one is different because it is alive. In one sense, scaling it sounds easy. Put a male and female macaque together, light a few candl…",
-      "summary": "Can the world fix its monkey dependence on China?",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "developer",
-            "repo"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "dataset"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
