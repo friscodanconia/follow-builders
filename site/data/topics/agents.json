@@ -1,11 +1,66 @@
 {
-  "generatedAt": "2026-07-20T04:57:31.034Z",
+  "generatedAt": "2026-07-21T00:48:31.704Z",
   "slug": "agents",
   "label": "AI Assistants",
   "items": [
     {
+      "id": "722629659be34fdf",
+      "date": "2026-07-21",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "A lot of people make the mistake of thinking that when AI costs drop, that spend on AI drops wi…",
+      "url": "https://x.com/levie/status/2078968158006939716",
+      "publishedAt": "2026-07-19T22:20:08.000Z",
+      "content": "A lot of people make the mistake of thinking that when AI costs drop, that spend on AI drops with it. Usually the opposite happens. When you make AI cheaper, it will get consumed more. Because now you can afford to use for a wider of tasks than you did before. You start to write more code. You review more code for bugs and security. You run agents on large data sets you couldn’t process before. And so on. Thus, for the foreseeable future, anything that lowers the cost of tokens will drive up in…",
+      "summary": "A lot of people make the mistake of thinking that when AI costs drop, that spend on AI drops with it. Usually the opposite happens. When you make AI cheaper, it will get consumed more. Because now you can afford to use…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 235,
+        "retweets": 20,
+        "replies": 40
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.92,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.95,
+      "whyThisMatters": ""
+    },
+    {
       "id": "b9fa2551d42d38b3",
-      "date": "2026-07-20",
+      "date": "2026-07-21",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
@@ -44,13 +99,13 @@
       "section": "Official Sources",
       "importanceScore": 0.72,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.57,
       "whyThisMatters": ""
     },
     {
       "id": "0de9ffcadd06e9d7",
-      "date": "2026-07-20",
+      "date": "2026-07-21",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -94,61 +149,8 @@
       "whyThisMatters": ""
     },
     {
-      "id": "b4ce2ea563568cd7",
-      "date": "2026-07-20",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Verifying Rust cryptography in SymCrypt, from standards to code",
-      "url": "https://www.microsoft.com/en-us/research/blog/verifying-rust-cryptography-in-symcrypt-from-standards-to-code/",
-      "publishedAt": "2026-07-13T16:00:00.000Z",
-      "content": "How Rust, Lean, Aeneas, and AI agents are helping scale formal verification for production cryptographic algorithms At a glance SymCrypt develops new verified cryptography using Rust, Aeneas, and Lean to provide higher security assurance. We prove that their code safely and correctly implements standard algorithms, notably for post-quantum cryptography. We are releasing verified code, specs, properties, and proofs initially for SHA-3 and ML-KEM.&nbsp; Aeneas allows verifying a large subset of Rust code and provides efficient automation in Lean to support the proof effort. Agents allow scaling automation by writing proofs that are independently-verifiable. Introduction and motivation for formal verification Cryptographic code sits at the foundation of modern computing. It protects operating systems, cloud services, firmware, messaging systems, and the protocols that connect them. Small mistakes can have outsized consequences: a single arithmetic slip, missing bounds check, or incorrect state transition can undermine the security of an otherwise sound design. Testing and auditing remain essential, but they are not enough on their own. Cryptographic implementations are often optimized, constant-time, architecture-specific, and deliberately low level. The code that ships rarely looks like the clean algorithm in a standard: it contains reductions, bit manipulations, SIMD intrinsics, carefully shaped loops, and portability layers for many environments. Formal verification addresses this gap by deploying machine-checked proofs instead of relying on testing alone. Rather than merely checking that the code usually behaves correctly, verification implements a precise mathematical specification for all inputs that satisfy the stated preconditions. In June last year, Microsoft announced we would formally verify new algorithms written in Rust in SymCrypt , the cryptographic provider used across products and services including Windows and Azure. New cryptographic implementations…",
-      "summary": "Cryptographic code supports vital protections in modern computing systems. Learn how a new method helps verify code as developers write it while preserving speed and adaptability as it gets implemented and evolves. The post Verifying Rust…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.8,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.63,
-      "whyThisMatters": ""
-    },
-    {
       "id": "4dc0bb01688349c1",
-      "date": "2026-07-20",
+      "date": "2026-07-21",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Mistral AI Blog",
@@ -192,7 +194,7 @@
     },
     {
       "id": "155df4c562ef069b",
-      "date": "2026-07-20",
+      "date": "2026-07-21",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Mistral AI Blog",
@@ -246,7 +248,7 @@
     },
     {
       "id": "261f692f80623caf",
-      "date": "2026-07-20",
+      "date": "2026-07-21",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Mistral AI Blog",
@@ -301,7 +303,7 @@
     },
     {
       "id": "d1bc346c9a723419",
-      "date": "2026-07-20",
+      "date": "2026-07-21",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -349,13 +351,13 @@
       "section": "Chinese Models",
       "importanceScore": 0.69,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.55,
       "whyThisMatters": ""
     },
     {
       "id": "bb263b20171582ac",
-      "date": "2026-07-20",
+      "date": "2026-07-21",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -409,7 +411,7 @@
     },
     {
       "id": "1ef278c875995c5c",
-      "date": "2026-07-20",
+      "date": "2026-07-21",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -457,6 +459,59 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "b4ce2ea563568cd7",
+      "date": "2026-07-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Verifying Rust cryptography in SymCrypt, from standards to code",
+      "url": "https://www.microsoft.com/en-us/research/blog/verifying-rust-cryptography-in-symcrypt-from-standards-to-code/",
+      "publishedAt": "2026-07-13T16:00:00.000Z",
+      "content": "How Rust, Lean, Aeneas, and AI agents are helping scale formal verification for production cryptographic algorithms At a glance SymCrypt develops new verified cryptography using Rust, Aeneas, and Lean to provide higher security assurance. We prove that their code safely and correctly implements standard algorithms, notably for post-quantum cryptography. We are releasing verified code, specs, properties, and proofs initially for SHA-3 and ML-KEM.&nbsp; Aeneas allows verifying a large subset of Rust code and provides efficient automation in Lean to support the proof effort. Agents allow scaling automation by writing proofs that are independently-verifiable. Introduction and motivation for formal verification Cryptographic code sits at the foundation of modern computing. It protects operating systems, cloud services, firmware, messaging systems, and the protocols that connect them. Small mistakes can have outsized consequences: a single arithmetic slip, missing bounds check, or incorrect state transition can undermine the security of an otherwise sound design. Testing and auditing remain essential, but they are not enough on their own. Cryptographic implementations are often optimized, constant-time, architecture-specific, and deliberately low level. The code that ships rarely looks like the clean algorithm in a standard: it contains reductions, bit manipulations, SIMD intrinsics, carefully shaped loops, and portability layers for many environments. Formal verification addresses this gap by deploying machine-checked proofs instead of relying on testing alone. Rather than merely checking that the code usually behaves correctly, verification implements a precise mathematical specification for all inputs that satisfy the stated preconditions. In June last year, Microsoft announced we would formally verify new algorithms written in Rust in SymCrypt , the cryptographic provider used across products and services including Windows and Azure. New cryptographic implementations…",
+      "summary": "Cryptographic code supports vital protections in modern computing systems. Learn how a new method helps verify code as developers write it while preserving speed and adaptability as it gets implemented and evolves. The post Verifying Rust…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.8,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.63,
       "whyThisMatters": ""
     },
     {
@@ -2383,59 +2438,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "0b95c18597457147",
-      "date": "2026-07-12",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "The MAD Podcast with Matt Turck",
-      "sourceKey": "podcast:The MAD Podcast with Matt Turck",
-      "builderOrOrg": "The MAD Podcast with Matt Turck",
-      "title": "Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay",
-      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
-      "publishedAt": "2026-07-09T11:30:01.000Z",
-      "content": "Speaker 1 | 00:00 - 00:17 Fraudsters have figured out that in AI, you actually don't really need to steal money or credentials. You can just steal tokens. And the scale of this actually shocked me when I looked at the data. So more than one in six signups at AI companies are this kind of abuse. Whatever. Speaker 1 | 00:17 - 00:41 The dine and dash, but it's for token. When I go and ask my friends and family whether they'd be comfortable letting an agent buy things on their behalf, they usually jump straight to like, well, is it gonna overspend, and is it gonna buy the wrong thing, and can I stop it? And those are actually all legitimate concerns. And it's not Emily permissioning an agent to buy on her behalf. It's Emily has an agent who's tasked with running a business, and that includes buying some things and selling some things and making some profits. Speaker 1 | 00:41 - 00:45 And that'll be the world that I would like to be talking about twelve months from now. Speaker 2 | 00:45 - 00:58 Hi. I'm Matt Turk. Welcome back to the Matt podcast. Today, I'm excited to be joined again by Emily Sense, head of data and AI at Stripe. The rise of agentic commerce has only accelerated since Emily and I talked about it last year. Speaker 2 | 00:58 - 01:40 And in this conversation, we go deep on the economic stack for AI agents, how agents buy and sell on your behalf, why per seat pricing is breaking, token monetization, token theft, which Emily calls the most under discussed topic in all of AI, and finally, whether agents may eventually run entire businesses on their own. Please enjoy my conversation with the always excellent Emily Sense. All right, so welcome back. You and I chatted about a year ago and the theme of the discussion we had was all about the rise of organic commerce. Keeping in mind that obviously this is a long term trend that's going to take a while to play out. Speaker 2 | 01:40 - 01:49 I'm curious about what you've observed over the last twelve months. What has become reality and what is yet to be built? Speaker 1 | 01:49 - 02:14 Yeah. I mean, a year ago, we were talking about agents as buyers in a pretty hypothetical way. I think that the canonical experiences, the consumer experiences, for example, weren't defined. We were largely reasoning kind of from first principles about what this might look like. Fast forward a year, as you know, like, still early innings, still a lot to do, but we have actual infrastructure deployed. Speaker 1 | 02:14 - 02:37 We have real companies building on it. We have real patterns to learn from. And to be clear, like, the the shape of how this unfolds has become more clear and it's going to continue to evolve. So specifically, what we've come to believe is there's a full spectrum of how agentic commerce plays out. And that's actually really important for businesses in how they think about it. Speaker 1 | 02:37 - 03:08 So at one end, and this is where our machine payments protocol lives, but basically, have agents that are out autonomously discovering a service and deciding to buy it and handling the transactions, like, on their own. Right? Like, no human in the loop. And that's maybe what people think of when they say agent ecommerce, but that's just one end of the spectrum. There's also the whole other end of the spectrum where, like, people are looking for shoes for flat footed runners inside an AI surface, And the AI surface gives you an answer. Speaker 1 | 03:08 - 03:33 And increasingly, you know, that was true also in sort of traditional search, but now increasingly that answer comes with a buy button. And so, you know, this is already how a huge number of people are discovering products. If you're a business, you need to show up there. And we've been building the infrastructure to make it, a, easy for businesses to show up and, b, easy for agents, to execute those those transactions. So, you asked about sort of what's become more concrete. Speaker 1 | 03:33 - 03:59 We recently part…",
-      "summary": "Speaker 1 | 00:00 - 00:17 Fraudsters have figured out that in AI, you actually don't really need to steal money or credentials. You can just steal tokens. And the scale of this actually shocked me when I looked at the data. So more than on…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.81,
-          "rationale": [
-            "agent",
-            "agentic",
-            "autonomous"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "reasoning",
-          "label": "AI Thinking",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "reasoning"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
       "whyThisMatters": ""
     }
   ]

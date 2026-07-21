@@ -1,8 +1,114 @@
 {
-  "generatedAt": "2026-07-20T04:57:31.034Z",
+  "generatedAt": "2026-07-21T00:48:31.704Z",
   "slug": "china-models",
   "label": "Chinese AI",
   "items": [
+    {
+      "id": "9455baeb371c3f32",
+      "date": "2026-07-21",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Import AI",
+      "sourceKey": "editorial:Import AI",
+      "builderOrOrg": "Jack Clark",
+      "title": "Import AI 465: Open vs closed gaps; Kimi K3; Demis&#8217; big policy plan",
+      "url": "https://jack-clark.net/2026/07/20/import-ai-465-open-vs-closed-gaps-kimi-k3-demis-big-policy-plan/",
+      "publishedAt": "2026-07-20T12:31:45.000Z",
+      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now UK government: Gap between open and closed weight models on cyber is shrinking: …The cyber-eschaton cometh… The UK government’s AI Security Institute (AISI) has analyzed the delta in cybersecurity capabilities between powerful proprietary models and open weight models. The results show that this year, the gap has shrunk. “This is our first public analysis of how far leading open weight models trail the closed cyber frontier,” AISI writes. “Recent open models GLM-5.2 and DeepSeek V4-Pro perform similarly to frontier closed models released 4 to 7 months before them – a narrower gap than the 6 to 10 months we measured through most of 2025.” Specific details: On a set of 70 evals for specific, narrow cyber capabilities, GLM-5.2 is closest to Claude Opus 4.6, which was released 4.3 months earlier, while DeepSeek-V4-Pro sits somewhere between Claude Opus 4.5 and GPT-5 (released in November and August 2025, respectively). “AISI intends to test Kimi K3 on this same basis, once its weights are publicly released,” AISI writes. The gap lengthens a bit for long-horizon cyber ranges, which are tasks that see how well models can chain various capabilities together to complete a full hacking operation. Specifically, on a cyberrange called The Last Ones, “GLM-5.2 reaches as far as Opus 4.5, a model released less than 7 months before it, while DeepSeek’s V4-Pro falls below Sonnet 4.5 (a sub-cyber-frontier model released 7 months before it),” AISI writes. “The gap here is larger than on our narrow cyber tasks”. This, I think, rhymes with the idea that though open weight models can be superficially quite strong, they sometimes lack a bit of the generalization magic juice that distinguishes proprietary models. This is what people in the AI industry call “big model smell”. Why this matters &#8211; the offen…",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now UK government: Gap between open and closed weight models…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "china-models",
+          "label": "Chinese AI",
+          "confidence": 0.69,
+          "rationale": [
+            "deepseek",
+            "kimi"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "weights"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Chinese Models",
+      "importanceScore": 0.63,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.76,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d1bc346c9a723419",
+      "date": "2026-07-21",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-830",
+      "publishedAt": "2026-07-18T04:30:21.000Z",
+      "content": "People continue to be impressed by yesterday&#8217;s Kimi K3 launch . Congrats to Databricks on their $188B Series M (watch our pod on the latest Databricks narratives ) and OpenRouter might get bought (watch Alex Atallah&#8217;s keynote ). On a slow news day, The most popular talk this week is Abhishek Bhardwaj&#8217;s Sandbox track keynote which recaps a year of growth since his original work on Arrakis got him hired by Greg Brockman , and now building out the cloud infra behind ChatGPT Work (upcoming episode!). Spoilers: if you think running agent sandboxes is just &#8220;run containers on Kubernetes&#8221;, 1) you havent been paying attention to our E2B , Daytona and both Modal podcasts , and 2) you might be overtuned to compute problems and are probably underestimating the importance of storage/filesystems&#8230; If you do leading AI work in NYC, especially for AI x Finance, speaker applications for AIE NYC 2026 opened today. AI News for 7/16/2026-7/17/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Moonshot&#8217;s Kimi K3 Release, Frontier Positioning, and the China/Open-Weight Debate Kimi K3 is the center of gravity today : the release triggered a broad reassessment of how close Chinese open-weight models are to the frontier. Multiple posts frame K3 as the first genuinely useful Chinese model at this tier, with strong coding, agentic, and long-horizon knowledge-work performance. Community reaction ranged from Salakhutdinov congratulating Moonshot founder Zhilin Yang to practitioners simply reporting that &#8220;Kimi K3 is really, really good&#8221; . A recurring theme was that K3 narrows the gap enough to pressure US labs to ship faster, as argued by @kimmonismus and others. The strategic argument shifted from &#8220;compute moat&#8221; to &#8220;efficiency stack&#8221…",
+      "summary": "a quiet day",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "repo"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "china-models",
+          "label": "Chinese AI",
+          "confidence": 0.69,
+          "rationale": [
+            "kimi",
+            "moonshot"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Chinese Models",
+      "importanceScore": 0.69,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.55,
+      "whyThisMatters": ""
+    },
     {
       "id": "22cf4d0acf45b88c",
       "date": "2026-07-20",
@@ -104,60 +210,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.66,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d1bc346c9a723419",
-      "date": "2026-07-20",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] not much happened today",
-      "url": "https://www.latent.space/p/ainews-not-much-happened-today-830",
-      "publishedAt": "2026-07-18T04:30:21.000Z",
-      "content": "People continue to be impressed by yesterday&#8217;s Kimi K3 launch . Congrats to Databricks on their $188B Series M (watch our pod on the latest Databricks narratives ) and OpenRouter might get bought (watch Alex Atallah&#8217;s keynote ). On a slow news day, The most popular talk this week is Abhishek Bhardwaj&#8217;s Sandbox track keynote which recaps a year of growth since his original work on Arrakis got him hired by Greg Brockman , and now building out the cloud infra behind ChatGPT Work (upcoming episode!). Spoilers: if you think running agent sandboxes is just &#8220;run containers on Kubernetes&#8221;, 1) you havent been paying attention to our E2B , Daytona and both Modal podcasts , and 2) you might be overtuned to compute problems and are probably underestimating the importance of storage/filesystems&#8230; If you do leading AI work in NYC, especially for AI x Finance, speaker applications for AIE NYC 2026 opened today. AI News for 7/16/2026-7/17/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Moonshot&#8217;s Kimi K3 Release, Frontier Positioning, and the China/Open-Weight Debate Kimi K3 is the center of gravity today : the release triggered a broad reassessment of how close Chinese open-weight models are to the frontier. Multiple posts frame K3 as the first genuinely useful Chinese model at this tier, with strong coding, agentic, and long-horizon knowledge-work performance. Community reaction ranged from Salakhutdinov congratulating Moonshot founder Zhilin Yang to practitioners simply reporting that &#8220;Kimi K3 is really, really good&#8221; . A recurring theme was that K3 narrows the gap enough to pressure US labs to ship faster, as argued by @kimmonismus and others. The strategic argument shifted from &#8220;compute moat&#8221; to &#8220;efficiency stack&#8221…",
-      "summary": "a quiet day",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "repo"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "china-models",
-          "label": "Chinese AI",
-          "confidence": 0.69,
-          "rationale": [
-            "kimi",
-            "moonshot"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Chinese Models",
-      "importanceScore": 0.69,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.55,
       "whyThisMatters": ""
     },
     {
