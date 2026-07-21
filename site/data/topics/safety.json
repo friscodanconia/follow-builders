@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T03:53:35.485Z",
+  "generatedAt": "2026-07-21T04:39:01.948Z",
   "slug": "safety",
   "label": "AI Safety",
   "items": [
@@ -91,6 +91,61 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "87022ced54bc3c9e",
+      "date": "2026-07-21",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-173",
+      "publishedAt": "2026-07-21T03:58:00.000Z",
+      "content": "On any given Sunday, the announcement that the 2.4T param Qwen 3.8 Max will be open weight wouldve earned title story status, but they had the misfortune to do this 4 days after Kimi K3 2.8T was announced . Instead, we&#8217;re once again declaring a quiet day as far as technical news goes. The AIE Security track was released today (ft Steve Yegge&#8217;s latest ) and the top release of the day goes to Sonar CEO Tariq Shaukat, who echoed Erik Meijer&#8217;s emphasis on verification for safety/security/correctness: AI News for 7/18/2026-7/20/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Open-Weight Competition, Chinese Model Policy, and the New Geopolitics of AI US debate over restricting Chinese open models is moving from rhetoric toward policy : Multiple tweets pointed to Axios coverage that the Trump administration is considering measures that could amount to a de facto ban on cutting-edge Chinese models such as Kimi : procurement restrictions, Entity List designations, security advisories, liability requirements, and public pressure campaigns. A more detailed breakdown from @deredleritt3r stresses this is likely not a clean statutory ban but a layered compliance/hosting regime. The reaction from technical voices was overwhelmingly negative: @APompliano , @ClementDelangue , @mmitchell_ai , and @bgurley all argued that restricting open models would hurt competition, sovereignty, and defensive security more than it helps incumbents. Open models are increasingly framed as a security necessity, not just a cost lever : The most concrete evidence came from @ZixuanLi_ and @jeffboudier , summarizing Hugging Face&#8217;s disclosure that during a cyber incident they used self-hosted GLM-5.2 for forensic work because commercial frontier APIs&#8217; guardrails blocked analysis and bec…",
+      "summary": "a quiet day.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.81,
+          "rationale": [
+            "security",
+            "compliance",
+            "procurement"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.69,
+          "rationale": [
+            "safety",
+            "policy"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "china-models",
+          "label": "Chinese AI",
+          "confidence": 0.69,
+          "rationale": [
+            "qwen",
+            "kimi"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Chinese Models",
+      "importanceScore": 0.63,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.76,
       "whyThisMatters": ""
     },
     {
@@ -2202,58 +2257,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "040a0514e9f912be",
-      "date": "2026-05-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Codex Rises, Claude Meters Programmatic Usage",
-      "url": "https://www.latent.space/p/ainews-codex-rises-claude-meters",
-      "publishedAt": "2026-05-14T03:53:26.000Z",
-      "content": "It has been a tale of two cities in the past 3 weeks since the launch of GPT 5.5; while the finance folks fall in love with Anthropic&#8217;s growth and CFO ahead of its likely October IPO, there has been a notable rise in pro-Codex sentiment among AI Engineers, likely a combination of GPT 5.5 being a really good (in some scenarios Mythos-tier ) model, launch of Codex for Everything Else , and, a third thing, which is the trigger for today&#8217;s op-ed: more generous limits. The messaging for Claude&#8217;s pricing change was generally pretty well done, it is simply not what uses of alternative harnesses wanted to hear: every Claude subscription now gets a monthly credit of API tokens equal to the dollar amount of the Claude subscription plan. So you pay $200, you get BOTH a Claude subscription with its own limits for using Claude on Anthropic-owned harnesses like Claude.ai and Claude Code (&#8220;interactive usage&#8221;), AND $200 worth of API credits for using Claude everywhere else including claude-p , OpenClaw and others (&#8220;programmatic usage&#8221;). If things had worked this way from the start, it would have been viewed as a very good deal: However, because of the historical subsidy/pricing advantages (estimated between 70-90% discount from API pricing), people are viewing it as a &#8220;rug pull&#8221; of sorts &#8212; however it&#8217;s nice to have an official policy in place as opposed to the selective targeting of OpenClaw , OpenCode , and uncertain status of less popular harnesses. That these headlines come on the same day as OpenAI launches their enterprise switch promo is an incredible coincidence: At the end of the day, we would caution against reading too much into swings either way - both labs are doing very well, and these are in the grand scheme of things normal pricing shifts by people inventing the future of coding while figuring out optimal pricing as they shake up a decades-old industry. Anthropic was more liberal in the beginning, but…",
-      "summary": "a quiet day lets us report on a long trend of the major coding agents",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "policy"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
       "whyThisMatters": ""
     }
   ]
