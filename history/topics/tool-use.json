@@ -1,11 +1,64 @@
 {
-  "generatedAt": "2026-07-22T04:40:03.130Z",
+  "generatedAt": "2026-07-23T00:43:51.732Z",
   "slug": "tool-use",
   "label": "AI Using Tools",
   "items": [
     {
+      "id": "178e016fcef37ab1",
+      "date": "2026-07-23",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "How news organizations are using AI to advance their vital missions",
+      "url": "https://openai.com/index/how-news-organizations-are-using-ai",
+      "publishedAt": "2026-07-22T13:00:00.000Z",
+      "content": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
+      "summary": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
       "id": "a146ef1164b0071d",
-      "date": "2026-07-22",
+      "date": "2026-07-23",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -2332,57 +2385,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "b1198ce2b3a91f30",
-      "date": "2026-06-07",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "AI & I by Every",
-      "sourceKey": "podcast:AI & I by Every",
-      "builderOrOrg": "AI & I by Every",
-      "title": "The SaaS Apocalypse Is a Goldmine With Figma’s Matt Colyer",
-      "url": "https://www.youtube.com/watch?v=kYKebKB3-d0",
-      "publishedAt": "2026-06-03T15:00:00.000Z",
-      "content": "Speaker 1 | 00:00 - 00:27 The SaaS apocalypse or the next era of software, if you will. I'm really excited about it, and I think Figma and a lot of other SaaS businesses are too. Because, like, I've worked in developer tools for a long time, and maybe five, ten years ago, the estimate of, like, number of developers worldwide was, like, 25,000,000, 30,000,000, 40,000,000, give or take. I think what's most exciting about this time is that I think it's gonna be, like, a billion, maybe even more than that. I think there's this incredible time that we're moving through of product development and really the democratization of technology. Speaker 1 | 00:27 - 00:33 I think the end result is that there is dramatically more software out there in the world. If you're in that space, it means it's a gold mine. Right? Speaker 2 | 00:47 - 01:00 Every is the only subscription you need to stay at the edge of AI. If you care about being on top of the latest models and using the latest tools, you have to subscribe to to separate out the signal from the noise. Go to every. Tosubscribe today. Matt, welcome to the show. Speaker 1 | 01:00 - 01:02 Thanks for having me, Dan. Speaker 2 | 01:02 - 01:39 So for people who don't know you, you are the director of product management for developers at Figma. And I want to start with, I think, the big question on everyone's mind. I should probably say I bought a bunch of Figma, like, probably like two months ago, something like that, because there's this whole SaaS pocalypse narrative. And what I want to get in detail or get get into with you, I think you have lot of stuff to share about AI, AI and product management, all the stuff that you've been doing yourself. But also, I'd love to I'd love to start with what is gonna happen to SaaS tools in AI? Speaker 2 | 01:40 - 02:10 And I think Figma is a really interesting example where there are always people who are like, oh, I I don't have to use Figma anymore. There are, you know, you guys just launched an agent, like, in your product. You also have Figma MCP. So if you're transitioning from so if you're transitioning from a world where you'd you know, there was no AI when Figma started to now you're a big scaled product, and now there is AI. Like, how does that work and how are you how are you thinking about do we open the product up to agents? Speaker 2 | 02:10 - 02:14 Do we build our own agent? What's working? What's not? All that kind of stuff. I'm really interested in that. Speaker 1 | 02:14 - 02:32 Yeah. I'd love to talk about that today. I think for me, it comes from a couple of different angles. I think the first thing is like the SaaS apocalypse or, like, you know, the next era of software, if you will, maybe is more of positive framing on that. I'm really excited about it because, like, I think like, I've worked in developer tools for a long time. Speaker 1 | 02:32 - 03:03 And, like, you know, maybe five, ten years ago, the estimate of, like, number of developers worldwide was like, I don't know, 25,000,000, 30,000,000, 40,000,000 give or take. I think what's most exciting about this time is that like, I think it's gonna be like a billion, right, like maybe even more than that, right. And so like, I think there's this incredible time that we're moving through of product development and really the democratization of technology. Mean, there's a lot of catchphrases around, homegrown software and, like, we can talk about some of that stuff later. But I think the end result is that there is dramatically more software out there in the world. Speaker 1 | 03:03 - 03:32 And so kinda coming back to your point about like the SaaS pocalypse and like what does that mean for companies that have an established product is like if you're in that space, like it it means it's a gold mine. Right? That that there's all this opportunity out there and that I'm really excited about it. And I think, you know, Figma and a lot of other SaaS businesses are too. And so I think the…",
-      "summary": "Speaker 1 | 00:00 - 00:27 The SaaS apocalypse or the next era of software, if you will. I'm really excited about it, and I think Figma and a lot of other SaaS businesses are too. Because, like, I've worked in developer tools for a long tim…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "developer"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
       "whyThisMatters": ""
     }
   ]
