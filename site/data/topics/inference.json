@@ -1,8 +1,98 @@
 {
-  "generatedAt": "2026-07-23T04:43:43.155Z",
+  "generatedAt": "2026-07-24T01:30:06.495Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
+    {
+      "id": "235843cbd1c318e5",
+      "date": "2026-07-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:claudeai",
+      "builderOrOrg": "Claude",
+      "title": "The Claude Security plugin for Claude Code is now available in beta. Scan your changes for vuln…",
+      "url": "https://x.com/claudeai/status/2079990597973057691",
+      "publishedAt": "2026-07-22T18:02:57.000Z",
+      "content": "The Claude Security plugin for Claude Code is now available in beta. Scan your changes for vulnerabilities before you commit, or run a full scan across your codebase, all from your terminal on the Claude inference you already run. https://t.co/tEM7Tz7f1o",
+      "summary": "The Claude Security plugin for Claude Code is now available in beta. Scan your changes for vulnerabilities before you commit, or run a full scan across your codebase, all from your terminal on the Claude inference you a…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 12836,
+        "retweets": 1113,
+        "replies": 434
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.78,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.86,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c8edc9640b13fb31",
+      "date": "2026-07-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "The production platform for open-weight AI inference",
+      "url": "https://www.together.ai/blog/the-production-platform-for-open-weight-ai-inference",
+      "publishedAt": "2026-07-23T00:00:00.000Z",
+      "content": "Run open models in production with full control over performance, cost, and quality. Deploy in minutes, roll out safely, and scale to your SLOs.",
+      "summary": "Run open models in production with full control over performance, cost, and quality. Deploy in minutes, roll out safely, and scale to your SLOs.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
     {
       "id": "ba2cbc2df5627830",
       "date": "2026-07-23",
@@ -2354,108 +2444,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "605af05edff076e2",
-      "date": "2026-05-04",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "No Jensen, Not All Compute is Created Equal",
-      "url": "https://www.chinatalk.media/p/no-jensen-not-all-compute-is-created",
-      "publishedAt": "2026-04-28T11:10:29.000Z",
-      "content": "is in Cape Town for two weeks&#8230; email Nick at nick@chinatalk.media if you&#8217;re interested in joining a ChinaTalk meetup! We&#8217;ve recently tried to pin down how much compute China actually has, approaching the question from both the supply and demand sides. We converged on roughly 2.5 to 2.8 million H100-equivalents. But a single aggregate figure only captures part of the picture. Jensen on China On Dwarkesh&#8217;s podcast last week, Jensen Huang argued that China already has enough compute to build frontier AI. &#8220;They manufacture 60% of the world&#8217;s mainstream chips, maybe more.&#8221; When Dwarkesh raised the gap in advanced chips, Jensen responded, &#8220;AI is a parallel computing problem, isn&#8217;t it? Why can&#8217;t they just put 4x, 10x, as many chips together because energy&#8217;s free?&#8221; Jensen is wrong, but that doesn&#8217;t mean people aren&#8217;t compelled by this line of reasoning. John Moolenaar, who chairs the House Select Committee on China, sent a letter to Lutnick in December proposing a rolling technical threshold that would cap Chinese aggregate AI compute at 10% of US compute capacity. It&#8217;s much more nuanced &#8212; accounting for memory and network bandwidth as part of this calculus &#8212; but ultimately seems motivated by preventing, as the letter calls it, &#8220;death by a thousand sub&#8208;threshold chips.&#8221; Export restrictions are a difficult line to walk, and total computing power does matter. But not all compute is created equal. The compute that can train a frontier model, serve inference on an existing one, and power your laptop are different things, and a &#8220;death by a thousand sub-threshold chips&#8221; is less concerning for the trajectory of AI than a concentration of the most important chips. Legacy Chips Don&#8217;t Matter for AI It&#8217;s hard to know where Jensen is getting his claim that &#8220;China manufactures 60% of the world&#8217;s mainstream chips.&#8221; Perhaps orig…",
-      "summary": "+ Nick in Cape Town!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "reasoning",
-          "label": "AI Thinking",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "reasoning"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "546c572ce81e98d6",
-      "date": "2026-05-03",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "No Priors",
-      "sourceKey": "podcast:No Priors",
-      "builderOrOrg": "No Priors",
-      "title": "Baseten CEO Tuhin Srivastava on the AI Inference Crunch, Custom Models, and Building the Inference Cloud",
-      "url": "https://www.youtube.com/watch?v=XAbKflCncDo",
-      "publishedAt": "2026-05-01T19:34:00.000Z",
-      "content": "Speaker 1 | 00:05 - 00:28 Hi, listeners. Today, Elad and I are here with Tuhin Srivastava, the founder and CEO of Base10, inference cloud. We're here to talk about capacity constraints for AI compute, why inference is the last market, how the workload is changing, the open source and perhaps multi chip future, and what 30x scale in a year looks like. Tuhin, welcome back. Speaker 2 | 00:28 - 00:30 Hi. Good to see you. Speaker 3 | 00:30 - 00:31 Thanks for having me. Speaker 1 | 00:31 - 00:41 All right. You are in one of the craziest markets, AI inference. It's very important. There's a lot going on. You guys have grown 30x over the last year. Speaker 1 | 00:42 - 00:46 And I think I can say you're expecting to do more than a billion dollars in revenue this year. Speaker 3 | 00:46 - 00:46 Mhmm. Speaker 1 | 00:47 - 00:49 What's going on? Tell us about scale. Speaker 3 | 00:49 - 01:09 Yeah. No. It's been it's been nuts. I I think what's happened over the last, honestly, twenty four months, but just kinda keeps getting bigger and bigger, is that I think everyone is realizing that you can put AI everywhere. You have all these great options available from closed source to open source models. Speaker 3 | 01:09 - 01:54 The open source models have crossed some sort of chasm in terms of their baseline capability. And then I think RRL techniques and post training for specialized models has become mainstream enough and, you know, there's enough examples of it work of it working. The customer's realizing they can, you know, kind of own their inference more and more. And what that's meant for us is more, you know, the long tail of models coming true, customers in housing a lot of that intelligence themselves. As the application layer just gets, you know, bigger and bigger and bigger and that's growing, we just someone index on that and we've been around to be able to collect the demand. Speaker 1 | 01:55 - 02:07 There's an existential question in here that I think everybody is continually asking of does the independent application layer get to exist at all versus the labs? You have to believe this. Why do you believe it? Speaker 3 | 02:07 - 02:15 Yeah. Look. I I I think it'd be it'd be a sad thing if it didn't exist in general, and I think that's, like, my but, you know, sadness is fine. The Speaker 2 | 02:16 - 02:17 I'm sad all the time. Speaker 3 | 02:17 - 02:41 Oh, yeah. Sadness is fine. But, like, that that that's not the reason why I think the application layer will exist. I think the application layer will exist for a number of reasons. One is because, you know, I think this idea that what is valuable to a company is, you know, the user signal that they can gather that only they can gather. Speaker 3 | 02:42 - 03:11 And to the extent that that is encoded in a model, I think a lot of their business will be at risk, but to the to the extent that it is encoded in workflows, that is where they will be able to develop mode. So a good I think a good example of that is, say, a company like a Bridge where the clinicians edits off the notes and what they do with those notes after the fact. And the thing that happens in inside the EMR three steps down, and that becomes a workflow that only Speaker 1 | 03:11 - 03:13 Can you explain what a bridge does? Speaker 3 | 03:13 - 03:28 Sorry. A bridge a bridge is a ambient scribe that is used by physicians in, like, you know, almost all hospitals in The US. I think Lad's an investor. Great Shiv's amazing. Great great company. Speaker 3 | 03:28 - 04:01 Great team. Great product. And, you know, they they've basically, you know, got this very, very deep integration into into hospitals and to clinician workflows. And my argument would be here is that actually, you know, it's very, very hard for a frontier model company to be able to eat up where that could they just don't have access to that user signal. And what will happen over time is the folks who have access to that user signal can start to post train mod…",
-      "summary": "Speaker 1 | 00:05 - 00:28 Hi, listeners. Today, Elad and I are here with Tuhin Srivastava, the founder and CEO of Base10, inference cloud. We're here to talk about capacity constraints for AI compute, why inference is the last market, how…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open source"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.52,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.44,
       "whyThisMatters": ""
     }
   ]
