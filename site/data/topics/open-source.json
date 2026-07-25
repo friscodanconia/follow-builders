@@ -1,57 +1,58 @@
 {
-  "generatedAt": "2026-07-24T04:41:02.208Z",
+  "generatedAt": "2026-07-25T01:24:51.334Z",
   "slug": "open-source",
   "label": "Open Source",
   "items": [
     {
-      "id": "b9a8c507089dfd5c",
-      "date": "2026-07-24",
+      "id": "d65a07cbe7a7b244",
+      "date": "2026-07-25",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:realmadhuguru",
-      "builderOrOrg": "Madhu Guru",
-      "title": "Using a Chinese-trained LLM doesn’t mean they get your data. An LLM is basically a giant file f…",
-      "url": "https://x.com/realmadhuguru/status/2080150245011509593",
-      "publishedAt": "2026-07-23T04:37:20.000Z",
-      "content": "Using a Chinese-trained LLM doesn’t mean they get your data. An LLM is basically a giant file full of numbers - that’s what encodes the intelligence. Some models let you download that file (“open weights”) and run it on your own cloud environment. The model trainer is out of the picture now. Your data stays wherever you’re running it.",
-      "summary": "Using a Chinese-trained LLM doesn’t mean they get your data. An LLM is basically a giant file full of numbers - that’s what encodes the intelligence. Some models let you download that file (“open weights”) and run it on…",
+      "sourceKey": "x:swyx",
+      "builderOrOrg": "Swyx",
+      "title": "btw ive been dogfooding an agentic github clone over the past month or so and its gotten quite…",
+      "url": "https://x.com/swyx/status/2080500752183960017",
+      "publishedAt": "2026-07-24T03:50:07.000Z",
+      "content": "btw ive been dogfooding an agentic github clone over the past month or so and its gotten quite quite enjoyable to use. even complete with built in CI/CD thanks to workers for platforms! there's 3 more ideas i have to implement (not shown here) before this goes live. but if you're looking to hack on this with me it's a really good time to join swyx inc and influence the roadmap",
+      "summary": "btw ive been dogfooding an agentic github clone over the past month or so and its gotten quite quite enjoyable to use. even complete with built in CI/CD thanks to workers for platforms! there's 3 more ideas i have to im…",
       "regionTags": [],
       "metrics": {
-        "likes": 29,
-        "retweets": 2,
-        "replies": 3
+        "likes": 42,
+        "retweets": 0,
+        "replies": 12
       },
       "topics": [
         {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
           "rationale": [
-            "code"
+            "agent",
+            "agentic"
           ],
-          "score": 1
+          "score": 2
         },
         {
           "slug": "open-source",
           "label": "Open Source",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "weights"
+            "github"
           ],
           "score": 1
         }
       ],
       "section": "Builders",
-      "importanceScore": 0.65,
-      "noveltyScore": 0.3,
+      "importanceScore": 0.83,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.53,
+      "digestScore": 0.89,
       "whyThisMatters": ""
     },
     {
       "id": "261f692f80623caf",
-      "date": "2026-07-24",
+      "date": "2026-07-25",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Mistral AI Blog",
@@ -106,7 +107,7 @@
     },
     {
       "id": "9455baeb371c3f32",
-      "date": "2026-07-24",
+      "date": "2026-07-25",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Import AI",
@@ -157,8 +158,61 @@
       "whyThisMatters": ""
     },
     {
+      "id": "dcea4542faf5f4d8",
+      "date": "2026-07-25",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Chinese Labs' Latest Product? Roleplay",
+      "url": "https://www.chinatalk.media/p/ai-roleplay-a-deep-dive",
+      "publishedAt": "2026-07-24T10:02:16.000Z",
+      "content": "Beijing&#8217;s regulators are coming for AI boyfriends. When the Cybersecurity Administration&#8217;s regulations on &#8220;human-like interactive AI&#8221; (&#20154;&#24037;&#26234;&#33021;&#25311;&#20154;&#21270;&#20114;&#21160;&#26381;&#21153;) took effect on July 15, China became the world&#8217;s first country to regulate anthropomorphic AI services. The rules ban providers from &#8220;manipulating&#8221; users into emotional dependence, limit minors&#8217; access to some specific provisions, and impose reporting requirements, among other rules. In response, ByteDance and Alibaba have both pulled some anthropomorphic companion offerings from their AI products. Whatever you think of this use case, an incredible number of people now go to AI for various emotional reasons. For users of open-source AI models worldwide, the use case that burned the most tokens last year was not writing code, but roleplay. That&#8217;s according to the 2025 State of Open Models study by OpenRouter, a popular gateway platform for developers to access LLMs, and the venture capital firm Andreessen Horowitz. People are pouring hundreds of thousands of hours into constructing imaginary scenarios with the help of AI models, but the hobby has received little attention. Mainstream reporting on AI and emotions, including a recent New York Times story , has focused on their ethical, social, and cultural impacts generally. Few, however, have tried to interrogate exactly what AI roleplay is, why it is so popular, and how fictional adventures relate to real-life society. The most prominent AI roleplay platform is Bay Area-based Character.AI , but it has ample competition &#8212; including, and perhaps especially, from China. As I will discuss later, even DeepSeek, China&#8217;s superintelligence-obsessed national champion lab, is making some surprising moves in roleplay. Meanwhile, however, government regulators are poised to reign in the space given social concerns. For this piece, I spoke to…",
+      "summary": "Why Deepseek is hiring for feelings",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "code",
+            "developer",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open-source"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.66,
+      "whyThisMatters": ""
+    },
+    {
       "id": "9cc6317f477bf1e5",
-      "date": "2026-07-24",
+      "date": "2026-07-25",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "ChinaTalk",
@@ -206,6 +260,52 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "b9a8c507089dfd5c",
+      "date": "2026-07-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:realmadhuguru",
+      "builderOrOrg": "Madhu Guru",
+      "title": "Using a Chinese-trained LLM doesn’t mean they get your data. An LLM is basically a giant file f…",
+      "url": "https://x.com/realmadhuguru/status/2080150245011509593",
+      "publishedAt": "2026-07-23T04:37:20.000Z",
+      "content": "Using a Chinese-trained LLM doesn’t mean they get your data. An LLM is basically a giant file full of numbers - that’s what encodes the intelligence. Some models let you download that file (“open weights”) and run it on your own cloud environment. The model trainer is out of the picture now. Your data stays wherever you’re running it.",
+      "summary": "Using a Chinese-trained LLM doesn’t mean they get your data. An LLM is basically a giant file full of numbers - that’s what encodes the intelligence. Some models let you download that file (“open weights”) and run it on…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 29,
+        "retweets": 2,
+        "replies": 3
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "weights"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.65,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.53,
       "whyThisMatters": ""
     },
     {
@@ -2305,104 +2405,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "757e6d5c2ea6f964",
-      "date": "2026-06-18",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "One of the biggest questions in AI is how far behind open weights models remain from closed mod…",
-      "url": "https://x.com/levie/status/2067070918300664161",
-      "publishedAt": "2026-06-17T02:24:45.000Z",
-      "content": "One of the biggest questions in AI is how far behind open weights models remain from closed models at any given time. There are huge differences in market structures depending on whether open weights models remain 3 or 6 months behind, or if they fall behind by years. The answer to this will determine how the chip stack plays out, where inference can be run, what sovereign AI looks like, what happens at the applied AI layer, what the margin structure looks like in AI, how much companies can aff…",
-      "summary": "One of the biggest questions in AI is how far behind open weights models remain from closed models at any given time. There are huge differences in market structures depending on whether open weights models remain 3 or…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 206,
-        "retweets": 13,
-        "replies": 25
-      },
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "weights"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "6c6c9c9b48cb5165",
-      "date": "2026-06-18",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Fable and Mythos officially too dangerous to release",
-      "url": "https://www.latent.space/p/ainews-fable-and-mythos-officially",
-      "publishedAt": "2026-06-13T04:30:52.000Z",
-      "content": "This is the LAST WEEKEND to take the AI Engineering Survey and get >$2k in credits and and a chance for $2000 worth of AIE WF tickets ! Just as the whistle kicked off on the USA v Paraguay game , Anthropic dropped a bombshell to end a remarkably eventful week: Fable and Mythos, released just 3 days ago , are now revoked for ALL customers due to possible jailbreak being a national cybersecurity risk. We steer clear of commenting on politics and policy, even though this is not Anthropic&#8217;s first tangle with the US government, but surely this development, affecting all customers worldwide rather than just USgov employees and vendors, will be noteworthy for the precedent it sets, even as it is unclear how actually technically legitimate this claim is (Anthropic seems to &#8220;believe this is a misunderstanding &#8221; because &#8220;the government has only given us verbal evidence of a potential narrow, non-universal jailbreak&#8221;.) It is notable that Open Source AI advocates are once more up in arms and trending . AI News for 6/11/2026-6/12/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Anthropic&#8217;s Fable/Mythos Suspension and the New &#8220;Model Sovereignty&#8221; Debate US export controls abruptly took Fable/Mythos offline : The dominant story was Anthropic&#8217;s announcement that, following a US government directive, it had to suspend access to Claude Fable 5 and Mythos 5 for foreign nationals, with knock-on disruption for all users while compliance was sorted out. Anthropic says the order was based on a capability report it disputes and that similar capabilities are &#8220;widely available&#8221; in other models, including GPT-5.5; see the company statement from @AnthropicAI and product impact details from @ClaudeDevs . The event triggered immediate removals…",
-      "summary": "We are in the strangest timeline.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.69,
-          "rationale": [
-            "security",
-            "compliance"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open source"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
       "whyThisMatters": ""
     }
   ]

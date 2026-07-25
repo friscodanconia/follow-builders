@@ -1,8 +1,244 @@
 {
-  "generatedAt": "2026-07-24T04:41:02.208Z",
+  "generatedAt": "2026-07-25T01:24:51.334Z",
   "slug": "fine-tuning",
   "label": "Custom AI",
   "items": [
+    {
+      "id": "05c6dccc0bc6320f",
+      "date": "2026-07-25",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:nikunj",
+      "builderOrOrg": "Nikunj Kothari",
+      "title": "Things in tech that have lost all signal given how liberally we use this title.. > “neo”-someth…",
+      "url": "https://x.com/nikunj/status/2080293627784212933",
+      "publishedAt": "2026-07-23T14:07:05.000Z",
+      "content": "Things in tech that have lost all signal given how liberally we use this title.. > “neo”-something > full stack > fellows* > labs > partner* > forward deployed > RL (getting there slowly) * yes I know the irony since a) we run a fellowship and b) my own title is partner",
+      "summary": "Things in tech that have lost all signal given how liberally we use this title.. > “neo”-something > full stack > fellows* > labs > partner* > forward deployed > RL (getting there slowly) * yes I know the irony since a)…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 48,
+        "retweets": 1,
+        "replies": 10
+      },
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "dc5967ab9c8c25a7",
+      "date": "2026-07-25",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "The MAD Podcast with Matt Turck",
+      "sourceKey": "podcast:The MAD Podcast with Matt Turck",
+      "builderOrOrg": "The MAD Podcast with Matt Turck",
+      "title": "The Biggest Chip Ever Built — Why OpenAI Runs On It | Cerebras CEO Andrew Feldman",
+      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "publishedAt": "2026-07-23T11:30:00.000Z",
+      "content": "Speaker 1 | 00:00 - 00:21 This is the largest chip built in the history of the computer industry. It's 58 times larger than a GPU. And for AI, bigger chips process information more quickly, and therefore, you get answers in less time. For AI world, big chips are undoubtedly the best way to go. There's no mode in inference. Speaker 1 | 00:21 - 00:36 It takes you eight keystrokes to move from a GPU to us in the cloud. We solved a problem that nobody in the history of computing solved, and we delivered it in 2020, and nobody cared. Nobody cared. Nobody bought it in. Nobody cared. Speaker 1 | 00:36 - 00:40 Everybody said we were crazy. It would never work. So then we built the next one. Speaker 2 | 00:40 - 01:02 Hi. I'm Matt Turk. Welcome to the MAD podcast. My guest today is Andrew Feldman, cofounder and CEO of Cerubrus, the company that built the largest chip in the history of computing and just pulled off the biggest semiconductor IPO of all time. Andrew has been everywhere talking about the headlines, the $20,000,000,000 plus OpenAI deal, the IPO, but this conversation is a bit different. Speaker 2 | 01:02 - 01:28 We started from what is a wafer and built up step by step, Why GPUs struggle with fast inference, the three shortages nobody talks about, the decade in the desert when nobody wanted this chip, and why Andrew believes that CUDA is no longer a moat for NVIDIA. If you want to actually understand the current chip landscape and how AI inference works at the silicon level, this episode is for you. Please enjoy this fantastic conversation with Andrew Feldman. Speaker 3 | 01:31 - 01:41 I thought a a fun place to start would be to talk about speed. So has speed become the dominant conversation for AI today? Speaker 1 | 01:41 - 01:59 Yeah. What happened, I think, was for a long time, AI was sort of a novelty. It was like a parlor trick. It was cool, but not useful. And what happened somewhere around the middle of twenty twenty five was the AI got smart enough such that people began to use it. Speaker 1 | 02:00 - 02:15 And we remember, we we we make AI with training, but we use it with inference. And suddenly people wanted to use it. And the minute you wanna use it, the minute it's productive, right, speed matters. Right? Fast tokens are more productive. Speaker 1 | 02:15 - 02:32 And so the conversation moved from everything else to how do we make our inference faster? How do we deliver tokens more quickly? Because those are more productive tokens. We get more done in less time, and, therefore, it's more valuable. Speaker 3 | 02:32 - 02:39 Great. And what what does speed mean? Is that is that a a question of token speed? Is that completion of the task? What what's the right metric? Speaker 3 | 02:39 - 02:40 Sure. Speaker 1 | 02:40 - 03:06 The right metric is tokens per second per user. That that's how fast you get the first token all the way through the last token in in your in your response. And it's true for queries from from chat, but it's also true for for agentic floats. Right? If they're sort of multicycle turns, waiting is amplified. Speaker 1 | 03:06 - 03:16 And so what you want is blisteringly fast responses so that the the AI feels like it's in real time. You can engage with this. K? So Speaker 3 | 03:16 - 03:20 it's the Brombeil moment for Post for AI. I think Speaker 1 | 03:20 - 03:43 that's I think that's right. And I I think that's a very good analogy. I I think if you think of something like like Netflix, right, when the Internet was slow, right, Netflix delivered DVDs and envelopes. You would get a a DVD at an envelope. And when the Internet became fast, they didn't get more efficient at delivering DMUDs and envelopes. Speaker 1 | 03:43 - 03:54 They became a movie studio. Mhmm. Right? The speed enabled them to become something completely different. And that's what speed does in general and in particular for for AI. Speaker 1 | 03:54 - 04:05 It it opens up a whole new domain. It allows you to use the AI differen…",
+      "summary": "Speaker 1 | 00:00 - 00:21 This is the largest chip built in the history of the computer industry. It's 58 times larger than a GPU. And for AI, bigger chips process information more quickly, and therefore, you get answers in less time. For…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "178e016fcef37ab1",
+      "date": "2026-07-25",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "How news organizations are using AI to advance their vital missions",
+      "url": "https://openai.com/index/how-news-organizations-are-using-ai",
+      "publishedAt": "2026-07-22T13:00:00.000Z",
+      "content": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
+      "summary": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "e8305d01609ee783",
+      "date": "2026-07-25",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "🔬Causal Models Need Causal Data - Xaira’s X-Cell model for Drug Discovery (Bo Wang & Ci Chu, Chief Discovery Officer & Chief AI Scientist)",
+      "url": "https://www.latent.space/p/xaira",
+      "publishedAt": "2026-07-21T19:34:06.000Z",
+      "content": "Bet on information If test loss flatlines after 1.5B parameters while training loss continues to drop as you scale, that tells you that your model is limited by the amount of information in your data. Training on a single, smallish data set exposed an information gap: the 3.1B model falls off the scaling trend. Neither parameters nor compute will improve performance past this wall. For predicting changes to gene expression, you need more information rich data . This is what Chu and Bo&#8217;s teams have done, and here is what ~30x the information buys you: Now we can scale with parameters and training compute! We don&#8217;t know how much this effort costed, but we can guess that data collection experiments and infrastructure was a few tens of millions, and compute + headcount + research was a few million. The budget looks like a RL rollout budget, rather than a data rich pre-training one. We were lucky enough to have the two central figures in this story on our podcast. Taking the lead from Ci Chu and Bo Wang, Xaira Therapeutics is betting that information rich data is the key to AI-driven drug development. Chu was recently promoted to Chief Discovery Officer and Bo to Chief AI Scientist 1 , underscoring just how strategic Xaira considers this bet. Reverse engineering the human cell If you had to figure out how a human cell works, what would you do? A good place to start might be by documenting what genes are expressed (e.g. what RNA is floating around) in different kinds of cells, in different circumstances. That is CELLxGENE , a database of 168M cells built by Chan Zuckerberg Institute that maps each cell to a count of how many times 20K-30K genes were detected in that cell, plus detailed metadata about every cell . A ~4 trillion-entry matrix. If the Protein Data Bank (PDB) unlocked structural biology models ( Boltz Episode , ESM/BioHub Episode ), CELLxGENE has done the same thing for Virtual Cell models. Like PDB, CELLxGENE has inspired a zoo of AI models of RN…",
+      "summary": "Xaira Therapeutics is all in on data generation for model building! We talk with Bo Wang and Ci Chu about how and why.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "9cc6317f477bf1e5",
+      "date": "2026-07-25",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Kimi and Xi",
+      "url": "https://www.chinatalk.media/p/kimi-k3-and-xis-ai-speech",
+      "publishedAt": "2026-07-23T10:02:47.000Z",
+      "content": "Kimi K3 dropped this week, and days later Xi Jinping gave his most substantive speech on AI yet at the World AI Conference in Shanghai. The full ChinaTalk squad convened for an emergency pod on what a Chinese Mythos-class model would mean, and whether Beijing has any mechanism to catch one before it ships open-weight. Irene Zhang, Aqib Zakaria, and Lily Ottinger are ChinaTalk staff writers and co-authors of our recent scenario analysis on Chinese AI governance. We discuss&#8230; Whether Xi&#8217;s WAIC speech commitment to open source will hold, or if it&#8217;s just another Davos address Why Xi shouted out the salt and iron debates of 81 BC for AI today Three scenarios for Chinese AI governance &#8212; Let It Rip, China&#8217;s Glasswing, and full nationalization &#8212; and why the Chinese models themselves bet on the black box Whether open weights kill the business model for everyone, and why compute ratios may matter more than the capability gap Listen now on your favorite podcast app . A Big Week for China AI Jordan Schneider: A big week for China AI news. We had Kimi K3 drop, and Xi giving his biggest speech on AI yet. To discuss, we have the full ChinaTalk squad in attendance for this emergency podcast: Irene Zhang, Aqib Zakaria, as well as Lily Ottinger. After much debate, we&#8217;ve decided to start with Kimi instead of Xi. Sorry, big man. Aqib, why was this model release a big deal? Aqib Zakaria: It&#8217;s a big deal because now everyone in the US AI community is a little bit afraid. In the past months we were pulling farther and farther ahead from China in terms of model quality and model size. And first it was GLM 5.2 , and now this week Kimi K3 just shattering that illusion. Kimi and China may be closer to a Mythos model than we think. Jordan Schneider: So we have that release coming basically simultaneous to WAIC , the World AI Conference in Shanghai. Xi makes his first appearance, gives a thousand-character-ish speech, which took him 20 minutes to…",
+      "summary": "The ChinaTalk Crew Discusses!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.69,
+          "rationale": [
+            "open source",
+            "weights"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "speech"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
     {
       "id": "989606f1607d565f",
       "date": "2026-07-24",
@@ -144,153 +380,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.44,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "178e016fcef37ab1",
-      "date": "2026-07-24",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "How news organizations are using AI to advance their vital missions",
-      "url": "https://openai.com/index/how-news-organizations-are-using-ai",
-      "publishedAt": "2026-07-22T13:00:00.000Z",
-      "content": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
-      "summary": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "e8305d01609ee783",
-      "date": "2026-07-24",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "🔬Causal Models Need Causal Data - Xaira’s X-Cell model for Drug Discovery (Bo Wang & Ci Chu, Chief Discovery Officer & Chief AI Scientist)",
-      "url": "https://www.latent.space/p/xaira",
-      "publishedAt": "2026-07-21T19:34:06.000Z",
-      "content": "Bet on information If test loss flatlines after 1.5B parameters while training loss continues to drop as you scale, that tells you that your model is limited by the amount of information in your data. Training on a single, smallish data set exposed an information gap: the 3.1B model falls off the scaling trend. Neither parameters nor compute will improve performance past this wall. For predicting changes to gene expression, you need more information rich data . This is what Chu and Bo&#8217;s teams have done, and here is what ~30x the information buys you: Now we can scale with parameters and training compute! We don&#8217;t know how much this effort costed, but we can guess that data collection experiments and infrastructure was a few tens of millions, and compute + headcount + research was a few million. The budget looks like a RL rollout budget, rather than a data rich pre-training one. We were lucky enough to have the two central figures in this story on our podcast. Taking the lead from Ci Chu and Bo Wang, Xaira Therapeutics is betting that information rich data is the key to AI-driven drug development. Chu was recently promoted to Chief Discovery Officer and Bo to Chief AI Scientist 1 , underscoring just how strategic Xaira considers this bet. Reverse engineering the human cell If you had to figure out how a human cell works, what would you do? A good place to start might be by documenting what genes are expressed (e.g. what RNA is floating around) in different kinds of cells, in different circumstances. That is CELLxGENE , a database of 168M cells built by Chan Zuckerberg Institute that maps each cell to a count of how many times 20K-30K genes were detected in that cell, plus detailed metadata about every cell . A ~4 trillion-entry matrix. If the Protein Data Bank (PDB) unlocked structural biology models ( Boltz Episode , ESM/BioHub Episode ), CELLxGENE has done the same thing for Virtual Cell models. Like PDB, CELLxGENE has inspired a zoo of AI models of RN…",
-      "summary": "Xaira Therapeutics is all in on data generation for model building! We talk with Bo Wang and Ci Chu about how and why.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "9cc6317f477bf1e5",
-      "date": "2026-07-24",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Kimi and Xi",
-      "url": "https://www.chinatalk.media/p/kimi-k3-and-xis-ai-speech",
-      "publishedAt": "2026-07-23T10:02:47.000Z",
-      "content": "Kimi K3 dropped this week, and days later Xi Jinping gave his most substantive speech on AI yet at the World AI Conference in Shanghai. The full ChinaTalk squad convened for an emergency pod on what a Chinese Mythos-class model would mean, and whether Beijing has any mechanism to catch one before it ships open-weight. Irene Zhang, Aqib Zakaria, and Lily Ottinger are ChinaTalk staff writers and co-authors of our recent scenario analysis on Chinese AI governance. We discuss&#8230; Whether Xi&#8217;s WAIC speech commitment to open source will hold, or if it&#8217;s just another Davos address Why Xi shouted out the salt and iron debates of 81 BC for AI today Three scenarios for Chinese AI governance &#8212; Let It Rip, China&#8217;s Glasswing, and full nationalization &#8212; and why the Chinese models themselves bet on the black box Whether open weights kill the business model for everyone, and why compute ratios may matter more than the capability gap Listen now on your favorite podcast app . A Big Week for China AI Jordan Schneider: A big week for China AI news. We had Kimi K3 drop, and Xi giving his biggest speech on AI yet. To discuss, we have the full ChinaTalk squad in attendance for this emergency podcast: Irene Zhang, Aqib Zakaria, as well as Lily Ottinger. After much debate, we&#8217;ve decided to start with Kimi instead of Xi. Sorry, big man. Aqib, why was this model release a big deal? Aqib Zakaria: It&#8217;s a big deal because now everyone in the US AI community is a little bit afraid. In the past months we were pulling farther and farther ahead from China in terms of model quality and model size. And first it was GLM 5.2 , and now this week Kimi K3 just shattering that illusion. Kimi and China may be closer to a Mythos model than we think. Jordan Schneider: So we have that release coming basically simultaneous to WAIC , the World AI Conference in Shanghai. Xi makes his first appearance, gives a thousand-character-ish speech, which took him 20 minutes to…",
-      "summary": "The ChinaTalk Crew Discusses!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.69,
-          "rationale": [
-            "open source",
-            "weights"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "voice",
-          "label": "Voice",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "speech"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -2162,96 +2251,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.51,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "6f15e7a0ccc2962a",
-      "date": "2026-07-12",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:adityaag",
-      "builderOrOrg": "Aditya Agarwal",
-      "title": "Halfs --> Quarters Freeflow --> VAR Player and Coach Reviews --> Coming Soon The World Cup 2048…",
-      "url": "https://x.com/adityaag/status/2076084443920683119",
-      "publishedAt": "2026-07-11T23:21:17.000Z",
-      "content": "Halfs --> Quarters Freeflow --> VAR Player and Coach Reviews --> Coming Soon The World Cup 2048 will be brought to you by FIFA-NFL.",
-      "summary": "Halfs --> Quarters Freeflow --> VAR Player and Coach Reviews --> Coming Soon The World Cup 2048 will be brought to you by FIFA-NFL.",
-      "regionTags": [],
-      "metrics": {
-        "likes": 7,
-        "retweets": 0,
-        "replies": 0
-      },
-      "topics": [
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.57,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "0b95c18597457147",
-      "date": "2026-07-12",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "The MAD Podcast with Matt Turck",
-      "sourceKey": "podcast:The MAD Podcast with Matt Turck",
-      "builderOrOrg": "The MAD Podcast with Matt Turck",
-      "title": "Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay",
-      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
-      "publishedAt": "2026-07-09T11:30:01.000Z",
-      "content": "Speaker 1 | 00:00 - 00:17 Fraudsters have figured out that in AI, you actually don't really need to steal money or credentials. You can just steal tokens. And the scale of this actually shocked me when I looked at the data. So more than one in six signups at AI companies are this kind of abuse. Whatever. Speaker 1 | 00:17 - 00:41 The dine and dash, but it's for token. When I go and ask my friends and family whether they'd be comfortable letting an agent buy things on their behalf, they usually jump straight to like, well, is it gonna overspend, and is it gonna buy the wrong thing, and can I stop it? And those are actually all legitimate concerns. And it's not Emily permissioning an agent to buy on her behalf. It's Emily has an agent who's tasked with running a business, and that includes buying some things and selling some things and making some profits. Speaker 1 | 00:41 - 00:45 And that'll be the world that I would like to be talking about twelve months from now. Speaker 2 | 00:45 - 00:58 Hi. I'm Matt Turk. Welcome back to the Matt podcast. Today, I'm excited to be joined again by Emily Sense, head of data and AI at Stripe. The rise of agentic commerce has only accelerated since Emily and I talked about it last year. Speaker 2 | 00:58 - 01:40 And in this conversation, we go deep on the economic stack for AI agents, how agents buy and sell on your behalf, why per seat pricing is breaking, token monetization, token theft, which Emily calls the most under discussed topic in all of AI, and finally, whether agents may eventually run entire businesses on their own. Please enjoy my conversation with the always excellent Emily Sense. All right, so welcome back. You and I chatted about a year ago and the theme of the discussion we had was all about the rise of organic commerce. Keeping in mind that obviously this is a long term trend that's going to take a while to play out. Speaker 2 | 01:40 - 01:49 I'm curious about what you've observed over the last twelve months. What has become reality and what is yet to be built? Speaker 1 | 01:49 - 02:14 Yeah. I mean, a year ago, we were talking about agents as buyers in a pretty hypothetical way. I think that the canonical experiences, the consumer experiences, for example, weren't defined. We were largely reasoning kind of from first principles about what this might look like. Fast forward a year, as you know, like, still early innings, still a lot to do, but we have actual infrastructure deployed. Speaker 1 | 02:14 - 02:37 We have real companies building on it. We have real patterns to learn from. And to be clear, like, the the shape of how this unfolds has become more clear and it's going to continue to evolve. So specifically, what we've come to believe is there's a full spectrum of how agentic commerce plays out. And that's actually really important for businesses in how they think about it. Speaker 1 | 02:37 - 03:08 So at one end, and this is where our machine payments protocol lives, but basically, have agents that are out autonomously discovering a service and deciding to buy it and handling the transactions, like, on their own. Right? Like, no human in the loop. And that's maybe what people think of when they say agent ecommerce, but that's just one end of the spectrum. There's also the whole other end of the spectrum where, like, people are looking for shoes for flat footed runners inside an AI surface, And the AI surface gives you an answer. Speaker 1 | 03:08 - 03:33 And increasingly, you know, that was true also in sort of traditional search, but now increasingly that answer comes with a buy button. And so, you know, this is already how a huge number of people are discovering products. If you're a business, you need to show up there. And we've been building the infrastructure to make it, a, easy for businesses to show up and, b, easy for agents, to execute those those transactions. So, you asked about sort of what's become more concrete. Speaker 1 | 03:33 - 03:59 We recently part…",
-      "summary": "Speaker 1 | 00:00 - 00:17 Fraudsters have figured out that in AI, you actually don't really need to steal money or credentials. You can just steal tokens. And the scale of this actually shocked me when I looked at the data. So more than on…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.81,
-          "rationale": [
-            "agent",
-            "agentic",
-            "autonomous"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "reasoning",
-          "label": "AI Thinking",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "reasoning"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
       "whyThisMatters": ""
     }
   ]
