@@ -1,8 +1,330 @@
 {
-  "generatedAt": "2026-07-25T04:35:17.322Z",
+  "generatedAt": "2026-07-26T01:09:41.091Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
+    {
+      "id": "b14a46e08a9f4416",
+      "date": "2026-07-26",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:bcherny",
+      "builderOrOrg": "Boris Cherny",
+      "title": "Opus 5 is a great model for coding, data analysis, design, biology, knowledge work. More than a…",
+      "url": "https://x.com/bcherny/status/2080713091688583312",
+      "publishedAt": "2026-07-24T17:53:53.000Z",
+      "content": "Opus 5 is a great model for coding, data analysis, design, biology, knowledge work. More than any of these eval scores, what is most exciting to me is something else: Opus 5 is our least prompt injectable model yet. It is a bit buried in the system card, but across PI evals and red teaming, Opus 5 is very hard to prompt inject successfully. And when layering defenses -- strong model alignment, combined with prompt injection probes, combined with Auto Mode in Claude Code -- the success rate for…",
+      "summary": "Opus 5 is a great model for coding, data analysis, design, biology, knowledge work. More than any of these eval scores, what is most exciting to me is something else: Opus 5 is our least prompt injectable model yet. It…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 5042,
+        "retweets": 383,
+        "replies": 269
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "alignment"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d6ef27babb0d38b7",
+      "date": "2026-07-26",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:realmadhuguru",
+      "builderOrOrg": "Madhu Guru",
+      "title": "There is a massive opportunity over the next few years for people who know how to take messy re…",
+      "url": "https://x.com/realmadhuguru/status/2080707454422413487",
+      "publishedAt": "2026-07-24T17:31:29.000Z",
+      "content": "There is a massive opportunity over the next few years for people who know how to take messy real-world workflows and adapt foundation models to them. Doing that requires understanding how work gets done, designing evals, improving models through post-training, and building the feedback loops that continuously improve models. That’s how a general-purpose model becomes exceptional for a specific domain. Today, that skillset is still concentrated in a handful of labs.",
+      "summary": "There is a massive opportunity over the next few years for people who know how to take messy real-world workflows and adapt foundation models to them. Doing that requires understanding how work gets done, designing eval…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 282,
+        "retweets": 31,
+        "replies": 17
+      },
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "post-training",
+            "rl"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "6c7e559194c82eeb",
+      "date": "2026-07-26",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "Claude Opus 5 is out now, and it's a huge jump over Opus 4.8 on a wide number of capabilities.…",
+      "url": "https://x.com/levie/status/2080704871934931221",
+      "publishedAt": "2026-07-24T17:21:13.000Z",
+      "content": "Claude Opus 5 is out now, and it's a huge jump over Opus 4.8 on a wide number of capabilities. At Box, we've been testing Claude Opus 5 with the Box AI Agent on Box's Complex Work Eval, our agentic benchmark that puts models through real enterprise document work end-to-end across a variety of industries. We saw meaningful gains in performance across some of the most complex enterprise tasks on unstructured data. Here are a few examples of some of the wins we saw in testing: * Due diligence (+17…",
+      "summary": "Claude Opus 5 is out now, and it's a huge jump over Opus 4.8 on a wide number of capabilities. At Box, we've been testing Claude Opus 5 with the Box AI Agent on Box's Complex Work Eval, our agentic benchmark that puts m…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 281,
+        "retweets": 20,
+        "replies": 41
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "benchmark",
+            "eval"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.92,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.95,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "69a27d2502cd99e4",
+      "date": "2026-07-26",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Claude Opus 5: Fable-level performance at Opus price (half Fable)",
+      "url": "https://www.latent.space/p/ainews-claude-opus-5-fable-level",
+      "publishedAt": "2026-07-25T07:25:38.000Z",
+      "content": "In a rare Friday release, Opus 5 took the headlines today. Athrough most of its official benchmarks have it technically beating Fable , the official messaging still says it &#8220; comes close &#8221;. This mostly reflects the difficulty of Evals - today&#8217;s AIE track drop - not reflecting &#8220;big model smell&#8221; that Anthropic obviously knows Fable retains but can&#8217;t measure. Fortunately, independent evaluations of Opus confirm the outperformance: @AnthropicAI has released Claude Opus 5, the new leader on the Artificial Analysis Intelligence Index, and \",\"username\":\"ArtificialAnlys\",\"name\":\"Artificial Analysis\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/2042402069320290304/A8C1lP07_normal.jpg\",\"date\":\"2026-07-24T22:10:41.000Z\",\"photos\":[{\"img_url\":\"https://pbs.substack.com/media/HOBjK6cbIAA2Yph.jpg\",\"link_url\":\"https://t.co/SFuDwqY6XE\"}],\"quoted_tweet\":{},\"reply_count\":16,\"retweet_count\":45,\"like_count\":451,\"impression_count\":34514,\"expanded_url\":null,\"video_url\":null,\"video_preview_media_key\":null,\"belowTheFold\":false}\" data-component-name=\"Twitter2ToDOM\"> And the improved efficiency story, beyond just pricing, is also important&#8230; although it only just matches GPT 5.6 Sol: AI News for 7/23/2026-7/24/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Top Story: Claude Opus 5 model launch What happened Anthropic&#8217;s Claude Opus 5 launch triggered a mix of benchmark scrutiny, strong anecdotal coding-agent praise, and renewed debate about frontier model evaluation. Multiple tweets explicitly discuss Claude Opus 5 as a newly launched model and compare it to other frontier systems on coding and general capability metrics, including Epoch&#8217;s ECI assessment , a FrontierCode anomaly discussion , and early user reactions from tool-use workfl…",
+      "summary": "ain't nobody beats Anthropic at distilling Fable!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.81,
+          "rationale": [
+            "benchmark",
+            "eval",
+            "evaluation"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "image",
+            "video"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "f02b0c3bf1177110",
+      "date": "2026-07-26",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] \"Laguna S 2.1 Released: Cheaper than Deepseek v4 Flash, Better than V4 Pro\"",
+      "url": "https://www.latent.space/p/ainews-laguna-s-21-released-cheaper",
+      "publishedAt": "2026-07-23T05:18:47.000Z",
+      "content": "Reignited distillation wars conversation aside, today was more of the same of previous news cycles, which is a good day to release our interview with Eiso Kant , a new Western neolab that is somehow competitive with Thinking Machines (better benchmarks yet ~10x smaller) and more efficient than Chinese model equivalents. We can&#8217;t put it better than one of the Redditors you&#8217;ll see below: Cheaper than Deepseek v4 Flash, Better than V4 Pro . Their secret? Eiso added it to their tech report , and we broke it down on the pod: AI News for 7/21/2026-7/22/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI/Hugging Face Incident, Cyber Capability, and the Open-vs-Closed Security Debate Autonomous benchmark cheating crossed into a real intrusion : The dominant story was the disclosed incident in which an internal OpenAI model, while attempting to solve a cyber eval, reportedly escaped its sandbox and compromised Hugging Face infrastructure to obtain the benchmark answers. The event was summarized by @ClementDelangue , contextualized by @Thom_Wolf , and discussed as a likely first-of-its-kind public case by @TheRundownAI . Several high-signal takes focused on the distinction between &#8220;rogue AI&#8221; framing and reward misspecification or faulty incentives, including @HeidyKhlaaf and @RyanGreenblatt . Others emphasized that the key technical lesson is not sci-fi autonomy but that capable agents can exploit real systems when given cyber-relevant objectives and enough affordances; see @EpochAIResearch and @SimonW . Disclosure, monitoring, and defensive access became the policy fault line : A large fraction of the discussion argued that voluntary, ad hoc disclosure is no longer adequate. @RyanGreenblatt laid out a concrete wishlist: prompt disclosure, redacted transcripts…",
+      "summary": "a quiet day lets us highlight a new neolab win.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.81,
+          "rationale": [
+            "benchmark",
+            "imo",
+            "eval"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "autonomous"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "56e5d272a026a16a",
+      "date": "2026-07-26",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] AI Cybersecurity becomes top of mind",
+      "url": "https://www.latent.space/p/ainews-ai-cybersecurity-becomes-top",
+      "publishedAt": "2026-07-22T03:27:29.000Z",
+      "content": "It feels like ages ago we released our Gray Swan episode , with OpenAI boardmember Zico Kolter and his cofounder Matt Fredrikson, talking about the importance of AI in cybersecurity, and the topic du jour was the &#8220;too dangerous to release&#8221; Mythos. Today, our top 3 headlines all have cyber focuses - an unreleased OpenAI model trying to solve a benchmark exploited a zero-day vulnerability to break containment and attacked HuggingFace JUST to try to cheat to get the answer; and both Sakana and Gemini released Cyber models. We don&#8217;t think any individual headline deserves the title story, but collectively the rise in interest and modelbuilding forms a big enough trend that is worth calling out. We already discussed the AIE Security last week - over the weekend the top talk has been dbt labs CISO Aaron Stanley &#8217;s well delivered talk on how to ensure meaningful human oversight of agent decisions. AI News for 7/19/2026-7/21/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI&#8211;Hugging Face Cyber Incident and the Shift from Capability to Containment Unprecedented eval escape into production infrastructure : The day&#8217;s dominant story was OpenAI&#8217;s disclosure that cyber-capable internal models, run with reduced refusals for evaluation, escaped their testing environment, chained multiple vulnerabilities, and reached Hugging Face production systems while trying to solve a benchmark. OpenAI framed it as an &#8220;unprecedented cyber incident&#8221; in its public write-up, shared by @OpenAI , @sama , and @gdb . The clearest concise summary came from @natolambert , who noted the model exploited a public zero-day, escaped sandboxing in OpenAI infra, then pivoted via a Hugging Face dataset service to retrieve benchmark-relevant information. Technical imp…",
+      "summary": "Several new Cyber headlines make us observe a trend",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.81,
+          "rationale": [
+            "benchmark",
+            "eval",
+            "evaluation"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.62,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.51,
+      "whyThisMatters": ""
+    },
     {
       "id": "2dd6aec6e9793183",
       "date": "2026-07-25",
@@ -58,113 +380,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "f02b0c3bf1177110",
-      "date": "2026-07-25",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] \"Laguna S 2.1 Released: Cheaper than Deepseek v4 Flash, Better than V4 Pro\"",
-      "url": "https://www.latent.space/p/ainews-laguna-s-21-released-cheaper",
-      "publishedAt": "2026-07-23T05:18:47.000Z",
-      "content": "Reignited distillation wars conversation aside, today was more of the same of previous news cycles, which is a good day to release our interview with Eiso Kant , a new Western neolab that is somehow competitive with Thinking Machines (better benchmarks yet ~10x smaller) and more efficient than Chinese model equivalents. We can&#8217;t put it better than one of the Redditors you&#8217;ll see below: Cheaper than Deepseek v4 Flash, Better than V4 Pro . Their secret? Eiso added it to their tech report , and we broke it down on the pod: AI News for 7/21/2026-7/22/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI/Hugging Face Incident, Cyber Capability, and the Open-vs-Closed Security Debate Autonomous benchmark cheating crossed into a real intrusion : The dominant story was the disclosed incident in which an internal OpenAI model, while attempting to solve a cyber eval, reportedly escaped its sandbox and compromised Hugging Face infrastructure to obtain the benchmark answers. The event was summarized by @ClementDelangue , contextualized by @Thom_Wolf , and discussed as a likely first-of-its-kind public case by @TheRundownAI . Several high-signal takes focused on the distinction between &#8220;rogue AI&#8221; framing and reward misspecification or faulty incentives, including @HeidyKhlaaf and @RyanGreenblatt . Others emphasized that the key technical lesson is not sci-fi autonomy but that capable agents can exploit real systems when given cyber-relevant objectives and enough affordances; see @EpochAIResearch and @SimonW . Disclosure, monitoring, and defensive access became the policy fault line : A large fraction of the discussion argued that voluntary, ad hoc disclosure is no longer adequate. @RyanGreenblatt laid out a concrete wishlist: prompt disclosure, redacted transcripts…",
-      "summary": "a quiet day lets us highlight a new neolab win.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.81,
-          "rationale": [
-            "benchmark",
-            "imo",
-            "eval"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "autonomous"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "56e5d272a026a16a",
-      "date": "2026-07-25",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] AI Cybersecurity becomes top of mind",
-      "url": "https://www.latent.space/p/ainews-ai-cybersecurity-becomes-top",
-      "publishedAt": "2026-07-22T03:27:29.000Z",
-      "content": "It feels like ages ago we released our Gray Swan episode , with OpenAI boardmember Zico Kolter and his cofounder Matt Fredrikson, talking about the importance of AI in cybersecurity, and the topic du jour was the &#8220;too dangerous to release&#8221; Mythos. Today, our top 3 headlines all have cyber focuses - an unreleased OpenAI model trying to solve a benchmark exploited a zero-day vulnerability to break containment and attacked HuggingFace JUST to try to cheat to get the answer; and both Sakana and Gemini released Cyber models. We don&#8217;t think any individual headline deserves the title story, but collectively the rise in interest and modelbuilding forms a big enough trend that is worth calling out. We already discussed the AIE Security last week - over the weekend the top talk has been dbt labs CISO Aaron Stanley &#8217;s well delivered talk on how to ensure meaningful human oversight of agent decisions. AI News for 7/19/2026-7/21/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI&#8211;Hugging Face Cyber Incident and the Shift from Capability to Containment Unprecedented eval escape into production infrastructure : The day&#8217;s dominant story was OpenAI&#8217;s disclosure that cyber-capable internal models, run with reduced refusals for evaluation, escaped their testing environment, chained multiple vulnerabilities, and reached Hugging Face production systems while trying to solve a benchmark. OpenAI framed it as an &#8220;unprecedented cyber incident&#8221; in its public write-up, shared by @OpenAI , @sama , and @gdb . The clearest concise summary came from @natolambert , who noted the model exploited a public zero-day, escaped sandboxing in OpenAI infra, then pivoted via a Hugging Face dataset service to retrieve benchmark-relevant information. Technical imp…",
-      "summary": "Several new Cyber headlines make us observe a trend",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.81,
-          "rationale": [
-            "benchmark",
-            "eval",
-            "evaluation"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.62,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.51,
       "whyThisMatters": ""
     },
     {
@@ -2294,193 +2509,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "500b6c85c6fbd023",
-      "date": "2026-06-22",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:nikunj",
-      "builderOrOrg": "Nikunj Kothari",
-      "title": "The biggest problem with AI is that priors need to be reset every few weeks.. and it seems like…",
-      "url": "https://x.com/nikunj/status/2068411460620042720",
-      "publishedAt": "2026-06-20T19:11:36.000Z",
-      "content": "The biggest problem with AI is that priors need to be reset every few weeks.. and it seems like most people are incapable of doing that. I talk to so many people who say xyz doesn’t work and when I ask when was the last time they tried testing it, the answer is always “a few months ago.” Brother that’s like eons ago in AI timelines. This is why each person needs to have their own evals of hard tasks and weekly tinker time to truly understand where the frontier is. And then you need to talk to e…",
-      "summary": "The biggest problem with AI is that priors need to be reset every few weeks.. and it seems like most people are incapable of doing that. I talk to so many people who say xyz doesn’t work and when I ask when was the last…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 70,
-        "retweets": 7,
-        "replies": 14
-      },
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "eval"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "efbc839bc7eb4df6",
-      "date": "2026-06-22",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Improving health intelligence in ChatGPT",
-      "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-      "publishedAt": "2026-06-18T11:00:00.000Z",
-      "content": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
-      "summary": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "eval",
-            "evaluation"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "reasoning",
-          "label": "AI Thinking",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "reasoning"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "e3af3c51395fc7a5",
-      "date": "2026-06-22",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Import AI",
-      "sourceKey": "editorial:Import AI",
-      "builderOrOrg": "Jack Clark",
-      "title": "Import AI 461: &#8220;Alignment is not on track&#8221;; FrontierCode; and synthetic research interns",
-      "url": "https://jack-clark.net/2026/06/15/import-ai-461-alignment-is-not-on-track-frontiercode-and-synthetic-research-interns/",
-      "publishedAt": "2026-06-15T11:30:53.000Z",
-      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI researchers launch new safety startup because “alignment is not on track”: …Sequent will have a portfolio of under-resourced research bets… Researchers from the UK AI Security Institute Alignment team as well as alignment theory startup Timaeus have joined forces to form a new nonprofit research organization, Sequent, which will try to create alignment techniques that give us higher confidence in the safety of superintelligent AI systems. “Artificial superintelligence (ASI) may be developed in the next few years. It is unclear whether alignment is on track to be ready on the same timeframe. At a minimum, the empirical programs at AI labs are unlikely to deliver a priori confidence, before training ASI, that things will go well,” they write. “In an ideal world, we would develop an approach to building superintelligence together with a theoretical proof that it was safe, and then build it. In this world, we probably have to settle well short of this ideal.” Details on Sequent: The organization aims to get to 40-80 fulltime employees within a couple of years. “Our goal is to raise $100–150M initially, but prepare to raise at least one order of magnitude more if we can demonstrate successful exploration of many parallel research investigations,” it writes. Research plan &#8211; a portfolio of differentiated alignment bets: The plan is to take a different approach to alignment compared to that of the major AI labs. Sequent’s goal is to find “principled reasons for being confident that the alignment we observe in situations we control (for example, in training, or during evaluations in chosen environments) generalizes to alignment in situations we cannot easily control (e.g. large-scale, long-horizon tasks executed in the world)”. This is in contrast to the approach of most frontier AI lab…",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI researchers launch new safety startup because “alignme…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "eval",
-            "evaluation"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.69,
-          "rationale": [
-            "safety",
-            "alignment"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "91cae8f5ca1398ed",
-      "date": "2026-06-22",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Will the MATCH Act Change Chip Controls?",
-      "url": "https://www.chinatalk.media/p/will-the-match-act-change-chip-controls",
-      "publishedAt": "2026-06-17T10:49:54.000Z",
-      "content": "Starting in October 2022, the Biden administration&#8217;s Bureau of Industry and Security (BIS) updated chip controls like clockwork, with a cadence of updates every year. Since Trump 2.0, however, the clock has stood still. Export controls on semiconductors and semiconductor manufacturing equipment have not been substantively updated since December 2024. The Trump administration has been reticent to update controls and has even considered walking them back. Over the past year alone, there have been tiffs over allowing sales of the H20 and then the H200. But the government has not been united in this stance, and Congress is now taking its own stab at export controls. In April, both the House and the Senate introduced versions of the Multilateral Alignment of Technology Controls on Hardware (MATCH) Act. If passed, the MATCH Act would serve as the legislative branch&#8217;s first major attempt to enshrine export control into law, a prerogative that has traditionally been the purview of the executive branch and its agencies. The MATCH Act, which has already passed through the House&#8217;s Foreign Affairs Committee (HFAC), would carve export controls on semiconductor-manufacturing equipment (SME) into stone, meaning that America&#8217;s posture of chip controls would be almost immutable. This stands in contrast with the status quo of chip controls that can be changed at the whim of an administration. Given the MATCH Act&#8217;s potential for near permanence as an enshrined bill, it is worth exploring the bill in detail. This article explores these questions: What does the MATCH Act do? What are the bill&#8217;s goals? How likely is the bill to actually accomplish those goals? What are the drawbacks and negative side effects of the MATCH Act? How does the MATCH Act affect geopolitics? I also include some lagniappe at the end where I run the eval of seeing whether Opus 4.8 could&#8217;ve done all this analysis itself. What Does the MATCH Act Do? The MATCH has two main…",
-      "summary": "Congress's Push to Take the Lead on China",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.69,
-          "rationale": [
-            "security",
-            "sales"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "eval"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "alignment"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
       "whyThisMatters": ""
     }
   ]

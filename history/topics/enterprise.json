@@ -1,8 +1,533 @@
 {
-  "generatedAt": "2026-07-25T04:35:17.322Z",
+  "generatedAt": "2026-07-26T01:09:41.091Z",
   "slug": "enterprise",
   "label": "Business AI",
   "items": [
+    {
+      "id": "6c7e559194c82eeb",
+      "date": "2026-07-26",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "Claude Opus 5 is out now, and it's a huge jump over Opus 4.8 on a wide number of capabilities.…",
+      "url": "https://x.com/levie/status/2080704871934931221",
+      "publishedAt": "2026-07-24T17:21:13.000Z",
+      "content": "Claude Opus 5 is out now, and it's a huge jump over Opus 4.8 on a wide number of capabilities. At Box, we've been testing Claude Opus 5 with the Box AI Agent on Box's Complex Work Eval, our agentic benchmark that puts models through real enterprise document work end-to-end across a variety of industries. We saw meaningful gains in performance across some of the most complex enterprise tasks on unstructured data. Here are a few examples of some of the wins we saw in testing: * Due diligence (+17…",
+      "summary": "Claude Opus 5 is out now, and it's a huge jump over Opus 4.8 on a wide number of capabilities. At Box, we've been testing Claude Opus 5 with the Box AI Agent on Box's Complex Work Eval, our agentic benchmark that puts m…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 281,
+        "retweets": 20,
+        "replies": 41
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "benchmark",
+            "eval"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.92,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.95,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "9e5875047ae04fd4",
+      "date": "2026-07-26",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:claudeai",
+      "builderOrOrg": "Claude",
+      "title": "Opus 5 is stronger than Opus 4.8 on cybersecurity tasks. But it remains substantially behind My…",
+      "url": "https://x.com/claudeai/status/2080699512205537648",
+      "publishedAt": "2026-07-24T16:59:55.000Z",
+      "content": "Opus 5 is stronger than Opus 4.8 on cybersecurity tasks. But it remains substantially behind Mythos 5 at developing exploits. Its safeguards are designed to allow developers to identify and fix software vulnerabilities, while blocking high-risk uses. https://t.co/ZWeqZv2AO0",
+      "summary": "Opus 5 is stronger than Opus 4.8 on cybersecurity tasks. But it remains substantially behind Mythos 5 at developing exploits. Its safeguards are designed to allow developers to identify and fix software vulnerabilities,…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 2310,
+        "retweets": 89,
+        "replies": 33
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "developer"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.78,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.86,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "f15c2b5cf541ba9f",
+      "date": "2026-07-26",
+      "sourceType": "blog",
+      "sourceGroup": "mirrored",
+      "sourceName": "Anthropic Engineering",
+      "sourceKey": "blog:Anthropic Engineering",
+      "builderOrOrg": "Anthropic Engineering",
+      "title": "How we contain Claude across products",
+      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+      "publishedAt": null,
+      "content": "Twelve months ago, we&#x27;d have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service. Today that level of access is routine, and Anthropic developers are more productive for it. The risk of these deployments has two components: how likely a failure is, and how much damage one could do. Progress on safeguards and model training has steadily driven down the first; the second—the theoretical blast radius—only grows as capabilities and access expand. Yet as agents become capable of doing work that once required a person or even a team, the cost of not deploying grows large enough that the risk-reward calculation tips heavily toward adoption, as long as products can be made safe. The engineering question becomes how to cap the blast radius. When bounds can be placed on the relative damage of an autonomous agent—such as through control over its environment—high-utility capabilities can motivate deployment. Claude Mythos Preview is an example of a model whose blast radius was deemed too high to ship in April 2026. However, we expect broader release of models with similar levels of capability to become appropriate as defenders harden critical systems and safeguards mature—even though some risk will always remain. Model capability is an important factor in the total risk of an agent’s deployment. There are broadly two ways to do this. The first is to supervise the agent’s behavior via a human-in-the-loop. Claude Code previously protected against agents taking unintended actions by asking users for permission at each turn. Theoretically that works, but we’ve found the approach to be fallible. Our telemetry showed users approved roughly 93% of permission prompts. The more approvals a user sees, the less attention they pay to each, becoming over time much less diligent in their supervision. We recently built Claude Code auto mode, which automates safer approvals in order to reduce this approval fatigue. Still, vulnerab…",
+      "summary": "Twelve months ago, we&#x27;d have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service. Today that level of access is routine, and Anthropic developers are more productive for it. Th…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "autonomous"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "developer"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "deployment"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Watchlist",
+      "importanceScore": 0.62,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.51,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "6c1415abf754078d",
+      "date": "2026-07-26",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Introducing OpenAI Presence",
+      "url": "https://openai.com/index/introducing-openai-presence",
+      "publishedAt": "2026-07-22T05:30:00.000Z",
+      "content": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
+      "summary": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "voice"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.8,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.63,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "1e520cde1a48179f",
+      "date": "2026-07-26",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Redeploying Claude Fable 5 \\ Anthropic",
+      "url": "https://www.anthropic.com/news/redeploying-fable-5",
+      "publishedAt": null,
+      "content": "Anthropic is redeploying Claude Fable 5 starting July 1 following the lifting of export controls, with updated cybersecurity safeguards and a new industry jailbreak framework.",
+      "summary": "Anthropic is redeploying Claude Fable 5 starting July 1 following the lifting of export controls, with updated cybersecurity safeguards and a new industry jailbreak framework.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "5b90819afbee9482",
+      "date": "2026-07-26",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "Mistral OCR 4 : SOTA OCR for Document Intelligence",
+      "url": "https://mistral.ai/news/ocr-4/",
+      "publishedAt": null,
+      "content": "Mistral OCR 4 delivers enterprise document AI with 170-language support, bounding boxes, and self-hosted deployment.",
+      "summary": "Mistral OCR 4 delivers enterprise document AI with 170-language support, bounding boxes, and self-hosted deployment.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.69,
+          "rationale": [
+            "enterprise",
+            "deployment"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "155df4c562ef069b",
+      "date": "2026-07-26",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "Introducing Mistral Small 4 | Mistral AI",
+      "url": "https://mistral.ai/news/mistral-small-4/",
+      "publishedAt": null,
+      "content": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
+      "summary": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "autonomous"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "multimodal"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.8,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.63,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "9455baeb371c3f32",
+      "date": "2026-07-26",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Import AI",
+      "sourceKey": "editorial:Import AI",
+      "builderOrOrg": "Jack Clark",
+      "title": "Import AI 465: Open vs closed gaps; Kimi K3; Demis&#8217; big policy plan",
+      "url": "https://jack-clark.net/2026/07/20/import-ai-465-open-vs-closed-gaps-kimi-k3-demis-big-policy-plan/",
+      "publishedAt": "2026-07-20T12:31:45.000Z",
+      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now UK government: Gap between open and closed weight models on cyber is shrinking: …The cyber-eschaton cometh… The UK government’s AI Security Institute (AISI) has analyzed the delta in cybersecurity capabilities between powerful proprietary models and open weight models. The results show that this year, the gap has shrunk. “This is our first public analysis of how far leading open weight models trail the closed cyber frontier,” AISI writes. “Recent open models GLM-5.2 and DeepSeek V4-Pro perform similarly to frontier closed models released 4 to 7 months before them – a narrower gap than the 6 to 10 months we measured through most of 2025.” Specific details: On a set of 70 evals for specific, narrow cyber capabilities, GLM-5.2 is closest to Claude Opus 4.6, which was released 4.3 months earlier, while DeepSeek-V4-Pro sits somewhere between Claude Opus 4.5 and GPT-5 (released in November and August 2025, respectively). “AISI intends to test Kimi K3 on this same basis, once its weights are publicly released,” AISI writes. The gap lengthens a bit for long-horizon cyber ranges, which are tasks that see how well models can chain various capabilities together to complete a full hacking operation. Specifically, on a cyberrange called The Last Ones, “GLM-5.2 reaches as far as Opus 4.5, a model released less than 7 months before it, while DeepSeek’s V4-Pro falls below Sonnet 4.5 (a sub-cyber-frontier model released 7 months before it),” AISI writes. “The gap here is larger than on our narrow cyber tasks”. This, I think, rhymes with the idea that though open weight models can be superficially quite strong, they sometimes lack a bit of the generalization magic juice that distinguishes proprietary models. This is what people in the AI industry call “big model smell”. Why this matters &#8211; the offen…",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now UK government: Gap between open and closed weight models…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "china-models",
+          "label": "Chinese AI",
+          "confidence": 0.69,
+          "rationale": [
+            "deepseek",
+            "kimi"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "weights"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Chinese Models",
+      "importanceScore": 0.63,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.51,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "56e5d272a026a16a",
+      "date": "2026-07-26",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] AI Cybersecurity becomes top of mind",
+      "url": "https://www.latent.space/p/ainews-ai-cybersecurity-becomes-top",
+      "publishedAt": "2026-07-22T03:27:29.000Z",
+      "content": "It feels like ages ago we released our Gray Swan episode , with OpenAI boardmember Zico Kolter and his cofounder Matt Fredrikson, talking about the importance of AI in cybersecurity, and the topic du jour was the &#8220;too dangerous to release&#8221; Mythos. Today, our top 3 headlines all have cyber focuses - an unreleased OpenAI model trying to solve a benchmark exploited a zero-day vulnerability to break containment and attacked HuggingFace JUST to try to cheat to get the answer; and both Sakana and Gemini released Cyber models. We don&#8217;t think any individual headline deserves the title story, but collectively the rise in interest and modelbuilding forms a big enough trend that is worth calling out. We already discussed the AIE Security last week - over the weekend the top talk has been dbt labs CISO Aaron Stanley &#8217;s well delivered talk on how to ensure meaningful human oversight of agent decisions. AI News for 7/19/2026-7/21/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI&#8211;Hugging Face Cyber Incident and the Shift from Capability to Containment Unprecedented eval escape into production infrastructure : The day&#8217;s dominant story was OpenAI&#8217;s disclosure that cyber-capable internal models, run with reduced refusals for evaluation, escaped their testing environment, chained multiple vulnerabilities, and reached Hugging Face production systems while trying to solve a benchmark. OpenAI framed it as an &#8220;unprecedented cyber incident&#8221; in its public write-up, shared by @OpenAI , @sama , and @gdb . The clearest concise summary came from @natolambert , who noted the model exploited a public zero-day, escaped sandboxing in OpenAI infra, then pivoted via a Hugging Face dataset service to retrieve benchmark-relevant information. Technical imp…",
+      "summary": "Several new Cyber headlines make us observe a trend",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.81,
+          "rationale": [
+            "benchmark",
+            "eval",
+            "evaluation"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.62,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.51,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "f9a3778b6f0257af",
+      "date": "2026-07-26",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "WarTalk: Groundhog Day in Iran, Rogue AI, Ukraine",
+      "url": "https://www.chinatalk.media/p/wartalk-groundhog-day-in-iran-rogue",
+      "publishedAt": "2026-07-24T17:10:54.000Z",
+      "content": "Five months into the Iran campaign, the US has two carrier strike groups parked in the Arabian Sea, a blockade that may take months to bite, and a daisy chain of tankers stretching thousands of miles because there is no longer any fuel or food to buy inside the Gulf. Now the Houthis have entered the chat and declared their own blockade of the Bab el-Mandeb. Just the OG crew with Bryan Clark, senior fellow at the Hudson Institute and a former submarine officer, a former special operations officer who works on defense technology, and . We discuss&#8230; What Trump is doing in Iran, why the Navy is short-cycling ships out of maintenance and what happened the last time the fleet ran this hot, from McCain and Fitzgerald to the Truman&#8217;s two collisions in one deployment Why a ground campaign in Iran is a fantasy , from the Marsh Arabs to the Alborz range to the Baluch salt flats, and what Shia militias in Iraq would do to the logistics tail The nuclear-powered cargo ship renaissance and why circumnavigating Africa at 30 knots suddenly pencils out Whether Congress should get an AI kill switch , why DHS is the wrong home for it, and what happens when the boy who cried wolf is finally right Ukraine&#8217;s civ-mil drama Listen now on your favorite podcast app . Iran Bryan Clark: So here we are, Groundhog Day in Iran. Just yesterday the Iranians apparently turned down some ceasefire offer from the United States. Who knows what that offer contained, but the Iranians have decided to refuse it, and the US responded with more strikes. So we&#8217;re continuing to attack targets, increasingly attacking infrastructure and power supplies and water supplies that might be considered civilian, but seem to have maybe some tangential use for the military. And with the IRGC being increasingly enmeshed in the population, it&#8217;s hard to tell what&#8217;s exactly a military target and what&#8217;s a civilian target in Iran . So now we&#8217;ve started another round of strikes. We a…",
+      "summary": "I guess we're doing this again...",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "deployment"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "dcea4542faf5f4d8",
+      "date": "2026-07-26",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Chinese Labs' Latest Product? Roleplay",
+      "url": "https://www.chinatalk.media/p/ai-roleplay-a-deep-dive",
+      "publishedAt": "2026-07-24T10:02:16.000Z",
+      "content": "Beijing&#8217;s regulators are coming for AI boyfriends. When the Cybersecurity Administration&#8217;s regulations on &#8220;human-like interactive AI&#8221; (&#20154;&#24037;&#26234;&#33021;&#25311;&#20154;&#21270;&#20114;&#21160;&#26381;&#21153;) took effect on July 15, China became the world&#8217;s first country to regulate anthropomorphic AI services. The rules ban providers from &#8220;manipulating&#8221; users into emotional dependence, limit minors&#8217; access to some specific provisions, and impose reporting requirements, among other rules. In response, ByteDance and Alibaba have both pulled some anthropomorphic companion offerings from their AI products. Whatever you think of this use case, an incredible number of people now go to AI for various emotional reasons. For users of open-source AI models worldwide, the use case that burned the most tokens last year was not writing code, but roleplay. That&#8217;s according to the 2025 State of Open Models study by OpenRouter, a popular gateway platform for developers to access LLMs, and the venture capital firm Andreessen Horowitz. People are pouring hundreds of thousands of hours into constructing imaginary scenarios with the help of AI models, but the hobby has received little attention. Mainstream reporting on AI and emotions, including a recent New York Times story , has focused on their ethical, social, and cultural impacts generally. Few, however, have tried to interrogate exactly what AI roleplay is, why it is so popular, and how fictional adventures relate to real-life society. The most prominent AI roleplay platform is Bay Area-based Character.AI , but it has ample competition &#8212; including, and perhaps especially, from China. As I will discuss later, even DeepSeek, China&#8217;s superintelligence-obsessed national champion lab, is making some surprising moves in roleplay. Meanwhile, however, government regulators are poised to reign in the space given social concerns. For this piece, I spoke to…",
+      "summary": "Why Deepseek is hiring for feelings",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "code",
+            "developer",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open-source"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
     {
       "id": "c6d213a7f45c42f8",
       "date": "2026-07-25",
@@ -84,375 +609,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.61,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "6c1415abf754078d",
-      "date": "2026-07-25",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Introducing OpenAI Presence",
-      "url": "https://openai.com/index/introducing-openai-presence",
-      "publishedAt": "2026-07-22T05:30:00.000Z",
-      "content": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
-      "summary": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "voice",
-          "label": "Voice",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "voice"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.8,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.63,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "1e520cde1a48179f",
-      "date": "2026-07-25",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Redeploying Claude Fable 5 \\ Anthropic",
-      "url": "https://www.anthropic.com/news/redeploying-fable-5",
-      "publishedAt": null,
-      "content": "Anthropic is redeploying Claude Fable 5 starting July 1 following the lifting of export controls, with updated cybersecurity safeguards and a new industry jailbreak framework.",
-      "summary": "Anthropic is redeploying Claude Fable 5 starting July 1 following the lifting of export controls, with updated cybersecurity safeguards and a new industry jailbreak framework.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "5b90819afbee9482",
-      "date": "2026-07-25",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Mistral AI Blog",
-      "sourceKey": "official:Mistral AI Blog",
-      "builderOrOrg": "Mistral AI",
-      "title": "Mistral OCR 4 : SOTA OCR for Document Intelligence",
-      "url": "https://mistral.ai/news/ocr-4/",
-      "publishedAt": null,
-      "content": "Mistral OCR 4 delivers enterprise document AI with 170-language support, bounding boxes, and self-hosted deployment.",
-      "summary": "Mistral OCR 4 delivers enterprise document AI with 170-language support, bounding boxes, and self-hosted deployment.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.69,
-          "rationale": [
-            "enterprise",
-            "deployment"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "155df4c562ef069b",
-      "date": "2026-07-25",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Mistral AI Blog",
-      "sourceKey": "official:Mistral AI Blog",
-      "builderOrOrg": "Mistral AI",
-      "title": "Introducing Mistral Small 4 | Mistral AI",
-      "url": "https://mistral.ai/news/mistral-small-4/",
-      "publishedAt": null,
-      "content": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
-      "summary": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "autonomous"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "multimodal"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.8,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.63,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "9455baeb371c3f32",
-      "date": "2026-07-25",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Import AI",
-      "sourceKey": "editorial:Import AI",
-      "builderOrOrg": "Jack Clark",
-      "title": "Import AI 465: Open vs closed gaps; Kimi K3; Demis&#8217; big policy plan",
-      "url": "https://jack-clark.net/2026/07/20/import-ai-465-open-vs-closed-gaps-kimi-k3-demis-big-policy-plan/",
-      "publishedAt": "2026-07-20T12:31:45.000Z",
-      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now UK government: Gap between open and closed weight models on cyber is shrinking: …The cyber-eschaton cometh… The UK government’s AI Security Institute (AISI) has analyzed the delta in cybersecurity capabilities between powerful proprietary models and open weight models. The results show that this year, the gap has shrunk. “This is our first public analysis of how far leading open weight models trail the closed cyber frontier,” AISI writes. “Recent open models GLM-5.2 and DeepSeek V4-Pro perform similarly to frontier closed models released 4 to 7 months before them – a narrower gap than the 6 to 10 months we measured through most of 2025.” Specific details: On a set of 70 evals for specific, narrow cyber capabilities, GLM-5.2 is closest to Claude Opus 4.6, which was released 4.3 months earlier, while DeepSeek-V4-Pro sits somewhere between Claude Opus 4.5 and GPT-5 (released in November and August 2025, respectively). “AISI intends to test Kimi K3 on this same basis, once its weights are publicly released,” AISI writes. The gap lengthens a bit for long-horizon cyber ranges, which are tasks that see how well models can chain various capabilities together to complete a full hacking operation. Specifically, on a cyberrange called The Last Ones, “GLM-5.2 reaches as far as Opus 4.5, a model released less than 7 months before it, while DeepSeek’s V4-Pro falls below Sonnet 4.5 (a sub-cyber-frontier model released 7 months before it),” AISI writes. “The gap here is larger than on our narrow cyber tasks”. This, I think, rhymes with the idea that though open weight models can be superficially quite strong, they sometimes lack a bit of the generalization magic juice that distinguishes proprietary models. This is what people in the AI industry call “big model smell”. Why this matters &#8211; the offen…",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now UK government: Gap between open and closed weight models…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "china-models",
-          "label": "Chinese AI",
-          "confidence": 0.69,
-          "rationale": [
-            "deepseek",
-            "kimi"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "weights"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Chinese Models",
-      "importanceScore": 0.63,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.51,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "56e5d272a026a16a",
-      "date": "2026-07-25",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] AI Cybersecurity becomes top of mind",
-      "url": "https://www.latent.space/p/ainews-ai-cybersecurity-becomes-top",
-      "publishedAt": "2026-07-22T03:27:29.000Z",
-      "content": "It feels like ages ago we released our Gray Swan episode , with OpenAI boardmember Zico Kolter and his cofounder Matt Fredrikson, talking about the importance of AI in cybersecurity, and the topic du jour was the &#8220;too dangerous to release&#8221; Mythos. Today, our top 3 headlines all have cyber focuses - an unreleased OpenAI model trying to solve a benchmark exploited a zero-day vulnerability to break containment and attacked HuggingFace JUST to try to cheat to get the answer; and both Sakana and Gemini released Cyber models. We don&#8217;t think any individual headline deserves the title story, but collectively the rise in interest and modelbuilding forms a big enough trend that is worth calling out. We already discussed the AIE Security last week - over the weekend the top talk has been dbt labs CISO Aaron Stanley &#8217;s well delivered talk on how to ensure meaningful human oversight of agent decisions. AI News for 7/19/2026-7/21/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI&#8211;Hugging Face Cyber Incident and the Shift from Capability to Containment Unprecedented eval escape into production infrastructure : The day&#8217;s dominant story was OpenAI&#8217;s disclosure that cyber-capable internal models, run with reduced refusals for evaluation, escaped their testing environment, chained multiple vulnerabilities, and reached Hugging Face production systems while trying to solve a benchmark. OpenAI framed it as an &#8220;unprecedented cyber incident&#8221; in its public write-up, shared by @OpenAI , @sama , and @gdb . The clearest concise summary came from @natolambert , who noted the model exploited a public zero-day, escaped sandboxing in OpenAI infra, then pivoted via a Hugging Face dataset service to retrieve benchmark-relevant information. Technical imp…",
-      "summary": "Several new Cyber headlines make us observe a trend",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.81,
-          "rationale": [
-            "benchmark",
-            "eval",
-            "evaluation"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.62,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.51,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "f9a3778b6f0257af",
-      "date": "2026-07-25",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "WarTalk: Groundhog Day in Iran, Rogue AI, Ukraine",
-      "url": "https://www.chinatalk.media/p/wartalk-groundhog-day-in-iran-rogue",
-      "publishedAt": "2026-07-24T17:10:54.000Z",
-      "content": "Five months into the Iran campaign, the US has two carrier strike groups parked in the Arabian Sea, a blockade that may take months to bite, and a daisy chain of tankers stretching thousands of miles because there is no longer any fuel or food to buy inside the Gulf. Now the Houthis have entered the chat and declared their own blockade of the Bab el-Mandeb. Just the OG crew with Bryan Clark, senior fellow at the Hudson Institute and a former submarine officer, a former special operations officer who works on defense technology, and . We discuss&#8230; What Trump is doing in Iran, why the Navy is short-cycling ships out of maintenance and what happened the last time the fleet ran this hot, from McCain and Fitzgerald to the Truman&#8217;s two collisions in one deployment Why a ground campaign in Iran is a fantasy , from the Marsh Arabs to the Alborz range to the Baluch salt flats, and what Shia militias in Iraq would do to the logistics tail The nuclear-powered cargo ship renaissance and why circumnavigating Africa at 30 knots suddenly pencils out Whether Congress should get an AI kill switch , why DHS is the wrong home for it, and what happens when the boy who cried wolf is finally right Ukraine&#8217;s civ-mil drama Listen now on your favorite podcast app . Iran Bryan Clark: So here we are, Groundhog Day in Iran. Just yesterday the Iranians apparently turned down some ceasefire offer from the United States. Who knows what that offer contained, but the Iranians have decided to refuse it, and the US responded with more strikes. So we&#8217;re continuing to attack targets, increasingly attacking infrastructure and power supplies and water supplies that might be considered civilian, but seem to have maybe some tangential use for the military. And with the IRGC being increasingly enmeshed in the population, it&#8217;s hard to tell what&#8217;s exactly a military target and what&#8217;s a civilian target in Iran . So now we&#8217;ve started another round of strikes. We a…",
-      "summary": "I guess we're doing this again...",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "deployment"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "dcea4542faf5f4d8",
-      "date": "2026-07-25",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Chinese Labs' Latest Product? Roleplay",
-      "url": "https://www.chinatalk.media/p/ai-roleplay-a-deep-dive",
-      "publishedAt": "2026-07-24T10:02:16.000Z",
-      "content": "Beijing&#8217;s regulators are coming for AI boyfriends. When the Cybersecurity Administration&#8217;s regulations on &#8220;human-like interactive AI&#8221; (&#20154;&#24037;&#26234;&#33021;&#25311;&#20154;&#21270;&#20114;&#21160;&#26381;&#21153;) took effect on July 15, China became the world&#8217;s first country to regulate anthropomorphic AI services. The rules ban providers from &#8220;manipulating&#8221; users into emotional dependence, limit minors&#8217; access to some specific provisions, and impose reporting requirements, among other rules. In response, ByteDance and Alibaba have both pulled some anthropomorphic companion offerings from their AI products. Whatever you think of this use case, an incredible number of people now go to AI for various emotional reasons. For users of open-source AI models worldwide, the use case that burned the most tokens last year was not writing code, but roleplay. That&#8217;s according to the 2025 State of Open Models study by OpenRouter, a popular gateway platform for developers to access LLMs, and the venture capital firm Andreessen Horowitz. People are pouring hundreds of thousands of hours into constructing imaginary scenarios with the help of AI models, but the hobby has received little attention. Mainstream reporting on AI and emotions, including a recent New York Times story , has focused on their ethical, social, and cultural impacts generally. Few, however, have tried to interrogate exactly what AI roleplay is, why it is so popular, and how fictional adventures relate to real-life society. The most prominent AI roleplay platform is Bay Area-based Character.AI , but it has ample competition &#8212; including, and perhaps especially, from China. As I will discuss later, even DeepSeek, China&#8217;s superintelligence-obsessed national champion lab, is making some surprising moves in roleplay. Meanwhile, however, government regulators are poised to reign in the space given social concerns. For this piece, I spoke to…",
-      "summary": "Why Deepseek is hiring for feelings",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.81,
-          "rationale": [
-            "code",
-            "developer",
-            "repo"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open-source"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
       "whyThisMatters": ""
     },
     {
@@ -1796,59 +1952,6 @@
       "whyThisMatters": ""
     },
     {
-      "id": "f15c2b5cf541ba9f",
-      "date": "2026-07-18",
-      "sourceType": "blog",
-      "sourceGroup": "mirrored",
-      "sourceName": "Anthropic Engineering",
-      "sourceKey": "blog:Anthropic Engineering",
-      "builderOrOrg": "Anthropic Engineering",
-      "title": "How we contain Claude across products",
-      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
-      "publishedAt": null,
-      "content": "Twelve months ago, we&#x27;d have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service. Today that level of access is routine, and Anthropic developers are more productive for it. The risk of these deployments has two components: how likely a failure is, and how much damage one could do. Progress on safeguards and model training has steadily driven down the first; the second—the theoretical blast radius—only grows as capabilities and access expand. Yet as agents become capable of doing work that once required a person or even a team, the cost of not deploying grows large enough that the risk-reward calculation tips heavily toward adoption, as long as products can be made safe. The engineering question becomes how to cap the blast radius. When bounds can be placed on the relative damage of an autonomous agent—such as through control over its environment—high-utility capabilities can motivate deployment. Claude Mythos Preview is an example of a model whose blast radius was deemed too high to ship in April 2026. However, we expect broader release of models with similar levels of capability to become appropriate as defenders harden critical systems and safeguards mature—even though some risk will always remain. Model capability is an important factor in the total risk of an agent’s deployment. There are broadly two ways to do this. The first is to supervise the agent’s behavior via a human-in-the-loop. Claude Code previously protected against agents taking unintended actions by asking users for permission at each turn. Theoretically that works, but we’ve found the approach to be fallible. Our telemetry showed users approved roughly 93% of permission prompts. The more approvals a user sees, the less attention they pay to each, becoming over time much less diligent in their supervision. We recently built Claude Code auto mode, which automates safer approvals in order to reduce this approval fatigue. Still, vulnerab…",
-      "summary": "Twelve months ago, we&#x27;d have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service. Today that level of access is routine, and Anthropic developers are more productive for it. Th…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "autonomous"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "code",
-            "developer"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "deployment"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Watchlist",
-      "importanceScore": 0.62,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.51,
-      "whyThisMatters": ""
-    },
-    {
       "id": "d121d4e4e27323eb",
       "date": "2026-07-17",
       "sourceType": "x",
@@ -2336,98 +2439,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.7,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4baf7f7dce5cb200",
-      "date": "2026-07-11",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "GPT-5.6 is now out. We've been evaluating the model family on the Box AI Complex Work eval, whi…",
-      "url": "https://x.com/levie/status/2075287443411222628",
-      "publishedAt": "2026-07-09T18:34:18.000Z",
-      "content": "GPT-5.6 is now out. We've been evaluating the model family on the Box AI Complex Work eval, which tests the model with the Box AI Agent on a variety of extremely hard tasks using enterprise document sets. Sol is a big step up from GPT-5.5, especially on complex data-oriented tasks that require deep reasoning and analysis, and the gains concentrate exactly where enterprise work is hardest. Here are a few examples that we saw across our tests: * Financial Services (76% vs 71%): On a multi-year pr…",
-      "summary": "GPT-5.6 is now out. We've been evaluating the model family on the Box AI Complex Work eval, which tests the model with the Box AI Agent on a variety of extremely hard tasks using enterprise document sets. Sol is a big s…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 143,
-        "retweets": 21,
-        "replies": 22
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "reasoning",
-          "label": "AI Thinking",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "reasoning"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.92,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.7,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "efcc74f6f9c6e4bc",
-      "date": "2026-07-11",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:sama",
-      "builderOrOrg": "Sam Altman",
-      "title": "we have heard enterprises on their concerns about AI costs, and 5.6 sol is a huge step forward…",
-      "url": "https://x.com/sama/status/2075267201058426944",
-      "publishedAt": "2026-07-09T17:13:51.000Z",
-      "content": "we have heard enterprises on their concerns about AI costs, and 5.6 sol is a huge step forward for dollars-per-task, as are terra and luna",
-      "summary": "we have heard enterprises on their concerns about AI costs, and 5.6 sol is a huge step forward for dollars-per-task, as are terra and luna",
-      "regionTags": [],
-      "metrics": {
-        "likes": 9371,
-        "retweets": 314,
-        "replies": 545
-      },
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.78,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.61,
       "whyThisMatters": ""
     }
   ]
