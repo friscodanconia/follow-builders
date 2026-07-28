@@ -1,49 +1,55 @@
 {
-  "generatedAt": "2026-07-27T04:58:51.396Z",
+  "generatedAt": "2026-07-28T01:19:18.500Z",
   "slug": "china-models",
   "label": "Chinese AI",
   "items": [
     {
-      "id": "d9cc12015f7f13ac",
-      "date": "2026-07-27",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:realmadhuguru",
-      "builderOrOrg": "Madhu Guru",
-      "title": "In uncharted territory, answers to hard questions only come from repeated contact with reality.…",
-      "url": "https://x.com/realmadhuguru/status/2081141594892415028",
-      "publishedAt": "2026-07-25T22:16:36.000Z",
-      "content": "In uncharted territory, answers to hard questions only come from repeated contact with reality. Been thinking about how quickly the US AI community converged on support for open-weight models. It feels obvious now. It wasn't even a month ago. It took a series of public “experiments” to play out. DeepSeek. Microsoft-OpenAI breakup. GLM. Kimi. Fable. The OpenAI-Hugging Face episode. Each revealed something different about incentives, innovation, geopolitics, and the cards the different players we…",
-      "summary": "In uncharted territory, answers to hard questions only come from repeated contact with reality. Been thinking about how quickly the US AI community converged on support for open-weight models. It feels obvious now. It w…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 33,
-        "retweets": 3,
-        "replies": 4
-      },
+      "id": "59d37099e3ee76e3",
+      "date": "2026-07-28",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "Kimi K3 vs GPT-5.6 Sol on DeepSWE: Cost, Coding, and Routing",
+      "url": "https://www.together.ai/blog/kimi-k3-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing",
+      "publishedAt": "2026-07-26T00:00:00.000Z",
+      "content": "We ran 904 DeepSWE rollouts on Kimi K3 and GPT-5.6 Sol. Sol leads pass@1; Kimi K3 wins pass@4 at 2.8x the solves per dollar, and routing between them reaches ~85.6%.",
+      "summary": "We ran 904 DeepSWE rollouts on Kimi K3 and GPT-5.6 Sol. Sol leads pass@1; Kimi K3 wins pass@4 at 2.8x the solves per dollar, and routing between them reaches ~85.6%.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
       "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        },
         {
           "slug": "china-models",
           "label": "Chinese AI",
-          "confidence": 0.69,
+          "confidence": 0.5700000000000001,
           "rationale": [
-            "deepseek",
             "kimi"
           ],
-          "score": 2
+          "score": 1
         }
       ],
       "section": "Chinese Models",
-      "importanceScore": 0.81,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.63,
+      "importanceScore": 0.73,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.82,
       "whyThisMatters": ""
     },
     {
       "id": "258a397855adab60",
-      "date": "2026-07-27",
+      "date": "2026-07-28",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Together AI Blog",
@@ -83,6 +89,44 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.58,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d9cc12015f7f13ac",
+      "date": "2026-07-27",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:realmadhuguru",
+      "builderOrOrg": "Madhu Guru",
+      "title": "In uncharted territory, answers to hard questions only come from repeated contact with reality.…",
+      "url": "https://x.com/realmadhuguru/status/2081141594892415028",
+      "publishedAt": "2026-07-25T22:16:36.000Z",
+      "content": "In uncharted territory, answers to hard questions only come from repeated contact with reality. Been thinking about how quickly the US AI community converged on support for open-weight models. It feels obvious now. It wasn't even a month ago. It took a series of public “experiments” to play out. DeepSeek. Microsoft-OpenAI breakup. GLM. Kimi. Fable. The OpenAI-Hugging Face episode. Each revealed something different about incentives, innovation, geopolitics, and the cards the different players we…",
+      "summary": "In uncharted territory, answers to hard questions only come from repeated contact with reality. Been thinking about how quickly the US AI community converged on support for open-weight models. It feels obvious now. It w…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 33,
+        "retweets": 3,
+        "replies": 4
+      },
+      "topics": [
+        {
+          "slug": "china-models",
+          "label": "Chinese AI",
+          "confidence": 0.69,
+          "rationale": [
+            "deepseek",
+            "kimi"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Chinese Models",
+      "importanceScore": 0.81,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.63,
       "whyThisMatters": ""
     },
     {
