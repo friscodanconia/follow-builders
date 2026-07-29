@@ -1,10 +1,120 @@
 {
-  "generatedAt": "2026-07-28T04:32:15.958Z",
+  "generatedAt": "2026-07-29T00:54:41.339Z",
   "handle": "rauchg",
   "name": "Guillermo Rauch",
   "itemCount": 50,
-  "latestDate": "2026-07-28",
+  "latestDate": "2026-07-29",
   "items": [
+    {
+      "id": "d2a7340d42ebb9a8",
+      "date": "2026-07-29",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "In our latest https://t.co/p9AoezbuGt benchmarks, Grok 4.5 has emerged as the best cybersecurit…",
+      "url": "https://x.com/rauchg/status/2081852481517318560",
+      "publishedAt": "2026-07-27T21:21:25.000Z",
+      "content": "In our latest https://t.co/p9AoezbuGt benchmarks, Grok 4.5 has emerged as the best cybersecurity AI model on price-performance. It's 10x cheaper than Sol, 5.7x cheaper than Opus 5, and 2.2x cheaper than Kimi K3, yet at Kimi-like perf. Sol remains the frontier, ahead of Opus 5. https://t.co/kcSDIqnXsN",
+      "summary": "In our latest https://t.co/p9AoezbuGt benchmarks, Grok 4.5 has emerged as the best cybersecurity AI model on price-performance. It's 10x cheaper than Sol, 5.7x cheaper than Opus 5, and 2.2x cheaper than Kimi K3, yet at…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 622,
+        "retweets": 40,
+        "replies": 46
+      },
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "benchmark"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.78,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.86,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "e4da9b0b3eacf4c1",
+      "date": "2026-07-29",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "Kimi's paper underlines the importance of the right security boundary for agents to run in. tl:…",
+      "url": "https://x.com/rauchg/status/2081842439304995169",
+      "publishedAt": "2026-07-27T20:41:30.000Z",
+      "content": "Kimi's paper underlines the importance of the right security boundary for agents to run in. tl:DR: container-level isolation is not enough. In their experiments, agents crashed the underlying machine (via kernel panics). Firecracker microVMs (as in Vercel Sandbox) are safe. https://t.co/wvbdBo5Ng8 https://t.co/OFCWYaiKw7",
+      "summary": "Kimi's paper underlines the importance of the right security boundary for agents to run in. tl:DR: container-level isolation is not enough. In their experiments, agents crashed the underlying machine (via kernel panics)…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 295,
+        "retweets": 22,
+        "replies": 36
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "paper"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.92,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.95,
+      "whyThisMatters": ""
+    },
     {
       "id": "557271364e14efaf",
       "date": "2026-07-28",
@@ -2256,89 +2366,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.61,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "829811cde314dda0",
-      "date": "2026-07-04",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:rauchg",
-      "builderOrOrg": "Guillermo Rauch",
-      "title": "We've been explaining AI Gateway as a C̶o̶n̶t̶e̶n̶t̶ Token Delivery Network. Like a CDN for AI…",
-      "url": "https://x.com/rauchg/status/2072741369848746315",
-      "publishedAt": "2026-07-02T17:57:06.000Z",
-      "content": "We've been explaining AI Gateway as a C̶o̶n̶t̶e̶n̶t̶ Token Delivery Network. Like a CDN for AI models. One great feature of CDNs is the ability to dynamically re-route or deny traffic without redeployment. When Fable was suddenly retired, we worried about production workloads depending on it. Even Fable aside, models get retired quite often as GPU capacity is heavily contested. Yet our data shows people still having happy production traffic of older model versions! We're solving this now with A…",
-      "summary": "We've been explaining AI Gateway as a C̶o̶n̶t̶e̶n̶t̶ Token Delivery Network. Like a CDN for AI models. One great feature of CDNs is the ability to dynamically re-route or deny traffic without redeployment. When Fable wa…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 234,
-        "retweets": 14,
-        "replies": 34
-      },
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "deployment"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.78,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.61,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "8af1304d8dce071f",
-      "date": "2026-07-04",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:rauchg",
-      "builderOrOrg": "Guillermo Rauch",
-      "title": "Private connectivity between services is 🔑 for backends. 1️⃣ Register 𝚋𝚒𝚗𝚍𝚒𝚗𝚐𝚜 in 𝚟𝚎…",
-      "url": "https://x.com/rauchg/status/2072715658157027375",
-      "publishedAt": "2026-07-02T16:14:56.000Z",
-      "content": "Private connectivity between services is 🔑 for backends. 1️⃣ Register 𝚋𝚒𝚗𝚍𝚒𝚗𝚐𝚜 in 𝚟𝚎𝚛𝚌𝚎𝚕.𝚓𝚜𝚘𝚗 (1LOC) 2️⃣ Read it: 𝚗𝚎𝚠 𝚄𝚁𝙻(\"/𝚊𝚙𝚒\", 𝚙𝚛𝚘𝚌𝚎𝚜𝚜.𝚎𝚗𝚟.𝙱𝙰𝙲𝙺𝙴𝙽𝙳_𝙸𝙽𝚃𝙴𝚁𝙽𝙰𝙻_𝚄𝚁𝙻) Works for Node, Python, 𝙳𝚘𝚌𝚔𝚎𝚛𝚏𝚒𝚕𝚎… you name it https://t.co/sS83Z486Ki",
-      "summary": "Private connectivity between services is 🔑 for backends. 1️⃣ Register 𝚋𝚒𝚗𝚍𝚒𝚗𝚐𝚜 in 𝚟𝚎𝚛𝚌𝚎𝚕.𝚓𝚜𝚘𝚗 (1LOC) 2️⃣ Read it: 𝚗𝚎𝚠 𝚄𝚁𝙻(\"/𝚊𝚙𝚒\", 𝚙𝚛𝚘𝚌𝚎𝚜𝚜.𝚎𝚗𝚟.𝙱𝙰𝙲𝙺𝙴𝙽𝙳_𝙸𝙽𝚃𝙴𝚁𝙽𝙰𝙻_𝚄𝚁𝙻)…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 279,
-        "retweets": 6,
-        "replies": 15
-      },
-      "topics": [
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]

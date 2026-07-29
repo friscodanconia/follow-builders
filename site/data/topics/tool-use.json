@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-28T04:32:15.958Z",
+  "generatedAt": "2026-07-29T00:54:41.339Z",
   "slug": "tool-use",
   "label": "AI Using Tools",
   "items": [
     {
       "id": "178e016fcef37ab1",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
@@ -54,6 +54,50 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c26e08ad552cacee",
+      "date": "2026-07-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google AI Blog",
+      "sourceKey": "official:Google AI Blog",
+      "builderOrOrg": "Google",
+      "title": "5 ways AI Mode in Search helps you enjoy the real world",
+      "url": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
+      "publishedAt": "2026-07-28T13:00:00.000Z",
+      "content": "It might sound counterintuitive, but Search's AI tools can actually help you make the most of your time offline whether you want to book concert tickets or find the perf…",
+      "summary": "It might sound counterintuitive, but Search's AI tools can actually help you make the most of your time offline whether you want to book concert tickets or find the perf…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
       "whyThisMatters": ""
     },
     {
@@ -2372,43 +2416,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.5,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a9f4594cc58cfab8",
-      "date": "2026-06-11",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "This is a critical post to read if you’re building an applied AI company right now. “An applica…",
-      "url": "https://x.com/levie/status/2064569513023328268",
-      "publishedAt": "2026-06-10T04:45:04.000Z",
-      "content": "This is a critical post to read if you’re building an applied AI company right now. “An application earns its place in the untrainable corner by doing unglamorous work: arranging a company's private reality so a model can act on it, handing the model the tools to act, working with the customer to change the reality of its workforce. A company that brings the translation is tough to copy – and the translation never ends. Integration and maintenance run as long as the relationship does, won by te…",
-      "summary": "This is a critical post to read if you’re building an applied AI company right now. “An application earns its place in the untrainable corner by doing unglamorous work: arranging a company's private reality so a model c…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 278,
-        "retweets": 23,
-        "replies": 28
-      },
-      "topics": [
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]

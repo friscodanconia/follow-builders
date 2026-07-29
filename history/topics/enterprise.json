@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-07-28T04:32:15.958Z",
+  "generatedAt": "2026-07-29T00:54:41.339Z",
   "slug": "enterprise",
   "label": "Business AI",
   "items": [
     {
-      "id": "8ba728c058f5d3ce",
-      "date": "2026-07-28",
+      "id": "d2a7340d42ebb9a8",
+      "date": "2026-07-29",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "There’s still so much opportunity in the diffusion of AI into the real world. Most enterprises…",
-      "url": "https://x.com/levie/status/2081491621162668207",
-      "publishedAt": "2026-07-26T21:27:29.000Z",
-      "content": "There’s still so much opportunity in the diffusion of AI into the real world. Most enterprises are going to need a ton of support to be able to apply the model breakthroughs to their workflows. Intelligence alone is not enough to transform most processes because you need to bridge that intelligence with real world feedback loops. That requires connecting to various enterprise systems, getting the right data to the AI, enabling humans to make decisions at different steps in a process through the…",
-      "summary": "There’s still so much opportunity in the diffusion of AI into the real world. Most enterprises are going to need a ton of support to be able to apply the model breakthroughs to their workflows. Intelligence alone is not…",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "In our latest https://t.co/p9AoezbuGt benchmarks, Grok 4.5 has emerged as the best cybersecurit…",
+      "url": "https://x.com/rauchg/status/2081852481517318560",
+      "publishedAt": "2026-07-27T21:21:25.000Z",
+      "content": "In our latest https://t.co/p9AoezbuGt benchmarks, Grok 4.5 has emerged as the best cybersecurity AI model on price-performance. It's 10x cheaper than Sol, 5.7x cheaper than Opus 5, and 2.2x cheaper than Kimi K3, yet at Kimi-like perf. Sol remains the frontier, ahead of Opus 5. https://t.co/kcSDIqnXsN",
+      "summary": "In our latest https://t.co/p9AoezbuGt benchmarks, Grok 4.5 has emerged as the best cybersecurity AI model on price-performance. It's 10x cheaper than Sol, 5.7x cheaper than Opus 5, and 2.2x cheaper than Kimi K3, yet at…",
       "regionTags": [],
       "metrics": {
-        "likes": 321,
-        "retweets": 41,
-        "replies": 58
+        "likes": 622,
+        "retweets": 40,
+        "replies": 46
       },
       "topics": [
         {
@@ -28,7 +28,164 @@
           "label": "Business AI",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "enterprise"
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "benchmark"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.78,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.86,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "e4da9b0b3eacf4c1",
+      "date": "2026-07-29",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "Kimi's paper underlines the importance of the right security boundary for agents to run in. tl:…",
+      "url": "https://x.com/rauchg/status/2081842439304995169",
+      "publishedAt": "2026-07-27T20:41:30.000Z",
+      "content": "Kimi's paper underlines the importance of the right security boundary for agents to run in. tl:DR: container-level isolation is not enough. In their experiments, agents crashed the underlying machine (via kernel panics). Firecracker microVMs (as in Vercel Sandbox) are safe. https://t.co/wvbdBo5Ng8 https://t.co/OFCWYaiKw7",
+      "summary": "Kimi's paper underlines the importance of the right security boundary for agents to run in. tl:DR: container-level isolation is not enough. In their experiments, agents crashed the underlying machine (via kernel panics)…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 295,
+        "retweets": 22,
+        "replies": 36
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "paper"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.92,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.95,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "76bc8b863f37b589",
+      "date": "2026-07-29",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "The negative AI jobs outcome just continues to not be happening as some predicted. A large port…",
+      "url": "https://x.com/levie/status/2081930301752942703",
+      "publishedAt": "2026-07-28T02:30:38.000Z",
+      "content": "The negative AI jobs outcome just continues to not be happening as some predicted. A large portion of enterprises I talk with -across industries- are still hiring, just with a tilt in the kind of roles they’re going after. They’re finding that AI is letting them do more, and Jevons paradox is actually playing out. They’re hiring engineers to go after problems they couldn’t tackle before. They’re hiring in sales because they can go deeper in client relationships now with the help of AI. They’re…",
+      "summary": "The negative AI jobs outcome just continues to not be happening as some predicted. A large portion of enterprises I talk with -across industries- are still hiring, just with a tilt in the kind of roles they’re going aft…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 219,
+        "retweets": 27,
+        "replies": 39
+      },
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.69,
+          "rationale": [
+            "enterprise",
+            "sales"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "finding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.78,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.86,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c2088978cc28a062",
+      "date": "2026-07-29",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:steipete",
+      "builderOrOrg": "Peter Steinberger",
+      "title": "We do all the amazing security work with some of the best teams in the world and people still t…",
+      "url": "https://x.com/steipete/status/2081790109415002468",
+      "publishedAt": "2026-07-27T17:13:34.000Z",
+      "content": "We do all the amazing security work with some of the best teams in the world and people still think we're unsafe. 🙃 https://t.co/S0m1yJVRtj",
+      "summary": "We do all the amazing security work with some of the best teams in the world and people still think we're unsafe. 🙃 https://t.co/S0m1yJVRtj",
+      "regionTags": [],
+      "metrics": {
+        "likes": 690,
+        "retweets": 25,
+        "replies": 52
+      },
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
           ],
           "score": 1
         },
@@ -44,14 +201,14 @@
       ],
       "section": "Builders",
       "importanceScore": 0.78,
-      "noveltyScore": 0.3,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.61,
+      "digestScore": 0.86,
       "whyThisMatters": ""
     },
     {
       "id": "1e520cde1a48179f",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -85,8 +242,52 @@
       "whyThisMatters": ""
     },
     {
+      "id": "e6c5b20b9012201d",
+      "date": "2026-07-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "Configuring Dedicated Model Inference",
+      "url": "https://www.together.ai/blog/configuring-dedicated-model-inference",
+      "publishedAt": "2026-07-29T00:00:00.000Z",
+      "content": "The three-part resource model behind Together AI Dedicated Model Inference—endpoints, deployments, configs—and how capacity-aware routing ties them together.",
+      "summary": "The three-part resource model behind Together AI Dedicated Model Inference—endpoints, deployments, configs—and how capacity-aware routing ties them together.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "deployment"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.78,
+      "whyThisMatters": ""
+    },
+    {
       "id": "5b90819afbee9482",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Mistral AI Blog",
@@ -122,7 +323,7 @@
     },
     {
       "id": "155df4c562ef069b",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Mistral AI Blog",
@@ -172,6 +373,241 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.63,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "09275419c460a5e7",
+      "date": "2026-07-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Fearing RSI: OpenAI, Anthropic, GDM, Meta, Thinky cosign letter to \"Pace\" AI development, as HuggingFace details Machine-Speed Offensive Cyberattack",
+      "url": "https://www.latent.space/p/ainews-fearing-rsi-openai-anthropic",
+      "publishedAt": "2026-07-29T00:46:52.000Z",
+      "content": "3 years ago, Elon Musk and Yoshua Bengio cosigned the Future of Life&#8217;s letter arguing for a 6 month pause in AI , which most frontier AI leaders gleefully ignored. Today, the pausers have the last laugh. Yesterday, we said that unless you &#8220;make law, make chips, or make models&#8221;, you can probably ignore the current debate about open weights models (those of you who shouted us out, thank you!) Today, we have something we CANNOT ignore: over 1,000 frontier lab employees, from substantively all frontier labs except X.ai, have cosigned a different statement: &#8220;AI could help create a dramatically better future, but that outcome is not guaranteed. The world&#8217;s leading AI companies believe they could be close to automating AI research . It is hard to predict exactly how much this will accelerate AI progress, but there is a real risk that capability development rapidly accelerates beyond our ability to understand or control the resulting systems . To realize AI&#8217;s potential, industry, government, and society at large may need the option to buy time to address emerging risks, develop security measures, and strengthen oversight. But each company&#8212;and country&#8212;is under intense competitive pressure not to unilaterally slow that acceleration. And today, the world lacks the technical and governance tools to deliberately pace frontier-wide progress. Building on work already underway to monitor frontier model releases: We request that the U.S. government support an international effort to develop the technical and governance tools needed to deliberately pace the frontier of automated AI development.&#8221; - 1,171 employees of frontier AI companies While it is framed as an action taken in &#8220;personal capacity and do not necessarily represent any company&#8217;s views&#8221;, but when Dario is cosigning, Sam is on podcasts agreeing , and the official @OpenAI account is tweeting this letter , let&#8217;s just say the letter is a little mo…",
+      "summary": "The Big Pause is coming.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.69,
+          "rationale": [
+            "weights",
+            "huggingface"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.66,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d850985471f7bbc7",
+      "date": "2026-07-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "WarTalk: Ancient Greece Edition",
+      "url": "https://www.chinatalk.media/p/wartalk-ancient-greece-edition",
+      "publishedAt": "2026-07-26T11:32:33.000Z",
+      "content": "From Xi Jinping invoking the Thucydides Trap to Hegseth&#8217;s &#8220;high-T military&#8221; and love affair with 300, the modern security world keeps reaching back to classical Greece to explain itself. Usually badly. Our guest is Roel Konijnendijk, ancient history lecturer at the University of Oxford and author of Classical Greek Tactics: A Cultural History , joining Jordan, Justin, and Tony. We discuss&#8230; Why most scholars of Thucydides think there&#8217;s not much left of the &#8220;Thucydides Trap&#8221; once you take his name off it 300 and Gates of Fire as studies of masculinity: &#8220;It&#8217;s about the USMC in fancy dress&#8221; The counterintuitive reason Greek citizen-soldiers thought training for war was ridiculous Homeric gore, the slaughter of the suitors, and whether the Odyssey wants you to approve Achilles on immortality versus glory, and why this poem still keeps us arguing 2,700 years later Listen now on your favorite podcast app . Jordan Schneider: WarTalk, Ancient Greek edition. We have with us the delightful Roel Konijnendijk, professor at the University of Oxford. We talk about, my goodness, Graham Allison and the Thucydides Trap, 300 and how it pollutes teenage boys and defense secretaries&#8217; minds, Homer really liking blood, guts, and gore, and military ethics. This is a really good show. You guys are going to have a lot of fun. All right, let&#8217;s roll the tape. The Thucydides Trap Is Fake not happy getting appropriated by Graham Jordan Schneider: So how do ancient Greek historians today feel about Xi Jinping talking about this Thucydides Trap? Roel Konijnendijk: So the Thucydides Trap is an idea that was invented in 2017, I think, by Graham Allison. He&#8217;s not an ancient historian. So it&#8217;s one of those moments where on the one hand, okay, it&#8217;s great, everybody&#8217;s talking about Thucydides, surely that&#8217;s good. But on the other hand, it is in an extremely shallow way. I read Graham Allison&#8217;s bo…",
+      "summary": "Thucydides Trap, 300, and what the classics actually say about war",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "f9a3778b6f0257af",
+      "date": "2026-07-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "WarTalk: Groundhog Day in Iran, Rogue AI, Ukraine",
+      "url": "https://www.chinatalk.media/p/wartalk-groundhog-day-in-iran-rogue",
+      "publishedAt": "2026-07-24T17:10:54.000Z",
+      "content": "Five months into the Iran campaign, the US has two carrier strike groups parked in the Arabian Sea, a blockade that may take months to bite, and a daisy chain of tankers stretching thousands of miles because there is no longer any fuel or food to buy inside the Gulf. Now the Houthis have entered the chat and declared their own blockade of the Bab el-Mandeb. Just the OG crew with Bryan Clark, senior fellow at the Hudson Institute and a former submarine officer, a former special operations officer who works on defense technology, and . We discuss&#8230; What Trump is doing in Iran, why the Navy is short-cycling ships out of maintenance and what happened the last time the fleet ran this hot, from McCain and Fitzgerald to the Truman&#8217;s two collisions in one deployment Why a ground campaign in Iran is a fantasy , from the Marsh Arabs to the Alborz range to the Baluch salt flats, and what Shia militias in Iraq would do to the logistics tail The nuclear-powered cargo ship renaissance and why circumnavigating Africa at 30 knots suddenly pencils out Whether Congress should get an AI kill switch , why DHS is the wrong home for it, and what happens when the boy who cried wolf is finally right Ukraine&#8217;s civ-mil drama Listen now on your favorite podcast app . Iran Bryan Clark: So here we are, Groundhog Day in Iran. Just yesterday the Iranians apparently turned down some ceasefire offer from the United States. Who knows what that offer contained, but the Iranians have decided to refuse it, and the US responded with more strikes. So we&#8217;re continuing to attack targets, increasingly attacking infrastructure and power supplies and water supplies that might be considered civilian, but seem to have maybe some tangential use for the military. And with the IRGC being increasingly enmeshed in the population, it&#8217;s hard to tell what&#8217;s exactly a military target and what&#8217;s a civilian target in Iran . So now we&#8217;ve started another round of strikes. We a…",
+      "summary": "I guess we're doing this again...",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "deployment"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "dcea4542faf5f4d8",
+      "date": "2026-07-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Chinese Labs' Latest Product? Roleplay",
+      "url": "https://www.chinatalk.media/p/ai-roleplay-a-deep-dive",
+      "publishedAt": "2026-07-24T10:02:16.000Z",
+      "content": "Beijing&#8217;s regulators are coming for AI boyfriends. When the Cybersecurity Administration&#8217;s regulations on &#8220;human-like interactive AI&#8221; (&#20154;&#24037;&#26234;&#33021;&#25311;&#20154;&#21270;&#20114;&#21160;&#26381;&#21153;) took effect on July 15, China became the world&#8217;s first country to regulate anthropomorphic AI services. The rules ban providers from &#8220;manipulating&#8221; users into emotional dependence, limit minors&#8217; access to some specific provisions, and impose reporting requirements, among other rules. In response, ByteDance and Alibaba have both pulled some anthropomorphic companion offerings from their AI products. Whatever you think of this use case, an incredible number of people now go to AI for various emotional reasons. For users of open-source AI models worldwide, the use case that burned the most tokens last year was not writing code, but roleplay. That&#8217;s according to the 2025 State of Open Models study by OpenRouter, a popular gateway platform for developers to access LLMs, and the venture capital firm Andreessen Horowitz. People are pouring hundreds of thousands of hours into constructing imaginary scenarios with the help of AI models, but the hobby has received little attention. Mainstream reporting on AI and emotions, including a recent New York Times story , has focused on their ethical, social, and cultural impacts generally. Few, however, have tried to interrogate exactly what AI roleplay is, why it is so popular, and how fictional adventures relate to real-life society. The most prominent AI roleplay platform is Bay Area-based Character.AI , but it has ample competition &#8212; including, and perhaps especially, from China. As I will discuss later, even DeepSeek, China&#8217;s superintelligence-obsessed national champion lab, is making some surprising moves in roleplay. Meanwhile, however, government regulators are poised to reign in the space given social concerns. For this piece, I spoke to…",
+      "summary": "Why Deepseek is hiring for feelings",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "code",
+            "developer",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open-source"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "8ba728c058f5d3ce",
+      "date": "2026-07-28",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "There’s still so much opportunity in the diffusion of AI into the real world. Most enterprises…",
+      "url": "https://x.com/levie/status/2081491621162668207",
+      "publishedAt": "2026-07-26T21:27:29.000Z",
+      "content": "There’s still so much opportunity in the diffusion of AI into the real world. Most enterprises are going to need a ton of support to be able to apply the model breakthroughs to their workflows. Intelligence alone is not enough to transform most processes because you need to bridge that intelligence with real world feedback loops. That requires connecting to various enterprise systems, getting the right data to the AI, enabling humans to make decisions at different steps in a process through the…",
+      "summary": "There’s still so much opportunity in the diffusion of AI into the real world. Most enterprises are going to need a ton of support to be able to apply the model breakthroughs to their workflows. Intelligence alone is not…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 321,
+        "retweets": 41,
+        "replies": 58
+      },
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.78,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.61,
       "whyThisMatters": ""
     },
     {
@@ -225,143 +661,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.51,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d850985471f7bbc7",
-      "date": "2026-07-28",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "WarTalk: Ancient Greece Edition",
-      "url": "https://www.chinatalk.media/p/wartalk-ancient-greece-edition",
-      "publishedAt": "2026-07-26T11:32:33.000Z",
-      "content": "From Xi Jinping invoking the Thucydides Trap to Hegseth&#8217;s &#8220;high-T military&#8221; and love affair with 300, the modern security world keeps reaching back to classical Greece to explain itself. Usually badly. Our guest is Roel Konijnendijk, ancient history lecturer at the University of Oxford and author of Classical Greek Tactics: A Cultural History , joining Jordan, Justin, and Tony. We discuss&#8230; Why most scholars of Thucydides think there&#8217;s not much left of the &#8220;Thucydides Trap&#8221; once you take his name off it 300 and Gates of Fire as studies of masculinity: &#8220;It&#8217;s about the USMC in fancy dress&#8221; The counterintuitive reason Greek citizen-soldiers thought training for war was ridiculous Homeric gore, the slaughter of the suitors, and whether the Odyssey wants you to approve Achilles on immortality versus glory, and why this poem still keeps us arguing 2,700 years later Listen now on your favorite podcast app . Jordan Schneider: WarTalk, Ancient Greek edition. We have with us the delightful Roel Konijnendijk, professor at the University of Oxford. We talk about, my goodness, Graham Allison and the Thucydides Trap, 300 and how it pollutes teenage boys and defense secretaries&#8217; minds, Homer really liking blood, guts, and gore, and military ethics. This is a really good show. You guys are going to have a lot of fun. All right, let&#8217;s roll the tape. The Thucydides Trap Is Fake not happy getting appropriated by Graham Jordan Schneider: So how do ancient Greek historians today feel about Xi Jinping talking about this Thucydides Trap? Roel Konijnendijk: So the Thucydides Trap is an idea that was invented in 2017, I think, by Graham Allison. He&#8217;s not an ancient historian. So it&#8217;s one of those moments where on the one hand, okay, it&#8217;s great, everybody&#8217;s talking about Thucydides, surely that&#8217;s good. But on the other hand, it is in an extremely shallow way. I read Graham Allison&#8217;s bo…",
-      "summary": "Thucydides Trap, 300, and what the classics actually say about war",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "f9a3778b6f0257af",
-      "date": "2026-07-28",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "WarTalk: Groundhog Day in Iran, Rogue AI, Ukraine",
-      "url": "https://www.chinatalk.media/p/wartalk-groundhog-day-in-iran-rogue",
-      "publishedAt": "2026-07-24T17:10:54.000Z",
-      "content": "Five months into the Iran campaign, the US has two carrier strike groups parked in the Arabian Sea, a blockade that may take months to bite, and a daisy chain of tankers stretching thousands of miles because there is no longer any fuel or food to buy inside the Gulf. Now the Houthis have entered the chat and declared their own blockade of the Bab el-Mandeb. Just the OG crew with Bryan Clark, senior fellow at the Hudson Institute and a former submarine officer, a former special operations officer who works on defense technology, and . We discuss&#8230; What Trump is doing in Iran, why the Navy is short-cycling ships out of maintenance and what happened the last time the fleet ran this hot, from McCain and Fitzgerald to the Truman&#8217;s two collisions in one deployment Why a ground campaign in Iran is a fantasy , from the Marsh Arabs to the Alborz range to the Baluch salt flats, and what Shia militias in Iraq would do to the logistics tail The nuclear-powered cargo ship renaissance and why circumnavigating Africa at 30 knots suddenly pencils out Whether Congress should get an AI kill switch , why DHS is the wrong home for it, and what happens when the boy who cried wolf is finally right Ukraine&#8217;s civ-mil drama Listen now on your favorite podcast app . Iran Bryan Clark: So here we are, Groundhog Day in Iran. Just yesterday the Iranians apparently turned down some ceasefire offer from the United States. Who knows what that offer contained, but the Iranians have decided to refuse it, and the US responded with more strikes. So we&#8217;re continuing to attack targets, increasingly attacking infrastructure and power supplies and water supplies that might be considered civilian, but seem to have maybe some tangential use for the military. And with the IRGC being increasingly enmeshed in the population, it&#8217;s hard to tell what&#8217;s exactly a military target and what&#8217;s a civilian target in Iran . So now we&#8217;ve started another round of strikes. We a…",
-      "summary": "I guess we're doing this again...",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "deployment"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "dcea4542faf5f4d8",
-      "date": "2026-07-28",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Chinese Labs' Latest Product? Roleplay",
-      "url": "https://www.chinatalk.media/p/ai-roleplay-a-deep-dive",
-      "publishedAt": "2026-07-24T10:02:16.000Z",
-      "content": "Beijing&#8217;s regulators are coming for AI boyfriends. When the Cybersecurity Administration&#8217;s regulations on &#8220;human-like interactive AI&#8221; (&#20154;&#24037;&#26234;&#33021;&#25311;&#20154;&#21270;&#20114;&#21160;&#26381;&#21153;) took effect on July 15, China became the world&#8217;s first country to regulate anthropomorphic AI services. The rules ban providers from &#8220;manipulating&#8221; users into emotional dependence, limit minors&#8217; access to some specific provisions, and impose reporting requirements, among other rules. In response, ByteDance and Alibaba have both pulled some anthropomorphic companion offerings from their AI products. Whatever you think of this use case, an incredible number of people now go to AI for various emotional reasons. For users of open-source AI models worldwide, the use case that burned the most tokens last year was not writing code, but roleplay. That&#8217;s according to the 2025 State of Open Models study by OpenRouter, a popular gateway platform for developers to access LLMs, and the venture capital firm Andreessen Horowitz. People are pouring hundreds of thousands of hours into constructing imaginary scenarios with the help of AI models, but the hobby has received little attention. Mainstream reporting on AI and emotions, including a recent New York Times story , has focused on their ethical, social, and cultural impacts generally. Few, however, have tried to interrogate exactly what AI roleplay is, why it is so popular, and how fictional adventures relate to real-life society. The most prominent AI roleplay platform is Bay Area-based Character.AI , but it has ample competition &#8212; including, and perhaps especially, from China. As I will discuss later, even DeepSeek, China&#8217;s superintelligence-obsessed national champion lab, is making some surprising moves in roleplay. Meanwhile, however, government regulators are poised to reign in the space given social concerns. For this piece, I spoke to…",
-      "summary": "Why Deepseek is hiring for feelings",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.81,
-          "rationale": [
-            "code",
-            "developer",
-            "repo"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open-source"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
       "whyThisMatters": ""
     },
     {
@@ -2147,294 +2446,6 @@
           "confidence": 0.5700000000000001,
           "rationale": [
             "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.92,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.7,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "1ff64595c50f2b1f",
-      "date": "2026-07-17",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "How to manage AI investments in the agentic era",
-      "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
-      "publishedAt": "2026-07-14T10:00:00.000Z",
-      "content": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
-      "summary": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.8,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.63,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "23ebbaa7e759e303",
-      "date": "2026-07-16",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "One of the many properties that code has that makes it highly amenable to agents is that you ca…",
-      "url": "https://x.com/levie/status/2077201458546745553",
-      "publishedAt": "2026-07-15T01:19:54.000Z",
-      "content": "One of the many properties that code has that makes it highly amenable to agents is that you can more or less quickly test it. You can either go see if the application works manually, or you can actually run a test on what you built. Most other areas of work don’t have this benefit. You only get the testing when the final product hits the real world in some capacity - a stock trade is executed, a contract is negotiated, a sales pitch is delivered, and so on. There’s probably going to be a whole…",
-      "summary": "One of the many properties that code has that makes it highly amenable to agents is that you can more or less quickly test it. You can either go see if the application works manually, or you can actually run a test on w…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 149,
-        "retweets": 19,
-        "replies": 40
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "sales"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.92,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.7,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d678209ced010256",
-      "date": "2026-07-16",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "How sales teams use ChatGPT Work",
-      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
-      "publishedAt": "2026-07-14T00:00:00.000Z",
-      "content": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
-      "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "sales"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "75d823439a312307",
-      "date": "2026-07-16",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Does Mythos change cyber risk on Chinese hardware?",
-      "url": "https://www.chinatalk.media/p/does-mythos-change-cyber-risk-on",
-      "publishedAt": "2026-07-09T20:07:22.000Z",
-      "content": "Three reminders: We&#8217;re hiring for video talent! Learn more here . We&#8217;re running an AI + nukes contest with a $20k prize pool . Deadline is July 24th. We&#8217;re always looking for new contributors to the substack! Learn more here . A guest post by Mieke Eoyang is a visiting professor at Carnegie Mellon University&#8217;s Institute of Security and Technology (CMIST), and the former Deputy Assistant Secretary of Defense for Cyber Policy. As frontier AI labs race to release the next generation of models that meet or exceed the capabilities of Anthropic&#8217;s Mythos, we need to contend with what these powerful tools mean for the world. These models, whether Anthropic&#8217;s Mythos/Fable, Open AI&#8217;s GPT 5.6, or Z.ai&#8217;s GLM 5.2, the latest generation of models have demonstrated tremendous capability to identify previously unknown cyber vulnerabilities. Though most of the popular focus has been on new hacking vectors, these models also give developers and manufacturers a way to address their tech debt through an avalanche of vulnerability identification and patching. On the other side of the &#8220;Patch Apocalypse&#8221;, Mythos-class models should change the way we think about cyber risk from Chinese-made tech products, and supply chain risk generally. The conventional wisdom is that Chinese- made technology products pose a higher national security risk. The fears break down into two scenarios: a) the Chinese government installs secret back doors into the products allowing them to spy or brick products at their time and place of choosing, or b) the superior knowledge of how those products are built will allow them to build or later-install such back doors at their time and place of choosing. Given the ability of these Mythos-class models to identify the vulnerabilities, could a Chinese developer really create a hidden back door in a product that&#8217;s released into the wild that would not be identified by the later scrutiny of these models? C…",
-      "summary": "yes, says Mieke Eoyang",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "developer"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "video"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "eed9c23a7f676a03",
-      "date": "2026-07-15",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "The biggest challenge right now with the topic of every enterprise having their own model is th…",
-      "url": "https://x.com/levie/status/2076764958579446006",
-      "publishedAt": "2026-07-13T20:25:25.000Z",
-      "content": "The biggest challenge right now with the topic of every enterprise having their own model is that your most valuable information and insights are not only always changing, but they’re often your most sensitive information. Your most sensitive information can’t be packed into a model usually because it contains data that not everyone gets to have access to, and you can’t keep your security layer inside the model or an agent. I think there are going to be 100X more use cases for custom trained mo…",
-      "summary": "The biggest challenge right now with the topic of every enterprise having their own model is that your most valuable information and insights are not only always changing, but they’re often your most sensitive informati…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 187,
-        "retweets": 23,
-        "replies": 26
-      },
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.69,
-          "rationale": [
-            "enterprise",
-            "security"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.92,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.7,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "c22f224f72497d41",
-      "date": "2026-07-14",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:rauchg",
-      "builderOrOrg": "Guillermo Rauch",
-      "title": "Make the model a cog in a machine you own. ◾ AI SDK → open model API ◾ https://t.co/O7y9dmUqk5…",
-      "url": "https://x.com/rauchg/status/2076364176252191222",
-      "publishedAt": "2026-07-12T17:52:51.000Z",
-      "content": "Make the model a cog in a machine you own. ◾ AI SDK → open model API ◾ https://t.co/O7y9dmUqk5 → open Agent API ◾ AI Gateway → open ZDR inference Startups and enterprises must own their data, evals, model choices, software layer. Don't outsource your brain. https://t.co/EpiBG1GD59",
-      "summary": "Make the model a cog in a machine you own. ◾ AI SDK → open model API ◾ https://t.co/O7y9dmUqk5 → open Agent API ◾ AI Gateway → open ZDR inference Startups and enterprises must own their data, evals, model choices, softw…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 793,
-        "retweets": 51,
-        "replies": 54
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
           ],
           "score": 1
         }
