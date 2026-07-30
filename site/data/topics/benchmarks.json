@@ -1,8 +1,107 @@
 {
-  "generatedAt": "2026-07-29T04:38:26.226Z",
+  "generatedAt": "2026-07-30T01:28:46.485Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
+    {
+      "id": "0af67cacf01dd0ec",
+      "date": "2026-07-30",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+      "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+      "publishedAt": "2026-07-29T15:00:00.000Z",
+      "content": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
+      "summary": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "reasoning"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "benchmark"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "69a27d2502cd99e4",
+      "date": "2026-07-30",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Claude Opus 5: Fable-level performance at Opus price (half Fable)",
+      "url": "https://www.latent.space/p/ainews-claude-opus-5-fable-level",
+      "publishedAt": "2026-07-25T07:25:38.000Z",
+      "content": "In a rare Friday release, Opus 5 took the headlines today. Athrough most of its official benchmarks have it technically beating Fable , the official messaging still says it &#8220; comes close &#8221;. This mostly reflects the difficulty of Evals - today&#8217;s AIE track drop - not reflecting &#8220;big model smell&#8221; that Anthropic obviously knows Fable retains but can&#8217;t measure. Fortunately, independent evaluations of Opus confirm the outperformance: @AnthropicAI has released Claude Opus 5, the new leader on the Artificial Analysis Intelligence Index, and \",\"username\":\"ArtificialAnlys\",\"name\":\"Artificial Analysis\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/2042402069320290304/A8C1lP07_normal.jpg\",\"date\":\"2026-07-24T22:10:41.000Z\",\"photos\":[{\"img_url\":\"https://pbs.substack.com/media/HOBjK6cbIAA2Yph.jpg\",\"link_url\":\"https://t.co/SFuDwqY6XE\"}],\"quoted_tweet\":{},\"reply_count\":16,\"retweet_count\":45,\"like_count\":451,\"impression_count\":34514,\"expanded_url\":null,\"video_url\":null,\"video_preview_media_key\":null,\"belowTheFold\":false}\" data-component-name=\"Twitter2ToDOM\"> And the improved efficiency story, beyond just pricing, is also important&#8230; although it only just matches GPT 5.6 Sol: AI News for 7/23/2026-7/24/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Top Story: Claude Opus 5 model launch What happened Anthropic&#8217;s Claude Opus 5 launch triggered a mix of benchmark scrutiny, strong anecdotal coding-agent praise, and renewed debate about frontier model evaluation. Multiple tweets explicitly discuss Claude Opus 5 as a newly launched model and compare it to other frontier systems on coding and general capability metrics, including Epoch&#8217;s ECI assessment , a FrontierCode anomaly discussion , and early user reactions from tool-use workfl…",
+      "summary": "ain't nobody beats Anthropic at distilling Fable!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.81,
+          "rationale": [
+            "benchmark",
+            "eval",
+            "evaluation"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "image",
+            "video"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
     {
       "id": "d2a7340d42ebb9a8",
       "date": "2026-07-29",
@@ -56,61 +155,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.61,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "69a27d2502cd99e4",
-      "date": "2026-07-29",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Claude Opus 5: Fable-level performance at Opus price (half Fable)",
-      "url": "https://www.latent.space/p/ainews-claude-opus-5-fable-level",
-      "publishedAt": "2026-07-25T07:25:38.000Z",
-      "content": "In a rare Friday release, Opus 5 took the headlines today. Athrough most of its official benchmarks have it technically beating Fable , the official messaging still says it &#8220; comes close &#8221;. This mostly reflects the difficulty of Evals - today&#8217;s AIE track drop - not reflecting &#8220;big model smell&#8221; that Anthropic obviously knows Fable retains but can&#8217;t measure. Fortunately, independent evaluations of Opus confirm the outperformance: @AnthropicAI has released Claude Opus 5, the new leader on the Artificial Analysis Intelligence Index, and \",\"username\":\"ArtificialAnlys\",\"name\":\"Artificial Analysis\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/2042402069320290304/A8C1lP07_normal.jpg\",\"date\":\"2026-07-24T22:10:41.000Z\",\"photos\":[{\"img_url\":\"https://pbs.substack.com/media/HOBjK6cbIAA2Yph.jpg\",\"link_url\":\"https://t.co/SFuDwqY6XE\"}],\"quoted_tweet\":{},\"reply_count\":16,\"retweet_count\":45,\"like_count\":451,\"impression_count\":34514,\"expanded_url\":null,\"video_url\":null,\"video_preview_media_key\":null,\"belowTheFold\":false}\" data-component-name=\"Twitter2ToDOM\"> And the improved efficiency story, beyond just pricing, is also important&#8230; although it only just matches GPT 5.6 Sol: AI News for 7/23/2026-7/24/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Top Story: Claude Opus 5 model launch What happened Anthropic&#8217;s Claude Opus 5 launch triggered a mix of benchmark scrutiny, strong anecdotal coding-agent praise, and renewed debate about frontier model evaluation. Multiple tweets explicitly discuss Claude Opus 5 as a newly launched model and compare it to other frontier systems on coding and general capability metrics, including Epoch&#8217;s ECI assessment , a FrontierCode anomaly discussion , and early user reactions from tool-use workfl…",
-      "summary": "ain't nobody beats Anthropic at distilling Fable!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.81,
-          "rationale": [
-            "benchmark",
-            "eval",
-            "evaluation"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.69,
-          "rationale": [
-            "image",
-            "video"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -2457,61 +2501,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.51,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "3eea0b67c0048084",
-      "date": "2026-06-25",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:karpathy",
-      "builderOrOrg": "Andrej Karpathy",
-      "title": "This is a new paradigm for interacting with Claude that is significantly more \"inline\" with all…",
-      "url": "https://x.com/karpathy/status/2069547676849557725",
-      "publishedAt": "2026-06-23T22:26:31.000Z",
-      "content": "This is a new paradigm for interacting with Claude that is significantly more \"inline\" with all the other human activity org-wide. Once you do all of the under the hood engineering work to make this \"just work\" (e.g. across tools, integrations, compute environments, memory, security, etc.), Claude basically joins the team in a seamless way - you can talk to it as you would talk to a person and it can help with a very large variety of workloads. Imo this is the 3rd major redesign of LLM UIUX. Th…",
-      "summary": "This is a new paradigm for interacting with Claude that is significantly more \"inline\" with all the other human activity org-wide. Once you do all of the under the hood engineering work to make this \"just work\" (e.g. ac…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 12492,
-        "retweets": 974,
-        "replies": 625
-      },
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "imo"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.78,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.61,
       "whyThisMatters": ""
     }
   ]

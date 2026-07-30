@@ -1,8 +1,343 @@
 {
-  "generatedAt": "2026-07-29T04:38:26.226Z",
+  "generatedAt": "2026-07-30T01:28:46.485Z",
   "slug": "research",
   "label": "Research",
   "items": [
+    {
+      "id": "15430b6d34a022f8",
+      "date": "2026-07-30",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:thsottiaux",
+      "builderOrOrg": "Thibault Sottiaux",
+      "title": "More opensource goodness. We have just released a CLI and TypeScript SDK for finding, validatin…",
+      "url": "https://x.com/thsottiaux/status/2082241164850364555",
+      "publishedAt": "2026-07-28T23:05:54.000Z",
+      "content": "More opensource goodness. We have just released a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code. Scan repositories, review changes, track findings over time, and run security checks in CI. https://t.co/nkfTbw8p7b",
+      "summary": "More opensource goodness. We have just released a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code. Scan repositories, review changes, track findings over time, and run se…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 5812,
+        "retweets": 451,
+        "replies": 343
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "repo"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "finding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.78,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.86,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "9517fad07839b88e",
+      "date": "2026-07-30",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+      "url": "https://openai.com/index/chatgpt-for-academic-researchers",
+      "publishedAt": "2026-07-29T10:00:00.000Z",
+      "content": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
+      "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7dde397eee4374d0",
+      "date": "2026-07-30",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "How AI is expanding what people do at work",
+      "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "publishedAt": "2026-07-27T03:30:00.000Z",
+      "content": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+      "summary": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "3f6e11a6f0fb902e",
+      "date": "2026-07-30",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Import AI",
+      "sourceKey": "editorial:Import AI",
+      "builderOrOrg": "Jack Clark",
+      "title": "Import AI 466: The bitter lesson for robotics, AIs complete week-long programming tasks; and OpenAI&#8217;s accidental AI hacker",
+      "url": "https://jack-clark.net/2026/07/27/import-ai-466-the-bitter-lesson-for-robotics-ais-complete-week-long-programming-tasks-and-openais-accidental-ai-hacker/",
+      "publishedAt": "2026-07-27T13:30:53.000Z",
+      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Epoch and METR release MirrorCode, a benchmark for seeing how well AI systems can do long-horizon programming tasks: …AI systems can’t solve the hardest tasks yet (good!)&#8230; Epoch and METR have released MirrorCode, a benchmark meant to see how well AI systems can do tasks that take humans a long time to do. The benchmark was first announced in April (Import AI #453) and has now been fleshed out and released with additional tests. The findings are already very striking; Opus 4.7 solved a task in 14 hours for $251 in inference cost which METR and Epoch believe would take a human 2-17 weeks to do. “We also found that AI models are improving rapidly over time. Leading models from a year ago would have scored about 30%, and were limited to simpler programs, such as a calendar utility.” What MirrorCode is: MirrorCode sees how well AI systems can re-implement a software program based purely on CLI access. “Without access to the original program’s source code or the web, a full reimplementation requires devising a structure for the entire program, rather than merely translating the code piece-by-piece.” Example programs: pkl (a programmable configuration language developed by Apple; 61k total lines of code); gotree, a program to parse and manipulate phylogenetic trees (16k lines of code); and qsv_select, a program to select and reorder columns of CSV data (87k lines of code). Results: MirrorCode is a tractable but hard benchmark, though perhaps a little too easy. “Across all 25 target programs, 17/25 had at least one perfect-scoring run. Four more targets had a near-perfect run scoring over 99%. AI models successfully reimplemented large target program,s” the authors write. “Both Claude Opus 4.7 and GPT-5.5 successfully reimplemented gotree across several different programming languages, at…",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Epoch and METR release MirrorCode, a benchmark for seeing…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "programming"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "finding"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "09275419c460a5e7",
+      "date": "2026-07-30",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Fearing RSI: OpenAI, Anthropic, GDM, Meta, Thinky cosign letter to \"Pace\" AI development, as HuggingFace details Machine-Speed Offensive Cyberattack",
+      "url": "https://www.latent.space/p/ainews-fearing-rsi-openai-anthropic",
+      "publishedAt": "2026-07-29T00:46:52.000Z",
+      "content": "3 years ago, Elon Musk and Yoshua Bengio cosigned the Future of Life&#8217;s letter arguing for a 6 month pause in AI , which most frontier AI leaders gleefully ignored. Today, the pausers have the last laugh. Yesterday, we said that unless you &#8220;make law, make chips, or make models&#8221;, you can probably ignore the current debate about open weights models (those of you who shouted us out, thank you!) Today, we have something we CANNOT ignore: over 1,000 frontier lab employees, from substantively all frontier labs except X.ai, have cosigned a different statement: &#8220;AI could help create a dramatically better future, but that outcome is not guaranteed. The world&#8217;s leading AI companies believe they could be close to automating AI research . It is hard to predict exactly how much this will accelerate AI progress, but there is a real risk that capability development rapidly accelerates beyond our ability to understand or control the resulting systems . To realize AI&#8217;s potential, industry, government, and society at large may need the option to buy time to address emerging risks, develop security measures, and strengthen oversight. But each company&#8212;and country&#8212;is under intense competitive pressure not to unilaterally slow that acceleration. And today, the world lacks the technical and governance tools to deliberately pace frontier-wide progress. Building on work already underway to monitor frontier model releases: We request that the U.S. government support an international effort to develop the technical and governance tools needed to deliberately pace the frontier of automated AI development.&#8221; - 1,171 employees of frontier AI companies While it is framed as an action taken in &#8220;personal capacity and do not necessarily represent any company&#8217;s views&#8221;, but when Dario is cosigning, Sam is on podcasts agreeing , and the official @OpenAI account is tweeting this letter , let&#8217;s just say the letter is a little mo…",
+      "summary": "The Big Pause is coming.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.69,
+          "rationale": [
+            "weights",
+            "huggingface"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "07d83a6ada665a2c",
+      "date": "2026-07-30",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "China's 'dying' companies",
+      "url": "https://www.chinatalk.media/p/chinas-dying-companies",
+      "publishedAt": "2026-07-28T10:39:26.000Z",
+      "content": "Zern Hee Chua is a research intern at the Global TechnoPolitics Forum and an editor at the Brown Political Review. His research focuses on Chinese economic growth. For all its technological feats, China&#8217;s push for high-quality innovation has not made the economy that much more productive. This lends greater urgency to other productivity drivers such as firm efficiency &#8212; an exigency that Beijing is hardly unaware of. In recent months, the central government has outlined a series of regulatory measures to discourage local officials from propping up inefficient firms. But nothing stops local leaders from circumventing those regulations. The Chinese bureaucracy continues to reward officials who hit GDP growth targets, minimize unemployment and social unrest, and defer to the dynastic mandates of President Xi Jinping. Until the underlying incentive to keep inefficient firms afloat is recast, China&#8217;s tireless pursuit of productivity-led growth will continue to bear little fruit. The Elusive Quest for Productivity &#24378;&#24361;&#20043;&#26411; (Bonus points for guessing which book this header is inspired by!) As an economy matures &#8212; like China over the last decade, growth increasingly moves away from capital accumulation. Because there is only so much equipment that one can &#8220;fit&#8221; a worker with, additional capital will eventually begin to yield smaller increases in GDP. More formally known as &#8220;diminishing returns to capital&#8221;, this phenomenon in part explains China&#8217;s decelerating growth in recent decades. Adding fuel to the fire is the country&#8217;s protracted fertility decline, which reforms to the one-child policy in 2015 and 2021 have failed to reverse. Economists predict that shrinkages in China&#8217;s working-age population will reduce per-capita GDP growth by 10 percent over the coming decade. Note: China&#8217;s per-capita GDP growth rate (yellow) falls in part due to diminishing returns to capital accumulat…",
+      "summary": "and where productivity growth will really come from",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "policy"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "ed4ad6ac0ebadc64",
+      "date": "2026-07-30",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Prove You're Human",
+      "url": "https://www.chinatalk.media/p/prove-youre-human",
+      "publishedAt": "2026-07-27T10:53:45.000Z",
+      "content": "Zilan Qian is a research associate at the Oxford China Policy Lab and holds a Master&#8217;s degree in Social Science of the Internet from the University of Oxford. The lifecycle of AI, from training to output, has tangled itself around the lives of Chinese illustrators in ways that run in opposite directions. 1 The machine was fed their work, learned their expressions, and is now displacing them. And in the process, it has forced them to answer a question that no one expected to become that urgent a few years ago: how do you prove you are human? The answer, so far, involves courtrooms, livestreams, and job markets. It involves regulatory regimes that strictly govern AI outputs but stay lenient on the inputs, a community that hunts for signs of AI in each other&#8217;s work and demands live drawing sessions as proof of humanity, and an education system that trained illustrators to produce exactly the kind of consistent, replicable output that AI does better and cheaper. Ultimately, the question may be less about how to prove you are human than about why that proof has become so hard to give. The answer, I will argue, lies less in what AI learned from humans than in what humans built long before it arrived: an exam system that trains young artists through standardized metrics and repetitive practice, which looks unsettlingly like an AI training pipeline. In the end, behind Chinese illustrators&#8217; attempt to combat AI lies the broader educational infrastructure that makes humans indistinguishable from machines. So what type of expression emerging from that system, if any, would be untokenizable? This is a story about Chinese illustrators. It is also a story about what we built before AI arrived, and what we are finding out about ourselves now that it has. Feeding In December 2023, the first Chinese case addressing whether AI training constitutes copyright infringement was filed by four illustrators against Xiaohongshu to the Beijing Internet Court. Xiaohongshu ha…",
+      "summary": "AI, Chinese Illustrators, and Becoming Tokenizable",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.81,
+          "rationale": [
+            "research",
+            "science",
+            "finding"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "policy"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
     {
       "id": "e4da9b0b3eacf4c1",
       "date": "2026-07-29",
@@ -103,250 +438,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.61,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "7dde397eee4374d0",
-      "date": "2026-07-29",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "How AI is expanding what people do at work",
-      "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
-      "publishedAt": "2026-07-27T03:30:00.000Z",
-      "content": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
-      "summary": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "3f6e11a6f0fb902e",
-      "date": "2026-07-29",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Import AI",
-      "sourceKey": "editorial:Import AI",
-      "builderOrOrg": "Jack Clark",
-      "title": "Import AI 466: The bitter lesson for robotics, AIs complete week-long programming tasks; and OpenAI&#8217;s accidental AI hacker",
-      "url": "https://jack-clark.net/2026/07/27/import-ai-466-the-bitter-lesson-for-robotics-ais-complete-week-long-programming-tasks-and-openais-accidental-ai-hacker/",
-      "publishedAt": "2026-07-27T13:30:53.000Z",
-      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Epoch and METR release MirrorCode, a benchmark for seeing how well AI systems can do long-horizon programming tasks: …AI systems can’t solve the hardest tasks yet (good!)&#8230; Epoch and METR have released MirrorCode, a benchmark meant to see how well AI systems can do tasks that take humans a long time to do. The benchmark was first announced in April (Import AI #453) and has now been fleshed out and released with additional tests. The findings are already very striking; Opus 4.7 solved a task in 14 hours for $251 in inference cost which METR and Epoch believe would take a human 2-17 weeks to do. “We also found that AI models are improving rapidly over time. Leading models from a year ago would have scored about 30%, and were limited to simpler programs, such as a calendar utility.” What MirrorCode is: MirrorCode sees how well AI systems can re-implement a software program based purely on CLI access. “Without access to the original program’s source code or the web, a full reimplementation requires devising a structure for the entire program, rather than merely translating the code piece-by-piece.” Example programs: pkl (a programmable configuration language developed by Apple; 61k total lines of code); gotree, a program to parse and manipulate phylogenetic trees (16k lines of code); and qsv_select, a program to select and reorder columns of CSV data (87k lines of code). Results: MirrorCode is a tractable but hard benchmark, though perhaps a little too easy. “Across all 25 target programs, 17/25 had at least one perfect-scoring run. Four more targets had a near-perfect run scoring over 99%. AI models successfully reimplemented large target program,s” the authors write. “Both Claude Opus 4.7 and GPT-5.5 successfully reimplemented gotree across several different programming languages, at…",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Epoch and METR release MirrorCode, a benchmark for seeing…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "code",
-            "programming"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "finding"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "09275419c460a5e7",
-      "date": "2026-07-29",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Fearing RSI: OpenAI, Anthropic, GDM, Meta, Thinky cosign letter to \"Pace\" AI development, as HuggingFace details Machine-Speed Offensive Cyberattack",
-      "url": "https://www.latent.space/p/ainews-fearing-rsi-openai-anthropic",
-      "publishedAt": "2026-07-29T00:46:52.000Z",
-      "content": "3 years ago, Elon Musk and Yoshua Bengio cosigned the Future of Life&#8217;s letter arguing for a 6 month pause in AI , which most frontier AI leaders gleefully ignored. Today, the pausers have the last laugh. Yesterday, we said that unless you &#8220;make law, make chips, or make models&#8221;, you can probably ignore the current debate about open weights models (those of you who shouted us out, thank you!) Today, we have something we CANNOT ignore: over 1,000 frontier lab employees, from substantively all frontier labs except X.ai, have cosigned a different statement: &#8220;AI could help create a dramatically better future, but that outcome is not guaranteed. The world&#8217;s leading AI companies believe they could be close to automating AI research . It is hard to predict exactly how much this will accelerate AI progress, but there is a real risk that capability development rapidly accelerates beyond our ability to understand or control the resulting systems . To realize AI&#8217;s potential, industry, government, and society at large may need the option to buy time to address emerging risks, develop security measures, and strengthen oversight. But each company&#8212;and country&#8212;is under intense competitive pressure not to unilaterally slow that acceleration. And today, the world lacks the technical and governance tools to deliberately pace frontier-wide progress. Building on work already underway to monitor frontier model releases: We request that the U.S. government support an international effort to develop the technical and governance tools needed to deliberately pace the frontier of automated AI development.&#8221; - 1,171 employees of frontier AI companies While it is framed as an action taken in &#8220;personal capacity and do not necessarily represent any company&#8217;s views&#8221;, but when Dario is cosigning, Sam is on podcasts agreeing , and the official @OpenAI account is tweeting this letter , let&#8217;s just say the letter is a little mo…",
-      "summary": "The Big Pause is coming.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.69,
-          "rationale": [
-            "weights",
-            "huggingface"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "07d83a6ada665a2c",
-      "date": "2026-07-29",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "China's 'dying' companies",
-      "url": "https://www.chinatalk.media/p/chinas-dying-companies",
-      "publishedAt": "2026-07-28T10:39:26.000Z",
-      "content": "Zern Hee Chua is a research intern at the Global TechnoPolitics Forum and an editor at the Brown Political Review. His research focuses on Chinese economic growth. For all its technological feats, China&#8217;s push for high-quality innovation has not made the economy that much more productive. This lends greater urgency to other productivity drivers such as firm efficiency &#8212; an exigency that Beijing is hardly unaware of. In recent months, the central government has outlined a series of regulatory measures to discourage local officials from propping up inefficient firms. But nothing stops local leaders from circumventing those regulations. The Chinese bureaucracy continues to reward officials who hit GDP growth targets, minimize unemployment and social unrest, and defer to the dynastic mandates of President Xi Jinping. Until the underlying incentive to keep inefficient firms afloat is recast, China&#8217;s tireless pursuit of productivity-led growth will continue to bear little fruit. The Elusive Quest for Productivity &#24378;&#24361;&#20043;&#26411; (Bonus points for guessing which book this header is inspired by!) As an economy matures &#8212; like China over the last decade, growth increasingly moves away from capital accumulation. Because there is only so much equipment that one can &#8220;fit&#8221; a worker with, additional capital will eventually begin to yield smaller increases in GDP. More formally known as &#8220;diminishing returns to capital&#8221;, this phenomenon in part explains China&#8217;s decelerating growth in recent decades. Adding fuel to the fire is the country&#8217;s protracted fertility decline, which reforms to the one-child policy in 2015 and 2021 have failed to reverse. Economists predict that shrinkages in China&#8217;s working-age population will reduce per-capita GDP growth by 10 percent over the coming decade. Note: China&#8217;s per-capita GDP growth rate (yellow) falls in part due to diminishing returns to capital accumulat…",
-      "summary": "and where productivity growth will really come from",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "policy"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "ed4ad6ac0ebadc64",
-      "date": "2026-07-29",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Prove You're Human",
-      "url": "https://www.chinatalk.media/p/prove-youre-human",
-      "publishedAt": "2026-07-27T10:53:45.000Z",
-      "content": "Zilan Qian is a research associate at the Oxford China Policy Lab and holds a Master&#8217;s degree in Social Science of the Internet from the University of Oxford. The lifecycle of AI, from training to output, has tangled itself around the lives of Chinese illustrators in ways that run in opposite directions. 1 The machine was fed their work, learned their expressions, and is now displacing them. And in the process, it has forced them to answer a question that no one expected to become that urgent a few years ago: how do you prove you are human? The answer, so far, involves courtrooms, livestreams, and job markets. It involves regulatory regimes that strictly govern AI outputs but stay lenient on the inputs, a community that hunts for signs of AI in each other&#8217;s work and demands live drawing sessions as proof of humanity, and an education system that trained illustrators to produce exactly the kind of consistent, replicable output that AI does better and cheaper. Ultimately, the question may be less about how to prove you are human than about why that proof has become so hard to give. The answer, I will argue, lies less in what AI learned from humans than in what humans built long before it arrived: an exam system that trains young artists through standardized metrics and repetitive practice, which looks unsettlingly like an AI training pipeline. In the end, behind Chinese illustrators&#8217; attempt to combat AI lies the broader educational infrastructure that makes humans indistinguishable from machines. So what type of expression emerging from that system, if any, would be untokenizable? This is a story about Chinese illustrators. It is also a story about what we built before AI arrived, and what we are finding out about ourselves now that it has. Feeding In December 2023, the first Chinese case addressing whether AI training constitutes copyright infringement was filed by four illustrators against Xiaohongshu to the Beijing Internet Court. Xiaohongshu ha…",
-      "summary": "AI, Chinese Illustrators, and Becoming Tokenizable",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.81,
-          "rationale": [
-            "research",
-            "science",
-            "finding"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "policy"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -2305,100 +2396,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "2f5ea5468c857934",
-      "date": "2026-07-11",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:thsottiaux",
-      "builderOrOrg": "Thibault Sottiaux",
-      "title": "Enjoy a full reset of your usage limits for ChatGPT Work and Codex. Propagating in the next hou…",
-      "url": "https://x.com/thsottiaux/status/2075330198887940337",
-      "publishedAt": "2026-07-09T21:24:11.000Z",
-      "content": "Enjoy a full reset of your usage limits for ChatGPT Work and Codex. Propagating in the next hour. @_rajanagarwal just joined to work on model research and push on coding capabilities. You can thank him for pressing the button today. https://t.co/vMMwKJibBI",
-      "summary": "Enjoy a full reset of your usage limits for ChatGPT Work and Codex. Propagating in the next hour. @_rajanagarwal just joined to work on model research and push on coding capabilities. You can thank him for pressing the…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 4752,
-        "retweets": 128,
-        "replies": 578
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "9e71766caba9a2ec",
-      "date": "2026-07-11",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "Great post on some of the dynamics to think through for the future competitive advantage in wor…",
-      "url": "https://x.com/levie/status/2075416313481290077",
-      "publishedAt": "2026-07-10T03:06:23.000Z",
-      "content": "Great post on some of the dynamics to think through for the future competitive advantage in world when AI models are shared amongst firms and packing so much for the intelligence of that industry. This is going to become a core question for companies and the economy broadly over the next decade and beyond. If AI is trained on the best datasets in every single industry - like law, finance, healthcare, or life sciences - then how do you compete and differentiate in the future? This is a great ope…",
-      "summary": "Great post on some of the dynamics to think through for the future competitive advantage in world when AI models are shared amongst firms and packing so much for the intelligence of that industry. This is going to becom…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 144,
-        "retweets": 20,
-        "replies": 19
-      },
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "science",
-            "dataset"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]
