@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-07-30T04:25:02.790Z",
+  "generatedAt": "2026-07-31T01:15:16.614Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
     {
-      "id": "03ac9802357ca247",
-      "date": "2026-07-30",
+      "id": "d7a94f46b3355f82",
+      "date": "2026-07-31",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:steipete",
-      "builderOrOrg": "Peter Steinberger",
-      "title": "Serving large models is hard. https://t.co/nCbfTx9lp3",
-      "url": "https://x.com/steipete/status/2082337130299457652",
-      "publishedAt": "2026-07-29T05:27:14.000Z",
-      "content": "Serving large models is hard. https://t.co/nCbfTx9lp3",
-      "summary": "Serving large models is hard. https://t.co/nCbfTx9lp3",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "Thought provoking post by Dwarkesh. In general - as AI gets more powerful - we should expect on…",
+      "url": "https://x.com/levie/status/2082658870523248967",
+      "publishedAt": "2026-07-30T02:45:43.000Z",
+      "content": "Thought provoking post by Dwarkesh. In general - as AI gets more powerful - we should expect on the margin that inference goes toward the most economically useful task, and everything else gets priced out. This in theory in a very scarce environment would cause the cost of inference to skyrocket because those tasks would be far more valuable than today. But I don’t think it plays out in the way that’s laid out just simply due to market forces competing for inference demand as a way of continuin…",
+      "summary": "Thought provoking post by Dwarkesh. In general - as AI gets more powerful - we should expect on the margin that inference goes toward the most economically useful task, and everything else gets priced out. This in theor…",
       "regionTags": [],
       "metrics": {
-        "likes": 115,
-        "retweets": 6,
-        "replies": 15
+        "likes": 133,
+        "retweets": 10,
+        "replies": 20
       },
       "topics": [
         {
@@ -28,21 +28,21 @@
           "label": "Speed & Cost",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "serving"
+            "inference"
           ],
           "score": 1
         }
       ],
       "section": "Builders",
       "importanceScore": 0.7,
-      "noveltyScore": 0.3,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.56,
+      "digestScore": 0.8,
       "whyThisMatters": ""
     },
     {
       "id": "21aa13b33478c6c5",
-      "date": "2026-07-30",
+      "date": "2026-07-31",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
@@ -81,13 +81,66 @@
       "section": "Official Sources",
       "importanceScore": 0.72,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.57,
       "whyThisMatters": ""
     },
     {
+      "id": "d21637a197808d46",
+      "date": "2026-07-31",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "EvoLib: Turning experience into evolving knowledge",
+      "url": "https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge/",
+      "publishedAt": "2026-07-30T16:00:00.000Z",
+      "content": "At a glance Self-supervised. EvoLib enables large language models to learn from their own experience during inference, without requiring ground-truth labels or external feedback. From experience to knowledge. EvoLib transforms past attempts into reusable skills and reflective insights that can be applied to future tasks. Knowledge that evolves. Useful skills and insights are continually refined, consolidated, and reweighted, turning instance-specific observations into increasingly general knowledge over time. Learning that transfers across tasks. By turning experience into reusable knowledge, EvoLib helps AI models learn from past successes and failures and evolve the knowledge that has the highest potential on improving future performance. Built for today&#8217;s AI models. As EvoLib does not require model updates, it can be applied to any black-box language models and AI systems deployed through APIs. Memory has become an important AI agent capability: the ability to store and retrieve past experiences. But memory alone is not learning. A collection of past conversations, reasoning traces, or action histories can quickly grow into a vast archive of experiences, making it difficult to identify the most relevant knowledge for a new task—let alone refine and evolve this knowledge to improve performance over time. Humans learn differently. We do not remember every detail of our past experiences. Instead, we remember what matters: strategies that work, mistakes to avoid, and skills that transfer across situations. Over time, these lessons are refined into increasingly general and reusable knowledge. This ability to transform experience into transferable, evolving knowledge is one of the foundations of human learning. In our recent paper, Test-Time Learning with an Evolving Library , we explore how AI systems can learn from experience in a similar way. We introduce EvoLib , a framework that transforms raw experience into an evolving library of knowledge. Rather than tr…",
+      "summary": "LLMs do not get smarter just by remembering more. EvoLib turns experience into evolving knowledge, taking reusable skills and insights that help models learn and adapt across tasks long after deployment. The post EvoLib: Turning experience…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "paper"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.82,
+      "whyThisMatters": ""
+    },
+    {
       "id": "e6c5b20b9012201d",
-      "date": "2026-07-30",
+      "date": "2026-07-31",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Together AI Blog",
@@ -131,7 +184,7 @@
     },
     {
       "id": "5ec26184d2beeca7",
-      "date": "2026-07-30",
+      "date": "2026-07-31",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Together AI Blog",
@@ -177,7 +230,7 @@
     },
     {
       "id": "3f6e11a6f0fb902e",
-      "date": "2026-07-30",
+      "date": "2026-07-31",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Import AI",
@@ -226,6 +279,43 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "03ac9802357ca247",
+      "date": "2026-07-30",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:steipete",
+      "builderOrOrg": "Peter Steinberger",
+      "title": "Serving large models is hard. https://t.co/nCbfTx9lp3",
+      "url": "https://x.com/steipete/status/2082337130299457652",
+      "publishedAt": "2026-07-29T05:27:14.000Z",
+      "content": "Serving large models is hard. https://t.co/nCbfTx9lp3",
+      "summary": "Serving large models is hard. https://t.co/nCbfTx9lp3",
+      "regionTags": [],
+      "metrics": {
+        "likes": 115,
+        "retweets": 6,
+        "replies": 15
+      },
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "serving"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
@@ -2294,113 +2384,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.58,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "7e93f0d361b0d9ce",
-      "date": "2026-05-18",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Import AI",
-      "sourceKey": "editorial:Import AI",
-      "builderOrOrg": "Jack Clark",
-      "title": "Import AI 456: RSI and economic growth; radical optionality for AI regulation; and a neural computer",
-      "url": "https://jack-clark.net/2026/05/11/import-ai-456-rsi-and-economic-growth-radical-optionality-for-ai-regulation-and-a-neural-computer/",
-      "publishedAt": "2026-05-11T12:46:12.000Z",
-      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Regulate? Don’t regulate. There’s a third way: Radical Optionality: …Governments should invest in the tools now that they might need in a future crisis… Researchers with the Institute for Law & AI have written about “radical optionality”, an approach whereby governments might give themselves the tools that they may need in the future if powerful AI starts to massively disrupt the world. “At its core, radical optionality is about preserving democratic governments’ ability to make good decisions about how to govern transformative AI systems as circumstances evolve. In the short term, this means avoiding overregulation while rapidly building the institutions, information channels and legal authorities needed to respond competently to a broad range of scenarios.” The key idea &#8211; invest now for an uncertain future: Given the immense stakes of AI development, “governments should be willing to spend an extraordinary amount of money, effort, and political capital on preserving optionality”, they write. In other words: It’s such a big deal you should be fine spending a bunch of money now with an uncertain return. “Governments should be wary of counterproductive interventions, but not much concerned with the actual pecuniary cost of any realistic measure that seems likely to have net-positive results”. Specifics: They also recommend several specific interventions in a few categories: Information-gathering authorities : Transparency requirements, where companies need to publish information about their AI systems. Reporting requirements, where companies are compelled to share certain information with a government agency. Once these are in place, establish an auditing regime so some third-party can verify the veracity of what the transparency and reporting rules target. Whistleblower protection…",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Regulate? Don’t regulate. There’s a third way: Radical Op…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "serving"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "168aa5c962a55eca",
-      "date": "2026-05-16",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Thinking Machines' Native Interaction Models - TML-Interaction-Small 276B-A12B - advances SOTA Realtime Voice and kills standard VAD",
-      "url": "https://www.latent.space/p/ainews-thinking-machines-native-interaction",
-      "publishedAt": "2026-05-12T04:33:46.000Z",
-      "content": "By complete coincidence, the day we released Neil Zeghidour (CEO of Gradium, the for profit spinoff of the vaunted Kyutai Moshi )&#8217;s talk on what remains to be built for realtime voice, Thinking Machines emerged for only the third time in a ~year (despite much drama) to drop Interaction Models: A Scalable Approach to Human-AI Collaboration , TML-Interaction-Small is a 276B parameter MoE with 12B active., which immediately advances the state of the art of realtime voice models as Neil had laid out, updating the famously dead GPT 4o &#8220;her&#8221; demo with far more detailed demos that are presumably far closer to real use: The full blogpost has lots of demos of the level of continuous interactivity, focusing on streams of &#8220;time-aligned microturns&#8221; of 200ms each: Using encoder-free early fusion, with images and audio all processed 30x), token usage (>3x), cache hit rates (80&#8211;96%), and time per task (>7x). That benchmark was complemented by OpenHands&#8217; updated software-engineering benchmark announcement ( tweet ) and Claw-Eval&#8217;s more agentic task mix across office, finance, terminal, and web tasks, where MiMo-V2.5-Pro led and DeepSeek V4 Flash looked unusually efficient for its size . TurboQuant skepticism is increasing : Multiple posts pointed to a more sober view of the recently popular quantization/serving technique. @_EldarKurtic presented what he described as the first comprehensive study of TurboQuant , covering accuracy, latency, and throughput; @vllm_project linked the Red Hat / vLLM investigation as a starting point; and @jbhuang0604 bluntly summarized the takeaway as &#8220;it doesn&#8217;t really work well.&#8221; This is exactly the sort of infra claim where independent reproduction matters. Local/open models continue to improve faster than hardware ceilings : @ClementDelangue made the strongest high-level argument here: on the same top-end MacBook Pro memory ceiling, the &#8220;smartest open-weight model you can actual…",
-      "summary": "well done, Team Thinky.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.81,
-          "rationale": [
-            "latency",
-            "throughput",
-            "serving"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.81,
-          "rationale": [
-            "benchmark",
-            "imo",
-            "eval"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     }
   ]

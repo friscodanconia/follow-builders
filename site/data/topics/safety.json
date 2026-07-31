@@ -1,48 +1,113 @@
 {
-  "generatedAt": "2026-07-30T04:25:02.790Z",
+  "generatedAt": "2026-07-31T01:15:16.614Z",
   "slug": "safety",
   "label": "AI Safety",
   "items": [
     {
-      "id": "7ec4cf605feb4f44",
-      "date": "2026-07-30",
+      "id": "e25ad8774de66faa",
+      "date": "2026-07-31",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:garrytan",
-      "builderOrOrg": "Garry Tan",
-      "title": "Sanctuary city policy was never meant to be used to protect fentanyl dealers or violent crimina…",
-      "url": "https://x.com/garrytan/status/2082169572212584877",
-      "publishedAt": "2026-07-28T18:21:25.000Z",
-      "content": "Sanctuary city policy was never meant to be used to protect fentanyl dealers or violent criminals https://t.co/jLsQzhfcuU",
-      "summary": "Sanctuary city policy was never meant to be used to protect fentanyl dealers or violent criminals https://t.co/jLsQzhfcuU",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "The openai agent sandbox escape actually has very real implications for the diffusion of AI in…",
+      "url": "https://x.com/levie/status/2082514776392175844",
+      "publishedAt": "2026-07-29T17:13:08.000Z",
+      "content": "The openai agent sandbox escape actually has very real implications for the diffusion of AI in the enterprise. The incident showed the power and capability of agents, and the need to harden systems and environments to prepare for agents. There are tons of measures that enterprises must take to ensure that agents are only able to operate on the data they give it, the ability to have audit trails and governance of what agents can do, figure out what systems should remain deterministic vs. nondete…",
+      "summary": "The openai agent sandbox escape actually has very real implications for the diffusion of AI in the enterprise. The incident showed the power and capability of agents, and the need to harden systems and environments to p…",
       "regionTags": [],
       "metrics": {
-        "likes": 93,
-        "retweets": 4,
-        "replies": 18
+        "likes": 148,
+        "retweets": 24,
+        "replies": 30
       },
       "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
         {
           "slug": "safety",
           "label": "AI Safety",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "policy"
+            "governance"
           ],
           "score": 1
         }
       ],
       "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
+      "importanceScore": 0.92,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.56,
+      "digestScore": 0.95,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "77ed47d79fe3036d",
+      "date": "2026-07-31",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:danshipper",
+      "builderOrOrg": "Dan Shipper",
+      "title": "incredibly good write up bad actors will obviously try to use models to do stuff like this on p…",
+      "url": "https://x.com/danshipper/status/2082608994275725650",
+      "publishedAt": "2026-07-29T23:27:31.000Z",
+      "content": "incredibly good write up bad actors will obviously try to use models to do stuff like this on purpose in the future. on the bright side: - OpenAI’s safety classifiers were turned off, the model was explicitly directed to do exploits - HG’s AI actually surfaced the attack automatically (though not with a high enough criticality) Will obviously require any company dealing with sensitive customer data to have automated agentic defense systems, massive opportunity and seems effective",
+      "summary": "incredibly good write up bad actors will obviously try to use models to do stuff like this on purpose in the future. on the bright side: - OpenAI’s safety classifiers were turned off, the model was explicitly directed t…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 27,
+        "retweets": 2,
+        "replies": 7
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.78,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.86,
       "whyThisMatters": ""
     },
     {
       "id": "6ecba6d79712538d",
-      "date": "2026-07-30",
+      "date": "2026-07-31",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "ChinaTalk",
@@ -84,7 +149,7 @@
     },
     {
       "id": "07d83a6ada665a2c",
-      "date": "2026-07-30",
+      "date": "2026-07-31",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "ChinaTalk",
@@ -135,7 +200,7 @@
     },
     {
       "id": "ed4ad6ac0ebadc64",
-      "date": "2026-07-30",
+      "date": "2026-07-31",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "ChinaTalk",
@@ -184,6 +249,43 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7ec4cf605feb4f44",
+      "date": "2026-07-30",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:garrytan",
+      "builderOrOrg": "Garry Tan",
+      "title": "Sanctuary city policy was never meant to be used to protect fentanyl dealers or violent crimina…",
+      "url": "https://x.com/garrytan/status/2082169572212584877",
+      "publishedAt": "2026-07-28T18:21:25.000Z",
+      "content": "Sanctuary city policy was never meant to be used to protect fentanyl dealers or violent criminals https://t.co/jLsQzhfcuU",
+      "summary": "Sanctuary city policy was never meant to be used to protect fentanyl dealers or violent criminals https://t.co/jLsQzhfcuU",
+      "regionTags": [],
+      "metrics": {
+        "likes": 93,
+        "retweets": 4,
+        "replies": 18
+      },
+      "topics": [
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "policy"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
@@ -2150,112 +2252,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a937d96dacfc825a",
-      "date": "2026-05-28",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Vega: Zero-knowledge proofs for digital identity in the age of AI",
-      "url": "https://www.microsoft.com/en-us/research/blog/vega-zero-knowledge-proofs-for-digital-identity-in-the-age-of-ai/",
-      "publishedAt": "2026-05-21T13:48:40.000Z",
-      "content": "At a glance Vega lets users prove facts from government-issued credentials — age, personhood, professional&nbsp;status — without revealing the credential itself. The credential never leaves the device.&nbsp; Zero-knowledge proofs are&nbsp;generated in&nbsp;under 100&nbsp;ms&nbsp;on a commodity client device with no trusted setup, making private identity verification practical at scale.&nbsp; Fold-and-reuse proving means repeated presentations — to different services or through AI agents — skip most of the expensive work after the first proof.&nbsp; Vega targets real-world formats like mobile driver&#8217;s licenses and the EU Digital Identity Wallet, is built in Rust, and will be open sourced soon. AI is transforming how people interact with digital services, from AI-powered assistants to autonomous agents that act on a user’s behalf. As these capabilities grow, so does the value of strong digital identity: users need reliable ways to establish trust, whether proving they are human or sharing a credential with an AI-mediated service. Government-issued credentials are still the strongest foundation for trust, but today’s verification methods often require people to hand them over. As AI agents begin acting on behalf of humans and interacting with decentralized systems, the need for fast, privacy-preserving ways to prove credentials will only grow. These needs are already materializing in policy. Governments are moving quickly to formalize digital identity. The EU Digital Identity (EUDI) framework aims to make digital wallets available to all EU citizens, and efforts like the EU’s age-verification blueprint and the UK’s Online Safety Act mandate government ID-based methods for age checks. Application providers face a double bind: they must either use less accurate approaches like AI-based age estimation, or compromise user privacy by requiring ID uploads. The credential gets uploaded, processed, sometimes stored, and eventually (hopefully) deleted. But high-profile b…",
-      "summary": "Vega turns a full credential into a single proof, sharing only what is needed and nothing more, with performance that works in real apps. The post Vega: Zero-knowledge proofs for digital identity in the age of AI appeared first on Microsof…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "autonomous"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.69,
-          "rationale": [
-            "safety",
-            "policy"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "serving"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "aae9baebe2f8f5df",
-      "date": "2026-05-28",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Doing Big Things in Policy",
-      "url": "https://www.chinatalk.media/p/doing-big-things-in-policy",
-      "publishedAt": "2026-05-21T11:03:40.000Z",
-      "content": "Want to do big things? Today we&#8217;re providing a guide of sorts. Joining me is Remco Zwetsloot of the Horizon Institute for Public Service and Kumar Garg of Renaissance Philanthropy . We discuss: Why achieving goals in policy is more possible than most people think and that the real bottleneck is ambitious, mission-driven talent, How successful policymakers think differently &#8212; how they focus on outcomes over &#8220;portfolios,&#8221; learn the system deeply, and work backwards from impact, Why policymaking rewards immersion, sensemaking, and coalition-building more than raw technical or academic brilliance, The importance of peers, persistence, and &#8220;water on stone&#8221; stamina in sustaining long-term policy and public service careers, How writing, public ideas, and the &#8220;posting-to-policy&#8221; pipeline are democratizing access to influence in Washington. Horizon recently launched Launchpad , a Substack on working in emerging tech policy with advice, explainers, and conversations like this one. If you enjoyed this conversation, you&#8217;ll probably like their other stuff as well. Launchpad Conversations and advice about working in emerging tech policy, from the Horizon Institute for Public Service. Optimizing for Impact Jordan Schneider: Kumar, what is RenPhil, and Remco, what is Horizon? Kumar Garg: We help donors bet big on science and technology. Remco Zwetsloot: And Horizon builds pipelines into public service for people working on emerging tech. Jordan Schneider: Kumar, what do you want to tell the kids? Kumar Garg: There&#8217;s a Tyler Cowen line about raising people&#8217;s ambitions that I love. The practical thing when I&#8217;m giving career advice is that people are very narrow in what they think career paths look like. They say, &#8220;Hey, I was looking around and I saw these jobs being listed. Which one should I apply for?&#8221; And I tell them, &#8220;I have never applied for a job that I have actually worked at.&#8221; I&#…",
-      "summary": "A guide, of sorts",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "science"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "policy"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     }
   ]

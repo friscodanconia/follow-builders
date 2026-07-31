@@ -1,8 +1,580 @@
 {
-  "generatedAt": "2026-07-30T04:25:02.790Z",
+  "generatedAt": "2026-07-31T01:15:16.614Z",
   "slug": "enterprise",
   "label": "Business AI",
   "items": [
+    {
+      "id": "e25ad8774de66faa",
+      "date": "2026-07-31",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "The openai agent sandbox escape actually has very real implications for the diffusion of AI in…",
+      "url": "https://x.com/levie/status/2082514776392175844",
+      "publishedAt": "2026-07-29T17:13:08.000Z",
+      "content": "The openai agent sandbox escape actually has very real implications for the diffusion of AI in the enterprise. The incident showed the power and capability of agents, and the need to harden systems and environments to prepare for agents. There are tons of measures that enterprises must take to ensure that agents are only able to operate on the data they give it, the ability to have audit trails and governance of what agents can do, figure out what systems should remain deterministic vs. nondete…",
+      "summary": "The openai agent sandbox escape actually has very real implications for the diffusion of AI in the enterprise. The incident showed the power and capability of agents, and the need to harden systems and environments to p…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 148,
+        "retweets": 24,
+        "replies": 30
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "governance"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.92,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.95,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "2a65256d9cea0a1c",
+      "date": "2026-07-31",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Advancing the price-performance frontier with GPT-5.6",
+      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+      "publishedAt": "2026-07-30T10:00:00.000Z",
+      "content": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
+      "summary": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.78,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "1e520cde1a48179f",
+      "date": "2026-07-31",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Redeploying Claude Fable 5 \\ Anthropic",
+      "url": "https://www.anthropic.com/news/redeploying-fable-5",
+      "publishedAt": null,
+      "content": "Anthropic is redeploying Claude Fable 5 starting July 1 following the lifting of export controls, with updated cybersecurity safeguards and a new industry jailbreak framework.",
+      "summary": "Anthropic is redeploying Claude Fable 5 starting July 1 following the lifting of export controls, with updated cybersecurity safeguards and a new industry jailbreak framework.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "abf882c3ab9b59a2",
+      "date": "2026-07-31",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations \\ Anthropic",
+      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "publishedAt": null,
+      "content": "In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access…",
+      "summary": "In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "eval",
+            "evaluation"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.78,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "e6c5b20b9012201d",
+      "date": "2026-07-31",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "Configuring Dedicated Model Inference",
+      "url": "https://www.together.ai/blog/configuring-dedicated-model-inference",
+      "publishedAt": "2026-07-29T00:00:00.000Z",
+      "content": "The three-part resource model behind Together AI Dedicated Model Inference—endpoints, deployments, configs—and how capacity-aware routing ties them together.",
+      "summary": "The three-part resource model behind Together AI Dedicated Model Inference—endpoints, deployments, configs—and how capacity-aware routing ties them together.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "deployment"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "5b90819afbee9482",
+      "date": "2026-07-31",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "Mistral OCR 4 : SOTA OCR for Document Intelligence",
+      "url": "https://mistral.ai/news/ocr-4/",
+      "publishedAt": null,
+      "content": "Mistral OCR 4 delivers enterprise document AI with 170-language support, bounding boxes, and self-hosted deployment.",
+      "summary": "Mistral OCR 4 delivers enterprise document AI with 170-language support, bounding boxes, and self-hosted deployment.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.69,
+          "rationale": [
+            "enterprise",
+            "deployment"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "155df4c562ef069b",
+      "date": "2026-07-31",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "Introducing Mistral Small 4 | Mistral AI",
+      "url": "https://mistral.ai/news/mistral-small-4/",
+      "publishedAt": null,
+      "content": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
+      "summary": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "autonomous"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "multimodal"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.8,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.63,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "988e95556125b0b0",
+      "date": "2026-07-31",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web",
+      "url": "https://www.latent.space/p/ontologies-agentic-systems",
+      "publishedAt": "2026-07-30T11:17:55.000Z",
+      "content": "One of the most watched videos from the recent AI Engineer World&#8217;s Fair is a 20-minute talk by Frank Coyle , a professor of computer science who currently teaches generative AI and LLMs at UC Berkeley. Drawing on his decades of experience, Coyle re-introduced the concept and practice of ontologies to today&#8217;s AI engineers . Coyle argued that while LLMs are very effective at providing probabilistic reasoning, for agentic systems to be truly effective they need &#8220;logical guardrails&#8221; &#8212; by which he means ontologies. UC Berkeley professor Frank Coyle speaking at AIEWF 2026. In computer science, an ontology is &#8220;a description of data structure &#8211; of classes, properties, and relationships in a domain of knowledge&#8221; (as nicely defined by Oxford Semantic Technologies ). Coyle himself defined an ontology as simply &#8220;data as graphs.&#8221; He added that ontologies as a concept go right back to Aristotle, and have been used throughout the history of Artificial Intelligence. The company Neo4j, known for its graph database systems, is also using ontologies in its agentic products. In a keynote session at AIEWF , Neo4j CEO Emil Eifrem talked about three different types of ontologies to enable a &#8220;smarter shared substrate&#8221; to run agents at scale . The first is a business-facing ontology, describing the key concepts in an organization; next is a technical ontology, which Eifrem described as &#8220;all the metadata of all the data sources and data assets in your enterprise ecosystem&#8221;; and finally execution traces, which are &#8220;the runtime signals out of your agent.&#8221; Neo4j&#8217;s ontology-based semantic layer What&#8217;s Old is New Again: the Semantic Web Frank Coyle thinks web ontologies are especially useful in building agentic systems. He mentioned Schema.org, FOAF, Dublin Core and other ontologies familiar to web developers &#8212; or at least, those of a certain vintage. He also mentioned &#8220;augment…",
+      "summary": "AI engineers are rediscovering ontologies as a way to keep probabilistic agents inside deterministic boundaries.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "developer"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.62,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.75,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "248363d5df8b33da",
+      "date": "2026-07-31",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] AI is eating Finance; AIE NYC now open",
+      "url": "https://www.latent.space/p/ainews-ai-is-eating-finance-aie-nyc",
+      "publishedAt": "2026-07-29T23:32:12.000Z",
+      "content": "We love writing a newsletter that cares more about being high signal than telling you there&#8217;s breaking news every single waking minute. Everything in today&#8217;s trending topics, from Kimi K3 to Open Weights to the Security debate to The Big Pace , we already featured once on AINews and it doesn&#8217;t bear further writeup. AI in Finance One noteworthy trend we ARE tracking is the rise of AI in Finance , which though is often covered by Forward Deployed Engineering , is being broadly adopted in every subsector of financial services. You can tell it&#8217;s a big deal when OpenAI gets ae to put on a suit for their NYC event with dedicated equity investing and investment banking plugins in Codex , and Anthropic&#8217;s Financial Services team also does an NYC event and releases Cowork and Claude Code agent templates covering every workflow in corporate finance . To add to this coverage, the full Finance track was released today, covering: - FactSet / Yogendra Miraje: At a company serving thousands of financial-data clients, &#8220;AI skills&#8221; aren&#8217;t just features &#8212; they need ownership, search, evals, audits, and governance to become enterprise-grade agent infrastructure. - Nubank + Snowglobe: For a digital bank with 100M+ customers, simulations can turn agent evals from a bottleneck into the release mechanism for shipping customer-facing AI faster. - Intuit / Udi Menkes: When you serve ~100M consumers, small businesses, and accountants, generic LLMs aren&#8217;t enough &#8212; finance AI has to understand real state, actions, outcomes, and risk. - Kepler / Vinoo Ganesh: In financial research, where Kepler indexes millions of filings and market documents, &#8220;verifiable AI&#8221; means every answer needs provenance, reconciliation, and review. - Nubank / Lucas Palma: At one of the world&#8217;s largest digital banks, vetting thousands of AI skills before developers use them becomes a supply-chain security problem, not just a DX problem. -…",
+      "summary": "a quiet day lets us cover how AI is permeating financial services as the next big vertical after coding.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "developer"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.69,
+          "rationale": [
+            "enterprise",
+            "security"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.62,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.51,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "09275419c460a5e7",
+      "date": "2026-07-31",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Fearing RSI: OpenAI, Anthropic, GDM, Meta, Thinky cosign letter to \"Pace\" AI development, as HuggingFace details Machine-Speed Offensive Cyberattack",
+      "url": "https://www.latent.space/p/ainews-fearing-rsi-openai-anthropic",
+      "publishedAt": "2026-07-29T00:46:52.000Z",
+      "content": "3 years ago, Elon Musk and Yoshua Bengio cosigned the Future of Life&#8217;s letter arguing for a 6 month pause in AI , which most frontier AI leaders gleefully ignored. Today, the pausers have the last laugh. Yesterday, we said that unless you &#8220;make law, make chips, or make models&#8221;, you can probably ignore the current debate about open weights models (those of you who shouted us out, thank you!) Today, we have something we CANNOT ignore: over 1,000 frontier lab employees, from substantively all frontier labs except X.ai, have cosigned a different statement: &#8220;AI could help create a dramatically better future, but that outcome is not guaranteed. The world&#8217;s leading AI companies believe they could be close to automating AI research . It is hard to predict exactly how much this will accelerate AI progress, but there is a real risk that capability development rapidly accelerates beyond our ability to understand or control the resulting systems . To realize AI&#8217;s potential, industry, government, and society at large may need the option to buy time to address emerging risks, develop security measures, and strengthen oversight. But each company&#8212;and country&#8212;is under intense competitive pressure not to unilaterally slow that acceleration. And today, the world lacks the technical and governance tools to deliberately pace frontier-wide progress. Building on work already underway to monitor frontier model releases: We request that the U.S. government support an international effort to develop the technical and governance tools needed to deliberately pace the frontier of automated AI development.&#8221; - 1,171 employees of frontier AI companies While it is framed as an action taken in &#8220;personal capacity and do not necessarily represent any company&#8217;s views&#8221;, but when Dario is cosigning, Sam is on podcasts agreeing , and the official @OpenAI account is tweeting this letter , let&#8217;s just say the letter is a little mo…",
+      "summary": "The Big Pause is coming.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.69,
+          "rationale": [
+            "weights",
+            "huggingface"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7253b89999b408cd",
+      "date": "2026-07-31",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "China's Other Minerals Monopoly",
+      "url": "https://www.chinatalk.media/p/chinas-other-minerals-monopoly",
+      "publishedAt": "2026-07-30T10:54:20.000Z",
+      "content": "Today&#8217;s guest post was authored by Nima Khorrami, a Stockholm-based Research Associate at the Arctic Institute, Centre for Circumpolar Security Studies. After decades of neglect, Washington has adopted a coherent and &#8220;forceful&#8221; response to China&#8217;s dominance over critical minerals. China controls an estimated 91 percent of global rare earth refining, dominates the processing of a wide range of minerals, and has demonstrated repeatedly that it is willing to weaponise that position. The United States has responded through a range of initiatives and policy packages including Executive Order 14241 , the One Big Beautiful Bill Act , and Pax Silica . Add bilateral deals with Australia , Japan , the DRC , and Saudi Arabia , and the result is undeniably a more aggressive and cohesive mineral strategy than the United States has attempted in decades. The problem is not with any of these agreements and frameworks. Instead, it is with what is systematically absent from them. The entire architecture of American mineral strategy, and indeed the EU&#8217;s parallel effort under its Critical Raw Materials Act and RESourceEU , is built around two variables: where minerals are located and who processes them. What it consistently underweights is a third variable that will most likely prove equally consequential over the medium term: who controls the technology that operates the mines themselves . This constitutes the central strategic blind spot in the West&#8217;s mineral autonomy agenda because China is not just dominant in mineral processing. Beijing is also rapidly establishing dominance in the operational technology of extraction; the autonomous systems, industrial AI, connectivity infrastructure, and integrated machine intelligence that will define how the world&#8217;s future mines will run. Today, we&#8217;ll explore China&#8217;s dominance in autonomous mining technology and what to do about it. If that dominance goes unchecked, the US and its allies c…",
+      "summary": "autonomous mining!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "autonomous"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "weights"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.62,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.75,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d850985471f7bbc7",
+      "date": "2026-07-31",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "WarTalk: Ancient Greece Edition",
+      "url": "https://www.chinatalk.media/p/wartalk-ancient-greece-edition",
+      "publishedAt": "2026-07-26T11:32:33.000Z",
+      "content": "From Xi Jinping invoking the Thucydides Trap to Hegseth&#8217;s &#8220;high-T military&#8221; and love affair with 300, the modern security world keeps reaching back to classical Greece to explain itself. Usually badly. Our guest is Roel Konijnendijk, ancient history lecturer at the University of Oxford and author of Classical Greek Tactics: A Cultural History , joining Jordan, Justin, and Tony. We discuss&#8230; Why most scholars of Thucydides think there&#8217;s not much left of the &#8220;Thucydides Trap&#8221; once you take his name off it 300 and Gates of Fire as studies of masculinity: &#8220;It&#8217;s about the USMC in fancy dress&#8221; The counterintuitive reason Greek citizen-soldiers thought training for war was ridiculous Homeric gore, the slaughter of the suitors, and whether the Odyssey wants you to approve Achilles on immortality versus glory, and why this poem still keeps us arguing 2,700 years later Listen now on your favorite podcast app . Jordan Schneider: WarTalk, Ancient Greek edition. We have with us the delightful Roel Konijnendijk, professor at the University of Oxford. We talk about, my goodness, Graham Allison and the Thucydides Trap, 300 and how it pollutes teenage boys and defense secretaries&#8217; minds, Homer really liking blood, guts, and gore, and military ethics. This is a really good show. You guys are going to have a lot of fun. All right, let&#8217;s roll the tape. The Thucydides Trap Is Fake not happy getting appropriated by Graham Jordan Schneider: So how do ancient Greek historians today feel about Xi Jinping talking about this Thucydides Trap? Roel Konijnendijk: So the Thucydides Trap is an idea that was invented in 2017, I think, by Graham Allison. He&#8217;s not an ancient historian. So it&#8217;s one of those moments where on the one hand, okay, it&#8217;s great, everybody&#8217;s talking about Thucydides, surely that&#8217;s good. But on the other hand, it is in an extremely shallow way. I read Graham Allison&#8217;s bo…",
+      "summary": "Thucydides Trap, 300, and what the classics actually say about war",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
     {
       "id": "15430b6d34a022f8",
       "date": "2026-07-30",
@@ -57,331 +629,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.61,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "1e520cde1a48179f",
-      "date": "2026-07-30",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Redeploying Claude Fable 5 \\ Anthropic",
-      "url": "https://www.anthropic.com/news/redeploying-fable-5",
-      "publishedAt": null,
-      "content": "Anthropic is redeploying Claude Fable 5 starting July 1 following the lifting of export controls, with updated cybersecurity safeguards and a new industry jailbreak framework.",
-      "summary": "Anthropic is redeploying Claude Fable 5 starting July 1 following the lifting of export controls, with updated cybersecurity safeguards and a new industry jailbreak framework.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "e6c5b20b9012201d",
-      "date": "2026-07-30",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Together AI Blog",
-      "sourceKey": "official:Together AI Blog",
-      "builderOrOrg": "Together AI",
-      "title": "Configuring Dedicated Model Inference",
-      "url": "https://www.together.ai/blog/configuring-dedicated-model-inference",
-      "publishedAt": "2026-07-29T00:00:00.000Z",
-      "content": "The three-part resource model behind Together AI Dedicated Model Inference—endpoints, deployments, configs—and how capacity-aware routing ties them together.",
-      "summary": "The three-part resource model behind Together AI Dedicated Model Inference—endpoints, deployments, configs—and how capacity-aware routing ties them together.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "deployment"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "5b90819afbee9482",
-      "date": "2026-07-30",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Mistral AI Blog",
-      "sourceKey": "official:Mistral AI Blog",
-      "builderOrOrg": "Mistral AI",
-      "title": "Mistral OCR 4 : SOTA OCR for Document Intelligence",
-      "url": "https://mistral.ai/news/ocr-4/",
-      "publishedAt": null,
-      "content": "Mistral OCR 4 delivers enterprise document AI with 170-language support, bounding boxes, and self-hosted deployment.",
-      "summary": "Mistral OCR 4 delivers enterprise document AI with 170-language support, bounding boxes, and self-hosted deployment.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.69,
-          "rationale": [
-            "enterprise",
-            "deployment"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "155df4c562ef069b",
-      "date": "2026-07-30",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Mistral AI Blog",
-      "sourceKey": "official:Mistral AI Blog",
-      "builderOrOrg": "Mistral AI",
-      "title": "Introducing Mistral Small 4 | Mistral AI",
-      "url": "https://mistral.ai/news/mistral-small-4/",
-      "publishedAt": null,
-      "content": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
-      "summary": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "autonomous"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "multimodal"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.8,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.63,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "248363d5df8b33da",
-      "date": "2026-07-30",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] AI is eating Finance; AIE NYC now open",
-      "url": "https://www.latent.space/p/ainews-ai-is-eating-finance-aie-nyc",
-      "publishedAt": "2026-07-29T23:32:12.000Z",
-      "content": "We love writing a newsletter that cares more about being high signal than telling you there&#8217;s breaking news every single waking minute. Everything in today&#8217;s trending topics, from Kimi K3 to Open Weights to the Security debate to The Big Pace , we already featured once on AINews and it doesn&#8217;t bear further writeup. AI in Finance One noteworthy trend we ARE tracking is the rise of AI in Finance , which though is often covered by Forward Deployed Engineering , is being broadly adopted in every subsector of financial services. You can tell it&#8217;s a big deal when OpenAI gets ae to put on a suit for their NYC event with dedicated equity investing and investment banking plugins in Codex , and Anthropic&#8217;s Financial Services team also does an NYC event and releases Cowork and Claude Code agent templates covering every workflow in corporate finance . To add to this coverage, the full Finance track was released today, covering: - FactSet / Yogendra Miraje: At a company serving thousands of financial-data clients, &#8220;AI skills&#8221; aren&#8217;t just features &#8212; they need ownership, search, evals, audits, and governance to become enterprise-grade agent infrastructure. - Nubank + Snowglobe: For a digital bank with 100M+ customers, simulations can turn agent evals from a bottleneck into the release mechanism for shipping customer-facing AI faster. - Intuit / Udi Menkes: When you serve ~100M consumers, small businesses, and accountants, generic LLMs aren&#8217;t enough &#8212; finance AI has to understand real state, actions, outcomes, and risk. - Kepler / Vinoo Ganesh: In financial research, where Kepler indexes millions of filings and market documents, &#8220;verifiable AI&#8221; means every answer needs provenance, reconciliation, and review. - Nubank / Lucas Palma: At one of the world&#8217;s largest digital banks, vetting thousands of AI skills before developers use them becomes a supply-chain security problem, not just a DX problem. -…",
-      "summary": "a quiet day lets us cover how AI is permeating financial services as the next big vertical after coding.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "code",
-            "developer"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.69,
-          "rationale": [
-            "enterprise",
-            "security"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.62,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.51,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "09275419c460a5e7",
-      "date": "2026-07-30",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Fearing RSI: OpenAI, Anthropic, GDM, Meta, Thinky cosign letter to \"Pace\" AI development, as HuggingFace details Machine-Speed Offensive Cyberattack",
-      "url": "https://www.latent.space/p/ainews-fearing-rsi-openai-anthropic",
-      "publishedAt": "2026-07-29T00:46:52.000Z",
-      "content": "3 years ago, Elon Musk and Yoshua Bengio cosigned the Future of Life&#8217;s letter arguing for a 6 month pause in AI , which most frontier AI leaders gleefully ignored. Today, the pausers have the last laugh. Yesterday, we said that unless you &#8220;make law, make chips, or make models&#8221;, you can probably ignore the current debate about open weights models (those of you who shouted us out, thank you!) Today, we have something we CANNOT ignore: over 1,000 frontier lab employees, from substantively all frontier labs except X.ai, have cosigned a different statement: &#8220;AI could help create a dramatically better future, but that outcome is not guaranteed. The world&#8217;s leading AI companies believe they could be close to automating AI research . It is hard to predict exactly how much this will accelerate AI progress, but there is a real risk that capability development rapidly accelerates beyond our ability to understand or control the resulting systems . To realize AI&#8217;s potential, industry, government, and society at large may need the option to buy time to address emerging risks, develop security measures, and strengthen oversight. But each company&#8212;and country&#8212;is under intense competitive pressure not to unilaterally slow that acceleration. And today, the world lacks the technical and governance tools to deliberately pace frontier-wide progress. Building on work already underway to monitor frontier model releases: We request that the U.S. government support an international effort to develop the technical and governance tools needed to deliberately pace the frontier of automated AI development.&#8221; - 1,171 employees of frontier AI companies While it is framed as an action taken in &#8220;personal capacity and do not necessarily represent any company&#8217;s views&#8221;, but when Dario is cosigning, Sam is on podcasts agreeing , and the official @OpenAI account is tweeting this letter , let&#8217;s just say the letter is a little mo…",
-      "summary": "The Big Pause is coming.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.69,
-          "rationale": [
-            "weights",
-            "huggingface"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d850985471f7bbc7",
-      "date": "2026-07-30",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "WarTalk: Ancient Greece Edition",
-      "url": "https://www.chinatalk.media/p/wartalk-ancient-greece-edition",
-      "publishedAt": "2026-07-26T11:32:33.000Z",
-      "content": "From Xi Jinping invoking the Thucydides Trap to Hegseth&#8217;s &#8220;high-T military&#8221; and love affair with 300, the modern security world keeps reaching back to classical Greece to explain itself. Usually badly. Our guest is Roel Konijnendijk, ancient history lecturer at the University of Oxford and author of Classical Greek Tactics: A Cultural History , joining Jordan, Justin, and Tony. We discuss&#8230; Why most scholars of Thucydides think there&#8217;s not much left of the &#8220;Thucydides Trap&#8221; once you take his name off it 300 and Gates of Fire as studies of masculinity: &#8220;It&#8217;s about the USMC in fancy dress&#8221; The counterintuitive reason Greek citizen-soldiers thought training for war was ridiculous Homeric gore, the slaughter of the suitors, and whether the Odyssey wants you to approve Achilles on immortality versus glory, and why this poem still keeps us arguing 2,700 years later Listen now on your favorite podcast app . Jordan Schneider: WarTalk, Ancient Greek edition. We have with us the delightful Roel Konijnendijk, professor at the University of Oxford. We talk about, my goodness, Graham Allison and the Thucydides Trap, 300 and how it pollutes teenage boys and defense secretaries&#8217; minds, Homer really liking blood, guts, and gore, and military ethics. This is a really good show. You guys are going to have a lot of fun. All right, let&#8217;s roll the tape. The Thucydides Trap Is Fake not happy getting appropriated by Graham Jordan Schneider: So how do ancient Greek historians today feel about Xi Jinping talking about this Thucydides Trap? Roel Konijnendijk: So the Thucydides Trap is an idea that was invented in 2017, I think, by Graham Allison. He&#8217;s not an ancient historian. So it&#8217;s one of those moments where on the one hand, okay, it&#8217;s great, everybody&#8217;s talking about Thucydides, surely that&#8217;s good. But on the other hand, it is in an extremely shallow way. I read Graham Allison&#8217;s bo…",
-      "summary": "Thucydides Trap, 300, and what the classics actually say about war",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
       "whyThisMatters": ""
     },
     {
@@ -2210,250 +2457,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.7,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "67b55bade2858120",
-      "date": "2026-07-18",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:realmadhuguru",
-      "builderOrOrg": "Madhu Guru",
-      "title": "Open-weight models like Kimi and GLM will cause a complete rethink of the enterprise AI stack.…",
-      "url": "https://x.com/realmadhuguru/status/2077885624607228018",
-      "publishedAt": "2026-07-16T22:38:32.000Z",
-      "content": "Open-weight models like Kimi and GLM will cause a complete rethink of the enterprise AI stack. If you are running an enterprise, you need to maximimize model optionality. Here are 3 things you should be doing: 1. Evals - build rigorous evals representative of your use case (a) Regression evals - tablestakes features that should always work with high reliability (b) Aspirational / hill-climbing evals - harder use cases that the best model for your price point struggles to solve. So you scaffold…",
-      "summary": "Open-weight models like Kimi and GLM will cause a complete rethink of the enterprise AI stack. If you are running an enterprise, you need to maximimize model optionality. Here are 3 things you should be doing: 1. Evals…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 92,
-        "retweets": 7,
-        "replies": 4
-      },
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "eval"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "china-models",
-          "label": "Chinese AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "kimi"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Chinese Models",
-      "importanceScore": 0.93,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.71,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "c6cd7d2ec84a105d",
-      "date": "2026-07-18",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:_catwu",
-      "builderOrOrg": "Cat Wu",
-      "title": "You know your workflows best. Show our team how you use Cowork so we can make it work better fo…",
-      "url": "https://x.com/_catwu/status/2077933568282755145",
-      "publishedAt": "2026-07-17T01:49:03.000Z",
-      "content": "You know your workflows best. Show our team how you use Cowork so we can make it work better for you! If you're in marketing, sales, finance, legal, or any non-engineering role, sign up here for a 30 min screen share with our team: https://t.co/kvc8uYzcNL",
-      "summary": "You know your workflows best. Show our team how you use Cowork so we can make it work better for you! If you're in marketing, sales, finance, legal, or any non-engineering role, sign up here for a 30 min screen share wi…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 155,
-        "retweets": 9,
-        "replies": 11
-      },
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "sales"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.78,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.61,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "879c344d440e56f1",
-      "date": "2026-07-18",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "It’s truly wild that we’re getting this level of performance from open models. Congrats to Kimi…",
-      "url": "https://x.com/levie/status/2077857617859535112",
-      "publishedAt": "2026-07-16T20:47:15.000Z",
-      "content": "It’s truly wild that we’re getting this level of performance from open models. Congrats to Kimi team on this. Every time we lower the cost of frontier intelligence, the use-cases that enterprises can take on just go up. There’s a tremendous amount of workflows that enterprises would love to deploy that are only gated by the cost of tokens. Importantly for the startup ecosystem, the combined breakthroughs from open and closed labs enable a ton of value to accrue to the layer, which can leverage…",
-      "summary": "It’s truly wild that we’re getting this level of performance from open models. Congrats to Kimi team on this. Every time we lower the cost of frontier intelligence, the use-cases that enterprises can take on just go up.…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 529,
-        "retweets": 46,
-        "replies": 37
-      },
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "china-models",
-          "label": "Chinese AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "kimi"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Chinese Models",
-      "importanceScore": 0.93,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.71,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "ec88a8e04509d9e2",
-      "date": "2026-07-18",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "Here’s another awesome use-case for what we can now do with our unstructured data because of AI…",
-      "url": "https://x.com/levie/status/2077782120232350205",
-      "publishedAt": "2026-07-16T15:47:15.000Z",
-      "content": "Here’s another awesome use-case for what we can now do with our unstructured data because of AI agents. Box now works with Databricks so you can take structured data from enterprise content (like contracts, financial document, supply chain data) and connect that data into Databricks. This means that I can now query large document datasets without moving or reprocessing that content. And you can connect the data with any other system, like your ERP data, CRM, or product analytics. This opens up…",
-      "summary": "Here’s another awesome use-case for what we can now do with our unstructured data because of AI agents. Box now works with Databricks so you can take structured data from enterprise content (like contracts, financial do…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 131,
-        "retweets": 16,
-        "replies": 16
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "dataset"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.92,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.7,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "c21f69c947be582e",
-      "date": "2026-07-18",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "Unsupervised Learning",
-      "sourceKey": "podcast:Unsupervised Learning",
-      "builderOrOrg": "Unsupervised Learning",
-      "title": "Ep 91: Top AI Analyst Unpacks Today&apos;s AI Hype Cycle",
-      "url": "https://www.youtube.com/watch?v=vDY_ocrkQ5w",
-      "publishedAt": "2026-07-16T12:48:06.000Z",
-      "content": "Speaker 1 | 00:00 - 00:03 You can wave your hands and say, no. This is like electricity. Okay. Fine. It's like electricity. Speaker 1 | 00:03 - 00:09 Well, what happened with electricity? And there was a time before electricity, and people before electricity weren't dumb either. Do you Speaker 2 | 00:09 - 00:12 think it's irrational that, like, the heads of these labs are talking so much about job loss? Speaker 1 | 00:12 - 00:20 We get deep into logical fallacies here. So we've got Jeff Hinton, was ten years ago, saying stop training radiologists. And the problem here here is he doesn't actually understand what radiologists do. Speaker 2 | 00:20 - 00:24 Given this discussion we've had on the foundation models, would you be doing anything different in terms of, like, focus? Speaker 1 | 00:26 - 00:28 I have a lot of sympathy for Sam Walton. Speaker 2 | 00:28 - 00:46 I'm Jacob Efron from Redpoint, and this is Unsupervised Learning. A podcast where we probe the sharpest minds in AI about what's happening in the ecosystem today and where the future's headed. Today, we had an awesome conversation with Benedict Evans. He's one of my favorite thinkers in the space. I love reading his newsletters, presentations, and had the chance to sit down with him and talk through a bunch of things. Speaker 2 | 00:46 - 01:10 We talked about where value will accrue in AI, as well as what he thinks the ultimate valuations of the foundation models might look like. We talked about why consumer AI applications aren't really working today, and the kind of jagged edge of capabilities and their implications on enterprise adoption overall. And we hit on a lot of his really interesting takes on job usage, whether this is an enabling technology or not. Just awesome to get to talk with one of my favorite thinkers about a bunch of these things. I think folks will really enjoy the conversation. Speaker 2 | 01:10 - 01:23 Without further ado, here's Bennett. Well, very excited to do this. I feel like you're one of the most thoughtful people on tech. I love reading the presentations you do. You've obviously have a huge influence on the ecosystem at large. Speaker 2 | 01:23 - 01:50 And today, excited to dig into your opinions on the ecosystem as we have it today, the future of the model labs, where value accrues. But where I really wanna start with is the hype in the current moment, because I feel like you have maybe a more subdued take. It's funny to call a subdued take being that this is as big a deal as the internet and mobile, but maybe not civilization altering like the industrial revolution, but I wanna start there. What do you like paying attention to that might change your mind on that? Because I'm sure a lot of our listeners will disagree. Speaker 1 | 01:50 - 02:23 I'm not sure how analytic you can get about saying, well, is this as big as mobile or as big as the internet or as big as computer Were mobile bigger than PCs? I struggle to kind of How you can kind of quantify those things? I think the place that I'd come from is just to say, look, the internet was kind of a big deal and did absolutely change everything. And so was mobile and so was PCs. And yes, I think you certainly kind of can say that the web was bigger than PCs because PCs was like 50 or a 100,000,000 devices. Speaker 1 | 02:24 - 02:48 When Marc Andreessen launched Netscape, there were like 75,000,000, a 100,000,000 PCs in the world and now there's 5,000,000,000 smartphones. So clearly it's got bigger over time. I suppose the thing I sort of struggle with is that nothing like this has ever happened before. And we've not had technology wiping out great swathes of jobs before. And we're automating stuff in a way that this has never been done before. Speaker 1 | 02:48 - 03:08 And I kind of, I was talking to somebody the other day at a big company and they were, you know, very smart guy, PhD in all sorts of computer science y stuff. And they said, you know, big companies have never had to deal…",
-      "summary": "Speaker 1 | 00:00 - 00:03 You can wave your hands and say, no. This is like electricity. Okay. Fine. It's like electricity. Speaker 1 | 00:03 - 00:09 Well, what happened with electricity? And there was a time before electricity, and people…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "science"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.6,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.49,
       "whyThisMatters": ""
     }
   ]
