@@ -1,8 +1,340 @@
 {
-  "generatedAt": "2026-07-31T04:49:52.167Z",
+  "generatedAt": "2026-08-01T01:25:13.792Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
+    {
+      "id": "4f2d9847250567ec",
+      "date": "2026-08-01",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:swyx",
+      "builderOrOrg": "Swyx",
+      "title": "verbalizing one of those aha moments i had that seems retroactively pretty obvious: if you prio…",
+      "url": "https://x.com/swyx/status/2083016652032188669",
+      "publishedAt": "2026-07-31T02:27:25.000Z",
+      "content": "verbalizing one of those aha moments i had that seems retroactively pretty obvious: if you prioritize pretrain data quality enough that commoncrawl isn't good enough for you, you have to build a Whole Web scraper anyway, and if you wanna keep it current, you have to have indexing, and pretty soon you find yourself having built a total private low-frequency clone of Google as a SIDE PROJECT of pretraining, that you can then also reuse for the agent side inference. we do know that the labs do use…",
+      "summary": "verbalizing one of those aha moments i had that seems retroactively pretty obvious: if you prioritize pretrain data quality enough that commoncrawl isn't good enough for you, you have to build a Whole Web scraper anyway…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 80,
+        "retweets": 5,
+        "replies": 18
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d21637a197808d46",
+      "date": "2026-08-01",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "EvoLib: Turning experience into evolving knowledge",
+      "url": "https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge/",
+      "publishedAt": "2026-07-30T16:00:00.000Z",
+      "content": "At a glance Self-supervised. EvoLib enables large language models to learn from their own experience during inference, without requiring ground-truth labels or external feedback. From experience to knowledge. EvoLib transforms past attempts into reusable skills and reflective insights that can be applied to future tasks. Knowledge that evolves. Useful skills and insights are continually refined, consolidated, and reweighted, turning instance-specific observations into increasingly general knowledge over time. Learning that transfers across tasks. By turning experience into reusable knowledge, EvoLib helps AI models learn from past successes and failures and evolve the knowledge that has the highest potential on improving future performance. Built for today&#8217;s AI models. As EvoLib does not require model updates, it can be applied to any black-box language models and AI systems deployed through APIs. Memory has become an important AI agent capability: the ability to store and retrieve past experiences. But memory alone is not learning. A collection of past conversations, reasoning traces, or action histories can quickly grow into a vast archive of experiences, making it difficult to identify the most relevant knowledge for a new task—let alone refine and evolve this knowledge to improve performance over time. Humans learn differently. We do not remember every detail of our past experiences. Instead, we remember what matters: strategies that work, mistakes to avoid, and skills that transfer across situations. Over time, these lessons are refined into increasingly general and reusable knowledge. This ability to transform experience into transferable, evolving knowledge is one of the foundations of human learning. In our recent paper, Test-Time Learning with an Evolving Library , we explore how AI systems can learn from experience in a similar way. We introduce EvoLib , a framework that transforms raw experience into an evolving library of knowledge. Rather than tr…",
+      "summary": "LLMs do not get smarter just by remembering more. EvoLib turns experience into evolving knowledge, taking reusable skills and insights that help models learn and adapt across tasks long after deployment. The post EvoLib: Turning experience…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "paper"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "58deb3c55b91cbe0",
+      "date": "2026-08-01",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "Autoscaling endpoints for LLM inference",
+      "url": "https://www.together.ai/blog/autoscaling-endpoints-for-llm-inference",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "content": "GPU utilization can read healthy while your queue backs up, and a new replica takes minutes to warm. Here's how to pick autoscaling metrics, tune scale-up/down windows, and budget for cold starts on dedicated inference.",
+      "summary": "GPU utilization can read healthy while your queue backs up, and a new replica takes minutes to warm. Here's how to pick autoscaling metrics, tune scale-up/down windows, and budget for cold starts on dedicated inference.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "e6c5b20b9012201d",
+      "date": "2026-08-01",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "Configuring Dedicated Model Inference",
+      "url": "https://www.together.ai/blog/configuring-dedicated-model-inference",
+      "publishedAt": "2026-07-29T00:00:00.000Z",
+      "content": "The three-part resource model behind Together AI Dedicated Model Inference—endpoints, deployments, configs—and how capacity-aware routing ties them together.",
+      "summary": "The three-part resource model behind Together AI Dedicated Model Inference—endpoints, deployments, configs—and how capacity-aware routing ties them together.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "deployment"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "5ec26184d2beeca7",
+      "date": "2026-08-01",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "ThunderAgent: 2x Faster Agentic Inference for Synthetic Data Generation at Scale",
+      "url": "https://www.together.ai/blog/thunderagent",
+      "publishedAt": "2026-07-29T00:00:00.000Z",
+      "content": "ThunderAgent is a program-aware scheduler for agentic inference. By treating each agent workflow as a schedulable program, it eliminates KV cache thrashing to deliver more than 2x single-node throughput and near-linear multi-node scaling.",
+      "summary": "ThunderAgent is a program-aware scheduler for agentic inference. By treating each agent workflow as a schedulable program, it eliminates KV cache thrashing to deliver more than 2x single-node throughput and near-linear multi-node scaling.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "inference",
+            "throughput"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "3f6e11a6f0fb902e",
+      "date": "2026-08-01",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Import AI",
+      "sourceKey": "editorial:Import AI",
+      "builderOrOrg": "Jack Clark",
+      "title": "Import AI 466: The bitter lesson for robotics, AIs complete week-long programming tasks; and OpenAI&#8217;s accidental AI hacker",
+      "url": "https://jack-clark.net/2026/07/27/import-ai-466-the-bitter-lesson-for-robotics-ais-complete-week-long-programming-tasks-and-openais-accidental-ai-hacker/",
+      "publishedAt": "2026-07-27T13:30:53.000Z",
+      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Epoch and METR release MirrorCode, a benchmark for seeing how well AI systems can do long-horizon programming tasks: …AI systems can’t solve the hardest tasks yet (good!)&#8230; Epoch and METR have released MirrorCode, a benchmark meant to see how well AI systems can do tasks that take humans a long time to do. The benchmark was first announced in April (Import AI #453) and has now been fleshed out and released with additional tests. The findings are already very striking; Opus 4.7 solved a task in 14 hours for $251 in inference cost which METR and Epoch believe would take a human 2-17 weeks to do. “We also found that AI models are improving rapidly over time. Leading models from a year ago would have scored about 30%, and were limited to simpler programs, such as a calendar utility.” What MirrorCode is: MirrorCode sees how well AI systems can re-implement a software program based purely on CLI access. “Without access to the original program’s source code or the web, a full reimplementation requires devising a structure for the entire program, rather than merely translating the code piece-by-piece.” Example programs: pkl (a programmable configuration language developed by Apple; 61k total lines of code); gotree, a program to parse and manipulate phylogenetic trees (16k lines of code); and qsv_select, a program to select and reorder columns of CSV data (87k lines of code). Results: MirrorCode is a tractable but hard benchmark, though perhaps a little too easy. “Across all 25 target programs, 17/25 had at least one perfect-scoring run. Four more targets had a near-perfect run scoring over 99%. AI models successfully reimplemented large target program,s” the authors write. “Both Claude Opus 4.7 and GPT-5.5 successfully reimplemented gotree across several different programming languages, at…",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Epoch and METR release MirrorCode, a benchmark for seeing…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "programming"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "finding"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "cfe304b92f4f495f",
+      "date": "2026-08-01",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] GPT 5.6 price cut by 20%-80%: Cost of GPT 5.4 Intelligence dropped 13x in 4 months due to GPT 5.6 recursive self-optimization",
+      "url": "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80",
+      "publishedAt": "2026-07-31T04:40:54.000Z",
+      "content": "One of our big &#8220;hero charts&#8221; a year ago (eventually adopted by Demis ) made the stunning observation that, holding LMSys Elo constant, GPT4 level intelligence fell by 1000x over 18 months : Back then, it was unclear if these were &#8220;noob gains&#8221; - going from unoptimized to optimized, going from completions to reasoning, going from dense to MoE, with all the low hanging fruit gone. Another 18 months later, it seems the answer is no; constant-level intelligence is continuing to get precipitously cheaper. Yesterday, OpenAI published findings on how GPT 5.6 had optimized its own serving: 1. Inference Acceleration To serve more tokens on the same hardware without sacrificing quality, OpenAI focused on several systemic upgrades: Self-Optimization: GPT-5.6 Sol was actively used to analyze production traffic, tune load balancing, and autonomously rewrite production kernels in OpenAI&#8217;s own Triton and Gluon languages. This autonomous kernel optimization reduced end-to-end serving costs by 20%. Speculative Decoding: Improved its own draft model (by designing and running hundreds of experiments on its architecture, testing changes in size, structure, and features, while monitoring the speculator training process, autonomously intervening when issues arose, including hardware failures and training instability) increasing token-generation efficiency by over 15%. KV Caching: Optimized batching, sharding, and cache management specific to different workloads (primarily Sol in Codex) to extract more inference from existing hardware. 2. Agentic Harness Improvements To streamline the complex, multi-step tasks in tools like Codex and ChatGPT Work, OpenAI optimized their Rust orchestration layer to reduce repetitive compute costs: Avoiding Context Bloat: Tools, skills, and plugins are only surfaced when needed (deferred discovery), and tool outputs are capped at 10,000 tokens by default to prevent the context window from expanding unnecessarily. Prompt Caching…",
+      "summary": "Distillation is all you need!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.81,
+          "rationale": [
+            "agent",
+            "agentic",
+            "autonomous"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "inference",
+            "serving"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
     {
       "id": "d7a94f46b3355f82",
       "date": "2026-07-31",
@@ -83,257 +415,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d21637a197808d46",
-      "date": "2026-07-31",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "EvoLib: Turning experience into evolving knowledge",
-      "url": "https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge/",
-      "publishedAt": "2026-07-30T16:00:00.000Z",
-      "content": "At a glance Self-supervised. EvoLib enables large language models to learn from their own experience during inference, without requiring ground-truth labels or external feedback. From experience to knowledge. EvoLib transforms past attempts into reusable skills and reflective insights that can be applied to future tasks. Knowledge that evolves. Useful skills and insights are continually refined, consolidated, and reweighted, turning instance-specific observations into increasingly general knowledge over time. Learning that transfers across tasks. By turning experience into reusable knowledge, EvoLib helps AI models learn from past successes and failures and evolve the knowledge that has the highest potential on improving future performance. Built for today&#8217;s AI models. As EvoLib does not require model updates, it can be applied to any black-box language models and AI systems deployed through APIs. Memory has become an important AI agent capability: the ability to store and retrieve past experiences. But memory alone is not learning. A collection of past conversations, reasoning traces, or action histories can quickly grow into a vast archive of experiences, making it difficult to identify the most relevant knowledge for a new task—let alone refine and evolve this knowledge to improve performance over time. Humans learn differently. We do not remember every detail of our past experiences. Instead, we remember what matters: strategies that work, mistakes to avoid, and skills that transfer across situations. Over time, these lessons are refined into increasingly general and reusable knowledge. This ability to transform experience into transferable, evolving knowledge is one of the foundations of human learning. In our recent paper, Test-Time Learning with an Evolving Library , we explore how AI systems can learn from experience in a similar way. We introduce EvoLib , a framework that transforms raw experience into an evolving library of knowledge. Rather than tr…",
-      "summary": "LLMs do not get smarter just by remembering more. EvoLib turns experience into evolving knowledge, taking reusable skills and insights that help models learn and adapt across tasks long after deployment. The post EvoLib: Turning experience…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "paper"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "e6c5b20b9012201d",
-      "date": "2026-07-31",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Together AI Blog",
-      "sourceKey": "official:Together AI Blog",
-      "builderOrOrg": "Together AI",
-      "title": "Configuring Dedicated Model Inference",
-      "url": "https://www.together.ai/blog/configuring-dedicated-model-inference",
-      "publishedAt": "2026-07-29T00:00:00.000Z",
-      "content": "The three-part resource model behind Together AI Dedicated Model Inference—endpoints, deployments, configs—and how capacity-aware routing ties them together.",
-      "summary": "The three-part resource model behind Together AI Dedicated Model Inference—endpoints, deployments, configs—and how capacity-aware routing ties them together.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "deployment"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "5ec26184d2beeca7",
-      "date": "2026-07-31",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Together AI Blog",
-      "sourceKey": "official:Together AI Blog",
-      "builderOrOrg": "Together AI",
-      "title": "ThunderAgent: 2x Faster Agentic Inference for Synthetic Data Generation at Scale",
-      "url": "https://www.together.ai/blog/thunderagent",
-      "publishedAt": "2026-07-29T00:00:00.000Z",
-      "content": "ThunderAgent is a program-aware scheduler for agentic inference. By treating each agent workflow as a schedulable program, it eliminates KV cache thrashing to deliver more than 2x single-node throughput and near-linear multi-node scaling.",
-      "summary": "ThunderAgent is a program-aware scheduler for agentic inference. By treating each agent workflow as a schedulable program, it eliminates KV cache thrashing to deliver more than 2x single-node throughput and near-linear multi-node scaling.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.69,
-          "rationale": [
-            "inference",
-            "throughput"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "3f6e11a6f0fb902e",
-      "date": "2026-07-31",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Import AI",
-      "sourceKey": "editorial:Import AI",
-      "builderOrOrg": "Jack Clark",
-      "title": "Import AI 466: The bitter lesson for robotics, AIs complete week-long programming tasks; and OpenAI&#8217;s accidental AI hacker",
-      "url": "https://jack-clark.net/2026/07/27/import-ai-466-the-bitter-lesson-for-robotics-ais-complete-week-long-programming-tasks-and-openais-accidental-ai-hacker/",
-      "publishedAt": "2026-07-27T13:30:53.000Z",
-      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Epoch and METR release MirrorCode, a benchmark for seeing how well AI systems can do long-horizon programming tasks: …AI systems can’t solve the hardest tasks yet (good!)&#8230; Epoch and METR have released MirrorCode, a benchmark meant to see how well AI systems can do tasks that take humans a long time to do. The benchmark was first announced in April (Import AI #453) and has now been fleshed out and released with additional tests. The findings are already very striking; Opus 4.7 solved a task in 14 hours for $251 in inference cost which METR and Epoch believe would take a human 2-17 weeks to do. “We also found that AI models are improving rapidly over time. Leading models from a year ago would have scored about 30%, and were limited to simpler programs, such as a calendar utility.” What MirrorCode is: MirrorCode sees how well AI systems can re-implement a software program based purely on CLI access. “Without access to the original program’s source code or the web, a full reimplementation requires devising a structure for the entire program, rather than merely translating the code piece-by-piece.” Example programs: pkl (a programmable configuration language developed by Apple; 61k total lines of code); gotree, a program to parse and manipulate phylogenetic trees (16k lines of code); and qsv_select, a program to select and reorder columns of CSV data (87k lines of code). Results: MirrorCode is a tractable but hard benchmark, though perhaps a little too easy. “Across all 25 target programs, 17/25 had at least one perfect-scoring run. Four more targets had a near-perfect run scoring over 99%. AI models successfully reimplemented large target program,s” the authors write. “Both Claude Opus 4.7 and GPT-5.5 successfully reimplemented gotree across several different programming languages, at…",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Epoch and METR release MirrorCode, a benchmark for seeing…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "code",
-            "programming"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "finding"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "cfe304b92f4f495f",
-      "date": "2026-07-31",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] GPT 5.6 price cut by 20%-80%: Cost of GPT 5.4 Intelligence dropped 13x in 4 months due to GPT 5.6 recursive self-optimization",
-      "url": "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80",
-      "publishedAt": "2026-07-31T04:40:54.000Z",
-      "content": "One of our big &#8220;hero charts&#8221; a year ago (eventually adopted by Demis ) made the stunning observation that, holding LMSys Elo constant, GPT4 level intelligence fell by 1000x over 18 months : Back then, it was unclear if these were &#8220;noob gains&#8221; - going from unoptimized to optimized, going from completions to reasoning, going from dense to MoE, with all the low hanging fruit gone. Another 18 months later, it seems the answer is no; constant-level intelligence is continuing to get precipitously cheaper. Yesterday, OpenAI published findings on how GPT 5.6 had optimized its own serving: 1. Inference Acceleration To serve more tokens on the same hardware without sacrificing quality, OpenAI focused on several systemic upgrades: Self-Optimization: GPT-5.6 Sol was actively used to analyze production traffic, tune load balancing, and autonomously rewrite production kernels in OpenAI&#8217;s own Triton and Gluon languages. This autonomous kernel optimization reduced end-to-end serving costs by 20%. Speculative Decoding: Improved its own draft model (by designing and running hundreds of experiments on its architecture, testing changes in size, structure, and features, while monitoring the speculator training process, autonomously intervening when issues arose, including hardware failures and training instability) increasing token-generation efficiency by over 15%. KV Caching: Optimized batching, sharding, and cache management specific to different workloads (primarily Sol in Codex) to extract more inference from existing hardware. 2. Agentic Harness Improvements To streamline the complex, multi-step tasks in tools like Codex and ChatGPT Work, OpenAI optimized their Rust orchestration layer to reduce repetitive compute costs: Avoiding Context Bloat: Tools, skills, and plugins are only surfaced when needed (deferred discovery), and tool outputs are capped at 10,000 tokens by default to prevent the context window from expanding unnecessarily. Prompt Caching…",
-      "summary": "Distillation is all you need!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.81,
-          "rationale": [
-            "agent",
-            "agentic",
-            "autonomous"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.69,
-          "rationale": [
-            "inference",
-            "serving"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.7,
       "whyThisMatters": ""
     },
     {
@@ -2297,103 +2378,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "22bff0020d3eb9b5",
-      "date": "2026-05-21",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Cerebras' $60B IPO: Slowly, then All at Once",
-      "url": "https://www.latent.space/p/ainews-cerebras-60b-ipo-slowly-then",
-      "publishedAt": "2026-05-16T04:36:50.000Z",
-      "content": "We normally focus on technical stories, but occasional large fundraisings are noteworthy in themselves, and the Cerebras IPO (after one pulled S-1 and a fantastic 750MW partnership and $10-$20B stake/deal with OpenAI) this week, certainly qualifies as a growing theme supporting the Inference Inflection , just 6 months after the shock execuhire of Groq by NVIDIA for $20B . ended today at $280, a market cap of $60 billion, which is tremendous validation for Big Chip and their believers . This image from Amir Efrati summarizes the Decade of Cerebras: Cerebras&#8217; financials are now fully public, but the focus of discussions center around the supply: More details below, and the Head Research Scientist of Cerebras speaks at AIE Singapore later today on the livestream: AI News for 5/14/2026-5/15/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! Headline Story: Cerebras IPO recap, technical details, and company journey Cerebras returned to the timeline as an IPO story, with investors and adjacent infra voices framing the company as a long-running contrarian hardware bet that finally looks vindicated. The most directly relevant tweet is from investor Ishan N. Taneja, who said he &#8220;didn&#8217;t believe&#8221; early Cerebras claims, then concluded the skeptic he doubted &#8220;was totally right,&#8221; praising Cerebras for persistence, execution, and for having &#8220;built a banger chip,&#8221; while noting this was Hanabi&#8217;s first IPO @ishanit5 . A second Cerebras-specific datapoint came from CNBC&#8217;s Deirdre Bosa quoting Cerebras CFO Bob Komin pushing back on the &#8220;small models only&#8221; narrative: Komin said Cerebras serves models of all sizes, that there is &#8220;no limit&#8221; to the size of models it can serve, and that Cerebras is currently serving trillion-parameter mod…",
-      "summary": "Congrats Big Chip!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.69,
-          "rationale": [
-            "inference",
-            "serving"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "voice",
-          "label": "Voice",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "voice"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a8d4179e548a1dca",
-      "date": "2026-05-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Advancing AI for materials with MatterSim: experimental synthesis, faster simulation, and multi-task models",
-      "url": "https://www.microsoft.com/en-us/research/blog/advancing-ai-for-materials-with-mattersim-experimental-synthesis-faster-simulation-and-multi-task-models/",
-      "publishedAt": "2026-05-12T13:00:00.000Z",
-      "content": "At a glance Experimental validation : Using high-throughput screening with MatterSim-v1, we previously identified tetragonal tantalum phosphorus (TaP) as a potential high-performance thermal conductor. Now we have experimentally synthesized it and measured its thermal conductivity (152 W/m/K) to be close to the thermal conductivity of silicon. Faster simulation : We have accelerated MatterSim-v1 model inference by 3-5x and integrated it with the LAMMPS software package, enabling large-scale simulations across multiple GPUs. New model release : We are introducing MatterSim-MT, a multi-task foundation model for in silico materials characterization that enables the simulation of complex, multi-property phenomena beyond what potential energy surfaces alone can capture. Materials design underpins a wide range of technological advances, from nanoelectronics to semiconductor design and energy storage. Yet development cycles for novel materials remain slow and costly. Universal machine learning interatomic potentials aim to accelerate the materials design process by providing accurate stability and property predictions for a wide range of materials. These models are orders of magnitude faster than traditional first-principles simulations, turning previously impractical problems into routine computations that can be completed in a few hours. Since we launched our MatterSim-v1 model, it has gained popularity in the materials science community for its ability to accurately simulate materials under realistic conditions, including finite temperature and pressure. Today, we have several exciting MatterSim updates to share. These include experimental validation of MatterSim predictions for thermal conductors, performance improvements for faster simulation, and the introduction of a new multi-task foundation model for materials characterization. Experimental validation Figure 1: Based on MatterSim’s computational predictions, we have synthesized a potential high thermal conductor.…",
-      "summary": "MatterSim is expanding what AI can do for materials science—from faster large-scale simulations to MatterSim-MT, a new multi-task model for simulating properties beyond potential energy surfaces alone. The post Advancing AI for materials w…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.69,
-          "rationale": [
-            "inference",
-            "throughput"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "science"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     }
   ]
