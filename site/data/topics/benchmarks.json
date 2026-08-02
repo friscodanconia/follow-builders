@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-01T04:43:56.226Z",
+  "generatedAt": "2026-08-02T01:07:07.860Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
     {
       "id": "abf882c3ab9b59a2",
-      "date": "2026-08-01",
+      "date": "2026-08-02",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -55,6 +55,60 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c3dbcf7afb4b785f",
+      "date": "2026-08-02",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "Kimi K3: The Complete Developer Guide",
+      "url": "https://www.together.ai/blog/kimi-k3-guide",
+      "publishedAt": "2026-08-01T00:00:00.000Z",
+      "content": "Kimi K3 is the first open 3T-class model. See how it benchmarks, what it costs, and how to call it on the Together AI API, with copy-paste code examples.",
+      "summary": "Kimi K3 is the first open 3T-class model. See how it benchmarks, what it costs, and how to call it on the Together AI API, with copy-paste code examples.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "developer"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "benchmark"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
       "whyThisMatters": ""
     },
     {
@@ -2448,59 +2502,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.44,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a5758ce72cfb3c17",
-      "date": "2026-06-26",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "AI & I by Every",
-      "sourceKey": "podcast:AI & I by Every",
-      "builderOrOrg": "AI & I by Every",
-      "title": "Building a School Where AI Models Learn About Humanity",
-      "url": "https://www.youtube.com/watch?v=omX6wrLuX08",
-      "publishedAt": "2026-06-24T14:55:00.000Z",
-      "content": "Speaker 1 | 00:00 - 00:17 We are building this kind of school for AGI where AI models come to learn about humanity, where we teach them how to run the world. It almost seems like there's nothing that humans can do that AI won't soon be capable of. I could see it happening within ten to five years. Speaker 2 | 00:17 - 00:50 AI may be able to do it better than us, but, like, someone told the AI to go do that. They're being built to be means to tasks that humans want them to do. Right? Every is the only subscription you need to stay at the edge of AI. If you care about being on top of the latest models and using the latest tools, you have to subscribe to to separate out the signal from the noise. Speaker 2 | 00:50 - 00:54 Go to every. Tosubscribe today. Edwin, welcome to the show. Speaker 1 | 00:54 - 00:56 Hey, Dan. Thanks for having me. Speaker 2 | 00:56 - 01:30 For people who don't know, you are the founder and CEO of Surge. You all provide data environments and evals for the model companies, but you do it in this very interesting way. You have this, even on your website, emphasis on taste and expert judgment that I find really interesting and compelling. You talk about raising AGI, which I feel like is a very distinct type of word using data. And you also famously got to about 1,000,000,000 in revenue without raising without raising money, which is wild. Speaker 2 | 01:30 - 01:48 I feel like data is the this new game that a lot of companies are playing and probably more are going be playing soon. You guys are this sneaky giant. Tell me how that's going. I think it's been a little while since we got the last update on how things are going. Speaker 1 | 01:48 - 02:30 Yeah, I think it's going amazing. The way I often think about this is that we are building this school for AGI, the school where AI models come to learn about humanity where we teach them how to run the world. And it's almost like their models are children, where they arrive unformed, and then yeah, they leave smarter and more creative and more thoughtful and ready to operate in the messiness of their world. So I think a lot has changed in the past year, like in the same way that the things that you teach children when they're in preschool or in middle school or in high school is very different from what you're teaching them when they're in college. And it's not just that they're more advanced. Speaker 1 | 02:30 - 02:55 Like it's not just that you're teaching them a more advanced form of what they did before. It's like, okay, now we are teaching you not just arithmetic, but how do you parse these ambiguous math questions? Or how do you teach people not just grammar, but taste and poetry and beauty? So, yeah, think there's a lot that's been changing in the past year, especially in enterprise. And yeah, it's been crazy time. Speaker 2 | 02:55 - 03:04 What would be like a specific example of what the frontier of teaching was a year ago versus what the frontier is now? Speaker 1 | 03:05 - 03:35 Yes. So a couple years ago, actually, we created our first math benchmark with OpenAI, and it was called GSM eight ks. And this was actually just testing models on their abilities to do middle score math. And even then, the GBT models of the time, they could barely score, I think, like 20%. And then a year ago, the models were like something that became a lot more capable at solving IMO problems. Speaker 1 | 03:35 - 04:03 But there was still just an open question. Okay, can they actually do research level mathematics? Like, can they move beyond these sort of like competition only, of contrived, very closed problems into doing things that are actually useful in the real world. And so, yeah, a couple of months ago, we released an updated benchmark called Riemann bench, which actually tests models under ability to do research level mathematics. And what's crazy is that this is actually we're starting to see from these models. Speaker 1 | 04:03 - 04:45 Like I think in the past few mo…",
-      "summary": "Speaker 1 | 00:00 - 00:17 We are building this kind of school for AGI where AI models come to learn about humanity, where we teach them how to run the world. It almost seems like there's nothing that humans can do that AI won't soon be cap…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.81,
-          "rationale": [
-            "benchmark",
-            "imo",
-            "eval"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.6,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.49,
       "whyThisMatters": ""
     }
   ]

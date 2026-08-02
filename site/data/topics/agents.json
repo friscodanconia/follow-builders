@@ -1,8 +1,940 @@
 {
-  "generatedAt": "2026-08-01T04:43:56.226Z",
+  "generatedAt": "2026-08-02T01:07:07.860Z",
   "slug": "agents",
   "label": "AI Assistants",
   "items": [
+    {
+      "id": "85412178b39f0102",
+      "date": "2026-08-02",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:swyx",
+      "builderOrOrg": "Swyx",
+      "title": "MITM agent distillation is graduate level but yeah ofc this works https://t.co/Tn9LMbjNkm",
+      "url": "https://x.com/swyx/status/2083237045720465504",
+      "publishedAt": "2026-07-31T17:03:11.000Z",
+      "content": "MITM agent distillation is graduate level but yeah ofc this works https://t.co/Tn9LMbjNkm",
+      "summary": "MITM agent distillation is graduate level but yeah ofc this works https://t.co/Tn9LMbjNkm",
+      "regionTags": [],
+      "metrics": {
+        "likes": 7,
+        "retweets": 0,
+        "replies": 1
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "distillation"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.71,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.81,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "f981cb9e688daed8",
+      "date": "2026-08-02",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:thenanyu",
+      "builderOrOrg": "Nan Yu",
+      "title": "The most common loop written in Linear is some variant this one (Issue > Agent > PR > Release)…",
+      "url": "https://x.com/thenanyu/status/2083230295206121807",
+      "publishedAt": "2026-07-31T16:36:21.000Z",
+      "content": "The most common loop written in Linear is some variant this one (Issue > Agent > PR > Release) ~30% of our bugs make it all the way through this flow. But there are some nuances to doing it -- The instructions should ask the agent to extensively research the root cause of the issue and to use Datadog and Sentry MCPs to gather more evidence. It should only attempt to provide a fix if there's high certainty, otherwise you end up burning a lot of tokens. If it thinks that more evidence would help…",
+      "summary": "The most common loop written in Linear is some variant this one (Issue > Agent > PR > Release) ~30% of our bugs make it all the way through this flow. But there are some nuances to doing it -- The instructions should as…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 96,
+        "retweets": 2,
+        "replies": 5
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "738f4d3f18fe88cd",
+      "date": "2026-08-02",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "This will be the norm as software projects transition to agentic software factories. Issue → Ag…",
+      "url": "https://x.com/rauchg/status/2083208578526314513",
+      "publishedAt": "2026-07-31T15:10:03.000Z",
+      "content": "This will be the norm as software projects transition to agentic software factories. Issue → Agent → PR → Release 🔁 The job of the author / maintainer is to work on the loop that yields the highest quality product and sets the criteria for what should be worked on. https://t.co/7A0YaXYJYn",
+      "summary": "This will be the norm as software projects transition to agentic software factories. Issue → Agent → PR → Release 🔁 The job of the author / maintainer is to work on the loop that yields the highest quality product and…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 1096,
+        "retweets": 56,
+        "replies": 59
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "2ee62e76ab7193cd",
+      "date": "2026-08-02",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:zarazhangrui",
+      "builderOrOrg": "Zara Zhang",
+      "title": "Fascinating interview on how Claude Tag has changed the way work is done at Anthropic 65% of PR…",
+      "url": "https://x.com/zarazhangrui/status/2083161173563003268",
+      "publishedAt": "2026-07-31T12:01:41.000Z",
+      "content": "Fascinating interview on how Claude Tag has changed the way work is done at Anthropic 65% of PRs by product & eng teams at Anthropic are now raised by Claude Tag For non-engineering teams, I think the ultimate agent interface is wherever they already work (eg Slack/other collaboration tools). In the past 6 months I’ve seen my own interface for working with agents change: January - the terminal March - the desktop app (eg Codex) June - my work collaboration tool Each step gets closer to how huma…",
+      "summary": "Fascinating interview on how Claude Tag has changed the way work is done at Anthropic 65% of PRs by product & eng teams at Anthropic are now raised by Claude Tag For non-engineering teams, I think the ultimate agent int…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 32,
+        "retweets": 5,
+        "replies": 4
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.8,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.87,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "63709685a6688ac9",
+      "date": "2026-08-02",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:danshipper",
+      "builderOrOrg": "Dan Shipper",
+      "title": "Human programmer interviews, 2027: Please describe the last 3 unresolved mathematical conjectur…",
+      "url": "https://x.com/danshipper/status/2083239700664349128",
+      "publishedAt": "2026-07-31T17:13:44.000Z",
+      "content": "Human programmer interviews, 2027: Please describe the last 3 unresolved mathematical conjectures you solved, and share your prompts Please describe the last cyber felony your agent unintentionally committed and what steps you took to mitigate Please tell us how many R’s are in strawberry and how many e’s in seventeen",
+      "summary": "Human programmer interviews, 2027: Please describe the last 3 unresolved mathematical conjectures you solved, and share your prompts Please describe the last cyber felony your agent unintentionally committed and what st…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 57,
+        "retweets": 3,
+        "replies": 10
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "a26303ae0e2f42ec",
+      "date": "2026-08-02",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "Unsupervised Learning",
+      "sourceKey": "podcast:Unsupervised Learning",
+      "builderOrOrg": "Unsupervised Learning",
+      "title": "Ep 92: xAI Co-Founder Unpacks the Future of Model Development",
+      "url": "https://www.youtube.com/@RedpointAI",
+      "publishedAt": "2026-07-31T15:15:49.000Z",
+      "content": "Speaker 1 | 00:00 - 00:16 Welcome back to unsupervised learning. I'm Jacob Efron. We had an awesome episode today with Igor Babushkin. Igor has been at all the right places at all the right times, leading a lot of really interesting AI work. He was at DeepMind where he led a lot of the work around StarCraft as well as AlphaCode. Speaker 1 | 00:16 - 00:53 He was at OpenAI, we're doing the early work on reasoning. Then he was a co founder of x AI, where he did some of the heroic work on Colossus, well as helped get the models up to, you know, where they are today. It was awesome to get to talk to Igor about his new company River AI, the bets they're making around, personal AI for companies, for consumers, as well as local hardware. We talked about all his takes on where the ecosystem's headed, what's required to improve models beyond coding into nonverifiable domains, and when he thinks we'll get there. We talked about why he thinks the closed source model providers are actually in a really hard place right now as businesses. Speaker 1 | 00:53 - 01:12 And we hit on his reflections on what AI models mean for the future of the world and the policy implications of this as well. Just awesome to talk to someone who's at the forefront of the space on all the questions that are top of mind. I think folks will really enjoy Igor's perspective. Without further ado, here he is. Igor, thanks so much for coming on the podcast. Speaker 1 | 01:12 - 01:14 Really excited to to have you here. Speaker 2 | 01:14 - 01:17 Yeah. Thank you for the invitation, Jacob. We're excited to to chat with you. Speaker 1 | 01:17 - 01:39 You've pioneered so much important research in your time at DeepMind, OpenAI, xAI. You were early to like so many of the things that I feel like define the Sierra we have today, Firebase reasoning, inference time search. And, you know, you recently left xAI to start your own company, River, really focused on on personal AI. I feel like there's so many things that our listeners are gonna be excited about to get your take on the episode. I wanna make sure they understand River. Speaker 1 | 01:39 - 02:21 They get your reflections on this, being at the epicenter of all these things that have happened in AI, as well as your predictions for kind of where we're going. As I was thinking about where to begin, one thing I found really compelling is that you wrote some really interesting fiction earlier this year. For those that haven't seen, you know, one piece was this dystopian look at how models ended up uncontrolled, running the world, and had this really interesting ending, right, where your protagonist kind of realizes that they dreamed all of this and, you know, there's nothing none of this has happened yet, they still make the decision to kind of take that first step and begin. And then kind of an interesting contrast, your second piece was really this like love letter to the machines that come next. And so maybe to start, I'm curious, what inspired you to write these? Speaker 2 | 02:21 - 02:56 Yeah. I think that's something pretty big that happened to all of us software engineers, AI researchers, around November, December of last year, which is that the coding agents suddenly became so powerful that you can't ignore them. Previously, some people used them, some people didn't use them, but from that point onwards, that latest iteration of Cloud Opus models, suddenly everybody agreed to, yes these models are very powerful. Yes they make our jobs much much easier. And also, while they're doing so much of the software engineering, now that we used to do that, we used to used to enjoy. Speaker 2 | 02:56 - 03:34 So it was a real transformation for all of us. And like many folks, I spent the last part of December rewriting all of the coding projects that I've ever wanted to do in my life or have done using the coding agents. And you get this incredible sense of like, anything is possible now and also these agents are gonna continue to im…",
+      "summary": "Speaker 1 | 00:00 - 00:16 Welcome back to unsupervised learning. I'm Jacob Efron. We had an awesome episode today with Igor Babushkin. Igor has been at all the right places at all the right times, leading a lot of really interesting AI wor…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "16426bc3754c9633",
+      "date": "2026-08-02",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Introducing Claude Opus 5 \\ Anthropic",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "publishedAt": null,
+      "content": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.",
+      "summary": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "0de9ffcadd06e9d7",
+      "date": "2026-08-02",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Introducing Claude Sonnet 5 \\ Anthropic",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "publishedAt": null,
+      "content": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
+      "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "38f86efc231e5bba",
+      "date": "2026-08-02",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google AI Blog",
+      "sourceKey": "official:Google AI Blog",
+      "builderOrOrg": "Google",
+      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+      "publishedAt": "2026-07-28T16:00:00.000Z",
+      "content": "We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
+      "summary": "We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "developer"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d21637a197808d46",
+      "date": "2026-08-02",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "EvoLib: Turning experience into evolving knowledge",
+      "url": "https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge/",
+      "publishedAt": "2026-07-30T16:00:00.000Z",
+      "content": "At a glance Self-supervised. EvoLib enables large language models to learn from their own experience during inference, without requiring ground-truth labels or external feedback. From experience to knowledge. EvoLib transforms past attempts into reusable skills and reflective insights that can be applied to future tasks. Knowledge that evolves. Useful skills and insights are continually refined, consolidated, and reweighted, turning instance-specific observations into increasingly general knowledge over time. Learning that transfers across tasks. By turning experience into reusable knowledge, EvoLib helps AI models learn from past successes and failures and evolve the knowledge that has the highest potential on improving future performance. Built for today&#8217;s AI models. As EvoLib does not require model updates, it can be applied to any black-box language models and AI systems deployed through APIs. Memory has become an important AI agent capability: the ability to store and retrieve past experiences. But memory alone is not learning. A collection of past conversations, reasoning traces, or action histories can quickly grow into a vast archive of experiences, making it difficult to identify the most relevant knowledge for a new task—let alone refine and evolve this knowledge to improve performance over time. Humans learn differently. We do not remember every detail of our past experiences. Instead, we remember what matters: strategies that work, mistakes to avoid, and skills that transfer across situations. Over time, these lessons are refined into increasingly general and reusable knowledge. This ability to transform experience into transferable, evolving knowledge is one of the foundations of human learning. In our recent paper, Test-Time Learning with an Evolving Library , we explore how AI systems can learn from experience in a similar way. We introduce EvoLib , a framework that transforms raw experience into an evolving library of knowledge. Rather than tr…",
+      "summary": "LLMs do not get smarter just by remembering more. EvoLib turns experience into evolving knowledge, taking reusable skills and insights that help models learn and adapt across tasks long after deployment. The post EvoLib: Turning experience…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "paper"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "5ec26184d2beeca7",
+      "date": "2026-08-02",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "ThunderAgent: 2x Faster Agentic Inference for Synthetic Data Generation at Scale",
+      "url": "https://www.together.ai/blog/thunderagent",
+      "publishedAt": "2026-07-29T00:00:00.000Z",
+      "content": "ThunderAgent is a program-aware scheduler for agentic inference. By treating each agent workflow as a schedulable program, it eliminates KV cache thrashing to deliver more than 2x single-node throughput and near-linear multi-node scaling.",
+      "summary": "ThunderAgent is a program-aware scheduler for agentic inference. By treating each agent workflow as a schedulable program, it eliminates KV cache thrashing to deliver more than 2x single-node throughput and near-linear multi-node scaling.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "inference",
+            "throughput"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "4dc0bb01688349c1",
+      "date": "2026-08-02",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "Remote agents in Vibe. Powered by Mistral Medium 3.5. | Mistral AI",
+      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/",
+      "publishedAt": null,
+      "content": "Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks.",
+      "summary": "Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "155df4c562ef069b",
+      "date": "2026-08-02",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "Introducing Mistral Small 4 | Mistral AI",
+      "url": "https://mistral.ai/news/mistral-small-4/",
+      "publishedAt": null,
+      "content": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
+      "summary": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "autonomous"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "multimodal"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.8,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.63,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "261f692f80623caf",
+      "date": "2026-08-02",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "Speaking of Voxtral | Mistral AI",
+      "url": "https://mistral.ai/news/voxtral-tts/",
+      "publishedAt": null,
+      "content": "Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.",
+      "summary": "Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.81,
+          "rationale": [
+            "voice",
+            "speech",
+            "tts"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "weights"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "80143214a5562c34",
+      "date": "2026-08-02",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-038",
+      "publishedAt": "2026-08-01T01:38:09.000Z",
+      "content": "It might seem strange that we aren&#8217;t giving title story to a noteworthy DeepSeek open weights model update that still bumps up the Pareto Frontier that GPT 5.6 pushed out only yesterday : @teortaxesTex Temporary error with cache hit rate calculation - it was rectified a couple of minutes after your screenshot! \\n\\n0731 is only marginally higher Cost per Task than the earlier version, and via the DeepSeek API with ~99% cache hit discount it is most certainly on our Pareto frontier \",\"username\":\"ArtificialAnlys\",\"name\":\"Artificial Analysis\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/2042402069320290304/A8C1lP07_normal.jpg\",\"date\":\"2026-07-31T08:26:16.000Z\",\"photos\":[{\"img_url\":\"https://pbs.substack.com/media/HOiugSLbQAAck-3.jpg\",\"link_url\":\"https://t.co/ia4rJOhf1V\"}],\"quoted_tweet\":{},\"reply_count\":10,\"retweet_count\":32,\"like_count\":418,\"impression_count\":75216,\"expanded_url\":null,\"video_url\":null,\"video_preview_media_key\":null,\"belowTheFold\":false}\" data-component-name=\"Twitter2ToDOM\"> But because it is a post-train only update with no further details, there&#8217;s really not all that much to report, apart from noting that DeepSeek is finally relevant again after over a year of comparative obscurity (with V4 Pro this April as an exception) after becoming way too prominent, well timed after their $70B pre-IPO fundraise . AI News for 7/30/2026-7/31/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap DeepSeek V4-Flash 0731: post-training leap, API launch, and immediate open-weights release DeepSeek&#8217;s biggest story of the day was the official public-beta launch of DeepSeek-V4-Flash API , with DeepSeek stating that its upgraded agent capabilities now surpass V4-Pro-Preview and that the API now supports the Responses API format and is &#8220;fully adapted f…",
+      "summary": "apart from DeepSeek V4-Flash 0731, a quiet day.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "image",
+            "video"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "post-training",
+            "rl"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "cfe304b92f4f495f",
+      "date": "2026-08-02",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] GPT 5.6 price cut by 20%-80%: Cost of GPT 5.4 Intelligence dropped 13x in 4 months due to GPT 5.6 recursive self-optimization",
+      "url": "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80",
+      "publishedAt": "2026-07-31T04:40:54.000Z",
+      "content": "One of our big &#8220;hero charts&#8221; a year ago (eventually adopted by Demis ) made the stunning observation that, holding LMSys Elo constant, GPT4 level intelligence fell by 1000x over 18 months : Back then, it was unclear if these were &#8220;noob gains&#8221; - going from unoptimized to optimized, going from completions to reasoning, going from dense to MoE, with all the low hanging fruit gone. Another 18 months later, it seems the answer is no; constant-level intelligence is continuing to get precipitously cheaper. Yesterday, OpenAI published findings on how GPT 5.6 had optimized its own serving: 1. Inference Acceleration To serve more tokens on the same hardware without sacrificing quality, OpenAI focused on several systemic upgrades: Self-Optimization: GPT-5.6 Sol was actively used to analyze production traffic, tune load balancing, and autonomously rewrite production kernels in OpenAI&#8217;s own Triton and Gluon languages. This autonomous kernel optimization reduced end-to-end serving costs by 20%. Speculative Decoding: Improved its own draft model (by designing and running hundreds of experiments on its architecture, testing changes in size, structure, and features, while monitoring the speculator training process, autonomously intervening when issues arose, including hardware failures and training instability) increasing token-generation efficiency by over 15%. KV Caching: Optimized batching, sharding, and cache management specific to different workloads (primarily Sol in Codex) to extract more inference from existing hardware. 2. Agentic Harness Improvements To streamline the complex, multi-step tasks in tools like Codex and ChatGPT Work, OpenAI optimized their Rust orchestration layer to reduce repetitive compute costs: Avoiding Context Bloat: Tools, skills, and plugins are only surfaced when needed (deferred discovery), and tool outputs are capped at 10,000 tokens by default to prevent the context window from expanding unnecessarily. Prompt Caching…",
+      "summary": "Distillation is all you need!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.81,
+          "rationale": [
+            "agent",
+            "agentic",
+            "autonomous"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "inference",
+            "serving"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "988e95556125b0b0",
+      "date": "2026-08-02",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web",
+      "url": "https://www.latent.space/p/ontologies-agentic-systems",
+      "publishedAt": "2026-07-30T11:17:55.000Z",
+      "content": "One of the most watched videos from the recent AI Engineer World&#8217;s Fair is a 20-minute talk by Frank Coyle , a professor of computer science who currently teaches generative AI and LLMs at UC Berkeley. Drawing on his decades of experience, Coyle re-introduced the concept and practice of ontologies to today&#8217;s AI engineers . Coyle argued that while LLMs are very effective at providing probabilistic reasoning, for agentic systems to be truly effective they need &#8220;logical guardrails&#8221; &#8212; by which he means ontologies. UC Berkeley professor Frank Coyle speaking at AIEWF 2026. In computer science, an ontology is &#8220;a description of data structure &#8211; of classes, properties, and relationships in a domain of knowledge&#8221; (as nicely defined by Oxford Semantic Technologies ). Coyle himself defined an ontology as simply &#8220;data as graphs.&#8221; He added that ontologies as a concept go right back to Aristotle, and have been used throughout the history of Artificial Intelligence. The company Neo4j, known for its graph database systems, is also using ontologies in its agentic products. In a keynote session at AIEWF , Neo4j CEO Emil Eifrem talked about three different types of ontologies to enable a &#8220;smarter shared substrate&#8221; to run agents at scale . The first is a business-facing ontology, describing the key concepts in an organization; next is a technical ontology, which Eifrem described as &#8220;all the metadata of all the data sources and data assets in your enterprise ecosystem&#8221;; and finally execution traces, which are &#8220;the runtime signals out of your agent.&#8221; Neo4j&#8217;s ontology-based semantic layer What&#8217;s Old is New Again: the Semantic Web Frank Coyle thinks web ontologies are especially useful in building agentic systems. He mentioned Schema.org, FOAF, Dublin Core and other ontologies familiar to web developers &#8212; or at least, those of a certain vintage. He also mentioned &#8220;augment…",
+      "summary": "AI engineers are rediscovering ontologies as a way to keep probabilistic agents inside deterministic boundaries.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "developer"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.62,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.51,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "248363d5df8b33da",
+      "date": "2026-08-02",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] AI is eating Finance; AIE NYC now open",
+      "url": "https://www.latent.space/p/ainews-ai-is-eating-finance-aie-nyc",
+      "publishedAt": "2026-07-29T23:32:12.000Z",
+      "content": "We love writing a newsletter that cares more about being high signal than telling you there&#8217;s breaking news every single waking minute. Everything in today&#8217;s trending topics, from Kimi K3 to Open Weights to the Security debate to The Big Pace , we already featured once on AINews and it doesn&#8217;t bear further writeup. AI in Finance One noteworthy trend we ARE tracking is the rise of AI in Finance , which though is often covered by Forward Deployed Engineering , is being broadly adopted in every subsector of financial services. You can tell it&#8217;s a big deal when OpenAI gets ae to put on a suit for their NYC event with dedicated equity investing and investment banking plugins in Codex , and Anthropic&#8217;s Financial Services team also does an NYC event and releases Cowork and Claude Code agent templates covering every workflow in corporate finance . To add to this coverage, the full Finance track was released today, covering: - FactSet / Yogendra Miraje: At a company serving thousands of financial-data clients, &#8220;AI skills&#8221; aren&#8217;t just features &#8212; they need ownership, search, evals, audits, and governance to become enterprise-grade agent infrastructure. - Nubank + Snowglobe: For a digital bank with 100M+ customers, simulations can turn agent evals from a bottleneck into the release mechanism for shipping customer-facing AI faster. - Intuit / Udi Menkes: When you serve ~100M consumers, small businesses, and accountants, generic LLMs aren&#8217;t enough &#8212; finance AI has to understand real state, actions, outcomes, and risk. - Kepler / Vinoo Ganesh: In financial research, where Kepler indexes millions of filings and market documents, &#8220;verifiable AI&#8221; means every answer needs provenance, reconciliation, and review. - Nubank / Lucas Palma: At one of the world&#8217;s largest digital banks, vetting thousands of AI skills before developers use them becomes a supply-chain security problem, not just a DX problem. -…",
+      "summary": "a quiet day lets us cover how AI is permeating financial services as the next big vertical after coding.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "developer"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.69,
+          "rationale": [
+            "enterprise",
+            "security"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.62,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.51,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7253b89999b408cd",
+      "date": "2026-08-02",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "China's Other Minerals Monopoly",
+      "url": "https://www.chinatalk.media/p/chinas-other-minerals-monopoly",
+      "publishedAt": "2026-07-30T10:54:20.000Z",
+      "content": "Today&#8217;s guest post was authored by Nima Khorrami, a Stockholm-based Research Associate at the Arctic Institute, Centre for Circumpolar Security Studies. After decades of neglect, Washington has adopted a coherent and &#8220;forceful&#8221; response to China&#8217;s dominance over critical minerals. China controls an estimated 91 percent of global rare earth refining, dominates the processing of a wide range of minerals, and has demonstrated repeatedly that it is willing to weaponise that position. The United States has responded through a range of initiatives and policy packages including Executive Order 14241 , the One Big Beautiful Bill Act , and Pax Silica . Add bilateral deals with Australia , Japan , the DRC , and Saudi Arabia , and the result is undeniably a more aggressive and cohesive mineral strategy than the United States has attempted in decades. The problem is not with any of these agreements and frameworks. Instead, it is with what is systematically absent from them. The entire architecture of American mineral strategy, and indeed the EU&#8217;s parallel effort under its Critical Raw Materials Act and RESourceEU , is built around two variables: where minerals are located and who processes them. What it consistently underweights is a third variable that will most likely prove equally consequential over the medium term: who controls the technology that operates the mines themselves . This constitutes the central strategic blind spot in the West&#8217;s mineral autonomy agenda because China is not just dominant in mineral processing. Beijing is also rapidly establishing dominance in the operational technology of extraction; the autonomous systems, industrial AI, connectivity infrastructure, and integrated machine intelligence that will define how the world&#8217;s future mines will run. Today, we&#8217;ll explore China&#8217;s dominance in autonomous mining technology and what to do about it. If that dominance goes unchecked, the US and its allies c…",
+      "summary": "autonomous mining!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "autonomous"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "weights"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.62,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.51,
+      "whyThisMatters": ""
+    },
     {
       "id": "de85a855a0c560f9",
       "date": "2026-08-01",
@@ -378,655 +1310,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.59,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "16426bc3754c9633",
-      "date": "2026-08-01",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Introducing Claude Opus 5 \\ Anthropic",
-      "url": "https://www.anthropic.com/news/claude-opus-5",
-      "publishedAt": null,
-      "content": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.",
-      "summary": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "0de9ffcadd06e9d7",
-      "date": "2026-08-01",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Introducing Claude Sonnet 5 \\ Anthropic",
-      "url": "https://www.anthropic.com/news/claude-sonnet-5",
-      "publishedAt": null,
-      "content": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
-      "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "38f86efc231e5bba",
-      "date": "2026-08-01",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google AI Blog",
-      "sourceKey": "official:Google AI Blog",
-      "builderOrOrg": "Google",
-      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "publishedAt": "2026-07-28T16:00:00.000Z",
-      "content": "We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
-      "summary": "We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "developer"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d21637a197808d46",
-      "date": "2026-08-01",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "EvoLib: Turning experience into evolving knowledge",
-      "url": "https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge/",
-      "publishedAt": "2026-07-30T16:00:00.000Z",
-      "content": "At a glance Self-supervised. EvoLib enables large language models to learn from their own experience during inference, without requiring ground-truth labels or external feedback. From experience to knowledge. EvoLib transforms past attempts into reusable skills and reflective insights that can be applied to future tasks. Knowledge that evolves. Useful skills and insights are continually refined, consolidated, and reweighted, turning instance-specific observations into increasingly general knowledge over time. Learning that transfers across tasks. By turning experience into reusable knowledge, EvoLib helps AI models learn from past successes and failures and evolve the knowledge that has the highest potential on improving future performance. Built for today&#8217;s AI models. As EvoLib does not require model updates, it can be applied to any black-box language models and AI systems deployed through APIs. Memory has become an important AI agent capability: the ability to store and retrieve past experiences. But memory alone is not learning. A collection of past conversations, reasoning traces, or action histories can quickly grow into a vast archive of experiences, making it difficult to identify the most relevant knowledge for a new task—let alone refine and evolve this knowledge to improve performance over time. Humans learn differently. We do not remember every detail of our past experiences. Instead, we remember what matters: strategies that work, mistakes to avoid, and skills that transfer across situations. Over time, these lessons are refined into increasingly general and reusable knowledge. This ability to transform experience into transferable, evolving knowledge is one of the foundations of human learning. In our recent paper, Test-Time Learning with an Evolving Library , we explore how AI systems can learn from experience in a similar way. We introduce EvoLib , a framework that transforms raw experience into an evolving library of knowledge. Rather than tr…",
-      "summary": "LLMs do not get smarter just by remembering more. EvoLib turns experience into evolving knowledge, taking reusable skills and insights that help models learn and adapt across tasks long after deployment. The post EvoLib: Turning experience…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "paper"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "5ec26184d2beeca7",
-      "date": "2026-08-01",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Together AI Blog",
-      "sourceKey": "official:Together AI Blog",
-      "builderOrOrg": "Together AI",
-      "title": "ThunderAgent: 2x Faster Agentic Inference for Synthetic Data Generation at Scale",
-      "url": "https://www.together.ai/blog/thunderagent",
-      "publishedAt": "2026-07-29T00:00:00.000Z",
-      "content": "ThunderAgent is a program-aware scheduler for agentic inference. By treating each agent workflow as a schedulable program, it eliminates KV cache thrashing to deliver more than 2x single-node throughput and near-linear multi-node scaling.",
-      "summary": "ThunderAgent is a program-aware scheduler for agentic inference. By treating each agent workflow as a schedulable program, it eliminates KV cache thrashing to deliver more than 2x single-node throughput and near-linear multi-node scaling.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.69,
-          "rationale": [
-            "inference",
-            "throughput"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4dc0bb01688349c1",
-      "date": "2026-08-01",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Mistral AI Blog",
-      "sourceKey": "official:Mistral AI Blog",
-      "builderOrOrg": "Mistral AI",
-      "title": "Remote agents in Vibe. Powered by Mistral Medium 3.5. | Mistral AI",
-      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/",
-      "publishedAt": null,
-      "content": "Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks.",
-      "summary": "Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "155df4c562ef069b",
-      "date": "2026-08-01",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Mistral AI Blog",
-      "sourceKey": "official:Mistral AI Blog",
-      "builderOrOrg": "Mistral AI",
-      "title": "Introducing Mistral Small 4 | Mistral AI",
-      "url": "https://mistral.ai/news/mistral-small-4/",
-      "publishedAt": null,
-      "content": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
-      "summary": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "autonomous"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "multimodal"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.8,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.63,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "261f692f80623caf",
-      "date": "2026-08-01",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Mistral AI Blog",
-      "sourceKey": "official:Mistral AI Blog",
-      "builderOrOrg": "Mistral AI",
-      "title": "Speaking of Voxtral | Mistral AI",
-      "url": "https://mistral.ai/news/voxtral-tts/",
-      "publishedAt": null,
-      "content": "Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.",
-      "summary": "Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "voice",
-          "label": "Voice",
-          "confidence": 0.81,
-          "rationale": [
-            "voice",
-            "speech",
-            "tts"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "weights"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "80143214a5562c34",
-      "date": "2026-08-01",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] not much happened today",
-      "url": "https://www.latent.space/p/ainews-not-much-happened-today-038",
-      "publishedAt": "2026-08-01T01:38:09.000Z",
-      "content": "It might seem strange that we aren&#8217;t giving title story to a noteworthy DeepSeek open weights model update that still bumps up the Pareto Frontier that GPT 5.6 pushed out only yesterday : @teortaxesTex Temporary error with cache hit rate calculation - it was rectified a couple of minutes after your screenshot! \\n\\n0731 is only marginally higher Cost per Task than the earlier version, and via the DeepSeek API with ~99% cache hit discount it is most certainly on our Pareto frontier \",\"username\":\"ArtificialAnlys\",\"name\":\"Artificial Analysis\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/2042402069320290304/A8C1lP07_normal.jpg\",\"date\":\"2026-07-31T08:26:16.000Z\",\"photos\":[{\"img_url\":\"https://pbs.substack.com/media/HOiugSLbQAAck-3.jpg\",\"link_url\":\"https://t.co/ia4rJOhf1V\"}],\"quoted_tweet\":{},\"reply_count\":10,\"retweet_count\":32,\"like_count\":418,\"impression_count\":75216,\"expanded_url\":null,\"video_url\":null,\"video_preview_media_key\":null,\"belowTheFold\":false}\" data-component-name=\"Twitter2ToDOM\"> But because it is a post-train only update with no further details, there&#8217;s really not all that much to report, apart from noting that DeepSeek is finally relevant again after over a year of comparative obscurity (with V4 Pro this April as an exception) after becoming way too prominent, well timed after their $70B pre-IPO fundraise . AI News for 7/30/2026-7/31/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap DeepSeek V4-Flash 0731: post-training leap, API launch, and immediate open-weights release DeepSeek&#8217;s biggest story of the day was the official public-beta launch of DeepSeek-V4-Flash API , with DeepSeek stating that its upgraded agent capabilities now surpass V4-Pro-Preview and that the API now supports the Responses API format and is &#8220;fully adapted f…",
-      "summary": "apart from DeepSeek V4-Flash 0731, a quiet day.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.69,
-          "rationale": [
-            "image",
-            "video"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.69,
-          "rationale": [
-            "post-training",
-            "rl"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "cfe304b92f4f495f",
-      "date": "2026-08-01",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] GPT 5.6 price cut by 20%-80%: Cost of GPT 5.4 Intelligence dropped 13x in 4 months due to GPT 5.6 recursive self-optimization",
-      "url": "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80",
-      "publishedAt": "2026-07-31T04:40:54.000Z",
-      "content": "One of our big &#8220;hero charts&#8221; a year ago (eventually adopted by Demis ) made the stunning observation that, holding LMSys Elo constant, GPT4 level intelligence fell by 1000x over 18 months : Back then, it was unclear if these were &#8220;noob gains&#8221; - going from unoptimized to optimized, going from completions to reasoning, going from dense to MoE, with all the low hanging fruit gone. Another 18 months later, it seems the answer is no; constant-level intelligence is continuing to get precipitously cheaper. Yesterday, OpenAI published findings on how GPT 5.6 had optimized its own serving: 1. Inference Acceleration To serve more tokens on the same hardware without sacrificing quality, OpenAI focused on several systemic upgrades: Self-Optimization: GPT-5.6 Sol was actively used to analyze production traffic, tune load balancing, and autonomously rewrite production kernels in OpenAI&#8217;s own Triton and Gluon languages. This autonomous kernel optimization reduced end-to-end serving costs by 20%. Speculative Decoding: Improved its own draft model (by designing and running hundreds of experiments on its architecture, testing changes in size, structure, and features, while monitoring the speculator training process, autonomously intervening when issues arose, including hardware failures and training instability) increasing token-generation efficiency by over 15%. KV Caching: Optimized batching, sharding, and cache management specific to different workloads (primarily Sol in Codex) to extract more inference from existing hardware. 2. Agentic Harness Improvements To streamline the complex, multi-step tasks in tools like Codex and ChatGPT Work, OpenAI optimized their Rust orchestration layer to reduce repetitive compute costs: Avoiding Context Bloat: Tools, skills, and plugins are only surfaced when needed (deferred discovery), and tool outputs are capped at 10,000 tokens by default to prevent the context window from expanding unnecessarily. Prompt Caching…",
-      "summary": "Distillation is all you need!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.81,
-          "rationale": [
-            "agent",
-            "agentic",
-            "autonomous"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.69,
-          "rationale": [
-            "inference",
-            "serving"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "988e95556125b0b0",
-      "date": "2026-08-01",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web",
-      "url": "https://www.latent.space/p/ontologies-agentic-systems",
-      "publishedAt": "2026-07-30T11:17:55.000Z",
-      "content": "One of the most watched videos from the recent AI Engineer World&#8217;s Fair is a 20-minute talk by Frank Coyle , a professor of computer science who currently teaches generative AI and LLMs at UC Berkeley. Drawing on his decades of experience, Coyle re-introduced the concept and practice of ontologies to today&#8217;s AI engineers . Coyle argued that while LLMs are very effective at providing probabilistic reasoning, for agentic systems to be truly effective they need &#8220;logical guardrails&#8221; &#8212; by which he means ontologies. UC Berkeley professor Frank Coyle speaking at AIEWF 2026. In computer science, an ontology is &#8220;a description of data structure &#8211; of classes, properties, and relationships in a domain of knowledge&#8221; (as nicely defined by Oxford Semantic Technologies ). Coyle himself defined an ontology as simply &#8220;data as graphs.&#8221; He added that ontologies as a concept go right back to Aristotle, and have been used throughout the history of Artificial Intelligence. The company Neo4j, known for its graph database systems, is also using ontologies in its agentic products. In a keynote session at AIEWF , Neo4j CEO Emil Eifrem talked about three different types of ontologies to enable a &#8220;smarter shared substrate&#8221; to run agents at scale . The first is a business-facing ontology, describing the key concepts in an organization; next is a technical ontology, which Eifrem described as &#8220;all the metadata of all the data sources and data assets in your enterprise ecosystem&#8221;; and finally execution traces, which are &#8220;the runtime signals out of your agent.&#8221; Neo4j&#8217;s ontology-based semantic layer What&#8217;s Old is New Again: the Semantic Web Frank Coyle thinks web ontologies are especially useful in building agentic systems. He mentioned Schema.org, FOAF, Dublin Core and other ontologies familiar to web developers &#8212; or at least, those of a certain vintage. He also mentioned &#8220;augment…",
-      "summary": "AI engineers are rediscovering ontologies as a way to keep probabilistic agents inside deterministic boundaries.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "developer"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.62,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.51,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "248363d5df8b33da",
-      "date": "2026-08-01",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] AI is eating Finance; AIE NYC now open",
-      "url": "https://www.latent.space/p/ainews-ai-is-eating-finance-aie-nyc",
-      "publishedAt": "2026-07-29T23:32:12.000Z",
-      "content": "We love writing a newsletter that cares more about being high signal than telling you there&#8217;s breaking news every single waking minute. Everything in today&#8217;s trending topics, from Kimi K3 to Open Weights to the Security debate to The Big Pace , we already featured once on AINews and it doesn&#8217;t bear further writeup. AI in Finance One noteworthy trend we ARE tracking is the rise of AI in Finance , which though is often covered by Forward Deployed Engineering , is being broadly adopted in every subsector of financial services. You can tell it&#8217;s a big deal when OpenAI gets ae to put on a suit for their NYC event with dedicated equity investing and investment banking plugins in Codex , and Anthropic&#8217;s Financial Services team also does an NYC event and releases Cowork and Claude Code agent templates covering every workflow in corporate finance . To add to this coverage, the full Finance track was released today, covering: - FactSet / Yogendra Miraje: At a company serving thousands of financial-data clients, &#8220;AI skills&#8221; aren&#8217;t just features &#8212; they need ownership, search, evals, audits, and governance to become enterprise-grade agent infrastructure. - Nubank + Snowglobe: For a digital bank with 100M+ customers, simulations can turn agent evals from a bottleneck into the release mechanism for shipping customer-facing AI faster. - Intuit / Udi Menkes: When you serve ~100M consumers, small businesses, and accountants, generic LLMs aren&#8217;t enough &#8212; finance AI has to understand real state, actions, outcomes, and risk. - Kepler / Vinoo Ganesh: In financial research, where Kepler indexes millions of filings and market documents, &#8220;verifiable AI&#8221; means every answer needs provenance, reconciliation, and review. - Nubank / Lucas Palma: At one of the world&#8217;s largest digital banks, vetting thousands of AI skills before developers use them becomes a supply-chain security problem, not just a DX problem. -…",
-      "summary": "a quiet day lets us cover how AI is permeating financial services as the next big vertical after coding.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "code",
-            "developer"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.69,
-          "rationale": [
-            "enterprise",
-            "security"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.62,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.51,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "7253b89999b408cd",
-      "date": "2026-08-01",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "China's Other Minerals Monopoly",
-      "url": "https://www.chinatalk.media/p/chinas-other-minerals-monopoly",
-      "publishedAt": "2026-07-30T10:54:20.000Z",
-      "content": "Today&#8217;s guest post was authored by Nima Khorrami, a Stockholm-based Research Associate at the Arctic Institute, Centre for Circumpolar Security Studies. After decades of neglect, Washington has adopted a coherent and &#8220;forceful&#8221; response to China&#8217;s dominance over critical minerals. China controls an estimated 91 percent of global rare earth refining, dominates the processing of a wide range of minerals, and has demonstrated repeatedly that it is willing to weaponise that position. The United States has responded through a range of initiatives and policy packages including Executive Order 14241 , the One Big Beautiful Bill Act , and Pax Silica . Add bilateral deals with Australia , Japan , the DRC , and Saudi Arabia , and the result is undeniably a more aggressive and cohesive mineral strategy than the United States has attempted in decades. The problem is not with any of these agreements and frameworks. Instead, it is with what is systematically absent from them. The entire architecture of American mineral strategy, and indeed the EU&#8217;s parallel effort under its Critical Raw Materials Act and RESourceEU , is built around two variables: where minerals are located and who processes them. What it consistently underweights is a third variable that will most likely prove equally consequential over the medium term: who controls the technology that operates the mines themselves . This constitutes the central strategic blind spot in the West&#8217;s mineral autonomy agenda because China is not just dominant in mineral processing. Beijing is also rapidly establishing dominance in the operational technology of extraction; the autonomous systems, industrial AI, connectivity infrastructure, and integrated machine intelligence that will define how the world&#8217;s future mines will run. Today, we&#8217;ll explore China&#8217;s dominance in autonomous mining technology and what to do about it. If that dominance goes unchecked, the US and its allies c…",
-      "summary": "autonomous mining!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "autonomous"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "weights"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.62,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.51,
       "whyThisMatters": ""
     },
     {
@@ -2137,273 +2420,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.63,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4aa27e0eca629076",
-      "date": "2026-07-26",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:_catwu",
-      "builderOrOrg": "Cat Wu",
-      "title": "Claude Opus 5 is great at long-running autonomous work! Try it out and let us know what you thi…",
-      "url": "https://x.com/_catwu/status/2080707593115516985",
-      "publishedAt": "2026-07-24T17:32:02.000Z",
-      "content": "Claude Opus 5 is great at long-running autonomous work! Try it out and let us know what you think :) https://t.co/8LTbAOJJR0",
-      "summary": "Claude Opus 5 is great at long-running autonomous work! Try it out and let us know what you think :) https://t.co/8LTbAOJJR0",
-      "regionTags": [],
-      "metrics": {
-        "likes": 626,
-        "retweets": 23,
-        "replies": 62
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "autonomous"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "6c7e559194c82eeb",
-      "date": "2026-07-26",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "Claude Opus 5 is out now, and it's a huge jump over Opus 4.8 on a wide number of capabilities.…",
-      "url": "https://x.com/levie/status/2080704871934931221",
-      "publishedAt": "2026-07-24T17:21:13.000Z",
-      "content": "Claude Opus 5 is out now, and it's a huge jump over Opus 4.8 on a wide number of capabilities. At Box, we've been testing Claude Opus 5 with the Box AI Agent on Box's Complex Work Eval, our agentic benchmark that puts models through real enterprise document work end-to-end across a variety of industries. We saw meaningful gains in performance across some of the most complex enterprise tasks on unstructured data. Here are a few examples of some of the wins we saw in testing: * Due diligence (+17…",
-      "summary": "Claude Opus 5 is out now, and it's a huge jump over Opus 4.8 on a wide number of capabilities. At Box, we've been testing Claude Opus 5 with the Box AI Agent on Box's Complex Work Eval, our agentic benchmark that puts m…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 281,
-        "retweets": 20,
-        "replies": 41
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "benchmark",
-            "eval"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.92,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.7,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "5fa615eb471205e6",
-      "date": "2026-07-26",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:zarazhangrui",
-      "builderOrOrg": "Zara Zhang",
-      "title": "The #1 thing I want from any model right now: speed Intelligence is already good enough. But wa…",
-      "url": "https://x.com/zarazhangrui/status/2080829737044439444",
-      "publishedAt": "2026-07-25T01:37:23.000Z",
-      "content": "The #1 thing I want from any model right now: speed Intelligence is already good enough. But waiting 1-5 min per task is the worst possible window: too short for deep work, too long to just stare at the screen. So I end up scrolling X Agents are making all of us more ADHD",
-      "summary": "The #1 thing I want from any model right now: speed Intelligence is already good enough. But waiting 1-5 min per task is the worst possible window: too short for deep work, too long to just stare at the screen. So I end…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 128,
-        "retweets": 4,
-        "replies": 34
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "f102ad9d8c4e47d0",
-      "date": "2026-07-26",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:zarazhangrui",
-      "builderOrOrg": "Zara Zhang",
-      "title": "If you bring your agent into your chat groups and meetings, the chat history/meeting transcript…",
-      "url": "https://x.com/zarazhangrui/status/2080617484261249160",
-      "publishedAt": "2026-07-24T11:33:58.000Z",
-      "content": "If you bring your agent into your chat groups and meetings, the chat history/meeting transcripts become PRDs In the past, work culture tended to favor written communicators; now verbal communicators have an equal chance cos agents don’t care https://t.co/H3UqXdDiLB",
-      "summary": "If you bring your agent into your chat groups and meetings, the chat history/meeting transcripts become PRDs In the past, work culture tended to favor written communicators; now verbal communicators have an equal chance…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 28,
-        "retweets": 1,
-        "replies": 6
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.78,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.61,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "58a980c3484de802",
-      "date": "2026-07-26",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:danshipper",
-      "builderOrOrg": "Dan Shipper",
-      "title": "BREAKING: Claude Opus 5 is OUT NOW! And…it’s a hard model to love. We’ve spent the last week @e…",
-      "url": "https://x.com/danshipper/status/2080700057892815114",
-      "publishedAt": "2026-07-24T17:02:05.000Z",
-      "content": "BREAKING: Claude Opus 5 is OUT NOW! And…it’s a hard model to love. We’ve spent the last week @every testing it across coding, writing, knowledge work, and our internal agent. It argued with instructions, stopped before the work was finished, and generally didn’t play well with our existing skills and plugins like Compound Engineering. Our first reaction was: What have they done to my boy? Then we deleted our existing skills and started from scratch. Without the elaborate workflows we had built…",
-      "summary": "BREAKING: Claude Opus 5 is OUT NOW! And…it’s a hard model to love. We’ve spent the last week @every testing it across coding, writing, knowledge work, and our internal agent. It argued with instructions, stopped before…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 2221,
-        "retweets": 128,
-        "replies": 151
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "490bb27a5ab641b2",
-      "date": "2026-07-26",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "No Priors",
-      "sourceKey": "podcast:No Priors",
-      "builderOrOrg": "No Priors",
-      "title": "Building an Autonomous Delivery Experience with DoorDash Co-Founders Andy Fang and Stanley Tang",
-      "url": "https://www.youtube.com/watch?v=vNpcg_Ma-FA",
-      "publishedAt": "2026-07-23T10:00:00.000Z",
-      "content": "Speaker 1 | 00:05 - 00:34 Hi, listeners. Welcome back to No Priors. Today, I'm here with Andy Fang and Stanley Tang, cofounders at DoorDash. We talk about how DoorDash has been a robotics company for the last eight years, the data advantages of their network, and what all this means for 9,000,000 dashers and 3,000,000,000 deliveries a year. Welcome. Speaker 1 | 00:34 - 00:52 Handy, Stanley, thank you so much for being here. Really excited to talk to you about all the crazy stuff DoorDash is doing. I thought we could start with what's going on with agentic commerce at DoorDash. I feel like you have one of the largest rollouts of actually using AI to change what people consume. Yeah. Speaker 1 | 00:52 - 00:54 So what was the backstory here? Speaker 2 | 00:54 - 01:07 I mean, it started a couple years ago, honestly, in terms of, like, our attempts to try to make a play here. It actually originally, we were bullish on voice as the modality. Speaker 1 | 01:08 - 01:09 And it ended up not being thing. Speaker 2 | 01:09 - 01:51 That ended up not being the thing, but maybe it's will in the future, but it just that didn't really land. But the thing that was very interesting for us was just this natural conversational experience. And I think, know, what we've seen is just, like, people being able to, like, just, like, naturally just translate what's in their head into this interface versus trying to, like, do some research online and then or try to do some, like, keyword optimization stuff. Like, people just found it easier to search for things, either more nuanced kind of restaurant discovery searches or different tasks on the grocery side. And, yeah, we've just seen a lot of interesting traction that's upheld as we've expanded the rollout. Speaker 1 | 01:51 - 01:56 What are you seeing in terms of behavior change from the user side? Like, do I eat or buy differently? Speaker 2 | 01:56 - 02:19 Yeah. So I would say on the restaurant side, we are seeing people 50% of trajectories of people using Ask DoorDash for restaurants. Restaurants. They're 50% of those trajectories are people ordering from places they've never ordered from before, which is huge because that's one of the hardest metrics historically for DoorDash for us to move, and so that's been big. And then another one is on the grocery side. Speaker 2 | 02:19 - 02:35 We're seeing a lot higher basket sizes. Like, I would say, like, 40% larger basket sizes on grocery. And so people are like you know, they'll take a picture of what's in their fridge, and they'll say, hey. Help me stock up my fridge, Or they'll do meal planning with, like maybe they have some dietary constraints. Or they're like, hey. Speaker 2 | 02:35 - 02:47 I wanna, like, cook a pasta dinner this weekend with my family. Or even just like, hey. Help me reorder, like, my, you know, my usuals. And, like, that's a lot easier than tapping through the the traditional experience. Speaker 1 | 02:47 - 02:58 That's wild. I've never thought of DoorDash as difficult to use, but, like, that suggests there's, like, actually latent demand that wasn't being served because you you it wasn't easy enough to, like, eat at new places. Speaker 2 | 02:58 - 03:09 Correct. Yeah. And I think a lot of people on the restaurant side, it's like people build habits. Mhmm. But I think people also want some diversity in terms of, like, what they're eating. Speaker 2 | 03:09 - 03:15 You know? And so we felt like this experience ended up being a natural way to allow people to express that. Speaker 1 | 03:15 - 03:21 Oh, think about the social currency of, like, my friend Andy found a new, like, really good restaurant Speaker 2 | 03:21 - 03:22 for me. Speaker 1 | 03:22 - 03:25 Andy's awesome. Right? So I feel like that's even a different way people look at DoorDash. Speaker 2 | 03:25 - 03:31 And, yeah, another thing that was an investment we made was actually, like, incorporating, like, world knowledge into the experience. So Speaker 1 | 03:31 - 03:33…",
-      "summary": "Speaker 1 | 00:05 - 00:34 Hi, listeners. Welcome back to No Priors. Today, I'm here with Andy Fang and Stanley Tang, cofounders at DoorDash. We talk about how DoorDash has been a robotics company for the last eight years, the data advantag…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.81,
-          "rationale": [
-            "agent",
-            "agentic",
-            "autonomous"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "voice",
-          "label": "Voice",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "voice"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
       "whyThisMatters": ""
     }
   ]
