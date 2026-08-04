@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T00:33:43.367Z",
+  "generatedAt": "2026-08-04T03:45:26.942Z",
   "slug": "coding",
   "label": "Coding",
   "items": [
@@ -44,9 +44,9 @@
       ],
       "section": "Builders",
       "importanceScore": 0.56,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.71,
+      "digestScore": 0.47,
       "whyThisMatters": ""
     },
     {
@@ -100,9 +100,9 @@
       ],
       "section": "Builders",
       "importanceScore": 0.84,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.9,
+      "digestScore": 0.65,
       "whyThisMatters": ""
     },
     {
@@ -146,9 +146,9 @@
       ],
       "section": "Builders",
       "importanceScore": 0.7,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.8,
+      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
@@ -199,9 +199,44 @@
       ],
       "section": "Podcasts & Newsletters",
       "importanceScore": 0.52,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.44,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "1d7b9a9dc5420279",
+      "date": "2026-08-04",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Circles powers telco personalization with OpenAI technology",
+      "url": "https://openai.com/index/circles",
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "content": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
+      "summary": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
       "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.69,
+      "digestScore": 0.73,
       "whyThisMatters": ""
     },
     {
@@ -390,9 +425,9 @@
       ],
       "section": "Official Sources",
       "importanceScore": 0.72,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.82,
+      "digestScore": 0.57,
       "whyThisMatters": ""
     },
     {
@@ -757,9 +792,9 @@
       ],
       "section": "Podcasts & Newsletters",
       "importanceScore": 0.4,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.61,
+      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -2282,59 +2317,6 @@
           "confidence": 0.5700000000000001,
           "rationale": [
             "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "178e016fcef37ab1",
-      "date": "2026-07-29",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "How news organizations are using AI to advance their vital missions",
-      "url": "https://openai.com/index/how-news-organizations-are-using-ai",
-      "publishedAt": "2026-07-22T13:00:00.000Z",
-      "content": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
-      "summary": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
           ],
           "score": 1
         }
