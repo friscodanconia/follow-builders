@@ -1,11 +1,57 @@
 {
-  "generatedAt": "2026-08-03T04:54:11.930Z",
+  "generatedAt": "2026-08-04T00:33:43.367Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
     {
+      "id": "572278effc08e428",
+      "date": "2026-08-04",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:karpathy",
+      "builderOrOrg": "Andrej Karpathy",
+      "title": "More on the pelican on the bicycle test from @simonw: https://t.co/OXmtODyTKj I uploaded the so…",
+      "url": "https://x.com/karpathy/status/2083948654377996480",
+      "publishedAt": "2026-08-02T16:10:51.000Z",
+      "content": "More on the pelican on the bicycle test from @simonw: https://t.co/OXmtODyTKj I uploaded the source here so it's playable in the browser, forkable etc. https://t.co/w3Nctc888d Look out for GTA Hobbiton dropping before GTA VI :)",
+      "summary": "More on the pelican on the bicycle test from @simonw: https://t.co/OXmtODyTKj I uploaded the source here so it's playable in the browser, forkable etc. https://t.co/w3Nctc888d Look out for GTA Hobbiton dropping before G…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 392,
+        "retweets": 14,
+        "replies": 38
+      },
+      "topics": [
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "browser"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "imo"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
       "id": "abf882c3ab9b59a2",
-      "date": "2026-08-03",
+      "date": "2026-08-04",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -58,8 +104,66 @@
       "whyThisMatters": ""
     },
     {
+      "id": "37252d5d47a2a2b1",
+      "date": "2026-08-04",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Orchard: An open framework for scalable agentic AI",
+      "url": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/",
+      "publishedAt": "2026-08-03T16:00:00.000Z",
+      "content": "At a glance Orchard is an open-source framework for scalable and cost-effective agentic AI research, built around Orchard Env, a reusable environment service for training and evaluating agents across task domains. The same Orchard infrastructure supports software-engineering, web-navigation, and personal-assistant agents, and can train them directly inside real deployment harnesses such as Codex, OpenClaw, and ZeroClaw—letting researchers reuse environments, data pipelines, and evaluation workflows across tasks.&nbsp; Orchard-SWE, Orchard-GUI, and Orchard-Claw demonstrate that relatively small open-weight models can achieve strong results on complex real-world tasks. For example, Orchard-SWE reaches 69.7% on SWE-bench Verified—73.0% with value-model reranking—using only about 3 billion active parameters, approaching frontier systems using more than 10 times larger models.&nbsp; Alongside the models and workflows, the project releases training data and evaluation methods intended to help the broader research community build and study open agentic systems.&nbsp;Artificial intelligence is rapidly moving beyond static question-answering toward autonomous agents that can plan, reason, and act across complex, multistep environments. These systems can fix bugs in complex codebases, navigate the web on a user&#8217;s behalf, and manage workflows involving calendars and email.&nbsp;&nbsp; While there is excitement around agentic AI’s capabilities, the research community faces a persistent bottleneck. Building state-of-the-art agentic systems often requires proprietary infrastructure, including custom sandboxes, closed training pipelines, and proprietary datasets that most researchers and practitioners cannot access or reproduce. To address this gap, we introduce Orchard (opens in new tab) , an open-source framework for scalable agentic modeling. At the center of Orchard is Orchard Env, a lightweight, Kubernetes environment that provides reusable isolated components for runn…",
+      "summary": "Orchard is an open-source framework for the research community to train and evaluate AI agents across task types. It reduces complexity while supporting strong performance from smaller models by enabling researchers to reuse the same infra…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.81,
+          "rationale": [
+            "agent",
+            "agentic",
+            "autonomous"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.81,
+          "rationale": [
+            "swe-bench",
+            "eval",
+            "evaluation"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "swe-bench"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.82,
+      "whyThisMatters": ""
+    },
+    {
       "id": "c3dbcf7afb4b785f",
-      "date": "2026-08-03",
+      "date": "2026-08-04",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Together AI Blog",
@@ -2397,111 +2501,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "9c1e867ce7a4461c",
-      "date": "2026-06-29",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Critical Mineral Security: The Endgame",
-      "url": "https://www.chinatalk.media/p/critical-mineral-security-the-endgame",
-      "publishedAt": "2026-06-22T10:56:58.000Z",
-      "content": "is a non-resident fellow at the Foundation for American Innovation. This essay is the final winner of our economic security essay contest ! After fifteen years of bipartisan attention, countless executive orders, and tens of billions in appropriated and authorized funding, the United States remains overwhelmingly reliant on China for the critical minerals. In some cases, that reliance has increased. Over that same period, foreign interference in critical mineral supply chains has moved from a hypothetical to a regular occurrence. China&#8217;s willingness to use its supply chains as leverage became undeniable when rare earth exports to Japan were cut in 2010 over competing island claims. America had more than a decade to prepare for the PRC&#8217;s first direct controls on exports to the U.S. But when China placed export controls on gallium and germanium in late 2023, the United States effectively had domestic alternatives. When the PRC later limited graphite and antimony exports, prices for both materials spiked and threatened supply chains for a wide range of products, from weapons to EVs. Then, when rare earth restrictions hit in 2025, American manufacturers still couldn&#8217;t find alternatives, and in some cases were forced to shut down production. Even after a bilateral agreement to lift those restrictions, firms are still suffering from yttrium and scandium shortage. In comparison, there is no shortage of interest in critical minerals; they seem to be invoked to justify countless public policies or acts of diplomacy. But despite this interest, American supply chains remain tangled up in China, which is increasingly willing to strangle them to achieve concessions. Why? We remain reliant on China because U.S. critical mineral policy has recently taken a categorical approach, rather than prioritized strategy. These policies treated critical minerals as an undifferentiated category, deploying uniform benefits that apply equally across a wide range of materials…",
-      "summary": "a policy framework for derisking success",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "imo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "policy"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "8b7f2148d50273c8",
-      "date": "2026-06-28",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "No Priors",
-      "sourceKey": "podcast:No Priors",
-      "builderOrOrg": "No Priors",
-      "title": "Why Traditional Benchmarks Fail Modern AI Models with OpenAI Research Scientist Noam Brown",
-      "url": "https://www.youtube.com/watch?v=AZrU6y3pUcU",
-      "publishedAt": "2026-06-26T10:13:00.000Z",
-      "content": "Speaker 1 | 00:00 - 00:13 With GBT three, you couldn't scale test time compute. Like, if you gave it a budget of $10,000,000 and said, okay. Well, let's see what GBT three can do. It really can't do that much. The precarious frameworks and responsible scaling policies, they don't really account for the amount of test time compute. Speaker 1 | 00:13 - 00:32 They just say, okay. Well, what's the capability of the model? The problem is we're in a world now where the capability of the model is a function of how much money you put into it, basically. If you give it a budget of $10,000, it can do a lot more than what it can do with a budget of $10. Give it a budget of $10,000,000, it can do even At what budget should you evaluate these models? Speaker 1 | 00:32 - 00:36 The policies that exist today don't really address that question. Speaker 2 | 00:43 - 01:03 Hi, listeners. I'm Sarah Gore, and welcome back to No Priors. Today, I'm here with Noam Brown, one of our godfathers of AI reasoning. We talk about the broken state of evaluations, very large scale test time compute, how he thinks about recursive self improvement, and what's next on the horizon for competition at the frontier. Welcome. Speaker 2 | 01:03 - 01:05 Noam, I'm so excited to have you back. Speaker 1 | 01:05 - 01:06 That's great to be back. Yeah. Speaker 2 | 01:06 - 01:21 You are our first guest. I'm very proud of my taste in friends and researchers for the pod, given, you know, how important, you know, inference time scaling has become to the industry. You should be proud too, having actually pioneered Speaker 1 | 01:21 - 01:23 it. Played apart, yeah, among many others. Speaker 2 | 01:24 - 01:37 You just wrote this essay that really resonated about large scale test time compute and why the industry is not evaluating these models as robustly as it should be. What was the motivation for it? Speaker 1 | 01:37 - 02:08 Yeah. The motivation was we released 5.5, and the initial reaction was kinda skepticism that it was a substantially better model. This to be fair, that only lasted for a few hours before people had some time to play around with it and and try it out themselves, and they saw that it was actually substantially better. But I think a lot of the skepticism came from the benchmark grid that was published. Basically, whenever a new model is released, there's this benchmark grid where they show all these different benchmarks on on the x axis and then the performance of different models on the y axis, and you can just, like, compare different models. Speaker 1 | 02:08 - 02:28 It's like a single number for a model on a single benchmark. And if you look on paper at the difference between, like, five point five and five point four or or other models, it wasn't it was an improvement, but it wasn't a huge improvement. It was only a few percentage points on some benchmarks. So people looked at that, and they were skeptical that it was actually a better model. Once they played around with it, the story changed. Speaker 1 | 02:28 - 02:53 I think the reason why it doesn't show up as so much better on the benchmarks is because the benchmarks are being presented the benchmark results are being presented in the wrong way. They're not controlling for the amount of test on compute that is being used on that benchmark question. It turned out that 5.5 is just much more efficient with its thinking. If you run it at max settings, 5.4 is thinking for a lot longer. It takes longer to get back a response than 5.5. Speaker 1 | 02:54 - 03:12 And once you control for the amount of thinking time, actually, you can see that 5.5 is a substantial jump over 5.4. That is, I think, people's day to day experience with it. And then when I mention this to people, the reaction the typical question I get is like, okay. Well, why not just have 5.5 think for as long as 5.4? And the question is like, well, how long should they think for? Speaker 1 | 03:12 - 03:31 Typically, the response I get is, well, u…",
-      "summary": "Speaker 1 | 00:00 - 00:13 With GBT three, you couldn't scale test time compute. Like, if you gave it a budget of $10,000,000 and said, okay. Well, let's see what GBT three can do. It really can't do that much. The precarious frameworks and…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.81,
-          "rationale": [
-            "benchmark",
-            "eval",
-            "evaluation"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "paper"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.52,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.44,
       "whyThisMatters": ""
     }
   ]

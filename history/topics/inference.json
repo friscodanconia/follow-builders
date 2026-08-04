@@ -1,11 +1,56 @@
 {
-  "generatedAt": "2026-08-03T04:54:11.930Z",
+  "generatedAt": "2026-08-04T00:33:43.367Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
     {
+      "id": "b825f4f4b174dab6",
+      "date": "2026-08-04",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "How we built a realtime system for responsive voice AI in six months",
+      "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+      "publishedAt": "2026-08-03T07:00:00.000Z",
+      "content": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+      "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.69,
+          "rationale": [
+            "voice",
+            "speech"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "latency"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
       "id": "d21637a197808d46",
-      "date": "2026-08-03",
+      "date": "2026-08-04",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Microsoft Research Blog",
@@ -58,7 +103,7 @@
     },
     {
       "id": "58deb3c55b91cbe0",
-      "date": "2026-08-03",
+      "date": "2026-08-04",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Together AI Blog",
@@ -93,7 +138,7 @@
     },
     {
       "id": "e6c5b20b9012201d",
-      "date": "2026-08-03",
+      "date": "2026-08-04",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Together AI Blog",
@@ -137,7 +182,7 @@
     },
     {
       "id": "5ec26184d2beeca7",
-      "date": "2026-08-03",
+      "date": "2026-08-04",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Together AI Blog",
@@ -179,6 +224,167 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "417b1b89e3d25fe1",
+      "date": "2026-08-04",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Import AI",
+      "sourceKey": "editorial:Import AI",
+      "builderOrOrg": "Jack Clark",
+      "title": "Import AI 467: Self-sustaining AI viruses; pacing AI progress; confusion about AI and creativity",
+      "url": "https://jack-clark.net/2026/08/03/import-ai-467-self-sustaining-ai-viruses-pacing-ai-progress-confusion-about-ai-and-creativity/",
+      "publishedAt": "2026-08-03T13:31:22.000Z",
+      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Self-sustaining and self-replicating AI viruses are here: …Open weight LLMs + a well-designed harness = a persistent, self-sufficient virus… AI researchers have built a prototype computer virus which uses AI models to compromise computers, then uses their underlying GPU resources to run inference, letting it smartly figure out how to infect more hosts. The results were achieved by researchers from the University of Toronto, the Vector Institute, the University of Cambridge, and ServiceNow, and “demonstrate that self-sustaining AI-driven cyber-threats are no longer theoretical.” “We must prepare for autonomous generative adversaries,” they write. “Artificial intelligence (AI) agents enable a fundamentally new threat: a worm that generates tailored attack strategies to each target it encounters. The worm parasitically uses compromised machines to run open-weight large language models (LLMs) to sustain its reasoning, or extend its reach for further attacks”. How it works : “The worm uses stolen computing power from compromised GPU nodes to host LLMs for generative reasoning. It then uses this reasoning to detect vulnerabilities and devise tailored attacks against additional targets, furthering its spread,” they write. “The proof-of-concept operates using only an open-weight LLM running on a single, local GPU, with no reliance on vendor APIs that could be monitored or revoked”. The researchers don’t describe the underlying LLM besides saying it was published in 2025 and can fit on a single A100 GPU with 80GB of VRAM. A successful proof-of-concept via some custom tools : They give the agent a custom harness that comes with built-in helper functions for network discovery, host discovery, foothold exploitation, privilege escalation, privilege escalation exploitation, and tools for replication…",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Self-sustaining and self-replicating AI viruses are here:…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "autonomous"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "6f7fc6a13d4a4fec",
+      "date": "2026-08-04",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
+      "url": "https://www.latent.space/p/inference-eng",
+      "publishedAt": "2026-08-03T21:44:03.000Z",
+      "content": "We first covered Baseten last year when DeepSeek mania was at peak hype. Now they have raised a monster $13B round and become one of the new cohort of AI Infra decacorns that are (with Nvidia, Intel, and the semis complex) chief beneficiaries of the Inference Inflection . We return to Baseten at the peak of the 2026 edition of Open Weights debate . Ali has published a viral breakdown of Kimi K3 : And since you last saw him, Philip has spoken at AI Engineer and written the definitive book on Inference Engineering spotted all over SF: Three years ago, inference engineering barely existed as a category. Today, it is one of the most critical disciplines in AI. Inference engineering inherently tackles a different question than standard model training: &#8220;How do you turn those weights from training into a product that is fast, reliable, and affordable at scale?&#8221; Focusing on these creates an entirely new optimization problem. baseten.com/inference-engi&#8230; \",\"username\":\"philipkiely\",\"name\":\"Philip Kiely\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/1644827140641153024/ExLuda2F_normal.jpg\",\"date\":\"2026-02-23T18:03:01.000Z\",\"photos\":[{\"img_url\":\"https://substackcdn.com/image/fetch/$s_!1BR1!,w_1028,c_limit,f_auto,q_auto:best,fl_progressive:steep/l_play_button_usfui2,w_88,e_colorize:0/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2025989166333616128.jpg\",\"link_url\":\"https://t.co/QTNdMrypqR\"}],\"quoted_tweet\":{},\"reply_count\":190,\"retweet_count\":230,\"like_count\":2367,\"impression_count\":1396109,\"expanded_url\":null,\"video_url\":\"https://video.twimg.com/amplify_video/2025989166333616128/vid/avc1/1280x720/fBFnlcAf_0wCVPNv.mp4\",\"video_preview_media_key\":\"13_2025989166333616128\",\"belowTheFold\":false}\" data-component-name=\"Twitter2ToDOM\"> In one recent GLM-5.2 experiment, quantizing more of the model actually preserved its benchmark quality while increasing throughput by 20% , because the errors intr…",
+      "summary": "Baseten just raised a $13B Series F and is now one of the leading kings of inference engineering. We go into everything you need to know for autoregressive and diffusion engineering.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "inference",
+            "throughput"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "image",
+            "video"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "china-models",
+          "label": "Chinese AI",
+          "confidence": 0.69,
+          "rationale": [
+            "deepseek",
+            "kimi"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Chinese Models",
+      "importanceScore": 0.55,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.71,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "cfe304b92f4f495f",
+      "date": "2026-08-04",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] GPT 5.6 price cut by 20%-80%: Cost of GPT 5.4 Intelligence dropped 13x in 4 months due to GPT 5.6 recursive self-optimization",
+      "url": "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80",
+      "publishedAt": "2026-07-31T04:40:54.000Z",
+      "content": "One of our big &#8220;hero charts&#8221; a year ago (eventually adopted by Demis ) made the stunning observation that, holding LMSys Elo constant, GPT4 level intelligence fell by 1000x over 18 months : Back then, it was unclear if these were &#8220;noob gains&#8221; - going from unoptimized to optimized, going from completions to reasoning, going from dense to MoE, with all the low hanging fruit gone. Another 18 months later, it seems the answer is no; constant-level intelligence is continuing to get precipitously cheaper. Yesterday, OpenAI published findings on how GPT 5.6 had optimized its own serving: 1. Inference Acceleration To serve more tokens on the same hardware without sacrificing quality, OpenAI focused on several systemic upgrades: Self-Optimization: GPT-5.6 Sol was actively used to analyze production traffic, tune load balancing, and autonomously rewrite production kernels in OpenAI&#8217;s own Triton and Gluon languages. This autonomous kernel optimization reduced end-to-end serving costs by 20%. Speculative Decoding: Improved its own draft model (by designing and running hundreds of experiments on its architecture, testing changes in size, structure, and features, while monitoring the speculator training process, autonomously intervening when issues arose, including hardware failures and training instability) increasing token-generation efficiency by over 15%. KV Caching: Optimized batching, sharding, and cache management specific to different workloads (primarily Sol in Codex) to extract more inference from existing hardware. 2. Agentic Harness Improvements To streamline the complex, multi-step tasks in tools like Codex and ChatGPT Work, OpenAI optimized their Rust orchestration layer to reduce repetitive compute costs: Avoiding Context Bloat: Tools, skills, and plugins are only surfaced when needed (deferred discovery), and tool outputs are capped at 10,000 tokens by default to prevent the context window from expanding unnecessarily. Prompt Caching…",
+      "summary": "Distillation is all you need!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.81,
+          "rationale": [
+            "agent",
+            "agentic",
+            "autonomous"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "inference",
+            "serving"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -232,61 +438,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "cfe304b92f4f495f",
-      "date": "2026-08-03",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] GPT 5.6 price cut by 20%-80%: Cost of GPT 5.4 Intelligence dropped 13x in 4 months due to GPT 5.6 recursive self-optimization",
-      "url": "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80",
-      "publishedAt": "2026-07-31T04:40:54.000Z",
-      "content": "One of our big &#8220;hero charts&#8221; a year ago (eventually adopted by Demis ) made the stunning observation that, holding LMSys Elo constant, GPT4 level intelligence fell by 1000x over 18 months : Back then, it was unclear if these were &#8220;noob gains&#8221; - going from unoptimized to optimized, going from completions to reasoning, going from dense to MoE, with all the low hanging fruit gone. Another 18 months later, it seems the answer is no; constant-level intelligence is continuing to get precipitously cheaper. Yesterday, OpenAI published findings on how GPT 5.6 had optimized its own serving: 1. Inference Acceleration To serve more tokens on the same hardware without sacrificing quality, OpenAI focused on several systemic upgrades: Self-Optimization: GPT-5.6 Sol was actively used to analyze production traffic, tune load balancing, and autonomously rewrite production kernels in OpenAI&#8217;s own Triton and Gluon languages. This autonomous kernel optimization reduced end-to-end serving costs by 20%. Speculative Decoding: Improved its own draft model (by designing and running hundreds of experiments on its architecture, testing changes in size, structure, and features, while monitoring the speculator training process, autonomously intervening when issues arose, including hardware failures and training instability) increasing token-generation efficiency by over 15%. KV Caching: Optimized batching, sharding, and cache management specific to different workloads (primarily Sol in Codex) to extract more inference from existing hardware. 2. Agentic Harness Improvements To streamline the complex, multi-step tasks in tools like Codex and ChatGPT Work, OpenAI optimized their Rust orchestration layer to reduce repetitive compute costs: Avoiding Context Bloat: Tools, skills, and plugins are only surfaced when needed (deferred discovery), and tool outputs are capped at 10,000 tokens by default to prevent the context window from expanding unnecessarily. Prompt Caching…",
-      "summary": "Distillation is all you need!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.81,
-          "rationale": [
-            "agent",
-            "agentic",
-            "autonomous"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.69,
-          "rationale": [
-            "inference",
-            "serving"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -2220,165 +2371,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "143370e211a5b612",
-      "date": "2026-05-25",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "No Priors",
-      "sourceKey": "podcast:No Priors",
-      "builderOrOrg": "No Priors",
-      "title": "The Story Behind Cerebras’ $63 Billion IPO with Founder and CEO Andrew Feldman",
-      "url": "https://www.youtube.com/watch?v=jeop9wfb9jU",
-      "publishedAt": "2026-05-21T07:00:00.000Z",
-      "content": "Speaker 1 | 00:00 - 00:12 Netflix used to deliver DVDs and envelopes. And when the Internet got fast, they became a movie studio. Right? It opened up an entirely new business, something fundamentally different. That's what happens with speed. Speaker 1 | 00:12 - 00:30 And I think that's what fast AI does. Right now, we're replacing things that everybody can see, like coding, design, the SaaS tools. But once we start sort of fundamentally reorganizing around this, you're gonna see this sort of new business models and fundamental jumps in productivity. I'm eager for that. That's so cool. Speaker 2 | 00:37 - 01:01 Today at No Prize, we have Andrew Feldman, the cofounder and CEO of Cerebras. Cerebras was founded in the mid two thousand tens to focus on new workloads for AI, particularly the machine learning world, and then has made the transition in a very fast inference for the foundation model world that we live in today. Cerebras recently went public and is currently worth about $63,000,000,000 in the stock market. So Andrew, thank you for joining us on Opriors. Speaker 1 | 01:01 - 01:03 Oh, what a pleasure. It's good to see you guys again. Speaker 2 | 01:03 - 01:12 Yeah. So first of all, congratulations. So your company, Cerebras, just went public. As of today, it's a 60,000,000,000 market cap, which is pretty amazing. Pretty amazing. Speaker 2 | 01:12 - 01:27 Yeah. And I think you were with us a year or two ago on the show in one of the earlier episodes, it was a pleasure to talk to you then. Obviously, we're very excited to have you on today. Can you tell us a bit how the business evolved since that time and what you folks just a reminder for our audience what you do, what you're focused on, how you're moving forward? Speaker 1 | 01:28 - 01:43 We build AI computers. Right? Computers designed to and optimized to accelerate AI workloads. And right now, we're the the fastest at inference, not by a little bit, but by a lot. Fifteen, eighteen, 20x faster than GPUs. Speaker 1 | 01:44 - 02:08 And so what happened was starting at about 2025, AI models got smart enough to be useful. People began using them, and you know, we make AI with training, and we use it with inference. So as people began to use it, it began to to sort of be integrated into their day to day work. Speed became fundamentally important, and we were just crushed with demand. Speaker 2 | 02:08 - 02:13 Is it is this faster across the board, is this specific use cases? Faster across the board. Speaker 1 | 02:13 - 02:48 Big models, small models, US models, Chinese models, trillion parameter models, 1,000,000,000 parameter models across the board. And then what happened was at the end of the year, we signed a deal with OpenAI, of one of the biggest deals ever in Silicon Valley, sort of north of $20,000,000,000 And then in March, we signed an agreement with AWS where we will be deployed in their data centers going forward. And so it was just a whirlwind year and a half of chasing the chasing supply and trying to trying to sort of meet Speaker 2 | 02:48 - 02:54 the demand. And what what shifted in the year and in the last year and a half? Was it the ramp in manufacturing? Was it a new chip design? Was it something else? Speaker 2 | 02:54 - 02:55 Could you help educate What folks on Speaker 1 | 02:57 - 03:07 happened was we built a really, really fast machine, and for a long time nobody cared. Right? That's because Actually, forgive Speaker 3 | 03:07 - 03:14 me for saying so, but a lot of people objected and said this is just a weird architecture. They called it wrong. Like Cerubis called it wrong. Speaker 1 | 03:14 - 03:25 Yeah. Yeah. They did. I think to be radically better, right, you can't build something that is a similar architecture. Right? Speaker 1 | 03:25 - 03:52 You're not going to get 15 or 20 times better than the GPU with a minor modification to their architecture. And that's probably true across the board, that if you're going to aspire to a radical improve…",
-      "summary": "Speaker 1 | 00:00 - 00:12 Netflix used to deliver DVDs and envelopes. And when the Internet got fast, they became a movie studio. Right? It opened up an entirely new business, something fundamentally different. That's what happens with spe…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.52,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.44,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "8912d6258241347d",
-      "date": "2026-05-23",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "What’s happened is that we went from AI chat tools that were relatively cheap and had small con…",
-      "url": "https://x.com/levie/status/2057663408376516703",
-      "publishedAt": "2026-05-22T03:22:40.000Z",
-      "content": "What’s happened is that we went from AI chat tools that were relatively cheap and had small context windows, to AI agents that have giant context windows, the ability to keep track of longer running work, and models that cost an order of magnitude more on inference because they’re that much better. This has compounded far faster than most realized (unless you were paying close attention at the middle or end of last year, which many here were), and the dollars flowing in now are much more real.…",
-      "summary": "What’s happened is that we went from AI chat tools that were relatively cheap and had small context windows, to AI agents that have giant context windows, the ability to keep track of longer running work, and models tha…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 474,
-        "retweets": 48,
-        "replies": 67
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "52c16bbdd313b893",
-      "date": "2026-05-22",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Together AI Blog",
-      "sourceKey": "official:Together AI Blog",
-      "builderOrOrg": "Together AI",
-      "title": "Together AI and Pearl Research Labs Team Up to Reduce the Cost of AI Inference",
-      "url": "https://www.together.ai/blog/together-ai-partners-with-pearl-research-labs",
-      "publishedAt": "2026-05-15T00:00:00.000Z",
-      "content": "Together AI partners with Pearl Research Labs to launch a discounted Pearl-powered inference endpoint for Gemma-4-31B-it-pearl, using Proof of Useful Work to turn AI workloads into crypto emissions.",
-      "summary": "Together AI partners with Pearl Research Labs to launch a discounted Pearl-powered inference endpoint for Gemma-4-31B-it-pearl, using Proof of Useful Work to turn AI workloads into crypto emissions.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     }
   ]
