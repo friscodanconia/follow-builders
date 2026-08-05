@@ -1,8 +1,293 @@
 {
-  "generatedAt": "2026-08-04T04:35:50.619Z",
+  "generatedAt": "2026-08-05T00:42:43.665Z",
   "slug": "fine-tuning",
   "label": "Custom AI",
   "items": [
+    {
+      "id": "f43953d1cbeedaf2",
+      "date": "2026-08-05",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:swyx",
+      "builderOrOrg": "Swyx",
+      "title": "linking my main cua wow moments thread https://t.co/VCXzCTAzRY but this one is just about do we…",
+      "url": "https://x.com/swyx/status/2084312752437481937",
+      "publishedAt": "2026-08-03T16:17:39.000Z",
+      "content": "linking my main cua wow moments thread https://t.co/VCXzCTAzRY but this one is just about do we need captchas anymore when clearly bots can clear them",
+      "summary": "linking my main cua wow moments thread https://t.co/VCXzCTAzRY but this one is just about do we need captchas anymore when clearly bots can clear them",
+      "regionTags": [],
+      "metrics": {
+        "likes": 11,
+        "retweets": 0,
+        "replies": 4
+      },
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.59,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "2d15ec24b243478d",
+      "date": "2026-08-05",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "Unsupervised Learning",
+      "sourceKey": "podcast:Unsupervised Learning",
+      "builderOrOrg": "Unsupervised Learning",
+      "title": "AI Vibe Check: Chinese Open Models, Distillation & The Hugging Face Breach",
+      "url": "https://www.youtube.com/watch?v=_GlSkJjRDMM",
+      "publishedAt": "2026-08-03T12:55:21.000Z",
+      "content": "Speaker 1 | 00:00 - 00:06 My mom, like, knows nothing about AI. She texted me last week, Rob, what do you think about OpenAI's agents hacking into Hugging Face? Speaker 2 | 00:06 - 00:07 What did you make of it? Speaker 3 | 00:07 - 00:12 I think this is actually a great example of why open models of that capability are important. Speaker 2 | 00:12 - 00:16 How much do you think distillation is the explanation for what's happened here? Speaker 3 | 00:16 - 00:19 I don't think it explains nearly as much of it as many would like to claim. Speaker 2 | 00:19 - 00:23 What specifically do you see as the risk of, like, dependency on Chinese open source models? Speaker 1 | 00:23 - 00:28 I do think there are downsides to having the AI substrate of the world come out of China. Speaker 2 | 00:28 - 00:49 I'm Jacob Efron, and this is Unsupervised Learning, a podcast where we probe the sharpest minds in AI on what's happening in the space today, and what it means for the future. We've had a lot of new subscribers in recent weeks. As part of that, we have a great recurring segment with Ari Marcos from Datalogy, and Rob Toews from Radical Ventures. The three of us chop it up on everything happening in the AI ecosystem. This one was particularly eventful and a ton of fun. Speaker 2 | 00:49 - 01:17 There's been a lot going on. We talked about the OpenAI Hugging Face incident, how big a deal it actually is, and what it means for the future of frontier AI research. We talked about Chinese open source models, including how good Kimi k three actually is. And Ari shared some really interesting insights into what the real long term risks are of Chinese open source models and how we know, if those risks existed. We talked about the labs and how they're competing increasingly up the application stack and what it means for their customers and the development of models going forward. Speaker 2 | 01:17 - 01:36 And we hit on what we think government policy will look like for frontier model releases in the future. I love talking to these guys about everything in AI. We do it a lot off camera, and it's particularly fun to to get to do it on camera and and share with you all. We're constantly iterating on the format, so any suggestions, things you want us to talk about, please let us know. But if not, without further ado, here's Ari and Rob. Speaker 2 | 01:38 - 01:41 Ari, Rob, it's good to see you both again. Speaker 3 | 01:41 - 01:41 Great to be back. Speaker 1 | 01:41 - 01:43 It's great to be back. Thanks for having us. Speaker 2 | 01:43 - 01:49 Yeah. We got some new some new backgrounds, some new craziness happening in the AI world. It's all it's all changing. Speaker 1 | 01:49 - 01:54 Ari's background got better. Jacob's background got worse. It's a it's a dynamic space right now. Speaker 2 | 01:54 - 02:02 It is. It is. It's it's constantly ebbing and flowing who's on top. So, you know, no no surprises there. But I've been excited. Speaker 2 | 02:02 - 02:32 I I feel like, you know, we we had all these spicy predictions last episode, and there's, like, a follow-up on each of which is, I guess, what happens in the in the in the rapidly changing AI world. I feel like there's a ton of stuff we're gonna talk about today. I'm excited to hit on open source, you know, government getting involved in a bunch of these models, you know, what's been happening at the the labs, the the hacking, over at Hugging Face as as well as this new letter we have out today from a from a bunch of researchers trying to slow things down. But I figured, you know, no better place to start than with open source models. It's kinda been one of the the the main topics of the past weeks. Speaker 2 | 02:32 - 02:58 We've had some incredible Chinese model releases. We've had a lot of intrigue around whether the government's gonna allow said Chinese models to continue to be used here stateside, and then we've had letters signed by many people to keep open source models and backlash against anthro…",
+      "summary": "Speaker 1 | 00:00 - 00:06 My mom, like, knows nothing about AI. She texted me last week, Rob, what do you think about OpenAI's agents hacking into Hugging Face? Speaker 2 | 00:06 - 00:07 What did you make of it? Speaker 3 | 00:07 - 00:12 I…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "rl",
+            "distillation"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open source"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.66,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.78,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7998cf46db48c77c",
+      "date": "2026-08-05",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google DeepMind Blog",
+      "sourceKey": "official:Google DeepMind Blog",
+      "builderOrOrg": "Google DeepMind",
+      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+      "publishedAt": "2026-07-30T15:00:59.000Z",
+      "content": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+      "summary": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "video"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d52fc989fa162542",
+      "date": "2026-08-05",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Echoverse: Deep, evolving environments for computer-use agents",
+      "url": "https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents/",
+      "publishedAt": "2026-07-30T17:00:00.000Z",
+      "content": "Scaling fidelity over sheer count, targeting the capabilities agents actually lack, and evolving with the models they train. At a glance We built twelve training worlds for computer-use agents: ten deep domain worlds and two capability worlds, each drilling a single control rendered in many forms (date pickers and nested filters). Depth is what makes them worth training on: these worlds reproduce an application’s real behavior, come seeded with realistic data, and keep state coherent across screens and users. Trained on all twelve, a 9B model nearly doubles its base score (36.5% to 67.1%), coming within fourteen points of GPT-5.4. The experiment taught us several lessons:&nbsp; High simulation fidelity is a must-have; shallow worlds hurt the agent. Trained on shallow and deep builds of the same sites, the model regressed on the shallow ones but improved on the deep ones. Agents often struggle with the same challenging UI elements, like date pickers and nested filters. Drilling those controls in varied forms taught the model to operate them in domains it never saw in training. Co-evolving the model, the world, and the verifier improves all of them. As the world grows more correct and its tasks grow harder, the model climbs with it. Reinforcement learning against the worlds pushes the agent past imitation. Using the grounded verifier as the reward, RL lifts held-out performance and teaches the agent to reach the goal in fewer steps. We’re releasing four of the worlds with their code, data, and grounded graders, to support research on high-fidelity computer-use worlds. Github: &nbsp; microsoft/Echoverse: Deep, Evolving Environments for Computer-Use Agents (opens in new tab) Hugging Face: microsoft/Echoverse · Datasets at Hugging Face (opens in new tab) Technical Report:&nbsp; https://www.microsoft.com/en-us/research/publication/echoverse-deep-evolving-environments-for-training-computer-use-agents-at-scale/ A computer-use agent learns the results of what its actions do…",
+      "summary": "Computer-use AI agents struggle with multi-step workflows like email and customer support. Echoverse trains agents in realistic environments rather than simply providing more training tasks, helping them improve as the tasks, tests, and en…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.81,
+          "rationale": [
+            "research",
+            "publication",
+            "dataset"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "repo"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "rl",
+            "reinforcement learning"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "80143214a5562c34",
+      "date": "2026-08-05",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-038",
+      "publishedAt": "2026-08-01T01:38:09.000Z",
+      "content": "It might seem strange that we aren&#8217;t giving title story to a noteworthy DeepSeek open weights model update that still bumps up the Pareto Frontier that GPT 5.6 pushed out only yesterday : @teortaxesTex Temporary error with cache hit rate calculation - it was rectified a couple of minutes after your screenshot! \\n\\n0731 is only marginally higher Cost per Task than the earlier version, and via the DeepSeek API with ~99% cache hit discount it is most certainly on our Pareto frontier \",\"username\":\"ArtificialAnlys\",\"name\":\"Artificial Analysis\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/2042402069320290304/A8C1lP07_normal.jpg\",\"date\":\"2026-07-31T08:26:16.000Z\",\"photos\":[{\"img_url\":\"https://pbs.substack.com/media/HOiugSLbQAAck-3.jpg\",\"link_url\":\"https://t.co/ia4rJOhf1V\"}],\"quoted_tweet\":{},\"reply_count\":10,\"retweet_count\":32,\"like_count\":418,\"impression_count\":75216,\"expanded_url\":null,\"video_url\":null,\"video_preview_media_key\":null,\"belowTheFold\":false}\" data-component-name=\"Twitter2ToDOM\"> But because it is a post-train only update with no further details, there&#8217;s really not all that much to report, apart from noting that DeepSeek is finally relevant again after over a year of comparative obscurity (with V4 Pro this April as an exception) after becoming way too prominent, well timed after their $70B pre-IPO fundraise . AI News for 7/30/2026-7/31/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap DeepSeek V4-Flash 0731: post-training leap, API launch, and immediate open-weights release DeepSeek&#8217;s biggest story of the day was the official public-beta launch of DeepSeek-V4-Flash API , with DeepSeek stating that its upgraded agent capabilities now surpass V4-Pro-Preview and that the API now supports the Responses API format and is &#8220;fully adapted f…",
+      "summary": "apart from DeepSeek V4-Flash 0731, a quiet day.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "image",
+            "video"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "post-training",
+            "rl"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "6ecba6d79712538d",
+      "date": "2026-08-05",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "China and the Iran War Oil Shock That Wasn’t",
+      "url": "https://www.chinatalk.media/p/china-and-the-iran-war-oil-shock",
+      "publishedAt": "2026-07-29T13:27:41.000Z",
+      "content": "The biggest oil shock in modern history came and went without the catastrophe everyone expected. When Iran closed the Strait of Hormuz, analysts warned that oil could hit $200 a barrel, but the global economy avoided that fate. The Trump administration has argued that the crisis was contained thanks to their aggressive action, but they may be taking the wrong lessons from the avoidance of that apocalyptic scenario. What happened was the largest unexpected swing in global oil balances: China quietly cut crude oil imports by more than five million barrels a day. Yet there was no corresponding collapse in economic activity, no obvious drop in mobility, and no official explanation from Beijing. Somehow, China stopped buying oil from the rest of the world and started drawing from stockpiles we can&#8217;t fully observe. That single decision may have done more to prevent a global energy crisis than anything Washington or OPEC accomplished. This matters because it demonstrates that China likely has a stronger discretionary policy lever than the West does. The West is really good at market-driven, private-sector oil production. But through this crisis, we&#8217;ve seen that Washington does not have the scale of discretionary policy control that China or OPEC does. This time, China cooperated and did the good thing, at least for the broad economic picture &#8212; but we cannot rely on that in the future, and that tool can be used against the West as easily as for it. Western governments must grapple with that discretionary gap and not rest on their private-sector bona fides to get through the next crisis. Arnab Datta , managing director of policy implementation at Employ America, and Rory Johnston , oil analyst and founder of Commodity Context, join ChinaTalk to discuss: Why Rory&#8217;s own prediction of $200 oil never happened and why J.D. Vance is thanking the wrong people. How China quietly cut crude imports by five million barrels a day with zero visible impact on dome…",
+      "summary": "and China's five-million-barrel mystery",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "policy"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
     {
       "id": "0344194768a3d97c",
       "date": "2026-08-04",
@@ -268,50 +553,6 @@
       "whyThisMatters": ""
     },
     {
-      "id": "7998cf46db48c77c",
-      "date": "2026-08-04",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google DeepMind Blog",
-      "sourceKey": "official:Google DeepMind Blog",
-      "builderOrOrg": "Google DeepMind",
-      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
-      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-      "publishedAt": "2026-07-30T15:00:59.000Z",
-      "content": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
-      "summary": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "video"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
       "id": "c26e08ad552cacee",
       "date": "2026-08-04",
       "sourceType": "newsletter",
@@ -353,158 +594,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d52fc989fa162542",
-      "date": "2026-08-04",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Echoverse: Deep, evolving environments for computer-use agents",
-      "url": "https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents/",
-      "publishedAt": "2026-07-30T17:00:00.000Z",
-      "content": "Scaling fidelity over sheer count, targeting the capabilities agents actually lack, and evolving with the models they train. At a glance We built twelve training worlds for computer-use agents: ten deep domain worlds and two capability worlds, each drilling a single control rendered in many forms (date pickers and nested filters). Depth is what makes them worth training on: these worlds reproduce an application’s real behavior, come seeded with realistic data, and keep state coherent across screens and users. Trained on all twelve, a 9B model nearly doubles its base score (36.5% to 67.1%), coming within fourteen points of GPT-5.4. The experiment taught us several lessons:&nbsp; High simulation fidelity is a must-have; shallow worlds hurt the agent. Trained on shallow and deep builds of the same sites, the model regressed on the shallow ones but improved on the deep ones. Agents often struggle with the same challenging UI elements, like date pickers and nested filters. Drilling those controls in varied forms taught the model to operate them in domains it never saw in training. Co-evolving the model, the world, and the verifier improves all of them. As the world grows more correct and its tasks grow harder, the model climbs with it. Reinforcement learning against the worlds pushes the agent past imitation. Using the grounded verifier as the reward, RL lifts held-out performance and teaches the agent to reach the goal in fewer steps. We’re releasing four of the worlds with their code, data, and grounded graders, to support research on high-fidelity computer-use worlds. Github: &nbsp; microsoft/Echoverse: Deep, Evolving Environments for Computer-Use Agents (opens in new tab) Hugging Face: microsoft/Echoverse · Datasets at Hugging Face (opens in new tab) Technical Report:&nbsp; https://www.microsoft.com/en-us/research/publication/echoverse-deep-evolving-environments-for-training-computer-use-agents-at-scale/ A computer-use agent learns the results of what its actions do…",
-      "summary": "Computer-use AI agents struggle with multi-step workflows like email and customer support. Echoverse trains agents in realistic environments rather than simply providing more training tasks, helping them improve as the tasks, tests, and en…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.81,
-          "rationale": [
-            "research",
-            "publication",
-            "dataset"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "code",
-            "repo"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.69,
-          "rationale": [
-            "rl",
-            "reinforcement learning"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "80143214a5562c34",
-      "date": "2026-08-04",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] not much happened today",
-      "url": "https://www.latent.space/p/ainews-not-much-happened-today-038",
-      "publishedAt": "2026-08-01T01:38:09.000Z",
-      "content": "It might seem strange that we aren&#8217;t giving title story to a noteworthy DeepSeek open weights model update that still bumps up the Pareto Frontier that GPT 5.6 pushed out only yesterday : @teortaxesTex Temporary error with cache hit rate calculation - it was rectified a couple of minutes after your screenshot! \\n\\n0731 is only marginally higher Cost per Task than the earlier version, and via the DeepSeek API with ~99% cache hit discount it is most certainly on our Pareto frontier \",\"username\":\"ArtificialAnlys\",\"name\":\"Artificial Analysis\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/2042402069320290304/A8C1lP07_normal.jpg\",\"date\":\"2026-07-31T08:26:16.000Z\",\"photos\":[{\"img_url\":\"https://pbs.substack.com/media/HOiugSLbQAAck-3.jpg\",\"link_url\":\"https://t.co/ia4rJOhf1V\"}],\"quoted_tweet\":{},\"reply_count\":10,\"retweet_count\":32,\"like_count\":418,\"impression_count\":75216,\"expanded_url\":null,\"video_url\":null,\"video_preview_media_key\":null,\"belowTheFold\":false}\" data-component-name=\"Twitter2ToDOM\"> But because it is a post-train only update with no further details, there&#8217;s really not all that much to report, apart from noting that DeepSeek is finally relevant again after over a year of comparative obscurity (with V4 Pro this April as an exception) after becoming way too prominent, well timed after their $70B pre-IPO fundraise . AI News for 7/30/2026-7/31/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap DeepSeek V4-Flash 0731: post-training leap, API launch, and immediate open-weights release DeepSeek&#8217;s biggest story of the day was the official public-beta launch of DeepSeek-V4-Flash API , with DeepSeek stating that its upgraded agent capabilities now surpass V4-Pro-Preview and that the API now supports the Responses API format and is &#8220;fully adapted f…",
-      "summary": "apart from DeepSeek V4-Flash 0731, a quiet day.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.69,
-          "rationale": [
-            "image",
-            "video"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.69,
-          "rationale": [
-            "post-training",
-            "rl"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "6ecba6d79712538d",
-      "date": "2026-08-04",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "China and the Iran War Oil Shock That Wasn’t",
-      "url": "https://www.chinatalk.media/p/china-and-the-iran-war-oil-shock",
-      "publishedAt": "2026-07-29T13:27:41.000Z",
-      "content": "The biggest oil shock in modern history came and went without the catastrophe everyone expected. When Iran closed the Strait of Hormuz, analysts warned that oil could hit $200 a barrel, but the global economy avoided that fate. The Trump administration has argued that the crisis was contained thanks to their aggressive action, but they may be taking the wrong lessons from the avoidance of that apocalyptic scenario. What happened was the largest unexpected swing in global oil balances: China quietly cut crude oil imports by more than five million barrels a day. Yet there was no corresponding collapse in economic activity, no obvious drop in mobility, and no official explanation from Beijing. Somehow, China stopped buying oil from the rest of the world and started drawing from stockpiles we can&#8217;t fully observe. That single decision may have done more to prevent a global energy crisis than anything Washington or OPEC accomplished. This matters because it demonstrates that China likely has a stronger discretionary policy lever than the West does. The West is really good at market-driven, private-sector oil production. But through this crisis, we&#8217;ve seen that Washington does not have the scale of discretionary policy control that China or OPEC does. This time, China cooperated and did the good thing, at least for the broad economic picture &#8212; but we cannot rely on that in the future, and that tool can be used against the West as easily as for it. Western governments must grapple with that discretionary gap and not rest on their private-sector bona fides to get through the next crisis. Arnab Datta , managing director of policy implementation at Employ America, and Rory Johnston , oil analyst and founder of Commodity Context, join ChinaTalk to discuss: Why Rory&#8217;s own prediction of $200 oil never happened and why J.D. Vance is thanking the wrong people. How China quietly cut crude imports by five million barrels a day with zero visible impact on dome…",
-      "summary": "and China's five-million-barrel mystery",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "policy"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -2157,114 +2246,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.55,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "40dc5a82570ecb34",
-      "date": "2026-07-23",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:rauchg",
-      "builderOrOrg": "Guillermo Rauch",
-      "title": "I've been dreaming about this ship for a while. Lots of tedious infra work behind the scenes th…",
-      "url": "https://x.com/rauchg/status/2079695485615350209",
-      "publishedAt": "2026-07-21T22:30:17.000Z",
-      "content": "I've been dreaming about this ship for a while. Lots of tedious infra work behind the scenes that gave us beautiful results… Up to ⏱︎ 30% faster deployments, ⚡︎ 60% better time-to-first-byte, ▽ less data transfer usage, and ⛁ wildly more efficient underlying storage! https://t.co/Ez8t6qqpN4",
-      "summary": "I've been dreaming about this ship for a while. Lots of tedious infra work behind the scenes that gave us beautiful results… Up to ⏱︎ 30% faster deployments, ⚡︎ 60% better time-to-first-byte, ▽ less data transfer usage,…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 200,
-        "retweets": 2,
-        "replies": 13
-      },
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "deployment"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.78,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.61,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "e00cb5358fc241c6",
-      "date": "2026-07-23",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "China’s Mythos Moment",
-      "url": "https://www.chinatalk.media/p/chinas-mythos-moment",
-      "publishedAt": "2026-07-16T11:02:08.000Z",
-      "content": "China&#8217;s AI Mythos moment is coming. What happens next? Claude Mythos has completely scrambled American AI policy. Trump 2.0 &#8212; an administration whose AI-dominance rhetoric manifested in a let-it-rip regulatory approach &#8212; is shook. To quote Dean Ball , &#8220;we currently have a de facto involuntary licensing pre-approval regime for frontier models&#8221; from the administration that promised us the opposite of that . Will Beijing also freak out once it faces the prospect of wide domestic access to a model that can hack everything? We may not have long to find out. A Zhipu AI co-founder called his shot, telling Elon on X that China will have a model on par with Mythos before the end of the year. Even if he&#8217;s off by a few months, the American think tank IAPS puts the date at February 2027. A Chinese Mythos-level model is inevitable and only months off. Politics is now shaping not just the hardware ecosystem but the model layer. What does this turning point mean for the domestic Chinese AI ecosystem, Chinese regulation, open source in China and around the world, US-China governance efforts, and broader global AI safety? To discuss, we have back on the show of Interconnected and Matt Sheehan of Carnegie. In this episode, we discuss&#8230; Whether Beijing will panic the way Washington did when China gets its own Mythos-level model, and why that moment may be only months away. Why China&#8217;s existing AI bureaucracy may be better prepared for frontier models than America&#8217;s scramble to figure out who&#8217;s in charge. What a &#8220;Project Glasswing with Chinese characteristics&#8221; would look like and who would make the guest list. Whether increasingly capable AI will kill open source in China, or strengthen Beijing&#8217;s argument that it&#8217;s the more open AI superpower. Why today&#8217;s AI labs may have more influence over government policy than they&#8217;ll ever have again. Listen now on your favorite podcast app . Will Beijin…",
-      "summary": "How will Beijing respond when it comes?",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.81,
-          "rationale": [
-            "safety",
-            "governance",
-            "policy"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open source"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     }
   ]

@@ -1,8 +1,165 @@
 {
-  "generatedAt": "2026-08-04T04:35:50.619Z",
+  "generatedAt": "2026-08-05T00:42:43.665Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
+    {
+      "id": "a309f54c9b0d33c7",
+      "date": "2026-08-05",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "publishedAt": "2026-08-04T19:00:00.000Z",
+      "content": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+      "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "eval",
+            "evaluation"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.78,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "37252d5d47a2a2b1",
+      "date": "2026-08-05",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Orchard: An open framework for scalable agentic AI",
+      "url": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/",
+      "publishedAt": "2026-08-03T16:00:00.000Z",
+      "content": "At a glance Orchard is an open-source framework for scalable and cost-effective agentic AI research, built around Orchard Env, a reusable environment service for training and evaluating agents across task domains. The same Orchard infrastructure supports software-engineering, web-navigation, and personal-assistant agents, and can train them directly inside real deployment harnesses such as Codex, OpenClaw, and ZeroClaw—letting researchers reuse environments, data pipelines, and evaluation workflows across tasks.&nbsp; Orchard-SWE, Orchard-GUI, and Orchard-Claw demonstrate that relatively small open-weight models can achieve strong results on complex real-world tasks. For example, Orchard-SWE reaches 69.7% on SWE-bench Verified—73.0% with value-model reranking—using only about 3 billion active parameters, approaching frontier systems using more than 10 times larger models.&nbsp; Alongside the models and workflows, the project releases training data and evaluation methods intended to help the broader research community build and study open agentic systems.&nbsp;Artificial intelligence is rapidly moving beyond static question-answering toward autonomous agents that can plan, reason, and act across complex, multistep environments. These systems can fix bugs in complex codebases, navigate the web on a user&#8217;s behalf, and manage workflows involving calendars and email.&nbsp;&nbsp; While there is excitement around agentic AI’s capabilities, the research community faces a persistent bottleneck. Building state-of-the-art agentic systems often requires proprietary infrastructure, including custom sandboxes, closed training pipelines, and proprietary datasets that most researchers and practitioners cannot access or reproduce. To address this gap, we introduce Orchard (opens in new tab) , an open-source framework for scalable agentic modeling. At the center of Orchard is Orchard Env, a lightweight, Kubernetes environment that provides reusable isolated components for runn…",
+      "summary": "Orchard is an open-source framework for the research community to train and evaluate AI agents across task types. It reduces complexity while supporting strong performance from smaller models by enabling researchers to reuse the same infra…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.81,
+          "rationale": [
+            "agent",
+            "agentic",
+            "autonomous"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.81,
+          "rationale": [
+            "swe-bench",
+            "eval",
+            "evaluation"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "swe-bench"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c3dbcf7afb4b785f",
+      "date": "2026-08-05",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "Kimi K3: The Complete Developer Guide",
+      "url": "https://www.together.ai/blog/kimi-k3-guide",
+      "publishedAt": "2026-08-01T00:00:00.000Z",
+      "content": "Kimi K3 is the first open 3T-class model. See how it benchmarks, what it costs, and how to call it on the Together AI API, with copy-paste code examples.",
+      "summary": "Kimi K3 is the first open 3T-class model. See how it benchmarks, what it costs, and how to call it on the Together AI API, with copy-paste code examples.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "developer"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "benchmark"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
     {
       "id": "572278effc08e428",
       "date": "2026-08-04",
@@ -101,118 +258,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "37252d5d47a2a2b1",
-      "date": "2026-08-04",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Orchard: An open framework for scalable agentic AI",
-      "url": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/",
-      "publishedAt": "2026-08-03T16:00:00.000Z",
-      "content": "At a glance Orchard is an open-source framework for scalable and cost-effective agentic AI research, built around Orchard Env, a reusable environment service for training and evaluating agents across task domains. The same Orchard infrastructure supports software-engineering, web-navigation, and personal-assistant agents, and can train them directly inside real deployment harnesses such as Codex, OpenClaw, and ZeroClaw—letting researchers reuse environments, data pipelines, and evaluation workflows across tasks.&nbsp; Orchard-SWE, Orchard-GUI, and Orchard-Claw demonstrate that relatively small open-weight models can achieve strong results on complex real-world tasks. For example, Orchard-SWE reaches 69.7% on SWE-bench Verified—73.0% with value-model reranking—using only about 3 billion active parameters, approaching frontier systems using more than 10 times larger models.&nbsp; Alongside the models and workflows, the project releases training data and evaluation methods intended to help the broader research community build and study open agentic systems.&nbsp;Artificial intelligence is rapidly moving beyond static question-answering toward autonomous agents that can plan, reason, and act across complex, multistep environments. These systems can fix bugs in complex codebases, navigate the web on a user&#8217;s behalf, and manage workflows involving calendars and email.&nbsp;&nbsp; While there is excitement around agentic AI’s capabilities, the research community faces a persistent bottleneck. Building state-of-the-art agentic systems often requires proprietary infrastructure, including custom sandboxes, closed training pipelines, and proprietary datasets that most researchers and practitioners cannot access or reproduce. To address this gap, we introduce Orchard (opens in new tab) , an open-source framework for scalable agentic modeling. At the center of Orchard is Orchard Env, a lightweight, Kubernetes environment that provides reusable isolated components for runn…",
-      "summary": "Orchard is an open-source framework for the research community to train and evaluate AI agents across task types. It reduces complexity while supporting strong performance from smaller models by enabling researchers to reuse the same infra…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.81,
-          "rationale": [
-            "agent",
-            "agentic",
-            "autonomous"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.81,
-          "rationale": [
-            "swe-bench",
-            "eval",
-            "evaluation"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "code",
-            "swe-bench"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "c3dbcf7afb4b785f",
-      "date": "2026-08-04",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Together AI Blog",
-      "sourceKey": "official:Together AI Blog",
-      "builderOrOrg": "Together AI",
-      "title": "Kimi K3: The Complete Developer Guide",
-      "url": "https://www.together.ai/blog/kimi-k3-guide",
-      "publishedAt": "2026-08-01T00:00:00.000Z",
-      "content": "Kimi K3 is the first open 3T-class model. See how it benchmarks, what it costs, and how to call it on the Together AI API, with copy-paste code examples.",
-      "summary": "Kimi K3 is the first open 3T-class model. See how it benchmarks, what it costs, and how to call it on the Together AI API, with copy-paste code examples.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "code",
-            "developer"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "benchmark"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     },
     {
@@ -2456,51 +2501,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "37b8010b6c50a794",
-      "date": "2026-06-29",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Helping build shared standards for advanced AI",
-      "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
-      "publishedAt": "2026-06-23T13:00:00.000Z",
-      "content": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
-      "summary": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "eval",
-            "evaluation"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     }
   ]
