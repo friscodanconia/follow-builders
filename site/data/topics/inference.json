@@ -1,8 +1,344 @@
 {
-  "generatedAt": "2026-08-05T04:34:34.156Z",
+  "generatedAt": "2026-08-06T00:45:07.252Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
+    {
+      "id": "cd731674a882f75a",
+      "date": "2026-08-06",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:realmadhuguru",
+      "builderOrOrg": "Madhu Guru",
+      "title": "The best model for early product validation is almost never the best model for production. Talk…",
+      "url": "https://x.com/realmadhuguru/status/2084667443046502631",
+      "publishedAt": "2026-08-04T15:47:04.000Z",
+      "content": "The best model for early product validation is almost never the best model for production. Talked to a bunch of founders this weekend. There’s a standard playbook emerging : 1/ Prototype with the best frontier models. Max quality. Ignore cost and latency. Learn what users actually want and iterate. 2/ Once the workflow and UX is validated, optimize like crazy for cost and latency - prompt eng, model routing, harnesses, smaller models, fine tuning. I see most teams get stuck in step 1.",
+      "summary": "The best model for early product validation is almost never the best model for production. Talked to a bunch of founders this weekend. There’s a standard playbook emerging : 1/ Prototype with the best frontier models. M…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 40,
+        "retweets": 1,
+        "replies": 6
+      },
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "latency"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.68,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.79,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "b825f4f4b174dab6",
+      "date": "2026-08-06",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "How we built a realtime system for responsive voice AI in six months",
+      "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+      "publishedAt": "2026-08-03T07:00:00.000Z",
+      "content": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+      "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.69,
+          "rationale": [
+            "voice",
+            "speech"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "latency"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d21637a197808d46",
+      "date": "2026-08-06",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "EvoLib: Turning experience into evolving knowledge",
+      "url": "https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge/",
+      "publishedAt": "2026-07-30T16:00:00.000Z",
+      "content": "At a glance Self-supervised. EvoLib enables large language models to learn from their own experience during inference, without requiring ground-truth labels or external feedback. From experience to knowledge. EvoLib transforms past attempts into reusable skills and reflective insights that can be applied to future tasks. Knowledge that evolves. Useful skills and insights are continually refined, consolidated, and reweighted, turning instance-specific observations into increasingly general knowledge over time. Learning that transfers across tasks. By turning experience into reusable knowledge, EvoLib helps AI models learn from past successes and failures and evolve the knowledge that has the highest potential on improving future performance. Built for today&#8217;s AI models. As EvoLib does not require model updates, it can be applied to any black-box language models and AI systems deployed through APIs. Memory has become an important AI agent capability: the ability to store and retrieve past experiences. But memory alone is not learning. A collection of past conversations, reasoning traces, or action histories can quickly grow into a vast archive of experiences, making it difficult to identify the most relevant knowledge for a new task—let alone refine and evolve this knowledge to improve performance over time. Humans learn differently. We do not remember every detail of our past experiences. Instead, we remember what matters: strategies that work, mistakes to avoid, and skills that transfer across situations. Over time, these lessons are refined into increasingly general and reusable knowledge. This ability to transform experience into transferable, evolving knowledge is one of the foundations of human learning. In our recent paper, Test-Time Learning with an Evolving Library , we explore how AI systems can learn from experience in a similar way. We introduce EvoLib , a framework that transforms raw experience into an evolving library of knowledge. Rather than tr…",
+      "summary": "LLMs do not get smarter just by remembering more. EvoLib turns experience into evolving knowledge, taking reusable skills and insights that help models learn and adapt across tasks long after deployment. The post EvoLib: Turning experience…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "paper"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "58deb3c55b91cbe0",
+      "date": "2026-08-06",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "Autoscaling endpoints for LLM inference",
+      "url": "https://www.together.ai/blog/autoscaling-endpoints-for-llm-inference",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "content": "GPU utilization can read healthy while your queue backs up, and a new replica takes minutes to warm. Here's how to pick autoscaling metrics, tune scale-up/down windows, and budget for cold starts on dedicated inference.",
+      "summary": "GPU utilization can read healthy while your queue backs up, and a new replica takes minutes to warm. Here's how to pick autoscaling metrics, tune scale-up/down windows, and budget for cold starts on dedicated inference.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "417b1b89e3d25fe1",
+      "date": "2026-08-06",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Import AI",
+      "sourceKey": "editorial:Import AI",
+      "builderOrOrg": "Jack Clark",
+      "title": "Import AI 467: Self-sustaining AI viruses; pacing AI progress; confusion about AI and creativity",
+      "url": "https://jack-clark.net/2026/08/03/import-ai-467-self-sustaining-ai-viruses-pacing-ai-progress-confusion-about-ai-and-creativity/",
+      "publishedAt": "2026-08-03T13:31:22.000Z",
+      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Self-sustaining and self-replicating AI viruses are here: …Open weight LLMs + a well-designed harness = a persistent, self-sufficient virus… AI researchers have built a prototype computer virus which uses AI models to compromise computers, then uses their underlying GPU resources to run inference, letting it smartly figure out how to infect more hosts. The results were achieved by researchers from the University of Toronto, the Vector Institute, the University of Cambridge, and ServiceNow, and “demonstrate that self-sustaining AI-driven cyber-threats are no longer theoretical.” “We must prepare for autonomous generative adversaries,” they write. “Artificial intelligence (AI) agents enable a fundamentally new threat: a worm that generates tailored attack strategies to each target it encounters. The worm parasitically uses compromised machines to run open-weight large language models (LLMs) to sustain its reasoning, or extend its reach for further attacks”. How it works : “The worm uses stolen computing power from compromised GPU nodes to host LLMs for generative reasoning. It then uses this reasoning to detect vulnerabilities and devise tailored attacks against additional targets, furthering its spread,” they write. “The proof-of-concept operates using only an open-weight LLM running on a single, local GPU, with no reliance on vendor APIs that could be monitored or revoked”. The researchers don’t describe the underlying LLM besides saying it was published in 2025 and can fit on a single A100 GPU with 80GB of VRAM. A successful proof-of-concept via some custom tools : They give the agent a custom harness that comes with built-in helper functions for network discovery, host discovery, foothold exploitation, privilege escalation, privilege escalation exploitation, and tools for replication…",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Self-sustaining and self-replicating AI viruses are here:…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "autonomous"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "a5cc7454b6299a9e",
+      "date": "2026-08-06",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Megakernels are so dead and so back",
+      "url": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
+      "publishedAt": "2026-08-05T01:21:47.000Z",
+      "content": "Part of our Inference Engineering Masterclass pod yesterday involved a spicy discussion about Megakernels: megakernels are dead why are megakernels useful? you spend two months writing a kernel to save time on launch overhead and poor inter-kernel overlap. you had PDL but then people said it wasn't perfect, that you could still get some marginal gains due to straggler CTAs and therefore- wait, sorry, I forgot, Rubin fixes that (kernel two needs 10 CTAs and kernel one has seven finished and three straggling, kernel two launches seven of its CTAs). given a long enough timeline, it all evens out. no serious inference provider is using a 67k loc hand-fused forward pass kernel in production, and the teams doing that are doing so out of pure research. dead. @swyx 's pod and said some things that i... should not have said. \\n\\na lot has happened since then, i owe you all an apology.\\n\\ni'm sorry that i was right about every single thing. \\n\\na) re megakernels are dead\\nwhy are megakernels useful? you spend two months\",\"username\":\"waterloo_intern\",\"name\":\"ali\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/2083657716690759680/zzYf-2oG_normal.jpg\",\"date\":\"2026-08-03T23:49:24.000Z\",\"photos\":[{\"img_url\":\"https://pbs.substack.com/media/HO1VZaKWAAANbcS.jpg\",\"link_url\":\"https://t.co/L3oxkoWQSG\"},{\"img_url\":\"https://pbs.substack.com/media/HO1VcNeWMAAuRvS.jpg\",\"link_url\":\"https://t.co/L3oxkoWQSG\"},{\"img_url\":\"https://pbs.substack.com/media/HO1ZrovXgAAwGgY.jpg\",\"link_url\":\"https://t.co/L3oxkoWQSG\"}],\"quoted_tweet\":{\"full_text\":\"The Inference Engineering Masterclass: 10x faster models, quantization, speculative decoding, Rubin, & self-optimizing AI https://t.co/uRYIWWDebj\\n\\n@Baseten @philipkiely and @waterloo_intern explain what actually happens after a model is trained, why turning weights into a fast\",\"username\":\"latentspacepod\",\"name\":\"Latent.Space\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/1888346877428641792/rMxtG84Z_normal.jpg\"},\"reply_count\":…",
+      "summary": "A quiet day lets us highlight a Cursor launch and an engineering debate",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "weights"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "6f7fc6a13d4a4fec",
+      "date": "2026-08-06",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
+      "url": "https://www.latent.space/p/inference-eng",
+      "publishedAt": "2026-08-03T21:44:03.000Z",
+      "content": "We first covered Baseten last year when DeepSeek mania was at peak hype. Now they have raised a monster $13B round and become one of the new cohort of AI Infra decacorns that are (with Nvidia, Intel, and the semis complex) chief beneficiaries of the Inference Inflection . We return to Baseten at the peak of the 2026 edition of Open Weights debate . Ali has published a viral breakdown of Kimi K3 : And since you last saw him, Philip has spoken at AI Engineer and written the definitive book on Inference Engineering spotted all over SF: Three years ago, inference engineering barely existed as a category. Today, it is one of the most critical disciplines in AI. Inference engineering inherently tackles a different question than standard model training: &#8220;How do you turn those weights from training into a product that is fast, reliable, and affordable at scale?&#8221; Focusing on these creates an entirely new optimization problem. baseten.com/inference-engi&#8230; \",\"username\":\"philipkiely\",\"name\":\"Philip Kiely\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/1644827140641153024/ExLuda2F_normal.jpg\",\"date\":\"2026-02-23T18:03:01.000Z\",\"photos\":[{\"img_url\":\"https://substackcdn.com/image/fetch/$s_!1BR1!,w_1028,c_limit,f_auto,q_auto:best,fl_progressive:steep/l_play_button_usfui2,w_88,e_colorize:0/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2025989166333616128.jpg\",\"link_url\":\"https://t.co/QTNdMrypqR\"}],\"quoted_tweet\":{},\"reply_count\":190,\"retweet_count\":230,\"like_count\":2367,\"impression_count\":1396109,\"expanded_url\":null,\"video_url\":\"https://video.twimg.com/amplify_video/2025989166333616128/vid/avc1/1280x720/fBFnlcAf_0wCVPNv.mp4\",\"video_preview_media_key\":\"13_2025989166333616128\",\"belowTheFold\":false}\" data-component-name=\"Twitter2ToDOM\"> In one recent GLM-5.2 experiment, quantizing more of the model actually preserved its benchmark quality while increasing throughput by 20% , because the errors intr…",
+      "summary": "Baseten just raised a $13B Series F and is now one of the leading kings of inference engineering. We go into everything you need to know for autoregressive and diffusion engineering.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "inference",
+            "throughput"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "image",
+            "video"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "china-models",
+          "label": "Chinese AI",
+          "confidence": 0.69,
+          "rationale": [
+            "deepseek",
+            "kimi"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Chinese Models",
+      "importanceScore": 0.55,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
     {
       "id": "ab0400472422ffd3",
       "date": "2026-08-05",
@@ -104,139 +440,6 @@
       "whyThisMatters": ""
     },
     {
-      "id": "b825f4f4b174dab6",
-      "date": "2026-08-05",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "How we built a realtime system for responsive voice AI in six months",
-      "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-      "publishedAt": "2026-08-03T07:00:00.000Z",
-      "content": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
-      "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "voice",
-          "label": "Voice",
-          "confidence": 0.69,
-          "rationale": [
-            "voice",
-            "speech"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "latency"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d21637a197808d46",
-      "date": "2026-08-05",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "EvoLib: Turning experience into evolving knowledge",
-      "url": "https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge/",
-      "publishedAt": "2026-07-30T16:00:00.000Z",
-      "content": "At a glance Self-supervised. EvoLib enables large language models to learn from their own experience during inference, without requiring ground-truth labels or external feedback. From experience to knowledge. EvoLib transforms past attempts into reusable skills and reflective insights that can be applied to future tasks. Knowledge that evolves. Useful skills and insights are continually refined, consolidated, and reweighted, turning instance-specific observations into increasingly general knowledge over time. Learning that transfers across tasks. By turning experience into reusable knowledge, EvoLib helps AI models learn from past successes and failures and evolve the knowledge that has the highest potential on improving future performance. Built for today&#8217;s AI models. As EvoLib does not require model updates, it can be applied to any black-box language models and AI systems deployed through APIs. Memory has become an important AI agent capability: the ability to store and retrieve past experiences. But memory alone is not learning. A collection of past conversations, reasoning traces, or action histories can quickly grow into a vast archive of experiences, making it difficult to identify the most relevant knowledge for a new task—let alone refine and evolve this knowledge to improve performance over time. Humans learn differently. We do not remember every detail of our past experiences. Instead, we remember what matters: strategies that work, mistakes to avoid, and skills that transfer across situations. Over time, these lessons are refined into increasingly general and reusable knowledge. This ability to transform experience into transferable, evolving knowledge is one of the foundations of human learning. In our recent paper, Test-Time Learning with an Evolving Library , we explore how AI systems can learn from experience in a similar way. We introduce EvoLib , a framework that transforms raw experience into an evolving library of knowledge. Rather than tr…",
-      "summary": "LLMs do not get smarter just by remembering more. EvoLib turns experience into evolving knowledge, taking reusable skills and insights that help models learn and adapt across tasks long after deployment. The post EvoLib: Turning experience…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "paper"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "58deb3c55b91cbe0",
-      "date": "2026-08-05",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Together AI Blog",
-      "sourceKey": "official:Together AI Blog",
-      "builderOrOrg": "Together AI",
-      "title": "Autoscaling endpoints for LLM inference",
-      "url": "https://www.together.ai/blog/autoscaling-endpoints-for-llm-inference",
-      "publishedAt": "2026-07-31T00:00:00.000Z",
-      "content": "GPU utilization can read healthy while your queue backs up, and a new replica takes minutes to warm. Here's how to pick autoscaling metrics, tune scale-up/down windows, and budget for cold starts on dedicated inference.",
-      "summary": "GPU utilization can read healthy while your queue backs up, and a new replica takes minutes to warm. Here's how to pick autoscaling metrics, tune scale-up/down windows, and budget for cold starts on dedicated inference.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
       "id": "e6c5b20b9012201d",
       "date": "2026-08-05",
       "sourceType": "newsletter",
@@ -324,163 +527,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "417b1b89e3d25fe1",
-      "date": "2026-08-05",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Import AI",
-      "sourceKey": "editorial:Import AI",
-      "builderOrOrg": "Jack Clark",
-      "title": "Import AI 467: Self-sustaining AI viruses; pacing AI progress; confusion about AI and creativity",
-      "url": "https://jack-clark.net/2026/08/03/import-ai-467-self-sustaining-ai-viruses-pacing-ai-progress-confusion-about-ai-and-creativity/",
-      "publishedAt": "2026-08-03T13:31:22.000Z",
-      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Self-sustaining and self-replicating AI viruses are here: …Open weight LLMs + a well-designed harness = a persistent, self-sufficient virus… AI researchers have built a prototype computer virus which uses AI models to compromise computers, then uses their underlying GPU resources to run inference, letting it smartly figure out how to infect more hosts. The results were achieved by researchers from the University of Toronto, the Vector Institute, the University of Cambridge, and ServiceNow, and “demonstrate that self-sustaining AI-driven cyber-threats are no longer theoretical.” “We must prepare for autonomous generative adversaries,” they write. “Artificial intelligence (AI) agents enable a fundamentally new threat: a worm that generates tailored attack strategies to each target it encounters. The worm parasitically uses compromised machines to run open-weight large language models (LLMs) to sustain its reasoning, or extend its reach for further attacks”. How it works : “The worm uses stolen computing power from compromised GPU nodes to host LLMs for generative reasoning. It then uses this reasoning to detect vulnerabilities and devise tailored attacks against additional targets, furthering its spread,” they write. “The proof-of-concept operates using only an open-weight LLM running on a single, local GPU, with no reliance on vendor APIs that could be monitored or revoked”. The researchers don’t describe the underlying LLM besides saying it was published in 2025 and can fit on a single A100 GPU with 80GB of VRAM. A successful proof-of-concept via some custom tools : They give the agent a custom harness that comes with built-in helper functions for network discovery, host discovery, foothold exploitation, privilege escalation, privilege escalation exploitation, and tools for replication…",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Self-sustaining and self-replicating AI viruses are here:…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "autonomous"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a5cc7454b6299a9e",
-      "date": "2026-08-05",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Megakernels are so dead and so back",
-      "url": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
-      "publishedAt": "2026-08-05T01:21:47.000Z",
-      "content": "Part of our Inference Engineering Masterclass pod yesterday involved a spicy discussion about Megakernels: megakernels are dead why are megakernels useful? you spend two months writing a kernel to save time on launch overhead and poor inter-kernel overlap. you had PDL but then people said it wasn't perfect, that you could still get some marginal gains due to straggler CTAs and therefore- wait, sorry, I forgot, Rubin fixes that (kernel two needs 10 CTAs and kernel one has seven finished and three straggling, kernel two launches seven of its CTAs). given a long enough timeline, it all evens out. no serious inference provider is using a 67k loc hand-fused forward pass kernel in production, and the teams doing that are doing so out of pure research. dead. @swyx 's pod and said some things that i... should not have said. \\n\\na lot has happened since then, i owe you all an apology.\\n\\ni'm sorry that i was right about every single thing. \\n\\na) re megakernels are dead\\nwhy are megakernels useful? you spend two months\",\"username\":\"waterloo_intern\",\"name\":\"ali\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/2083657716690759680/zzYf-2oG_normal.jpg\",\"date\":\"2026-08-03T23:49:24.000Z\",\"photos\":[{\"img_url\":\"https://pbs.substack.com/media/HO1VZaKWAAANbcS.jpg\",\"link_url\":\"https://t.co/L3oxkoWQSG\"},{\"img_url\":\"https://pbs.substack.com/media/HO1VcNeWMAAuRvS.jpg\",\"link_url\":\"https://t.co/L3oxkoWQSG\"},{\"img_url\":\"https://pbs.substack.com/media/HO1ZrovXgAAwGgY.jpg\",\"link_url\":\"https://t.co/L3oxkoWQSG\"}],\"quoted_tweet\":{\"full_text\":\"The Inference Engineering Masterclass: 10x faster models, quantization, speculative decoding, Rubin, & self-optimizing AI https://t.co/uRYIWWDebj\\n\\n@Baseten @philipkiely and @waterloo_intern explain what actually happens after a model is trained, why turning weights into a fast\",\"username\":\"latentspacepod\",\"name\":\"Latent.Space\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/1888346877428641792/rMxtG84Z_normal.jpg\"},\"reply_count\":…",
-      "summary": "A quiet day lets us highlight a Cursor launch and an engineering debate",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "weights"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "6f7fc6a13d4a4fec",
-      "date": "2026-08-05",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
-      "url": "https://www.latent.space/p/inference-eng",
-      "publishedAt": "2026-08-03T21:44:03.000Z",
-      "content": "We first covered Baseten last year when DeepSeek mania was at peak hype. Now they have raised a monster $13B round and become one of the new cohort of AI Infra decacorns that are (with Nvidia, Intel, and the semis complex) chief beneficiaries of the Inference Inflection . We return to Baseten at the peak of the 2026 edition of Open Weights debate . Ali has published a viral breakdown of Kimi K3 : And since you last saw him, Philip has spoken at AI Engineer and written the definitive book on Inference Engineering spotted all over SF: Three years ago, inference engineering barely existed as a category. Today, it is one of the most critical disciplines in AI. Inference engineering inherently tackles a different question than standard model training: &#8220;How do you turn those weights from training into a product that is fast, reliable, and affordable at scale?&#8221; Focusing on these creates an entirely new optimization problem. baseten.com/inference-engi&#8230; \",\"username\":\"philipkiely\",\"name\":\"Philip Kiely\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/1644827140641153024/ExLuda2F_normal.jpg\",\"date\":\"2026-02-23T18:03:01.000Z\",\"photos\":[{\"img_url\":\"https://substackcdn.com/image/fetch/$s_!1BR1!,w_1028,c_limit,f_auto,q_auto:best,fl_progressive:steep/l_play_button_usfui2,w_88,e_colorize:0/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2025989166333616128.jpg\",\"link_url\":\"https://t.co/QTNdMrypqR\"}],\"quoted_tweet\":{},\"reply_count\":190,\"retweet_count\":230,\"like_count\":2367,\"impression_count\":1396109,\"expanded_url\":null,\"video_url\":\"https://video.twimg.com/amplify_video/2025989166333616128/vid/avc1/1280x720/fBFnlcAf_0wCVPNv.mp4\",\"video_preview_media_key\":\"13_2025989166333616128\",\"belowTheFold\":false}\" data-component-name=\"Twitter2ToDOM\"> In one recent GLM-5.2 experiment, quantizing more of the model actually preserved its benchmark quality while increasing throughput by 20% , because the errors intr…",
-      "summary": "Baseten just raised a $13B Series F and is now one of the leading kings of inference engineering. We go into everything you need to know for autoregressive and diffusion engineering.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.69,
-          "rationale": [
-            "inference",
-            "throughput"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.69,
-          "rationale": [
-            "image",
-            "video"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "china-models",
-          "label": "Chinese AI",
-          "confidence": 0.69,
-          "rationale": [
-            "deepseek",
-            "kimi"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Chinese Models",
-      "importanceScore": 0.55,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -2310,57 +2356,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4c3bd53d4e273164",
-      "date": "2026-06-01",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "🔬ESM: The Bitter Lesson is Coming for Proteins - Alex Rives, BioHub",
-      "url": "https://www.latent.space/p/esmfold2",
-      "publishedAt": "2026-05-27T17:46:16.000Z",
-      "content": "Editor&#8217;s note: In our first BioHub pod with Priscilla and Mark they discussed their acquisition of EvoScale , led by Alex Rives , who is now Head of Science at BioHub. With ESM-1 they trained language models on millions of protein sequences drawn from across life, with a simple &#8220;next token&#8221; objective: predict the amino acids that have been randomly masked out, based on the context of the rest of the sequence. But they soon found that these models also learned biological structure and function, including properties the model had never been explicitly shown AND that this ability scales predictably with compute , leading to ESM2 and ESM3 . Today, Alex announced ESMFold 2, an open scientific engine to power prediction, design, and discovery across protein biology. Building on Cryo-EM data (discussed in the CZI pod), ESMFold2 reports state of the art performance on protein interactions, especially antibodies, a critical modality for therapeutics, and evidence that inference time scaling is also working across five targets in cancer and immunology . In a nod to that other famous AI x protein folding project, they are also releasing an atlas of 6.8 billion proteins, and 1.1 billion predicted structures, which you can play around with on their website . We are honored to work with them for this huge release! One of the refrains we&#8217;ve heard on the Science pod has been that protein folding, materials design, cellular biology, etc. are very different problems from Language Modeling. They definitely are. Yet Alex Rives and the ESM team at BioHub just released a preprint and model , demonstrating that vanilla BERT-like transformer models trained on sufficiently large and diverse data sets can beat specialized models like AlphaFold3 on some of the hardest protein-related problems. Andrew White had a great segment in our first LS-Science episode that explained how mind blowing AlphaFold2 was when it was released in 2020: it suddenly solved problems on a GP…",
-      "summary": "Biohub&#8217;s Protein World Model: ESMC-6B, ESMFold2, 6.8B proteins, 1.1B structures, antibody design, SAEs, & the potential for programmable biology",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "science"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     }
   ]

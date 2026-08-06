@@ -1,8 +1,416 @@
 {
-  "generatedAt": "2026-08-05T04:34:34.156Z",
+  "generatedAt": "2026-08-06T00:45:07.252Z",
   "slug": "research",
   "label": "Research",
   "items": [
+    {
+      "id": "d2c558abd4645cf9",
+      "date": "2026-08-06",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "Training Data",
+      "sourceKey": "podcast:Training Data",
+      "builderOrOrg": "Training Data",
+      "title": "Chai Discovery's Bitter Lesson: Drug Design Is Another Scaling Problem",
+      "url": "https://www.youtube.com/watch?v=wv53mDmY-k0",
+      "publishedAt": "2026-08-04T09:00:00.000Z",
+      "content": "Speaker 1 | 00:00 - 00:22 One of our big guiding principles is just simplicity. So, like, when you look at a model like, let's say, CHI one, I think there are 23 distinct submodules in CHI one. And, like, when you're trying to iterate on something like that, it gets really hard because you're like, I kinda I need to understand each of these sub modules independently. I need to understand all of their behaviors, their dynamics, and, like, that doesn't actually scale that well. So, like, you can start to think, okay. Speaker 1 | 00:22 - 00:31 How do I simplify this? How do I identify, like, what's what's really important? Once you have that, the whole research process and identifying these types of scaling directions becomes a lot simpler. Speaker 2 | 00:48 - 01:01 We're here with Josh and Matt, two of the co founders of CHI Discovery. CHI is engineering molecules with AI. So it's something of a foundation model lab for biology. Sounds like a big idea, but let Speaker 3 | 01:01 - 01:25 me just start there. What is the big idea? Thanks for having us on the show. One of the exciting things we're trying to do at CHI is to make the drug discovery process look a little bit more like engineering, and we've seen all the work happening with the LMs for cogeneration, for instance, right, and that works really well because code's a very simple obstruction, right, of like to kind of get across what you want to do. Biology doesn't look like that today. Speaker 3 | 01:25 - 01:52 It's a lot of like trial and error. I think if we go back to the early days of just like modern biotech, right, a lot of the medicines that we have today were kind of discovered quite randomly. It was a bit serendipitous, and what we're trying to do is allow us to industrialize that process a little bit more and try to come up with the tools that we'd need in order to have abstraction layers, the same way we have that encoded in modern engineering, allows us to iterate really quickly and try to bring that, into biology and into drug discovery. Speaker 2 | 01:52 - 02:15 So let me ask you a question on that then. So there's and tell me if this is a reasonable way to frame it. There's almost this boundary between that which can be engineered and that which needs to be tested in the real world. And it feels like that boundary has been moving over time. Like the proportion of the drug development process that can be engineered as opposed to trial and errored seems to be increasing. Speaker 2 | 02:15 - 02:22 Is that a reasonable way to think about it? If so, can you talk about like what specific developments have pushed that boundary over time? Speaker 3 | 02:22 - 02:41 I think that's one way to think about it. The way that we often, look at this is like the lab is an important part to verify that what you're doing is correct. And actually verification is a very big theme in AI as well. If you can evaluate that your model works, you can verify it, then you can start to hill climb that and you can make progress on it. So I think the lab is a very important part of this. Speaker 3 | 02:41 - 03:03 And the question is how do we take drug discovery and make it look a lot more like drug design? So one of the reasons why we call this field drug discovery is we're often looking for a needle in a haystack. We'll screen millions, billions of molecules, try to find one that works. And if we can instead put in what is like the dream state of the molecule you want, and then the model can materialize that, that's going be really powerful. So it's not even a question of like reducing lab testing. Speaker 3 | 03:03 - 03:24 I mean, maybe that happens as a result. I actually might even take the opposite side of the coin and we can talk about that where maybe we'd actually do even more lab testing because the ROI will increase the same way there's more software engineers, there's or more demand for software engineers now that they become more productive. There might be more demand for the l…",
+      "summary": "Speaker 1 | 00:00 - 00:22 One of our big guiding principles is just simplicity. So, like, when you look at a model like, let's say, CHI one, I think there are 23 distinct submodules in CHI one. And, like, when you're trying to iterate on s…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.52,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.69,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "5938edcc6e969bb9",
+      "date": "2026-08-06",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "New ways to learn and teach with ChatGPT Work and Codex",
+      "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "content": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
+      "summary": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "17a0ff9424429746",
+      "date": "2026-08-06",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Tino Cuellar joins Anthropic as Chief Global Affairs Officer \\ Anthropic",
+      "url": "https://www.anthropic.com/news/tino-cuellar",
+      "publishedAt": null,
+      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d52fc989fa162542",
+      "date": "2026-08-06",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Echoverse: Deep, evolving environments for computer-use agents",
+      "url": "https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents/",
+      "publishedAt": "2026-07-30T17:00:00.000Z",
+      "content": "Scaling fidelity over sheer count, targeting the capabilities agents actually lack, and evolving with the models they train. At a glance We built twelve training worlds for computer-use agents: ten deep domain worlds and two capability worlds, each drilling a single control rendered in many forms (date pickers and nested filters). Depth is what makes them worth training on: these worlds reproduce an application’s real behavior, come seeded with realistic data, and keep state coherent across screens and users. Trained on all twelve, a 9B model nearly doubles its base score (36.5% to 67.1%), coming within fourteen points of GPT-5.4. The experiment taught us several lessons:&nbsp; High simulation fidelity is a must-have; shallow worlds hurt the agent. Trained on shallow and deep builds of the same sites, the model regressed on the shallow ones but improved on the deep ones. Agents often struggle with the same challenging UI elements, like date pickers and nested filters. Drilling those controls in varied forms taught the model to operate them in domains it never saw in training. Co-evolving the model, the world, and the verifier improves all of them. As the world grows more correct and its tasks grow harder, the model climbs with it. Reinforcement learning against the worlds pushes the agent past imitation. Using the grounded verifier as the reward, RL lifts held-out performance and teaches the agent to reach the goal in fewer steps. We’re releasing four of the worlds with their code, data, and grounded graders, to support research on high-fidelity computer-use worlds. Github: &nbsp; microsoft/Echoverse: Deep, Evolving Environments for Computer-Use Agents (opens in new tab) Hugging Face: microsoft/Echoverse · Datasets at Hugging Face (opens in new tab) Technical Report:&nbsp; https://www.microsoft.com/en-us/research/publication/echoverse-deep-evolving-environments-for-training-computer-use-agents-at-scale/ A computer-use agent learns the results of what its actions do…",
+      "summary": "Computer-use AI agents struggle with multi-step workflows like email and customer support. Echoverse trains agents in realistic environments rather than simply providing more training tasks, helping them improve as the tasks, tests, and en…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.81,
+          "rationale": [
+            "research",
+            "publication",
+            "dataset"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "repo"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "rl",
+            "reinforcement learning"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d21637a197808d46",
+      "date": "2026-08-06",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "EvoLib: Turning experience into evolving knowledge",
+      "url": "https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge/",
+      "publishedAt": "2026-07-30T16:00:00.000Z",
+      "content": "At a glance Self-supervised. EvoLib enables large language models to learn from their own experience during inference, without requiring ground-truth labels or external feedback. From experience to knowledge. EvoLib transforms past attempts into reusable skills and reflective insights that can be applied to future tasks. Knowledge that evolves. Useful skills and insights are continually refined, consolidated, and reweighted, turning instance-specific observations into increasingly general knowledge over time. Learning that transfers across tasks. By turning experience into reusable knowledge, EvoLib helps AI models learn from past successes and failures and evolve the knowledge that has the highest potential on improving future performance. Built for today&#8217;s AI models. As EvoLib does not require model updates, it can be applied to any black-box language models and AI systems deployed through APIs. Memory has become an important AI agent capability: the ability to store and retrieve past experiences. But memory alone is not learning. A collection of past conversations, reasoning traces, or action histories can quickly grow into a vast archive of experiences, making it difficult to identify the most relevant knowledge for a new task—let alone refine and evolve this knowledge to improve performance over time. Humans learn differently. We do not remember every detail of our past experiences. Instead, we remember what matters: strategies that work, mistakes to avoid, and skills that transfer across situations. Over time, these lessons are refined into increasingly general and reusable knowledge. This ability to transform experience into transferable, evolving knowledge is one of the foundations of human learning. In our recent paper, Test-Time Learning with an Evolving Library , we explore how AI systems can learn from experience in a similar way. We introduce EvoLib , a framework that transforms raw experience into an evolving library of knowledge. Rather than tr…",
+      "summary": "LLMs do not get smarter just by remembering more. EvoLib turns experience into evolving knowledge, taking reusable skills and insights that help models learn and adapt across tasks long after deployment. The post EvoLib: Turning experience…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "paper"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "417b1b89e3d25fe1",
+      "date": "2026-08-06",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Import AI",
+      "sourceKey": "editorial:Import AI",
+      "builderOrOrg": "Jack Clark",
+      "title": "Import AI 467: Self-sustaining AI viruses; pacing AI progress; confusion about AI and creativity",
+      "url": "https://jack-clark.net/2026/08/03/import-ai-467-self-sustaining-ai-viruses-pacing-ai-progress-confusion-about-ai-and-creativity/",
+      "publishedAt": "2026-08-03T13:31:22.000Z",
+      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Self-sustaining and self-replicating AI viruses are here: …Open weight LLMs + a well-designed harness = a persistent, self-sufficient virus… AI researchers have built a prototype computer virus which uses AI models to compromise computers, then uses their underlying GPU resources to run inference, letting it smartly figure out how to infect more hosts. The results were achieved by researchers from the University of Toronto, the Vector Institute, the University of Cambridge, and ServiceNow, and “demonstrate that self-sustaining AI-driven cyber-threats are no longer theoretical.” “We must prepare for autonomous generative adversaries,” they write. “Artificial intelligence (AI) agents enable a fundamentally new threat: a worm that generates tailored attack strategies to each target it encounters. The worm parasitically uses compromised machines to run open-weight large language models (LLMs) to sustain its reasoning, or extend its reach for further attacks”. How it works : “The worm uses stolen computing power from compromised GPU nodes to host LLMs for generative reasoning. It then uses this reasoning to detect vulnerabilities and devise tailored attacks against additional targets, furthering its spread,” they write. “The proof-of-concept operates using only an open-weight LLM running on a single, local GPU, with no reliance on vendor APIs that could be monitored or revoked”. The researchers don’t describe the underlying LLM besides saying it was published in 2025 and can fit on a single A100 GPU with 80GB of VRAM. A successful proof-of-concept via some custom tools : They give the agent a custom harness that comes with built-in helper functions for network discovery, host discovery, foothold exploitation, privilege escalation, privilege escalation exploitation, and tools for replication…",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Self-sustaining and self-replicating AI viruses are here:…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "autonomous"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "98a5da0976b7c146",
+      "date": "2026-08-06",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Qwen 3.8 Max(2.4T) and 27B, new open weights models for Coding and Cowork",
+      "url": "https://www.latent.space/p/ainews-qwen-38-max24t-and-27b-new",
+      "publishedAt": "2026-08-04T03:49:14.000Z",
+      "content": "After the Qwen Exodus last year and new management took over launching more closed model APIs, there was some real doubt as to whether or not this leading open models lab would continue to release relevant models. That doubt is now gone. Qwen 3.8 Max is a MONSTER 2.4T model that would have been the top open model in the world but for the Kimi K3 release we already covered . Qwen offers them on API for $2 input/$6 output per million tokens, but they have promised to open-weight both models. Key Capabilities & Breakthrough Highlights Autonomous Long-Horizon Coding: 10+ Days Unattended Coding: Built a self-evolving coding harness from scratch over a multi-week autonomous run. Autonomous AI Research: Rebuilt a complete paper&#8217;s pipeline ( Unified Data Selection for LLM Reasoning ) from scratch, then autonomously ran an iterative research loop over 125 hours to invent a new data selection method beating the original paper&#8217;s benchmark by +2.71 points . Competitive Data Science: Competed against 526 human teams in the WWW2025 Multimodal Dialogue Intent Recognition Challenge, placing in the top 13% ( outperforming 87% of human teams ) within 24 hours. Autonomous Hardware & Chip Design: Executed a complete silicon design flow (GCD/RSA cryptographic accelerator) from RTL editing to simulation, synthesis, and physical layout. Reduced gate count from 8,298 to 678 gates while achieving an 81% die area reduction and meeting physical timing closure at 500 MHz. Deep Real-World Work & Operations: Demonstrated production-grade outputs across hundreds of professional workflows (e.g., corporate legal reviews, UI/UX design, structural engineering models, and automated ETF quant research). Outperformed competing models in the E-Commerce Bench (a 365-day store operation simulation), generating a 4.16x return (&#165;416,252 balance) through continuous game-theoretic negotiation and inventory planning. Multimodal Agents & Visual Feedback: Integrates native visual feedback across…",
+      "summary": "Qwen is so back!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.81,
+          "rationale": [
+            "research",
+            "paper",
+            "science"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "autonomous"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.69,
+          "rationale": [
+            "reasoning",
+            "long-horizon"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "b4efb2ab30e54422",
+      "date": "2026-08-06",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "$50k ChinaTalk Submission + Hiring Contest!",
+      "url": "https://www.chinatalk.media/p/50k-chinatalk-submission-hiring-contest",
+      "publishedAt": "2026-08-03T16:26:33.000Z",
+      "content": "Thanks to a generous new grant from Coefficient Giving, ChinaTalk is now hiring! We&#8217;re running a $50k contest to help spark new research and find new hires. Our bread and butter is the intersection of emerging technologies with US-China relations. Specifically, we explore how developments like AI, robotics, and the underlying supply chains speak to broad questions of national power and risk. We&#8217;re excited to host an ideas-and-stories &#8220;essay&#8221; contest on what you think are the most interesting developments and questions that fit at ChinaTalk. We&#8217;re interested in proposals related to artificial intelligence and China, broadly speaking ; this includes models, chips, robotics, supply chains, applications, and their economics, politics, and governance . Winners&#8217; submissions will be shared via our newsletter and win a share of the $50k prize pool. Here are some formats we think your submission could take, though you are in no way constrained by the following list. Surprise us! Writing (articles, essays, reporting, analysis, etc.) Interactive software (websites, video games, etc.) Policy proposals Videos ( we&#8217;re also hiring specifically for a video producer !) Data-driven research (benchmarks, data analysis, etc.) We&#8217;re going to do this in two rounds. First, submit a paragraph for each idea you are considering (up to three). For the ideas we like, the ChinaTalk team to give you some some feedback and a $250 commissioning payment . Next, you&#8217;ll have a few weeks to execute your idea, then we&#8217;ll pick the winners and split the prize pool. We&#8217;re open to publishing anonymously if you have a good reason. Submit here! We&#8217;re also hoping to use this contest to source full time hires for ChinaTalk. If you want to work here, submitting is your best way in! For some background working with us: You&#8217;ll have a wide level of autonomy to chart out your own research agenda, and will publish to an audience of 75k, w…",
+      "summary": "Proposals Due August 23rd",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.69,
+          "rationale": [
+            "governance",
+            "policy"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
     {
       "id": "680b556380f8a6e5",
       "date": "2026-08-05",
@@ -102,363 +510,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "5938edcc6e969bb9",
-      "date": "2026-08-05",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "New ways to learn and teach with ChatGPT Work and Codex",
-      "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "content": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
-      "summary": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "17a0ff9424429746",
-      "date": "2026-08-05",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Tino Cuellar joins Anthropic as Chief Global Affairs Officer \\ Anthropic",
-      "url": "https://www.anthropic.com/news/tino-cuellar",
-      "publishedAt": null,
-      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d52fc989fa162542",
-      "date": "2026-08-05",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Echoverse: Deep, evolving environments for computer-use agents",
-      "url": "https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents/",
-      "publishedAt": "2026-07-30T17:00:00.000Z",
-      "content": "Scaling fidelity over sheer count, targeting the capabilities agents actually lack, and evolving with the models they train. At a glance We built twelve training worlds for computer-use agents: ten deep domain worlds and two capability worlds, each drilling a single control rendered in many forms (date pickers and nested filters). Depth is what makes them worth training on: these worlds reproduce an application’s real behavior, come seeded with realistic data, and keep state coherent across screens and users. Trained on all twelve, a 9B model nearly doubles its base score (36.5% to 67.1%), coming within fourteen points of GPT-5.4. The experiment taught us several lessons:&nbsp; High simulation fidelity is a must-have; shallow worlds hurt the agent. Trained on shallow and deep builds of the same sites, the model regressed on the shallow ones but improved on the deep ones. Agents often struggle with the same challenging UI elements, like date pickers and nested filters. Drilling those controls in varied forms taught the model to operate them in domains it never saw in training. Co-evolving the model, the world, and the verifier improves all of them. As the world grows more correct and its tasks grow harder, the model climbs with it. Reinforcement learning against the worlds pushes the agent past imitation. Using the grounded verifier as the reward, RL lifts held-out performance and teaches the agent to reach the goal in fewer steps. We’re releasing four of the worlds with their code, data, and grounded graders, to support research on high-fidelity computer-use worlds. Github: &nbsp; microsoft/Echoverse: Deep, Evolving Environments for Computer-Use Agents (opens in new tab) Hugging Face: microsoft/Echoverse · Datasets at Hugging Face (opens in new tab) Technical Report:&nbsp; https://www.microsoft.com/en-us/research/publication/echoverse-deep-evolving-environments-for-training-computer-use-agents-at-scale/ A computer-use agent learns the results of what its actions do…",
-      "summary": "Computer-use AI agents struggle with multi-step workflows like email and customer support. Echoverse trains agents in realistic environments rather than simply providing more training tasks, helping them improve as the tasks, tests, and en…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.81,
-          "rationale": [
-            "research",
-            "publication",
-            "dataset"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "code",
-            "repo"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.69,
-          "rationale": [
-            "rl",
-            "reinforcement learning"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d21637a197808d46",
-      "date": "2026-08-05",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "EvoLib: Turning experience into evolving knowledge",
-      "url": "https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge/",
-      "publishedAt": "2026-07-30T16:00:00.000Z",
-      "content": "At a glance Self-supervised. EvoLib enables large language models to learn from their own experience during inference, without requiring ground-truth labels or external feedback. From experience to knowledge. EvoLib transforms past attempts into reusable skills and reflective insights that can be applied to future tasks. Knowledge that evolves. Useful skills and insights are continually refined, consolidated, and reweighted, turning instance-specific observations into increasingly general knowledge over time. Learning that transfers across tasks. By turning experience into reusable knowledge, EvoLib helps AI models learn from past successes and failures and evolve the knowledge that has the highest potential on improving future performance. Built for today&#8217;s AI models. As EvoLib does not require model updates, it can be applied to any black-box language models and AI systems deployed through APIs. Memory has become an important AI agent capability: the ability to store and retrieve past experiences. But memory alone is not learning. A collection of past conversations, reasoning traces, or action histories can quickly grow into a vast archive of experiences, making it difficult to identify the most relevant knowledge for a new task—let alone refine and evolve this knowledge to improve performance over time. Humans learn differently. We do not remember every detail of our past experiences. Instead, we remember what matters: strategies that work, mistakes to avoid, and skills that transfer across situations. Over time, these lessons are refined into increasingly general and reusable knowledge. This ability to transform experience into transferable, evolving knowledge is one of the foundations of human learning. In our recent paper, Test-Time Learning with an Evolving Library , we explore how AI systems can learn from experience in a similar way. We introduce EvoLib , a framework that transforms raw experience into an evolving library of knowledge. Rather than tr…",
-      "summary": "LLMs do not get smarter just by remembering more. EvoLib turns experience into evolving knowledge, taking reusable skills and insights that help models learn and adapt across tasks long after deployment. The post EvoLib: Turning experience…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "paper"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "417b1b89e3d25fe1",
-      "date": "2026-08-05",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Import AI",
-      "sourceKey": "editorial:Import AI",
-      "builderOrOrg": "Jack Clark",
-      "title": "Import AI 467: Self-sustaining AI viruses; pacing AI progress; confusion about AI and creativity",
-      "url": "https://jack-clark.net/2026/08/03/import-ai-467-self-sustaining-ai-viruses-pacing-ai-progress-confusion-about-ai-and-creativity/",
-      "publishedAt": "2026-08-03T13:31:22.000Z",
-      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Self-sustaining and self-replicating AI viruses are here: …Open weight LLMs + a well-designed harness = a persistent, self-sufficient virus… AI researchers have built a prototype computer virus which uses AI models to compromise computers, then uses their underlying GPU resources to run inference, letting it smartly figure out how to infect more hosts. The results were achieved by researchers from the University of Toronto, the Vector Institute, the University of Cambridge, and ServiceNow, and “demonstrate that self-sustaining AI-driven cyber-threats are no longer theoretical.” “We must prepare for autonomous generative adversaries,” they write. “Artificial intelligence (AI) agents enable a fundamentally new threat: a worm that generates tailored attack strategies to each target it encounters. The worm parasitically uses compromised machines to run open-weight large language models (LLMs) to sustain its reasoning, or extend its reach for further attacks”. How it works : “The worm uses stolen computing power from compromised GPU nodes to host LLMs for generative reasoning. It then uses this reasoning to detect vulnerabilities and devise tailored attacks against additional targets, furthering its spread,” they write. “The proof-of-concept operates using only an open-weight LLM running on a single, local GPU, with no reliance on vendor APIs that could be monitored or revoked”. The researchers don’t describe the underlying LLM besides saying it was published in 2025 and can fit on a single A100 GPU with 80GB of VRAM. A successful proof-of-concept via some custom tools : They give the agent a custom harness that comes with built-in helper functions for network discovery, host discovery, foothold exploitation, privilege escalation, privilege escalation exploitation, and tools for replication…",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Self-sustaining and self-replicating AI viruses are here:…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "autonomous"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "98a5da0976b7c146",
-      "date": "2026-08-05",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Qwen 3.8 Max(2.4T) and 27B, new open weights models for Coding and Cowork",
-      "url": "https://www.latent.space/p/ainews-qwen-38-max24t-and-27b-new",
-      "publishedAt": "2026-08-04T03:49:14.000Z",
-      "content": "After the Qwen Exodus last year and new management took over launching more closed model APIs, there was some real doubt as to whether or not this leading open models lab would continue to release relevant models. That doubt is now gone. Qwen 3.8 Max is a MONSTER 2.4T model that would have been the top open model in the world but for the Kimi K3 release we already covered . Qwen offers them on API for $2 input/$6 output per million tokens, but they have promised to open-weight both models. Key Capabilities & Breakthrough Highlights Autonomous Long-Horizon Coding: 10+ Days Unattended Coding: Built a self-evolving coding harness from scratch over a multi-week autonomous run. Autonomous AI Research: Rebuilt a complete paper&#8217;s pipeline ( Unified Data Selection for LLM Reasoning ) from scratch, then autonomously ran an iterative research loop over 125 hours to invent a new data selection method beating the original paper&#8217;s benchmark by +2.71 points . Competitive Data Science: Competed against 526 human teams in the WWW2025 Multimodal Dialogue Intent Recognition Challenge, placing in the top 13% ( outperforming 87% of human teams ) within 24 hours. Autonomous Hardware & Chip Design: Executed a complete silicon design flow (GCD/RSA cryptographic accelerator) from RTL editing to simulation, synthesis, and physical layout. Reduced gate count from 8,298 to 678 gates while achieving an 81% die area reduction and meeting physical timing closure at 500 MHz. Deep Real-World Work & Operations: Demonstrated production-grade outputs across hundreds of professional workflows (e.g., corporate legal reviews, UI/UX design, structural engineering models, and automated ETF quant research). Outperformed competing models in the E-Commerce Bench (a 365-day store operation simulation), generating a 4.16x return (&#165;416,252 balance) through continuous game-theoretic negotiation and inventory planning. Multimodal Agents & Visual Feedback: Integrates native visual feedback across…",
-      "summary": "Qwen is so back!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.81,
-          "rationale": [
-            "research",
-            "paper",
-            "science"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "autonomous"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "reasoning",
-          "label": "AI Thinking",
-          "confidence": 0.69,
-          "rationale": [
-            "reasoning",
-            "long-horizon"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "b4efb2ab30e54422",
-      "date": "2026-08-05",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "$50k ChinaTalk Submission + Hiring Contest!",
-      "url": "https://www.chinatalk.media/p/50k-chinatalk-submission-hiring-contest",
-      "publishedAt": "2026-08-03T16:26:33.000Z",
-      "content": "Thanks to a generous new grant from Coefficient Giving, ChinaTalk is now hiring! We&#8217;re running a $50k contest to help spark new research and find new hires. Our bread and butter is the intersection of emerging technologies with US-China relations. Specifically, we explore how developments like AI, robotics, and the underlying supply chains speak to broad questions of national power and risk. We&#8217;re excited to host an ideas-and-stories &#8220;essay&#8221; contest on what you think are the most interesting developments and questions that fit at ChinaTalk. We&#8217;re interested in proposals related to artificial intelligence and China, broadly speaking ; this includes models, chips, robotics, supply chains, applications, and their economics, politics, and governance . Winners&#8217; submissions will be shared via our newsletter and win a share of the $50k prize pool. Here are some formats we think your submission could take, though you are in no way constrained by the following list. Surprise us! Writing (articles, essays, reporting, analysis, etc.) Interactive software (websites, video games, etc.) Policy proposals Videos ( we&#8217;re also hiring specifically for a video producer !) Data-driven research (benchmarks, data analysis, etc.) We&#8217;re going to do this in two rounds. First, submit a paragraph for each idea you are considering (up to three). For the ideas we like, the ChinaTalk team to give you some some feedback and a $250 commissioning payment . Next, you&#8217;ll have a few weeks to execute your idea, then we&#8217;ll pick the winners and split the prize pool. We&#8217;re open to publishing anonymously if you have a good reason. Submit here! We&#8217;re also hoping to use this contest to source full time hires for ChinaTalk. If you want to work here, submitting is your best way in! For some background working with us: You&#8217;ll have a wide level of autonomy to chart out your own research agenda, and will publish to an audience of 75k, w…",
-      "summary": "Proposals Due August 23rd",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.69,
-          "rationale": [
-            "governance",
-            "policy"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -2341,50 +2392,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "c33cf3ebd56b1ee9",
-      "date": "2026-07-21",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "The Monkey Supply Chain",
-      "url": "https://www.chinatalk.media/p/the-monkey-supply-chain",
-      "publishedAt": "2026-07-14T16:09:16.000Z",
-      "content": "announcements: , ChinaTalk&#8217;s chip lead, is in Hawai&#8217;i! If you&#8217;re interested in joining an Oahu ChinaTalk meetup , reach out to aqib@chinatalk.media. is going to Jakarta later this month and would love to meet folks there! Ping Irene@chinatalk.media to say hi. Could the future of biotech great-power competition be decided by monkeys? In 2020, as COVID spread, China stopped exporting research monkeys. For US vaccine developers, infectious-disease researchers, and drug-testing companies, monkeys that once went for only a few thousand dollars suddenly jumped to $20,000 or more. FDA says it now goes as high as $50,000 &#8212; if you pay peanuts, you unfortunately no longer get monkeys. Important projects were scrapped or delayed. The shortage became serious enough that the NIH created a priority process for COVID studies needing nonhuman primates, warning that there weren&#8217;t enough monkeys to go around. China supplied 50.7% of lab monkeys imported into the US in 2006, 69.6% in 2011, 62.8% in 2018, and 48.5% in 2019. Then China&#8217;s share collapsed to zero from 2020 onwards. A National Academies report later found that 64% of surveyed NIH-supported researchers had trouble obtaining nonhuman primates. Visualized from this dataset . Other sources give similar numbers. I couldn&#8217;t reliably access the 2023-2026 data, but the number of Chinese imports to the US remains zero. Monkeys, mostly macaques, still play a big role in biotech. For vaccines against dangerous pathogens, gene therapies, infectious-disease countermeasures, neurotechnology, and complex biologics, monkeys often remain the model regulators, companies, and funders want to see &#8212; especially when mice are not similar enough to people and human challenge trials are waiting to get going. At ChinaTalk, we write about supply chains quite often. This one is different because it is alive. In one sense, scaling it sounds easy. Put a male and female macaque together, light a few candl…",
-      "summary": "Can the world fix its monkey dependence on China?",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "developer",
-            "repo"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "dataset"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     }
   ]

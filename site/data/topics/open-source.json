@@ -1,8 +1,165 @@
 {
-  "generatedAt": "2026-08-05T04:34:34.156Z",
+  "generatedAt": "2026-08-06T00:45:07.252Z",
   "slug": "open-source",
   "label": "Open Source",
   "items": [
+    {
+      "id": "261f692f80623caf",
+      "date": "2026-08-06",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "Speaking of Voxtral | Mistral AI",
+      "url": "https://mistral.ai/news/voxtral-tts/",
+      "publishedAt": null,
+      "content": "Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.",
+      "summary": "Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.81,
+          "rationale": [
+            "voice",
+            "speech",
+            "tts"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "weights"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "a5cc7454b6299a9e",
+      "date": "2026-08-06",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Megakernels are so dead and so back",
+      "url": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
+      "publishedAt": "2026-08-05T01:21:47.000Z",
+      "content": "Part of our Inference Engineering Masterclass pod yesterday involved a spicy discussion about Megakernels: megakernels are dead why are megakernels useful? you spend two months writing a kernel to save time on launch overhead and poor inter-kernel overlap. you had PDL but then people said it wasn't perfect, that you could still get some marginal gains due to straggler CTAs and therefore- wait, sorry, I forgot, Rubin fixes that (kernel two needs 10 CTAs and kernel one has seven finished and three straggling, kernel two launches seven of its CTAs). given a long enough timeline, it all evens out. no serious inference provider is using a 67k loc hand-fused forward pass kernel in production, and the teams doing that are doing so out of pure research. dead. @swyx 's pod and said some things that i... should not have said. \\n\\na lot has happened since then, i owe you all an apology.\\n\\ni'm sorry that i was right about every single thing. \\n\\na) re megakernels are dead\\nwhy are megakernels useful? you spend two months\",\"username\":\"waterloo_intern\",\"name\":\"ali\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/2083657716690759680/zzYf-2oG_normal.jpg\",\"date\":\"2026-08-03T23:49:24.000Z\",\"photos\":[{\"img_url\":\"https://pbs.substack.com/media/HO1VZaKWAAANbcS.jpg\",\"link_url\":\"https://t.co/L3oxkoWQSG\"},{\"img_url\":\"https://pbs.substack.com/media/HO1VcNeWMAAuRvS.jpg\",\"link_url\":\"https://t.co/L3oxkoWQSG\"},{\"img_url\":\"https://pbs.substack.com/media/HO1ZrovXgAAwGgY.jpg\",\"link_url\":\"https://t.co/L3oxkoWQSG\"}],\"quoted_tweet\":{\"full_text\":\"The Inference Engineering Masterclass: 10x faster models, quantization, speculative decoding, Rubin, & self-optimizing AI https://t.co/uRYIWWDebj\\n\\n@Baseten @philipkiely and @waterloo_intern explain what actually happens after a model is trained, why turning weights into a fast\",\"username\":\"latentspacepod\",\"name\":\"Latent.Space\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/1888346877428641792/rMxtG84Z_normal.jpg\"},\"reply_count\":…",
+      "summary": "A quiet day lets us highlight a Cursor launch and an engineering debate",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "weights"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7253b89999b408cd",
+      "date": "2026-08-06",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "China's Other Minerals Monopoly",
+      "url": "https://www.chinatalk.media/p/chinas-other-minerals-monopoly",
+      "publishedAt": "2026-07-30T10:54:20.000Z",
+      "content": "Today&#8217;s guest post was authored by Nima Khorrami, a Stockholm-based Research Associate at the Arctic Institute, Centre for Circumpolar Security Studies. After decades of neglect, Washington has adopted a coherent and &#8220;forceful&#8221; response to China&#8217;s dominance over critical minerals. China controls an estimated 91 percent of global rare earth refining, dominates the processing of a wide range of minerals, and has demonstrated repeatedly that it is willing to weaponise that position. The United States has responded through a range of initiatives and policy packages including Executive Order 14241 , the One Big Beautiful Bill Act , and Pax Silica . Add bilateral deals with Australia , Japan , the DRC , and Saudi Arabia , and the result is undeniably a more aggressive and cohesive mineral strategy than the United States has attempted in decades. The problem is not with any of these agreements and frameworks. Instead, it is with what is systematically absent from them. The entire architecture of American mineral strategy, and indeed the EU&#8217;s parallel effort under its Critical Raw Materials Act and RESourceEU , is built around two variables: where minerals are located and who processes them. What it consistently underweights is a third variable that will most likely prove equally consequential over the medium term: who controls the technology that operates the mines themselves . This constitutes the central strategic blind spot in the West&#8217;s mineral autonomy agenda because China is not just dominant in mineral processing. Beijing is also rapidly establishing dominance in the operational technology of extraction; the autonomous systems, industrial AI, connectivity infrastructure, and integrated machine intelligence that will define how the world&#8217;s future mines will run. Today, we&#8217;ll explore China&#8217;s dominance in autonomous mining technology and what to do about it. If that dominance goes unchecked, the US and its allies c…",
+      "summary": "autonomous mining!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "autonomous"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "weights"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.62,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.51,
+      "whyThisMatters": ""
+    },
     {
       "id": "680b556380f8a6e5",
       "date": "2026-08-05",
@@ -154,163 +311,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "261f692f80623caf",
-      "date": "2026-08-05",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Mistral AI Blog",
-      "sourceKey": "official:Mistral AI Blog",
-      "builderOrOrg": "Mistral AI",
-      "title": "Speaking of Voxtral | Mistral AI",
-      "url": "https://mistral.ai/news/voxtral-tts/",
-      "publishedAt": null,
-      "content": "Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.",
-      "summary": "Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "voice",
-          "label": "Voice",
-          "confidence": 0.81,
-          "rationale": [
-            "voice",
-            "speech",
-            "tts"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "weights"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a5cc7454b6299a9e",
-      "date": "2026-08-05",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Megakernels are so dead and so back",
-      "url": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
-      "publishedAt": "2026-08-05T01:21:47.000Z",
-      "content": "Part of our Inference Engineering Masterclass pod yesterday involved a spicy discussion about Megakernels: megakernels are dead why are megakernels useful? you spend two months writing a kernel to save time on launch overhead and poor inter-kernel overlap. you had PDL but then people said it wasn't perfect, that you could still get some marginal gains due to straggler CTAs and therefore- wait, sorry, I forgot, Rubin fixes that (kernel two needs 10 CTAs and kernel one has seven finished and three straggling, kernel two launches seven of its CTAs). given a long enough timeline, it all evens out. no serious inference provider is using a 67k loc hand-fused forward pass kernel in production, and the teams doing that are doing so out of pure research. dead. @swyx 's pod and said some things that i... should not have said. \\n\\na lot has happened since then, i owe you all an apology.\\n\\ni'm sorry that i was right about every single thing. \\n\\na) re megakernels are dead\\nwhy are megakernels useful? you spend two months\",\"username\":\"waterloo_intern\",\"name\":\"ali\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/2083657716690759680/zzYf-2oG_normal.jpg\",\"date\":\"2026-08-03T23:49:24.000Z\",\"photos\":[{\"img_url\":\"https://pbs.substack.com/media/HO1VZaKWAAANbcS.jpg\",\"link_url\":\"https://t.co/L3oxkoWQSG\"},{\"img_url\":\"https://pbs.substack.com/media/HO1VcNeWMAAuRvS.jpg\",\"link_url\":\"https://t.co/L3oxkoWQSG\"},{\"img_url\":\"https://pbs.substack.com/media/HO1ZrovXgAAwGgY.jpg\",\"link_url\":\"https://t.co/L3oxkoWQSG\"}],\"quoted_tweet\":{\"full_text\":\"The Inference Engineering Masterclass: 10x faster models, quantization, speculative decoding, Rubin, & self-optimizing AI https://t.co/uRYIWWDebj\\n\\n@Baseten @philipkiely and @waterloo_intern explain what actually happens after a model is trained, why turning weights into a fast\",\"username\":\"latentspacepod\",\"name\":\"Latent.Space\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/1888346877428641792/rMxtG84Z_normal.jpg\"},\"reply_count\":…",
-      "summary": "A quiet day lets us highlight a Cursor launch and an engineering debate",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "weights"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "7253b89999b408cd",
-      "date": "2026-08-05",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "China's Other Minerals Monopoly",
-      "url": "https://www.chinatalk.media/p/chinas-other-minerals-monopoly",
-      "publishedAt": "2026-07-30T10:54:20.000Z",
-      "content": "Today&#8217;s guest post was authored by Nima Khorrami, a Stockholm-based Research Associate at the Arctic Institute, Centre for Circumpolar Security Studies. After decades of neglect, Washington has adopted a coherent and &#8220;forceful&#8221; response to China&#8217;s dominance over critical minerals. China controls an estimated 91 percent of global rare earth refining, dominates the processing of a wide range of minerals, and has demonstrated repeatedly that it is willing to weaponise that position. The United States has responded through a range of initiatives and policy packages including Executive Order 14241 , the One Big Beautiful Bill Act , and Pax Silica . Add bilateral deals with Australia , Japan , the DRC , and Saudi Arabia , and the result is undeniably a more aggressive and cohesive mineral strategy than the United States has attempted in decades. The problem is not with any of these agreements and frameworks. Instead, it is with what is systematically absent from them. The entire architecture of American mineral strategy, and indeed the EU&#8217;s parallel effort under its Critical Raw Materials Act and RESourceEU , is built around two variables: where minerals are located and who processes them. What it consistently underweights is a third variable that will most likely prove equally consequential over the medium term: who controls the technology that operates the mines themselves . This constitutes the central strategic blind spot in the West&#8217;s mineral autonomy agenda because China is not just dominant in mineral processing. Beijing is also rapidly establishing dominance in the operational technology of extraction; the autonomous systems, industrial AI, connectivity infrastructure, and integrated machine intelligence that will define how the world&#8217;s future mines will run. Today, we&#8217;ll explore China&#8217;s dominance in autonomous mining technology and what to do about it. If that dominance goes unchecked, the US and its allies c…",
-      "summary": "autonomous mining!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "autonomous"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "weights"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.62,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.51,
       "whyThisMatters": ""
     },
     {
