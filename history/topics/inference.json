@@ -1,8 +1,246 @@
 {
-  "generatedAt": "2026-08-06T04:34:44.436Z",
+  "generatedAt": "2026-08-07T01:26:00.094Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
+    {
+      "id": "76f92952c8e9c611",
+      "date": "2026-08-07",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:swyx",
+      "builderOrOrg": "Swyx",
+      "title": "a very primitive form of the near term multiagent agi future is setting up one thread to ping b…",
+      "url": "https://x.com/swyx/status/2085253030417461661",
+      "publishedAt": "2026-08-06T06:33:59.000Z",
+      "content": "a very primitive form of the near term multiagent agi future is setting up one thread to ping back once its done so you create an implicit kanban/waterfall graph of dependent threads but each preserving their own work and agents i can't wait to setup a proper ui for this pattern but you can hack it together in most koding agents of choice rn",
+      "summary": "a very primitive form of the near term multiagent agi future is setting up one thread to ping back once its done so you create an implicit kanban/waterfall graph of dependent threads but each preserving their own work a…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 7,
+        "retweets": 2,
+        "replies": 3
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "serving"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.71,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.81,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "58deb3c55b91cbe0",
+      "date": "2026-08-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "Autoscaling endpoints for LLM inference",
+      "url": "https://www.together.ai/blog/autoscaling-endpoints-for-llm-inference",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "content": "GPU utilization can read healthy while your queue backs up, and a new replica takes minutes to warm. Here's how to pick autoscaling metrics, tune scale-up/down windows, and budget for cold starts on dedicated inference.",
+      "summary": "GPU utilization can read healthy while your queue backs up, and a new replica takes minutes to warm. Here's how to pick autoscaling metrics, tune scale-up/down windows, and budget for cold starts on dedicated inference.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "417b1b89e3d25fe1",
+      "date": "2026-08-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Import AI",
+      "sourceKey": "editorial:Import AI",
+      "builderOrOrg": "Jack Clark",
+      "title": "Import AI 467: Self-sustaining AI viruses; pacing AI progress; confusion about AI and creativity",
+      "url": "https://jack-clark.net/2026/08/03/import-ai-467-self-sustaining-ai-viruses-pacing-ai-progress-confusion-about-ai-and-creativity/",
+      "publishedAt": "2026-08-03T13:31:22.000Z",
+      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Self-sustaining and self-replicating AI viruses are here: …Open weight LLMs + a well-designed harness = a persistent, self-sufficient virus… AI researchers have built a prototype computer virus which uses AI models to compromise computers, then uses their underlying GPU resources to run inference, letting it smartly figure out how to infect more hosts. The results were achieved by researchers from the University of Toronto, the Vector Institute, the University of Cambridge, and ServiceNow, and “demonstrate that self-sustaining AI-driven cyber-threats are no longer theoretical.” “We must prepare for autonomous generative adversaries,” they write. “Artificial intelligence (AI) agents enable a fundamentally new threat: a worm that generates tailored attack strategies to each target it encounters. The worm parasitically uses compromised machines to run open-weight large language models (LLMs) to sustain its reasoning, or extend its reach for further attacks”. How it works : “The worm uses stolen computing power from compromised GPU nodes to host LLMs for generative reasoning. It then uses this reasoning to detect vulnerabilities and devise tailored attacks against additional targets, furthering its spread,” they write. “The proof-of-concept operates using only an open-weight LLM running on a single, local GPU, with no reliance on vendor APIs that could be monitored or revoked”. The researchers don’t describe the underlying LLM besides saying it was published in 2025 and can fit on a single A100 GPU with 80GB of VRAM. A successful proof-of-concept via some custom tools : They give the agent a custom harness that comes with built-in helper functions for network discovery, host discovery, foothold exploitation, privilege escalation, privilege escalation exploitation, and tools for replication…",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Self-sustaining and self-replicating AI viruses are here:…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "autonomous"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "a5cc7454b6299a9e",
+      "date": "2026-08-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Megakernels are so dead and so back",
+      "url": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
+      "publishedAt": "2026-08-05T01:21:47.000Z",
+      "content": "Part of our Inference Engineering Masterclass pod yesterday involved a spicy discussion about Megakernels: megakernels are dead why are megakernels useful? you spend two months writing a kernel to save time on launch overhead and poor inter-kernel overlap. you had PDL but then people said it wasn't perfect, that you could still get some marginal gains due to straggler CTAs and therefore- wait, sorry, I forgot, Rubin fixes that (kernel two needs 10 CTAs and kernel one has seven finished and three straggling, kernel two launches seven of its CTAs). given a long enough timeline, it all evens out. no serious inference provider is using a 67k loc hand-fused forward pass kernel in production, and the teams doing that are doing so out of pure research. dead. @swyx 's pod and said some things that i... should not have said. \\n\\na lot has happened since then, i owe you all an apology.\\n\\ni'm sorry that i was right about every single thing. \\n\\na) re megakernels are dead\\nwhy are megakernels useful? you spend two months\",\"username\":\"waterloo_intern\",\"name\":\"ali\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/2083657716690759680/zzYf-2oG_normal.jpg\",\"date\":\"2026-08-03T23:49:24.000Z\",\"photos\":[{\"img_url\":\"https://pbs.substack.com/media/HO1VZaKWAAANbcS.jpg\",\"link_url\":\"https://t.co/L3oxkoWQSG\"},{\"img_url\":\"https://pbs.substack.com/media/HO1VcNeWMAAuRvS.jpg\",\"link_url\":\"https://t.co/L3oxkoWQSG\"},{\"img_url\":\"https://pbs.substack.com/media/HO1ZrovXgAAwGgY.jpg\",\"link_url\":\"https://t.co/L3oxkoWQSG\"}],\"quoted_tweet\":{\"full_text\":\"The Inference Engineering Masterclass: 10x faster models, quantization, speculative decoding, Rubin, & self-optimizing AI https://t.co/uRYIWWDebj\\n\\n@Baseten @philipkiely and @waterloo_intern explain what actually happens after a model is trained, why turning weights into a fast\",\"username\":\"latentspacepod\",\"name\":\"Latent.Space\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/1888346877428641792/rMxtG84Z_normal.jpg\"},\"reply_count\":…",
+      "summary": "A quiet day lets us highlight a Cursor launch and an engineering debate",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "weights"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "6f7fc6a13d4a4fec",
+      "date": "2026-08-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
+      "url": "https://www.latent.space/p/inference-eng",
+      "publishedAt": "2026-08-03T21:44:03.000Z",
+      "content": "We first covered Baseten last year when DeepSeek mania was at peak hype. Now they have raised a monster $13B round and become one of the new cohort of AI Infra decacorns that are (with Nvidia, Intel, and the semis complex) chief beneficiaries of the Inference Inflection . We return to Baseten at the peak of the 2026 edition of Open Weights debate . Ali has published a viral breakdown of Kimi K3 : And since you last saw him, Philip has spoken at AI Engineer and written the definitive book on Inference Engineering spotted all over SF: Three years ago, inference engineering barely existed as a category. Today, it is one of the most critical disciplines in AI. Inference engineering inherently tackles a different question than standard model training: &#8220;How do you turn those weights from training into a product that is fast, reliable, and affordable at scale?&#8221; Focusing on these creates an entirely new optimization problem. baseten.com/inference-engi&#8230; \",\"username\":\"philipkiely\",\"name\":\"Philip Kiely\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/1644827140641153024/ExLuda2F_normal.jpg\",\"date\":\"2026-02-23T18:03:01.000Z\",\"photos\":[{\"img_url\":\"https://substackcdn.com/image/fetch/$s_!1BR1!,w_1028,c_limit,f_auto,q_auto:best,fl_progressive:steep/l_play_button_usfui2,w_88,e_colorize:0/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2025989166333616128.jpg\",\"link_url\":\"https://t.co/QTNdMrypqR\"}],\"quoted_tweet\":{},\"reply_count\":190,\"retweet_count\":230,\"like_count\":2367,\"impression_count\":1396109,\"expanded_url\":null,\"video_url\":\"https://video.twimg.com/amplify_video/2025989166333616128/vid/avc1/1280x720/fBFnlcAf_0wCVPNv.mp4\",\"video_preview_media_key\":\"13_2025989166333616128\",\"belowTheFold\":false}\" data-component-name=\"Twitter2ToDOM\"> In one recent GLM-5.2 experiment, quantizing more of the model actually preserved its benchmark quality while increasing throughput by 20% , because the errors intr…",
+      "summary": "Baseten just raised a $13B Series F and is now one of the leading kings of inference engineering. We go into everything you need to know for autoregressive and diffusion engineering.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "inference",
+            "throughput"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "image",
+            "video"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "china-models",
+          "label": "Chinese AI",
+          "confidence": 0.69,
+          "rationale": [
+            "deepseek",
+            "kimi"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Chinese Models",
+      "importanceScore": 0.55,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
     {
       "id": "cd731674a882f75a",
       "date": "2026-08-06",
@@ -145,198 +383,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "58deb3c55b91cbe0",
-      "date": "2026-08-06",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Together AI Blog",
-      "sourceKey": "official:Together AI Blog",
-      "builderOrOrg": "Together AI",
-      "title": "Autoscaling endpoints for LLM inference",
-      "url": "https://www.together.ai/blog/autoscaling-endpoints-for-llm-inference",
-      "publishedAt": "2026-07-31T00:00:00.000Z",
-      "content": "GPU utilization can read healthy while your queue backs up, and a new replica takes minutes to warm. Here's how to pick autoscaling metrics, tune scale-up/down windows, and budget for cold starts on dedicated inference.",
-      "summary": "GPU utilization can read healthy while your queue backs up, and a new replica takes minutes to warm. Here's how to pick autoscaling metrics, tune scale-up/down windows, and budget for cold starts on dedicated inference.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "417b1b89e3d25fe1",
-      "date": "2026-08-06",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Import AI",
-      "sourceKey": "editorial:Import AI",
-      "builderOrOrg": "Jack Clark",
-      "title": "Import AI 467: Self-sustaining AI viruses; pacing AI progress; confusion about AI and creativity",
-      "url": "https://jack-clark.net/2026/08/03/import-ai-467-self-sustaining-ai-viruses-pacing-ai-progress-confusion-about-ai-and-creativity/",
-      "publishedAt": "2026-08-03T13:31:22.000Z",
-      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Self-sustaining and self-replicating AI viruses are here: …Open weight LLMs + a well-designed harness = a persistent, self-sufficient virus… AI researchers have built a prototype computer virus which uses AI models to compromise computers, then uses their underlying GPU resources to run inference, letting it smartly figure out how to infect more hosts. The results were achieved by researchers from the University of Toronto, the Vector Institute, the University of Cambridge, and ServiceNow, and “demonstrate that self-sustaining AI-driven cyber-threats are no longer theoretical.” “We must prepare for autonomous generative adversaries,” they write. “Artificial intelligence (AI) agents enable a fundamentally new threat: a worm that generates tailored attack strategies to each target it encounters. The worm parasitically uses compromised machines to run open-weight large language models (LLMs) to sustain its reasoning, or extend its reach for further attacks”. How it works : “The worm uses stolen computing power from compromised GPU nodes to host LLMs for generative reasoning. It then uses this reasoning to detect vulnerabilities and devise tailored attacks against additional targets, furthering its spread,” they write. “The proof-of-concept operates using only an open-weight LLM running on a single, local GPU, with no reliance on vendor APIs that could be monitored or revoked”. The researchers don’t describe the underlying LLM besides saying it was published in 2025 and can fit on a single A100 GPU with 80GB of VRAM. A successful proof-of-concept via some custom tools : They give the agent a custom harness that comes with built-in helper functions for network discovery, host discovery, foothold exploitation, privilege escalation, privilege escalation exploitation, and tools for replication…",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Self-sustaining and self-replicating AI viruses are here:…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "autonomous"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a5cc7454b6299a9e",
-      "date": "2026-08-06",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Megakernels are so dead and so back",
-      "url": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
-      "publishedAt": "2026-08-05T01:21:47.000Z",
-      "content": "Part of our Inference Engineering Masterclass pod yesterday involved a spicy discussion about Megakernels: megakernels are dead why are megakernels useful? you spend two months writing a kernel to save time on launch overhead and poor inter-kernel overlap. you had PDL but then people said it wasn't perfect, that you could still get some marginal gains due to straggler CTAs and therefore- wait, sorry, I forgot, Rubin fixes that (kernel two needs 10 CTAs and kernel one has seven finished and three straggling, kernel two launches seven of its CTAs). given a long enough timeline, it all evens out. no serious inference provider is using a 67k loc hand-fused forward pass kernel in production, and the teams doing that are doing so out of pure research. dead. @swyx 's pod and said some things that i... should not have said. \\n\\na lot has happened since then, i owe you all an apology.\\n\\ni'm sorry that i was right about every single thing. \\n\\na) re megakernels are dead\\nwhy are megakernels useful? you spend two months\",\"username\":\"waterloo_intern\",\"name\":\"ali\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/2083657716690759680/zzYf-2oG_normal.jpg\",\"date\":\"2026-08-03T23:49:24.000Z\",\"photos\":[{\"img_url\":\"https://pbs.substack.com/media/HO1VZaKWAAANbcS.jpg\",\"link_url\":\"https://t.co/L3oxkoWQSG\"},{\"img_url\":\"https://pbs.substack.com/media/HO1VcNeWMAAuRvS.jpg\",\"link_url\":\"https://t.co/L3oxkoWQSG\"},{\"img_url\":\"https://pbs.substack.com/media/HO1ZrovXgAAwGgY.jpg\",\"link_url\":\"https://t.co/L3oxkoWQSG\"}],\"quoted_tweet\":{\"full_text\":\"The Inference Engineering Masterclass: 10x faster models, quantization, speculative decoding, Rubin, & self-optimizing AI https://t.co/uRYIWWDebj\\n\\n@Baseten @philipkiely and @waterloo_intern explain what actually happens after a model is trained, why turning weights into a fast\",\"username\":\"latentspacepod\",\"name\":\"Latent.Space\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/1888346877428641792/rMxtG84Z_normal.jpg\"},\"reply_count\":…",
-      "summary": "A quiet day lets us highlight a Cursor launch and an engineering debate",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "weights"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "6f7fc6a13d4a4fec",
-      "date": "2026-08-06",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
-      "url": "https://www.latent.space/p/inference-eng",
-      "publishedAt": "2026-08-03T21:44:03.000Z",
-      "content": "We first covered Baseten last year when DeepSeek mania was at peak hype. Now they have raised a monster $13B round and become one of the new cohort of AI Infra decacorns that are (with Nvidia, Intel, and the semis complex) chief beneficiaries of the Inference Inflection . We return to Baseten at the peak of the 2026 edition of Open Weights debate . Ali has published a viral breakdown of Kimi K3 : And since you last saw him, Philip has spoken at AI Engineer and written the definitive book on Inference Engineering spotted all over SF: Three years ago, inference engineering barely existed as a category. Today, it is one of the most critical disciplines in AI. Inference engineering inherently tackles a different question than standard model training: &#8220;How do you turn those weights from training into a product that is fast, reliable, and affordable at scale?&#8221; Focusing on these creates an entirely new optimization problem. baseten.com/inference-engi&#8230; \",\"username\":\"philipkiely\",\"name\":\"Philip Kiely\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/1644827140641153024/ExLuda2F_normal.jpg\",\"date\":\"2026-02-23T18:03:01.000Z\",\"photos\":[{\"img_url\":\"https://substackcdn.com/image/fetch/$s_!1BR1!,w_1028,c_limit,f_auto,q_auto:best,fl_progressive:steep/l_play_button_usfui2,w_88,e_colorize:0/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2025989166333616128.jpg\",\"link_url\":\"https://t.co/QTNdMrypqR\"}],\"quoted_tweet\":{},\"reply_count\":190,\"retweet_count\":230,\"like_count\":2367,\"impression_count\":1396109,\"expanded_url\":null,\"video_url\":\"https://video.twimg.com/amplify_video/2025989166333616128/vid/avc1/1280x720/fBFnlcAf_0wCVPNv.mp4\",\"video_preview_media_key\":\"13_2025989166333616128\",\"belowTheFold\":false}\" data-component-name=\"Twitter2ToDOM\"> In one recent GLM-5.2 experiment, quantizing more of the model actually preserved its benchmark quality while increasing throughput by 20% , because the errors intr…",
-      "summary": "Baseten just raised a $13B Series F and is now one of the leading kings of inference engineering. We go into everything you need to know for autoregressive and diffusion engineering.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.69,
-          "rationale": [
-            "inference",
-            "throughput"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.69,
-          "rationale": [
-            "image",
-            "video"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "china-models",
-          "label": "Chinese AI",
-          "confidence": 0.69,
-          "rationale": [
-            "deepseek",
-            "kimi"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Chinese Models",
-      "importanceScore": 0.55,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -2301,61 +2347,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "8542cd8bca67b518",
-      "date": "2026-06-02",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Cognition raises $1B in $26B Series D",
-      "url": "https://www.latent.space/p/ainews-cognition-raises-1b-in-26b",
-      "publishedAt": "2026-05-28T07:26:09.000Z",
-      "content": "We last wrote about Cognition in September&#8217;s $10B Series C when Smol.ai also joined Cognition and AINews was eventually moved here to Latent Space . 8 months later, it is worth 2.5x more , and officially the largest remaining independent agent lab in AI, a thesis we mapped out last year . With official ARR disclosures (now projecting >$1B ARR by EOY ) you can map out the growth, which looks oddly similar to the WTF Happened in 2025 charts (this isn&#8217;t a coincidence ): In the enterprise SaaS business, ARR is a trailing indicator of utilization, as are the logos of some of the toughest/most discerning customers in the enterprise and startup ecosystem (including Exa and Modal , featured last week) We will release more on the Cognition podcast tomorrow. AI News for 5/26/2026-5/27/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Inference Efficiency, Serving Architectures, and Cost Curves Inference optimization is increasingly architectural, not just kernel-level : EAGLE 3.1 improves speculative decoding robustness by stabilizing hidden-state feedback and reducing attention drift at deeper decode steps, with explicit emphasis on long-context acceptance length and real-world serving reliability; the team also highlighted collaboration with vLLM and TorchSpec. At the kernel/system layer, Perplexity open-sourced a rebuilt Unigram tokenizer that cuts CPU utilization 5&#8211;6&#215; and reaches 63 &#181;s at 514 tokens with zero heap allocations, while Qwen3.5 on TokenSpeed reportedly hits 580 tokens/s for agentic workloads via joint optimization across Alibaba, LightSeek, NVIDIA, Mooncake, and FlashAttention-4 contributors. Supporting libraries also improved: MaxSim v2 adds backprop and reports 10.33&#215; faster on H200 and 11.94&#215; on A100 versus na&#239;ve PyTorch. Pric…",
-      "summary": "coding is an uncapped TAM market",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.81,
-          "rationale": [
-            "coding",
-            "code",
-            "repo"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.69,
-          "rationale": [
-            "inference",
-            "serving"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     }
   ]

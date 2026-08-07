@@ -1,8 +1,62 @@
 {
-  "generatedAt": "2026-08-06T04:34:44.436Z",
+  "generatedAt": "2026-08-07T01:26:00.094Z",
   "slug": "china-models",
   "label": "Chinese AI",
   "items": [
+    {
+      "id": "6f7fc6a13d4a4fec",
+      "date": "2026-08-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
+      "url": "https://www.latent.space/p/inference-eng",
+      "publishedAt": "2026-08-03T21:44:03.000Z",
+      "content": "We first covered Baseten last year when DeepSeek mania was at peak hype. Now they have raised a monster $13B round and become one of the new cohort of AI Infra decacorns that are (with Nvidia, Intel, and the semis complex) chief beneficiaries of the Inference Inflection . We return to Baseten at the peak of the 2026 edition of Open Weights debate . Ali has published a viral breakdown of Kimi K3 : And since you last saw him, Philip has spoken at AI Engineer and written the definitive book on Inference Engineering spotted all over SF: Three years ago, inference engineering barely existed as a category. Today, it is one of the most critical disciplines in AI. Inference engineering inherently tackles a different question than standard model training: &#8220;How do you turn those weights from training into a product that is fast, reliable, and affordable at scale?&#8221; Focusing on these creates an entirely new optimization problem. baseten.com/inference-engi&#8230; \",\"username\":\"philipkiely\",\"name\":\"Philip Kiely\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/1644827140641153024/ExLuda2F_normal.jpg\",\"date\":\"2026-02-23T18:03:01.000Z\",\"photos\":[{\"img_url\":\"https://substackcdn.com/image/fetch/$s_!1BR1!,w_1028,c_limit,f_auto,q_auto:best,fl_progressive:steep/l_play_button_usfui2,w_88,e_colorize:0/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2025989166333616128.jpg\",\"link_url\":\"https://t.co/QTNdMrypqR\"}],\"quoted_tweet\":{},\"reply_count\":190,\"retweet_count\":230,\"like_count\":2367,\"impression_count\":1396109,\"expanded_url\":null,\"video_url\":\"https://video.twimg.com/amplify_video/2025989166333616128/vid/avc1/1280x720/fBFnlcAf_0wCVPNv.mp4\",\"video_preview_media_key\":\"13_2025989166333616128\",\"belowTheFold\":false}\" data-component-name=\"Twitter2ToDOM\"> In one recent GLM-5.2 experiment, quantizing more of the model actually preserved its benchmark quality while increasing throughput by 20% , because the errors intr…",
+      "summary": "Baseten just raised a $13B Series F and is now one of the leading kings of inference engineering. We go into everything you need to know for autoregressive and diffusion engineering.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "inference",
+            "throughput"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "image",
+            "video"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "china-models",
+          "label": "Chinese AI",
+          "confidence": 0.69,
+          "rationale": [
+            "deepseek",
+            "kimi"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Chinese Models",
+      "importanceScore": 0.55,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
     {
       "id": "f7cb9574940bca13",
       "date": "2026-08-06",
@@ -56,60 +110,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.66,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "6f7fc6a13d4a4fec",
-      "date": "2026-08-06",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
-      "url": "https://www.latent.space/p/inference-eng",
-      "publishedAt": "2026-08-03T21:44:03.000Z",
-      "content": "We first covered Baseten last year when DeepSeek mania was at peak hype. Now they have raised a monster $13B round and become one of the new cohort of AI Infra decacorns that are (with Nvidia, Intel, and the semis complex) chief beneficiaries of the Inference Inflection . We return to Baseten at the peak of the 2026 edition of Open Weights debate . Ali has published a viral breakdown of Kimi K3 : And since you last saw him, Philip has spoken at AI Engineer and written the definitive book on Inference Engineering spotted all over SF: Three years ago, inference engineering barely existed as a category. Today, it is one of the most critical disciplines in AI. Inference engineering inherently tackles a different question than standard model training: &#8220;How do you turn those weights from training into a product that is fast, reliable, and affordable at scale?&#8221; Focusing on these creates an entirely new optimization problem. baseten.com/inference-engi&#8230; \",\"username\":\"philipkiely\",\"name\":\"Philip Kiely\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/1644827140641153024/ExLuda2F_normal.jpg\",\"date\":\"2026-02-23T18:03:01.000Z\",\"photos\":[{\"img_url\":\"https://substackcdn.com/image/fetch/$s_!1BR1!,w_1028,c_limit,f_auto,q_auto:best,fl_progressive:steep/l_play_button_usfui2,w_88,e_colorize:0/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2025989166333616128.jpg\",\"link_url\":\"https://t.co/QTNdMrypqR\"}],\"quoted_tweet\":{},\"reply_count\":190,\"retweet_count\":230,\"like_count\":2367,\"impression_count\":1396109,\"expanded_url\":null,\"video_url\":\"https://video.twimg.com/amplify_video/2025989166333616128/vid/avc1/1280x720/fBFnlcAf_0wCVPNv.mp4\",\"video_preview_media_key\":\"13_2025989166333616128\",\"belowTheFold\":false}\" data-component-name=\"Twitter2ToDOM\"> In one recent GLM-5.2 experiment, quantizing more of the model actually preserved its benchmark quality while increasing throughput by 20% , because the errors intr…",
-      "summary": "Baseten just raised a $13B Series F and is now one of the leading kings of inference engineering. We go into everything you need to know for autoregressive and diffusion engineering.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.69,
-          "rationale": [
-            "inference",
-            "throughput"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.69,
-          "rationale": [
-            "image",
-            "video"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "china-models",
-          "label": "Chinese AI",
-          "confidence": 0.69,
-          "rationale": [
-            "deepseek",
-            "kimi"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Chinese Models",
-      "importanceScore": 0.55,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
