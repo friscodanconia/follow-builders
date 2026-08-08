@@ -1,8 +1,219 @@
 {
-  "generatedAt": "2026-08-07T04:05:26.280Z",
+  "generatedAt": "2026-08-08T01:16:54.562Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
+    {
+      "id": "ddcdee60fac5d694",
+      "date": "2026-08-08",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Responding to the next frontier of critical cyber capabilities",
+      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+      "publishedAt": "2026-08-07T15:20:00.000Z",
+      "content": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
+      "summary": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "eval",
+            "evaluation"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.78,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "37252d5d47a2a2b1",
+      "date": "2026-08-08",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Orchard: An open framework for scalable agentic AI",
+      "url": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/",
+      "publishedAt": "2026-08-03T16:00:00.000Z",
+      "content": "At a glance Orchard is an open-source framework for scalable and cost-effective agentic AI research, built around Orchard Env, a reusable environment service for training and evaluating agents across task domains. The same Orchard infrastructure supports software-engineering, web-navigation, and personal-assistant agents, and can train them directly inside real deployment harnesses such as Codex, OpenClaw, and ZeroClaw—letting researchers reuse environments, data pipelines, and evaluation workflows across tasks.&nbsp; Orchard-SWE, Orchard-GUI, and Orchard-Claw demonstrate that relatively small open-weight models can achieve strong results on complex real-world tasks. For example, Orchard-SWE reaches 69.7% on SWE-bench Verified—73.0% with value-model reranking—using only about 3 billion active parameters, approaching frontier systems using more than 10 times larger models.&nbsp; Alongside the models and workflows, the project releases training data and evaluation methods intended to help the broader research community build and study open agentic systems.&nbsp;Artificial intelligence is rapidly moving beyond static question-answering toward autonomous agents that can plan, reason, and act across complex, multistep environments. These systems can fix bugs in complex codebases, navigate the web on a user&#8217;s behalf, and manage workflows involving calendars and email.&nbsp;&nbsp; While there is excitement around agentic AI’s capabilities, the research community faces a persistent bottleneck. Building state-of-the-art agentic systems often requires proprietary infrastructure, including custom sandboxes, closed training pipelines, and proprietary datasets that most researchers and practitioners cannot access or reproduce. To address this gap, we introduce Orchard (opens in new tab) , an open-source framework for scalable agentic modeling. At the center of Orchard is Orchard Env, a lightweight, Kubernetes environment that provides reusable isolated components for runn…",
+      "summary": "Orchard is an open-source framework for the research community to train and evaluate AI agents across task types. It reduces complexity while supporting strong performance from smaller models by enabling researchers to reuse the same infra…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.81,
+          "rationale": [
+            "agent",
+            "agentic",
+            "autonomous"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.81,
+          "rationale": [
+            "swe-bench",
+            "eval",
+            "evaluation"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "swe-bench"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c3dbcf7afb4b785f",
+      "date": "2026-08-08",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "Kimi K3: The Complete Developer Guide",
+      "url": "https://www.together.ai/blog/kimi-k3-guide",
+      "publishedAt": "2026-08-01T00:00:00.000Z",
+      "content": "Kimi K3 is the first open 3T-class model. See how it benchmarks, what it costs, and how to call it on the Together AI API, with copy-paste code examples.",
+      "summary": "Kimi K3 is the first open 3T-class model. See how it benchmarks, what it costs, and how to call it on the Together AI API, with copy-paste code examples.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "developer"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "benchmark"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "ef6db73013400859",
+      "date": "2026-08-08",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] AMD buys Taalas",
+      "url": "https://www.latent.space/p/ainews-amd-buys-taalas",
+      "publishedAt": "2026-08-07T05:13:46.000Z",
+      "content": "In The Custom ASIC Thesis we said Taalas was worth paying attention to, and in the Inference Inflection we said everything would go vertical. Our Baseten episode had some skeptical counterpoints against etched LLMs, not just custom ASICs , but clearly Lisa Su disagrees for now. Congrats! AI News for 8/5/2026-8/6/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Meta&#8217;s Muse Spark 1.2 breakout: Olympiad golds, benchmark gains, and aggressive price-performance Muse Spark 1.2 moved from &#8220;not on the board&#8221; to frontier-tier quickly . On Vals Index , Muse Spark 1.2 entered the top 5 at $0.69/test , reportedly 3x cheaper than Kimi and 10x+ cheaper than Fable, Opus, and 5.6 Sol . Vals later said it also became the first model above 60% on Finance Agent v2 at $0.77/test , versus the prior #1 Opus 5 at $5.12/test and at 2x the speed ( ValsAI ). Artificial Analysis&#8217; v4.1.1 patch also noted one of the largest score increases for Muse Spark 1.2 after grading updates ( Artificial Analysis ). Meta also claimed unusually strong &#8220;pure reasoning&#8221; results . Meta said its internally trained Muse Spark-family models achieved gold-medal-level performance in five STEM Olympiads , including perfect theory scores at APhO and IPhO , plus gold-level performance on IMO, IChO, and RMM ; three were submitted under live competition conditions and officially graded ( AI at Meta , Trapit Bansal ). Meta emphasized no tools &#8212;no search, code, or calculator&#8212;and attributed some of the gains to multi-agent orchestration with parallel reasoning . That claim immediately fed into the ongoing &#8220;LLMs vs harnesses vs neurosymbolic&#8221; argument, with critics and supporters interpreting the setup differently ( fchollet , giffmana ). The broader takeaway : engineers are i…",
+      "summary": "The Inference Inflection is HEATING up.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "multi-agent"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "repo"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "benchmark",
+            "imo"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
+      "whyThisMatters": ""
+    },
     {
       "id": "372ef7bca6d61013",
       "date": "2026-08-07",
@@ -88,118 +299,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "37252d5d47a2a2b1",
-      "date": "2026-08-07",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Orchard: An open framework for scalable agentic AI",
-      "url": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/",
-      "publishedAt": "2026-08-03T16:00:00.000Z",
-      "content": "At a glance Orchard is an open-source framework for scalable and cost-effective agentic AI research, built around Orchard Env, a reusable environment service for training and evaluating agents across task domains. The same Orchard infrastructure supports software-engineering, web-navigation, and personal-assistant agents, and can train them directly inside real deployment harnesses such as Codex, OpenClaw, and ZeroClaw—letting researchers reuse environments, data pipelines, and evaluation workflows across tasks.&nbsp; Orchard-SWE, Orchard-GUI, and Orchard-Claw demonstrate that relatively small open-weight models can achieve strong results on complex real-world tasks. For example, Orchard-SWE reaches 69.7% on SWE-bench Verified—73.0% with value-model reranking—using only about 3 billion active parameters, approaching frontier systems using more than 10 times larger models.&nbsp; Alongside the models and workflows, the project releases training data and evaluation methods intended to help the broader research community build and study open agentic systems.&nbsp;Artificial intelligence is rapidly moving beyond static question-answering toward autonomous agents that can plan, reason, and act across complex, multistep environments. These systems can fix bugs in complex codebases, navigate the web on a user&#8217;s behalf, and manage workflows involving calendars and email.&nbsp;&nbsp; While there is excitement around agentic AI’s capabilities, the research community faces a persistent bottleneck. Building state-of-the-art agentic systems often requires proprietary infrastructure, including custom sandboxes, closed training pipelines, and proprietary datasets that most researchers and practitioners cannot access or reproduce. To address this gap, we introduce Orchard (opens in new tab) , an open-source framework for scalable agentic modeling. At the center of Orchard is Orchard Env, a lightweight, Kubernetes environment that provides reusable isolated components for runn…",
-      "summary": "Orchard is an open-source framework for the research community to train and evaluate AI agents across task types. It reduces complexity while supporting strong performance from smaller models by enabling researchers to reuse the same infra…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.81,
-          "rationale": [
-            "agent",
-            "agentic",
-            "autonomous"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.81,
-          "rationale": [
-            "swe-bench",
-            "eval",
-            "evaluation"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "code",
-            "swe-bench"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "c3dbcf7afb4b785f",
-      "date": "2026-08-07",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Together AI Blog",
-      "sourceKey": "official:Together AI Blog",
-      "builderOrOrg": "Together AI",
-      "title": "Kimi K3: The Complete Developer Guide",
-      "url": "https://www.together.ai/blog/kimi-k3-guide",
-      "publishedAt": "2026-08-01T00:00:00.000Z",
-      "content": "Kimi K3 is the first open 3T-class model. See how it benchmarks, what it costs, and how to call it on the Together AI API, with copy-paste code examples.",
-      "summary": "Kimi K3 is the first open 3T-class model. See how it benchmarks, what it costs, and how to call it on the Together AI API, with copy-paste code examples.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "code",
-            "developer"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "benchmark"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     },
     {
@@ -2377,117 +2476,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "b06250193edbaf05",
-      "date": "2026-07-02",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "We've been running Anthropic's Claude Sonnet 5 through the Box AI Complex Work Eval, our agenti…",
-      "url": "https://x.com/levie/status/2072046374045249671",
-      "publishedAt": "2026-06-30T19:55:26.000Z",
-      "content": "We've been running Anthropic's Claude Sonnet 5 through the Box AI Complex Work Eval, our agentic benchmark that puts models through real enterprise document work end-to-end. Sonnet 5 holds frontier-class quality on complex multi-step work and pulls ahead of Sonnet 4.6 in several core enterprise domains like Energy (+4.7pp), Retail (+4.4pp), and Professional Services (+2.6pp), and other spaces where unstructured data is heavily complex. Here are a few examples of wins compared to Sonnet 4.6 to g…",
-      "summary": "We've been running Anthropic's Claude Sonnet 5 through the Box AI Complex Work Eval, our agentic benchmark that puts models through real enterprise document work end-to-end. Sonnet 5 holds frontier-class quality on comp…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 137,
-        "retweets": 6,
-        "replies": 22
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "benchmark",
-            "eval"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.92,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.7,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a30729d94e4ee656",
-      "date": "2026-07-01",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] OpenAI GPT-5.6 Sol / Terra / Luna — restricted to trusted partners",
-      "url": "https://www.latent.space/p/ainews-openai-gpt-56-sol-terra-luna",
-      "publishedAt": "2026-06-27T05:23:22.000Z",
-      "content": "Against the backdrop of ongoing Anthropic-Fable negotiations and a relaxation of Mythos controls, GPT-5.6 was announced today, but with limited access to trusted partners. It is Mythos-beating at a subset of coding agent tasks: But OpenAI took strong pains to explain that this model both Mythos-beating and also not as capable at Cyber as Mythos: GPT&#8209;5.6 Sol does not cross the Cyber Critical threshold under our Preparedness Framework&#8288;. In evaluations involving Chromium and Firefox, it identified bugs and exploitation primitives&#8212;the building blocks of an exploit&#8212; but did not autonomously produce a functional full-chain exploit under the conditions tested. AI News for 6/25/2026-6/26/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Top Story: GPT-5.6 launch What happened OpenAI launched GPT-5.6 as a restricted preview rather than a normal broad release. OpenAI announced a new three-model family &#8212; GPT-5.6 Sol, Terra, and Luna &#8212; with Sol positioned as the flagship frontier model, Terra as the balanced mid-tier model, and Luna as the fast/cheap high-volume model, via @OpenAI The company said the launch is limited preview only , with access initially restricted to a small group of trusted partners in Codex and the API , and that broader access is planned &#8220;in the coming weeks,&#8221; via @OpenAI OpenAI explicitly said this constrained rollout is &#8220;at the request of the U.S. government&#8221; , making the policy/release process itself a central part of the story, via @OpenAI Sam Altman added that OpenAI had originally planned a broader launch, but shifted to limited preview due to the government request; he framed the company as working toward a &#8220;transparent, reliable process&#8221; for early access while trying to reach GA quickly, vi…",
-      "summary": "Oddly tiered releases to both OAI and ANT on the same day.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "autonomous"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "eval",
-            "evaluation"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     }
   ]

@@ -1,11 +1,68 @@
 {
-  "generatedAt": "2026-08-07T04:05:26.280Z",
+  "generatedAt": "2026-08-08T01:16:54.562Z",
   "slug": "open-source",
   "label": "Open Source",
   "items": [
     {
+      "id": "768110f480536b6a",
+      "date": "2026-08-08",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "Devtools must be 1️⃣ open source and 2️⃣ universally extensible. AI coding agents are the most…",
+      "url": "https://x.com/rauchg/status/2085403169551790359",
+      "publishedAt": "2026-08-06T16:30:35.000Z",
+      "content": "Devtools must be 1️⃣ open source and 2️⃣ universally extensible. AI coding agents are the most important devtools in the history of our industry. The Plugin standard lets anybody extend them uniformly. This is huge for the ecosystem. Build a Plugin → get exposure to the tidal wave of software creation from every agent: CLIs, IDEs, cloud agents, and even personal assistants.",
+      "summary": "Devtools must be 1️⃣ open source and 2️⃣ universally extensible. AI coding agents are the most important devtools in the history of our industry. The Plugin standard lets anybody extend them uniformly. This is huge for…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 410,
+        "retweets": 13,
+        "replies": 51
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "cloud agent"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "devtools"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open source"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
       "id": "261f692f80623caf",
-      "date": "2026-08-07",
+      "date": "2026-08-08",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Mistral AI Blog",
@@ -60,7 +117,7 @@
     },
     {
       "id": "a5cc7454b6299a9e",
-      "date": "2026-08-07",
+      "date": "2026-08-08",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -2412,59 +2469,6 @@
           "confidence": 0.5700000000000001,
           "rationale": [
             "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "f5f806542b9a7b29",
-      "date": "2026-07-02",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "Warp CEO Zach Lloyd on why software factories are the next phase of coding",
-      "url": "https://www.latent.space/p/software-factories",
-      "publishedAt": "2026-07-01T14:28:23.000Z",
-      "content": "Warp founder Zach Lloyd in the AI Engineer World&#8217;s Fair expo hall. I&#8217;ve been covering Warp for a couple of years now, and its rapid evolution from a command-line interface tool to a software factory platform has been fascinating to watch. The company began in the pre-ChatGPT days, in mid-2021, as a Rust-based terminal. Then when AI hit, it turned into a terminal with integrated coding agents . But the competition among CLI tools has dramatically increased in recent years, including from Claude Code, Codex CLI, and Gemini CLI &#8212; three products backed by massive tech companies. This likely led to Warp&#8217;s decision to open-source its core CLI tool in April this year. I&#8217;m a Warp user myself, finding it a much more sophisticated tool than my native Mac CLI. But I also admire the company&#8217;s ability to adapt to the times &#8212; a trait I spotted in CEO Zach Lloyd during my first interview with him a couple of years ago. So I was keen to catch up with him at the AI Engineer World&#8217;s Fair this week, where he presented a keynote session on software factories, the new term for orchestrating a team (ahem, a factory ) of agents. Warp has a new agent orchestration platform called Oz . It&#8217;s the company&#8217;s answer to what Lloyd believes is an industry transition, from engineers working interactively with agents to automated systems that continuously triage, implement, review, verify and monitor software changes. Oz is intended to connect multiple models and coding harnesses across local environments and isolated cloud sandboxes, while fitting into tools developers already use. I spoke to Lloyd just after he made his presentation on-stage, which you can view on YouTube &#8212; it&#8217;s a good primer to what software factories are. In our one-on-one discussion, we get into the reasons Warp made its software factory pivot, how Lloyd came up with the term (independently, it seems, from similar companies &#8212; like Factory ), and why…",
-      "summary": "Warp's founder thinks every major software project will soon run on an automated factory. He discusses why and how engineers should prepare for this shift.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.81,
-          "rationale": [
-            "coding",
-            "code",
-            "developer"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open-source"
           ],
           "score": 1
         }

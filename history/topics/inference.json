@@ -1,8 +1,111 @@
 {
-  "generatedAt": "2026-08-07T04:05:26.280Z",
+  "generatedAt": "2026-08-08T01:16:54.562Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
+    {
+      "id": "417b1b89e3d25fe1",
+      "date": "2026-08-08",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Import AI",
+      "sourceKey": "editorial:Import AI",
+      "builderOrOrg": "Jack Clark",
+      "title": "Import AI 467: Self-sustaining AI viruses; pacing AI progress; confusion about AI and creativity",
+      "url": "https://jack-clark.net/2026/08/03/import-ai-467-self-sustaining-ai-viruses-pacing-ai-progress-confusion-about-ai-and-creativity/",
+      "publishedAt": "2026-08-03T13:31:22.000Z",
+      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Self-sustaining and self-replicating AI viruses are here: …Open weight LLMs + a well-designed harness = a persistent, self-sufficient virus… AI researchers have built a prototype computer virus which uses AI models to compromise computers, then uses their underlying GPU resources to run inference, letting it smartly figure out how to infect more hosts. The results were achieved by researchers from the University of Toronto, the Vector Institute, the University of Cambridge, and ServiceNow, and “demonstrate that self-sustaining AI-driven cyber-threats are no longer theoretical.” “We must prepare for autonomous generative adversaries,” they write. “Artificial intelligence (AI) agents enable a fundamentally new threat: a worm that generates tailored attack strategies to each target it encounters. The worm parasitically uses compromised machines to run open-weight large language models (LLMs) to sustain its reasoning, or extend its reach for further attacks”. How it works : “The worm uses stolen computing power from compromised GPU nodes to host LLMs for generative reasoning. It then uses this reasoning to detect vulnerabilities and devise tailored attacks against additional targets, furthering its spread,” they write. “The proof-of-concept operates using only an open-weight LLM running on a single, local GPU, with no reliance on vendor APIs that could be monitored or revoked”. The researchers don’t describe the underlying LLM besides saying it was published in 2025 and can fit on a single A100 GPU with 80GB of VRAM. A successful proof-of-concept via some custom tools : They give the agent a custom harness that comes with built-in helper functions for network discovery, host discovery, foothold exploitation, privilege escalation, privilege escalation exploitation, and tools for replication…",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Self-sustaining and self-replicating AI viruses are here:…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "autonomous"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "a5cc7454b6299a9e",
+      "date": "2026-08-08",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Megakernels are so dead and so back",
+      "url": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
+      "publishedAt": "2026-08-05T01:21:47.000Z",
+      "content": "Part of our Inference Engineering Masterclass pod yesterday involved a spicy discussion about Megakernels: megakernels are dead why are megakernels useful? you spend two months writing a kernel to save time on launch overhead and poor inter-kernel overlap. you had PDL but then people said it wasn't perfect, that you could still get some marginal gains due to straggler CTAs and therefore- wait, sorry, I forgot, Rubin fixes that (kernel two needs 10 CTAs and kernel one has seven finished and three straggling, kernel two launches seven of its CTAs). given a long enough timeline, it all evens out. no serious inference provider is using a 67k loc hand-fused forward pass kernel in production, and the teams doing that are doing so out of pure research. dead. @swyx 's pod and said some things that i... should not have said. \\n\\na lot has happened since then, i owe you all an apology.\\n\\ni'm sorry that i was right about every single thing. \\n\\na) re megakernels are dead\\nwhy are megakernels useful? you spend two months\",\"username\":\"waterloo_intern\",\"name\":\"ali\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/2083657716690759680/zzYf-2oG_normal.jpg\",\"date\":\"2026-08-03T23:49:24.000Z\",\"photos\":[{\"img_url\":\"https://pbs.substack.com/media/HO1VZaKWAAANbcS.jpg\",\"link_url\":\"https://t.co/L3oxkoWQSG\"},{\"img_url\":\"https://pbs.substack.com/media/HO1VcNeWMAAuRvS.jpg\",\"link_url\":\"https://t.co/L3oxkoWQSG\"},{\"img_url\":\"https://pbs.substack.com/media/HO1ZrovXgAAwGgY.jpg\",\"link_url\":\"https://t.co/L3oxkoWQSG\"}],\"quoted_tweet\":{\"full_text\":\"The Inference Engineering Masterclass: 10x faster models, quantization, speculative decoding, Rubin, & self-optimizing AI https://t.co/uRYIWWDebj\\n\\n@Baseten @philipkiely and @waterloo_intern explain what actually happens after a model is trained, why turning weights into a fast\",\"username\":\"latentspacepod\",\"name\":\"Latent.Space\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/1888346877428641792/rMxtG84Z_normal.jpg\"},\"reply_count\":…",
+      "summary": "A quiet day lets us highlight a Cursor launch and an engineering debate",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "weights"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
     {
       "id": "76f92952c8e9c611",
       "date": "2026-08-07",
@@ -82,109 +185,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "417b1b89e3d25fe1",
-      "date": "2026-08-07",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Import AI",
-      "sourceKey": "editorial:Import AI",
-      "builderOrOrg": "Jack Clark",
-      "title": "Import AI 467: Self-sustaining AI viruses; pacing AI progress; confusion about AI and creativity",
-      "url": "https://jack-clark.net/2026/08/03/import-ai-467-self-sustaining-ai-viruses-pacing-ai-progress-confusion-about-ai-and-creativity/",
-      "publishedAt": "2026-08-03T13:31:22.000Z",
-      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Self-sustaining and self-replicating AI viruses are here: …Open weight LLMs + a well-designed harness = a persistent, self-sufficient virus… AI researchers have built a prototype computer virus which uses AI models to compromise computers, then uses their underlying GPU resources to run inference, letting it smartly figure out how to infect more hosts. The results were achieved by researchers from the University of Toronto, the Vector Institute, the University of Cambridge, and ServiceNow, and “demonstrate that self-sustaining AI-driven cyber-threats are no longer theoretical.” “We must prepare for autonomous generative adversaries,” they write. “Artificial intelligence (AI) agents enable a fundamentally new threat: a worm that generates tailored attack strategies to each target it encounters. The worm parasitically uses compromised machines to run open-weight large language models (LLMs) to sustain its reasoning, or extend its reach for further attacks”. How it works : “The worm uses stolen computing power from compromised GPU nodes to host LLMs for generative reasoning. It then uses this reasoning to detect vulnerabilities and devise tailored attacks against additional targets, furthering its spread,” they write. “The proof-of-concept operates using only an open-weight LLM running on a single, local GPU, with no reliance on vendor APIs that could be monitored or revoked”. The researchers don’t describe the underlying LLM besides saying it was published in 2025 and can fit on a single A100 GPU with 80GB of VRAM. A successful proof-of-concept via some custom tools : They give the agent a custom harness that comes with built-in helper functions for network discovery, host discovery, foothold exploitation, privilege escalation, privilege escalation exploitation, and tools for replication…",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Self-sustaining and self-replicating AI viruses are here:…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "autonomous"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a5cc7454b6299a9e",
-      "date": "2026-08-07",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Megakernels are so dead and so back",
-      "url": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
-      "publishedAt": "2026-08-05T01:21:47.000Z",
-      "content": "Part of our Inference Engineering Masterclass pod yesterday involved a spicy discussion about Megakernels: megakernels are dead why are megakernels useful? you spend two months writing a kernel to save time on launch overhead and poor inter-kernel overlap. you had PDL but then people said it wasn't perfect, that you could still get some marginal gains due to straggler CTAs and therefore- wait, sorry, I forgot, Rubin fixes that (kernel two needs 10 CTAs and kernel one has seven finished and three straggling, kernel two launches seven of its CTAs). given a long enough timeline, it all evens out. no serious inference provider is using a 67k loc hand-fused forward pass kernel in production, and the teams doing that are doing so out of pure research. dead. @swyx 's pod and said some things that i... should not have said. \\n\\na lot has happened since then, i owe you all an apology.\\n\\ni'm sorry that i was right about every single thing. \\n\\na) re megakernels are dead\\nwhy are megakernels useful? you spend two months\",\"username\":\"waterloo_intern\",\"name\":\"ali\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/2083657716690759680/zzYf-2oG_normal.jpg\",\"date\":\"2026-08-03T23:49:24.000Z\",\"photos\":[{\"img_url\":\"https://pbs.substack.com/media/HO1VZaKWAAANbcS.jpg\",\"link_url\":\"https://t.co/L3oxkoWQSG\"},{\"img_url\":\"https://pbs.substack.com/media/HO1VcNeWMAAuRvS.jpg\",\"link_url\":\"https://t.co/L3oxkoWQSG\"},{\"img_url\":\"https://pbs.substack.com/media/HO1ZrovXgAAwGgY.jpg\",\"link_url\":\"https://t.co/L3oxkoWQSG\"}],\"quoted_tweet\":{\"full_text\":\"The Inference Engineering Masterclass: 10x faster models, quantization, speculative decoding, Rubin, & self-optimizing AI https://t.co/uRYIWWDebj\\n\\n@Baseten @philipkiely and @waterloo_intern explain what actually happens after a model is trained, why turning weights into a fast\",\"username\":\"latentspacepod\",\"name\":\"Latent.Space\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/1888346877428641792/rMxtG84Z_normal.jpg\"},\"reply_count\":…",
-      "summary": "A quiet day lets us highlight a Cursor launch and an engineering debate",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "weights"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {

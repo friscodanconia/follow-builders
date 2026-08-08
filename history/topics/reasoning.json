@@ -1,8 +1,163 @@
 {
-  "generatedAt": "2026-08-07T04:05:26.280Z",
+  "generatedAt": "2026-08-08T01:16:54.562Z",
   "slug": "reasoning",
   "label": "AI Thinking",
   "items": [
+    {
+      "id": "ed65226c0f8308f2",
+      "date": "2026-08-08",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:mattturck",
+      "builderOrOrg": "Matt Turck",
+      "title": "This reference conversation on how to build long-horizon AI agents with @mitch_troy of @trybasi…",
+      "url": "https://x.com/mattturck/status/2085402938101379487",
+      "publishedAt": "2026-08-06T16:29:40.000Z",
+      "content": "This reference conversation on how to build long-horizon AI agents with @mitch_troy of @trybasis is also available on Spotify, Apple Podcasts and here on YouTube: https://t.co/j2srHcxAQK",
+      "summary": "This reference conversation on how to build long-horizon AI agents with @mitch_troy of @trybasis is also available on Spotify, Apple Podcasts and here on YouTube: https://t.co/j2srHcxAQK",
+      "regionTags": [],
+      "metrics": {
+        "likes": 4,
+        "retweets": 1,
+        "replies": 1
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "long-horizon"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "51eca1e8ce76ecd5",
+      "date": "2026-08-08",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:mattturck",
+      "builderOrOrg": "Matt Turck",
+      "title": "How to build long-horizon AI agents: behavior specs, ontologies, process supervision - my conve…",
+      "url": "https://x.com/mattturck/status/2085402933579964730",
+      "publishedAt": "2026-08-06T16:29:38.000Z",
+      "content": "How to build long-horizon AI agents: behavior specs, ontologies, process supervision - my conversation with @mitch_troy, co-founder of @trybasis 01:09 Why Everyone at Basis Was Whispering to AI when @steph_palazzolo walked in 04:12 Accounting as \"an Intelligence Over the Economy\" 06:11 What Makes an Agent Truly Long-Horizon 08:24 Inside an Autonomous, Multi-Day Tax Return 10:19 Agents That Hand Off Like Senior Engineers 11:17 A Brief History of Agents: From ReAct to Today 12:33 Why LLMs Have No…",
+      "summary": "How to build long-horizon AI agents: behavior specs, ontologies, process supervision - my conversation with @mitch_troy, co-founder of @trybasis 01:09 Why Everyone at Basis Was Whispering to AI when @steph_palazzolo wal…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 58,
+        "retweets": 13,
+        "replies": 6
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "autonomous"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "long-horizon"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "vision"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "452103681fff548f",
+      "date": "2026-08-08",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "The MAD Podcast with Matt Turck",
+      "sourceKey": "podcast:The MAD Podcast with Matt Turck",
+      "builderOrOrg": "The MAD Podcast with Matt Turck",
+      "title": "How to Build Long-Horizon AI Agents — Mitch Troyanovsky, Basis",
+      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "publishedAt": "2026-08-06T11:30:01.000Z",
+      "content": "Speaker 1 | 00:00 - 00:18 Humans are already used to working with non deterministic systems, it's just the systems are normally their co workers, not their computers. And in many ways, like companies and processes is all about how do you design a system for non deterministic entities to coordinate together to solve a problem? And once you realize that, it's like, well, now it's like kind of agent design. Let's say you have a 100 evals. Great. Speaker 1 | 00:18 - 00:33 They all pass. That looks good. Are you confident that that now generalizes to the real world to production? And our answer has been no. Even if you got it right a 100 out of a 100 times, if a person is just getting it right because they're going to Wikipedia, the accounting firm wouldn't hire them, and so they shouldn't hire us either. Speaker 1 | 00:33 - 00:43 You'll see people, like, freaking out over a code file that isn't abstracted properly, and yet their context is, like, total shit. The English is more precious because the English affects the performance. The code does not affect the performance. Speaker 2 | 00:43 - 00:56 Hi. I'm Atur from FirstMark. Welcome to the Mad Podcast. Everyone is building AI agents, but outside of coding, most still can do real work reliably. My guest today is an AI builder at the forefront of cracking that problem. Speaker 2 | 00:56 - 01:44 Mitch Trojanovski is the cofounder of Basis, a unicorn AI company whose agents run autonomously for hours, sometimes days, and are already able to complete very complex tasks like preparing entire tax returns end to end. This is a true reference episode on how to build long horizon autonomous agents where Mitch shares tons of lessons he learned along the way. Please enjoy my conversation with the deeply insightful Mitch Trojanovsky. I want to start with scene. As I was prepping for this, I came across a video by our friend Stephanie Palazzolo at The Information and she was describing the experience of walking into the Basis office and seeing a bunch of people, whispering very quietly into microphones. Speaker 2 | 01:44 - 02:06 So, you know, maybe for the top AI builders or people who live on X, you know, second by second this may be, already something that, everybody understands but I think for the vast vast majority of people, like, just describe what you guys are doing whispering into these microphones. Yeah. I think maybe the best piece of advice for not for Speaker 1 | 02:06 - 02:42 building agents but for working with AI in general is that you need to give it as much context as possible because it by definition is always missing context in some way. Speaking is just so much faster than writing things down and in fact when you try to write things down you are actually essentially trying to summarize all the crazy thoughts in your head and so that's why it takes a lot of time and it's useful for your eye because it's rude if somebody just blabbered and sent that to you as a as a Slack DM. But to an agent, they don't care. They it's actually they would prefer it. So it becomes much more productive to be able to like whisper your thoughts, you know, because you don't wanna be shouting. Speaker 1 | 02:43 - 02:58 And you have these microphones now that allow you to whisper very very quietly and still pick up with full fidelity. That's why that's why we have it in. Sometimes people see it and they think it's little weird when they join the company, but after after a couple after, you know, a month or so, they're it's like they they can't go back. So Speaker 2 | 02:59 - 03:02 And so you whisper into what? Into cursor or into Speaker 1 | 03:02 - 03:09 Yeah. Into whatever people use. I mean, we different people use different things, yeah, codecs or clutter or cursor or whatever people use. And not just engineering. Right? Speaker 1 | 03:09 - 03:13 Like, all the all the functions if you're trying to get something done, if you're trying to describe what you want and all these things. Speaker 2 | 0…",
+      "summary": "Speaker 1 | 00:00 - 00:18 Humans are already used to working with non deterministic systems, it's just the systems are normally their co workers, not their computers. And in many ways, like companies and processes is all about how do you d…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "autonomous"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "long-horizon"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
     {
       "id": "2a908c4c06839a36",
       "date": "2026-08-07",
