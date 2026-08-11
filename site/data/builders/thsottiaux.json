@@ -1,10 +1,48 @@
 {
-  "generatedAt": "2026-08-10T03:20:37.892Z",
+  "generatedAt": "2026-08-11T00:43:46.879Z",
   "handle": "thsottiaux",
   "name": "Thibault Sottiaux",
   "itemCount": 50,
-  "latestDate": "2026-08-10",
+  "latestDate": "2026-08-11",
   "items": [
+    {
+      "id": "0c01617b8cdf6d10",
+      "date": "2026-08-11",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:thsottiaux",
+      "builderOrOrg": "Thibault Sottiaux",
+      "title": "Midnight coding is the best coding. Until you read the code the next day at least.",
+      "url": "https://x.com/thsottiaux/status/2086353229894529148",
+      "publishedAt": "2026-08-09T07:25:47.000Z",
+      "content": "Midnight coding is the best coding. Until you read the code the next day at least.",
+      "summary": "Midnight coding is the best coding. Until you read the code the next day at least.",
+      "regionTags": [],
+      "metrics": {
+        "likes": 7095,
+        "retweets": 180,
+        "replies": 882
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
     {
       "id": "a5fa06342e729e88",
       "date": "2026-08-10",
@@ -1596,44 +1634,6 @@
             "rl"
           ],
           "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "df932a1693860880",
-      "date": "2026-07-17",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:thsottiaux",
-      "builderOrOrg": "Thibault Sottiaux",
-      "title": "On file deletions. We’ve investigated a handful of reports where GPT-5.6 unexpectedly deleted f…",
-      "url": "https://x.com/thsottiaux/status/2077630111499882637",
-      "publishedAt": "2026-07-16T05:43:13.000Z",
-      "content": "On file deletions. We’ve investigated a handful of reports where GPT-5.6 unexpectedly deleted files. What we have found is that this most commonly occurs when: - Full access mode is enabled and codex is run without sandboxing protections, including without auto review being enabled - The model attempts to override the $HOME env var to define a temporary directory. - The model makes an honest mistake and mistakenly deletes $HOME instead. This is of course not how we want the system to behave, ev…",
-      "summary": "On file deletions. We’ve investigated a handful of reports where GPT-5.6 unexpectedly deleted files. What we have found is that this most commonly occurs when: - Full access mode is enabled and codex is run without sand…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 2225,
-        "retweets": 99,
-        "replies": 208
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "code",
-            "repo"
-          ],
-          "score": 2
         }
       ],
       "section": "Builders",
