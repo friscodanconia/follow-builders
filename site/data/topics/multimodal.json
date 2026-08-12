@@ -1,34 +1,78 @@
 {
-  "generatedAt": "2026-08-11T03:13:22.288Z",
+  "generatedAt": "2026-08-12T00:54:23.830Z",
   "slug": "multimodal",
   "label": "Images, Audio & Video",
   "items": [
     {
-      "id": "86743b851ff6e6d9",
-      "date": "2026-08-11",
+      "id": "17735d57a3134136",
+      "date": "2026-08-12",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
       "sourceKey": "x:zarazhangrui",
       "builderOrOrg": "Zara Zhang",
-      "title": "One of my favorite videos lately! So many practical design tips; my favorite is “Just reduce th…",
-      "url": "https://x.com/zarazhangrui/status/2086451229031534893",
-      "publishedAt": "2026-08-09T13:55:12.000Z",
-      "content": "One of my favorite videos lately! So many practical design tips; my favorite is “Just reduce the font weights” and it magically makes the design look better https://t.co/4XsIiRIOV4",
-      "summary": "One of my favorite videos lately! So many practical design tips; my favorite is “Just reduce the font weights” and it magically makes the design look better https://t.co/4XsIiRIOV4",
+      "title": "A great way to learn design: Give Codex a well-designed website, ask it to analyze what makes t…",
+      "url": "https://x.com/zarazhangrui/status/2086758509979316423",
+      "publishedAt": "2026-08-10T10:16:13.000Z",
+      "content": "A great way to learn design: Give Codex a well-designed website, ask it to analyze what makes the design great, then ask it to take a complete screenshot of the website & add annotations on the image that breaks down why the design works Learning from examples is always better than learning from theory! And using the annotation method means you don't have to constantly switch between reading the analysis and viewing the artifact",
+      "summary": "A great way to learn design: Give Codex a well-designed website, ask it to analyze what makes the design great, then ask it to take a complete screenshot of the website & add annotations on the image that breaks down wh…",
       "regionTags": [],
       "metrics": {
-        "likes": 64,
-        "retweets": 2,
-        "replies": 0
+        "likes": 1087,
+        "retweets": 87,
+        "replies": 50
       },
       "topics": [
         {
-          "slug": "open-source",
-          "label": "Open Source",
+          "slug": "coding",
+          "label": "Coding",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "weights"
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "image"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "262ba15f18001f6f",
+      "date": "2026-08-12",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google AI Blog",
+      "sourceKey": "official:Google AI Blog",
+      "builderOrOrg": "Google",
+      "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
+      "publishedAt": "2026-08-11T17:00:00.000Z",
+      "content": "Google introduces AMIE for real-time clinical video consultations in simulated settings.",
+      "summary": "Google introduces AMIE for real-time clinical video consultations in simulated settings.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
           ],
           "score": 1
         },
@@ -42,16 +86,72 @@
           "score": 1
         }
       ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.56,
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d2518d431cce10b9",
+      "date": "2026-08-12",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement",
+      "url": "https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement/",
+      "publishedAt": "2026-08-11T16:00:00.000Z",
+      "content": "Research Note: CARE-X is a research model and not a Microsoft product offering or medical device. It has not been cleared or approved by any regulatory authority and is not intended for clinical diagnosis, screening, or patient care. The results described below are retrospective research findings and do not establish the safety, effectiveness, or suitability of CARE-X for any clinical use. References to potential workflows describe areas for future research, not currently available capabilities or recommended uses.&nbsp; At a glance The challenge: Chest X-ray interpretation spans diverse tasks that require both expressive report generation and calibrated diagnostic predictions. CARE-X is a unified chest X-ray VLM for diverse clinical interpretation tasks. It combines generation and structured prediction to provide both free-text reasoning and deterministic outputs. CARE-X uses reinforcement learning (DAPO) to reward clinical correctness in a multi-task setting. In a separate research experiment from CARE-X, we paired Qwen3-VL-4B-Instruct with deterministic measurement tools to evaluate whether direct computation could improve performance on measurement-dependent conditions compared with visual approximation alone.&nbsp; Validated on real-world Indian clinical data from Narayana Health, including rare ICU pathologies and CT-confirmed enlargement conditions. What radiologists need: Task diversity, flexibility, and clinical fidelity A clinically useful radiology AI system must support a wide range of tasks, adapt to different workflows, and produce outputs that are medically accurate. Radiologists and other clinicians use chest X-rays for many different purposes. A clinically useful AI system must be able to support that range of tasks. It may be asked to generate detailed findings and concise impressions for a report, answer questions about the presence, absence, or location of a finding, identify medical devices and assess their placement, or pinpoint exactly where…",
+      "summary": "Radiology AI is evolving beyond report generation. CARE-X explores a unified approach that combines flexible reasoning, calibrated predictions, and measurement-based tools for chest X-ray interpretation. The post Introducing CARE-X: Toward…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "finding"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "vision",
+            "vlm"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "rl",
+            "reinforcement learning"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
       "whyThisMatters": ""
     },
     {
       "id": "155df4c562ef069b",
-      "date": "2026-08-11",
+      "date": "2026-08-12",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Mistral AI Blog",
@@ -105,7 +205,7 @@
     },
     {
       "id": "702121d6b5bc4171",
-      "date": "2026-08-11",
+      "date": "2026-08-12",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -157,7 +257,7 @@
     },
     {
       "id": "d532c2afb79dfa0a",
-      "date": "2026-08-11",
+      "date": "2026-08-12",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -206,6 +306,52 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "86743b851ff6e6d9",
+      "date": "2026-08-11",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:zarazhangrui",
+      "builderOrOrg": "Zara Zhang",
+      "title": "One of my favorite videos lately! So many practical design tips; my favorite is “Just reduce th…",
+      "url": "https://x.com/zarazhangrui/status/2086451229031534893",
+      "publishedAt": "2026-08-09T13:55:12.000Z",
+      "content": "One of my favorite videos lately! So many practical design tips; my favorite is “Just reduce the font weights” and it magically makes the design look better https://t.co/4XsIiRIOV4",
+      "summary": "One of my favorite videos lately! So many practical design tips; my favorite is “Just reduce the font weights” and it magically makes the design look better https://t.co/4XsIiRIOV4",
+      "regionTags": [],
+      "metrics": {
+        "likes": 64,
+        "retweets": 2,
+        "replies": 0
+      },
+      "topics": [
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "weights"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "video"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
@@ -2275,166 +2421,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "85ffb5cf34bbb412",
-      "date": "2026-07-09",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "Training Data",
-      "sourceKey": "podcast:Training Data",
-      "builderOrOrg": "Training Data",
-      "title": "Inside Zipline's Autonomous System: 140M Miles, Zero Incidents",
-      "url": "https://www.youtube.com/watch?v=6bGxm8gX41o",
-      "publishedAt": "2026-07-07T09:00:00.000Z",
-      "content": "Speaker 1 | 00:00 - 00:21 I remember being in Rwanda early days and going out and meeting with some of the doctors and lab techs that we were serving and asking for them, like, you know, how's it going? What what do you think? What's your feedback? Here I am kind of, you know, a a up and coming, you know, learning engineer thinking they're gonna say something about the drone or some of these things. And the main piece of feedback that I received was people get sick twenty four seven. Speaker 1 | 00:21 - 00:23 Why are you guys only open twelve hours a day? Speaker 2 | 00:23 - 00:26 Right? Especially when you're delivering life saving blood. Speaker 1 | 00:26 - 00:46 Yeah. Exactly. And so that was a really key insight for me where it's like, man, we have found product market fit in a market where, yeah, our our, you know, our product wasn't great yet, but it was solving a real need. And so having that that really beachhead market where there's a real problem being solved, and when your customer is telling you that their main feedback is they want more of your service, it's like, that's a good sign. Speaker 2 | 01:04 - 01:26 Welcome Keller and Eric, to the show. You guys have been working at zipline for a long period of time. Keller's the co founder and Eric, you are in charge of systems engineering and safety. And we got lots of things to talk about in this whole world of drones, drone systems, and how you guys started in this hardware space before LLMs even started. So we have lots of questions. Speaker 1 | 01:26 - 01:27 You for Speaker 3 | 01:27 - 01:28 having us. But you don't Speaker 2 | 01:28 - 01:35 like you don't like Zipline being described as a drone company, company, even though you're probably the largest autonomous drone company in the world right now. Speaker 3 | 01:36 - 02:19 I mean, you know, we we've always wanted to be an extremely customer obsessed company, and the reality is none of our customers care at all about drones. Our goal was always to build an automated logistics system for Earth and to approximate teleportation. And all the customers who are living on zipline today, they don't care about the technology operating behind the curtain. What they care about is their ability to download an app, open it up, see a huge number of different brands and amazing restaurants that they want to shop with, and then click a button and have it delivered to them five minutes later. So, we've always really tried to focus on the experience rather than on the specific technology. Speaker 3 | 02:19 - 02:24 Well, this show is about technology. We're excited about that. This podcast Speaker 2 | 02:24 - 02:36 is about technology. What is the underlying technology behind Zipline? You started in 2011. You pivoted in 2014. This is way before anything related to Speaker 3 | 02:36 - 02:37 AI robotics. AI Speaker 2 | 02:37 - 02:48 robotics, foundation models, anything related to that. But you've kind of you were before all of that, and you're riding the wave of all of the things that have come afterward as well. Yeah. Speaker 3 | 02:48 - 03:23 This was when, like, starting a robotics company was the dumbest thing you could possibly do. Like, why you know, you're talking to an investor in that time about I mean, it wasn't easy, and it was particularly hard because so many of those conversations I was 23, 24. Eric joined the company around that time, and we were starting to describe this vision of an autonomous logistics system for Earth that would be 10 times as fast, half the cost, zero emission. You know, one of the biggest problems when we were trying to raise money for that vision was investors would say, isn't this illegal in The US? In fact, I think that that's a question you asked me when we started talking about this. Speaker 2 | 03:23 - 03:27 We weren't allowed to fly beyond, visual light of sight. I mean, Speaker 3 | 03:27 - 03:47 we weren't allowed to fly at all, really. But, like, yeah. And and so the answer was yes, it…",
-      "summary": "Speaker 1 | 00:00 - 00:21 I remember being in Rwanda early days and going out and meeting with some of the doctors and lab techs that we were serving and asking for them, like, you know, how's it going? What what do you think? What's your…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "autonomous"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "serving"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "vision"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "36f13e7acc52db64",
-      "date": "2026-07-08",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:rauchg",
-      "builderOrOrg": "Guillermo Rauch",
-      "title": "The ultimate test for coding AI: is software as a whole getting better? Are companies shipping…",
-      "url": "https://x.com/rauchg/status/2074222247548735996",
-      "publishedAt": "2026-07-06T20:01:35.000Z",
-      "content": "The ultimate test for coding AI: is software as a whole getting better? Are companies shipping faster? Do you now have apps and games you couldn't even dream of before? Is the software you're getting bug-free? For me: my own ability to influence my productivity has radically increased. I feel a level of agency and autonomy I never had before. I'm free to create and execute. I can communicate a vision with my colleagues instantly. Personal software is real and a big win, I have a bunch of web to…",
-      "summary": "The ultimate test for coding AI: is software as a whole getting better? Are companies shipping faster? Do you now have apps and games you couldn't even dream of before? Is the software you're getting bug-free? For me: m…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 372,
-        "retweets": 18,
-        "replies": 39
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "vision"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "6a31f5b368d0c4af",
-      "date": "2026-07-08",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Mistral AI Blog",
-      "sourceKey": "official:Mistral AI Blog",
-      "builderOrOrg": "Mistral AI",
-      "title": "Leanstral 1.5: Proof Abundance for All",
-      "url": "https://mistral.ai/news/leanstral-1-5",
-      "publishedAt": null,
-      "content": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
-      "summary": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "autonomous"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "multimodal"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.8,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.63,
       "whyThisMatters": ""
     }
   ]
