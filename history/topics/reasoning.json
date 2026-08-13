@@ -1,8 +1,61 @@
 {
-  "generatedAt": "2026-08-12T03:31:59.415Z",
+  "generatedAt": "2026-08-13T01:28:16.864Z",
   "slug": "reasoning",
   "label": "AI Thinking",
   "items": [
+    {
+      "id": "b4bba04e00251a92",
+      "date": "2026-08-13",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] How to steal a Reasoning Trace",
+      "url": "https://www.latent.space/p/ainews-how-to-steal-a-reasoning-trace",
+      "publishedAt": "2026-08-12T07:11:08.000Z",
+      "content": "It&#8217;s not very often that a paper breaks through to become headline story of the day. For understandable reasons both domestic and foreign , there is renewed interest in the Interpretability Venn Diagram of alignment, security, and chain of thought monitoring, so today&#8217;s paper could not have come at a better time: Since the o1 launch , frontier lab reasoning models have obscured their traces, with cryptographic signatures, for fear of distillation (not that this prevented anyone from Chinese labs accusing them of doing so). The first compromise was responsibly reported by Matthew Green in May, who broke down how it works and figured out how to replay and side channel these indirectly using latency measures. Today&#8217;s paper demonstrates that it is possible to DECODE and port these encrypted thoughts to different models/sessions/users&#8230; and to dramatically improve open models as a result The alarming note is here: &#8220;Further, if you ever shared online a Claude Code/Codex session with encrypted reasoning blobs, they can be decoded and leak your personal data. We did a preliminary scan of ~7,000 public traces and found 62 unique API keys, 33 email addresses, 33 passwords, and other sensitive data.&#8221; ( 64 appeared exclusively inside the reasoning blocks and nowhere in the visible session.) The authors also detail alignment issues: COT Summarizers hiding answers Unintelligible reasoning Considerations of cheating Attacking Websites The website has more examples. The technique is somewhat described in the paper: Obtain a legitimate encrypted/signed reasoning block from an API response. Replay that block into a different request&#8212;potentially another account/session&#8212;to a weaker model from the same provider. Place it in an assistant/model turn and prompt or prefill the weaker model to transcribe the attached reasoning. Sample repeatedly, discard refusals, and optionally reconcile multiple noisy transcriptions. The paper gives concrete…",
+      "summary": "Speculative Decoding by any other name would distil as sweet",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "repo"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.69,
+          "rationale": [
+            "reasoning",
+            "chain of thought"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "latency"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
     {
       "id": "fe4333594423f4a2",
       "date": "2026-08-12",
