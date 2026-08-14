@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-08-13T03:35:00.311Z",
+  "generatedAt": "2026-08-14T00:30:38.083Z",
   "slug": "tool-use",
   "label": "AI Using Tools",
   "items": [
     {
-      "id": "af94389e225a0bce",
-      "date": "2026-08-13",
+      "id": "1956afee463ee317",
+      "date": "2026-08-14",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:trq212",
-      "builderOrOrg": "Thariq",
-      "title": "This is part of working with the EU AI Act, other labs are adding similar watermarking. It’s ha…",
-      "url": "https://x.com/trq212/status/2087258090169414008",
-      "publishedAt": "2026-08-11T19:21:22.000Z",
-      "content": "This is part of working with the EU AI Act, other labs are adding similar watermarking. It’s hard to identify AI-generated text, and this gives people better tools to do that. We’ll also be a shipping text detection API that you can use yourself. https://t.co/OZtG0fNsqc",
-      "summary": "This is part of working with the EU AI Act, other labs are adding similar watermarking. It’s hard to identify AI-generated text, and this gives people better tools to do that. We’ll also be a shipping text detection API…",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "This is such a nice improvement. Try 𝚗𝚙𝚡 𝚜𝚊𝚗𝚍𝚋𝚘𝚡@𝚕𝚊𝚝𝚎𝚜𝚝 𝚜𝚑 – it's mind-blowin…",
+      "url": "https://x.com/rauchg/status/2087698195120116064",
+      "publishedAt": "2026-08-13T00:30:11.000Z",
+      "content": "This is such a nice improvement. Try 𝚗𝚙𝚡 𝚜𝚊𝚗𝚍𝚋𝚘𝚡@𝚕𝚊𝚝𝚎𝚜𝚝 𝚜𝚑 – it's mind-blowing. It feels faster than your local machine. Sandbox now comes with a reasonable default set of pre-installed tools, and you can fully customize them. https://t.co/sJM6bvpc18",
+      "summary": "This is such a nice improvement. Try 𝚗𝚙𝚡 𝚜𝚊𝚗𝚍𝚋𝚘𝚡@𝚕𝚊𝚝𝚎𝚜𝚝 𝚜𝚑 – it's mind-blowing. It feels faster than your local machine. Sandbox now comes with a reasonable default set of pre-installed tools, and you…",
       "regionTags": [],
       "metrics": {
-        "likes": 946,
-        "retweets": 46,
-        "replies": 466
+        "likes": 185,
+        "retweets": 7,
+        "replies": 17
       },
       "topics": [
         {
@@ -31,18 +31,128 @@
             "tools"
           ],
           "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
         }
       ],
       "section": "Builders",
       "importanceScore": 0.7,
-      "noveltyScore": 0.3,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.56,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "0f26d9801d22a6b1",
+      "date": "2026-08-14",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:claudeai",
+      "builderOrOrg": "Claude",
+      "title": "Browser agents can be tricked by instructions hidden in a page. We build defenses against this,…",
+      "url": "https://x.com/claudeai/status/2087635265066004694",
+      "publishedAt": "2026-08-12T20:20:08.000Z",
+      "content": "Browser agents can be tricked by instructions hidden in a page. We build defenses against this, and we still recommend a few habits of your own: https://t.co/aHIHLNkOnk",
+      "summary": "Browser agents can be tricked by instructions hidden in a page. We build defenses against this, and we still recommend a few habits of your own: https://t.co/aHIHLNkOnk",
+      "regionTags": [],
+      "metrics": {
+        "likes": 245,
+        "retweets": 3,
+        "replies": 7
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "browser"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "browser agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "cbfc0fe2ec96c6e9",
+      "date": "2026-08-14",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:claudeai",
+      "builderOrOrg": "Claude",
+      "title": "Your Claude in Chrome sessions now carry over to desktop, web, and mobile. Conversations are sa…",
+      "url": "https://x.com/claudeai/status/2087635262390026525",
+      "publishedAt": "2026-08-12T20:20:07.000Z",
+      "content": "Your Claude in Chrome sessions now carry over to desktop, web, and mobile. Conversations are saved, and your skills and connectors work in the browser. Available on Max and Team today, rolling out to Pro in the coming weeks. https://t.co/Hnxs18PVI8",
+      "summary": "Your Claude in Chrome sessions now carry over to desktop, web, and mobile. Conversations are saved, and your skills and connectors work in the browser. Available on Max and Team today, rolling out to Pro in the coming w…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 8533,
+        "retweets": 615,
+        "replies": 382
+      },
+      "topics": [
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "browser"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "desktop"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
       "whyThisMatters": ""
     },
     {
       "id": "92f135c6ee575897",
-      "date": "2026-08-13",
+      "date": "2026-08-14",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Google AI Blog",
@@ -87,7 +197,7 @@
     },
     {
       "id": "6c168a26c0b4e774",
-      "date": "2026-08-13",
+      "date": "2026-08-14",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -129,7 +239,7 @@
     },
     {
       "id": "f741c82f8194359b",
-      "date": "2026-08-13",
+      "date": "2026-08-14",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "ChinaTalk",
@@ -177,6 +287,43 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "af94389e225a0bce",
+      "date": "2026-08-13",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:trq212",
+      "builderOrOrg": "Thariq",
+      "title": "This is part of working with the EU AI Act, other labs are adding similar watermarking. It’s ha…",
+      "url": "https://x.com/trq212/status/2087258090169414008",
+      "publishedAt": "2026-08-11T19:21:22.000Z",
+      "content": "This is part of working with the EU AI Act, other labs are adding similar watermarking. It’s hard to identify AI-generated text, and this gives people better tools to do that. We’ll also be a shipping text detection API that you can use yourself. https://t.co/OZtG0fNsqc",
+      "summary": "This is part of working with the EU AI Act, other labs are adding similar watermarking. It’s hard to identify AI-generated text, and this gives people better tools to do that. We’ll also be a shipping text detection API…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 946,
+        "retweets": 46,
+        "replies": 466
+      },
+      "topics": [
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
@@ -2267,142 +2414,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.61,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "7a25f6205fb82493",
-      "date": "2026-06-25",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:claudeai",
-      "builderOrOrg": "Claude",
-      "title": "Turn ambient behavior on, and Claude takes initiative. It follows up on threads that have gone…",
-      "url": "https://x.com/claudeai/status/2069468699766005847",
-      "publishedAt": "2026-06-23T17:12:41.000Z",
-      "content": "Turn ambient behavior on, and Claude takes initiative. It follows up on threads that have gone quiet and flags what's relevant from across its channels and tools. https://t.co/fTMkAHY4Gr",
-      "summary": "Turn ambient behavior on, and Claude takes initiative. It follows up on threads that have gone quiet and flags what's relevant from across its channels and tools. https://t.co/fTMkAHY4Gr",
-      "regionTags": [],
-      "metrics": {
-        "likes": 428,
-        "retweets": 14,
-        "replies": 9
-      },
-      "topics": [
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "8946dc929e17ca89",
-      "date": "2026-06-25",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Daybreak: Tools for securing every organization in the world",
-      "url": "https://openai.com/index/daybreak-securing-the-world",
-      "publishedAt": "2026-06-22T10:00:00.000Z",
-      "content": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "47bfb39140c47517",
-      "date": "2026-06-22",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:petergyang",
-      "builderOrOrg": "Peter Yang",
-      "title": "For folks who make talking head videos with screen share what platform do you use? I'd love som…",
-      "url": "https://x.com/petergyang/status/2068398871236264428",
-      "publishedAt": "2026-06-20T18:21:34.000Z",
-      "content": "For folks who make talking head videos with screen share what platform do you use? I'd love something that lets me easily zoom in and out on the screen to point out specific things. @screenstudio seems cool but does it work well with other recording tools? It doesn't record the talking head as far I can see.",
-      "summary": "For folks who make talking head videos with screen share what platform do you use? I'd love something that lets me easily zoom in and out on the screen to point out specific things. @screenstudio seems cool but does it…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 33,
-        "retweets": 0,
-        "replies": 36
-      },
-      "topics": [
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "video"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
       "whyThisMatters": ""
     }
   ]
