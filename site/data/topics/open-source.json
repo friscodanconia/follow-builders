@@ -1,11 +1,48 @@
 {
-  "generatedAt": "2026-08-15T02:28:27.234Z",
+  "generatedAt": "2026-08-16T00:30:35.479Z",
   "slug": "open-source",
   "label": "Open Source",
   "items": [
     {
+      "id": "1698f1ecbd0bef95",
+      "date": "2026-08-16",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:petergyang",
+      "builderOrOrg": "Peter Yang",
+      "title": "I was curious how X is fighting AI slop, so I looked at its open-source algorithm. It has a beh…",
+      "url": "https://x.com/petergyang/status/2088261100202868768",
+      "publishedAt": "2026-08-14T13:46:58.000Z",
+      "content": "I was curious how X is fighting AI slop, so I looked at its open-source algorithm. It has a behavioral model called TweetSpamBot that analyzes up to 512 recent account actions, looking at signals like posting bursts, quote-post behavior, timing, and normal browsing or dwell between actions. The model is trained to recognize patterns such as: → TWEET_CREATE_BURST → QUOTE_TWEET_SPAMMER → CONTENT_AMPLIFIER A high score on the above can feed into an account challenge but doesn't seem to downrank th…",
+      "summary": "I was curious how X is fighting AI slop, so I looked at its open-source algorithm. It has a behavioral model called TweetSpamBot that analyzes up to 512 recent account actions, looking at signals like posting bursts, qu…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 35,
+        "retweets": 0,
+        "replies": 7
+      },
+      "topics": [
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open-source"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.67,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.79,
+      "whyThisMatters": ""
+    },
+    {
       "id": "261f692f80623caf",
-      "date": "2026-08-15",
+      "date": "2026-08-16",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Mistral AI Blog",
@@ -2378,52 +2415,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "894f2985098754cb",
-      "date": "2026-07-15",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:nikunj",
-      "builderOrOrg": "Nikunj Kothari",
-      "title": "Built using @tryramp CLI (thx @zack_field) & @claudeai Fable. Repo link here: https://t.co/2vWq…",
-      "url": "https://x.com/nikunj/status/2076776777884811671",
-      "publishedAt": "2026-07-13T21:12:23.000Z",
-      "content": "Built using @tryramp CLI (thx @zack_field) & @claudeai Fable. Repo link here: https://t.co/2vWqJzELoi Fully open source so feel free to fork away or make improvements!",
-      "summary": "Built using @tryramp CLI (thx @zack_field) & @claudeai Fable. Repo link here: https://t.co/2vWqJzELoi Fully open source so feel free to fork away or make improvements!",
-      "regionTags": [],
-      "metrics": {
-        "likes": 4,
-        "retweets": 0,
-        "replies": 0
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open source"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.56,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.47,
       "whyThisMatters": ""
     }
   ]
