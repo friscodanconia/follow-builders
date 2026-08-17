@@ -1,8 +1,325 @@
 {
-  "generatedAt": "2026-08-16T02:36:44.892Z",
+  "generatedAt": "2026-08-17T00:30:44.718Z",
   "slug": "multimodal",
   "label": "Images, Audio & Video",
   "items": [
+    {
+      "id": "262ba15f18001f6f",
+      "date": "2026-08-17",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google AI Blog",
+      "sourceKey": "official:Google AI Blog",
+      "builderOrOrg": "Google",
+      "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
+      "publishedAt": "2026-08-11T17:00:00.000Z",
+      "content": "Google introduces AMIE for real-time clinical video consultations in simulated settings.",
+      "summary": "Google introduces AMIE for real-time clinical video consultations in simulated settings.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "video"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "a19bcdf70ad4d74a",
+      "date": "2026-08-17",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "MindTopo reveals VLMs&#8217; spatial reasoning abilities",
+      "url": "https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/",
+      "publishedAt": "2026-08-12T16:00:00.000Z",
+      "content": "At a glance MindTopo is a new benchmark for testing topological reasoning in AI, evaluating whether multimodal models can understand concepts such as connectivity, enclosure, order, separation, and knots. The benchmark measures both reasoning and planning, testing not only whether models can recognize topological relationships in static images but also whether they can preserve and manipulate those relationships through a sequence of actions. Current multimodal models perform much better on static recognition than interactive tasks, suggesting they struggle to maintain a consistent understanding of topology over time. Failures often emerge during planning rather than perception, with models losing track of structural relationships as scenes change or proposing actions that violate physical constraints. The findings highlight an important opportunity to advance AI systems for robotics and interactive environments, where understanding what stays connected, enclosed, ordered, or knotted is essential for reliable decision-making. Can AI determine whether two rooms remain connected after a wall is added? Can it recognize whether an animal is inside a fence, distinguish a true knot from a tangled loop, or rearrange several ropes without allowing them to pass through one another? These questions concern 3D topology, a form of spatial understanding based not on exact distances, angles, or shapes, but on structural relationships that persist as objects bend, stretch, or deform. Connectivity, enclosure, ordering, and knottedness are examples of topological properties. These properties are a foundational layer of human spatial understanding in Cognitive Science, yet they remain largely absent from how multimodal AI systems are evaluated. In a new research study, we introduce MindTopo (opens in new tab) , a benchmark designed to evaluate whether multimodal large language models possess this kind of topological intuition. Our findings reveal a substantial gap between recognizin…",
+      "summary": "A path, a fence, a knot. MindTopo sets a new benchmark for testing how AI understands topological relationships and highlights new opportunities to strengthen spatial reasoning and planning. The post MindTopo reveals VLMs&#8217; spatial re…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.81,
+          "rationale": [
+            "research",
+            "science",
+            "finding"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.81,
+          "rationale": [
+            "multimodal",
+            "image",
+            "vlm"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.81,
+          "rationale": [
+            "benchmark",
+            "imo",
+            "eval"
+          ],
+          "score": 3
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d2518d431cce10b9",
+      "date": "2026-08-17",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement",
+      "url": "https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement/",
+      "publishedAt": "2026-08-11T16:00:00.000Z",
+      "content": "Research Note: CARE-X is a research model and not a Microsoft product offering or medical device. It has not been cleared or approved by any regulatory authority and is not intended for clinical diagnosis, screening, or patient care. The results described below are retrospective research findings and do not establish the safety, effectiveness, or suitability of CARE-X for any clinical use. References to potential workflows describe areas for future research, not currently available capabilities or recommended uses.&nbsp; At a glance The challenge: Chest X-ray interpretation spans diverse tasks that require both expressive report generation and calibrated diagnostic predictions. CARE-X is a unified chest X-ray VLM for diverse clinical interpretation tasks. It combines generation and structured prediction to provide both free-text reasoning and deterministic outputs. CARE-X uses reinforcement learning (DAPO) to reward clinical correctness in a multi-task setting. In a separate research experiment from CARE-X, we paired Qwen3-VL-4B-Instruct with deterministic measurement tools to evaluate whether direct computation could improve performance on measurement-dependent conditions compared with visual approximation alone.&nbsp; Validated on real-world Indian clinical data from Narayana Health, including rare ICU pathologies and CT-confirmed enlargement conditions. What radiologists need: Task diversity, flexibility, and clinical fidelity A clinically useful radiology AI system must support a wide range of tasks, adapt to different workflows, and produce outputs that are medically accurate. Radiologists and other clinicians use chest X-rays for many different purposes. A clinically useful AI system must be able to support that range of tasks. It may be asked to generate detailed findings and concise impressions for a report, answer questions about the presence, absence, or location of a finding, identify medical devices and assess their placement, or pinpoint exactly where…",
+      "summary": "Radiology AI is evolving beyond report generation. CARE-X explores a unified approach that combines flexible reasoning, calibrated predictions, and measurement-based tools for chest X-ray interpretation. The post Introducing CARE-X: Toward…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "finding"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "vision",
+            "vlm"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "rl",
+            "reinforcement learning"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "155df4c562ef069b",
+      "date": "2026-08-17",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "Introducing Mistral Small 4 | Mistral AI",
+      "url": "https://mistral.ai/news/mistral-small-4/",
+      "publishedAt": null,
+      "content": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
+      "summary": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "autonomous"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "multimodal"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.8,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.63,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "9bbe7a5c432cef59",
+      "date": "2026-08-17",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "China's Best Music in 2026 (So Far)",
+      "url": "https://www.chinatalk.media/p/chinas-best-music-in-2026-so-far",
+      "publishedAt": "2026-08-14T10:29:35.000Z",
+      "content": "Jake Newby is the author of the Concrete Avalanche Substack , which covers the best music coming out of China. If you enjoy this playlist, check out Jake&#8217;s sets from 2025 , 2024 , and 2023 , as well as his Chinese shoegaze feature . Check out the full podcast below, or on non-Spotify podcast platforms here . 1. &#8216;Undercurrent&#8217; &#8212; Pu Poo Platter &#8212; from Undercurrent This EP features four fun tracks of funked-up, globally influenced jazz from a Brooklyn-formed band who are really finding their rhythm. They make infectious music with a strong sense of joy throughout. Alas, not everyone&#8217;s a fan &#8212; watch the video below where Pu Poo Platter get into trouble with the po-po for livestreaming a set on a Shanghai street. ChinaTalk is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber. 2. &#8216;&#24551;&#37057;&#24178;&#26479;&#20048;&#22253;&#8217; &#8212; the three mice &#8212; from where is my mice? Building on their explosive eponymouse record from 2024, Shenzhen emo / indie-rock act the three mice return with what they&#8217;re calling their first album proper. where is my mice? brings a similarly febrile energy (it even includes a reworking of one of those older tracks) and once again showcases the band&#8217;s intelligence in knowing when to let things get a little messy and when to pull back and allow their sense of melody and songwriting craft to shine through. It&#8217;s a delight. Grab it now while it&#8217;s pay-what-you-want on Bandcamp. 3. &#8216;&#38169;&#36807;&#30340;&#25552;&#37266;&#8217; &#8212; Lygort Quartet &#8212; from Through Voodoo Light to Shore of Tomorrow What do you do when your pioneering post-punk band no longer wants to make post-punk? Form another band, of course. Three-quarters of Chinese post-punk godfathers PK14 have been involved in a variation of the Lygort bands so far, with the latest &#8212; the Lygort Quartet &#8212; still featu…",
+      "summary": "Jake Newby is the author of the Concrete Avalanche Substack, which covers the best music coming out of China.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "publication",
+            "finding"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "video"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "9c12f562de07f335",
+      "date": "2026-08-17",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "The DeepSeek Thesis",
+      "url": "https://www.chinatalk.media/p/the-deepseek-thesis",
+      "publishedAt": "2026-08-13T10:19:25.000Z",
+      "content": "What does Liang Wenfeng want? The CEO of DeepSeek is now richer than either Dario Amodei or Sam Altman. Backed by his careful watch and the immense wealth of his hedge fund, a little-known group of researchers in Hangzhou has managed to consistently command the world&#8217;s attention &#8212; and they keep giving their work away for free. The motivations behind Liang&#8217;s theory of action have puzzled China+AI watchers since the beginning. In late July, leaked minutes from a four-hour meeting between Liang and investors circulated around the internet. Like everyone else, we&#8217;ve been pouring over the minutes to understand Liang the CEO, DeepSeek the company, and Liang the man. Liang comes off as a genuinely unusual character among China&#8217;s tech elite: a person who sincerely holds a specific and highly personalized worldview, if not an entire ideology. Whereas others in his walk of life are highly attuned to commercial trends and political winds, he positions himself as squarely focused on realizing his vision for technology &#8212; and it&#8217;s hard to doubt his conviction when he has invested so much of his literal worth into this quest. ChinaTalk is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber. His is a confidently singular thesis: that there is an inevitable causal relationship between automated learning and generalized intelligence, and that the pursuit of such advanced machine intelligence is the only problem worth solving right now. Being Chinese means working within the constraints of current hardware limitations, but DeepSeek frames their own ambitions on a much farther horizon. Whether or not they can, of course, might not be up to them. At ChinaTalk, we&#8217;ve been covering the DeepSeek story since before R1 . The following are our thoughts and observations after reading the leaked minutes. We get into: How Chinese open models work as a business model; Why, according…",
+      "summary": "a very different kind of guy",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "publication"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "vision"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
     {
       "id": "040785412ca3c7c0",
       "date": "2026-08-16",
@@ -84,323 +401,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "262ba15f18001f6f",
-      "date": "2026-08-16",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google AI Blog",
-      "sourceKey": "official:Google AI Blog",
-      "builderOrOrg": "Google",
-      "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
-      "publishedAt": "2026-08-11T17:00:00.000Z",
-      "content": "Google introduces AMIE for real-time clinical video consultations in simulated settings.",
-      "summary": "Google introduces AMIE for real-time clinical video consultations in simulated settings.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "video"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a19bcdf70ad4d74a",
-      "date": "2026-08-16",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "MindTopo reveals VLMs&#8217; spatial reasoning abilities",
-      "url": "https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/",
-      "publishedAt": "2026-08-12T16:00:00.000Z",
-      "content": "At a glance MindTopo is a new benchmark for testing topological reasoning in AI, evaluating whether multimodal models can understand concepts such as connectivity, enclosure, order, separation, and knots. The benchmark measures both reasoning and planning, testing not only whether models can recognize topological relationships in static images but also whether they can preserve and manipulate those relationships through a sequence of actions. Current multimodal models perform much better on static recognition than interactive tasks, suggesting they struggle to maintain a consistent understanding of topology over time. Failures often emerge during planning rather than perception, with models losing track of structural relationships as scenes change or proposing actions that violate physical constraints. The findings highlight an important opportunity to advance AI systems for robotics and interactive environments, where understanding what stays connected, enclosed, ordered, or knotted is essential for reliable decision-making. Can AI determine whether two rooms remain connected after a wall is added? Can it recognize whether an animal is inside a fence, distinguish a true knot from a tangled loop, or rearrange several ropes without allowing them to pass through one another? These questions concern 3D topology, a form of spatial understanding based not on exact distances, angles, or shapes, but on structural relationships that persist as objects bend, stretch, or deform. Connectivity, enclosure, ordering, and knottedness are examples of topological properties. These properties are a foundational layer of human spatial understanding in Cognitive Science, yet they remain largely absent from how multimodal AI systems are evaluated. In a new research study, we introduce MindTopo (opens in new tab) , a benchmark designed to evaluate whether multimodal large language models possess this kind of topological intuition. Our findings reveal a substantial gap between recognizin…",
-      "summary": "A path, a fence, a knot. MindTopo sets a new benchmark for testing how AI understands topological relationships and highlights new opportunities to strengthen spatial reasoning and planning. The post MindTopo reveals VLMs&#8217; spatial re…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.81,
-          "rationale": [
-            "research",
-            "science",
-            "finding"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.81,
-          "rationale": [
-            "multimodal",
-            "image",
-            "vlm"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.81,
-          "rationale": [
-            "benchmark",
-            "imo",
-            "eval"
-          ],
-          "score": 3
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d2518d431cce10b9",
-      "date": "2026-08-16",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement",
-      "url": "https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement/",
-      "publishedAt": "2026-08-11T16:00:00.000Z",
-      "content": "Research Note: CARE-X is a research model and not a Microsoft product offering or medical device. It has not been cleared or approved by any regulatory authority and is not intended for clinical diagnosis, screening, or patient care. The results described below are retrospective research findings and do not establish the safety, effectiveness, or suitability of CARE-X for any clinical use. References to potential workflows describe areas for future research, not currently available capabilities or recommended uses.&nbsp; At a glance The challenge: Chest X-ray interpretation spans diverse tasks that require both expressive report generation and calibrated diagnostic predictions. CARE-X is a unified chest X-ray VLM for diverse clinical interpretation tasks. It combines generation and structured prediction to provide both free-text reasoning and deterministic outputs. CARE-X uses reinforcement learning (DAPO) to reward clinical correctness in a multi-task setting. In a separate research experiment from CARE-X, we paired Qwen3-VL-4B-Instruct with deterministic measurement tools to evaluate whether direct computation could improve performance on measurement-dependent conditions compared with visual approximation alone.&nbsp; Validated on real-world Indian clinical data from Narayana Health, including rare ICU pathologies and CT-confirmed enlargement conditions. What radiologists need: Task diversity, flexibility, and clinical fidelity A clinically useful radiology AI system must support a wide range of tasks, adapt to different workflows, and produce outputs that are medically accurate. Radiologists and other clinicians use chest X-rays for many different purposes. A clinically useful AI system must be able to support that range of tasks. It may be asked to generate detailed findings and concise impressions for a report, answer questions about the presence, absence, or location of a finding, identify medical devices and assess their placement, or pinpoint exactly where…",
-      "summary": "Radiology AI is evolving beyond report generation. CARE-X explores a unified approach that combines flexible reasoning, calibrated predictions, and measurement-based tools for chest X-ray interpretation. The post Introducing CARE-X: Toward…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "finding"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.69,
-          "rationale": [
-            "vision",
-            "vlm"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.69,
-          "rationale": [
-            "rl",
-            "reinforcement learning"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "155df4c562ef069b",
-      "date": "2026-08-16",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Mistral AI Blog",
-      "sourceKey": "official:Mistral AI Blog",
-      "builderOrOrg": "Mistral AI",
-      "title": "Introducing Mistral Small 4 | Mistral AI",
-      "url": "https://mistral.ai/news/mistral-small-4/",
-      "publishedAt": null,
-      "content": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
-      "summary": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "autonomous"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "multimodal"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.8,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.63,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "9bbe7a5c432cef59",
-      "date": "2026-08-16",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "China's Best Music in 2026 (So Far)",
-      "url": "https://www.chinatalk.media/p/chinas-best-music-in-2026-so-far",
-      "publishedAt": "2026-08-14T10:29:35.000Z",
-      "content": "Jake Newby is the author of the Concrete Avalanche Substack , which covers the best music coming out of China. If you enjoy this playlist, check out Jake&#8217;s sets from 2025 , 2024 , and 2023 , as well as his Chinese shoegaze feature . Check out the full podcast below, or on non-Spotify podcast platforms here . 1. &#8216;Undercurrent&#8217; &#8212; Pu Poo Platter &#8212; from Undercurrent This EP features four fun tracks of funked-up, globally influenced jazz from a Brooklyn-formed band who are really finding their rhythm. They make infectious music with a strong sense of joy throughout. Alas, not everyone&#8217;s a fan &#8212; watch the video below where Pu Poo Platter get into trouble with the po-po for livestreaming a set on a Shanghai street. ChinaTalk is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber. 2. &#8216;&#24551;&#37057;&#24178;&#26479;&#20048;&#22253;&#8217; &#8212; the three mice &#8212; from where is my mice? Building on their explosive eponymouse record from 2024, Shenzhen emo / indie-rock act the three mice return with what they&#8217;re calling their first album proper. where is my mice? brings a similarly febrile energy (it even includes a reworking of one of those older tracks) and once again showcases the band&#8217;s intelligence in knowing when to let things get a little messy and when to pull back and allow their sense of melody and songwriting craft to shine through. It&#8217;s a delight. Grab it now while it&#8217;s pay-what-you-want on Bandcamp. 3. &#8216;&#38169;&#36807;&#30340;&#25552;&#37266;&#8217; &#8212; Lygort Quartet &#8212; from Through Voodoo Light to Shore of Tomorrow What do you do when your pioneering post-punk band no longer wants to make post-punk? Form another band, of course. Three-quarters of Chinese post-punk godfathers PK14 have been involved in a variation of the Lygort bands so far, with the latest &#8212; the Lygort Quartet &#8212; still featu…",
-      "summary": "Jake Newby is the author of the Concrete Avalanche Substack, which covers the best music coming out of China.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "publication",
-            "finding"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "video"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "9c12f562de07f335",
-      "date": "2026-08-16",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "The DeepSeek Thesis",
-      "url": "https://www.chinatalk.media/p/the-deepseek-thesis",
-      "publishedAt": "2026-08-13T10:19:25.000Z",
-      "content": "What does Liang Wenfeng want? The CEO of DeepSeek is now richer than either Dario Amodei or Sam Altman. Backed by his careful watch and the immense wealth of his hedge fund, a little-known group of researchers in Hangzhou has managed to consistently command the world&#8217;s attention &#8212; and they keep giving their work away for free. The motivations behind Liang&#8217;s theory of action have puzzled China+AI watchers since the beginning. In late July, leaked minutes from a four-hour meeting between Liang and investors circulated around the internet. Like everyone else, we&#8217;ve been pouring over the minutes to understand Liang the CEO, DeepSeek the company, and Liang the man. Liang comes off as a genuinely unusual character among China&#8217;s tech elite: a person who sincerely holds a specific and highly personalized worldview, if not an entire ideology. Whereas others in his walk of life are highly attuned to commercial trends and political winds, he positions himself as squarely focused on realizing his vision for technology &#8212; and it&#8217;s hard to doubt his conviction when he has invested so much of his literal worth into this quest. ChinaTalk is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber. His is a confidently singular thesis: that there is an inevitable causal relationship between automated learning and generalized intelligence, and that the pursuit of such advanced machine intelligence is the only problem worth solving right now. Being Chinese means working within the constraints of current hardware limitations, but DeepSeek frames their own ambitions on a much farther horizon. Whether or not they can, of course, might not be up to them. At ChinaTalk, we&#8217;ve been covering the DeepSeek story since before R1 . The following are our thoughts and observations after reading the leaked minutes. We get into: How Chinese open models work as a business model; Why, according…",
-      "summary": "a very different kind of guy",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "publication"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "vision"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {

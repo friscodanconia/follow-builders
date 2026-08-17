@@ -1,48 +1,11 @@
 {
-  "generatedAt": "2026-08-16T02:36:44.892Z",
+  "generatedAt": "2026-08-17T00:30:44.718Z",
   "slug": "open-source",
   "label": "Open Source",
   "items": [
     {
-      "id": "1698f1ecbd0bef95",
-      "date": "2026-08-16",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:petergyang",
-      "builderOrOrg": "Peter Yang",
-      "title": "I was curious how X is fighting AI slop, so I looked at its open-source algorithm. It has a beh…",
-      "url": "https://x.com/petergyang/status/2088261100202868768",
-      "publishedAt": "2026-08-14T13:46:58.000Z",
-      "content": "I was curious how X is fighting AI slop, so I looked at its open-source algorithm. It has a behavioral model called TweetSpamBot that analyzes up to 512 recent account actions, looking at signals like posting bursts, quote-post behavior, timing, and normal browsing or dwell between actions. The model is trained to recognize patterns such as: → TWEET_CREATE_BURST → QUOTE_TWEET_SPAMMER → CONTENT_AMPLIFIER A high score on the above can feed into an account challenge but doesn't seem to downrank th…",
-      "summary": "I was curious how X is fighting AI slop, so I looked at its open-source algorithm. It has a behavioral model called TweetSpamBot that analyzes up to 512 recent account actions, looking at signals like posting bursts, qu…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 35,
-        "retweets": 0,
-        "replies": 7
-      },
-      "topics": [
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open-source"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.67,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.54,
-      "whyThisMatters": ""
-    },
-    {
       "id": "261f692f80623caf",
-      "date": "2026-08-16",
+      "date": "2026-08-17",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Mistral AI Blog",
@@ -93,6 +56,43 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "1698f1ecbd0bef95",
+      "date": "2026-08-16",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:petergyang",
+      "builderOrOrg": "Peter Yang",
+      "title": "I was curious how X is fighting AI slop, so I looked at its open-source algorithm. It has a beh…",
+      "url": "https://x.com/petergyang/status/2088261100202868768",
+      "publishedAt": "2026-08-14T13:46:58.000Z",
+      "content": "I was curious how X is fighting AI slop, so I looked at its open-source algorithm. It has a behavioral model called TweetSpamBot that analyzes up to 512 recent account actions, looking at signals like posting bursts, quote-post behavior, timing, and normal browsing or dwell between actions. The model is trained to recognize patterns such as: → TWEET_CREATE_BURST → QUOTE_TWEET_SPAMMER → CONTENT_AMPLIFIER A high score on the above can feed into an account challenge but doesn't seem to downrank th…",
+      "summary": "I was curious how X is fighting AI slop, so I looked at its open-source algorithm. It has a behavioral model called TweetSpamBot that analyzes up to 512 recent account actions, looking at signals like posting bursts, qu…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 35,
+        "retweets": 0,
+        "replies": 7
+      },
+      "topics": [
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open-source"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.67,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.54,
       "whyThisMatters": ""
     },
     {
