@@ -1,35 +1,91 @@
 {
-  "generatedAt": "2026-08-17T02:36:18.390Z",
+  "generatedAt": "2026-08-18T00:31:14.475Z",
   "slug": "enterprise",
   "label": "Business AI",
   "items": [
     {
-      "id": "869df697a545536f",
-      "date": "2026-08-17",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "From assistance to execution: How enterprises put AI to work",
-      "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "publishedAt": "2026-08-12T06:00:00.000Z",
-      "content": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
-      "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
-      "regionTags": [
-        "us-model-labs"
+      "id": "d6dba920727c3908",
+      "date": "2026-08-18",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "We ran evals on GLM 5.3 cybersecurity capabilities. It's the new open frontier. Given its lower…",
+      "url": "https://x.com/rauchg/status/2089126690043916495",
+      "publishedAt": "2026-08-16T23:06:31.000Z",
+      "content": "We ran evals on GLM 5.3 cybersecurity capabilities. It's the new open frontier. Given its lower costs, I expect this to be a boon for defensive security work. e.g., it means you can run https://t.co/KwrlahlCiK at least 3× more often! https://t.co/aCQDMoxAXI",
+      "summary": "We ran evals on GLM 5.3 cybersecurity capabilities. It's the new open frontier. Given its lower costs, I expect this to be a boon for defensive security work. e.g., it means you can run https://t.co/KwrlahlCiK at least…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 537,
+        "retweets": 27,
+        "replies": 31
+      },
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
       ],
-      "metrics": {},
+      "section": "Builders",
+      "importanceScore": 0.78,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.86,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "4140429ad46076e0",
+      "date": "2026-08-18",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "Pretty good way to think about the value of AI agents and where the opportunity lies. You have…",
+      "url": "https://x.com/levie/status/2089209131391729763",
+      "publishedAt": "2026-08-17T04:34:07.000Z",
+      "content": "Pretty good way to think about the value of AI agents and where the opportunity lies. You have a technology that will tirelessly do all the things that you could never fully do before. Not because you didn’t want to or it wasn’t valuable, but because it was just not even remotely practical. The upside with AI is to think about everything you can now throw intelligence at that won’t give up and what would the returns be. You just couldn’t possibly find every security vulnerability in your codeba…",
+      "summary": "Pretty good way to think about the value of AI agents and where the opportunity lies. You have a technology that will tirelessly do all the things that you could never fully do before. Not because you didn’t want to or…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 88,
+        "retweets": 5,
+        "replies": 17
+      },
       "topics": [
         {
           "slug": "agents",
           "label": "AI Assistants",
-          "confidence": 0.69,
+          "confidence": 0.5700000000000001,
           "rationale": [
-            "agent",
-            "agentic"
+            "agent"
           ],
-          "score": 2
+          "score": 1
         },
         {
           "slug": "coding",
@@ -45,21 +101,56 @@
           "label": "Business AI",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "enterprise"
+            "security"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.92,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.95,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "cc18701342fa4df6",
+      "date": "2026-08-18",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "The Defender’s Window",
+      "url": "https://openai.com/index/the-defenders-window",
+      "publishedAt": "2026-08-17T05:30:00.000Z",
+      "content": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
+      "summary": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
           ],
           "score": 1
         }
       ],
       "section": "Official Sources",
-      "importanceScore": 0.8,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.63,
+      "importanceScore": 0.66,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.78,
       "whyThisMatters": ""
     },
     {
       "id": "1e520cde1a48179f",
-      "date": "2026-08-17",
+      "date": "2026-08-18",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -94,7 +185,7 @@
     },
     {
       "id": "5b90819afbee9482",
-      "date": "2026-08-17",
+      "date": "2026-08-18",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Mistral AI Blog",
@@ -130,7 +221,7 @@
     },
     {
       "id": "155df4c562ef069b",
-      "date": "2026-08-17",
+      "date": "2026-08-18",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Mistral AI Blog",
@@ -183,8 +274,59 @@
       "whyThisMatters": ""
     },
     {
+      "id": "30a17cb70e146bf0",
+      "date": "2026-08-18",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "The Rise of China’s Electric Vehicle Industry",
+      "url": "https://www.chinatalk.media/p/the-rise-of-chinas-electric-vehicle",
+      "publishedAt": "2026-08-17T10:08:23.000Z",
+      "content": "How did China grow its EV industry? Hint: it wasn&#8217;t really central planning from Beijing. It was a magical concoction of entrepreneurs and local officials using their guanxi to dance around giant SOEs and central-government regulation, leverage private and foreign capital, and just be really excellent business people. That&#8217;s led to our situation in 2026 &#8212; world-beating companies that have a ton of overcapacity and are set to take over the planet. To discuss, we have ANU Professor Fengming Lu , who recently wrote a fantastic paper in The China Journal , titled The Rise of China&#8217;s Electric Vehicle Industry: Strategic Alliances Between Local Governments and Private Capital , alongside Irene Zhang, contributor and analyst at China Talk. We also get into the lessons this story holds for other strategic industries like robotics and AI &#8212; plus a little detour into the Chinese podcasting ecosystem. Our conversation covers: China&#8217;s automotive transformation from 130 small carmakers in the 1990s to the world&#8217;s most competitive EV industry. The rise of Chery, Geely, and other Chinese auto champions &#8212; how local connections, foreign technology, and creative financing helped them break into an industry dominated by state-owned enterprises. The downside of success &#8212; how China&#8217;s EV boom created an overcapacity problem. The role of guanxi and elite politics in deciding who gets to build cars. When Chinese EVs go global &#8212; record exports, overseas factories, trade tensions, and whether the same local-government playbook will shape the next wave of industries, from robotics to AI. Listen now on your favorite podcast app . Local Beginnings of the Chinese Auto Industry Irene Zhang: I had an amazing time reading your paper , and I found it incredibly interesting to learn the long history of how the global wave of Chinese EVs we&#8217;re seeing today actually came about. I&#8217;d like to start by hearing the story from your…",
+      "summary": "How did China grow its EV industry?",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "paper"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.66,
+      "whyThisMatters": ""
+    },
+    {
       "id": "fef782a65bd89802",
-      "date": "2026-08-17",
+      "date": "2026-08-18",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "ChinaTalk",
@@ -236,7 +378,7 @@
     },
     {
       "id": "2ccade3cccf34510",
-      "date": "2026-08-17",
+      "date": "2026-08-18",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "ChinaTalk",
@@ -285,6 +427,60 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "869df697a545536f",
+      "date": "2026-08-17",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "From assistance to execution: How enterprises put AI to work",
+      "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "publishedAt": "2026-08-12T06:00:00.000Z",
+      "content": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+      "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.8,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.63,
       "whyThisMatters": ""
     },
     {
@@ -2228,201 +2424,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.7,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d850985471f7bbc7",
-      "date": "2026-07-31",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "WarTalk: Ancient Greece Edition",
-      "url": "https://www.chinatalk.media/p/wartalk-ancient-greece-edition",
-      "publishedAt": "2026-07-26T11:32:33.000Z",
-      "content": "From Xi Jinping invoking the Thucydides Trap to Hegseth&#8217;s &#8220;high-T military&#8221; and love affair with 300, the modern security world keeps reaching back to classical Greece to explain itself. Usually badly. Our guest is Roel Konijnendijk, ancient history lecturer at the University of Oxford and author of Classical Greek Tactics: A Cultural History , joining Jordan, Justin, and Tony. We discuss&#8230; Why most scholars of Thucydides think there&#8217;s not much left of the &#8220;Thucydides Trap&#8221; once you take his name off it 300 and Gates of Fire as studies of masculinity: &#8220;It&#8217;s about the USMC in fancy dress&#8221; The counterintuitive reason Greek citizen-soldiers thought training for war was ridiculous Homeric gore, the slaughter of the suitors, and whether the Odyssey wants you to approve Achilles on immortality versus glory, and why this poem still keeps us arguing 2,700 years later Listen now on your favorite podcast app . Jordan Schneider: WarTalk, Ancient Greek edition. We have with us the delightful Roel Konijnendijk, professor at the University of Oxford. We talk about, my goodness, Graham Allison and the Thucydides Trap, 300 and how it pollutes teenage boys and defense secretaries&#8217; minds, Homer really liking blood, guts, and gore, and military ethics. This is a really good show. You guys are going to have a lot of fun. All right, let&#8217;s roll the tape. The Thucydides Trap Is Fake not happy getting appropriated by Graham Jordan Schneider: So how do ancient Greek historians today feel about Xi Jinping talking about this Thucydides Trap? Roel Konijnendijk: So the Thucydides Trap is an idea that was invented in 2017, I think, by Graham Allison. He&#8217;s not an ancient historian. So it&#8217;s one of those moments where on the one hand, okay, it&#8217;s great, everybody&#8217;s talking about Thucydides, surely that&#8217;s good. But on the other hand, it is in an extremely shallow way. I read Graham Allison&#8217;s bo…",
-      "summary": "Thucydides Trap, 300, and what the classics actually say about war",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "15430b6d34a022f8",
-      "date": "2026-07-30",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:thsottiaux",
-      "builderOrOrg": "Thibault Sottiaux",
-      "title": "More opensource goodness. We have just released a CLI and TypeScript SDK for finding, validatin…",
-      "url": "https://x.com/thsottiaux/status/2082241164850364555",
-      "publishedAt": "2026-07-28T23:05:54.000Z",
-      "content": "More opensource goodness. We have just released a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code. Scan repositories, review changes, track findings over time, and run security checks in CI. https://t.co/nkfTbw8p7b",
-      "summary": "More opensource goodness. We have just released a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code. Scan repositories, review changes, track findings over time, and run se…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 5812,
-        "retweets": 451,
-        "replies": 343
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "code",
-            "repo"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "finding"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.78,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.61,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "f9a3778b6f0257af",
-      "date": "2026-07-30",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "WarTalk: Groundhog Day in Iran, Rogue AI, Ukraine",
-      "url": "https://www.chinatalk.media/p/wartalk-groundhog-day-in-iran-rogue",
-      "publishedAt": "2026-07-24T17:10:54.000Z",
-      "content": "Five months into the Iran campaign, the US has two carrier strike groups parked in the Arabian Sea, a blockade that may take months to bite, and a daisy chain of tankers stretching thousands of miles because there is no longer any fuel or food to buy inside the Gulf. Now the Houthis have entered the chat and declared their own blockade of the Bab el-Mandeb. Just the OG crew with Bryan Clark, senior fellow at the Hudson Institute and a former submarine officer, a former special operations officer who works on defense technology, and . We discuss&#8230; What Trump is doing in Iran, why the Navy is short-cycling ships out of maintenance and what happened the last time the fleet ran this hot, from McCain and Fitzgerald to the Truman&#8217;s two collisions in one deployment Why a ground campaign in Iran is a fantasy , from the Marsh Arabs to the Alborz range to the Baluch salt flats, and what Shia militias in Iraq would do to the logistics tail The nuclear-powered cargo ship renaissance and why circumnavigating Africa at 30 knots suddenly pencils out Whether Congress should get an AI kill switch , why DHS is the wrong home for it, and what happens when the boy who cried wolf is finally right Ukraine&#8217;s civ-mil drama Listen now on your favorite podcast app . Iran Bryan Clark: So here we are, Groundhog Day in Iran. Just yesterday the Iranians apparently turned down some ceasefire offer from the United States. Who knows what that offer contained, but the Iranians have decided to refuse it, and the US responded with more strikes. So we&#8217;re continuing to attack targets, increasingly attacking infrastructure and power supplies and water supplies that might be considered civilian, but seem to have maybe some tangential use for the military. And with the IRGC being increasingly enmeshed in the population, it&#8217;s hard to tell what&#8217;s exactly a military target and what&#8217;s a civilian target in Iran . So now we&#8217;ve started another round of strikes. We a…",
-      "summary": "I guess we're doing this again...",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "deployment"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d2a7340d42ebb9a8",
-      "date": "2026-07-29",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:rauchg",
-      "builderOrOrg": "Guillermo Rauch",
-      "title": "In our latest https://t.co/p9AoezbuGt benchmarks, Grok 4.5 has emerged as the best cybersecurit…",
-      "url": "https://x.com/rauchg/status/2081852481517318560",
-      "publishedAt": "2026-07-27T21:21:25.000Z",
-      "content": "In our latest https://t.co/p9AoezbuGt benchmarks, Grok 4.5 has emerged as the best cybersecurity AI model on price-performance. It's 10x cheaper than Sol, 5.7x cheaper than Opus 5, and 2.2x cheaper than Kimi K3, yet at Kimi-like perf. Sol remains the frontier, ahead of Opus 5. https://t.co/kcSDIqnXsN",
-      "summary": "In our latest https://t.co/p9AoezbuGt benchmarks, Grok 4.5 has emerged as the best cybersecurity AI model on price-performance. It's 10x cheaper than Sol, 5.7x cheaper than Opus 5, and 2.2x cheaper than Kimi K3, yet at…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 622,
-        "retweets": 40,
-        "replies": 46
-      },
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "benchmark"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.78,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.61,
       "whyThisMatters": ""
     }
   ]

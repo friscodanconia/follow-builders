@@ -1,8 +1,476 @@
 {
-  "generatedAt": "2026-08-17T02:36:18.390Z",
+  "generatedAt": "2026-08-18T00:31:14.475Z",
   "slug": "fine-tuning",
   "label": "Custom AI",
   "items": [
+    {
+      "id": "1a8502c8028c1262",
+      "date": "2026-08-18",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:trq212",
+      "builderOrOrg": "Thariq",
+      "title": "it says a lot that the creators of three of the most iconic web frameworks: django (@simonw), f…",
+      "url": "https://x.com/trq212/status/2089085004966207679",
+      "publishedAt": "2026-08-16T20:20:53.000Z",
+      "content": "it says a lot that the creators of three of the most iconic web frameworks: django (@simonw), flask (@mitsuhiko) and rails (@dhh) were so AI pilled so early",
+      "summary": "it says a lot that the creators of three of the most iconic web frameworks: django (@simonw), flask (@mitsuhiko) and rails (@dhh) were so AI pilled so early",
+      "regionTags": [],
+      "metrics": {
+        "likes": 1630,
+        "retweets": 54,
+        "replies": 52
+      },
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "imo"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d6dba920727c3908",
+      "date": "2026-08-18",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "We ran evals on GLM 5.3 cybersecurity capabilities. It's the new open frontier. Given its lower…",
+      "url": "https://x.com/rauchg/status/2089126690043916495",
+      "publishedAt": "2026-08-16T23:06:31.000Z",
+      "content": "We ran evals on GLM 5.3 cybersecurity capabilities. It's the new open frontier. Given its lower costs, I expect this to be a boon for defensive security work. e.g., it means you can run https://t.co/KwrlahlCiK at least 3× more often! https://t.co/aCQDMoxAXI",
+      "summary": "We ran evals on GLM 5.3 cybersecurity capabilities. It's the new open frontier. Given its lower costs, I expect this to be a boon for defensive security work. e.g., it means you can run https://t.co/KwrlahlCiK at least…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 537,
+        "retweets": 27,
+        "replies": 31
+      },
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.78,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.86,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d2518d431cce10b9",
+      "date": "2026-08-18",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement",
+      "url": "https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement/",
+      "publishedAt": "2026-08-11T16:00:00.000Z",
+      "content": "Research Note: CARE-X is a research model and not a Microsoft product offering or medical device. It has not been cleared or approved by any regulatory authority and is not intended for clinical diagnosis, screening, or patient care. The results described below are retrospective research findings and do not establish the safety, effectiveness, or suitability of CARE-X for any clinical use. References to potential workflows describe areas for future research, not currently available capabilities or recommended uses.&nbsp; At a glance The challenge: Chest X-ray interpretation spans diverse tasks that require both expressive report generation and calibrated diagnostic predictions. CARE-X is a unified chest X-ray VLM for diverse clinical interpretation tasks. It combines generation and structured prediction to provide both free-text reasoning and deterministic outputs. CARE-X uses reinforcement learning (DAPO) to reward clinical correctness in a multi-task setting. In a separate research experiment from CARE-X, we paired Qwen3-VL-4B-Instruct with deterministic measurement tools to evaluate whether direct computation could improve performance on measurement-dependent conditions compared with visual approximation alone.&nbsp; Validated on real-world Indian clinical data from Narayana Health, including rare ICU pathologies and CT-confirmed enlargement conditions. What radiologists need: Task diversity, flexibility, and clinical fidelity A clinically useful radiology AI system must support a wide range of tasks, adapt to different workflows, and produce outputs that are medically accurate. Radiologists and other clinicians use chest X-rays for many different purposes. A clinically useful AI system must be able to support that range of tasks. It may be asked to generate detailed findings and concise impressions for a report, answer questions about the presence, absence, or location of a finding, identify medical devices and assess their placement, or pinpoint exactly where…",
+      "summary": "Radiology AI is evolving beyond report generation. CARE-X explores a unified approach that combines flexible reasoning, calibrated predictions, and measurement-based tools for chest X-ray interpretation. The post Introducing CARE-X: Toward…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "finding"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "vision",
+            "vlm"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "rl",
+            "reinforcement learning"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "eaa3efb0e331df59",
+      "date": "2026-08-18",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Import AI",
+      "sourceKey": "editorial:Import AI",
+      "builderOrOrg": "Jack Clark",
+      "title": "Import AI 469: Science AI; RSI simulator; and Zuck&#8217;s technological pessimism",
+      "url": "https://jack-clark.net/2026/08/17/import-ai-469-science-ai-rsi-simulator-and-zucks-technological-pessimism/",
+      "publishedAt": "2026-08-17T13:05:36.000Z",
+      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now DiG-bench shows that Fable displays some creative intuition: …The new frontier for analyzing AI systems is understanding how good they are at inferring the unwritten rules of their environment… How well can AI systems figure out the rules of their environment through exploration and curiosity, versus being fed them? That’s an important question for better understanding the intuitive and creative capabilities of AI systems and it’s one being asked by DiG-bench (Discovery in Games), a new benchmark of 70 games “designed to map the surface of discovery in well-controlled interactive systems”. Similar to the visual ‘ARC’ game, in DiG-bench “each game is a self-contained miniature world with its own laws, but both the rules and the objective are hidden from the player and must be uncovered through interaction”. You can play some of the games yourself online to get a feel for them at the official project website ( digbench.ai ). The key thing this is measuring is the ability for players to spot the important mechanics that determine their success &#8211; basically, by playing around with the games you get a sense for how your actions change the environment and through this you also uncover mechanics that you must understand to succeed at the game. The idea is that if you can solve these games you have a decent ability to spot important information in novel environments and update your priors. Who did the research: The authors come from Thinking About Thinking, University of Oxford, Princeton University, King Abdullah University of Science and Technology, Swiss AI Lab, Inria, MIT. One of the authors is Juergen Schmidhuber, an extremely creative OG AI researcher. Key facts: Purely text-based: The games are basically native to language models. They are also mostly “short enough that most traces…",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now DiG-bench shows that Fable displays some creative intuiti…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "benchmark"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "828eee6ed28ff901",
+      "date": "2026-08-18",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
+      "url": "https://www.latent.space/p/flue-2",
+      "publishedAt": "2026-08-15T15:46:22.000Z",
+      "content": "Agent frameworks for developers are still at an early stage, with the likes of Vercel&#8217;s eve and Fred Schott&#8217;s Flue &#8212; both launched this year &#8212; setting the early template. Schott is the creator of the web framework Astro, which led to his company being acquired by Cloudflare in January. He&#8217;s just released version 2 of Flue , its first stable release, which has as its foundation React-style &#8220;Agent Hooks.&#8221; In Flue, an agent is represented by a JavaScript function. This function &#8220; re-renders on every turn ,&#8221; meaning before every model call. The addition of hooks came after Schott realized that React&#8217;s composability would be a great fit for agent development. &#8220;I originally tweeted that we were building the Astro for agents or the Next.js for agents, &#8221; he told us. &#8220; But then I realized: maybe no one has even built the React for agents . &#8221; Editor&#8217;s Note: we last talked about the React for Agents with Bret Taylor, CEO of Sierra and Chairman of OpenAI : &#8220;We&#8217;re still trying to figure out who the reactive agents are and the jury is still out&#8230; We&#8217;re sort of in the jQuery era of agents, not the react era.&#8221; Hooks are authored in TypeScript. According to the Flue 2 launch post , they &#8220;let you build dynamic agents that can manage their own state, listen to agent lifecycle events, and even attach different resources and capabilities dynamically to enhance themselves at runtime.&#8221; There are 16 built-in hooks in Flue 2, including useSkill(), useTool(), useSubagent(). You can also add custom hooks. How Flue evolved via React-style hooks; diagram by Richard MacManus What hooks open up for developers is that they make an agent much more dynamic, by allowing its configuration to change as a conversation or workflow progresses. Schott said this is needed to build &#8220;real support bots, real triage bots,&#8221; because they can&#8217;t be fully configured in…",
+      "summary": "Flue 2 takes its inspiration from React. Creator Fred Schott, of Astro fame, tells Latent Space why he added hooks and why agents are defined by their harnesses.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "developer"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "1e85feaba47deeb2",
+      "date": "2026-08-18",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] SpaceXAI Grok 4.6 and Grok @Bot",
+      "url": "https://www.latent.space/p/ainews-spacexai-grok-46-and-grok",
+      "publishedAt": "2026-08-13T01:53:47.000Z",
+      "content": "One of our top recurring themes of the year has been coding agents breaking containment into knowledge work , and it&#8217;s clear that the AI teammate/multiplayer/multiagent space is the next big AI battleground. With Claude Tag launching to mixed reviews and Block&#8217;s Buzz requiring a more technical user, the space was still open for a new category leader, which the now Cursor&#8594;SpaceX team has adroitly shipped to very positive reviews : This is powered by their newest model, Grok 4.6, released today as arguably the second best knowledge work model in the world (as both competitor Cognition and Elon acknowledges )&#8230; though it is surely the top by efficiency : Grok 4.6 is a confirmed 1.5T model that &#8220; builds on Grok 4.5 with a particular focus on long-running agents and more ambitious interactive and visual work&#8221;. The only training disclosure can be reproduced in full (emphasis ours): Grok 4.6 underwent a longer supplemental training run than Grok 4.5, with curated model-generated data for reasoning and advanced technical concepts , high-quality engineering data, and an improved optimizer and training recipe . This produced a stronger foundation for the SFT and RL stages that followed. We then used Grok 4.5 to regenerate the SFT trajectories across reasoning efforts, agent harnesses, and domains such as STEM, software engineering, and knowledge work, and filtered out problematic traces with model-based checks. The resulting SFT checkpoint shows strong performance and improved behavior. Grok 4.6 is trained on a wide range of agentic RL tasks, including knowledge work, general coding, and domain-specific environments for kernel optimization, web development, computer-aided design , and more. It is currently unclear if the lack of sandbox escape incidents when it came to training Grok 4.6 is a testament to their infra engineers or an indictment of their researchers. (that is a joke about current events, don&#8217;t get mad) AI News for 8/11/2…",
+      "summary": "AI teammate category just had its most significant new entrant yet",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "sft",
+            "rl"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "30a17cb70e146bf0",
+      "date": "2026-08-18",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "The Rise of China’s Electric Vehicle Industry",
+      "url": "https://www.chinatalk.media/p/the-rise-of-chinas-electric-vehicle",
+      "publishedAt": "2026-08-17T10:08:23.000Z",
+      "content": "How did China grow its EV industry? Hint: it wasn&#8217;t really central planning from Beijing. It was a magical concoction of entrepreneurs and local officials using their guanxi to dance around giant SOEs and central-government regulation, leverage private and foreign capital, and just be really excellent business people. That&#8217;s led to our situation in 2026 &#8212; world-beating companies that have a ton of overcapacity and are set to take over the planet. To discuss, we have ANU Professor Fengming Lu , who recently wrote a fantastic paper in The China Journal , titled The Rise of China&#8217;s Electric Vehicle Industry: Strategic Alliances Between Local Governments and Private Capital , alongside Irene Zhang, contributor and analyst at China Talk. We also get into the lessons this story holds for other strategic industries like robotics and AI &#8212; plus a little detour into the Chinese podcasting ecosystem. Our conversation covers: China&#8217;s automotive transformation from 130 small carmakers in the 1990s to the world&#8217;s most competitive EV industry. The rise of Chery, Geely, and other Chinese auto champions &#8212; how local connections, foreign technology, and creative financing helped them break into an industry dominated by state-owned enterprises. The downside of success &#8212; how China&#8217;s EV boom created an overcapacity problem. The role of guanxi and elite politics in deciding who gets to build cars. When Chinese EVs go global &#8212; record exports, overseas factories, trade tensions, and whether the same local-government playbook will shape the next wave of industries, from robotics to AI. Listen now on your favorite podcast app . Local Beginnings of the Chinese Auto Industry Irene Zhang: I had an amazing time reading your paper , and I found it incredibly interesting to learn the long history of how the global wave of Chinese EVs we&#8217;re seeing today actually came about. I&#8217;d like to start by hearing the story from your…",
+      "summary": "How did China grow its EV industry?",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "paper"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.66,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "9bbe7a5c432cef59",
+      "date": "2026-08-18",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "China's Best Music in 2026 (So Far)",
+      "url": "https://www.chinatalk.media/p/chinas-best-music-in-2026-so-far",
+      "publishedAt": "2026-08-14T10:29:35.000Z",
+      "content": "Jake Newby is the author of the Concrete Avalanche Substack , which covers the best music coming out of China. If you enjoy this playlist, check out Jake&#8217;s sets from 2025 , 2024 , and 2023 , as well as his Chinese shoegaze feature . Check out the full podcast below, or on non-Spotify podcast platforms here . 1. &#8216;Undercurrent&#8217; &#8212; Pu Poo Platter &#8212; from Undercurrent This EP features four fun tracks of funked-up, globally influenced jazz from a Brooklyn-formed band who are really finding their rhythm. They make infectious music with a strong sense of joy throughout. Alas, not everyone&#8217;s a fan &#8212; watch the video below where Pu Poo Platter get into trouble with the po-po for livestreaming a set on a Shanghai street. ChinaTalk is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber. 2. &#8216;&#24551;&#37057;&#24178;&#26479;&#20048;&#22253;&#8217; &#8212; the three mice &#8212; from where is my mice? Building on their explosive eponymouse record from 2024, Shenzhen emo / indie-rock act the three mice return with what they&#8217;re calling their first album proper. where is my mice? brings a similarly febrile energy (it even includes a reworking of one of those older tracks) and once again showcases the band&#8217;s intelligence in knowing when to let things get a little messy and when to pull back and allow their sense of melody and songwriting craft to shine through. It&#8217;s a delight. Grab it now while it&#8217;s pay-what-you-want on Bandcamp. 3. &#8216;&#38169;&#36807;&#30340;&#25552;&#37266;&#8217; &#8212; Lygort Quartet &#8212; from Through Voodoo Light to Shore of Tomorrow What do you do when your pioneering post-punk band no longer wants to make post-punk? Form another band, of course. Three-quarters of Chinese post-punk godfathers PK14 have been involved in a variation of the Lygort bands so far, with the latest &#8212; the Lygort Quartet &#8212; still featu…",
+      "summary": "Jake Newby is the author of the Concrete Avalanche Substack, which covers the best music coming out of China.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "publication",
+            "finding"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "video"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "9c12f562de07f335",
+      "date": "2026-08-18",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "The DeepSeek Thesis",
+      "url": "https://www.chinatalk.media/p/the-deepseek-thesis",
+      "publishedAt": "2026-08-13T10:19:25.000Z",
+      "content": "What does Liang Wenfeng want? The CEO of DeepSeek is now richer than either Dario Amodei or Sam Altman. Backed by his careful watch and the immense wealth of his hedge fund, a little-known group of researchers in Hangzhou has managed to consistently command the world&#8217;s attention &#8212; and they keep giving their work away for free. The motivations behind Liang&#8217;s theory of action have puzzled China+AI watchers since the beginning. In late July, leaked minutes from a four-hour meeting between Liang and investors circulated around the internet. Like everyone else, we&#8217;ve been pouring over the minutes to understand Liang the CEO, DeepSeek the company, and Liang the man. Liang comes off as a genuinely unusual character among China&#8217;s tech elite: a person who sincerely holds a specific and highly personalized worldview, if not an entire ideology. Whereas others in his walk of life are highly attuned to commercial trends and political winds, he positions himself as squarely focused on realizing his vision for technology &#8212; and it&#8217;s hard to doubt his conviction when he has invested so much of his literal worth into this quest. ChinaTalk is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber. His is a confidently singular thesis: that there is an inevitable causal relationship between automated learning and generalized intelligence, and that the pursuit of such advanced machine intelligence is the only problem worth solving right now. Being Chinese means working within the constraints of current hardware limitations, but DeepSeek frames their own ambitions on a much farther horizon. Whether or not they can, of course, might not be up to them. At ChinaTalk, we&#8217;ve been covering the DeepSeek story since before R1 . The following are our thoughts and observations after reading the leaked minutes. We get into: How Chinese open models work as a business model; Why, according…",
+      "summary": "a very different kind of guy",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "publication"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "vision"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
     {
       "id": "61a6f0a7960e13a6",
       "date": "2026-08-17",
@@ -93,270 +561,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d2518d431cce10b9",
-      "date": "2026-08-17",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement",
-      "url": "https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement/",
-      "publishedAt": "2026-08-11T16:00:00.000Z",
-      "content": "Research Note: CARE-X is a research model and not a Microsoft product offering or medical device. It has not been cleared or approved by any regulatory authority and is not intended for clinical diagnosis, screening, or patient care. The results described below are retrospective research findings and do not establish the safety, effectiveness, or suitability of CARE-X for any clinical use. References to potential workflows describe areas for future research, not currently available capabilities or recommended uses.&nbsp; At a glance The challenge: Chest X-ray interpretation spans diverse tasks that require both expressive report generation and calibrated diagnostic predictions. CARE-X is a unified chest X-ray VLM for diverse clinical interpretation tasks. It combines generation and structured prediction to provide both free-text reasoning and deterministic outputs. CARE-X uses reinforcement learning (DAPO) to reward clinical correctness in a multi-task setting. In a separate research experiment from CARE-X, we paired Qwen3-VL-4B-Instruct with deterministic measurement tools to evaluate whether direct computation could improve performance on measurement-dependent conditions compared with visual approximation alone.&nbsp; Validated on real-world Indian clinical data from Narayana Health, including rare ICU pathologies and CT-confirmed enlargement conditions. What radiologists need: Task diversity, flexibility, and clinical fidelity A clinically useful radiology AI system must support a wide range of tasks, adapt to different workflows, and produce outputs that are medically accurate. Radiologists and other clinicians use chest X-rays for many different purposes. A clinically useful AI system must be able to support that range of tasks. It may be asked to generate detailed findings and concise impressions for a report, answer questions about the presence, absence, or location of a finding, identify medical devices and assess their placement, or pinpoint exactly where…",
-      "summary": "Radiology AI is evolving beyond report generation. CARE-X explores a unified approach that combines flexible reasoning, calibrated predictions, and measurement-based tools for chest X-ray interpretation. The post Introducing CARE-X: Toward…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "finding"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.69,
-          "rationale": [
-            "vision",
-            "vlm"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.69,
-          "rationale": [
-            "rl",
-            "reinforcement learning"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "828eee6ed28ff901",
-      "date": "2026-08-17",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
-      "url": "https://www.latent.space/p/flue-2",
-      "publishedAt": "2026-08-15T15:46:22.000Z",
-      "content": "Agent frameworks for developers are still at an early stage, with the likes of Vercel&#8217;s eve and Fred Schott&#8217;s Flue &#8212; both launched this year &#8212; setting the early template. Schott is the creator of the web framework Astro, which led to his company being acquired by Cloudflare in January. He&#8217;s just released version 2 of Flue , its first stable release, which has as its foundation React-style &#8220;Agent Hooks.&#8221; In Flue, an agent is represented by a JavaScript function. This function &#8220; re-renders on every turn ,&#8221; meaning before every model call. The addition of hooks came after Schott realized that React&#8217;s composability would be a great fit for agent development. &#8220;I originally tweeted that we were building the Astro for agents or the Next.js for agents, &#8221; he told us. &#8220; But then I realized: maybe no one has even built the React for agents . &#8221; Editor&#8217;s Note: we last talked about the React for Agents with Bret Taylor, CEO of Sierra and Chairman of OpenAI : &#8220;We&#8217;re still trying to figure out who the reactive agents are and the jury is still out&#8230; We&#8217;re sort of in the jQuery era of agents, not the react era.&#8221; Hooks are authored in TypeScript. According to the Flue 2 launch post , they &#8220;let you build dynamic agents that can manage their own state, listen to agent lifecycle events, and even attach different resources and capabilities dynamically to enhance themselves at runtime.&#8221; There are 16 built-in hooks in Flue 2, including useSkill(), useTool(), useSubagent(). You can also add custom hooks. How Flue evolved via React-style hooks; diagram by Richard MacManus What hooks open up for developers is that they make an agent much more dynamic, by allowing its configuration to change as a conversation or workflow progresses. Schott said this is needed to build &#8220;real support bots, real triage bots,&#8221; because they can&#8217;t be fully configured in…",
-      "summary": "Flue 2 takes its inspiration from React. Creator Fred Schott, of Astro fame, tells Latent Space why he added hooks and why agents are defined by their harnesses.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "developer"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "1e85feaba47deeb2",
-      "date": "2026-08-17",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] SpaceXAI Grok 4.6 and Grok @Bot",
-      "url": "https://www.latent.space/p/ainews-spacexai-grok-46-and-grok",
-      "publishedAt": "2026-08-13T01:53:47.000Z",
-      "content": "One of our top recurring themes of the year has been coding agents breaking containment into knowledge work , and it&#8217;s clear that the AI teammate/multiplayer/multiagent space is the next big AI battleground. With Claude Tag launching to mixed reviews and Block&#8217;s Buzz requiring a more technical user, the space was still open for a new category leader, which the now Cursor&#8594;SpaceX team has adroitly shipped to very positive reviews : This is powered by their newest model, Grok 4.6, released today as arguably the second best knowledge work model in the world (as both competitor Cognition and Elon acknowledges )&#8230; though it is surely the top by efficiency : Grok 4.6 is a confirmed 1.5T model that &#8220; builds on Grok 4.5 with a particular focus on long-running agents and more ambitious interactive and visual work&#8221;. The only training disclosure can be reproduced in full (emphasis ours): Grok 4.6 underwent a longer supplemental training run than Grok 4.5, with curated model-generated data for reasoning and advanced technical concepts , high-quality engineering data, and an improved optimizer and training recipe . This produced a stronger foundation for the SFT and RL stages that followed. We then used Grok 4.5 to regenerate the SFT trajectories across reasoning efforts, agent harnesses, and domains such as STEM, software engineering, and knowledge work, and filtered out problematic traces with model-based checks. The resulting SFT checkpoint shows strong performance and improved behavior. Grok 4.6 is trained on a wide range of agentic RL tasks, including knowledge work, general coding, and domain-specific environments for kernel optimization, web development, computer-aided design , and more. It is currently unclear if the lack of sandbox escape incidents when it came to training Grok 4.6 is a testament to their infra engineers or an indictment of their researchers. (that is a joke about current events, don&#8217;t get mad) AI News for 8/11/2…",
-      "summary": "AI teammate category just had its most significant new entrant yet",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.69,
-          "rationale": [
-            "sft",
-            "rl"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "9bbe7a5c432cef59",
-      "date": "2026-08-17",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "China's Best Music in 2026 (So Far)",
-      "url": "https://www.chinatalk.media/p/chinas-best-music-in-2026-so-far",
-      "publishedAt": "2026-08-14T10:29:35.000Z",
-      "content": "Jake Newby is the author of the Concrete Avalanche Substack , which covers the best music coming out of China. If you enjoy this playlist, check out Jake&#8217;s sets from 2025 , 2024 , and 2023 , as well as his Chinese shoegaze feature . Check out the full podcast below, or on non-Spotify podcast platforms here . 1. &#8216;Undercurrent&#8217; &#8212; Pu Poo Platter &#8212; from Undercurrent This EP features four fun tracks of funked-up, globally influenced jazz from a Brooklyn-formed band who are really finding their rhythm. They make infectious music with a strong sense of joy throughout. Alas, not everyone&#8217;s a fan &#8212; watch the video below where Pu Poo Platter get into trouble with the po-po for livestreaming a set on a Shanghai street. ChinaTalk is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber. 2. &#8216;&#24551;&#37057;&#24178;&#26479;&#20048;&#22253;&#8217; &#8212; the three mice &#8212; from where is my mice? Building on their explosive eponymouse record from 2024, Shenzhen emo / indie-rock act the three mice return with what they&#8217;re calling their first album proper. where is my mice? brings a similarly febrile energy (it even includes a reworking of one of those older tracks) and once again showcases the band&#8217;s intelligence in knowing when to let things get a little messy and when to pull back and allow their sense of melody and songwriting craft to shine through. It&#8217;s a delight. Grab it now while it&#8217;s pay-what-you-want on Bandcamp. 3. &#8216;&#38169;&#36807;&#30340;&#25552;&#37266;&#8217; &#8212; Lygort Quartet &#8212; from Through Voodoo Light to Shore of Tomorrow What do you do when your pioneering post-punk band no longer wants to make post-punk? Form another band, of course. Three-quarters of Chinese post-punk godfathers PK14 have been involved in a variation of the Lygort bands so far, with the latest &#8212; the Lygort Quartet &#8212; still featu…",
-      "summary": "Jake Newby is the author of the Concrete Avalanche Substack, which covers the best music coming out of China.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "publication",
-            "finding"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "video"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "9c12f562de07f335",
-      "date": "2026-08-17",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "The DeepSeek Thesis",
-      "url": "https://www.chinatalk.media/p/the-deepseek-thesis",
-      "publishedAt": "2026-08-13T10:19:25.000Z",
-      "content": "What does Liang Wenfeng want? The CEO of DeepSeek is now richer than either Dario Amodei or Sam Altman. Backed by his careful watch and the immense wealth of his hedge fund, a little-known group of researchers in Hangzhou has managed to consistently command the world&#8217;s attention &#8212; and they keep giving their work away for free. The motivations behind Liang&#8217;s theory of action have puzzled China+AI watchers since the beginning. In late July, leaked minutes from a four-hour meeting between Liang and investors circulated around the internet. Like everyone else, we&#8217;ve been pouring over the minutes to understand Liang the CEO, DeepSeek the company, and Liang the man. Liang comes off as a genuinely unusual character among China&#8217;s tech elite: a person who sincerely holds a specific and highly personalized worldview, if not an entire ideology. Whereas others in his walk of life are highly attuned to commercial trends and political winds, he positions himself as squarely focused on realizing his vision for technology &#8212; and it&#8217;s hard to doubt his conviction when he has invested so much of his literal worth into this quest. ChinaTalk is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber. His is a confidently singular thesis: that there is an inevitable causal relationship between automated learning and generalized intelligence, and that the pursuit of such advanced machine intelligence is the only problem worth solving right now. Being Chinese means working within the constraints of current hardware limitations, but DeepSeek frames their own ambitions on a much farther horizon. Whether or not they can, of course, might not be up to them. At ChinaTalk, we&#8217;ve been covering the DeepSeek story since before R1 . The following are our thoughts and observations after reading the leaked minutes. We get into: How Chinese open models work as a business model; Why, according…",
-      "summary": "a very different kind of guy",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "publication"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "vision"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -2107,187 +2311,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a18679943695f946",
-      "date": "2026-08-04",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:nikunj",
-      "builderOrOrg": "Nikunj Kothari",
-      "title": "What a wild world we’re living through. I wrote about the Series A squeeze recently. Here’s wha…",
-      "url": "https://x.com/nikunj/status/2083873335998333227",
-      "publishedAt": "2026-08-02T11:11:34.000Z",
-      "content": "What a wild world we’re living through. I wrote about the Series A squeeze recently. Here’s what else I’m seeing from my seat on the investing side.. 1) VC has effectively fully become vibes capital. The market reality at the early-mid stage is completely divorced from fundamentals. I can go longer with even a resemblance of a straight face predict what happens to a company when they go to fund raise. Some rounds are insanely wild with nothing to show, some rounds that seem like a sure shot are…",
-      "summary": "What a wild world we’re living through. I wrote about the Series A squeeze recently. Here’s what else I’m seeing from my seat on the investing side.. 1) VC has effectively fully become vibes capital. The market reality…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 372,
-        "retweets": 21,
-        "replies": 25
-      },
-      "topics": [
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "55b50dd7dabbad1c",
-      "date": "2026-08-04",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:steipete",
-      "builderOrOrg": "Peter Steinberger",
-      "title": "That's a fairly new kind of spam. https://t.co/nwdRM5e7Hv https://t.co/7hXqYZnanw",
-      "url": "https://x.com/steipete/status/2083976289485230449",
-      "publishedAt": "2026-08-02T18:00:40.000Z",
-      "content": "That's a fairly new kind of spam. https://t.co/nwdRM5e7Hv https://t.co/7hXqYZnanw",
-      "summary": "That's a fairly new kind of spam. https://t.co/nwdRM5e7Hv https://t.co/7hXqYZnanw",
-      "regionTags": [],
-      "metrics": {
-        "likes": 271,
-        "retweets": 7,
-        "replies": 39
-      },
-      "topics": [
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "46a5f3a9b0345d5c",
-      "date": "2026-08-04",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "Training Data",
-      "sourceKey": "podcast:Training Data",
-      "builderOrOrg": "Training Data",
-      "title": "Building the Automated AGI Lab: Core Automation's Jerry Tworek and Rohan Anil",
-      "url": "https://www.youtube.com/watch?v=2RJiaf0SY8s",
-      "publishedAt": "2026-07-29T09:00:00.000Z",
-      "content": "Speaker 1 | 00:00 - 00:29 If I play football, for example, it looks very, very closely to reinforcement learning. I kick a ball a lot of times, and every time I adjust it a little bit and I see if it roughly matches what I what I wanted and either there's some self reinforcement happening. When I learn mathematics, it's very different type of thing. It's it's like reading about hard concepts and thinking about them very deeply inside my head until things click and until until have them connected. And both of those in some way are learning from experience. Speaker 1 | 00:29 - 00:43 They are just very different. We probably are spending the most compute crap than ever on learning from experience, but learn reinforcement learning is is not the end of learning from experience. And there will be better approaches that researchers will be coming up in the coming years on how to how to use that data. Speaker 2 | 01:00 - 01:35 Jerry, Rohan, thank you so much for joining us today. The two of you are the founders of Core Automation, one of the hottest neo labs in San Francisco right now. And before starting Core Automation, you led some of the most important research projects of the AI era. Jerry, you were VP at OpenAI, where you worked amongst other things on running the strawberry and reasonings teams. And Rohan, you were one of two of the four pre training leads at Gemini, and before that led a lot of the fundamental AI research at Google Brain and were the fix it guy across Google and then at Anthropic. Speaker 2 | 01:35 - 01:55 And so between the two of you, you've seen more than your fair share of what the world looks like in terms of doing frontier research. And so I'm very, very excited to dig in. Let's start with you, Jerry. You tweeted a very spicy take recently. The first step to replacing transformers is appreciating deeply how far they were able to carry us. Speaker 2 | 01:55 - 01:57 Is that a eulogy for the transformer? What does that mean? Speaker 1 | 01:57 - 02:17 Thank you very much for inviting us here, Sonya. I feel like a lot of my interviews these days is explaining my tweets and what did I what did I mean. But Appreciating transformer means, like, understanding what it does well. So you are not solving the problems that it is solving well. You have to focus on its on its weaknesses. Speaker 1 | 02:17 - 02:47 You have to you have to understand good parts and bad parts, and it's very easy in a lot of the work what people are doing in architectures is trying to make transformers cheaper and trying to make transformer more efficient. I I very rarely see people thinking about how do we make transformers more powerful, trying to do more expressive. But but, like, seeing someone weak parts and seeing someone strong parts are almost almost almost the same thing. It's just just understanding the shape of transformer a little bit more. Well, I think right now we are in this stage. Speaker 1 | 02:47 - 03:10 We got really, really good at training really, really big models. We mastered two algorithms. We mastered pre training at a large scale, and we mastered reinforcement learning at a large scale. And I'm asking myself a lot what is next in machine learning. And I think at this moment, what the bottleneck is to better models and to smarter systems is the architecture itself. Speaker 1 | 03:10 - 04:02 It is this moment to revisit the train we've been riding for the last six years of trying to add more and more parameters to essentially two of the same operations, which is MOE and and attention. And when I am when I'm thinking about it, like, what's what like, where we are today and what we are doing, I am thinking a lot about about, like, what codex and what cloud code are doing for us. And I'm really, really appreciative of those systems and of the coding and of the workflow automation and of the systems of the products that we have today that we essentially have built over those those six years of scale. And I think I think…",
-      "summary": "Speaker 1 | 00:00 - 00:29 If I play football, for example, it looks very, very closely to reinforcement learning. I kick a ball a lot of times, and every time I adjust it a little bit and I see if it roughly matches what I what I wanted an…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.69,
-          "rationale": [
-            "rl",
-            "reinforcement learning"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.52,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.44,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "abf882c3ab9b59a2",
-      "date": "2026-08-04",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Investigating three real-world incidents in our cybersecurity evaluations \\ Anthropic",
-      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
-      "publishedAt": null,
-      "content": "In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access…",
-      "summary": "In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "eval",
-            "evaluation"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
       "whyThisMatters": ""
     }
   ]
