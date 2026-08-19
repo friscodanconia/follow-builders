@@ -1,8 +1,54 @@
 {
-  "generatedAt": "2026-08-17T02:36:18.390Z",
+  "generatedAt": "2026-08-19T00:31:30.949Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
+    {
+      "id": "e04dfa33a243c832",
+      "date": "2026-08-19",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:nikunj",
+      "builderOrOrg": "Nikunj Kothari",
+      "title": "the models have no moat (OpenAI, Anthropic, XAI) the IDEs have no moat (Cursor, Windsurf) the h…",
+      "url": "https://x.com/nikunj/status/2089486802356961364",
+      "publishedAt": "2026-08-17T22:57:29.000Z",
+      "content": "the models have no moat (OpenAI, Anthropic, XAI) the IDEs have no moat (Cursor, Windsurf) the harnesses have no moat (Cognition, Factory, LangChain) the app builders have no moat (Replit, Lovable, Bolt) the wrappers have no moat (Harvey, Abridge, OpenEvidence) the inference providers have no moat (Together, Fireworks, Groq) the voice layer has no moat (Sierra, Decagon, ElevenLabs) the data labeling companies have no moat (Scale, Surge, Mercor) the AI infrastructure has no moat (Baseten, Modal,…",
+      "summary": "the models have no moat (OpenAI, Anthropic, XAI) the IDEs have no moat (Cursor, Windsurf) the harnesses have no moat (Cognition, Factory, LangChain) the app builders have no moat (Replit, Lovable, Bolt) the wrappers hav…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 1483,
+        "retweets": 84,
+        "replies": 154
+      },
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "voice"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
     {
       "id": "014628b13ec3ad24",
       "date": "2026-08-17",
@@ -2283,61 +2329,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "67847185ccd9d252",
-      "date": "2026-06-09",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Together AI Blog",
-      "sourceKey": "official:Together AI Blog",
-      "builderOrOrg": "Together AI",
-      "title": "Serving MiniMax-M3 for efficient inference: Unlocking 1M-Token Context and Multimodality Without Regrets",
-      "url": "https://www.together.ai/blog/serving-minimax-m3-for-efficient-inference-unlocking-1m-token-context-and-multimodality-without-regrets",
-      "publishedAt": "2026-06-02T00:00:00.000Z",
-      "content": "How Together served MiniMax-M3 efficiently with KV-block-major sparse attention, paged MSA decode, optimized index scoring, and a Rust-based multimodal gateway.",
-      "summary": "How Together served MiniMax-M3 efficiently with KV-block-major sparse attention, paged MSA decode, optimized index scoring, and a Rust-based multimodal gateway.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.81,
-          "rationale": [
-            "inference",
-            "serving",
-            "sparse attention"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "multimodal"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     }
   ]

@@ -1,57 +1,48 @@
 {
-  "generatedAt": "2026-08-18T02:31:21.630Z",
+  "generatedAt": "2026-08-19T00:31:30.949Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
     {
-      "id": "1a8502c8028c1262",
-      "date": "2026-08-18",
+      "id": "f90c09e9889145a7",
+      "date": "2026-08-19",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:trq212",
-      "builderOrOrg": "Thariq",
-      "title": "it says a lot that the creators of three of the most iconic web frameworks: django (@simonw), f…",
-      "url": "https://x.com/trq212/status/2089085004966207679",
-      "publishedAt": "2026-08-16T20:20:53.000Z",
-      "content": "it says a lot that the creators of three of the most iconic web frameworks: django (@simonw), flask (@mitsuhiko) and rails (@dhh) were so AI pilled so early",
-      "summary": "it says a lot that the creators of three of the most iconic web frameworks: django (@simonw), flask (@mitsuhiko) and rails (@dhh) were so AI pilled so early",
+      "sourceKey": "x:realmadhuguru",
+      "builderOrOrg": "Madhu Guru",
+      "title": "The best way to get good at evals is to take a workflow you know really well and figure out how…",
+      "url": "https://x.com/realmadhuguru/status/2089480958571331623",
+      "publishedAt": "2026-08-17T22:34:15.000Z",
+      "content": "The best way to get good at evals is to take a workflow you know really well and figure out how to make its quality measurable. Study the actual traces - the sequence of prompts typical users have, what good responses would look like at each step and for the end to end outcome. Study where your product fails and create traces that capture them - messy tool call responses, missing context etc. Once you have a good eval, think about how you would make it easy to run repeatedly and automatically.…",
+      "summary": "The best way to get good at evals is to take a workflow you know really well and figure out how to make its quality measurable. Study the actual traces - the sequence of prompts typical users have, what good responses w…",
       "regionTags": [],
       "metrics": {
-        "likes": 1630,
-        "retweets": 54,
-        "replies": 52
+        "likes": 198,
+        "retweets": 8,
+        "replies": 18
       },
       "topics": [
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        },
         {
           "slug": "benchmarks",
           "label": "AI Testing",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "imo"
+            "eval"
           ],
           "score": 1
         }
       ],
       "section": "Builders",
       "importanceScore": 0.7,
-      "noveltyScore": 0.3,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.56,
+      "digestScore": 0.8,
       "whyThisMatters": ""
     },
     {
       "id": "a19bcdf70ad4d74a",
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Microsoft Research Blog",
@@ -110,7 +101,7 @@
     },
     {
       "id": "eaa3efb0e331df59",
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Import AI",
@@ -162,7 +153,7 @@
     },
     {
       "id": "059debe2a454c425",
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -213,6 +204,52 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "1a8502c8028c1262",
+      "date": "2026-08-18",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:trq212",
+      "builderOrOrg": "Thariq",
+      "title": "it says a lot that the creators of three of the most iconic web frameworks: django (@simonw), f…",
+      "url": "https://x.com/trq212/status/2089085004966207679",
+      "publishedAt": "2026-08-16T20:20:53.000Z",
+      "content": "it says a lot that the creators of three of the most iconic web frameworks: django (@simonw), flask (@mitsuhiko) and rails (@dhh) were so AI pilled so early",
+      "summary": "it says a lot that the creators of three of the most iconic web frameworks: django (@simonw), flask (@mitsuhiko) and rails (@dhh) were so AI pilled so early",
+      "regionTags": [],
+      "metrics": {
+        "likes": 1630,
+        "retweets": 54,
+        "replies": 52
+      },
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "imo"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
@@ -2453,52 +2490,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4f9e1ee3f1931b56",
-      "date": "2026-07-09",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:realmadhuguru",
-      "builderOrOrg": "Madhu Guru",
-      "title": "true. let’s unpack this..people think data and evals are low skill, grunt work that you can jus…",
-      "url": "https://x.com/realmadhuguru/status/2074734468854899191",
-      "publishedAt": "2026-07-08T05:56:58.000Z",
-      "content": "true. let’s unpack this..people think data and evals are low skill, grunt work that you can just buy and stuff into models. in practice, the model lifecycle looks something like model strategy -> evals -> pre/post training/rl aligned to evals -> GTM. like any product strategy, you need strong opinions up front but it is 100x harder because of the allure of building an LLM that is great at everything. the next challenge is staying focused on the target eval sets throughout the model build throug…",
-      "summary": "true. let’s unpack this..people think data and evals are low skill, grunt work that you can just buy and stuff into models. in practice, the model lifecycle looks something like model strategy -> evals -> pre/post train…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 11,
-        "retweets": 0,
-        "replies": 0
-      },
-      "topics": [
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "eval"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.59,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.49,
       "whyThisMatters": ""
     }
   ]
