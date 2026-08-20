@@ -1,8 +1,408 @@
 {
-  "generatedAt": "2026-08-19T02:33:56.239Z",
+  "generatedAt": "2026-08-20T00:30:56.045Z",
   "slug": "fine-tuning",
   "label": "Custom AI",
   "items": [
+    {
+      "id": "d338158353988ce1",
+      "date": "2026-08-20",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:sama",
+      "builderOrOrg": "Sam Altman",
+      "title": "We have paused some frontier RL training to ensure that we can meet the appropriate alignment,…",
+      "url": "https://x.com/sama/status/2089787807611195475",
+      "publishedAt": "2026-08-18T18:53:34.000Z",
+      "content": "We have paused some frontier RL training to ensure that we can meet the appropriate alignment, security and monitoring standards for the new level of capabilities in front of us. Model progress is now extremely rapid, and we always said we would take action if we felt that model capabilities were outstripping the pace of safety and alignment. We care very deeply about AI safety. We believe the entire field will have to coordinate on shared safety standards, but will act unilaterally in the mean…",
+      "summary": "We have paused some frontier RL training to ensure that we can meet the appropriate alignment, security and monitoring standards for the new level of capabilities in front of us. Model progress is now extremely rapid, a…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 8100,
+        "retweets": 613,
+        "replies": 1303
+      },
+      "topics": [
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.69,
+          "rationale": [
+            "safety",
+            "alignment"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.78,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.86,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7de7b2474441bff7",
+      "date": "2026-08-20",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "Training Data",
+      "sourceKey": "podcast:Training Data",
+      "builderOrOrg": "Training Data",
+      "title": "Rich Sutton and Khurram Javed: Why AI Models Stop Learning, and How to Start It Again",
+      "url": "https://www.youtube.com/watch?v=xH7U7w9Qzlo",
+      "publishedAt": "2026-08-18T09:00:00.000Z",
+      "content": "Speaker 1 | 00:00 - 00:14 People think I have a radical point of view sometimes. They start questions saying how what I'm thinking is so different from everyone else. But I don't see it that way at all. I see it as like I'm thinking the ordinary way. Just everyone else is thinking a bit weird. Speaker 1 | 00:17 - 00:35 And I mean that like, you know, it's just the recent times people are thinking weird. Before there was all this AI craziness, you talk about you wouldn't have to say continual learning because it wouldn't make any sense to talk about learning that wasn't continual. All learning is continual. We always act and we learn. That's just the normal way of thinking. Speaker 1 | 00:35 - 00:41 I'm not weird. The field is weird. The field, they need to call it continual learning. It's just learning. Speaker 2 | 00:59 - 01:16 We are honored to have the great Rich Sutton with us here today. Rich, you invented reinforcement learning. You wrote the seminal textbook. You're the key students in the field, folks like Dave Silver. You wrote the essay, The Bitter Lesson, that I believe is the bible of the field. Speaker 2 | 01:16 - 01:33 You have just been one of the greats in propelling the field forward. So thank you for taking the time to join us today. Rich is joined by Kurram Javed, his cofounder, and former student from the University of Alberta. The two of you have set off to found Oak Lab. I'm very excited to talk to you about that today. Speaker 2 | 01:33 - 02:09 So for today's session, we're gonna start talking about the bitter lesson, the state of the world as we know it today, whether LLMs will get us there or not, and then we're gonna transition to start talking about your your research agenda and your plan for Oak. Rich, maybe take us back. I was going to start with a bitter lesson, but I actually want to start earlier than that. Decades ago, you decided to dedicate your career to reinforcement learning, to deep reinforcement learning in particular, and you established the University of Alberta as a bastion of that back when I think the field was very much in its infancy. What gave you the conviction to do that? Speaker 1 | 02:09 - 02:26 What else are you gonna do? We're trying to figure out the mind and learning is a central part of the mind and having a goal is a central part of the mind, central part of intelligence. Yeah. So I was just doubling down on what I was always thinking. Speaker 2 | 02:26 - 02:28 Did people think you were crazy at the time? Speaker 1 | 02:31 - 02:33 It was a winter. It was an AI winter. Speaker 2 | 02:34 - 02:35 What year was this? Speaker 1 | 02:35 - 02:55 It was in 2003. Okay. And it's kind of crazy, actually, the truth, because I was, like, really sick. I actually dying of cancer in 2003 but I wasn't quite dead. I've been trying for a number of years and I wasn't dead. Speaker 1 | 02:55 - 03:13 Was in another remission and so I said, Well, I'm not dying. I haven't succeeded in dying so I might as well you know, it's going on long enough. I might as well just try to get another job. And so I went to Alberta and started teaching there. And then in the end, didn't die. Speaker 1 | 03:13 - 03:29 It's kind of amazing. It's like that. I'm joking about it now, but it was quite serious. And, it's an even more poignant question. Why did I continue, to work on this research stuff when I was, you know, I only had a few months? Speaker 1 | 03:30 - 03:48 I would always keep reminded what I think it's Benjamin Franklin is supposed to have said that, you know, if you ever wonder why someone is doing something, it's almost always one of two things. It's either habit or vanity. Okay? I think that was probably true. Maybe it was about habit. Speaker 1 | 03:48 - 03:55 Just kept doing what I always was doing or maybe it was a vanity. I don't know. I think it was more like habit because I was dying. Speaker 2 | 03:57 - 03:57 Divine intervention. Speaker 1 | 03:57 - 04:06 Yeah. It's always been easy for me…",
+      "summary": "Speaker 1 | 00:00 - 00:14 People think I have a radical point of view sometimes. They start questions saying how what I'm thinking is so different from everyone else. But I don't see it that way at all. I see it as like I'm thinking the or…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "rl",
+            "reinforcement learning"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.52,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.69,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "eaa3efb0e331df59",
+      "date": "2026-08-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Import AI",
+      "sourceKey": "editorial:Import AI",
+      "builderOrOrg": "Jack Clark",
+      "title": "Import AI 469: Science AI; RSI simulator; and Zuck&#8217;s technological pessimism",
+      "url": "https://jack-clark.net/2026/08/17/import-ai-469-science-ai-rsi-simulator-and-zucks-technological-pessimism/",
+      "publishedAt": "2026-08-17T13:05:36.000Z",
+      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now DiG-bench shows that Fable displays some creative intuition: …The new frontier for analyzing AI systems is understanding how good they are at inferring the unwritten rules of their environment… How well can AI systems figure out the rules of their environment through exploration and curiosity, versus being fed them? That’s an important question for better understanding the intuitive and creative capabilities of AI systems and it’s one being asked by DiG-bench (Discovery in Games), a new benchmark of 70 games “designed to map the surface of discovery in well-controlled interactive systems”. Similar to the visual ‘ARC’ game, in DiG-bench “each game is a self-contained miniature world with its own laws, but both the rules and the objective are hidden from the player and must be uncovered through interaction”. You can play some of the games yourself online to get a feel for them at the official project website ( digbench.ai ). The key thing this is measuring is the ability for players to spot the important mechanics that determine their success &#8211; basically, by playing around with the games you get a sense for how your actions change the environment and through this you also uncover mechanics that you must understand to succeed at the game. The idea is that if you can solve these games you have a decent ability to spot important information in novel environments and update your priors. Who did the research: The authors come from Thinking About Thinking, University of Oxford, Princeton University, King Abdullah University of Science and Technology, Swiss AI Lab, Inria, MIT. One of the authors is Juergen Schmidhuber, an extremely creative OG AI researcher. Key facts: Purely text-based: The games are basically native to language models. They are also mostly “short enough that most traces…",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now DiG-bench shows that Fable displays some creative intuiti…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "benchmark"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "828eee6ed28ff901",
+      "date": "2026-08-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
+      "url": "https://www.latent.space/p/flue-2",
+      "publishedAt": "2026-08-15T15:46:22.000Z",
+      "content": "Agent frameworks for developers are still at an early stage, with the likes of Vercel&#8217;s eve and Fred Schott&#8217;s Flue &#8212; both launched this year &#8212; setting the early template. Schott is the creator of the web framework Astro, which led to his company being acquired by Cloudflare in January. He&#8217;s just released version 2 of Flue , its first stable release, which has as its foundation React-style &#8220;Agent Hooks.&#8221; In Flue, an agent is represented by a JavaScript function. This function &#8220; re-renders on every turn ,&#8221; meaning before every model call. The addition of hooks came after Schott realized that React&#8217;s composability would be a great fit for agent development. &#8220;I originally tweeted that we were building the Astro for agents or the Next.js for agents, &#8221; he told us. &#8220; But then I realized: maybe no one has even built the React for agents . &#8221; Editor&#8217;s Note: we last talked about the React for Agents with Bret Taylor, CEO of Sierra and Chairman of OpenAI : &#8220;We&#8217;re still trying to figure out who the reactive agents are and the jury is still out&#8230; We&#8217;re sort of in the jQuery era of agents, not the react era.&#8221; Hooks are authored in TypeScript. According to the Flue 2 launch post , they &#8220;let you build dynamic agents that can manage their own state, listen to agent lifecycle events, and even attach different resources and capabilities dynamically to enhance themselves at runtime.&#8221; There are 16 built-in hooks in Flue 2, including useSkill(), useTool(), useSubagent(). You can also add custom hooks. How Flue evolved via React-style hooks; diagram by Richard MacManus What hooks open up for developers is that they make an agent much more dynamic, by allowing its configuration to change as a conversation or workflow progresses. Schott said this is needed to build &#8220;real support bots, real triage bots,&#8221; because they can&#8217;t be fully configured in…",
+      "summary": "Flue 2 takes its inspiration from React. Creator Fred Schott, of Astro fame, tells Latent Space why he added hooks and why agents are defined by their harnesses.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "developer"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d6b2cec7b100aabe",
+      "date": "2026-08-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Why China’s AI Bubble Is Also Industrial Policy",
+      "url": "https://www.chinatalk.media/p/why-chinas-ai-bubble-is-also-industrial",
+      "publishedAt": "2026-08-18T10:08:02.000Z",
+      "content": "Leia Wang is a is a nonresident scholar in the Technology and International Affairs Program at the Carnegie Endowment for International Peace, as well as an associate at the Centre for the Governance of AI (GovAI). &#20987;&#40723;&#20256;&#33457; ( ji gu chuan hua ), roughly translated as &#8220;beat the drum, pass the flower,&#8221; is a Chinese children&#8217;s game in which players pass a flower around while a drum sounds. When the drum stops, whoever is left holding the flower loses the round. The phrase has recently acquired a secondary use in Chinese financial and policy commentary as a shorthand for a speculative chain in which risk is passed between participants. From anonymous investor forums to listed-company risk disclosures , it has been applied to the 2015 A-share bubble , property speculation , local government debt rollovers , P2P lending , and, most recently, the venture capital (VC) market . As one Chinese venture capitalist explained to me, 1 the game is China&#8217;s AI market, and investors are the players. Each investor races to pass along overvalued AI companies before the &#8220;beat&#8221; of the capital-raising cycle stops. Many domestic financial actors caution that this dynamic indicates China&#8217;s early-stage AI market is becoming a financial bubble. Valuations have inflated faster than revenues, capital is concentrated in a handful of hot subsectors, and money keeps flowing toward companies with no clear path to profitability. They cite the roughly 80,000 Chinese AI companies that have dissolved or deregistered in the past two years. While they may be right that these are indicators of a market about to correct itself, it is more likely that they are signs that Chinese industrial policy is at work. Since 2017, when AI was designated a strategic technology , Beijing has taken an active role in promoting the industry&#8217;s growth . Over the past eighteen months, the state has prioritized funding early-stage companies, launching dedi…",
+      "summary": "Inside China&#8217;s Venture Capital Game",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.69,
+          "rationale": [
+            "governance",
+            "policy"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "30a17cb70e146bf0",
+      "date": "2026-08-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "The Rise of China’s Electric Vehicle Industry",
+      "url": "https://www.chinatalk.media/p/the-rise-of-chinas-electric-vehicle",
+      "publishedAt": "2026-08-17T10:08:23.000Z",
+      "content": "How did China grow its EV industry? Hint: it wasn&#8217;t really central planning from Beijing. It was a magical concoction of entrepreneurs and local officials using their guanxi to dance around giant SOEs and central-government regulation, leverage private and foreign capital, and just be really excellent business people. That&#8217;s led to our situation in 2026 &#8212; world-beating companies that have a ton of overcapacity and are set to take over the planet. To discuss, we have ANU Professor Fengming Lu , who recently wrote a fantastic paper in The China Journal , titled The Rise of China&#8217;s Electric Vehicle Industry: Strategic Alliances Between Local Governments and Private Capital , alongside Irene Zhang, contributor and analyst at China Talk. We also get into the lessons this story holds for other strategic industries like robotics and AI &#8212; plus a little detour into the Chinese podcasting ecosystem. Our conversation covers: China&#8217;s automotive transformation from 130 small carmakers in the 1990s to the world&#8217;s most competitive EV industry. The rise of Chery, Geely, and other Chinese auto champions &#8212; how local connections, foreign technology, and creative financing helped them break into an industry dominated by state-owned enterprises. The downside of success &#8212; how China&#8217;s EV boom created an overcapacity problem. The role of guanxi and elite politics in deciding who gets to build cars. When Chinese EVs go global &#8212; record exports, overseas factories, trade tensions, and whether the same local-government playbook will shape the next wave of industries, from robotics to AI. Listen now on your favorite podcast app . Local Beginnings of the Chinese Auto Industry Irene Zhang: I had an amazing time reading your paper , and I found it incredibly interesting to learn the long history of how the global wave of Chinese EVs we&#8217;re seeing today actually came about. I&#8217;d like to start by hearing the story from your…",
+      "summary": "How did China grow its EV industry?",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "paper"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "9bbe7a5c432cef59",
+      "date": "2026-08-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "China's Best Music in 2026 (So Far)",
+      "url": "https://www.chinatalk.media/p/chinas-best-music-in-2026-so-far",
+      "publishedAt": "2026-08-14T10:29:35.000Z",
+      "content": "Jake Newby is the author of the Concrete Avalanche Substack , which covers the best music coming out of China. If you enjoy this playlist, check out Jake&#8217;s sets from 2025 , 2024 , and 2023 , as well as his Chinese shoegaze feature . Check out the full podcast below, or on non-Spotify podcast platforms here . 1. &#8216;Undercurrent&#8217; &#8212; Pu Poo Platter &#8212; from Undercurrent This EP features four fun tracks of funked-up, globally influenced jazz from a Brooklyn-formed band who are really finding their rhythm. They make infectious music with a strong sense of joy throughout. Alas, not everyone&#8217;s a fan &#8212; watch the video below where Pu Poo Platter get into trouble with the po-po for livestreaming a set on a Shanghai street. ChinaTalk is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber. 2. &#8216;&#24551;&#37057;&#24178;&#26479;&#20048;&#22253;&#8217; &#8212; the three mice &#8212; from where is my mice? Building on their explosive eponymouse record from 2024, Shenzhen emo / indie-rock act the three mice return with what they&#8217;re calling their first album proper. where is my mice? brings a similarly febrile energy (it even includes a reworking of one of those older tracks) and once again showcases the band&#8217;s intelligence in knowing when to let things get a little messy and when to pull back and allow their sense of melody and songwriting craft to shine through. It&#8217;s a delight. Grab it now while it&#8217;s pay-what-you-want on Bandcamp. 3. &#8216;&#38169;&#36807;&#30340;&#25552;&#37266;&#8217; &#8212; Lygort Quartet &#8212; from Through Voodoo Light to Shore of Tomorrow What do you do when your pioneering post-punk band no longer wants to make post-punk? Form another band, of course. Three-quarters of Chinese post-punk godfathers PK14 have been involved in a variation of the Lygort bands so far, with the latest &#8212; the Lygort Quartet &#8212; still featu…",
+      "summary": "Jake Newby is the author of the Concrete Avalanche Substack, which covers the best music coming out of China.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "publication",
+            "finding"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "video"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "9c12f562de07f335",
+      "date": "2026-08-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "The DeepSeek Thesis",
+      "url": "https://www.chinatalk.media/p/the-deepseek-thesis",
+      "publishedAt": "2026-08-13T10:19:25.000Z",
+      "content": "What does Liang Wenfeng want? The CEO of DeepSeek is now richer than either Dario Amodei or Sam Altman. Backed by his careful watch and the immense wealth of his hedge fund, a little-known group of researchers in Hangzhou has managed to consistently command the world&#8217;s attention &#8212; and they keep giving their work away for free. The motivations behind Liang&#8217;s theory of action have puzzled China+AI watchers since the beginning. In late July, leaked minutes from a four-hour meeting between Liang and investors circulated around the internet. Like everyone else, we&#8217;ve been pouring over the minutes to understand Liang the CEO, DeepSeek the company, and Liang the man. Liang comes off as a genuinely unusual character among China&#8217;s tech elite: a person who sincerely holds a specific and highly personalized worldview, if not an entire ideology. Whereas others in his walk of life are highly attuned to commercial trends and political winds, he positions himself as squarely focused on realizing his vision for technology &#8212; and it&#8217;s hard to doubt his conviction when he has invested so much of his literal worth into this quest. ChinaTalk is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber. His is a confidently singular thesis: that there is an inevitable causal relationship between automated learning and generalized intelligence, and that the pursuit of such advanced machine intelligence is the only problem worth solving right now. Being Chinese means working within the constraints of current hardware limitations, but DeepSeek frames their own ambitions on a much farther horizon. Whether or not they can, of course, might not be up to them. At ChinaTalk, we&#8217;ve been covering the DeepSeek story since before R1 . The following are our thoughts and observations after reading the leaked minutes. We get into: How Chinese open models work as a business model; Why, according…",
+      "summary": "a very different kind of guy",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "publication"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "vision"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
     {
       "id": "a26c98f9821bf47b",
       "date": "2026-08-19",
@@ -130,307 +530,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.49,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "eaa3efb0e331df59",
-      "date": "2026-08-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Import AI",
-      "sourceKey": "editorial:Import AI",
-      "builderOrOrg": "Jack Clark",
-      "title": "Import AI 469: Science AI; RSI simulator; and Zuck&#8217;s technological pessimism",
-      "url": "https://jack-clark.net/2026/08/17/import-ai-469-science-ai-rsi-simulator-and-zucks-technological-pessimism/",
-      "publishedAt": "2026-08-17T13:05:36.000Z",
-      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now DiG-bench shows that Fable displays some creative intuition: …The new frontier for analyzing AI systems is understanding how good they are at inferring the unwritten rules of their environment… How well can AI systems figure out the rules of their environment through exploration and curiosity, versus being fed them? That’s an important question for better understanding the intuitive and creative capabilities of AI systems and it’s one being asked by DiG-bench (Discovery in Games), a new benchmark of 70 games “designed to map the surface of discovery in well-controlled interactive systems”. Similar to the visual ‘ARC’ game, in DiG-bench “each game is a self-contained miniature world with its own laws, but both the rules and the objective are hidden from the player and must be uncovered through interaction”. You can play some of the games yourself online to get a feel for them at the official project website ( digbench.ai ). The key thing this is measuring is the ability for players to spot the important mechanics that determine their success &#8211; basically, by playing around with the games you get a sense for how your actions change the environment and through this you also uncover mechanics that you must understand to succeed at the game. The idea is that if you can solve these games you have a decent ability to spot important information in novel environments and update your priors. Who did the research: The authors come from Thinking About Thinking, University of Oxford, Princeton University, King Abdullah University of Science and Technology, Swiss AI Lab, Inria, MIT. One of the authors is Juergen Schmidhuber, an extremely creative OG AI researcher. Key facts: Purely text-based: The games are basically native to language models. They are also mostly “short enough that most traces…",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now DiG-bench shows that Fable displays some creative intuiti…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "science"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "benchmark"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "828eee6ed28ff901",
-      "date": "2026-08-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
-      "url": "https://www.latent.space/p/flue-2",
-      "publishedAt": "2026-08-15T15:46:22.000Z",
-      "content": "Agent frameworks for developers are still at an early stage, with the likes of Vercel&#8217;s eve and Fred Schott&#8217;s Flue &#8212; both launched this year &#8212; setting the early template. Schott is the creator of the web framework Astro, which led to his company being acquired by Cloudflare in January. He&#8217;s just released version 2 of Flue , its first stable release, which has as its foundation React-style &#8220;Agent Hooks.&#8221; In Flue, an agent is represented by a JavaScript function. This function &#8220; re-renders on every turn ,&#8221; meaning before every model call. The addition of hooks came after Schott realized that React&#8217;s composability would be a great fit for agent development. &#8220;I originally tweeted that we were building the Astro for agents or the Next.js for agents, &#8221; he told us. &#8220; But then I realized: maybe no one has even built the React for agents . &#8221; Editor&#8217;s Note: we last talked about the React for Agents with Bret Taylor, CEO of Sierra and Chairman of OpenAI : &#8220;We&#8217;re still trying to figure out who the reactive agents are and the jury is still out&#8230; We&#8217;re sort of in the jQuery era of agents, not the react era.&#8221; Hooks are authored in TypeScript. According to the Flue 2 launch post , they &#8220;let you build dynamic agents that can manage their own state, listen to agent lifecycle events, and even attach different resources and capabilities dynamically to enhance themselves at runtime.&#8221; There are 16 built-in hooks in Flue 2, including useSkill(), useTool(), useSubagent(). You can also add custom hooks. How Flue evolved via React-style hooks; diagram by Richard MacManus What hooks open up for developers is that they make an agent much more dynamic, by allowing its configuration to change as a conversation or workflow progresses. Schott said this is needed to build &#8220;real support bots, real triage bots,&#8221; because they can&#8217;t be fully configured in…",
-      "summary": "Flue 2 takes its inspiration from React. Creator Fred Schott, of Astro fame, tells Latent Space why he added hooks and why agents are defined by their harnesses.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "developer"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d6b2cec7b100aabe",
-      "date": "2026-08-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Why China’s AI Bubble Is Also Industrial Policy",
-      "url": "https://www.chinatalk.media/p/why-chinas-ai-bubble-is-also-industrial",
-      "publishedAt": "2026-08-18T10:08:02.000Z",
-      "content": "Leia Wang is a is a nonresident scholar in the Technology and International Affairs Program at the Carnegie Endowment for International Peace, as well as an associate at the Centre for the Governance of AI (GovAI). &#20987;&#40723;&#20256;&#33457; ( ji gu chuan hua ), roughly translated as &#8220;beat the drum, pass the flower,&#8221; is a Chinese children&#8217;s game in which players pass a flower around while a drum sounds. When the drum stops, whoever is left holding the flower loses the round. The phrase has recently acquired a secondary use in Chinese financial and policy commentary as a shorthand for a speculative chain in which risk is passed between participants. From anonymous investor forums to listed-company risk disclosures , it has been applied to the 2015 A-share bubble , property speculation , local government debt rollovers , P2P lending , and, most recently, the venture capital (VC) market . As one Chinese venture capitalist explained to me, 1 the game is China&#8217;s AI market, and investors are the players. Each investor races to pass along overvalued AI companies before the &#8220;beat&#8221; of the capital-raising cycle stops. Many domestic financial actors caution that this dynamic indicates China&#8217;s early-stage AI market is becoming a financial bubble. Valuations have inflated faster than revenues, capital is concentrated in a handful of hot subsectors, and money keeps flowing toward companies with no clear path to profitability. They cite the roughly 80,000 Chinese AI companies that have dissolved or deregistered in the past two years. While they may be right that these are indicators of a market about to correct itself, it is more likely that they are signs that Chinese industrial policy is at work. Since 2017, when AI was designated a strategic technology , Beijing has taken an active role in promoting the industry&#8217;s growth . Over the past eighteen months, the state has prioritized funding early-stage companies, launching dedi…",
-      "summary": "Inside China&#8217;s Venture Capital Game",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.69,
-          "rationale": [
-            "governance",
-            "policy"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "30a17cb70e146bf0",
-      "date": "2026-08-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "The Rise of China’s Electric Vehicle Industry",
-      "url": "https://www.chinatalk.media/p/the-rise-of-chinas-electric-vehicle",
-      "publishedAt": "2026-08-17T10:08:23.000Z",
-      "content": "How did China grow its EV industry? Hint: it wasn&#8217;t really central planning from Beijing. It was a magical concoction of entrepreneurs and local officials using their guanxi to dance around giant SOEs and central-government regulation, leverage private and foreign capital, and just be really excellent business people. That&#8217;s led to our situation in 2026 &#8212; world-beating companies that have a ton of overcapacity and are set to take over the planet. To discuss, we have ANU Professor Fengming Lu , who recently wrote a fantastic paper in The China Journal , titled The Rise of China&#8217;s Electric Vehicle Industry: Strategic Alliances Between Local Governments and Private Capital , alongside Irene Zhang, contributor and analyst at China Talk. We also get into the lessons this story holds for other strategic industries like robotics and AI &#8212; plus a little detour into the Chinese podcasting ecosystem. Our conversation covers: China&#8217;s automotive transformation from 130 small carmakers in the 1990s to the world&#8217;s most competitive EV industry. The rise of Chery, Geely, and other Chinese auto champions &#8212; how local connections, foreign technology, and creative financing helped them break into an industry dominated by state-owned enterprises. The downside of success &#8212; how China&#8217;s EV boom created an overcapacity problem. The role of guanxi and elite politics in deciding who gets to build cars. When Chinese EVs go global &#8212; record exports, overseas factories, trade tensions, and whether the same local-government playbook will shape the next wave of industries, from robotics to AI. Listen now on your favorite podcast app . Local Beginnings of the Chinese Auto Industry Irene Zhang: I had an amazing time reading your paper , and I found it incredibly interesting to learn the long history of how the global wave of Chinese EVs we&#8217;re seeing today actually came about. I&#8217;d like to start by hearing the story from your…",
-      "summary": "How did China grow its EV industry?",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "paper"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "9bbe7a5c432cef59",
-      "date": "2026-08-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "China's Best Music in 2026 (So Far)",
-      "url": "https://www.chinatalk.media/p/chinas-best-music-in-2026-so-far",
-      "publishedAt": "2026-08-14T10:29:35.000Z",
-      "content": "Jake Newby is the author of the Concrete Avalanche Substack , which covers the best music coming out of China. If you enjoy this playlist, check out Jake&#8217;s sets from 2025 , 2024 , and 2023 , as well as his Chinese shoegaze feature . Check out the full podcast below, or on non-Spotify podcast platforms here . 1. &#8216;Undercurrent&#8217; &#8212; Pu Poo Platter &#8212; from Undercurrent This EP features four fun tracks of funked-up, globally influenced jazz from a Brooklyn-formed band who are really finding their rhythm. They make infectious music with a strong sense of joy throughout. Alas, not everyone&#8217;s a fan &#8212; watch the video below where Pu Poo Platter get into trouble with the po-po for livestreaming a set on a Shanghai street. ChinaTalk is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber. 2. &#8216;&#24551;&#37057;&#24178;&#26479;&#20048;&#22253;&#8217; &#8212; the three mice &#8212; from where is my mice? Building on their explosive eponymouse record from 2024, Shenzhen emo / indie-rock act the three mice return with what they&#8217;re calling their first album proper. where is my mice? brings a similarly febrile energy (it even includes a reworking of one of those older tracks) and once again showcases the band&#8217;s intelligence in knowing when to let things get a little messy and when to pull back and allow their sense of melody and songwriting craft to shine through. It&#8217;s a delight. Grab it now while it&#8217;s pay-what-you-want on Bandcamp. 3. &#8216;&#38169;&#36807;&#30340;&#25552;&#37266;&#8217; &#8212; Lygort Quartet &#8212; from Through Voodoo Light to Shore of Tomorrow What do you do when your pioneering post-punk band no longer wants to make post-punk? Form another band, of course. Three-quarters of Chinese post-punk godfathers PK14 have been involved in a variation of the Lygort bands so far, with the latest &#8212; the Lygort Quartet &#8212; still featu…",
-      "summary": "Jake Newby is the author of the Concrete Avalanche Substack, which covers the best music coming out of China.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "publication",
-            "finding"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "video"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "9c12f562de07f335",
-      "date": "2026-08-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "The DeepSeek Thesis",
-      "url": "https://www.chinatalk.media/p/the-deepseek-thesis",
-      "publishedAt": "2026-08-13T10:19:25.000Z",
-      "content": "What does Liang Wenfeng want? The CEO of DeepSeek is now richer than either Dario Amodei or Sam Altman. Backed by his careful watch and the immense wealth of his hedge fund, a little-known group of researchers in Hangzhou has managed to consistently command the world&#8217;s attention &#8212; and they keep giving their work away for free. The motivations behind Liang&#8217;s theory of action have puzzled China+AI watchers since the beginning. In late July, leaked minutes from a four-hour meeting between Liang and investors circulated around the internet. Like everyone else, we&#8217;ve been pouring over the minutes to understand Liang the CEO, DeepSeek the company, and Liang the man. Liang comes off as a genuinely unusual character among China&#8217;s tech elite: a person who sincerely holds a specific and highly personalized worldview, if not an entire ideology. Whereas others in his walk of life are highly attuned to commercial trends and political winds, he positions himself as squarely focused on realizing his vision for technology &#8212; and it&#8217;s hard to doubt his conviction when he has invested so much of his literal worth into this quest. ChinaTalk is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber. His is a confidently singular thesis: that there is an inevitable causal relationship between automated learning and generalized intelligence, and that the pursuit of such advanced machine intelligence is the only problem worth solving right now. Being Chinese means working within the constraints of current hardware limitations, but DeepSeek frames their own ambitions on a much farther horizon. Whether or not they can, of course, might not be up to them. At ChinaTalk, we&#8217;ve been covering the DeepSeek story since before R1 . The following are our thoughts and observations after reading the leaked minutes. We get into: How Chinese open models work as a business model; Why, according…",
-      "summary": "a very different kind of guy",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "publication"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "vision"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -2216,96 +2315,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "80143214a5562c34",
-      "date": "2026-08-06",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] not much happened today",
-      "url": "https://www.latent.space/p/ainews-not-much-happened-today-038",
-      "publishedAt": "2026-08-01T01:38:09.000Z",
-      "content": "It might seem strange that we aren&#8217;t giving title story to a noteworthy DeepSeek open weights model update that still bumps up the Pareto Frontier that GPT 5.6 pushed out only yesterday : @teortaxesTex Temporary error with cache hit rate calculation - it was rectified a couple of minutes after your screenshot! \\n\\n0731 is only marginally higher Cost per Task than the earlier version, and via the DeepSeek API with ~99% cache hit discount it is most certainly on our Pareto frontier \",\"username\":\"ArtificialAnlys\",\"name\":\"Artificial Analysis\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/2042402069320290304/A8C1lP07_normal.jpg\",\"date\":\"2026-07-31T08:26:16.000Z\",\"photos\":[{\"img_url\":\"https://pbs.substack.com/media/HOiugSLbQAAck-3.jpg\",\"link_url\":\"https://t.co/ia4rJOhf1V\"}],\"quoted_tweet\":{},\"reply_count\":10,\"retweet_count\":32,\"like_count\":418,\"impression_count\":75216,\"expanded_url\":null,\"video_url\":null,\"video_preview_media_key\":null,\"belowTheFold\":false}\" data-component-name=\"Twitter2ToDOM\"> But because it is a post-train only update with no further details, there&#8217;s really not all that much to report, apart from noting that DeepSeek is finally relevant again after over a year of comparative obscurity (with V4 Pro this April as an exception) after becoming way too prominent, well timed after their $70B pre-IPO fundraise . AI News for 7/30/2026-7/31/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap DeepSeek V4-Flash 0731: post-training leap, API launch, and immediate open-weights release DeepSeek&#8217;s biggest story of the day was the official public-beta launch of DeepSeek-V4-Flash API , with DeepSeek stating that its upgraded agent capabilities now surpass V4-Pro-Preview and that the API now supports the Responses API format and is &#8220;fully adapted f…",
-      "summary": "apart from DeepSeek V4-Flash 0731, a quiet day.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.69,
-          "rationale": [
-            "image",
-            "video"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.69,
-          "rationale": [
-            "post-training",
-            "rl"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "f43953d1cbeedaf2",
-      "date": "2026-08-05",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:swyx",
-      "builderOrOrg": "Swyx",
-      "title": "linking my main cua wow moments thread https://t.co/VCXzCTAzRY but this one is just about do we…",
-      "url": "https://x.com/swyx/status/2084312752437481937",
-      "publishedAt": "2026-08-03T16:17:39.000Z",
-      "content": "linking my main cua wow moments thread https://t.co/VCXzCTAzRY but this one is just about do we need captchas anymore when clearly bots can clear them",
-      "summary": "linking my main cua wow moments thread https://t.co/VCXzCTAzRY but this one is just about do we need captchas anymore when clearly bots can clear them",
-      "regionTags": [],
-      "metrics": {
-        "likes": 11,
-        "retweets": 0,
-        "replies": 4
-      },
-      "topics": [
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.59,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.49,
       "whyThisMatters": ""
     }
   ]

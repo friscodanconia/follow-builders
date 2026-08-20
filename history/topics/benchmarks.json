@@ -1,8 +1,204 @@
 {
-  "generatedAt": "2026-08-19T02:33:56.239Z",
+  "generatedAt": "2026-08-20T00:30:56.045Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
+    {
+      "id": "e8802b26d9915d1e",
+      "date": "2026-08-20",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:realmadhuguru",
+      "builderOrOrg": "Madhu Guru",
+      "title": "Here’s how to think about the cost of your evals : treat evals like frontier models…establish t…",
+      "url": "https://x.com/realmadhuguru/status/2089918106814603728",
+      "publishedAt": "2026-08-19T03:31:20.000Z",
+      "content": "Here’s how to think about the cost of your evals : treat evals like frontier models…establish the quality frontier first, then work your way down the cost curve. Start with the highest quality way you can know if your AI product is working as intended. First get clear on what good looks like - Write the rubric. Then figure out the best way to measure it - humans / LLM judge / automated verification. At this stage, spend the money - use the expensive judge model, pay humans (or give your time).…",
+      "summary": "Here’s how to think about the cost of your evals : treat evals like frontier models…establish the quality frontier first, then work your way down the cost curve. Start with the highest quality way you can know if your A…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 39,
+        "retweets": 2,
+        "replies": 9
+      },
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.68,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.79,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "eaa3efb0e331df59",
+      "date": "2026-08-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Import AI",
+      "sourceKey": "editorial:Import AI",
+      "builderOrOrg": "Jack Clark",
+      "title": "Import AI 469: Science AI; RSI simulator; and Zuck&#8217;s technological pessimism",
+      "url": "https://jack-clark.net/2026/08/17/import-ai-469-science-ai-rsi-simulator-and-zucks-technological-pessimism/",
+      "publishedAt": "2026-08-17T13:05:36.000Z",
+      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now DiG-bench shows that Fable displays some creative intuition: …The new frontier for analyzing AI systems is understanding how good they are at inferring the unwritten rules of their environment… How well can AI systems figure out the rules of their environment through exploration and curiosity, versus being fed them? That’s an important question for better understanding the intuitive and creative capabilities of AI systems and it’s one being asked by DiG-bench (Discovery in Games), a new benchmark of 70 games “designed to map the surface of discovery in well-controlled interactive systems”. Similar to the visual ‘ARC’ game, in DiG-bench “each game is a self-contained miniature world with its own laws, but both the rules and the objective are hidden from the player and must be uncovered through interaction”. You can play some of the games yourself online to get a feel for them at the official project website ( digbench.ai ). The key thing this is measuring is the ability for players to spot the important mechanics that determine their success &#8211; basically, by playing around with the games you get a sense for how your actions change the environment and through this you also uncover mechanics that you must understand to succeed at the game. The idea is that if you can solve these games you have a decent ability to spot important information in novel environments and update your priors. Who did the research: The authors come from Thinking About Thinking, University of Oxford, Princeton University, King Abdullah University of Science and Technology, Swiss AI Lab, Inria, MIT. One of the authors is Juergen Schmidhuber, an extremely creative OG AI researcher. Key facts: Purely text-based: The games are basically native to language models. They are also mostly “short enough that most traces…",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now DiG-bench shows that Fable displays some creative intuiti…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "benchmark"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "059debe2a454c425",
+      "date": "2026-08-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Cursor's $60B acquisition by SpaceXai closes",
+      "url": "https://www.latent.space/p/ainews-cursors-60b-acquisition-by",
+      "publishedAt": "2026-08-14T06:16:00.000Z",
+      "content": "Throwback to when we did the first ever podcast on Cursor when they were 5 people: And then recapping agents at ICML 2024 with Graham Neubig: And then their third era in 2026: And talking about how they do FDE in the Enterprise: AI News for 8/13/2026-8/14/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Open-Weight Frontier Push: Z.ai&#8217;s GLM-5.3, Qwen3.8-27B/Max, DeepSeek V4-Pro, and RedNote&#8217;s dots3-note Z.ai&#8217;s GLM-5.3 : The biggest technical story was Z.ai launching GLM-5.3 , positioned as a coding- and cyber-focused model built via post-training on the same 743B base model used for GLM-5.2 rather than a new pretrain. Z.ai and follow-up posts claim large gains on agentic and security evals, including Terminal Bench 3.0: 28.3 , DeepSWE: 66.9 , Agents&#8217; Last Exam: 28.5 , and GDPVal-AA: 1769 ( bench summary , full benchmarks ). The company also said cyber capabilities improved enough that access is initially gated for select partners before an eventual open-weight release after safety review ( details ). The key claim many engineers highlighted is that the capability jump came entirely from scaled post-training/RL on longer-horizon executable tasks , not from a larger base model ( analysis , reaction ). Qwen3.8 broadens the local/open frontier : Alibaba released Qwen3.8-27B , a native multimodal dense model under Apache 2.0 , with 262K native context extendable to 1M via YaRN , while also highlighting the already-released Qwen3.8-2.4T-A95B max-tier model ( announcement , perf thread ). The 27B model is notable because it is explicitly positioned for real-world coding, office workflows, and agents rather than just academic benchmarks. Day-0 inference support was unusually broad: vLLM , Ollama , llama.cpp/GGUF , SGLang reporting 206 tok/s on a single RTX 5090…",
+      "summary": "Congrats to the team!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.81,
+          "rationale": [
+            "benchmark",
+            "imo",
+            "eval"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "repo"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "a71718fe0501a148",
+      "date": "2026-08-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "North Korean Messiah",
+      "url": "https://www.chinatalk.media/p/north-korean-messiah",
+      "publishedAt": "2026-08-19T10:08:02.000Z",
+      "content": "Thanks to a generous Coefficient Giving grant, ChinaTalk is currently running two contests! See below for details: $50k prize pool for creative ideas, proposals, and writing pitches broadly related to the China-AI beat, which double as our recruiting drive for new staff researchers/writers. Deadline is August 23rd; learn more here ; $25k prize pool for evaluation protocols that help foreign policy and national security users learn about AI models&#8217; capabilities, limitations, and what these tools are useful for in diplomatic and strategic contexts. Deadline is September 1st; learn more here . Why is North Korea so weird? Is it Stalinism? Maoism? Japan-style emperor worship? Ancient Korean hermit kingdom energy? No, argues Jonathan Cheng , Beijing bureau chief for The Wall Street Journal and author of The Korean Messiah: The Failed Dynasty That Shaped the Hermit Kingdom . You&#8217;ve all been sleeping on the influence of 19th-century American revival Protestantism. To discuss why Kim Il-sung kind of thought he was Jesus &#8212; or at least wanted to convince everyone else he was &#8212; we have the honor of Jonathan joining ChinaTalk today, with Alex Boyd . Our conversation covers: Billy Graham meets Kim Il-sung &#8212; how America&#8217;s pastor visited Pyongyang in 1992 and bonded with the dictator over their shared Presbyterian childhoods, while touring a birthplace resembling the nativity story. From &#8220;Jerusalem of the East&#8221; to totalitarian theocracy &#8212; how 22-year-old missionary Samuel Moffett brought eschatological founder energy to the wickedest city in Korea, and transformed Pyongyang into the most Protestant city in Asia, complete with jazz clubs and a Chevrolet dealership. The Manchurian cauldron &#8212; how the lawless frontier of 1920s Manchuria blended Christianity, Korean nationalism, and Marxism to forge Kim Il-sung&#8217;s messiah complex. Jim Jones and Kim &#8212; how the Jonestown cult leader became obsessed with Kim Il-sung, a…",
+      "summary": "American Protestant Christianity and the DPRK cult of personality",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "eval",
+            "evaluation"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.66,
+      "whyThisMatters": ""
+    },
     {
       "id": "f90c09e9889145a7",
       "date": "2026-08-19",
@@ -97,113 +293,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "eaa3efb0e331df59",
-      "date": "2026-08-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Import AI",
-      "sourceKey": "editorial:Import AI",
-      "builderOrOrg": "Jack Clark",
-      "title": "Import AI 469: Science AI; RSI simulator; and Zuck&#8217;s technological pessimism",
-      "url": "https://jack-clark.net/2026/08/17/import-ai-469-science-ai-rsi-simulator-and-zucks-technological-pessimism/",
-      "publishedAt": "2026-08-17T13:05:36.000Z",
-      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now DiG-bench shows that Fable displays some creative intuition: …The new frontier for analyzing AI systems is understanding how good they are at inferring the unwritten rules of their environment… How well can AI systems figure out the rules of their environment through exploration and curiosity, versus being fed them? That’s an important question for better understanding the intuitive and creative capabilities of AI systems and it’s one being asked by DiG-bench (Discovery in Games), a new benchmark of 70 games “designed to map the surface of discovery in well-controlled interactive systems”. Similar to the visual ‘ARC’ game, in DiG-bench “each game is a self-contained miniature world with its own laws, but both the rules and the objective are hidden from the player and must be uncovered through interaction”. You can play some of the games yourself online to get a feel for them at the official project website ( digbench.ai ). The key thing this is measuring is the ability for players to spot the important mechanics that determine their success &#8211; basically, by playing around with the games you get a sense for how your actions change the environment and through this you also uncover mechanics that you must understand to succeed at the game. The idea is that if you can solve these games you have a decent ability to spot important information in novel environments and update your priors. Who did the research: The authors come from Thinking About Thinking, University of Oxford, Princeton University, King Abdullah University of Science and Technology, Swiss AI Lab, Inria, MIT. One of the authors is Juergen Schmidhuber, an extremely creative OG AI researcher. Key facts: Purely text-based: The games are basically native to language models. They are also mostly “short enough that most traces…",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now DiG-bench shows that Fable displays some creative intuiti…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "science"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "benchmark"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "059debe2a454c425",
-      "date": "2026-08-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Cursor's $60B acquisition by SpaceXai closes",
-      "url": "https://www.latent.space/p/ainews-cursors-60b-acquisition-by",
-      "publishedAt": "2026-08-14T06:16:00.000Z",
-      "content": "Throwback to when we did the first ever podcast on Cursor when they were 5 people: And then recapping agents at ICML 2024 with Graham Neubig: And then their third era in 2026: And talking about how they do FDE in the Enterprise: AI News for 8/13/2026-8/14/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Open-Weight Frontier Push: Z.ai&#8217;s GLM-5.3, Qwen3.8-27B/Max, DeepSeek V4-Pro, and RedNote&#8217;s dots3-note Z.ai&#8217;s GLM-5.3 : The biggest technical story was Z.ai launching GLM-5.3 , positioned as a coding- and cyber-focused model built via post-training on the same 743B base model used for GLM-5.2 rather than a new pretrain. Z.ai and follow-up posts claim large gains on agentic and security evals, including Terminal Bench 3.0: 28.3 , DeepSWE: 66.9 , Agents&#8217; Last Exam: 28.5 , and GDPVal-AA: 1769 ( bench summary , full benchmarks ). The company also said cyber capabilities improved enough that access is initially gated for select partners before an eventual open-weight release after safety review ( details ). The key claim many engineers highlighted is that the capability jump came entirely from scaled post-training/RL on longer-horizon executable tasks , not from a larger base model ( analysis , reaction ). Qwen3.8 broadens the local/open frontier : Alibaba released Qwen3.8-27B , a native multimodal dense model under Apache 2.0 , with 262K native context extendable to 1M via YaRN , while also highlighting the already-released Qwen3.8-2.4T-A95B max-tier model ( announcement , perf thread ). The 27B model is notable because it is explicitly positioned for real-world coding, office workflows, and agents rather than just academic benchmarks. Day-0 inference support was unusually broad: vLLM , Ollama , llama.cpp/GGUF , SGLang reporting 206 tok/s on a single RTX 5090…",
-      "summary": "Congrats to the team!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.81,
-          "rationale": [
-            "benchmark",
-            "imo",
-            "eval"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "repo"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -2406,89 +2495,6 @@
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
       "previouslySelected": true,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "066faca4f6d22351",
-      "date": "2026-07-10",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:swyx",
-      "builderOrOrg": "Swyx",
-      "title": "most agent labs are shy about acknowledging chinese model use because they need to sell to gov/…",
-      "url": "https://x.com/swyx/status/2074919183947808881",
-      "publishedAt": "2026-07-08T18:10:58.000Z",
-      "content": "most agent labs are shy about acknowledging chinese model use because they need to sell to gov/defense cog team did the hard part to productionize: 1. build a multilingual propaganda & censorship eval 2. successfully correct for it in posttraining 3. serve at 1000 tok/s cheaply https://t.co/Av85Bh4zUf https://t.co/w59YVAWtTr",
-      "summary": "most agent labs are shy about acknowledging chinese model use because they need to sell to gov/defense cog team did the hard part to productionize: 1. build a multilingual propaganda & censorship eval 2. successfully co…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 118,
-        "retweets": 3,
-        "replies": 9
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "eval"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4a2324e8c8ef942d",
-      "date": "2026-07-10",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:zarazhangrui",
-      "builderOrOrg": "Zara Zhang",
-      "title": "How to grow on X without producing slop X is a party, not a stage! https://t.co/pI8h5ImOda",
-      "url": "https://x.com/zarazhangrui/status/2074998060162375832",
-      "publishedAt": "2026-07-08T23:24:23.000Z",
-      "content": "How to grow on X without producing slop X is a party, not a stage! https://t.co/pI8h5ImOda",
-      "summary": "How to grow on X without producing slop X is a party, not a stage! https://t.co/pI8h5ImOda",
-      "regionTags": [],
-      "metrics": {
-        "likes": 167,
-        "retweets": 4,
-        "replies": 18
-      },
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "imo"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
       "digestScore": 0.56,
       "whyThisMatters": ""
     }
