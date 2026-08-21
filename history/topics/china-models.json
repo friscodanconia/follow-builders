@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-20T02:32:34.928Z",
+  "generatedAt": "2026-08-21T00:31:29.206Z",
   "slug": "china-models",
   "label": "Chinese AI",
   "items": [
     {
       "id": "1729847ef875f767",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Together AI Blog",
@@ -49,7 +49,7 @@
     },
     {
       "id": "e69b3f97fa5e1ea4",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Together AI Blog",
@@ -87,13 +87,67 @@
       "section": "Chinese Models",
       "importanceScore": 0.73,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.58,
       "whyThisMatters": ""
     },
     {
+      "id": "c2cbec526110e604",
+      "date": "2026-08-21",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Death of Params: Z.ai CEO Jie Tang on GLM 5.3 and the new Post-training Scaling Law",
+      "url": "https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie",
+      "publishedAt": "2026-08-20T05:17:12.000Z",
+      "content": "We&#8217;ve covered GLM 5.2 very excitedly before, and Prof Jie Tang&#8217;s belief that there will be an open weights Fable-class model by end of the year ( spot check - with 134 days left, there are now two 2-3T models ( Qwen 3.8 Max and Kimi K3 ) with estimates that Fable is 3-7T , and only 2 points higher on the AA index .) Prof Jie Tang is back on X to tell us that our shorthand for model sizes is no longer enough: &#8220; Parameter count is only meaningful alongside three others &#8212; how much data you have, where you intend to spend your compute , and who will run the model, under what conditions .&#8221; We have covered Chinchilla (and post-Chinchilla ) scaling laws in past LS years, but, so we will skip the history lesson, but it is good to level-set on why Chinchilla&#8217;s assumptions were wrong in the Inference Inflection world (no fixed number, between 200-900 toks/param, citing Roberts et al on task dependence). In short: Memorization prefers more parameters. Reasoning prefers more post-training data and effective depth . GLM-5.3&#8217;s big jumps come solely from RL on long horizon environments: The environments now cover a much broader range of production workflows, with tasks designed around how engineering and research work is actually carried out in practice. Some represent several days of work for an experienced engineer. In an ML infrastructure task, for example, the model may be given the same working environment as an engineer, with access to compute clusters, storage systems, internal documentation, codebases, and experiment results . It must diagnose bottlenecks across the training stack, implement optimizations, run experiments, and deliver a measurable end-to-end speedup while preserving correctness. Training on environments at this level pushes the model toward taking ownership of substantial work end to end , rather than relying on users to decompose the problem and supervise each step. For those following the recursive self improvem…",
+      "summary": "Every lab CEO is on X now",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "inference",
+            "serving"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "post-training",
+            "rl"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "china-models",
+          "label": "Chinese AI",
+          "confidence": 0.69,
+          "rationale": [
+            "qwen",
+            "kimi"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Chinese Models",
+      "importanceScore": 0.55,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.71,
+      "whyThisMatters": ""
+    },
+    {
       "id": "16ae7bb928246022",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",

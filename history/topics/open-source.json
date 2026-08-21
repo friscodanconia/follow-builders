@@ -1,8 +1,59 @@
 {
-  "generatedAt": "2026-08-20T02:32:34.928Z",
+  "generatedAt": "2026-08-21T00:31:29.206Z",
   "slug": "open-source",
   "label": "Open Source",
   "items": [
+    {
+      "id": "c4f6f5b307e39009",
+      "date": "2026-08-21",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "The /wayfinder Skill: Navigating the “Fog of War” of Planning",
+      "url": "https://www.latent.space/p/wayfinder-skill",
+      "publishedAt": "2026-08-20T20:59:09.000Z",
+      "content": "We&#8217;re currently developing a new series about skills, with the aim of giving you a regular supply of new skills to use in your projects. We&#8217;re kicking things off with an interview &#8212; and a super-useful skill &#8212; featuring Matt Pocock , whose &#8220; AI Skills for Real Engineers &#8221; project has over 220,000 stars on GitHub . He also talks about these skills to 347,000 subscribers on his YouTube channel . Pocock recently released a new skill called /wayfinder . Its purpose is to help you and your agent figure out a project where the end state isn&#8217;t entirely clear. Or as Pocock put it in our interview, /wayfinder helps you navigate &#8220;the fog of war,&#8221; where you have a project but &#8220;you can&#8217;t quite decide everything right at the start.&#8221; The following interview has been slightly condensed for readability, so you can read it, absorb Matt&#8217;s insights, and then test out /wayfinder for yourself! Latent Space: What were the goals of wayfinder? Pocock: What I noticed is I was doing a lot of work with AFK agents [Away From Keyboard] and trying to schedule in a ton of work so that my agents could run virtually overnight. I would just plan a bunch of stuff, and then I would create a spec and then turn that spec into tickets. And I had a really well-developed set of skills for how to turn work into scheduled stuff that agents could just crack on. But [...] I was finding the planning stage really onerous, because I would have to be constantly thinking about my session management. Like, how many tokens am I into my context window? How deep am I going here? Matt Pocock&#8217;s wayfinder skill, as documented in GitHub I didn&#8217;t want to feel constrained in the planning stage anymore. I wanted an orchestrator layer that would basically say, okay, whatever you want to plan, I&#8217;m going to handle the planning sessions for you. I&#8217;m going to split this out into multiple different threads, do prototyping, do resea…",
+      "summary": "Matt Pocock tells us about his /wayfinder skill, for greenfield projects or for when the way forward is unclear.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "github"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "finding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
+      "whyThisMatters": ""
+    },
     {
       "id": "e727b531c7920415",
       "date": "2026-08-20",
@@ -2368,61 +2419,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "8528770f760e9d6e",
-      "date": "2026-07-21",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B)",
-      "url": "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b",
-      "publishedAt": "2026-07-16T06:18:05.000Z",
-      "content": "Thinky only seems to come up for air once every few months; most recently with Interaction models - but each time they do they impress, showing both taste and depth. Today they introduced Inkling &#8212; not a SOTA model, but a very solid new family for a baseline American open model: Our model, called Inkling, is a Mixture-of-Experts transformer with 975B total parameters, 41B active. It supports a context window of up to 1M tokens. It was pretrained on 45 trillion tokens of text, images, audio and video. It is the first in a family of models of different sizes: alongside it we are sharing a preview of Inkling-Small, a lighter-weight model with 12B active parameters, trained with a similar recipe, that achieves strong performance with even lower cost and latency. Inkling reasons natively over text, images, and audio, and balances cost with performance through efficient and controllable thinking effort The Huggingface breakdown covers some interesting technical highlights: AI News for 7/14/2026-7/15/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap What happened Thinking Machines Lab launched Inkling, its first fully released open-weights foundation model family entry, positioning it as a customizable multimodal base model rather than a benchmark-maxed flagship. Thinking Machines announced Inkling as an open-weights model that &#8220;reasons efficiently across text, image, and audio modalities,&#8221; with full weights available and immediate support on its Tinker platform and Playground @thinkymachines . Mira Murati described Inkling as the company&#8217;s &#8220;first model,&#8221; &#8220;trained from scratch,&#8221; with open weights and same-day fine-tuning on Tinker @miramurati . Soumith Chintala framed it as Thinking Machines&#8217; &#8220;first general model,&#8221; stres…",
-      "summary": "Thinky's first full LLM release is a banger and bonus: it's open weights!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.81,
-          "rationale": [
-            "multimodal",
-            "image",
-            "video"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.69,
-          "rationale": [
-            "weights",
-            "huggingface"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "benchmark",
-            "imo"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     }
   ]

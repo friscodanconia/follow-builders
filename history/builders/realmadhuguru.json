@@ -1,10 +1,47 @@
 {
-  "generatedAt": "2026-08-20T02:32:34.928Z",
+  "generatedAt": "2026-08-21T00:31:29.206Z",
   "handle": "realmadhuguru",
   "name": "Madhu Guru",
   "itemCount": 50,
-  "latestDate": "2026-08-20",
+  "latestDate": "2026-08-21",
   "items": [
+    {
+      "id": "99466f3a7cdf1443",
+      "date": "2026-08-21",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:realmadhuguru",
+      "builderOrOrg": "Madhu Guru",
+      "title": "The best way to get good at evals - Part 3. Let’s talk failure modes taxonomy - that’s the firs…",
+      "url": "https://x.com/realmadhuguru/status/2090242427944833047",
+      "publishedAt": "2026-08-20T01:00:04.000Z",
+      "content": "The best way to get good at evals - Part 3. Let’s talk failure modes taxonomy - that’s the first thing you should build once you have v1 of your evals. Start with your production traces - study the last 500 or 1,000 interactions and look at the failures. Cluster them and name the clusters. Get specific - “bad answer” isn’t a useful cluster name. Specific failures - wrong document retrieved / right document but irrelevant section / failed to ground to context and hallucinated / failed to punt on…",
+      "summary": "The best way to get good at evals - Part 3. Let’s talk failure modes taxonomy - that’s the first thing you should build once you have v1 of your evals. Start with your production traces - study the last 500 or 1,000 int…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 62,
+        "retweets": 3,
+        "replies": 4
+      },
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
     {
       "id": "e8802b26d9915d1e",
       "date": "2026-08-20",
@@ -1753,52 +1790,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4f9e1ee3f1931b56",
-      "date": "2026-07-09",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:realmadhuguru",
-      "builderOrOrg": "Madhu Guru",
-      "title": "true. let’s unpack this..people think data and evals are low skill, grunt work that you can jus…",
-      "url": "https://x.com/realmadhuguru/status/2074734468854899191",
-      "publishedAt": "2026-07-08T05:56:58.000Z",
-      "content": "true. let’s unpack this..people think data and evals are low skill, grunt work that you can just buy and stuff into models. in practice, the model lifecycle looks something like model strategy -> evals -> pre/post training/rl aligned to evals -> GTM. like any product strategy, you need strong opinions up front but it is 100x harder because of the allure of building an LLM that is great at everything. the next challenge is staying focused on the target eval sets throughout the model build throug…",
-      "summary": "true. let’s unpack this..people think data and evals are low skill, grunt work that you can just buy and stuff into models. in practice, the model lifecycle looks something like model strategy -> evals -> pre/post train…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 11,
-        "retweets": 0,
-        "replies": 0
-      },
-      "topics": [
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "eval"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.59,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.49,
       "whyThisMatters": ""
     }
   ]
