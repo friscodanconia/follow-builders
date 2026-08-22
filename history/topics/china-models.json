@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-21T02:38:41.230Z",
+  "generatedAt": "2026-08-22T00:30:40.475Z",
   "slug": "china-models",
   "label": "Chinese AI",
   "items": [
     {
       "id": "1729847ef875f767",
-      "date": "2026-08-21",
+      "date": "2026-08-22",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Together AI Blog",
@@ -49,7 +49,7 @@
     },
     {
       "id": "e69b3f97fa5e1ea4",
-      "date": "2026-08-21",
+      "date": "2026-08-22",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Together AI Blog",
@@ -93,7 +93,7 @@
     },
     {
       "id": "c2cbec526110e604",
-      "date": "2026-08-21",
+      "date": "2026-08-22",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -141,8 +141,64 @@
       "section": "Chinese Models",
       "importanceScore": 0.55,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "8cf7c8b3547a0827",
+      "date": "2026-08-22",
+      "sourceType": "blog",
+      "sourceGroup": "china",
+      "sourceName": "DeepSeek News",
+      "sourceKey": "china:DeepSeek News",
+      "builderOrOrg": "DeepSeek",
+      "title": "DeepSeek-V4-Flash-Vision-Exp Release: Multimodal API Now Live | DeepSeek API Docs",
+      "url": "https://api-docs.deepseek.com/news/news260821",
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "content": "DeepSeek-V4-Flash-Vision-Exp is now live on the DeepSeek API Platform! 🚀",
+      "summary": "DeepSeek-V4-Flash-Vision-Exp is now live on the DeepSeek API Platform! 🚀",
+      "regionTags": [
+        "china-models",
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "china-models",
+          "label": "Chinese AI",
+          "confidence": 0.81,
+          "rationale": [
+            "deepseek",
+            "china-models"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "multimodal",
+            "vision"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "imo"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Chinese Models",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
       "whyThisMatters": ""
     },
     {
@@ -2390,43 +2446,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "b6b29c9801742e2f",
-      "date": "2026-04-08",
-      "sourceType": "blog",
-      "sourceGroup": "china",
-      "sourceName": "DeepSeek News",
-      "sourceKey": "china:DeepSeek News",
-      "builderOrOrg": "DeepSeek",
-      "title": "DeepSeek-R1-0528 Release | DeepSeek API Docs",
-      "url": "https://api-docs.deepseek.com/news/news250528",
-      "publishedAt": null,
-      "content": "🚀 DeepSeek-R1-0528 is here!",
-      "summary": "🚀 DeepSeek-R1-0528 is here!",
-      "regionTags": [
-        "china-models",
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "china-models",
-          "label": "Chinese AI",
-          "confidence": 0.81,
-          "rationale": [
-            "deepseek",
-            "china-models"
-          ],
-          "score": 3
-        }
-      ],
-      "section": "Chinese Models",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]
