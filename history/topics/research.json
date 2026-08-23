@@ -1,8 +1,601 @@
 {
-  "generatedAt": "2026-08-22T02:30:27.900Z",
+  "generatedAt": "2026-08-23T00:30:42.544Z",
   "slug": "research",
   "label": "Research",
   "items": [
+    {
+      "id": "b443838c70d0f3aa",
+      "date": "2026-08-23",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:swyx",
+      "builderOrOrg": "Swyx",
+      "title": "I think its easy to say \"Simulation is a new scaling law\" and treat it as marketing hyperbole,…",
+      "url": "https://x.com/swyx/status/2090948945753076141",
+      "publishedAt": "2026-08-21T23:47:31.000Z",
+      "content": "I think its easy to say \"Simulation is a new scaling law\" and treat it as marketing hyperbole, but midway along this interview you can hear me go from somewhat shitposting to very very serious. I am 2 years late to this but finally understand why @karpathy and @drfeifei backed @joon_s_pk @msbernst @percyliang et al - Smallville at the time had zero commercial applications, but if you take RSI seriously, from models automating increasingly large parts of ML research and AI engineering, the last*…",
+      "summary": "I think its easy to say \"Simulation is a new scaling law\" and treat it as marketing hyperbole, but midway along this interview you can hear me go from somewhat shitposting to very very serious. I am 2 years late to this…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 111,
+        "retweets": 6,
+        "replies": 10
+      },
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7ddb4da6387f2f37",
+      "date": "2026-08-23",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:claudeai",
+      "builderOrOrg": "Claude",
+      "title": "Suggested patches open in Claude Code on the web, using the models your team already uses. Thes…",
+      "url": "https://x.com/claudeai/status/2090852318527033804",
+      "publishedAt": "2026-08-21T17:23:33.000Z",
+      "content": "Suggested patches open in Claude Code on the web, using the models your team already uses. These updates are part of our work to give defenders greater access to Mythos results without requiring direct access to the model: the model runs behind the scan and returns findings only. Scans are billed as standard token usage under your existing plan.",
+      "summary": "Suggested patches open in Claude Code on the web, using the models your team already uses. These updates are part of our work to give defenders greater access to Mythos results without requiring direct access to the mod…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 261,
+        "retweets": 6,
+        "replies": 6
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "finding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "3013a00432bfcc44",
+      "date": "2026-08-23",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google DeepMind Blog",
+      "sourceKey": "official:Google DeepMind Blog",
+      "builderOrOrg": "Google DeepMind",
+      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+      "publishedAt": "2026-08-21T11:59:48.000Z",
+      "content": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
+      "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "a733baeafff36122",
+      "date": "2026-08-23",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Broadening access to Skala creates a faster path to predictive DFT",
+      "url": "https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft/",
+      "publishedAt": "2026-08-20T16:00:00.000Z",
+      "content": "At a glance Skala 1.1 demonstrates the continuously improving nature of Microsoft Research&#8217;s deep-learning DFT approach: trained on 2.5× more data than its predecessor, it delivers substantially higher accuracy across key molecular simulation challenges, including thermochemistry, reaction kinetics, and molecular structure prediction. Skala is now available in CP2K and is being integrated into Psi4 , FHI-aims , ORCA and VASP , bringing next-generation DFT accuracy closer to the communities that rely on these codes every day. Microsoft Research is also introducing a living benchmark that will track the computational performance of successive, increasingly optimized Skala releases to help the community measure and accelerate progress toward ever greater accuracy and efficiency. Together, these developments mark another milestone toward a future in which computational chemistry simulations are both predictive and integrated in all relevant scientific and industrial workflows. Bringing density functional theory (DFT) to predictive accuracy is a journey, not a single breakthrough. Since introducing Skala , our deep-learning exchange-correlation functional, we have continued to advance along two complementary fronts: improving accuracy and expanding accessibility across the computational chemistry ecosystem. Figure 1: Accuracy of Skala-1.1 for thermochemistry, kinetics, and non-covalent interactions. At the computational cost of a meta-GGA functional, Skala 1.1 outperforms the best, most expensive global hybrid functionals, ranking first (earning gold medals) in 32 of the 55 categories of the widely used GMTKN55 benchmark, which spans a broad range of chemical problems. On the accuracy front, the release of Skala-1.1 (opens in new tab) provides the first demonstration of the continuous-improvement paradigm underlying Skala. Trained on 2.5x more data than the first public version of Skala, the updated&nbsp; model delivers substantially improved performance across ke…",
+      "summary": "Skala 1.1, the updated deep-learning exchange-correlation functional from Microsoft Research, provides greater accuracy, expanded accessibility across the computational chemistry ecosystem, and a living benchmark to track computational per…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "eaa3efb0e331df59",
+      "date": "2026-08-23",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Import AI",
+      "sourceKey": "editorial:Import AI",
+      "builderOrOrg": "Jack Clark",
+      "title": "Import AI 469: Science AI; RSI simulator; and Zuck&#8217;s technological pessimism",
+      "url": "https://jack-clark.net/2026/08/17/import-ai-469-science-ai-rsi-simulator-and-zucks-technological-pessimism/",
+      "publishedAt": "2026-08-17T13:05:36.000Z",
+      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now DiG-bench shows that Fable displays some creative intuition: …The new frontier for analyzing AI systems is understanding how good they are at inferring the unwritten rules of their environment… How well can AI systems figure out the rules of their environment through exploration and curiosity, versus being fed them? That’s an important question for better understanding the intuitive and creative capabilities of AI systems and it’s one being asked by DiG-bench (Discovery in Games), a new benchmark of 70 games “designed to map the surface of discovery in well-controlled interactive systems”. Similar to the visual ‘ARC’ game, in DiG-bench “each game is a self-contained miniature world with its own laws, but both the rules and the objective are hidden from the player and must be uncovered through interaction”. You can play some of the games yourself online to get a feel for them at the official project website ( digbench.ai ). The key thing this is measuring is the ability for players to spot the important mechanics that determine their success &#8211; basically, by playing around with the games you get a sense for how your actions change the environment and through this you also uncover mechanics that you must understand to succeed at the game. The idea is that if you can solve these games you have a decent ability to spot important information in novel environments and update your priors. Who did the research: The authors come from Thinking About Thinking, University of Oxford, Princeton University, King Abdullah University of Science and Technology, Swiss AI Lab, Inria, MIT. One of the authors is Juergen Schmidhuber, an extremely creative OG AI researcher. Key facts: Purely text-based: The games are basically native to language models. They are also mostly “short enough that most traces…",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now DiG-bench shows that Fable displays some creative intuiti…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "benchmark"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "ff28fea12e5ac2e2",
+      "date": "2026-08-23",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over",
+      "url": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
+      "publishedAt": "2026-08-22T07:36:00.000Z",
+      "content": "By AI standards today is a pretty quiet Friday, so it&#8217;s time to take a step back and reflect on what is really going on. If you read our 2025 reading list , and followed our coverage of Z.ai GLM , understood the Poolside pivot , been following our AI for Science themes , and tuned in to today&#8217;s Simile pod , you not only are one of the biggest readers of Latent Space, you will probably also arrive at this mental model: Every year since 2022, one more component of the pipeline that produces machine intelligence has flipped from human-made to model-made. Not gradually, and not evenly &#8212; each flip has a patient zero, a paper or product where the synthetic version first became load-bearing at a frontier lab, and from there on, the future is simply here but not yet productionized. And if you squint, what we used to call &#8220;synthetic data&#8221; and &#8220;synthetic rubrics&#8221; and &#8220;AI researcher&#8221; and &#8220;end to end RL environments&#8221; is just increasingly ambitious human simulation - 10% worse, but 100x cheaper and 10,000x faster. Stage 1: The reward signal (2022) The first thing to go synthetic was, counterintuitively, the judge. InstructGPT established the now-canonical trick: collect human preferences once, train a reward model , and let the policy optimize against the model rather than the humans. From the policy&#8217;s point of view, the thing dispensing approval was already an LLM. Constitutional AI pushed further and had the AI critique itself against a set of principles (RLAIF), and Lee et al. later showed AI feedback matching human feedback at a fraction of the cost. By the time LLM-as-judge became the default eval methodology (MT-Bench, AlpacaEval), the entire approval apparatus &#8212; reward, critique, evaluation &#8212; ran on models judging models. Stage 2: The training data (2023) Microsoft&#8217;s Phi series made the argument in its title: Textbooks Are All You Need . A small model trained on LLM-synthesized, tex…",
+      "summary": "Did you think RSI stopped at model training?",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.81,
+          "rationale": [
+            "research",
+            "paper",
+            "science"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.81,
+          "rationale": [
+            "eval",
+            "evaluation",
+            "reward model"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "548a05fc53f5f01a",
+      "date": "2026-08-23",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Simulation: the new Scaling Law — Joon Sung Park, Simile AI",
+      "url": "https://www.latent.space/p/simile",
+      "publishedAt": "2026-08-21T23:37:38.000Z",
+      "content": "When we first dicsussed the Summer of Simulative AI in 2024 we knew it would be a brief summer, but it has recently come back with a vengeance with SimGym in April and now Simile AI&#8217;s $2B Series B , backed by GreenOaks and Index Ventures with prominent backers like Fei-Fei Li and Andrej Karpathy, running tens of millions of simulations for Fortune 100 clients like CVS and 85&#8211;99% accuracy vs human focus groups. Time to catch up on why this Second Summer of simulation is working! From creating Smallville , the landmark 2023 paper on Generative Agents that showed AI characters could remember, plan, socialize, and develop emergent behaviors , to now building foundation models of human behavior, Joon Sung Park is trying to answer a much bigger question: what if we could simulate the world before making decisions in it? In this episode, the Simile co-founder and CEO joins us to unpack the path from generative agents to digital twins, why today&#8217;s frontier models still fail to capture how humans actually behave, and what it would take to eventually simulate all 8 billion people on Earth. We go deep on Simile&#8217;s approach to modeling human behavior : long-form interviews, observational and transaction data, randomized controlled trials, population-level and individual-level models, and post-training on the causal mechanisms behind why people make decisions. Joon explains how his research created digital twins that reproduced human behavior and attitudes 85% as accurately as people reproduced their own responses , why models optimized to be rational can be bad simulations of irrational humans, and why understanding &#8220;social physics&#8221; may require changing model weights rather than simply prompting frontier LLMs. We also explore the much larger ambition behind simulation : testing products and policies before deploying them, finding counterintuitive paths toward desired outcomes, modeling emergent behavior across entire societies, and potentiall…",
+      "summary": "Simile&#8217;s CEO about his journey from the viral Generative Agents to creating 8 Billion Digital Twins of every living human... and why it&#8217;s gone from fun exploration to very serious business.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.81,
+          "rationale": [
+            "research",
+            "paper",
+            "finding"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "post-training",
+            "rl"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "fc78f55f8f802167",
+      "date": "2026-08-23",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud",
+      "url": "https://www.latent.space/p/ainews-poolside-gets-12b-reverse",
+      "publishedAt": "2026-08-21T05:45:21.000Z",
+      "content": "Less than a month ago we had just featured Poolside&#8217;s Model Factory with Eiso Kant on the pod (following our Paper Club coverage): It appears that Jensen really, really liked Poolside too, as he went from investor to doing licensing their factory and hiring 109 of their employees: Unless things changed drastically, this accounts for the overwhelming majority of the technical Poolside employees : Eiso Kant [01:52:31]: We are hiring on every possible role in applied research and engineering in the company, from training all the way to evals to post-training architecture. Like, we are still in a world where, individuals can have massive impact. And I think our pitch to join us &#8212;I think we are one of the places where it&#8217;s the highest ratio to individual to impact, Right? L ess than 70 people built this model. Less than 115 between engineering and researchers , like, together did this effort, and that&#8217;s a very broad definition &#8216;cause I put myself in the 115 list. As the founders say, this is &#8220;not an acquisition and not an acquihire&#8221;: We&#8217;ve been calling the Windsurf-Google and Character-Google and Scale-Meta and Instacart-OpenAI deals execuhires because usually the executives go leaving the employees with a rich payout but holding the company remaining, but this is a first time it is happening the other way around. The action amounts to founders pivoting the company extremely hard to SOMETHING, and finding an EXTREMELY comfortable golden parachute for investors and employees to continue on with the original mission or stay aboard for the new pivot: For the last 3 1/2 years we&#8217;ve been directionally correct in a race where capital requirements went vertical. At the end of last year, we had a 6 week window in which to raise $2 billion dollars to pay for a 40,000 GB300 cluster coming online in January. We didn&#8217;t close it in time, and we lost the cluster . and: We also know that at 10,000-20,000 GB300s we would produ…",
+      "summary": "Yes, we&#8217;re confused too.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.81,
+          "rationale": [
+            "research",
+            "paper",
+            "finding"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "post-training",
+            "rl"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c4f6f5b307e39009",
+      "date": "2026-08-23",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "The /wayfinder Skill: Navigating the “Fog of War” of Planning",
+      "url": "https://www.latent.space/p/wayfinder-skill",
+      "publishedAt": "2026-08-20T20:59:09.000Z",
+      "content": "We&#8217;re currently developing a new series about skills, with the aim of giving you a regular supply of new skills to use in your projects. We&#8217;re kicking things off with an interview &#8212; and a super-useful skill &#8212; featuring Matt Pocock , whose &#8220; AI Skills for Real Engineers &#8221; project has over 220,000 stars on GitHub . He also talks about these skills to 347,000 subscribers on his YouTube channel . Pocock recently released a new skill called /wayfinder . Its purpose is to help you and your agent figure out a project where the end state isn&#8217;t entirely clear. Or as Pocock put it in our interview, /wayfinder helps you navigate &#8220;the fog of war,&#8221; where you have a project but &#8220;you can&#8217;t quite decide everything right at the start.&#8221; The following interview has been slightly condensed for readability, so you can read it, absorb Matt&#8217;s insights, and then test out /wayfinder for yourself! Latent Space: What were the goals of wayfinder? Pocock: What I noticed is I was doing a lot of work with AFK agents [Away From Keyboard] and trying to schedule in a ton of work so that my agents could run virtually overnight. I would just plan a bunch of stuff, and then I would create a spec and then turn that spec into tickets. And I had a really well-developed set of skills for how to turn work into scheduled stuff that agents could just crack on. But [...] I was finding the planning stage really onerous, because I would have to be constantly thinking about my session management. Like, how many tokens am I into my context window? How deep am I going here? Matt Pocock&#8217;s wayfinder skill, as documented in GitHub I didn&#8217;t want to feel constrained in the planning stage anymore. I wanted an orchestrator layer that would basically say, okay, whatever you want to plan, I&#8217;m going to handle the planning sessions for you. I&#8217;m going to split this out into multiple different threads, do prototyping, do resea…",
+      "summary": "Matt Pocock tells us about his /wayfinder skill, for greenfield projects or for when the way forward is unclear.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "github"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "finding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "85c81b42062cc009",
+      "date": "2026-08-23",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Overcaffeinated in Indonesia",
+      "url": "https://www.chinatalk.media/p/overcaffeinated-in-indonesia",
+      "publishedAt": "2026-08-21T10:19:24.000Z",
+      "content": "ChinaTalk is currently running two contests! See below for details: $50k prize pool for creative ideas, proposals, and writing pitches broadly related to the China-AI beat, which double as our recruiting drive for new staff researchers/writers. Deadline is August 23rd; learn more here ; $25k prize pool for evaluation protocols that help foreign policy and national security users learn about AI models&#8217; capabilities, limitations, and what these tools are useful for in diplomatic and strategic contexts. Deadline is September 1st; learn more here . ChinaTalk writer Irene Zhang went to Indonesia in July. These are her notes from the trip. Part 1: It&#8217;s So Big A few hours before I fly to Jakarta, my friend in Singapore sends me off over durian. &#8220;Indonesia will be a military dictatorship soon. It&#8217;s so over for Southeast Asia[n democracy].&#8221; ChinaTalk is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber. The next morning, I put my backpack on a baggage scanner at the entrance to Grand Indonesia, a glitzy mall in central Jakarta. The security guards&#8217; metallic breast badges flashed past my bleary eyes. It occurred to me that the last time I did this at a place of commerce was in China during Covid. Some time in 2024, I typed &#8220;what is the easiest major language to learn&#8221; into Google. The answer, according to the internet&#8217;s polyglot hivemind, was bahasa Indonesia , a standardized form of Malay that now unites 288 million diverse peoples across the archipelago. The spelling is consistent, the phonology relatively straightforward for English speakers, and basic grammar can be grokked in a week. Two years, a whole Duolingo course, and many iTalki lessons later, I landed at Soekarno-Hatta International Airport and managed a terima kasih to the customs officer. With more than 32 million residents spread across its metropolitan area (including the satellite cities…",
+      "summary": "ChinaTalk travel writing returns!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "publication"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "eval",
+            "evaluation"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "a71718fe0501a148",
+      "date": "2026-08-23",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "North Korean Messiah",
+      "url": "https://www.chinatalk.media/p/north-korean-messiah",
+      "publishedAt": "2026-08-19T10:08:02.000Z",
+      "content": "Thanks to a generous Coefficient Giving grant, ChinaTalk is currently running two contests! See below for details: $50k prize pool for creative ideas, proposals, and writing pitches broadly related to the China-AI beat, which double as our recruiting drive for new staff researchers/writers. Deadline is August 23rd; learn more here ; $25k prize pool for evaluation protocols that help foreign policy and national security users learn about AI models&#8217; capabilities, limitations, and what these tools are useful for in diplomatic and strategic contexts. Deadline is September 1st; learn more here . Why is North Korea so weird? Is it Stalinism? Maoism? Japan-style emperor worship? Ancient Korean hermit kingdom energy? No, argues Jonathan Cheng , Beijing bureau chief for The Wall Street Journal and author of The Korean Messiah: The Failed Dynasty That Shaped the Hermit Kingdom . You&#8217;ve all been sleeping on the influence of 19th-century American revival Protestantism. To discuss why Kim Il-sung kind of thought he was Jesus &#8212; or at least wanted to convince everyone else he was &#8212; we have the honor of Jonathan joining ChinaTalk today, with Alex Boyd . Our conversation covers: Billy Graham meets Kim Il-sung &#8212; how America&#8217;s pastor visited Pyongyang in 1992 and bonded with the dictator over their shared Presbyterian childhoods, while touring a birthplace resembling the nativity story. From &#8220;Jerusalem of the East&#8221; to totalitarian theocracy &#8212; how 22-year-old missionary Samuel Moffett brought eschatological founder energy to the wickedest city in Korea, and transformed Pyongyang into the most Protestant city in Asia, complete with jazz clubs and a Chevrolet dealership. The Manchurian cauldron &#8212; how the lawless frontier of 1920s Manchuria blended Christianity, Korean nationalism, and Marxism to forge Kim Il-sung&#8217;s messiah complex. Jim Jones and Kim &#8212; how the Jonestown cult leader became obsessed with Kim Il-sung, a…",
+      "summary": "American Protestant Christianity and the DPRK cult of personality",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "eval",
+            "evaluation"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "30a17cb70e146bf0",
+      "date": "2026-08-23",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "The Rise of China’s Electric Vehicle Industry",
+      "url": "https://www.chinatalk.media/p/the-rise-of-chinas-electric-vehicle",
+      "publishedAt": "2026-08-17T10:08:23.000Z",
+      "content": "How did China grow its EV industry? Hint: it wasn&#8217;t really central planning from Beijing. It was a magical concoction of entrepreneurs and local officials using their guanxi to dance around giant SOEs and central-government regulation, leverage private and foreign capital, and just be really excellent business people. That&#8217;s led to our situation in 2026 &#8212; world-beating companies that have a ton of overcapacity and are set to take over the planet. To discuss, we have ANU Professor Fengming Lu , who recently wrote a fantastic paper in The China Journal , titled The Rise of China&#8217;s Electric Vehicle Industry: Strategic Alliances Between Local Governments and Private Capital , alongside Irene Zhang, contributor and analyst at China Talk. We also get into the lessons this story holds for other strategic industries like robotics and AI &#8212; plus a little detour into the Chinese podcasting ecosystem. Our conversation covers: China&#8217;s automotive transformation from 130 small carmakers in the 1990s to the world&#8217;s most competitive EV industry. The rise of Chery, Geely, and other Chinese auto champions &#8212; how local connections, foreign technology, and creative financing helped them break into an industry dominated by state-owned enterprises. The downside of success &#8212; how China&#8217;s EV boom created an overcapacity problem. The role of guanxi and elite politics in deciding who gets to build cars. When Chinese EVs go global &#8212; record exports, overseas factories, trade tensions, and whether the same local-government playbook will shape the next wave of industries, from robotics to AI. Listen now on your favorite podcast app . Local Beginnings of the Chinese Auto Industry Irene Zhang: I had an amazing time reading your paper , and I found it incredibly interesting to learn the long history of how the global wave of Chinese EVs we&#8217;re seeing today actually came about. I&#8217;d like to start by hearing the story from your…",
+      "summary": "How did China grow its EV industry?",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "paper"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
     {
       "id": "591886fcea538484",
       "date": "2026-08-22",
@@ -137,461 +730,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.44,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "3013a00432bfcc44",
-      "date": "2026-08-22",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google DeepMind Blog",
-      "sourceKey": "official:Google DeepMind Blog",
-      "builderOrOrg": "Google DeepMind",
-      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
-      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
-      "publishedAt": "2026-08-21T11:59:48.000Z",
-      "content": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
-      "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a733baeafff36122",
-      "date": "2026-08-22",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Broadening access to Skala creates a faster path to predictive DFT",
-      "url": "https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft/",
-      "publishedAt": "2026-08-20T16:00:00.000Z",
-      "content": "At a glance Skala 1.1 demonstrates the continuously improving nature of Microsoft Research&#8217;s deep-learning DFT approach: trained on 2.5× more data than its predecessor, it delivers substantially higher accuracy across key molecular simulation challenges, including thermochemistry, reaction kinetics, and molecular structure prediction. Skala is now available in CP2K and is being integrated into Psi4 , FHI-aims , ORCA and VASP , bringing next-generation DFT accuracy closer to the communities that rely on these codes every day. Microsoft Research is also introducing a living benchmark that will track the computational performance of successive, increasingly optimized Skala releases to help the community measure and accelerate progress toward ever greater accuracy and efficiency. Together, these developments mark another milestone toward a future in which computational chemistry simulations are both predictive and integrated in all relevant scientific and industrial workflows. Bringing density functional theory (DFT) to predictive accuracy is a journey, not a single breakthrough. Since introducing Skala , our deep-learning exchange-correlation functional, we have continued to advance along two complementary fronts: improving accuracy and expanding accessibility across the computational chemistry ecosystem. Figure 1: Accuracy of Skala-1.1 for thermochemistry, kinetics, and non-covalent interactions. At the computational cost of a meta-GGA functional, Skala 1.1 outperforms the best, most expensive global hybrid functionals, ranking first (earning gold medals) in 32 of the 55 categories of the widely used GMTKN55 benchmark, which spans a broad range of chemical problems. On the accuracy front, the release of Skala-1.1 (opens in new tab) provides the first demonstration of the continuous-improvement paradigm underlying Skala. Trained on 2.5x more data than the first public version of Skala, the updated&nbsp; model delivers substantially improved performance across ke…",
-      "summary": "Skala 1.1, the updated deep-learning exchange-correlation functional from Microsoft Research, provides greater accuracy, expanded accessibility across the computational chemistry ecosystem, and a living benchmark to track computational per…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "eaa3efb0e331df59",
-      "date": "2026-08-22",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Import AI",
-      "sourceKey": "editorial:Import AI",
-      "builderOrOrg": "Jack Clark",
-      "title": "Import AI 469: Science AI; RSI simulator; and Zuck&#8217;s technological pessimism",
-      "url": "https://jack-clark.net/2026/08/17/import-ai-469-science-ai-rsi-simulator-and-zucks-technological-pessimism/",
-      "publishedAt": "2026-08-17T13:05:36.000Z",
-      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now DiG-bench shows that Fable displays some creative intuition: …The new frontier for analyzing AI systems is understanding how good they are at inferring the unwritten rules of their environment… How well can AI systems figure out the rules of their environment through exploration and curiosity, versus being fed them? That’s an important question for better understanding the intuitive and creative capabilities of AI systems and it’s one being asked by DiG-bench (Discovery in Games), a new benchmark of 70 games “designed to map the surface of discovery in well-controlled interactive systems”. Similar to the visual ‘ARC’ game, in DiG-bench “each game is a self-contained miniature world with its own laws, but both the rules and the objective are hidden from the player and must be uncovered through interaction”. You can play some of the games yourself online to get a feel for them at the official project website ( digbench.ai ). The key thing this is measuring is the ability for players to spot the important mechanics that determine their success &#8211; basically, by playing around with the games you get a sense for how your actions change the environment and through this you also uncover mechanics that you must understand to succeed at the game. The idea is that if you can solve these games you have a decent ability to spot important information in novel environments and update your priors. Who did the research: The authors come from Thinking About Thinking, University of Oxford, Princeton University, King Abdullah University of Science and Technology, Swiss AI Lab, Inria, MIT. One of the authors is Juergen Schmidhuber, an extremely creative OG AI researcher. Key facts: Purely text-based: The games are basically native to language models. They are also mostly “short enough that most traces…",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now DiG-bench shows that Fable displays some creative intuiti…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "science"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "benchmark"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "548a05fc53f5f01a",
-      "date": "2026-08-22",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "Simulation: the new Scaling Law — Joon Sung Park, Simile AI",
-      "url": "https://www.latent.space/p/simile",
-      "publishedAt": "2026-08-21T23:37:38.000Z",
-      "content": "When we first dicsussed the Summer of Simulative AI in 2024 we knew it would be a brief summer, but it has recently come back with a vengeance with SimGym in April and now Simile AI&#8217;s $2B Series B , backed by GreenOaks and Index Ventures with prominent backers like Fei-Fei Li and Andrej Karpathy, running tens of millions of simulations for Fortune 100 clients like CVS and 85&#8211;99% accuracy vs human focus groups. Time to catch up on why this Second Summer of simulation is working! From creating Smallville , the landmark 2023 paper on Generative Agents that showed AI characters could remember, plan, socialize, and develop emergent behaviors , to now building foundation models of human behavior, Joon Sung Park is trying to answer a much bigger question: what if we could simulate the world before making decisions in it? In this episode, the Simile co-founder and CEO joins us to unpack the path from generative agents to digital twins, why today&#8217;s frontier models still fail to capture how humans actually behave, and what it would take to eventually simulate all 8 billion people on Earth. We go deep on Simile&#8217;s approach to modeling human behavior : long-form interviews, observational and transaction data, randomized controlled trials, population-level and individual-level models, and post-training on the causal mechanisms behind why people make decisions. Joon explains how his research created digital twins that reproduced human behavior and attitudes 85% as accurately as people reproduced their own responses , why models optimized to be rational can be bad simulations of irrational humans, and why understanding &#8220;social physics&#8221; may require changing model weights rather than simply prompting frontier LLMs. We also explore the much larger ambition behind simulation : testing products and policies before deploying them, finding counterintuitive paths toward desired outcomes, modeling emergent behavior across entire societies, and potentiall…",
-      "summary": "Simile&#8217;s CEO about his journey from the viral Generative Agents to creating 8 Billion Digital Twins of every living human... and why it&#8217;s gone from fun exploration to very serious business.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.81,
-          "rationale": [
-            "research",
-            "paper",
-            "finding"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.69,
-          "rationale": [
-            "post-training",
-            "rl"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "fc78f55f8f802167",
-      "date": "2026-08-22",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud",
-      "url": "https://www.latent.space/p/ainews-poolside-gets-12b-reverse",
-      "publishedAt": "2026-08-21T05:45:21.000Z",
-      "content": "Less than a month ago we had just featured Poolside&#8217;s Model Factory with Eiso Kant on the pod (following our Paper Club coverage): It appears that Jensen really, really liked Poolside too, as he went from investor to doing licensing their factory and hiring 109 of their employees: Unless things changed drastically, this accounts for the overwhelming majority of the technical Poolside employees : Eiso Kant [01:52:31]: We are hiring on every possible role in applied research and engineering in the company, from training all the way to evals to post-training architecture. Like, we are still in a world where, individuals can have massive impact. And I think our pitch to join us &#8212;I think we are one of the places where it&#8217;s the highest ratio to individual to impact, Right? L ess than 70 people built this model. Less than 115 between engineering and researchers , like, together did this effort, and that&#8217;s a very broad definition &#8216;cause I put myself in the 115 list. As the founders say, this is &#8220;not an acquisition and not an acquihire&#8221;: We&#8217;ve been calling the Windsurf-Google and Character-Google and Scale-Meta and Instacart-OpenAI deals execuhires because usually the executives go leaving the employees with a rich payout but holding the company remaining, but this is a first time it is happening the other way around. The action amounts to founders pivoting the company extremely hard to SOMETHING, and finding an EXTREMELY comfortable golden parachute for investors and employees to continue on with the original mission or stay aboard for the new pivot: For the last 3 1/2 years we&#8217;ve been directionally correct in a race where capital requirements went vertical. At the end of last year, we had a 6 week window in which to raise $2 billion dollars to pay for a 40,000 GB300 cluster coming online in January. We didn&#8217;t close it in time, and we lost the cluster . and: We also know that at 10,000-20,000 GB300s we would produ…",
-      "summary": "Yes, we&#8217;re confused too.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.81,
-          "rationale": [
-            "research",
-            "paper",
-            "finding"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.69,
-          "rationale": [
-            "post-training",
-            "rl"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "eval"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "c4f6f5b307e39009",
-      "date": "2026-08-22",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "The /wayfinder Skill: Navigating the “Fog of War” of Planning",
-      "url": "https://www.latent.space/p/wayfinder-skill",
-      "publishedAt": "2026-08-20T20:59:09.000Z",
-      "content": "We&#8217;re currently developing a new series about skills, with the aim of giving you a regular supply of new skills to use in your projects. We&#8217;re kicking things off with an interview &#8212; and a super-useful skill &#8212; featuring Matt Pocock , whose &#8220; AI Skills for Real Engineers &#8221; project has over 220,000 stars on GitHub . He also talks about these skills to 347,000 subscribers on his YouTube channel . Pocock recently released a new skill called /wayfinder . Its purpose is to help you and your agent figure out a project where the end state isn&#8217;t entirely clear. Or as Pocock put it in our interview, /wayfinder helps you navigate &#8220;the fog of war,&#8221; where you have a project but &#8220;you can&#8217;t quite decide everything right at the start.&#8221; The following interview has been slightly condensed for readability, so you can read it, absorb Matt&#8217;s insights, and then test out /wayfinder for yourself! Latent Space: What were the goals of wayfinder? Pocock: What I noticed is I was doing a lot of work with AFK agents [Away From Keyboard] and trying to schedule in a ton of work so that my agents could run virtually overnight. I would just plan a bunch of stuff, and then I would create a spec and then turn that spec into tickets. And I had a really well-developed set of skills for how to turn work into scheduled stuff that agents could just crack on. But [...] I was finding the planning stage really onerous, because I would have to be constantly thinking about my session management. Like, how many tokens am I into my context window? How deep am I going here? Matt Pocock&#8217;s wayfinder skill, as documented in GitHub I didn&#8217;t want to feel constrained in the planning stage anymore. I wanted an orchestrator layer that would basically say, okay, whatever you want to plan, I&#8217;m going to handle the planning sessions for you. I&#8217;m going to split this out into multiple different threads, do prototyping, do resea…",
-      "summary": "Matt Pocock tells us about his /wayfinder skill, for greenfield projects or for when the way forward is unclear.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "github"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "finding"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "85c81b42062cc009",
-      "date": "2026-08-22",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Overcaffeinated in Indonesia",
-      "url": "https://www.chinatalk.media/p/overcaffeinated-in-indonesia",
-      "publishedAt": "2026-08-21T10:19:24.000Z",
-      "content": "ChinaTalk is currently running two contests! See below for details: $50k prize pool for creative ideas, proposals, and writing pitches broadly related to the China-AI beat, which double as our recruiting drive for new staff researchers/writers. Deadline is August 23rd; learn more here ; $25k prize pool for evaluation protocols that help foreign policy and national security users learn about AI models&#8217; capabilities, limitations, and what these tools are useful for in diplomatic and strategic contexts. Deadline is September 1st; learn more here . ChinaTalk writer Irene Zhang went to Indonesia in July. These are her notes from the trip. Part 1: It&#8217;s So Big A few hours before I fly to Jakarta, my friend in Singapore sends me off over durian. &#8220;Indonesia will be a military dictatorship soon. It&#8217;s so over for Southeast Asia[n democracy].&#8221; ChinaTalk is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber. The next morning, I put my backpack on a baggage scanner at the entrance to Grand Indonesia, a glitzy mall in central Jakarta. The security guards&#8217; metallic breast badges flashed past my bleary eyes. It occurred to me that the last time I did this at a place of commerce was in China during Covid. Some time in 2024, I typed &#8220;what is the easiest major language to learn&#8221; into Google. The answer, according to the internet&#8217;s polyglot hivemind, was bahasa Indonesia , a standardized form of Malay that now unites 288 million diverse peoples across the archipelago. The spelling is consistent, the phonology relatively straightforward for English speakers, and basic grammar can be grokked in a week. Two years, a whole Duolingo course, and many iTalki lessons later, I landed at Soekarno-Hatta International Airport and managed a terima kasih to the customs officer. With more than 32 million residents spread across its metropolitan area (including the satellite cities…",
-      "summary": "ChinaTalk travel writing returns!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "publication"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "eval",
-            "evaluation"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a71718fe0501a148",
-      "date": "2026-08-22",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "North Korean Messiah",
-      "url": "https://www.chinatalk.media/p/north-korean-messiah",
-      "publishedAt": "2026-08-19T10:08:02.000Z",
-      "content": "Thanks to a generous Coefficient Giving grant, ChinaTalk is currently running two contests! See below for details: $50k prize pool for creative ideas, proposals, and writing pitches broadly related to the China-AI beat, which double as our recruiting drive for new staff researchers/writers. Deadline is August 23rd; learn more here ; $25k prize pool for evaluation protocols that help foreign policy and national security users learn about AI models&#8217; capabilities, limitations, and what these tools are useful for in diplomatic and strategic contexts. Deadline is September 1st; learn more here . Why is North Korea so weird? Is it Stalinism? Maoism? Japan-style emperor worship? Ancient Korean hermit kingdom energy? No, argues Jonathan Cheng , Beijing bureau chief for The Wall Street Journal and author of The Korean Messiah: The Failed Dynasty That Shaped the Hermit Kingdom . You&#8217;ve all been sleeping on the influence of 19th-century American revival Protestantism. To discuss why Kim Il-sung kind of thought he was Jesus &#8212; or at least wanted to convince everyone else he was &#8212; we have the honor of Jonathan joining ChinaTalk today, with Alex Boyd . Our conversation covers: Billy Graham meets Kim Il-sung &#8212; how America&#8217;s pastor visited Pyongyang in 1992 and bonded with the dictator over their shared Presbyterian childhoods, while touring a birthplace resembling the nativity story. From &#8220;Jerusalem of the East&#8221; to totalitarian theocracy &#8212; how 22-year-old missionary Samuel Moffett brought eschatological founder energy to the wickedest city in Korea, and transformed Pyongyang into the most Protestant city in Asia, complete with jazz clubs and a Chevrolet dealership. The Manchurian cauldron &#8212; how the lawless frontier of 1920s Manchuria blended Christianity, Korean nationalism, and Marxism to forge Kim Il-sung&#8217;s messiah complex. Jim Jones and Kim &#8212; how the Jonestown cult leader became obsessed with Kim Il-sung, a…",
-      "summary": "American Protestant Christianity and the DPRK cult of personality",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "eval",
-            "evaluation"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "30a17cb70e146bf0",
-      "date": "2026-08-22",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "The Rise of China’s Electric Vehicle Industry",
-      "url": "https://www.chinatalk.media/p/the-rise-of-chinas-electric-vehicle",
-      "publishedAt": "2026-08-17T10:08:23.000Z",
-      "content": "How did China grow its EV industry? Hint: it wasn&#8217;t really central planning from Beijing. It was a magical concoction of entrepreneurs and local officials using their guanxi to dance around giant SOEs and central-government regulation, leverage private and foreign capital, and just be really excellent business people. That&#8217;s led to our situation in 2026 &#8212; world-beating companies that have a ton of overcapacity and are set to take over the planet. To discuss, we have ANU Professor Fengming Lu , who recently wrote a fantastic paper in The China Journal , titled The Rise of China&#8217;s Electric Vehicle Industry: Strategic Alliances Between Local Governments and Private Capital , alongside Irene Zhang, contributor and analyst at China Talk. We also get into the lessons this story holds for other strategic industries like robotics and AI &#8212; plus a little detour into the Chinese podcasting ecosystem. Our conversation covers: China&#8217;s automotive transformation from 130 small carmakers in the 1990s to the world&#8217;s most competitive EV industry. The rise of Chery, Geely, and other Chinese auto champions &#8212; how local connections, foreign technology, and creative financing helped them break into an industry dominated by state-owned enterprises. The downside of success &#8212; how China&#8217;s EV boom created an overcapacity problem. The role of guanxi and elite politics in deciding who gets to build cars. When Chinese EVs go global &#8212; record exports, overseas factories, trade tensions, and whether the same local-government playbook will shape the next wave of industries, from robotics to AI. Listen now on your favorite podcast app . Local Beginnings of the Chinese Auto Industry Irene Zhang: I had an amazing time reading your paper , and I found it incredibly interesting to learn the long history of how the global wave of Chinese EVs we&#8217;re seeing today actually came about. I&#8217;d like to start by hearing the story from your…",
-      "summary": "How did China grow its EV industry?",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "paper"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
       "whyThisMatters": ""
     },
     {
@@ -2266,167 +2404,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d2c558abd4645cf9",
-      "date": "2026-08-06",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "Training Data",
-      "sourceKey": "podcast:Training Data",
-      "builderOrOrg": "Training Data",
-      "title": "Chai Discovery's Bitter Lesson: Drug Design Is Another Scaling Problem",
-      "url": "https://www.youtube.com/watch?v=wv53mDmY-k0",
-      "publishedAt": "2026-08-04T09:00:00.000Z",
-      "content": "Speaker 1 | 00:00 - 00:22 One of our big guiding principles is just simplicity. So, like, when you look at a model like, let's say, CHI one, I think there are 23 distinct submodules in CHI one. And, like, when you're trying to iterate on something like that, it gets really hard because you're like, I kinda I need to understand each of these sub modules independently. I need to understand all of their behaviors, their dynamics, and, like, that doesn't actually scale that well. So, like, you can start to think, okay. Speaker 1 | 00:22 - 00:31 How do I simplify this? How do I identify, like, what's what's really important? Once you have that, the whole research process and identifying these types of scaling directions becomes a lot simpler. Speaker 2 | 00:48 - 01:01 We're here with Josh and Matt, two of the co founders of CHI Discovery. CHI is engineering molecules with AI. So it's something of a foundation model lab for biology. Sounds like a big idea, but let Speaker 3 | 01:01 - 01:25 me just start there. What is the big idea? Thanks for having us on the show. One of the exciting things we're trying to do at CHI is to make the drug discovery process look a little bit more like engineering, and we've seen all the work happening with the LMs for cogeneration, for instance, right, and that works really well because code's a very simple obstruction, right, of like to kind of get across what you want to do. Biology doesn't look like that today. Speaker 3 | 01:25 - 01:52 It's a lot of like trial and error. I think if we go back to the early days of just like modern biotech, right, a lot of the medicines that we have today were kind of discovered quite randomly. It was a bit serendipitous, and what we're trying to do is allow us to industrialize that process a little bit more and try to come up with the tools that we'd need in order to have abstraction layers, the same way we have that encoded in modern engineering, allows us to iterate really quickly and try to bring that, into biology and into drug discovery. Speaker 2 | 01:52 - 02:15 So let me ask you a question on that then. So there's and tell me if this is a reasonable way to frame it. There's almost this boundary between that which can be engineered and that which needs to be tested in the real world. And it feels like that boundary has been moving over time. Like the proportion of the drug development process that can be engineered as opposed to trial and errored seems to be increasing. Speaker 2 | 02:15 - 02:22 Is that a reasonable way to think about it? If so, can you talk about like what specific developments have pushed that boundary over time? Speaker 3 | 02:22 - 02:41 I think that's one way to think about it. The way that we often, look at this is like the lab is an important part to verify that what you're doing is correct. And actually verification is a very big theme in AI as well. If you can evaluate that your model works, you can verify it, then you can start to hill climb that and you can make progress on it. So I think the lab is a very important part of this. Speaker 3 | 02:41 - 03:03 And the question is how do we take drug discovery and make it look a lot more like drug design? So one of the reasons why we call this field drug discovery is we're often looking for a needle in a haystack. We'll screen millions, billions of molecules, try to find one that works. And if we can instead put in what is like the dream state of the molecule you want, and then the model can materialize that, that's going be really powerful. So it's not even a question of like reducing lab testing. Speaker 3 | 03:03 - 03:24 I mean, maybe that happens as a result. I actually might even take the opposite side of the coin and we can talk about that where maybe we'd actually do even more lab testing because the ROI will increase the same way there's more software engineers, there's or more demand for software engineers now that they become more productive. There might be more demand for the l…",
-      "summary": "Speaker 1 | 00:00 - 00:22 One of our big guiding principles is just simplicity. So, like, when you look at a model like, let's say, CHI one, I think there are 23 distinct submodules in CHI one. And, like, when you're trying to iterate on s…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.52,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.44,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d52fc989fa162542",
-      "date": "2026-08-06",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Echoverse: Deep, evolving environments for computer-use agents",
-      "url": "https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents/",
-      "publishedAt": "2026-07-30T17:00:00.000Z",
-      "content": "Scaling fidelity over sheer count, targeting the capabilities agents actually lack, and evolving with the models they train. At a glance We built twelve training worlds for computer-use agents: ten deep domain worlds and two capability worlds, each drilling a single control rendered in many forms (date pickers and nested filters). Depth is what makes them worth training on: these worlds reproduce an application’s real behavior, come seeded with realistic data, and keep state coherent across screens and users. Trained on all twelve, a 9B model nearly doubles its base score (36.5% to 67.1%), coming within fourteen points of GPT-5.4. The experiment taught us several lessons:&nbsp; High simulation fidelity is a must-have; shallow worlds hurt the agent. Trained on shallow and deep builds of the same sites, the model regressed on the shallow ones but improved on the deep ones. Agents often struggle with the same challenging UI elements, like date pickers and nested filters. Drilling those controls in varied forms taught the model to operate them in domains it never saw in training. Co-evolving the model, the world, and the verifier improves all of them. As the world grows more correct and its tasks grow harder, the model climbs with it. Reinforcement learning against the worlds pushes the agent past imitation. Using the grounded verifier as the reward, RL lifts held-out performance and teaches the agent to reach the goal in fewer steps. We’re releasing four of the worlds with their code, data, and grounded graders, to support research on high-fidelity computer-use worlds. Github: &nbsp; microsoft/Echoverse: Deep, Evolving Environments for Computer-Use Agents (opens in new tab) Hugging Face: microsoft/Echoverse · Datasets at Hugging Face (opens in new tab) Technical Report:&nbsp; https://www.microsoft.com/en-us/research/publication/echoverse-deep-evolving-environments-for-training-computer-use-agents-at-scale/ A computer-use agent learns the results of what its actions do…",
-      "summary": "Computer-use AI agents struggle with multi-step workflows like email and customer support. Echoverse trains agents in realistic environments rather than simply providing more training tasks, helping them improve as the tasks, tests, and en…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.81,
-          "rationale": [
-            "research",
-            "publication",
-            "dataset"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "code",
-            "repo"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.69,
-          "rationale": [
-            "rl",
-            "reinforcement learning"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d21637a197808d46",
-      "date": "2026-08-06",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "EvoLib: Turning experience into evolving knowledge",
-      "url": "https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge/",
-      "publishedAt": "2026-07-30T16:00:00.000Z",
-      "content": "At a glance Self-supervised. EvoLib enables large language models to learn from their own experience during inference, without requiring ground-truth labels or external feedback. From experience to knowledge. EvoLib transforms past attempts into reusable skills and reflective insights that can be applied to future tasks. Knowledge that evolves. Useful skills and insights are continually refined, consolidated, and reweighted, turning instance-specific observations into increasingly general knowledge over time. Learning that transfers across tasks. By turning experience into reusable knowledge, EvoLib helps AI models learn from past successes and failures and evolve the knowledge that has the highest potential on improving future performance. Built for today&#8217;s AI models. As EvoLib does not require model updates, it can be applied to any black-box language models and AI systems deployed through APIs. Memory has become an important AI agent capability: the ability to store and retrieve past experiences. But memory alone is not learning. A collection of past conversations, reasoning traces, or action histories can quickly grow into a vast archive of experiences, making it difficult to identify the most relevant knowledge for a new task—let alone refine and evolve this knowledge to improve performance over time. Humans learn differently. We do not remember every detail of our past experiences. Instead, we remember what matters: strategies that work, mistakes to avoid, and skills that transfer across situations. Over time, these lessons are refined into increasingly general and reusable knowledge. This ability to transform experience into transferable, evolving knowledge is one of the foundations of human learning. In our recent paper, Test-Time Learning with an Evolving Library , we explore how AI systems can learn from experience in a similar way. We introduce EvoLib , a framework that transforms raw experience into an evolving library of knowledge. Rather than tr…",
-      "summary": "LLMs do not get smarter just by remembering more. EvoLib turns experience into evolving knowledge, taking reusable skills and insights that help models learn and adapt across tasks long after deployment. The post EvoLib: Turning experience…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "paper"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
       "whyThisMatters": ""
     }
   ]

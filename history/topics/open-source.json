@@ -1,11 +1,165 @@
 {
-  "generatedAt": "2026-08-22T02:30:27.900Z",
+  "generatedAt": "2026-08-23T00:30:42.544Z",
   "slug": "open-source",
   "label": "Open Source",
   "items": [
     {
+      "id": "d5d53c2a5c1252c2",
+      "date": "2026-08-23",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:claudeai",
+      "builderOrOrg": "Claude",
+      "title": "It's one of several steps to bring frontier capability to more defenders: we’re working with pa…",
+      "url": "https://x.com/claudeai/status/2090852320128938319",
+      "publishedAt": "2026-08-21T17:23:33.000Z",
+      "content": "It's one of several steps to bring frontier capability to more defenders: we’re working with partners to integrate Mythos 5 into their security products and services, our new Defender Advantage Fund provides $35M in credits for open-source security, and we’re expanding our Cyber Verification Program in the coming weeks. Read more: https://t.co/xgu4d9yrwm",
+      "summary": "It's one of several steps to bring frontier capability to more defenders: we’re working with partners to integrate Mythos 5 into their security products and services, our new Defender Advantage Fund provides $35M in cre…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 212,
+        "retweets": 3,
+        "replies": 3
+      },
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open-source"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.78,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.86,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "31cf857f0c5b4f2d",
+      "date": "2026-08-23",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:claudeai",
+      "builderOrOrg": "Claude",
+      "title": "Point Claude Security at a GitHub repo and Mythos scans for vulnerabilities tracing data across…",
+      "url": "https://x.com/claudeai/status/2090852316328902930",
+      "publishedAt": "2026-08-21T17:23:33.000Z",
+      "content": "Point Claude Security at a GitHub repo and Mythos scans for vulnerabilities tracing data across files and reasoning about how components interact. Each finding comes back with a CWE category, confidence and severity ratings, and a suggested fix.",
+      "summary": "Point Claude Security at a GitHub repo and Mythos scans for vulnerabilities tracing data across files and reasoning about how components interact. Each finding comes back with a CWE category, confidence and severity rat…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 417,
+        "retweets": 19,
+        "replies": 12
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "github"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.78,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.86,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c9eee9cd8b412aae",
+      "date": "2026-08-23",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "The Evolution of the Agent Harness",
+      "url": "https://www.latent.space/p/attention-interface",
+      "publishedAt": "2026-08-22T07:30:52.000Z",
+      "content": "Sometime around Christmas 2025, AI engineers noticed a change in agents. They started to work! It&#8217;s hard to pin down exactly why. Maybe we finally had holiday downtime to try the newest agents with the newest models. Maybe the models had crossed some capability threshold . Maybe the wrappers around the models had matured. What I&#8217;ll argue in this post is that it was the confluence of the last two. The model and the harness improving together and then their curves of improvement crossing at the right moment. And that dynamic helps to explain what comes next: models keep absorbing the harness into their weights, engineers keep deleting what got absorbed, and what remains is a harness for human attention rather than for the model. Lukasz Kaiser, one of the people who invented the Transformer, said on &#8220;Unsupervised Learning&#8221; in June: &#8220;The change last winter, last Christmas &#8212; it&#8217;s a little hard to pin down. I mean, the harness changed and a little post-training changed and then new pre-trained models came&#8230; but it felt like a big jump which is not that easy to pin down what did it.&#8221; The answer to &#8220;What happened?&#8221; isn&#8217;t solely in the model weights. It&#8217;s in the system that grew up around the weights. The answer is in the agent harness. Think back to November 2022, when ChatGPT was the most advanced AI tool. The only capability at its disposal was next-token prediction and some Reinforcement Learning from Human Feedback (RLHF) that allowed it to act like a helpful assistant. No tools, no search, and no reasoning. The original ChatGPT was confined to its training data and the prompt you sent it. No more, no less. It was a brain in a vat. The agent harness is a way for the LLM to break free from that confinement and interact with real digital information space. What a Harness Actually Is An agent harness is everything besides the model weights that makes the agent work. The environment, tools, contex…",
+      "summary": "Models keep absorbing the harness into their weights &#8212; soon, it will be a harness for human attention rather than for the model.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.81,
+          "rationale": [
+            "post-training",
+            "rl",
+            "reinforcement learning"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "weights"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
+      "whyThisMatters": ""
+    },
+    {
       "id": "c4f6f5b307e39009",
-      "date": "2026-08-22",
+      "date": "2026-08-23",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -2280,145 +2434,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "3892a6620da7752a",
-      "date": "2026-07-22",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:swyx",
-      "builderOrOrg": "Swyx",
-      "title": "very notable trajectory comparison writeup here buried in the RLM paper from @a1zhang and @late…",
-      "url": "https://x.com/swyx/status/2079411861150429402",
-      "publishedAt": "2026-07-21T03:43:15.000Z",
-      "content": "very notable trajectory comparison writeup here buried in the RLM paper from @a1zhang and @lateinteraction. an open secret of \"frontier\" model training is that even without training on test, you can basically cheat by training on test lookalikes, enabling you to goalseek almost any benchmark number you want. however when they are released open weights, 99% of the time the norm is that you do not get the datasets/rlenvs that would easily show you if someone was training on Temu Tbench, so there…",
-      "summary": "very notable trajectory comparison writeup here buried in the RLM paper from @a1zhang and @lateinteraction. an open secret of \"frontier\" model training is that even without training on test, you can basically cheat by t…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 62,
-        "retweets": 7,
-        "replies": 13
-      },
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "paper",
-            "dataset"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "weights"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "30d6f50e48c66296",
-      "date": "2026-07-22",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:mattturck",
-      "builderOrOrg": "Matt Turck",
-      "title": "OpenAI and Anthropic when a top free Chinese open source model drops https://t.co/Dh3hjgv0y1",
-      "url": "https://x.com/mattturck/status/2079198838741458989",
-      "publishedAt": "2026-07-20T13:36:47.000Z",
-      "content": "OpenAI and Anthropic when a top free Chinese open source model drops https://t.co/Dh3hjgv0y1",
-      "summary": "OpenAI and Anthropic when a top free Chinese open source model drops https://t.co/Dh3hjgv0y1",
-      "regionTags": [],
-      "metrics": {
-        "likes": 70,
-        "retweets": 4,
-        "replies": 6
-      },
-      "topics": [
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open source"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "08712c5d8f692504",
-      "date": "2026-07-21",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "In a world where there are strong open source alternatives that are only just behind the fronti…",
-      "url": "https://x.com/levie/status/2078992778449850769",
-      "publishedAt": "2026-07-19T23:57:58.000Z",
-      "content": "In a world where there are strong open source alternatives that are only just behind the frontier models, you make yourself less secure and competitive by gatekeeping access to frontier model capabilities. If you play this out, even if America could fully ban access to open source models, other ecosystems wouldn't have that ban and they'd have a leg up on access to those models. They could use them against us -or just use them to better defend themselves- and our own companies wouldn't be able…",
-      "summary": "In a world where there are strong open source alternatives that are only just behind the frontier models, you make yourself less secure and competitive by gatekeeping access to frontier model capabilities. If you play t…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 232,
-        "retweets": 24,
-        "replies": 20
-      },
-      "topics": [
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open source"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]
