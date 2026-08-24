@@ -1,8 +1,63 @@
 {
-  "generatedAt": "2026-08-22T02:30:27.900Z",
+  "generatedAt": "2026-08-24T00:31:16.989Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
+    {
+      "id": "81cd319ca9d6c88e",
+      "date": "2026-08-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:realmadhuguru",
+      "builderOrOrg": "Madhu Guru",
+      "title": "How to build great evals - part 6 Hill climbing on evals is just a fancy way of saying: pick a…",
+      "url": "https://x.com/realmadhuguru/status/2091278653435072523",
+      "publishedAt": "2026-08-22T21:37:39.000Z",
+      "content": "How to build great evals - part 6 Hill climbing on evals is just a fancy way of saying: pick a dimension that matters and optimize for it. This could be improving the quality of existing features based on your latest production data on high value user journeys, expanding to adjacent use cases, lowering cost or latency. The actual work boils down to better harnesses and model selection through methods like prompt eng, context eng, memory, post training, deterministic old school code etc. Your fa…",
+      "summary": "How to build great evals - part 6 Hill climbing on evals is just a fancy way of saying: pick a dimension that matters and optimize for it. This could be improving the quality of existing features based on your latest pr…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 143,
+        "retweets": 8,
+        "replies": 11
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "latency"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
     {
       "id": "5d94b23123a81b3f",
       "date": "2026-08-22",
@@ -2281,62 +2336,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "3b00a72aa1c1903f",
-      "date": "2026-06-11",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:karpathy",
-      "builderOrOrg": "Andrej Karpathy",
-      "title": "This is a super exciting release - Claude Fable 5 is the same underlying model as Mythos but wi…",
-      "url": "https://x.com/karpathy/status/2064409694761054332",
-      "publishedAt": "2026-06-09T18:10:00.000Z",
-      "content": "This is a super exciting release - Claude Fable 5 is the same underlying model as Mythos but with added safeguards. The benchmarks are great and it's SOTA on everything by a margin but I'll add that *qualitatively* also, this is a major-version-bump-deserving step change forward (imo of the same order as Claude 4.5 was in November), peaking especially for long problem-solving sessions on very difficult problems. You can give it a lot more ambitious tasks than what you're used to, the model \"get…",
-      "summary": "This is a super exciting release - Claude Fable 5 is the same underlying model as Mythos but with added safeguards. The benchmarks are great and it's SOTA on everything by a margin but I'll add that *qualitatively* also…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 20439,
-        "retweets": 1871,
-        "replies": 930
-      },
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "benchmark",
-            "imo"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "serving"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]

@@ -1,8 +1,112 @@
 {
-  "generatedAt": "2026-08-23T02:39:42.158Z",
+  "generatedAt": "2026-08-24T00:31:16.989Z",
   "slug": "open-source",
   "label": "Open Source",
   "items": [
+    {
+      "id": "c9eee9cd8b412aae",
+      "date": "2026-08-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "The Evolution of the Agent Harness",
+      "url": "https://www.latent.space/p/attention-interface",
+      "publishedAt": "2026-08-22T07:30:52.000Z",
+      "content": "Sometime around Christmas 2025, AI engineers noticed a change in agents. They started to work! It&#8217;s hard to pin down exactly why. Maybe we finally had holiday downtime to try the newest agents with the newest models. Maybe the models had crossed some capability threshold . Maybe the wrappers around the models had matured. What I&#8217;ll argue in this post is that it was the confluence of the last two. The model and the harness improving together and then their curves of improvement crossing at the right moment. And that dynamic helps to explain what comes next: models keep absorbing the harness into their weights, engineers keep deleting what got absorbed, and what remains is a harness for human attention rather than for the model. Lukasz Kaiser, one of the people who invented the Transformer, said on &#8220;Unsupervised Learning&#8221; in June: &#8220;The change last winter, last Christmas &#8212; it&#8217;s a little hard to pin down. I mean, the harness changed and a little post-training changed and then new pre-trained models came&#8230; but it felt like a big jump which is not that easy to pin down what did it.&#8221; The answer to &#8220;What happened?&#8221; isn&#8217;t solely in the model weights. It&#8217;s in the system that grew up around the weights. The answer is in the agent harness. Think back to November 2022, when ChatGPT was the most advanced AI tool. The only capability at its disposal was next-token prediction and some Reinforcement Learning from Human Feedback (RLHF) that allowed it to act like a helpful assistant. No tools, no search, and no reasoning. The original ChatGPT was confined to its training data and the prompt you sent it. No more, no less. It was a brain in a vat. The agent harness is a way for the LLM to break free from that confinement and interact with real digital information space. What a Harness Actually Is An agent harness is everything besides the model weights that makes the agent work. The environment, tools, contex…",
+      "summary": "Models keep absorbing the harness into their weights &#8212; soon, it will be a harness for human attention rather than for the model.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.81,
+          "rationale": [
+            "post-training",
+            "rl",
+            "reinforcement learning"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "weights"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c4f6f5b307e39009",
+      "date": "2026-08-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "The /wayfinder Skill: Navigating the “Fog of War” of Planning",
+      "url": "https://www.latent.space/p/wayfinder-skill",
+      "publishedAt": "2026-08-20T20:59:09.000Z",
+      "content": "We&#8217;re currently developing a new series about skills, with the aim of giving you a regular supply of new skills to use in your projects. We&#8217;re kicking things off with an interview &#8212; and a super-useful skill &#8212; featuring Matt Pocock , whose &#8220; AI Skills for Real Engineers &#8221; project has over 220,000 stars on GitHub . He also talks about these skills to 347,000 subscribers on his YouTube channel . Pocock recently released a new skill called /wayfinder . Its purpose is to help you and your agent figure out a project where the end state isn&#8217;t entirely clear. Or as Pocock put it in our interview, /wayfinder helps you navigate &#8220;the fog of war,&#8221; where you have a project but &#8220;you can&#8217;t quite decide everything right at the start.&#8221; The following interview has been slightly condensed for readability, so you can read it, absorb Matt&#8217;s insights, and then test out /wayfinder for yourself! Latent Space: What were the goals of wayfinder? Pocock: What I noticed is I was doing a lot of work with AFK agents [Away From Keyboard] and trying to schedule in a ton of work so that my agents could run virtually overnight. I would just plan a bunch of stuff, and then I would create a spec and then turn that spec into tickets. And I had a really well-developed set of skills for how to turn work into scheduled stuff that agents could just crack on. But [...] I was finding the planning stage really onerous, because I would have to be constantly thinking about my session management. Like, how many tokens am I into my context window? How deep am I going here? Matt Pocock&#8217;s wayfinder skill, as documented in GitHub I didn&#8217;t want to feel constrained in the planning stage anymore. I wanted an orchestrator layer that would basically say, okay, whatever you want to plan, I&#8217;m going to handle the planning sessions for you. I&#8217;m going to split this out into multiple different threads, do prototyping, do resea…",
+      "summary": "Matt Pocock tells us about his /wayfinder skill, for greenfield projects or for when the way forward is unclear.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "github"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "finding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
     {
       "id": "d5d53c2a5c1252c2",
       "date": "2026-08-23",
@@ -102,110 +206,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.61,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "c9eee9cd8b412aae",
-      "date": "2026-08-23",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "The Evolution of the Agent Harness",
-      "url": "https://www.latent.space/p/attention-interface",
-      "publishedAt": "2026-08-22T07:30:52.000Z",
-      "content": "Sometime around Christmas 2025, AI engineers noticed a change in agents. They started to work! It&#8217;s hard to pin down exactly why. Maybe we finally had holiday downtime to try the newest agents with the newest models. Maybe the models had crossed some capability threshold . Maybe the wrappers around the models had matured. What I&#8217;ll argue in this post is that it was the confluence of the last two. The model and the harness improving together and then their curves of improvement crossing at the right moment. And that dynamic helps to explain what comes next: models keep absorbing the harness into their weights, engineers keep deleting what got absorbed, and what remains is a harness for human attention rather than for the model. Lukasz Kaiser, one of the people who invented the Transformer, said on &#8220;Unsupervised Learning&#8221; in June: &#8220;The change last winter, last Christmas &#8212; it&#8217;s a little hard to pin down. I mean, the harness changed and a little post-training changed and then new pre-trained models came&#8230; but it felt like a big jump which is not that easy to pin down what did it.&#8221; The answer to &#8220;What happened?&#8221; isn&#8217;t solely in the model weights. It&#8217;s in the system that grew up around the weights. The answer is in the agent harness. Think back to November 2022, when ChatGPT was the most advanced AI tool. The only capability at its disposal was next-token prediction and some Reinforcement Learning from Human Feedback (RLHF) that allowed it to act like a helpful assistant. No tools, no search, and no reasoning. The original ChatGPT was confined to its training data and the prompt you sent it. No more, no less. It was a brain in a vat. The agent harness is a way for the LLM to break free from that confinement and interact with real digital information space. What a Harness Actually Is An agent harness is everything besides the model weights that makes the agent work. The environment, tools, contex…",
-      "summary": "Models keep absorbing the harness into their weights &#8212; soon, it will be a harness for human attention rather than for the model.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.81,
-          "rationale": [
-            "post-training",
-            "rl",
-            "reinforcement learning"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "weights"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "c4f6f5b307e39009",
-      "date": "2026-08-23",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "The /wayfinder Skill: Navigating the “Fog of War” of Planning",
-      "url": "https://www.latent.space/p/wayfinder-skill",
-      "publishedAt": "2026-08-20T20:59:09.000Z",
-      "content": "We&#8217;re currently developing a new series about skills, with the aim of giving you a regular supply of new skills to use in your projects. We&#8217;re kicking things off with an interview &#8212; and a super-useful skill &#8212; featuring Matt Pocock , whose &#8220; AI Skills for Real Engineers &#8221; project has over 220,000 stars on GitHub . He also talks about these skills to 347,000 subscribers on his YouTube channel . Pocock recently released a new skill called /wayfinder . Its purpose is to help you and your agent figure out a project where the end state isn&#8217;t entirely clear. Or as Pocock put it in our interview, /wayfinder helps you navigate &#8220;the fog of war,&#8221; where you have a project but &#8220;you can&#8217;t quite decide everything right at the start.&#8221; The following interview has been slightly condensed for readability, so you can read it, absorb Matt&#8217;s insights, and then test out /wayfinder for yourself! Latent Space: What were the goals of wayfinder? Pocock: What I noticed is I was doing a lot of work with AFK agents [Away From Keyboard] and trying to schedule in a ton of work so that my agents could run virtually overnight. I would just plan a bunch of stuff, and then I would create a spec and then turn that spec into tickets. And I had a really well-developed set of skills for how to turn work into scheduled stuff that agents could just crack on. But [...] I was finding the planning stage really onerous, because I would have to be constantly thinking about my session management. Like, how many tokens am I into my context window? How deep am I going here? Matt Pocock&#8217;s wayfinder skill, as documented in GitHub I didn&#8217;t want to feel constrained in the planning stage anymore. I wanted an orchestrator layer that would basically say, okay, whatever you want to plan, I&#8217;m going to handle the planning sessions for you. I&#8217;m going to split this out into multiple different threads, do prototyping, do resea…",
-      "summary": "Matt Pocock tells us about his /wayfinder skill, for greenfield projects or for when the way forward is unclear.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "github"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "finding"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {

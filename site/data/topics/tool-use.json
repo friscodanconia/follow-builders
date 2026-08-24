@@ -1,11 +1,57 @@
 {
-  "generatedAt": "2026-08-23T02:39:42.158Z",
+  "generatedAt": "2026-08-24T00:31:16.989Z",
   "slug": "tool-use",
   "label": "AI Using Tools",
   "items": [
     {
+      "id": "3ef8b3ca4f93c002",
+      "date": "2026-08-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:petergyang",
+      "builderOrOrg": "Peter Yang",
+      "title": "If you care about your privacy: 1. Go to https://t.co/yICN6WAe9R in Chrome 2. Run this prompt i…",
+      "url": "https://x.com/petergyang/status/2091331251211059468",
+      "publishedAt": "2026-08-23T01:06:40.000Z",
+      "content": "If you care about your privacy: 1. Go to https://t.co/yICN6WAe9R in Chrome 2. Run this prompt in Codex or Claude Code and tell it there's an open tab in your browser 3. Then pick the ones you want to remove and tell AI to do it Just disconnected half the apps that should no longer have my Google info.",
+      "summary": "If you care about your privacy: 1. Go to https://t.co/yICN6WAe9R in Chrome 2. Run this prompt in Codex or Claude Code and tell it there's an open tab in your browser 3. Then pick the ones you want to remove and tell AI…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 447,
+        "retweets": 23,
+        "replies": 20
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "browser"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
       "id": "3547c08177b74445",
-      "date": "2026-08-23",
+      "date": "2026-08-24",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Google AI Blog",
@@ -2304,52 +2350,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "ca85b6ec4e6f43e7",
-      "date": "2026-07-05",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "The battle in AI is shaping up to be a battle for context. Everything in AI is about making sur…",
-      "url": "https://x.com/levie/status/2073138135014502777",
-      "publishedAt": "2026-07-03T20:13:43.000Z",
-      "content": "The battle in AI is shaping up to be a battle for context. Everything in AI is about making sure that agents are effective as possible. That effectiveness comes down to whether the agent has the right domain expertise, access to the right context and tools to work with, and are involved in workflow in a way that users can easily interact with, review its work, and incorporate it into the rest of the process. As a consequence, the platforms that are able to capture and leverage the best and most…",
-      "summary": "The battle in AI is shaping up to be a battle for context. Everything in AI is about making sure that agents are effective as possible. That effectiveness comes down to whether the agent has the right domain expertise,…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 238,
-        "retweets": 33,
-        "replies": 57
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.65,
       "whyThisMatters": ""
     }
   ]
