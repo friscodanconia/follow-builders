@@ -1,11 +1,55 @@
 {
-  "generatedAt": "2026-08-24T02:39:33.463Z",
+  "generatedAt": "2026-08-25T00:32:08.632Z",
   "slug": "research",
   "label": "Research",
   "items": [
     {
+      "id": "17a0ff9424429746",
+      "date": "2026-08-25",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Tino Cuellar joins Anthropic as Chief Global Affairs Officer \\ Anthropic",
+      "url": "https://www.anthropic.com/news/tino-cuellar",
+      "publishedAt": null,
+      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
       "id": "3013a00432bfcc44",
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Google DeepMind Blog",
@@ -40,7 +84,7 @@
     },
     {
       "id": "a733baeafff36122",
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Microsoft Research Blog",
@@ -92,21 +136,31 @@
       "whyThisMatters": ""
     },
     {
-      "id": "eaa3efb0e331df59",
-      "date": "2026-08-24",
+      "id": "b790810f710a2622",
+      "date": "2026-08-25",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Import AI",
       "sourceKey": "editorial:Import AI",
       "builderOrOrg": "Jack Clark",
-      "title": "Import AI 469: Science AI; RSI simulator; and Zuck&#8217;s technological pessimism",
-      "url": "https://jack-clark.net/2026/08/17/import-ai-469-science-ai-rsi-simulator-and-zucks-technological-pessimism/",
-      "publishedAt": "2026-08-17T13:05:36.000Z",
-      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now DiG-bench shows that Fable displays some creative intuition: …The new frontier for analyzing AI systems is understanding how good they are at inferring the unwritten rules of their environment… How well can AI systems figure out the rules of their environment through exploration and curiosity, versus being fed them? That’s an important question for better understanding the intuitive and creative capabilities of AI systems and it’s one being asked by DiG-bench (Discovery in Games), a new benchmark of 70 games “designed to map the surface of discovery in well-controlled interactive systems”. Similar to the visual ‘ARC’ game, in DiG-bench “each game is a self-contained miniature world with its own laws, but both the rules and the objective are hidden from the player and must be uncovered through interaction”. You can play some of the games yourself online to get a feel for them at the official project website ( digbench.ai ). The key thing this is measuring is the ability for players to spot the important mechanics that determine their success &#8211; basically, by playing around with the games you get a sense for how your actions change the environment and through this you also uncover mechanics that you must understand to succeed at the game. The idea is that if you can solve these games you have a decent ability to spot important information in novel environments and update your priors. Who did the research: The authors come from Thinking About Thinking, University of Oxford, Princeton University, King Abdullah University of Science and Technology, Swiss AI Lab, Inria, MIT. One of the authors is Juergen Schmidhuber, an extremely creative OG AI researcher. Key facts: Purely text-based: The games are basically native to language models. They are also mostly “short enough that most traces…",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now DiG-bench shows that Fable displays some creative intuiti…",
+      "title": "Import AI 470: No rights for machines; automating environment generation with SPADE; and building better GPU kernels with Hawkeye",
+      "url": "https://jack-clark.net/2026/08/24/import-ai-470-no-rights-for-machines-automating-environment-generation-with-spade-and-building-better-gpu-kernels-with-hawkeye/",
+      "publishedAt": "2026-08-24T13:12:40.000Z",
+      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI is accelerating some types of progress but not others: …A nice METR study lays out where acceleration is showing up… Here’s a little analysis from METR which looks at where AI may be accelerating different types of science and technology. The study looks at three different areas: cyber, math, and AI research, and finds that AI has contributed a lot to cyber, a little bit to math, and it’s hard to say for AI. Where have LLMs actually made a difference to scientific discovery? Cyber vulnerabilities: Major acceleration. “The rate of vulnerabilities reported across many projects has dramatically accelerated in 2026 compared with 2025, both for specific projects (cURL, OpenSSL, Firefox, and Microsoft) and for aggregate vulnerability databases (the US NVD, and OSV)”. Mathematics research: Minor acceleration, but harder to measure. “AI is clearly contributing to more work being done (arXiv submissions have doubled in some areas in less than 12 months) but quantifying the value of those contributions is difficult.” Some math problems from prestigious lists have been solved, e.g., “the Jacobian conjecture from Smale’s list, Problem 44 from Green’s list (the halving sieve), and the sofic half of Green’s Problem 100”. However, it may be too early to determine how sustained a trend this is. Optimization of AI research: No measurable acceleration. When you look at algorithmic progress across seven significant problem areas (CIFAR-10, Hutter compression, Gurobi mixed-integer programming, MIPLIB, nanoGPT, Stockfish, and the matrix-multiplication exponent) there are a couple of these where LLM-attributable contributions have happened (nanoGPT, CIFAR-10), though the rate of increase of usage of AI here is a lot less than with cybersecurity and mathematics. Why this matters &#8211; differential accele…",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI is accelerating some types of progress but not others:…",
       "regionTags": [],
       "metrics": {},
       "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "repo",
+            "programming"
+          ],
+          "score": 2
+        },
         {
           "slug": "research",
           "label": "Research",
@@ -118,34 +172,25 @@
           "score": 2
         },
         {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
+          "slug": "enterprise",
+          "label": "Business AI",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "rl"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "benchmark"
+            "security"
           ],
           "score": 1
         }
       ],
       "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
+      "importanceScore": 0.48,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.36,
+      "digestScore": 0.66,
       "whyThisMatters": ""
     },
     {
       "id": "ff28fea12e5ac2e2",
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -200,7 +245,7 @@
     },
     {
       "id": "548a05fc53f5f01a",
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -254,7 +299,7 @@
     },
     {
       "id": "fc78f55f8f802167",
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -308,7 +353,7 @@
     },
     {
       "id": "c4f6f5b307e39009",
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -359,7 +404,7 @@
     },
     {
       "id": "85c81b42062cc009",
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "ChinaTalk",
@@ -412,7 +457,7 @@
     },
     {
       "id": "a71718fe0501a148",
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "ChinaTalk",
@@ -460,6 +505,58 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "eaa3efb0e331df59",
+      "date": "2026-08-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Import AI",
+      "sourceKey": "editorial:Import AI",
+      "builderOrOrg": "Jack Clark",
+      "title": "Import AI 469: Science AI; RSI simulator; and Zuck&#8217;s technological pessimism",
+      "url": "https://jack-clark.net/2026/08/17/import-ai-469-science-ai-rsi-simulator-and-zucks-technological-pessimism/",
+      "publishedAt": "2026-08-17T13:05:36.000Z",
+      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now DiG-bench shows that Fable displays some creative intuition: …The new frontier for analyzing AI systems is understanding how good they are at inferring the unwritten rules of their environment… How well can AI systems figure out the rules of their environment through exploration and curiosity, versus being fed them? That’s an important question for better understanding the intuitive and creative capabilities of AI systems and it’s one being asked by DiG-bench (Discovery in Games), a new benchmark of 70 games “designed to map the surface of discovery in well-controlled interactive systems”. Similar to the visual ‘ARC’ game, in DiG-bench “each game is a self-contained miniature world with its own laws, but both the rules and the objective are hidden from the player and must be uncovered through interaction”. You can play some of the games yourself online to get a feel for them at the official project website ( digbench.ai ). The key thing this is measuring is the ability for players to spot the important mechanics that determine their success &#8211; basically, by playing around with the games you get a sense for how your actions change the environment and through this you also uncover mechanics that you must understand to succeed at the game. The idea is that if you can solve these games you have a decent ability to spot important information in novel environments and update your priors. Who did the research: The authors come from Thinking About Thinking, University of Oxford, Princeton University, King Abdullah University of Science and Technology, Swiss AI Lab, Inria, MIT. One of the authors is Juergen Schmidhuber, an extremely creative OG AI researcher. Key facts: Purely text-based: The games are basically native to language models. They are also mostly “short enough that most traces…",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now DiG-bench shows that Fable displays some creative intuiti…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "benchmark"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -2296,105 +2393,6 @@
           "confidence": 0.5700000000000001,
           "rationale": [
             "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "98a5da0976b7c146",
-      "date": "2026-08-07",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Qwen 3.8 Max(2.4T) and 27B, new open weights models for Coding and Cowork",
-      "url": "https://www.latent.space/p/ainews-qwen-38-max24t-and-27b-new",
-      "publishedAt": "2026-08-04T03:49:14.000Z",
-      "content": "After the Qwen Exodus last year and new management took over launching more closed model APIs, there was some real doubt as to whether or not this leading open models lab would continue to release relevant models. That doubt is now gone. Qwen 3.8 Max is a MONSTER 2.4T model that would have been the top open model in the world but for the Kimi K3 release we already covered . Qwen offers them on API for $2 input/$6 output per million tokens, but they have promised to open-weight both models. Key Capabilities & Breakthrough Highlights Autonomous Long-Horizon Coding: 10+ Days Unattended Coding: Built a self-evolving coding harness from scratch over a multi-week autonomous run. Autonomous AI Research: Rebuilt a complete paper&#8217;s pipeline ( Unified Data Selection for LLM Reasoning ) from scratch, then autonomously ran an iterative research loop over 125 hours to invent a new data selection method beating the original paper&#8217;s benchmark by +2.71 points . Competitive Data Science: Competed against 526 human teams in the WWW2025 Multimodal Dialogue Intent Recognition Challenge, placing in the top 13% ( outperforming 87% of human teams ) within 24 hours. Autonomous Hardware & Chip Design: Executed a complete silicon design flow (GCD/RSA cryptographic accelerator) from RTL editing to simulation, synthesis, and physical layout. Reduced gate count from 8,298 to 678 gates while achieving an 81% die area reduction and meeting physical timing closure at 500 MHz. Deep Real-World Work & Operations: Demonstrated production-grade outputs across hundreds of professional workflows (e.g., corporate legal reviews, UI/UX design, structural engineering models, and automated ETF quant research). Outperformed competing models in the E-Commerce Bench (a 365-day store operation simulation), generating a 4.16x return (&#165;416,252 balance) through continuous game-theoretic negotiation and inventory planning. Multimodal Agents & Visual Feedback: Integrates native visual feedback across…",
-      "summary": "Qwen is so back!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.81,
-          "rationale": [
-            "research",
-            "paper",
-            "science"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "autonomous"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "reasoning",
-          "label": "AI Thinking",
-          "confidence": 0.69,
-          "rationale": [
-            "reasoning",
-            "long-horizon"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "17a0ff9424429746",
-      "date": "2026-08-07",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Tino Cuellar joins Anthropic as Chief Global Affairs Officer \\ Anthropic",
-      "url": "https://www.anthropic.com/news/tino-cuellar",
-      "publishedAt": null,
-      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
           ],
           "score": 1
         }
