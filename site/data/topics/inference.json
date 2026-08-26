@@ -1,8 +1,45 @@
 {
-  "generatedAt": "2026-08-25T02:33:23.825Z",
+  "generatedAt": "2026-08-26T00:31:04.071Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
+    {
+      "id": "3cc8334f36e9ee77",
+      "date": "2026-08-26",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "url": "https://openai.com/index/jalapeno-first-results",
+      "publishedAt": "2026-08-25T07:00:00.000Z",
+      "content": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+      "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.81,
+          "rationale": [
+            "inference",
+            "latency",
+            "throughput"
+          ],
+          "score": 3
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
     {
       "id": "98ee19043c4afca0",
       "date": "2026-08-25",
@@ -2275,52 +2312,6 @@
           "confidence": 0.5700000000000001,
           "rationale": [
             "throughput"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "757e6d5c2ea6f964",
-      "date": "2026-06-18",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "One of the biggest questions in AI is how far behind open weights models remain from closed mod…",
-      "url": "https://x.com/levie/status/2067070918300664161",
-      "publishedAt": "2026-06-17T02:24:45.000Z",
-      "content": "One of the biggest questions in AI is how far behind open weights models remain from closed models at any given time. There are huge differences in market structures depending on whether open weights models remain 3 or 6 months behind, or if they fall behind by years. The answer to this will determine how the chip stack plays out, where inference can be run, what sovereign AI looks like, what happens at the applied AI layer, what the margin structure looks like in AI, how much companies can aff…",
-      "summary": "One of the biggest questions in AI is how far behind open weights models remain from closed models at any given time. There are huge differences in market structures depending on whether open weights models remain 3 or…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 206,
-        "retweets": 13,
-        "replies": 25
-      },
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "weights"
           ],
           "score": 1
         }

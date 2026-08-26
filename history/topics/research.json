@@ -1,26 +1,36 @@
 {
-  "generatedAt": "2026-08-25T02:33:23.825Z",
+  "generatedAt": "2026-08-26T00:31:04.071Z",
   "slug": "research",
   "label": "Research",
   "items": [
     {
-      "id": "17a0ff9424429746",
-      "date": "2026-08-25",
+      "id": "15abbb3e6e2a11d0",
+      "date": "2026-08-26",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
       "sourceKey": "official:Anthropic Newsroom",
       "builderOrOrg": "Anthropic",
-      "title": "Tino Cuellar joins Anthropic as Chief Global Affairs Officer \\ Anthropic",
-      "url": "https://www.anthropic.com/news/tino-cuellar",
+      "title": "Funding better evaluations of AI’s impact on wellbeing \\ Anthropic",
+      "url": "https://www.anthropic.com/news/wellbeing-research-grants",
       "publishedAt": null,
-      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "content": "Anthropic is launching a $5 million grant program to fund independent research into how AI impacts users’ wellbeing.",
+      "summary": "Anthropic is launching a $5 million grant program to fund independent research into how AI impacts users’ wellbeing.",
       "regionTags": [
         "us-model-labs"
       ],
       "metrics": {},
       "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "eval",
+            "evaluation"
+          ],
+          "score": 2
+        },
         {
           "slug": "research",
           "label": "Research",
@@ -29,27 +39,18 @@
             "research"
           ],
           "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
-          ],
-          "score": 1
         }
       ],
       "section": "Official Sources",
       "importanceScore": 0.58,
-      "noveltyScore": 0.3,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.48,
+      "digestScore": 0.73,
       "whyThisMatters": ""
     },
     {
       "id": "3013a00432bfcc44",
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Google DeepMind Blog",
@@ -84,7 +85,7 @@
     },
     {
       "id": "a733baeafff36122",
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Microsoft Research Blog",
@@ -137,7 +138,7 @@
     },
     {
       "id": "b790810f710a2622",
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Import AI",
@@ -190,7 +191,7 @@
     },
     {
       "id": "ff28fea12e5ac2e2",
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -245,7 +246,7 @@
     },
     {
       "id": "548a05fc53f5f01a",
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -299,7 +300,7 @@
     },
     {
       "id": "fc78f55f8f802167",
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -352,59 +353,8 @@
       "whyThisMatters": ""
     },
     {
-      "id": "c4f6f5b307e39009",
-      "date": "2026-08-25",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "The /wayfinder Skill: Navigating the “Fog of War” of Planning",
-      "url": "https://www.latent.space/p/wayfinder-skill",
-      "publishedAt": "2026-08-20T20:59:09.000Z",
-      "content": "We&#8217;re currently developing a new series about skills, with the aim of giving you a regular supply of new skills to use in your projects. We&#8217;re kicking things off with an interview &#8212; and a super-useful skill &#8212; featuring Matt Pocock , whose &#8220; AI Skills for Real Engineers &#8221; project has over 220,000 stars on GitHub . He also talks about these skills to 347,000 subscribers on his YouTube channel . Pocock recently released a new skill called /wayfinder . Its purpose is to help you and your agent figure out a project where the end state isn&#8217;t entirely clear. Or as Pocock put it in our interview, /wayfinder helps you navigate &#8220;the fog of war,&#8221; where you have a project but &#8220;you can&#8217;t quite decide everything right at the start.&#8221; The following interview has been slightly condensed for readability, so you can read it, absorb Matt&#8217;s insights, and then test out /wayfinder for yourself! Latent Space: What were the goals of wayfinder? Pocock: What I noticed is I was doing a lot of work with AFK agents [Away From Keyboard] and trying to schedule in a ton of work so that my agents could run virtually overnight. I would just plan a bunch of stuff, and then I would create a spec and then turn that spec into tickets. And I had a really well-developed set of skills for how to turn work into scheduled stuff that agents could just crack on. But [...] I was finding the planning stage really onerous, because I would have to be constantly thinking about my session management. Like, how many tokens am I into my context window? How deep am I going here? Matt Pocock&#8217;s wayfinder skill, as documented in GitHub I didn&#8217;t want to feel constrained in the planning stage anymore. I wanted an orchestrator layer that would basically say, okay, whatever you want to plan, I&#8217;m going to handle the planning sessions for you. I&#8217;m going to split this out into multiple different threads, do prototyping, do resea…",
-      "summary": "Matt Pocock tells us about his /wayfinder skill, for greenfield projects or for when the way forward is unclear.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "github"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "finding"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
       "id": "85c81b42062cc009",
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "ChinaTalk",
@@ -457,7 +407,7 @@
     },
     {
       "id": "a71718fe0501a148",
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "ChinaTalk",
@@ -505,6 +455,101 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "17a0ff9424429746",
+      "date": "2026-08-25",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Tino Cuellar joins Anthropic as Chief Global Affairs Officer \\ Anthropic",
+      "url": "https://www.anthropic.com/news/tino-cuellar",
+      "publishedAt": null,
+      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c4f6f5b307e39009",
+      "date": "2026-08-25",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "The /wayfinder Skill: Navigating the “Fog of War” of Planning",
+      "url": "https://www.latent.space/p/wayfinder-skill",
+      "publishedAt": "2026-08-20T20:59:09.000Z",
+      "content": "We&#8217;re currently developing a new series about skills, with the aim of giving you a regular supply of new skills to use in your projects. We&#8217;re kicking things off with an interview &#8212; and a super-useful skill &#8212; featuring Matt Pocock , whose &#8220; AI Skills for Real Engineers &#8221; project has over 220,000 stars on GitHub . He also talks about these skills to 347,000 subscribers on his YouTube channel . Pocock recently released a new skill called /wayfinder . Its purpose is to help you and your agent figure out a project where the end state isn&#8217;t entirely clear. Or as Pocock put it in our interview, /wayfinder helps you navigate &#8220;the fog of war,&#8221; where you have a project but &#8220;you can&#8217;t quite decide everything right at the start.&#8221; The following interview has been slightly condensed for readability, so you can read it, absorb Matt&#8217;s insights, and then test out /wayfinder for yourself! Latent Space: What were the goals of wayfinder? Pocock: What I noticed is I was doing a lot of work with AFK agents [Away From Keyboard] and trying to schedule in a ton of work so that my agents could run virtually overnight. I would just plan a bunch of stuff, and then I would create a spec and then turn that spec into tickets. And I had a really well-developed set of skills for how to turn work into scheduled stuff that agents could just crack on. But [...] I was finding the planning stage really onerous, because I would have to be constantly thinking about my session management. Like, how many tokens am I into my context window? How deep am I going here? Matt Pocock&#8217;s wayfinder skill, as documented in GitHub I didn&#8217;t want to feel constrained in the planning stage anymore. I wanted an orchestrator layer that would basically say, okay, whatever you want to plan, I&#8217;m going to handle the planning sessions for you. I&#8217;m going to split this out into multiple different threads, do prototyping, do resea…",
+      "summary": "Matt Pocock tells us about his /wayfinder skill, for greenfield projects or for when the way forward is unclear.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "github"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "finding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -2358,50 +2403,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "5938edcc6e969bb9",
-      "date": "2026-08-07",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "New ways to learn and teach with ChatGPT Work and Codex",
-      "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
-      "publishedAt": "2026-08-04T00:00:00.000Z",
-      "content": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
-      "summary": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     }
   ]
