@@ -1,8 +1,63 @@
 {
-  "generatedAt": "2026-08-26T02:41:35.244Z",
+  "generatedAt": "2026-08-27T10:03:34.464Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
+    {
+      "id": "9f35e54716aa5e6f",
+      "date": "2026-08-27",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6",
+      "url": "https://www.latent.space/p/ainews-hot-chips-openais-jalapeno",
+      "publishedAt": "2026-08-27T01:31:22.000Z",
+      "content": "By far the biggest announcement at the 37th Hot Chips conference was OpenAI&#8217;s stunning progress on their own chip, less than a year after the Broadcom announcement &#8230; and that it isn&#8217;t an ASIC; but a full on Blackwell-beating alternative. The key metric now is shifting to performance per watt, and Jalapeno delivers: The full Hot Chips presentation is not yet out but various takes are below. For a fuller breakdown, watch along with the rest of OpenAI: AI News for 8/24/2026-8/25/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI&#8217;s Jalape&#241;o Inference Chip and the Shift in the Inference Stack Jalape&#241;o&#8217;s published numbers are the day&#8217;s biggest technical story : OpenAI released first benchmark details for its custom inference chip Jalape&#241;o , claiming materially better efficiency and latency than NVIDIA GB200/GB300 systems on real model workloads. In OpenAI&#8217;s tests, Jalape&#241;o delivered 1.5&#8211;1.9&#215; more work per watt at peak throughput and 1.7&#8211;3.6&#215; lower end-to-end latency , with 2.1&#8211;4.1&#215; higher performance for highly interactive workloads; the chip is rated at 700W but reportedly stayed at or below 550W on the tested runs. OpenAI says deployment into its own infrastructure begins by year-end , with Gen 2 already deep in development and Gen 3 underway ( OpenAI announcement , deployment roadmap , Sam Altman ). Why engineers care : the claim is not just raw perf, but a more balanced inference architecture that reduces the usual throughput/latency tradeoff. Multiple technical reactions highlighted that some comparison points are especially notable because Jalape&#241;o reportedly performed well even without tricks like aggressive prefill/decode disaggregation or speculative decoding in some setu…",
+      "summary": "The conference with hot chips and even hotter companies",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "coding",
+            "code",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.81,
+          "rationale": [
+            "inference",
+            "latency",
+            "throughput"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "deployment"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.66,
+      "whyThisMatters": ""
+    },
     {
       "id": "3cc8334f36e9ee77",
       "date": "2026-08-26",
@@ -2275,52 +2330,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.44,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "1260f820504c49e4",
-      "date": "2026-06-19",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:garrytan",
-      "builderOrOrg": "Garry Tan",
-      "title": "Rough estimate on $ productivity lost by Fable 5 ban: $12M per hour Frontier AI-coding daily ac…",
-      "url": "https://x.com/garrytan/status/2067366749411176831",
-      "publishedAt": "2026-06-17T22:00:17.000Z",
-      "content": "Rough estimate on $ productivity lost by Fable 5 ban: $12M per hour Frontier AI-coding daily actives, mid-2026: 5M devs Fully-loaded cost: $90/hr Work routed to Fable in 48 hours: 17.8% Fable is on average ~15% more productive Effective throughput loss per dev = 17.8% × 15% ≈ 2.7% of output 2.7% × $90/hr = ~$2.40/dev/hr × 5M devs = $12M per working hour",
-      "summary": "Rough estimate on $ productivity lost by Fable 5 ban: $12M per hour Frontier AI-coding daily actives, mid-2026: 5M devs Fully-loaded cost: $90/hr Work routed to Fable in 48 hours: 17.8% Fable is on average ~15% more pro…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 594,
-        "retweets": 22,
-        "replies": 98
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "throughput"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]

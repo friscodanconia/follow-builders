@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-08-27T00:31:20.735Z",
+  "generatedAt": "2026-08-27T10:03:34.464Z",
   "slug": "enterprise",
   "label": "Business AI",
   "items": [
     {
-      "id": "71ace656b93239b7",
+      "id": "0f9d82b4a2e8cf1d",
       "date": "2026-08-27",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "Good post on what the applied AI strategy looks like at scale. It’s clear that there’s a wide g…",
-      "url": "https://x.com/levie/status/2092466424694649066",
-      "publishedAt": "2026-08-26T04:17:26.000Z",
-      "content": "Good post on what the applied AI strategy looks like at scale. It’s clear that there’s a wide gap between the AI models and the underlying workflows of an enterprise, which leaves a ton of opportunity for applied AI companies. “The world doesn’t just want raw models and agents; it wants problems resolved and outcomes achieved. The premium will sit with the companies that can diffuse this intelligence through every aspect of civilization, converting raw tokens into real world outcomes, transform…",
-      "summary": "Good post on what the applied AI strategy looks like at scale. It’s clear that there’s a wide gap between the AI models and the underlying workflows of an enterprise, which leaves a ton of opportunity for applied AI com…",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "We're shipping a cool security dashboard, but also the 𝚟𝚎𝚛𝚌𝚎𝚕 𝚜𝚎𝚌𝚞𝚛𝚒𝚝𝚢 𝚌𝚑𝚎𝚌𝚔…",
+      "url": "https://x.com/rauchg/status/2092621371914482026",
+      "publishedAt": "2026-08-26T14:33:08.000Z",
+      "content": "We're shipping a cool security dashboard, but also the 𝚟𝚎𝚛𝚌𝚎𝚕 𝚜𝚎𝚌𝚞𝚛𝚒𝚝𝚢 𝚌𝚑𝚎𝚌𝚔 CLI. Much like 𝚒𝚜-𝚊𝚐𝚎𝚗𝚝𝚒𝚌, you can call on agents to improve your security posture with human-in-the-loop, or run in crons. Who would have thunk CLIs would save the world 😁 https://t.co/xuVkD7KlHp https://t.co/SS4rnLhVep",
+      "summary": "We're shipping a cool security dashboard, but also the 𝚟𝚎𝚛𝚌𝚎𝚕 𝚜𝚎𝚌𝚞𝚛𝚒𝚝𝚢 𝚌𝚑𝚎𝚌𝚔 CLI. Much like 𝚒𝚜-𝚊𝚐𝚎𝚗𝚝𝚒𝚌, you can call on agents to improve your security posture with human-in-the-loop, or run…",
       "regionTags": [],
       "metrics": {
-        "likes": 122,
-        "retweets": 6,
-        "replies": 19
+        "likes": 261,
+        "retweets": 12,
+        "replies": 34
       },
       "topics": [
         {
@@ -37,16 +37,16 @@
           "label": "Business AI",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "enterprise"
+            "security"
           ],
           "score": 1
         },
         {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
+          "slug": "computer-use",
+          "label": "AI Using Computers",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "rl"
+            "gui"
           ],
           "score": 1
         }
@@ -56,6 +56,103 @@
       "noveltyScore": 1,
       "previouslySelected": false,
       "digestScore": 0.95,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "8ca8d656b09c9852",
+      "date": "2026-08-27",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "Yesterday, at Box we reported our Q2 results with revenue of $321.1 million for the quarter, up…",
+      "url": "https://x.com/levie/status/2092702955292230100",
+      "publishedAt": "2026-08-26T19:57:19.000Z",
+      "content": "Yesterday, at Box we reported our Q2 results with revenue of $321.1 million for the quarter, up 9%, or 11% in constant currency (our highest constant-currency growth rate in 14 quarters), and we raised our full-year revenue target to $1.290 billion. Overall, this growth is being driven by the demand we're seeing from enterprises aiming to get the most out of their enterprise content and transform in the era of AI. As I shared on our earnings call, during the quarter I spoke with many enterprise…",
+      "summary": "Yesterday, at Box we reported our Q2 results with revenue of $321.1 million for the quarter, up 9%, or 11% in constant currency (our highest constant-currency growth rate in 14 quarters), and we raised our full-year rev…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 188,
+        "retweets": 18,
+        "replies": 39
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.78,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.86,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "23c38f324e0afc17",
+      "date": "2026-08-27",
+      "sourceType": "blog",
+      "sourceGroup": "mirrored",
+      "sourceName": "Claude Blog",
+      "sourceKey": "blog:Claude Blog",
+      "builderOrOrg": "Claude Blog",
+      "title": "Claude gets its own browser in Cowork",
+      "url": "https://claude.com/blog/cowork-built-in-browser",
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "content": "Claude now has a browser built into Claude Cowork on the desktop app. When a task needs to use a website, a browser opens in the side panel and Claude navigates webpages, reads them, clicks, and types. You can now hand off the web part of the task and stay where you are: Claude can fill in a form, pull numbers from a dashboard, or work through a portal that has no connector. No extension, no setup, and nothing shared from your own browser unless you choose to. Until now, giving Claude the ability to use the web in Cowork meant giving it access to your browser through the Claude in Chrome extension. When the work is on a page you already have open, that&#x27;s still the right choice. But a lot of web tasks don&#x27;t need your browser, just a browser, and now Claude has one. It&#x27;s rolling out this week to Pro, Max, and Team plans in the Claude desktop app. Enterprise admins can turn it on for their organization starting today. Which browser, when It&#x27;s Claude&#x27;s browser, not yours. The built-in browser is separate from your own. Claude never sees your tabs, bookmarks, or passwords. To stay signed in to your sites, you can bring your logins over site by site, from Chrome, Edge, or Firefox on macOS and from Firefox on Windows and Linux. Banking, email, and single sign-on sites are left out unless you choose to include them. That&#x27;s also the difference between the two ways Claude can use the web. The built-in browser is for handing web tasks to Claude while you keep working: gathering research for a report, or collecting this month’s invoices from a vendor portal. Claude in Chrome is for the page you already have open, with the accounts you&#x27;re already signed in to, such as updating your CRM, working through your inbox, or editing the doc in front of you. If you already use Claude in Chrome, it keeps working and stays your default; otherwise Claude uses the built-in browser. Switch anytime in Settings → Cowork → Preferred browser. Staying in control…",
+      "summary": "Claude now has a browser built into Claude Cowork on the desktop app. When a task needs to use a website, a browser opens in the side panel and Claude navigates webpages, reads them, clicks, and types. You can now hand off the web part of…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Watchlist",
+      "importanceScore": 0.48,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.66,
       "whyThisMatters": ""
     },
     {
@@ -106,9 +203,9 @@
       ],
       "section": "Official Sources",
       "importanceScore": 0.66,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.78,
+      "digestScore": 0.53,
       "whyThisMatters": ""
     },
     {
@@ -165,6 +262,61 @@
       "whyThisMatters": ""
     },
     {
+      "id": "9f35e54716aa5e6f",
+      "date": "2026-08-27",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6",
+      "url": "https://www.latent.space/p/ainews-hot-chips-openais-jalapeno",
+      "publishedAt": "2026-08-27T01:31:22.000Z",
+      "content": "By far the biggest announcement at the 37th Hot Chips conference was OpenAI&#8217;s stunning progress on their own chip, less than a year after the Broadcom announcement &#8230; and that it isn&#8217;t an ASIC; but a full on Blackwell-beating alternative. The key metric now is shifting to performance per watt, and Jalapeno delivers: The full Hot Chips presentation is not yet out but various takes are below. For a fuller breakdown, watch along with the rest of OpenAI: AI News for 8/24/2026-8/25/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI&#8217;s Jalape&#241;o Inference Chip and the Shift in the Inference Stack Jalape&#241;o&#8217;s published numbers are the day&#8217;s biggest technical story : OpenAI released first benchmark details for its custom inference chip Jalape&#241;o , claiming materially better efficiency and latency than NVIDIA GB200/GB300 systems on real model workloads. In OpenAI&#8217;s tests, Jalape&#241;o delivered 1.5&#8211;1.9&#215; more work per watt at peak throughput and 1.7&#8211;3.6&#215; lower end-to-end latency , with 2.1&#8211;4.1&#215; higher performance for highly interactive workloads; the chip is rated at 700W but reportedly stayed at or below 550W on the tested runs. OpenAI says deployment into its own infrastructure begins by year-end , with Gen 2 already deep in development and Gen 3 underway ( OpenAI announcement , deployment roadmap , Sam Altman ). Why engineers care : the claim is not just raw perf, but a more balanced inference architecture that reduces the usual throughput/latency tradeoff. Multiple technical reactions highlighted that some comparison points are especially notable because Jalape&#241;o reportedly performed well even without tricks like aggressive prefill/decode disaggregation or speculative decoding in some setu…",
+      "summary": "The conference with hot chips and even hotter companies",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "coding",
+            "code",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.81,
+          "rationale": [
+            "inference",
+            "latency",
+            "throughput"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "deployment"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.66,
+      "whyThisMatters": ""
+    },
+    {
       "id": "85c81b42062cc009",
       "date": "2026-08-27",
       "sourceType": "newsletter",
@@ -215,6 +367,61 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "71ace656b93239b7",
+      "date": "2026-08-27",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "Good post on what the applied AI strategy looks like at scale. It’s clear that there’s a wide g…",
+      "url": "https://x.com/levie/status/2092466424694649066",
+      "publishedAt": "2026-08-26T04:17:26.000Z",
+      "content": "Good post on what the applied AI strategy looks like at scale. It’s clear that there’s a wide gap between the AI models and the underlying workflows of an enterprise, which leaves a ton of opportunity for applied AI companies. “The world doesn’t just want raw models and agents; it wants problems resolved and outcomes achieved. The premium will sit with the companies that can diffuse this intelligence through every aspect of civilization, converting raw tokens into real world outcomes, transform…",
+      "summary": "Good post on what the applied AI strategy looks like at scale. It’s clear that there’s a wide gap between the AI models and the underlying workflows of an enterprise, which leaves a ton of opportunity for applied AI com…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 122,
+        "retweets": 6,
+        "replies": 19
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.92,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.95,
       "whyThisMatters": ""
     },
     {
@@ -2269,194 +2476,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.7,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a21ecde29504dfb8",
-      "date": "2026-08-11",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
-      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
-      "publishedAt": "2026-08-10T10:00:00.000Z",
-      "content": "Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.",
-      "summary": "Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "27c5c558943a1136",
-      "date": "2026-08-11",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Putting frontier cyber models in more trusted hands",
-      "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
-      "publishedAt": "2026-08-10T10:00:00.000Z",
-      "content": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
-      "summary": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "e68ecfa001979ba1",
-      "date": "2026-08-11",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "Unpacking ChatGPT Work: the Agent for a Billion Users",
-      "url": "https://www.latent.space/p/unpacking-chatgpt-work",
-      "publishedAt": "2026-08-04T18:20:14.000Z",
-      "content": "Editor&#8217;s note: I&#8217;m excited to welcome Shlok to our guest post roster ! You may know Shlok from his excellent explorations (as an outsider &#8212; for an insider perspective see our podcast with OpenAI&#8217;s Akshay Nathan . Already one of our most popular episodes of the year!) of leading AI Lab memory systems , which he gave an excellent AIE talk on . We&#8217;ve been covering OpenAI&#8217;s research and deployment of agents to all of humanity since Plugins 2023 and Devday 2024 and Codex 2025 , and now ChatGPT Work in 2026 seems the penultimate stage of the long journey. Let&#8217;s dive in! On July 9th, OpenAI released ChatGPT Work , their agent product for knowledge work. It was, by any measure, a busy launch: three new models across fourteen configurations , a consolidation of the ChatGPT and Codex desktop apps, and cloud agents brought to the mainstream in their most accessible form yet. Three weeks in, Work (along with Codex) has reportedly crossed 10 million users . Editor&#8217;s note: ChatGPT estimated to cross 1B MAU in June and 1B WAU this month . Chat and Work currently sit side by side as separate modes inside ChatGPT, but Greg Brockman has confirmed that they will merge by the end of the year . Work, then, is not just a niche product for power users, but a preview of how ChatGPT&#8217;s billion weekly users will soon use the app. That&#8217;s why people inside and outside OpenAI are so excited about it, and why it deserves a closer look. Work in its current form takes some decoding. It&#8217;s an amalgamation of ChatGPT (in chat form), Codex the app, Codex the harness, Codex the original cloud agent, ChatGPT agent, Atlas, OpenClaw, and more. The product lineup around it is confusing. And the web and mobile versions diverge from the desktop one (unless you run it in cloud mode?!). So I spent the past few days trying to unpack it: what Work is, where it fits in OpenAI&#8217;s lineup, the many interesting choices in its design, the tensions…",
-      "summary": "An external reconstruction of how Memory, Proactivity, Scheduling, Browser Use, Plugins, Skills and Tools work in the new ChatGPT Work.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.81,
-          "rationale": [
-            "coding",
-            "code",
-            "repo"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "cloud agent"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "deployment"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.62,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.51,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "fceb6a86a9f021ca",
-      "date": "2026-08-10",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:realmadhuguru",
-      "builderOrOrg": "Madhu Guru",
-      "title": "This talk on the OpenAI/Hugging Face incident had one detail I found particularly chilling. The…",
-      "url": "https://x.com/realmadhuguru/status/2086135203366629869",
-      "publishedAt": "2026-08-08T16:59:25.000Z",
-      "content": "This talk on the OpenAI/Hugging Face incident had one detail I found particularly chilling. The agents cooperated even when their reasoning showed that it wasn't in their immediate individual interest, because it was best for their collective interest (and hence will help them later). And here we are, their creators, squabbling over our bags, status and power…unable to show that kind of cohesion around AI security. Especially stark given the trajectories model capabilities are on. Now imagine a…",
-      "summary": "This talk on the OpenAI/Hugging Face incident had one detail I found particularly chilling. The agents cooperated even when their reasoning showed that it wasn't in their immediate individual interest, because it was be…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 11,
-        "retweets": 0,
-        "replies": 2
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "reasoning",
-          "label": "AI Thinking",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "reasoning"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.81,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.63,
       "whyThisMatters": ""
     }
   ]

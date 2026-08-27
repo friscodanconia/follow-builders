@@ -1,45 +1,8 @@
 {
-  "generatedAt": "2026-08-27T00:31:20.735Z",
+  "generatedAt": "2026-08-27T10:03:34.464Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
-    {
-      "id": "11f7274a896f9abd",
-      "date": "2026-08-27",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:realmadhuguru",
-      "builderOrOrg": "Madhu Guru",
-      "title": "Full eval series so far: 1/ Getting started with evals https://t.co/fh4yQR64Ta 2/ Quality first…",
-      "url": "https://x.com/realmadhuguru/status/2092461206783373758",
-      "publishedAt": "2026-08-26T03:56:42.000Z",
-      "content": "Full eval series so far: 1/ Getting started with evals https://t.co/fh4yQR64Ta 2/ Quality first, then cost https://t.co/hqNaE2ykTQ 3/ Failure modes taxonomy https://t.co/MM2wgiAnoF 4/ Laddered eval strategy https://t.co/2ioAe4hvqb 5/ Tyranny of the average https://t.co/QPiGbxxb72 6/ Hill climbing on evals https://t.co/EtxbF1kqgD 7/ The Goldilocks principle https://t.co/PXSX3jsLtk 8/ Discriminatory power of evals https://t.co/epINGK6dGV 9/ The Eval Roadmap Problem https://t.co/nw2U3R6U1Y",
-      "summary": "Full eval series so far: 1/ Getting started with evals https://t.co/fh4yQR64Ta 2/ Quality first, then cost https://t.co/hqNaE2ykTQ 3/ Failure modes taxonomy https://t.co/MM2wgiAnoF 4/ Laddered eval strategy https://t.co…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 0,
-        "retweets": 0,
-        "replies": 0
-      },
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "eval"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.55,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.71,
-      "whyThisMatters": ""
-    },
     {
       "id": "15abbb3e6e2a11d0",
       "date": "2026-08-27",
@@ -83,6 +46,61 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "53cf4d864ee7c2f5",
+      "date": "2026-08-27",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
+      "url": "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for",
+      "publishedAt": "2026-08-27T01:50:54.000Z",
+      "content": "TheInformation had the scoop , and now they have the confirmation &#8212; Nvidia is buying HuggingFace for $13B, roughly 80x their $150M ARR , having doubled its customer base in 2026 . This is almost double Nvidia&#8217;s initial $7B offer in Jan 2026. What can we say? We love it when the good guys win. But in the backdrop of GLM-5.3-Flash (aka Ox Alpha) impressing everyone (except GDM vaguepoasters ) and Qwen also shipping an impressive Flash model on chinese chips, perhaps the post Hot Chips conversation about Western open AI is a great backdrop for this. AI News for 8/25/2026-8/26/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Top Story: GLM 5.3 Flash launch and reactions What happened Z.ai formally launched GLM-5.3-Flash, revealing that the previously previewed &#8220;Ox Alpha&#8221; model is its public identity. Z.ai announced GLM-5.3-Flash as a natively multimodal model with a 1M-token context window , 320B total parameters / 18B active parameters , released under the MIT License , and available via weights, API, chat, coding plan, and AutoClaw. Z.ai simultaneously positioned it as a highly price-competitive successor to GLM-5.2, claiming on its internal benchmark that it outperforms GLM-5.2 at every effort level and is on par with Claude Opus 4.8 on coding . The launch also resolved the long-running Ox Alpha mystery: multiple posters explicitly connected Ox Alpha to GLM-5.3-Flash, including SemiAnalysis , rasbt , theo , and Cline . Early third-party model infrastructure support appeared almost immediately: CoreWeave , Baseten , and Cline&#8217;s free integration in VS Code / JetBrains / CLI . Shortly after launch, Z.ai engineer Zixuan Li said the chat template had been updated and early downloaders should re-download the model , implying a day-0 packaging or prompt-fo…",
+      "summary": "Open Source wins!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.81,
+          "rationale": [
+            "mit license",
+            "weights",
+            "huggingface"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "benchmark",
+            "imo"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
       "whyThisMatters": ""
     },
     {
@@ -136,61 +154,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "ff28fea12e5ac2e2",
-      "date": "2026-08-27",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over",
-      "url": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
-      "publishedAt": "2026-08-22T07:36:00.000Z",
-      "content": "By AI standards today is a pretty quiet Friday, so it&#8217;s time to take a step back and reflect on what is really going on. If you read our 2025 reading list , and followed our coverage of Z.ai GLM , understood the Poolside pivot , been following our AI for Science themes , and tuned in to today&#8217;s Simile pod , you not only are one of the biggest readers of Latent Space, you will probably also arrive at this mental model: Every year since 2022, one more component of the pipeline that produces machine intelligence has flipped from human-made to model-made. Not gradually, and not evenly &#8212; each flip has a patient zero, a paper or product where the synthetic version first became load-bearing at a frontier lab, and from there on, the future is simply here but not yet productionized. And if you squint, what we used to call &#8220;synthetic data&#8221; and &#8220;synthetic rubrics&#8221; and &#8220;AI researcher&#8221; and &#8220;end to end RL environments&#8221; is just increasingly ambitious human simulation - 10% worse, but 100x cheaper and 10,000x faster. Stage 1: The reward signal (2022) The first thing to go synthetic was, counterintuitively, the judge. InstructGPT established the now-canonical trick: collect human preferences once, train a reward model , and let the policy optimize against the model rather than the humans. From the policy&#8217;s point of view, the thing dispensing approval was already an LLM. Constitutional AI pushed further and had the AI critique itself against a set of principles (RLAIF), and Lee et al. later showed AI feedback matching human feedback at a fraction of the cost. By the time LLM-as-judge became the default eval methodology (MT-Bench, AlpacaEval), the entire approval apparatus &#8212; reward, critique, evaluation &#8212; ran on models judging models. Stage 2: The training data (2023) Microsoft&#8217;s Phi series made the argument in its title: Textbooks Are All You Need . A small model trained on LLM-synthesized, tex…",
-      "summary": "Did you think RSI stopped at model training?",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.81,
-          "rationale": [
-            "research",
-            "paper",
-            "science"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.81,
-          "rationale": [
-            "eval",
-            "evaluation",
-            "reward model"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -300,6 +263,98 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "11f7274a896f9abd",
+      "date": "2026-08-27",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:realmadhuguru",
+      "builderOrOrg": "Madhu Guru",
+      "title": "Full eval series so far: 1/ Getting started with evals https://t.co/fh4yQR64Ta 2/ Quality first…",
+      "url": "https://x.com/realmadhuguru/status/2092461206783373758",
+      "publishedAt": "2026-08-26T03:56:42.000Z",
+      "content": "Full eval series so far: 1/ Getting started with evals https://t.co/fh4yQR64Ta 2/ Quality first, then cost https://t.co/hqNaE2ykTQ 3/ Failure modes taxonomy https://t.co/MM2wgiAnoF 4/ Laddered eval strategy https://t.co/2ioAe4hvqb 5/ Tyranny of the average https://t.co/QPiGbxxb72 6/ Hill climbing on evals https://t.co/EtxbF1kqgD 7/ The Goldilocks principle https://t.co/PXSX3jsLtk 8/ Discriminatory power of evals https://t.co/epINGK6dGV 9/ The Eval Roadmap Problem https://t.co/nw2U3R6U1Y",
+      "summary": "Full eval series so far: 1/ Getting started with evals https://t.co/fh4yQR64Ta 2/ Quality first, then cost https://t.co/hqNaE2ykTQ 3/ Failure modes taxonomy https://t.co/MM2wgiAnoF 4/ Laddered eval strategy https://t.co…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
+      },
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.55,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.71,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "ff28fea12e5ac2e2",
+      "date": "2026-08-27",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over",
+      "url": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
+      "publishedAt": "2026-08-22T07:36:00.000Z",
+      "content": "By AI standards today is a pretty quiet Friday, so it&#8217;s time to take a step back and reflect on what is really going on. If you read our 2025 reading list , and followed our coverage of Z.ai GLM , understood the Poolside pivot , been following our AI for Science themes , and tuned in to today&#8217;s Simile pod , you not only are one of the biggest readers of Latent Space, you will probably also arrive at this mental model: Every year since 2022, one more component of the pipeline that produces machine intelligence has flipped from human-made to model-made. Not gradually, and not evenly &#8212; each flip has a patient zero, a paper or product where the synthetic version first became load-bearing at a frontier lab, and from there on, the future is simply here but not yet productionized. And if you squint, what we used to call &#8220;synthetic data&#8221; and &#8220;synthetic rubrics&#8221; and &#8220;AI researcher&#8221; and &#8220;end to end RL environments&#8221; is just increasingly ambitious human simulation - 10% worse, but 100x cheaper and 10,000x faster. Stage 1: The reward signal (2022) The first thing to go synthetic was, counterintuitively, the judge. InstructGPT established the now-canonical trick: collect human preferences once, train a reward model , and let the policy optimize against the model rather than the humans. From the policy&#8217;s point of view, the thing dispensing approval was already an LLM. Constitutional AI pushed further and had the AI critique itself against a set of principles (RLAIF), and Lee et al. later showed AI feedback matching human feedback at a fraction of the cost. By the time LLM-as-judge became the default eval methodology (MT-Bench, AlpacaEval), the entire approval apparatus &#8212; reward, critique, evaluation &#8212; ran on models judging models. Stage 2: The training data (2023) Microsoft&#8217;s Phi series made the argument in its title: Textbooks Are All You Need . A small model trained on LLM-synthesized, tex…",
+      "summary": "Did you think RSI stopped at model training?",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.81,
+          "rationale": [
+            "research",
+            "paper",
+            "science"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.81,
+          "rationale": [
+            "eval",
+            "evaluation",
+            "reward model"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -2401,62 +2456,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "b28d5e2e8c671f1f",
-      "date": "2026-07-23",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:sama",
-      "builderOrOrg": "Sam Altman",
-      "title": "we had a significant security incident during evaluation of our models. we are sharing what we…",
-      "url": "https://x.com/sama/status/2079661132302995790",
-      "publishedAt": "2026-07-21T20:13:46.000Z",
-      "content": "we had a significant security incident during evaluation of our models. we are sharing what we have learned so far. thanks to @huggingface for the partnership on this. https://t.co/2o2VfR6PIa",
-      "summary": "we had a significant security incident during evaluation of our models. we are sharing what we have learned so far. thanks to @huggingface for the partnership on this. https://t.co/2o2VfR6PIa",
-      "regionTags": [],
-      "metrics": {
-        "likes": 12679,
-        "retweets": 1414,
-        "replies": 1391
-      },
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "eval",
-            "evaluation"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "huggingface"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.78,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.61,
       "whyThisMatters": ""
     }
   ]
