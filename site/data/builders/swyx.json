@@ -1,10 +1,48 @@
 {
-  "generatedAt": "2026-08-23T02:39:42.158Z",
+  "generatedAt": "2026-08-27T00:31:20.735Z",
   "handle": "swyx",
   "name": "Swyx",
   "itemCount": 50,
-  "latestDate": "2026-08-23",
+  "latestDate": "2026-08-27",
   "items": [
+    {
+      "id": "1c63910a6d829cfc",
+      "date": "2026-08-27",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:swyx",
+      "builderOrOrg": "Swyx",
+      "title": "PSA: do not use codex \"locked use\" capabilities right now. it is currently relying on unstable…",
+      "url": "https://x.com/swyx/status/2092492963435946494",
+      "publishedAt": "2026-08-26T06:02:53.000Z",
+      "content": "PSA: do not use codex \"locked use\" capabilities right now. it is currently relying on unstable mac features and has completely locked me out of my macos keychain twice this week. thx @_chenglou for linking to apple developer forums acknowledging this is a \"known bug\". just avoid. ofc, would be nice to do everything in cloud, but cloud isn't there yet.",
+      "summary": "PSA: do not use codex \"locked use\" capabilities right now. it is currently relying on unstable mac features and has completely locked me out of my macos keychain twice this week. thx @_chenglou for linking to apple deve…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 5,
+        "retweets": 1,
+        "replies": 9
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "developer"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.57,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.72,
+      "whyThisMatters": ""
+    },
     {
       "id": "b443838c70d0f3aa",
       "date": "2026-08-23",
@@ -1621,52 +1659,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4f2d9847250567ec",
-      "date": "2026-08-01",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:swyx",
-      "builderOrOrg": "Swyx",
-      "title": "verbalizing one of those aha moments i had that seems retroactively pretty obvious: if you prio…",
-      "url": "https://x.com/swyx/status/2083016652032188669",
-      "publishedAt": "2026-07-31T02:27:25.000Z",
-      "content": "verbalizing one of those aha moments i had that seems retroactively pretty obvious: if you prioritize pretrain data quality enough that commoncrawl isn't good enough for you, you have to build a Whole Web scraper anyway, and if you wanna keep it current, you have to have indexing, and pretty soon you find yourself having built a total private low-frequency clone of Google as a SIDE PROJECT of pretraining, that you can then also reuse for the agent side inference. we do know that the labs do use…",
-      "summary": "verbalizing one of those aha moments i had that seems retroactively pretty obvious: if you prioritize pretrain data quality enough that commoncrawl isn't good enough for you, you have to build a Whole Web scraper anyway…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 80,
-        "retweets": 5,
-        "replies": 18
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.65,
       "whyThisMatters": ""
     }
   ]
