@@ -1,8 +1,443 @@
 {
-  "generatedAt": "2026-08-28T00:31:15.144Z",
+  "generatedAt": "2026-08-28T11:35:02.058Z",
   "slug": "agents",
   "label": "AI Assistants",
   "items": [
+    {
+      "id": "a8534dec177fe399",
+      "date": "2026-08-28",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "Our best products have been exports of internal technology we gain strong conviction in. @matin…",
+      "url": "https://x.com/rauchg/status/2093019310725951683",
+      "publishedAt": "2026-08-27T16:54:24.000Z",
+      "content": "Our best products have been exports of internal technology we gain strong conviction in. @matinotfound and team have been shipping extraordinary WebGPU creative productions, and now https://t.co/0nyTRPKDEJ is here. It’s a fully agent-native devtool: it was designed for agents, not humans alone. Much like 𝚊𝚐𝚎𝚗𝚝-𝚋𝚛𝚘𝚠𝚜𝚎𝚛, it’s part of a new exciting generation of tools to serve the new world.",
+      "summary": "Our best products have been exports of internal technology we gain strong conviction in. @matinotfound and team have been shipping extraordinary WebGPU creative productions, and now https://t.co/0nyTRPKDEJ is here. It’s…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 558,
+        "retweets": 22,
+        "replies": 42
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "818ea93fd3f34b05",
+      "date": "2026-08-28",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "This week’s tech earnings calls were a critical reminder of how valuable the relationship is be…",
+      "url": "https://x.com/levie/status/2093192697331011846",
+      "publishedAt": "2026-08-28T04:23:23.000Z",
+      "content": "This week’s tech earnings calls were a critical reminder of how valuable the relationship is between software and AI. Software provides the guardrails for how data is managed, how business logic in workflows are maintained, how you manage and govern access to information, how you protect data, and more. You want these systems to work the same way every time, without fail. Agents, on the other hand, work inside these systems and with this data to execute on tasks just like people would have. But…",
+      "summary": "This week’s tech earnings calls were a critical reminder of how valuable the relationship is between software and AI. Software provides the guardrails for how data is managed, how business logic in workflows are maintai…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 120,
+        "retweets": 11,
+        "replies": 18
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "f15c2b5cf541ba9f",
+      "date": "2026-08-28",
+      "sourceType": "blog",
+      "sourceGroup": "mirrored",
+      "sourceName": "Anthropic Engineering",
+      "sourceKey": "blog:Anthropic Engineering",
+      "builderOrOrg": "Anthropic Engineering",
+      "title": "How we contain Claude across products",
+      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+      "publishedAt": null,
+      "content": "Twelve months ago, we&#x27;d have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service. Today that level of access is routine, and Anthropic developers are more productive for it. The risk of these deployments has two components: how likely a failure is, and how much damage one could do. Progress on safeguards and model training has steadily driven down the first; the second—the theoretical blast radius—only grows as capabilities and access expand. Yet as agents become capable of doing work that once required a person or even a team, the cost of not deploying grows large enough that the risk-reward calculation tips heavily toward adoption, as long as products can be made safe. The engineering question becomes how to cap the blast radius. When bounds can be placed on the relative damage of an autonomous agent—such as through control over its environment—high-utility capabilities can motivate deployment. Claude Mythos Preview is an example of a model whose blast radius was deemed too high to ship in April 2026. However, we expect broader release of models with similar levels of capability to become appropriate as defenders harden critical systems and safeguards mature—even though some risk will always remain. Model capability is an important factor in the total risk of an agent’s deployment. There are broadly two ways to do this. The first is to supervise the agent’s behavior via a human-in-the-loop. Claude Code previously protected against agents taking unintended actions by asking users for permission at each turn. Theoretically that works, but we’ve found the approach to be fallible. Our telemetry showed users approved roughly 93% of permission prompts. The more approvals a user sees, the less attention they pay to each, becoming over time much less diligent in their supervision. We recently built Claude Code auto mode, which automates safer approvals in order to reduce this approval fatigue. Still, vulnerab…",
+      "summary": "Twelve months ago, we&#x27;d have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service. Today that level of access is routine, and Anthropic developers are more productive for it. Th…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "autonomous"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "developer"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "deployment"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Watchlist",
+      "importanceScore": 0.62,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.51,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "bec4571eafdec463",
+      "date": "2026-08-28",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Previewing the Model Hardware Standard \\ Anthropic",
+      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "publishedAt": null,
+      "content": "Anthropic is opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.",
+      "summary": "Anthropic is opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "16426bc3754c9633",
+      "date": "2026-08-28",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Introducing Claude Opus 5 \\ Anthropic",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "publishedAt": null,
+      "content": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.",
+      "summary": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "0de9ffcadd06e9d7",
+      "date": "2026-08-28",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Introducing Claude Sonnet 5 \\ Anthropic",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "publishedAt": null,
+      "content": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
+      "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "1aa59630361715bf",
+      "date": "2026-08-28",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Lovable CTO: The Future of SaaS Is Apps That Agents Can Use",
+      "url": "https://www.latent.space/p/lovable-future-of-saas",
+      "publishedAt": "2026-08-26T16:16:25.000Z",
+      "content": "Lovable is well known as an AI-powered platform to build applications. But ironically, it is now moving towards a future where fewer and fewer people will be using conventional apps . That is, of course, because of the growing impact of agents. In a recent blog post , Lovable outlined a vision for &#8220;a digital brain for your team connecting your daily tools.&#8221; Or as Lovable CTO Fabian Hedin put it in an interview with Latent Space, &#8220;you can get to a place where you&#8217;re using one entry point to all the work that you&#8217;re doing.&#8221; Diagram by Latent Space based on an internal diagram shown to us by Lovable. To be clear, Lovable still wants to be the tool you use to build apps &#8212; but increasingly, it will also enable you to build what Hedin calls &#8220;capabilities.&#8221; Lovable defines a capability as a useful part of an application that an agent can call directly; bypassing the need for a human user to open the app. Lovable can turn a published application into agent-accessible capabilities by exposing selected functions from the app as tools through a hosted MCP server. The result is essentially one application with two interfaces: a traditional human UI and a new agent interface that can be used from ChatGPT, Claude and other MCP-compatible AI clients. Diagram supplied by Lovable This is how fast an AI business evolves This shift towards capabilities is the latest evolution from Lovable, in an already fast-moving 3 years in business. Lovable emerged from GPT Engineer, an open source coding tool that launched in 2023, initially focusing on prototyping. In November 2024, it became a commercial product and the following month, it was rebranded as Lovable . By that point, they&#8217;d begun to notice some of its users building production apps on Lovable &#8212; including products that had become real businesses . &#8220;We started seeing people on the platform building not only a prototype, and not only an MVP [Minimum Viable Produc…",
+      "summary": "Lovable is branching out from AI-powered web app creation and into MCP-powered &#8216;capabilities&#8217;. We talk to CTO Fabian Hedin.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open source"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "a6e3bce5af8fc232",
+      "date": "2026-08-28",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "How AI Becomes a Political Crisis",
+      "url": "https://www.chinatalk.media/p/how-ai-becomes-a-political-crisis",
+      "publishedAt": "2026-08-24T10:08:34.000Z",
+      "content": "The political economy of AI &#8212; things are getting weird, it seems. We have models on the loose, open weights being dropped from the heavenly temple, and data center protests fanning out across the land. There&#8217;s a lot of salience in a way that feels really different than it did even six months ago. To discuss, we have the wonderful Anton Leicht , a fellow at Carnegie and author of the excellent Substack Threading the Needle . Our conversation covers: Why even a small amount of AI-driven unemployment could upend national politics, especially if agents start replacing junior white-collar workers and breaking the career pipeline, What policymakers can do to protect workers without calcifying the economy, how to collect better data on AI and labor, and whether to subsidize junior hiring, The case for funding the AI transition with corporate income taxes instead of token taxes, and why offering the government AI equity or &#8220;golden shares&#8221; would backfire, Data center backlash, strategies for winning hearts and minds, and options for friendshoring AI infrastructure, The political economy of safety &#8212; why pausing AI development wouldn&#8217;t work, but a coordinated slowdown might, The coming reckoning between open source and the national security state. Plus, Kafka on bureaucracy and happenstance, how Anton&#8217;s years in esports shaped his career, and why new ideas seem to travel more easily through American policy discourse than European institutions. Listen now on your favorite podcast app . A data center protest in Emporia, Kansas, June 23, 2026. Source . AI at the Ballot Box Jordan Schneider: Am I right? Are things getting weird? Anton Leicht: There are several different trends happening all at the same time, and they all seem to be compounding &#8212; things are getting real. Parts of the US government are waking up to the cyber implications. There are also a lot of incentives leading into the midterms to find very visible symbols of the…",
+      "summary": "The political economy of AI &#8212; things are getting weird, it seems.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.69,
+          "rationale": [
+            "open source",
+            "weights"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.69,
+          "rationale": [
+            "safety",
+            "policy"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7a2f405ab4930724",
+      "date": "2026-08-28",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "How AI Becomes a Political Crisis",
+      "url": "https://www.chinatalk.media/p/how-ai-becomes-a-political-crisis-432",
+      "publishedAt": "2026-08-24T07:58:00.000Z",
+      "content": "The political economy of AI &#8212; things are getting weird, it seems. We have models on the loose, open weights being dropped from the heavenly temple, and data center protests fanning out across the land. There&#8217;s a lot of salience in a way that feels really different than it did even six months ago. To discuss, we have the wonderful Anton Leicht , a fellow at Carnegie and author of the excellent Substack Threading the Needle . Our conversation covers: Why even a small amount of AI-driven unemployment could upend national politics, especially if agents start replacing junior white-collar workers and breaking the career pipeline, What policymakers can do to protect workers without calcifying the economy, how to collect better data on AI and labor, and whether to subsidize junior hiring, The case for funding the AI transition with corporate income taxes instead of token taxes, and why offering the government AI equity or &#8220;golden shares&#8221; would backfire, Data center backlash, strategies for winning hearts and minds, and options for friendshoring AI infrastructure, The political economy of safety &#8212; why pausing AI development wouldn&#8217;t work, but a coordinated slowdown might, The coming reckoning between open source and the national security state. Plus, Kafka on bureaucracy and happenstance, how Anton&#8217;s years in esports shaped his career, and why new ideas seem to travel more easily through American policy discourse than European institutions. Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "summary": "Unemployment, Data Center Backlash, and the Brewing Storm",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.69,
+          "rationale": [
+            "open source",
+            "weights"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.69,
+          "rationale": [
+            "safety",
+            "policy"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
     {
       "id": "76bed9ca1e9a7b25",
       "date": "2026-08-28",
@@ -158,190 +593,6 @@
       "whyThisMatters": ""
     },
     {
-      "id": "bec4571eafdec463",
-      "date": "2026-08-28",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Previewing the Model Hardware Standard \\ Anthropic",
-      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
-      "publishedAt": null,
-      "content": "Anthropic is opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.",
-      "summary": "Anthropic is opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.82,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "16426bc3754c9633",
-      "date": "2026-08-28",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Introducing Claude Opus 5 \\ Anthropic",
-      "url": "https://www.anthropic.com/news/claude-opus-5",
-      "publishedAt": null,
-      "content": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.",
-      "summary": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "0de9ffcadd06e9d7",
-      "date": "2026-08-28",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Introducing Claude Sonnet 5 \\ Anthropic",
-      "url": "https://www.anthropic.com/news/claude-sonnet-5",
-      "publishedAt": null,
-      "content": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
-      "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "1aa59630361715bf",
-      "date": "2026-08-28",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "Lovable CTO: The Future of SaaS Is Apps That Agents Can Use",
-      "url": "https://www.latent.space/p/lovable-future-of-saas",
-      "publishedAt": "2026-08-26T16:16:25.000Z",
-      "content": "Lovable is well known as an AI-powered platform to build applications. But ironically, it is now moving towards a future where fewer and fewer people will be using conventional apps . That is, of course, because of the growing impact of agents. In a recent blog post , Lovable outlined a vision for &#8220;a digital brain for your team connecting your daily tools.&#8221; Or as Lovable CTO Fabian Hedin put it in an interview with Latent Space, &#8220;you can get to a place where you&#8217;re using one entry point to all the work that you&#8217;re doing.&#8221; Diagram by Latent Space based on an internal diagram shown to us by Lovable. To be clear, Lovable still wants to be the tool you use to build apps &#8212; but increasingly, it will also enable you to build what Hedin calls &#8220;capabilities.&#8221; Lovable defines a capability as a useful part of an application that an agent can call directly; bypassing the need for a human user to open the app. Lovable can turn a published application into agent-accessible capabilities by exposing selected functions from the app as tools through a hosted MCP server. The result is essentially one application with two interfaces: a traditional human UI and a new agent interface that can be used from ChatGPT, Claude and other MCP-compatible AI clients. Diagram supplied by Lovable This is how fast an AI business evolves This shift towards capabilities is the latest evolution from Lovable, in an already fast-moving 3 years in business. Lovable emerged from GPT Engineer, an open source coding tool that launched in 2023, initially focusing on prototyping. In November 2024, it became a commercial product and the following month, it was rebranded as Lovable . By that point, they&#8217;d begun to notice some of its users building production apps on Lovable &#8212; including products that had become real businesses . &#8220;We started seeing people on the platform building not only a prototype, and not only an MVP [Minimum Viable Produc…",
-      "summary": "Lovable is branching out from AI-powered web app creation and into MCP-powered &#8216;capabilities&#8217;. We talk to CTO Fabian Hedin.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open source"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
       "id": "680cb6998b1e2076",
       "date": "2026-08-28",
       "sourceType": "newsletter",
@@ -383,112 +634,6 @@
           "confidence": 0.5700000000000001,
           "rationale": [
             "eval"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a6e3bce5af8fc232",
-      "date": "2026-08-28",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "How AI Becomes a Political Crisis",
-      "url": "https://www.chinatalk.media/p/how-ai-becomes-a-political-crisis",
-      "publishedAt": "2026-08-24T10:08:34.000Z",
-      "content": "The political economy of AI &#8212; things are getting weird, it seems. We have models on the loose, open weights being dropped from the heavenly temple, and data center protests fanning out across the land. There&#8217;s a lot of salience in a way that feels really different than it did even six months ago. To discuss, we have the wonderful Anton Leicht , a fellow at Carnegie and author of the excellent Substack Threading the Needle . Our conversation covers: Why even a small amount of AI-driven unemployment could upend national politics, especially if agents start replacing junior white-collar workers and breaking the career pipeline, What policymakers can do to protect workers without calcifying the economy, how to collect better data on AI and labor, and whether to subsidize junior hiring, The case for funding the AI transition with corporate income taxes instead of token taxes, and why offering the government AI equity or &#8220;golden shares&#8221; would backfire, Data center backlash, strategies for winning hearts and minds, and options for friendshoring AI infrastructure, The political economy of safety &#8212; why pausing AI development wouldn&#8217;t work, but a coordinated slowdown might, The coming reckoning between open source and the national security state. Plus, Kafka on bureaucracy and happenstance, how Anton&#8217;s years in esports shaped his career, and why new ideas seem to travel more easily through American policy discourse than European institutions. Listen now on your favorite podcast app . A data center protest in Emporia, Kansas, June 23, 2026. Source . AI at the Ballot Box Jordan Schneider: Am I right? Are things getting weird? Anton Leicht: There are several different trends happening all at the same time, and they all seem to be compounding &#8212; things are getting real. Parts of the US government are waking up to the cyber implications. There are also a lot of incentives leading into the midterms to find very visible symbols of the…",
-      "summary": "The political economy of AI &#8212; things are getting weird, it seems.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.69,
-          "rationale": [
-            "open source",
-            "weights"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.69,
-          "rationale": [
-            "safety",
-            "policy"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "7a2f405ab4930724",
-      "date": "2026-08-28",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "How AI Becomes a Political Crisis",
-      "url": "https://www.chinatalk.media/p/how-ai-becomes-a-political-crisis-432",
-      "publishedAt": "2026-08-24T07:58:00.000Z",
-      "content": "The political economy of AI &#8212; things are getting weird, it seems. We have models on the loose, open weights being dropped from the heavenly temple, and data center protests fanning out across the land. There&#8217;s a lot of salience in a way that feels really different than it did even six months ago. To discuss, we have the wonderful Anton Leicht , a fellow at Carnegie and author of the excellent Substack Threading the Needle . Our conversation covers: Why even a small amount of AI-driven unemployment could upend national politics, especially if agents start replacing junior white-collar workers and breaking the career pipeline, What policymakers can do to protect workers without calcifying the economy, how to collect better data on AI and labor, and whether to subsidize junior hiring, The case for funding the AI transition with corporate income taxes instead of token taxes, and why offering the government AI equity or &#8220;golden shares&#8221; would backfire, Data center backlash, strategies for winning hearts and minds, and options for friendshoring AI infrastructure, The political economy of safety &#8212; why pausing AI development wouldn&#8217;t work, but a coordinated slowdown might, The coming reckoning between open source and the national security state. Plus, Kafka on bureaucracy and happenstance, how Anton&#8217;s years in esports shaped his career, and why new ideas seem to travel more easily through American policy discourse than European institutions. Learn more about your ad choices. Visit megaphone.fm/adchoices",
-      "summary": "Unemployment, Data Center Backlash, and the Brewing Storm",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.69,
-          "rationale": [
-            "open source",
-            "weights"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.69,
-          "rationale": [
-            "safety",
-            "policy"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
           ],
           "score": 1
         }
@@ -1971,59 +2116,6 @@
       "whyThisMatters": ""
     },
     {
-      "id": "f15c2b5cf541ba9f",
-      "date": "2026-08-20",
-      "sourceType": "blog",
-      "sourceGroup": "mirrored",
-      "sourceName": "Anthropic Engineering",
-      "sourceKey": "blog:Anthropic Engineering",
-      "builderOrOrg": "Anthropic Engineering",
-      "title": "How we contain Claude across products",
-      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
-      "publishedAt": null,
-      "content": "Twelve months ago, we&#x27;d have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service. Today that level of access is routine, and Anthropic developers are more productive for it. The risk of these deployments has two components: how likely a failure is, and how much damage one could do. Progress on safeguards and model training has steadily driven down the first; the second—the theoretical blast radius—only grows as capabilities and access expand. Yet as agents become capable of doing work that once required a person or even a team, the cost of not deploying grows large enough that the risk-reward calculation tips heavily toward adoption, as long as products can be made safe. The engineering question becomes how to cap the blast radius. When bounds can be placed on the relative damage of an autonomous agent—such as through control over its environment—high-utility capabilities can motivate deployment. Claude Mythos Preview is an example of a model whose blast radius was deemed too high to ship in April 2026. However, we expect broader release of models with similar levels of capability to become appropriate as defenders harden critical systems and safeguards mature—even though some risk will always remain. Model capability is an important factor in the total risk of an agent’s deployment. There are broadly two ways to do this. The first is to supervise the agent’s behavior via a human-in-the-loop. Claude Code previously protected against agents taking unintended actions by asking users for permission at each turn. Theoretically that works, but we’ve found the approach to be fallible. Our telemetry showed users approved roughly 93% of permission prompts. The more approvals a user sees, the less attention they pay to each, becoming over time much less diligent in their supervision. We recently built Claude Code auto mode, which automates safer approvals in order to reduce this approval fatigue. Still, vulnerab…",
-      "summary": "Twelve months ago, we&#x27;d have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service. Today that level of access is routine, and Anthropic developers are more productive for it. Th…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "autonomous"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "code",
-            "developer"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "deployment"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Watchlist",
-      "importanceScore": 0.62,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.51,
-      "whyThisMatters": ""
-    },
-    {
       "id": "828eee6ed28ff901",
       "date": "2026-08-20",
       "sourceType": "newsletter",
@@ -2327,105 +2419,6 @@
           "confidence": 0.5700000000000001,
           "rationale": [
             "weights"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4140429ad46076e0",
-      "date": "2026-08-18",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "Pretty good way to think about the value of AI agents and where the opportunity lies. You have…",
-      "url": "https://x.com/levie/status/2089209131391729763",
-      "publishedAt": "2026-08-17T04:34:07.000Z",
-      "content": "Pretty good way to think about the value of AI agents and where the opportunity lies. You have a technology that will tirelessly do all the things that you could never fully do before. Not because you didn’t want to or it wasn’t valuable, but because it was just not even remotely practical. The upside with AI is to think about everything you can now throw intelligence at that won’t give up and what would the returns be. You just couldn’t possibly find every security vulnerability in your codeba…",
-      "summary": "Pretty good way to think about the value of AI agents and where the opportunity lies. You have a technology that will tirelessly do all the things that you could never fully do before. Not because you didn’t want to or…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 88,
-        "retweets": 5,
-        "replies": 17
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.92,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.7,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "8f600649a81f40fc",
-      "date": "2026-08-18",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "The builder’s guide to GPT‑5.6",
-      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "publishedAt": "2026-08-13T11:00:00.000Z",
-      "content": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
-      "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
           ],
           "score": 1
         }
