@@ -1,105 +1,59 @@
 {
-  "generatedAt": "2026-08-29T00:31:43.022Z",
+  "generatedAt": "2026-08-29T07:13:24.253Z",
   "slug": "enterprise",
   "label": "Business AI",
   "items": [
     {
-      "id": "543e828a7d88b4b4",
+      "id": "7a2bfce6f0443aa4",
       "date": "2026-08-29",
-      "sourceType": "x",
+      "sourceType": "podcast",
       "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:realmadhuguru",
-      "builderOrOrg": "Madhu Guru",
-      "title": "If you lead AI for an enterprise, the highest leverage thing you can do is to make your AI stac…",
-      "url": "https://x.com/realmadhuguru/status/2093143877087879377",
-      "publishedAt": "2026-08-28T01:09:23.000Z",
-      "content": "If you lead AI for an enterprise, the highest leverage thing you can do is to make your AI stack model agnostic. There are two things I would invest in. 1/ Today: build an eval suite that fully captures your use cases and business outcomes. Most companies I’ve seen do not do a good job of this. 2/ Within the next year: build the capability to post-train open models. The talent gap here is even more acute, so start planning today. This gives you the flexibility to switch models, customize them,…",
-      "summary": "If you lead AI for an enterprise, the highest leverage thing you can do is to make your AI stack model agnostic. There are two things I would invest in. 1/ Today: build an eval suite that fully captures your use cases a…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 173,
-        "retweets": 11,
-        "replies": 16
-      },
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "eval"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.78,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.61,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "f15c2b5cf541ba9f",
-      "date": "2026-08-29",
-      "sourceType": "blog",
-      "sourceGroup": "mirrored",
-      "sourceName": "Anthropic Engineering",
-      "sourceKey": "blog:Anthropic Engineering",
-      "builderOrOrg": "Anthropic Engineering",
-      "title": "How we contain Claude across products",
-      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
-      "publishedAt": null,
-      "content": "Twelve months ago, we&#x27;d have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service. Today that level of access is routine, and Anthropic developers are more productive for it. The risk of these deployments has two components: how likely a failure is, and how much damage one could do. Progress on safeguards and model training has steadily driven down the first; the second—the theoretical blast radius—only grows as capabilities and access expand. Yet as agents become capable of doing work that once required a person or even a team, the cost of not deploying grows large enough that the risk-reward calculation tips heavily toward adoption, as long as products can be made safe. The engineering question becomes how to cap the blast radius. When bounds can be placed on the relative damage of an autonomous agent—such as through control over its environment—high-utility capabilities can motivate deployment. Claude Mythos Preview is an example of a model whose blast radius was deemed too high to ship in April 2026. However, we expect broader release of models with similar levels of capability to become appropriate as defenders harden critical systems and safeguards mature—even though some risk will always remain. Model capability is an important factor in the total risk of an agent’s deployment. There are broadly two ways to do this. The first is to supervise the agent’s behavior via a human-in-the-loop. Claude Code previously protected against agents taking unintended actions by asking users for permission at each turn. Theoretically that works, but we’ve found the approach to be fallible. Our telemetry showed users approved roughly 93% of permission prompts. The more approvals a user sees, the less attention they pay to each, becoming over time much less diligent in their supervision. We recently built Claude Code auto mode, which automates safer approvals in order to reduce this approval fatigue. Still, vulnerab…",
-      "summary": "Twelve months ago, we&#x27;d have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service. Today that level of access is routine, and Anthropic developers are more productive for it. Th…",
+      "sourceName": "No Priors",
+      "sourceKey": "podcast:No Priors",
+      "builderOrOrg": "No Priors",
+      "title": "Rethinking Legacy Data Infrastructure with Eon Co-Founders Ofir Ehrlich and Gonen Stein",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "publishedAt": "2026-08-27T10:00:00.000Z",
+      "content": "Speaker 1 | 00:00 - 00:22 Up until now, the concerns came from human threats. What we're seeing now on steroids is that the same type of threat is coming from nonhuman actors, agents that essentially have legitimate access to the environment with legitimate permissions. Fortunately for us, it's a very similar methodology in terms of detecting that and protecting against that, but the velocity of that happening is extreme. Speaker 2 | 00:22 - 00:51 Think of the nontechnical people. They're not even aware for things like security or compliance or who is gonna use this data. Maybe their agent that they are building are using other agents, and they're not technical to even understand what it means. It creates complete set of actors inside the organization, not bound by the rules of the organization and not necessarily running within the premises of the organization, but handling sensitive data. It's a good thing and bad thing that everyone inside the organization can become builders. Speaker 2 | 00:51 - 00:52 We live in very interesting times. Speaker 3 | 00:59 - 01:25 Today on our priors, we're joined by Ofer Oerlech and Goenen Stein, the cofounders of EON. EON is a cloud backup disaster recovery centric services designed for the AI era. In this discussion, we talk about data, AI, why Google bought out the data of Spirit Airlines out of bankruptcy, and what it means to really manage and use data infrastructure in the AI era. Ophelia Gunnen, thank you so much for joining me Enterprise today. It's great to see you. Speaker 1 | 01:25 - 01:27 Absolutely. Thanks for having us. Speaker 3 | 01:27 - 01:49 Yeah. So one thing that you guys are doing at EON is or, why don't you give a quick overview of EON and what it does really quickly? Because I think that'll set the context for how we think about AI and data and models and fine tuning models. I think there's a whole stack that's built on top of different types of datasets. And so maybe we can start with what you all do, and then I think we'll kinda walk through, like, how the world is shifting relative to to the enterprise data stack. Speaker 1 | 01:50 - 02:29 Yeah. Sure. So, what we do at at a high level is we've created a new data foundation that runs in the cloud and we provide multiple capabilities that allow customers to first map and classify their data across their environment, across multiple hyperscalers and identify what they have, where they have it, what's sensitive, not sensitive, and so on and so forth. Then we provide an ability to easily ingest that data from all these different sources, structured, unstructured data into this data foundation. And the data foundation then provides a very cost effective way of both maintaining the data for protection and recovery, but also makes sense of the data. Speaker 1 | 02:29 - 02:39 So it allows customers to very easily access it, query it, search through it, and apply their AI models and LLMs on top of that data that's ingested ingested from a variety of sources. Speaker 3 | 02:39 - 03:02 Yeah. And my sense is, I mean, your starting point was really as sort of backup and data recovery and protection service. And I think along the way, you kinda realize if you have all this data from a backup perspective and you have all their customer history over all time, can start using that for interesting application areas. What are what are some of those directions where you're seeing customers take this the the sort of full history of data that that you all have or represent? Speaker 2 | 03:02 - 03:47 So as you mentioned, when we started, said, I had this crazy person starting a non AI company in an AI world, and the AI tailwind became absolutely insane and made sure that data becomes the most important thing that an organization have. When you can think about it, models, compute, everything is relatively femoral, almost zero switching costs. And those are important parts of the infrastructure for the industry. But if you're a company, whe…",
+      "summary": "Speaker 1 | 00:00 - 00:22 Up until now, the concerns came from human threats. What we're seeing now on steroids is that the same type of threat is coming from nonhuman actors, agents that essentially have legitimate access to the environme…",
       "regionTags": [],
       "metrics": {},
       "topics": [
         {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "autonomous"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "code",
-            "developer"
-          ],
-          "score": 2
-        },
-        {
           "slug": "enterprise",
           "label": "Business AI",
+          "confidence": 0.81,
+          "rationale": [
+            "enterprise",
+            "security",
+            "compliance"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "deployment"
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "dataset"
           ],
           "score": 1
         }
       ],
-      "section": "Watchlist",
-      "importanceScore": 0.62,
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.74,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.51,
+      "previouslySelected": true,
+      "digestScore": 0.59,
       "whyThisMatters": ""
     },
     {
@@ -153,6 +107,59 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "5d5263fad48d4284",
+      "date": "2026-08-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] OpenAI shuts off Cursor",
+      "url": "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
+      "publishedAt": "2026-08-29T05:11:52.000Z",
+      "content": "A late entrant in the news cycle of an eventful week: Following the closing of Cursor&#8217;s acquisition by SpaceX last week , it was time for OpenAI to do what Anthropic did to Windsurf when it was being considered for acquisition by OpenAI: There are many angles to this, but the leading reason given should be taken at face value &#8212; OpenAI&#8217;s blogpost on this decision cites &#8220;our experience with Elon Musk&#8217;s companies violating contracts&#8221;. This follows on from years of public acrimony between respective company leaders (Elon was famously a key backer/funder of OpenAI at birth) and a failed lawsuit this year . To some extent this was very forseeable, but also points to the success of both companies involved; a year ago Cursor was up there on the GPT-5 launch video , and OpenAI cutting them off was a nonstarter with Claude models being so far ahead in coding. Today, GPT 5.6 is a serious coding alternative to the Claude 5 series, AND CursorSpaceXai is now promoting Grok 4.6 , itself finally a successful coding model for Xai, and Grok Bot is a viable competitor to Codex/ChatGPT. Both companies worked very very hard to be in a place where they are taken seriously as competitors, and now they are. Cursor&#8217;s only response so far is diplomatic, on one hand noting that OpenAI is only 5% of Cursor traffic, and on the other not accepting that their decision seems final: AI News for 8/22/2026-8/24/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Open-Weight Frontier Releases: GLM-5.3, Hy4 Preview, and Qwen3.8 Flash Z.ai&#8217;s GLM-5.3 family moved from strong API model to broadly deployable open weights : @Zai_org open-weighted GLM-5.3 , positioned for agentic coding and cyber defense . Follow-on infra posts filled in the deployment picture: @vllm_project…",
+      "summary": "Elon v Altman has a real consequence.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "deployment"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.62,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.75,
       "whyThisMatters": ""
     },
     {
@@ -259,6 +266,105 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "543e828a7d88b4b4",
+      "date": "2026-08-29",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:realmadhuguru",
+      "builderOrOrg": "Madhu Guru",
+      "title": "If you lead AI for an enterprise, the highest leverage thing you can do is to make your AI stac…",
+      "url": "https://x.com/realmadhuguru/status/2093143877087879377",
+      "publishedAt": "2026-08-28T01:09:23.000Z",
+      "content": "If you lead AI for an enterprise, the highest leverage thing you can do is to make your AI stack model agnostic. There are two things I would invest in. 1/ Today: build an eval suite that fully captures your use cases and business outcomes. Most companies I’ve seen do not do a good job of this. 2/ Within the next year: build the capability to post-train open models. The talent gap here is even more acute, so start planning today. This gives you the flexibility to switch models, customize them,…",
+      "summary": "If you lead AI for an enterprise, the highest leverage thing you can do is to make your AI stack model agnostic. There are two things I would invest in. 1/ Today: build an eval suite that fully captures your use cases a…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 173,
+        "retweets": 11,
+        "replies": 16
+      },
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.78,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "f15c2b5cf541ba9f",
+      "date": "2026-08-29",
+      "sourceType": "blog",
+      "sourceGroup": "mirrored",
+      "sourceName": "Anthropic Engineering",
+      "sourceKey": "blog:Anthropic Engineering",
+      "builderOrOrg": "Anthropic Engineering",
+      "title": "How we contain Claude across products",
+      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+      "publishedAt": null,
+      "content": "Twelve months ago, we&#x27;d have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service. Today that level of access is routine, and Anthropic developers are more productive for it. The risk of these deployments has two components: how likely a failure is, and how much damage one could do. Progress on safeguards and model training has steadily driven down the first; the second—the theoretical blast radius—only grows as capabilities and access expand. Yet as agents become capable of doing work that once required a person or even a team, the cost of not deploying grows large enough that the risk-reward calculation tips heavily toward adoption, as long as products can be made safe. The engineering question becomes how to cap the blast radius. When bounds can be placed on the relative damage of an autonomous agent—such as through control over its environment—high-utility capabilities can motivate deployment. Claude Mythos Preview is an example of a model whose blast radius was deemed too high to ship in April 2026. However, we expect broader release of models with similar levels of capability to become appropriate as defenders harden critical systems and safeguards mature—even though some risk will always remain. Model capability is an important factor in the total risk of an agent’s deployment. There are broadly two ways to do this. The first is to supervise the agent’s behavior via a human-in-the-loop. Claude Code previously protected against agents taking unintended actions by asking users for permission at each turn. Theoretically that works, but we’ve found the approach to be fallible. Our telemetry showed users approved roughly 93% of permission prompts. The more approvals a user sees, the less attention they pay to each, becoming over time much less diligent in their supervision. We recently built Claude Code auto mode, which automates safer approvals in order to reduce this approval fatigue. Still, vulnerab…",
+      "summary": "Twelve months ago, we&#x27;d have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service. Today that level of access is routine, and Anthropic developers are more productive for it. Th…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "autonomous"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "developer"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "deployment"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Watchlist",
+      "importanceScore": 0.62,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.51,
       "whyThisMatters": ""
     },
     {
@@ -2355,113 +2461,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.61,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "89c355d22d3ac74a",
-      "date": "2026-08-12",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:rauchg",
-      "builderOrOrg": "Guillermo Rauch",
-      "title": "This tool has become so valuable for cybersecurity defensive work, that it’s become a verb with…",
-      "url": "https://x.com/rauchg/status/2086965425968148806",
-      "publishedAt": "2026-08-10T23:58:26.000Z",
-      "content": "This tool has become so valuable for cybersecurity defensive work, that it’s become a verb within Vercel. “Did you deepsec it?” “@𝚟 can you deepsec” “/𝚍𝚎𝚎𝚙𝚜𝚎𝚌” It’s a bit like /𝚝𝚑𝚎𝚛𝚖𝚘-𝚗𝚞𝚌𝚕𝚎𝚊𝚛-𝚌𝚘𝚍𝚎-𝚚𝚞𝚊𝚕𝚒𝚝𝚢-𝚛𝚎𝚟𝚒𝚎𝚠 but for the security of your code. Must have in your software factory.",
-      "summary": "This tool has become so valuable for cybersecurity defensive work, that it’s become a verb within Vercel. “Did you deepsec it?” “@𝚟 can you deepsec” “/𝚍𝚎𝚎𝚙𝚜𝚎𝚌” It’s a bit like /𝚝𝚑𝚎𝚛𝚖𝚘-𝚗𝚞𝚌𝚕𝚎𝚊𝚛-𝚌𝚘𝚍…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 348,
-        "retweets": 15,
-        "replies": 18
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.78,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.61,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "628b24a558a33461",
-      "date": "2026-08-12",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "FCC’s Adam Chan on the New Robot Rule",
-      "url": "https://www.chinatalk.media/p/fccs-adam-chan-on-the-new-robot-rule",
-      "publishedAt": "2026-08-06T10:13:18.000Z",
-      "content": "The FCC has spent the past year quietly rewiring the American import market, first routers, then drones, next undersea cables, and as of last week, robots. A 1934 statute plus two overwhelmingly bipartisan bills from 2020 and 2021 have turned what many thought was a sleepy spectrum regulator into one of Washington&#8217;s most aggressive national security agencies. Adam Chan is national security counsel and senior advisor to FCC Chairman Brendan Carr, and directs the agency&#8217;s new Council on National Security. He previously clerked on the Second Circuit and served as a national security legal fellow for the House Select Committee on China. ChinaTalk&#8217;s Aqib Zakaria co-hosts. We discuss&#8230; How the covered list works The case for &#8220;simple and stupid&#8221; rules over big-brained ones with endless carve-outs Onshoring plans, allied carve-outs, and the 65% domestic content test Why robot vacuums got swept in alongside humanoids How AGI-pilled you have to be for the robot rule to make sense Listen now on your favorite podcast app . GovAI was founded ten years ago on the belief that AI would end up transforming our world. Ten years later, the organization is at the forefront of trying to help decision-makers in government and industry navigate the transition to advanced AI. GovAI is now hiring for its next cohort of Research Scholars and Research Fellows . Scholars are one-year positions that provide an intellectual home for ambitious researchers and policy professionals looking to advance their careers or transition into AI policy. Fellows are longer-term positions for experienced researchers with an established track-record looking for a place that supports their most impactful work. Both roles offer significant freedom to pursue policy research, advise decision-makers, or launch new initiatives. Applications close 16 August 2026. Learn more and apply at https://www.governance.ai/opportunities Jordan Schneider: This national security FCC energy dates…",
-      "summary": "import substitution as industrial policy",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.69,
-          "rationale": [
-            "governance",
-            "policy"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
       "whyThisMatters": ""
     }
   ]
