@@ -1,61 +1,8 @@
 {
-  "generatedAt": "2026-08-30T05:35:17.033Z",
+  "generatedAt": "2026-08-30T06:50:59.871Z",
   "slug": "enterprise",
   "label": "Business AI",
   "items": [
-    {
-      "id": "7a2bfce6f0443aa4",
-      "date": "2026-08-30",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "No Priors",
-      "sourceKey": "podcast:No Priors",
-      "builderOrOrg": "No Priors",
-      "title": "Rethinking Legacy Data Infrastructure with Eon Co-Founders Ofir Ehrlich and Gonen Stein",
-      "url": "https://www.youtube.com/@NoPriorsPodcast",
-      "publishedAt": "2026-08-27T10:00:00.000Z",
-      "content": "Speaker 1 | 00:00 - 00:22 Up until now, the concerns came from human threats. What we're seeing now on steroids is that the same type of threat is coming from nonhuman actors, agents that essentially have legitimate access to the environment with legitimate permissions. Fortunately for us, it's a very similar methodology in terms of detecting that and protecting against that, but the velocity of that happening is extreme. Speaker 2 | 00:22 - 00:51 Think of the nontechnical people. They're not even aware for things like security or compliance or who is gonna use this data. Maybe their agent that they are building are using other agents, and they're not technical to even understand what it means. It creates complete set of actors inside the organization, not bound by the rules of the organization and not necessarily running within the premises of the organization, but handling sensitive data. It's a good thing and bad thing that everyone inside the organization can become builders. Speaker 2 | 00:51 - 00:52 We live in very interesting times. Speaker 3 | 00:59 - 01:25 Today on our priors, we're joined by Ofer Oerlech and Goenen Stein, the cofounders of EON. EON is a cloud backup disaster recovery centric services designed for the AI era. In this discussion, we talk about data, AI, why Google bought out the data of Spirit Airlines out of bankruptcy, and what it means to really manage and use data infrastructure in the AI era. Ophelia Gunnen, thank you so much for joining me Enterprise today. It's great to see you. Speaker 1 | 01:25 - 01:27 Absolutely. Thanks for having us. Speaker 3 | 01:27 - 01:49 Yeah. So one thing that you guys are doing at EON is or, why don't you give a quick overview of EON and what it does really quickly? Because I think that'll set the context for how we think about AI and data and models and fine tuning models. I think there's a whole stack that's built on top of different types of datasets. And so maybe we can start with what you all do, and then I think we'll kinda walk through, like, how the world is shifting relative to to the enterprise data stack. Speaker 1 | 01:50 - 02:29 Yeah. Sure. So, what we do at at a high level is we've created a new data foundation that runs in the cloud and we provide multiple capabilities that allow customers to first map and classify their data across their environment, across multiple hyperscalers and identify what they have, where they have it, what's sensitive, not sensitive, and so on and so forth. Then we provide an ability to easily ingest that data from all these different sources, structured, unstructured data into this data foundation. And the data foundation then provides a very cost effective way of both maintaining the data for protection and recovery, but also makes sense of the data. Speaker 1 | 02:29 - 02:39 So it allows customers to very easily access it, query it, search through it, and apply their AI models and LLMs on top of that data that's ingested ingested from a variety of sources. Speaker 3 | 02:39 - 03:02 Yeah. And my sense is, I mean, your starting point was really as sort of backup and data recovery and protection service. And I think along the way, you kinda realize if you have all this data from a backup perspective and you have all their customer history over all time, can start using that for interesting application areas. What are what are some of those directions where you're seeing customers take this the the sort of full history of data that that you all have or represent? Speaker 2 | 03:02 - 03:47 So as you mentioned, when we started, said, I had this crazy person starting a non AI company in an AI world, and the AI tailwind became absolutely insane and made sure that data becomes the most important thing that an organization have. When you can think about it, models, compute, everything is relatively femoral, almost zero switching costs. And those are important parts of the infrastructure for the industry. But if you're a company, whe…",
-      "summary": "Speaker 1 | 00:00 - 00:22 Up until now, the concerns came from human threats. What we're seeing now on steroids is that the same type of threat is coming from nonhuman actors, agents that essentially have legitimate access to the environme…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.81,
-          "rationale": [
-            "enterprise",
-            "security",
-            "compliance"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "dataset"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.74,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.59,
-      "whyThisMatters": ""
-    },
     {
       "id": "b790810f710a2622",
       "date": "2026-08-30",
@@ -266,6 +213,59 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7a2bfce6f0443aa4",
+      "date": "2026-08-30",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "No Priors",
+      "sourceKey": "podcast:No Priors",
+      "builderOrOrg": "No Priors",
+      "title": "Rethinking Legacy Data Infrastructure with Eon Co-Founders Ofir Ehrlich and Gonen Stein",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "publishedAt": "2026-08-27T10:00:00.000Z",
+      "content": "Speaker 1 | 00:00 - 00:22 Up until now, the concerns came from human threats. What we're seeing now on steroids is that the same type of threat is coming from nonhuman actors, agents that essentially have legitimate access to the environment with legitimate permissions. Fortunately for us, it's a very similar methodology in terms of detecting that and protecting against that, but the velocity of that happening is extreme. Speaker 2 | 00:22 - 00:51 Think of the nontechnical people. They're not even aware for things like security or compliance or who is gonna use this data. Maybe their agent that they are building are using other agents, and they're not technical to even understand what it means. It creates complete set of actors inside the organization, not bound by the rules of the organization and not necessarily running within the premises of the organization, but handling sensitive data. It's a good thing and bad thing that everyone inside the organization can become builders. Speaker 2 | 00:51 - 00:52 We live in very interesting times. Speaker 3 | 00:59 - 01:25 Today on our priors, we're joined by Ofer Oerlech and Goenen Stein, the cofounders of EON. EON is a cloud backup disaster recovery centric services designed for the AI era. In this discussion, we talk about data, AI, why Google bought out the data of Spirit Airlines out of bankruptcy, and what it means to really manage and use data infrastructure in the AI era. Ophelia Gunnen, thank you so much for joining me Enterprise today. It's great to see you. Speaker 1 | 01:25 - 01:27 Absolutely. Thanks for having us. Speaker 3 | 01:27 - 01:49 Yeah. So one thing that you guys are doing at EON is or, why don't you give a quick overview of EON and what it does really quickly? Because I think that'll set the context for how we think about AI and data and models and fine tuning models. I think there's a whole stack that's built on top of different types of datasets. And so maybe we can start with what you all do, and then I think we'll kinda walk through, like, how the world is shifting relative to to the enterprise data stack. Speaker 1 | 01:50 - 02:29 Yeah. Sure. So, what we do at at a high level is we've created a new data foundation that runs in the cloud and we provide multiple capabilities that allow customers to first map and classify their data across their environment, across multiple hyperscalers and identify what they have, where they have it, what's sensitive, not sensitive, and so on and so forth. Then we provide an ability to easily ingest that data from all these different sources, structured, unstructured data into this data foundation. And the data foundation then provides a very cost effective way of both maintaining the data for protection and recovery, but also makes sense of the data. Speaker 1 | 02:29 - 02:39 So it allows customers to very easily access it, query it, search through it, and apply their AI models and LLMs on top of that data that's ingested ingested from a variety of sources. Speaker 3 | 02:39 - 03:02 Yeah. And my sense is, I mean, your starting point was really as sort of backup and data recovery and protection service. And I think along the way, you kinda realize if you have all this data from a backup perspective and you have all their customer history over all time, can start using that for interesting application areas. What are what are some of those directions where you're seeing customers take this the the sort of full history of data that that you all have or represent? Speaker 2 | 03:02 - 03:47 So as you mentioned, when we started, said, I had this crazy person starting a non AI company in an AI world, and the AI tailwind became absolutely insane and made sure that data becomes the most important thing that an organization have. When you can think about it, models, compute, everything is relatively femoral, almost zero switching costs. And those are important parts of the infrastructure for the industry. But if you're a company, whe…",
+      "summary": "Speaker 1 | 00:00 - 00:22 Up until now, the concerns came from human threats. What we're seeing now on steroids is that the same type of threat is coming from nonhuman actors, agents that essentially have legitimate access to the environme…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.81,
+          "rationale": [
+            "enterprise",
+            "security",
+            "compliance"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "dataset"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.74,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.59,
       "whyThisMatters": ""
     },
     {
