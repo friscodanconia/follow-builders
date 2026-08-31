@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-08-31T05:50:55.696Z",
+  "generatedAt": "2026-08-31T07:06:32.880Z",
   "slug": "fine-tuning",
   "label": "Custom AI",
   "items": [
     {
-      "id": "64fb2c69a5314264",
+      "id": "74ea8ae622291e9e",
       "date": "2026-08-31",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:mattturck",
-      "builderOrOrg": "Matt Turck",
-      "title": "All frontier AI labs are basically working on the same thing: recursive self improvement (RSI),…",
-      "url": "https://x.com/mattturck/status/2093794720510062617",
-      "publishedAt": "2026-08-29T20:15:36.000Z",
-      "content": "All frontier AI labs are basically working on the same thing: recursive self improvement (RSI), meaning AI building AI This could lead to an AI takeover as early as late 2028 or 2029, says @RyanGreenblatt https://t.co/RHKwLZRQ4E",
-      "summary": "All frontier AI labs are basically working on the same thing: recursive self improvement (RSI), meaning AI building AI This could lead to an AI takeover as early as late 2028 or 2029, says @RyanGreenblatt https://t.co/R…",
+      "sourceKey": "x:amasad",
+      "builderOrOrg": "Amjad Masad",
+      "title": "The lesson from the Hugging Face Incident should be that RL with verifiable rewards is an incre…",
+      "url": "https://x.com/amasad/status/2094215744842248418",
+      "publishedAt": "2026-08-31T00:08:36.000Z",
+      "content": "The lesson from the Hugging Face Incident should be that RL with verifiable rewards is an incredibly powerful optimization algorithm that will produce increasingly weird and surprising behavior from LLMs. The obvious miss here by OpenAI is that they should’ve been monitoring CoTs — Something they themselves called out as a safety strategy more than a year ago.",
+      "summary": "The lesson from the Hugging Face Incident should be that RL with verifiable rewards is an incredibly powerful optimization algorithm that will produce increasingly weird and surprising behavior from LLMs. The obvious mi…",
       "regionTags": [],
       "metrics": {
-        "likes": 27,
-        "retweets": 5,
-        "replies": 2
+        "likes": 602,
+        "retweets": 29,
+        "replies": 54
       },
       "topics": [
         {
@@ -31,50 +31,22 @@
             "rl"
           ],
           "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.64,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.52,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "28310d3229cccfaf",
-      "date": "2026-08-31",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:nikunj",
-      "builderOrOrg": "Nikunj Kothari",
-      "title": "Resist dunking* I see it WAY too much with folks especially today. It’s the perfect dopamine lo…",
-      "url": "https://x.com/nikunj/status/2093772803216740647",
-      "publishedAt": "2026-08-29T18:48:31.000Z",
-      "content": "Resist dunking* I see it WAY too much with folks especially today. It’s the perfect dopamine loop - other people join in and you feel great. But, it just screams envy and doesn’t lead to anything productive. Sure, you can pat yourself on the back and say “see I told you so” but how did it move the world? Nowhere. If you think you can do it better, go do that then. Screaming about someone’s unfair advantages is not going to change your life - and probably leads to more sadness. Keep building. Co…",
-      "summary": "Resist dunking* I see it WAY too much with folks especially today. It’s the perfect dopamine loop - other people join in and you feel great. But, it just screams envy and doesn’t lead to anything productive. Sure, you c…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 94,
-        "retweets": 3,
-        "replies": 12
-      },
-      "topics": [
+        },
         {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
+          "slug": "safety",
+          "label": "AI Safety",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "rl"
+            "safety"
           ],
           "score": 1
         }
       ],
       "section": "Builders",
       "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.56,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
       "whyThisMatters": ""
     },
     {
@@ -206,6 +178,80 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "64fb2c69a5314264",
+      "date": "2026-08-31",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:mattturck",
+      "builderOrOrg": "Matt Turck",
+      "title": "All frontier AI labs are basically working on the same thing: recursive self improvement (RSI),…",
+      "url": "https://x.com/mattturck/status/2093794720510062617",
+      "publishedAt": "2026-08-29T20:15:36.000Z",
+      "content": "All frontier AI labs are basically working on the same thing: recursive self improvement (RSI), meaning AI building AI This could lead to an AI takeover as early as late 2028 or 2029, says @RyanGreenblatt https://t.co/RHKwLZRQ4E",
+      "summary": "All frontier AI labs are basically working on the same thing: recursive self improvement (RSI), meaning AI building AI This could lead to an AI takeover as early as late 2028 or 2029, says @RyanGreenblatt https://t.co/R…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 27,
+        "retweets": 5,
+        "replies": 2
+      },
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.64,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.52,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "28310d3229cccfaf",
+      "date": "2026-08-31",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:nikunj",
+      "builderOrOrg": "Nikunj Kothari",
+      "title": "Resist dunking* I see it WAY too much with folks especially today. It’s the perfect dopamine lo…",
+      "url": "https://x.com/nikunj/status/2093772803216740647",
+      "publishedAt": "2026-08-29T18:48:31.000Z",
+      "content": "Resist dunking* I see it WAY too much with folks especially today. It’s the perfect dopamine loop - other people join in and you feel great. But, it just screams envy and doesn’t lead to anything productive. Sure, you can pat yourself on the back and say “see I told you so” but how did it move the world? Nowhere. If you think you can do it better, go do that then. Screaming about someone’s unfair advantages is not going to change your life - and probably leads to more sadness. Keep building. Co…",
+      "summary": "Resist dunking* I see it WAY too much with folks especially today. It’s the perfect dopamine loop - other people join in and you feel great. But, it just screams envy and doesn’t lead to anything productive. Sure, you c…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 94,
+        "retweets": 3,
+        "replies": 12
+      },
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
@@ -2314,52 +2360,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "0b9807443152012d",
-      "date": "2026-08-16",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:steipete",
-      "builderOrOrg": "Peter Steinberger",
-      "title": "We moved the team over to build openclaw with openclaw. Being able to share agent sessions as U…",
-      "url": "https://x.com/steipete/status/2088473882357530979",
-      "publishedAt": "2026-08-15T03:52:30.000Z",
-      "content": "We moved the team over to build openclaw with openclaw. Being able to share agent sessions as URLs is a superpower. https://t.co/peCQydXWyc",
-      "summary": "We moved the team over to build openclaw with openclaw. Being able to share agent sessions as URLs is a superpower. https://t.co/peCQydXWyc",
-      "regionTags": [],
-      "metrics": {
-        "likes": 160,
-        "retweets": 5,
-        "replies": 28
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.65,
       "whyThisMatters": ""
     }
   ]

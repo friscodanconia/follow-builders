@@ -1,26 +1,100 @@
 {
-  "generatedAt": "2026-08-31T05:50:55.696Z",
+  "generatedAt": "2026-08-31T07:06:32.880Z",
   "slug": "agents",
   "label": "AI Assistants",
   "items": [
     {
-      "id": "b1e1c8b13376e1eb",
+      "id": "902b38d7f7a3d83d",
       "date": "2026-08-31",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:rauchg",
-      "builderOrOrg": "Guillermo Rauch",
-      "title": "https://t.co/OL0LzGtvAw 0.0.7: - hugely improved MCP support, eval'd with top MCPs like @contex…",
-      "url": "https://x.com/rauchg/status/2093736865191076318",
-      "publishedAt": "2026-08-29T16:25:43.000Z",
-      "content": "https://t.co/OL0LzGtvAw 0.0.7: - hugely improved MCP support, eval'd with top MCPs like @context7ai, @datadoghq, @mongodb, @linear, @notionhq, @supabase, @neondatabase, @stagehanddev, @usekernel… - more minimalist: fewer tools and improved shell execution. One of the trickiest things about CLI agents is that running commands is actually not that simple. e.g: commands might hang or run for very long, their output needs to be monitorable by the agent, they might produce huge amounts of output, or…",
-      "summary": "https://t.co/OL0LzGtvAw 0.0.7: - hugely improved MCP support, eval'd with top MCPs like @context7ai, @datadoghq, @mongodb, @linear, @notionhq, @supabase, @neondatabase, @stagehanddev, @usekernel… - more minimalist: fewe…",
+      "sourceKey": "x:amasad",
+      "builderOrOrg": "Amjad Masad",
+      "title": "If you ever wondered how civilizations are built, it’s actually easy: [Agent() for _ in range(1…",
+      "url": "https://x.com/amasad/status/2094280256933056971",
+      "publishedAt": "2026-08-31T04:24:57.000Z",
+      "content": "If you ever wondered how civilizations are built, it’s actually easy: [Agent() for _ in range(100)]",
+      "summary": "If you ever wondered how civilizations are built, it’s actually easy: [Agent() for _ in range(100)]",
       "regionTags": [],
       "metrics": {
-        "likes": 238,
-        "retweets": 15,
-        "replies": 43
+        "likes": 212,
+        "retweets": 7,
+        "replies": 27
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "43bad7bf11b581a9",
+      "date": "2026-08-31",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:garrytan",
+      "builderOrOrg": "Garry Tan",
+      "title": "In the future the agents will just try a bunch of software, post it to their hacked Artifactory…",
+      "url": "https://x.com/garrytan/status/2094225933108748653",
+      "publishedAt": "2026-08-31T00:49:05.000Z",
+      "content": "In the future the agents will just try a bunch of software, post it to their hacked Artifactory moltbook and then that’ll be what the agent swarm uses https://t.co/SO5e1pCsvy",
+      "summary": "In the future the agents will just try a bunch of software, post it to their hacked Artifactory moltbook and then that’ll be what the agent swarm uses https://t.co/SO5e1pCsvy",
+      "regionTags": [],
+      "metrics": {
+        "likes": 146,
+        "retweets": 5,
+        "replies": 30
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "68eb311ebc07b8e8",
+      "date": "2026-08-31",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:steipete",
+      "builderOrOrg": "Peter Steinberger",
+      "title": "Two months ago, we started the mission to “build OpenClaw with OpenClaw,” and bit by bit, we mo…",
+      "url": "https://x.com/steipete/status/2094290652649636173",
+      "publishedAt": "2026-08-31T05:06:16.000Z",
+      "content": "Two months ago, we started the mission to “build OpenClaw with OpenClaw,” and bit by bit, we moved everyone from using their local coding harness to using https://t.co/ZFauM82U4k - our shared agent that knows what everyone’s working on and orchestrates it all. Multiplayer coding + infinite compute with nodes and cloud sessions has been a game changer for how we build. Local harnesses feel like relics of the past now.",
+      "summary": "Two months ago, we started the mission to “build OpenClaw with OpenClaw,” and bit by bit, we moved everyone from using their local coding harness to using https://t.co/ZFauM82U4k - our shared agent that knows what every…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 1134,
+        "retweets": 73,
+        "replies": 84
       },
       "topics": [
         {
@@ -33,29 +107,66 @@
           "score": 1
         },
         {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
+          "slug": "coding",
+          "label": "Coding",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "tools"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
+            "coding"
           ],
           "score": 1
         }
       ],
       "section": "Builders",
       "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.65,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "ca3bc6abd2798415",
+      "date": "2026-08-31",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:danshipper",
+      "builderOrOrg": "Dan Shipper",
+      "title": "is the HuggingFace attack something that should be taken seriously? yes. is it the first warnin…",
+      "url": "https://x.com/danshipper/status/2094073306739576964",
+      "publishedAt": "2026-08-30T14:42:36.000Z",
+      "content": "is the HuggingFace attack something that should be taken seriously? yes. is it the first warning shot of a machine takeover? no. will issues of this type look like a tractable / mostly solved problem with proper precautions in 6 months? yes. will that happen automatically? no. as always, will require work from smart people and their agents.",
+      "summary": "is the HuggingFace attack something that should be taken seriously? yes. is it the first warning shot of a machine takeover? no. will issues of this type look like a tractable / mostly solved problem with proper precaut…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 135,
+        "retweets": 5,
+        "replies": 34
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "huggingface"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
       "whyThisMatters": ""
     },
     {
@@ -240,7 +351,7 @@
       "section": "Podcasts & Newsletters",
       "importanceScore": 0.62,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.51,
       "whyThisMatters": ""
     },
@@ -399,6 +510,61 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "b1e1c8b13376e1eb",
+      "date": "2026-08-31",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "https://t.co/OL0LzGtvAw 0.0.7: - hugely improved MCP support, eval'd with top MCPs like @contex…",
+      "url": "https://x.com/rauchg/status/2093736865191076318",
+      "publishedAt": "2026-08-29T16:25:43.000Z",
+      "content": "https://t.co/OL0LzGtvAw 0.0.7: - hugely improved MCP support, eval'd with top MCPs like @context7ai, @datadoghq, @mongodb, @linear, @notionhq, @supabase, @neondatabase, @stagehanddev, @usekernel… - more minimalist: fewer tools and improved shell execution. One of the trickiest things about CLI agents is that running commands is actually not that simple. e.g: commands might hang or run for very long, their output needs to be monitorable by the agent, they might produce huge amounts of output, or…",
+      "summary": "https://t.co/OL0LzGtvAw 0.0.7: - hugely improved MCP support, eval'd with top MCPs like @context7ai, @datadoghq, @mongodb, @linear, @notionhq, @supabase, @neondatabase, @stagehanddev, @usekernel… - more minimalist: fewe…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 238,
+        "retweets": 15,
+        "replies": 43
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.65,
       "whyThisMatters": ""
     },
     {
@@ -2231,177 +2397,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.61,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "5a99809146782a7d",
-      "date": "2026-08-21",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Stripe buys OpenRouter for $7B",
-      "url": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
-      "publishedAt": "2026-08-17T23:13:41.000Z",
-      "content": "TheInformation had the scoop last month, but OpenRouter&#8217;s acquisition by Stripe for $7B was seems all but closed this weekend, 90 days after their $1.3B Series B . Their last revenue number out there was $140m annualized, so this represents a &#8220;standard&#8221; 50x multiple for a top tier AI company. What&#8217;s incredible is the profitability : Although much smaller than Cursor, OpenRouter likely has better economics. Its costs to serve its model-routing product were recently about $40 million on an annualized basis, or 28.5% of its revenue, meaning it was generating $100 million in annualized gross profit . With a roughly 70% gross profit margin, OpenRouter was near the level of high-performing, publicly traded software firms in that regard&#8230;. &#8230; Overall, OpenRouter is facilitating AI model usage at a rate of 250 trillion tokens per month, up from 50 trillion tokens per month in February. A 70x P/E ratio is possibly cheap for a high growth (5x in 6 months) startup with a broad (8 million developers) base. Certainly a good outcome for new billionaire Alex Atallah , and good for fellow router startups , but certainly there are a lot of implications on Stripe&#8217;s AI strategy and where value accrues in AI infra (much less GPU infra , much less Agent Labs , much less Frontier Model Labs ). You can catch Alex&#8217;s last public appearance on the AIE State of Model Routing panel. AI News for 8/15/2026-8/17/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap AI Infrastructure, Compute, and the Platform Stack OpenAI&#8217;s power-and-compute strategy is getting very literal : Two related posts suggest OpenAI is moving beyond &#8220;GPU supply&#8221; narratives into long-horizon control of the full infrastructure stack. @markchen90 described a 4+ GW NVIDIA capaci…",
-      "summary": "No GPUs, no Agents, just really, really, really good infra and distribution.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "developer"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "reasoning",
-          "label": "AI Thinking",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "long-horizon"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "fc0643e96d6daba2",
-      "date": "2026-08-20",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:petergyang",
-      "builderOrOrg": "Peter Yang",
-      "title": "I should build an app (or an agent?) where you get and maintain a streak for how many days you…",
-      "url": "https://x.com/petergyang/status/2089931839016468575",
-      "publishedAt": "2026-08-19T04:25:54.000Z",
-      "content": "I should build an app (or an agent?) where you get and maintain a streak for how many days you avoid bringing the phone to the bedroom. Have been leaving it downstairs for 3 days now and it has noticeably improved my sleep. It's the hardest thing to stay disciplined about. Always an excuse just waiting (\"let me see what my agents are up to in bed!)\"",
-      "summary": "I should build an app (or an agent?) where you get and maintain a streak for how many days you avoid bringing the phone to the bedroom. Have been leaving it downstairs for 3 days now and it has noticeably improved my sl…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 20,
-        "retweets": 0,
-        "replies": 13
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.76,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.6,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "e808458ee2870e87",
-      "date": "2026-08-20",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:petergyang",
-      "builderOrOrg": "Peter Yang",
-      "title": "3. AI has landed on top of existing work rather than replacing it 😭 Teams now spent more time…",
-      "url": "https://x.com/petergyang/status/2089877083510235328",
-      "publishedAt": "2026-08-19T00:48:19.000Z",
-      "content": "3. AI has landed on top of existing work rather than replacing it 😭 Teams now spent more time chatting with AI and delegating to agents but didn't spend any less time on existing work. I think this is because expectations for what any function can accomplish are simply much higher now.",
-      "summary": "3. AI has landed on top of existing work rather than replacing it 😭 Teams now spent more time chatting with AI and delegating to agents but didn't spend any less time on existing work. I think this is because expectati…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 3,
-        "retweets": 0,
-        "replies": 0
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "029b414e308ae5ca",
-      "date": "2026-08-20",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:trq212",
-      "builderOrOrg": "Thariq",
-      "title": "weird that there's a \"make a lot of money\" button and nobody's pressing it (take your SaaS, mak…",
-      "url": "https://x.com/trq212/status/2089844723691479333",
-      "publishedAt": "2026-08-18T22:39:44.000Z",
-      "content": "weird that there's a \"make a lot of money\" button and nobody's pressing it (take your SaaS, make it headless, let agents use it, charge per interaction esp for enterprises)",
-      "summary": "weird that there's a \"make a lot of money\" button and nobody's pressing it (take your SaaS, make it headless, let agents use it, charge per interaction esp for enterprises)",
-      "regionTags": [],
-      "metrics": {
-        "likes": 4002,
-        "retweets": 128,
-        "replies": 204
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.92,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.7,
       "whyThisMatters": ""
     }
   ]

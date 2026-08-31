@@ -1,8 +1,91 @@
 {
-  "generatedAt": "2026-08-31T05:50:55.696Z",
+  "generatedAt": "2026-08-31T07:06:32.880Z",
   "slug": "safety",
   "label": "AI Safety",
   "items": [
+    {
+      "id": "74ea8ae622291e9e",
+      "date": "2026-08-31",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:amasad",
+      "builderOrOrg": "Amjad Masad",
+      "title": "The lesson from the Hugging Face Incident should be that RL with verifiable rewards is an incre…",
+      "url": "https://x.com/amasad/status/2094215744842248418",
+      "publishedAt": "2026-08-31T00:08:36.000Z",
+      "content": "The lesson from the Hugging Face Incident should be that RL with verifiable rewards is an incredibly powerful optimization algorithm that will produce increasingly weird and surprising behavior from LLMs. The obvious miss here by OpenAI is that they should’ve been monitoring CoTs — Something they themselves called out as a safety strategy more than a year ago.",
+      "summary": "The lesson from the Hugging Face Incident should be that RL with verifiable rewards is an incredibly powerful optimization algorithm that will produce increasingly weird and surprising behavior from LLMs. The obvious mi…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 602,
+        "retweets": 29,
+        "replies": 54
+      },
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "eab2feba85a43f2b",
+      "date": "2026-08-31",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:garrytan",
+      "builderOrOrg": "Garry Tan",
+      "title": "California high speed rail is pretty obviously hijacked by public sector unions bilking the hap…",
+      "url": "https://x.com/garrytan/status/2094056908462358592",
+      "publishedAt": "2026-08-30T13:37:27.000Z",
+      "content": "California high speed rail is pretty obviously hijacked by public sector unions bilking the hapless state and NIMBY landowners abusing CEQA These are policy disasters and can be fixed with better policies but so far California has failed to fix it So it’s a mass trash fire https://t.co/nJPvseIpke",
+      "summary": "California high speed rail is pretty obviously hijacked by public sector unions bilking the hapless state and NIMBY landowners abusing CEQA These are policy disasters and can be fixed with better policies but so far Cal…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 749,
+        "retweets": 45,
+        "replies": 69
+      },
+      "topics": [
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "policy"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
     {
       "id": "f7357c53462417d6",
       "date": "2026-08-31",
@@ -2188,87 +2271,6 @@
         }
       ],
       "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "9604dfc9231b9366",
-      "date": "2026-07-20",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Introducing Claude for Teachers \\ Anthropic",
-      "url": "https://www.anthropic.com/news/claude-for-teachers",
-      "publishedAt": null,
-      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "0efed56ad22f0eef",
-      "date": "2026-07-19",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:swyx",
-      "builderOrOrg": "Swyx",
-      "title": "alpha only gone when we all stop asking these level of questions and start discussion about on-…",
-      "url": "https://x.com/swyx/status/2078293998398263587",
-      "publishedAt": "2026-07-18T01:41:16.000Z",
-      "content": "alpha only gone when we all stop asking these level of questions and start discussion about on-policy autoaeo (does claude optimizing your aeo disproportionately work on claude?) vs generalizable aeo https://t.co/GrymTTqz6O",
-      "summary": "alpha only gone when we all stop asking these level of questions and start discussion about on-policy autoaeo (does claude optimizing your aeo disproportionately work on claude?) vs generalizable aeo https://t.co/GrymTT…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 10,
-        "retweets": 1,
-        "replies": 3
-      },
-      "topics": [
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "policy"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
       "importanceScore": 0.58,
       "noveltyScore": 0.3,
       "previouslySelected": false,
