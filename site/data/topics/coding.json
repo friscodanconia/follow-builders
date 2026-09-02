@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T00:30:54.705Z",
+  "generatedAt": "2026-09-02T04:49:20.900Z",
   "slug": "coding",
   "label": "Coding",
   "items": [
@@ -35,9 +35,9 @@
       ],
       "section": "Builders",
       "importanceScore": 0.7,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.8,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
@@ -72,9 +72,9 @@
       ],
       "section": "Builders",
       "importanceScore": 0.7,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.8,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
@@ -118,9 +118,9 @@
       ],
       "section": "Builders",
       "importanceScore": 0.7,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.8,
+      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
@@ -171,24 +171,24 @@
       ],
       "section": "Official Sources",
       "importanceScore": 0.8,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.87,
+      "digestScore": 0.63,
       "whyThisMatters": ""
     },
     {
-      "id": "f1d59a2dff6e6ed2",
+      "id": "303dec1c14573e00",
       "date": "2026-09-02",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
       "sourceKey": "official:OpenAI News",
       "builderOrOrg": "OpenAI",
-      "title": "Polimill builds Japan's next-generation public AI infrastructure",
-      "url": "https://openai.com/index/polimill",
-      "publishedAt": "2026-08-31T07:00:00.000Z",
-      "content": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
-      "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
+      "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+      "url": "https://openai.com/index/gilbert-tobin",
+      "publishedAt": "2026-09-01T01:00:00.000Z",
+      "content": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
+      "summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
       "regionTags": [
         "us-model-labs"
       ],
@@ -202,13 +202,31 @@
             "code"
           ],
           "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "governance"
+          ],
+          "score": 1
         }
       ],
       "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
+      "importanceScore": 0.66,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.48,
+      "digestScore": 0.78,
       "whyThisMatters": ""
     },
     {
@@ -449,6 +467,41 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "f1d59a2dff6e6ed2",
+      "date": "2026-09-02",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Polimill builds Japan's next-generation public AI infrastructure",
+      "url": "https://openai.com/index/polimill",
+      "publishedAt": "2026-08-31T07:00:00.000Z",
+      "content": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
+      "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
       "whyThisMatters": ""
     },
     {
@@ -2154,43 +2207,6 @@
       "noveltyScore": 1,
       "previouslySelected": false,
       "digestScore": 0.71,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "391d7bd64e9436b4",
-      "date": "2026-08-26",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:thsottiaux",
-      "builderOrOrg": "Thibault Sottiaux",
-      "title": "Tomorrow we will bring back the 5h limit for Plus accounts across ChatGPT Work and Codex. I had…",
-      "url": "https://x.com/thsottiaux/status/2092058556707344708",
-      "publishedAt": "2026-08-25T01:16:43.000Z",
-      "content": "Tomorrow we will bring back the 5h limit for Plus accounts across ChatGPT Work and Codex. I had mentioned this a while ago, but then postponed it. This is necessary as (a) the 5h limit allows us to smoothen the load on our compute, allowing to keep the plan generous in terms of weekly usage and (b) users on the Plus plan are relatively casual and new users, but then also just accidentally eat through their whole weeks usage and then are confused, making it not a great experience. We are for the…",
-      "summary": "Tomorrow we will bring back the 5h limit for Plus accounts across ChatGPT Work and Codex. I had mentioned this a while ago, but then postponed it. This is necessary as (a) the 5h limit allows us to smoothen the load on…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 9223,
-        "retweets": 527,
-        "replies": 2664
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]
