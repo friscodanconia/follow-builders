@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T00:31:06.352Z",
+  "generatedAt": "2026-09-03T04:47:51.159Z",
   "slug": "research",
   "label": "Research",
   "items": [
@@ -53,9 +53,9 @@
       ],
       "section": "Builders",
       "importanceScore": 0.78,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.86,
+      "digestScore": 0.61,
       "whyThisMatters": ""
     },
     {
@@ -108,9 +108,9 @@
       ],
       "section": "Builders",
       "importanceScore": 0.92,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.95,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.7,
       "whyThisMatters": ""
     },
     {
@@ -342,6 +342,57 @@
       "whyThisMatters": ""
     },
     {
+      "id": "f675fbf3b41b20ee",
+      "date": "2026-09-03",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Cyber Apocalypse, Now?",
+      "url": "https://www.chinatalk.media/p/cyber-apocalypse-now",
+      "publishedAt": "2026-09-02T09:56:33.000Z",
+      "content": "OpenAI models mid-training broke out of their sandbox, hacked internal infrastructure, and eventually compromised Hugging Face &#8212; the first headline-grade AI breakout, and one that safety researchers saw coming. Is the cyber apocalypse finally on the calendar, or does the industry just need to do its homework? spent his formative years as a DARPA and NSA contractor before four years at Meta, where he founded the company&#8217;s frontier cyber capabilities evals team and finished as its AI security tech lead. He recently left to co-found Abundant Security . We discuss&#8230; What actually happened in the Hugging Face hack , and why AI safety insiders weren&#8217;t surprised, The &#8220;grad student lab&#8221; security culture inside frontier labs racing sixty hours a week to ship, Why you should apply to run a new org with eight figures to play with to follow trends in AI + cyber risk ( apply here! ) Why the cyber Pearl Harbor predicted since the early 2000s never arrived &#8212; and whether swarms of hacking agents finally change that, How nation states will post-train open-weight models like GLM and Kimi into billion-dollar cyber weapons, Why AI has so far favored defenders , from mass bug-squashing to superhuman network monitoring, The industrial economics of cybercrime &#8212; kill chains, ransomware divisions of labor, and whether AI gives criminals 100x returns. Listen now on your favorite podcast app . What Happened at Hugging Face Jordan Schneider: What was the Hugging Face hack? Joshua Saxe: OpenAI was training a new model capable of solving long-horizon tasks &#8212; tasks that take many hours to complete. The way that kind of training works is you train thousands of copies of a model in parallel. You have them all go out and try to solve a set of tasks, you see which ones succeeded and which failed, and then you update the model&#8217;s parameters so it does more of the good behaviors that led it to solve the task and less of the bad ones. You keep d…",
+      "summary": "The Hugging Face hack, crime, and nation states with AI cyber",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.62,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.51,
+      "whyThisMatters": ""
+    },
+    {
       "id": "878fdd91224b3e84",
       "date": "2026-09-03",
       "sourceType": "newsletter",
@@ -390,57 +441,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "f675fbf3b41b20ee",
-      "date": "2026-09-03",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Cyber Apocalypse, Now?",
-      "url": "https://www.chinatalk.media/p/cyber-apocalypse-now",
-      "publishedAt": "2026-09-02T09:56:33.000Z",
-      "content": "OpenAI models mid-training broke out of their sandbox, hacked internal infrastructure, and eventually compromised Hugging Face &#8212; the first headline-grade AI breakout, and one that safety researchers saw coming. Is the cyber apocalypse finally on the calendar, or does the industry just need to do its homework? spent his formative years as a DARPA and NSA contractor before four years at Meta, where he founded the company&#8217;s frontier cyber capabilities evals team and finished as its AI security tech lead. He recently left to co-found Abundant Security . We discuss&#8230; What actually happened in the Hugging Face hack , and why AI safety insiders weren&#8217;t surprised, The &#8220;grad student lab&#8221; security culture inside frontier labs racing sixty hours a week to ship, Why you should apply to run a new org with eight figures to play with to follow trends in AI + cyber risk ( apply here! ) Why the cyber Pearl Harbor predicted since the early 2000s never arrived &#8212; and whether swarms of hacking agents finally change that, How nation states will post-train open-weight models like GLM and Kimi into billion-dollar cyber weapons, Why AI has so far favored defenders , from mass bug-squashing to superhuman network monitoring, The industrial economics of cybercrime &#8212; kill chains, ransomware divisions of labor, and whether AI gives criminals 100x returns. Listen now on your favorite podcast app . What Happened at Hugging Face Jordan Schneider: What was the Hugging Face hack? Joshua Saxe: OpenAI was training a new model capable of solving long-horizon tasks &#8212; tasks that take many hours to complete. The way that kind of training works is you train thousands of copies of a model in parallel. You have them all go out and try to solve a set of tasks, you see which ones succeeded and which failed, and then you update the model&#8217;s parameters so it does more of the good behaviors that led it to solve the task and less of the bad ones. You keep d…",
-      "summary": "The Hugging Face hack, crime, and nation states with AI cyber",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.62,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.75,
       "whyThisMatters": ""
     },
     {

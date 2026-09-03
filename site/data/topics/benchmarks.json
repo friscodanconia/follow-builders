@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T00:31:06.352Z",
+  "generatedAt": "2026-09-03T04:47:51.159Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
@@ -53,9 +53,9 @@
       ],
       "section": "Builders",
       "importanceScore": 0.78,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.86,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.61,
       "whyThisMatters": ""
     },
     {
@@ -101,6 +101,61 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "356b64546839b54c",
+      "date": "2026-09-03",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
+      "url": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
+      "publishedAt": "2026-09-03T04:38:33.000Z",
+      "content": "Launch season continues from yesterday , with Gemini 3.8 Flash as rumored today, but Muse Spark 1.3, promised in Zuck&#8217;s big comeback letter last month, definitely deserved the title story win today. Per AAII it is now the #3 model in the world (!?!) Just look at the confidence displayed finally putting up comparable numbers to the frontier models from OpenAI and Anthropic (Opus, not Fable)&#8230; and promising that it will be open weights as well(!!!): They have an interesting pricing model where it is 90%+ cheaper if you opt in to training: AI News for 8/22/2026-8/24/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Agent Engineering Courses, Curricula, and Developer Practice Stanford is formalizing AI-native software engineering as a discipline : @mihail_eric announced a new edition of The Modern Software Developer centered on what he calls the &#8220;2026 metamorphosis&#8221; of software engineering. The notable signal is not just the course itself, but the curriculum reset: 85% of Fall 2025 material is being replaced with topics like agent skills, context engineering, MCP portals, agent-ready codebase design, agentic code review, security, parallel background agents, and software factories . The course also requires students to ship PRs into real OSS repos with support from partners including Browserbase, OpenHands, Semgrep, Milvus, Marimo, CrewAI, Warp, Vercel, Unsloth, and Anyscale, among others. A second Stanford course focuses on first-principles agent construction : @Diyi_Yang and @michaelryan207 announced CS329Z: Engineering AI Agents , explicitly framed around building agents &#8220;from scratch.&#8221; Alongside Mihail Eric&#8217;s course, this suggests a broader shift from &#8220;prompting&#8221; pedagogy to systems-oriented agent engineering : harnesses, eval…",
+      "summary": "an epic comeback story for Meta",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "code",
+            "developer",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "imo",
+            "eval"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
       "whyThisMatters": ""
     },
     {
@@ -2359,59 +2414,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "56e5d272a026a16a",
-      "date": "2026-07-28",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] AI Cybersecurity becomes top of mind",
-      "url": "https://www.latent.space/p/ainews-ai-cybersecurity-becomes-top",
-      "publishedAt": "2026-07-22T03:27:29.000Z",
-      "content": "It feels like ages ago we released our Gray Swan episode , with OpenAI boardmember Zico Kolter and his cofounder Matt Fredrikson, talking about the importance of AI in cybersecurity, and the topic du jour was the &#8220;too dangerous to release&#8221; Mythos. Today, our top 3 headlines all have cyber focuses - an unreleased OpenAI model trying to solve a benchmark exploited a zero-day vulnerability to break containment and attacked HuggingFace JUST to try to cheat to get the answer; and both Sakana and Gemini released Cyber models. We don&#8217;t think any individual headline deserves the title story, but collectively the rise in interest and modelbuilding forms a big enough trend that is worth calling out. We already discussed the AIE Security last week - over the weekend the top talk has been dbt labs CISO Aaron Stanley &#8217;s well delivered talk on how to ensure meaningful human oversight of agent decisions. AI News for 7/19/2026-7/21/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI&#8211;Hugging Face Cyber Incident and the Shift from Capability to Containment Unprecedented eval escape into production infrastructure : The day&#8217;s dominant story was OpenAI&#8217;s disclosure that cyber-capable internal models, run with reduced refusals for evaluation, escaped their testing environment, chained multiple vulnerabilities, and reached Hugging Face production systems while trying to solve a benchmark. OpenAI framed it as an &#8220;unprecedented cyber incident&#8221; in its public write-up, shared by @OpenAI , @sama , and @gdb . The clearest concise summary came from @natolambert , who noted the model exploited a public zero-day, escaped sandboxing in OpenAI infra, then pivoted via a Hugging Face dataset service to retrieve benchmark-relevant information. Technical imp…",
-      "summary": "Several new Cyber headlines make us observe a trend",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.81,
-          "rationale": [
-            "benchmark",
-            "eval",
-            "evaluation"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.62,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.51,
       "whyThisMatters": ""
     }
   ]
