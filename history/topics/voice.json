@@ -1,46 +1,62 @@
 {
-  "generatedAt": "2026-09-02T05:58:53.733Z",
+  "generatedAt": "2026-09-03T00:31:06.352Z",
   "slug": "voice",
   "label": "Voice",
   "items": [
     {
-      "id": "a0ad859753e3debf",
-      "date": "2026-09-02",
+      "id": "e70a4bc7311be950",
+      "date": "2026-09-03",
       "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google DeepMind Blog",
-      "sourceKey": "official:Google DeepMind Blog",
-      "builderOrOrg": "Google DeepMind",
-      "title": "Intelligent transcription with Gemini 3.5 Transcribe",
-      "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
-      "publishedAt": "2026-08-26T17:01:00.000Z",
-      "content": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
-      "summary": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
-      "regionTags": [
-        "us-model-labs"
-      ],
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
+      "url": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
+      "publishedAt": "2026-09-02T07:46:08.000Z",
+      "content": "With Astra clearly finally warming up for a full launch (with @sama and @openai writing about it again after a month of self imposed pacing ), there&#8217;s a familiar window to take the narrative with the round robin of model launches, with Grok 4.7 and Gemini Flash 3.8 also on the way. But that&#8217;s also perhaps not the best way to frame today&#8217;s launch&#8230; which got well over 12M views updating the sitting world best model yet again: The benchmark table speaks for itself: While per-token pricing is the same as Fable/Mythos 5, the cache reads had a 75% price cut &#8230; great news for long sessions/long context users, however offset by observed 1.7x output token usage increases per Artificial Analysis, for a total net per-task cost increase of 20% (see recap below). Also don&#8217;t World Labs&#8217; Astra launch , by far the most impressive world model launch we&#8217;ve ever seen, and on a regular day would have easily gotten title story cards. You can catch up on Fei Fei and Justin Johnson&#8217;s vision on our pod and trace from Marble to Astra and what we were talking about with the true potential of world models: AI News for 8/31/2026-9/1/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Top Story: Fable 5.1 and Mythos 5.1 release and reactions What happened Anthropic launched Claude Fable 5.1 and Claude Mythos 5.1 as its new flagship models for coding and knowledge work. Anthropic announced the release directly, positioning them as &#8220;the world&#8217;s most advanced models for coding and knowledge work&#8221; via @claudeai Anthropic product/engineering voices framed Fable 5.1 specifically around autonomous, multi-step work: &#8220;complex, multi-step work that runs on its own,&#8221; with emphasis on coding, knowledge work, and long-running problem solvin…",
+      "summary": "Queue the usual rush of model launches...",
+      "regionTags": [],
       "metrics": {},
       "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "autonomous"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        },
         {
           "slug": "voice",
           "label": "Voice",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "speech"
+            "voice"
           ],
           "score": 1
         }
       ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.48,
+      "digestScore": 0.7,
       "whyThisMatters": ""
     },
     {
       "id": "59dc49d868ea1535",
-      "date": "2026-09-02",
+      "date": "2026-09-03",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "ChinaTalk",
@@ -87,6 +103,41 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "a0ad859753e3debf",
+      "date": "2026-09-02",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google DeepMind Blog",
+      "sourceKey": "official:Google DeepMind Blog",
+      "builderOrOrg": "Google DeepMind",
+      "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+      "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+      "publishedAt": "2026-08-26T17:01:00.000Z",
+      "content": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
+      "summary": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "speech"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
       "whyThisMatters": ""
     },
     {
@@ -2182,50 +2233,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.49,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "176d788b2197d036",
-      "date": "2026-06-10",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "What Codex unlocks for Notion",
-      "url": "https://openai.com/index/notion",
-      "publishedAt": "2026-06-09T10:00:00.000Z",
-      "content": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
-      "summary": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "voice",
-          "label": "Voice",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "voice"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     }
   ]

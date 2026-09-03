@@ -1,8 +1,222 @@
 {
-  "generatedAt": "2026-09-02T05:58:53.733Z",
+  "generatedAt": "2026-09-03T00:31:06.352Z",
   "slug": "open-source",
   "label": "Open Source",
   "items": [
+    {
+      "id": "340bc4711ba88ab9",
+      "date": "2026-09-03",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "Excited to partner with and support @tannerlinsley and team, champion of React, open source, an…",
+      "url": "https://x.com/rauchg/status/2094901483414372716",
+      "publishedAt": "2026-09-01T21:33:29.000Z",
+      "content": "Excited to partner with and support @tannerlinsley and team, champion of React, open source, and the web What this means for our customers: whether you choose @nextjs or @tan_stack, we are committed to the highest quality service and support. https://t.co/9lnHQIqHxZ",
+      "summary": "Excited to partner with and support @tannerlinsley and team, champion of React, open source, and the web What this means for our customers: whether you choose @nextjs or @tan_stack, we are committed to the highest quali…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 595,
+        "retweets": 17,
+        "replies": 32
+      },
+      "topics": [
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open source"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "a4de76cf7f41332a",
+      "date": "2026-09-03",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "AI for cyber is about to go vertical. The models increasingly becoming insanely good at finding…",
+      "url": "https://x.com/levie/status/2095024699441119612",
+      "publishedAt": "2026-09-02T05:43:06.000Z",
+      "content": "AI for cyber is about to go vertical. The models increasingly becoming insanely good at finding and exploiting vulnerabilities. Frontier models are ahead, but we’re already seeing that open weights is not far behind. Most enterprises are already inundated with cyber discoveries, so now that’s only going to multiply. Triaging and automating the fixes with more AI -along with human oversight- is essentially the only way forward. In case you were wondering what jobs AI was going to create, it’s de…",
+      "summary": "AI for cyber is about to go vertical. The models increasingly becoming insanely good at finding and exploiting vulnerabilities. Frontier models are ahead, but we’re already seeing that open weights is not far behind. Mo…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 47,
+        "retweets": 5,
+        "replies": 14
+      },
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "weights"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "finding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.78,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.86,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "976a5e99348498ad",
+      "date": "2026-09-03",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+      "url": "https://www.latent.space/p/pr-not-welcome",
+      "publishedAt": "2026-09-01T16:17:15.000Z",
+      "content": "GitHub invented pull requests, and for 18 years they have been open by default. But now some of the top AI-native open source projects are shutting PRs off , because they&#8217;ve found a better way. These projects, which include Flue and tldraw, refuse to accept PRs from external contributors &#8212; in part because they&#8217;re usually AI-generated. Instead, the maintainers prefer to use their own agents to create and manage PRs. Also, many projects have begun using a &#8220; software factory &#8221; to manage community contributions. Typically this involves a &#8216;team&#8217; of agents triaging a PR, reproducing the issue (if it&#8217;s a bug), implementing a fix or a new feature, reviewing it, and then handing it back to a human to merge it. Vercel&#8217;s software factory for AI SDK Vercel recently published a post entitled &#8220; Building a software factory for AI SDK .&#8221; It describes how the open source AI SDK project, which gets over 20 million npm downloads per week, deployed agents to get control over its PR and issue backlog &#8212; which had reached &#8220;over 1,000 open issues and almost 800 pull requests&#8221; by late June. There are several types of agents in Vercel&#8217;s system, each of which focuses on a different task . For example, there&#8217;s an agent that reproduces a bug, another that applies a fix, and yet another that reviews the fix. Diagram from Vercel; comments by Latent Space One of the key reasons why Vercel set up this software factory is because it trusts its own agents to do the work , more so than agents run by community members. &#8220;If we have a very specific agent with a very specific prompt that we optimized &#8212; and we know that, over history, it was very successful in fixing a certain category of bugs &#8212; then we develop trust in that particular agent configuration,&#8221; Vercel engineer Lars Grammel explained in a YouTube video . &#8220;For open-source projects, it&#8217;s worth considering having you…",
+      "summary": "Vercel&#8217;s AI SDK, Astro, Flue and tldraw are replacing drive-by community PRs with software factories, where teams of agents apply fixes and features.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.81,
+          "rationale": [
+            "open-source",
+            "open source",
+            "github"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "video"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "878fdd91224b3e84",
+      "date": "2026-09-03",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] OpenAI to reach AGI bar by end-2026",
+      "url": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
+      "publishedAt": "2026-08-28T07:12:10.000Z",
+      "content": "Normally we eschew AGI timeline talk on Latent Space, because it is so ill defined and unaccountable, but, well, missing it would probably be the worse sin at this point. We last checked in on OpenAI AGI timelines 9 months ago , and, right on target, Chief Scientist Jakub Pachocki is now saying the unreleased Astra model is the &#8220; Automated AI Research Intern &#8221; he had aimed for by September 2026. Sama goes further in their TIME interview and estimates they&#8217;ll declare AGI achieved internally by December 2026. Start the clock. AI News for 8/22/2026-8/24/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Open-Source Robotics Breakout: Hugging Face and Pollen&#8217;s $399 Microduck Microduck launch : The standout hardware release was Microduck , a 25 cm open-source biped from Pollen Robotics and Hugging Face priced at $399 and slated to ship before Christmas . It can be trained in simulation and deployed on the real robot , with 15 actuators and a notably rich sensor stack including camera, speaker, LiDAR, NFC, Bluetooth, and Wi&#8209;Fi . Launch posts from @pollenrobotics , @Thom_Wolf , and @ClementDelangue emphasize reinforcement-learning-based customization plus several pre-trained policies out of the box. Why it matters technically : The interesting part isn&#8217;t just &#8220;cheap cute robot,&#8221; but the package design: an open simulator , transfer from sim to hardware, and a form factor cheap enough to invite community policy training rather than just demo consumption. The simulator is already public via a Hugging Face Space, highlighted by @HuggingApps , and this open-loop from community training to real deployment is what got multiple researchers immediately buying units, e.g. @yacineMTB and @gneubig . Early traction and community experimentation : The r…",
+      "summary": "It&#8217;s Time. We&#8217;re in the Endgame now.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "deployment"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open-source"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
     {
       "id": "c9a834156f03a869",
       "date": "2026-09-02",
@@ -102,110 +316,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "976a5e99348498ad",
-      "date": "2026-09-02",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
-      "url": "https://www.latent.space/p/pr-not-welcome",
-      "publishedAt": "2026-09-01T16:17:15.000Z",
-      "content": "GitHub invented pull requests, and for 18 years they have been open by default. But now some of the top AI-native open source projects are shutting PRs off , because they&#8217;ve found a better way. These projects, which include Flue and tldraw, refuse to accept PRs from external contributors &#8212; in part because they&#8217;re usually AI-generated. Instead, the maintainers prefer to use their own agents to create and manage PRs. Also, many projects have begun using a &#8220; software factory &#8221; to manage community contributions. Typically this involves a &#8216;team&#8217; of agents triaging a PR, reproducing the issue (if it&#8217;s a bug), implementing a fix or a new feature, reviewing it, and then handing it back to a human to merge it. Vercel&#8217;s software factory for AI SDK Vercel recently published a post entitled &#8220; Building a software factory for AI SDK .&#8221; It describes how the open source AI SDK project, which gets over 20 million npm downloads per week, deployed agents to get control over its PR and issue backlog &#8212; which had reached &#8220;over 1,000 open issues and almost 800 pull requests&#8221; by late June. There are several types of agents in Vercel&#8217;s system, each of which focuses on a different task . For example, there&#8217;s an agent that reproduces a bug, another that applies a fix, and yet another that reviews the fix. Diagram from Vercel; comments by Latent Space One of the key reasons why Vercel set up this software factory is because it trusts its own agents to do the work , more so than agents run by community members. &#8220;If we have a very specific agent with a very specific prompt that we optimized &#8212; and we know that, over history, it was very successful in fixing a certain category of bugs &#8212; then we develop trust in that particular agent configuration,&#8221; Vercel engineer Lars Grammel explained in a YouTube video . &#8220;For open-source projects, it&#8217;s worth considering having you…",
-      "summary": "Vercel&#8217;s AI SDK, Astro, Flue and tldraw are replacing drive-by community PRs with software factories, where teams of agents apply fixes and features.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.81,
-          "rationale": [
-            "open-source",
-            "open source",
-            "github"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "video"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "878fdd91224b3e84",
-      "date": "2026-09-02",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] OpenAI to reach AGI bar by end-2026",
-      "url": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
-      "publishedAt": "2026-08-28T07:12:10.000Z",
-      "content": "Normally we eschew AGI timeline talk on Latent Space, because it is so ill defined and unaccountable, but, well, missing it would probably be the worse sin at this point. We last checked in on OpenAI AGI timelines 9 months ago , and, right on target, Chief Scientist Jakub Pachocki is now saying the unreleased Astra model is the &#8220; Automated AI Research Intern &#8221; he had aimed for by September 2026. Sama goes further in their TIME interview and estimates they&#8217;ll declare AGI achieved internally by December 2026. Start the clock. AI News for 8/22/2026-8/24/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Open-Source Robotics Breakout: Hugging Face and Pollen&#8217;s $399 Microduck Microduck launch : The standout hardware release was Microduck , a 25 cm open-source biped from Pollen Robotics and Hugging Face priced at $399 and slated to ship before Christmas . It can be trained in simulation and deployed on the real robot , with 15 actuators and a notably rich sensor stack including camera, speaker, LiDAR, NFC, Bluetooth, and Wi&#8209;Fi . Launch posts from @pollenrobotics , @Thom_Wolf , and @ClementDelangue emphasize reinforcement-learning-based customization plus several pre-trained policies out of the box. Why it matters technically : The interesting part isn&#8217;t just &#8220;cheap cute robot,&#8221; but the package design: an open simulator , transfer from sim to hardware, and a form factor cheap enough to invite community policy training rather than just demo consumption. The simulator is already public via a Hugging Face Space, highlighted by @HuggingApps , and this open-loop from community training to real deployment is what got multiple researchers immediately buying units, e.g. @yacineMTB and @gneubig . Early traction and community experimentation : The r…",
-      "summary": "It&#8217;s Time. We&#8217;re in the Endgame now.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "deployment"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open-source"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
       "whyThisMatters": ""
     },
     {
@@ -2332,98 +2442,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "ad5eba26f9a9e4c9",
-      "date": "2026-08-02",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:garrytan",
-      "builderOrOrg": "Garry Tan",
-      "title": "Your personal AI or your company brain needs a clean harness and this is the one our team built…",
-      "url": "https://x.com/garrytan/status/2083353760701833546",
-      "publishedAt": "2026-08-01T00:46:58.000Z",
-      "content": "Your personal AI or your company brain needs a clean harness and this is the one our team built and uses every day Free and open source https://t.co/OgptxBMpI0",
-      "summary": "Your personal AI or your company brain needs a clean harness and this is the one our team built and uses every day Free and open source https://t.co/OgptxBMpI0",
-      "regionTags": [],
-      "metrics": {
-        "likes": 910,
-        "retweets": 50,
-        "replies": 47
-      },
-      "topics": [
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open source"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "1f78149a1eee0b51",
-      "date": "2026-07-29",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:swyx",
-      "builderOrOrg": "Swyx",
-      "title": "as the progenitor of the agent lab thesis which got the evals/routing/interactivity/ROI focus r…",
-      "url": "https://x.com/swyx/status/2081890955070980416",
-      "publishedAt": "2026-07-27T23:54:18.000Z",
-      "content": "as the progenitor of the agent lab thesis which got the evals/routing/interactivity/ROI focus right i gotta say the biggest argument against myself is that Claude Code got accidentally \"open sourced\" this year and approximately ~nothing happened to either it or its competitors' roadmaps",
-      "summary": "as the progenitor of the agent lab thesis which got the evals/routing/interactivity/ROI focus right i gotta say the biggest argument against myself is that Claude Code got accidentally \"open sourced\" this year and appro…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 55,
-        "retweets": 3,
-        "replies": 17
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open source"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.65,
       "whyThisMatters": ""
     }
   ]

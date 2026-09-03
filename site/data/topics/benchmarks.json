@@ -1,11 +1,66 @@
 {
-  "generatedAt": "2026-09-02T05:58:53.733Z",
+  "generatedAt": "2026-09-03T00:31:06.352Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
     {
+      "id": "a75b33d7dd2b2ba2",
+      "date": "2026-09-03",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:realmadhuguru",
+      "builderOrOrg": "Madhu Guru",
+      "title": "Great example of the immense opportunity enterprises have if they build their own post training…",
+      "url": "https://x.com/realmadhuguru/status/2094973690576576675",
+      "publishedAt": "2026-09-02T02:20:25.000Z",
+      "content": "Great example of the immense opportunity enterprises have if they build their own post training systems, great evals and a data flywheel. I’ve worked with the Shopify ML team and they are world class. More enterprises should be doing this. https://t.co/IzlWkndA6u",
+      "summary": "Great example of the immense opportunity enterprises have if they build their own post training systems, great evals and a data flywheel. I’ve worked with the Shopify ML team and they are world class. More enterprises s…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 53,
+        "retweets": 1,
+        "replies": 0
+      },
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.78,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.86,
+      "whyThisMatters": ""
+    },
+    {
       "id": "6a2a729539ae8f9d",
-      "date": "2026-09-02",
+      "date": "2026-09-03",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Google DeepMind Blog",
@@ -2357,62 +2412,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.51,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "b14a46e08a9f4416",
-      "date": "2026-07-26",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:bcherny",
-      "builderOrOrg": "Boris Cherny",
-      "title": "Opus 5 is a great model for coding, data analysis, design, biology, knowledge work. More than a…",
-      "url": "https://x.com/bcherny/status/2080713091688583312",
-      "publishedAt": "2026-07-24T17:53:53.000Z",
-      "content": "Opus 5 is a great model for coding, data analysis, design, biology, knowledge work. More than any of these eval scores, what is most exciting to me is something else: Opus 5 is our least prompt injectable model yet. It is a bit buried in the system card, but across PI evals and red teaming, Opus 5 is very hard to prompt inject successfully. And when layering defenses -- strong model alignment, combined with prompt injection probes, combined with Auto Mode in Claude Code -- the success rate for…",
-      "summary": "Opus 5 is a great model for coding, data analysis, design, biology, knowledge work. More than any of these eval scores, what is most exciting to me is something else: Opus 5 is our least prompt injectable model yet. It…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 5042,
-        "retweets": 383,
-        "replies": 269
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "eval"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "alignment"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]
