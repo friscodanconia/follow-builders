@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T04:53:20.083Z",
+  "generatedAt": "2026-09-04T06:10:59.593Z",
   "slug": "fine-tuning",
   "label": "Custom AI",
   "items": [
@@ -36,7 +36,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -197,58 +197,6 @@
       "whyThisMatters": ""
     },
     {
-      "id": "24f7c622818bcadf",
-      "date": "2026-09-04",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
-      "url": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
-      "publishedAt": "2026-09-01T04:36:54.000Z",
-      "content": "For the entirety of the history of Generative Media , you basically had to design around the inconvenient fact that generating images and video takes time &#8212; even if you used consistency models to get a 30 second generation down to 1 second, you still only have a 1 FPS video at best&#8230; well below anything acceptable for consumer-grade human attention. Fal took Minimax&#8217;s H3 release from last month and first posttrained it for both cost and quality improvement , then optimized it for their in-house inference engine for 35x speed of the official endpoint&#8230; resulting in crossing the infinite video singularity: This was first noticed by Ethan Mollick: Then productized by fal employees into an infinite twitch stream: and then the floodgates opened: levels.io/infinite-slop \\n\\nAn infinite and interactive AI generated live stream of slop that goes on forever and ever\\n\\nAnything that you write in the chat is generated next and AI will try to connect it to the previous video so there's an actual&#8230;\",\"username\":\"levelsio\",\"name\":\"@levelsio\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/2077111020305162240/PwddgOau_normal.jpg\",\"date\":\"2026-08-29T17:34:27.000Z\",\"photos\":[{\"img_url\":\"https://substackcdn.com/image/fetch/$s_!J9Tc!,w_1028,c_limit,f_auto,q_auto:best,fl_progressive:steep/l_play_button_usfui2,w_88,e_colorize:0/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2093751837161660416.jpg\",\"link_url\":\"https://t.co/We7YYMXcGC\"}],\"quoted_tweet\":{\"full_text\":\"Today is a very historical moment for AI video generation\\n\\nYou can now generate AI video faster than you can watch it\\n\\nBefore it'd take let's say 2-5 minutes to generate 15 seconds of video\\n\\n@fal made a post-trained Minimax H3 variant called Max which is 50x faster than the\",\"username\":\"levelsio\",\"name\":\"@levelsio\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/2077111020305162240/PwddgOau_normal.jpg\"},\"reply_…",
-      "summary": "You can now create decent video faster than you watch it. This is the start of... something. We&#8217;re not sure what.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.69,
-          "rationale": [
-            "image",
-            "video"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
       "id": "4e5b1678a849dedf",
       "date": "2026-09-04",
       "sourceType": "newsletter",
@@ -354,6 +302,58 @@
           "confidence": 0.5700000000000001,
           "rationale": [
             "video"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "24f7c622818bcadf",
+      "date": "2026-09-04",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
+      "url": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
+      "publishedAt": "2026-09-01T04:36:54.000Z",
+      "content": "For the entirety of the history of Generative Media , you basically had to design around the inconvenient fact that generating images and video takes time &#8212; even if you used consistency models to get a 30 second generation down to 1 second, you still only have a 1 FPS video at best&#8230; well below anything acceptable for consumer-grade human attention. Fal took Minimax&#8217;s H3 release from last month and first posttrained it for both cost and quality improvement , then optimized it for their in-house inference engine for 35x speed of the official endpoint&#8230; resulting in crossing the infinite video singularity: This was first noticed by Ethan Mollick: Then productized by fal employees into an infinite twitch stream: and then the floodgates opened: levels.io/infinite-slop \\n\\nAn infinite and interactive AI generated live stream of slop that goes on forever and ever\\n\\nAnything that you write in the chat is generated next and AI will try to connect it to the previous video so there's an actual&#8230;\",\"username\":\"levelsio\",\"name\":\"@levelsio\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/2077111020305162240/PwddgOau_normal.jpg\",\"date\":\"2026-08-29T17:34:27.000Z\",\"photos\":[{\"img_url\":\"https://substackcdn.com/image/fetch/$s_!J9Tc!,w_1028,c_limit,f_auto,q_auto:best,fl_progressive:steep/l_play_button_usfui2,w_88,e_colorize:0/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2093751837161660416.jpg\",\"link_url\":\"https://t.co/We7YYMXcGC\"}],\"quoted_tweet\":{\"full_text\":\"Today is a very historical moment for AI video generation\\n\\nYou can now generate AI video faster than you can watch it\\n\\nBefore it'd take let's say 2-5 minutes to generate 15 seconds of video\\n\\n@fal made a post-trained Minimax H3 variant called Max which is 50x faster than the\",\"username\":\"levelsio\",\"name\":\"@levelsio\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/2077111020305162240/PwddgOau_normal.jpg\"},\"reply_…",
+      "summary": "You can now create decent video faster than you watch it. This is the start of... something. We&#8217;re not sure what.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "image",
+            "video"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
           ],
           "score": 1
         },

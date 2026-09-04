@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T04:53:20.083Z",
+  "generatedAt": "2026-09-04T06:10:59.593Z",
   "slug": "research",
   "label": "Research",
   "items": [
@@ -194,6 +194,59 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "b4ad3953a014472c",
+      "date": "2026-09-04",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
+      "url": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
+      "publishedAt": "2026-09-04T05:18:11.000Z",
+      "content": "The launch is barely 9 hours old, and with 36M views and 164K likes, already is OpenAI&#8217;s most successful launch since Sora and certainly GPT-4 or GPT-5 . You&#8217;ll recall we&#8217;ve previously observed that Anthropic tends to far outclass OpenAI in launch popularity. For the first time in their mutual history , OpenAI has turned the tables. You can read our initial impressions here and we will update with more coverage soon, just stay subscribed. Overall a very welcome answer to Anthropic&#8217;s Fable and Opus progress. Your move, SpaceXAI and Google DeepMind. AI News for 9/2/2026-9/3/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI launched GPT-6 Astra as its new flagship model, but the rollout and the surrounding debate were almost as consequential as the model itself. OpenAI officially announced Astra as &#8220;our most intelligent and aligned model yet,&#8221; positioning it around computer use, software engineering, math/science, polished office work, and cybersecurity via @OpenAI , @OpenAI , and @sama The company said Astra was rolling out first to a limited set of organizations, then over days to ChatGPT Plus/Pro/Business/Enterprise, the API, and AWS, as noted by @OpenAI , @OpenAIDevs , and @thsottiaux The launch itself was bumpy: users saw delays, a broken/late blog post, unclear access timing, and frustration that many influencers had early access while paying users did not, as reflected by @iScienceLuvr , @kimmonismus , @sama , @sama , @sama , @theo , and @t3dotcodes OpenAI tried to compensate for delays by granting &#8220;banked resets&#8221; for each day paid ChatGPT users lacked Astra access, per @thsottiaux and @reach_vb OpenAI simultaneously released a system card / deployment safety material that drew unusually intense attention because it desc…",
+      "summary": "new SOTA computer use and coding, 2.5x pricier per token, but WAY cheaper per task, less monitorable. overall, a very successful launch of OpenAI&#8217;s new frontier model class.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.81,
+          "rationale": [
+            "enterprise",
+            "deployment",
+            "security"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "science"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.66,
       "whyThisMatters": ""
     },
     {
@@ -2363,65 +2416,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a19bcdf70ad4d74a",
-      "date": "2026-08-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "MindTopo reveals VLMs&#8217; spatial reasoning abilities",
-      "url": "https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/",
-      "publishedAt": "2026-08-12T16:00:00.000Z",
-      "content": "At a glance MindTopo is a new benchmark for testing topological reasoning in AI, evaluating whether multimodal models can understand concepts such as connectivity, enclosure, order, separation, and knots. The benchmark measures both reasoning and planning, testing not only whether models can recognize topological relationships in static images but also whether they can preserve and manipulate those relationships through a sequence of actions. Current multimodal models perform much better on static recognition than interactive tasks, suggesting they struggle to maintain a consistent understanding of topology over time. Failures often emerge during planning rather than perception, with models losing track of structural relationships as scenes change or proposing actions that violate physical constraints. The findings highlight an important opportunity to advance AI systems for robotics and interactive environments, where understanding what stays connected, enclosed, ordered, or knotted is essential for reliable decision-making. Can AI determine whether two rooms remain connected after a wall is added? Can it recognize whether an animal is inside a fence, distinguish a true knot from a tangled loop, or rearrange several ropes without allowing them to pass through one another? These questions concern 3D topology, a form of spatial understanding based not on exact distances, angles, or shapes, but on structural relationships that persist as objects bend, stretch, or deform. Connectivity, enclosure, ordering, and knottedness are examples of topological properties. These properties are a foundational layer of human spatial understanding in Cognitive Science, yet they remain largely absent from how multimodal AI systems are evaluated. In a new research study, we introduce MindTopo (opens in new tab) , a benchmark designed to evaluate whether multimodal large language models possess this kind of topological intuition. Our findings reveal a substantial gap between recognizin…",
-      "summary": "A path, a fence, a knot. MindTopo sets a new benchmark for testing how AI understands topological relationships and highlights new opportunities to strengthen spatial reasoning and planning. The post MindTopo reveals VLMs&#8217; spatial re…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.81,
-          "rationale": [
-            "research",
-            "science",
-            "finding"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.81,
-          "rationale": [
-            "multimodal",
-            "image",
-            "vlm"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.81,
-          "rationale": [
-            "benchmark",
-            "imo",
-            "eval"
-          ],
-          "score": 3
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     }
   ]
