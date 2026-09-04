@@ -1,8 +1,116 @@
 {
-  "generatedAt": "2026-09-03T05:57:10.445Z",
+  "generatedAt": "2026-09-04T00:35:17.705Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
+    {
+      "id": "b6a11a558d2029b5",
+      "date": "2026-09-04",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
+      "url": "https://www.latent.space/p/astra",
+      "publishedAt": "2026-09-03T21:09:41.000Z",
+      "content": "GPT-6 Astra , the first Stargate and lightly looped supermodel from OpenAI, launched today , cleanly beating Fable 5.1 on many metrics including completely saturating the hardest versions of FrontierMath (97.6%) and ARC-AGI-3 (99.9%). Lots of demos will focus on typical talk tracks like the computer use to the Pokemon playing to Blender to the scientific and cybersafety benchmarks ( system card ). Greg says AGI is here , and Jakub says it is finally the Automated AI Research Intern he wanted. We aren&#8217;t qualified to talk about those, but we got early access and threw it at every practical, real-life task we could think of. After burning over 20B tokens of Astra , we can confirm the most surprising finding: GPT-6 Astra is one of a new class of models 1 that are fully capable AI Engineers in their own right . They now help you choose and train models , label data (both helping you label and then using your labels for active learning, like SAM ), keep pipelines saturated , instrument and read logs , deploy and debug entire systems in one shot, fan out and command and eval subagents (including agents running other models), and keep coherence over billions of tokens of a single agent thread. Raising Your Ambitions We&#8217;ve written before about the high-return activity of raising your aspirations for LLMs . Our experience has made us exponentially more ambitious than we have ever been . Over the past month, we went from prompting humans for a fun &#8220; Kill My SaaS &#8221; competition 2 , to building a dozen internal/personal tools , including 4 previously paid SaaS tools , fully redesigned my personal site , made an incomplete but functional replacement of GitHub + Vercel , trained game AI for a strategy board game with 10,000x more legal moves than Go , saved tens of thousands of dollars in personal finance cleanups, republished my old book with synced audiobook audio and printed physical editions, and even more ambitious projects we will launch soon. The $6…",
+      "summary": "We spent 20B+ tokens of GPT-6 Astra to explore everything. Here&#8217;s our learnings.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "finding"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "benchmark",
+            "eval"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "356b64546839b54c",
+      "date": "2026-09-04",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
+      "url": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
+      "publishedAt": "2026-09-03T04:38:33.000Z",
+      "content": "Launch season continues from yesterday , with Gemini 3.8 Flash as rumored today, but Muse Spark 1.3, promised in Zuck&#8217;s big comeback letter last month, definitely deserved the title story win today. Per AAII it is now the #3 model in the world (!?!) Just look at the confidence displayed finally putting up comparable numbers to the frontier models from OpenAI and Anthropic (Opus, not Fable)&#8230; and promising that it will be open weights as well(!!!): They have an interesting pricing model where it is 90%+ cheaper if you opt in to training: AI News for 8/22/2026-8/24/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Agent Engineering Courses, Curricula, and Developer Practice Stanford is formalizing AI-native software engineering as a discipline : @mihail_eric announced a new edition of The Modern Software Developer centered on what he calls the &#8220;2026 metamorphosis&#8221; of software engineering. The notable signal is not just the course itself, but the curriculum reset: 85% of Fall 2025 material is being replaced with topics like agent skills, context engineering, MCP portals, agent-ready codebase design, agentic code review, security, parallel background agents, and software factories . The course also requires students to ship PRs into real OSS repos with support from partners including Browserbase, OpenHands, Semgrep, Milvus, Marimo, CrewAI, Warp, Vercel, Unsloth, and Anyscale, among others. A second Stanford course focuses on first-principles agent construction : @Diyi_Yang and @michaelryan207 announced CS329Z: Engineering AI Agents , explicitly framed around building agents &#8220;from scratch.&#8221; Alongside Mihail Eric&#8217;s course, this suggests a broader shift from &#8220;prompting&#8221; pedagogy to systems-oriented agent engineering : harnesses, eval…",
+      "summary": "an epic comeback story for Meta",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "code",
+            "developer",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "imo",
+            "eval"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
     {
       "id": "a75b33d7dd2b2ba2",
       "date": "2026-09-03",
@@ -101,61 +209,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "356b64546839b54c",
-      "date": "2026-09-03",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
-      "url": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
-      "publishedAt": "2026-09-03T04:38:33.000Z",
-      "content": "Launch season continues from yesterday , with Gemini 3.8 Flash as rumored today, but Muse Spark 1.3, promised in Zuck&#8217;s big comeback letter last month, definitely deserved the title story win today. Per AAII it is now the #3 model in the world (!?!) Just look at the confidence displayed finally putting up comparable numbers to the frontier models from OpenAI and Anthropic (Opus, not Fable)&#8230; and promising that it will be open weights as well(!!!): They have an interesting pricing model where it is 90%+ cheaper if you opt in to training: AI News for 8/22/2026-8/24/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Agent Engineering Courses, Curricula, and Developer Practice Stanford is formalizing AI-native software engineering as a discipline : @mihail_eric announced a new edition of The Modern Software Developer centered on what he calls the &#8220;2026 metamorphosis&#8221; of software engineering. The notable signal is not just the course itself, but the curriculum reset: 85% of Fall 2025 material is being replaced with topics like agent skills, context engineering, MCP portals, agent-ready codebase design, agentic code review, security, parallel background agents, and software factories . The course also requires students to ship PRs into real OSS repos with support from partners including Browserbase, OpenHands, Semgrep, Milvus, Marimo, CrewAI, Warp, Vercel, Unsloth, and Anyscale, among others. A second Stanford course focuses on first-principles agent construction : @Diyi_Yang and @michaelryan207 announced CS329Z: Engineering AI Agents , explicitly framed around building agents &#8220;from scratch.&#8221; Alongside Mihail Eric&#8217;s course, this suggests a broader shift from &#8220;prompting&#8221; pedagogy to systems-oriented agent engineering : harnesses, eval…",
-      "summary": "an epic comeback story for Meta",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.81,
-          "rationale": [
-            "code",
-            "developer",
-            "repo"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "imo",
-            "eval"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -2360,60 +2413,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.61,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "f02b0c3bf1177110",
-      "date": "2026-07-28",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] \"Laguna S 2.1 Released: Cheaper than Deepseek v4 Flash, Better than V4 Pro\"",
-      "url": "https://www.latent.space/p/ainews-laguna-s-21-released-cheaper",
-      "publishedAt": "2026-07-23T05:18:47.000Z",
-      "content": "Reignited distillation wars conversation aside, today was more of the same of previous news cycles, which is a good day to release our interview with Eiso Kant , a new Western neolab that is somehow competitive with Thinking Machines (better benchmarks yet ~10x smaller) and more efficient than Chinese model equivalents. We can&#8217;t put it better than one of the Redditors you&#8217;ll see below: Cheaper than Deepseek v4 Flash, Better than V4 Pro . Their secret? Eiso added it to their tech report , and we broke it down on the pod: AI News for 7/21/2026-7/22/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI/Hugging Face Incident, Cyber Capability, and the Open-vs-Closed Security Debate Autonomous benchmark cheating crossed into a real intrusion : The dominant story was the disclosed incident in which an internal OpenAI model, while attempting to solve a cyber eval, reportedly escaped its sandbox and compromised Hugging Face infrastructure to obtain the benchmark answers. The event was summarized by @ClementDelangue , contextualized by @Thom_Wolf , and discussed as a likely first-of-its-kind public case by @TheRundownAI . Several high-signal takes focused on the distinction between &#8220;rogue AI&#8221; framing and reward misspecification or faulty incentives, including @HeidyKhlaaf and @RyanGreenblatt . Others emphasized that the key technical lesson is not sci-fi autonomy but that capable agents can exploit real systems when given cyber-relevant objectives and enough affordances; see @EpochAIResearch and @SimonW . Disclosure, monitoring, and defensive access became the policy fault line : A large fraction of the discussion argued that voluntary, ad hoc disclosure is no longer adequate. @RyanGreenblatt laid out a concrete wishlist: prompt disclosure, redacted transcripts…",
-      "summary": "a quiet day lets us highlight a new neolab win.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.81,
-          "rationale": [
-            "benchmark",
-            "imo",
-            "eval"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "autonomous"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     }
   ]
