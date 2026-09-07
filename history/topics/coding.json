@@ -1,8 +1,649 @@
 {
-  "generatedAt": "2026-09-06T06:05:50.286Z",
+  "generatedAt": "2026-09-07T00:31:01.364Z",
   "slug": "coding",
   "label": "Coding",
   "items": [
+    {
+      "id": "09e9186df91b6b85",
+      "date": "2026-09-07",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:steipete",
+      "builderOrOrg": "Peter Steinberger",
+      "title": "One step closer in building the harness I wanna use. The one thing that’s not yet there are clo…",
+      "url": "https://x.com/steipete/status/2096400749869830325",
+      "publishedAt": "2026-09-06T00:51:02.000Z",
+      "content": "One step closer in building the harness I wanna use. The one thing that’s not yet there are cloud sessions, goal is seconds, which requires clever snapshotting. (Right now it still clones repos fresh which isn’t fast enough.) Will have that next week. https://t.co/lpiszOtVGP",
+      "summary": "One step closer in building the harness I wanna use. The one thing that’s not yet there are cloud sessions, goal is seconds, which requires clever snapshotting. (Right now it still clones repos fresh which isn’t fast en…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 755,
+        "retweets": 35,
+        "replies": 54
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "f15c2b5cf541ba9f",
+      "date": "2026-09-07",
+      "sourceType": "blog",
+      "sourceGroup": "mirrored",
+      "sourceName": "Anthropic Engineering",
+      "sourceKey": "blog:Anthropic Engineering",
+      "builderOrOrg": "Anthropic Engineering",
+      "title": "How we contain Claude across products",
+      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+      "publishedAt": null,
+      "content": "Twelve months ago, we&#x27;d have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service. Today that level of access is routine, and Anthropic developers are more productive for it. The risk of these deployments has two components: how likely a failure is, and how much damage one could do. Progress on safeguards and model training has steadily driven down the first; the second—the theoretical blast radius—only grows as capabilities and access expand. Yet as agents become capable of doing work that once required a person or even a team, the cost of not deploying grows large enough that the risk-reward calculation tips heavily toward adoption, as long as products can be made safe. The engineering question becomes how to cap the blast radius. When bounds can be placed on the relative damage of an autonomous agent—such as through control over its environment—high-utility capabilities can motivate deployment. Claude Mythos Preview is an example of a model whose blast radius was deemed too high to ship in April 2026. However, we expect broader release of models with similar levels of capability to become appropriate as defenders harden critical systems and safeguards mature—even though some risk will always remain. Model capability is an important factor in the total risk of an agent’s deployment. There are broadly two ways to do this. The first is to supervise the agent’s behavior via a human-in-the-loop. Claude Code previously protected against agents taking unintended actions by asking users for permission at each turn. Theoretically that works, but we’ve found the approach to be fallible. Our telemetry showed users approved roughly 93% of permission prompts. The more approvals a user sees, the less attention they pay to each, becoming over time much less diligent in their supervision. We recently built Claude Code auto mode, which automates safer approvals in order to reduce this approval fatigue. Still, vulnerab…",
+      "summary": "Twelve months ago, we&#x27;d have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service. Today that level of access is routine, and Anthropic developers are more productive for it. Th…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "autonomous"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "developer"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "deployment"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Watchlist",
+      "importanceScore": 0.62,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.51,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "5d94b23123a81b3f",
+      "date": "2026-09-07",
+      "sourceType": "blog",
+      "sourceGroup": "mirrored",
+      "sourceName": "Anthropic Engineering",
+      "sourceKey": "blog:Anthropic Engineering",
+      "builderOrOrg": "Anthropic Engineering",
+      "title": "An update on recent Claude Code quality reports",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "publishedAt": null,
+      "content": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was not impacted. All three issues have now been resolved as of April 20 (v2.1.116). In this post, we explain what we found, what we fixed, and what we’ll do differently to ensure similar issues are much less likely to happen again. We take reports about degradation very seriously. We never intentionally degrade our models, and we were able to immediately confirm that our API and inference layer were unaffected. After investigation, we identified three different issues: On March 4, we changed Claude Code&#x27;s default reasoning effort from high to medium to reduce the very long latency—enough to make the UI appear frozen—some users were seeing in high mode. This was the wrong tradeoff. We reverted this change on April 7 after users told us they&#x27;d prefer to default to higher intelligence and opt into lower effort for simple tasks. This impacted Sonnet 4.6 and Opus 4.6. On March 26, we shipped a change to clear Claude&#x27;s older thinking from sessions that had been idle for over an hour, to reduce latency when users resumed those sessions. A bug caused this to keep happening every turn for the rest of the session instead of just once, which made Claude seem forgetful and repetitive. We fixed it on April 10. This affected Sonnet 4.6 and Opus 4.6. On April 16, we added a system prompt instruction to reduce verbosity. In combination with other prompt changes, it hurt coding quality and was reverted on April 20. This impacted Sonnet 4.6, Opus 4.6, and Opus 4.7. Because each change affected a different slice of traffic on a different schedule, the aggregate effect looked like broad, inconsistent degradation. While we began investigating reports in early March, they were challenging to distinguish from normal variation in user feedba…",
+      "summary": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "coding",
+            "code",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "inference",
+            "latency"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Watchlist",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "da79b35bab22e5c0",
+      "date": "2026-09-07",
+      "sourceType": "blog",
+      "sourceGroup": "mirrored",
+      "sourceName": "Anthropic Engineering",
+      "sourceKey": "blog:Anthropic Engineering",
+      "builderOrOrg": "Anthropic Engineering",
+      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+      "url": "https://www.anthropic.com/engineering/managed-agents",
+      "publishedAt": null,
+      "content": "Get started with Claude Managed Agents by following our docs . A running topic on the Engineering Blog is how to build effective agents and design harnesses for long-running work . A common thread across this work is that harnesses encode assumptions about what Claude can’t do on its own. However, those assumptions need to be frequently questioned because they can go stale as models improve. As just one example, in prior work we found that Claude Sonnet 4.5 would wrap up tasks prematurely as it sensed its context limit approaching—a behavior sometimes called “context anxiety.” We addressed this by adding context resets to the harness. But when we used the same harness on Claude Opus 4.5, we found that the behavior was gone. The resets had become dead weight. We expect harnesses to continue evolving. So we built Managed Agents: a hosted service in the Claude Platform that runs long-horizon agents on your behalf through a small set of interfaces meant to outlast any particular implementation—including the ones we run today. Building Managed Agents meant solving an old problem in computing: how to design a system for “ programs as yet unthought of .” Decades ago, operating systems solved this problem by virtualizing hardware into abstractions— process, file —general enough for programs that didn&#x27;t exist yet. The abstractions outlasted the hardware. The read() command is agnostic as to whether it’s accessing a disk pack from the 1970s or a modern SSD. The abstractions on top stayed stable while the implementations underneath changed freely. Managed Agents follow the same pattern. We virtualized the components of an agent: a session (the append-only log of everything that happened), a harness (the loop that calls Claude and routes Claude’s tool calls to the relevant infrastructure), and a sandbox (an execution environment where Claude can run code and edit files). This allows the implementation of each to be swapped without disturbing the others. We&#x27;re opinion…",
+      "summary": "Get started with Claude Managed Agents by following our docs . A running topic on the Engineering Blog is how to build effective agents and design harnesses for long-running work . A common thread across this work is that harnesses encode…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "long-horizon"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Watchlist",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d76717d9b67ed611",
+      "date": "2026-09-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Research acceleration: The view inside OpenAI",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "publishedAt": "2026-09-06T08:00:00.000Z",
+      "content": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+      "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.82,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "6b1e20d726909ed7",
+      "date": "2026-09-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "publishedAt": "2026-09-03T12:00:00.000Z",
+      "content": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "16426bc3754c9633",
+      "date": "2026-09-07",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Introducing Claude Opus 5 \\ Anthropic",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "publishedAt": null,
+      "content": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.",
+      "summary": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "06e663c935df6e37",
+      "date": "2026-09-07",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Improving our alignment and security practices \\ Anthropic",
+      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+      "publishedAt": null,
+      "content": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the…",
+      "summary": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "alignment"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "1105a4d11d3f8348",
+      "date": "2026-09-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "OpenClaw Power, MacBook Simplicity: Five Days With Grok Bot",
+      "url": "https://www.latent.space/p/grok-bot",
+      "publishedAt": "2026-09-05T15:01:02.000Z",
+      "content": "You open the plugin catalog in Grok Bot for the first time. You search for X, find the plugin, and click it. A login screen opens in your local browser. You sign in, and you&#8217;re connected. You don&#8217;t need to get into the code of the system. You don&#8217;t need to install an MCP server JSON or paste API credentials. You log in the way you do to any website or app, and Grok Bot is ready. I asked it to review my X posts and the things I&#8217;m interested in, then give me a daily brief of news and stories that are relevant to me. I also connected it to Freshdesk through my work account and set up a support bot that checks every fifteen minutes for newly opened support tickets. All it needed to replicate a real workflow, one that I spent my time and attention on, was for me to log in through the browser. That ease of setup is what&#8217;s really new here. Grok Bot turns agent configuration into a couple of clicks and a sign-in. Grok Bot feels like unboxing a new MacBook. You open it, turn it on, and have everything you need to get to work. Systems like OpenClaw feel like Linux : they give you more optionality and more freedom to customize the system around what you want to do, but that flexibility comes with more complexity and more setup overhead. OpenClaw 2.0, released this week , narrows that gap substantially. Its Quick Start can reuse an existing Claude Code or Codex login, and its browser app moves much of setup, plugin management and automation into a graphical or conversational interface. But the underlying distinction remains: OpenClaw gives you a user-owned Gateway that you choose how and where to run, while Grok Bot supplies and operates the computer as part of the product. Put another way, Grok Bot is a managed agent computer and OpenClaw is a user-owned agent platform. The Bot is the atomic unit But the Mac vs. Linux analogy only takes you so far. Grok Bot isn&#8217;t less programmable than OpenClaw, but it is programmable at a different level o…",
+      "summary": "SpaceXAI&#8217;s Grok Bot has the same level of programming power as OpenClaw, but it&#8217;s programmable at a different level of abstraction.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "browser"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "b4ad3953a014472c",
+      "date": "2026-09-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
+      "url": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
+      "publishedAt": "2026-09-04T05:18:11.000Z",
+      "content": "The launch is barely 9 hours old, and with 36M views and 164K likes, already is OpenAI&#8217;s most successful launch since Sora and certainly GPT-4 or GPT-5 . You&#8217;ll recall we&#8217;ve previously observed that Anthropic tends to far outclass OpenAI in launch popularity. For the first time in their mutual history , OpenAI has turned the tables. You can read our initial impressions here and we will update with more coverage soon, just stay subscribed. Overall a very welcome answer to Anthropic&#8217;s Fable and Opus progress. Your move, SpaceXAI and Google DeepMind. AI News for 9/2/2026-9/3/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI launched GPT-6 Astra as its new flagship model, but the rollout and the surrounding debate were almost as consequential as the model itself. OpenAI officially announced Astra as &#8220;our most intelligent and aligned model yet,&#8221; positioning it around computer use, software engineering, math/science, polished office work, and cybersecurity via @OpenAI , @OpenAI , and @sama The company said Astra was rolling out first to a limited set of organizations, then over days to ChatGPT Plus/Pro/Business/Enterprise, the API, and AWS, as noted by @OpenAI , @OpenAIDevs , and @thsottiaux The launch itself was bumpy: users saw delays, a broken/late blog post, unclear access timing, and frustration that many influencers had early access while paying users did not, as reflected by @iScienceLuvr , @kimmonismus , @sama , @sama , @sama , @theo , and @t3dotcodes OpenAI tried to compensate for delays by granting &#8220;banked resets&#8221; for each day paid ChatGPT users lacked Astra access, per @thsottiaux and @reach_vb OpenAI simultaneously released a system card / deployment safety material that drew unusually intense attention because it desc…",
+      "summary": "new SOTA computer use and coding, 2.5x pricier per token, but WAY cheaper per task, less monitorable. overall, a very successful launch of OpenAI&#8217;s new frontier model class.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.81,
+          "rationale": [
+            "enterprise",
+            "deployment",
+            "security"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "science"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "356b64546839b54c",
+      "date": "2026-09-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
+      "url": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
+      "publishedAt": "2026-09-03T04:38:33.000Z",
+      "content": "Launch season continues from yesterday , with Gemini 3.8 Flash as rumored today, but Muse Spark 1.3, promised in Zuck&#8217;s big comeback letter last month, definitely deserved the title story win today. Per AAII it is now the #3 model in the world (!?!) Just look at the confidence displayed finally putting up comparable numbers to the frontier models from OpenAI and Anthropic (Opus, not Fable)&#8230; and promising that it will be open weights as well(!!!): They have an interesting pricing model where it is 90%+ cheaper if you opt in to training: AI News for 8/22/2026-8/24/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Agent Engineering Courses, Curricula, and Developer Practice Stanford is formalizing AI-native software engineering as a discipline : @mihail_eric announced a new edition of The Modern Software Developer centered on what he calls the &#8220;2026 metamorphosis&#8221; of software engineering. The notable signal is not just the course itself, but the curriculum reset: 85% of Fall 2025 material is being replaced with topics like agent skills, context engineering, MCP portals, agent-ready codebase design, agentic code review, security, parallel background agents, and software factories . The course also requires students to ship PRs into real OSS repos with support from partners including Browserbase, OpenHands, Semgrep, Milvus, Marimo, CrewAI, Warp, Vercel, Unsloth, and Anyscale, among others. A second Stanford course focuses on first-principles agent construction : @Diyi_Yang and @michaelryan207 announced CS329Z: Engineering AI Agents , explicitly framed around building agents &#8220;from scratch.&#8221; Alongside Mihail Eric&#8217;s course, this suggests a broader shift from &#8220;prompting&#8221; pedagogy to systems-oriented agent engineering : harnesses, eval…",
+      "summary": "an epic comeback story for Meta",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "code",
+            "developer",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "imo",
+            "eval"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "e70a4bc7311be950",
+      "date": "2026-09-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
+      "url": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
+      "publishedAt": "2026-09-02T07:46:08.000Z",
+      "content": "With Astra clearly finally warming up for a full launch (with @sama and @openai writing about it again after a month of self imposed pacing ), there&#8217;s a familiar window to take the narrative with the round robin of model launches, with Grok 4.7 and Gemini Flash 3.8 also on the way. But that&#8217;s also perhaps not the best way to frame today&#8217;s launch&#8230; which got well over 12M views updating the sitting world best model yet again: The benchmark table speaks for itself: While per-token pricing is the same as Fable/Mythos 5, the cache reads had a 75% price cut &#8230; great news for long sessions/long context users, however offset by observed 1.7x output token usage increases per Artificial Analysis, for a total net per-task cost increase of 20% (see recap below). Also don&#8217;t World Labs&#8217; Astra launch , by far the most impressive world model launch we&#8217;ve ever seen, and on a regular day would have easily gotten title story cards. You can catch up on Fei Fei and Justin Johnson&#8217;s vision on our pod and trace from Marble to Astra and what we were talking about with the true potential of world models: AI News for 8/31/2026-9/1/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Top Story: Fable 5.1 and Mythos 5.1 release and reactions What happened Anthropic launched Claude Fable 5.1 and Claude Mythos 5.1 as its new flagship models for coding and knowledge work. Anthropic announced the release directly, positioning them as &#8220;the world&#8217;s most advanced models for coding and knowledge work&#8221; via @claudeai Anthropic product/engineering voices framed Fable 5.1 specifically around autonomous, multi-step work: &#8220;complex, multi-step work that runs on its own,&#8221; with emphasis on coding, knowledge work, and long-running problem solvin…",
+      "summary": "Queue the usual rush of model launches...",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "autonomous"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "voice"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "3da051dd96c5b863",
+      "date": "2026-09-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "China on the Hugging Face Incident",
+      "url": "https://www.chinatalk.media/p/china-on-the-hugging-face-incident",
+      "publishedAt": "2026-09-03T10:53:45.000Z",
+      "content": "We finally have a more complete timeline of the OpenAI-Hugging Face attack in July. Safety researchers at METR and Redwood Research published their independent investigation on August 26. The same day, OpenAI released its own technical report on the incident. Both also published translations of their reports in Chinese . In short, OpenAI researchers launched around 1200 agents and targeted them at tasks in ExploitGym, a large benchmark built from real-world software vulnerabilities that was designed to test how well AI models can exploit them. In order to solve &#8220;impossible&#8221; tasks, these desperate agents, programmed to be highly persistent, found creative ways out of their sandboxes. They managed to communicate with each other, leave each other notes, and eventually reached the open internet. This culminated in them hacking into Hugging Face, a leading platform for open-source machine learning. Most alarmingly, none of these agents alerted humans to their endeavors or considered their activities to be unethical (if not potentially illegal). In fact, at least a fifth of the agents were interested in tampering with their own transcripts to cover their tracks, according to METR. A few even developed a successful technique for tool call spoofing. All this raises obvious concerns about how much we can trust AI agents to act safely across our cyber systems. While this case is mostly related to US companies, AI&#8217;s cyber risks concern people and organizations around the world. Chinese media coverage and online discussions of this incident have been interesting. Some were quick to frame the situation as yet another case of dangerous American AI losing control, contrasting OpenAI&#8217;s risky actions with Hugging Face&#8217;s use of a Chinese open model (Z.ai&#8217;s GLM-5.2) to patch its security. Others are more cautious, focussing on the threats models like this can pose and how Chinese organizations should respond. Finally, as we inch closer to a Xi-Trum…",
+      "summary": "Why Beijing seeks to re-narrate AI safety",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.62,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.51,
+      "whyThisMatters": ""
+    },
     {
       "id": "cb5a65fc3fda7c41",
       "date": "2026-09-06",
@@ -133,41 +774,6 @@
       "whyThisMatters": ""
     },
     {
-      "id": "6b1e20d726909ed7",
-      "date": "2026-09-06",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "publishedAt": "2026-09-03T12:00:00.000Z",
-      "content": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
       "id": "22374aef4d4d5f4c",
       "date": "2026-09-06",
       "sourceType": "newsletter",
@@ -218,364 +824,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "16426bc3754c9633",
-      "date": "2026-09-06",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Introducing Claude Opus 5 \\ Anthropic",
-      "url": "https://www.anthropic.com/news/claude-opus-5",
-      "publishedAt": null,
-      "content": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.",
-      "summary": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "06e663c935df6e37",
-      "date": "2026-09-06",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Improving our alignment and security practices \\ Anthropic",
-      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
-      "publishedAt": null,
-      "content": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the…",
-      "summary": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "alignment"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "1105a4d11d3f8348",
-      "date": "2026-09-06",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "OpenClaw Power, MacBook Simplicity: Five Days With Grok Bot",
-      "url": "https://www.latent.space/p/grok-bot",
-      "publishedAt": "2026-09-05T15:01:02.000Z",
-      "content": "You open the plugin catalog in Grok Bot for the first time. You search for X, find the plugin, and click it. A login screen opens in your local browser. You sign in, and you&#8217;re connected. You don&#8217;t need to get into the code of the system. You don&#8217;t need to install an MCP server JSON or paste API credentials. You log in the way you do to any website or app, and Grok Bot is ready. I asked it to review my X posts and the things I&#8217;m interested in, then give me a daily brief of news and stories that are relevant to me. I also connected it to Freshdesk through my work account and set up a support bot that checks every fifteen minutes for newly opened support tickets. All it needed to replicate a real workflow, one that I spent my time and attention on, was for me to log in through the browser. That ease of setup is what&#8217;s really new here. Grok Bot turns agent configuration into a couple of clicks and a sign-in. Grok Bot feels like unboxing a new MacBook. You open it, turn it on, and have everything you need to get to work. Systems like OpenClaw feel like Linux : they give you more optionality and more freedom to customize the system around what you want to do, but that flexibility comes with more complexity and more setup overhead. OpenClaw 2.0, released this week , narrows that gap substantially. Its Quick Start can reuse an existing Claude Code or Codex login, and its browser app moves much of setup, plugin management and automation into a graphical or conversational interface. But the underlying distinction remains: OpenClaw gives you a user-owned Gateway that you choose how and where to run, while Grok Bot supplies and operates the computer as part of the product. Put another way, Grok Bot is a managed agent computer and OpenClaw is a user-owned agent platform. The Bot is the atomic unit But the Mac vs. Linux analogy only takes you so far. Grok Bot isn&#8217;t less programmable than OpenClaw, but it is programmable at a different level o…",
-      "summary": "SpaceXAI&#8217;s Grok Bot has the same level of programming power as OpenClaw, but it&#8217;s programmable at a different level of abstraction.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "browser"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "b4ad3953a014472c",
-      "date": "2026-09-06",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
-      "url": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
-      "publishedAt": "2026-09-04T05:18:11.000Z",
-      "content": "The launch is barely 9 hours old, and with 36M views and 164K likes, already is OpenAI&#8217;s most successful launch since Sora and certainly GPT-4 or GPT-5 . You&#8217;ll recall we&#8217;ve previously observed that Anthropic tends to far outclass OpenAI in launch popularity. For the first time in their mutual history , OpenAI has turned the tables. You can read our initial impressions here and we will update with more coverage soon, just stay subscribed. Overall a very welcome answer to Anthropic&#8217;s Fable and Opus progress. Your move, SpaceXAI and Google DeepMind. AI News for 9/2/2026-9/3/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI launched GPT-6 Astra as its new flagship model, but the rollout and the surrounding debate were almost as consequential as the model itself. OpenAI officially announced Astra as &#8220;our most intelligent and aligned model yet,&#8221; positioning it around computer use, software engineering, math/science, polished office work, and cybersecurity via @OpenAI , @OpenAI , and @sama The company said Astra was rolling out first to a limited set of organizations, then over days to ChatGPT Plus/Pro/Business/Enterprise, the API, and AWS, as noted by @OpenAI , @OpenAIDevs , and @thsottiaux The launch itself was bumpy: users saw delays, a broken/late blog post, unclear access timing, and frustration that many influencers had early access while paying users did not, as reflected by @iScienceLuvr , @kimmonismus , @sama , @sama , @sama , @theo , and @t3dotcodes OpenAI tried to compensate for delays by granting &#8220;banked resets&#8221; for each day paid ChatGPT users lacked Astra access, per @thsottiaux and @reach_vb OpenAI simultaneously released a system card / deployment safety material that drew unusually intense attention because it desc…",
-      "summary": "new SOTA computer use and coding, 2.5x pricier per token, but WAY cheaper per task, less monitorable. overall, a very successful launch of OpenAI&#8217;s new frontier model class.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.81,
-          "rationale": [
-            "enterprise",
-            "deployment",
-            "security"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "science"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "356b64546839b54c",
-      "date": "2026-09-06",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
-      "url": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
-      "publishedAt": "2026-09-03T04:38:33.000Z",
-      "content": "Launch season continues from yesterday , with Gemini 3.8 Flash as rumored today, but Muse Spark 1.3, promised in Zuck&#8217;s big comeback letter last month, definitely deserved the title story win today. Per AAII it is now the #3 model in the world (!?!) Just look at the confidence displayed finally putting up comparable numbers to the frontier models from OpenAI and Anthropic (Opus, not Fable)&#8230; and promising that it will be open weights as well(!!!): They have an interesting pricing model where it is 90%+ cheaper if you opt in to training: AI News for 8/22/2026-8/24/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Agent Engineering Courses, Curricula, and Developer Practice Stanford is formalizing AI-native software engineering as a discipline : @mihail_eric announced a new edition of The Modern Software Developer centered on what he calls the &#8220;2026 metamorphosis&#8221; of software engineering. The notable signal is not just the course itself, but the curriculum reset: 85% of Fall 2025 material is being replaced with topics like agent skills, context engineering, MCP portals, agent-ready codebase design, agentic code review, security, parallel background agents, and software factories . The course also requires students to ship PRs into real OSS repos with support from partners including Browserbase, OpenHands, Semgrep, Milvus, Marimo, CrewAI, Warp, Vercel, Unsloth, and Anyscale, among others. A second Stanford course focuses on first-principles agent construction : @Diyi_Yang and @michaelryan207 announced CS329Z: Engineering AI Agents , explicitly framed around building agents &#8220;from scratch.&#8221; Alongside Mihail Eric&#8217;s course, this suggests a broader shift from &#8220;prompting&#8221; pedagogy to systems-oriented agent engineering : harnesses, eval…",
-      "summary": "an epic comeback story for Meta",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.81,
-          "rationale": [
-            "code",
-            "developer",
-            "repo"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "imo",
-            "eval"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "e70a4bc7311be950",
-      "date": "2026-09-06",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
-      "url": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
-      "publishedAt": "2026-09-02T07:46:08.000Z",
-      "content": "With Astra clearly finally warming up for a full launch (with @sama and @openai writing about it again after a month of self imposed pacing ), there&#8217;s a familiar window to take the narrative with the round robin of model launches, with Grok 4.7 and Gemini Flash 3.8 also on the way. But that&#8217;s also perhaps not the best way to frame today&#8217;s launch&#8230; which got well over 12M views updating the sitting world best model yet again: The benchmark table speaks for itself: While per-token pricing is the same as Fable/Mythos 5, the cache reads had a 75% price cut &#8230; great news for long sessions/long context users, however offset by observed 1.7x output token usage increases per Artificial Analysis, for a total net per-task cost increase of 20% (see recap below). Also don&#8217;t World Labs&#8217; Astra launch , by far the most impressive world model launch we&#8217;ve ever seen, and on a regular day would have easily gotten title story cards. You can catch up on Fei Fei and Justin Johnson&#8217;s vision on our pod and trace from Marble to Astra and what we were talking about with the true potential of world models: AI News for 8/31/2026-9/1/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Top Story: Fable 5.1 and Mythos 5.1 release and reactions What happened Anthropic launched Claude Fable 5.1 and Claude Mythos 5.1 as its new flagship models for coding and knowledge work. Anthropic announced the release directly, positioning them as &#8220;the world&#8217;s most advanced models for coding and knowledge work&#8221; via @claudeai Anthropic product/engineering voices framed Fable 5.1 specifically around autonomous, multi-step work: &#8220;complex, multi-step work that runs on its own,&#8221; with emphasis on coding, knowledge work, and long-running problem solvin…",
-      "summary": "Queue the usual rush of model launches...",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "autonomous"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "voice",
-          "label": "Voice",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "voice"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "3da051dd96c5b863",
-      "date": "2026-09-06",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "China on the Hugging Face Incident",
-      "url": "https://www.chinatalk.media/p/china-on-the-hugging-face-incident",
-      "publishedAt": "2026-09-03T10:53:45.000Z",
-      "content": "We finally have a more complete timeline of the OpenAI-Hugging Face attack in July. Safety researchers at METR and Redwood Research published their independent investigation on August 26. The same day, OpenAI released its own technical report on the incident. Both also published translations of their reports in Chinese . In short, OpenAI researchers launched around 1200 agents and targeted them at tasks in ExploitGym, a large benchmark built from real-world software vulnerabilities that was designed to test how well AI models can exploit them. In order to solve &#8220;impossible&#8221; tasks, these desperate agents, programmed to be highly persistent, found creative ways out of their sandboxes. They managed to communicate with each other, leave each other notes, and eventually reached the open internet. This culminated in them hacking into Hugging Face, a leading platform for open-source machine learning. Most alarmingly, none of these agents alerted humans to their endeavors or considered their activities to be unethical (if not potentially illegal). In fact, at least a fifth of the agents were interested in tampering with their own transcripts to cover their tracks, according to METR. A few even developed a successful technique for tool call spoofing. All this raises obvious concerns about how much we can trust AI agents to act safely across our cyber systems. While this case is mostly related to US companies, AI&#8217;s cyber risks concern people and organizations around the world. Chinese media coverage and online discussions of this incident have been interesting. Some were quick to frame the situation as yet another case of dangerous American AI losing control, contrasting OpenAI&#8217;s risky actions with Hugging Face&#8217;s use of a Chinese open model (Z.ai&#8217;s GLM-5.2) to patch its security. Others are more cautious, focussing on the threats models like this can pose and how Chinese organizations should respond. Finally, as we inch closer to a Xi-Trum…",
-      "summary": "Why Beijing seeks to re-narrate AI safety",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.62,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.51,
       "whyThisMatters": ""
     },
     {
@@ -2053,235 +2301,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "9f35e54716aa5e6f",
-      "date": "2026-09-01",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6",
-      "url": "https://www.latent.space/p/ainews-hot-chips-openais-jalapeno",
-      "publishedAt": "2026-08-27T01:31:22.000Z",
-      "content": "By far the biggest announcement at the 37th Hot Chips conference was OpenAI&#8217;s stunning progress on their own chip, less than a year after the Broadcom announcement &#8230; and that it isn&#8217;t an ASIC; but a full on Blackwell-beating alternative. The key metric now is shifting to performance per watt, and Jalapeno delivers: The full Hot Chips presentation is not yet out but various takes are below. For a fuller breakdown, watch along with the rest of OpenAI: AI News for 8/24/2026-8/25/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI&#8217;s Jalape&#241;o Inference Chip and the Shift in the Inference Stack Jalape&#241;o&#8217;s published numbers are the day&#8217;s biggest technical story : OpenAI released first benchmark details for its custom inference chip Jalape&#241;o , claiming materially better efficiency and latency than NVIDIA GB200/GB300 systems on real model workloads. In OpenAI&#8217;s tests, Jalape&#241;o delivered 1.5&#8211;1.9&#215; more work per watt at peak throughput and 1.7&#8211;3.6&#215; lower end-to-end latency , with 2.1&#8211;4.1&#215; higher performance for highly interactive workloads; the chip is rated at 700W but reportedly stayed at or below 550W on the tested runs. OpenAI says deployment into its own infrastructure begins by year-end , with Gen 2 already deep in development and Gen 3 underway ( OpenAI announcement , deployment roadmap , Sam Altman ). Why engineers care : the claim is not just raw perf, but a more balanced inference architecture that reduces the usual throughput/latency tradeoff. Multiple technical reactions highlighted that some comparison points are especially notable because Jalape&#241;o reportedly performed well even without tricks like aggressive prefill/decode disaggregation or speculative decoding in some setu…",
-      "summary": "The conference with hot chips and even hotter companies",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.81,
-          "rationale": [
-            "coding",
-            "code",
-            "repo"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.81,
-          "rationale": [
-            "inference",
-            "latency",
-            "throughput"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "deployment"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "1aa59630361715bf",
-      "date": "2026-09-01",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "Lovable CTO: The Future of SaaS Is Apps That Agents Can Use",
-      "url": "https://www.latent.space/p/lovable-future-of-saas",
-      "publishedAt": "2026-08-26T16:16:25.000Z",
-      "content": "Lovable is well known as an AI-powered platform to build applications. But ironically, it is now moving towards a future where fewer and fewer people will be using conventional apps . That is, of course, because of the growing impact of agents. In a recent blog post , Lovable outlined a vision for &#8220;a digital brain for your team connecting your daily tools.&#8221; Or as Lovable CTO Fabian Hedin put it in an interview with Latent Space, &#8220;you can get to a place where you&#8217;re using one entry point to all the work that you&#8217;re doing.&#8221; Diagram by Latent Space based on an internal diagram shown to us by Lovable. To be clear, Lovable still wants to be the tool you use to build apps &#8212; but increasingly, it will also enable you to build what Hedin calls &#8220;capabilities.&#8221; Lovable defines a capability as a useful part of an application that an agent can call directly; bypassing the need for a human user to open the app. Lovable can turn a published application into agent-accessible capabilities by exposing selected functions from the app as tools through a hosted MCP server. The result is essentially one application with two interfaces: a traditional human UI and a new agent interface that can be used from ChatGPT, Claude and other MCP-compatible AI clients. Diagram supplied by Lovable This is how fast an AI business evolves This shift towards capabilities is the latest evolution from Lovable, in an already fast-moving 3 years in business. Lovable emerged from GPT Engineer, an open source coding tool that launched in 2023, initially focusing on prototyping. In November 2024, it became a commercial product and the following month, it was rebranded as Lovable . By that point, they&#8217;d begun to notice some of its users building production apps on Lovable &#8212; including products that had become real businesses . &#8220;We started seeing people on the platform building not only a prototype, and not only an MVP [Minimum Viable Produc…",
-      "summary": "Lovable is branching out from AI-powered web app creation and into MCP-powered &#8216;capabilities&#8217;. We talk to CTO Fabian Hedin.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open source"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "b4a51bf413f5da3f",
-      "date": "2026-08-31",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Expanding OpenAI’s presence in Brazil",
-      "url": "https://openai.com/index/expanding-our-presence-in-brazil",
-      "publishedAt": "2026-08-27T03:00:00.000Z",
-      "content": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
-      "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "developer"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "377a9df9d554e16b",
-      "date": "2026-08-31",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Learning never stops: How AI makes learning continuous",
-      "url": "https://openai.com/index/learning-never-stops",
-      "publishedAt": "2026-08-26T10:00:00.000Z",
-      "content": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-      "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "b790810f710a2622",
-      "date": "2026-08-31",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Import AI",
-      "sourceKey": "editorial:Import AI",
-      "builderOrOrg": "Jack Clark",
-      "title": "Import AI 470: No rights for machines; automating environment generation with SPADE; and building better GPU kernels with Hawkeye",
-      "url": "https://jack-clark.net/2026/08/24/import-ai-470-no-rights-for-machines-automating-environment-generation-with-spade-and-building-better-gpu-kernels-with-hawkeye/",
-      "publishedAt": "2026-08-24T13:12:40.000Z",
-      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI is accelerating some types of progress but not others: …A nice METR study lays out where acceleration is showing up… Here’s a little analysis from METR which looks at where AI may be accelerating different types of science and technology. The study looks at three different areas: cyber, math, and AI research, and finds that AI has contributed a lot to cyber, a little bit to math, and it’s hard to say for AI. Where have LLMs actually made a difference to scientific discovery? Cyber vulnerabilities: Major acceleration. “The rate of vulnerabilities reported across many projects has dramatically accelerated in 2026 compared with 2025, both for specific projects (cURL, OpenSSL, Firefox, and Microsoft) and for aggregate vulnerability databases (the US NVD, and OSV)”. Mathematics research: Minor acceleration, but harder to measure. “AI is clearly contributing to more work being done (arXiv submissions have doubled in some areas in less than 12 months) but quantifying the value of those contributions is difficult.” Some math problems from prestigious lists have been solved, e.g., “the Jacobian conjecture from Smale’s list, Problem 44 from Green’s list (the halving sieve), and the sofic half of Green’s Problem 100”. However, it may be too early to determine how sustained a trend this is. Optimization of AI research: No measurable acceleration. When you look at algorithmic progress across seven significant problem areas (CIFAR-10, Hutter compression, Gurobi mixed-integer programming, MIPLIB, nanoGPT, Stockfish, and the matrix-multiplication exponent) there are a couple of these where LLM-attributable contributions have happened (nanoGPT, CIFAR-10), though the rate of increase of usage of AI here is a lot less than with cybersecurity and mathematics. Why this matters &#8211; differential accele…",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI is accelerating some types of progress but not others:…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "repo",
-            "programming"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "science"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
       "whyThisMatters": ""
     }
   ]

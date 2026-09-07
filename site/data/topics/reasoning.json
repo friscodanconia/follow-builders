@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-09-05T05:53:44.406Z",
+  "generatedAt": "2026-09-07T00:31:01.364Z",
   "slug": "reasoning",
   "label": "AI Thinking",
   "items": [
     {
-      "id": "3d1e17d086f7fcdc",
-      "date": "2026-09-05",
+      "id": "1d9b93db46e6f33d",
+      "date": "2026-09-07",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:mattturck",
-      "builderOrOrg": "Matt Turck",
-      "title": "This is wild. ARC-AGI was built to resist the LLM scaling paradigm o1 despite early reasoning s…",
-      "url": "https://x.com/mattturck/status/2095653093148885274",
-      "publishedAt": "2026-09-03T23:20:07.000Z",
-      "content": "This is wild. ARC-AGI was built to resist the LLM scaling paradigm o1 despite early reasoning struggled mightily in 2024 with 18% Then ARC-AGI-3, an even harder test, launched in 2026. Frontier AI was at 0.5% And now Astra just completely saturated it (w/ its native harness) https://t.co/sLHquW2rNT",
-      "summary": "This is wild. ARC-AGI was built to resist the LLM scaling paradigm o1 despite early reasoning struggled mightily in 2024 with 18% Then ARC-AGI-3, an even harder test, launched in 2026. Frontier AI was at 0.5% And now As…",
+      "sourceKey": "x:thsottiaux",
+      "builderOrOrg": "Thibault Sottiaux",
+      "title": "To calibrate you all on which reasoning effort to use for Astra, know that GPT-6 Astra on low p…",
+      "url": "https://x.com/thsottiaux/status/2096688770523467947",
+      "publishedAt": "2026-09-06T19:55:32.000Z",
+      "content": "To calibrate you all on which reasoning effort to use for Astra, know that GPT-6 Astra on low performs better than GPT-5.6 Sol on high. If you were using high reasoning efforts with Sol and were happy, I suggest you move down to low or medium for Astra.",
+      "summary": "To calibrate you all on which reasoning effort to use for Astra, know that GPT-6 Astra on low performs better than GPT-5.6 Sol on high. If you were using high reasoning efforts with Sol and were happy, I suggest you mov…",
       "regionTags": [],
       "metrics": {
-        "likes": 66,
-        "retweets": 2,
-        "replies": 16
+        "likes": 10989,
+        "retweets": 480,
+        "replies": 1212
       },
       "topics": [
         {
@@ -31,27 +31,18 @@
             "reasoning"
           ],
           "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
         }
       ],
       "section": "Builders",
       "importanceScore": 0.7,
-      "noveltyScore": 0.3,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.56,
+      "digestScore": 0.8,
       "whyThisMatters": ""
     },
     {
       "id": "da79b35bab22e5c0",
-      "date": "2026-08-30",
+      "date": "2026-09-07",
       "sourceType": "blog",
       "sourceGroup": "mirrored",
       "sourceName": "Anthropic Engineering",
@@ -98,6 +89,52 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "3d1e17d086f7fcdc",
+      "date": "2026-09-05",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:mattturck",
+      "builderOrOrg": "Matt Turck",
+      "title": "This is wild. ARC-AGI was built to resist the LLM scaling paradigm o1 despite early reasoning s…",
+      "url": "https://x.com/mattturck/status/2095653093148885274",
+      "publishedAt": "2026-09-03T23:20:07.000Z",
+      "content": "This is wild. ARC-AGI was built to resist the LLM scaling paradigm o1 despite early reasoning struggled mightily in 2024 with 18% Then ARC-AGI-3, an even harder test, launched in 2026. Frontier AI was at 0.5% And now Astra just completely saturated it (w/ its native harness) https://t.co/sLHquW2rNT",
+      "summary": "This is wild. ARC-AGI was built to resist the LLM scaling paradigm o1 despite early reasoning struggled mightily in 2024 with 18% Then ARC-AGI-3, an even harder test, launched in 2026. Frontier AI was at 0.5% And now As…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 66,
+        "retweets": 2,
+        "replies": 16
+      },
+      "topics": [
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "reasoning"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
@@ -2425,61 +2462,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "f708e4b23f2f71f5",
-      "date": "2026-04-13",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:adityaag",
-      "builderOrOrg": "Aditya Agarwal",
-      "title": "The big difference between a true \"agent\" and simply running an LLM in a loop (or an event-base…",
-      "url": "https://x.com/adityaag/status/2043144970060939487",
-      "publishedAt": "2026-04-12T01:51:35.000Z",
-      "content": "The big difference between a true \"agent\" and simply running an LLM in a loop (or an event-based trigger) is how you do intelligent long-horizon memory management. By far the most interesting aspect of the Claude Code architecture was their 3-tier memory architecture.",
-      "summary": "The big difference between a true \"agent\" and simply running an LLM in a loop (or an event-based trigger) is how you do intelligent long-horizon memory management. By far the most interesting aspect of the Claude Code a…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 96,
-        "retweets": 4,
-        "replies": 8
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "reasoning",
-          "label": "AI Thinking",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "long-horizon"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.65,
       "whyThisMatters": ""
     }
   ]

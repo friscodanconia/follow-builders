@@ -1,8 +1,408 @@
 {
-  "generatedAt": "2026-09-06T06:05:50.286Z",
+  "generatedAt": "2026-09-07T00:31:01.364Z",
   "slug": "enterprise",
   "label": "Business AI",
   "items": [
+    {
+      "id": "f15c2b5cf541ba9f",
+      "date": "2026-09-07",
+      "sourceType": "blog",
+      "sourceGroup": "mirrored",
+      "sourceName": "Anthropic Engineering",
+      "sourceKey": "blog:Anthropic Engineering",
+      "builderOrOrg": "Anthropic Engineering",
+      "title": "How we contain Claude across products",
+      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+      "publishedAt": null,
+      "content": "Twelve months ago, we&#x27;d have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service. Today that level of access is routine, and Anthropic developers are more productive for it. The risk of these deployments has two components: how likely a failure is, and how much damage one could do. Progress on safeguards and model training has steadily driven down the first; the second—the theoretical blast radius—only grows as capabilities and access expand. Yet as agents become capable of doing work that once required a person or even a team, the cost of not deploying grows large enough that the risk-reward calculation tips heavily toward adoption, as long as products can be made safe. The engineering question becomes how to cap the blast radius. When bounds can be placed on the relative damage of an autonomous agent—such as through control over its environment—high-utility capabilities can motivate deployment. Claude Mythos Preview is an example of a model whose blast radius was deemed too high to ship in April 2026. However, we expect broader release of models with similar levels of capability to become appropriate as defenders harden critical systems and safeguards mature—even though some risk will always remain. Model capability is an important factor in the total risk of an agent’s deployment. There are broadly two ways to do this. The first is to supervise the agent’s behavior via a human-in-the-loop. Claude Code previously protected against agents taking unintended actions by asking users for permission at each turn. Theoretically that works, but we’ve found the approach to be fallible. Our telemetry showed users approved roughly 93% of permission prompts. The more approvals a user sees, the less attention they pay to each, becoming over time much less diligent in their supervision. We recently built Claude Code auto mode, which automates safer approvals in order to reduce this approval fatigue. Still, vulnerab…",
+      "summary": "Twelve months ago, we&#x27;d have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service. Today that level of access is routine, and Anthropic developers are more productive for it. Th…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "autonomous"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "developer"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "deployment"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Watchlist",
+      "importanceScore": 0.62,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.51,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "8fe92ffb2cfbc8c9",
+      "date": "2026-09-07",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Developing Enterprise Frontier Safeguards with our customers \\ Anthropic",
+      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+      "publishedAt": null,
+      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "06e663c935df6e37",
+      "date": "2026-09-07",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Improving our alignment and security practices \\ Anthropic",
+      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+      "publishedAt": null,
+      "content": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the…",
+      "summary": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "alignment"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "a0ccd6637f404646",
+      "date": "2026-09-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google AI Blog",
+      "sourceKey": "official:Google AI Blog",
+      "builderOrOrg": "Google",
+      "title": "Proactive cyber defense for governments and enterprises",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+      "publishedAt": "2026-09-02T15:40:00.000Z",
+      "content": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
+      "summary": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "b4ad3953a014472c",
+      "date": "2026-09-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
+      "url": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
+      "publishedAt": "2026-09-04T05:18:11.000Z",
+      "content": "The launch is barely 9 hours old, and with 36M views and 164K likes, already is OpenAI&#8217;s most successful launch since Sora and certainly GPT-4 or GPT-5 . You&#8217;ll recall we&#8217;ve previously observed that Anthropic tends to far outclass OpenAI in launch popularity. For the first time in their mutual history , OpenAI has turned the tables. You can read our initial impressions here and we will update with more coverage soon, just stay subscribed. Overall a very welcome answer to Anthropic&#8217;s Fable and Opus progress. Your move, SpaceXAI and Google DeepMind. AI News for 9/2/2026-9/3/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI launched GPT-6 Astra as its new flagship model, but the rollout and the surrounding debate were almost as consequential as the model itself. OpenAI officially announced Astra as &#8220;our most intelligent and aligned model yet,&#8221; positioning it around computer use, software engineering, math/science, polished office work, and cybersecurity via @OpenAI , @OpenAI , and @sama The company said Astra was rolling out first to a limited set of organizations, then over days to ChatGPT Plus/Pro/Business/Enterprise, the API, and AWS, as noted by @OpenAI , @OpenAIDevs , and @thsottiaux The launch itself was bumpy: users saw delays, a broken/late blog post, unclear access timing, and frustration that many influencers had early access while paying users did not, as reflected by @iScienceLuvr , @kimmonismus , @sama , @sama , @sama , @theo , and @t3dotcodes OpenAI tried to compensate for delays by granting &#8220;banked resets&#8221; for each day paid ChatGPT users lacked Astra access, per @thsottiaux and @reach_vb OpenAI simultaneously released a system card / deployment safety material that drew unusually intense attention because it desc…",
+      "summary": "new SOTA computer use and coding, 2.5x pricier per token, but WAY cheaper per task, less monitorable. overall, a very successful launch of OpenAI&#8217;s new frontier model class.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.81,
+          "rationale": [
+            "enterprise",
+            "deployment",
+            "security"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "science"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "3da051dd96c5b863",
+      "date": "2026-09-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "China on the Hugging Face Incident",
+      "url": "https://www.chinatalk.media/p/china-on-the-hugging-face-incident",
+      "publishedAt": "2026-09-03T10:53:45.000Z",
+      "content": "We finally have a more complete timeline of the OpenAI-Hugging Face attack in July. Safety researchers at METR and Redwood Research published their independent investigation on August 26. The same day, OpenAI released its own technical report on the incident. Both also published translations of their reports in Chinese . In short, OpenAI researchers launched around 1200 agents and targeted them at tasks in ExploitGym, a large benchmark built from real-world software vulnerabilities that was designed to test how well AI models can exploit them. In order to solve &#8220;impossible&#8221; tasks, these desperate agents, programmed to be highly persistent, found creative ways out of their sandboxes. They managed to communicate with each other, leave each other notes, and eventually reached the open internet. This culminated in them hacking into Hugging Face, a leading platform for open-source machine learning. Most alarmingly, none of these agents alerted humans to their endeavors or considered their activities to be unethical (if not potentially illegal). In fact, at least a fifth of the agents were interested in tampering with their own transcripts to cover their tracks, according to METR. A few even developed a successful technique for tool call spoofing. All this raises obvious concerns about how much we can trust AI agents to act safely across our cyber systems. While this case is mostly related to US companies, AI&#8217;s cyber risks concern people and organizations around the world. Chinese media coverage and online discussions of this incident have been interesting. Some were quick to frame the situation as yet another case of dangerous American AI losing control, contrasting OpenAI&#8217;s risky actions with Hugging Face&#8217;s use of a Chinese open model (Z.ai&#8217;s GLM-5.2) to patch its security. Others are more cautious, focussing on the threats models like this can pose and how Chinese organizations should respond. Finally, as we inch closer to a Xi-Trum…",
+      "summary": "Why Beijing seeks to re-narrate AI safety",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.62,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.51,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "f675fbf3b41b20ee",
+      "date": "2026-09-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Cyber Apocalypse, Now?",
+      "url": "https://www.chinatalk.media/p/cyber-apocalypse-now",
+      "publishedAt": "2026-09-02T09:56:33.000Z",
+      "content": "OpenAI models mid-training broke out of their sandbox, hacked internal infrastructure, and eventually compromised Hugging Face &#8212; the first headline-grade AI breakout, and one that safety researchers saw coming. Is the cyber apocalypse finally on the calendar, or does the industry just need to do its homework? spent his formative years as a DARPA and NSA contractor before four years at Meta, where he founded the company&#8217;s frontier cyber capabilities evals team and finished as its AI security tech lead. He recently left to co-found Abundant Security . We discuss&#8230; What actually happened in the Hugging Face hack , and why AI safety insiders weren&#8217;t surprised, The &#8220;grad student lab&#8221; security culture inside frontier labs racing sixty hours a week to ship, Why you should apply to run a new org with eight figures to play with to follow trends in AI + cyber risk ( apply here! ) Why the cyber Pearl Harbor predicted since the early 2000s never arrived &#8212; and whether swarms of hacking agents finally change that, How nation states will post-train open-weight models like GLM and Kimi into billion-dollar cyber weapons, Why AI has so far favored defenders , from mass bug-squashing to superhuman network monitoring, The industrial economics of cybercrime &#8212; kill chains, ransomware divisions of labor, and whether AI gives criminals 100x returns. Listen now on your favorite podcast app . What Happened at Hugging Face Jordan Schneider: What was the Hugging Face hack? Joshua Saxe: OpenAI was training a new model capable of solving long-horizon tasks &#8212; tasks that take many hours to complete. The way that kind of training works is you train thousands of copies of a model in parallel. You have them all go out and try to solve a set of tasks, you see which ones succeeded and which failed, and then you update the model&#8217;s parameters so it does more of the good behaviors that led it to solve the task and less of the bad ones. You keep d…",
+      "summary": "The Hugging Face hack, crime, and nation states with AI cyber",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.62,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.51,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "4e5b1678a849dedf",
+      "date": "2026-09-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "China's Rare Earths Duopoly",
+      "url": "https://www.chinatalk.media/p/chinas-rare-earths-duopoly",
+      "publishedAt": "2026-09-01T10:03:39.000Z",
+      "content": "Aqib will be in D.C. from September 7-11! If you&#8217;d like to chat rare earths, semiconductors, and open model security, reach out to aqib@chinatalk.media. If you know anything about rare earths, you know China is great at digging them up and refining them, while America sucks at both. Unfortunately, this is where most analyses end. To go one step further requires understanding the entities leading China&#8217;s rare earth juggernaut, and how they built Beijing&#8217;s rare earth weapon. That&#8217;s exactly what we&#8217;ll explore in today&#8217;s deep dive. This story revolves around China&#8217;s two creatively-named state-owned giants, China Northern Rare Earth &#20013;&#22269;&#21271;&#26041;&#31232;&#22303; and China Rare-Earths Group &#20013;&#22269;&#31232;&#22303; (CREG). We&#8217;re going to call them &#8220;China Northern&#8221; and &#8220;China Southern&#8221; from here on out; CREG doesn&#8217;t have Southern in its name, but it&#8217;s in the South, and we think it&#8217;s a lot catchier. The fact that these two companies reign over the rare earths world cannot be boiled down to a single factor. These things are messy. To pick it apart, we (Aqib and Nick) look at China&#8217;s duopoly from multiple angles, covering the firms&#8217; history, industrial processes, and, on the human level, their workforce. In our efforts to unpack it all, we pull on several threads, including: Why the industry is divided sharply between North and South, and what each region is in charge of, The ownership politics beneath that structure, such as which parts of the state own each company and why the South is so much harder to control, What rare earths smuggling reveals about China&#8217;s state capacity, The technical reasons these companies are ahead, And what it&#8217;s like to work at a Chinese rare earths company. North vs. South Nearly all of China&#8217;s rare earth production runs through two companies . China Northern Rare Earth, headquartered in Baotou &#21253…",
+      "summary": "If you know anything about rare earths, you know China is great at digging them up and refining them, while America sucks at both.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
     {
       "id": "4ce0d3a2727dd486",
       "date": "2026-09-06",
@@ -144,353 +544,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "8fe92ffb2cfbc8c9",
-      "date": "2026-09-06",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Developing Enterprise Frontier Safeguards with our customers \\ Anthropic",
-      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
-      "publishedAt": null,
-      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "06e663c935df6e37",
-      "date": "2026-09-06",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Improving our alignment and security practices \\ Anthropic",
-      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
-      "publishedAt": null,
-      "content": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the…",
-      "summary": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "alignment"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a0ccd6637f404646",
-      "date": "2026-09-06",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google AI Blog",
-      "sourceKey": "official:Google AI Blog",
-      "builderOrOrg": "Google",
-      "title": "Proactive cyber defense for governments and enterprises",
-      "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
-      "publishedAt": "2026-09-02T15:40:00.000Z",
-      "content": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
-      "summary": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "b4ad3953a014472c",
-      "date": "2026-09-06",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
-      "url": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
-      "publishedAt": "2026-09-04T05:18:11.000Z",
-      "content": "The launch is barely 9 hours old, and with 36M views and 164K likes, already is OpenAI&#8217;s most successful launch since Sora and certainly GPT-4 or GPT-5 . You&#8217;ll recall we&#8217;ve previously observed that Anthropic tends to far outclass OpenAI in launch popularity. For the first time in their mutual history , OpenAI has turned the tables. You can read our initial impressions here and we will update with more coverage soon, just stay subscribed. Overall a very welcome answer to Anthropic&#8217;s Fable and Opus progress. Your move, SpaceXAI and Google DeepMind. AI News for 9/2/2026-9/3/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI launched GPT-6 Astra as its new flagship model, but the rollout and the surrounding debate were almost as consequential as the model itself. OpenAI officially announced Astra as &#8220;our most intelligent and aligned model yet,&#8221; positioning it around computer use, software engineering, math/science, polished office work, and cybersecurity via @OpenAI , @OpenAI , and @sama The company said Astra was rolling out first to a limited set of organizations, then over days to ChatGPT Plus/Pro/Business/Enterprise, the API, and AWS, as noted by @OpenAI , @OpenAIDevs , and @thsottiaux The launch itself was bumpy: users saw delays, a broken/late blog post, unclear access timing, and frustration that many influencers had early access while paying users did not, as reflected by @iScienceLuvr , @kimmonismus , @sama , @sama , @sama , @theo , and @t3dotcodes OpenAI tried to compensate for delays by granting &#8220;banked resets&#8221; for each day paid ChatGPT users lacked Astra access, per @thsottiaux and @reach_vb OpenAI simultaneously released a system card / deployment safety material that drew unusually intense attention because it desc…",
-      "summary": "new SOTA computer use and coding, 2.5x pricier per token, but WAY cheaper per task, less monitorable. overall, a very successful launch of OpenAI&#8217;s new frontier model class.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.81,
-          "rationale": [
-            "enterprise",
-            "deployment",
-            "security"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "science"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "3da051dd96c5b863",
-      "date": "2026-09-06",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "China on the Hugging Face Incident",
-      "url": "https://www.chinatalk.media/p/china-on-the-hugging-face-incident",
-      "publishedAt": "2026-09-03T10:53:45.000Z",
-      "content": "We finally have a more complete timeline of the OpenAI-Hugging Face attack in July. Safety researchers at METR and Redwood Research published their independent investigation on August 26. The same day, OpenAI released its own technical report on the incident. Both also published translations of their reports in Chinese . In short, OpenAI researchers launched around 1200 agents and targeted them at tasks in ExploitGym, a large benchmark built from real-world software vulnerabilities that was designed to test how well AI models can exploit them. In order to solve &#8220;impossible&#8221; tasks, these desperate agents, programmed to be highly persistent, found creative ways out of their sandboxes. They managed to communicate with each other, leave each other notes, and eventually reached the open internet. This culminated in them hacking into Hugging Face, a leading platform for open-source machine learning. Most alarmingly, none of these agents alerted humans to their endeavors or considered their activities to be unethical (if not potentially illegal). In fact, at least a fifth of the agents were interested in tampering with their own transcripts to cover their tracks, according to METR. A few even developed a successful technique for tool call spoofing. All this raises obvious concerns about how much we can trust AI agents to act safely across our cyber systems. While this case is mostly related to US companies, AI&#8217;s cyber risks concern people and organizations around the world. Chinese media coverage and online discussions of this incident have been interesting. Some were quick to frame the situation as yet another case of dangerous American AI losing control, contrasting OpenAI&#8217;s risky actions with Hugging Face&#8217;s use of a Chinese open model (Z.ai&#8217;s GLM-5.2) to patch its security. Others are more cautious, focussing on the threats models like this can pose and how Chinese organizations should respond. Finally, as we inch closer to a Xi-Trum…",
-      "summary": "Why Beijing seeks to re-narrate AI safety",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.62,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.51,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "f675fbf3b41b20ee",
-      "date": "2026-09-06",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Cyber Apocalypse, Now?",
-      "url": "https://www.chinatalk.media/p/cyber-apocalypse-now",
-      "publishedAt": "2026-09-02T09:56:33.000Z",
-      "content": "OpenAI models mid-training broke out of their sandbox, hacked internal infrastructure, and eventually compromised Hugging Face &#8212; the first headline-grade AI breakout, and one that safety researchers saw coming. Is the cyber apocalypse finally on the calendar, or does the industry just need to do its homework? spent his formative years as a DARPA and NSA contractor before four years at Meta, where he founded the company&#8217;s frontier cyber capabilities evals team and finished as its AI security tech lead. He recently left to co-found Abundant Security . We discuss&#8230; What actually happened in the Hugging Face hack , and why AI safety insiders weren&#8217;t surprised, The &#8220;grad student lab&#8221; security culture inside frontier labs racing sixty hours a week to ship, Why you should apply to run a new org with eight figures to play with to follow trends in AI + cyber risk ( apply here! ) Why the cyber Pearl Harbor predicted since the early 2000s never arrived &#8212; and whether swarms of hacking agents finally change that, How nation states will post-train open-weight models like GLM and Kimi into billion-dollar cyber weapons, Why AI has so far favored defenders , from mass bug-squashing to superhuman network monitoring, The industrial economics of cybercrime &#8212; kill chains, ransomware divisions of labor, and whether AI gives criminals 100x returns. Listen now on your favorite podcast app . What Happened at Hugging Face Jordan Schneider: What was the Hugging Face hack? Joshua Saxe: OpenAI was training a new model capable of solving long-horizon tasks &#8212; tasks that take many hours to complete. The way that kind of training works is you train thousands of copies of a model in parallel. You have them all go out and try to solve a set of tasks, you see which ones succeeded and which failed, and then you update the model&#8217;s parameters so it does more of the good behaviors that led it to solve the task and less of the bad ones. You keep d…",
-      "summary": "The Hugging Face hack, crime, and nation states with AI cyber",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.62,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.51,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4e5b1678a849dedf",
-      "date": "2026-09-06",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "China's Rare Earths Duopoly",
-      "url": "https://www.chinatalk.media/p/chinas-rare-earths-duopoly",
-      "publishedAt": "2026-09-01T10:03:39.000Z",
-      "content": "Aqib will be in D.C. from September 7-11! If you&#8217;d like to chat rare earths, semiconductors, and open model security, reach out to aqib@chinatalk.media. If you know anything about rare earths, you know China is great at digging them up and refining them, while America sucks at both. Unfortunately, this is where most analyses end. To go one step further requires understanding the entities leading China&#8217;s rare earth juggernaut, and how they built Beijing&#8217;s rare earth weapon. That&#8217;s exactly what we&#8217;ll explore in today&#8217;s deep dive. This story revolves around China&#8217;s two creatively-named state-owned giants, China Northern Rare Earth &#20013;&#22269;&#21271;&#26041;&#31232;&#22303; and China Rare-Earths Group &#20013;&#22269;&#31232;&#22303; (CREG). We&#8217;re going to call them &#8220;China Northern&#8221; and &#8220;China Southern&#8221; from here on out; CREG doesn&#8217;t have Southern in its name, but it&#8217;s in the South, and we think it&#8217;s a lot catchier. The fact that these two companies reign over the rare earths world cannot be boiled down to a single factor. These things are messy. To pick it apart, we (Aqib and Nick) look at China&#8217;s duopoly from multiple angles, covering the firms&#8217; history, industrial processes, and, on the human level, their workforce. In our efforts to unpack it all, we pull on several threads, including: Why the industry is divided sharply between North and South, and what each region is in charge of, The ownership politics beneath that structure, such as which parts of the state own each company and why the South is so much harder to control, What rare earths smuggling reveals about China&#8217;s state capacity, The technical reasons these companies are ahead, And what it&#8217;s like to work at a Chinese rare earths company. North vs. South Nearly all of China&#8217;s rare earth production runs through two companies . China Northern Rare Earth, headquartered in Baotou &#21253…",
-      "summary": "If you know anything about rare earths, you know China is great at digging them up and refining them, while America sucks at both.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
       "whyThisMatters": ""
     },
     {
@@ -1559,59 +1612,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.61,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "f15c2b5cf541ba9f",
-      "date": "2026-08-29",
-      "sourceType": "blog",
-      "sourceGroup": "mirrored",
-      "sourceName": "Anthropic Engineering",
-      "sourceKey": "blog:Anthropic Engineering",
-      "builderOrOrg": "Anthropic Engineering",
-      "title": "How we contain Claude across products",
-      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
-      "publishedAt": null,
-      "content": "Twelve months ago, we&#x27;d have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service. Today that level of access is routine, and Anthropic developers are more productive for it. The risk of these deployments has two components: how likely a failure is, and how much damage one could do. Progress on safeguards and model training has steadily driven down the first; the second—the theoretical blast radius—only grows as capabilities and access expand. Yet as agents become capable of doing work that once required a person or even a team, the cost of not deploying grows large enough that the risk-reward calculation tips heavily toward adoption, as long as products can be made safe. The engineering question becomes how to cap the blast radius. When bounds can be placed on the relative damage of an autonomous agent—such as through control over its environment—high-utility capabilities can motivate deployment. Claude Mythos Preview is an example of a model whose blast radius was deemed too high to ship in April 2026. However, we expect broader release of models with similar levels of capability to become appropriate as defenders harden critical systems and safeguards mature—even though some risk will always remain. Model capability is an important factor in the total risk of an agent’s deployment. There are broadly two ways to do this. The first is to supervise the agent’s behavior via a human-in-the-loop. Claude Code previously protected against agents taking unintended actions by asking users for permission at each turn. Theoretically that works, but we’ve found the approach to be fallible. Our telemetry showed users approved roughly 93% of permission prompts. The more approvals a user sees, the less attention they pay to each, becoming over time much less diligent in their supervision. We recently built Claude Code auto mode, which automates safer approvals in order to reduce this approval fatigue. Still, vulnerab…",
-      "summary": "Twelve months ago, we&#x27;d have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service. Today that level of access is routine, and Anthropic developers are more productive for it. Th…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "autonomous"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "code",
-            "developer"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "deployment"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Watchlist",
-      "importanceScore": 0.62,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.51,
       "whyThisMatters": ""
     },
     {

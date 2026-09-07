@@ -1,8 +1,103 @@
 {
-  "generatedAt": "2026-09-06T06:05:50.286Z",
+  "generatedAt": "2026-09-07T00:31:01.364Z",
   "slug": "tool-use",
   "label": "AI Using Tools",
   "items": [
+    {
+      "id": "a0ccd6637f404646",
+      "date": "2026-09-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google AI Blog",
+      "sourceKey": "official:Google AI Blog",
+      "builderOrOrg": "Google",
+      "title": "Proactive cyber defense for governments and enterprises",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+      "publishedAt": "2026-09-02T15:40:00.000Z",
+      "content": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
+      "summary": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "1105a4d11d3f8348",
+      "date": "2026-09-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "OpenClaw Power, MacBook Simplicity: Five Days With Grok Bot",
+      "url": "https://www.latent.space/p/grok-bot",
+      "publishedAt": "2026-09-05T15:01:02.000Z",
+      "content": "You open the plugin catalog in Grok Bot for the first time. You search for X, find the plugin, and click it. A login screen opens in your local browser. You sign in, and you&#8217;re connected. You don&#8217;t need to get into the code of the system. You don&#8217;t need to install an MCP server JSON or paste API credentials. You log in the way you do to any website or app, and Grok Bot is ready. I asked it to review my X posts and the things I&#8217;m interested in, then give me a daily brief of news and stories that are relevant to me. I also connected it to Freshdesk through my work account and set up a support bot that checks every fifteen minutes for newly opened support tickets. All it needed to replicate a real workflow, one that I spent my time and attention on, was for me to log in through the browser. That ease of setup is what&#8217;s really new here. Grok Bot turns agent configuration into a couple of clicks and a sign-in. Grok Bot feels like unboxing a new MacBook. You open it, turn it on, and have everything you need to get to work. Systems like OpenClaw feel like Linux : they give you more optionality and more freedom to customize the system around what you want to do, but that flexibility comes with more complexity and more setup overhead. OpenClaw 2.0, released this week , narrows that gap substantially. Its Quick Start can reuse an existing Claude Code or Codex login, and its browser app moves much of setup, plugin management and automation into a graphical or conversational interface. But the underlying distinction remains: OpenClaw gives you a user-owned Gateway that you choose how and where to run, while Grok Bot supplies and operates the computer as part of the product. Put another way, Grok Bot is a managed agent computer and OpenClaw is a user-owned agent platform. The Bot is the atomic unit But the Mac vs. Linux analogy only takes you so far. Grok Bot isn&#8217;t less programmable than OpenClaw, but it is programmable at a different level o…",
+      "summary": "SpaceXAI&#8217;s Grok Bot has the same level of programming power as OpenClaw, but it&#8217;s programmable at a different level of abstraction.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "browser"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
     {
       "id": "5f937eb86ecae69e",
       "date": "2026-09-06",
@@ -186,101 +281,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a0ccd6637f404646",
-      "date": "2026-09-06",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google AI Blog",
-      "sourceKey": "official:Google AI Blog",
-      "builderOrOrg": "Google",
-      "title": "Proactive cyber defense for governments and enterprises",
-      "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
-      "publishedAt": "2026-09-02T15:40:00.000Z",
-      "content": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
-      "summary": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "1105a4d11d3f8348",
-      "date": "2026-09-06",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "OpenClaw Power, MacBook Simplicity: Five Days With Grok Bot",
-      "url": "https://www.latent.space/p/grok-bot",
-      "publishedAt": "2026-09-05T15:01:02.000Z",
-      "content": "You open the plugin catalog in Grok Bot for the first time. You search for X, find the plugin, and click it. A login screen opens in your local browser. You sign in, and you&#8217;re connected. You don&#8217;t need to get into the code of the system. You don&#8217;t need to install an MCP server JSON or paste API credentials. You log in the way you do to any website or app, and Grok Bot is ready. I asked it to review my X posts and the things I&#8217;m interested in, then give me a daily brief of news and stories that are relevant to me. I also connected it to Freshdesk through my work account and set up a support bot that checks every fifteen minutes for newly opened support tickets. All it needed to replicate a real workflow, one that I spent my time and attention on, was for me to log in through the browser. That ease of setup is what&#8217;s really new here. Grok Bot turns agent configuration into a couple of clicks and a sign-in. Grok Bot feels like unboxing a new MacBook. You open it, turn it on, and have everything you need to get to work. Systems like OpenClaw feel like Linux : they give you more optionality and more freedom to customize the system around what you want to do, but that flexibility comes with more complexity and more setup overhead. OpenClaw 2.0, released this week , narrows that gap substantially. Its Quick Start can reuse an existing Claude Code or Codex login, and its browser app moves much of setup, plugin management and automation into a graphical or conversational interface. But the underlying distinction remains: OpenClaw gives you a user-owned Gateway that you choose how and where to run, while Grok Bot supplies and operates the computer as part of the product. Put another way, Grok Bot is a managed agent computer and OpenClaw is a user-owned agent platform. The Bot is the atomic unit But the Mac vs. Linux analogy only takes you so far. Grok Bot isn&#8217;t less programmable than OpenClaw, but it is programmable at a different level o…",
-      "summary": "SpaceXAI&#8217;s Grok Bot has the same level of programming power as OpenClaw, but it&#8217;s programmable at a different level of abstraction.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "browser"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
