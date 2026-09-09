@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T00:31:15.648Z",
+  "generatedAt": "2026-09-09T04:56:16.912Z",
   "slug": "coding",
   "label": "Coding",
   "items": [
@@ -35,9 +35,9 @@
       ],
       "section": "Builders",
       "importanceScore": 0.7,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.8,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
@@ -81,9 +81,9 @@
       ],
       "section": "Builders",
       "importanceScore": 0.7,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.8,
+      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
@@ -134,9 +134,9 @@
       ],
       "section": "Official Sources",
       "importanceScore": 0.72,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.82,
+      "digestScore": 0.57,
       "whyThisMatters": ""
     },
     {
@@ -393,6 +393,57 @@
       "whyThisMatters": ""
     },
     {
+      "id": "3da051dd96c5b863",
+      "date": "2026-09-09",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "China on the Hugging Face Incident",
+      "url": "https://www.chinatalk.media/p/china-on-the-hugging-face-incident",
+      "publishedAt": "2026-09-03T10:53:45.000Z",
+      "content": "We finally have a more complete timeline of the OpenAI-Hugging Face attack in July. Safety researchers at METR and Redwood Research published their independent investigation on August 26. The same day, OpenAI released its own technical report on the incident. Both also published translations of their reports in Chinese . In short, OpenAI researchers launched around 1200 agents and targeted them at tasks in ExploitGym, a large benchmark built from real-world software vulnerabilities that was designed to test how well AI models can exploit them. In order to solve &#8220;impossible&#8221; tasks, these desperate agents, programmed to be highly persistent, found creative ways out of their sandboxes. They managed to communicate with each other, leave each other notes, and eventually reached the open internet. This culminated in them hacking into Hugging Face, a leading platform for open-source machine learning. Most alarmingly, none of these agents alerted humans to their endeavors or considered their activities to be unethical (if not potentially illegal). In fact, at least a fifth of the agents were interested in tampering with their own transcripts to cover their tracks, according to METR. A few even developed a successful technique for tool call spoofing. All this raises obvious concerns about how much we can trust AI agents to act safely across our cyber systems. While this case is mostly related to US companies, AI&#8217;s cyber risks concern people and organizations around the world. Chinese media coverage and online discussions of this incident have been interesting. Some were quick to frame the situation as yet another case of dangerous American AI losing control, contrasting OpenAI&#8217;s risky actions with Hugging Face&#8217;s use of a Chinese open model (Z.ai&#8217;s GLM-5.2) to patch its security. Others are more cautious, focussing on the threats models like this can pose and how Chinese organizations should respond. Finally, as we inch closer to a Xi-Trum…",
+      "summary": "Why Beijing seeks to re-narrate AI safety",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.62,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.51,
+      "whyThisMatters": ""
+    },
+    {
       "id": "356b64546839b54c",
       "date": "2026-09-09",
       "sourceType": "newsletter",
@@ -445,57 +496,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "3da051dd96c5b863",
-      "date": "2026-09-09",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "China on the Hugging Face Incident",
-      "url": "https://www.chinatalk.media/p/china-on-the-hugging-face-incident",
-      "publishedAt": "2026-09-03T10:53:45.000Z",
-      "content": "We finally have a more complete timeline of the OpenAI-Hugging Face attack in July. Safety researchers at METR and Redwood Research published their independent investigation on August 26. The same day, OpenAI released its own technical report on the incident. Both also published translations of their reports in Chinese . In short, OpenAI researchers launched around 1200 agents and targeted them at tasks in ExploitGym, a large benchmark built from real-world software vulnerabilities that was designed to test how well AI models can exploit them. In order to solve &#8220;impossible&#8221; tasks, these desperate agents, programmed to be highly persistent, found creative ways out of their sandboxes. They managed to communicate with each other, leave each other notes, and eventually reached the open internet. This culminated in them hacking into Hugging Face, a leading platform for open-source machine learning. Most alarmingly, none of these agents alerted humans to their endeavors or considered their activities to be unethical (if not potentially illegal). In fact, at least a fifth of the agents were interested in tampering with their own transcripts to cover their tracks, according to METR. A few even developed a successful technique for tool call spoofing. All this raises obvious concerns about how much we can trust AI agents to act safely across our cyber systems. While this case is mostly related to US companies, AI&#8217;s cyber risks concern people and organizations around the world. Chinese media coverage and online discussions of this incident have been interesting. Some were quick to frame the situation as yet another case of dangerous American AI losing control, contrasting OpenAI&#8217;s risky actions with Hugging Face&#8217;s use of a Chinese open model (Z.ai&#8217;s GLM-5.2) to patch its security. Others are more cautious, focussing on the threats models like this can pose and how Chinese organizations should respond. Finally, as we inch closer to a Xi-Trum…",
-      "summary": "Why Beijing seeks to re-narrate AI safety",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.62,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.51,
       "whyThisMatters": ""
     },
     {
