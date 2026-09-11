@@ -1,71 +1,37 @@
 {
-  "generatedAt": "2026-09-10T06:06:58.057Z",
+  "generatedAt": "2026-09-11T00:31:02.036Z",
   "slug": "enterprise",
   "label": "Business AI",
   "items": [
     {
-      "id": "b9cfce3bb830f588",
-      "date": "2026-09-10",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Paul Christiano joins OpenAI Foundation Board",
-      "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-      "publishedAt": "2026-09-09T17:00:00.000Z",
-      "content": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
-      "summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
+      "id": "309d903328039c9f",
+      "date": "2026-09-11",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:claudeai",
+      "builderOrOrg": "Claude",
+      "title": "New on Claude Marketplace: @CrowdStrike, @cursor_ai, @FactoryAI, @GammaApp, and @vercel. Enterp…",
+      "url": "https://x.com/claudeai/status/2097718980437831935",
+      "publishedAt": "2026-09-09T16:09:13.000Z",
+      "content": "New on Claude Marketplace: @CrowdStrike, @cursor_ai, @FactoryAI, @GammaApp, and @vercel. Enterprises can now use their Anthropic spend commitment to buy more Claude-powered products and agents. Get started: https://t.co/L14yHet6h3 https://t.co/ZdoWCw7th3 https://t.co/zX1HFU1iG2",
+      "summary": "New on Claude Marketplace: @CrowdStrike, @cursor_ai, @FactoryAI, @GammaApp, and @vercel. Enterprises can now use their Anthropic spend commitment to buy more Claude-powered products and agents. Get started: https://t.co…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 2858,
+        "retweets": 206,
+        "replies": 158
+      },
       "topics": [
         {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.69,
-          "rationale": [
-            "safety",
-            "alignment"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
+          "slug": "agents",
+          "label": "AI Assistants",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "security"
+            "agent"
           ],
           "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "8fe92ffb2cfbc8c9",
-      "date": "2026-09-10",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Developing Enterprise Frontier Safeguards with our customers \\ Anthropic",
-      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
-      "publishedAt": null,
-      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
+        },
         {
           "slug": "enterprise",
           "label": "Business AI",
@@ -74,36 +40,18 @@
             "enterprise"
           ],
           "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
-          ],
-          "score": 1
         }
       ],
-      "section": "Official Sources",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
+      "section": "Builders",
+      "importanceScore": 0.92,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.53,
+      "digestScore": 0.95,
       "whyThisMatters": ""
     },
     {
       "id": "06e663c935df6e37",
-      "date": "2026-09-10",
+      "date": "2026-09-11",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -155,8 +103,112 @@
       "whyThisMatters": ""
     },
     {
+      "id": "8fe92ffb2cfbc8c9",
+      "date": "2026-09-11",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Developing Enterprise Frontier Safeguards with our customers \\ Anthropic",
+      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+      "publishedAt": null,
+      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "72aa7f8dbd9430ab",
+      "date": "2026-09-11",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "The King of Unitree",
+      "url": "https://www.chinatalk.media/p/the-king-of-unitree",
+      "publishedAt": "2026-09-10T11:08:46.000Z",
+      "content": "On August 31, Beijing-based Caijing Magazine &#36130;&#32463;&#26434;&#24535; published &#8220;The King of Unitree,&#8221; a feature about CEO Wang Xingxing&#8217;s leadership at Unitree and the robotics company&#8217;s recent IPO travails. 1 The details in it are amazing, and we&#8217;ve decided to publish an abridged translation. Read on to learn about: Just how much Wang is obsessed with cutting costs; What it was like bringing humanoids onto the Spring Festival Gala stage; Unitree&#8217;s managerial structure; And how the IPO has &#8212; and hasn&#8217;t &#8212; changed Unitree employees&#8217; lives. Footnotes, bold markings, and block-quote comments were added by ChinaTalk editors. The translation was drafted with Claude Opus 5 and revised by the ChinaTalk team. But first, we&#8217;re running a personal classified from a real life friend of Jordan! I&#8217;m 30, a straight guy based in DC who works in tech and national security policy. Most of my &#8220;free&#8221; time is spent outside. That&#8217;s a lot of 6am long runs, and hauling a camera up mountains that don&#8217;t require it. Date me if you&#8217;re looking for someone who&#8217;ll plan the trip, carry a heavy pack at a price Unitree can&#8217;t beat, cook when we get back, probably lose to you at every sport that isn&#8217;t running slowly for a very long time, and always give you that Strava kudos. Respond to this email if you&#8217;d like to learn more about a person I strongly vouch for as a good human being and hang! By Tang Min&#8217;an &#21776;&#25935;&#23433; and Huang Siyun &#40644;&#24605;&#38901;, researchers at Caijing Employees say that at Unitree Robotics (hereafter &#8220;Unitree&#8221;), any expense reimbursement over 100 yuan requires Wang Xingxing&#8217;s approval. Wang Xingxing is the founder of Unitree Robotics Co., Ltd. Since establishing the company in August 2016, he has served as its chairman, general manager, and chief technology officer. On August 19, 2026, Unitree listed o…",
+      "summary": "the journey to incredibly cheap robots + date my friend in DC!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "policy"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.66,
+      "whyThisMatters": ""
+    },
+    {
       "id": "af587a4c19879bdd",
-      "date": "2026-09-10",
+      "date": "2026-09-11",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "ChinaTalk",
@@ -204,6 +256,51 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "b9cfce3bb830f588",
+      "date": "2026-09-10",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Paul Christiano joins OpenAI Foundation Board",
+      "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+      "publishedAt": "2026-09-09T17:00:00.000Z",
+      "content": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+      "summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.69,
+          "rationale": [
+            "safety",
+            "alignment"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.53,
       "whyThisMatters": ""
     },
     {
@@ -2344,108 +2441,6 @@
           "confidence": 0.5700000000000001,
           "rationale": [
             "open-source"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.78,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.61,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "31cf857f0c5b4f2d",
-      "date": "2026-08-23",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:claudeai",
-      "builderOrOrg": "Claude",
-      "title": "Point Claude Security at a GitHub repo and Mythos scans for vulnerabilities tracing data across…",
-      "url": "https://x.com/claudeai/status/2090852316328902930",
-      "publishedAt": "2026-08-21T17:23:33.000Z",
-      "content": "Point Claude Security at a GitHub repo and Mythos scans for vulnerabilities tracing data across files and reasoning about how components interact. Each finding comes back with a CWE category, confidence and severity ratings, and a suggested fix.",
-      "summary": "Point Claude Security at a GitHub repo and Mythos scans for vulnerabilities tracing data across files and reasoning about how components interact. Each finding comes back with a CWE category, confidence and severity rat…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 417,
-        "retweets": 19,
-        "replies": 12
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "github"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.78,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.61,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a87108d1827ab7ac",
-      "date": "2026-08-22",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:bcherny",
-      "builderOrOrg": "Boris Cherny",
-      "title": "We've been working on this with customers for a while. Mythos-class models require additional s…",
-      "url": "https://x.com/bcherny/status/2090537902912815536",
-      "publishedAt": "2026-08-20T20:34:11.000Z",
-      "content": "We've been working on this with customers for a while. Mythos-class models require additional safety measures and enterprises need to meet their own privacy and compliance rules. Customers can own and control their own data and Anthropic retains none. It’s coming this fall. https://t.co/vH8CMhxhdB",
-      "summary": "We've been working on this with customers for a while. Mythos-class models require additional safety measures and enterprises need to meet their own privacy and compliance rules. Customers can own and control their own…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 1671,
-        "retweets": 95,
-        "replies": 140
-      },
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.69,
-          "rationale": [
-            "enterprise",
-            "compliance"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
           ],
           "score": 1
         }

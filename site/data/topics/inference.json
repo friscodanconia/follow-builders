@@ -1,8 +1,61 @@
 {
-  "generatedAt": "2026-09-09T06:07:45.105Z",
+  "generatedAt": "2026-09-11T00:31:02.036Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
+    {
+      "id": "01e01fa2f12f248f",
+      "date": "2026-09-11",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "The Open Source AI Stack",
+      "url": "https://www.together.ai/blog/the-open-source-ai-stack",
+      "publishedAt": "2026-09-09T00:00:00.000Z",
+      "content": "A deep dive into the open model AI stack — model, inference, gateways and routers, harness, and tools — and how keeping each layer independent lets you swap in a new open model in minutes instead of rebuilding your workflow.",
+      "summary": "A deep dive into the open model AI stack — model, inference, gateways and routers, harness, and tools — and how keeping each layer independent lets you swap in a new open model in minutes instead of rebuilding your workflow.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open source"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
     {
       "id": "4f72fe6e39dbf561",
       "date": "2026-09-09",
@@ -2293,43 +2346,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "aa5567e1750d188a",
-      "date": "2026-07-02",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:amasad",
-      "builderOrOrg": "Amjad Masad",
-      "title": "AI is expensive to run partly because most workloads today run on generic hardware designed pre…",
-      "url": "https://x.com/amasad/status/2071992110132117740",
-      "publishedAt": "2026-06-30T16:19:49.000Z",
-      "content": "AI is expensive to run partly because most workloads today run on generic hardware designed pre-LLMs. Etched is the first system designed from the ground up for modern inference. https://t.co/KluYZIZATE",
-      "summary": "AI is expensive to run partly because most workloads today run on generic hardware designed pre-LLMs. Etched is the first system designed from the ground up for modern inference. https://t.co/KluYZIZATE",
-      "regionTags": [],
-      "metrics": {
-        "likes": 1419,
-        "retweets": 75,
-        "replies": 45
-      },
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]
