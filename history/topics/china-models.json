@@ -1,11 +1,64 @@
 {
-  "generatedAt": "2026-09-12T05:57:30.681Z",
+  "generatedAt": "2026-09-13T00:31:00.036Z",
   "slug": "china-models",
   "label": "Chinese AI",
   "items": [
     {
+      "id": "295e82dd7009933a",
+      "date": "2026-09-13",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] DeepSeek v4.1-Flash: 763B-P8B-D16B novel causal Encoder–Decoder architecture with vision marks the Return of the Whale",
+      "url": "https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b",
+      "publishedAt": "2026-09-12T05:56:05.000Z",
+      "content": "We are late to this but better than never. Have been busy finalizing the second AIE NYC , which is happening in one month. Get your tix before prices go up - we will announce speakers from Bridgewater, Ramp, Coatue, Mastercard, Vanguard, Coinbase, Blackrock, Fidelity, Point72, Capital One, JPMC, Wells Fargo, Bloomberg, A24 (yes the movie studio) Labs, Two Sigma, Apollo Global, and more next week! The way DeepSeek pursues their research agenda is nothing short of fascinating. In between major DeepSeek versions, from v2 to v3 to v4, they have released intermediate papers with a hyperfocused architectural improvement and basically a 100% hit rate, from Math (esp GRPO ) , Coder , and R1 , not to mention more recent work on Manifold Constrained Hyperconnections and Compressed Sparse Attention . After the enormous attention in 1H2025 from the R1 paper, DeepSeek started laying low, and for about the past year, was happy to let peers like GLM and Kimi take the lead on Open Models. It looked dicey for a little bit, but true whalebros never wavered, and now DeepSeek are sending a weirdly mixed message by doing a completely new architecture, retiring V4 Pro and going all in on this new model, and yet only titling it v4.1 Flash, it seems to be a test of whether or not you know how to read through the basic headlines to understand true advances. Yes, v4.1 Flash is technically behind other open models in some benchmarks. But that&#8217;s because we don&#8217;t yet have benchmarks that concisely capture what v4.1, and the broader research agenda of DeepSeek, is aiming for - the most creative and efficient use of context we have ever seen openly explained. If you are the sort to only read model versions and benchmark headlines, you are exactly the type of superficial person that DeepSeek is looking to fool. The best way to understand DeepSeek&#8217;s enormous advance here is to look at Sebastian&#8217;s meme: Same model name, but hardly a 0.1 bump by anyone&#8217;s standards, and…",
+      "summary": "We agree with Sebastian: this should have been DeepSeek v5",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "paper"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "china-models",
+          "label": "Chinese AI",
+          "confidence": 0.69,
+          "rationale": [
+            "deepseek",
+            "kimi"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Chinese Models",
+      "importanceScore": 0.55,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.71,
+      "whyThisMatters": ""
+    },
+    {
       "id": "6d1949468c28ae37",
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "sourceType": "blog",
       "sourceGroup": "china",
       "sourceName": "DeepSeek News",
@@ -2378,43 +2431,6 @@
       "publishedAt": null,
       "content": "🚀 Introducing DeepSeek-V3.2-Exp — our latest experimental model!",
       "summary": "🚀 Introducing DeepSeek-V3.2-Exp — our latest experimental model!",
-      "regionTags": [
-        "china-models",
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "china-models",
-          "label": "Chinese AI",
-          "confidence": 0.81,
-          "rationale": [
-            "deepseek",
-            "china-models"
-          ],
-          "score": 3
-        }
-      ],
-      "section": "Chinese Models",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "2cbbe9972d1c085e",
-      "date": "2026-04-08",
-      "sourceType": "blog",
-      "sourceGroup": "china",
-      "sourceName": "DeepSeek News",
-      "sourceKey": "china:DeepSeek News",
-      "builderOrOrg": "DeepSeek",
-      "title": "DeepSeek-V3.1-Terminus | DeepSeek API Docs",
-      "url": "https://api-docs.deepseek.com/news/news250922",
-      "publishedAt": null,
-      "content": "🚀 DeepSeek-V3.1 → DeepSeek-V3.1-Terminus",
-      "summary": "🚀 DeepSeek-V3.1 → DeepSeek-V3.1-Terminus",
       "regionTags": [
         "china-models",
         "open-models"
