@@ -1,10 +1,139 @@
 {
-  "generatedAt": "2026-09-17T06:14:22.280Z",
+  "generatedAt": "2026-09-18T00:30:59.074Z",
   "handle": "trq212",
   "name": "Thariq",
   "itemCount": 50,
-  "latestDate": "2026-09-17",
+  "latestDate": "2026-09-18",
   "items": [
+    {
+      "id": "4f6aa498a2ac2319",
+      "date": "2026-09-18",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:trq212",
+      "builderOrOrg": "Thariq",
+      "title": "I think Claude Managed Agents strikes the right balance here, the sandbox is optional and can b…",
+      "url": "https://x.com/trq212/status/2100315538472009897",
+      "publishedAt": "2026-09-16T20:07:01.000Z",
+      "content": "I think Claude Managed Agents strikes the right balance here, the sandbox is optional and can be spun up independently of the rest of the agent loop. I recently ported an old project that was focused on bash tool calling to CMA and it worked well!",
+      "summary": "I think Claude Managed Agents strikes the right balance here, the sandbox is optional and can be spun up independently of the rest of the agent loop. I recently ported an old project that was focused on bash tool callin…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 46,
+        "retweets": 1,
+        "replies": 6
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tool calling"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "798358a1f9446383",
+      "date": "2026-09-18",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:trq212",
+      "builderOrOrg": "Thariq",
+      "title": "I think increasingly you can just give Claude tools shaped in the way you want vs tricking it w…",
+      "url": "https://x.com/trq212/status/2100315537251463523",
+      "publishedAt": "2026-09-16T20:07:00.000Z",
+      "content": "I think increasingly you can just give Claude tools shaped in the way you want vs tricking it with a layer of indirection e.g. for data storage do you really want a file system or do you want an API to a database this is again, an update to me from last year",
+      "summary": "I think increasingly you can just give Claude tools shaped in the way you want vs tricking it with a layer of indirection e.g. for data storage do you really want a file system or do you want an API to a database this i…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 63,
+        "retweets": 0,
+        "replies": 6
+      },
+      "topics": [
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "03918d26cc01f891",
+      "date": "2026-09-18",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:trq212",
+      "builderOrOrg": "Thariq",
+      "title": "related to this- I think bash is no longer all you need, if your goal is just reliably tool cal…",
+      "url": "https://x.com/trq212/status/2100315535758217422",
+      "publishedAt": "2026-09-16T20:07:00.000Z",
+      "content": "related to this- I think bash is no longer all you need, if your goal is just reliably tool calling but sandboxes + bash are still good for work that involves code generation & execution https://t.co/xTptTmEmCE",
+      "summary": "related to this- I think bash is no longer all you need, if your goal is just reliably tool calling but sandboxes + bash are still good for work that involves code generation & execution https://t.co/xTptTmEmCE",
+      "regionTags": [],
+      "metrics": {
+        "likes": 356,
+        "retweets": 13,
+        "replies": 50
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tool calling"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
     {
       "id": "12040d4df5e99b1e",
       "date": "2026-09-17",
@@ -1562,97 +1691,6 @@
           "score": 1
         }
       ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "56f692a71b67a214",
-      "date": "2026-07-21",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:trq212",
-      "builderOrOrg": "Thariq",
-      "title": "if you've run into this, please restart Claude Code, fix should be propogating https://t.co/MJ4…",
-      "url": "https://x.com/trq212/status/2079103743535280508",
-      "publishedAt": "2026-07-20T07:18:54.000Z",
-      "content": "if you've run into this, please restart Claude Code, fix should be propogating https://t.co/MJ49i4suEb",
-      "summary": "if you've run into this, please restart Claude Code, fix should be propogating https://t.co/MJ49i4suEb",
-      "regionTags": [],
-      "metrics": {
-        "likes": 39,
-        "retweets": 2,
-        "replies": 12
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.68,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.55,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "6e11fe9059d40042",
-      "date": "2026-07-21",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:trq212",
-      "builderOrOrg": "Thariq",
-      "title": "working more on a post about what we learned doing this and how you can apply this to your skil…",
-      "url": "https://x.com/trq212/status/2078901672441790818",
-      "publishedAt": "2026-07-19T17:55:57.000Z",
-      "content": "working more on a post about what we learned doing this and how you can apply this to your skills and system prompts https://t.co/ChfVbKEGic",
-      "summary": "working more on a post about what we learned doing this and how you can apply this to your skills and system prompts https://t.co/ChfVbKEGic",
-      "regionTags": [],
-      "metrics": {
-        "likes": 1053,
-        "retweets": 45,
-        "replies": 48
-      },
-      "topics": [],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "2dff2186f40f93c4",
-      "date": "2026-07-20",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:trq212",
-      "builderOrOrg": "Thariq",
-      "title": "This was due to a heroic effort by many people at Anthropic working sometimes literally around…",
-      "url": "https://x.com/trq212/status/2078514180051906864",
-      "publishedAt": "2026-07-18T16:16:12.000Z",
-      "content": "This was due to a heroic effort by many people at Anthropic working sometimes literally around the clock It was not at all clear that we'd be able to do this in time, and so proud of everyone who made it happen. Enjoy Fable. https://t.co/qAtqPadj3L",
-      "summary": "This was due to a heroic effort by many people at Anthropic working sometimes literally around the clock It was not at all clear that we'd be able to do this in time, and so proud of everyone who made it happen. Enjoy F…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 6723,
-        "retweets": 146,
-        "replies": 864
-      },
-      "topics": [],
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
