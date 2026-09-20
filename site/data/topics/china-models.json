@@ -1,11 +1,67 @@
 {
-  "generatedAt": "2026-09-19T06:03:17.393Z",
+  "generatedAt": "2026-09-20T00:31:04.733Z",
   "slug": "china-models",
   "label": "Chinese AI",
   "items": [
     {
+      "id": "304a2da40632e5ef",
+      "date": "2026-09-20",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "Looks like today may be a record day for token volume % of open models on Vercel AI Gateway: 🟦…",
+      "url": "https://x.com/rauchg/status/2101186741042663579",
+      "publishedAt": "2026-09-19T05:48:51.000Z",
+      "content": "Looks like today may be a record day for token volume % of open models on Vercel AI Gateway: 🟦 Open 78.4% 🟨 Closed 21.6% While spend 💲 usually tells a different story, #3 and #4 today are Moonshot AI & DeepSeek. Adding Z⁠.ai, their combined spend surpasses OpenAI (#2). (Do note that's the spend for inference of the model across providers (mostly in the US), not revenue going directly to the open weight labs.)",
+      "summary": "Looks like today may be a record day for token volume % of open models on Vercel AI Gateway: 🟦 Open 78.4% 🟨 Closed 21.6% While spend 💲 usually tells a different story, #3 and #4 today are Moonshot AI & DeepSeek. Addi…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 91,
+        "retweets": 3,
+        "replies": 24
+      },
+      "topics": [
+        {
+          "slug": "china-models",
+          "label": "Chinese AI",
+          "confidence": 0.69,
+          "rationale": [
+            "deepseek",
+            "moonshot"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Chinese Models",
+      "importanceScore": 0.85,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
       "id": "bf07e07235d8601a",
-      "date": "2026-09-19",
+      "date": "2026-09-20",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "ChinaTalk",
@@ -2415,61 +2471,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "3bcc33b54638c20d",
-      "date": "2026-04-08",
-      "sourceType": "blog",
-      "sourceGroup": "china",
-      "sourceName": "DeepSeek News",
-      "sourceKey": "china:DeepSeek News",
-      "builderOrOrg": "DeepSeek",
-      "title": "DeepSeek-V3.2 Release | DeepSeek API Docs",
-      "url": "https://api-docs.deepseek.com/news/news251201",
-      "publishedAt": null,
-      "content": "🚀 Launching DeepSeek-V3.2 & DeepSeek-V3.2-Speciale — Reasoning-first models built for agents!",
-      "summary": "🚀 Launching DeepSeek-V3.2 & DeepSeek-V3.2-Speciale — Reasoning-first models built for agents!",
-      "regionTags": [
-        "china-models",
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "china-models",
-          "label": "Chinese AI",
-          "confidence": 0.81,
-          "rationale": [
-            "deepseek",
-            "china-models"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "reasoning",
-          "label": "AI Thinking",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "reasoning"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Chinese Models",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.65,
       "whyThisMatters": ""
     }
   ]
