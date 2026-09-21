@@ -1,8 +1,168 @@
 {
-  "generatedAt": "2026-09-20T06:28:32.418Z",
+  "generatedAt": "2026-09-21T00:31:00.439Z",
   "slug": "multimodal",
   "label": "Images, Audio & Video",
   "items": [
+    {
+      "id": "b28ec12dff083e8a",
+      "date": "2026-09-21",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Here are 6 Clones of Jev in 2 days",
+      "url": "https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in",
+      "publishedAt": "2026-09-19T05:48:28.000Z",
+      "content": "We covered Jev&#8217;s launch on Wednesday , and they have completely taken over the timeline, with 36M views of their launch video (by comparison, OpenAI&#8217;s Navier Stokes result got 74M views, and Anthropic&#8217;s Fable 5 got 57M views) in just two days. @typesafeai reached ~13% of teams, 2x the GPT-5.6 family and 6x Fable 5.1. \",\"username\":\"vercel\",\"name\":\"Vercel\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/1767351110228918272/3Pndc5OT_normal.png\",\"date\":\"2026-09-18T22:34:10.000Z\",\"photos\":[{\"img_url\":\"https://pbs.substack.com/media/HSiGtZba0AEezOP.jpg\",\"link_url\":\"https://t.co/kVEuLM1npu\"}],\"quoted_tweet\":{},\"reply_count\":15,\"retweet_count\":18,\"like_count\":220,\"impression_count\":21264,\"expanded_url\":null,\"video_url\":null,\"video_preview_media_key\":null,\"belowTheFold\":false}\" data-component-name=\"Twitter2ToDOM\"> It wasn&#8217;t open source 1 , so it invited tons of speculation and great demos and examples and salty schmidhubers and bad takes , which of course only fed the hype. Here&#8217;s a list. The best guesses are ModernBert and Diffusion: Laya : 421M params, ModernBERT -large encoder with two added transformer layers that score user-supplied options, PPO over sequence embeddings to output turn-by-turn conversion trajectories (probabilities from 0.0 to 1.0). salty that he did not get recognition; claims RLCD without justification confidence is entropy-based, not calibrated DiffusionGemmaJev: tackling this from a Diffusion model basis. Pretty close on benchmarks Bespoke Nimble : LoRA finetune of Qwen3.5-9B, using contrastive data curation. ( close but sllightly lower on benchmarks ) SemIf (fka OpenJev) ( HF ): 4B and 35B causal Qwen3.5 backbone with a tiny three-class NLI classifier on the last token. comparison vs Laya Jevlike : 40K byte embedding lightweight option-attention model. Each candidate becomes a query that reads from a shared context representation, then receives a score. Kev-0.5B : LoRA adapter + a small readout head on top…",
+      "summary": "Imitation is the sincerest form of Flattery",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "image",
+            "video"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open source"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "5e77b22277c94b86",
+      "date": "2026-09-21",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Reality Checks on AI News (Yegge shuts down Gas Town, Databricks’ +60% Astra cost)",
+      "url": "https://www.latent.space/p/ainews-reality-checks-on-ai-news",
+      "publishedAt": "2026-09-17T07:28:25.000Z",
+      "content": "Steve Yegge has been very popular and loud in his gung ho adoption of tokenmaxxing, so it is sobering to see him now shut down Gas Town and admit that despite spending many thousands a month on coding agent subscriptions&#8230; he only ever built Gas Town with it: danluu.com/ai-coding/ , I mentioned not finding these ultra vibed orchestrators useful b/c reliability (w.r.t. completing tasks). Turns out the author of the most famous one had the same issue. \",\"username\":\"danluu\",\"name\":\"Dan Luu\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/1472713753464500227/HJQvY70g_normal.png\",\"date\":\"2026-09-15T09:59:03.000Z\",\"photos\":[{\"img_url\":\"https://pbs.substack.com/media/HSP7dfeaEAAQZs_.png\",\"link_url\":\"https://t.co/T0Paf6Mnpt\"}],\"quoted_tweet\":{},\"reply_count\":35,\"retweet_count\":51,\"like_count\":832,\"impression_count\":87619,\"expanded_url\":null,\"video_url\":null,\"video_preview_media_key\":null,\"belowTheFold\":false}\" data-component-name=\"Twitter2ToDOM\"> Similarly, while Astra is often reportedly cheaper than Sol in terms of Cost per Task by many benchmarks (due to token efficiency), it is not universally cheaper everywhere, as Databricks is now reporting +60% overall spend when their AI Engineers switch to Astra. AI News for 9/15/2026-9/16/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Top tweets (by engagement) OpenAI&#8217;s misalignment disclosure launch : @OpenAI published a formal framework for tracking, investigating, and disclosing model misalignment incidents, plus six case reports from the last six months. The move was widely read as a substantive response to transparency criticism following recent agent incidents. MiMo-V2.6 live RL dashboard : @_LuoFuli announced Xiaomi&#8217;s MiMo-V2.6 RL run with unusually high operational transparency: live training stats, ha…",
+      "summary": "A dash of cold water keeps the foomers away.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "repo"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "image",
+            "video"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "benchmark",
+            "imo"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "08ed7cb693019858",
+      "date": "2026-09-21",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Jev: a “System One Model” that only decides/classifies/routes/scores — >100x faster, >200x cheaper than small frontier LLMs",
+      "url": "https://www.latent.space/p/ainews-jev-a-system-one-model-that",
+      "publishedAt": "2026-09-16T11:09:53.000Z",
+      "content": "AIEi Paris (Sep 23-24) and AIE NYC (Oct 12-14) is >50% sold out, AIE CODE ( Nov 10-12 in SF ) and AIEi Shanghai (Nov 5-6) are next on deck before AIEi Sydney (Dec 7-8 alongside NeurIPS) closes the year! It&#8217;s very rare that a new startup launch will make title story, especially on a day when Gemini 3.8 Live and Periodic Labs had strong announcements, however, TypeSafe&#8217;s launch has sat comfortably atop Hacker News all day. We were fortunate to preview them last month at AIE pre launch: and now their announcement ( blog , evals , docs ) has gotten millions of views: For those used to traditional autoregressive LLMs, a fast model that cannot code and doesn&#8217;t reason might feel counterintuitive in its usefulness. That&#8217;s exactly what the team is aiming for in complementing &#8220;System Two&#8221; slower LLMs: you let go of strings and chat, and you get 1) parallel sampling, 2) &#8220;no hallucination&#8221;, 3) calibration. The system was trained through &#8220;RLCD&#8221; - calibrated decisions : a topic that Clementine from HuggingFace had highlighted as one of the important research frontiers in our pod: Arenas >> LLM-as-Judge\",\"publishedBylines\":[],\"post_date\":\"2024-07-12T22:38:55.659Z\",\"cover_image\":\"https://substack-video.s3.amazonaws.com/video_upload/post/146497374/5c7f4777-d4e7-4800-b146-38eb15e856ec/transcoded-1721059050.png\",\"cover_image_alt\":null,\"canonical_url\":\"https://www.latent.space/p/benchmarks-201\",\"section_name\":null,\"video_upload_id\":null,\"id\":146497374,\"type\":\"podcast\",\"reaction_count\":18,\"comment_count\":0,\"publication_id\":1084089,\"publication_name\":\"Latent.Space\",\"publication_logo_url\":\"https://substackcdn.com/image/fetch/$s_!DbYa!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png\",\"belowTheFold\":true,\"youtube_url\":null,\"show_links\":null,\"feed_url\":null}\"> AI News for 9/14/2026-9/15/2026. We checked 12 subreddits, 5…",
+      "summary": "congrats to TypeSafe!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "publication"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "image",
+            "video"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "benchmark",
+            "eval"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
     {
       "id": "9275d245b8126bea",
       "date": "2026-09-20",
@@ -99,166 +259,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.44,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "b28ec12dff083e8a",
-      "date": "2026-09-20",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Here are 6 Clones of Jev in 2 days",
-      "url": "https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in",
-      "publishedAt": "2026-09-19T05:48:28.000Z",
-      "content": "We covered Jev&#8217;s launch on Wednesday , and they have completely taken over the timeline, with 36M views of their launch video (by comparison, OpenAI&#8217;s Navier Stokes result got 74M views, and Anthropic&#8217;s Fable 5 got 57M views) in just two days. @typesafeai reached ~13% of teams, 2x the GPT-5.6 family and 6x Fable 5.1. \",\"username\":\"vercel\",\"name\":\"Vercel\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/1767351110228918272/3Pndc5OT_normal.png\",\"date\":\"2026-09-18T22:34:10.000Z\",\"photos\":[{\"img_url\":\"https://pbs.substack.com/media/HSiGtZba0AEezOP.jpg\",\"link_url\":\"https://t.co/kVEuLM1npu\"}],\"quoted_tweet\":{},\"reply_count\":15,\"retweet_count\":18,\"like_count\":220,\"impression_count\":21264,\"expanded_url\":null,\"video_url\":null,\"video_preview_media_key\":null,\"belowTheFold\":false}\" data-component-name=\"Twitter2ToDOM\"> It wasn&#8217;t open source 1 , so it invited tons of speculation and great demos and examples and salty schmidhubers and bad takes , which of course only fed the hype. Here&#8217;s a list. The best guesses are ModernBert and Diffusion: Laya : 421M params, ModernBERT -large encoder with two added transformer layers that score user-supplied options, PPO over sequence embeddings to output turn-by-turn conversion trajectories (probabilities from 0.0 to 1.0). salty that he did not get recognition; claims RLCD without justification confidence is entropy-based, not calibrated DiffusionGemmaJev: tackling this from a Diffusion model basis. Pretty close on benchmarks Bespoke Nimble : LoRA finetune of Qwen3.5-9B, using contrastive data curation. ( close but sllightly lower on benchmarks ) SemIf (fka OpenJev) ( HF ): 4B and 35B causal Qwen3.5 backbone with a tiny three-class NLI classifier on the last token. comparison vs Laya Jevlike : 40K byte embedding lightweight option-attention model. Each candidate becomes a query that reads from a shared context representation, then receives a score. Kev-0.5B : LoRA adapter + a small readout head on top…",
-      "summary": "Imitation is the sincerest form of Flattery",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.69,
-          "rationale": [
-            "image",
-            "video"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open source"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "5e77b22277c94b86",
-      "date": "2026-09-20",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Reality Checks on AI News (Yegge shuts down Gas Town, Databricks’ +60% Astra cost)",
-      "url": "https://www.latent.space/p/ainews-reality-checks-on-ai-news",
-      "publishedAt": "2026-09-17T07:28:25.000Z",
-      "content": "Steve Yegge has been very popular and loud in his gung ho adoption of tokenmaxxing, so it is sobering to see him now shut down Gas Town and admit that despite spending many thousands a month on coding agent subscriptions&#8230; he only ever built Gas Town with it: danluu.com/ai-coding/ , I mentioned not finding these ultra vibed orchestrators useful b/c reliability (w.r.t. completing tasks). Turns out the author of the most famous one had the same issue. \",\"username\":\"danluu\",\"name\":\"Dan Luu\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/1472713753464500227/HJQvY70g_normal.png\",\"date\":\"2026-09-15T09:59:03.000Z\",\"photos\":[{\"img_url\":\"https://pbs.substack.com/media/HSP7dfeaEAAQZs_.png\",\"link_url\":\"https://t.co/T0Paf6Mnpt\"}],\"quoted_tweet\":{},\"reply_count\":35,\"retweet_count\":51,\"like_count\":832,\"impression_count\":87619,\"expanded_url\":null,\"video_url\":null,\"video_preview_media_key\":null,\"belowTheFold\":false}\" data-component-name=\"Twitter2ToDOM\"> Similarly, while Astra is often reportedly cheaper than Sol in terms of Cost per Task by many benchmarks (due to token efficiency), it is not universally cheaper everywhere, as Databricks is now reporting +60% overall spend when their AI Engineers switch to Astra. AI News for 9/15/2026-9/16/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Top tweets (by engagement) OpenAI&#8217;s misalignment disclosure launch : @OpenAI published a formal framework for tracking, investigating, and disclosing model misalignment incidents, plus six case reports from the last six months. The move was widely read as a substantive response to transparency criticism following recent agent incidents. MiMo-V2.6 live RL dashboard : @_LuoFuli announced Xiaomi&#8217;s MiMo-V2.6 RL run with unusually high operational transparency: live training stats, ha…",
-      "summary": "A dash of cold water keeps the foomers away.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "repo"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.69,
-          "rationale": [
-            "image",
-            "video"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "benchmark",
-            "imo"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "08ed7cb693019858",
-      "date": "2026-09-20",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Jev: a “System One Model” that only decides/classifies/routes/scores — >100x faster, >200x cheaper than small frontier LLMs",
-      "url": "https://www.latent.space/p/ainews-jev-a-system-one-model-that",
-      "publishedAt": "2026-09-16T11:09:53.000Z",
-      "content": "AIEi Paris (Sep 23-24) and AIE NYC (Oct 12-14) is >50% sold out, AIE CODE ( Nov 10-12 in SF ) and AIEi Shanghai (Nov 5-6) are next on deck before AIEi Sydney (Dec 7-8 alongside NeurIPS) closes the year! It&#8217;s very rare that a new startup launch will make title story, especially on a day when Gemini 3.8 Live and Periodic Labs had strong announcements, however, TypeSafe&#8217;s launch has sat comfortably atop Hacker News all day. We were fortunate to preview them last month at AIE pre launch: and now their announcement ( blog , evals , docs ) has gotten millions of views: For those used to traditional autoregressive LLMs, a fast model that cannot code and doesn&#8217;t reason might feel counterintuitive in its usefulness. That&#8217;s exactly what the team is aiming for in complementing &#8220;System Two&#8221; slower LLMs: you let go of strings and chat, and you get 1) parallel sampling, 2) &#8220;no hallucination&#8221;, 3) calibration. The system was trained through &#8220;RLCD&#8221; - calibrated decisions : a topic that Clementine from HuggingFace had highlighted as one of the important research frontiers in our pod: Arenas >> LLM-as-Judge\",\"publishedBylines\":[],\"post_date\":\"2024-07-12T22:38:55.659Z\",\"cover_image\":\"https://substack-video.s3.amazonaws.com/video_upload/post/146497374/5c7f4777-d4e7-4800-b146-38eb15e856ec/transcoded-1721059050.png\",\"cover_image_alt\":null,\"canonical_url\":\"https://www.latent.space/p/benchmarks-201\",\"section_name\":null,\"video_upload_id\":null,\"id\":146497374,\"type\":\"podcast\",\"reaction_count\":18,\"comment_count\":0,\"publication_id\":1084089,\"publication_name\":\"Latent.Space\",\"publication_logo_url\":\"https://substackcdn.com/image/fetch/$s_!DbYa!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png\",\"belowTheFold\":true,\"youtube_url\":null,\"show_links\":null,\"feed_url\":null}\"> AI News for 9/14/2026-9/15/2026. We checked 12 subreddits, 5…",
-      "summary": "congrats to TypeSafe!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "publication"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.69,
-          "rationale": [
-            "image",
-            "video"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "benchmark",
-            "eval"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
