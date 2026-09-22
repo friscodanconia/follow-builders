@@ -1,46 +1,66 @@
 {
-  "generatedAt": "2026-09-21T06:35:33.574Z",
+  "generatedAt": "2026-09-22T00:31:02.921Z",
   "slug": "safety",
   "label": "AI Safety",
   "items": [
     {
-      "id": "81b92078165ce4c5",
-      "date": "2026-09-21",
+      "id": "e5feb467dcd2cb39",
+      "date": "2026-09-22",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
       "sourceKey": "official:OpenAI News",
       "builderOrOrg": "OpenAI",
-      "title": "Introducing the Australian Youth Safety Blueprint",
-      "url": "https://openai.com/index/australian-youth-safety-blueprint",
-      "publishedAt": "2026-09-18T12:00:00.000Z",
-      "content": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
-      "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+      "title": "Building standards for the next phase of AI",
+      "url": "https://openai.com/index/building-standards-next-phase-ai",
+      "publishedAt": "2026-09-21T10:00:00.000Z",
+      "content": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+      "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
       "regionTags": [
         "us-model-labs"
       ],
       "metrics": {},
       "topics": [
         {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "eval",
+            "evaluation"
+          ],
+          "score": 2
+        },
+        {
           "slug": "safety",
           "label": "AI Safety",
+          "confidence": 0.69,
+          "rationale": [
+            "safety",
+            "governance"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "safety"
+            "repo"
           ],
           "score": 1
         }
       ],
       "section": "Official Sources",
       "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.48,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
       "whyThisMatters": ""
     },
     {
       "id": "06e663c935df6e37",
-      "date": "2026-09-21",
+      "date": "2026-09-22",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -93,7 +113,7 @@
     },
     {
       "id": "97feb3ef1a0e889c",
-      "date": "2026-09-21",
+      "date": "2026-09-22",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -138,7 +158,7 @@
     },
     {
       "id": "8fe92ffb2cfbc8c9",
-      "date": "2026-09-21",
+      "date": "2026-09-22",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -185,8 +205,43 @@
       "section": "Official Sources",
       "importanceScore": 0.66,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "81b92078165ce4c5",
+      "date": "2026-09-21",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Introducing the Australian Youth Safety Blueprint",
+      "url": "https://openai.com/index/australian-youth-safety-blueprint",
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "content": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+      "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.48,
       "whyThisMatters": ""
     },
     {
@@ -2229,59 +2284,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "dbba211fb754e07f",
-      "date": "2026-08-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Pacing model development in an era of cyber-critical capabilities",
-      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "publishedAt": "2026-08-18T11:00:00.000Z",
-      "content": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
-      "summary": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "alignment"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
       "whyThisMatters": ""
     }
   ]
