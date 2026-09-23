@@ -1,57 +1,11 @@
 {
-  "generatedAt": "2026-09-22T06:23:37.606Z",
+  "generatedAt": "2026-09-23T00:31:02.231Z",
   "slug": "multimodal",
   "label": "Images, Audio & Video",
   "items": [
     {
-      "id": "f147f503b3437fe6",
-      "date": "2026-09-22",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:trq212",
-      "builderOrOrg": "Thariq",
-      "title": "there is something about video games that give high stakes and responsibilities to young people…",
-      "url": "https://x.com/trq212/status/2101844435353145452",
-      "publishedAt": "2026-09-21T01:22:18.000Z",
-      "content": "there is something about video games that give high stakes and responsibilities to young people who couldn’t really get them irl but it is a fine line and at some point you need to graduate https://t.co/wwRAmV7Sce",
-      "summary": "there is something about video games that give high stakes and responsibilities to young people who couldn’t really get them irl but it is a fine line and at some point you need to graduate https://t.co/wwRAmV7Sce",
-      "regionTags": [],
-      "metrics": {
-        "likes": 627,
-        "retweets": 12,
-        "replies": 50
-      },
-      "topics": [
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "video"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
       "id": "317a56ee87f84d6e",
-      "date": "2026-09-22",
+      "date": "2026-09-23",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
@@ -94,8 +48,61 @@
       "whyThisMatters": ""
     },
     {
+      "id": "9918cd94df0f3166",
+      "date": "2026-09-23",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Xiaomi MiMo-V2.6-Pro 1T-A42B: the new top Open Weights model, trained for $3M",
+      "url": "https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b",
+      "publishedAt": "2026-09-22T06:30:56.000Z",
+      "content": "Meet Xiaomi and other top Chinese frontier labs at AIE Shanghai ! This is a first for the &#8220;Apple of China&#8221; phone maker-turned-frontier lab: &#8220; The MiMo-V2.6 series includes two natively omnimodal models: MiMo-V2.6-Pro is our most capable model to date, while MiMo-V2.6-Flash strikes the best balance between intelligence, efficiency, and cost. We are also rolling-out MiMo-V2.6-Pro-UltraSpeed, delivering up to 20x faster output speed at the same quality, for users who require extreme generation speed.&#8221; @Xiaomi has just released MiMo-V2.6-Pro, an open weights model with major &#8230;\",\"username\":\"ArtificialAnlys\",\"name\":\"Artificial Analysis\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/2042402069320290304/A8C1lP07_normal.jpg\",\"date\":\"2026-09-21T20:11:19.000Z\",\"photos\":[{\"img_url\":\"https://pbs.substack.com/media/HSxCs7wa0AANR91.jpg\",\"link_url\":\"https://t.co/W3BrQ7q4Lk\"}],\"quoted_tweet\":{},\"reply_count\":97,\"retweet_count\":197,\"like_count\":2213,\"impression_count\":227336,\"expanded_url\":null,\"video_url\":null,\"video_preview_media_key\":null,\"belowTheFold\":false}\" data-component-name=\"Twitter2ToDOM\"> Xiaomi is not traditionally considered one of the six Chinese AI Tigers , so it is very surprising to the established order of names you have come to know and love. And&#8230; it is natively omnimodal! Xiaomi made news a few days ago when Fuli Luo, a former DeepSeek star engineer now at Xiaomi , started publishing their final RL training runs live, which showed an abnormal amount of transparency in their internal metrics . As they note in their technical report , they scaled RL compute along three axes: Larger batches and higher throughput : large batches on a fully asynchronous architecture, with 1,568 samples per update, training at up to 1M context length, and 3.5 to 3.7B tokens per step. More tasks and richer environments : a multi-task training suite spanning coding, general agents, visual and cyber, mixed across several harnesses so tha…",
+      "summary": "crowning a new Chinese frontier lab",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "repo"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "image",
+            "video"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
+      "whyThisMatters": ""
+    },
+    {
       "id": "b28ec12dff083e8a",
-      "date": "2026-09-22",
+      "date": "2026-09-23",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -143,6 +150,52 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "f147f503b3437fe6",
+      "date": "2026-09-22",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:trq212",
+      "builderOrOrg": "Thariq",
+      "title": "there is something about video games that give high stakes and responsibilities to young people…",
+      "url": "https://x.com/trq212/status/2101844435353145452",
+      "publishedAt": "2026-09-21T01:22:18.000Z",
+      "content": "there is something about video games that give high stakes and responsibilities to young people who couldn’t really get them irl but it is a fine line and at some point you need to graduate https://t.co/wwRAmV7Sce",
+      "summary": "there is something about video games that give high stakes and responsibilities to young people who couldn’t really get them irl but it is a fine line and at some point you need to graduate https://t.co/wwRAmV7Sce",
+      "regionTags": [],
+      "metrics": {
+        "likes": 627,
+        "retweets": 12,
+        "replies": 50
+      },
+      "topics": [
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "video"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
@@ -2264,59 +2317,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d532c2afb79dfa0a",
-      "date": "2026-08-12",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Jeff, Sanjay, Oriol, and Quoc depart DeepMind; Demis to Chair; Koray to SVP — what is going on at GDM???",
-      "url": "https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc",
-      "publishedAt": "2026-08-06T04:34:11.000Z",
-      "content": "It&#8217;s tempting to give Meta Spark 1.2 and Muse Code the title story today because of their success launching a 5.6 Terra-level model, together with innovative harness design with a local event log for resumability and persistent background agents, both of which should put other coding agent builders on notice. It&#8217;s tempting to highlight Prime Agent , Prime Intellect&#8217;s self-improving RLM based harness that claims an incredible 95.5% on ARC-AGI-3 (not yet endorsed by ARC). We tried. Trust me, we tried. But it&#8217;s hard to beat around the bush &#8212; today&#8217;s most important story is the coordinated departures of Jeff Dean, Sanjay Ghemawat, Oriol Vinyals, and Quoc Le, some of the most senior engineering and research talent in both Google and in human history, from DeepMind to cofound a new autoresearch startup Discovery Loop : @Sanjay_Ghemawat , @OriolVinyalsML and @quocleix , we are founding Discovery Loop ( @DiscoLoopAI ), a Public Benefit Corporation whose mission is to automate machine \",\"username\":\"JeffDean\",\"name\":\"Jeff Dean\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/935325968280907776/AcBo6zJc_normal.jpg\",\"date\":\"2026-08-05T16:06:02.000Z\",\"photos\":[{\"img_url\":\"https://pbs.substack.com/media/HO-HtcYbIAA08Zn.jpg\",\"link_url\":\"https://t.co/ancoplyNvN\"},{\"img_url\":\"https://pbs.substack.com/media/HO-H2mkaIAEq2Hq.jpg\",\"link_url\":\"https://t.co/ancoplyNvN\"}],\"quoted_tweet\":{},\"reply_count\":708,\"retweet_count\":1533,\"like_count\":15169,\"impression_count\":3202462,\"expanded_url\":null,\"video_url\":null,\"video_preview_media_key\":null,\"belowTheFold\":false}\" data-component-name=\"Twitter2ToDOM\"> And Demis, who needs no introduction, goes from CEO to Chair and Chief Scientist, while &#8220;leaning into&#8221; Isomorphic with CTO Koray stepping up to SVP of GDM: All the departures are very amicable; Google is investing in Discovery Loop, and Demis&#8217; increased contributions to long term strategy and Isomorphic in particular will be ver…",
-      "summary": "The end of an era.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.69,
-          "rationale": [
-            "image",
-            "video"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     }
   ]
