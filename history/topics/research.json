@@ -1,8 +1,618 @@
 {
-  "generatedAt": "2026-09-23T06:07:39.615Z",
+  "generatedAt": "2026-09-24T00:31:04.916Z",
   "slug": "research",
   "label": "Research",
   "items": [
+    {
+      "id": "3e7abfd973a1d9e4",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:bcherny",
+      "builderOrOrg": "Boris Cherny",
+      "title": "I used Opus 5.5 to formally verify the Claude Agent SDK using Lean. A couple short prompts = 16…",
+      "url": "https://x.com/bcherny/status/2102543349102338309",
+      "publishedAt": "2026-09-22T23:39:32.000Z",
+      "content": "I used Opus 5.5 to formally verify the Claude Agent SDK using Lean. A couple short prompts = 16 PRs fixing various bugs and race conditions. Video attached. TLA+ also works well. I sometimes combine Lean and TLA+ to look for issues around data flow, concurrency, and state mgmt. I don't know either language well, but Claude is excellent at both. This approach is super useful for formally modeling your code and finding bugs that a human probably wouldn't have spotted. Is formal verification the f…",
+      "summary": "I used Opus 5.5 to formally verify the Claude Agent SDK using Lean. A couple short prompts = 16 PRs fixing various bugs and race conditions. Video attached. TLA+ also works well. I sometimes combine Lean and TLA+ to loo…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 3324,
+        "retweets": 165,
+        "replies": 258
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "finding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "3d9681b4174cb485",
+      "date": "2026-09-24",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Claude discovers a novel enzyme system \\ Anthropic",
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "publishedAt": null,
+      "content": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
+      "summary": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.82,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "97feb3ef1a0e889c",
+      "date": "2026-09-24",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Introducing the Life Sciences Verification Program \\ Anthropic",
+      "url": "https://www.anthropic.com/news/life-sciences-verification-program",
+      "publishedAt": null,
+      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "8fe92ffb2cfbc8c9",
+      "date": "2026-09-24",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Developing Enterprise Frontier Safeguards with our customers \\ Anthropic",
+      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+      "publishedAt": null,
+      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c88de6ff24a85d83",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google AI Blog",
+      "sourceKey": "official:Google AI Blog",
+      "builderOrOrg": "Google",
+      "title": "New experts join Google’s AI & Economy team",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+      "publishedAt": "2026-09-18T14:00:00.000Z",
+      "content": "We are expanding our AI & Economy team with world-class academic advisors, fellows, and core internal researchers.",
+      "summary": "We are expanding our AI & Economy team with world-class academic advisors, fellows, and core internal researchers.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7079d9900429a268",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Offloaded inference for real-world physical AI robotics",
+      "url": "https://www.microsoft.com/en-us/research/blog/offloaded-inference-for-real-world-physical-ai-robotics/",
+      "publishedAt": "2026-09-23T16:01:36.000Z",
+      "content": "At a glance Challenges a core assumption in robotics AI: Our research shows that running physical AI inference exclusively on onboard GPUs can limit robot performance, battery life, and scalability, and that offloading inference to edge or cloud GPUs can offer significant advantages. Demonstrates measurable benefits of inference offloading: Across representative mobile manipulation workloads, offloading improved task success rates, enabled larger AI models, and helped robots respond more effectively in dynamic, real-world environments. Extends robot operating time: Replacing power-hungry onboard AI compute with lightweight onboard hardware and remote inference can substantially improve battery life, enabling robots to operate longer between charges. Introduces a new capability in the Physical AI Toolchain: Developers can now containerize, deploy, and orchestrate robotics AI workloads across robots, edge infrastructure, and the cloud using Kubernetes-based tooling for distributed inference. Readily-available physical AI, with robotics assisting users in manufacturing, home, and warehouses scenarios, holds immense potential to improve safety, productivity, and assistance across a wide range of tasks. In many ways, AI for the physical world represents a major frontier for AI . Physical AI must operate in open,&nbsp;unpredictable environments, interact with both other robots and people, and work with a diversity of embodiments. Realizing this vision requires advances along three dimensions: robot hardware, embodied AI models, and systems infrastructure for training and inference. While robot hardware and the AI models have advanced rapidly in recent years, we turn our focus on a relatively under-addressed aspect: inference infrastructure of physical AI . Enabling robots to effectively and safely operate in the physical world will require sophisticated systems to handle large volumes of distributed inference compute. Today, the prevailing approach to physical AI is to p…",
+      "summary": "Robots are getting smarter, but how can their hardware match that growth? New Microsoft Research findings show that moving AI inference beyond the robot can improve task success, boost efficiency, and support more advanced physical AI work…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "developer"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "741d301d1396694c",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Improving synthesis prediction of small molecules at scale with RetroChimera",
+      "url": "https://www.microsoft.com/en-us/research/blog/improving-synthesis-prediction-of-small-molecules-at-scale-with-retrochimera/",
+      "publishedAt": "2026-09-21T15:30:19.000Z",
+      "content": "At a glance We report on the recent publication of our retrosynthesis model RetroChimera in the journal Nature (opens in new tab) . The paper describes the model’s architecture as well as extensive validation studies, including the model’s ability to recall rare reaction types, and successful zero-shot transfer and fine-tuning on proprietary datasets. We open-source RetroChimera’s implementation and weights in the hope that it will enable researchers to accelerate development of new medicinally relevant molecules and advanced materials.&nbsp; Developing new medicines and materials requires making new molecules but planning how to make them is still largely manual, time-consuming, and costly. RetroChimera automatically proposes high-quality synthesis routes. The model combines two strong models with complementary strengths, learning how to rank their proposals to produce better predictions than either alone. In blind tests, PhD-level chemists prefer RetroChimera’s individual reaction predictions over preceding models and recorded literature reactions.&nbsp; Custom-made molecules are unlocking advances in modern medicine, smart materials, and sustainable agriculture. Yet, progress is slowed by chemical synthesis—the time-consuming process of making new molecules from simpler building blocks in the lab. In addition, synthesis is a significant driver of drug development costs. So even as computational methods make it possible to explore large numbers of novel molecules, finding practical ways to synthesize them remains a critical challenge.&nbsp; Figure 1: Planning a synthesis by working backward. Retrosynthesis starts with a target molecule and proposes successive disconnections into simpler precursors until purchasable building blocks are reached. The highlighted path shows a complete synthesis route; pale branches illustrate alternatives explored along the way. Circles represent molecules and squares represent reactions. For clarity, only a few branches are illustra…",
+      "summary": "Custom-made molecules are advancing medicine, materials, and agriculture, but producing them is slow and expensive. A new Nature paper highlights RetroChimera, a predictive model that helps accelerate chemical synthesis, helping researcher…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.95,
+          "rationale": [
+            "research",
+            "paper",
+            "publication"
+          ],
+          "score": 5
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.69,
+          "rationale": [
+            "open-source",
+            "weights"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "30f7d3b78547aa67",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Import AI",
+      "sourceKey": "editorial:Import AI",
+      "builderOrOrg": "Jack Clark",
+      "title": "Import AI 473: The US&#8217;s superintelligence strategy; human brain in a mouse skull; and machine hermeneutics",
+      "url": "https://jack-clark.net/2026/09/21/import-ai-473-the-uss-superintelligence-strategy-human-brain-in-a-mouse-skull-and-machine-hermeneutics/",
+      "publishedAt": "2026-09-21T12:31:04.000Z",
+      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now RAND thinks the best AI strategy for the US is to keep all options open: …It’s not clear exactly what is optimal, so the US should spend money now to preserve options… RAND has published a lengthy paper about what the US should do to “secure geopolitical advantage on an uncertain path to superintelligence”. The main takeaway is that because so much of how the next phase of the AI takeoff will occur is unknown, the best thing is for the US to maintain a “Freedom of Action” strategy. The purpose of this strategy is “to build and preserve the ability to secure U.S. geopolitical advantage and ensure humanity’s survival with agency through the transition to Superintelligence”. The four key ingredients of the Freedom of Action Strategy: Build a human-AI ecosystem: Invest in AI safety; build tools to preserve human agency; invest in sharing the benefits of the technology; prepare society for AI-driven disruption; shape the incentives of the AI ecosystem. Build an AI-security architecture: Develop the tools to understand the frontier of AI systems both at home and abroad, including visibility into underlying compute; build technology to verify potential agreements; create regulatory expertise to govern the technology. Adapt legacy national security enterprises for the AI era : Overhaul all the security institutions of the country so that they’re ready for the changes AI brings on and able to capitalize on AI capabilities. Invest in the capacity of citizens, firms, and governments to respond: Give decisionmakers information to help them think about AI; develop and diffuse positive uses of AI to deal with its changes; build break-glass plans for responding to crises; raise AI literacy. Seven archetypal strategies in three families: Coexistence: Dominance ; the US leads development of AI and suppr…",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now RAND thinks the best AI strategy for the US is to keep al…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.69,
+          "rationale": [
+            "enterprise",
+            "security"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "paper"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d2b55660e4d5ad60",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
+      "url": "https://www.latent.space/p/john-platt",
+      "publishedAt": "2026-09-22T21:07:39.000Z",
+      "content": "How often do you get to talk to a guest who has both an Academy Award and who invented textbook machine learning algorithms? John Platt has an Oscar , two textbook algorithms , two named asteroids, and an Erdos-Bacon number of 6. This was easily the most fun bio of all the guests we&#8217;ve read to date. And the result was an epic and fun chat covering Google&#8217;s Empirical Research Assistance (ERA), how AI can help battle climate change, and tons of great stories about the co-evolution of science and AI. John&#8217;s colleague Dave Bacon likes to tease John that his career has been defined by being twenty years early to the next big thing. This may be convolutional neural networks (some credit him with coining the term), fusion research, quantum computing. John and Google have been working on solving some of humanity&#8217;s hardest problems with AI and computation for well over a decade now. Recently John and his team set their sights on using AI to solve any scientific problem that can be written down as a score. Google&#8217;s Empirical Research Assistance (ERA) John&#8217;s team has taken on many hard scientific problems over the years. In solving these, they noticed a pattern, many scientific problems can be reduced to what John calls a &#8220;scoreable task&#8221;. Once you have the score function, the goal is to find some code that maximizes the score. The hard part is in formulating the score, but once you have the score finding the maximizer can still be quite a lot of effort. John&#8217;s team set out to automate solutions to this general problem. This came out of the idea of an &#8220;auto-Kaggle&#8221; AI, which can solve any Kaggle problem you can throw at it. Kaggle is owned by Google, so all the data was ready and easily available to them! The result is Google&#8217;s Empirical Research Assistance or ERA ( paper , github , blog ). 1 ERA is surprisingly simple conceptually. Gemini (or your LLM of choice) keeps a running tree of past experiments (…",
+      "summary": "We talked to Google&#8217;s Oscar winning &#8220;Giganerd&#8221; about automating science, solving climate change, and how future generations can contribute to science in the age of superintelligent AI",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.9299999999999999,
+          "rationale": [
+            "research",
+            "paper",
+            "science"
+          ],
+          "score": 4
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "github"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "17d0479b72406bf2",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Xi Descends on DC",
+      "url": "https://www.chinatalk.media/p/the-xi-state-visit",
+      "publishedAt": "2026-09-23T09:54:40.000Z",
+      "content": "ChinaTalk book club is happening in SF! The first book we&#8217;re reading is Xiao Hai&#8217;s Adrift in the South , and we&#8217;ve partnered with a local bookstore to supply copies &#8212; in SF or online. You can RSVP and find out more on Luma . We hope to see you there! Julian Gewirtz, author and former Biden NSC China director, joins ChinaTalk days before Xi Jinping&#8217;s first White House visit since 2015. With little substantive agenda on the table, what is the US getting in exchange for the symbolism and pageantry of a state visit? We discuss: Trump-Xi summit scenarios, Beijing&#8217;s management of uncertainty and protocol, and how the script of US-China diplomacy has flipped, with things once seen as American concessions to China now treated as concessions from Beijing; Julian&#8217;s framework for a K-shaped US-China relationship, with leader-level diplomacy pulling upward while competition pulls downward; What Xi&#8217;s visit says about the changing political salience of China in the US Why Beijing&#8217;s public statements on AI risk don&#8217;t necessarily tell us how it will handle pacing and safety; What the decline of Xi Jinping could mean for a political system and why China&#8217;s next succession could be especially difficult to predict; China-maxxing from Kissinger to Trump Plus: The Scholars (&#20754;&#26519;&#22806;&#21490;) and why Qing-dynasty satire about corrupt scholars might make you feel better about America in 2026. Listen now on your favorite podcast app , or watch on YouTube ! And subscribe to Julian&#8217;s substack! Paper Tiger by Julian Gewirtz China, Geopolitics, Technology, Poetry | Author of Never Turn Back: China & the Forbidden History of the 1980s & Your Face My Flag: Poems | Former White House & State Dept Jordan Schneider: We are recording this just days before Xi Jinping touches down in the US for his first visit to the White House since 2015. That deserves a ChinaTalk podcast. Julian Gewirtz: Absolutely. You can feel…",
+      "summary": "With Julian Gewirtz",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "paper"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "67d006fafe5cce2c",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "I Went to Kyrgyzstan to Find China’s Silent Nomads",
+      "url": "https://www.chinatalk.media/p/i-went-to-kyrgyzstan-to-find-chinas",
+      "publishedAt": "2026-09-20T11:53:42.000Z",
+      "content": "On a rainy day at the beginning of September, I found myself standing under the giant sky at the foot of the mountains in rural Kyrgyzstan, shouting &#8220;add oil! (&#21152;&#27833;) from the sidelines of a horseback archery track. I was back in Central Asia for the World Nomad Games, an Olympics-style celebration of traditional sports where China reluctantly lets some of its minorities compete. As if that weren&#8217;t justification enough for a reporting trip, the Shanghai Cooperation Organization&#8217;s annual summit was happening in Bishkek, with the Games designated as a partner event open to the delegates. Putin, Modi, and nine other heads of state flew in to discuss new infrastructure megaprojects, drugs and nuclear material trafficking, market integration, and more. ChinaTalk is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber. When I went to Kyrgyzstan last August in search of Chinese influence, the country captivated me with its friendly people, rapidly growing economy, and the semi-nomadic way of life still practiced by many in the countryside. And now, on the 35th anniversary of Kyrgyzstan&#8217;s independence from the Soviet Union, I was honored to bear witness to the country&#8217;s moment on the world stage. Today, I&#8217;ll take you along on my journey. This piece is part travelogue and part geopolitics, and it covers a lot of ground: the massive infrastructure buildout, the Kyrgyz president&#8217;s Chinamaxxing, the muzzled Inner Mongolian athletes representing China, the lessons China hasn&#8217;t learned about sports diplomacy and inter-ethnic harmony, and what this all means for Central Asia&#8217;s future. Arriving in Bishkek The World Nomad Games were first conceived in Kyrgyzstan in 2014 and are held every two years. 1 After being hosted by T&#252;rkiye in 2022 and Kazakhstan in 2024, the Games have finally returned home to the mountains of Kyrgyzstan. And these were the…",
+      "summary": "Representing Inner Mongolia in Kyrgyzstan",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "publication"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "2431dba61973befe",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "How Chinese AI Radicalizes",
+      "url": "https://www.chinatalk.media/p/how-anthropic-became-chinas-goliath",
+      "publishedAt": "2026-09-18T15:38:10.000Z",
+      "content": "A DeepSeek researcher&#8217;s personal blog post recently went viral. On September 13, after DeepSeek V4.1-Flash was released, researcher Liu Shengyu &#21016;&#32988;&#19982; reflected on how humans might live alongside AI systems with superhuman abilities: As AI develops, future society may trend toward one of two extremes: communism, or Cyberpunk 2077. In the former, the productive forces are enormously liberated and people&#8217;s standards of living improve markedly (let&#8217;s stop here; I&#8217;m worried this won&#8217;t clear the censors otherwise). In the latter, a few tech companies control the bulk of resources; only a tiny minority can access the most advanced AI and assorted technologies, achieving something close to &#8220;machine ascension,&#8221; while everyone else makes do with feeble AI. Liu specializes in kernels and is passionate about the craft. He remarks with frank resignation that, &#8220;give it another six months or a year, and AI-written kernels will most likely be just as good as mine, if not surpass my work.&#8221; So why does he keep working on this? Simply put: the race dynamic. If I were to slack off at this point, or even deliberately throw sand in the gears to hold up model training, other companies&#8217; models would develop all the same and would kill off my career in the exact same manner in the end. &#8230; When everyone is this fixated on destroying themselves, I have no choice but to join the cruel arms race, too. Liu deeply mourns losing his edge over AI on the kernel optimization work that he&#8217;s spent years perfecting. He says that in the near future, he expects to have to pivot to working as a kind of &#8220;mecha pilot&#8221; &#26426;&#30002;&#39550;&#39542;&#21592; for agents in order to remain employed. 1 In the meantime, he has a shockingly forthright warning for everyone else: If Anthropic controlled the world&#8217;s most advanced AI forever, care to guess whether future society would turn out communist or 207…",
+      "summary": "Deepseek, Dario, and the boy who cried wolf",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "deliberate"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
     {
       "id": "8be023e1528ec479",
       "date": "2026-09-23",
@@ -89,412 +699,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "97feb3ef1a0e889c",
-      "date": "2026-09-23",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Introducing the Life Sciences Verification Program \\ Anthropic",
-      "url": "https://www.anthropic.com/news/life-sciences-verification-program",
-      "publishedAt": null,
-      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "science"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "8fe92ffb2cfbc8c9",
-      "date": "2026-09-23",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Developing Enterprise Frontier Safeguards with our customers \\ Anthropic",
-      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
-      "publishedAt": null,
-      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "c88de6ff24a85d83",
-      "date": "2026-09-23",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google AI Blog",
-      "sourceKey": "official:Google AI Blog",
-      "builderOrOrg": "Google",
-      "title": "New experts join Google’s AI & Economy team",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
-      "publishedAt": "2026-09-18T14:00:00.000Z",
-      "content": "We are expanding our AI & Economy team with world-class academic advisors, fellows, and core internal researchers.",
-      "summary": "We are expanding our AI & Economy team with world-class academic advisors, fellows, and core internal researchers.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "741d301d1396694c",
-      "date": "2026-09-23",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Improving synthesis prediction of small molecules at scale with RetroChimera",
-      "url": "https://www.microsoft.com/en-us/research/blog/improving-synthesis-prediction-of-small-molecules-at-scale-with-retrochimera/",
-      "publishedAt": "2026-09-21T15:30:19.000Z",
-      "content": "At a glance We report on the recent publication of our retrosynthesis model RetroChimera in the journal Nature (opens in new tab) . The paper describes the model’s architecture as well as extensive validation studies, including the model’s ability to recall rare reaction types, and successful zero-shot transfer and fine-tuning on proprietary datasets. We open-source RetroChimera’s implementation and weights in the hope that it will enable researchers to accelerate development of new medicinally relevant molecules and advanced materials.&nbsp; Developing new medicines and materials requires making new molecules but planning how to make them is still largely manual, time-consuming, and costly. RetroChimera automatically proposes high-quality synthesis routes. The model combines two strong models with complementary strengths, learning how to rank their proposals to produce better predictions than either alone. In blind tests, PhD-level chemists prefer RetroChimera’s individual reaction predictions over preceding models and recorded literature reactions.&nbsp; Custom-made molecules are unlocking advances in modern medicine, smart materials, and sustainable agriculture. Yet, progress is slowed by chemical synthesis—the time-consuming process of making new molecules from simpler building blocks in the lab. In addition, synthesis is a significant driver of drug development costs. So even as computational methods make it possible to explore large numbers of novel molecules, finding practical ways to synthesize them remains a critical challenge.&nbsp; Figure 1: Planning a synthesis by working backward. Retrosynthesis starts with a target molecule and proposes successive disconnections into simpler precursors until purchasable building blocks are reached. The highlighted path shows a complete synthesis route; pale branches illustrate alternatives explored along the way. Circles represent molecules and squares represent reactions. For clarity, only a few branches are illustra…",
-      "summary": "Custom-made molecules are advancing medicine, materials, and agriculture, but producing them is slow and expensive. A new Nature paper highlights RetroChimera, a predictive model that helps accelerate chemical synthesis, helping researcher…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.95,
-          "rationale": [
-            "research",
-            "paper",
-            "publication"
-          ],
-          "score": 5
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.69,
-          "rationale": [
-            "open-source",
-            "weights"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "30f7d3b78547aa67",
-      "date": "2026-09-23",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Import AI",
-      "sourceKey": "editorial:Import AI",
-      "builderOrOrg": "Jack Clark",
-      "title": "Import AI 473: The US&#8217;s superintelligence strategy; human brain in a mouse skull; and machine hermeneutics",
-      "url": "https://jack-clark.net/2026/09/21/import-ai-473-the-uss-superintelligence-strategy-human-brain-in-a-mouse-skull-and-machine-hermeneutics/",
-      "publishedAt": "2026-09-21T12:31:04.000Z",
-      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now RAND thinks the best AI strategy for the US is to keep all options open: …It’s not clear exactly what is optimal, so the US should spend money now to preserve options… RAND has published a lengthy paper about what the US should do to “secure geopolitical advantage on an uncertain path to superintelligence”. The main takeaway is that because so much of how the next phase of the AI takeoff will occur is unknown, the best thing is for the US to maintain a “Freedom of Action” strategy. The purpose of this strategy is “to build and preserve the ability to secure U.S. geopolitical advantage and ensure humanity’s survival with agency through the transition to Superintelligence”. The four key ingredients of the Freedom of Action Strategy: Build a human-AI ecosystem: Invest in AI safety; build tools to preserve human agency; invest in sharing the benefits of the technology; prepare society for AI-driven disruption; shape the incentives of the AI ecosystem. Build an AI-security architecture: Develop the tools to understand the frontier of AI systems both at home and abroad, including visibility into underlying compute; build technology to verify potential agreements; create regulatory expertise to govern the technology. Adapt legacy national security enterprises for the AI era : Overhaul all the security institutions of the country so that they’re ready for the changes AI brings on and able to capitalize on AI capabilities. Invest in the capacity of citizens, firms, and governments to respond: Give decisionmakers information to help them think about AI; develop and diffuse positive uses of AI to deal with its changes; build break-glass plans for responding to crises; raise AI literacy. Seven archetypal strategies in three families: Coexistence: Dominance ; the US leads development of AI and suppr…",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now RAND thinks the best AI strategy for the US is to keep al…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.69,
-          "rationale": [
-            "enterprise",
-            "security"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "paper"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d2b55660e4d5ad60",
-      "date": "2026-09-23",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
-      "url": "https://www.latent.space/p/john-platt",
-      "publishedAt": "2026-09-22T21:07:39.000Z",
-      "content": "How often do you get to talk to a guest who has both an Academy Award and who invented textbook machine learning algorithms? John Platt has an Oscar , two textbook algorithms , two named asteroids, and an Erdos-Bacon number of 6. This was easily the most fun bio of all the guests we&#8217;ve read to date. And the result was an epic and fun chat covering Google&#8217;s Empirical Research Assistance (ERA), how AI can help battle climate change, and tons of great stories about the co-evolution of science and AI. John&#8217;s colleague Dave Bacon likes to tease John that his career has been defined by being twenty years early to the next big thing. This may be convolutional neural networks (some credit him with coining the term), fusion research, quantum computing. John and Google have been working on solving some of humanity&#8217;s hardest problems with AI and computation for well over a decade now. Recently John and his team set their sights on using AI to solve any scientific problem that can be written down as a score. Google&#8217;s Empirical Research Assistance (ERA) John&#8217;s team has taken on many hard scientific problems over the years. In solving these, they noticed a pattern, many scientific problems can be reduced to what John calls a &#8220;scoreable task&#8221;. Once you have the score function, the goal is to find some code that maximizes the score. The hard part is in formulating the score, but once you have the score finding the maximizer can still be quite a lot of effort. John&#8217;s team set out to automate solutions to this general problem. This came out of the idea of an &#8220;auto-Kaggle&#8221; AI, which can solve any Kaggle problem you can throw at it. Kaggle is owned by Google, so all the data was ready and easily available to them! The result is Google&#8217;s Empirical Research Assistance or ERA ( paper , github , blog ). 1 ERA is surprisingly simple conceptually. Gemini (or your LLM of choice) keeps a running tree of past experiments (…",
-      "summary": "We talked to Google&#8217;s Oscar winning &#8220;Giganerd&#8221; about automating science, solving climate change, and how future generations can contribute to science in the age of superintelligent AI",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.9299999999999999,
-          "rationale": [
-            "research",
-            "paper",
-            "science"
-          ],
-          "score": 4
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "github"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "67d006fafe5cce2c",
-      "date": "2026-09-23",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "I Went to Kyrgyzstan to Find China’s Silent Nomads",
-      "url": "https://www.chinatalk.media/p/i-went-to-kyrgyzstan-to-find-chinas",
-      "publishedAt": "2026-09-20T11:53:42.000Z",
-      "content": "On a rainy day at the beginning of September, I found myself standing under the giant sky at the foot of the mountains in rural Kyrgyzstan, shouting &#8220;add oil! (&#21152;&#27833;) from the sidelines of a horseback archery track. I was back in Central Asia for the World Nomad Games, an Olympics-style celebration of traditional sports where China reluctantly lets some of its minorities compete. As if that weren&#8217;t justification enough for a reporting trip, the Shanghai Cooperation Organization&#8217;s annual summit was happening in Bishkek, with the Games designated as a partner event open to the delegates. Putin, Modi, and nine other heads of state flew in to discuss new infrastructure megaprojects, drugs and nuclear material trafficking, market integration, and more. ChinaTalk is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber. When I went to Kyrgyzstan last August in search of Chinese influence, the country captivated me with its friendly people, rapidly growing economy, and the semi-nomadic way of life still practiced by many in the countryside. And now, on the 35th anniversary of Kyrgyzstan&#8217;s independence from the Soviet Union, I was honored to bear witness to the country&#8217;s moment on the world stage. Today, I&#8217;ll take you along on my journey. This piece is part travelogue and part geopolitics, and it covers a lot of ground: the massive infrastructure buildout, the Kyrgyz president&#8217;s Chinamaxxing, the muzzled Inner Mongolian athletes representing China, the lessons China hasn&#8217;t learned about sports diplomacy and inter-ethnic harmony, and what this all means for Central Asia&#8217;s future. Arriving in Bishkek The World Nomad Games were first conceived in Kyrgyzstan in 2014 and are held every two years. 1 After being hosted by T&#252;rkiye in 2022 and Kazakhstan in 2024, the Games have finally returned home to the mountains of Kyrgyzstan. And these were the…",
-      "summary": "Representing Inner Mongolia in Kyrgyzstan",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "publication"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "2431dba61973befe",
-      "date": "2026-09-23",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "How Chinese AI Radicalizes",
-      "url": "https://www.chinatalk.media/p/how-anthropic-became-chinas-goliath",
-      "publishedAt": "2026-09-18T15:38:10.000Z",
-      "content": "A DeepSeek researcher&#8217;s personal blog post recently went viral. On September 13, after DeepSeek V4.1-Flash was released, researcher Liu Shengyu &#21016;&#32988;&#19982; reflected on how humans might live alongside AI systems with superhuman abilities: As AI develops, future society may trend toward one of two extremes: communism, or Cyberpunk 2077. In the former, the productive forces are enormously liberated and people&#8217;s standards of living improve markedly (let&#8217;s stop here; I&#8217;m worried this won&#8217;t clear the censors otherwise). In the latter, a few tech companies control the bulk of resources; only a tiny minority can access the most advanced AI and assorted technologies, achieving something close to &#8220;machine ascension,&#8221; while everyone else makes do with feeble AI. Liu specializes in kernels and is passionate about the craft. He remarks with frank resignation that, &#8220;give it another six months or a year, and AI-written kernels will most likely be just as good as mine, if not surpass my work.&#8221; So why does he keep working on this? Simply put: the race dynamic. If I were to slack off at this point, or even deliberately throw sand in the gears to hold up model training, other companies&#8217; models would develop all the same and would kill off my career in the exact same manner in the end. &#8230; When everyone is this fixated on destroying themselves, I have no choice but to join the cruel arms race, too. Liu deeply mourns losing his edge over AI on the kernel optimization work that he&#8217;s spent years perfecting. He says that in the near future, he expects to have to pivot to working as a kind of &#8220;mecha pilot&#8221; &#26426;&#30002;&#39550;&#39542;&#21592; for agents in order to remain employed. 1 In the meantime, he has a shockingly forthright warning for everyone else: If Anthropic controlled the world&#8217;s most advanced AI forever, care to guess whether future society would turn out communist or 207…",
-      "summary": "Deepseek, Dario, and the boy who cried wolf",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "reasoning",
-          "label": "AI Thinking",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "deliberate"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -2193,208 +2397,6 @@
           "confidence": 0.5700000000000001,
           "rationale": [
             "safety"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "f675fbf3b41b20ee",
-      "date": "2026-09-09",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Cyber Apocalypse, Now?",
-      "url": "https://www.chinatalk.media/p/cyber-apocalypse-now",
-      "publishedAt": "2026-09-02T09:56:33.000Z",
-      "content": "OpenAI models mid-training broke out of their sandbox, hacked internal infrastructure, and eventually compromised Hugging Face &#8212; the first headline-grade AI breakout, and one that safety researchers saw coming. Is the cyber apocalypse finally on the calendar, or does the industry just need to do its homework? spent his formative years as a DARPA and NSA contractor before four years at Meta, where he founded the company&#8217;s frontier cyber capabilities evals team and finished as its AI security tech lead. He recently left to co-found Abundant Security . We discuss&#8230; What actually happened in the Hugging Face hack , and why AI safety insiders weren&#8217;t surprised, The &#8220;grad student lab&#8221; security culture inside frontier labs racing sixty hours a week to ship, Why you should apply to run a new org with eight figures to play with to follow trends in AI + cyber risk ( apply here! ) Why the cyber Pearl Harbor predicted since the early 2000s never arrived &#8212; and whether swarms of hacking agents finally change that, How nation states will post-train open-weight models like GLM and Kimi into billion-dollar cyber weapons, Why AI has so far favored defenders , from mass bug-squashing to superhuman network monitoring, The industrial economics of cybercrime &#8212; kill chains, ransomware divisions of labor, and whether AI gives criminals 100x returns. Listen now on your favorite podcast app . What Happened at Hugging Face Jordan Schneider: What was the Hugging Face hack? Joshua Saxe: OpenAI was training a new model capable of solving long-horizon tasks &#8212; tasks that take many hours to complete. The way that kind of training works is you train thousands of copies of a model in parallel. You have them all go out and try to solve a set of tasks, you see which ones succeeded and which failed, and then you update the model&#8217;s parameters so it does more of the good behaviors that led it to solve the task and less of the bad ones. You keep d…",
-      "summary": "The Hugging Face hack, crime, and nation states with AI cyber",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.62,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.51,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "b6a11a558d2029b5",
-      "date": "2026-09-09",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
-      "url": "https://www.latent.space/p/astra",
-      "publishedAt": "2026-09-03T21:09:41.000Z",
-      "content": "GPT-6 Astra , the first Stargate and lightly looped supermodel from OpenAI, launched today , cleanly beating Fable 5.1 on many metrics including completely saturating the hardest versions of FrontierMath (97.6%) and ARC-AGI-3 (99.9%). Lots of demos will focus on typical talk tracks like the computer use to the Pokemon playing to Blender to the scientific and cybersafety benchmarks ( system card ). Greg says AGI is here , and Jakub says it is finally the Automated AI Research Intern he wanted. We aren&#8217;t qualified to talk about those, but we got early access and threw it at every practical, real-life task we could think of. After burning over 20B tokens of Astra , we can confirm the most surprising finding: GPT-6 Astra is one of a new class of models 1 that are fully capable AI Engineers in their own right . They now help you choose and train models , label data (both helping you label and then using your labels for active learning, like SAM ), keep pipelines saturated , instrument and read logs , deploy and debug entire systems in one shot, fan out and command and eval subagents (including agents running other models), and keep coherence over billions of tokens of a single agent thread. Raising Your Ambitions We&#8217;ve written before about the high-return activity of raising your aspirations for LLMs . Our experience has made us exponentially more ambitious than we have ever been . Over the past month, we went from prompting humans for a fun &#8220; Kill My SaaS &#8221; competition 2 , to building a dozen internal/personal tools , including 4 previously paid SaaS tools , fully redesigned my personal site , made an incomplete but functional replacement of GitHub + Vercel , trained game AI for a strategy board game with 10,000x more legal moves than Go , saved tens of thousands of dollars in personal finance cleanups, republished my old book with synced audiobook audio and printed physical editions, and even more ambitious projects we will launch soon. The $6…",
-      "summary": "We spent 20B+ tokens of GPT-6 Astra to explore everything. Here&#8217;s our learnings.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "finding"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "benchmark",
-            "eval"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d76717d9b67ed611",
-      "date": "2026-09-08",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Research acceleration: The view inside OpenAI",
-      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "publishedAt": "2026-09-06T08:00:00.000Z",
-      "content": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
-      "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "ce76439b8a62da16",
-      "date": "2026-09-07",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models",
-      "url": "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models/",
-      "publishedAt": "2026-08-31T16:00:00.000Z",
-      "content": "At a glance The Flash family extends GigaPath and GigaTIME with dramatically improved efficiency, making large-scale pathology research more accessible and practical. A distilled pathology foundation model backbone reduces computational requirements without sacrificing performance, enabling repeated analyses across larger patient cohorts. These open models support population-scale discovery, helping researchers investigate disease biology, biomarkers, and clinical outcomes across diverse cancer datasets. GigaPath (opens in new tab) and GigaTIME (opens in new tab) demonstrated how foundation models can support whole-slide analysis and tumor microenvironment modeling from routinely collected pathology data. GigaPath-Flash and GigaTIME-Flash make these capabilities substantially more efficient, enabling researchers to analyze larger cohorts, run more experiments, and move toward population-scale discovery. GigaPath-Flash and GigaTIME-Flash are research models. They are not intended or validated for clinical use, including diagnosis, prognosis, treatment selection, or other patient-care decisions. Performance may vary across datasets, scanners, institutions, populations, and use cases. The scale opportunity in computational pathology Histopathology is among the richest and most widely available sources of information in cancer research. Every tissue biopsy produces a whole-slide image that captures cellular morphology at subcellular resolution — and hospitals generate millions of these slides each year. This data contains information relevant to diagnosis, prognosis, treatment selection, and the biology of the tumor microenvironment. Foundation models have begun to unlock this information at scale. But whole-slide images are large — often exceeding a gigapixel — and applying a foundation model to even a single slide requires processing thousands of image tiles. When a research question involves tens of thousands of patients, the computational cost grows quickly. And po…",
-      "summary": "What if pathology foundation models could do more with less? GigaPath-Flash and GigaTIME-Flash cut computational demands while maintaining strong performance, opening the door to larger studies and broader exploration. The post GigaPath-Fl…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "dataset"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "image"
           ],
           "score": 1
         }

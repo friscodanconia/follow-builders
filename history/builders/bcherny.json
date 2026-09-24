@@ -1,10 +1,102 @@
 {
-  "generatedAt": "2026-09-19T06:03:17.393Z",
+  "generatedAt": "2026-09-24T00:31:04.916Z",
   "handle": "bcherny",
   "name": "Boris Cherny",
   "itemCount": 50,
-  "latestDate": "2026-09-19",
+  "latestDate": "2026-09-24",
   "items": [
+    {
+      "id": "3e7abfd973a1d9e4",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:bcherny",
+      "builderOrOrg": "Boris Cherny",
+      "title": "I used Opus 5.5 to formally verify the Claude Agent SDK using Lean. A couple short prompts = 16…",
+      "url": "https://x.com/bcherny/status/2102543349102338309",
+      "publishedAt": "2026-09-22T23:39:32.000Z",
+      "content": "I used Opus 5.5 to formally verify the Claude Agent SDK using Lean. A couple short prompts = 16 PRs fixing various bugs and race conditions. Video attached. TLA+ also works well. I sometimes combine Lean and TLA+ to look for issues around data flow, concurrency, and state mgmt. I don't know either language well, but Claude is excellent at both. This approach is super useful for formally modeling your code and finding bugs that a human probably wouldn't have spotted. Is formal verification the f…",
+      "summary": "I used Opus 5.5 to formally verify the Claude Agent SDK using Lean. A couple short prompts = 16 PRs fixing various bugs and race conditions. Video attached. TLA+ also works well. I sometimes combine Lean and TLA+ to loo…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 3324,
+        "retweets": 165,
+        "replies": 258
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "finding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7e56c0c6c4cb516a",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:bcherny",
+      "builderOrOrg": "Boris Cherny",
+      "title": "Opus 5.5 is a really good model. It's been my daily driver the last few weeks. We had Opus 5.5…",
+      "url": "https://x.com/bcherny/status/2102439069053747549",
+      "publishedAt": "2026-09-22T16:45:10.000Z",
+      "content": "Opus 5.5 is a really good model. It's been my daily driver the last few weeks. We had Opus 5.5 and Fable 5.1 each port HAProxy from C to Rust. Both passed nearly all of HAProxy's tests, but Opus 5.5 finished in 9.5 hours compared to Fable 5.1's 12 hours, and for 51% less cost. https://t.co/GJ9FaS3Erx",
+      "summary": "Opus 5.5 is a really good model. It's been my daily driver the last few weeks. We had Opus 5.5 and Fable 5.1 each port HAProxy from C to Rust. Both passed nearly all of HAProxy's tests, but Opus 5.5 finished in 9.5 hour…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 6778,
+        "retweets": 228,
+        "replies": 312
+      },
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
     {
       "id": "92efb4332760e4c9",
       "date": "2026-09-19",
@@ -1782,108 +1874,6 @@
             "code"
           ],
           "score": 2
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "57feb05d15ba2b0f",
-      "date": "2026-06-09",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:bcherny",
-      "builderOrOrg": "Boris Cherny",
-      "title": "Seeing a number of benchmarks showing Opus is the best model for long-running work. Five tips f…",
-      "url": "https://x.com/bcherny/status/2063792263067754658",
-      "publishedAt": "2026-06-08T01:16:33.000Z",
-      "content": "Seeing a number of benchmarks showing Opus is the best model for long-running work. Five tips for running Opus autonomously for hours/days: 1. Use auto mode for permissions, so Claude doesn’t ask for approval 2. Use dynamic workflows, to have Claude orchestrate hundreds/thousands of agents to get a task done 3. Use /goal or /loop, to nudge Claude to keep going until it’s done 4. Use Claude Code in the cloud, so you can close your laptop (easiest way is the desktop or mobile app) 5. Make sure Cl…",
-      "summary": "Seeing a number of benchmarks showing Opus is the best model for long-running work. Five tips for running Opus autonomously for hours/days: 1. Use auto mode for permissions, so Claude doesn’t ask for approval 2. Use dyn…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 1865,
-        "retweets": 147,
-        "replies": 184
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "autonomous"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "desktop"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "0e78a3d2db440e11",
-      "date": "2026-06-07",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:bcherny",
-      "builderOrOrg": "Boris Cherny",
-      "title": "Cowork is at its best on work that’s too big for a chat: research across dozens of accounts, re…",
-      "url": "https://x.com/bcherny/status/2063028956211867837",
-      "publishedAt": "2026-06-05T22:43:27.000Z",
-      "content": "Cowork is at its best on work that’s too big for a chat: research across dozens of accounts, recurring reports, triaging my inbox and drafting replies. If you’ve been curious, this is a good month to find out what it can take off your plate. Can’t wait to see what you do.",
-      "summary": "Cowork is at its best on work that’s too big for a chat: research across dozens of accounts, recurring reports, triaging my inbox and drafting replies. If you’ve been curious, this is a good month to find out what it ca…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 127,
-        "retweets": 5,
-        "replies": 19
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
         }
       ],
       "section": "Builders",

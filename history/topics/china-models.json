@@ -1,8 +1,52 @@
 {
-  "generatedAt": "2026-09-22T06:23:37.606Z",
+  "generatedAt": "2026-09-24T00:31:04.916Z",
   "slug": "china-models",
   "label": "Chinese AI",
   "items": [
+    {
+      "id": "040333a35fe47788",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "How to train your own Jev for $17",
+      "url": "https://www.together.ai/blog/how-to-train-your-own-jev",
+      "publishedAt": "2026-09-23T00:00:00.000Z",
+      "content": "We just launched our own Jev-like classifier, together/Tev1-4B-experimental, on top of Qwen3.5 4B on Together’s serverless platform. In this blog post we’ll show you how to fine-tune your own version!",
+      "summary": "We just launched our own Jev-like classifier, together/Tev1-4B-experimental, on top of Qwen3.5 4B on Together’s serverless platform. In this blog post we’ll show you how to fine-tune your own version!",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "china-models",
+          "label": "Chinese AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "qwen"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Chinese Models",
+      "importanceScore": 0.73,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.82,
+      "whyThisMatters": ""
+    },
     {
       "id": "bf07e07235d8601a",
       "date": "2026-09-22",
@@ -2408,60 +2452,6 @@
           "confidence": 0.5700000000000001,
           "rationale": [
             "paper"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Chinese Models",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "6e3cdcc72ffebb54",
-      "date": "2026-04-08",
-      "sourceType": "newsletter",
-      "sourceGroup": "china",
-      "sourceName": "Qwen Blog",
-      "sourceKey": "china:Qwen Blog",
-      "builderOrOrg": "Qwen",
-      "title": "Qwen-MT: Where Speed Meets Smart Translation",
-      "url": "https://qwenlm.github.io/blog/qwen-mt/",
-      "publishedAt": "2025-07-24T14:00:00.000Z",
-      "content": "DEMO API DISCORD Introduction Here we introduce the latest update of Qwen-MT (qwen-mt-turbo) via Qwen API. This update builds upon the powerful Qwen3, leveraging trillions multilingual and translation tokens to comprehensively enhance the model’s multilingual understanding and translation capabilities. By integrating reinforcement learning techniques, the model achieves significant improvements in translation accuracy and linguistic fluency. Key Features: Multilingual Support for 92 Languages: Qwen-MT enables high-quality translation across 92 major official languages and prominent dialects, covering over 95% of the global population to meet diverse cross-lingual communication needs.",
-      "summary": "DEMO API DISCORD Introduction Here we introduce the latest update of Qwen-MT (qwen-mt-turbo) via Qwen API. This update builds upon the powerful Qwen3, leveraging trillions multilingual and translation tokens to comprehensively enhance the…",
-      "regionTags": [
-        "china-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "china-models",
-          "label": "Chinese AI",
-          "confidence": 0.81,
-          "rationale": [
-            "qwen",
-            "china-models"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "reinforcement learning"
           ],
           "score": 1
         }

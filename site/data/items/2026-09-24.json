@@ -1,0 +1,2937 @@
+{
+  "generatedAt": "2026-09-24T00:31:04.916Z",
+  "date": "2026-09-24",
+  "items": [
+    {
+      "id": "3e7abfd973a1d9e4",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:bcherny",
+      "builderOrOrg": "Boris Cherny",
+      "title": "I used Opus 5.5 to formally verify the Claude Agent SDK using Lean. A couple short prompts = 16…",
+      "url": "https://x.com/bcherny/status/2102543349102338309",
+      "publishedAt": "2026-09-22T23:39:32.000Z",
+      "content": "I used Opus 5.5 to formally verify the Claude Agent SDK using Lean. A couple short prompts = 16 PRs fixing various bugs and race conditions. Video attached. TLA+ also works well. I sometimes combine Lean and TLA+ to look for issues around data flow, concurrency, and state mgmt. I don't know either language well, but Claude is excellent at both. This approach is super useful for formally modeling your code and finding bugs that a human probably wouldn't have spotted. Is formal verification the f…",
+      "summary": "I used Opus 5.5 to formally verify the Claude Agent SDK using Lean. A couple short prompts = 16 PRs fixing various bugs and race conditions. Video attached. TLA+ also works well. I sometimes combine Lean and TLA+ to loo…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 3324,
+        "retweets": 165,
+        "replies": 258
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "finding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7e56c0c6c4cb516a",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:bcherny",
+      "builderOrOrg": "Boris Cherny",
+      "title": "Opus 5.5 is a really good model. It's been my daily driver the last few weeks. We had Opus 5.5…",
+      "url": "https://x.com/bcherny/status/2102439069053747549",
+      "publishedAt": "2026-09-22T16:45:10.000Z",
+      "content": "Opus 5.5 is a really good model. It's been my daily driver the last few weeks. We had Opus 5.5 and Fable 5.1 each port HAProxy from C to Rust. Both passed nearly all of HAProxy's tests, but Opus 5.5 finished in 9.5 hours compared to Fable 5.1's 12 hours, and for 51% less cost. https://t.co/GJ9FaS3Erx",
+      "summary": "Opus 5.5 is a really good model. It's been my daily driver the last few weeks. We had Opus 5.5 and Fable 5.1 each port HAProxy from C to Rust. Both passed nearly all of HAProxy's tests, but Opus 5.5 finished in 9.5 hour…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 6778,
+        "retweets": 228,
+        "replies": 312
+      },
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "ef74b313644ca331",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:thsottiaux",
+      "builderOrOrg": "Thibault Sottiaux",
+      "title": "Maybe our cutest launch so far. But still packing the biggest punch. https://t.co/LVYOxpH0Wi",
+      "url": "https://x.com/thsottiaux/status/2102509507415048245",
+      "publishedAt": "2026-09-22T21:25:03.000Z",
+      "content": "Maybe our cutest launch so far. But still packing the biggest punch. https://t.co/LVYOxpH0Wi",
+      "summary": "Maybe our cutest launch so far. But still packing the biggest punch. https://t.co/LVYOxpH0Wi",
+      "regionTags": [],
+      "metrics": {
+        "likes": 6045,
+        "retweets": 134,
+        "replies": 817
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "38e5ef448af3b751",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:thsottiaux",
+      "builderOrOrg": "Thibault Sottiaux",
+      "title": "GPT-6 Sol and Luna are out. Not only are they a very significant improvement across the board,…",
+      "url": "https://x.com/thsottiaux/status/2102463847714247142",
+      "publishedAt": "2026-09-22T18:23:37.000Z",
+      "content": "GPT-6 Sol and Luna are out. Not only are they a very significant improvement across the board, but also in writing and general \"you know when you try it\" quality. We are also permanently reducing the API price by 50% making both of them viable for a ton of new usecases and making your usage go further too, even on the subscriptions. And one more thing. We are loading a banked reset into all accounts of our Plus, Pro and Business users. Let's go! https://t.co/00DRh1sRrO",
+      "summary": "GPT-6 Sol and Luna are out. Not only are they a very significant improvement across the board, but also in writing and general \"you know when you try it\" quality. We are also permanently reducing the API price by 50% ma…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 23309,
+        "retweets": 1512,
+        "replies": 2806
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7ec5db1adb57ff61",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:thsottiaux",
+      "builderOrOrg": "Thibault Sottiaux",
+      "title": "We have been focusing on efficiency and intelligence for all. Very proud of the team. Only poss…",
+      "url": "https://x.com/thsottiaux/status/2102440619616682120",
+      "publishedAt": "2026-09-22T16:51:19.000Z",
+      "content": "We have been focusing on efficiency and intelligence for all. Very proud of the team. Only possible when you have incredible models at the top end of the capability that you can then use to make a big difference in everything else.",
+      "summary": "We have been focusing on efficiency and intelligence for all. Very proud of the team. Only possible when you have incredible models at the top end of the capability that you can then use to make a big difference in ever…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 12590,
+        "retweets": 317,
+        "replies": 1698
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "48c322a2ca32d748",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:petergyang",
+      "builderOrOrg": "Peter Yang",
+      "title": "Just randomly played this Australian show on Apple TV and it’s another banger https://t.co/Cp2v…",
+      "url": "https://x.com/petergyang/status/2102628682301046875",
+      "publishedAt": "2026-09-23T05:18:37.000Z",
+      "content": "Just randomly played this Australian show on Apple TV and it’s another banger https://t.co/Cp2vUitABa https://t.co/mpOYshnd0G",
+      "summary": "Just randomly played this Australian show on Apple TV and it’s another banger https://t.co/Cp2vUitABa https://t.co/mpOYshnd0G",
+      "regionTags": [],
+      "metrics": {
+        "likes": 19,
+        "retweets": 0,
+        "replies": 5
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.61,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.75,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "4cfde8baa6f6bf42",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:petergyang",
+      "builderOrOrg": "Peter Yang",
+      "title": "@claudeai If you enjoyed this, sign up for free to my newsletter to get my best AI and product…",
+      "url": "https://x.com/petergyang/status/2102589061445939508",
+      "publishedAt": "2026-09-23T02:41:11.000Z",
+      "content": "@claudeai If you enjoyed this, sign up for free to my newsletter to get my best AI and product guides. Join 110,000+ subscribers here: https://t.co/yz9xcsfrhF",
+      "summary": "@claudeai If you enjoyed this, sign up for free to my newsletter to get my best AI and product guides. Join 110,000+ subscribers here: https://t.co/yz9xcsfrhF",
+      "regionTags": [],
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0
+      },
+      "topics": [
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.55,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.71,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "bb1c54612d9eb76c",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:petergyang",
+      "builderOrOrg": "Peter Yang",
+      "title": "I talk about why Opus 5.5 is the most excited I've been about a Claude model in awhile here: ht…",
+      "url": "https://x.com/petergyang/status/2102577425838485916",
+      "publishedAt": "2026-09-23T01:54:56.000Z",
+      "content": "I talk about why Opus 5.5 is the most excited I've been about a Claude model in awhile here: https://t.co/PBxPzE43Ud",
+      "summary": "I talk about why Opus 5.5 is the most excited I've been about a Claude model in awhile here: https://t.co/PBxPzE43Ud",
+      "regionTags": [],
+      "metrics": {
+        "likes": 3,
+        "retweets": 0,
+        "replies": 0
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.56,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.71,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "e82d9279618a6f49",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:_catwu",
+      "builderOrOrg": "Cat Wu",
+      "title": "If you’re looking for ways to try Opus 5.5 and Claude Tag in Slack… https://t.co/PpwztYQx2o",
+      "url": "https://x.com/_catwu/status/2102569951974584612",
+      "publishedAt": "2026-09-23T01:25:15.000Z",
+      "content": "If you’re looking for ways to try Opus 5.5 and Claude Tag in Slack… https://t.co/PpwztYQx2o",
+      "summary": "If you’re looking for ways to try Opus 5.5 and Claude Tag in Slack… https://t.co/PpwztYQx2o",
+      "regionTags": [],
+      "metrics": {
+        "likes": 119,
+        "retweets": 2,
+        "replies": 7
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "f610d870bc0d54ed",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:_catwu",
+      "builderOrOrg": "Cat Wu",
+      "title": "Claude Opus 5.5 is now the default model in Claude Code and the Claude app, including Cowork, f…",
+      "url": "https://x.com/_catwu/status/2102437713781944397",
+      "publishedAt": "2026-09-22T16:39:47.000Z",
+      "content": "Claude Opus 5.5 is now the default model in Claude Code and the Claude app, including Cowork, for Pro, Max, and Team plans. I’ve been using Opus 5.5 as a daily driver and love its clear communication skills and ability to write in my style. We’re defaulting to effort medium across products, which is comparable to Fable 5.1 on intelligence but faster. Your rate limits will go 25% further on Opus 5.5 compared to Opus 5. Give Opus 5.5 an ambitious task and let us know what you think!",
+      "summary": "Claude Opus 5.5 is now the default model in Claude Code and the Claude app, including Cowork, for Pro, Max, and Team plans. I’ve been using Opus 5.5 as a daily driver and love its clear communication skills and ability…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 1308,
+        "retweets": 35,
+        "replies": 72
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "5de746b6958ccc54",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:trq212",
+      "builderOrOrg": "Thariq",
+      "title": "if you want to make games, 3d generation is a great capability to help you imagine your game co…",
+      "url": "https://x.com/trq212/status/2102549030303867257",
+      "publishedAt": "2026-09-23T00:02:06.000Z",
+      "content": "if you want to make games, 3d generation is a great capability to help you imagine your game come to life but you should figure out how to make a good, satisfying game loop first (talking to myself here)",
+      "summary": "if you want to make games, 3d generation is a great capability to help you imagine your game come to life but you should figure out how to make a good, satisfying game loop first (talking to myself here)",
+      "regionTags": [],
+      "metrics": {
+        "likes": 254,
+        "retweets": 5,
+        "replies": 10
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "2c3b90cc976be299",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:trq212",
+      "builderOrOrg": "Thariq",
+      "title": "the right way to use model capabilities is not to ship 10x more features to prod it's to spend…",
+      "url": "https://x.com/trq212/status/2102548686303854790",
+      "publishedAt": "2026-09-23T00:00:44.000Z",
+      "content": "the right way to use model capabilities is not to ship 10x more features to prod it's to spend more time understanding your users, trying experiments, building prototypes, learning about things you don't understand so that you can ship things that actually work",
+      "summary": "the right way to use model capabilities is not to ship 10x more features to prod it's to spend more time understanding your users, trying experiments, building prototypes, learning about things you don't understand so t…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 4528,
+        "retweets": 313,
+        "replies": 160
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "ae47d02d5110cd2a",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:trq212",
+      "builderOrOrg": "Thariq",
+      "title": "workflows are a huge part of how I use Claude these days, I'm glad we have Fable-like intellige…",
+      "url": "https://x.com/trq212/status/2102477527688388752",
+      "publishedAt": "2026-09-22T19:17:59.000Z",
+      "content": "workflows are a huge part of how I use Claude these days, I'm glad we have Fable-like intelligence that works with workflows from a cost perspective",
+      "summary": "workflows are a huge part of how I use Claude these days, I'm glad we have Fable-like intelligence that works with workflows from a cost perspective",
+      "regionTags": [],
+      "metrics": {
+        "likes": 73,
+        "retweets": 0,
+        "replies": 5
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7a92c99ef1842675",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:amasad",
+      "builderOrOrg": "Amjad Masad",
+      "title": "Your intelligence is fake. It’s artificial. Mine? It’s super. Super Intelligence. Aka SI. https…",
+      "url": "https://x.com/amasad/status/2102489320766800002",
+      "publishedAt": "2026-09-22T20:04:51.000Z",
+      "content": "Your intelligence is fake. It’s artificial. Mine? It’s super. Super Intelligence. Aka SI. https://t.co/oTWHfUUpDP",
+      "summary": "Your intelligence is fake. It’s artificial. Mine? It’s super. Super Intelligence. Aka SI. https://t.co/oTWHfUUpDP",
+      "regionTags": [],
+      "metrics": {
+        "likes": 935,
+        "retweets": 37,
+        "replies": 107
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "4f8382bd489dc74f",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "Software will never die again. You liked Google Reader? Cool, you can generate and deploy your…",
+      "url": "https://x.com/rauchg/status/2102594015669756323",
+      "publishedAt": "2026-09-23T03:00:52.000Z",
+      "content": "Software will never die again. You liked Google Reader? Cool, you can generate and deploy your own. Yours, forever.",
+      "summary": "Software will never die again. You liked Google Reader? Cool, you can generate and deploy your own. Yours, forever.",
+      "regionTags": [],
+      "metrics": {
+        "likes": 1045,
+        "retweets": 33,
+        "replies": 76
+      },
+      "topics": [
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "73b78a865a64fcc2",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "We ran fresh Next.js evals. The tally: ① Opus 5.5 [𝟿𝟽%] ② GPT 6 Sol [𝟿𝟽%] ③ Fable 5.1 [𝟿𝟽…",
+      "url": "https://x.com/rauchg/status/2102519097770885231",
+      "publishedAt": "2026-09-22T22:03:10.000Z",
+      "content": "We ran fresh Next.js evals. The tally: ① Opus 5.5 [𝟿𝟽%] ② GPT 6 Sol [𝟿𝟽%] ③ Fable 5.1 [𝟿𝟽%] ④ Grok 4.7 [𝟿𝟺%] Notably, Grok is 2x-7x cheaper https://t.co/BAUg14981G",
+      "summary": "We ran fresh Next.js evals. The tally: ① Opus 5.5 [𝟿𝟽%] ② GPT 6 Sol [𝟿𝟽%] ③ Fable 5.1 [𝟿𝟽%] ④ Grok 4.7 [𝟿𝟺%] Notably, Grok is 2x-7x cheaper https://t.co/BAUg14981G",
+      "regionTags": [],
+      "metrics": {
+        "likes": 1087,
+        "retweets": 55,
+        "replies": 133
+      },
+      "topics": [
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "1a824f8629742806",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "Love the tastefulness with which anthropic ships. Main reason I got excited about 'headless' fo…",
+      "url": "https://x.com/rauchg/status/2102438365455167883",
+      "publishedAt": "2026-09-22T16:42:22.000Z",
+      "content": "Love the tastefulness with which anthropic ships. Main reason I got excited about 'headless' for the web is that any given page could take whatever whimsical or unique shape you wanted. With AI, there's no excuse not to push the design frontier. This is @nextjs at its finest: https://t.co/uXM96EijiW",
+      "summary": "Love the tastefulness with which anthropic ships. Main reason I got excited about 'headless' for the web is that any given page could take whatever whimsical or unique shape you wanted. With AI, there's no excuse not to…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 1418,
+        "retweets": 34,
+        "replies": 63
+      },
+      "topics": [
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "3b8760d5342f1032",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:alexalbert__",
+      "builderOrOrg": "Alex Albert",
+      "title": "Prompt in Claude Tag \"Recreate Market Street, San Francisco as it stood on April 17, 1906, the…",
+      "url": "https://x.com/alexalbert__/status/2102466524934271381",
+      "publishedAt": "2026-09-22T18:34:16.000Z",
+      "content": "Prompt in Claude Tag \"Recreate Market Street, San Francisco as it stood on April 17, 1906, the afternoon before the earthquake, in Blender. Scope: the Ferry Building up Market to Fifth Street, including the Palace Hotel, the Call Building, the Chronicle Building, Lotta's Fountain and the Emporium. Before modeling anything, build a source file from: the 1899-1905 Sanborn fire insurance maps (footprints, heights, materials, occupants), the Miles Brothers film \"A Trip Down Market Street\" (April 19…",
+      "summary": "Prompt in Claude Tag \"Recreate Market Street, San Francisco as it stood on April 17, 1906, the afternoon before the earthquake, in Blender. Scope: the Ferry Building up Market to Fifth Street, including the Palace Hotel…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 73,
+        "retweets": 1,
+        "replies": 4
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "0eb9e6064aa4e548",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:alexalbert__",
+      "builderOrOrg": "Alex Albert",
+      "title": "I've been on a Blender kick with Opus 5.5. Its better 3D modeling and vision mean you can build…",
+      "url": "https://x.com/alexalbert__/status/2102466523164274839",
+      "publishedAt": "2026-09-22T18:34:15.000Z",
+      "content": "I've been on a Blender kick with Opus 5.5. Its better 3D modeling and vision mean you can build an entire world from a single prompt. Historically accurate San Francisco Market street in 1906, pre-earthquake https://t.co/aisvFLFGy3",
+      "summary": "I've been on a Blender kick with Opus 5.5. Its better 3D modeling and vision mean you can build an entire world from a single prompt. Historically accurate San Francisco Market street in 1906, pre-earthquake https://t.c…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 890,
+        "retweets": 40,
+        "replies": 54
+      },
+      "topics": [
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "vision"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "e08339cdd54b28a0",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:alexalbert__",
+      "builderOrOrg": "Alex Albert",
+      "title": "need to make sure you've been updated to this (rolling out to everyone soon if you haven't!) ht…",
+      "url": "https://x.com/alexalbert__/status/2102458350348935454",
+      "publishedAt": "2026-09-22T18:01:47.000Z",
+      "content": "need to make sure you've been updated to this (rolling out to everyone soon if you haven't!) https://t.co/fjCAQKazVs",
+      "summary": "need to make sure you've been updated to this (rolling out to everyone soon if you haven't!) https://t.co/fjCAQKazVs",
+      "regionTags": [],
+      "metrics": {
+        "likes": 31,
+        "retweets": 0,
+        "replies": 1
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.65,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.77,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "baa67dc041ef4456",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "What an insane day in AI. The frontier models just became substantially cheaper, with the Opus…",
+      "url": "https://x.com/levie/status/2102477253070430322",
+      "publishedAt": "2026-09-22T19:16:53.000Z",
+      "content": "What an insane day in AI. The frontier models just became substantially cheaper, with the Opus 5.5 price cuts, and now with GPT-6 Sol and Luna dropping token prices by 50%. The rate at which the cost per task (on a like-for-like basis) drops in AI is unlike any other type of technology in history. And every time the cost of AI drops, the use-cases you can deploy agents against dramatically increase. This is Jevons paradox applied to agents. These improvements will directly lead to broader diffu…",
+      "summary": "What an insane day in AI. The frontier models just became substantially cheaper, with the Opus 5.5 price cuts, and now with GPT-6 Sol and Luna dropping token prices by 50%. The rate at which the cost per task (on a like…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 655,
+        "retweets": 69,
+        "replies": 68
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d9698e258beef5b9",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "At Box, we've been testing Opus 5.5 on a variety of complex enterprise knowledge work tasks dea…",
+      "url": "https://x.com/levie/status/2102448415775051790",
+      "publishedAt": "2026-09-22T17:22:18.000Z",
+      "content": "At Box, we've been testing Opus 5.5 on a variety of complex enterprise knowledge work tasks dealing with unstructured data with the Box Agent. Overall, we saw frontier capability levels, with major performance improvements over Opus 5. 63% fewer tokens used, 42% less verbosity, and 30% faster vs. Opus 5. And the model itself is cheaper, so this is a major win for any agentic computer use, coding, analytics, or data work that enterprises will be doing. Here are some examples of the task wins and…",
+      "summary": "At Box, we've been testing Opus 5.5 on a variety of complex enterprise knowledge work tasks dealing with unstructured data with the Box Agent. Overall, we saw frontier capability levels, with major performance improveme…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 232,
+        "retweets": 23,
+        "replies": 40
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.92,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.95,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "eb077cde80ca5ef6",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:garrytan",
+      "builderOrOrg": "Garry Tan",
+      "title": "Capy (@capydotai) lets me drop PRs much much faster than I would with Codex or Claude Code alon…",
+      "url": "https://x.com/garrytan/status/2102544711647129902",
+      "publishedAt": "2026-09-22T23:44:57.000Z",
+      "content": "Capy (@capydotai) lets me drop PRs much much faster than I would with Codex or Claude Code alone https://t.co/s6xeWJahvJ",
+      "summary": "Capy (@capydotai) lets me drop PRs much much faster than I would with Codex or Claude Code alone https://t.co/s6xeWJahvJ",
+      "regionTags": [],
+      "metrics": {
+        "likes": 111,
+        "retweets": 9,
+        "replies": 29
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "598736304162e2c0",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:garrytan",
+      "builderOrOrg": "Garry Tan",
+      "title": "If you're working on something cool, GStack does actually tell you to apply to YC :-) https://t…",
+      "url": "https://x.com/garrytan/status/2102537390774759761",
+      "publishedAt": "2026-09-22T23:15:51.000Z",
+      "content": "If you're working on something cool, GStack does actually tell you to apply to YC :-) https://t.co/G4jWbqwINt",
+      "summary": "If you're working on something cool, GStack does actually tell you to apply to YC :-) https://t.co/G4jWbqwINt",
+      "regionTags": [],
+      "metrics": {
+        "likes": 155,
+        "retweets": 3,
+        "replies": 23
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "8417d92de121add9",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:garrytan",
+      "builderOrOrg": "Garry Tan",
+      "title": "We need to teach the world to prompt and maximally use AI: to help all people see the way it ca…",
+      "url": "https://x.com/garrytan/status/2102501556348440983",
+      "publishedAt": "2026-09-22T20:53:28.000Z",
+      "content": "We need to teach the world to prompt and maximally use AI: to help all people see the way it can give you wings in all your pursuits Then we need yearn to solve more problems for ourselves and for one another https://t.co/e7yOADOf6s",
+      "summary": "We need to teach the world to prompt and maximally use AI: to help all people see the way it can give you wings in all your pursuits Then we need yearn to solve more problems for ourselves and for one another https://t.…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 144,
+        "retweets": 17,
+        "replies": 31
+      },
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "ceeb0b9675bbd6e9",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:nikunj",
+      "builderOrOrg": "Nikunj Kothari",
+      "title": "The amount of SPVs organzied by even the “best” investors is simply mind boggling.. To the poin…",
+      "url": "https://x.com/nikunj/status/2102534909076349291",
+      "publishedAt": "2026-09-22T23:06:00.000Z",
+      "content": "The amount of SPVs organzied by even the “best” investors is simply mind boggling.. To the point that if you read headlines of a large fundraise, you can be reasonably sure now that a large amount of it came from SPVs even though the headlines say something else. Combine that with tranched valuations and revenue not being the same, all I’ll say don’t believe the headlines anymore. Proof is in the pudding and the pudding is not publicly visible anywhere.",
+      "summary": "The amount of SPVs organzied by even the “best” investors is simply mind boggling.. To the point that if you read headlines of a large fundraise, you can be reasonably sure now that a large amount of it came from SPVs e…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 34,
+        "retweets": 0,
+        "replies": 5
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.66,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.78,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "8638e07a34f1b191",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:nikunj",
+      "builderOrOrg": "Nikunj Kothari",
+      "title": "A Walk In The Park (part III) feat @toddsaunders 00:00 Software should fit your business 00:16…",
+      "url": "https://x.com/nikunj/status/2102395699895677325",
+      "publishedAt": "2026-09-22T13:52:50.000Z",
+      "content": "A Walk In The Park (part III) feat @toddsaunders 00:00 Software should fit your business 00:16 Meet Todd, the councilman 03:01 From Google to flooring software 07:51 The $10M pivot 11:55 Life after the exit 17:35 Vertical vs. horizontal software 23:21 The college startup story 24:35 Cofounders and the Dalton Mills name 28:06 Why raise VC again? 32:43 Who Todd wants to hear from shot on @iPhone, edited on @descript 📍westfield, nj",
+      "summary": "A Walk In The Park (part III) feat @toddsaunders 00:00 Software should fit your business 00:16 Meet Todd, the councilman 03:01 From Google to flooring software 07:51 The $10M pivot 11:55 Life after the exit 17:35 Vertic…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 34,
+        "retweets": 2,
+        "replies": 5
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.66,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.78,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "6f2e2ad85dcf58a7",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:steipete",
+      "builderOrOrg": "Peter Steinberger",
+      "title": "Had ChatGPT sometimes crashing on me after updating to macOS 27 and... Astra found a ~14 year o…",
+      "url": "https://x.com/steipete/status/2102501642176528743",
+      "publishedAt": "2026-09-22T20:53:48.000Z",
+      "content": "Had ChatGPT sometimes crashing on me after updating to macOS 27 and... Astra found a ~14 year old bug in libuv. https://t.co/JE8GssiRXJ",
+      "summary": "Had ChatGPT sometimes crashing on me after updating to macOS 27 and... Astra found a ~14 year old bug in libuv. https://t.co/JE8GssiRXJ",
+      "regionTags": [],
+      "metrics": {
+        "likes": 850,
+        "retweets": 33,
+        "replies": 54
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "2f1c1d61697b6392",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:danshipper",
+      "builderOrOrg": "Dan Shipper",
+      "title": "i added almost 10k new followers today! if you're new around here, here are two things to start…",
+      "url": "https://x.com/danshipper/status/2102556723244564715",
+      "publishedAt": "2026-09-23T00:32:41.000Z",
+      "content": "i added almost 10k new followers today! if you're new around here, here are two things to start with: 1. my vibe check on opus 5.5 vs. sol-6 on @every: https://t.co/61XgBTikxH 2. after automation, my take on why AI automation creates more good work to do for human experts: https://t.co/Lb7SUCe2pO if you like those two things you should subscribe to @every—there's more where that came from!",
+      "summary": "i added almost 10k new followers today! if you're new around here, here are two things to start with: 1. my vibe check on opus 5.5 vs. sol-6 on @every: https://t.co/61XgBTikxH 2. after automation, my take on why AI auto…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 37,
+        "retweets": 1,
+        "replies": 5
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.67,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.79,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "a7deec7e7bdb6527",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:adityaag",
+      "builderOrOrg": "Aditya Agarwal",
+      "title": "I have hosted over 50 Minus One fireside chats with lots of interesting and well known people o…",
+      "url": "https://x.com/adityaag/status/2102498288658526614",
+      "publishedAt": "2026-09-22T20:40:29.000Z",
+      "content": "I have hosted over 50 Minus One fireside chats with lots of interesting and well known people over the years @spc. The first one my 9 year old asked to attend was yesterday's with Dmitri of Waymo. The evocative beauty of building things for the physical world is undeniable.",
+      "summary": "I have hosted over 50 Minus One fireside chats with lots of interesting and well known people over the years @spc. The first one my 9 year old asked to attend was yesterday's with Dmitri of Waymo. The evocative beauty o…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 17,
+        "retweets": 0,
+        "replies": 1
+      },
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.61,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.75,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "609d21014e1da9f1",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:adityaag",
+      "builderOrOrg": "Aditya Agarwal",
+      "title": "Safety and alignment of \"models\" is the raging topic today. But the original \"safety\" debate fo…",
+      "url": "https://x.com/adityaag/status/2102457464432284019",
+      "publishedAt": "2026-09-22T17:58:15.000Z",
+      "content": "Safety and alignment of \"models\" is the raging topic today. But the original \"safety\" debate for AI/MachineLearning was actually in autonomous vehicles! My first Waymo ride truly felt like a religious experience. It was mind-boggling that we could build technology that actually worked on real roads with all the challenges that entails. I thought the most interesting part of the talk yesterday was the extensive eval/testing infrastructure that Waymo has built out in order to build the confidence…",
+      "summary": "Safety and alignment of \"models\" is the raging topic today. But the original \"safety\" debate for AI/MachineLearning was actually in autonomous vehicles! My first Waymo ride truly felt like a religious experience. It was…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 41,
+        "retweets": 4,
+        "replies": 4
+      },
+      "topics": [
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.69,
+          "rationale": [
+            "safety",
+            "alignment"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "autonomous"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.83,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.89,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "64ddeffe5f9e9df9",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:adityaag",
+      "builderOrOrg": "Aditya Agarwal",
+      "title": "In the mad dash for productivity...we often forget that AI products should be delightful and FU…",
+      "url": "https://x.com/adityaag/status/2102421668509733058",
+      "publishedAt": "2026-09-22T15:36:01.000Z",
+      "content": "In the mad dash for productivity...we often forget that AI products should be delightful and FUN. I have had so many magic moments of delight on Sentience. Highly recommend trying it out. https://t.co/i8pKw19PKq",
+      "summary": "In the mad dash for productivity...we often forget that AI products should be delightful and FUN. I have had so many magic moments of delight on Sentience. Highly recommend trying it out. https://t.co/i8pKw19PKq",
+      "regionTags": [],
+      "metrics": {
+        "likes": 23,
+        "retweets": 1,
+        "replies": 4
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.63,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.76,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "3b37190472d33e14",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:sama",
+      "builderOrOrg": "Sam Altman",
+      "title": "argh i meant VOICE not video :( sorry to dissapoint",
+      "url": "https://x.com/sama/status/2102512794235207758",
+      "publishedAt": "2026-09-22T21:38:07.000Z",
+      "content": "argh i meant VOICE not video :( sorry to dissapoint",
+      "summary": "argh i meant VOICE not video :( sorry to dissapoint",
+      "regionTags": [],
+      "metrics": {
+        "likes": 855,
+        "retweets": 16,
+        "replies": 101
+      },
+      "topics": [
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "voice"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "video"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "4844647901ab8e85",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:sama",
+      "builderOrOrg": "Sam Altman",
+      "title": "Startups are naturally good at this; it is hard to keep a bigger company good at this and i thi…",
+      "url": "https://x.com/sama/status/2102469008079679640",
+      "publishedAt": "2026-09-22T18:44:08.000Z",
+      "content": "Startups are naturally good at this; it is hard to keep a bigger company good at this and i think an underexplored space. https://t.co/Sr48wgC0lL",
+      "summary": "Startups are naturally good at this; it is hard to keep a bigger company good at this and i think an underexplored space. https://t.co/Sr48wgC0lL",
+      "regionTags": [],
+      "metrics": {
+        "likes": 3675,
+        "retweets": 123,
+        "replies": 272
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "466ae98bb045fed1",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:sama",
+      "builderOrOrg": "Sam Altman",
+      "title": "michelle embodies this as much as anyone openai is so, so lucky to have benefited from everythi…",
+      "url": "https://x.com/sama/status/2102468713866055872",
+      "publishedAt": "2026-09-22T18:42:58.000Z",
+      "content": "michelle embodies this as much as anyone openai is so, so lucky to have benefited from everything she has done so far and i think people will be quite pleased to see what she + team have cooking next! https://t.co/AVZAtyk6Uc",
+      "summary": "michelle embodies this as much as anyone openai is so, so lucky to have benefited from everything she has done so far and i think people will be quite pleased to see what she + team have cooking next! https://t.co/AVZAt…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 2124,
+        "retweets": 58,
+        "replies": 121
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "fc593537e1cf350c",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:claudeai",
+      "builderOrOrg": "Claude",
+      "title": "Claude Opus 5.5 is available today. What will you explore?",
+      "url": "https://x.com/claudeai/status/2102471892099866883",
+      "publishedAt": "2026-09-22T18:55:35.000Z",
+      "content": "Claude Opus 5.5 is available today. What will you explore?",
+      "summary": "Claude Opus 5.5 is available today. What will you explore?",
+      "regionTags": [],
+      "metrics": {
+        "likes": 226,
+        "retweets": 5,
+        "replies": 28
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "f5194bb6c769f1ee",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:claudeai",
+      "builderOrOrg": "Claude",
+      "title": "An algorithmic drawing program created by @kevin_t_ngo. Every drawing is based on a different s…",
+      "url": "https://x.com/claudeai/status/2102471889092276516",
+      "publishedAt": "2026-09-22T18:55:35.000Z",
+      "content": "An algorithmic drawing program created by @kevin_t_ngo. Every drawing is based on a different seed. https://t.co/3qZFPs9mGc",
+      "summary": "An algorithmic drawing program created by @kevin_t_ngo. Every drawing is based on a different seed. https://t.co/3qZFPs9mGc",
+      "regionTags": [],
+      "metrics": {
+        "likes": 261,
+        "retweets": 7,
+        "replies": 4
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "6e5935a00cbb8e00",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:claudeai",
+      "builderOrOrg": "Claude",
+      "title": "A toy brick-building app. Turn a photo or a description into a buildable model with custom inst…",
+      "url": "https://x.com/claudeai/status/2102471885061812714",
+      "publishedAt": "2026-09-22T18:55:34.000Z",
+      "content": "A toy brick-building app. Turn a photo or a description into a buildable model with custom instructions. https://t.co/zDFMIKuXLP",
+      "summary": "A toy brick-building app. Turn a photo or a description into a buildable model with custom instructions. https://t.co/zDFMIKuXLP",
+      "regionTags": [],
+      "metrics": {
+        "likes": 257,
+        "retweets": 7,
+        "replies": 4
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "e5b55bf95be74747",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Two years of OpenAI Academy",
+      "url": "https://openai.com/index/two-years-of-openai-academy",
+      "publishedAt": "2026-09-23T16:00:00.000Z",
+      "content": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+      "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d602877e0a086dae",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "publishedAt": "2026-09-23T13:00:00.000Z",
+      "content": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+      "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d3da8a4b9bf65790",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Sam Altman’s remarks at the United Nations Security Council",
+      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "content": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.78,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "70c7c130f2da640e",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "content": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+      "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "51c67db535e0d2d7",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "How invideo improves color grading 3x with GPT‑6 Astra",
+      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "content": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+      "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "video"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "3d9681b4174cb485",
+      "date": "2026-09-24",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Claude discovers a novel enzyme system \\ Anthropic",
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "publishedAt": null,
+      "content": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
+      "summary": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.82,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "6c3b5e4a4b58b362",
+      "date": "2026-09-24",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Partnering with Accenture on embedded evaluation \\ Anthropic",
+      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+      "publishedAt": null,
+      "content": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the nex…",
+      "summary": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the nex…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "eval",
+            "evaluation"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "97feb3ef1a0e889c",
+      "date": "2026-09-24",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Introducing the Life Sciences Verification Program \\ Anthropic",
+      "url": "https://www.anthropic.com/news/life-sciences-verification-program",
+      "publishedAt": null,
+      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "8fe92ffb2cfbc8c9",
+      "date": "2026-09-24",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Developing Enterprise Frontier Safeguards with our customers \\ Anthropic",
+      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+      "publishedAt": null,
+      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "06e663c935df6e37",
+      "date": "2026-09-24",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Improving our alignment and security practices \\ Anthropic",
+      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+      "publishedAt": null,
+      "content": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the…",
+      "summary": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "alignment"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "db6147223ecaefc8",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google DeepMind Blog",
+      "sourceKey": "official:Google DeepMind Blog",
+      "builderOrOrg": "Google DeepMind",
+      "title": "Advancing Private AI Compute with secure, server-side memory",
+      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+      "publishedAt": "2026-09-23T16:00:57.000Z",
+      "content": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+      "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "e5a5ea7b47437a79",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google AI Blog",
+      "sourceKey": "official:Google AI Blog",
+      "builderOrOrg": "Google",
+      "title": "Google Beam expands with new regions, partners, and customers",
+      "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
+      "publishedAt": "2026-09-23T18:00:00.000Z",
+      "content": "We’re expanding Google Beam to five new countries, and partnering with Industrious for an extended network.",
+      "summary": "We’re expanding Google Beam to five new countries, and partnering with Industrious for an extended network.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c88de6ff24a85d83",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google AI Blog",
+      "sourceKey": "official:Google AI Blog",
+      "builderOrOrg": "Google",
+      "title": "New experts join Google’s AI & Economy team",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+      "publishedAt": "2026-09-18T14:00:00.000Z",
+      "content": "We are expanding our AI & Economy team with world-class academic advisors, fellows, and core internal researchers.",
+      "summary": "We are expanding our AI & Economy team with world-class academic advisors, fellows, and core internal researchers.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "66a2742177c9d016",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google AI Blog",
+      "sourceKey": "official:Google AI Blog",
+      "builderOrOrg": "Google",
+      "title": "Co-creating the future of fashion with Google",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
+      "publishedAt": "2026-09-18T13:00:00.000Z",
+      "content": "Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
+      "summary": "Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "5718cc41a91aa6a8",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google AI Blog",
+      "sourceKey": "official:Google AI Blog",
+      "builderOrOrg": "Google",
+      "title": "Making global data easier to explore",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
+      "publishedAt": "2026-09-17T20:00:00.000Z",
+      "content": "Google and the UN system have launched the UN System Data Commons, a new open platform making global statistics accessible and easy to search.",
+      "summary": "Google and the UN system have launched the UN System Data Commons, a new open platform making global statistics accessible and easy to search.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7079d9900429a268",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Offloaded inference for real-world physical AI robotics",
+      "url": "https://www.microsoft.com/en-us/research/blog/offloaded-inference-for-real-world-physical-ai-robotics/",
+      "publishedAt": "2026-09-23T16:01:36.000Z",
+      "content": "At a glance Challenges a core assumption in robotics AI: Our research shows that running physical AI inference exclusively on onboard GPUs can limit robot performance, battery life, and scalability, and that offloading inference to edge or cloud GPUs can offer significant advantages. Demonstrates measurable benefits of inference offloading: Across representative mobile manipulation workloads, offloading improved task success rates, enabled larger AI models, and helped robots respond more effectively in dynamic, real-world environments. Extends robot operating time: Replacing power-hungry onboard AI compute with lightweight onboard hardware and remote inference can substantially improve battery life, enabling robots to operate longer between charges. Introduces a new capability in the Physical AI Toolchain: Developers can now containerize, deploy, and orchestrate robotics AI workloads across robots, edge infrastructure, and the cloud using Kubernetes-based tooling for distributed inference. Readily-available physical AI, with robotics assisting users in manufacturing, home, and warehouses scenarios, holds immense potential to improve safety, productivity, and assistance across a wide range of tasks. In many ways, AI for the physical world represents a major frontier for AI . Physical AI must operate in open,&nbsp;unpredictable environments, interact with both other robots and people, and work with a diversity of embodiments. Realizing this vision requires advances along three dimensions: robot hardware, embodied AI models, and systems infrastructure for training and inference. While robot hardware and the AI models have advanced rapidly in recent years, we turn our focus on a relatively under-addressed aspect: inference infrastructure of physical AI . Enabling robots to effectively and safely operate in the physical world will require sophisticated systems to handle large volumes of distributed inference compute. Today, the prevailing approach to physical AI is to p…",
+      "summary": "Robots are getting smarter, but how can their hardware match that growth? New Microsoft Research findings show that moving AI inference beyond the robot can improve task success, boost efficiency, and support more advanced physical AI work…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "developer"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "741d301d1396694c",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Improving synthesis prediction of small molecules at scale with RetroChimera",
+      "url": "https://www.microsoft.com/en-us/research/blog/improving-synthesis-prediction-of-small-molecules-at-scale-with-retrochimera/",
+      "publishedAt": "2026-09-21T15:30:19.000Z",
+      "content": "At a glance We report on the recent publication of our retrosynthesis model RetroChimera in the journal Nature (opens in new tab) . The paper describes the model’s architecture as well as extensive validation studies, including the model’s ability to recall rare reaction types, and successful zero-shot transfer and fine-tuning on proprietary datasets. We open-source RetroChimera’s implementation and weights in the hope that it will enable researchers to accelerate development of new medicinally relevant molecules and advanced materials.&nbsp; Developing new medicines and materials requires making new molecules but planning how to make them is still largely manual, time-consuming, and costly. RetroChimera automatically proposes high-quality synthesis routes. The model combines two strong models with complementary strengths, learning how to rank their proposals to produce better predictions than either alone. In blind tests, PhD-level chemists prefer RetroChimera’s individual reaction predictions over preceding models and recorded literature reactions.&nbsp; Custom-made molecules are unlocking advances in modern medicine, smart materials, and sustainable agriculture. Yet, progress is slowed by chemical synthesis—the time-consuming process of making new molecules from simpler building blocks in the lab. In addition, synthesis is a significant driver of drug development costs. So even as computational methods make it possible to explore large numbers of novel molecules, finding practical ways to synthesize them remains a critical challenge.&nbsp; Figure 1: Planning a synthesis by working backward. Retrosynthesis starts with a target molecule and proposes successive disconnections into simpler precursors until purchasable building blocks are reached. The highlighted path shows a complete synthesis route; pale branches illustrate alternatives explored along the way. Circles represent molecules and squares represent reactions. For clarity, only a few branches are illustra…",
+      "summary": "Custom-made molecules are advancing medicine, materials, and agriculture, but producing them is slow and expensive. A new Nature paper highlights RetroChimera, a predictive model that helps accelerate chemical synthesis, helping researcher…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.95,
+          "rationale": [
+            "research",
+            "paper",
+            "publication"
+          ],
+          "score": 5
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.69,
+          "rationale": [
+            "open-source",
+            "weights"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "040333a35fe47788",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "How to train your own Jev for $17",
+      "url": "https://www.together.ai/blog/how-to-train-your-own-jev",
+      "publishedAt": "2026-09-23T00:00:00.000Z",
+      "content": "We just launched our own Jev-like classifier, together/Tev1-4B-experimental, on top of Qwen3.5 4B on Together’s serverless platform. In this blog post we’ll show you how to fine-tune your own version!",
+      "summary": "We just launched our own Jev-like classifier, together/Tev1-4B-experimental, on top of Qwen3.5 4B on Together’s serverless platform. In this blog post we’ll show you how to fine-tune your own version!",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "china-models",
+          "label": "Chinese AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "qwen"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Chinese Models",
+      "importanceScore": 0.73,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.82,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "4302ad83175d8cbe",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "Canary rollouts: upgrade models in production without downtime",
+      "url": "https://www.together.ai/blog/canary-rollouts-upgrade-models-in-production-without-downtime",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "content": "A hard model swap exposes every user at once, and rolling back means cold-starting the old deployment under pressure. Here's how staged traffic ramps, metric gates, and automatic rollback work on dedicated inference.",
+      "summary": "A hard model swap exposes every user at once, and rolling back means cold-starting the old deployment under pressure. Here's how staged traffic ramps, metric gates, and automatic rollback work on dedicated inference.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "deployment"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "8802fc0f35bde246",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "How a global fintech scaled coding agent traffic with Dedicated Model Inference",
+      "url": "https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference",
+      "publishedAt": "2026-09-18T00:00:00.000Z",
+      "content": "Inside a global bank's shift to self-serve dedicated inference: how Together's DMI gave engineering teams direct control over scaling, models, and testing.",
+      "summary": "Inside a global bank's shift to self-serve dedicated inference: how Together's DMI gave engineering teams direct control over scaling, models, and testing.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "30f7d3b78547aa67",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Import AI",
+      "sourceKey": "editorial:Import AI",
+      "builderOrOrg": "Jack Clark",
+      "title": "Import AI 473: The US&#8217;s superintelligence strategy; human brain in a mouse skull; and machine hermeneutics",
+      "url": "https://jack-clark.net/2026/09/21/import-ai-473-the-uss-superintelligence-strategy-human-brain-in-a-mouse-skull-and-machine-hermeneutics/",
+      "publishedAt": "2026-09-21T12:31:04.000Z",
+      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now RAND thinks the best AI strategy for the US is to keep all options open: …It’s not clear exactly what is optimal, so the US should spend money now to preserve options… RAND has published a lengthy paper about what the US should do to “secure geopolitical advantage on an uncertain path to superintelligence”. The main takeaway is that because so much of how the next phase of the AI takeoff will occur is unknown, the best thing is for the US to maintain a “Freedom of Action” strategy. The purpose of this strategy is “to build and preserve the ability to secure U.S. geopolitical advantage and ensure humanity’s survival with agency through the transition to Superintelligence”. The four key ingredients of the Freedom of Action Strategy: Build a human-AI ecosystem: Invest in AI safety; build tools to preserve human agency; invest in sharing the benefits of the technology; prepare society for AI-driven disruption; shape the incentives of the AI ecosystem. Build an AI-security architecture: Develop the tools to understand the frontier of AI systems both at home and abroad, including visibility into underlying compute; build technology to verify potential agreements; create regulatory expertise to govern the technology. Adapt legacy national security enterprises for the AI era : Overhaul all the security institutions of the country so that they’re ready for the changes AI brings on and able to capitalize on AI capabilities. Invest in the capacity of citizens, firms, and governments to respond: Give decisionmakers information to help them think about AI; develop and diffuse positive uses of AI to deal with its changes; build break-glass plans for responding to crises; raise AI literacy. Seven archetypal strategies in three families: Coexistence: Dominance ; the US leads development of AI and suppr…",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now RAND thinks the best AI strategy for the US is to keep al…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.69,
+          "rationale": [
+            "enterprise",
+            "security"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "paper"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "1abf942f432a4675",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+      "url": "https://www.latent.space/p/bio-security-is-an-ai-arms-race-eric",
+      "publishedAt": "2026-09-23T13:27:18.000Z",
+      "content": "The OpenAI &#8594; Hugging Face attack has people asking &#8220;what else do we need to worry about?&#8221; and Anthropic&#8217;s filters flag two things: cyber-security and biology. The natural question is: what about bio-security, then? Clem Delangue argues that cyber-warfare defensive capabilities need to be open and to keep pace with frontier models&#8217; attack capabilities @Zai_org : they shared GLM5.2 as open weights (for free!) with the world and it became a key part of our&#8230;\",\"username\":\"ClementDelangue\",\"name\":\"clem &#129303;\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/1100512198139498497/utHSJ4st_normal.png\",\"date\":\"2026-07-22T12:54:50.000Z\",\"photos\":[],\"quoted_tweet\":{\"full_text\":\"Hardest IR of my career: one narrow objective, endless parallel paths, machine speed. One takeaway, we fought back with open models, in the open. AI security won&#8217;t be solved by one company in secret. Open source puts these tools in every defender&#8217;s hands\",\"username\":\"XciD_\",\"name\":\"Adrien Carreira\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/1945829182715432960/BolQx8R0_normal.jpg\"},\"reply_count\":177,\"retweet_count\":683,\"like_count\":4875,\"impression_count\":504571,\"expanded_url\":null,\"video_url\":null,\"video_preview_media_key\":null,\"belowTheFold\":false}\" data-component-name=\"Twitter2ToDOM\"> Radical Numerics co-founder Eric Nguyen sat down with us and explained why the same models that increase biological capability can also keep defense from falling behind. Building a virus from scratch While he was at Stanford, Eric couldn&#8217;t get traction on Genomic Language Models (GLMs) for a long time. Biologists didn&#8217;t believe it would work, didn&#8217;t think they could verify the output, and didn&#8217;t see important applications beyond what they could already do. He kept pushing, eventually helping lead the development of Evo and contributing to Evo 2 at Arc Institute. Those models were later used by a separate Arc/Stanford…",
+      "summary": "Radical Numerics is using biological chain-of-thought and multimodal perception to keep up with the bio-defense arms race, design new genomes and gain insights into biology itself.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.69,
+          "rationale": [
+            "open source",
+            "weights"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "image",
+            "video"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.66,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "16cdc3ed7eabdcc0",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%",
+      "url": "https://www.latent.space/p/ainews-claude-opus-55-the-new-default",
+      "publishedAt": "2026-09-23T06:41:41.000Z",
+      "content": "OpenAI made a valiant effort with GPT-6 Sol and Luna launching 50% lower than GPT-5.6, but with 17M views on the launch and counting, today was always going to belong to Claude Opus 5.5 , &#8220;the first model in our new Claude 5.5 family&#8221; performing like &#8220;Claude Fable 5.1 for most tasks, and costs 40% less to run than Opus 5.&#8221; Opus 5.5 beats Fable or challenges Astra at most benchmarks, and both labs credited efficiency work for the API price cuts , but there are HUGE double digit gains everywhere from prefill to decode to overall compute&#8230; &#8230; with offsetting inefficiency in token usage on some frontier tasks. HOWEVER something that is a rare emphasis in the Claude launch was the writing improvements : &#8220;It puts the most important information up front and follows the writing rules you give it, which makes long sessions easier to follow.&#8221; We can confirm - here is today&#8217;s AINews section run on Opus 5.5 and Sol 6 . The difference is night and day - we are migrating to Opus 5.5 immediately for AINews going forward until we reach the next model/version of AINews. They have also published initial work on large multiagent swarms (and efficiency ): AI News for 9/21/2026-9/22/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Top Story: Claude Opus 5.5 launch, numbers, and reactions What happened Anthropic shipped Claude Opus 5.5, the first model in a new Claude 5.5 family. Its pitch is Fable 5.1&#8209;level capability at Opus pricing, with more speed and better writing. OpenAI released GPT&#8209;6 Sol and Luna about an hour later. Launch claims. Opus 5.5 &#8220;performs at the level of Claude Fable 5.1 for most tasks, and costs 40% less to run than Opus 5&#8221; ( @claudeai ; @AnthropicAI ). Where it leads. Anthropic says it leads on agentic…",
+      "summary": "overshadowing more efficient GPT6 models from OpenAI",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "benchmark"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d2b55660e4d5ad60",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
+      "url": "https://www.latent.space/p/john-platt",
+      "publishedAt": "2026-09-22T21:07:39.000Z",
+      "content": "How often do you get to talk to a guest who has both an Academy Award and who invented textbook machine learning algorithms? John Platt has an Oscar , two textbook algorithms , two named asteroids, and an Erdos-Bacon number of 6. This was easily the most fun bio of all the guests we&#8217;ve read to date. And the result was an epic and fun chat covering Google&#8217;s Empirical Research Assistance (ERA), how AI can help battle climate change, and tons of great stories about the co-evolution of science and AI. John&#8217;s colleague Dave Bacon likes to tease John that his career has been defined by being twenty years early to the next big thing. This may be convolutional neural networks (some credit him with coining the term), fusion research, quantum computing. John and Google have been working on solving some of humanity&#8217;s hardest problems with AI and computation for well over a decade now. Recently John and his team set their sights on using AI to solve any scientific problem that can be written down as a score. Google&#8217;s Empirical Research Assistance (ERA) John&#8217;s team has taken on many hard scientific problems over the years. In solving these, they noticed a pattern, many scientific problems can be reduced to what John calls a &#8220;scoreable task&#8221;. Once you have the score function, the goal is to find some code that maximizes the score. The hard part is in formulating the score, but once you have the score finding the maximizer can still be quite a lot of effort. John&#8217;s team set out to automate solutions to this general problem. This came out of the idea of an &#8220;auto-Kaggle&#8221; AI, which can solve any Kaggle problem you can throw at it. Kaggle is owned by Google, so all the data was ready and easily available to them! The result is Google&#8217;s Empirical Research Assistance or ERA ( paper , github , blog ). 1 ERA is surprisingly simple conceptually. Gemini (or your LLM of choice) keeps a running tree of past experiments (…",
+      "summary": "We talked to Google&#8217;s Oscar winning &#8220;Giganerd&#8221; about automating science, solving climate change, and how future generations can contribute to science in the age of superintelligent AI",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.9299999999999999,
+          "rationale": [
+            "research",
+            "paper",
+            "science"
+          ],
+          "score": 4
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "github"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "9918cd94df0f3166",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Xiaomi MiMo-V2.6-Pro 1T-A42B: the new top Open Weights model, trained for $3M",
+      "url": "https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b",
+      "publishedAt": "2026-09-22T06:30:56.000Z",
+      "content": "Meet Xiaomi and other top Chinese frontier labs at AIE Shanghai ! This is a first for the &#8220;Apple of China&#8221; phone maker-turned-frontier lab: &#8220; The MiMo-V2.6 series includes two natively omnimodal models: MiMo-V2.6-Pro is our most capable model to date, while MiMo-V2.6-Flash strikes the best balance between intelligence, efficiency, and cost. We are also rolling-out MiMo-V2.6-Pro-UltraSpeed, delivering up to 20x faster output speed at the same quality, for users who require extreme generation speed.&#8221; @Xiaomi has just released MiMo-V2.6-Pro, an open weights model with major &#8230;\",\"username\":\"ArtificialAnlys\",\"name\":\"Artificial Analysis\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/2042402069320290304/A8C1lP07_normal.jpg\",\"date\":\"2026-09-21T20:11:19.000Z\",\"photos\":[{\"img_url\":\"https://pbs.substack.com/media/HSxCs7wa0AANR91.jpg\",\"link_url\":\"https://t.co/W3BrQ7q4Lk\"}],\"quoted_tweet\":{},\"reply_count\":97,\"retweet_count\":197,\"like_count\":2213,\"impression_count\":227336,\"expanded_url\":null,\"video_url\":null,\"video_preview_media_key\":null,\"belowTheFold\":false}\" data-component-name=\"Twitter2ToDOM\"> Xiaomi is not traditionally considered one of the six Chinese AI Tigers , so it is very surprising to the established order of names you have come to know and love. And&#8230; it is natively omnimodal! Xiaomi made news a few days ago when Fuli Luo, a former DeepSeek star engineer now at Xiaomi , started publishing their final RL training runs live, which showed an abnormal amount of transparency in their internal metrics . As they note in their technical report , they scaled RL compute along three axes: Larger batches and higher throughput : large batches on a fully asynchronous architecture, with 1,568 samples per update, training at up to 1M context length, and 3.5 to 3.7B tokens per step. More tasks and richer environments : a multi-task training suite spanning coding, general agents, visual and cyber, mixed across several harnesses so tha…",
+      "summary": "crowning a new Chinese frontier lab",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "repo"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "image",
+            "video"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7f302ad994345f9e",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI",
+      "url": "https://www.latent.space/p/jev",
+      "publishedAt": "2026-09-21T22:13:49.000Z",
+      "content": "Tickets for AIE NYC now open, and apply for the invite-only AIE CODE . Join us ! We have an unusual relationship with today&#8217;s guest: for years since coauthoring the InstructGPT paper , Diogo Almeida had been saying that API-available frontier models have been going down the wrong path, everything from the alignment to refusals to reliability perspectives, that we have dropped every mode other than autoregressive chat-tuned LLMs because of the overwhelming success of ChatGPT. In a launch video now viewed ~40M times (by comparison, GPT4o was 22M , Fable 5 was 15M , Navier Stokes was 74M , and 6 Astra was 137M ), Diogo introduced Jev and it immediately took over the AI timeline &#8212; we&#8217;ll skip full Jev explainers because your favorite AI influencer/educator has probably already done one. We also collected: the official patterns and cookbooks you should see first, from Allie Jev usecases speed based - games and computer use the voice + computer use example we discuss at 1h34 mins voice + browser control The must not miss Doom demo Driving cars in games Excalidraw virtual try-ons &#8220;Smart Games&#8221;/smart NPCs guided responses in text messages Jev for coding agents has an official guide jev for linting compacting tool calls reasonable pushback from Theo - Diogo has published a note on the Tyranny of the KV Cache that you should read as a followup after the pod for Jev + coding agents, because of his belief that Cache Rules Everything Programming Languages built atop Jev (Diogo&#8217;s fave) Jev for analytics replay and user journey review &#8220;dark data&#8221; entity resolution natural language search &#8220; smart software &#8221; a core goal of Jev is to &#8220;disappear into the background&#8221; - eg as unremarkable as regex Jev as a judge Jev memes Jev vs LLM capabiltiies blending transformers and classifiers about the confidence api Jev vs GLiNER (note difference/pushback , agreed , agreed , agreed ) Jev on trolley problem Jev Bush Instead w…",
+      "summary": "The definitive Jev podcast with its lead creator.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "coding",
+            "code",
+            "programming"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.69,
+          "rationale": [
+            "computer use",
+            "gui"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "17d0479b72406bf2",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Xi Descends on DC",
+      "url": "https://www.chinatalk.media/p/the-xi-state-visit",
+      "publishedAt": "2026-09-23T09:54:40.000Z",
+      "content": "ChinaTalk book club is happening in SF! The first book we&#8217;re reading is Xiao Hai&#8217;s Adrift in the South , and we&#8217;ve partnered with a local bookstore to supply copies &#8212; in SF or online. You can RSVP and find out more on Luma . We hope to see you there! Julian Gewirtz, author and former Biden NSC China director, joins ChinaTalk days before Xi Jinping&#8217;s first White House visit since 2015. With little substantive agenda on the table, what is the US getting in exchange for the symbolism and pageantry of a state visit? We discuss: Trump-Xi summit scenarios, Beijing&#8217;s management of uncertainty and protocol, and how the script of US-China diplomacy has flipped, with things once seen as American concessions to China now treated as concessions from Beijing; Julian&#8217;s framework for a K-shaped US-China relationship, with leader-level diplomacy pulling upward while competition pulls downward; What Xi&#8217;s visit says about the changing political salience of China in the US Why Beijing&#8217;s public statements on AI risk don&#8217;t necessarily tell us how it will handle pacing and safety; What the decline of Xi Jinping could mean for a political system and why China&#8217;s next succession could be especially difficult to predict; China-maxxing from Kissinger to Trump Plus: The Scholars (&#20754;&#26519;&#22806;&#21490;) and why Qing-dynasty satire about corrupt scholars might make you feel better about America in 2026. Listen now on your favorite podcast app , or watch on YouTube ! And subscribe to Julian&#8217;s substack! Paper Tiger by Julian Gewirtz China, Geopolitics, Technology, Poetry | Author of Never Turn Back: China & the Forbidden History of the 1980s & Your Face My Flag: Poems | Former White House & State Dept Jordan Schneider: We are recording this just days before Xi Jinping touches down in the US for his first visit to the White House since 2015. That deserves a ChinaTalk podcast. Julian Gewirtz: Absolutely. You can feel…",
+      "summary": "With Julian Gewirtz",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "paper"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "92fc6db4db27c4ae",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Can AI Beat the Pentagon’s Bureaucracy?",
+      "url": "https://www.chinatalk.media/p/can-ai-beat-the-pentagons-bureaucracy",
+      "publishedAt": "2026-09-22T10:57:22.000Z",
+      "content": "Garrett Berntsen was last seen on ChinaTalk in his role as Deputy CDAO at the State Department. He then went to the Department of Defense for a little bit, and now makes a return in his new role as Chief AI Officer at Accenture Federal Services. We&#8217;re going to talk about what the national security community needs &#8212; beyond just API access to wonderful models &#8212; in order to really change how it does its mission. Our conversation covers: Why the U-2 spy plane offers a surprisingly useful lesson for AI: The hardest part of adopting transformative technology isn&#8217;t building it, but redesigning the institutions, workflows, incentives, and decision-making systems around it. The government&#8217;s need to manufacture its own &#8220;forcing functions&#8221;: How carrots, sticks, budget cuts, and a willingness to create winners and losers could help bureaucracies move faster. Giving the troops the tools and getting out of the way: Why Berntsen thinks the U.S. military&#8217;s greatest AI advantage may come from empowering service members to experiment, improvise, and &#8220;figure it out.&#8221; Will AI eventually negotiate with AI? We debate whether models can move beyond advising diplomats and executives to actually conducting negotiations. Plus, cyber challenges, a chat app for government, and book recs. Listen now on your favorite podcast app . Thank you to Accenture Federal Services for bringing us this episode. The U-2 and the Technology Behind the Photo Jordan Schneider: All right &#8212; a U-2 flies over Cuba in 1962. Why is that a parable we should recall as we think about how to deploy AI in government? Garrett Berntsen: Let me tell the CliffsNotes version of the U-2 story. It was built in a classified program with government buyers and government money, giving money to industry and unleashing a whole bunch of innovation around sensors and high-altitude flight. They built everything new. Putting all of the pieces of that together was incredibl…",
+      "summary": "Garrett Berntsen was last seen on ChinaTalk in his role as Deputy CDAO at the State Department.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "67d006fafe5cce2c",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "I Went to Kyrgyzstan to Find China’s Silent Nomads",
+      "url": "https://www.chinatalk.media/p/i-went-to-kyrgyzstan-to-find-chinas",
+      "publishedAt": "2026-09-20T11:53:42.000Z",
+      "content": "On a rainy day at the beginning of September, I found myself standing under the giant sky at the foot of the mountains in rural Kyrgyzstan, shouting &#8220;add oil! (&#21152;&#27833;) from the sidelines of a horseback archery track. I was back in Central Asia for the World Nomad Games, an Olympics-style celebration of traditional sports where China reluctantly lets some of its minorities compete. As if that weren&#8217;t justification enough for a reporting trip, the Shanghai Cooperation Organization&#8217;s annual summit was happening in Bishkek, with the Games designated as a partner event open to the delegates. Putin, Modi, and nine other heads of state flew in to discuss new infrastructure megaprojects, drugs and nuclear material trafficking, market integration, and more. ChinaTalk is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber. When I went to Kyrgyzstan last August in search of Chinese influence, the country captivated me with its friendly people, rapidly growing economy, and the semi-nomadic way of life still practiced by many in the countryside. And now, on the 35th anniversary of Kyrgyzstan&#8217;s independence from the Soviet Union, I was honored to bear witness to the country&#8217;s moment on the world stage. Today, I&#8217;ll take you along on my journey. This piece is part travelogue and part geopolitics, and it covers a lot of ground: the massive infrastructure buildout, the Kyrgyz president&#8217;s Chinamaxxing, the muzzled Inner Mongolian athletes representing China, the lessons China hasn&#8217;t learned about sports diplomacy and inter-ethnic harmony, and what this all means for Central Asia&#8217;s future. Arriving in Bishkek The World Nomad Games were first conceived in Kyrgyzstan in 2014 and are held every two years. 1 After being hosted by T&#252;rkiye in 2022 and Kazakhstan in 2024, the Games have finally returned home to the mountains of Kyrgyzstan. And these were the…",
+      "summary": "Representing Inner Mongolia in Kyrgyzstan",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "publication"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "2431dba61973befe",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "How Chinese AI Radicalizes",
+      "url": "https://www.chinatalk.media/p/how-anthropic-became-chinas-goliath",
+      "publishedAt": "2026-09-18T15:38:10.000Z",
+      "content": "A DeepSeek researcher&#8217;s personal blog post recently went viral. On September 13, after DeepSeek V4.1-Flash was released, researcher Liu Shengyu &#21016;&#32988;&#19982; reflected on how humans might live alongside AI systems with superhuman abilities: As AI develops, future society may trend toward one of two extremes: communism, or Cyberpunk 2077. In the former, the productive forces are enormously liberated and people&#8217;s standards of living improve markedly (let&#8217;s stop here; I&#8217;m worried this won&#8217;t clear the censors otherwise). In the latter, a few tech companies control the bulk of resources; only a tiny minority can access the most advanced AI and assorted technologies, achieving something close to &#8220;machine ascension,&#8221; while everyone else makes do with feeble AI. Liu specializes in kernels and is passionate about the craft. He remarks with frank resignation that, &#8220;give it another six months or a year, and AI-written kernels will most likely be just as good as mine, if not surpass my work.&#8221; So why does he keep working on this? Simply put: the race dynamic. If I were to slack off at this point, or even deliberately throw sand in the gears to hold up model training, other companies&#8217; models would develop all the same and would kill off my career in the exact same manner in the end. &#8230; When everyone is this fixated on destroying themselves, I have no choice but to join the cruel arms race, too. Liu deeply mourns losing his edge over AI on the kernel optimization work that he&#8217;s spent years perfecting. He says that in the near future, he expects to have to pivot to working as a kind of &#8220;mecha pilot&#8221; &#26426;&#30002;&#39550;&#39542;&#21592; for agents in order to remain employed. 1 In the meantime, he has a shockingly forthright warning for everyone else: If Anthropic controlled the world&#8217;s most advanced AI forever, care to guess whether future society would turn out communist or 207…",
+      "summary": "Deepseek, Dario, and the boy who cried wolf",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "deliberate"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    }
+  ],
+  "selectedItems": [
+    {
+      "id": "d9698e258beef5b9",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "At Box, we've been testing Opus 5.5 on a variety of complex enterprise knowledge work tasks dea…",
+      "url": "https://x.com/levie/status/2102448415775051790",
+      "publishedAt": "2026-09-22T17:22:18.000Z",
+      "content": "At Box, we've been testing Opus 5.5 on a variety of complex enterprise knowledge work tasks dealing with unstructured data with the Box Agent. Overall, we saw frontier capability levels, with major performance improvements over Opus 5. 63% fewer tokens used, 42% less verbosity, and 30% faster vs. Opus 5. And the model itself is cheaper, so this is a major win for any agentic computer use, coding, analytics, or data work that enterprises will be doing. Here are some examples of the task wins and…",
+      "summary": "At Box, we've been testing Opus 5.5 on a variety of complex enterprise knowledge work tasks dealing with unstructured data with the Box Agent. Overall, we saw frontier capability levels, with major performance improveme…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 232,
+        "retweets": 23,
+        "replies": 40
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.92,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.95,
+      "whyThisMatters": "Token counts and latency aren't abstract metrics when you're running thousands of agentic document tasks per day. For any company billing AI usage back to clients or watching cloud costs closely, a 63% token reduction on the same task is the kind of number that makes a business case write itself. Levie has been one of the more honest voices on what enterprise AI actually delivers versus what it promises. These numbers are worth taking seriously."
+    },
+    {
+      "id": "3e7abfd973a1d9e4",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:bcherny",
+      "builderOrOrg": "Boris Cherny",
+      "title": "I used Opus 5.5 to formally verify the Claude Agent SDK using Lean. A couple short prompts = 16…",
+      "url": "https://x.com/bcherny/status/2102543349102338309",
+      "publishedAt": "2026-09-22T23:39:32.000Z",
+      "content": "I used Opus 5.5 to formally verify the Claude Agent SDK using Lean. A couple short prompts = 16 PRs fixing various bugs and race conditions. Video attached. TLA+ also works well. I sometimes combine Lean and TLA+ to look for issues around data flow, concurrency, and state mgmt. I don't know either language well, but Claude is excellent at both. This approach is super useful for formally modeling your code and finding bugs that a human probably wouldn't have spotted. Is formal verification the f…",
+      "summary": "I used Opus 5.5 to formally verify the Claude Agent SDK using Lean. A couple short prompts = 16 PRs fixing various bugs and race conditions. Video attached. TLA+ also works well. I sometimes combine Lean and TLA+ to loo…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 3324,
+        "retweets": 165,
+        "replies": 258
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "finding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": "Formal verification has always been a specialty skill, something a handful of engineers with specific training do on the most critical code. If you can now access it through a few natural-language prompts, the floor for production code quality just moved. Every team shipping agent infrastructure should be asking why they aren't doing this already."
+    },
+    {
+      "id": "609d21014e1da9f1",
+      "date": "2026-09-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:adityaag",
+      "builderOrOrg": "Aditya Agarwal",
+      "title": "Safety and alignment of \"models\" is the raging topic today. But the original \"safety\" debate fo…",
+      "url": "https://x.com/adityaag/status/2102457464432284019",
+      "publishedAt": "2026-09-22T17:58:15.000Z",
+      "content": "Safety and alignment of \"models\" is the raging topic today. But the original \"safety\" debate for AI/MachineLearning was actually in autonomous vehicles! My first Waymo ride truly felt like a religious experience. It was mind-boggling that we could build technology that actually worked on real roads with all the challenges that entails. I thought the most interesting part of the talk yesterday was the extensive eval/testing infrastructure that Waymo has built out in order to build the confidence…",
+      "summary": "Safety and alignment of \"models\" is the raging topic today. But the original \"safety\" debate for AI/MachineLearning was actually in autonomous vehicles! My first Waymo ride truly felt like a religious experience. It was…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 41,
+        "retweets": 4,
+        "replies": 4
+      },
+      "topics": [
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.69,
+          "rationale": [
+            "safety",
+            "alignment"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "autonomous"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.83,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.89,
+      "whyThisMatters": "The self-driving field spent a decade building evaluation frameworks for high-stakes autonomous decisions. Most AI agent teams today have not. If your company is deploying agents that make real decisions, Waymo's approach to simulation, edge cases, and staged rollouts is a better reference point than anything coming out of a benchmark leaderboard."
+    },
+    {
+      "id": "3d9681b4174cb485",
+      "date": "2026-09-24",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Claude discovers a novel enzyme system \\ Anthropic",
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "publishedAt": null,
+      "content": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
+      "summary": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.82,
+      "whyThisMatters": "This is a meaningful moment to sit with. A model autonomously surfaced a real biological finding that trained scientists hadn't found. If Anthropic's lab can do this in early results, the drug discovery and materials science industries are staring at a very different R&D timeline. The question now isn't whether AI can find things humans miss. It's how fast those findings turn into things you can actually use."
+    },
+    {
+      "id": "040333a35fe47788",
+      "date": "2026-09-24",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "How to train your own Jev for $17",
+      "url": "https://www.together.ai/blog/how-to-train-your-own-jev",
+      "publishedAt": "2026-09-23T00:00:00.000Z",
+      "content": "We just launched our own Jev-like classifier, together/Tev1-4B-experimental, on top of Qwen3.5 4B on Together’s serverless platform. In this blog post we’ll show you how to fine-tune your own version!",
+      "summary": "We just launched our own Jev-like classifier, together/Tev1-4B-experimental, on top of Qwen3.5 4B on Together’s serverless platform. In this blog post we’ll show you how to fine-tune your own version!",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "china-models",
+          "label": "Chinese AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "qwen"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Chinese Models",
+      "importanceScore": 0.73,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.82,
+      "whyThisMatters": "Custom classifiers used to require either expensive API calls at scale or your own ML team. At $17 to train and serverless to run, any startup building a content moderation layer, a routing system for agent tasks, or a data labeling pipeline can now own a specialized model instead of renting a general one."
+    }
+  ],
+  "topicIndex": [
+    {
+      "slug": "coding",
+      "label": "Coding",
+      "count": 13,
+      "latestDate": "2026-09-24"
+    },
+    {
+      "slug": "research",
+      "label": "Research",
+      "count": 12,
+      "latestDate": "2026-09-24"
+    },
+    {
+      "slug": "agents",
+      "label": "AI Assistants",
+      "count": 10,
+      "latestDate": "2026-09-24"
+    },
+    {
+      "slug": "enterprise",
+      "label": "Business AI",
+      "count": 8,
+      "latestDate": "2026-09-24"
+    },
+    {
+      "slug": "fine-tuning",
+      "label": "Custom AI",
+      "count": 8,
+      "latestDate": "2026-09-24"
+    },
+    {
+      "slug": "safety",
+      "label": "AI Safety",
+      "count": 6,
+      "latestDate": "2026-09-24"
+    },
+    {
+      "slug": "computer-use",
+      "label": "AI Using Computers",
+      "count": 5,
+      "latestDate": "2026-09-24"
+    },
+    {
+      "slug": "multimodal",
+      "label": "Images, Audio & Video",
+      "count": 5,
+      "latestDate": "2026-09-24"
+    },
+    {
+      "slug": "benchmarks",
+      "label": "AI Testing",
+      "count": 4,
+      "latestDate": "2026-09-24"
+    },
+    {
+      "slug": "tool-use",
+      "label": "AI Using Tools",
+      "count": 3,
+      "latestDate": "2026-09-24"
+    },
+    {
+      "slug": "open-source",
+      "label": "Open Source",
+      "count": 3,
+      "latestDate": "2026-09-24"
+    },
+    {
+      "slug": "inference",
+      "label": "Speed & Cost",
+      "count": 3,
+      "latestDate": "2026-09-24"
+    },
+    {
+      "slug": "reasoning",
+      "label": "AI Thinking",
+      "count": 1,
+      "latestDate": "2026-09-24"
+    },
+    {
+      "slug": "china-models",
+      "label": "Chinese AI",
+      "count": 1,
+      "latestDate": "2026-09-24"
+    },
+    {
+      "slug": "voice",
+      "label": "Voice",
+      "count": 1,
+      "latestDate": "2026-09-24"
+    }
+  ],
+  "sections": [
+    "Builders",
+    "Official Sources",
+    "Chinese Models"
+  ],
+  "stats": {
+    "totalItems": 68,
+    "selectedItems": 5,
+    "chinaItems": 1
+  }
+}
