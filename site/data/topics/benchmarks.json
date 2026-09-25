@@ -1,8 +1,96 @@
 {
-  "generatedAt": "2026-09-24T06:16:55.001Z",
+  "generatedAt": "2026-09-25T00:31:04.131Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
+    {
+      "id": "6c3b5e4a4b58b362",
+      "date": "2026-09-25",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Partnering with Accenture on embedded evaluation \\ Anthropic",
+      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+      "publishedAt": null,
+      "content": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the nex…",
+      "summary": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the nex…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "eval",
+            "evaluation"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "16cdc3ed7eabdcc0",
+      "date": "2026-09-25",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%",
+      "url": "https://www.latent.space/p/ainews-claude-opus-55-the-new-default",
+      "publishedAt": "2026-09-23T06:41:41.000Z",
+      "content": "OpenAI made a valiant effort with GPT-6 Sol and Luna launching 50% lower than GPT-5.6, but with 17M views on the launch and counting, today was always going to belong to Claude Opus 5.5 , &#8220;the first model in our new Claude 5.5 family&#8221; performing like &#8220;Claude Fable 5.1 for most tasks, and costs 40% less to run than Opus 5.&#8221; Opus 5.5 beats Fable or challenges Astra at most benchmarks, and both labs credited efficiency work for the API price cuts , but there are HUGE double digit gains everywhere from prefill to decode to overall compute&#8230; &#8230; with offsetting inefficiency in token usage on some frontier tasks. HOWEVER something that is a rare emphasis in the Claude launch was the writing improvements : &#8220;It puts the most important information up front and follows the writing rules you give it, which makes long sessions easier to follow.&#8221; We can confirm - here is today&#8217;s AINews section run on Opus 5.5 and Sol 6 . The difference is night and day - we are migrating to Opus 5.5 immediately for AINews going forward until we reach the next model/version of AINews. They have also published initial work on large multiagent swarms (and efficiency ): AI News for 9/21/2026-9/22/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Top Story: Claude Opus 5.5 launch, numbers, and reactions What happened Anthropic shipped Claude Opus 5.5, the first model in a new Claude 5.5 family. Its pitch is Fable 5.1&#8209;level capability at Opus pricing, with more speed and better writing. OpenAI released GPT&#8209;6 Sol and Luna about an hour later. Launch claims. Opus 5.5 &#8220;performs at the level of Claude Fable 5.1 for most tasks, and costs 40% less to run than Opus 5&#8221; ( @claudeai ; @AnthropicAI ). Where it leads. Anthropic says it leads on agentic…",
+      "summary": "overshadowing more efficient GPT6 models from OpenAI",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "benchmark"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
     {
       "id": "73b78a865a64fcc2",
       "date": "2026-09-24",
@@ -103,94 +191,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.64,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "6c3b5e4a4b58b362",
-      "date": "2026-09-24",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Partnering with Accenture on embedded evaluation \\ Anthropic",
-      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
-      "publishedAt": null,
-      "content": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the nex…",
-      "summary": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the nex…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "eval",
-            "evaluation"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "16cdc3ed7eabdcc0",
-      "date": "2026-09-24",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%",
-      "url": "https://www.latent.space/p/ainews-claude-opus-55-the-new-default",
-      "publishedAt": "2026-09-23T06:41:41.000Z",
-      "content": "OpenAI made a valiant effort with GPT-6 Sol and Luna launching 50% lower than GPT-5.6, but with 17M views on the launch and counting, today was always going to belong to Claude Opus 5.5 , &#8220;the first model in our new Claude 5.5 family&#8221; performing like &#8220;Claude Fable 5.1 for most tasks, and costs 40% less to run than Opus 5.&#8221; Opus 5.5 beats Fable or challenges Astra at most benchmarks, and both labs credited efficiency work for the API price cuts , but there are HUGE double digit gains everywhere from prefill to decode to overall compute&#8230; &#8230; with offsetting inefficiency in token usage on some frontier tasks. HOWEVER something that is a rare emphasis in the Claude launch was the writing improvements : &#8220;It puts the most important information up front and follows the writing rules you give it, which makes long sessions easier to follow.&#8221; We can confirm - here is today&#8217;s AINews section run on Opus 5.5 and Sol 6 . The difference is night and day - we are migrating to Opus 5.5 immediately for AINews going forward until we reach the next model/version of AINews. They have also published initial work on large multiagent swarms (and efficiency ): AI News for 9/21/2026-9/22/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Top Story: Claude Opus 5.5 launch, numbers, and reactions What happened Anthropic shipped Claude Opus 5.5, the first model in a new Claude 5.5 family. Its pitch is Fable 5.1&#8209;level capability at Opus pricing, with more speed and better writing. OpenAI released GPT&#8209;6 Sol and Luna about an hour later. Launch claims. Opus 5.5 &#8220;performs at the level of Claude Fable 5.1 for most tasks, and costs 40% less to run than Opus 5&#8221; ( @claudeai ; @AnthropicAI ). Where it leads. Anthropic says it leads on agentic…",
-      "summary": "overshadowing more efficient GPT6 models from OpenAI",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "benchmark"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
