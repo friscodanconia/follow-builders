@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T05:08:50.783Z",
+  "generatedAt": "2026-09-25T06:13:13.974Z",
   "slug": "open-source",
   "label": "Open Source",
   "items": [
@@ -57,6 +57,58 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "ef5f1180eba714ab",
+      "date": "2026-09-25",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] The Future of Latent Space",
+      "url": "https://www.latent.space/p/ainews-the-future-of-latent-space",
+      "publishedAt": "2026-09-25T05:37:00.000Z",
+      "content": "It&#8217;s been an absolutely MONSTER week already, from new Chinese Open Weight Frontier Lab claiming the throne for the first time, to new SOTA LLM and price cuts from Anthropic and OpenAI , to Meta Connect , to TypeSafe AI&#8217;s $10B fundraise after our exclusive podcast this weekend (already one of our top of all time, with two pods on genomic language models and AI scientists sending us above heavyweights like TBPN and MKBHD in Apple Podcasts , and helping cross 200K on YouTube ). Today is the calm before the DevDay storm, so we&#8217;re taking some time to share some long overdue changes we are making to Latent Space in the coming week: Plans for AINews v3: This op-ed you are reading has always been human-authored by swyx (hi!!) every weekday for the last 3 years, and what started as a simple way to solve Discord fatigue eventually became LS&#8217;s newspaper : an awkward hybrid of Money Stuff mixed with engineer-tuned TechMeme mixed with AI writing evals that somehow grew to over 200k subscribers . Meanwhile, the Latent Space Discord is now tens of thousands of members and yet quieter than ever with increasing amounts of self promotional spammers. The solution is obvious: merge the &#8220;job to be done&#8221; of the LS Discord and AINews. Plans for a new home: with the success of our AI for Science pod and writing , and new podcasts from food to FDE rising, we&#8217;re slowly becoming a multi-show, multi-newsletter network of the best technical news, analysis and edutainment in AI. We&#8217;ll be exploring a migration to Beehiiv and a new homepage . Open for business: with a new Business/Ops Manager and Head of Editorial, we are once again reopening for sponsorships ( business@latent.space ) and PR/ tips ! That said, join us next week at Supabase Select in SF !!! Supabase is the universally preferred integrated backend by every frontier model and we&#8217;re excited to interview their founders on their incredible journey building a fully remote open sourc…",
+      "summary": "a quiet day lets us discuss the work behind the scenes - now open for business!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "paper",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "weights"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
       "whyThisMatters": ""
     },
     {
@@ -2373,57 +2425,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.54,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "68982836de0ab069",
-      "date": "2026-08-15",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Muse Glimmer and Spark: Open Weights return Personal Superintelligence promise",
-      "url": "https://www.latent.space/p/ainews-muse-glimmer-and-spark-open",
-      "publishedAt": "2026-08-11T05:16:41.000Z",
-      "content": "Last week was the 1 year anniversary of Zuck&#8217;s original Personal Superintelligence essay , and MSL seems to be feeling a second wind this year, as they slowly ramped up with the Dreamer acquisition and then Muse Spark and recently Muse Code . For a while it seemed like MSL was being rather timid with the launches&#8230; but today that all changed. Zuck returned with a hit sequel essay and released MSL&#8217;s first real open weights frontier-ish small LLM, with Spark to also be released soon. The essay maps out what is likely to be the lasting agenda for MSL: Meta is the company primarily focused on building personal superintelligence for everyone . Most other labs are focused on building AI for companies, governments, or other institutions, so if those labs lead, then the balance of power will favor larger institutions over individuals . Meta's mission since our founding has focused on putting power in people's hands. If our beliefs and principles lead, then the balance of power will favor individuals and a better future for everyone. His core predictions: Everyone will have an exceptionally capable personal agent that understands you, your goals, and everything you care about. (likely why he was interested in OpenClaw ) Everyone will have incredible tools for creation to express your ideas. Everyone will have powerful tools to create new businesses and the economy will become more entrepreneurial . Everyone will have a personalized tutor and coach with a PhD in every subject and unlimited patience to help you learn anything you want. Everyone will benefit from scientific advances and be able to contribute to scientific progress. Everyone will have free or affordable access to these tools. And he named some core risks: Job Growth and The Economy: &#8220; Company sizes may shrink -- just as they did in the transition from industrial giants to tech companies. But this doesn&#8217;t mean fewer jobs overall. It implies a larger number of companies with fewer peo…",
-      "summary": "a small win for american open models - Glimmer runs on a fits on a single RTX 3090!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "weights"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     }
   ]

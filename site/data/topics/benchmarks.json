@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T05:08:50.783Z",
+  "generatedAt": "2026-09-25T06:13:13.974Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
@@ -37,6 +37,58 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "ef5f1180eba714ab",
+      "date": "2026-09-25",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] The Future of Latent Space",
+      "url": "https://www.latent.space/p/ainews-the-future-of-latent-space",
+      "publishedAt": "2026-09-25T05:37:00.000Z",
+      "content": "It&#8217;s been an absolutely MONSTER week already, from new Chinese Open Weight Frontier Lab claiming the throne for the first time, to new SOTA LLM and price cuts from Anthropic and OpenAI , to Meta Connect , to TypeSafe AI&#8217;s $10B fundraise after our exclusive podcast this weekend (already one of our top of all time, with two pods on genomic language models and AI scientists sending us above heavyweights like TBPN and MKBHD in Apple Podcasts , and helping cross 200K on YouTube ). Today is the calm before the DevDay storm, so we&#8217;re taking some time to share some long overdue changes we are making to Latent Space in the coming week: Plans for AINews v3: This op-ed you are reading has always been human-authored by swyx (hi!!) every weekday for the last 3 years, and what started as a simple way to solve Discord fatigue eventually became LS&#8217;s newspaper : an awkward hybrid of Money Stuff mixed with engineer-tuned TechMeme mixed with AI writing evals that somehow grew to over 200k subscribers . Meanwhile, the Latent Space Discord is now tens of thousands of members and yet quieter than ever with increasing amounts of self promotional spammers. The solution is obvious: merge the &#8220;job to be done&#8221; of the LS Discord and AINews. Plans for a new home: with the success of our AI for Science pod and writing , and new podcasts from food to FDE rising, we&#8217;re slowly becoming a multi-show, multi-newsletter network of the best technical news, analysis and edutainment in AI. We&#8217;ll be exploring a migration to Beehiiv and a new homepage . Open for business: with a new Business/Ops Manager and Head of Editorial, we are once again reopening for sponsorships ( business@latent.space ) and PR/ tips ! That said, join us next week at Supabase Select in SF !!! Supabase is the universally preferred integrated backend by every frontier model and we&#8217;re excited to interview their founders on their incredible journey building a fully remote open sourc…",
+      "summary": "a quiet day lets us discuss the work behind the scenes - now open for business!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "paper",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "weights"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
       "whyThisMatters": ""
     },
     {
@@ -2287,52 +2339,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "0aa5c6a8de366405",
-      "date": "2026-08-24",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "AI diffusion is far more rate limited by having good evals than most realize. The kind of evals…",
-      "url": "https://x.com/levie/status/2091359223368315050",
-      "publishedAt": "2026-08-23T02:57:49.000Z",
-      "content": "AI diffusion is far more rate limited by having good evals than most realize. The kind of evals that you see for every model release are incredibly helpful, but only tell you the shape of general AI progress and the relative capability level of models. The far bigger space over time are evals on all the major workflows that enterprises do, down to the specifics of an individual company. This will be a huge space over time because you can’t automate what you can’t assess the progress on. Enterpr…",
-      "summary": "AI diffusion is far more rate limited by having good evals than most realize. The kind of evals that you see for every model release are incredibly helpful, but only tell you the shape of general AI progress and the rel…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 138,
-        "retweets": 12,
-        "replies": 25
-      },
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "eval"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.78,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.61,
       "whyThisMatters": ""
     }
   ]
