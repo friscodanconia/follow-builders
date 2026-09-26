@@ -1,8 +1,262 @@
 {
-  "generatedAt": "2026-09-25T06:13:13.974Z",
+  "generatedAt": "2026-09-26T00:31:01.730Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
+    {
+      "id": "0f4a76aea7389c1d",
+      "date": "2026-09-26",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "The MAD Podcast with Matt Turck",
+      "sourceKey": "podcast:The MAD Podcast with Matt Turck",
+      "builderOrOrg": "The MAD Podcast with Matt Turck",
+      "title": "Who Feeds the GPUs? Inside AI's Hidden $30B Layer | Renen Hallak, VAST Data",
+      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "publishedAt": "2026-09-24T11:30:00.000Z",
+      "content": "Speaker 1 | 00:00 - 00:17 Sometimes it scares me. We had a customer, one of these AI clouds, they said we're probably going to need about 500 petabytes over the next three years. Last week, came back to us and said, we're gonna need an extra two exabytes on top of that 500 petabytes. I think in the next ten years, we'll see more difference than we did in the last thousand years. Speaker 2 | 00:17 - 00:30 Hi. I'm Matt Turk. Welcome to the MAD podcast. We talk a lot about AI models on this show, and we talk a lot about compute. But today is about the layer in between, the crucial software infrastructure layer that feeds massive amounts of data to all those GPUs. Speaker 2 | 00:30 - 00:52 My guest today is Renan Halleck, founder and CEO of VAST Data, a company that is surprisingly under the radar considering it's been most recently valued at $30,000,000,000 and powers top AI players like xAI and some of the biggest AI neoclass in the world. Please enjoy my conversation with Renan Halleck. Renan, welcome. Thank you. Alright. Speaker 2 | 00:52 - 01:21 So to anchor this whole conversation, I wanted to start with that mental model from Jensen at NVIDIA that I find so helpful, where, when he describes AI, he uses the analogy of a five layer cake, where you have power at the very bottom and then hardware, then software infrastructure, then models, then applications. So where do you sit in that layer cake? Speaker 1 | 01:21 - 01:32 Right in the middle. That software infrastructure layer is the one that we do, in collaboration of course with the hardware vendors underneath us and with the model builders on top of us. Speaker 2 | 01:32 - 01:38 Yep, so at a high level what does that mean, software infrastructure, in the context of AI building? Speaker 1 | 01:38 - 02:28 Yeah, so everything you would imagine from the old stack we need for this new stack. We need to manage the compute, we need to manage the storage, we need to manage the networking, and then as you go up the stack we need to make sense of all of it, make sense of the data through a database, make sense of the compute through training and inference functions, and as you go even higher up the stack and we shift from training predominantly to inference and agents and reinforced learning, we need more and more tools to enable this new world, make it simple, make it safe, make it fast and scalable and resilient. All of that sits in that middle layer. Sometimes I like to call it software infrastructure, and other times I like to call it the operating system for this new era. Speaker 2 | 02:28 - 02:39 There is a related concept to that five layer cake. That thing may have originated from NVIDIA again, but, like, keeps coming back in conversation, is this idea of AI factory. Speaker 1 | 02:39 - 02:40 Mhmm. Speaker 2 | 02:40 - 02:50 What does that mean? So if you start with a bunch of GPUs, what do you need to add to create an AI factory? Speaker 1 | 02:50 - 04:07 I think even below the GPUs the data centers are looking very different today than they did five years ago. The old stack you had 10 kilowatt racks, today you need 500 kilowatt racks And so you need more power, you need more power density. You need GPUs of course versus CPUs. You need extremely fast networks and very large SSDs rather than 10 gig ethernet and old hard drives. And so every layer of this cake, needs to be redone and from our perspective you need much more data and much faster access to that data because we're no longer analyzing numbers and columns of a database the way you did with big data in the old stack, we're doing pictures and video and sound and natural language and that takes a lot more space and that's before new generative AI data that gets generated and of course all of this compute, all of these GPUs need very fast access to this information whether they're training on it or whether they're running low latency inference functions and so the entirety of the stack is new, and I think the culminatio…",
+      "summary": "Speaker 1 | 00:00 - 00:17 Sometimes it scares me. We had a customer, one of these AI clouds, they said we're probably going to need about 500 petabytes over the next three years. Last week, came back to us and said, we're gonna need an ext…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "inference",
+            "latency"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "video"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7079d9900429a268",
+      "date": "2026-09-26",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Offloaded inference for real-world physical AI robotics",
+      "url": "https://www.microsoft.com/en-us/research/blog/offloaded-inference-for-real-world-physical-ai-robotics/",
+      "publishedAt": "2026-09-23T16:01:36.000Z",
+      "content": "At a glance Challenges a core assumption in robotics AI: Our research shows that running physical AI inference exclusively on onboard GPUs can limit robot performance, battery life, and scalability, and that offloading inference to edge or cloud GPUs can offer significant advantages. Demonstrates measurable benefits of inference offloading: Across representative mobile manipulation workloads, offloading improved task success rates, enabled larger AI models, and helped robots respond more effectively in dynamic, real-world environments. Extends robot operating time: Replacing power-hungry onboard AI compute with lightweight onboard hardware and remote inference can substantially improve battery life, enabling robots to operate longer between charges. Introduces a new capability in the Physical AI Toolchain: Developers can now containerize, deploy, and orchestrate robotics AI workloads across robots, edge infrastructure, and the cloud using Kubernetes-based tooling for distributed inference. Readily-available physical AI, with robotics assisting users in manufacturing, home, and warehouses scenarios, holds immense potential to improve safety, productivity, and assistance across a wide range of tasks. In many ways, AI for the physical world represents a major frontier for AI . Physical AI must operate in open,&nbsp;unpredictable environments, interact with both other robots and people, and work with a diversity of embodiments. Realizing this vision requires advances along three dimensions: robot hardware, embodied AI models, and systems infrastructure for training and inference. While robot hardware and the AI models have advanced rapidly in recent years, we turn our focus on a relatively under-addressed aspect: inference infrastructure of physical AI . Enabling robots to effectively and safely operate in the physical world will require sophisticated systems to handle large volumes of distributed inference compute. Today, the prevailing approach to physical AI is to p…",
+      "summary": "Robots are getting smarter, but how can their hardware match that growth? New Microsoft Research findings show that moving AI inference beyond the robot can improve task success, boost efficiency, and support more advanced physical AI work…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "developer"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "4302ad83175d8cbe",
+      "date": "2026-09-26",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "Canary rollouts: upgrade models in production without downtime",
+      "url": "https://www.together.ai/blog/canary-rollouts-upgrade-models-in-production-without-downtime",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "content": "A hard model swap exposes every user at once, and rolling back means cold-starting the old deployment under pressure. Here's how staged traffic ramps, metric gates, and automatic rollback work on dedicated inference.",
+      "summary": "A hard model swap exposes every user at once, and rolling back means cold-starting the old deployment under pressure. Here's how staged traffic ramps, metric gates, and automatic rollback work on dedicated inference.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "deployment"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "1ecd1e8c485e2097",
+      "date": "2026-09-26",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
+      "url": "https://www.latent.space/p/runway",
+      "publishedAt": "2026-09-25T01:30:57.000Z",
+      "content": "Earlier this month, world model company Runway introduced GWM Worlds 2 , a research preview that &#8220;turns high-fidelity video and audio generation into real-time interactive simulation .&#8221; Runway calls this an &#8220;autoregressive diffusion&#8221; model; with autoregressive describing how it generates over time. One new feature in particular caught our eye: WorldPrompt , a proposed input format for specifying a generated world and the actions within it. It allows you to fix some aspects of a simulated environment &#8212; including the first frame &#8212; and then create a series of timestamped events . The events, or actions, can even be prompted in real-time. To understand the implications of WorldPrompt, we spoke to Kamil Sindi , Runway&#8217;s CTO, and Robin Kahlow , its Principal Research Scientist for generative video and multimodal AI. We also have exclusive comments from Anastasis Germanidis , co-founder & co-CEO of Runway, courtesy of a podcast swyx and Vibhu did with him. Who&#8217;s building real-time interactive world models? First, some context about world models that can generate interactive video and audio in real-time . Runway is reportedly valued at $5.3 billion , based on its most recent fund raise of $315 million in February . Its first release, GWM Worlds, was launched last December. Alongside Runway, there are several other notable projects in this domain: Google DeepMind&#8217;s Genie 3 (which also generates at 720p and 24 fps), Odyssey-2 Pro , and World Labs&#8217; RTFM (Real-Time Frame Model). We&#8217;ve summarized their differences in the following table: Given the complexity and massive latency demands of real-time video and audio generation (which we&#8217;ll get into below), all of the projects listed above have limitations . For instance, Google notes that Genie 3 &#8220;can currently support a few minutes of continuous interaction, rather than extended hours.&#8221; But as our interviews with Runway show, real progress is bei…",
+      "summary": "GWM Worlds 2 uses persistent context and timed actions to steer a world model generating video and audio in real time.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "multimodal",
+            "video"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "latency"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "39fb0e40f1ec81eb",
+      "date": "2026-09-26",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Foundries vs Navigators: Lowering the Cost of Science",
+      "url": "https://www.latent.space/p/foundries-vs-navigators-lowering",
+      "publishedAt": "2026-09-24T15:03:16.000Z",
+      "content": "What does the future of science look like in the world of AI? Anthropic has some lofty goals for science and is even opening a wet lab . Meanwhile a quiet transformation 1 is happening all across AI x Science. In this guest post, Adrian Sanborn talks about the less flashy but more immediate ways he sees AI transforming front-line scientific research in his own company, Endura Therapeutics. Adrian did a CS PhD at Stanford and spent much of it running experiments at the bench, which makes him one of the rare people who can tell you what an LLM is doing to a codebase and to a wet lab. Enjoy! Language models have transformed how software gets built. Writing code, wrangling data, and architecting systems now move at a speed unthinkable three years ago. When the product is software and the result is verifiable, cheaper coding turns directly into more software and more builders. 2 But in science, everything is ultimately gated by physical experiments that take days or weeks to verify anything. Knowledge work around the experiment has become dramatically faster while AI has done little for the throughput of the experiment itself. Thinking got cheap and doing did not . We think the biotech industry has adapted in two ways: Foundries shrink the cost of doing. They industrialize the measurement, using new technology to generate data an order of magnitude faster than before. Xaira, NewLimit, Octant, Tahoe, and Endura accomplish this with next-generation sequencing and multiplexing; Insitro, Eikon, and Noetik with high-throughput microscopy; Lila and Periodic Labs with physical automation, just to name a few. AI makes that data legible and predictive, but the differentiating asset is the experimental data itself. Navigators spend the surplus of thinking. The AI models sit in the ordinary machinery of the company, driving better decisions and faster processes. They increasingly govern how the work is conducted, what tools get built, and which questions are worth an experiment. A…",
+      "summary": "Guest Post: In science, thinking has gotten cheap but doing has not. This asymmetry is reshaping how research companies operate, largely inconspicuously.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "throughput"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
     {
       "id": "abd0857de871efe1",
       "date": "2026-09-25",
@@ -95,103 +349,6 @@
       "whyThisMatters": ""
     },
     {
-      "id": "7079d9900429a268",
-      "date": "2026-09-25",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Offloaded inference for real-world physical AI robotics",
-      "url": "https://www.microsoft.com/en-us/research/blog/offloaded-inference-for-real-world-physical-ai-robotics/",
-      "publishedAt": "2026-09-23T16:01:36.000Z",
-      "content": "At a glance Challenges a core assumption in robotics AI: Our research shows that running physical AI inference exclusively on onboard GPUs can limit robot performance, battery life, and scalability, and that offloading inference to edge or cloud GPUs can offer significant advantages. Demonstrates measurable benefits of inference offloading: Across representative mobile manipulation workloads, offloading improved task success rates, enabled larger AI models, and helped robots respond more effectively in dynamic, real-world environments. Extends robot operating time: Replacing power-hungry onboard AI compute with lightweight onboard hardware and remote inference can substantially improve battery life, enabling robots to operate longer between charges. Introduces a new capability in the Physical AI Toolchain: Developers can now containerize, deploy, and orchestrate robotics AI workloads across robots, edge infrastructure, and the cloud using Kubernetes-based tooling for distributed inference. Readily-available physical AI, with robotics assisting users in manufacturing, home, and warehouses scenarios, holds immense potential to improve safety, productivity, and assistance across a wide range of tasks. In many ways, AI for the physical world represents a major frontier for AI . Physical AI must operate in open,&nbsp;unpredictable environments, interact with both other robots and people, and work with a diversity of embodiments. Realizing this vision requires advances along three dimensions: robot hardware, embodied AI models, and systems infrastructure for training and inference. While robot hardware and the AI models have advanced rapidly in recent years, we turn our focus on a relatively under-addressed aspect: inference infrastructure of physical AI . Enabling robots to effectively and safely operate in the physical world will require sophisticated systems to handle large volumes of distributed inference compute. Today, the prevailing approach to physical AI is to p…",
-      "summary": "Robots are getting smarter, but how can their hardware match that growth? New Microsoft Research findings show that moving AI inference beyond the robot can improve task success, boost efficiency, and support more advanced physical AI work…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "developer"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4302ad83175d8cbe",
-      "date": "2026-09-25",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Together AI Blog",
-      "sourceKey": "official:Together AI Blog",
-      "builderOrOrg": "Together AI",
-      "title": "Canary rollouts: upgrade models in production without downtime",
-      "url": "https://www.together.ai/blog/canary-rollouts-upgrade-models-in-production-without-downtime",
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "content": "A hard model swap exposes every user at once, and rolling back means cold-starting the old deployment under pressure. Here's how staged traffic ramps, metric gates, and automatic rollback work on dedicated inference.",
-      "summary": "A hard model swap exposes every user at once, and rolling back means cold-starting the old deployment under pressure. Here's how staged traffic ramps, metric gates, and automatic rollback work on dedicated inference.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "deployment"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
       "id": "8802fc0f35bde246",
       "date": "2026-09-25",
       "sourceType": "newsletter",
@@ -242,111 +399,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "1ecd1e8c485e2097",
-      "date": "2026-09-25",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
-      "url": "https://www.latent.space/p/runway",
-      "publishedAt": "2026-09-25T01:30:57.000Z",
-      "content": "Earlier this month, world model company Runway introduced GWM Worlds 2 , a research preview that &#8220;turns high-fidelity video and audio generation into real-time interactive simulation .&#8221; Runway calls this an &#8220;autoregressive diffusion&#8221; model; with autoregressive describing how it generates over time. One new feature in particular caught our eye: WorldPrompt , a proposed input format for specifying a generated world and the actions within it. It allows you to fix some aspects of a simulated environment &#8212; including the first frame &#8212; and then create a series of timestamped events . The events, or actions, can even be prompted in real-time. To understand the implications of WorldPrompt, we spoke to Kamil Sindi , Runway&#8217;s CTO, and Robin Kahlow , its Principal Research Scientist for generative video and multimodal AI. We also have exclusive comments from Anastasis Germanidis , co-founder & co-CEO of Runway, courtesy of a podcast swyx and Vibhu did with him. Who&#8217;s building real-time interactive world models? First, some context about world models that can generate interactive video and audio in real-time . Runway is reportedly valued at $5.3 billion , based on its most recent fund raise of $315 million in February . Its first release, GWM Worlds, was launched last December. Alongside Runway, there are several other notable projects in this domain: Google DeepMind&#8217;s Genie 3 (which also generates at 720p and 24 fps), Odyssey-2 Pro , and World Labs&#8217; RTFM (Real-Time Frame Model). We&#8217;ve summarized their differences in the following table: Given the complexity and massive latency demands of real-time video and audio generation (which we&#8217;ll get into below), all of the projects listed above have limitations . For instance, Google notes that Genie 3 &#8220;can currently support a few minutes of continuous interaction, rather than extended hours.&#8221; But as our interviews with Runway show, real progress is bei…",
-      "summary": "GWM Worlds 2 uses persistent context and timed actions to steer a world model generating video and audio in real time.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.69,
-          "rationale": [
-            "multimodal",
-            "video"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "latency"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "39fb0e40f1ec81eb",
-      "date": "2026-09-25",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "Foundries vs Navigators: Lowering the Cost of Science",
-      "url": "https://www.latent.space/p/foundries-vs-navigators-lowering",
-      "publishedAt": "2026-09-24T15:03:16.000Z",
-      "content": "What does the future of science look like in the world of AI? Anthropic has some lofty goals for science and is even opening a wet lab . Meanwhile a quiet transformation 1 is happening all across AI x Science. In this guest post, Adrian Sanborn talks about the less flashy but more immediate ways he sees AI transforming front-line scientific research in his own company, Endura Therapeutics. Adrian did a CS PhD at Stanford and spent much of it running experiments at the bench, which makes him one of the rare people who can tell you what an LLM is doing to a codebase and to a wet lab. Enjoy! Language models have transformed how software gets built. Writing code, wrangling data, and architecting systems now move at a speed unthinkable three years ago. When the product is software and the result is verifiable, cheaper coding turns directly into more software and more builders. 2 But in science, everything is ultimately gated by physical experiments that take days or weeks to verify anything. Knowledge work around the experiment has become dramatically faster while AI has done little for the throughput of the experiment itself. Thinking got cheap and doing did not . We think the biotech industry has adapted in two ways: Foundries shrink the cost of doing. They industrialize the measurement, using new technology to generate data an order of magnitude faster than before. Xaira, NewLimit, Octant, Tahoe, and Endura accomplish this with next-generation sequencing and multiplexing; Insitro, Eikon, and Noetik with high-throughput microscopy; Lila and Periodic Labs with physical automation, just to name a few. AI makes that data legible and predictive, but the differentiating asset is the experimental data itself. Navigators spend the surplus of thinking. The AI models sit in the ordinary machinery of the company, driving better decisions and faster processes. They increasingly govern how the work is conducted, what tools get built, and which questions are worth an experiment. A…",
-      "summary": "Guest Post: In science, thinking has gotten cheap but doing has not. This asymmetry is reshaping how research companies operate, largely inconspicuously.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "science"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "throughput"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -2306,43 +2358,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "2091c1868ca54459",
-      "date": "2026-07-25",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:mattturck",
-      "builderOrOrg": "Matt Turck",
-      "title": "My conversation with @andrewdfeldman, CEO of @cerebras. We started from \"what is a wafer?\" and…",
-      "url": "https://x.com/mattturck/status/2080333707483725876",
-      "publishedAt": "2026-07-23T16:46:21.000Z",
-      "content": "My conversation with @andrewdfeldman, CEO of @cerebras. We started from \"what is a wafer?\" and built up to why the entire chip industry is reorganizing around inference speed. 00:00 Cold open & Intro 01:31 Why speed became the AI bottleneck 02:32 Tokens per second per user, explained 03:16 AI’s broadband moment and the Netflix analogy 04:35 The AI chip landscape: GPUs, TPUs, Trainium, ASICs 06:36 What is an ASIC? 08:08 Nvidia, Groq, and the fast inference war 09:16 OpenAI, Broadcom, and special…",
-      "summary": "My conversation with @andrewdfeldman, CEO of @cerebras. We started from \"what is a wafer?\" and built up to why the entire chip industry is reorganizing around inference speed. 00:00 Cold open & Intro 01:31 Why speed bec…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 35,
-        "retweets": 9,
-        "replies": 5
-      },
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.67,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.54,
       "whyThisMatters": ""
     }
   ]
