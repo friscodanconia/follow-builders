@@ -1,10 +1,56 @@
 {
-  "generatedAt": "2026-09-26T06:13:03.393Z",
+  "generatedAt": "2026-09-27T00:31:02.057Z",
   "handle": "steipete",
   "name": "Peter Steinberger",
   "itemCount": 50,
-  "latestDate": "2026-09-26",
+  "latestDate": "2026-09-27",
   "items": [
+    {
+      "id": "086ebdb529d6f133",
+      "date": "2026-09-27",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:steipete",
+      "builderOrOrg": "Peter Steinberger",
+      "title": "The biggest design mistake I made when we moved OC to sqlite: using sync db access. When it was…",
+      "url": "https://x.com/steipete/status/2103648679169257737",
+      "publishedAt": "2026-09-26T00:51:43.000Z",
+      "content": "The biggest design mistake I made when we moved OC to sqlite: using sync db access. When it was just an agent that reports to you on Slack or iMessage this was fine; now that one agent might do 50 sessions in parallel and the whole team works on it, it is limiting. I have a /goal with Astra that so far landed 575 PRs to move everything to to async workers. We ship these improvements as we make progress. Pretty insane how even huge refactors are no longer scary.",
+      "summary": "The biggest design mistake I made when we moved OC to sqlite: using sync db access. When it was just an agent that reports to you on Slack or iMessage this was fine; now that one agent might do 50 sessions in parallel a…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 1043,
+        "retweets": 46,
+        "replies": 82
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
     {
       "id": "85a6e9f01ca32f92",
       "date": "2026-09-26",
@@ -1541,33 +1587,6 @@
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
       "previouslySelected": true,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "3da543000f7d1ed9",
-      "date": "2026-08-07",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:steipete",
-      "builderOrOrg": "Peter Steinberger",
-      "title": "I’ll totally use this in my next presentation. https://t.co/ySswmG07sA",
-      "url": "https://x.com/steipete/status/2085074976290505090",
-      "publishedAt": "2026-08-05T18:46:27.000Z",
-      "content": "I’ll totally use this in my next presentation. https://t.co/ySswmG07sA",
-      "summary": "I’ll totally use this in my next presentation. https://t.co/ySswmG07sA",
-      "regionTags": [],
-      "metrics": {
-        "likes": 1382,
-        "retweets": 44,
-        "replies": 55
-      },
-      "topics": [],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
       "digestScore": 0.56,
       "whyThisMatters": ""
     }
