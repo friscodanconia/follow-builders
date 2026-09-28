@@ -1,8 +1,206 @@
 {
-  "generatedAt": "2026-09-27T06:40:28.657Z",
+  "generatedAt": "2026-09-28T00:31:00.781Z",
   "slug": "fine-tuning",
   "label": "Custom AI",
   "items": [
+    {
+      "id": "778f6a0793bc3a33",
+      "date": "2026-09-28",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "Hello world, Lisa Rauch 👧. What an amazing and beautiful world to be born in. https://t.co/dQZ…",
+      "url": "https://x.com/rauchg/status/2103951116648280266",
+      "publishedAt": "2026-09-26T20:53:30.000Z",
+      "content": "Hello world, Lisa Rauch 👧. What an amazing and beautiful world to be born in. https://t.co/dQZ05ofUM0",
+      "summary": "Hello world, Lisa Rauch 👧. What an amazing and beautiful world to be born in. https://t.co/dQZ05ofUM0",
+      "regionTags": [],
+      "metrics": {
+        "likes": 7770,
+        "retweets": 30,
+        "replies": 730
+      },
+      "topics": [
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "3d9681b4174cb485",
+      "date": "2026-09-28",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Claude discovers a novel enzyme system \\ Anthropic",
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "publishedAt": null,
+      "content": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
+      "summary": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "040333a35fe47788",
+      "date": "2026-09-28",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "How to train your own Jev for $17",
+      "url": "https://www.together.ai/blog/how-to-train-your-own-jev",
+      "publishedAt": "2026-09-23T00:00:00.000Z",
+      "content": "We just launched our own Jev-like classifier, together/Tev1-4B-experimental, on top of Qwen3.5 4B on Together’s serverless platform. In this blog post we’ll show you how to fine-tune your own version!",
+      "summary": "We just launched our own Jev-like classifier, together/Tev1-4B-experimental, on top of Qwen3.5 4B on Together’s serverless platform. In this blog post we’ll show you how to fine-tune your own version!",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "china-models",
+          "label": "Chinese AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "qwen"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Chinese Models",
+      "importanceScore": 0.73,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.58,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "40113a79f6f2410d",
+      "date": "2026-09-28",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
+      "url": "https://www.latent.space/p/openrouter",
+      "publishedAt": "2026-09-25T23:14:41.000Z",
+      "content": "From the earliest days of open-weight models to becoming the neutral routing layer for more than 10 million developers , OpenRouter is one of the clearest bets that the future of AI will be multi-model. In this episode, OpenRouter co-founder & CEO Alex Atallah, with AMP&#8217;s Anjney Midha returning with swyx to unpack how OpenRouter emerged from the first wave of Llama , Alpaca, Mistral, and Midjourney, why model diversity mattered before it was consensus, and how a company dismissed as &#8220;just a wrapper&#8221; became critical infrastructure for the AI ecosystem. We go deep on the product and distribution lessons behind OpenRoute r: why model labs can spend billions training a checkpoint and still struggle to get it into developers&#8217; hands, how Mistral helped prove the value of a competitive inference marketplace, why OpenRouter chose focus over expanding into fine-tuning, memory, and other adjacent products, and how its rankings became a real-time map of how AI usage was changing. Alex also explains OpenRouter&#8217;s early experiments with model fusion , why they deleted the first version and brought it back years later, and how the platform grew to more than 10 trillion tokens per day. Finally, Anjney explains why Stripe and OpenRouter fit together , why token fraud may become one of the defining security problems of the AI economy , and why the next wave of fraud won&#8217;t just come from humans but from autonomous agents attacking increasingly valuable token flows . We discuss: Why OpenRouter bet early that no single AI model would win everything Alpaca, Llama, and open models becoming impossible to ignore Why Discord&#8217;s early AI deployments exposed the limitations of closed models Why model labs can spend billions on training and still fail at distribution How OpenRouter became a neutral distribution layer for model developers Why VCs dismissed OpenRouter as &#8220;just a marketplace&#8221; or &#8220;just a wrapper&#8221; The Mistral price wa…",
+      "summary": "In 2023 most people doubted that there could be more than 1 or 2 frontier model labs. Now there are dozens.... and Stripe just bought the best known one for $7B.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "autonomous"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.69,
+          "rationale": [
+            "deployment",
+            "security"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "fine-tuning",
+            "rl"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.62,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.51,
+      "whyThisMatters": ""
+    },
     {
       "id": "1df7c2f33658c946",
       "date": "2026-09-27",
@@ -80,158 +278,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.44,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "3d9681b4174cb485",
-      "date": "2026-09-27",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Claude discovers a novel enzyme system \\ Anthropic",
-      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-      "publishedAt": null,
-      "content": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
-      "summary": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "science"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "040333a35fe47788",
-      "date": "2026-09-27",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Together AI Blog",
-      "sourceKey": "official:Together AI Blog",
-      "builderOrOrg": "Together AI",
-      "title": "How to train your own Jev for $17",
-      "url": "https://www.together.ai/blog/how-to-train-your-own-jev",
-      "publishedAt": "2026-09-23T00:00:00.000Z",
-      "content": "We just launched our own Jev-like classifier, together/Tev1-4B-experimental, on top of Qwen3.5 4B on Together’s serverless platform. In this blog post we’ll show you how to fine-tune your own version!",
-      "summary": "We just launched our own Jev-like classifier, together/Tev1-4B-experimental, on top of Qwen3.5 4B on Together’s serverless platform. In this blog post we’ll show you how to fine-tune your own version!",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "china-models",
-          "label": "Chinese AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "qwen"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Chinese Models",
-      "importanceScore": 0.73,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.58,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "40113a79f6f2410d",
-      "date": "2026-09-27",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
-      "url": "https://www.latent.space/p/openrouter",
-      "publishedAt": "2026-09-25T23:14:41.000Z",
-      "content": "From the earliest days of open-weight models to becoming the neutral routing layer for more than 10 million developers , OpenRouter is one of the clearest bets that the future of AI will be multi-model. In this episode, OpenRouter co-founder & CEO Alex Atallah, with AMP&#8217;s Anjney Midha returning with swyx to unpack how OpenRouter emerged from the first wave of Llama , Alpaca, Mistral, and Midjourney, why model diversity mattered before it was consensus, and how a company dismissed as &#8220;just a wrapper&#8221; became critical infrastructure for the AI ecosystem. We go deep on the product and distribution lessons behind OpenRoute r: why model labs can spend billions training a checkpoint and still struggle to get it into developers&#8217; hands, how Mistral helped prove the value of a competitive inference marketplace, why OpenRouter chose focus over expanding into fine-tuning, memory, and other adjacent products, and how its rankings became a real-time map of how AI usage was changing. Alex also explains OpenRouter&#8217;s early experiments with model fusion , why they deleted the first version and brought it back years later, and how the platform grew to more than 10 trillion tokens per day. Finally, Anjney explains why Stripe and OpenRouter fit together , why token fraud may become one of the defining security problems of the AI economy , and why the next wave of fraud won&#8217;t just come from humans but from autonomous agents attacking increasingly valuable token flows . We discuss: Why OpenRouter bet early that no single AI model would win everything Alpaca, Llama, and open models becoming impossible to ignore Why Discord&#8217;s early AI deployments exposed the limitations of closed models Why model labs can spend billions on training and still fail at distribution How OpenRouter became a neutral distribution layer for model developers Why VCs dismissed OpenRouter as &#8220;just a marketplace&#8221; or &#8220;just a wrapper&#8221; The Mistral price wa…",
-      "summary": "In 2023 most people doubted that there could be more than 1 or 2 frontier model labs. Now there are dozens.... and Stripe just bought the best known one for $7B.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "autonomous"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.69,
-          "rationale": [
-            "deployment",
-            "security"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.69,
-          "rationale": [
-            "fine-tuning",
-            "rl"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.62,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.51,
       "whyThisMatters": ""
     },
     {
@@ -2167,58 +2213,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "96fc23c59ed32170",
-      "date": "2026-09-12",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "The MAD Podcast with Matt Turck",
-      "sourceKey": "podcast:The MAD Podcast with Matt Turck",
-      "builderOrOrg": "The MAD Podcast with Matt Turck",
-      "title": "When AI Improves Itself | Richard Socher (Recursive)",
-      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
-      "publishedAt": "2026-09-10T11:30:00.000Z",
-      "content": "Speaker 1 | 00:00 - 00:19 Anything you can simulate, AI will solve. And before you know it, you're in this recursive self improvement loop and we believe that that will be a great unlock. Boy, are we far away from the true upper bounds of any of the spaces of intelligence. And there is still so much further that AI can go. Speaker 2 | 00:19 - 00:47 Hi. I'm Matt Turk. Welcome back to the MAD podcast. My guest today is Richard Socher, one of the most cited researchers in AI and now at the center of the term everyone in AI is suddenly talking about, recursive self improvement, AI that makes better AI. Richard just raised $650,000,000 for Recursive, a company built to do exactly that, and his new book, The Eureka Machine, is a fascinating blueprint for how AI and RSI are about to revolutionize science. Speaker 2 | 00:47 - 00:54 Please enjoy my conversation with the always excellent Richard Socher. Hey, Richard. Welcome back. Speaker 1 | 00:54 - 00:55 Great to be back. Thanks for having me. Speaker 2 | 00:55 - 01:18 Alright. So lots to catch up on. We're going to talk about recursive intelligence. We're going to talk about recursive the company. But first and foremost, and most importantly, perhaps, we're going to talk about your new book entitled The Yorker Machine, which I read with great interest and would strongly recommend, coming out in a couple weeks, I believe. Speaker 2 | 01:18 - 01:38 The book, opens with a premise that, I think a lot of people find surprising and shocking, which is this claim that, scientific progress has slowed down, which feels counterintuitive given the number of researchers we have around the world and the sheer amount of money that goes into the space. So why is that? Speaker 1 | 01:39 - 02:07 Yeah. It's a somewhat surprising fact and you may argue clearly not. Like we're making so much little progress and so many different things but when you think about, you know, how much progress have we made on antibiotics? Like bacterial infections went from like a death sentence and the plague to like a nuisance, like we now have antibiotics for almost all the different bacteria and we truly solved that. And like, we have clearly not solved viruses or cancer the same way we solved bacterial infections. Speaker 1 | 02:07 - 03:07 When you think about foundational novel things like E equals MC squared and general relativity, we clearly have not made progress on many theories and physics either when it comes to such foundational things that then literally led to nuclear energy and fusion and fission and other kinds of research that could be conceptually done. And so a lot of the fields have kind of gone through from we understood some foundational pieces to we can now do a lot of engineering, but they've also split up into thousands of different subfields. It is almost impossible nowadays to be the sort of general genius that can dabble in all of these different fields because each field takes years and years and years to get really deep into. And so what we found is that as there are more and more subfields and niches, it's actually hard to have enough people in each of these subfields and Stanis Ablem and others have talked about that and predicted that that will be a big part of why we're slowing down. Speaker 2 | 03:08 - 03:20 Yeah, you have a great expression. You talk about how we evolved from a body of knowledge to a labyrinth of knowledge, 34,000 journals that might as well have no trespassing signs. Speaker 1 | 03:20 - 03:56 That's right, yeah it's so hard to like even understand all the lingo and I've sort of gone through this myself first when I started studying linguistics and then computer science but now that I'm sort of trying to study and have studied now over the last few years sort of on the side biology, it's like man, every time you have a conversation with biologists, like 10 sentences in, they're just telling you so many abbreviations and terms that you're not familiar with that most people…",
-      "summary": "Speaker 1 | 00:00 - 00:19 Anything you can simulate, AI will solve. And before you know it, you're in this recursive self improvement loop and we believe that that will be a great unlock. Boy, are we far away from the true upper bounds of…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "science"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.52,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.44,
       "whyThisMatters": ""
     }
   ]
