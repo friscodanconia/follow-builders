@@ -1,32 +1,34 @@
 {
-  "generatedAt": "2026-09-29T05:55:53.602Z",
+  "generatedAt": "2026-09-29T07:03:14.334Z",
   "slug": "enterprise",
   "label": "Business AI",
   "items": [
     {
-      "id": "379258ef4c0a0b77",
+      "id": "110a8f5b4b19226b",
       "date": "2026-09-29",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-      "url": "https://openai.com/index/proaction",
-      "publishedAt": "2026-09-25T19:00:00.000Z",
-      "content": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
-      "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "At Box, we've been testing Sonnet 5.5 in early access on our complex work eval with the Box Age…",
+      "url": "https://x.com/levie/status/2104648654074343480",
+      "publishedAt": "2026-09-28T19:05:16.000Z",
+      "content": "At Box, we've been testing Sonnet 5.5 in early access on our complex work eval with the Box Agent, and Sonnet 5.5 is another strong jump from Sonnet 5 on knowledge work with enterprise content. Across the board we saw a 4 pt overall improvement on our hardest tests, but it was roughly 2.4× faster to a finished deliverable on 12% fewer tokens. We also saw major wins in key verticals, like a +18 percentage point improvement in Financial Services, +7 pt in Legal, +8 pt in Life Sciences, and +7 pt…",
+      "summary": "At Box, we've been testing Sonnet 5.5 in early access on our complex work eval with the Box Agent, and Sonnet 5.5 is another strong jump from Sonnet 5 on knowledge work with enterprise content. Across the board we saw a…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 146,
+        "retweets": 13,
+        "replies": 36
+      },
       "topics": [
         {
-          "slug": "coding",
-          "label": "Coding",
+          "slug": "agents",
+          "label": "AI Assistants",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "code"
+            "agent"
           ],
           "score": 1
         },
@@ -35,16 +37,25 @@
           "label": "Business AI",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "sales"
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "science"
           ],
           "score": 1
         }
       ],
-      "section": "Official Sources",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
+      "section": "Builders",
+      "importanceScore": 0.92,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.53,
+      "digestScore": 0.95,
       "whyThisMatters": ""
     },
     {
@@ -97,7 +108,7 @@
       "section": "Official Sources",
       "importanceScore": 0.8,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.63,
       "whyThisMatters": ""
     },
@@ -239,6 +250,50 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "379258ef4c0a0b77",
+      "date": "2026-09-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "url": "https://openai.com/index/proaction",
+      "publishedAt": "2026-09-25T19:00:00.000Z",
+      "content": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+      "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "sales"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.53,
       "whyThisMatters": ""
     },
     {
@@ -2414,48 +2469,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.51,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4e5b1678a849dedf",
-      "date": "2026-09-08",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "China's Rare Earths Duopoly",
-      "url": "https://www.chinatalk.media/p/chinas-rare-earths-duopoly",
-      "publishedAt": "2026-09-01T10:03:39.000Z",
-      "content": "Aqib will be in D.C. from September 7-11! If you&#8217;d like to chat rare earths, semiconductors, and open model security, reach out to aqib@chinatalk.media. If you know anything about rare earths, you know China is great at digging them up and refining them, while America sucks at both. Unfortunately, this is where most analyses end. To go one step further requires understanding the entities leading China&#8217;s rare earth juggernaut, and how they built Beijing&#8217;s rare earth weapon. That&#8217;s exactly what we&#8217;ll explore in today&#8217;s deep dive. This story revolves around China&#8217;s two creatively-named state-owned giants, China Northern Rare Earth &#20013;&#22269;&#21271;&#26041;&#31232;&#22303; and China Rare-Earths Group &#20013;&#22269;&#31232;&#22303; (CREG). We&#8217;re going to call them &#8220;China Northern&#8221; and &#8220;China Southern&#8221; from here on out; CREG doesn&#8217;t have Southern in its name, but it&#8217;s in the South, and we think it&#8217;s a lot catchier. The fact that these two companies reign over the rare earths world cannot be boiled down to a single factor. These things are messy. To pick it apart, we (Aqib and Nick) look at China&#8217;s duopoly from multiple angles, covering the firms&#8217; history, industrial processes, and, on the human level, their workforce. In our efforts to unpack it all, we pull on several threads, including: Why the industry is divided sharply between North and South, and what each region is in charge of, The ownership politics beneath that structure, such as which parts of the state own each company and why the South is so much harder to control, What rare earths smuggling reveals about China&#8217;s state capacity, The technical reasons these companies are ahead, And what it&#8217;s like to work at a Chinese rare earths company. North vs. South Nearly all of China&#8217;s rare earth production runs through two companies . China Northern Rare Earth, headquartered in Baotou &#21253…",
-      "summary": "If you know anything about rare earths, you know China is great at digging them up and refining them, while America sucks at both.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
       "whyThisMatters": ""
     }
   ]

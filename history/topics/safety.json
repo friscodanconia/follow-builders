@@ -1,8 +1,62 @@
 {
-  "generatedAt": "2026-09-29T05:55:53.602Z",
+  "generatedAt": "2026-09-29T07:03:14.334Z",
   "slug": "safety",
   "label": "AI Safety",
   "items": [
+    {
+      "id": "c00a9389b87a7b5e",
+      "date": "2026-09-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Towards safety cases for frontier AI training",
+      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "publishedAt": "2026-09-28T19:00:00.000Z",
+      "content": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
+      "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.69,
+          "rationale": [
+            "safety",
+            "alignment"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
     {
       "id": "17d0479b72406bf2",
       "date": "2026-09-29",
@@ -2205,53 +2259,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a87108d1827ab7ac",
-      "date": "2026-08-22",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:bcherny",
-      "builderOrOrg": "Boris Cherny",
-      "title": "We've been working on this with customers for a while. Mythos-class models require additional s…",
-      "url": "https://x.com/bcherny/status/2090537902912815536",
-      "publishedAt": "2026-08-20T20:34:11.000Z",
-      "content": "We've been working on this with customers for a while. Mythos-class models require additional safety measures and enterprises need to meet their own privacy and compliance rules. Customers can own and control their own data and Anthropic retains none. It’s coming this fall. https://t.co/vH8CMhxhdB",
-      "summary": "We've been working on this with customers for a while. Mythos-class models require additional safety measures and enterprises need to meet their own privacy and compliance rules. Customers can own and control their own…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 1671,
-        "retweets": 95,
-        "replies": 140
-      },
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.69,
-          "rationale": [
-            "enterprise",
-            "compliance"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.78,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.61,
       "whyThisMatters": ""
     }
   ]
