@@ -1,61 +1,52 @@
 {
-  "generatedAt": "2026-09-30T05:46:13.535Z",
+  "generatedAt": "2026-09-30T06:53:26.046Z",
   "slug": "enterprise",
   "label": "Business AI",
   "items": [
     {
-      "id": "110a8f5b4b19226b",
+      "id": "577b263b49b9daf8",
       "date": "2026-09-30",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
       "sourceKey": "x:levie",
       "builderOrOrg": "Aaron Levie",
-      "title": "At Box, we've been testing Sonnet 5.5 in early access on our complex work eval with the Box Age…",
-      "url": "https://x.com/levie/status/2104648654074343480",
-      "publishedAt": "2026-09-28T19:05:16.000Z",
-      "content": "At Box, we've been testing Sonnet 5.5 in early access on our complex work eval with the Box Agent, and Sonnet 5.5 is another strong jump from Sonnet 5 on knowledge work with enterprise content. Across the board we saw a 4 pt overall improvement on our hardest tests, but it was roughly 2.4× faster to a finished deliverable on 12% fewer tokens. We also saw major wins in key verticals, like a +18 percentage point improvement in Financial Services, +7 pt in Legal, +8 pt in Life Sciences, and +7 pt…",
-      "summary": "At Box, we've been testing Sonnet 5.5 in early access on our complex work eval with the Box Agent, and Sonnet 5.5 is another strong jump from Sonnet 5 on knowledge work with enterprise content. Across the board we saw a…",
+      "title": "It’s entirely plausible that the AI industry can deal with safety and security through a set of…",
+      "url": "https://x.com/levie/status/2105111520913039530",
+      "publishedAt": "2026-09-30T01:44:32.000Z",
+      "content": "It’s entirely plausible that the AI industry can deal with safety and security through a set of shared standards and practices for the foreseeable future. At some point in capability progress there will inevitably be greater oversight, testing, and layers of liability and regulation, but we are still in a phase where the industry can absolutely align on these efforts collectively. Awesome to see this come together so quickly and for the whole industry to support progress without reducing compet…",
+      "summary": "It’s entirely plausible that the AI industry can deal with safety and security through a set of shared standards and practices for the foreseeable future. At some point in capability progress there will inevitably be gr…",
       "regionTags": [],
       "metrics": {
-        "likes": 146,
-        "retweets": 13,
-        "replies": 36
+        "likes": 91,
+        "retweets": 8,
+        "replies": 19
       },
       "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
         {
           "slug": "enterprise",
           "label": "Business AI",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "enterprise"
+            "security"
           ],
           "score": 1
         },
         {
-          "slug": "research",
-          "label": "Research",
+          "slug": "safety",
+          "label": "AI Safety",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "science"
+            "safety"
           ],
           "score": 1
         }
       ],
       "section": "Builders",
-      "importanceScore": 0.92,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.7,
+      "importanceScore": 0.78,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.86,
       "whyThisMatters": ""
     },
     {
@@ -107,7 +98,7 @@
       "section": "Official Sources",
       "importanceScore": 0.66,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.53,
       "whyThisMatters": ""
     },
@@ -161,8 +152,61 @@
       "section": "Official Sources",
       "importanceScore": 0.8,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.63,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "42a8168801a55b90",
+      "date": "2026-09-30",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU",
+      "url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
+      "publishedAt": "2026-09-30T05:53:10.000Z",
+      "content": "Today is the 20 year anniversary of Sam Altman&#8217;s first startup , and fittingly OpenAI the consumer AI company is so back (as is OpenAI the AI Cloud and OpenAI the Enterprise and Coding Definitely Not Anthropic Hyperscaler), with Dots &#8212; their voice-enabled answer to Instinct and Muse, ChatGPT Spaces &#8212; with Dots their answer to Notion and the office productivity suite, GPT 6.1 Sol (no Astra! alas) &#8212; their answer to Opus 5.5 with a new ultrafast mode running on unspecified silicon , alongside a wealth of platform updates, including the Decisions API , their rapid answer to what we covered in the Jev podcast , though as you will recall the point is System One over Decision Models . For now it&#8217;s a light shim over Luna, so it gets vision , without calibration/RLCD. In any case, you have any number of recaps coming at you today, and we&#8217;ll be shipping our DevDay pod soon, so you can either watch the full 1 hour livestream or this 15 minute supercut: AI News for 9/28/2026-9/29/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI DevDay 2026: Dots, GPT-6.1 Sol, Ultrafast and Platform Changes Dots (always-on agents) : OpenAI&#8217;s headline launch is dots . Each dot is an agent powered by GPT-6 Astra , runs on its own cloud computer, and connects to 4,000+ apps and Slack/Teams . Users set boundaries on what it can do on its own, what needs approval, and what it must never do. Connecting your own machine is optional . It ships to Pro, Business Premium and Enterprise. Tibo clarified that the primary dot&#8217;s direct work does not draw on plan usage ; Codex tasks it spawns do. Developers can hand off bug triage, failing builds and PRs via Codex . Early testers report proactive behavior, e.g. negotiating with customer service to cut ~$500/yr in charge…",
+      "summary": "the most confident DevDay yet.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.9299999999999999,
+          "rationale": [
+            "coding",
+            "code",
+            "developer"
+          ],
+          "score": 4
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.62,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.75,
       "whyThisMatters": ""
     },
     {
@@ -217,6 +261,61 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.51,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "110a8f5b4b19226b",
+      "date": "2026-09-30",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "At Box, we've been testing Sonnet 5.5 in early access on our complex work eval with the Box Age…",
+      "url": "https://x.com/levie/status/2104648654074343480",
+      "publishedAt": "2026-09-28T19:05:16.000Z",
+      "content": "At Box, we've been testing Sonnet 5.5 in early access on our complex work eval with the Box Agent, and Sonnet 5.5 is another strong jump from Sonnet 5 on knowledge work with enterprise content. Across the board we saw a 4 pt overall improvement on our hardest tests, but it was roughly 2.4× faster to a finished deliverable on 12% fewer tokens. We also saw major wins in key verticals, like a +18 percentage point improvement in Financial Services, +7 pt in Legal, +8 pt in Life Sciences, and +7 pt…",
+      "summary": "At Box, we've been testing Sonnet 5.5 in early access on our complex work eval with the Box Agent, and Sonnet 5.5 is another strong jump from Sonnet 5 on knowledge work with enterprise content. Across the board we saw a…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 146,
+        "retweets": 13,
+        "replies": 36
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "science"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.92,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.7,
       "whyThisMatters": ""
     },
     {
@@ -2374,103 +2473,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.51,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "b4ad3953a014472c",
-      "date": "2026-09-10",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
-      "url": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
-      "publishedAt": "2026-09-04T05:18:11.000Z",
-      "content": "The launch is barely 9 hours old, and with 36M views and 164K likes, already is OpenAI&#8217;s most successful launch since Sora and certainly GPT-4 or GPT-5 . You&#8217;ll recall we&#8217;ve previously observed that Anthropic tends to far outclass OpenAI in launch popularity. For the first time in their mutual history , OpenAI has turned the tables. You can read our initial impressions here and we will update with more coverage soon, just stay subscribed. Overall a very welcome answer to Anthropic&#8217;s Fable and Opus progress. Your move, SpaceXAI and Google DeepMind. AI News for 9/2/2026-9/3/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI launched GPT-6 Astra as its new flagship model, but the rollout and the surrounding debate were almost as consequential as the model itself. OpenAI officially announced Astra as &#8220;our most intelligent and aligned model yet,&#8221; positioning it around computer use, software engineering, math/science, polished office work, and cybersecurity via @OpenAI , @OpenAI , and @sama The company said Astra was rolling out first to a limited set of organizations, then over days to ChatGPT Plus/Pro/Business/Enterprise, the API, and AWS, as noted by @OpenAI , @OpenAIDevs , and @thsottiaux The launch itself was bumpy: users saw delays, a broken/late blog post, unclear access timing, and frustration that many influencers had early access while paying users did not, as reflected by @iScienceLuvr , @kimmonismus , @sama , @sama , @sama , @theo , and @t3dotcodes OpenAI tried to compensate for delays by granting &#8220;banked resets&#8221; for each day paid ChatGPT users lacked Astra access, per @thsottiaux and @reach_vb OpenAI simultaneously released a system card / deployment safety material that drew unusually intense attention because it desc…",
-      "summary": "new SOTA computer use and coding, 2.5x pricier per token, but WAY cheaper per task, less monitorable. overall, a very successful launch of OpenAI&#8217;s new frontier model class.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.81,
-          "rationale": [
-            "enterprise",
-            "deployment",
-            "security"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "science"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a0ccd6637f404646",
-      "date": "2026-09-09",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google AI Blog",
-      "sourceKey": "official:Google AI Blog",
-      "builderOrOrg": "Google",
-      "title": "Proactive cyber defense for governments and enterprises",
-      "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
-      "publishedAt": "2026-09-02T15:40:00.000Z",
-      "content": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
-      "summary": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
       "whyThisMatters": ""
     }
   ]
