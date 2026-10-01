@@ -1,8 +1,148 @@
 {
-  "generatedAt": "2026-09-30T06:53:26.046Z",
+  "generatedAt": "2026-10-01T00:31:03.795Z",
   "slug": "fine-tuning",
   "label": "Custom AI",
   "items": [
+    {
+      "id": "13fc1e62e5e2c3b5",
+      "date": "2026-10-01",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Disrupting a coordinated model-distillation campaign",
+      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "publishedAt": "2026-09-30T10:30:00.000Z",
+      "content": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+      "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "reasoning"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "distillation"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "16f9ca09683a868e",
+      "date": "2026-10-01",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Forecasting space weather risks on power grids",
+      "url": "https://www.microsoft.com/en-us/research/blog/forecasting-space-weather-risks-on-power-grids/",
+      "publishedAt": "2026-09-30T16:00:00.000Z",
+      "content": "At a glance End-to-end forecasting: A machine learning pipeline uses forecast-time solar-wind information to generate location-specific risk estimates for 66,935 substations in the continental United States.&nbsp; Physics and place: The system combines Auroral Electrojet (AE) and Disturbance Storm Time (Dst) forecasts with local latitude, geology, and ground conductivity.&nbsp; Advance warning: The pipeline detected nearly 80% of major space-weather events during the evaluation period and can warn grid operators 30 to 60 minutes before a specific risk appears.&nbsp; Forecasting a threat to critical infrastructure During the May 2024 geomagnetic storm, utilities across North America prepared for possible impacts as auroras extended far beyond their usual range. The storm would degrade GPS accuracy and satellite operations, impacting farm operations in North America and Europe. Modern society depends on reliable electric power, yet extreme space-weather events can induce currents in transmission networks that damage equipment and increase operational risk. The challenge is not only knowing that a storm is approaching, but estimating when and where its effects could be most severe with enough warning for grid operators to respond. During my summer internship at Microsoft Research, I developed a machine learning system that forecasts space-weather risk across 66,935 substations in the continental United States. The system measures how the sun’s activity can affect the earth’s magnetic field and, ultimately, the power grid. It combines solar-wind observations, forecasts of the Auroral Electrojet (AE) and Disturbance Storm Time (Dst) indices, physics-informed constraints, local geological conductivity, and grid-infrastructure data to produce location-specific risk estimates 30-60 minutes ahead of potential impact. Building an end-to-end prediction pipeline Space-weather prediction is difficult because it spans several coupled systems. The solar wind changes rapidly, its…",
+      "summary": "Extreme space-weather events can damage power systems on Earth and degrade GPS accuracy and satellite operations. A new machine learning system can predict where damage is likely to occur 30-60 minutes before a storm arrives. The post Fore…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "eval",
+            "evaluation"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "74e72eeeacd304ed",
+      "date": "2026-10-01",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Logan Wright on Broken China",
+      "url": "https://www.chinatalk.media/p/logan-wright-on-broken-china",
+      "publishedAt": "2026-09-30T10:06:04.000Z",
+      "content": "Is the Chinese economy well and truly broken? Will China be stuck in low growth for a decade or more? And what would that mean for the industries we cover on ChinaTalk, for China&#8217;s military power, and for policymakers around the world? To discuss, ChinaTalk interviewed Logan Wright , partner at Rhodium Group, my former boss, and, in my humble opinion, the person with the deepest understanding of China&#8217;s macroeconomic picture of anyone following the PRC in the West. His new book is Broken China: How the Economic Miracle Shattered and What It Means for the World . Co-hosting is the great Brad Setser of CFR. We discuss: Why China&#8217;s &#8220;economic miracle&#8221; has broken down and how the financial system that powered China&#8217;s growth for two decades now constrains it. How the world&#8217;s biggest credit expansion turned into a debt trap, with investment generating less and less growth. Why China&#8217;s property collapse, weak domestic demand, and surging exports are actually all part of the same story. How China&#8217;s push into EVs, AI, robotics, and other &#8220;new industrial sectors&#8221; can&#8217;t by itself replace the growth China used to get from property and investment. The jobs crisis facing China&#8217;s 12-13 million graduates per year and the ideological, fiscal, and strategic constraints that make it difficult for Beijing to address. What a &#8220;broken China&#8221; means for the US and the rest of the world and why Logan argues there is no longer systemic economic rivalry with China, but only a military and industrial-resilience one. Listen now on your favorite podcast app , or watch on YouTube! Why China is &#8220;Broken&#8221; Jordan Schneider: Logan, is China&#8217;s economy broken? Are we sure? Logan Wright: The title is not a prediction. It&#8217;s an explanation of how we got here. The basic argument is that it&#8217;s still underappreciated how central the financial system was to China&#8217;s growth over the past tw…",
+      "summary": ".5% growth...how did it get so bad?",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "policy"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
     {
       "id": "c00a9389b87a7b5e",
       "date": "2026-09-30",
@@ -2055,160 +2195,6 @@
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a50dd3e30947b4d4",
-      "date": "2026-09-13",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:rauchg",
-      "builderOrOrg": "Guillermo Rauch",
-      "title": "Tailscale’s model router is powered by Vercel AI Gateway as its underlying infrastructure. AI G…",
-      "url": "https://x.com/rauchg/status/2098531157230969062",
-      "publishedAt": "2026-09-11T21:56:31.000Z",
-      "content": "Tailscale’s model router is powered by Vercel AI Gateway as its underlying infrastructure. AI Gateways are the new CDNs. You could go “direct to origin”, but it’s brittle. You could DIY, but it’s painful and costly. Proud to serve Tailscale, the 🐐 networking technology company https://t.co/ERS5GKJx6D",
-      "summary": "Tailscale’s model router is powered by Vercel AI Gateway as its underlying infrastructure. AI Gateways are the new CDNs. You could go “direct to origin”, but it’s brittle. You could DIY, but it’s painful and costly. Pro…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 290,
-        "retweets": 9,
-        "replies": 27
-      },
-      "topics": [
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "8d4677643c976639",
-      "date": "2026-09-13",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Open Models are the United Front of AI",
-      "url": "https://www.chinatalk.media/p/open-models-are-the-united-front",
-      "publishedAt": "2026-09-06T10:45:34.000Z",
-      "content": "The following is a cross-post from &#33900;AI / FuneralAI, an uproariously funny Chinese blog about the ups and downs of the AI industry. Check out their many other articles on Substack and WeChat Public Accounts! Translation by Fable 5.1 and checked by Irene. Footnotes added to explain some historical references. ChinaTalk is a reader-supported publication. To receive new posts and support our work, consider becoming a free or paid subscriber. These days, the situation is excellent with Chinese models, and new releases take turns to farm Opus 5 like a boss monster. 1 But we still have to see the situation clearly and should not deceive ourselves A theory of quick victory and a theory of defeat are two sides of the same coin, and both are very bad actions. We have to first get the sequence straight. In early June, the evil Anthropic released the powerful Fable 5. Only then did many domestic models with benchmark scores approaching Fable 5 appear. The basic picture, in which OpenAI and Anthropic hold a large lead, has not changed. The premise is that our large models still lag behind; only then can we debate whether the gap is six months or four. Whether from the viewpoint of model performance or parameter count, K3 and Qwen 3.8 Max are still a full major generation behind Fable 5, and with GPT 6 about to be released, the gap may widen further. The progress of the past two months shows up mainly in how much faster domestic models are following up. With the successive releases of GLM 5.2, K3, and Qwen 3.8 Max, we can confirm one basic fact: domestic large models are improving at an accelerating pace, and the gap between open-source and closed-source models is, for now, narrowing. The most critical variable here is open source. Open source has terminated the logic of the theory of defeat. It has replaced &#8220;America encircles Chinese AI&#8221; with a protracted war in which open source encircles closed source. 2 The logic of the theory of defeat is very simple. Ame…",
-      "summary": "funny Sundays return!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.69,
-          "rationale": [
-            "open-source",
-            "open source"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "publication"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4e72e7e1670c5ec6",
-      "date": "2026-09-12",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:bcherny",
-      "builderOrOrg": "Boris Cherny",
-      "title": "The latest Threat Intelligence report is an absolutely terrifying and important read. As models…",
-      "url": "https://x.com/bcherny/status/2098281805770309686",
-      "publishedAt": "2026-09-11T05:25:41.000Z",
-      "content": "The latest Threat Intelligence report is an absolutely terrifying and important read. As models become more intelligent, without the right safeguards and monitoring they also become more dangerous. Many capabilities are dual use: a model that codes well can be used to hack critical infrastructure; a model that assists with biology research can also be used to engineer the next pandemic. These issues are complex, thorny, and increasingly important for everyone to understand so that the world can…",
-      "summary": "The latest Threat Intelligence report is an absolutely terrifying and important read. As models become more intelligent, without the right safeguards and monitoring they also become more dangerous. Many capabilities are…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 338,
-        "retweets": 43,
-        "replies": 62
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "code",
-            "repo"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
       "digestScore": 0.56,
       "whyThisMatters": ""
     }

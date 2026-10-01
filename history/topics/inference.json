@@ -1,8 +1,95 @@
 {
-  "generatedAt": "2026-09-30T06:53:26.046Z",
+  "generatedAt": "2026-10-01T00:31:03.795Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
+    {
+      "id": "ae94de9e676257b0",
+      "date": "2026-10-01",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google DeepMind Blog",
+      "sourceKey": "official:Google DeepMind Blog",
+      "builderOrOrg": "Google DeepMind",
+      "title": "Introducing SynthID Bio",
+      "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+      "publishedAt": "2026-09-30T15:03:07.000Z",
+      "content": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
+      "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "serving"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "da2dcae53e06ef0f",
+      "date": "2026-10-01",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
+      "url": "https://www.latent.space/p/devday-2026",
+      "publishedAt": "2026-09-30T22:23:40.000Z",
+      "content": "Three months ago Dwarkesh, who has been posting incredible blogs and episodes about RL, posted a framing question for his video essay on RLVR which upset a lot of Computer Use folks: We are no strangers to learning in public and are no strangers to the stress of getting things wrong when you have a big platform. However, we were at Anthropic for the Computer Use launch , there for Claude Cowork with the first big podcast on it, organized the first Computer Use track at AIE presenting the state of the art, and were close to the OpenAI-Sky Software acquisition that now powers the complete domination of computer use that Codex enjoys today. This is why we&#8217;re excited to bring you today&#8217;s first guest, Ari Weinstein , cofounder of Sky and now leading all the amazing CUA progress that casuals might miss: Ari explains why Computer Use is now &#8220;180 degrees different&#8221; from where it was months ago, how agents are learning to debug and recover from failures, why combining screenshots with accessibility data, the DOM, Playwright, and generated code changes the speed equation, and why the next frontier is making agents literally superhuman at using software. OpenAI clones Jev In the second half, Nikunj Handa from OpenAI&#8217;s API team breaks down the new developer stack: async tool calling, mid-turn steering, WebSockets, UltraFast inference, the Decisions API, prompt caching, pre-warming, compaction, and the Agents API . Given that we were the first Jev podcast , we particularly focus on the unusually fast sprint on the Decisions API: And why it is just a Luna wrapper for now but the team is motivated and egoless enough to clone what they consider to be good patterns. We discuss: Why OpenAI thinks Computer Use has changed dramatically in just the last few months Dots and what changes when every agent gets its own Linux computer Why Computer Use can now complete some tasks faster than the average human The path from human-level to &#8220;literally superhu…",
+      "summary": "Our DevDay coverage - the first pod on the DevDay lineup - dives in with the leaders of OpenAI&#8217;s CUA team and API platform.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "developer"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
+      "whyThisMatters": ""
+    },
     {
       "id": "7079d9900429a268",
       "date": "2026-09-30",
@@ -2281,80 +2368,6 @@
       ],
       "section": "Official Sources",
       "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "458ff5c8dd2afb8f",
-      "date": "2026-07-27",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:steipete",
-      "builderOrOrg": "Peter Steinberger",
-      "title": "1) Competition is good for the ecosystem. 2) Serving models at scale is hard. Proud that @OpenA…",
-      "url": "https://x.com/steipete/status/2081175795587072421",
-      "publishedAt": "2026-07-26T00:32:30.000Z",
-      "content": "1) Competition is good for the ecosystem. 2) Serving models at scale is hard. Proud that @OpenAI signed the letter. Ant is silent on it. https://t.co/r9QVQ2R9JH",
-      "summary": "1) Competition is good for the ecosystem. 2) Serving models at scale is hard. Proud that @OpenAI signed the letter. Ant is silent on it. https://t.co/r9QVQ2R9JH",
-      "regionTags": [],
-      "metrics": {
-        "likes": 1441,
-        "retweets": 57,
-        "replies": 58
-      },
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "serving"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "0ee3163df72ed313",
-      "date": "2026-07-25",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:mattturck",
-      "builderOrOrg": "Matt Turck",
-      "title": "This reference conversation on fast inference, AI chips, and the next compute bottleneck with @…",
-      "url": "https://x.com/mattturck/status/2080333711640285549",
-      "publishedAt": "2026-07-23T16:46:22.000Z",
-      "content": "This reference conversation on fast inference, AI chips, and the next compute bottleneck with @andrewdfeldman of @cerebras is also available on Spotify, Apple Podcasts and here on YouTube: https://t.co/iP21ZRHgpB",
-      "summary": "This reference conversation on fast inference, AI chips, and the next compute bottleneck with @andrewdfeldman of @cerebras is also available on Spotify, Apple Podcasts and here on YouTube: https://t.co/iP21ZRHgpB",
-      "regionTags": [],
-      "metrics": {
-        "likes": 5,
-        "retweets": 1,
-        "replies": 2
-      },
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.57,
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
