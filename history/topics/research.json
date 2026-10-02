@@ -1,89 +1,61 @@
 {
-  "generatedAt": "2026-10-02T05:56:26.200Z",
+  "generatedAt": "2026-10-02T07:06:15.275Z",
   "slug": "research",
   "label": "Research",
   "items": [
     {
-      "id": "222987694e87944b",
+      "id": "6f82f6c7755af9aa",
       "date": "2026-10-02",
-      "sourceType": "x",
+      "sourceType": "podcast",
       "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:garrytan",
-      "builderOrOrg": "Garry Tan",
-      "title": "I asked Secretary Duffy what Americans should be able to do, if we get this decade right, that…",
-      "url": "https://x.com/garrytan/status/2105395957357588561",
-      "publishedAt": "2026-09-30T20:34:47.000Z",
-      "content": "I asked Secretary Duffy what Americans should be able to do, if we get this decade right, that they can't do today. Sean Duffy is the Secretary of Transportation, and he sat down with me at our Startup Industrial Base event in DC today. He went straight to how our country's air traffic gets managed. At the command center, people sit in front of six screens with a paper flight chart above them, trying to make the calls on weather and routing. His example: four planes reach the same runway at the…",
-      "summary": "I asked Secretary Duffy what Americans should be able to do, if we get this decade right, that they can't do today. Sean Duffy is the Secretary of Transportation, and he sat down with me at our Startup Industrial Base e…",
+      "sourceName": "The MAD Podcast with Matt Turck",
+      "sourceKey": "podcast:The MAD Podcast with Matt Turck",
+      "builderOrOrg": "The MAD Podcast with Matt Turck",
+      "title": "Why AI Agents Cheat | Eric Ho (Goodfire)",
+      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "publishedAt": "2026-10-01T11:30:00.000Z",
+      "content": "Speaker 1 | 00:00 - 00:20 A lot of people who aren't in the AI field are very surprised to realize that even the, you know, smartest researchers and scientists at the frontier don't understand their creations. It's like, oh, I thought we had a handle on all of this. You know? What's going on here? The existing alignment techniques are not going to scale to superintelligence. Speaker 1 | 00:21 - 00:34 I don't think that the... We have the recipe where we are going to be able to fully trust smarter than human intelligences. And I think this is a consensus opinion at all of the the Frontier Labs. Speaker 2 | 00:34 - 01:00 Hi. I'm Matt Turk. Welcome back to the MAD podcast. My guest today is Eric Ho, CEO of Good With every top AI lab now reporting agents going rogue and hacking external systems, something is clearly broken in the world of AI safety. This may be a major moment for interpretability, which is the science of looking inside the model and Eric's team to show that you can catch a model in the act of cheating before it even acts. Speaker 2 | 01:00 - 01:35 Please enjoy my conversation with Eric from Goodfire. I want to start with this super interesting paper that the Goodfire team just published just last week, just a few days ago, entitled Models Know When They Are Reward Hacking and we can catch them at scale. And the paper opens up with the, hugging face hack and then, starts with a sentence I I really loved, where you guys say AI agents are like amoral students with a mostly absent teacher. What do you mean by that? Speaker 1 | 01:35 - 02:05 I think we mean that AI agents really don't have human morals or values encoded into them like we would really want, I guess. And so, the the teacher that we typically have right now is some combination of pre training, but mostly RL. RL is the teacher. We give agents these rewards and penalize them if they don't get an answer correctly. And this is how they learn about the world and how to act and how to take take actions. Speaker 1 | 02:06 - 02:48 And so we have a mostly absent teacher in terms of morality. You only have a teacher that gives you reward if you get the answer correct and a penalty if you get the answer wrong. And so it doesn't really have anything to do with morality or values. It's just, did you get this math problem correct or not? And, I think that, especially when you kind of see the future of AI agents really taking a lot more action out in the real world, means that we have these really amoral, very, very capable models running around and potentially doing things that we humans would consider, morally, you know, wrong. Speaker 2 | 02:49 - 02:57 That brings us to the concept of reward hacking that we should, define at the very beginning of this conversation. So what's the short version of what reward hacking means? Speaker 1 | 02:57 - 03:38 Reward hacking is a little bit tough to to pin down in terms of, like, the the precise definition, but we conceptualize it as the model kind of chasing reward and doing something that it wasn't really supposed to do when it... In in the pursuit of chasing some tore... Some form of a goal. And you can call it kind of also a goal misgeneralization where it's not really understanding what you actually intended to, specify when it's pursuing its reward. But, you know, the classic example of reward hacking is like, let's say you're training some type of video game avatar to, like, via via reinforcement learning. Speaker 1 | 03:39 - 03:58 And then you see kind of your avatar, like, spinning around in the corner because there's a bug in your code, but it, like, makes the number go up and the the reward go up. And so that's kind of my mental image whenever I think of reward hacking. It's just like this little avatar spinning around in the corner, getting a bunch of reward, but not really doing anything productive. Speaker 2 | 03:58 - 04:12 Or, another one I heard, and, let let me know if that feels right, is, this idea that the mo…",
+      "summary": "Speaker 1 | 00:00 - 00:20 A lot of people who aren't in the AI field are very surprised to realize that even the, you know, smartest researchers and scientists at the frontier don't understand their creations. It's like, oh, I thought we h…",
       "regionTags": [],
-      "metrics": {
-        "likes": 117,
-        "retweets": 15,
-        "replies": 17
-      },
+      "metrics": {},
       "topics": [
         {
           "slug": "research",
           "label": "Research",
-          "confidence": 0.5700000000000001,
+          "confidence": 0.81,
           "rationale": [
-            "paper"
+            "research",
+            "paper",
+            "science"
           ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "5a68c13587175574",
-      "date": "2026-10-02",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:steipete",
-      "builderOrOrg": "Peter Steinberger",
-      "title": "I'm finding inter-agent communication in the chat stream increasingly irritating. Changed the v…",
-      "url": "https://x.com/steipete/status/2105362785534361996",
-      "publishedAt": "2026-09-30T18:22:58.000Z",
-      "content": "I'm finding inter-agent communication in the chat stream increasingly irritating. Changed the visibility in the OC harness to just a single line that can be expanded. Pretty sure others will follow. https://t.co/YUcQBzY6P3 https://t.co/PUDFHgTsxt",
-      "summary": "I'm finding inter-agent communication in the chat stream increasingly irritating. Changed the visibility in the OC harness to just a single line that can be expanded. Pretty sure others will follow. https://t.co/YUcQBzY…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 229,
-        "retweets": 7,
-        "replies": 50
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
+          "score": 3
         },
         {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
           "rationale": [
-            "finding"
+            "code",
+            "repo"
           ],
-          "score": 1
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "image",
+            "video"
+          ],
+          "score": 2
         }
       ],
-      "section": "Builders",
-      "importanceScore": 0.84,
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.52,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.65,
+      "previouslySelected": false,
+      "digestScore": 0.44,
       "whyThisMatters": ""
     },
     {
@@ -245,7 +217,7 @@
       "section": "Official Sources",
       "importanceScore": 0.8,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.63,
       "whyThisMatters": ""
     },
@@ -350,8 +322,142 @@
       "section": "Podcasts & Newsletters",
       "importanceScore": 0.54,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "2c41c8cedf389eb8",
+      "date": "2026-10-02",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "China's Starlink Response",
+      "url": "https://www.chinatalk.media/p/china-responds-to-starlink",
+      "publishedAt": "2026-10-01T10:04:50.000Z",
+      "content": "Paddy Stephens writes about space, security, and energy for The Wire China , Resilience Media and others. He&#8217;s based between London, Nice and Taipei. This is Part 1 of his two-part investigation of China&#8217;s Starlink challengers! The test lacked the cool confidence of the Falcon 9, SpaceX&#8217;s dependable workhorse rocket that slows itself down before landing gently on four legs. Nor was it as elegant as SpaceX&#8217;s super-heavy Starship rocket booster, which the company has managed to catch on three occasions with two &#8220;chopstick&#8221; arms. But as the first stage of the Long March 10B slowed itself into a netted metal box on a sea barge in July this year, the state-owned China Aerospace Science and Technology Corporation (CASC) joined SpaceX and Bezos&#8217; Blue Origin to become the third entity in the world to have successfully recovered a rocket booster. Long March 10B first stage is collected on a sea barge. Credit: Xinhua . Three soon became four. On its first attempt in December, the booster of the Zhuque-3, a reusable model developed by LandSpace, one of China&#8217;s leading commercial rocket companies, ended up as a fireball that smashed spectacularly into the Gobi Desert. Since then, its engineers have clearly been busy. On 18th August, it touched down softly on its extended legs, in size and landing style much like the Falcon 9. The two tests don&#8217;t mean China has cracked rocket reusability &#8212; it&#8217;ll take multiple successful launches of each of the models to prove their reliability. Then it will take more time still to actualize the falling costs and increased launch capacity that reusability has brought SpaceX. Blaine Curcio, the founder of Orbital Gateway Consulting and an authority on China&#8217;s space industry, told me that the Long March 10B test is &#8220;a meaningful step forward, but the short term impact [on launch capacity] is not huge&#8221;. Nevertheless, with these two tests and other commercial Chinese…",
+      "summary": "Crust it, and copy it",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "science"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "222987694e87944b",
+      "date": "2026-10-02",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:garrytan",
+      "builderOrOrg": "Garry Tan",
+      "title": "I asked Secretary Duffy what Americans should be able to do, if we get this decade right, that…",
+      "url": "https://x.com/garrytan/status/2105395957357588561",
+      "publishedAt": "2026-09-30T20:34:47.000Z",
+      "content": "I asked Secretary Duffy what Americans should be able to do, if we get this decade right, that they can't do today. Sean Duffy is the Secretary of Transportation, and he sat down with me at our Startup Industrial Base event in DC today. He went straight to how our country's air traffic gets managed. At the command center, people sit in front of six screens with a paper flight chart above them, trying to make the calls on weather and routing. His example: four planes reach the same runway at the…",
+      "summary": "I asked Secretary Duffy what Americans should be able to do, if we get this decade right, that they can't do today. Sean Duffy is the Secretary of Transportation, and he sat down with me at our Startup Industrial Base e…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 117,
+        "retweets": 15,
+        "replies": 17
+      },
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "paper"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "5a68c13587175574",
+      "date": "2026-10-02",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:steipete",
+      "builderOrOrg": "Peter Steinberger",
+      "title": "I'm finding inter-agent communication in the chat stream increasingly irritating. Changed the v…",
+      "url": "https://x.com/steipete/status/2105362785534361996",
+      "publishedAt": "2026-09-30T18:22:58.000Z",
+      "content": "I'm finding inter-agent communication in the chat stream increasingly irritating. Changed the visibility in the OC harness to just a single line that can be expanded. Pretty sure others will follow. https://t.co/YUcQBzY6P3 https://t.co/PUDFHgTsxt",
+      "summary": "I'm finding inter-agent communication in the chat stream increasingly irritating. Changed the visibility in the OC harness to just a single line that can be expanded. Pretty sure others will follow. https://t.co/YUcQBzY…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 229,
+        "retweets": 7,
+        "replies": 50
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "finding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.65,
       "whyThisMatters": ""
     },
     {
@@ -405,57 +511,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "2c41c8cedf389eb8",
-      "date": "2026-10-02",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "China's Starlink Response",
-      "url": "https://www.chinatalk.media/p/china-responds-to-starlink",
-      "publishedAt": "2026-10-01T10:04:50.000Z",
-      "content": "Paddy Stephens writes about space, security, and energy for The Wire China , Resilience Media and others. He&#8217;s based between London, Nice and Taipei. This is Part 1 of his two-part investigation of China&#8217;s Starlink challengers! The test lacked the cool confidence of the Falcon 9, SpaceX&#8217;s dependable workhorse rocket that slows itself down before landing gently on four legs. Nor was it as elegant as SpaceX&#8217;s super-heavy Starship rocket booster, which the company has managed to catch on three occasions with two &#8220;chopstick&#8221; arms. But as the first stage of the Long March 10B slowed itself into a netted metal box on a sea barge in July this year, the state-owned China Aerospace Science and Technology Corporation (CASC) joined SpaceX and Bezos&#8217; Blue Origin to become the third entity in the world to have successfully recovered a rocket booster. Long March 10B first stage is collected on a sea barge. Credit: Xinhua . Three soon became four. On its first attempt in December, the booster of the Zhuque-3, a reusable model developed by LandSpace, one of China&#8217;s leading commercial rocket companies, ended up as a fireball that smashed spectacularly into the Gobi Desert. Since then, its engineers have clearly been busy. On 18th August, it touched down softly on its extended legs, in size and landing style much like the Falcon 9. The two tests don&#8217;t mean China has cracked rocket reusability &#8212; it&#8217;ll take multiple successful launches of each of the models to prove their reliability. Then it will take more time still to actualize the falling costs and increased launch capacity that reusability has brought SpaceX. Blaine Curcio, the founder of Orbital Gateway Consulting and an authority on China&#8217;s space industry, told me that the Long March 10B test is &#8220;a meaningful step forward, but the short term impact [on launch capacity] is not huge&#8221;. Nevertheless, with these two tests and other commercial Chinese…",
-      "summary": "Crust it, and copy it",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "science"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
       "whyThisMatters": ""
     },
     {
@@ -2361,59 +2416,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "295e82dd7009933a",
-      "date": "2026-09-16",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] DeepSeek v4.1-Flash: 763B-P8B-D16B novel causal Encoder–Decoder architecture with vision marks the Return of the Whale",
-      "url": "https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b",
-      "publishedAt": "2026-09-12T05:56:05.000Z",
-      "content": "We are late to this but better than never. Have been busy finalizing the second AIE NYC , which is happening in one month. Get your tix before prices go up - we will announce speakers from Bridgewater, Ramp, Coatue, Mastercard, Vanguard, Coinbase, Blackrock, Fidelity, Point72, Capital One, JPMC, Wells Fargo, Bloomberg, A24 (yes the movie studio) Labs, Two Sigma, Apollo Global, and more next week! The way DeepSeek pursues their research agenda is nothing short of fascinating. In between major DeepSeek versions, from v2 to v3 to v4, they have released intermediate papers with a hyperfocused architectural improvement and basically a 100% hit rate, from Math (esp GRPO ) , Coder , and R1 , not to mention more recent work on Manifold Constrained Hyperconnections and Compressed Sparse Attention . After the enormous attention in 1H2025 from the R1 paper, DeepSeek started laying low, and for about the past year, was happy to let peers like GLM and Kimi take the lead on Open Models. It looked dicey for a little bit, but true whalebros never wavered, and now DeepSeek are sending a weirdly mixed message by doing a completely new architecture, retiring V4 Pro and going all in on this new model, and yet only titling it v4.1 Flash, it seems to be a test of whether or not you know how to read through the basic headlines to understand true advances. Yes, v4.1 Flash is technically behind other open models in some benchmarks. But that&#8217;s because we don&#8217;t yet have benchmarks that concisely capture what v4.1, and the broader research agenda of DeepSeek, is aiming for - the most creative and efficient use of context we have ever seen openly explained. If you are the sort to only read model versions and benchmark headlines, you are exactly the type of superficial person that DeepSeek is looking to fool. The best way to understand DeepSeek&#8217;s enormous advance here is to look at Sebastian&#8217;s meme: Same model name, but hardly a 0.1 bump by anyone&#8217;s standards, and…",
-      "summary": "We agree with Sebastian: this should have been DeepSeek v5",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "paper"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "china-models",
-          "label": "Chinese AI",
-          "confidence": 0.69,
-          "rationale": [
-            "deepseek",
-            "kimi"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Chinese Models",
-      "importanceScore": 0.55,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     }
   ]
