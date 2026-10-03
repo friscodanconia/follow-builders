@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-02T07:06:15.275Z",
+  "generatedAt": "2026-10-03T00:31:04.368Z",
   "slug": "enterprise",
   "label": "Business AI",
   "items": [
     {
       "id": "9e248e06dfa33907",
-      "date": "2026-10-02",
+      "date": "2026-10-03",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -44,14 +44,14 @@
       ],
       "section": "Builders",
       "importanceScore": 0.78,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.86,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.61,
       "whyThisMatters": ""
     },
     {
       "id": "befeca53e3ccc011",
-      "date": "2026-10-02",
+      "date": "2026-10-03",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -91,14 +91,14 @@
       ],
       "section": "Builders",
       "importanceScore": 0.83,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.89,
+      "digestScore": 0.64,
       "whyThisMatters": ""
     },
     {
       "id": "f15c2b5cf541ba9f",
-      "date": "2026-10-02",
+      "date": "2026-10-03",
       "sourceType": "blog",
       "sourceGroup": "mirrored",
       "sourceName": "Anthropic Engineering",
@@ -151,7 +151,7 @@
     },
     {
       "id": "1daa5c21847def77",
-      "date": "2026-10-02",
+      "date": "2026-10-03",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
@@ -186,7 +186,7 @@
     },
     {
       "id": "7e504392f3113276",
-      "date": "2026-10-02",
+      "date": "2026-10-03",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -221,7 +221,7 @@
     },
     {
       "id": "16104eb8f7b9b1cc",
-      "date": "2026-10-02",
+      "date": "2026-10-03",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Microsoft Research Blog",
@@ -269,13 +269,13 @@
       "section": "Official Sources",
       "importanceScore": 0.8,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.63,
       "whyThisMatters": ""
     },
     {
       "id": "d88614035cccf4a5",
-      "date": "2026-10-02",
+      "date": "2026-10-03",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -316,6 +316,109 @@
           "confidence": 0.5700000000000001,
           "rationale": [
             "benchmark"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "25e06c94c054249c",
+      "date": "2026-10-03",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Building China’s Two Starlinks",
+      "url": "https://www.chinatalk.media/p/building-chinas-two-starlinks",
+      "publishedAt": "2026-10-02T11:06:46.000Z",
+      "content": "Paddy Stephens writes about space, security, and energy for The Wire China , Resilience Media and others. He&#8217;s based between London, Nice and Taipei. This is Part 2 of his two-part investigation of China&#8217;s Starlink challengers! ChinaTalk is a reader-supported publication. To receive new posts and support our work, consider becoming a free or paid subscriber. In the first part of this article on China&#8217;s responses to Starlink, I analyzed how China views the megaconstellation, and how it might try to disable it in a conflict. This second part reports on China&#8217;s mixed record and recent success in building not one but two major low Earth orbit (LEO) satellite megaconstellations of its own. The Chinese government understands Starlink as both a commercial company and a national security asset for the US and partners. Over time, two major &#8216;Chinese Starlink&#8217; projects have emerged, which between them cover both aspects: Guowang (&#22269;&#32593; &#8212; literally, &#8220;National Network&#8221;), a satellite infrastructure provider primarily for the state, and commercially-oriented Qianfan (&#21315;&#24070; &#8212; literally, &#8220;Thousand Sails&#8221;). First to emerge was Guowang, which serves the Chinese state, including the military. It is highly secretive, mentioned by name in few Chinese public policy documents, and public information about it remains scarce. China SatNet &#20013;&#22269;&#26143;&#32593;, the Xiong&#8217;an-based state-owned enterprise (SOE) responsible for Guowang, seems to be working closely with the military-industrial complex and state telecommunications companies. The most obvious evidence for this, says Curcio, is China Space Time &#20013;&#22269;&#26102;&#31354;&#20449;&#24687;&#38598;&#22242;&#26377;&#38480;&#20844;&#21496;, a joint venture between China SatNet, China Mobile, and NORINCO &#21271;&#26041;&#24037;&#19994;, a state-owned defense contractor. There are indications that Guowang is offering much m…",
+      "summary": "is two better than one?",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.69,
+          "rationale": [
+            "enterprise",
+            "security"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "publication"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.66,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "2c41c8cedf389eb8",
+      "date": "2026-10-03",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "China's Starlink Response",
+      "url": "https://www.chinatalk.media/p/china-responds-to-starlink",
+      "publishedAt": "2026-10-01T10:04:50.000Z",
+      "content": "Paddy Stephens writes about space, security, and energy for The Wire China , Resilience Media and others. He&#8217;s based between London, Nice and Taipei. This is Part 1 of his two-part investigation of China&#8217;s Starlink challengers! The test lacked the cool confidence of the Falcon 9, SpaceX&#8217;s dependable workhorse rocket that slows itself down before landing gently on four legs. Nor was it as elegant as SpaceX&#8217;s super-heavy Starship rocket booster, which the company has managed to catch on three occasions with two &#8220;chopstick&#8221; arms. But as the first stage of the Long March 10B slowed itself into a netted metal box on a sea barge in July this year, the state-owned China Aerospace Science and Technology Corporation (CASC) joined SpaceX and Bezos&#8217; Blue Origin to become the third entity in the world to have successfully recovered a rocket booster. Long March 10B first stage is collected on a sea barge. Credit: Xinhua . Three soon became four. On its first attempt in December, the booster of the Zhuque-3, a reusable model developed by LandSpace, one of China&#8217;s leading commercial rocket companies, ended up as a fireball that smashed spectacularly into the Gobi Desert. Since then, its engineers have clearly been busy. On 18th August, it touched down softly on its extended legs, in size and landing style much like the Falcon 9. The two tests don&#8217;t mean China has cracked rocket reusability &#8212; it&#8217;ll take multiple successful launches of each of the models to prove their reliability. Then it will take more time still to actualize the falling costs and increased launch capacity that reusability has brought SpaceX. Blaine Curcio, the founder of Orbital Gateway Consulting and an authority on China&#8217;s space industry, told me that the Long March 10B test is &#8220;a meaningful step forward, but the short term impact [on launch capacity] is not huge&#8221;. Nevertheless, with these two tests and other commercial Chinese…",
+      "summary": "Crust it, and copy it",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "science"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
           ],
           "score": 1
         }
@@ -378,57 +481,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.51,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "2c41c8cedf389eb8",
-      "date": "2026-10-02",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "China's Starlink Response",
-      "url": "https://www.chinatalk.media/p/china-responds-to-starlink",
-      "publishedAt": "2026-10-01T10:04:50.000Z",
-      "content": "Paddy Stephens writes about space, security, and energy for The Wire China , Resilience Media and others. He&#8217;s based between London, Nice and Taipei. This is Part 1 of his two-part investigation of China&#8217;s Starlink challengers! The test lacked the cool confidence of the Falcon 9, SpaceX&#8217;s dependable workhorse rocket that slows itself down before landing gently on four legs. Nor was it as elegant as SpaceX&#8217;s super-heavy Starship rocket booster, which the company has managed to catch on three occasions with two &#8220;chopstick&#8221; arms. But as the first stage of the Long March 10B slowed itself into a netted metal box on a sea barge in July this year, the state-owned China Aerospace Science and Technology Corporation (CASC) joined SpaceX and Bezos&#8217; Blue Origin to become the third entity in the world to have successfully recovered a rocket booster. Long March 10B first stage is collected on a sea barge. Credit: Xinhua . Three soon became four. On its first attempt in December, the booster of the Zhuque-3, a reusable model developed by LandSpace, one of China&#8217;s leading commercial rocket companies, ended up as a fireball that smashed spectacularly into the Gobi Desert. Since then, its engineers have clearly been busy. On 18th August, it touched down softly on its extended legs, in size and landing style much like the Falcon 9. The two tests don&#8217;t mean China has cracked rocket reusability &#8212; it&#8217;ll take multiple successful launches of each of the models to prove their reliability. Then it will take more time still to actualize the falling costs and increased launch capacity that reusability has brought SpaceX. Blaine Curcio, the founder of Orbital Gateway Consulting and an authority on China&#8217;s space industry, told me that the Long March 10B test is &#8220;a meaningful step forward, but the short term impact [on launch capacity] is not huge&#8221;. Nevertheless, with these two tests and other commercial Chinese…",
-      "summary": "Crust it, and copy it",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "science"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
       "whyThisMatters": ""
     },
     {
@@ -2434,43 +2486,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.7,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d2b6a6d12af2a8f0",
-      "date": "2026-09-13",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:mattturck",
-      "builderOrOrg": "Matt Turck",
-      "title": "My 9/11 story (lightly updated version of a blog post I wrote in 2016 for the 15th anniversary)…",
-      "url": "https://x.com/mattturck/status/2098517022049190227",
-      "publishedAt": "2026-09-11T21:00:21.000Z",
-      "content": "My 9/11 story (lightly updated version of a blog post I wrote in 2016 for the 15th anniversary) In September 2001, I was the young co-founder of a NYC tech startup, TripleHop Technologies. We were building enterprise search software, using whatever AI existed at the time, building what would be today close to what a Glean does. We had maybe 25 people on the team at the time. Pretty much all of us were at the very begining of our careers, barely out of school, unexperienced, but highly enthusias…",
-      "summary": "My 9/11 story (lightly updated version of a blog post I wrote in 2016 for the 15th anniversary) In September 2001, I was the young co-founder of a NYC tech startup, TripleHop Technologies. We were building enterprise se…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 129,
-        "retweets": 0,
-        "replies": 16
-      },
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.78,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.61,
       "whyThisMatters": ""
     }
   ]

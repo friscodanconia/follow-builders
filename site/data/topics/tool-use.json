@@ -1,11 +1,64 @@
 {
-  "generatedAt": "2026-10-02T07:06:15.275Z",
+  "generatedAt": "2026-10-03T00:31:04.368Z",
   "slug": "tool-use",
   "label": "AI Using Tools",
   "items": [
     {
+      "id": "caa08849861080ab",
+      "date": "2026-10-03",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "A model guide for the GPT-6 family",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "publishedAt": "2026-10-02T16:15:00.000Z",
+      "content": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+      "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "reasoning"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
       "id": "520627b932bab10b",
-      "date": "2026-10-02",
+      "date": "2026-10-03",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Microsoft Research Blog",
@@ -56,6 +109,57 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "4b3375efc702eb5a",
+      "date": "2026-10-03",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
+      "url": "https://www.latent.space/p/airbnb",
+      "publishedAt": "2026-10-02T14:04:49.000Z",
+      "content": "Prior to joining Airbnb as CTO in January, Ahmad Al-Dahle was head of generative AI at Meta and led the launch of its open source Llama models over 2023-2025. Now Al-Dahle is in charge of turning Airbnb into an &#8220;AI-native company&#8221;. What that means in practice is using AI internally to speed up product development, then using those same capabilities to transform the customer experience . We&#8217;re calling this an &#8220;inside-out AI&#8221; approach and in this article we&#8217;ll dig into the details. An example of inside-out AI: Airbnb used a custom internal tool called Everest to help accelerate the launch of a new external service. (Diagram by Latent Space) Al-Dahle spoke with Latent Space about Airbnb&#8217;s AI transformation. We began by asking him why he made the shift from building frontier models at Meta to deploying them at Airbnb . &#8220;Fundamentally, I like to chase where I believe the hard frontiers live ,&#8221; he replied, pun perhaps intended. &#8220;We kind of knew [at Meta] what the flywheel looks like, we understood how to improve the model capabilities, generation on generation.&#8221; Al-Dahle&#8217;s tweet in January on joining Airbnb from Meta The next challenge, Al-Dahle thinks, is deploying models at scale. At Airbnb, his goals are to &#8220; push people to work differently , because these tools are transforming how you work,&#8221; and to &#8220; take these systems and deploy them in production , in creative ways that actually add value to a core user experience.&#8221; Jumping to prototypes, code is the artifact From its launch in 2008, Airbnb has been considered a technology company operating in the hospitality industry. The company went public in 2020 and now has a market capitalization of approximately $93 billion (at time of writing). So it&#8217;s a big operation to try and make &#8220;AI-native.&#8221; Al-Dahle reeled off a few statistics to show that Airbnb is AI-pilled now: 60% of its code is now AI-authored , it h…",
+      "summary": "After leading Meta&#8217;s Llama models, Ahmad Al-Dahle is now transforming Airbnb with AI &#8212; from how its teams develop products to how it serves guests.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open source"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
       "whyThisMatters": ""
     },
     {
@@ -2231,110 +2335,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "9c043619ebf77ec2",
-      "date": "2026-08-28",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "AI & I by Every",
-      "sourceKey": "podcast:AI & I by Every",
-      "builderOrOrg": "AI & I by Every",
-      "title": "A $10B Hedge Fund’s AI Playbook (Best of the Pod)",
-      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
-      "publishedAt": "2026-08-26T15:00:00.000Z",
-      "content": "Speaker 1 | 00:00 - 00:13 It's becoming a meme that CEOs are, like, writing basically, like, the We're AI first memo. You have the best example of that memo that I've ever seen. Would you mind just, like, reading, I don't know, maybe the first paragraph or two of what you wrote? Because I think it's amazing. Speaker 2 | 00:13 - 00:29 Using ChatGPT is not cheating. That's a non applicable idea from academia. I use ChatGPT to write this email. You should be using it too and be proud of it. As a hedge fund, we should be ashamed to leave money on the table by ignoring tools that make us faster, smarter, and more effective. Speaker 2 | 00:29 - 00:38 From the very top, we are building a culture around AI. Not using these tools is like refusing to use the Internet in 1995 because it wasn't perfect. Speaker 1 | 00:52 - 00:53 Will, welcome to the show. Speaker 2 | 00:53 - 00:55 Thanks, Ben. Thank you. Speaker 1 | 00:55 - 01:24 So it's great to have you. For people who don't know you, you are the the benevolent dictator of Walleye, which is a close to 10,000,000,000 AUM hedge fund. And you're an every consulting client. We're working with you to help you do AI training and implementation inside of Walleye. And honestly, regardless of the stuff we've done, you're, I think, one of the most impressive examples of someone, a CEO, who is pivoting their entire organization around AI, and you're leading by example. Speaker 1 | 01:24 - 01:25 And so I'm psyched to get to talk to you. Speaker 2 | 01:25 - 01:41 Yeah. Thanks. Yeah. Maybe I could just give a little more context to that. I guess my my technical title is is CEO CIO managing partner, but, you know, both both the owner operator of, you know, one of the one of the larger hedge funds out there. Speaker 2 | 01:41 - 01:50 I I don't do many press. You know, it's I don't typically speak at conferences. I've only done one other podcast. So this is very deliberate. It's very deliberate for me. Speaker 2 | 01:51 - 02:37 And because of the relationship that we've developed on this subject, I do feel a great sense of both purpose and conviction about where our industry is going, where our firm is going. I do believe they're already a leader in that, and it's going to continue to be the case. So sometimes I listen to a lot of podcasts, so I was curious about some of the motivations for why people do this. I just want to be very clear upfront. Because I have that conviction, the skills to lead us into the next phase, and we'll get into that, of course, and ultimately the power to enact that, I really feel that it would be irresponsible of me not to go after it with sort of the maximum amount of discipline and intensity I can muster, which is a lot. Speaker 2 | 02:37 - 03:12 So first, three main audiences here is the people at Walleye. We have about 400 people, not big for a normal company, but in our core of the world. That's not a small amount. Second, I'm also speaking to people that aren't at the firm today, but may join us in the future just to understand how serious the firm is about AI that ultimately starts with me and then others. And then third, finally speaking to people in the ecosystem, whether they be companies building products that firms like us can use or other ways of work together. Speaker 2 | 03:14 - 03:21 That's why I'm here. But it does all start with me having, as I said, an enormous sense of conviction about where the world is heading. Speaker 1 | 03:22 - 03:25 How did you develop that? What was that journey like for you? I actually don't even know this. Speaker 2 | 03:25 - 03:48 So I'm a bonafide nerd by background. You know, I was an engineer at Princeton. I went to Oxford to do a PhD in math. I started my career writing code all day for algorithmic strategies. So we, as a firm, and me personally, have been using, let's just call it advanced statistics, even AI for years. Speaker 2 | 03:48 - 04:19 A large part of what our firm does is in pure quant trading. So I've thought…",
-      "summary": "Speaker 1 | 00:00 - 00:13 It's becoming a meme that CEOs are, like, writing basically, like, the We're AI first memo. You have the best example of that memo that I've ever seen. Would you mind just, like, reading, I don't know, maybe the f…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "reasoning",
-          "label": "AI Thinking",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "deliberate"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.52,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.44,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "0b03ec873b2075fa",
-      "date": "2026-08-28",
-      "sourceType": "blog",
-      "sourceGroup": "mirrored",
-      "sourceName": "Claude Blog",
-      "sourceKey": "blog:Claude Blog",
-      "builderOrOrg": "Claude Blog",
-      "title": "Claude in Chrome is generally available",
-      "url": "https://claude.com/blog/claude-in-chrome-generally-available",
-      "publishedAt": "2026-08-26T00:00:00.000Z",
-      "content": "Claude in Chrome is now generally available on every paid Claude plan. Claude can now also take actions autonomously in the browser, instead of needing approval for every one. A safety classifier validates each action before it’s performed to ensure it’s safe and matches your request. Many of the tools you use every day connect to Claude . But many others don’t, such as internal dashboards, legacy systems, and vendor portals. Claude in Chrome lets Claude access those. It can view the page you’re on and take actions like reading and typing text, clicking links, navigating between pages, and filling out forms, using your existing logins. We first announced Claude in Chrome as a pilot last year, so we could test it while also shoring up our defenses against prompt injection : malicious instructions hidden in websites, emails, or documents that try to trick an AI agent into acting against the user’s wishes. These defenses, described below, give us the confidence to make Claude in Chrome generally available. Safeguarding against prompt injection As we outlined when we announced the pilot, an AI agent that works in your browser is also vulnerable to prompt injection. So we’ve worked to improve our safeguards before releasing Claude in Chrome more widely. In a prompt injection attack, malicious actors hide instructions in web content such as a web page, an email, or a form field. You may never see them, but these instructions can redirect the agent to do something you never asked for. For example, if you’ve asked Claude to draft replies to your emails, a hidden instruction in one message could tell Claude to forward your other emails to the attacker instead. At launch, we described how we tested Claude’s defenses against these attacks and the safeguards we had in place at the time; we later released a more detailed description of our browser-use safeguards . Since then, we’ve improved how we train both the model and our probes , and added an additional set of classifiers…",
-      "summary": "Claude in Chrome is now generally available on every paid Claude plan. Claude can now also take actions autonomously in the browser, instead of needing approval for every one. A safety classifier validates each action before it’s performed…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "autonomous"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.69,
-          "rationale": [
-            "tools",
-            "browser"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "clicking"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Watchlist",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     }
   ]
