@@ -1,8 +1,202 @@
 {
-  "generatedAt": "2026-10-03T06:39:45.951Z",
+  "generatedAt": "2026-10-04T00:31:02.048Z",
   "slug": "multimodal",
   "label": "Images, Audio & Video",
   "items": [
+    {
+      "id": "3a0552a71d87698c",
+      "date": "2026-10-04",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google AI Blog",
+      "sourceKey": "official:Google AI Blog",
+      "builderOrOrg": "Google",
+      "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+      "publishedAt": "2026-09-28T19:00:00.000Z",
+      "content": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "summary": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "vision"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "520627b932bab10b",
+      "date": "2026-10-04",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Introducing Quine: An AI research system designed for the complexity of biology",
+      "url": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/",
+      "publishedAt": "2026-09-29T14:00:02.000Z",
+      "content": "At a glance Quine (opens in new tab) is a research effort to create a multimodal world model of biology and an interactive harness connecting models, scientific tools, literature, and researchers.&nbsp; In collaboration with researchers at the Broad Institute of Harvard and MIT, we have used this system to prioritize compounds predicted to drive therapeutic tumor-state shifts and validated several top-ranked candidates across multiple wet-lab assays.&nbsp; The Quine Fellows program (opens in new tab) will give a cohort of scientists access to the system and an opportunity to accelerate their own research and provide scientific feedback.&nbsp;&nbsp; Quine is experimental research technology intended only for research, not clinical or medical use, and its outputs may be incomplete or inaccurate and require review by qualified researchers and appropriate scientific and experimental validation. As the technology matures, we expect to expand access through products like Microsoft Discovery (opens in new tab) . For more than two decades, Microsoft Research has worked at the intersection of computation and biology. Our research has spanned immunology, virology, genomics, biomedical imaging, cell biology, and protein engineering. That work has produced foundational methods, new science, and technology that reached the clinic, from rare and infectious disease diagnosis to cancer biomarker detection. Across that work, one lesson has become increasingly clear: biology does not divide itself into the neat boundaries our models and tools often do. Genes influence proteins; proteins interact within cells; cells organize into tissues; and experiments continually reshape what scientists know and what they choose to ask next. Making progress on the hardest biological questions therefore requires more than increasingly capable models of individual datasets or tasks. It requires systems that can connect knowledge across scale and modalities, reason about experiments and evidence, and…",
+      "summary": "Biology doesn't operate in silos, and neither should the AI representation of it. Quine is an early-stage research effort to create a multimodal world model of biology. By connecting insights across biological scales and modalities, Quine…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.81,
+          "rationale": [
+            "research",
+            "science",
+            "dataset"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "multimodal"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c30943c71111714d",
+      "date": "2026-10-04",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
+      "url": "https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc",
+      "publishedAt": "2026-10-02T06:40:53.000Z",
+      "content": "Last call for regular tickets for AI Engineer NYC ! See you in 2 weeks! As an exclusive for Latent Space subscribers, the first 30 of you can take a 30% off code if it helps (for new tickets only, no refunds). Pi is often mentioned in the same breath as OpenClaw, as we did earlier this year : but today is time for the increasingly well regarded Earendil , which Pi joined, to have its day in the sun, with both Pi 1.0 and Pi Durable hitting the front page of HN. Pi 1.0 : Codemode (native support for MCP, Jev and image models) Extension support for virtual models Deferred tool loading Cache warming for anthropic models Mid-conversation system messages (transcript-aware prompt and tool changes) A new TUI theme Full-screen mode by default Pi Durable ports Pi to TypeScript and externalizes all stateful components of Pi: Crash Survival: Every step is recorded as a checkpointed task. If a process fails or restarts, agents and subagents automatically resume from their last exact state. Portability: It runs anywhere with a JavaScript runtime (like Node, Bun, or Cloudflare) and uses pluggable storage backends (Memory, SQLite, JSONL) and flexible remote or local execution environments. Concurrency: A single harness can run multiple parallel, branching conversations&#8212;such as a main channel and separate threads&#8212;without blocking one another. Extensibility: Developers can bundle custom system prompts, tools, hooks, and durable tasks (e.g., multi-step checkout processes with rollback capabilities) into installable &#8220;Extensions.&#8221; Context Management: Automatic background compaction summarizes older messages to maintain token limits without pausing the agent&#8217;s active work. Multiplayer & State Sync: Application state (like a to-do list) is stored in documents directly alongside the conversation transcripts, allowing multiple users or UIs to connect, watch, and steer the same agent simultaneously. Hot-Swapping: Tool and extension code can be updated dynamical…",
+      "summary": "the minimalist harness goes stable... and TypeScript!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "developer"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "image"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "6e01404d1e0f3360",
+      "date": "2026-10-04",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "In Case You Missed It...",
+      "url": "https://www.chinatalk.media/p/in-case-you-missed-it",
+      "publishedAt": "2026-10-03T11:08:12.000Z",
+      "content": "Is China&#8217;s economy broken? Logan Wright , Jordan&#8217;s former boss (!) and a top expert on Chinese macroeconomics, says the financial system that powered China&#8217;s extraordinary growth is now constraining it, and that the old idea of US-China economic rivalry no longer fits. Brad Setser of CFR and Jordan push back (does Xi actually care? Can China's dominance of exports and supply chains keep the economy growing? Could AI and EVs provide a way out?), but Logan stands his ground. They also get into China's jobs crisis, what could pull China out of its economic funk, and what its slowdown means for the rest of the world. Elsewhere, Lily Ottinger goes to Kyrgyzstan for the World Nomad Games , where she practices Russian and watches k&#246;k-b&#246;r&#252; &#8212; a Central Asian horse game played with a goat carcass &#8212; all the while weighing the gap between China&#8217;s hard power and soft power. Julian Gewirtz and Jordan size up Xi&#8217;s state visit , while Ethan Kessler asks whether Taiwan can actually build the drones it needs ( part 1 , part 2 ). Subscribe now Garrett Berntsen takes on the Pentagon&#8217;s bureaucracy and explains why giving government AI isn&#8217;t enough if the institutions using it don&#8217;t change too. Irene Zhang goes inside Chinese AI discourse , where one DeepSeek researcher&#8217;s vision of an AI-powered future ranges from communist abundance to Cyberpunk 2077, and where Western rhetoric about AI safety and technological containment can sound like an attack on Chinese development, making cooperation harder just as the stakes rise. And on WarTalk, the team confronts the &#8220;Potemkin Pacific&#8221; : a US military trying to cover an enormous ocean with a rather less enormous number of ships. Plus: China&#8217;s robotics boom , China&#8217;s answer to Starlink , and whatever exactly Jordan is doing with Ye . ChinaTalk is a reader-supported publication. To receive new posts and support my work, consider becoming a fr…",
+      "summary": "Best of September!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "publication"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "vision"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
     {
       "id": "99292fee4df3cbcf",
       "date": "2026-10-03",
@@ -214,148 +408,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.44,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "3a0552a71d87698c",
-      "date": "2026-10-03",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google AI Blog",
-      "sourceKey": "official:Google AI Blog",
-      "builderOrOrg": "Google",
-      "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
-      "publishedAt": "2026-09-28T19:00:00.000Z",
-      "content": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "summary": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "vision"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "520627b932bab10b",
-      "date": "2026-10-03",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Introducing Quine: An AI research system designed for the complexity of biology",
-      "url": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/",
-      "publishedAt": "2026-09-29T14:00:02.000Z",
-      "content": "At a glance Quine (opens in new tab) is a research effort to create a multimodal world model of biology and an interactive harness connecting models, scientific tools, literature, and researchers.&nbsp; In collaboration with researchers at the Broad Institute of Harvard and MIT, we have used this system to prioritize compounds predicted to drive therapeutic tumor-state shifts and validated several top-ranked candidates across multiple wet-lab assays.&nbsp; The Quine Fellows program (opens in new tab) will give a cohort of scientists access to the system and an opportunity to accelerate their own research and provide scientific feedback.&nbsp;&nbsp; Quine is experimental research technology intended only for research, not clinical or medical use, and its outputs may be incomplete or inaccurate and require review by qualified researchers and appropriate scientific and experimental validation. As the technology matures, we expect to expand access through products like Microsoft Discovery (opens in new tab) . For more than two decades, Microsoft Research has worked at the intersection of computation and biology. Our research has spanned immunology, virology, genomics, biomedical imaging, cell biology, and protein engineering. That work has produced foundational methods, new science, and technology that reached the clinic, from rare and infectious disease diagnosis to cancer biomarker detection. Across that work, one lesson has become increasingly clear: biology does not divide itself into the neat boundaries our models and tools often do. Genes influence proteins; proteins interact within cells; cells organize into tissues; and experiments continually reshape what scientists know and what they choose to ask next. Making progress on the hardest biological questions therefore requires more than increasingly capable models of individual datasets or tasks. It requires systems that can connect knowledge across scale and modalities, reason about experiments and evidence, and…",
-      "summary": "Biology doesn't operate in silos, and neither should the AI representation of it. Quine is an early-stage research effort to create a multimodal world model of biology. By connecting insights across biological scales and modalities, Quine…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.81,
-          "rationale": [
-            "research",
-            "science",
-            "dataset"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "multimodal"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "c30943c71111714d",
-      "date": "2026-10-03",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
-      "url": "https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc",
-      "publishedAt": "2026-10-02T06:40:53.000Z",
-      "content": "Last call for regular tickets for AI Engineer NYC ! See you in 2 weeks! As an exclusive for Latent Space subscribers, the first 30 of you can take a 30% off code if it helps (for new tickets only, no refunds). Pi is often mentioned in the same breath as OpenClaw, as we did earlier this year : but today is time for the increasingly well regarded Earendil , which Pi joined, to have its day in the sun, with both Pi 1.0 and Pi Durable hitting the front page of HN. Pi 1.0 : Codemode (native support for MCP, Jev and image models) Extension support for virtual models Deferred tool loading Cache warming for anthropic models Mid-conversation system messages (transcript-aware prompt and tool changes) A new TUI theme Full-screen mode by default Pi Durable ports Pi to TypeScript and externalizes all stateful components of Pi: Crash Survival: Every step is recorded as a checkpointed task. If a process fails or restarts, agents and subagents automatically resume from their last exact state. Portability: It runs anywhere with a JavaScript runtime (like Node, Bun, or Cloudflare) and uses pluggable storage backends (Memory, SQLite, JSONL) and flexible remote or local execution environments. Concurrency: A single harness can run multiple parallel, branching conversations&#8212;such as a main channel and separate threads&#8212;without blocking one another. Extensibility: Developers can bundle custom system prompts, tools, hooks, and durable tasks (e.g., multi-step checkout processes with rollback capabilities) into installable &#8220;Extensions.&#8221; Context Management: Automatic background compaction summarizes older messages to maintain token limits without pausing the agent&#8217;s active work. Multiplayer & State Sync: Application state (like a to-do list) is stored in documents directly alongside the conversation transcripts, allowing multiple users or UIs to connect, watch, and steer the same agent simultaneously. Hot-Swapping: Tool and extension code can be updated dynamical…",
-      "summary": "the minimalist harness goes stable... and TypeScript!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "code",
-            "developer"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "image"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -2244,43 +2296,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.55,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "102858015e9aab94",
-      "date": "2026-09-05",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:garrytan",
-      "builderOrOrg": "Garry Tan",
-      "title": "Grok images quite impressive tbh https://t.co/iMKlxRd4BD",
-      "url": "https://x.com/garrytan/status/2095714576784617833",
-      "publishedAt": "2026-09-04T03:24:26.000Z",
-      "content": "Grok images quite impressive tbh https://t.co/iMKlxRd4BD",
-      "summary": "Grok images quite impressive tbh https://t.co/iMKlxRd4BD",
-      "regionTags": [],
-      "metrics": {
-        "likes": 12,
-        "retweets": 0,
-        "replies": 2
-      },
-      "topics": [
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "image"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.59,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.49,
       "whyThisMatters": ""
     }
   ]

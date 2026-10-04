@@ -1,8 +1,94 @@
 {
-  "generatedAt": "2026-10-03T06:39:45.951Z",
+  "generatedAt": "2026-10-04T00:31:02.048Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
+    {
+      "id": "230184d1faa8803d",
+      "date": "2026-10-04",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "No Priors",
+      "sourceKey": "podcast:No Priors",
+      "builderOrOrg": "No Priors",
+      "title": "Frontier Chips for Frontier AI Labs, with Walter Goodwin, Founder/CEO of Fractile",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "publishedAt": "2026-10-02T10:00:00.000Z",
+      "content": "Speaker 1 | 00:00 - 00:30 Right now, we're trying to build a single chip. If you crack open an NVIDIA system, it has anywhere between kind of six and nine custom chips all built by NVIDIA to come together to build something that is really, really potent. So there's already a gap there. You know, it'd be great to be productive enough that we could start to build our own responses in that same kind of way. This idea of being able to have at any given moment a kind of rolling frontier of bets that you hope are deeply aligned in which you're ready to trigger the ramp of, this is a huge advantage if you can kind of build that machine and build that engine. Speaker 1 | 00:30 - 00:39 It's equivalent of the frontier model for the chip space is if you can just find a way to structurally carve out a three to six months advantage, you will be winning all of those deployments. Speaker 2 | 00:46 - 01:16 Hi, listeners. Welcome back to No Priors. Today, I'm here with Walter Goodwin, founder and CEO of full stack AI chip company, Fractile. We talk about what it means to be full stack as a company, the technical bets they're making, why he's so focused on memory bandwidth, his predictions for frontier model architectures in the future, and the structure of the chip market at the frontier today and tomorrow amongst NVIDIA, AMD, internal efforts, and this new class of accelerators. Welcome, Walter. Speaker 2 | 01:16 - 01:18 Walter, thanks so much for doing this. Speaker 1 | 01:18 - 01:19 Very good to be here, Sarith. Speaker 2 | 01:19 - 01:24 You started this incredibly interesting company called Fractal. Can you give us a overview of what you guys do? Speaker 1 | 01:24 - 01:39 Fractal is a chip company. We build very, very fast inference chips for the world's largest models. This sort of bet on speed is something which we've had right from the outset. Started the company in summer of twenty twenty two. And I think at the time, we were starting to see two things. Speaker 1 | 01:39 - 02:21 You know? One was obviously the arrival of foundation models trained on the Internet and generalizing across everything. And the other was, you know, a few kinda wise people saying, you know, we need to find a way to pour more compute into these models at test time. We need to find a way to take what we had for kind of alpha go where you have a capable neural network, but then it becomes superhuman as you roll it out at scale and bring that to kind of language modeling, for example. And so our big pursuit over the past four years has been to find a way to build chips that will allow for kinda simultaneously taking these huge models and running them much, much, much faster than the chips of today, but do that in a way that kind of scales. Speaker 1 | 02:21 - 02:29 So scales to models beyond the frontier today, scales to extraordinarily long contexts. And so that's the the mission that we've been on. Speaker 2 | 02:29 - 02:41 It's become a much more interesting chip landscape in the four years since you started the company. Where would you place yourself in the overall GPU and accelerator landscape for inference? Speaker 1 | 02:41 - 02:59 Yeah. It's a... There's a kind of extraordinary zoo now of options available. And if you look across this kind of entire space of kind of AI a six, one of the things that I think is very striking is there's a lot of relatively identikit chips out there. And this is kind of a structural... Speaker 1 | 02:59 - 04:11 It's a kind of structural industry property where if you look especially across kind of hyperscaler efforts and, you know, Google kinda kicked this off with the TPU more than ten years ago, You see this paradigm where although there are a number of kind of proprietary internal chips, you know, Google with the TPU, Meta with MTIA, Microsoft with Maya, OpenAI now with Jalapeno, These chips that are ultimately developed and delivered in partnership with kind of a relatively small number of what we might call ASIC houses,…",
+      "summary": "Speaker 1 | 00:00 - 00:30 Right now, we're trying to build a single chip. If you crack open an NVIDIA system, it has anywhere between kind of six and nine custom chips all built by NVIDIA to come together to build something that is really,…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "deployment"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.6,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.49,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "ae94de9e676257b0",
+      "date": "2026-10-04",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google DeepMind Blog",
+      "sourceKey": "official:Google DeepMind Blog",
+      "builderOrOrg": "Google DeepMind",
+      "title": "Introducing SynthID Bio",
+      "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+      "publishedAt": "2026-09-30T15:03:07.000Z",
+      "content": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
+      "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "serving"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
     {
       "id": "5d94b23123a81b3f",
       "date": "2026-10-03",
@@ -55,41 +141,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "ae94de9e676257b0",
-      "date": "2026-10-03",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google DeepMind Blog",
-      "sourceKey": "official:Google DeepMind Blog",
-      "builderOrOrg": "Google DeepMind",
-      "title": "Introducing SynthID Bio",
-      "url": "https://deepmind.google/blog/introducing-synthid-bio/",
-      "publishedAt": "2026-09-30T15:03:07.000Z",
-      "content": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
-      "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "serving"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     },
     {
@@ -2336,41 +2387,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "c8edc9640b13fb31",
-      "date": "2026-07-29",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Together AI Blog",
-      "sourceKey": "official:Together AI Blog",
-      "builderOrOrg": "Together AI",
-      "title": "The production platform for open-weight AI inference",
-      "url": "https://www.together.ai/blog/the-production-platform-for-open-weight-ai-inference",
-      "publishedAt": "2026-07-23T00:00:00.000Z",
-      "content": "Run open models in production with full control over performance, cost, and quality. Deploy in minutes, roll out safely, and scale to your SLOs.",
-      "summary": "Run open models in production with full control over performance, cost, and quality. Deploy in minutes, roll out safely, and scale to your SLOs.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     }
   ]
