@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-10-06T06:37:05.071Z",
+  "generatedAt": "2026-10-06T07:40:09.864Z",
   "slug": "coding",
   "label": "Coding",
   "items": [
     {
-      "id": "38769a7df37ee194",
+      "id": "4ac17845b6777472",
       "date": "2026-10-06",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:thsottiaux",
-      "builderOrOrg": "Thibault Sottiaux",
-      "title": "Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and rel…",
-      "url": "https://x.com/thsottiaux/status/2106845241357824205",
-      "publishedAt": "2026-10-04T20:33:43.000Z",
-      "content": "Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and relevant for most codex/work users or ship a full reset. Let the improvements begin. https://t.co/0oFXZ7LY5T",
-      "summary": "Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and relevant for most codex/work users or ship a full reset. Let the improvements begin. https://t.co/0oFXZ7LY5T",
+      "sourceKey": "x:trq212",
+      "builderOrOrg": "Thariq",
+      "title": "a big advantage of doing planning like this is that it’s a lot more token efficient compared to…",
+      "url": "https://x.com/trq212/status/2107294499282293017",
+      "publishedAt": "2026-10-06T02:18:54.000Z",
+      "content": "a big advantage of doing planning like this is that it’s a lot more token efficient compared to raw HTML- the model doesn’t need to remake the components or logic to do common things like state machines, diagrams, code snippets, etc. https://t.co/z2LsVJ9D3W",
+      "summary": "a big advantage of doing planning like this is that it’s a lot more token efficient compared to raw HTML- the model doesn’t need to remake the components or logic to do common things like state machines, diagrams, code…",
       "regionTags": [],
       "metrics": {
-        "likes": 20724,
-        "retweets": 1140,
-        "replies": 3210
+        "likes": 898,
+        "retweets": 29,
+        "replies": 58
       },
       "topics": [
         {
@@ -35,92 +35,119 @@
       ],
       "section": "Builders",
       "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d8eab5c2fa351dac",
-      "date": "2026-10-06",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:petergyang",
-      "builderOrOrg": "Peter Yang",
-      "title": "I'm glad OpenAI is focusing on simplifying ChatGPT because it has become a mess (sorry). Here's…",
-      "url": "https://x.com/petergyang/status/2106926956554195018",
-      "publishedAt": "2026-10-05T01:58:25.000Z",
-      "content": "I'm glad OpenAI is focusing on simplifying ChatGPT because it has become a mess (sorry). Here's a clip from my dots review about this. What I'd simplify: 1. Work vs. Codex 2. Spaces vs. Pages vs. Sites 3. The model and effort picker Probably alot more My hot take is that the whole Work launch was a mistake. Just like Claude folded Cowork back into Chat, I don't think Work needs its own brand. Anyway, excited to see my primary harness get much better. 📌 See my full dots review here: https://t.c…",
-      "summary": "I'm glad OpenAI is focusing on simplifying ChatGPT because it has become a mess (sorry). Here's a clip from my dots review about this. What I'd simplify: 1. Work vs. Codex 2. Spaces vs. Pages vs. Sites 3. The model and…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 67,
-        "retweets": 2,
-        "replies": 22
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.56,
+      "digestScore": 0.8,
       "whyThisMatters": ""
     },
     {
-      "id": "3eb0f3c7a35be704",
+      "id": "243eb5032fc25792",
       "date": "2026-10-06",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
       "sourceKey": "x:rauchg",
       "builderOrOrg": "Guillermo Rauch",
-      "title": "DHH is fundamentally right about Rust. For context, Vercel has been undergoing a Rust-ification…",
-      "url": "https://x.com/rauchg/status/2106863842450133114",
-      "publishedAt": "2026-10-04T21:47:38.000Z",
-      "content": "DHH is fundamentally right about Rust. For context, Vercel has been undergoing a Rust-ification (carcinization, technically 🦀) for a while. One of the first projects we migrated was Turborepo, from Go to Rust¹. The migration completed, but the RoI was actually quite controversial internally. While Rust was in our eyes better for low-level OS access, something crucial for a build system like Turbo, the human migration costs were very sustantive. Go is very fast. It's beautifully designed. It's…",
-      "summary": "DHH is fundamentally right about Rust. For context, Vercel has been undergoing a Rust-ification (carcinization, technically 🦀) for a while. One of the first projects we migrated was Turborepo, from Go to Rust¹. The mig…",
+      "title": "Introducing gdp-ts: Ghosts of Departed Proofs for TypeScript. gdp-ts is a library, linter and A…",
+      "url": "https://x.com/rauchg/status/2107119811444748555",
+      "publishedAt": "2026-10-05T14:44:46.000Z",
+      "content": "Introducing gdp-ts: Ghosts of Departed Proofs for TypeScript. gdp-ts is a library, linter and AI skill for safer API design. Under this contract, sensitive functions require 'proofs' that the caller performed an authorization check. The typechecker verifies these proofs at compile time, preventing your team and agents from shipping catastrophic security (and other kinds of) bugs. While these patterns have existed for quite some time, especially in ecosystems like Haskell, ① human code review an…",
+      "summary": "Introducing gdp-ts: Ghosts of Departed Proofs for TypeScript. gdp-ts is a library, linter and AI skill for safer API design. Under this contract, sensitive functions require 'proofs' that the caller performed an authori…",
       "regionTags": [],
       "metrics": {
-        "likes": 1918,
-        "retweets": 87,
-        "replies": 118
+        "likes": 2176,
+        "retweets": 107,
+        "replies": 152
       },
       "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
         {
           "slug": "coding",
           "label": "Coding",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "repo"
+            "code"
           ],
           "score": 1
         },
         {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
+          "slug": "enterprise",
+          "label": "Business AI",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "gui"
+            "security"
           ],
           "score": 1
         }
       ],
       "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
+      "importanceScore": 0.92,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.56,
+      "digestScore": 0.95,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c5cc39f6e078b122",
+      "date": "2026-10-06",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:garrytan",
+      "builderOrOrg": "Garry Tan",
+      "title": "Harnesses from labs have an incentive to burn tokens, which means harnesses from startups have…",
+      "url": "https://x.com/garrytan/status/2107129959550685660",
+      "publishedAt": "2026-10-05T15:25:05.000Z",
+      "content": "Harnesses from labs have an incentive to burn tokens, which means harnesses from startups have a real utility, like how Grep can automatically swap token burn into deterministic tested code that is repeatable just by observing agent use https://t.co/a17UIpSAAW",
+      "summary": "Harnesses from labs have an incentive to burn tokens, which means harnesses from startups have a real utility, like how Grep can automatically swap token burn into deterministic tested code that is repeatable just by ob…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 512,
+        "retweets": 41,
+        "replies": 91
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "serving"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
       "whyThisMatters": ""
     },
     {
@@ -207,7 +234,7 @@
       "section": "Chinese Models",
       "importanceScore": 0.87,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.67,
       "whyThisMatters": ""
     },
@@ -262,9 +289,9 @@
       ],
       "section": "Chinese Models",
       "importanceScore": 0.69,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.8,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.55,
       "whyThisMatters": ""
     },
     {
@@ -525,6 +552,126 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "38769a7df37ee194",
+      "date": "2026-10-06",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:thsottiaux",
+      "builderOrOrg": "Thibault Sottiaux",
+      "title": "Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and rel…",
+      "url": "https://x.com/thsottiaux/status/2106845241357824205",
+      "publishedAt": "2026-10-04T20:33:43.000Z",
+      "content": "Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and relevant for most codex/work users or ship a full reset. Let the improvements begin. https://t.co/0oFXZ7LY5T",
+      "summary": "Over the next 28 days, each day we’ll either ship one thing that is a clear improvement and relevant for most codex/work users or ship a full reset. Let the improvements begin. https://t.co/0oFXZ7LY5T",
+      "regionTags": [],
+      "metrics": {
+        "likes": 20724,
+        "retweets": 1140,
+        "replies": 3210
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d8eab5c2fa351dac",
+      "date": "2026-10-06",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:petergyang",
+      "builderOrOrg": "Peter Yang",
+      "title": "I'm glad OpenAI is focusing on simplifying ChatGPT because it has become a mess (sorry). Here's…",
+      "url": "https://x.com/petergyang/status/2106926956554195018",
+      "publishedAt": "2026-10-05T01:58:25.000Z",
+      "content": "I'm glad OpenAI is focusing on simplifying ChatGPT because it has become a mess (sorry). Here's a clip from my dots review about this. What I'd simplify: 1. Work vs. Codex 2. Spaces vs. Pages vs. Sites 3. The model and effort picker Probably alot more My hot take is that the whole Work launch was a mistake. Just like Claude folded Cowork back into Chat, I don't think Work needs its own brand. Anyway, excited to see my primary harness get much better. 📌 See my full dots review here: https://t.c…",
+      "summary": "I'm glad OpenAI is focusing on simplifying ChatGPT because it has become a mess (sorry). Here's a clip from my dots review about this. What I'd simplify: 1. Work vs. Codex 2. Spaces vs. Pages vs. Sites 3. The model and…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 67,
+        "retweets": 2,
+        "replies": 22
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "3eb0f3c7a35be704",
+      "date": "2026-10-06",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "DHH is fundamentally right about Rust. For context, Vercel has been undergoing a Rust-ification…",
+      "url": "https://x.com/rauchg/status/2106863842450133114",
+      "publishedAt": "2026-10-04T21:47:38.000Z",
+      "content": "DHH is fundamentally right about Rust. For context, Vercel has been undergoing a Rust-ification (carcinization, technically 🦀) for a while. One of the first projects we migrated was Turborepo, from Go to Rust¹. The migration completed, but the RoI was actually quite controversial internally. While Rust was in our eyes better for low-level OS access, something crucial for a build system like Turbo, the human migration costs were very sustantive. Go is very fast. It's beautifully designed. It's…",
+      "summary": "DHH is fundamentally right about Rust. For context, Vercel has been undergoing a Rust-ification (carcinization, technically 🦀) for a while. One of the first projects we migrated was Turborepo, from Go to Rust¹. The mig…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 1918,
+        "retweets": 87,
+        "replies": 118
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
@@ -2217,133 +2364,6 @@
           "confidence": 0.5700000000000001,
           "rationale": [
             "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "7e379daf38790680",
-      "date": "2026-09-29",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Are you a Codex Original?",
-      "url": "https://openai.com/form/codex-originals",
-      "publishedAt": "2026-09-28T00:00:00.000Z",
-      "content": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
-      "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and pro…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d78c8994622f4893",
-      "date": "2026-09-29",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:thsottiaux",
-      "builderOrOrg": "Thibault Sottiaux",
-      "title": "Code freeze isn’t really a thing anymore before releases and in the future the code might even…",
-      "url": "https://x.com/thsottiaux/status/2104108167806550046",
-      "publishedAt": "2026-09-27T07:17:34.000Z",
-      "content": "Code freeze isn’t really a thing anymore before releases and in the future the code might even be generated online per request according to some constraints.",
-      "summary": "Code freeze isn’t really a thing anymore before releases and in the future the code might even be generated online per request according to some constraints.",
-      "regionTags": [],
-      "metrics": {
-        "likes": 6051,
-        "retweets": 165,
-        "replies": 779
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "fa7504e0fb335db4",
-      "date": "2026-09-29",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:steipete",
-      "builderOrOrg": "Peter Steinberger",
-      "title": "Same. @useblacksmith has been an amazing sponsor but we need to distribute the load. My plan is…",
-      "url": "https://x.com/steipete/status/2104305554760114488",
-      "publishedAt": "2026-09-27T20:21:55.000Z",
-      "content": "Same. @useblacksmith has been an amazing sponsor but we need to distribute the load. My plan is to let codex decide which tests actually need to run and drastically nix CI and run tests hourly. https://t.co/Yo4PYOT2cI",
-      "summary": "Same. @useblacksmith has been an amazing sponsor but we need to distribute the load. My plan is to let codex decide which tests actually need to run and drastically nix CI and run tests hourly. https://t.co/Yo4PYOT2cI",
-      "regionTags": [],
-      "metrics": {
-        "likes": 571,
-        "retweets": 14,
-        "replies": 90
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
           ],
           "score": 1
         }

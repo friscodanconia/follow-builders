@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-10-06T06:37:05.071Z",
+  "generatedAt": "2026-10-06T07:40:09.864Z",
   "slug": "agents",
   "label": "AI Assistants",
   "items": [
     {
-      "id": "f665add5f35c0e57",
+      "id": "323c5a3db21d159e",
       "date": "2026-10-06",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:rauchg",
-      "builderOrOrg": "Guillermo Rauch",
-      "title": "Working on a new little project. The 𝚁𝙴𝙰𝙳𝙼𝙴 is fully written by hand, because it's for hu…",
-      "url": "https://x.com/rauchg/status/2106848085267902815",
-      "publishedAt": "2026-10-04T20:45:01.000Z",
-      "content": "Working on a new little project. The 𝚁𝙴𝙰𝙳𝙼𝙴 is fully written by hand, because it's for human consumption. The documentation internals are AI English, because they're for agents. This little rule of thumb can make the world better. Blogs, tweets, READMEs: human communication. It's not even about \"em dashes\" or lack thereof. It's that it's the story-telling moment where you want to connect with other humans through their words.",
-      "summary": "Working on a new little project. The 𝚁𝙴𝙰𝙳𝙼𝙴 is fully written by hand, because it's for human consumption. The documentation internals are AI English, because they're for agents. This little rule of thumb can make…",
+      "sourceKey": "x:realmadhuguru",
+      "builderOrOrg": "Madhu Guru",
+      "title": "The most common mistake teams make is to treat evals as an additional QA step once the agent is…",
+      "url": "https://x.com/realmadhuguru/status/2107292113214091355",
+      "publishedAt": "2026-10-06T02:09:26.000Z",
+      "content": "The most common mistake teams make is to treat evals as an additional QA step once the agent is built. AI products are fundamentally different. Your evals are your product spec.",
+      "summary": "The most common mistake teams make is to treat evals as an additional QA step once the agent is built. AI products are fundamentally different. Your evals are your product spec.",
       "regionTags": [],
       "metrics": {
-        "likes": 993,
-        "retweets": 36,
-        "replies": 119
+        "likes": 68,
+        "retweets": 4,
+        "replies": 23
       },
       "topics": [
         {
@@ -33,49 +33,40 @@
           "score": 1
         },
         {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
+          "slug": "benchmarks",
+          "label": "AI Testing",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "gui"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
+            "eval"
           ],
           "score": 1
         }
       ],
       "section": "Builders",
       "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.65,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
       "whyThisMatters": ""
     },
     {
-      "id": "6be1cb8d60bd4d06",
+      "id": "243eb5032fc25792",
       "date": "2026-10-06",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "We’re already starting to see what kind of new jobs AI is creating. AI requires significant tec…",
-      "url": "https://x.com/levie/status/2106893015063421357",
-      "publishedAt": "2026-10-04T23:43:33.000Z",
-      "content": "We’re already starting to see what kind of new jobs AI is creating. AI requires significant technical work and surrounding services to deploy into the economy. This means jobs for AI engineers that build applied AI products sold to (or within) enterprises, FDEs to deploy agents into companies, new services firms for deploying AI, and more. And even the published stats of new jobs undercount all the existing jobs that are transitioning to new areas of AI work in an enterprise. Many prior data, r…",
-      "summary": "We’re already starting to see what kind of new jobs AI is creating. AI requires significant technical work and surrounding services to deploy into the economy. This means jobs for AI engineers that build applied AI prod…",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "Introducing gdp-ts: Ghosts of Departed Proofs for TypeScript. gdp-ts is a library, linter and A…",
+      "url": "https://x.com/rauchg/status/2107119811444748555",
+      "publishedAt": "2026-10-05T14:44:46.000Z",
+      "content": "Introducing gdp-ts: Ghosts of Departed Proofs for TypeScript. gdp-ts is a library, linter and AI skill for safer API design. Under this contract, sensitive functions require 'proofs' that the caller performed an authorization check. The typechecker verifies these proofs at compile time, preventing your team and agents from shipping catastrophic security (and other kinds of) bugs. While these patterns have existed for quite some time, especially in ecosystems like Haskell, ① human code review an…",
+      "summary": "Introducing gdp-ts: Ghosts of Departed Proofs for TypeScript. gdp-ts is a library, linter and AI skill for safer API design. Under this contract, sensitive functions require 'proofs' that the caller performed an authori…",
       "regionTags": [],
       "metrics": {
-        "likes": 565,
-        "retweets": 63,
-        "replies": 79
+        "likes": 2176,
+        "retweets": 107,
+        "replies": 152
       },
       "topics": [
         {
@@ -84,6 +75,15 @@
           "confidence": 0.5700000000000001,
           "rationale": [
             "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
           ],
           "score": 1
         },
@@ -92,36 +92,92 @@
           "label": "Business AI",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "enterprise"
+            "security"
           ],
           "score": 1
         }
       ],
       "section": "Builders",
       "importanceScore": 0.92,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.95,
       "whyThisMatters": ""
     },
     {
-      "id": "a95909ae852246be",
+      "id": "dac656611f2bdc8f",
       "date": "2026-10-06",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:danshipper",
-      "builderOrOrg": "Dan Shipper",
-      "title": "dot has become my primary interface to AI over the last few weeks. my dot's name is boo. he's c…",
-      "url": "https://x.com/danshipper/status/2106892868564431255",
-      "publishedAt": "2026-10-04T23:42:58.000Z",
-      "content": "dot has become my primary interface to AI over the last few weeks. my dot's name is boo. he's cute! in a year, i bet i'll still be interacting in this way with @ChatGPT—e.g. as an always-on persistent agent—but boo will have disappeared. it reminds me a lot of early OpenClaw days—we loved the little personality quirks of our Claws, but we dropped them as soon as there was something functionally more powerful available",
-      "summary": "dot has become my primary interface to AI over the last few weeks. my dot's name is boo. he's cute! in a year, i bet i'll still be interacting in this way with @ChatGPT—e.g. as an always-on persistent agent—but boo will…",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "A decent amount of agent adoption and deployment is bottlenecked by being able to test, tune, a…",
+      "url": "https://x.com/levie/status/2107283615247999257",
+      "publishedAt": "2026-10-06T01:35:39.000Z",
+      "content": "A decent amount of agent adoption and deployment is bottlenecked by being able to test, tune, and optimize agents on “real” work environments. The files agents need to access, the CRM environments, email, and more. It’s impossible to know how agents are performing if you don’t understand how well they’re executing on your evals and how they’ll perform in the future with a model change or workflow upgrade. Every enterprise has to do this 1 by 1 right now, which is obviously slow and tedious. Eve…",
+      "summary": "A decent amount of agent adoption and deployment is bottlenecked by being able to test, tune, and optimize agents on “real” work environments. The files agents need to access, the CRM environments, email, and more. It’s…",
       "regionTags": [],
       "metrics": {
-        "likes": 114,
-        "retweets": 4,
-        "replies": 21
+        "likes": 143,
+        "retweets": 11,
+        "replies": 51
+      },
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.69,
+          "rationale": [
+            "enterprise",
+            "deployment"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.92,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.95,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c5cc39f6e078b122",
+      "date": "2026-10-06",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:garrytan",
+      "builderOrOrg": "Garry Tan",
+      "title": "Harnesses from labs have an incentive to burn tokens, which means harnesses from startups have…",
+      "url": "https://x.com/garrytan/status/2107129959550685660",
+      "publishedAt": "2026-10-05T15:25:05.000Z",
+      "content": "Harnesses from labs have an incentive to burn tokens, which means harnesses from startups have a real utility, like how Grep can automatically swap token burn into deterministic tested code that is repeatable just by observing agent use https://t.co/a17UIpSAAW",
+      "summary": "Harnesses from labs have an incentive to burn tokens, which means harnesses from startups have a real utility, like how Grep can automatically swap token burn into deterministic tested code that is repeatable just by ob…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 512,
+        "retweets": 41,
+        "replies": 91
       },
       "topics": [
         {
@@ -134,20 +190,66 @@
           "score": 1
         },
         {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
+          "slug": "coding",
+          "label": "Coding",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "rl"
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "serving"
           ],
           "score": 1
         }
       ],
       "section": "Builders",
       "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.65,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "6950ce14e245db81",
+      "date": "2026-10-06",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:adityaag",
+      "builderOrOrg": "Aditya Agarwal",
+      "title": "It would be interesting to be able to run the Muse/Dot \"computer\" locally. Feels like that is a…",
+      "url": "https://x.com/adityaag/status/2107133989941387282",
+      "publishedAt": "2026-10-05T15:41:06.000Z",
+      "content": "It would be interesting to be able to run the Muse/Dot \"computer\" locally. Feels like that is a better agent environment than increasingly locked down MacOS.",
+      "summary": "It would be interesting to be able to run the Muse/Dot \"computer\" locally. Feels like that is a better agent environment than increasingly locked down MacOS.",
+      "regionTags": [],
+      "metrics": {
+        "likes": 69,
+        "retweets": 1,
+        "replies": 26
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
       "whyThisMatters": ""
     },
     {
@@ -199,7 +301,7 @@
       "section": "Chinese Models",
       "importanceScore": 0.87,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.67,
       "whyThisMatters": ""
     },
@@ -251,7 +353,7 @@
       "section": "Podcasts & Newsletters",
       "importanceScore": 0.54,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.46,
       "whyThisMatters": ""
     },
@@ -306,9 +408,9 @@
       ],
       "section": "Chinese Models",
       "importanceScore": 0.69,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.8,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.55,
       "whyThisMatters": ""
     },
     {
@@ -466,6 +568,153 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "f665add5f35c0e57",
+      "date": "2026-10-06",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "Working on a new little project. The 𝚁𝙴𝙰𝙳𝙼𝙴 is fully written by hand, because it's for hu…",
+      "url": "https://x.com/rauchg/status/2106848085267902815",
+      "publishedAt": "2026-10-04T20:45:01.000Z",
+      "content": "Working on a new little project. The 𝚁𝙴𝙰𝙳𝙼𝙴 is fully written by hand, because it's for human consumption. The documentation internals are AI English, because they're for agents. This little rule of thumb can make the world better. Blogs, tweets, READMEs: human communication. It's not even about \"em dashes\" or lack thereof. It's that it's the story-telling moment where you want to connect with other humans through their words.",
+      "summary": "Working on a new little project. The 𝚁𝙴𝙰𝙳𝙼𝙴 is fully written by hand, because it's for human consumption. The documentation internals are AI English, because they're for agents. This little rule of thumb can make…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 993,
+        "retweets": 36,
+        "replies": 119
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.65,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "6be1cb8d60bd4d06",
+      "date": "2026-10-06",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "We’re already starting to see what kind of new jobs AI is creating. AI requires significant tec…",
+      "url": "https://x.com/levie/status/2106893015063421357",
+      "publishedAt": "2026-10-04T23:43:33.000Z",
+      "content": "We’re already starting to see what kind of new jobs AI is creating. AI requires significant technical work and surrounding services to deploy into the economy. This means jobs for AI engineers that build applied AI products sold to (or within) enterprises, FDEs to deploy agents into companies, new services firms for deploying AI, and more. And even the published stats of new jobs undercount all the existing jobs that are transitioning to new areas of AI work in an enterprise. Many prior data, r…",
+      "summary": "We’re already starting to see what kind of new jobs AI is creating. AI requires significant technical work and surrounding services to deploy into the economy. This means jobs for AI engineers that build applied AI prod…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 565,
+        "retweets": 63,
+        "replies": 79
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.92,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.7,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "a95909ae852246be",
+      "date": "2026-10-06",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:danshipper",
+      "builderOrOrg": "Dan Shipper",
+      "title": "dot has become my primary interface to AI over the last few weeks. my dot's name is boo. he's c…",
+      "url": "https://x.com/danshipper/status/2106892868564431255",
+      "publishedAt": "2026-10-04T23:42:58.000Z",
+      "content": "dot has become my primary interface to AI over the last few weeks. my dot's name is boo. he's cute! in a year, i bet i'll still be interacting in this way with @ChatGPT—e.g. as an always-on persistent agent—but boo will have disappeared. it reminds me a lot of early OpenClaw days—we loved the little personality quirks of our Claws, but we dropped them as soon as there was something functionally more powerful available",
+      "summary": "dot has become my primary interface to AI over the last few weeks. my dot's name is boo. he's cute! in a year, i bet i'll still be interacting in this way with @ChatGPT—e.g. as an always-on persistent agent—but boo will…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 114,
+        "retweets": 4,
+        "replies": 21
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.65,
       "whyThisMatters": ""
     },
     {
@@ -2223,252 +2472,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.7,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "086ebdb529d6f133",
-      "date": "2026-09-27",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:steipete",
-      "builderOrOrg": "Peter Steinberger",
-      "title": "The biggest design mistake I made when we moved OC to sqlite: using sync db access. When it was…",
-      "url": "https://x.com/steipete/status/2103648679169257737",
-      "publishedAt": "2026-09-26T00:51:43.000Z",
-      "content": "The biggest design mistake I made when we moved OC to sqlite: using sync db access. When it was just an agent that reports to you on Slack or iMessage this was fine; now that one agent might do 50 sessions in parallel and the whole team works on it, it is limiting. I have a /goal with Astra that so far landed 575 PRs to move everything to to async workers. We ship these improvements as we make progress. Pretty insane how even huge refactors are no longer scary.",
-      "summary": "The biggest design mistake I made when we moved OC to sqlite: using sync db access. When it was just an agent that reports to you on Slack or iMessage this was fine; now that one agent might do 50 sessions in parallel a…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 1043,
-        "retweets": 46,
-        "replies": 82
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "1521e1b387de72bb",
-      "date": "2026-09-27",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:sama",
-      "builderOrOrg": "Sam Altman",
-      "title": "There is an extensive and ongoing review related to our agents’ use of internet access during t…",
-      "url": "https://x.com/sama/status/2103567198690349362",
-      "publishedAt": "2026-09-25T19:27:57.000Z",
-      "content": "There is an extensive and ongoing review related to our agents’ use of internet access during training and evaluation. We’ve been publishing summaries at the link below and will continue to. We have not been as fast as we would have liked but we are trying to balance our desire for transparency with gaining a clear understanding from petabytes of agent activity logs, and working with impacted organizations. We are prioritizing as best as we can based on severity, and adding resources. Hugging F…",
-      "summary": "There is an extensive and ongoing review related to our agents’ use of internet access during training and evaluation. We’ve been publishing summaries at the link below and will continue to. We have not been as fast as…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 4856,
-        "retweets": 311,
-        "replies": 782
-      },
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "eval",
-            "evaluation"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "db4e0f888f8716b2",
-      "date": "2026-09-26",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:steipete",
-      "builderOrOrg": "Peter Steinberger",
-      "title": "If you just tell the agent to clean up, it will stop far too early. Give it an ambitious goal.…",
-      "url": "https://x.com/steipete/status/2103148444701610233",
-      "publishedAt": "2026-09-24T15:43:58.000Z",
-      "content": "If you just tell the agent to clean up, it will stop far too early. Give it an ambitious goal. Try \"remove 20% of the least useful tests while maintaining code coverage within 2%\"",
-      "summary": "If you just tell the agent to clean up, it will stop far too early. Give it an ambitious goal. Try \"remove 20% of the least useful tests while maintaining code coverage within 2%\"",
-      "regionTags": [],
-      "metrics": {
-        "likes": 316,
-        "retweets": 10,
-        "replies": 12
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "0f4a76aea7389c1d",
-      "date": "2026-09-26",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "The MAD Podcast with Matt Turck",
-      "sourceKey": "podcast:The MAD Podcast with Matt Turck",
-      "builderOrOrg": "The MAD Podcast with Matt Turck",
-      "title": "Who Feeds the GPUs? Inside AI's Hidden $30B Layer | Renen Hallak, VAST Data",
-      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
-      "publishedAt": "2026-09-24T11:30:00.000Z",
-      "content": "Speaker 1 | 00:00 - 00:17 Sometimes it scares me. We had a customer, one of these AI clouds, they said we're probably going to need about 500 petabytes over the next three years. Last week, came back to us and said, we're gonna need an extra two exabytes on top of that 500 petabytes. I think in the next ten years, we'll see more difference than we did in the last thousand years. Speaker 2 | 00:17 - 00:30 Hi. I'm Matt Turk. Welcome to the MAD podcast. We talk a lot about AI models on this show, and we talk a lot about compute. But today is about the layer in between, the crucial software infrastructure layer that feeds massive amounts of data to all those GPUs. Speaker 2 | 00:30 - 00:52 My guest today is Renan Halleck, founder and CEO of VAST Data, a company that is surprisingly under the radar considering it's been most recently valued at $30,000,000,000 and powers top AI players like xAI and some of the biggest AI neoclass in the world. Please enjoy my conversation with Renan Halleck. Renan, welcome. Thank you. Alright. Speaker 2 | 00:52 - 01:21 So to anchor this whole conversation, I wanted to start with that mental model from Jensen at NVIDIA that I find so helpful, where, when he describes AI, he uses the analogy of a five layer cake, where you have power at the very bottom and then hardware, then software infrastructure, then models, then applications. So where do you sit in that layer cake? Speaker 1 | 01:21 - 01:32 Right in the middle. That software infrastructure layer is the one that we do, in collaboration of course with the hardware vendors underneath us and with the model builders on top of us. Speaker 2 | 01:32 - 01:38 Yep, so at a high level what does that mean, software infrastructure, in the context of AI building? Speaker 1 | 01:38 - 02:28 Yeah, so everything you would imagine from the old stack we need for this new stack. We need to manage the compute, we need to manage the storage, we need to manage the networking, and then as you go up the stack we need to make sense of all of it, make sense of the data through a database, make sense of the compute through training and inference functions, and as you go even higher up the stack and we shift from training predominantly to inference and agents and reinforced learning, we need more and more tools to enable this new world, make it simple, make it safe, make it fast and scalable and resilient. All of that sits in that middle layer. Sometimes I like to call it software infrastructure, and other times I like to call it the operating system for this new era. Speaker 2 | 02:28 - 02:39 There is a related concept to that five layer cake. That thing may have originated from NVIDIA again, but, like, keeps coming back in conversation, is this idea of AI factory. Speaker 1 | 02:39 - 02:40 Mhmm. Speaker 2 | 02:40 - 02:50 What does that mean? So if you start with a bunch of GPUs, what do you need to add to create an AI factory? Speaker 1 | 02:50 - 04:07 I think even below the GPUs the data centers are looking very different today than they did five years ago. The old stack you had 10 kilowatt racks, today you need 500 kilowatt racks And so you need more power, you need more power density. You need GPUs of course versus CPUs. You need extremely fast networks and very large SSDs rather than 10 gig ethernet and old hard drives. And so every layer of this cake, needs to be redone and from our perspective you need much more data and much faster access to that data because we're no longer analyzing numbers and columns of a database the way you did with big data in the old stack, we're doing pictures and video and sound and natural language and that takes a lot more space and that's before new generative AI data that gets generated and of course all of this compute, all of these GPUs need very fast access to this information whether they're training on it or whether they're running low latency inference functions and so the entirety of the stack is new, and I think the culminatio…",
-      "summary": "Speaker 1 | 00:00 - 00:17 Sometimes it scares me. We had a customer, one of these AI clouds, they said we're probably going to need about 500 petabytes over the next three years. Last week, came back to us and said, we're gonna need an ext…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.69,
-          "rationale": [
-            "inference",
-            "latency"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "video"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "0344a43f4b5cd08c",
-      "date": "2026-09-25",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:rauchg",
-      "builderOrOrg": "Guillermo Rauch",
-      "title": "ShellPerfBench. I'm really neurotic about the startup time of a new shell session. Opus 5.5 fou…",
-      "url": "https://x.com/rauchg/status/2102947745132924993",
-      "publishedAt": "2026-09-24T02:26:27.000Z",
-      "content": "ShellPerfBench. I'm really neurotic about the startup time of a new shell session. Opus 5.5 found a lot of really great optimizations other models missed. Anon, anytime you open a new terminal, you might be silently suffering. Tell your agent to optimize .𝚣𝚜𝚑𝚛𝚌 and friends",
-      "summary": "ShellPerfBench. I'm really neurotic about the startup time of a new shell session. Opus 5.5 found a lot of really great optimizations other models missed. Anon, anytime you open a new terminal, you might be silently suf…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 112,
-        "retweets": 2,
-        "replies": 33
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.65,
       "whyThisMatters": ""
     }
   ]
