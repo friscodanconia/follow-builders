@@ -1,10 +1,74 @@
 {
-  "generatedAt": "2026-10-03T06:39:45.951Z",
+  "generatedAt": "2026-10-07T07:20:54.563Z",
   "handle": "bcherny",
   "name": "Boris Cherny",
   "itemCount": 50,
-  "latestDate": "2026-10-03",
+  "latestDate": "2026-10-07",
   "items": [
+    {
+      "id": "35da01e600ce69da",
+      "date": "2026-10-07",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:bcherny",
+      "builderOrOrg": "Boris Cherny",
+      "title": "Another example, my actual prompts https://t.co/xOyjaC8xrn",
+      "url": "https://x.com/bcherny/status/2107565497680314831",
+      "publishedAt": "2026-10-06T20:15:45.000Z",
+      "content": "Another example, my actual prompts https://t.co/xOyjaC8xrn",
+      "summary": "Another example, my actual prompts https://t.co/xOyjaC8xrn",
+      "regionTags": [],
+      "metrics": {
+        "likes": 232,
+        "retweets": 7,
+        "replies": 8
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "659edb723f54bd3a",
+      "date": "2026-10-07",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:bcherny",
+      "builderOrOrg": "Boris Cherny",
+      "title": "I am surprised that people are surprised this is how I prompt Claude. Talk to Claude the way yo…",
+      "url": "https://x.com/bcherny/status/2107565388250874193",
+      "publishedAt": "2026-10-06T20:15:19.000Z",
+      "content": "I am surprised that people are surprised this is how I prompt Claude. Talk to Claude the way you would a coworker. There's no secret to prompting. There's no need to be overly scaffolded or prescriptive for most tasks -- give Claude a goal, and it will figure it out. Back in the Sonnet 3.5 days, your prompt mattered a lot. Nowadays, it's much more important to communicate to the model: 1. What you want it to do 2. How much effort you want it to spend 3. How it should verify that it did the righ…",
+      "summary": "I am surprised that people are surprised this is how I prompt Claude. Talk to Claude the way you would a coworker. There's no secret to prompting. There's no need to be overly scaffolded or prescriptive for most tasks -…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 8943,
+        "retweets": 503,
+        "replies": 450
+      },
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
     {
       "id": "ff4a52ae64149d44",
       "date": "2026-10-03",
@@ -1778,81 +1842,6 @@
             "code"
           ],
           "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "ea2d9b3c72186742",
-      "date": "2026-06-25",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:bcherny",
-      "builderOrOrg": "Boris Cherny",
-      "title": "That's it. Point it at a channel, give it a task, and let it work. It's in beta on Slack today…",
-      "url": "https://x.com/bcherny/status/2069474691010707486",
-      "publishedAt": "2026-06-23T17:36:29.000Z",
-      "content": "That's it. Point it at a channel, give it a task, and let it work. It's in beta on Slack today for Claude Enterprise and Team customers. More surfaces coming soon! Learn more: https://t.co/tcvNSCANlf",
-      "summary": "That's it. Point it at a channel, give it a task, and let it work. It's in beta on Slack today for Claude Enterprise and Team customers. More surfaces coming soon! Learn more: https://t.co/tcvNSCANlf",
-      "regionTags": [],
-      "metrics": {
-        "likes": 92,
-        "retweets": 4,
-        "replies": 17
-      },
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.78,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.61,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "0c8eef133230f133",
-      "date": "2026-06-25",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:bcherny",
-      "builderOrOrg": "Boris Cherny",
-      "title": "Tag Claude in a channel, it spins up an instance with its own sandbox. It clones repos, writes…",
-      "url": "https://x.com/bcherny/status/2069474689819480394",
-      "publishedAt": "2026-06-23T17:36:29.000Z",
-      "content": "Tag Claude in a channel, it spins up an instance with its own sandbox. It clones repos, writes code, tests, compiles all in that isolated environment and the sandbox gets thrown away when it's done. One instance per thread, its own memory and permissions per channel.",
-      "summary": "Tag Claude in a channel, it spins up an instance with its own sandbox. It clones repos, writes code, tests, compiles all in that isolated environment and the sandbox gets thrown away when it's done. One instance per thr…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 70,
-        "retweets": 1,
-        "replies": 5
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "code",
-            "repo"
-          ],
-          "score": 2
         }
       ],
       "section": "Builders",
