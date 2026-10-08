@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-07T07:20:54.563Z",
+  "generatedAt": "2026-10-08T00:31:05.584Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
     {
       "id": "3de8e00a1e6ff68f",
-      "date": "2026-10-07",
+      "date": "2026-10-08",
       "sourceType": "podcast",
       "sourceGroup": "mirrored",
       "sourceName": "Unsupervised Learning",
@@ -53,6 +53,164 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.44,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d22f2036a1ac8090",
+      "date": "2026-10-08",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems; “the most significant moment” in >100 years of mathematics",
+      "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai",
+      "publishedAt": "2026-10-07T04:55:44.000Z",
+      "content": "Tickets for AIE NYC are selling out soon! See you next week! see past AINews issues for subscriber discounts. Pour one out for Mistral, who shipped a decent Large 4 &#8220;Le Chonk&#8221; model on the new 3800 GB300 cluster funded by their recent Series D . But they were overshadowed by more mathematics results from OpenAI&#8217;s internal Navier-Stokes math model - published as a blogpost , repo , and tweet . The best compliment comes from their Navier-Stokes competitor from Anthropic, who despite his personal issues with OpenAI, does not mince words: &#8220;It&#8217;s obviously the most significant moment in mathematical history.&#8221; This bears some qualification , but most experts seem to agree that it solves many of the top 500 open problems in math . In particular, Result 003, the Quasi-Riemann Hypothesis , is somewhere between a Fields Medal result and &#8220;the biggest result in number theory in 200 years &#8221;. The most astonishing is the how - while Navier-Stokes was done in 88 hours and 10,000 agents , these solutions were 3 hours of ChatGPT Pro on average . AI News for 10/5/2026-10/6/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI Releases 722 Math Manuscripts From an Unreleased Internal Model The release : OpenAI published a broad set of mathematical results from an internal frontier model in a public GitHub repo . It says it consulted the Institute for Advanced Study&#8217;s independent Advisory Group on Mathematics and AI on how to release them. Scale and compute : The collection reportedly holds 722 manuscripts grouped into 372 families of related results. They came from an evaluation of about 4,000 research problems and used an average of roughly three hours of ChatGPT Pro thinking compute per result ( summary , Rundown ). Artifacts : The release i…",
+      "summary": "Our head hurts.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "paper"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "eval",
+            "evaluation"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "0ca3d87af80f62d3",
+      "date": "2026-10-08",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-cee",
+      "publishedAt": "2026-10-03T08:45:15.000Z",
+      "content": "If you&#8217;re even seeing this, you should probably just go enjoy your weekend. AI News for 10/1/2026-10/2/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap GPT-6.1 Sol and Sonnet 5.5 Reshape the Cost&#8211;Performance Frontier GPT-6.1 Sol launch : OpenAI priced Sol at $2/$10 per million input/output tokens, compared with $10/$50 for Astra ( pricing summary ). Claimed results : It reportedly beats GPT-6 Sol by 6.4 points on DeepSWE v1.1 and Opus 5.5 by 2.2 points on AutomationBench ( summary ). Positioning : OpenAI staff describe it as &#8220;good, cheap AND fast&#8221; ( @reach_vb ). Codex usage : A global Codex usage reset was set for Oct 2 at 10AM PT ( @reach_vb ). Tool use : Sol reportedly &#8220;REALLY loves codemode,&#8221; consistent with GPT models being trained on it ( @badlogicgames , codemode note ). Agent Arena placements : Sol [Max] entered at #5 (+11.23%) with a $0.56 median cost per task ( @arena ). Sol cost comparison : That is 39% cheaper than GPT-6 Sol while scoring 1.52 points higher. It is 81% cheaper than Astra while landing within 1.04 points. Sonnet 5.5 : Sonnet 5.5 [Max] debuted at #3 (+12.5%) and ranked #1 in the Chat category. It costs $2.74 per task, versus $1.58 for #2 Opus 5.5, which keeps it off the Pareto frontier ( debut , frontier ). Anthropic&#8217;s position : Anthropic models now hold the top three Agent Arena spots. Code and Text Arena : Sol briefly entered WebDev at #3 before Sonnet 5.5 pushed it to #4 ( weekly recap ). Sonnet on WebDev : Sonnet now sits 2 points behind GPT-6 Astra [Max] at 80% lower cost. Gemini 4 Argon : Argon [High] took #1 in Text Arena. Open models : MiMo-V2.6-Pro and Flash entered Agent Arena at #5 and #9 among open models. Other independent evals : WeirdML v3 finds Sol very token-efficient, close to Astra but with a…",
+      "summary": "a quiet day.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "repo"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "imo",
+            "eval"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "efb1334c7362582d",
+      "date": "2026-10-08",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Data is the Hard Part",
+      "url": "https://www.chinatalk.media/p/data-is-the-hard-part",
+      "publishedAt": "2026-10-06T11:09:35.000Z",
+      "content": "Bharat Patel is currently Accenture&#8217;s AI and data lead for its defense portfolio, a former enlisted Navy sailor, and a veteran of the Army acquisition world, with experience at MITRE and across the Department of Defense. We&#8217;re here today to talk about why data is the hard part in making AI work to win wars for you &#8212; and what standards, integration processes, and governance you need to turn fun tech and cute little language models into things that can actually serve the warfighter . We&#8217;re also going to talk about the dark side of data &#8212; how poisoning can happen, the enemy&#8217;s vote in the datasets you build to find things on the battlefield, and what it&#8217;s like to be a civil servant trying to make big programs happen inside the acquisition bureaucracy. Our conversation covers: Why data is the real bottleneck for military AI, why &#8220;AI-ready data&#8221; is a myth, and why autonomous tanks are further off than you might think, Ukraine&#8217;s autonomous systems as a case study: how years of collecting, labeling, and learning from battlefield data created the foundation for autonomy, The boring side of AI: how pipelines, standards, governance, and testing and evaluation determine whether models ever make it into the field, The adversary&#8217;s AI toolbox &#8212; including camouflage, deception, electronic warfare, and poisoned data &#8212; and how to test against those threats. The 4D chess game of building programs inside the Pentagon : navigating requirements, funding, acquisition rules, and the people who make or break a program. Listen now on your favorite podcast app . Thank you to Accenture Federal Services for bringing us this episode. The Dark Side of Data Jordan Schneider: Bharat, why is data the hard part? Bharat Patel: We talk about AI-ready data, but in my opinion, data will never be AI-ready. Data will always have its weirdness about it. It&#8217;s more about what the AI use case is, because the use case drives th…",
+      "summary": "Bharat Patel is currently Accenture&#8217;s AI and data lead for its defense portfolio, a former enlisted Navy sailor, and a veteran of the Army acquisition world, with experience at MITRE and across the Department of Defense.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "eval",
+            "evaluation"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "autonomous"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "dataset"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -160,164 +318,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d22f2036a1ac8090",
-      "date": "2026-10-07",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems; “the most significant moment” in >100 years of mathematics",
-      "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai",
-      "publishedAt": "2026-10-07T04:55:44.000Z",
-      "content": "Tickets for AIE NYC are selling out soon! See you next week! see past AINews issues for subscriber discounts. Pour one out for Mistral, who shipped a decent Large 4 &#8220;Le Chonk&#8221; model on the new 3800 GB300 cluster funded by their recent Series D . But they were overshadowed by more mathematics results from OpenAI&#8217;s internal Navier-Stokes math model - published as a blogpost , repo , and tweet . The best compliment comes from their Navier-Stokes competitor from Anthropic, who despite his personal issues with OpenAI, does not mince words: &#8220;It&#8217;s obviously the most significant moment in mathematical history.&#8221; This bears some qualification , but most experts seem to agree that it solves many of the top 500 open problems in math . In particular, Result 003, the Quasi-Riemann Hypothesis , is somewhere between a Fields Medal result and &#8220;the biggest result in number theory in 200 years &#8221;. The most astonishing is the how - while Navier-Stokes was done in 88 hours and 10,000 agents , these solutions were 3 hours of ChatGPT Pro on average . AI News for 10/5/2026-10/6/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI Releases 722 Math Manuscripts From an Unreleased Internal Model The release : OpenAI published a broad set of mathematical results from an internal frontier model in a public GitHub repo . It says it consulted the Institute for Advanced Study&#8217;s independent Advisory Group on Mathematics and AI on how to release them. Scale and compute : The collection reportedly holds 722 manuscripts grouped into 372 families of related results. They came from an evaluation of about 4,000 research problems and used an average of roughly three hours of ChatGPT Pro thinking compute per result ( summary , Rundown ). Artifacts : The release i…",
-      "summary": "Our head hurts.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "paper"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "eval",
-            "evaluation"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "0ca3d87af80f62d3",
-      "date": "2026-10-07",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] not much happened today",
-      "url": "https://www.latent.space/p/ainews-not-much-happened-today-cee",
-      "publishedAt": "2026-10-03T08:45:15.000Z",
-      "content": "If you&#8217;re even seeing this, you should probably just go enjoy your weekend. AI News for 10/1/2026-10/2/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap GPT-6.1 Sol and Sonnet 5.5 Reshape the Cost&#8211;Performance Frontier GPT-6.1 Sol launch : OpenAI priced Sol at $2/$10 per million input/output tokens, compared with $10/$50 for Astra ( pricing summary ). Claimed results : It reportedly beats GPT-6 Sol by 6.4 points on DeepSWE v1.1 and Opus 5.5 by 2.2 points on AutomationBench ( summary ). Positioning : OpenAI staff describe it as &#8220;good, cheap AND fast&#8221; ( @reach_vb ). Codex usage : A global Codex usage reset was set for Oct 2 at 10AM PT ( @reach_vb ). Tool use : Sol reportedly &#8220;REALLY loves codemode,&#8221; consistent with GPT models being trained on it ( @badlogicgames , codemode note ). Agent Arena placements : Sol [Max] entered at #5 (+11.23%) with a $0.56 median cost per task ( @arena ). Sol cost comparison : That is 39% cheaper than GPT-6 Sol while scoring 1.52 points higher. It is 81% cheaper than Astra while landing within 1.04 points. Sonnet 5.5 : Sonnet 5.5 [Max] debuted at #3 (+12.5%) and ranked #1 in the Chat category. It costs $2.74 per task, versus $1.58 for #2 Opus 5.5, which keeps it off the Pareto frontier ( debut , frontier ). Anthropic&#8217;s position : Anthropic models now hold the top three Agent Arena spots. Code and Text Arena : Sol briefly entered WebDev at #3 before Sonnet 5.5 pushed it to #4 ( weekly recap ). Sonnet on WebDev : Sonnet now sits 2 points behind GPT-6 Astra [Max] at 80% lower cost. Gemini 4 Argon : Argon [High] took #1 in Text Arena. Open models : MiMo-V2.6-Pro and Flash entered Agent Arena at #5 and #9 among open models. Other independent evals : WeirdML v3 finds Sol very token-efficient, close to Astra but with a…",
-      "summary": "a quiet day.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "code",
-            "repo"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "imo",
-            "eval"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "efb1334c7362582d",
-      "date": "2026-10-07",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Data is the Hard Part",
-      "url": "https://www.chinatalk.media/p/data-is-the-hard-part",
-      "publishedAt": "2026-10-06T11:09:35.000Z",
-      "content": "Bharat Patel is currently Accenture&#8217;s AI and data lead for its defense portfolio, a former enlisted Navy sailor, and a veteran of the Army acquisition world, with experience at MITRE and across the Department of Defense. We&#8217;re here today to talk about why data is the hard part in making AI work to win wars for you &#8212; and what standards, integration processes, and governance you need to turn fun tech and cute little language models into things that can actually serve the warfighter . We&#8217;re also going to talk about the dark side of data &#8212; how poisoning can happen, the enemy&#8217;s vote in the datasets you build to find things on the battlefield, and what it&#8217;s like to be a civil servant trying to make big programs happen inside the acquisition bureaucracy. Our conversation covers: Why data is the real bottleneck for military AI, why &#8220;AI-ready data&#8221; is a myth, and why autonomous tanks are further off than you might think, Ukraine&#8217;s autonomous systems as a case study: how years of collecting, labeling, and learning from battlefield data created the foundation for autonomy, The boring side of AI: how pipelines, standards, governance, and testing and evaluation determine whether models ever make it into the field, The adversary&#8217;s AI toolbox &#8212; including camouflage, deception, electronic warfare, and poisoned data &#8212; and how to test against those threats. The 4D chess game of building programs inside the Pentagon : navigating requirements, funding, acquisition rules, and the people who make or break a program. Listen now on your favorite podcast app . Thank you to Accenture Federal Services for bringing us this episode. The Dark Side of Data Jordan Schneider: Bharat, why is data the hard part? Bharat Patel: We talk about AI-ready data, but in my opinion, data will never be AI-ready. Data will always have its weirdness about it. It&#8217;s more about what the AI use case is, because the use case drives th…",
-      "summary": "Bharat Patel is currently Accenture&#8217;s AI and data lead for its defense portfolio, a former enlisted Navy sailor, and a veteran of the Army acquisition world, with experience at MITRE and across the Department of Defense.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "eval",
-            "evaluation"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "autonomous"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "dataset"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {

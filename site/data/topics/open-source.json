@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-07T07:20:54.563Z",
+  "generatedAt": "2026-10-08T00:31:05.584Z",
   "slug": "open-source",
   "label": "Open Source",
   "items": [
     {
       "id": "a7f9813d26f5c3b9",
-      "date": "2026-10-07",
+      "date": "2026-10-08",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -35,14 +35,14 @@
       ],
       "section": "Builders",
       "importanceScore": 0.7,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.8,
+      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
       "id": "54acf19effd57821",
-      "date": "2026-10-07",
+      "date": "2026-10-08",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
@@ -85,8 +85,119 @@
       "whyThisMatters": ""
     },
     {
+      "id": "e1819502ff653dfa",
+      "date": "2026-10-08",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
+      "url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/",
+      "publishedAt": "2026-10-07T16:00:00.000Z",
+      "content": "At a glance Harnessed Agentic RL: Microsoft Research Asia introduces a training paradigm in which the same agent harness used in deployment participates directly in reinforcement learning, removing the need to reimplement the agent inside the training framework. Lightweight by design: Agent Lightning v1.0 delivers a complete agent RL control plane in roughly 3,500 lines of code. Native Kubernetes support: agents run as standard Kubernetes jobs on self-managed clusters, cloud Kubernetes, or local infrastructure, with no dependency on paid commercial sandbox services. Data-efficient training recipe: an end-to-end coding agent pipeline raised Qwen3.5-9B from 41.8% to 56.4% Pass@1 on SWE-bench Verified, a 14.6 percentage point gain, using only about 6,000 training samples based on open sourced dataset. AI agents have evolved from single models to complex full-stack systems built from models, tools, and execution environments. Their capabilities increasingly depend on the agent harness that coordinates them from outside the model. Reinforcement learning (RL) is an approach where AI systems learn through trial and error, guided by rewards and penalties for their actions. RL can make those agents better, but most agent RL systems require developers to reimplement the agent inside the training framework. That is costly, and it means the agent being trained is not quite the agent that gets deployed. To address this, researchers at Microsoft Research Asia have introduced the Harnessed Agentic RL training paradigm and open-sourced a fully rebuilt Agent Lightning v1.0 (opens in new tab) . Compared with the original, Agent Lightning, v1.0 puts more emphasis on staying lightweight, on integrating with real harnesses, and on a complete, reproducible agent RL training pipeline. Agent Lightning v1.0 was rebuilt around Harnessed Agentic RL, with key improvements: Lightweight : the entire framework is about 3,500 lines of code. Agent Lightning v1.0 implements a complete Harnessed Age…",
+      "summary": "Training AI agents with reinforcement learning can be challenging because their tools, context, and decision-making are managed by complex frameworks. Agent Lightning connects existing agents to RL training, making it easier to improve the…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.9299999999999999,
+          "rationale": [
+            "coding",
+            "code",
+            "developer"
+          ],
+          "score": 4
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.69,
+          "rationale": [
+            "open-source",
+            "open source"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.82,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "1fd4f2c79c20cf51",
+      "date": "2026-10-08",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Can a Cloud-Native Harness Make Agents Reliable Beyond the Desktop?",
+      "url": "https://www.latent.space/p/stacklok",
+      "publishedAt": "2026-10-07T14:10:45.000Z",
+      "content": "At a high level, coding agents have a basic architecture: an LLM calls tools in a loop, while carrying forward the required context. Since that&#8217;s easiest to implement locally , many coding agents started out as terminal tools and then desktop apps (Claude Code famously began as a CLI tool). But as the open laptop meme illustrates, modern agent harnesses have frustrating limitations if they&#8217;re not able to be managed in the cloud . Since 2025, both OpenAI and Anthropic have been trying to shift their harnesses more into the cloud &#8212; but with varying levels of success. The challenges include keeping sessions reliable, isolating tool execution and preserving context. This sounds a lot like container orchestration in the early 2010s , from which emerged the open source Kubernetes in 2014. Kubernetes, developed by Google, became the dominant open source system for deploying and managing cloud applications at scale &#8212; it kickstarted the &#8220;cloud native&#8221; era of computing . Kubernetes uses control loops to keep applications running, recover from failures, and scale when needed. What if coding agents could be managed in the same way? That&#8217;s the bet that two Kubernetes creators, Craig McLuckie and Joe Beda , are making with Stacklok . Stacklok architecture; diagram via Stacklok Stacklok raised a $17.5 million Series A back in 2023 from Accel, Madrona and Bain Capital. Initially focused on software supply chain security , the company recently pivoted to Kubernetes-based agentic solutions . Mecatl: a harness built for the cloud The most interesting product of Stacklok is Mecatl, a &#8220;cloud-native harness&#8221; begun in June as an open source project on GitHub . At first, I thought the name was pronounced &#8220;me-cattle&#8221; &#8212; a play-on-words referencing the &#8216;cattle vs. pets&#8217; concept of Kubernetes, where you treat your servers, pods and clusters like cattle rather than pets. But no, the name is actually pronounced…",
+      "summary": "Kubernetes co-creators Craig McLuckie and Joe Beda aim to bring agent harnesses fully into the cloud.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.69,
+          "rationale": [
+            "open source",
+            "github"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
+      "whyThisMatters": ""
+    },
+    {
       "id": "4b3375efc702eb5a",
-      "date": "2026-10-07",
+      "date": "2026-10-08",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -2272,116 +2383,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.61,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "31cf857f0c5b4f2d",
-      "date": "2026-08-23",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:claudeai",
-      "builderOrOrg": "Claude",
-      "title": "Point Claude Security at a GitHub repo and Mythos scans for vulnerabilities tracing data across…",
-      "url": "https://x.com/claudeai/status/2090852316328902930",
-      "publishedAt": "2026-08-21T17:23:33.000Z",
-      "content": "Point Claude Security at a GitHub repo and Mythos scans for vulnerabilities tracing data across files and reasoning about how components interact. Each finding comes back with a CWE category, confidence and severity ratings, and a suggested fix.",
-      "summary": "Point Claude Security at a GitHub repo and Mythos scans for vulnerabilities tracing data across files and reasoning about how components interact. Each finding comes back with a CWE category, confidence and severity rat…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 417,
-        "retweets": 19,
-        "replies": 12
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "github"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.78,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.61,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "e727b531c7920415",
-      "date": "2026-08-20",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:rauchg",
-      "builderOrOrg": "Guillermo Rauch",
-      "title": "I’ve been using https://t.co/OL0LzGtvAw as my daily driver and it’s a one-way street. It’s 10-2…",
-      "url": "https://x.com/rauchg/status/2089831055373316274",
-      "publishedAt": "2026-08-18T21:45:25.000Z",
-      "content": "I’ve been using https://t.co/OL0LzGtvAw as my daily driver and it’s a one-way street. It’s 10-20x smaller than the major coding CLIs. It starts up instantaneously. It feels more like using 𝚣𝚜𝚑 than an IDE in your terminal. It’s embeddable anywhere, even your browser via WebAssembly. And of course it’s open source and model-agnostic. It’s experimental, but give it a shot and let us know how it goes!",
-      "summary": "I’ve been using https://t.co/OL0LzGtvAw as my daily driver and it’s a one-way street. It’s 10-20x smaller than the major coding CLIs. It starts up instantaneously. It feels more like using 𝚣𝚜𝚑 than an IDE in your ter…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 884,
-        "retweets": 25,
-        "replies": 55
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open source"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "browser"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]

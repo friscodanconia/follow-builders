@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-07T07:20:54.563Z",
+  "generatedAt": "2026-10-08T00:31:05.584Z",
   "slug": "research",
   "label": "Research",
   "items": [
     {
       "id": "81bc4376aa289762",
-      "date": "2026-10-07",
+      "date": "2026-10-08",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
@@ -40,7 +40,7 @@
     },
     {
       "id": "54acf19effd57821",
-      "date": "2026-10-07",
+      "date": "2026-10-08",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
@@ -80,6 +80,370 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "8bec1a7d3993d319",
+      "date": "2026-10-08",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Import AI",
+      "sourceKey": "editorial:Import AI",
+      "builderOrOrg": "Jack Clark",
+      "title": "Import AI 475: Swarm scaling; Google DeepMind watermarks biology; and the AI science economy",
+      "url": "https://jack-clark.net/2026/10/05/import-ai-475-swarm-scaling-google-deepmind-watermarks-biology-and-the-ai-science-economy/",
+      "publishedAt": "2026-10-05T12:32:30.000Z",
+      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now When should you use swarms? When you are in a hurry: …How does swarm scaling work?&#8230; Toby Ord has a nice, short post about how to think about swarms in terms of AI capability development. “A good way to see AI swarms is as a new form of inference-scaling,” he says. He does a bit of analysis and his main conclusion is that swarms are useful if you’re in a hurry because though they need a ton of tokens relative to single agents, their parallelization lets you get things done in less wall clock time. “Why would you ever use swarms? The most important answer is speed. The 4-agent swarm needed about twice the total number of tokens to get the same performance, but in terms of tokens per agent, it only needed half as many. Since the agents are run in parallel, this means it can theoretically achieve the same task in half the time,” he writes. Stepping on Toes parameter: Swarm scaling doesn’t scale perfectly &#8211; rather, it seems like as you increase the number of agents in a swarm you get a diminishing returns property which matches with things economists have observed about coordinating large groups of people, where you pay some kind of tax as you scale the number of people involved. Economists think of this as the “stepping on toes” parameter, and it seems like swarms behave pretty similarly to teams of humans here. “This means that scaling up the number of agents in the swarm by 10x doesn’t get as much performance as using 10x as many tokens with one agent. Instead it gets 10λ x as much — which is 3x to 5x. And this shortfall accumulates quickly for larger scaleups, with the swarm falling further and further behind,” he writes. However, swarm scaling is still powerful enough that it suggests swarms could increase the chance of an RSI-driven intelligence explosion rather than reduce…",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now When should you use swarms? When you are in a hurry:…How…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d22f2036a1ac8090",
+      "date": "2026-10-08",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems; “the most significant moment” in >100 years of mathematics",
+      "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai",
+      "publishedAt": "2026-10-07T04:55:44.000Z",
+      "content": "Tickets for AIE NYC are selling out soon! See you next week! see past AINews issues for subscriber discounts. Pour one out for Mistral, who shipped a decent Large 4 &#8220;Le Chonk&#8221; model on the new 3800 GB300 cluster funded by their recent Series D . But they were overshadowed by more mathematics results from OpenAI&#8217;s internal Navier-Stokes math model - published as a blogpost , repo , and tweet . The best compliment comes from their Navier-Stokes competitor from Anthropic, who despite his personal issues with OpenAI, does not mince words: &#8220;It&#8217;s obviously the most significant moment in mathematical history.&#8221; This bears some qualification , but most experts seem to agree that it solves many of the top 500 open problems in math . In particular, Result 003, the Quasi-Riemann Hypothesis , is somewhere between a Fields Medal result and &#8220;the biggest result in number theory in 200 years &#8221;. The most astonishing is the how - while Navier-Stokes was done in 88 hours and 10,000 agents , these solutions were 3 hours of ChatGPT Pro on average . AI News for 10/5/2026-10/6/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI Releases 722 Math Manuscripts From an Unreleased Internal Model The release : OpenAI published a broad set of mathematical results from an internal frontier model in a public GitHub repo . It says it consulted the Institute for Advanced Study&#8217;s independent Advisory Group on Mathematics and AI on how to release them. Scale and compute : The collection reportedly holds 722 manuscripts grouped into 372 families of related results. They came from an evaluation of about 4,000 research problems and used an average of roughly three hours of ChatGPT Pro thinking compute per result ( summary , Rundown ). Artifacts : The release i…",
+      "summary": "Our head hurts.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "paper"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "eval",
+            "evaluation"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c086cc49bb0f2b5e",
+      "date": "2026-10-08",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "China, the FCC, and the Logic of Transceivers",
+      "url": "https://www.chinatalk.media/p/china-the-fcc-and-the-logic-of-transceivers",
+      "publishedAt": "2026-10-07T10:13:11.000Z",
+      "content": "Quinn has joined the ChinaTalk team after studying semiconductor physics at Yale. Reach out to quinn@chinatalk.media to chat energy, BRI, robots, trade, industrial policy, or anything else! Over the past year, the FCC has released a series of restrictions on foreign-made hardware. First came drones, then routers, and then in July, inverters and robots. The newest devices to be considered are optical transceivers, which convert data into light and back within data centers. Following a Reuters report of a draft ban on new Chinese transceivers, markets responded as if it meant a straightforward substitution of supply, and American optics stocks rose while Chinese optics leaders fell. This swap is not that simple. The FCC&#8217;s cybersecurity logic is real but far narrower than the rule suggests. After explaining these gaps, I follow the transceiver supply chain from the module and the laser all the way down to the wafer and the metal it relies on. Chinese companies dominate the top of the stack but are reliant on Western companies in the middle. At the very bottom, Chinese control is ingrained, and the U.S.&#8217;s dependence on these basic materials will not be shifted by an FCC rule at the top of the stack. ChinaTalk is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber. The Rule On August 4, Reuters reported that the FCC was drafting a ban on import authorization for new models of Chinese optical transceivers to prevent Chinese firms from stealing data, installing malware, or disrupting service. Per the anonymous sources, officials want the rule published and effective by year end, though they cautioned the draft could still be modified or shelved. By the end of the week on August 7, Zhongji Innolight &#20013;&#38469;&#26093;&#21019;, the largest transceiver vendor globally, suffered a 10-percent drop in its stock price, while Coherent, a leading American transceiver manufacturer, saw its stock pri…",
+      "summary": "The dependencies that a potential rule on optical transceivers misses",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "publication"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.66,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "efb1334c7362582d",
+      "date": "2026-10-08",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Data is the Hard Part",
+      "url": "https://www.chinatalk.media/p/data-is-the-hard-part",
+      "publishedAt": "2026-10-06T11:09:35.000Z",
+      "content": "Bharat Patel is currently Accenture&#8217;s AI and data lead for its defense portfolio, a former enlisted Navy sailor, and a veteran of the Army acquisition world, with experience at MITRE and across the Department of Defense. We&#8217;re here today to talk about why data is the hard part in making AI work to win wars for you &#8212; and what standards, integration processes, and governance you need to turn fun tech and cute little language models into things that can actually serve the warfighter . We&#8217;re also going to talk about the dark side of data &#8212; how poisoning can happen, the enemy&#8217;s vote in the datasets you build to find things on the battlefield, and what it&#8217;s like to be a civil servant trying to make big programs happen inside the acquisition bureaucracy. Our conversation covers: Why data is the real bottleneck for military AI, why &#8220;AI-ready data&#8221; is a myth, and why autonomous tanks are further off than you might think, Ukraine&#8217;s autonomous systems as a case study: how years of collecting, labeling, and learning from battlefield data created the foundation for autonomy, The boring side of AI: how pipelines, standards, governance, and testing and evaluation determine whether models ever make it into the field, The adversary&#8217;s AI toolbox &#8212; including camouflage, deception, electronic warfare, and poisoned data &#8212; and how to test against those threats. The 4D chess game of building programs inside the Pentagon : navigating requirements, funding, acquisition rules, and the people who make or break a program. Listen now on your favorite podcast app . Thank you to Accenture Federal Services for bringing us this episode. The Dark Side of Data Jordan Schneider: Bharat, why is data the hard part? Bharat Patel: We talk about AI-ready data, but in my opinion, data will never be AI-ready. Data will always have its weirdness about it. It&#8217;s more about what the AI use case is, because the use case drives th…",
+      "summary": "Bharat Patel is currently Accenture&#8217;s AI and data lead for its defense portfolio, a former enlisted Navy sailor, and a veteran of the Army acquisition world, with experience at MITRE and across the Department of Defense.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "eval",
+            "evaluation"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "autonomous"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "dataset"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "5c1e38ed9b92336b",
+      "date": "2026-10-08",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "China’s AI Safety Money Problem",
+      "url": "https://www.chinatalk.media/p/chinas-ai-safety-money-problem",
+      "publishedAt": "2026-10-05T11:09:38.000Z",
+      "content": "Here are two claims I hear about China and AI safety: China is intrinsically less concerned about AI risk . Chinese people are techno-optimists, while the Party sees doom talk as either Western paranoia or a containment strategy designed to hold China back &#8212; such as many of the dismissive responses to Dario&#8217;s call to pace the frontier. China is now safety-pilled . This refrain gains traction once or twice a year when a high-up like Xi gives a speech about controlling AI risks (as he did at the World AI Conference ), or China puts forth a new international initiative, such as the September UN Global Dialogue on AI Governance . There&#8217;s evidence for each of these takes (see footnote). 1 But I think both sides miss the messier reality on the ground. I met plenty of ambitious and talented people when I lived in Beijing who would have loved to work on AI safety full-time. But a graduate in China who cares about AI risk is still expected to get a &#8220;real&#8221; job eventually. Outside an underfunded PhD track or a handful of positions in a country of 1.4 billion people, there isn&#8217;t a well-trodden path. In San Francisco, DC, or London, worrying about AI professionally can be a very-well-paid career. In China, it&#8217;s more of a hobby. As a result, I think the main bottleneck facing China&#8217;s AI safety ecosystem is not ideological but material &#8230; Independent Chinese AI safety has basically no money. 2 And the limiting funding structures that do exist determine what kinds of safety work can survive, and where. Subscribe now Today: Why China&#8217;s philanthropic rules make it difficult to fund independent organizations, even if the money exists. Why this leaves it up to the Chinese government to lead on safety work Technical safety research and how it is continuing to grow China&#8217;s &#8220;safety-as-a-service&#8221; companies which try to make safety profitable A &#8220; third wave of American philanthropy &#8221; appears to be on t…",
+      "summary": "China has plenty of AI safety talent, but weak philanthropy and a strong state shape what type of safety work actually gets done.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.69,
+          "rationale": [
+            "safety",
+            "governance"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "speech"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "6e01404d1e0f3360",
+      "date": "2026-10-08",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "In Case You Missed It...",
+      "url": "https://www.chinatalk.media/p/in-case-you-missed-it",
+      "publishedAt": "2026-10-03T11:08:12.000Z",
+      "content": "Is China&#8217;s economy broken? Logan Wright , Jordan&#8217;s former boss (!) and a top expert on Chinese macroeconomics, says the financial system that powered China&#8217;s extraordinary growth is now constraining it, and that the old idea of US-China economic rivalry no longer fits. Brad Setser of CFR and Jordan push back (does Xi actually care? Can China's dominance of exports and supply chains keep the economy growing? Could AI and EVs provide a way out?), but Logan stands his ground. They also get into China's jobs crisis, what could pull China out of its economic funk, and what its slowdown means for the rest of the world. Elsewhere, Lily Ottinger goes to Kyrgyzstan for the World Nomad Games , where she practices Russian and watches k&#246;k-b&#246;r&#252; &#8212; a Central Asian horse game played with a goat carcass &#8212; all the while weighing the gap between China&#8217;s hard power and soft power. Julian Gewirtz and Jordan size up Xi&#8217;s state visit , while Ethan Kessler asks whether Taiwan can actually build the drones it needs ( part 1 , part 2 ). Subscribe now Garrett Berntsen takes on the Pentagon&#8217;s bureaucracy and explains why giving government AI isn&#8217;t enough if the institutions using it don&#8217;t change too. Irene Zhang goes inside Chinese AI discourse , where one DeepSeek researcher&#8217;s vision of an AI-powered future ranges from communist abundance to Cyberpunk 2077, and where Western rhetoric about AI safety and technological containment can sound like an attack on Chinese development, making cooperation harder just as the stakes rise. And on WarTalk, the team confronts the &#8220;Potemkin Pacific&#8221; : a US military trying to cover an enormous ocean with a rather less enormous number of ships. Plus: China&#8217;s robotics boom , China&#8217;s answer to Starlink , and whatever exactly Jordan is doing with Ye . ChinaTalk is a reader-supported publication. To receive new posts and support my work, consider becoming a fr…",
+      "summary": "Best of September!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "publication"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "vision"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "25e06c94c054249c",
+      "date": "2026-10-08",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Building China’s Two Starlinks",
+      "url": "https://www.chinatalk.media/p/building-chinas-two-starlinks",
+      "publishedAt": "2026-10-02T11:06:46.000Z",
+      "content": "Paddy Stephens writes about space, security, and energy for The Wire China , Resilience Media and others. He&#8217;s based between London, Nice and Taipei. This is Part 2 of his two-part investigation of China&#8217;s Starlink challengers! ChinaTalk is a reader-supported publication. To receive new posts and support our work, consider becoming a free or paid subscriber. In the first part of this article on China&#8217;s responses to Starlink, I analyzed how China views the megaconstellation, and how it might try to disable it in a conflict. This second part reports on China&#8217;s mixed record and recent success in building not one but two major low Earth orbit (LEO) satellite megaconstellations of its own. The Chinese government understands Starlink as both a commercial company and a national security asset for the US and partners. Over time, two major &#8216;Chinese Starlink&#8217; projects have emerged, which between them cover both aspects: Guowang (&#22269;&#32593; &#8212; literally, &#8220;National Network&#8221;), a satellite infrastructure provider primarily for the state, and commercially-oriented Qianfan (&#21315;&#24070; &#8212; literally, &#8220;Thousand Sails&#8221;). First to emerge was Guowang, which serves the Chinese state, including the military. It is highly secretive, mentioned by name in few Chinese public policy documents, and public information about it remains scarce. China SatNet &#20013;&#22269;&#26143;&#32593;, the Xiong&#8217;an-based state-owned enterprise (SOE) responsible for Guowang, seems to be working closely with the military-industrial complex and state telecommunications companies. The most obvious evidence for this, says Curcio, is China Space Time &#20013;&#22269;&#26102;&#31354;&#20449;&#24687;&#38598;&#22242;&#26377;&#38480;&#20844;&#21496;, a joint venture between China SatNet, China Mobile, and NORINCO &#21271;&#26041;&#24037;&#19994;, a state-owned defense contractor. There are indications that Guowang is offering much m…",
+      "summary": "is two better than one?",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.69,
+          "rationale": [
+            "enterprise",
+            "security"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "publication"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
       "whyThisMatters": ""
     },
     {
@@ -169,319 +533,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "8bec1a7d3993d319",
-      "date": "2026-10-07",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Import AI",
-      "sourceKey": "editorial:Import AI",
-      "builderOrOrg": "Jack Clark",
-      "title": "Import AI 475: Swarm scaling; Google DeepMind watermarks biology; and the AI science economy",
-      "url": "https://jack-clark.net/2026/10/05/import-ai-475-swarm-scaling-google-deepmind-watermarks-biology-and-the-ai-science-economy/",
-      "publishedAt": "2026-10-05T12:32:30.000Z",
-      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now When should you use swarms? When you are in a hurry: …How does swarm scaling work?&#8230; Toby Ord has a nice, short post about how to think about swarms in terms of AI capability development. “A good way to see AI swarms is as a new form of inference-scaling,” he says. He does a bit of analysis and his main conclusion is that swarms are useful if you’re in a hurry because though they need a ton of tokens relative to single agents, their parallelization lets you get things done in less wall clock time. “Why would you ever use swarms? The most important answer is speed. The 4-agent swarm needed about twice the total number of tokens to get the same performance, but in terms of tokens per agent, it only needed half as many. Since the agents are run in parallel, this means it can theoretically achieve the same task in half the time,” he writes. Stepping on Toes parameter: Swarm scaling doesn’t scale perfectly &#8211; rather, it seems like as you increase the number of agents in a swarm you get a diminishing returns property which matches with things economists have observed about coordinating large groups of people, where you pay some kind of tax as you scale the number of people involved. Economists think of this as the “stepping on toes” parameter, and it seems like swarms behave pretty similarly to teams of humans here. “This means that scaling up the number of agents in the swarm by 10x doesn’t get as much performance as using 10x as many tokens with one agent. Instead it gets 10λ x as much — which is 3x to 5x. And this shortfall accumulates quickly for larger scaleups, with the swarm falling further and further behind,” he writes. However, swarm scaling is still powerful enough that it suggests swarms could increase the chance of an RSI-driven intelligence explosion rather than reduce…",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now When should you use swarms? When you are in a hurry:…How…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "science"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d22f2036a1ac8090",
-      "date": "2026-10-07",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems; “the most significant moment” in >100 years of mathematics",
-      "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai",
-      "publishedAt": "2026-10-07T04:55:44.000Z",
-      "content": "Tickets for AIE NYC are selling out soon! See you next week! see past AINews issues for subscriber discounts. Pour one out for Mistral, who shipped a decent Large 4 &#8220;Le Chonk&#8221; model on the new 3800 GB300 cluster funded by their recent Series D . But they were overshadowed by more mathematics results from OpenAI&#8217;s internal Navier-Stokes math model - published as a blogpost , repo , and tweet . The best compliment comes from their Navier-Stokes competitor from Anthropic, who despite his personal issues with OpenAI, does not mince words: &#8220;It&#8217;s obviously the most significant moment in mathematical history.&#8221; This bears some qualification , but most experts seem to agree that it solves many of the top 500 open problems in math . In particular, Result 003, the Quasi-Riemann Hypothesis , is somewhere between a Fields Medal result and &#8220;the biggest result in number theory in 200 years &#8221;. The most astonishing is the how - while Navier-Stokes was done in 88 hours and 10,000 agents , these solutions were 3 hours of ChatGPT Pro on average . AI News for 10/5/2026-10/6/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI Releases 722 Math Manuscripts From an Unreleased Internal Model The release : OpenAI published a broad set of mathematical results from an internal frontier model in a public GitHub repo . It says it consulted the Institute for Advanced Study&#8217;s independent Advisory Group on Mathematics and AI on how to release them. Scale and compute : The collection reportedly holds 722 manuscripts grouped into 372 families of related results. They came from an evaluation of about 4,000 research problems and used an average of roughly three hours of ChatGPT Pro thinking compute per result ( summary , Rundown ). Artifacts : The release i…",
-      "summary": "Our head hurts.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "paper"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "eval",
-            "evaluation"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "efb1334c7362582d",
-      "date": "2026-10-07",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Data is the Hard Part",
-      "url": "https://www.chinatalk.media/p/data-is-the-hard-part",
-      "publishedAt": "2026-10-06T11:09:35.000Z",
-      "content": "Bharat Patel is currently Accenture&#8217;s AI and data lead for its defense portfolio, a former enlisted Navy sailor, and a veteran of the Army acquisition world, with experience at MITRE and across the Department of Defense. We&#8217;re here today to talk about why data is the hard part in making AI work to win wars for you &#8212; and what standards, integration processes, and governance you need to turn fun tech and cute little language models into things that can actually serve the warfighter . We&#8217;re also going to talk about the dark side of data &#8212; how poisoning can happen, the enemy&#8217;s vote in the datasets you build to find things on the battlefield, and what it&#8217;s like to be a civil servant trying to make big programs happen inside the acquisition bureaucracy. Our conversation covers: Why data is the real bottleneck for military AI, why &#8220;AI-ready data&#8221; is a myth, and why autonomous tanks are further off than you might think, Ukraine&#8217;s autonomous systems as a case study: how years of collecting, labeling, and learning from battlefield data created the foundation for autonomy, The boring side of AI: how pipelines, standards, governance, and testing and evaluation determine whether models ever make it into the field, The adversary&#8217;s AI toolbox &#8212; including camouflage, deception, electronic warfare, and poisoned data &#8212; and how to test against those threats. The 4D chess game of building programs inside the Pentagon : navigating requirements, funding, acquisition rules, and the people who make or break a program. Listen now on your favorite podcast app . Thank you to Accenture Federal Services for bringing us this episode. The Dark Side of Data Jordan Schneider: Bharat, why is data the hard part? Bharat Patel: We talk about AI-ready data, but in my opinion, data will never be AI-ready. Data will always have its weirdness about it. It&#8217;s more about what the AI use case is, because the use case drives th…",
-      "summary": "Bharat Patel is currently Accenture&#8217;s AI and data lead for its defense portfolio, a former enlisted Navy sailor, and a veteran of the Army acquisition world, with experience at MITRE and across the Department of Defense.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "eval",
-            "evaluation"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "autonomous"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "dataset"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "5c1e38ed9b92336b",
-      "date": "2026-10-07",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "China’s AI Safety Money Problem",
-      "url": "https://www.chinatalk.media/p/chinas-ai-safety-money-problem",
-      "publishedAt": "2026-10-05T11:09:38.000Z",
-      "content": "Here are two claims I hear about China and AI safety: China is intrinsically less concerned about AI risk . Chinese people are techno-optimists, while the Party sees doom talk as either Western paranoia or a containment strategy designed to hold China back &#8212; such as many of the dismissive responses to Dario&#8217;s call to pace the frontier. China is now safety-pilled . This refrain gains traction once or twice a year when a high-up like Xi gives a speech about controlling AI risks (as he did at the World AI Conference ), or China puts forth a new international initiative, such as the September UN Global Dialogue on AI Governance . There&#8217;s evidence for each of these takes (see footnote). 1 But I think both sides miss the messier reality on the ground. I met plenty of ambitious and talented people when I lived in Beijing who would have loved to work on AI safety full-time. But a graduate in China who cares about AI risk is still expected to get a &#8220;real&#8221; job eventually. Outside an underfunded PhD track or a handful of positions in a country of 1.4 billion people, there isn&#8217;t a well-trodden path. In San Francisco, DC, or London, worrying about AI professionally can be a very-well-paid career. In China, it&#8217;s more of a hobby. As a result, I think the main bottleneck facing China&#8217;s AI safety ecosystem is not ideological but material &#8230; Independent Chinese AI safety has basically no money. 2 And the limiting funding structures that do exist determine what kinds of safety work can survive, and where. Subscribe now Today: Why China&#8217;s philanthropic rules make it difficult to fund independent organizations, even if the money exists. Why this leaves it up to the Chinese government to lead on safety work Technical safety research and how it is continuing to grow China&#8217;s &#8220;safety-as-a-service&#8221; companies which try to make safety profitable A &#8220; third wave of American philanthropy &#8221; appears to be on t…",
-      "summary": "China has plenty of AI safety talent, but weak philanthropy and a strong state shape what type of safety work actually gets done.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.69,
-          "rationale": [
-            "safety",
-            "governance"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "voice",
-          "label": "Voice",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "speech"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "6e01404d1e0f3360",
-      "date": "2026-10-07",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "In Case You Missed It...",
-      "url": "https://www.chinatalk.media/p/in-case-you-missed-it",
-      "publishedAt": "2026-10-03T11:08:12.000Z",
-      "content": "Is China&#8217;s economy broken? Logan Wright , Jordan&#8217;s former boss (!) and a top expert on Chinese macroeconomics, says the financial system that powered China&#8217;s extraordinary growth is now constraining it, and that the old idea of US-China economic rivalry no longer fits. Brad Setser of CFR and Jordan push back (does Xi actually care? Can China's dominance of exports and supply chains keep the economy growing? Could AI and EVs provide a way out?), but Logan stands his ground. They also get into China's jobs crisis, what could pull China out of its economic funk, and what its slowdown means for the rest of the world. Elsewhere, Lily Ottinger goes to Kyrgyzstan for the World Nomad Games , where she practices Russian and watches k&#246;k-b&#246;r&#252; &#8212; a Central Asian horse game played with a goat carcass &#8212; all the while weighing the gap between China&#8217;s hard power and soft power. Julian Gewirtz and Jordan size up Xi&#8217;s state visit , while Ethan Kessler asks whether Taiwan can actually build the drones it needs ( part 1 , part 2 ). Subscribe now Garrett Berntsen takes on the Pentagon&#8217;s bureaucracy and explains why giving government AI isn&#8217;t enough if the institutions using it don&#8217;t change too. Irene Zhang goes inside Chinese AI discourse , where one DeepSeek researcher&#8217;s vision of an AI-powered future ranges from communist abundance to Cyberpunk 2077, and where Western rhetoric about AI safety and technological containment can sound like an attack on Chinese development, making cooperation harder just as the stakes rise. And on WarTalk, the team confronts the &#8220;Potemkin Pacific&#8221; : a US military trying to cover an enormous ocean with a rather less enormous number of ships. Plus: China&#8217;s robotics boom , China&#8217;s answer to Starlink , and whatever exactly Jordan is doing with Ye . ChinaTalk is a reader-supported publication. To receive new posts and support my work, consider becoming a fr…",
-      "summary": "Best of September!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "publication"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "vision"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "25e06c94c054249c",
-      "date": "2026-10-07",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Building China’s Two Starlinks",
-      "url": "https://www.chinatalk.media/p/building-chinas-two-starlinks",
-      "publishedAt": "2026-10-02T11:06:46.000Z",
-      "content": "Paddy Stephens writes about space, security, and energy for The Wire China , Resilience Media and others. He&#8217;s based between London, Nice and Taipei. This is Part 2 of his two-part investigation of China&#8217;s Starlink challengers! ChinaTalk is a reader-supported publication. To receive new posts and support our work, consider becoming a free or paid subscriber. In the first part of this article on China&#8217;s responses to Starlink, I analyzed how China views the megaconstellation, and how it might try to disable it in a conflict. This second part reports on China&#8217;s mixed record and recent success in building not one but two major low Earth orbit (LEO) satellite megaconstellations of its own. The Chinese government understands Starlink as both a commercial company and a national security asset for the US and partners. Over time, two major &#8216;Chinese Starlink&#8217; projects have emerged, which between them cover both aspects: Guowang (&#22269;&#32593; &#8212; literally, &#8220;National Network&#8221;), a satellite infrastructure provider primarily for the state, and commercially-oriented Qianfan (&#21315;&#24070; &#8212; literally, &#8220;Thousand Sails&#8221;). First to emerge was Guowang, which serves the Chinese state, including the military. It is highly secretive, mentioned by name in few Chinese public policy documents, and public information about it remains scarce. China SatNet &#20013;&#22269;&#26143;&#32593;, the Xiong&#8217;an-based state-owned enterprise (SOE) responsible for Guowang, seems to be working closely with the military-industrial complex and state telecommunications companies. The most obvious evidence for this, says Curcio, is China Space Time &#20013;&#22269;&#26102;&#31354;&#20449;&#24687;&#38598;&#22242;&#26377;&#38480;&#20844;&#21496;, a joint venture between China SatNet, China Mobile, and NORINCO &#21271;&#26041;&#24037;&#19994;, a state-owned defense contractor. There are indications that Guowang is offering much m…",
-      "summary": "is two better than one?",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.69,
-          "rationale": [
-            "enterprise",
-            "security"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "publication"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
       "whyThisMatters": ""
     },
     {
@@ -2361,52 +2412,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.44,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "088dfd53b9d8cadd",
-      "date": "2026-09-19",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:GoogleLabs",
-      "builderOrOrg": "Google Labs",
-      "title": "CC the entire fam 🤝! Today, we’re announcing the new CC – an AI agent built for families to sp…",
-      "url": "https://x.com/GoogleLabs/status/2100653821907366366",
-      "publishedAt": "2026-09-17T18:31:14.000Z",
-      "content": "CC the entire fam 🤝! Today, we’re announcing the new CC – an AI agent built for families to spend less time on logistics and more time together. You can now: 👤 Add up to 5 members to your CC agent ☀️ Start mornings aligned with a shared \"Your Day Ahead\" brief email 🗓️ Autosync schedules & to-dos with a shared Google Calendar and Tasks 💬 Coordinate in Google Chat with CC to offload relevant tasks (ie., crafting weekly meal plans, school supply shopping lists, etc) 📝 Delegate paperwork (ie.,…",
-      "summary": "CC the entire fam 🤝! Today, we’re announcing the new CC – an AI agent built for families to spend less time on logistics and more time together. You can now: 👤 Add up to 5 members to your CC agent ☀️ Start mornings al…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 539,
-        "retweets": 54,
-        "replies": 46
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "paper"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.65,
       "whyThisMatters": ""
     }
   ]
