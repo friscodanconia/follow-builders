@@ -1,43 +1,52 @@
 {
-  "generatedAt": "2026-10-09T06:24:38.094Z",
+  "generatedAt": "2026-10-09T07:31:31.832Z",
   "slug": "research",
   "label": "Research",
   "items": [
     {
-      "id": "d43817ff3bb66a34",
+      "id": "ed5562a208b90a32",
       "date": "2026-10-09",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:nikunj",
-      "builderOrOrg": "Nikunj Kothari",
-      "title": "Moving @askalphaxiv to the dock is the best thing I have done this week.. Went from 0 to ~30 mi…",
-      "url": "https://x.com/nikunj/status/2108060822698357240",
-      "publishedAt": "2026-10-08T05:04:00.000Z",
-      "content": "Moving @askalphaxiv to the dock is the best thing I have done this week.. Went from 0 to ~30 mins of reading papers on my phone whenever I’m waiting on things. https://t.co/aPwn0LgfcY",
-      "summary": "Moving @askalphaxiv to the dock is the best thing I have done this week.. Went from 0 to ~30 mins of reading papers on my phone whenever I’m waiting on things. https://t.co/aPwn0LgfcY",
+      "sourceKey": "x:mattturck",
+      "builderOrOrg": "Matt Turck",
+      "title": "Special treat for the @andy_pavlo fans out there: an in-depth discussion about what happens to…",
+      "url": "https://x.com/mattturck/status/2108223135673696504",
+      "publishedAt": "2026-10-08T15:48:59.000Z",
+      "content": "Special treat for the @andy_pavlo fans out there: an in-depth discussion about what happens to databases when billions of AI agents hit them, his move to build a research lab at @ClickHouseDB, and plently of hot takes on the database market (Postgres, vector, graph, GPU etc) 00:00 Cold open & Intro 01:21 From vector databases and RAG to the age of agents 04:09 Neon's stat: agents create 80% of databases? 07:25 Why agents keep deleting production databases 08:19 Guardrails: the toddler-and-stair…",
+      "summary": "Special treat for the @andy_pavlo fans out there: an in-depth discussion about what happens to databases when billions of AI agents hit them, his move to build a research lab at @ClickHouseDB, and plently of hot takes o…",
       "regionTags": [],
       "metrics": {
-        "likes": 4,
-        "retweets": 0,
-        "replies": 2
+        "likes": 109,
+        "retweets": 18,
+        "replies": 14
       },
       "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
         {
           "slug": "research",
           "label": "Research",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "paper"
+            "research"
           ],
           "score": 1
         }
       ],
       "section": "Builders",
-      "importanceScore": 0.56,
-      "noveltyScore": 0.3,
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.47,
+      "digestScore": 0.9,
       "whyThisMatters": ""
     },
     {
@@ -447,6 +456,43 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d43817ff3bb66a34",
+      "date": "2026-10-09",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:nikunj",
+      "builderOrOrg": "Nikunj Kothari",
+      "title": "Moving @askalphaxiv to the dock is the best thing I have done this week.. Went from 0 to ~30 mi…",
+      "url": "https://x.com/nikunj/status/2108060822698357240",
+      "publishedAt": "2026-10-08T05:04:00.000Z",
+      "content": "Moving @askalphaxiv to the dock is the best thing I have done this week.. Went from 0 to ~30 mins of reading papers on my phone whenever I’m waiting on things. https://t.co/aPwn0LgfcY",
+      "summary": "Moving @askalphaxiv to the dock is the best thing I have done this week.. Went from 0 to ~30 mins of reading papers on my phone whenever I’m waiting on things. https://t.co/aPwn0LgfcY",
+      "regionTags": [],
+      "metrics": {
+        "likes": 4,
+        "retweets": 0,
+        "replies": 2
+      },
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "paper"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.56,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.47,
       "whyThisMatters": ""
     },
     {
@@ -2351,41 +2397,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "953fe84bf90c56bb",
-      "date": "2026-09-22",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google AI Blog",
-      "sourceKey": "official:Google AI Blog",
-      "builderOrOrg": "Google",
-      "title": "Building AI to accelerate science and improve lives",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
-      "publishedAt": "2026-09-15T16:00:00.000Z",
-      "content": "The true measure of AI is who it helps. Here’s how it’s impacting lives today. We're focused on key areas where advanced technology can help make extraordinary progress …",
-      "summary": "The true measure of AI is who it helps. Here’s how it’s impacting lives today. We're focused on key areas where advanced technology can help make extraordinary progress …",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "science"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     }
   ]
