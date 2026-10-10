@@ -1,41 +1,8 @@
 {
-  "generatedAt": "2026-10-10T06:06:11.251Z",
+  "generatedAt": "2026-10-10T07:18:53.522Z",
   "slug": "voice",
   "label": "Voice",
   "items": [
-    {
-      "id": "21af9a8275192bc0",
-      "date": "2026-10-10",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "Training Data",
-      "sourceKey": "podcast:Training Data",
-      "builderOrOrg": "Training Data",
-      "title": "Google's AI Infrastructure Chief, Amin Vahdat, on the Physics & Economics of Frontier AI",
-      "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
-      "publishedAt": "2026-10-06T09:00:00.000Z",
-      "content": "Speaker 1 | 00:00 - 00:35 In hardware, again, as you know, there is this opportunity where the more you specialize to a particular workload, the less flexible it is, the faster, the more power efficient the hardware is gonna be. So it is this art, and it's this projection of what are you designing to and how persistent is that workload. In other words, if it's gonna go away after a month or two months or three months, even if it's big for those three months, you got a really narrow window to intercept it. So it has to be somewhat durable, and you have to be able to project exact... Exactly what win you can get for specializing to it. Speaker 2 | 00:52 - 00:56 Thrilled to welcome Amin Vedat to the show. Amin, thank you for joining us for today. Speaker 1 | 00:56 - 00:59 It's really exciting to be here. I'm really looking forward to it. Speaker 2 | 00:59 - 01:21 I am very excited for today's topic because we are in the middle of the biggest CapEx build out in human history. You are in the middle of it. Google alone is expected to spend more than $200,000,000,000 on CapEx this year, most of which is going into building data centers. You're at the center of it all. You were named the head of Google's AI infra at the end of last year. Speaker 2 | 01:22 - 01:30 So you are the man spearheading the efforts of one of the most capital intensive build outs in human history. And so I am really excited to get into it with you today. Speaker 1 | 01:30 - 01:46 Yeah, it's a huge year, for sure, of course, across the industry, including at Google. Really, I don't think we've ever seen anything like this, honestly. Certainly not Google, but as you said, I think in the history of humanity in terms of the build outs and the pace of transformation, really unbelievable. Speaker 2 | 01:46 - 01:55 Before we get into it, maybe just just crash course for the audience. What is an AI data center, and how is it different from a non AI data center? Speaker 1 | 01:55 - 02:18 It's a very good question in that AI data center and a non AI data center do have a lot of similarities, actually, and they're not radically different. I mean, it consists of concrete, an enclosure. It consists of electrical yards, mechanical yards, cooling. You have row after row of power being distributed. There's a huge amount of network infrastructure there. Speaker 1 | 02:18 - 02:43 In other words, we connect large amounts of computes to one another. A fair amount of storage infrastructure goes in there. I think that the big difference that we're seeing with AI infrastructure is specialization. In the past, when we're building a data center, it really is a twenty, twenty five, thirty year building investment. And we're thinking about how it's going to be evolving over that twenty, twenty five, thirty year period. Speaker 1 | 02:43 - 02:59 You might have servers go into it. You might have networking storage. You might have some accelerators, GPUs, TPUs, whatever they might be going into it. But it's a twenty five, thirty year planning horizon. And the lifetime of the hardware might be six years. Speaker 1 | 02:59 - 03:21 So many generations that we have to plan for. An AI data center oftentimes is going to be more purpose built. So in other words, we are oftentimes co designing the building with the hardware that might go into it. We might be saying, you know what, actually, we're not going to put a lot of storage into this building. Why? Speaker 1 | 03:21 - 03:56 Because a storage rack might have 10, 20, 30, 40 kilowatts of power. You put that next to a TP rack or a GP rack that easily is hitting hundreds of kilowatts today, might hit megawatts people are talking about that in the next few years. Designing a building that might take 30 storage racks in a row versus one or two AI racks in that same row very, very different design. Just think of it in terms of the size. Think of it in terms of the power and how that would be distributed across the building, etcetera. Speaker 1 | 03:…",
-      "summary": "Speaker 1 | 00:00 - 00:35 In hardware, again, as you know, there is this opportunity where the more you specialize to a particular workload, the less flexible it is, the faster, the more power efficient the hardware is gonna be. So it is t…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "voice",
-          "label": "Voice",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tts"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.52,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.44,
-      "whyThisMatters": ""
-    },
     {
       "id": "5c1e38ed9b92336b",
       "date": "2026-10-10",
@@ -86,6 +53,39 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "21af9a8275192bc0",
+      "date": "2026-10-10",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "Training Data",
+      "sourceKey": "podcast:Training Data",
+      "builderOrOrg": "Training Data",
+      "title": "Google's AI Infrastructure Chief, Amin Vahdat, on the Physics & Economics of Frontier AI",
+      "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
+      "publishedAt": "2026-10-06T09:00:00.000Z",
+      "content": "Speaker 1 | 00:00 - 00:35 In hardware, again, as you know, there is this opportunity where the more you specialize to a particular workload, the less flexible it is, the faster, the more power efficient the hardware is gonna be. So it is this art, and it's this projection of what are you designing to and how persistent is that workload. In other words, if it's gonna go away after a month or two months or three months, even if it's big for those three months, you got a really narrow window to intercept it. So it has to be somewhat durable, and you have to be able to project exact... Exactly what win you can get for specializing to it. Speaker 2 | 00:52 - 00:56 Thrilled to welcome Amin Vedat to the show. Amin, thank you for joining us for today. Speaker 1 | 00:56 - 00:59 It's really exciting to be here. I'm really looking forward to it. Speaker 2 | 00:59 - 01:21 I am very excited for today's topic because we are in the middle of the biggest CapEx build out in human history. You are in the middle of it. Google alone is expected to spend more than $200,000,000,000 on CapEx this year, most of which is going into building data centers. You're at the center of it all. You were named the head of Google's AI infra at the end of last year. Speaker 2 | 01:22 - 01:30 So you are the man spearheading the efforts of one of the most capital intensive build outs in human history. And so I am really excited to get into it with you today. Speaker 1 | 01:30 - 01:46 Yeah, it's a huge year, for sure, of course, across the industry, including at Google. Really, I don't think we've ever seen anything like this, honestly. Certainly not Google, but as you said, I think in the history of humanity in terms of the build outs and the pace of transformation, really unbelievable. Speaker 2 | 01:46 - 01:55 Before we get into it, maybe just just crash course for the audience. What is an AI data center, and how is it different from a non AI data center? Speaker 1 | 01:55 - 02:18 It's a very good question in that AI data center and a non AI data center do have a lot of similarities, actually, and they're not radically different. I mean, it consists of concrete, an enclosure. It consists of electrical yards, mechanical yards, cooling. You have row after row of power being distributed. There's a huge amount of network infrastructure there. Speaker 1 | 02:18 - 02:43 In other words, we connect large amounts of computes to one another. A fair amount of storage infrastructure goes in there. I think that the big difference that we're seeing with AI infrastructure is specialization. In the past, when we're building a data center, it really is a twenty, twenty five, thirty year building investment. And we're thinking about how it's going to be evolving over that twenty, twenty five, thirty year period. Speaker 1 | 02:43 - 02:59 You might have servers go into it. You might have networking storage. You might have some accelerators, GPUs, TPUs, whatever they might be going into it. But it's a twenty five, thirty year planning horizon. And the lifetime of the hardware might be six years. Speaker 1 | 02:59 - 03:21 So many generations that we have to plan for. An AI data center oftentimes is going to be more purpose built. So in other words, we are oftentimes co designing the building with the hardware that might go into it. We might be saying, you know what, actually, we're not going to put a lot of storage into this building. Why? Speaker 1 | 03:21 - 03:56 Because a storage rack might have 10, 20, 30, 40 kilowatts of power. You put that next to a TP rack or a GP rack that easily is hitting hundreds of kilowatts today, might hit megawatts people are talking about that in the next few years. Designing a building that might take 30 storage racks in a row versus one or two AI racks in that same row very, very different design. Just think of it in terms of the size. Think of it in terms of the power and how that would be distributed across the building, etcetera. Speaker 1 | 03:…",
+      "summary": "Speaker 1 | 00:00 - 00:35 In hardware, again, as you know, there is this opportunity where the more you specialize to a particular workload, the less flexible it is, the faster, the more power efficient the hardware is gonna be. So it is t…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tts"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.52,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.44,
       "whyThisMatters": ""
     },
     {

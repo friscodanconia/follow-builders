@@ -1,8 +1,61 @@
 {
-  "generatedAt": "2026-10-10T06:06:11.251Z",
+  "generatedAt": "2026-10-10T07:18:53.522Z",
   "slug": "open-source",
   "label": "Open Source",
   "items": [
+    {
+      "id": "b0a0442c0beeba5d",
+      "date": "2026-10-10",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "No Priors",
+      "sourceKey": "podcast:No Priors",
+      "builderOrOrg": "No Priors",
+      "title": "Beam: The Great American Open Model with ReflectionAI Co-Founder and CEO Misha Laskin",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "publishedAt": "2026-10-09T17:24:00.000Z",
+      "content": "Speaker 1 | 00:00 - 00:26 When you remove cyber offensive capabilities, you also remove cyber defensive capabilities. The state of the world today is that we have a few 100 safety researchers within closed labs that understand how these things work. And despite their best intentions, is impossible to cover the long tail of unintended consequences that these systems might have. A very powerful closed model went and hacked into another company, and the only way that company could remediate itself was by using open models to protect itself. That's the empirical evidence of the world that we're in. Speaker 1 | 00:26 - 00:34 Linus' law, with enough eyeballs, all bugs become shallow. I have the belief that with enough eyeballs, most security and safety vulnerabilities become shallow as well. Speaker 2 | 00:41 - 00:57 Today, we're joined by Misha Laskom, the co founder and CEO of Reflection AI. Reflection provides open weight models to power the future of intelligence. Misha Pryor was a researcher at Google DeepMind and received his PhD in Physics. Welcome, Inno Pryor's. Great to have you here today. Speaker 1 | 00:57 - 00:59 Yeah, it's great to be here. Thanks for having me. Speaker 2 | 00:59 - 01:11 Could you give us an update on where things are at? Mean, obviously, you guys have been pioneering really interesting work in open weights and open source models, particularly with a US bent. Can you talk a bit what you've been up to and what you guys have been building? Speaker 1 | 01:11 - 01:38 Yeah, so for the last twelve months, we set, right, the mission of the company to build frontier open intelligence and make it widely accessible. And effectively, it's been a sprint to set up a lab that is capable of of doing such things. It it kind of feels like maybe there's a Reid Hoffman quote that, you know, you're assembling a a plane as you're flying it. And that's, you know, that... That's been the case. Speaker 1 | 01:38 - 02:05 We were maybe around 30 people about a year ago, but it does take order of a 100 plus. So a couple 100 researchers and engineers to build one of these things, a true rocket ship project. And we're now at around 300 people and assembled all the teams on pre training, mid training, reinforcement learning, scaled up our... Trained our first models end to end and just released a model called Beam, which is Reflection's first open model. Speaker 2 | 02:05 - 02:32 What has been the most challenging part of that? Because when people talk about scale or scaling up models or starting to build these models out, one issue is compute and procuring enough, a training cluster that's cohesive in terms of the ability to use it. Second is talent. And obviously, there's been these huge talent wars in terms of how much people pay for researchers, etcetera. Third is scale of data. Speaker 2 | 02:33 - 02:35 Which of those has been the most limiting or the most challenging? Speaker 1 | 02:35 - 02:50 What's been interesting about this experience is that I got asked this questions at all hands at the company, what's been the hardest thing last in year? And the reality is that everything is extremely hard. Everything has been hard. Speaker 2 | 02:51 - 02:52 Startup, yeah. Speaker 1 | 02:52 - 03:13 And it's also sometimes people might ask, well, what's the thing that really made your models work better than others or something like this? And again, the answer is everything. You actually have to get 30 things right, and that's why everything is hard because you have to get 30 things right. You have to get the talent. You have to retain the talent. Speaker 1 | 03:13 - 03:31 You have to have a strong mission and culture that keeps the talent working together and rowing in the same boat. You have to get the data. You have to get the compute. You have to build the infrastructure to ensure that the compute is actually usable. These are... Speaker 1 | 03:31 - 03:55 A lot of these things, when you're at an existing big lab, there have been yea…",
+      "summary": "Speaker 1 | 00:00 - 00:26 When you remove cyber offensive capabilities, you also remove cyber defensive capabilities. The state of the world today is that we have a few 100 safety researchers within closed labs that understand how these th…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.69,
+          "rationale": [
+            "open source",
+            "weights"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "rl",
+            "reinforcement learning"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.6,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.49,
+      "whyThisMatters": ""
+    },
     {
       "id": "e1819502ff653dfa",
       "date": "2026-10-10",
@@ -56,7 +109,7 @@
       "section": "Official Sources",
       "importanceScore": 0.72,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.57,
       "whyThisMatters": ""
     },
@@ -2337,52 +2390,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d5d53c2a5c1252c2",
-      "date": "2026-08-23",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:claudeai",
-      "builderOrOrg": "Claude",
-      "title": "It's one of several steps to bring frontier capability to more defenders: we’re working with pa…",
-      "url": "https://x.com/claudeai/status/2090852320128938319",
-      "publishedAt": "2026-08-21T17:23:33.000Z",
-      "content": "It's one of several steps to bring frontier capability to more defenders: we’re working with partners to integrate Mythos 5 into their security products and services, our new Defender Advantage Fund provides $35M in credits for open-source security, and we’re expanding our Cyber Verification Program in the coming weeks. Read more: https://t.co/xgu4d9yrwm",
-      "summary": "It's one of several steps to bring frontier capability to more defenders: we’re working with partners to integrate Mythos 5 into their security products and services, our new Defender Advantage Fund provides $35M in cre…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 212,
-        "retweets": 3,
-        "replies": 3
-      },
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open-source"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.78,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.61,
       "whyThisMatters": ""
     }
   ]
