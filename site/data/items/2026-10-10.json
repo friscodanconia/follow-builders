@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T00:30:57.201Z",
+  "generatedAt": "2026-10-10T06:06:11.251Z",
   "date": "2026-10-10",
   "items": [
     {
@@ -133,7 +133,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -573,7 +573,7 @@
       "section": "Builders",
       "importanceScore": 0.84,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.65,
       "whyThisMatters": ""
     },
@@ -906,9 +906,9 @@
       ],
       "section": "Official Sources",
       "importanceScore": 0.58,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.73,
+      "digestScore": 0.48,
       "whyThisMatters": ""
     },
     {
@@ -959,9 +959,9 @@
       ],
       "section": "Official Sources",
       "importanceScore": 0.72,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.82,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
       "whyThisMatters": ""
     },
     {
@@ -1287,7 +1287,7 @@
       "section": "Official Sources",
       "importanceScore": 0.72,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.57,
       "whyThisMatters": ""
     },
@@ -1438,6 +1438,41 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d72bb6f9fc508a27",
+      "date": "2026-10-10",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
+      "url": "https://www.latent.space/p/biohub-deepmind",
+      "publishedAt": "2026-10-10T00:31:26.000Z",
+      "content": "From the Bitter Lesson of AI scaling to the unsolved mysteries of protein folding , Google DeepMind&#8217;s Pushmeet Kohli and Biohub&#8217;s Sal Candido are rethinking what it takes to build AI that truly understands biology. In this special panel moderated by Brandon Anderson , they explore why AlphaFold&#8217;s breakthrough was only the beginning , why scaling compute and data alone won&#8217;t solve biology, and how the next generation of AI models could transform our understanding of proteins, cells, and human disease. We go deep on the future of AI-driven biology : finding scaling laws in biological data, the tradeoffs between scientific intuition and general-purpose architectures, why protein structure prediction is far from solved, and what it would take to build predictive models of living systems. Pushmeet reflects on the lessons behind AlphaFold , the limits of human interpretability, and whether future frontier models could understand other AI systems better than we can. Sal explains why protein language models may already contain scientific knowledge we haven&#8217;t unlocked, how biological modeling must move beyond individual proteins, and why achieving Biohub&#8217;s mission to cure all disease requires thinking in terms of 10x breakthroughs rather than incremental improvements. We discuss: The Bitter Lesson for biology : why scaling compute and data isn&#8217;t enough Why finding the right scaling law matters more than blindly increasing model size How low-quality metagenomic data can improve protein language models Why AI researchers optimize for available data instead of the most important scientific problems Lessons from DeepMind on balancing modeling, data generation, and scientific expertise Why building a virtual cell requires fundamentally different datasets AlphaFold&#8217;s handcrafted architecture and the role of scientific intuition Why good data matters more than simply having more data Inductive biases, scaling laws, and the future of…",
+      "summary": "From the Bitter Lesson of AI scaling to the unsolved mysteries of protein folding, Google DeepMind&#8217;s Pushmeet Kohli and Biohub&#8217;s Sal Candido are rethinking what it takes to build AI that truly understands biology.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.81,
+          "rationale": [
+            "research",
+            "dataset",
+            "finding"
+          ],
+          "score": 3
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
       "whyThisMatters": ""
     },
     {
@@ -1644,59 +1679,6 @@
       "whyThisMatters": ""
     },
     {
-      "id": "d22f2036a1ac8090",
-      "date": "2026-10-10",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems; “the most significant moment” in >100 years of mathematics",
-      "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai",
-      "publishedAt": "2026-10-07T04:55:44.000Z",
-      "content": "Tickets for AIE NYC are selling out soon! See you next week! see past AINews issues for subscriber discounts. Pour one out for Mistral, who shipped a decent Large 4 &#8220;Le Chonk&#8221; model on the new 3800 GB300 cluster funded by their recent Series D . But they were overshadowed by more mathematics results from OpenAI&#8217;s internal Navier-Stokes math model - published as a blogpost , repo , and tweet . The best compliment comes from their Navier-Stokes competitor from Anthropic, who despite his personal issues with OpenAI, does not mince words: &#8220;It&#8217;s obviously the most significant moment in mathematical history.&#8221; This bears some qualification , but most experts seem to agree that it solves many of the top 500 open problems in math . In particular, Result 003, the Quasi-Riemann Hypothesis , is somewhere between a Fields Medal result and &#8220;the biggest result in number theory in 200 years &#8221;. The most astonishing is the how - while Navier-Stokes was done in 88 hours and 10,000 agents , these solutions were 3 hours of ChatGPT Pro on average . AI News for 10/5/2026-10/6/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI Releases 722 Math Manuscripts From an Unreleased Internal Model The release : OpenAI published a broad set of mathematical results from an internal frontier model in a public GitHub repo . It says it consulted the Institute for Advanced Study&#8217;s independent Advisory Group on Mathematics and AI on how to release them. Scale and compute : The collection reportedly holds 722 manuscripts grouped into 372 families of related results. They came from an evaluation of about 4,000 research problems and used an average of roughly three hours of ChatGPT Pro thinking compute per result ( summary , Rundown ). Artifacts : The release i…",
-      "summary": "Our head hurts.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "paper"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "eval",
-            "evaluation"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
       "id": "6db1d274cb3c1893",
       "date": "2026-10-10",
       "sourceType": "newsletter",
@@ -1733,9 +1715,9 @@
       ],
       "section": "Podcasts & Newsletters",
       "importanceScore": 0.4,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.61,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -1947,76 +1929,23 @@
   ],
   "selectedItems": [
     {
-      "id": "18c1be3544572320",
-      "date": "2026-10-10",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "url": "https://openai.com/index/asana-browser-agent",
-      "publishedAt": "2026-10-09T07:00:00.000Z",
-      "content": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "browser"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.82,
-      "whyThisMatters": "Every SaaS company has a browser agent sitting in a product roadmap right now, held back by the cost math. When that math flips by two orders of magnitude, a lot of those roadmap items suddenly move to Q4. Your project management tool, your CRM, your HR platform — the race to ship agentic features just got a starting pistol."
-    },
-    {
-      "id": "ed5562a208b90a32",
+      "id": "65538663ed3feb6f",
       "date": "2026-10-10",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:mattturck",
-      "builderOrOrg": "Matt Turck",
-      "title": "Special treat for the @andy_pavlo fans out there: an in-depth discussion about what happens to…",
-      "url": "https://x.com/mattturck/status/2108223135673696504",
-      "publishedAt": "2026-10-08T15:48:59.000Z",
-      "content": "Special treat for the @andy_pavlo fans out there: an in-depth discussion about what happens to databases when billions of AI agents hit them, his move to build a research lab at @ClickHouseDB, and plently of hot takes on the database market (Postgres, vector, graph, GPU etc) 00:00 Cold open & Intro 01:21 From vector databases and RAG to the age of agents 04:09 Neon's stat: agents create 80% of databases? 07:25 Why agents keep deleting production databases 08:19 Guardrails: the toddler-and-stair…",
-      "summary": "Special treat for the @andy_pavlo fans out there: an in-depth discussion about what happens to databases when billions of AI agents hit them, his move to build a research lab at @ClickHouseDB, and plently of hot takes o…",
+      "sourceKey": "x:garrytan",
+      "builderOrOrg": "Garry Tan",
+      "title": "Logical: in the future ICs with agents will be more productive and create better outcomes than…",
+      "url": "https://x.com/garrytan/status/2108433505038606620",
+      "publishedAt": "2026-10-09T05:44:55.000Z",
+      "content": "Logical: in the future ICs with agents will be more productive and create better outcomes than equivalent people managers from prior eras https://t.co/mzsCcyOanP",
+      "summary": "Logical: in the future ICs with agents will be more productive and create better outcomes than equivalent people managers from prior eras https://t.co/mzsCcyOanP",
       "regionTags": [],
       "metrics": {
-        "likes": 109,
-        "retweets": 18,
-        "replies": 14
+        "likes": 43,
+        "retweets": 5,
+        "replies": 23
       },
       "topics": [
         {
@@ -2027,57 +1956,41 @@
             "agent"
           ],
           "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
         }
       ],
       "section": "Builders",
-      "importanceScore": 0.84,
+      "importanceScore": 0.83,
       "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.65,
-      "whyThisMatters": "Your infrastructure team is probably not provisioned for a world where AI agents are the primary database clients, not humans. If Neon's 80% number is anywhere near accurate, the access patterns, guardrails, and cost models your team built for human developers are already obsolete."
+      "digestScore": 0.64,
+      "whyThisMatters": ""
     },
     {
-      "id": "6db1d274cb3c1893",
+      "id": "d72bb6f9fc508a27",
       "date": "2026-10-10",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Kevin Roose on the AGI Believers: Oppenheimer with Equity",
-      "url": "https://www.chinatalk.media/p/the-agi-chronicles",
-      "publishedAt": "2026-10-09T10:03:10.000Z",
-      "content": "Kevin Roose , formerly of Hard Fork and author of the frankly brilliant The AGI Chronicles , with an assist from Jasmine Sun , who is a researcher on the book, joins us. We&#8217;re going through his recent history of OpenAI, Anthropic, DeepMind, and the community of people who think and worry too much about artificial intelligence. Kevin has left the New York T&#8230; Read more",
-      "summary": "this one was so fun",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
+      "url": "https://www.latent.space/p/biohub-deepmind",
+      "publishedAt": "2026-10-10T00:31:26.000Z",
+      "content": "From the Bitter Lesson of AI scaling to the unsolved mysteries of protein folding , Google DeepMind&#8217;s Pushmeet Kohli and Biohub&#8217;s Sal Candido are rethinking what it takes to build AI that truly understands biology. In this special panel moderated by Brandon Anderson , they explore why AlphaFold&#8217;s breakthrough was only the beginning , why scaling compute and data alone won&#8217;t solve biology, and how the next generation of AI models could transform our understanding of proteins, cells, and human disease. We go deep on the future of AI-driven biology : finding scaling laws in biological data, the tradeoffs between scientific intuition and general-purpose architectures, why protein structure prediction is far from solved, and what it would take to build predictive models of living systems. Pushmeet reflects on the lessons behind AlphaFold , the limits of human interpretability, and whether future frontier models could understand other AI systems better than we can. Sal explains why protein language models may already contain scientific knowledge we haven&#8217;t unlocked, how biological modeling must move beyond individual proteins, and why achieving Biohub&#8217;s mission to cure all disease requires thinking in terms of 10x breakthroughs rather than incremental improvements. We discuss: The Bitter Lesson for biology : why scaling compute and data isn&#8217;t enough Why finding the right scaling law matters more than blindly increasing model size How low-quality metagenomic data can improve protein language models Why AI researchers optimize for available data instead of the most important scientific problems Lessons from DeepMind on balancing modeling, data generation, and scientific expertise Why building a virtual cell requires fundamentally different datasets AlphaFold&#8217;s handcrafted architecture and the role of scientific intuition Why good data matters more than simply having more data Inductive biases, scaling laws, and the future of…",
+      "summary": "From the Bitter Lesson of AI scaling to the unsolved mysteries of protein folding, Google DeepMind&#8217;s Pushmeet Kohli and Biohub&#8217;s Sal Candido are rethinking what it takes to build AI that truly understands biology.",
       "regionTags": [],
       "metrics": {},
       "topics": [
         {
           "slug": "research",
           "label": "Research",
-          "confidence": 0.5700000000000001,
+          "confidence": 0.81,
           "rationale": [
-            "research"
+            "research",
+            "dataset",
+            "finding"
           ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
+          "score": 3
         }
       ],
       "section": "Podcasts & Newsletters",
@@ -2088,80 +2001,60 @@
       "whyThisMatters": ""
     },
     {
-      "id": "e1819502ff653dfa",
-      "date": "2026-10-10",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
-      "url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/",
-      "publishedAt": "2026-10-07T16:00:00.000Z",
-      "content": "At a glance Harnessed Agentic RL: Microsoft Research Asia introduces a training paradigm in which the same agent harness used in deployment participates directly in reinforcement learning, removing the need to reimplement the agent inside the training framework. Lightweight by design: Agent Lightning v1.0 delivers a complete agent RL control plane in roughly 3,500 lines of code. Native Kubernetes support: agents run as standard Kubernetes jobs on self-managed clusters, cloud Kubernetes, or local infrastructure, with no dependency on paid commercial sandbox services. Data-efficient training recipe: an end-to-end coding agent pipeline raised Qwen3.5-9B from 41.8% to 56.4% Pass@1 on SWE-bench Verified, a 14.6 percentage point gain, using only about 6,000 training samples based on open sourced dataset. AI agents have evolved from single models to complex full-stack systems built from models, tools, and execution environments. Their capabilities increasingly depend on the agent harness that coordinates them from outside the model. Reinforcement learning (RL) is an approach where AI systems learn through trial and error, guided by rewards and penalties for their actions. RL can make those agents better, but most agent RL systems require developers to reimplement the agent inside the training framework. That is costly, and it means the agent being trained is not quite the agent that gets deployed. To address this, researchers at Microsoft Research Asia have introduced the Harnessed Agentic RL training paradigm and open-sourced a fully rebuilt Agent Lightning v1.0 (opens in new tab) . Compared with the original, Agent Lightning, v1.0 puts more emphasis on staying lightweight, on integrating with real harnesses, and on a complete, reproducible agent RL training pipeline. Agent Lightning v1.0 was rebuilt around Harnessed Agentic RL, with key improvements: Lightweight : the entire framework is about 3,500 lines of code. Agent Lightning v1.0 implements a complete Harnessed Age…",
-      "summary": "Training AI agents with reinforcement learning can be challenging because their tools, context, and decision-making are managed by complex frameworks. Agent Lightning connects existing agents to RL training, making it easier to improve the…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.9299999999999999,
-          "rationale": [
-            "coding",
-            "code",
-            "developer"
-          ],
-          "score": 4
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.69,
-          "rationale": [
-            "open-source",
-            "open source"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": "If you're building agents in-house, the training-versus-deployment gap has been a quiet tax on your results. Closing it with a framework anyone can run on Kubernetes, without paying for commercial sandboxes, is a meaningful unlock for teams that aren't OpenAI or Anthropic."
-    },
-    {
-      "id": "8093cbde350c615b",
+      "id": "1652470feffb7e23",
       "date": "2026-10-10",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:thsottiaux",
-      "builderOrOrg": "Thibault Sottiaux",
-      "title": "Day 4/ We have improved steering to be instant, leading to the model now reacting much faster t…",
-      "url": "https://x.com/thsottiaux/status/2108275041276420573",
-      "publishedAt": "2026-10-08T19:15:14.000Z",
-      "content": "Day 4/ We have improved steering to be instant, leading to the model now reacting much faster to adjustments you make, allowing you to course-correct direction in realtime and not have the model waste effort. Also releasing GPT-6.1 Sol ultrafast. The two work very well together.",
-      "summary": "Day 4/ We have improved steering to be instant, leading to the model now reacting much faster to adjustments you make, allowing you to course-correct direction in realtime and not have the model waste effort. Also relea…",
+      "sourceKey": "x:adityaag",
+      "builderOrOrg": "Aditya Agarwal",
+      "title": "When is an autonomous vehicle actually good enough? https://t.co/VQTbWP1Jfj https://t.co/MA8e3U…",
+      "url": "https://x.com/adityaag/status/2108254520744517652",
+      "publishedAt": "2026-10-08T17:53:41.000Z",
+      "content": "When is an autonomous vehicle actually good enough? https://t.co/VQTbWP1Jfj https://t.co/MA8e3UAYgb",
+      "summary": "When is an autonomous vehicle actually good enough? https://t.co/VQTbWP1Jfj https://t.co/MA8e3UAYgb",
       "regionTags": [],
       "metrics": {
-        "likes": 8346,
-        "retweets": 268,
-        "replies": 1544
+        "likes": 19,
+        "retweets": 2,
+        "replies": 3
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "autonomous"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.75,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.59,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "862f9ba5409f4016",
+      "date": "2026-10-10",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:trq212",
+      "builderOrOrg": "Thariq",
+      "title": "and read more about how to enable the API credits for yourself here: https://t.co/dXXsfLbxH6",
+      "url": "https://x.com/trq212/status/2108301672409960922",
+      "publishedAt": "2026-10-08T21:01:03.000Z",
+      "content": "and read more about how to enable the API credits for yourself here: https://t.co/dXXsfLbxH6",
+      "summary": "and read more about how to enable the API credits for yourself here: https://t.co/dXXsfLbxH6",
+      "regionTags": [],
+      "metrics": {
+        "likes": 92,
+        "retweets": 1,
+        "replies": 5
       },
       "topics": [],
       "section": "Builders",
@@ -2169,14 +2062,51 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": "Anyone who's watched an AI agent confidently march down the wrong path for 30 seconds after you told it to stop knows exactly what problem this solves. Tighter feedback loops mean less wasted compute and fewer moments where you have to restart from scratch. The Asana cost story and this one belong together — cheaper and faster to steer is a compounding advantage."
+      "whyThisMatters": ""
+    },
+    {
+      "id": "36c4fc8ae899332b",
+      "date": "2026-10-10",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "This sounds weird, but it is actually probably a good policy. Even if you don’t believe AI is c…",
+      "url": "https://x.com/levie/status/2108426594054533545",
+      "publishedAt": "2026-10-09T05:17:27.000Z",
+      "content": "This sounds weird, but it is actually probably a good policy. Even if you don’t believe AI is conscious (I don’t), it stands to reason that you don’t want future models trained on endless content of humans being rude to models. The models only understand the data they’ve been trained on, or what they run into in their interactions, so if you want safe and aligned models we probably want AI to have lots of good interactions in their training data. Anthropic may have more extreme beliefs than thi…",
+      "summary": "This sounds weird, but it is actually probably a good policy. Even if you don’t believe AI is conscious (I don’t), it stands to reason that you don’t want future models trained on endless content of humans being rude to…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 337,
+        "retweets": 24,
+        "replies": 69
+      },
+      "topics": [
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "policy"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
+      "whyThisMatters": ""
     }
   ],
   "topicIndex": [
     {
       "slug": "agents",
       "label": "AI Assistants",
-      "count": 15,
+      "count": 14,
       "latestDate": "2026-10-10"
     },
     {
@@ -2210,12 +2140,6 @@
       "latestDate": "2026-10-10"
     },
     {
-      "slug": "benchmarks",
-      "label": "AI Testing",
-      "count": 3,
-      "latestDate": "2026-10-10"
-    },
-    {
       "slug": "fine-tuning",
       "label": "Custom AI",
       "count": 3,
@@ -2231,6 +2155,12 @@
       "slug": "inference",
       "label": "Speed & Cost",
       "count": 3,
+      "latestDate": "2026-10-10"
+    },
+    {
+      "slug": "benchmarks",
+      "label": "AI Testing",
+      "count": 2,
       "latestDate": "2026-10-10"
     },
     {
@@ -2259,7 +2189,6 @@
     }
   ],
   "sections": [
-    "Official Sources",
     "Builders",
     "Podcasts & Newsletters"
   ],
