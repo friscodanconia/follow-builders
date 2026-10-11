@@ -1,97 +1,61 @@
 {
-  "generatedAt": "2026-10-11T06:04:16.388Z",
+  "generatedAt": "2026-10-11T07:22:00.287Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
     {
-      "id": "622663d22d431396",
+      "id": "bbb68533cd3279cd",
       "date": "2026-10-11",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:realmadhuguru",
-      "builderOrOrg": "Madhu Guru",
-      "title": "Open-weight models did not start the drop in price per unit of intelligence. They are a tailwin…",
-      "url": "https://x.com/realmadhuguru/status/2108618266776387886",
-      "publishedAt": "2026-10-09T17:59:05.000Z",
-      "content": "Open-weight models did not start the drop in price per unit of intelligence. They are a tailwind on a trend that was already underway. For the last few years, a few factors have driven price drops: 1/ Model builders distilling their best models into smaller ones, with cheaper inference 2/ Infra efficiency 3/ Competition between model providers You can see this pattern with every model company: Version x of the mid-size model = intelligence of version x-1 of the large model. Same intelligence fo…",
-      "summary": "Open-weight models did not start the drop in price per unit of intelligence. They are a tailwind on a trend that was already underway. For the last few years, a few factors have driven price drops: 1/ Model builders dis…",
+      "sourceKey": "x:garrytan",
+      "builderOrOrg": "Garry Tan",
+      "title": "For retrieval/latency data tasks like what GBrain does, setting up clear evals around retrieval…",
+      "url": "https://x.com/garrytan/status/2108954738540863498",
+      "publishedAt": "2026-10-10T16:16:06.000Z",
+      "content": "For retrieval/latency data tasks like what GBrain does, setting up clear evals around retrieval, latency and cost per compute is useful. That's my repo https://t.co/2rdleyR8Rl which has 40+ categories that each can be auto-researched and auto-improved",
+      "summary": "For retrieval/latency data tasks like what GBrain does, setting up clear evals around retrieval, latency and cost per compute is useful. That's my repo https://t.co/2rdleyR8Rl which has 40+ categories that each can be a…",
       "regionTags": [],
       "metrics": {
-        "likes": 9,
-        "retweets": 0,
-        "replies": 0
+        "likes": 22,
+        "retweets": 2,
+        "replies": 6
       },
       "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
         {
           "slug": "inference",
           "label": "Speed & Cost",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "inference"
+            "latency"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
           ],
           "score": 1
         }
       ],
       "section": "Builders",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
+      "importanceScore": 0.62,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "5d94b23123a81b3f",
-      "date": "2026-10-11",
-      "sourceType": "blog",
-      "sourceGroup": "mirrored",
-      "sourceName": "Anthropic Engineering",
-      "sourceKey": "blog:Anthropic Engineering",
-      "builderOrOrg": "Anthropic Engineering",
-      "title": "An update on recent Claude Code quality reports",
-      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
-      "publishedAt": null,
-      "content": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was not impacted. All three issues have now been resolved as of April 20 (v2.1.116). In this post, we explain what we found, what we fixed, and what we’ll do differently to ensure similar issues are much less likely to happen again. We take reports about degradation very seriously. We never intentionally degrade our models, and we were able to immediately confirm that our API and inference layer were unaffected. After investigation, we identified three different issues: On March 4, we changed Claude Code&#x27;s default reasoning effort from high to medium to reduce the very long latency—enough to make the UI appear frozen—some users were seeing in high mode. This was the wrong tradeoff. We reverted this change on April 7 after users told us they&#x27;d prefer to default to higher intelligence and opt into lower effort for simple tasks. This impacted Sonnet 4.6 and Opus 4.6. On March 26, we shipped a change to clear Claude&#x27;s older thinking from sessions that had been idle for over an hour, to reduce latency when users resumed those sessions. A bug caused this to keep happening every turn for the rest of the session instead of just once, which made Claude seem forgetful and repetitive. We fixed it on April 10. This affected Sonnet 4.6 and Opus 4.6. On April 16, we added a system prompt instruction to reduce verbosity. In combination with other prompt changes, it hurt coding quality and was reverted on April 20. This impacted Sonnet 4.6, Opus 4.6, and Opus 4.7. Because each change affected a different slice of traffic on a different schedule, the aggregate effect looked like broad, inconsistent degradation. While we began investigating reports in early March, they were challenging to distinguish from normal variation in user feedba…",
-      "summary": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.81,
-          "rationale": [
-            "coding",
-            "code",
-            "repo"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.69,
-          "rationale": [
-            "inference",
-            "latency"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Watchlist",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
+      "digestScore": 0.75,
       "whyThisMatters": ""
     },
     {
@@ -219,6 +183,97 @@
         }
       ],
       "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "622663d22d431396",
+      "date": "2026-10-11",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:realmadhuguru",
+      "builderOrOrg": "Madhu Guru",
+      "title": "Open-weight models did not start the drop in price per unit of intelligence. They are a tailwin…",
+      "url": "https://x.com/realmadhuguru/status/2108618266776387886",
+      "publishedAt": "2026-10-09T17:59:05.000Z",
+      "content": "Open-weight models did not start the drop in price per unit of intelligence. They are a tailwind on a trend that was already underway. For the last few years, a few factors have driven price drops: 1/ Model builders distilling their best models into smaller ones, with cheaper inference 2/ Infra efficiency 3/ Competition between model providers You can see this pattern with every model company: Version x of the mid-size model = intelligence of version x-1 of the large model. Same intelligence fo…",
+      "summary": "Open-weight models did not start the drop in price per unit of intelligence. They are a tailwind on a trend that was already underway. For the last few years, a few factors have driven price drops: 1/ Model builders dis…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 9,
+        "retweets": 0,
+        "replies": 0
+      },
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "5d94b23123a81b3f",
+      "date": "2026-10-11",
+      "sourceType": "blog",
+      "sourceGroup": "mirrored",
+      "sourceName": "Anthropic Engineering",
+      "sourceKey": "blog:Anthropic Engineering",
+      "builderOrOrg": "Anthropic Engineering",
+      "title": "An update on recent Claude Code quality reports",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "publishedAt": null,
+      "content": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was not impacted. All three issues have now been resolved as of April 20 (v2.1.116). In this post, we explain what we found, what we fixed, and what we’ll do differently to ensure similar issues are much less likely to happen again. We take reports about degradation very seriously. We never intentionally degrade our models, and we were able to immediately confirm that our API and inference layer were unaffected. After investigation, we identified three different issues: On March 4, we changed Claude Code&#x27;s default reasoning effort from high to medium to reduce the very long latency—enough to make the UI appear frozen—some users were seeing in high mode. This was the wrong tradeoff. We reverted this change on April 7 after users told us they&#x27;d prefer to default to higher intelligence and opt into lower effort for simple tasks. This impacted Sonnet 4.6 and Opus 4.6. On March 26, we shipped a change to clear Claude&#x27;s older thinking from sessions that had been idle for over an hour, to reduce latency when users resumed those sessions. A bug caused this to keep happening every turn for the rest of the session instead of just once, which made Claude seem forgetful and repetitive. We fixed it on April 10. This affected Sonnet 4.6 and Opus 4.6. On April 16, we added a system prompt instruction to reduce verbosity. In combination with other prompt changes, it hurt coding quality and was reverted on April 20. This impacted Sonnet 4.6, Opus 4.6, and Opus 4.7. Because each change affected a different slice of traffic on a different schedule, the aggregate effect looked like broad, inconsistent degradation. While we began investigating reports in early March, they were challenging to distinguish from normal variation in user feedba…",
+      "summary": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "coding",
+            "code",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "inference",
+            "latency"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Watchlist",
       "importanceScore": 0.54,
       "noveltyScore": 0.3,
       "previouslySelected": false,
@@ -2337,61 +2392,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "cfe304b92f4f495f",
-      "date": "2026-08-05",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] GPT 5.6 price cut by 20%-80%: Cost of GPT 5.4 Intelligence dropped 13x in 4 months due to GPT 5.6 recursive self-optimization",
-      "url": "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80",
-      "publishedAt": "2026-07-31T04:40:54.000Z",
-      "content": "One of our big &#8220;hero charts&#8221; a year ago (eventually adopted by Demis ) made the stunning observation that, holding LMSys Elo constant, GPT4 level intelligence fell by 1000x over 18 months : Back then, it was unclear if these were &#8220;noob gains&#8221; - going from unoptimized to optimized, going from completions to reasoning, going from dense to MoE, with all the low hanging fruit gone. Another 18 months later, it seems the answer is no; constant-level intelligence is continuing to get precipitously cheaper. Yesterday, OpenAI published findings on how GPT 5.6 had optimized its own serving: 1. Inference Acceleration To serve more tokens on the same hardware without sacrificing quality, OpenAI focused on several systemic upgrades: Self-Optimization: GPT-5.6 Sol was actively used to analyze production traffic, tune load balancing, and autonomously rewrite production kernels in OpenAI&#8217;s own Triton and Gluon languages. This autonomous kernel optimization reduced end-to-end serving costs by 20%. Speculative Decoding: Improved its own draft model (by designing and running hundreds of experiments on its architecture, testing changes in size, structure, and features, while monitoring the speculator training process, autonomously intervening when issues arose, including hardware failures and training instability) increasing token-generation efficiency by over 15%. KV Caching: Optimized batching, sharding, and cache management specific to different workloads (primarily Sol in Codex) to extract more inference from existing hardware. 2. Agentic Harness Improvements To streamline the complex, multi-step tasks in tools like Codex and ChatGPT Work, OpenAI optimized their Rust orchestration layer to reduce repetitive compute costs: Avoiding Context Bloat: Tools, skills, and plugins are only surfaced when needed (deferred discovery), and tool outputs are capped at 10,000 tokens by default to prevent the context window from expanding unnecessarily. Prompt Caching…",
-      "summary": "Distillation is all you need!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.81,
-          "rationale": [
-            "agent",
-            "agentic",
-            "autonomous"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.69,
-          "rationale": [
-            "inference",
-            "serving"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     }
   ]
