@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-10T07:18:53.522Z",
+  "generatedAt": "2026-10-11T00:31:02.649Z",
   "slug": "fine-tuning",
   "label": "Custom AI",
   "items": [
     {
       "id": "929589bf3ecde0af",
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -44,14 +44,14 @@
       ],
       "section": "Builders",
       "importanceScore": 0.84,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.9,
+      "digestScore": 0.65,
       "whyThisMatters": ""
     },
     {
       "id": "6b8506ce35e8d766",
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -91,14 +91,14 @@
       ],
       "section": "Builders",
       "importanceScore": 0.64,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.77,
+      "digestScore": 0.52,
       "whyThisMatters": ""
     },
     {
       "id": "b0a0442c0beeba5d",
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "sourceType": "podcast",
       "sourceGroup": "mirrored",
       "sourceName": "No Priors",
@@ -150,8 +150,50 @@
       "whyThisMatters": ""
     },
     {
+      "id": "17e3635be6adea14",
+      "date": "2026-10-11",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Building AI for Reliable Execution: Lessons From Industrial Robotics",
+      "url": "https://www.latent.space/p/standard-bots",
+      "publishedAt": "2026-10-10T14:04:11.000Z",
+      "content": "When you think of robotics and AI, you probably first think of full humanoid robots like Figure&#8217;s AI-powered machines and 1X&#8217;s NEO home robots . Those may well be the future, but arguably more important in 2026 is industrial robots &#8212; which are typically not humanoids. Standard Bots claims to be &#8220;America&#8217;s largest AI-native industrial robot manufacturer.&#8221; It recently raised $200 million at a $1 billion valuation, in a series C round led by General Catalyst and RoboStrategy, a fund focused on robotics. Its customers include NASA, Amazon and Lockheed Martin. We spoke to Evan Beard , co-founder and CEO, and Leif Jentoft , Head of AI, to find out more about Standard Bots&#8217; AI stack and how its models work. To set the scene, Standard Bots&#8217; industrial robot arms are designed for tasks such as machine tending, welding, and assembly. Here&#8217;s a quick demo by Jentoft: Pretrained models and task-specific adaptation According to Beard, Standard Bots has a shared base model that customers adapt through demonstrations and fine-tuning. Jentoft added that Standard Bots runs a range of models , including a zero-shot perception system for machine tending. Beard says its largest model is in the low billions of parameters &#8212; so it&#8217;s not that large by frontier lab standards. &#8220;We believe data quality matters far more than raw volume,&#8221; said Jentoft, &#8220;and we focus on getting the most out of targeted data rather than chasing the largest possible dataset.&#8221; (This matches the &#8220;bitterest lesson&#8221; of Jev creator Diogo Almeida , who told us recently that the right task and the right data can matter more than compute.) &#8220;Our market access gives us unique access to the highest value data,&#8221; he added. &#8220; In-situ interventions can fix an edge case with a few dozen examples.&#8221; Setting up part identification with ClickFind. Beard notes that Standard Bots focuses on short-horizon tasks t…",
+      "summary": "Inside Standard Bots&#8217; AI stack, pretrained models learn factory tasks from demonstrations and improve through corrections from real deployments.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "dataset"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "fine-tuning"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
+    {
       "id": "b8d9c90093d70a7a",
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -196,14 +238,14 @@
       ],
       "section": "Podcasts & Newsletters",
       "importanceScore": 0.4,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.61,
+      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
       "id": "6db1d274cb3c1893",
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "ChinaTalk",
@@ -245,7 +287,7 @@
     },
     {
       "id": "d73f6e4f5af0bfc0",
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "ChinaTalk",
@@ -2262,43 +2304,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "7e56c0c6c4cb516a",
-      "date": "2026-09-24",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:bcherny",
-      "builderOrOrg": "Boris Cherny",
-      "title": "Opus 5.5 is a really good model. It's been my daily driver the last few weeks. We had Opus 5.5…",
-      "url": "https://x.com/bcherny/status/2102439069053747549",
-      "publishedAt": "2026-09-22T16:45:10.000Z",
-      "content": "Opus 5.5 is a really good model. It's been my daily driver the last few weeks. We had Opus 5.5 and Fable 5.1 each port HAProxy from C to Rust. Both passed nearly all of HAProxy's tests, but Opus 5.5 finished in 9.5 hours compared to Fable 5.1's 12 hours, and for 51% less cost. https://t.co/GJ9FaS3Erx",
-      "summary": "Opus 5.5 is a really good model. It's been my daily driver the last few weeks. We had Opus 5.5 and Fable 5.1 each port HAProxy from C to Rust. Both passed nearly all of HAProxy's tests, but Opus 5.5 finished in 9.5 hour…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 6778,
-        "retweets": 228,
-        "replies": 312
-      },
-      "topics": [
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]
