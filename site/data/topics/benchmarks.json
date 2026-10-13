@@ -1,11 +1,66 @@
 {
-  "generatedAt": "2026-10-12T07:30:50.287Z",
+  "generatedAt": "2026-10-13T00:30:59.889Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
     {
+      "id": "a511684addce9655",
+      "date": "2026-10-13",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Simulating student learning for better AI tutoring",
+      "url": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring/",
+      "publishedAt": "2026-10-12T16:00:00.000Z",
+      "content": "At a glance StudentSim is a research system for evaluating and improving AI tutors before they are tested with real learners; it is not a product, is not deployed in classrooms, and is not intended to replace teachers AI tutoring tools need feedback from students to improve, but collecting that feedback through human studies is slow, costly, and difficult to scale&nbsp; StudentSim trains personalized AI student simulators from publicly available, de-identified learner records, with one simulator adapted to each student&nbsp; The work evaluates simulators along two education-grounded dimensions: whether they respond like a specific student, and whether they update after tutor guidance&nbsp; Across chess, second-language English writing, and mathematics, StudentSim outperforms leading baselines and provides a useful feedback signal for training an AI tutor&nbsp; In research settings, teams are exploring how AI-powered tutoring systems can help explain a math problem, suggest an edit to a writing assignment, or guide a learner through a chess position. Yet the quality of teaching cannot be measured only from the tutor’s answer. A tutor needs to know what happens after the guidance reaches a student. Did the student correct the original mistake? Did the hint help them reason toward the answer, or did it give away too much? Would a different student need a different kind of support? In today’s AI tutor research, answering these questions often requires real learner studies. Those studies are valuable, but they are slow and costly to run, which makes it hard to use student feedback during fast model iteration. StudentSim is an AI system that creates personalized simulators of individual students, modeling how they answer questions and how their answers change after receiving a tutor’s guidance. The goal is to make student feedback more available during AI tutor development. This research also introduces StudentSimEval, a benchmark and evaluation protocol spanning chess,…",
+      "summary": "StudentSim is a research system for evaluating and improving AI tutoring tools before they are tested with learners. It models how individuals may engage with tutors, giving feedback to improve tutor performance across subjects like chess,…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.81,
+          "rationale": [
+            "benchmark",
+            "eval",
+            "evaluation"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
       "id": "b8d9c90093d70a7a",
-      "date": "2026-10-12",
+      "date": "2026-10-13",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -57,7 +112,7 @@
     },
     {
       "id": "efb1334c7362582d",
-      "date": "2026-10-12",
+      "date": "2026-10-13",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "ChinaTalk",
@@ -2324,61 +2379,6 @@
             "agent"
           ],
           "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "356b64546839b54c",
-      "date": "2026-09-09",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
-      "url": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
-      "publishedAt": "2026-09-03T04:38:33.000Z",
-      "content": "Launch season continues from yesterday , with Gemini 3.8 Flash as rumored today, but Muse Spark 1.3, promised in Zuck&#8217;s big comeback letter last month, definitely deserved the title story win today. Per AAII it is now the #3 model in the world (!?!) Just look at the confidence displayed finally putting up comparable numbers to the frontier models from OpenAI and Anthropic (Opus, not Fable)&#8230; and promising that it will be open weights as well(!!!): They have an interesting pricing model where it is 90%+ cheaper if you opt in to training: AI News for 8/22/2026-8/24/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Agent Engineering Courses, Curricula, and Developer Practice Stanford is formalizing AI-native software engineering as a discipline : @mihail_eric announced a new edition of The Modern Software Developer centered on what he calls the &#8220;2026 metamorphosis&#8221; of software engineering. The notable signal is not just the course itself, but the curriculum reset: 85% of Fall 2025 material is being replaced with topics like agent skills, context engineering, MCP portals, agent-ready codebase design, agentic code review, security, parallel background agents, and software factories . The course also requires students to ship PRs into real OSS repos with support from partners including Browserbase, OpenHands, Semgrep, Milvus, Marimo, CrewAI, Warp, Vercel, Unsloth, and Anyscale, among others. A second Stanford course focuses on first-principles agent construction : @Diyi_Yang and @michaelryan207 announced CS329Z: Engineering AI Agents , explicitly framed around building agents &#8220;from scratch.&#8221; Alongside Mihail Eric&#8217;s course, this suggests a broader shift from &#8220;prompting&#8221; pedagogy to systems-oriented agent engineering : harnesses, eval…",
-      "summary": "an epic comeback story for Meta",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.81,
-          "rationale": [
-            "code",
-            "developer",
-            "repo"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "imo",
-            "eval"
-          ],
-          "score": 2
         }
       ],
       "section": "Podcasts & Newsletters",

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-12T07:30:50.287Z",
+  "generatedAt": "2026-10-13T00:30:59.889Z",
   "slug": "agents",
   "label": "AI Assistants",
   "items": [
     {
       "id": "8267a90a56e35af0",
-      "date": "2026-10-12",
+      "date": "2026-10-13",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -44,14 +44,14 @@
       ],
       "section": "Builders",
       "importanceScore": 0.77,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.85,
+      "digestScore": 0.61,
       "whyThisMatters": ""
     },
     {
       "id": "73f8682d655e4fce",
-      "date": "2026-10-12",
+      "date": "2026-10-13",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -99,14 +99,14 @@
       ],
       "section": "Builders",
       "importanceScore": 0.84,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.9,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.65,
       "whyThisMatters": ""
     },
     {
       "id": "279475a932c18954",
-      "date": "2026-10-12",
+      "date": "2026-10-13",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -145,14 +145,14 @@
       ],
       "section": "Builders",
       "importanceScore": 0.84,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.9,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.65,
       "whyThisMatters": ""
     },
     {
       "id": "18c1be3544572320",
-      "date": "2026-10-12",
+      "date": "2026-10-13",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
@@ -199,13 +199,13 @@
       "section": "Official Sources",
       "importanceScore": 0.72,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.57,
       "whyThisMatters": ""
     },
     {
       "id": "e1819502ff653dfa",
-      "date": "2026-10-12",
+      "date": "2026-10-13",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Microsoft Research Blog",
@@ -258,6 +258,109 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "ac7c7ae5f156a501",
+      "date": "2026-10-13",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents",
+      "url": "https://www.latent.space/p/claude-dynamic-workflows",
+      "publishedAt": "2026-10-12T18:18:17.000Z",
+      "content": "CJ Avilla and Harrison Stall, Members of Technical Staff at Anthropic, at AI Engineer NYC today. The AI Engineer New York 2026 conference kicked off this morning with a series of workshops, including Anthropic discussing how to orchestrate its Claude Managed Agents . Of particular interest was a brand new feature, announced on Friday , called dynamic workflows &#8212; or simply &#8220;flows,&#8221; as the presenters repeatedly called it. Flows are defined as &#8220;a new type of multiagent orchestration, built for your most ambitious workloads.&#8221; CJ Avilla and Harrison Stall , both Members of Technical Staff at Anthropic , began by invoking some operating system projects of the past &#8212; from Ken Thompson building the original Unix operating system, through to Linux evolving from one person (Linus Torvalds) to layers of trusted maintainers . The lesson: agents need the same level of organization in order to do the types of big, ambitious projects Anthropic envisions for dynamic workflows. Sponsored by Union.ai Build a sovereign AI factory The best engineering teams are building AI factories where they own and control not only their data, compute, and infrastructure, but also a durable runtime on their cloud. Union.ai gives your workflows the durability to adapt and right-size infra resources and recover from failures without re-running completed work. Get started directly through AWS Marketplace and try Union.ai free for 30 days . To learn more, visit us at AI Engineer New York booth #48. &#8220;I think a lot of us who are orchestrating and managing lots of agents now might start to feel this feeling of being the bottleneck and being the breaking point as we have lots of agents contributing tons and tons of PRs,&#8221; Avilla said. &#8220;And we&#8217;re sitting there in our GitHub trying to approve PRs and make sure that everything works as expected.&#8221; From agent rosters to dynamic workflows The pair noted that dynamic workflows began in Claude Code a…",
+      "summary": "At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming developers.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "github"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "efb1334c7362582d",
+      "date": "2026-10-13",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Data is the Hard Part",
+      "url": "https://www.chinatalk.media/p/data-is-the-hard-part",
+      "publishedAt": "2026-10-06T11:09:35.000Z",
+      "content": "Bharat Patel is currently Accenture&#8217;s AI and data lead for its defense portfolio, a former enlisted Navy sailor, and a veteran of the Army acquisition world, with experience at MITRE and across the Department of Defense. We&#8217;re here today to talk about why data is the hard part in making AI work to win wars for you &#8212; and what standards, integration processes, and governance you need to turn fun tech and cute little language models into things that can actually serve the warfighter . We&#8217;re also going to talk about the dark side of data &#8212; how poisoning can happen, the enemy&#8217;s vote in the datasets you build to find things on the battlefield, and what it&#8217;s like to be a civil servant trying to make big programs happen inside the acquisition bureaucracy. Our conversation covers: Why data is the real bottleneck for military AI, why &#8220;AI-ready data&#8221; is a myth, and why autonomous tanks are further off than you might think, Ukraine&#8217;s autonomous systems as a case study: how years of collecting, labeling, and learning from battlefield data created the foundation for autonomy, The boring side of AI: how pipelines, standards, governance, and testing and evaluation determine whether models ever make it into the field, The adversary&#8217;s AI toolbox &#8212; including camouflage, deception, electronic warfare, and poisoned data &#8212; and how to test against those threats. The 4D chess game of building programs inside the Pentagon : navigating requirements, funding, acquisition rules, and the people who make or break a program. Listen now on your favorite podcast app . Thank you to Accenture Federal Services for bringing us this episode. The Dark Side of Data Jordan Schneider: Bharat, why is data the hard part? Bharat Patel: We talk about AI-ready data, but in my opinion, data will never be AI-ready. Data will always have its weirdness about it. It&#8217;s more about what the AI use case is, because the use case drives th…",
+      "summary": "Bharat Patel is currently Accenture&#8217;s AI and data lead for its defense portfolio, a former enlisted Navy sailor, and a veteran of the Army acquisition world, with experience at MITRE and across the Department of Defense.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "eval",
+            "evaluation"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "autonomous"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "dataset"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -410,58 +513,6 @@
             "alignment"
           ],
           "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "efb1334c7362582d",
-      "date": "2026-10-12",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Data is the Hard Part",
-      "url": "https://www.chinatalk.media/p/data-is-the-hard-part",
-      "publishedAt": "2026-10-06T11:09:35.000Z",
-      "content": "Bharat Patel is currently Accenture&#8217;s AI and data lead for its defense portfolio, a former enlisted Navy sailor, and a veteran of the Army acquisition world, with experience at MITRE and across the Department of Defense. We&#8217;re here today to talk about why data is the hard part in making AI work to win wars for you &#8212; and what standards, integration processes, and governance you need to turn fun tech and cute little language models into things that can actually serve the warfighter . We&#8217;re also going to talk about the dark side of data &#8212; how poisoning can happen, the enemy&#8217;s vote in the datasets you build to find things on the battlefield, and what it&#8217;s like to be a civil servant trying to make big programs happen inside the acquisition bureaucracy. Our conversation covers: Why data is the real bottleneck for military AI, why &#8220;AI-ready data&#8221; is a myth, and why autonomous tanks are further off than you might think, Ukraine&#8217;s autonomous systems as a case study: how years of collecting, labeling, and learning from battlefield data created the foundation for autonomy, The boring side of AI: how pipelines, standards, governance, and testing and evaluation determine whether models ever make it into the field, The adversary&#8217;s AI toolbox &#8212; including camouflage, deception, electronic warfare, and poisoned data &#8212; and how to test against those threats. The 4D chess game of building programs inside the Pentagon : navigating requirements, funding, acquisition rules, and the people who make or break a program. Listen now on your favorite podcast app . Thank you to Accenture Federal Services for bringing us this episode. The Dark Side of Data Jordan Schneider: Bharat, why is data the hard part? Bharat Patel: We talk about AI-ready data, but in my opinion, data will never be AI-ready. Data will always have its weirdness about it. It&#8217;s more about what the AI use case is, because the use case drives th…",
-      "summary": "Bharat Patel is currently Accenture&#8217;s AI and data lead for its defense portfolio, a former enlisted Navy sailor, and a veteran of the Army acquisition world, with experience at MITRE and across the Department of Defense.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "eval",
-            "evaluation"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "autonomous"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "dataset"
-          ],
-          "score": 1
         }
       ],
       "section": "Podcasts & Newsletters",
@@ -2352,61 +2403,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "243eb5032fc25792",
-      "date": "2026-10-07",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:rauchg",
-      "builderOrOrg": "Guillermo Rauch",
-      "title": "Introducing gdp-ts: Ghosts of Departed Proofs for TypeScript. gdp-ts is a library, linter and A…",
-      "url": "https://x.com/rauchg/status/2107119811444748555",
-      "publishedAt": "2026-10-05T14:44:46.000Z",
-      "content": "Introducing gdp-ts: Ghosts of Departed Proofs for TypeScript. gdp-ts is a library, linter and AI skill for safer API design. Under this contract, sensitive functions require 'proofs' that the caller performed an authorization check. The typechecker verifies these proofs at compile time, preventing your team and agents from shipping catastrophic security (and other kinds of) bugs. While these patterns have existed for quite some time, especially in ecosystems like Haskell, ① human code review an…",
-      "summary": "Introducing gdp-ts: Ghosts of Departed Proofs for TypeScript. gdp-ts is a library, linter and AI skill for safer API design. Under this contract, sensitive functions require 'proofs' that the caller performed an authori…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 2176,
-        "retweets": 107,
-        "replies": 152
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.92,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.7,
       "whyThisMatters": ""
     }
   ]

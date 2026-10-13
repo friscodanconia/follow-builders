@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-12T07:30:50.287Z",
+  "generatedAt": "2026-10-13T00:30:59.889Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
     {
       "id": "43619cf0e29f74f5",
-      "date": "2026-10-12",
+      "date": "2026-10-13",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
@@ -40,7 +40,7 @@
     },
     {
       "id": "eb99a83f155790b9",
-      "date": "2026-10-12",
+      "date": "2026-10-13",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Together AI Blog",
@@ -80,6 +80,58 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "e8c037caf7f1102f",
+      "date": "2026-10-13",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Import AI",
+      "sourceKey": "editorial:Import AI",
+      "builderOrOrg": "Jack Clark",
+      "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+      "url": "https://jack-clark.net/2026/10/12/import-ai-476-creativity-and-rsi-worse-than-china-open-weight-models-ai-goes-to-space/",
+      "publishedAt": "2026-10-12T12:30:39.000Z",
+      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now New benchmark shows how AI models lack intuitive visual reasoning: …Humanity’s Sixth Sense highlights some shortcomings of current AI systems… AI startups Elorian and Scale AI have built and released Humanity’s Sixth Sense, a benchmark that “measures how a model interprets and reasons through information a visual scene implies but doesn’t explicitly show.” Some examples of the types of task in HSS are a picture of a bookcase and being asked whether it can fit more books, or a photo of horses pulling a plough and a question of whether the chains bear the plough’s drag weight. HSS contains 522 questions that cover 288 images and 234 short video clips (totalling 17.6 hours of video). The questions fall into four categories: Temporal & causal dynamics: “What happened before the scene, and what happens next.” Physical & spatial logic: “What fits, what’s in reach, and what someone else can see from where they are standing.” Social understanding : “Intent, attention, belonging.” Abstract & contextual inference : “The patterns and rules a scene implies.” Results: The human baseline for this is not perfect, but is very high, with people scoring aggregate pass@1 of 93.1, broken down across four categories: Image (94.1), video (91.9), time (97), and space (94.9). By comparison, the best scoring AI system, GPT 6 Astra, gets pass@1 of 53.6, across image (55.6), video (51.1), time (58.2), and space (53.6). Interestingly, Chinese open weight models do poorly here, with GLM-5.3-flash getting a pass@1 of 26.8, and Kimi K3 getting pass@1 of 25.5. “The two most common single mistakes were (1) missing a detail that decides the answer (21% of failures) and (2) misidentifying an object, person, or role (20%),” they write. Why this matters &#8211; HSS tells us whether world models are emergent: One way of loo…",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now New benchmark shows how AI models lack intuitive visual r…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "image",
+            "video"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
       "whyThisMatters": ""
     },
     {
@@ -2346,52 +2398,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "5ec26184d2beeca7",
-      "date": "2026-08-05",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Together AI Blog",
-      "sourceKey": "official:Together AI Blog",
-      "builderOrOrg": "Together AI",
-      "title": "ThunderAgent: 2x Faster Agentic Inference for Synthetic Data Generation at Scale",
-      "url": "https://www.together.ai/blog/thunderagent",
-      "publishedAt": "2026-07-29T00:00:00.000Z",
-      "content": "ThunderAgent is a program-aware scheduler for agentic inference. By treating each agent workflow as a schedulable program, it eliminates KV cache thrashing to deliver more than 2x single-node throughput and near-linear multi-node scaling.",
-      "summary": "ThunderAgent is a program-aware scheduler for agentic inference. By treating each agent workflow as a schedulable program, it eliminates KV cache thrashing to deliver more than 2x single-node throughput and near-linear multi-node scaling.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.69,
-          "rationale": [
-            "inference",
-            "throughput"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
       "whyThisMatters": ""
     }
   ]
