@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T05:07:48.397Z",
+  "generatedAt": "2026-10-14T06:16:51.591Z",
   "date": "2026-10-14",
   "items": [
     {
@@ -62,7 +62,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -116,7 +116,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -143,7 +143,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -279,7 +279,7 @@
       "section": "Builders",
       "importanceScore": 0.84,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.65,
       "whyThisMatters": ""
     },
@@ -490,7 +490,7 @@
       "section": "Builders",
       "importanceScore": 0.92,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.7,
       "whyThisMatters": ""
     },
@@ -899,7 +899,7 @@
       "section": "Official Sources",
       "importanceScore": 0.58,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.48,
       "whyThisMatters": ""
     },
@@ -987,7 +987,7 @@
       "section": "Official Sources",
       "importanceScore": 0.72,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.57,
       "whyThisMatters": ""
     },
@@ -1174,7 +1174,7 @@
       "sourceName": "Google DeepMind Blog",
       "sourceKey": "official:Google DeepMind Blog",
       "builderOrOrg": "Google DeepMind",
-      "title": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
+      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
       "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
       "publishedAt": "2026-10-14T02:00:14.000Z",
       "content": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
@@ -1186,9 +1186,9 @@
       "topics": [],
       "section": "Official Sources",
       "importanceScore": 0.58,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.73,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.48,
       "whyThisMatters": ""
     },
     {
@@ -1231,7 +1231,7 @@
       "section": "Official Sources",
       "importanceScore": 0.66,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.53,
       "whyThisMatters": ""
     },
@@ -1425,6 +1425,60 @@
       "whyThisMatters": ""
     },
     {
+      "id": "c54e574da1abc8e1",
+      "date": "2026-10-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] AI Engineer NYC: Gemini 4 Argon, Vals AI Benchmarks",
+      "url": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
+      "publishedAt": "2026-10-14T05:40:28.000Z",
+      "content": "Gemini 4 Argon went GA today, but we already gave it title story 2 weeks ago and most benchmarks, like CursorBench , simply independently confirm their claims. About 20,000 joined AIE NYC today for keynotes from the frontier of AI x Finance, from Anthropic showing how they are building the modern AI Financial Services stack , Vals AI CEO discussing their principles behind benchmarking models like Argon, and Coatue&#8217;s Head of AI showing how they turn news into investment decisions. All keynotes are transcribed here and all talks/workshops will be released ASAP. Tune in tomorrow for Day 3: AI News for 10/12/2026-10/13/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Frontier Model Launches: Gemini 4 Argon and Muse Wonder Gemini 4 Argon : Google released Argon globally for coding, knowledge work, enterprise workflows and cyber defense. Access spans the paid Gemini API and Gemini platform; Google AI Pro and Ultra in the Gemini app and AI Mode in Search; and Ultra in Antigravity. The official rollout supersedes an earlier newsletter claim that access was restricted to cybersecurity defenders ( announcement ). Pricing : Introductory API rates are $2/$10 per million input/output tokens , with cached input discounted 95%. Artificial Analysis reports that rates double to $4/$20 after November 30 &#8212;an important qualification for cost comparisons ( Google pricing , discount schedule ). Research access : Google is offering 10,000 scientists Antigravity&#8217;s highest usage tier free for six months, through an application program; cybersecurity defenders can apply through Fairwind ( scientist program , access programs ). Google&#8217;s internal results : Google says Argon helped separate core webpage handling from a six-million-line legacy Chromium folder, completing months of wo…",
+      "summary": "Gemini 4 Argon went GA today, but we already gave it title story 2 weeks ago and most benchmarks, like CursorBench, simply independently confirm their claims.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "repo"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.69,
+          "rationale": [
+            "enterprise",
+            "security"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "benchmark",
+            "benchmarking"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.66,
+      "whyThisMatters": ""
+    },
+    {
       "id": "ca5dacee3970bb4c",
       "date": "2026-10-14",
       "sourceType": "newsletter",
@@ -1472,7 +1526,7 @@
       "section": "Podcasts & Newsletters",
       "importanceScore": 0.62,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.51,
       "whyThisMatters": ""
     },
@@ -1595,48 +1649,6 @@
       "regionTags": [],
       "metrics": {},
       "topics": [],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "17e3635be6adea14",
-      "date": "2026-10-14",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "Building AI for Reliable Execution: Lessons From Industrial Robotics",
-      "url": "https://www.latent.space/p/standard-bots",
-      "publishedAt": "2026-10-10T14:04:11.000Z",
-      "content": "When you think of robotics and AI, you probably first think of full humanoid robots like Figure&#8217;s AI-powered machines and 1X&#8217;s NEO home robots . Those may well be the future, but arguably more important in 2026 is industrial robots &#8212; which are typically not humanoids. Standard Bots claims to be &#8220;America&#8217;s largest AI-native industrial robot manufacturer.&#8221; It recently raised $200 million at a $1 billion valuation, in a series C round led by General Catalyst and RoboStrategy, a fund focused on robotics. Its customers include NASA, Amazon and Lockheed Martin. We spoke to Evan Beard , co-founder and CEO, and Leif Jentoft , Head of AI, to find out more about Standard Bots&#8217; AI stack and how its models work. To set the scene, Standard Bots&#8217; industrial robot arms are designed for tasks such as machine tending, welding, and assembly. Here&#8217;s a quick demo by Jentoft: Pretrained models and task-specific adaptation According to Beard, Standard Bots has a shared base model that customers adapt through demonstrations and fine-tuning. Jentoft added that Standard Bots runs a range of models , including a zero-shot perception system for machine tending. Beard says its largest model is in the low billions of parameters &#8212; so it&#8217;s not that large by frontier lab standards. &#8220;We believe data quality matters far more than raw volume,&#8221; said Jentoft, &#8220;and we focus on getting the most out of targeted data rather than chasing the largest possible dataset.&#8221; (This matches the &#8220;bitterest lesson&#8221; of Jev creator Diogo Almeida , who told us recently that the right task and the right data can matter more than compute.) &#8220;Our market access gives us unique access to the highest value data,&#8221; he added. &#8220; In-situ interventions can fix an edge case with a few dozen examples.&#8221; Setting up part identification with ClickFind. Beard notes that Standard Bots focuses on short-horizon tasks t…",
-      "summary": "Inside Standard Bots&#8217; AI stack, pretrained models learn factory tasks from demonstrations and improve through corrections from real deployments.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "dataset"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "fine-tuning"
-          ],
-          "score": 1
-        }
-      ],
       "section": "Podcasts & Newsletters",
       "importanceScore": 0.4,
       "noveltyScore": 0.3,
@@ -1875,48 +1887,23 @@
   ],
   "selectedItems": [
     {
-      "id": "2e62b2510f45200d",
-      "date": "2026-10-14",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google DeepMind Blog",
-      "sourceKey": "official:Google DeepMind Blog",
-      "builderOrOrg": "Google DeepMind",
-      "title": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
-      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-      "publishedAt": "2026-10-14T02:00:14.000Z",
-      "content": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
-      "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.73,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "112d93e5d0d1d8d6",
+      "id": "61e0dc1e66a1b585",
       "date": "2026-10-14",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:petergyang",
-      "builderOrOrg": "Peter Yang",
-      "title": "Here's a clip of me explaining why Grok @bot is my favorite agent right now. tl;dr It’s built o…",
-      "url": "https://x.com/petergyang/status/2109803399332213090",
-      "publishedAt": "2026-10-13T00:28:23.000Z",
-      "content": "Here's a clip of me explaining why Grok @bot is my favorite agent right now. tl;dr It’s built on personas instead of chat threads, so it really feels like hiring employees to work for you. Each owns a specific job: → Behind the Growth owns customer support → YouTube Producer owns research and prep → Loving Husband owns errands for my family → Health Coach keeps my workouts on track 📌 Watch my latest Grok Bot video covering how I'm using its new features here (free X access, its own email, and…",
-      "summary": "Here's a clip of me explaining why Grok @bot is my favorite agent right now. tl;dr It’s built on personas instead of chat threads, so it really feels like hiring employees to work for you. Each owns a specific job: → Be…",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "Agent swarms are going to be a core part of many enterprise workflows in the future. The abilit…",
+      "url": "https://x.com/levie/status/2109682812811137061",
+      "publishedAt": "2026-10-12T16:29:13.000Z",
+      "content": "Agent swarms are going to be a core part of many enterprise workflows in the future. The ability to throw compute at problems that you can massively parallelize will be too useful to not take advantage of. Cyber will be one of the biggest beneficiaries of this as it’s a space where testing vast number of permutations of attacks (without getting tired or bored) is an incredibly useful property. You have a wide search space of possible risk vectors and you generally need to be able to chain toget…",
+      "summary": "Agent swarms are going to be a core part of many enterprise workflows in the future. The ability to throw compute at problems that you can massively parallelize will be too useful to not take advantage of. Cyber will be…",
       "regionTags": [],
       "metrics": {
-        "likes": 77,
-        "retweets": 6,
-        "replies": 18
+        "likes": 159,
+        "retweets": 23,
+        "replies": 38
       },
       "topics": [
         {
@@ -1929,102 +1916,94 @@
           "score": 1
         },
         {
-          "slug": "research",
-          "label": "Research",
+          "slug": "enterprise",
+          "label": "Business AI",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "video"
+            "enterprise"
           ],
           "score": 1
         }
       ],
       "section": "Builders",
-      "importanceScore": 0.84,
+      "importanceScore": 0.92,
       "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.65,
+      "digestScore": 0.7,
       "whyThisMatters": ""
     },
     {
-      "id": "18c1be3544572320",
+      "id": "c54e574da1abc8e1",
       "date": "2026-10-14",
       "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "url": "https://openai.com/index/asana-browser-agent",
-      "publishedAt": "2026-10-09T07:00:00.000Z",
-      "content": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "regionTags": [
-        "us-model-labs"
-      ],
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] AI Engineer NYC: Gemini 4 Argon, Vals AI Benchmarks",
+      "url": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
+      "publishedAt": "2026-10-14T05:40:28.000Z",
+      "content": "Gemini 4 Argon went GA today, but we already gave it title story 2 weeks ago and most benchmarks, like CursorBench , simply independently confirm their claims. About 20,000 joined AIE NYC today for keynotes from the frontier of AI x Finance, from Anthropic showing how they are building the modern AI Financial Services stack , Vals AI CEO discussing their principles behind benchmarking models like Argon, and Coatue&#8217;s Head of AI showing how they turn news into investment decisions. All keynotes are transcribed here and all talks/workshops will be released ASAP. Tune in tomorrow for Day 3: AI News for 10/12/2026-10/13/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Frontier Model Launches: Gemini 4 Argon and Muse Wonder Gemini 4 Argon : Google released Argon globally for coding, knowledge work, enterprise workflows and cyber defense. Access spans the paid Gemini API and Gemini platform; Google AI Pro and Ultra in the Gemini app and AI Mode in Search; and Ultra in Antigravity. The official rollout supersedes an earlier newsletter claim that access was restricted to cybersecurity defenders ( announcement ). Pricing : Introductory API rates are $2/$10 per million input/output tokens , with cached input discounted 95%. Artificial Analysis reports that rates double to $4/$20 after November 30 &#8212;an important qualification for cost comparisons ( Google pricing , discount schedule ). Research access : Google is offering 10,000 scientists Antigravity&#8217;s highest usage tier free for six months, through an application program; cybersecurity defenders can apply through Fairwind ( scientist program , access programs ). Google&#8217;s internal results : Google says Argon helped separate core webpage handling from a six-million-line legacy Chromium folder, completing months of wo…",
+      "summary": "Gemini 4 Argon went GA today, but we already gave it title story 2 weeks ago and most benchmarks, like CursorBench, simply independently confirm their claims.",
+      "regionTags": [],
       "metrics": {},
       "topics": [
         {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
           "slug": "coding",
           "label": "Coding",
-          "confidence": 0.5700000000000001,
+          "confidence": 0.69,
           "rationale": [
-            "code"
+            "coding",
+            "repo"
           ],
-          "score": 1
+          "score": 2
         },
         {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.69,
           "rationale": [
-            "browser"
+            "enterprise",
+            "security"
           ],
-          "score": 1
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "benchmark",
+            "benchmarking"
+          ],
+          "score": 2
         }
       ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.57,
+      "digestScore": 0.66,
       "whyThisMatters": ""
     },
     {
-      "id": "c06865087609a038",
+      "id": "54b90c5d7d3b5799",
       "date": "2026-10-14",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:joshwoodward",
-      "builderOrOrg": "Josh Woodward",
-      "title": "I’ve learned from Lenny for years, but we had never met. What you see is what you get with him:…",
-      "url": "https://x.com/joshwoodward/status/2109646793713786970",
-      "publishedAt": "2026-10-12T14:06:05.000Z",
-      "content": "I’ve learned from Lenny for years, but we had never met. What you see is what you get with him: he’s kind, prepared, and deeply curious. Great interviewers do their homework, and you can tell he’s in that league: he took our conversation to places that I’ve never talked about in public. Enjoy the first 60 minutes of us getting to chat together. Thank you @lennysan !",
-      "summary": "I’ve learned from Lenny for years, but we had never met. What you see is what you get with him: he’s kind, prepared, and deeply curious. Great interviewers do their homework, and you can tell he’s in that league: he too…",
+      "sourceKey": "x:swyx",
+      "builderOrOrg": "Swyx",
+      "title": "one of the best parts of my job is bringing out the best in ai in each city i love new york ♥️…",
+      "url": "https://x.com/swyx/status/2109797444204572880",
+      "publishedAt": "2026-10-13T00:04:43.000Z",
+      "content": "one of the best parts of my job is bringing out the best in ai in each city i love new york ♥️ https://t.co/qOCz2NvARw https://t.co/P9qRPhJoYc",
+      "summary": "one of the best parts of my job is bringing out the best in ai in each city i love new york ♥️ https://t.co/qOCz2NvARw https://t.co/P9qRPhJoYc",
       "regionTags": [],
       "metrics": {
-        "likes": 342,
-        "retweets": 15,
-        "replies": 7
+        "likes": 97,
+        "retweets": 2,
+        "replies": 19
       },
       "topics": [],
       "section": "Builders",
@@ -2035,23 +2014,60 @@
       "whyThisMatters": ""
     },
     {
-      "id": "54985177deb643f8",
+      "id": "a7bd8340db6eacbf",
       "date": "2026-10-14",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:thsottiaux",
-      "builderOrOrg": "Thibault Sottiaux",
-      "title": "Good plans are simple. I have one that should result in significantly more usage for everyone.…",
-      "url": "https://x.com/thsottiaux/status/2109892247580000595",
-      "publishedAt": "2026-10-13T06:21:26.000Z",
-      "content": "Good plans are simple. I have one that should result in significantly more usage for everyone. Hope to get it done soon.",
-      "summary": "Good plans are simple. I have one that should result in significantly more usage for everyone. Hope to get it done soon.",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "Muse Wonder on Vercel AI Gateway Try with 𝚏𝚡 --𝚖𝚘𝚍𝚎𝚕 𝚖𝚎𝚝𝚊/𝚖𝚞𝚜𝚎-𝚠𝚘𝚗𝚍𝚎𝚛-𝟷.\ud835…",
+      "url": "https://x.com/rauchg/status/2109719267344261375",
+      "publishedAt": "2026-10-12T18:54:04.000Z",
+      "content": "Muse Wonder on Vercel AI Gateway Try with 𝚏𝚡 --𝚖𝚘𝚍𝚎𝚕 𝚖𝚎𝚝𝚊/𝚖𝚞𝚜𝚎-𝚠𝚘𝚗𝚍𝚎𝚛-𝟷.𝟶 https://t.co/OI8lTDKnyZ https://t.co/Ckx651xYUJ",
+      "summary": "Muse Wonder on Vercel AI Gateway Try with 𝚏𝚡 --𝚖𝚘𝚍𝚎𝚕 𝚖𝚎𝚝𝚊/𝚖𝚞𝚜𝚎-𝚠𝚘𝚗𝚍𝚎𝚛-𝟷.𝟶 https://t.co/OI8lTDKnyZ https://t.co/Ckx651xYUJ",
       "regionTags": [],
       "metrics": {
-        "likes": 2202,
-        "retweets": 64,
-        "replies": 478
+        "likes": 179,
+        "retweets": 5,
+        "replies": 28
+      },
+      "topics": [
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "180b8264ee68d57e",
+      "date": "2026-10-14",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:ryolu_",
+      "builderOrOrg": "Ryo Lu",
+      "title": "new on ryOS: Dictionary + Fitness learn new words, pronunciation, 漢字. plan workouts, track body…",
+      "url": "https://x.com/ryolu_/status/2109568690358555064",
+      "publishedAt": "2026-10-12T08:55:44.000Z",
+      "content": "new on ryOS: Dictionary + Fitness learn new words, pronunciation, 漢字. plan workouts, track body and food with AI. made with @bot @cursor_ai https://t.co/BXEp6UzL3H",
+      "summary": "new on ryOS: Dictionary + Fitness learn new words, pronunciation, 漢字. plan workouts, track body and food with AI. made with @bot @cursor_ai https://t.co/BXEp6UzL3H",
+      "regionTags": [],
+      "metrics": {
+        "likes": 338,
+        "retweets": 9,
+        "replies": 16
       },
       "topics": [],
       "section": "Builders",
@@ -2066,7 +2082,7 @@
     {
       "slug": "coding",
       "label": "Coding",
-      "count": 12,
+      "count": 13,
       "latestDate": "2026-10-14"
     },
     {
@@ -2078,13 +2094,13 @@
     {
       "slug": "research",
       "label": "Research",
-      "count": 9,
+      "count": 8,
       "latestDate": "2026-10-14"
     },
     {
       "slug": "enterprise",
       "label": "Business AI",
-      "count": 5,
+      "count": 6,
       "latestDate": "2026-10-14"
     },
     {
@@ -2094,20 +2110,20 @@
       "latestDate": "2026-10-14"
     },
     {
-      "slug": "fine-tuning",
-      "label": "Custom AI",
-      "count": 4,
-      "latestDate": "2026-10-14"
-    },
-    {
       "slug": "benchmarks",
       "label": "AI Testing",
-      "count": 3,
+      "count": 4,
       "latestDate": "2026-10-14"
     },
     {
       "slug": "computer-use",
       "label": "AI Using Computers",
+      "count": 3,
+      "latestDate": "2026-10-14"
+    },
+    {
+      "slug": "fine-tuning",
+      "label": "Custom AI",
       "count": 3,
       "latestDate": "2026-10-14"
     },
@@ -2149,8 +2165,8 @@
     }
   ],
   "sections": [
-    "Official Sources",
-    "Builders"
+    "Builders",
+    "Podcasts & Newsletters"
   ],
   "stats": {
     "totalItems": 50,
