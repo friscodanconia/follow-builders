@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-13T07:51:20.846Z",
+  "generatedAt": "2026-10-14T00:31:01.855Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
     {
       "id": "369ab89da11e3f7f",
-      "date": "2026-10-13",
+      "date": "2026-10-14",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -51,7 +51,7 @@
     },
     {
       "id": "a511684addce9655",
-      "date": "2026-10-13",
+      "date": "2026-10-14",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Microsoft Research Blog",
@@ -102,6 +102,58 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "e31f901a09df62dc",
+      "date": "2026-10-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Meta Muse Wonder & Wonder Full: MSL’s Claude 5.5-tier Frontier Model",
+      "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
+      "publishedAt": "2026-10-13T09:37:04.000Z",
+      "content": "We have been coveringe MSL&#8217;s 14 month journey to becoming a frontier lab , but only today did the final ball drop: Meta&#8217;s Muse Wonder to match Spark and Glimmer , the way that OpenAI has Sol/Terra/Luna and Anthropic has Opus/Sonnet/Haiku. Interestingly, while Muse doesn&#8217;t claim a specific size, Muse Wonder Full does beat Fable and Astra on some benchmarks, and with various degrees of posttraining it is a little unclear if Wonder is more of a Fable/Astra class model or not. We have included a full breakdown of launch details below. AI News for 10/10/2026-10/12/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Top Story: Meta launches Muse Wonder and Muse Wonder Full What happened Meta Superintelligence Labs (MSL) shipped Muse Wonder (codename &#8220;Watermelon&#8221; &#127817;), its second-generation model family. Third-party evals put it near the frontier, roughly 14 months after the lab was founded. The run-up. Hours before launch, insiders posted watermelon teasers: @rpnickson (&#8221;It is a BIG watermelon&#8230;&#8221;), @alexandr_wang , @finkd (&#8221;Muse ordered me &#127817;&#8221;) and @EdwardSun0909 . @kimmonismus relayed leaked pricing from @synthwavedd: $4/M input, $20/M output, a 1M context window, and the max-reasoning &#8220;Wonder Full&#8221; tier exclusive to MuseCode Power/Maximum Usage plans. Two models. @finkd announced the family. He explained that Muse Spark was MSL&#8217;s first family and Wonder is &#8220;a much larger and more advanced class of models that brings us to the frontier.&#8221; The two releases are Muse Wonder (fast frontier) and Muse Wonder Full (the full model). Availability is split ( @AIatMeta , Newsroom ): Wonder is available via the Meta Model API and Muse Code. Full is available only to Muse Code subscribers. Wonder wi…",
+      "summary": "MSL&#8217;s emergence as a frontier lab is finally complete.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "benchmark",
+            "eval"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "reasoning"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
       "whyThisMatters": ""
     },
     {
@@ -2324,61 +2376,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "6362bee47c88e80e",
-      "date": "2026-09-11",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:rauchg",
-      "builderOrOrg": "Guillermo Rauch",
-      "title": "AI Benchmarks with @Benchmark & @Vercel. It's ① the most aptly named event in SF history and ②…",
-      "url": "https://x.com/rauchg/status/2097837950612717804",
-      "publishedAt": "2026-09-10T00:01:58.000Z",
-      "content": "AI Benchmarks with @Benchmark & @Vercel. It's ① the most aptly named event in SF history and ② about one of the most important software categories of our generation. The companies that benchmark models and guide the world towards skill, truth and efficiency. Join us: https://t.co/9qRlfX4eGO",
-      "summary": "AI Benchmarks with @Benchmark & @Vercel. It's ① the most aptly named event in SF history and ② about one of the most important software categories of our generation. The companies that benchmark models and guide the wor…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 183,
-        "retweets": 4,
-        "replies": 25
-      },
-      "topics": [
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "benchmark"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]
