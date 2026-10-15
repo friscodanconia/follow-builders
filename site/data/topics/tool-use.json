@@ -1,8 +1,100 @@
 {
-  "generatedAt": "2026-10-14T06:16:51.591Z",
+  "generatedAt": "2026-10-15T00:31:01.884Z",
   "slug": "tool-use",
   "label": "AI Using Tools",
   "items": [
+    {
+      "id": "609950796fac6e8f",
+      "date": "2026-10-15",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:garrytan",
+      "builderOrOrg": "Garry Tan",
+      "title": "Giving your harnesses access to a real browser with your real credentials is a real unlock - hi…",
+      "url": "https://x.com/garrytan/status/2110053836945756234",
+      "publishedAt": "2026-10-13T17:03:32.000Z",
+      "content": "Giving your harnesses access to a real browser with your real credentials is a real unlock - highly recommend @AsideAI https://t.co/ZFAFYE7OHy",
+      "summary": "Giving your harnesses access to a real browser with your real credentials is a real unlock - highly recommend @AsideAI https://t.co/ZFAFYE7OHy",
+      "regionTags": [],
+      "metrics": {
+        "likes": 327,
+        "retweets": 15,
+        "replies": 68
+      },
+      "topics": [
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "browser"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "a511684addce9655",
+      "date": "2026-10-15",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Simulating student learning for better AI tutoring",
+      "url": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring/",
+      "publishedAt": "2026-10-12T16:00:00.000Z",
+      "content": "At a glance StudentSim is a research system for evaluating and improving AI tutors before they are tested with real learners; it is not a product, is not deployed in classrooms, and is not intended to replace teachers AI tutoring tools need feedback from students to improve, but collecting that feedback through human studies is slow, costly, and difficult to scale&nbsp; StudentSim trains personalized AI student simulators from publicly available, de-identified learner records, with one simulator adapted to each student&nbsp; The work evaluates simulators along two education-grounded dimensions: whether they respond like a specific student, and whether they update after tutor guidance&nbsp; Across chess, second-language English writing, and mathematics, StudentSim outperforms leading baselines and provides a useful feedback signal for training an AI tutor&nbsp; In research settings, teams are exploring how AI-powered tutoring systems can help explain a math problem, suggest an edit to a writing assignment, or guide a learner through a chess position. Yet the quality of teaching cannot be measured only from the tutor’s answer. A tutor needs to know what happens after the guidance reaches a student. Did the student correct the original mistake? Did the hint help them reason toward the answer, or did it give away too much? Would a different student need a different kind of support? In today’s AI tutor research, answering these questions often requires real learner studies. Those studies are valuable, but they are slow and costly to run, which makes it hard to use student feedback during fast model iteration. StudentSim is an AI system that creates personalized simulators of individual students, modeling how they answer questions and how their answers change after receiving a tutor’s guidance. The goal is to make student feedback more available during AI tutor development. This research also introduces StudentSimEval, a benchmark and evaluation protocol spanning chess,…",
+      "summary": "StudentSim is a research system for evaluating and improving AI tutoring tools before they are tested with learners. It models how individuals may engage with tutors, giving feedback to improve tutor performance across subjects like chess,…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.81,
+          "rationale": [
+            "benchmark",
+            "eval",
+            "evaluation"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
     {
       "id": "18c1be3544572320",
       "date": "2026-10-14",
@@ -54,61 +146,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a511684addce9655",
-      "date": "2026-10-14",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Simulating student learning for better AI tutoring",
-      "url": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring/",
-      "publishedAt": "2026-10-12T16:00:00.000Z",
-      "content": "At a glance StudentSim is a research system for evaluating and improving AI tutors before they are tested with real learners; it is not a product, is not deployed in classrooms, and is not intended to replace teachers AI tutoring tools need feedback from students to improve, but collecting that feedback through human studies is slow, costly, and difficult to scale&nbsp; StudentSim trains personalized AI student simulators from publicly available, de-identified learner records, with one simulator adapted to each student&nbsp; The work evaluates simulators along two education-grounded dimensions: whether they respond like a specific student, and whether they update after tutor guidance&nbsp; Across chess, second-language English writing, and mathematics, StudentSim outperforms leading baselines and provides a useful feedback signal for training an AI tutor&nbsp; In research settings, teams are exploring how AI-powered tutoring systems can help explain a math problem, suggest an edit to a writing assignment, or guide a learner through a chess position. Yet the quality of teaching cannot be measured only from the tutor’s answer. A tutor needs to know what happens after the guidance reaches a student. Did the student correct the original mistake? Did the hint help them reason toward the answer, or did it give away too much? Would a different student need a different kind of support? In today’s AI tutor research, answering these questions often requires real learner studies. Those studies are valuable, but they are slow and costly to run, which makes it hard to use student feedback during fast model iteration. StudentSim is an AI system that creates personalized simulators of individual students, modeling how they answer questions and how their answers change after receiving a tutor’s guidance. The goal is to make student feedback more available during AI tutor development. This research also introduces StudentSimEval, a benchmark and evaluation protocol spanning chess,…",
-      "summary": "StudentSim is a research system for evaluating and improving AI tutoring tools before they are tested with learners. It models how individuals may engage with tutors, giving feedback to improve tutor performance across subjects like chess,…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.81,
-          "rationale": [
-            "benchmark",
-            "eval",
-            "evaluation"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     },
     {
@@ -2333,43 +2370,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "03b8990658f9fc04",
-      "date": "2026-08-29",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:petergyang",
-      "builderOrOrg": "Peter Yang",
-      "title": "I receive around 3-5 requests to test a new AI product daily. Almost all of them require creati…",
-      "url": "https://x.com/petergyang/status/2093126719888916616",
-      "publishedAt": "2026-08-28T00:01:13.000Z",
-      "content": "I receive around 3-5 requests to test a new AI product daily. Almost all of them require creating a new account and logging into a separate website or app. Meanwhile, I basically only use ChatGPT, Grok, etc to do everything on my computer and browser. These harnesses already have all my context and I don't want to start over from scratch with a new website or tool that only understands a small slice of my data. So with a few exceptions, the new products that I'm mostly likely to adopt need to w…",
-      "summary": "I receive around 3-5 requests to test a new AI product daily. Almost all of them require creating a new account and logging into a separate website or app. Meanwhile, I basically only use ChatGPT, Grok, etc to do everyt…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 646,
-        "retweets": 28,
-        "replies": 144
-      },
-      "topics": [
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "browser"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]
