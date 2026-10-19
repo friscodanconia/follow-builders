@@ -1,8 +1,207 @@
 {
-  "generatedAt": "2026-10-18T06:06:15.549Z",
+  "generatedAt": "2026-10-19T00:31:05.668Z",
   "slug": "enterprise",
   "label": "Business AI",
   "items": [
+    {
+      "id": "16dec186daf91066",
+      "date": "2026-10-19",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google AI Blog",
+      "sourceKey": "official:Google AI Blog",
+      "builderOrOrg": "Google",
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "publishedAt": "2026-10-13T16:00:00.000Z",
+      "content": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+      "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "developer"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d14afe4139360bdd",
+      "date": "2026-10-19",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Proof-based general-purpose computing with Magnetar",
+      "url": "https://www.microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar/",
+      "publishedAt": "2026-10-15T16:00:00.000Z",
+      "content": "At a glance A new form of computing . Zero-knowledge proofs let you run a workload and receive, alongside the result, a short proof that the program ran correctly. Anyone can check the proof in milliseconds, without rerunning the program, without trusting whoever ran it, and without needing data on which the program was run. Three grand challenges have stood in the way of broad adoption : making proofs fast enough to produce, making them available to normal programs without cryptographic expertise, and resting them on cryptography that will still be trusted many decades from now. Magnetar makes major progress on all three challenges. It proves programs written in Rust, Go, or C, runs 10 to 39 times faster on average than the prior fastest comparable systems, and rests its security only on standard hash functions. It is the latest result of more than a decade of research at Microsoft Research on making zero-knowledge proofs practical. A new form of computing Every result a computer produces comes with an implicit question: did the program run as claimed and produce correct outputs? Today, answering that question often requires a degree of trust alongside verification.&nbsp;We trust the operator, the vendor, the counterparty, or the agent, and we rely on contracts, audits, and logs to establish that trust.&nbsp; Zero-knowledge proofs offer a fundamentally different approach to establishing trust. A program runs, and along with its output it produces a short proof, a cryptographic certificate that this program, on these inputs, produced this output. The proof is small and fast to check. Whoever receives it can confirm the result in milliseconds without rerunning the program, and can pass the proof on to anyone else who needs the same assurance. With the zero-knowledge property, the proof also reveals nothing about inputs that should stay private. This changes what correctness means in the real world. A result no longer has to be trusted because of who produced it. It…",
+      "summary": "Zero-knowledge proofs can verify computing results without rerunning workloads or exposing sensitive data. Magnetar helps bring them into the mainstream with support for standard programming languages, major speed gains, and quantum-resist…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.8,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.63,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "43a1399a471f95b5",
+      "date": "2026-10-19",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents",
+      "url": "https://www.latent.space/p/crossing-the-threshold",
+      "publishedAt": "2026-10-14T21:40:52.000Z",
+      "content": "OpenAI&#8217;s Joseph Kim talks about the threshold phenomenon at AIE NY today. One of the key themes at the AI Engineer New York conference this week was how to balance agent autonomy with security and safety . Both frontier labs and financial firms focused on this issue in their presentations this week. The main lesson: safe autonomy depends on where you put controls and human judgment , rather than how many restrictions you impose. Sponsor: Build shopping into your agent with shop.dev Adding commerce to an agent usually means rebuilding search and checkout from scratch. shop.dev gives you a single API for shopping in any agent or app. One connection gives you access to over a billion products with current price and availability, instant sign in with Shop, and one-tap Shop Pay checkout that happens right in the conversation. It&#8217;s open to any developer, with no account or key needed to try it. &#8594; Try shop.dev today Joseph Kim , Head of ChatGPT for Financial Services at OpenAI, gave a keynote at AIE New York today. (We also did a special podcast with Kim, which will be released shortly.) He talked about reliability and a &#8220;threshold of usefulness,&#8221; which he said is &#8220;the point where a model becomes capable and reliable enough to save you time.&#8221; Kim argued that ever-growing model capability will soon take financial analysts over the threshold and allow them to delegate more work to agents. He made some specific predictions about AI&#8217;s role in finance in 2027. Not only will the financial industry rely less on Excel and PowerPoint next year, he claimed, but agents will be good enough to do &#8220;investment idea generation and trading.&#8221; The &#8220;rising tide&#8221; of model capabilities is also leading to better traceability . &#8220;In finance, you need to be able to check where a number came from and understand the context around it,&#8221; said Kim. &#8220;We wanted that review to be a natural part of the [ChatGPT for Fi…",
+      "summary": "At AI Engineer New York, frontier labs and financial firms explored how to give agents useful autonomy while keeping consequential decisions under control.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "developer"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.62,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.51,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "072013064071db1f",
+      "date": "2026-10-19",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "The Case for DUV Controls",
+      "url": "https://www.chinatalk.media/p/saif-khan-the-case-for-duv-controls",
+      "publishedAt": "2026-10-17T09:07:33.000Z",
+      "content": "Saif Khan makes his ChinaTalk debut. He is perhaps my favorite example of posting-to-policy that I&#8217;ve seen over the course of my time following Washington. Saif wrote some truly excellent deep dives into AI and semiconductors during his time at CSET, then went into the NSC and Commerce in the early-to-mid 2020s, across both the Biden and Trump II administrations, to help manifest the export control regulatory regime we have today. He is now out of government and launching the Center for Technology and Statecraft , an IFP -affiliated think tank, which is already producing excellent, grounded, technical, forward-looking work that will certainly shape many an AI policy discussion in the years to come. We discuss: Why Saif started a new think tank, and the value of deep, forward-looking policy research in an AI world moving at breakneck speed; CTS&#8217;s landmark DUV report, which projects that stopping tool exports today could leave China producing roughly 100x fewer AI chips than the US by the mid-2030s, making DUV controls the US&#8217;s most consequential lever over the AI balance; How rigorous research actually translates into government policy, and why think tank experience is valuable before working in government; Robotics as the next frontier of US-China AI competition, and the security vs. diffusion mindsets shaping AI policy; How AI is changing policy research itself, the challenge of bringing AI into government, and what AI-driven economic and social change could mean for humans. Plus, why everyone should read Lu Xun, why AI might socialize like insects, and AI-nannying. Listen now on your favorite podcast app ! Why Another Think Tank? Jordan Schneider: Saif Khan, at long last, welcome to ChinaTalk. Why does the world need another think tank? What is the appetite right now for evidence-based policy? Saif Khan: There is, surprisingly, a gap in the AI policy think tank ecosystem that we&#8217;re trying to fill. Industry and foundations are gobbling up l…",
+      "summary": "with Saif Khan!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
     {
       "id": "b85ce573df910e56",
       "date": "2026-10-18",
@@ -89,205 +288,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.49,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "16dec186daf91066",
-      "date": "2026-10-18",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google AI Blog",
-      "sourceKey": "official:Google AI Blog",
-      "builderOrOrg": "Google",
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-      "publishedAt": "2026-10-13T16:00:00.000Z",
-      "content": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
-      "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "developer"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d14afe4139360bdd",
-      "date": "2026-10-18",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Proof-based general-purpose computing with Magnetar",
-      "url": "https://www.microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar/",
-      "publishedAt": "2026-10-15T16:00:00.000Z",
-      "content": "At a glance A new form of computing . Zero-knowledge proofs let you run a workload and receive, alongside the result, a short proof that the program ran correctly. Anyone can check the proof in milliseconds, without rerunning the program, without trusting whoever ran it, and without needing data on which the program was run. Three grand challenges have stood in the way of broad adoption : making proofs fast enough to produce, making them available to normal programs without cryptographic expertise, and resting them on cryptography that will still be trusted many decades from now. Magnetar makes major progress on all three challenges. It proves programs written in Rust, Go, or C, runs 10 to 39 times faster on average than the prior fastest comparable systems, and rests its security only on standard hash functions. It is the latest result of more than a decade of research at Microsoft Research on making zero-knowledge proofs practical. A new form of computing Every result a computer produces comes with an implicit question: did the program run as claimed and produce correct outputs? Today, answering that question often requires a degree of trust alongside verification.&nbsp;We trust the operator, the vendor, the counterparty, or the agent, and we rely on contracts, audits, and logs to establish that trust.&nbsp; Zero-knowledge proofs offer a fundamentally different approach to establishing trust. A program runs, and along with its output it produces a short proof, a cryptographic certificate that this program, on these inputs, produced this output. The proof is small and fast to check. Whoever receives it can confirm the result in milliseconds without rerunning the program, and can pass the proof on to anyone else who needs the same assurance. With the zero-knowledge property, the proof also reveals nothing about inputs that should stay private. This changes what correctness means in the real world. A result no longer has to be trusted because of who produced it. It…",
-      "summary": "Zero-knowledge proofs can verify computing results without rerunning workloads or exposing sensitive data. Magnetar helps bring them into the mainstream with support for standard programming languages, major speed gains, and quantum-resist…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.8,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.63,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "43a1399a471f95b5",
-      "date": "2026-10-18",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents",
-      "url": "https://www.latent.space/p/crossing-the-threshold",
-      "publishedAt": "2026-10-14T21:40:52.000Z",
-      "content": "OpenAI&#8217;s Joseph Kim talks about the threshold phenomenon at AIE NY today. One of the key themes at the AI Engineer New York conference this week was how to balance agent autonomy with security and safety . Both frontier labs and financial firms focused on this issue in their presentations this week. The main lesson: safe autonomy depends on where you put controls and human judgment , rather than how many restrictions you impose. Sponsor: Build shopping into your agent with shop.dev Adding commerce to an agent usually means rebuilding search and checkout from scratch. shop.dev gives you a single API for shopping in any agent or app. One connection gives you access to over a billion products with current price and availability, instant sign in with Shop, and one-tap Shop Pay checkout that happens right in the conversation. It&#8217;s open to any developer, with no account or key needed to try it. &#8594; Try shop.dev today Joseph Kim , Head of ChatGPT for Financial Services at OpenAI, gave a keynote at AIE New York today. (We also did a special podcast with Kim, which will be released shortly.) He talked about reliability and a &#8220;threshold of usefulness,&#8221; which he said is &#8220;the point where a model becomes capable and reliable enough to save you time.&#8221; Kim argued that ever-growing model capability will soon take financial analysts over the threshold and allow them to delegate more work to agents. He made some specific predictions about AI&#8217;s role in finance in 2027. Not only will the financial industry rely less on Excel and PowerPoint next year, he claimed, but agents will be good enough to do &#8220;investment idea generation and trading.&#8221; The &#8220;rising tide&#8221; of model capabilities is also leading to better traceability . &#8220;In finance, you need to be able to check where a number came from and understand the context around it,&#8221; said Kim. &#8220;We wanted that review to be a natural part of the [ChatGPT for Fi…",
-      "summary": "At AI Engineer New York, frontier labs and financial firms explored how to give agents useful autonomy while keeping consequential decisions under control.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "developer"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.62,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.51,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "072013064071db1f",
-      "date": "2026-10-18",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "The Case for DUV Controls",
-      "url": "https://www.chinatalk.media/p/saif-khan-the-case-for-duv-controls",
-      "publishedAt": "2026-10-17T09:07:33.000Z",
-      "content": "Saif Khan makes his ChinaTalk debut. He is perhaps my favorite example of posting-to-policy that I&#8217;ve seen over the course of my time following Washington. Saif wrote some truly excellent deep dives into AI and semiconductors during his time at CSET, then went into the NSC and Commerce in the early-to-mid 2020s, across both the Biden and Trump II administrations, to help manifest the export control regulatory regime we have today. He is now out of government and launching the Center for Technology and Statecraft , an IFP -affiliated think tank, which is already producing excellent, grounded, technical, forward-looking work that will certainly shape many an AI policy discussion in the years to come. We discuss: Why Saif started a new think tank, and the value of deep, forward-looking policy research in an AI world moving at breakneck speed; CTS&#8217;s landmark DUV report, which projects that stopping tool exports today could leave China producing roughly 100x fewer AI chips than the US by the mid-2030s, making DUV controls the US&#8217;s most consequential lever over the AI balance; How rigorous research actually translates into government policy, and why think tank experience is valuable before working in government; Robotics as the next frontier of US-China AI competition, and the security vs. diffusion mindsets shaping AI policy; How AI is changing policy research itself, the challenge of bringing AI into government, and what AI-driven economic and social change could mean for humans. Plus, why everyone should read Lu Xun, why AI might socialize like insects, and AI-nannying. Listen now on your favorite podcast app ! Why Another Think Tank? Jordan Schneider: Saif Khan, at long last, welcome to ChinaTalk. Why does the world need another think tank? What is the appetite right now for evidence-based policy? Saif Khan: There is, surprisingly, a gap in the AI policy think tank ecosystem that we&#8217;re trying to fill. Industry and foundations are gobbling up l…",
-      "summary": "with Saif Khan!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
       "whyThisMatters": ""
     },
     {
