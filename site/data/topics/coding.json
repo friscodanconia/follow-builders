@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T05:03:54.265Z",
+  "generatedAt": "2026-10-20T06:09:43.774Z",
   "slug": "coding",
   "label": "Coding",
   "items": [
@@ -36,7 +36,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -73,7 +73,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -360,7 +360,7 @@
       "section": "Official Sources",
       "importanceScore": 0.72,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.57,
       "whyThisMatters": ""
     },
@@ -622,57 +622,6 @@
       "whyThisMatters": ""
     },
     {
-      "id": "e38bf21b16547a12",
-      "date": "2026-10-20",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio",
-      "url": "https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
-      "publishedAt": "2026-10-14T20:35:09.000Z",
-      "content": "A few years ago I stumbled upon Leash Bio&#8217;s Substack , and was hooked. Be it their Kaggle competition that showed that no, we really haven&#8217;t solved protein-ligand binding , or their crazy discovery that knowing a molecule&#8217;s author is perhaps all you need to know to predict how good it is . Their substack &#8212; or at least Owl Posting &#8217;s 1 deep dive on them &#8212; should be required reading for any scientist trying to do chemistry with AI. So I was super excited to finally be able to sit down with Ian Quigley from Leash Bio, and pick his brain. Leash specializes in DNA Encoded Libraries (aka &#8220;DELs&#8221;), a way of collecting ridiculously high-throughput interaction data between proteins and small molecules. 2 Before I discovered Leash, I had heard nothing but horror stories from DEL users. And yet, Ian and friends somehow found a way to tame the beast, extracting clean and reproducible data that is just perfect for large scale modeling. Without teasing too much, the answer comes down to epistemic rigor, and an incredible conviction that you just have to Do The Thing. It gets even better! Near the end of this episode, Ian teases something his team was just playing with when we recorded: an AI playground for agents to do verifiable scientific reasoning. They discovered the data they had spent the last few years collecting could provide tens of thousands of &#8220;lab-in-the-loop&#8221; simulations, just what an agent needs for scientific RL. Two months later, it&#8217;s matured into Minos, and today they&#8217;re releasing a full preprint , blog , and open dataset . We&#8217;ll be releasing a lightning podcast in a few days with an update. Stay tuned! We had a blast with Ian, probably one of our most fun episodes to date. For both complete chemistry novices and expert AI x Bio practitioners, we think you&#8217;ll get something out of this. Enjoy! We covered: Why DELs traumatize everyone who touches them, and how Leash puts dozens of b…",
-      "summary": "How Leash Bio tamed DELs, the assay that traumatizes everyone, and used the data to catch cheating models. And why that same data is perfect for AI agents learning to think like chemists.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "throughput"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
       "id": "072013064071db1f",
       "date": "2026-10-20",
       "sourceType": "newsletter",
@@ -721,6 +670,57 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "e38bf21b16547a12",
+      "date": "2026-10-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio",
+      "url": "https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
+      "publishedAt": "2026-10-14T20:35:09.000Z",
+      "content": "A few years ago I stumbled upon Leash Bio&#8217;s Substack , and was hooked. Be it their Kaggle competition that showed that no, we really haven&#8217;t solved protein-ligand binding , or their crazy discovery that knowing a molecule&#8217;s author is perhaps all you need to know to predict how good it is . Their substack &#8212; or at least Owl Posting &#8217;s 1 deep dive on them &#8212; should be required reading for any scientist trying to do chemistry with AI. So I was super excited to finally be able to sit down with Ian Quigley from Leash Bio, and pick his brain. Leash specializes in DNA Encoded Libraries (aka &#8220;DELs&#8221;), a way of collecting ridiculously high-throughput interaction data between proteins and small molecules. 2 Before I discovered Leash, I had heard nothing but horror stories from DEL users. And yet, Ian and friends somehow found a way to tame the beast, extracting clean and reproducible data that is just perfect for large scale modeling. Without teasing too much, the answer comes down to epistemic rigor, and an incredible conviction that you just have to Do The Thing. It gets even better! Near the end of this episode, Ian teases something his team was just playing with when we recorded: an AI playground for agents to do verifiable scientific reasoning. They discovered the data they had spent the last few years collecting could provide tens of thousands of &#8220;lab-in-the-loop&#8221; simulations, just what an agent needs for scientific RL. Two months later, it&#8217;s matured into Minos, and today they&#8217;re releasing a full preprint , blog , and open dataset . We&#8217;ll be releasing a lightning podcast in a few days with an update. Stay tuned! We had a blast with Ian, probably one of our most fun episodes to date. For both complete chemistry novices and expert AI x Bio practitioners, we think you&#8217;ll get something out of this. Enjoy! We covered: Why DELs traumatize everyone who touches them, and how Leash puts dozens of b…",
+      "summary": "How Leash Bio tamed DELs, the assay that traumatizes everyone, and used the data to catch cheating models. And why that same data is perfect for AI agents learning to think like chemists.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "throughput"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
