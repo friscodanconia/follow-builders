@@ -1,8 +1,653 @@
 {
-  "generatedAt": "2026-10-19T06:21:15.783Z",
+  "generatedAt": "2026-10-20T00:31:02.324Z",
   "slug": "agents",
   "label": "AI Assistants",
   "items": [
+    {
+      "id": "a8b9094e39e373b2",
+      "date": "2026-10-20",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "Here’s why agent swarms are going to be a very big deal. We can finally make compute a critical…",
+      "url": "https://x.com/levie/status/2112051081014649303",
+      "publishedAt": "2026-10-19T05:19:52.000Z",
+      "content": "Here’s why agent swarms are going to be a very big deal. We can finally make compute a critical variable in a large number of important tasks in the economy which wasn’t possible before. There’s a large amount of work in the world that is essentially only constrained by the amount of time that we put into research, data processing, discovery work, running tests, and more. All of this work is bottlenecked by our ability to plan, execute, review, and coordinate everything happening in these workf…",
+      "summary": "Here’s why agent swarms are going to be a very big deal. We can finally make compute a critical variable in a large number of important tasks in the economy which wasn’t possible before. There’s a large amount of work i…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 121,
+        "retweets": 13,
+        "replies": 44
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "a0a327d0a80c2177",
+      "date": "2026-10-20",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:garrytan",
+      "builderOrOrg": "Garry Tan",
+      "title": "Prediction: you’re all going to be using @AsideAI with your agents in a year or so https://t.co…",
+      "url": "https://x.com/garrytan/status/2111971992769565177",
+      "publishedAt": "2026-10-19T00:05:36.000Z",
+      "content": "Prediction: you’re all going to be using @AsideAI with your agents in a year or so https://t.co/gF7Nx30O4D",
+      "summary": "Prediction: you’re all going to be using @AsideAI with your agents in a year or so https://t.co/gF7Nx30O4D",
+      "regionTags": [],
+      "metrics": {
+        "likes": 424,
+        "retweets": 23,
+        "replies": 87
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "f15c2b5cf541ba9f",
+      "date": "2026-10-20",
+      "sourceType": "blog",
+      "sourceGroup": "mirrored",
+      "sourceName": "Anthropic Engineering",
+      "sourceKey": "blog:Anthropic Engineering",
+      "builderOrOrg": "Anthropic Engineering",
+      "title": "How we contain Claude across products",
+      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+      "publishedAt": null,
+      "content": "Twelve months ago, we&#x27;d have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service. Today that level of access is routine, and Anthropic developers are more productive for it. The risk of these deployments has two components: how likely a failure is, and how much damage one could do. Progress on safeguards and model training has steadily driven down the first; the second—the theoretical blast radius—only grows as capabilities and access expand. Yet as agents become capable of doing work that once required a person or even a team, the cost of not deploying grows large enough that the risk-reward calculation tips heavily toward adoption, as long as products can be made safe. The engineering question becomes how to cap the blast radius. When bounds can be placed on the relative damage of an autonomous agent—such as through control over its environment—high-utility capabilities can motivate deployment. Claude Mythos Preview is an example of a model whose blast radius was deemed too high to ship in April 2026. However, we expect broader release of models with similar levels of capability to become appropriate as defenders harden critical systems and safeguards mature—even though some risk will always remain. Model capability is an important factor in the total risk of an agent’s deployment. There are broadly two ways to do this. The first is to supervise the agent’s behavior via a human-in-the-loop. Claude Code previously protected against agents taking unintended actions by asking users for permission at each turn. Theoretically that works, but we’ve found the approach to be fallible. Our telemetry showed users approved roughly 93% of permission prompts. The more approvals a user sees, the less attention they pay to each, becoming over time much less diligent in their supervision. We recently built Claude Code auto mode, which automates safer approvals in order to reduce this approval fatigue. Still, vulnerab…",
+      "summary": "Twelve months ago, we&#x27;d have rejected out of hand the idea of granting Claude access sufficient to take down an internal Anthropic service. Today that level of access is routine, and Anthropic developers are more productive for it. Th…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "autonomous"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "developer"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "deployment"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Watchlist",
+      "importanceScore": 0.62,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.51,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "5d94b23123a81b3f",
+      "date": "2026-10-20",
+      "sourceType": "blog",
+      "sourceGroup": "mirrored",
+      "sourceName": "Anthropic Engineering",
+      "sourceKey": "blog:Anthropic Engineering",
+      "builderOrOrg": "Anthropic Engineering",
+      "title": "An update on recent Claude Code quality reports",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "publishedAt": null,
+      "content": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was not impacted. All three issues have now been resolved as of April 20 (v2.1.116). In this post, we explain what we found, what we fixed, and what we’ll do differently to ensure similar issues are much less likely to happen again. We take reports about degradation very seriously. We never intentionally degrade our models, and we were able to immediately confirm that our API and inference layer were unaffected. After investigation, we identified three different issues: On March 4, we changed Claude Code&#x27;s default reasoning effort from high to medium to reduce the very long latency—enough to make the UI appear frozen—some users were seeing in high mode. This was the wrong tradeoff. We reverted this change on April 7 after users told us they&#x27;d prefer to default to higher intelligence and opt into lower effort for simple tasks. This impacted Sonnet 4.6 and Opus 4.6. On March 26, we shipped a change to clear Claude&#x27;s older thinking from sessions that had been idle for over an hour, to reduce latency when users resumed those sessions. A bug caused this to keep happening every turn for the rest of the session instead of just once, which made Claude seem forgetful and repetitive. We fixed it on April 10. This affected Sonnet 4.6 and Opus 4.6. On April 16, we added a system prompt instruction to reduce verbosity. In combination with other prompt changes, it hurt coding quality and was reverted on April 20. This impacted Sonnet 4.6, Opus 4.6, and Opus 4.7. Because each change affected a different slice of traffic on a different schedule, the aggregate effect looked like broad, inconsistent degradation. While we began investigating reports in early March, they were challenging to distinguish from normal variation in user feedba…",
+      "summary": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "coding",
+            "code",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "inference",
+            "latency"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Watchlist",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "b63ee5a92839eb43",
+      "date": "2026-10-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "content": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "d14afe4139360bdd",
+      "date": "2026-10-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Proof-based general-purpose computing with Magnetar",
+      "url": "https://www.microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar/",
+      "publishedAt": "2026-10-15T16:00:00.000Z",
+      "content": "At a glance A new form of computing . Zero-knowledge proofs let you run a workload and receive, alongside the result, a short proof that the program ran correctly. Anyone can check the proof in milliseconds, without rerunning the program, without trusting whoever ran it, and without needing data on which the program was run. Three grand challenges have stood in the way of broad adoption : making proofs fast enough to produce, making them available to normal programs without cryptographic expertise, and resting them on cryptography that will still be trusted many decades from now. Magnetar makes major progress on all three challenges. It proves programs written in Rust, Go, or C, runs 10 to 39 times faster on average than the prior fastest comparable systems, and rests its security only on standard hash functions. It is the latest result of more than a decade of research at Microsoft Research on making zero-knowledge proofs practical. A new form of computing Every result a computer produces comes with an implicit question: did the program run as claimed and produce correct outputs? Today, answering that question often requires a degree of trust alongside verification.&nbsp;We trust the operator, the vendor, the counterparty, or the agent, and we rely on contracts, audits, and logs to establish that trust.&nbsp; Zero-knowledge proofs offer a fundamentally different approach to establishing trust. A program runs, and along with its output it produces a short proof, a cryptographic certificate that this program, on these inputs, produced this output. The proof is small and fast to check. Whoever receives it can confirm the result in milliseconds without rerunning the program, and can pass the proof on to anyone else who needs the same assurance. With the zero-knowledge property, the proof also reveals nothing about inputs that should stay private. This changes what correctness means in the real world. A result no longer has to be trusted because of who produced it. It…",
+      "summary": "Zero-knowledge proofs can verify computing results without rerunning workloads or exposing sensitive data. Magnetar helps bring them into the mainstream with support for standard programming languages, major speed gains, and quantum-resist…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.8,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.63,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "45be3415300a961a",
+      "date": "2026-10-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "Meta Muse Spark Open is live on Together AI",
+      "url": "https://www.together.ai/blog/meta-muse-spark-open",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "content": "Meta Muse Spark Open, Meta's open-weight model for agentic coding, is live on Together AI with a 1M-token context window on serverless and dedicated infrastructure.",
+      "summary": "Meta Muse Spark Open, Meta's open-weight model for agentic coding, is live on Together AI with a 1M-token context window on serverless and dedicated infrastructure.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "ce87a370415d09b6",
+      "date": "2026-10-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Import AI",
+      "sourceKey": "editorial:Import AI",
+      "builderOrOrg": "Jack Clark",
+      "title": "Import AI 477: In which I tell the IMF the Singularity has begun",
+      "url": "https://jack-clark.net/2026/10/19/import-ai-477-in-which-i-tell-the-imf-the-singularity-has-begun/",
+      "publishedAt": "2026-10-19T12:31:37.000Z",
+      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Here’s a speech I gave on Saturday the 17th of October at the IMF meeting in Bangkok. This speech is inspired by the megatrend readers have seen me cover this year of AI beginning to operate at the frontier of human science, sometimes autonomously. While we all may quibble over the details, I think it’s evident we’re in the early stages of the singularity, and I wanted to use my privileged position of giving the Per Jacobsson lecture to try and tell the assembled audience of economists, bankers, and policymakers, that they should expect significant, rapid change in the future. In this speech, I focused primarily on how humanity can share in the benefits of AI if we exercise proper foresight and restraint, and I’m going to be expanding on the stakes of the singularity and the risks that we’ll all face in coming issues. As I said a few times in the speech &#8211; some of which was ad libbed and not captured here &#8211; I take my own responsibility here extremely seriously. I find myself both a narrator of what is happening in AI, a principle agent behind what is happening in AI, and a translator that goes between many communities. In all of this, I am seeking to be truthful and to be clear about my own culpability. This is a forever work-in-progress. Thank you all for reading. Speeches like this draw heavily from the newsletter, and the newsletter is my attempt to provide week-by-week information to all of you. I appreciate your readership. *** Inside the Event Horizon: Why Everyone Should Take AI Progress Seriously Hello, thank you for having me. It is a great privilege to be here. To start, I should list my relevant credentials: I am a human being. There is one of me. It has taken me almost 40 years to build the experience to give this speech. I will come back to those credentials late…",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Here’s a speech I gave on Saturday the 17th of October at…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "autonomous"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "speech"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "b64559f7c40a9e71",
+      "date": "2026-10-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] High Taste Testers Ep. 1",
+      "url": "https://www.latent.space/p/ainews-high-taste-testers-ep-1",
+      "publishedAt": "2026-10-17T07:47:38.000Z",
+      "content": "We are piloting a new show on Latent Space: High Taste Testers, a variant of our food show where we pull you in to a typical lunch conversation in San Francisco. All your favorite talking points, starting with Dev Day and going into the latest models and assistants, are here: Let us know your feedback! AI News for 10/15/2026-10/16/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap US Open-Weights Push: Muse Spark Open and Reflection Beam Muse Spark Open (Meta) : An 816B-total, 42B-active MoE with open weights. Artificial Analysis scores it 39 on its Intelligence Index, the highest for a US open-weights model and 13 points above NVIDIA&#8217;s Nemotron 3.5 Super VL at 26 ( AA ). Architecture and footprint : 62 layers, GQA with 16 KV heads, 8 of 256 experts active per token, a 1.8B Perception Encoder and 1M context. Inputs are text, image, video and audio; output is text. BF16 weights are about 1.6TB. Meta&#8217;s NVFP4 checkpoint quantizes only the experts, cutting weights to about 530GB. Meta says that fits on 4 Blackwell Ultra GPUs, 8 H200s or two 512GB M5 Ultra Mac Studios. Pricing and efficiency : Together, Fireworks and Baseten charge $1.25/$4.25 per M input/output tokens, with $0.15 cached input. AA puts the cost at $0.84 per index task, versus $2.01 for GLM-5.3 and $0.27 for DeepSeek V4.1 Flash. It uses 40k output tokens per task, the fewest among the top nine open models ( cost ). Vals counts 55.5M output tokens across its index, the fewest of any open model, but says input tokens drive most of its cost ( Vals ). Weak spot : It ranks last among the top nine open models on AA&#8217;s four agentic evals while leading open models on AA-Omniscience. Vals places it #12 among open-weight models and #38 overall ( Vals ). Arena ranks it the top US open model on Code Arena WebDev w…",
+      "summary": "a quiet day lets us pilot a new show",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "image",
+            "video"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "4671d8ed49a08e38",
+      "date": "2026-10-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Agents disprove Polysemanticity; greatly improve Interpretability & Alignment",
+      "url": "https://www.latent.space/p/ainews-agents-disprove-polysemanticity",
+      "publishedAt": "2026-10-16T04:16:45.000Z",
+      "content": "A version of Muse Spark Open was released today, fulfilling their original promise but with a model weaker than their Spark 1.3. It&#8217;s also worth watching the Tesla Roadster demo - not strictly AI but nothing cooler than real life flying cars. Our title story today is a rare one on interpretability and alignment. We last caught up with Goodfire in Feb : and the bitter-lesson scaling of interpretability methods with Anthropic last year : And now Nick Cammarata at Goodfire has an important essay out stating his working theory that &#8220; Neural Networks Are Already Clean &#8221; &#8212; showing that many known cases of polysemanticity and superposition - causing tangled &#8220;knots&#8221; of weights that resist human interpretation - simply fall to further agentic analysis: Don&#8217;t take our word for it: and a global lowering of P(doom) seems worth celebrating: AI News for 10/14/2026-10/15/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Meta Releases Muse Spark Open, the Top-Scoring US Open-Weight Model Release : Meta released Muse Spark Open, an 816B-total / 42B-active MoE with a 1M-token context window. It accepts text, image, video and audio input and is aimed at coding, long-horizon agents and multi-step reasoning ( announcement , Wang thread ). Lineage : Jack Rae says it was the first base model trained under the new MSL org, with additional training for the open release ( Rae ). Several posters describe it as roughly Muse Spark 1.2 level ( Yuchen Jin , TimDarcet ). License : The weights ship under the custom Muse Model License. It requires &#8220;Built with Muse Spark Open&#8221; attribution and a separate agreement for Model-as-a-Service businesses with more than $20M in annual revenue ( AA ). Nathan Lambert called the license &#8220;trash&#8221; ( natolambert )…",
+      "summary": "Nick Cammarata out of nowhere with some major claims!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.69,
+          "rationale": [
+            "reasoning",
+            "long-horizon"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "image",
+            "video"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "43a1399a471f95b5",
+      "date": "2026-10-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents",
+      "url": "https://www.latent.space/p/crossing-the-threshold",
+      "publishedAt": "2026-10-14T21:40:52.000Z",
+      "content": "OpenAI&#8217;s Joseph Kim talks about the threshold phenomenon at AIE NY today. One of the key themes at the AI Engineer New York conference this week was how to balance agent autonomy with security and safety . Both frontier labs and financial firms focused on this issue in their presentations this week. The main lesson: safe autonomy depends on where you put controls and human judgment , rather than how many restrictions you impose. Sponsor: Build shopping into your agent with shop.dev Adding commerce to an agent usually means rebuilding search and checkout from scratch. shop.dev gives you a single API for shopping in any agent or app. One connection gives you access to over a billion products with current price and availability, instant sign in with Shop, and one-tap Shop Pay checkout that happens right in the conversation. It&#8217;s open to any developer, with no account or key needed to try it. &#8594; Try shop.dev today Joseph Kim , Head of ChatGPT for Financial Services at OpenAI, gave a keynote at AIE New York today. (We also did a special podcast with Kim, which will be released shortly.) He talked about reliability and a &#8220;threshold of usefulness,&#8221; which he said is &#8220;the point where a model becomes capable and reliable enough to save you time.&#8221; Kim argued that ever-growing model capability will soon take financial analysts over the threshold and allow them to delegate more work to agents. He made some specific predictions about AI&#8217;s role in finance in 2027. Not only will the financial industry rely less on Excel and PowerPoint next year, he claimed, but agents will be good enough to do &#8220;investment idea generation and trading.&#8221; The &#8220;rising tide&#8221; of model capabilities is also leading to better traceability . &#8220;In finance, you need to be able to check where a number came from and understand the context around it,&#8221; said Kim. &#8220;We wanted that review to be a natural part of the [ChatGPT for Fi…",
+      "summary": "At AI Engineer New York, frontier labs and financial firms explored how to give agents useful autonomy while keeping consequential decisions under control.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "developer"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.62,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.51,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "e38bf21b16547a12",
+      "date": "2026-10-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio",
+      "url": "https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
+      "publishedAt": "2026-10-14T20:35:09.000Z",
+      "content": "A few years ago I stumbled upon Leash Bio&#8217;s Substack , and was hooked. Be it their Kaggle competition that showed that no, we really haven&#8217;t solved protein-ligand binding , or their crazy discovery that knowing a molecule&#8217;s author is perhaps all you need to know to predict how good it is . Their substack &#8212; or at least Owl Posting &#8217;s 1 deep dive on them &#8212; should be required reading for any scientist trying to do chemistry with AI. So I was super excited to finally be able to sit down with Ian Quigley from Leash Bio, and pick his brain. Leash specializes in DNA Encoded Libraries (aka &#8220;DELs&#8221;), a way of collecting ridiculously high-throughput interaction data between proteins and small molecules. 2 Before I discovered Leash, I had heard nothing but horror stories from DEL users. And yet, Ian and friends somehow found a way to tame the beast, extracting clean and reproducible data that is just perfect for large scale modeling. Without teasing too much, the answer comes down to epistemic rigor, and an incredible conviction that you just have to Do The Thing. It gets even better! Near the end of this episode, Ian teases something his team was just playing with when we recorded: an AI playground for agents to do verifiable scientific reasoning. They discovered the data they had spent the last few years collecting could provide tens of thousands of &#8220;lab-in-the-loop&#8221; simulations, just what an agent needs for scientific RL. Two months later, it&#8217;s matured into Minos, and today they&#8217;re releasing a full preprint , blog , and open dataset . We&#8217;ll be releasing a lightning podcast in a few days with an update. Stay tuned! We had a blast with Ian, probably one of our most fun episodes to date. For both complete chemistry novices and expert AI x Bio practitioners, we think you&#8217;ll get something out of this. Enjoy! We covered: Why DELs traumatize everyone who touches them, and how Leash puts dozens of b…",
+      "summary": "How Leash Bio tamed DELs, the assay that traumatizes everyone, and used the data to catch cheating models. And why that same data is perfect for AI agents learning to think like chemists.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "throughput"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "24a1972171c18e2c",
+      "date": "2026-10-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "WarTalk: AutoWarCom and Project Meridian",
+      "url": "https://www.chinatalk.media/p/wartalk-autowarcom-and-project-meridian",
+      "publishedAt": "2026-10-13T11:04:37.000Z",
+      "content": "Jordan Schneider, Justin McIntosh, and Bryan Clark are joined by Arthur Tellis of the Institute for Progress to discuss: AutoWarCom and Project Agincourt &#8212; why a new four-star command for autonomous warfare could do the opposite of what it intends, slowing the fielding of autonomous systems and adding the generals Hegseth just promised to cut, and what a&#8230; Read more",
+      "summary": "+ Newt returns!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "autonomous"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
     {
       "id": "32851f6e425f279c",
       "date": "2026-10-19",
@@ -139,399 +784,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "b63ee5a92839eb43",
-      "date": "2026-10-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "publishedAt": "2026-10-16T00:00:00.000Z",
-      "content": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d14afe4139360bdd",
-      "date": "2026-10-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Proof-based general-purpose computing with Magnetar",
-      "url": "https://www.microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar/",
-      "publishedAt": "2026-10-15T16:00:00.000Z",
-      "content": "At a glance A new form of computing . Zero-knowledge proofs let you run a workload and receive, alongside the result, a short proof that the program ran correctly. Anyone can check the proof in milliseconds, without rerunning the program, without trusting whoever ran it, and without needing data on which the program was run. Three grand challenges have stood in the way of broad adoption : making proofs fast enough to produce, making them available to normal programs without cryptographic expertise, and resting them on cryptography that will still be trusted many decades from now. Magnetar makes major progress on all three challenges. It proves programs written in Rust, Go, or C, runs 10 to 39 times faster on average than the prior fastest comparable systems, and rests its security only on standard hash functions. It is the latest result of more than a decade of research at Microsoft Research on making zero-knowledge proofs practical. A new form of computing Every result a computer produces comes with an implicit question: did the program run as claimed and produce correct outputs? Today, answering that question often requires a degree of trust alongside verification.&nbsp;We trust the operator, the vendor, the counterparty, or the agent, and we rely on contracts, audits, and logs to establish that trust.&nbsp; Zero-knowledge proofs offer a fundamentally different approach to establishing trust. A program runs, and along with its output it produces a short proof, a cryptographic certificate that this program, on these inputs, produced this output. The proof is small and fast to check. Whoever receives it can confirm the result in milliseconds without rerunning the program, and can pass the proof on to anyone else who needs the same assurance. With the zero-knowledge property, the proof also reveals nothing about inputs that should stay private. This changes what correctness means in the real world. A result no longer has to be trusted because of who produced it. It…",
-      "summary": "Zero-knowledge proofs can verify computing results without rerunning workloads or exposing sensitive data. Magnetar helps bring them into the mainstream with support for standard programming languages, major speed gains, and quantum-resist…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.8,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.63,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "45be3415300a961a",
-      "date": "2026-10-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Together AI Blog",
-      "sourceKey": "official:Together AI Blog",
-      "builderOrOrg": "Together AI",
-      "title": "Meta Muse Spark Open is live on Together AI",
-      "url": "https://www.together.ai/blog/meta-muse-spark-open",
-      "publishedAt": "2026-10-15T00:00:00.000Z",
-      "content": "Meta Muse Spark Open, Meta's open-weight model for agentic coding, is live on Together AI with a 1M-token context window on serverless and dedicated infrastructure.",
-      "summary": "Meta Muse Spark Open, Meta's open-weight model for agentic coding, is live on Together AI with a 1M-token context window on serverless and dedicated infrastructure.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "b64559f7c40a9e71",
-      "date": "2026-10-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] High Taste Testers Ep. 1",
-      "url": "https://www.latent.space/p/ainews-high-taste-testers-ep-1",
-      "publishedAt": "2026-10-17T07:47:38.000Z",
-      "content": "We are piloting a new show on Latent Space: High Taste Testers, a variant of our food show where we pull you in to a typical lunch conversation in San Francisco. All your favorite talking points, starting with Dev Day and going into the latest models and assistants, are here: Let us know your feedback! AI News for 10/15/2026-10/16/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap US Open-Weights Push: Muse Spark Open and Reflection Beam Muse Spark Open (Meta) : An 816B-total, 42B-active MoE with open weights. Artificial Analysis scores it 39 on its Intelligence Index, the highest for a US open-weights model and 13 points above NVIDIA&#8217;s Nemotron 3.5 Super VL at 26 ( AA ). Architecture and footprint : 62 layers, GQA with 16 KV heads, 8 of 256 experts active per token, a 1.8B Perception Encoder and 1M context. Inputs are text, image, video and audio; output is text. BF16 weights are about 1.6TB. Meta&#8217;s NVFP4 checkpoint quantizes only the experts, cutting weights to about 530GB. Meta says that fits on 4 Blackwell Ultra GPUs, 8 H200s or two 512GB M5 Ultra Mac Studios. Pricing and efficiency : Together, Fireworks and Baseten charge $1.25/$4.25 per M input/output tokens, with $0.15 cached input. AA puts the cost at $0.84 per index task, versus $2.01 for GLM-5.3 and $0.27 for DeepSeek V4.1 Flash. It uses 40k output tokens per task, the fewest among the top nine open models ( cost ). Vals counts 55.5M output tokens across its index, the fewest of any open model, but says input tokens drive most of its cost ( Vals ). Weak spot : It ranks last among the top nine open models on AA&#8217;s four agentic evals while leading open models on AA-Omniscience. Vals places it #12 among open-weight models and #38 overall ( Vals ). Arena ranks it the top US open model on Code Arena WebDev w…",
-      "summary": "a quiet day lets us pilot a new show",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.69,
-          "rationale": [
-            "image",
-            "video"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4671d8ed49a08e38",
-      "date": "2026-10-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Agents disprove Polysemanticity; greatly improve Interpretability & Alignment",
-      "url": "https://www.latent.space/p/ainews-agents-disprove-polysemanticity",
-      "publishedAt": "2026-10-16T04:16:45.000Z",
-      "content": "A version of Muse Spark Open was released today, fulfilling their original promise but with a model weaker than their Spark 1.3. It&#8217;s also worth watching the Tesla Roadster demo - not strictly AI but nothing cooler than real life flying cars. Our title story today is a rare one on interpretability and alignment. We last caught up with Goodfire in Feb : and the bitter-lesson scaling of interpretability methods with Anthropic last year : And now Nick Cammarata at Goodfire has an important essay out stating his working theory that &#8220; Neural Networks Are Already Clean &#8221; &#8212; showing that many known cases of polysemanticity and superposition - causing tangled &#8220;knots&#8221; of weights that resist human interpretation - simply fall to further agentic analysis: Don&#8217;t take our word for it: and a global lowering of P(doom) seems worth celebrating: AI News for 10/14/2026-10/15/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Meta Releases Muse Spark Open, the Top-Scoring US Open-Weight Model Release : Meta released Muse Spark Open, an 816B-total / 42B-active MoE with a 1M-token context window. It accepts text, image, video and audio input and is aimed at coding, long-horizon agents and multi-step reasoning ( announcement , Wang thread ). Lineage : Jack Rae says it was the first base model trained under the new MSL org, with additional training for the open release ( Rae ). Several posters describe it as roughly Muse Spark 1.2 level ( Yuchen Jin , TimDarcet ). License : The weights ship under the custom Muse Model License. It requires &#8220;Built with Muse Spark Open&#8221; attribution and a separate agreement for Model-as-a-Service businesses with more than $20M in annual revenue ( AA ). Nathan Lambert called the license &#8220;trash&#8221; ( natolambert )…",
-      "summary": "Nick Cammarata out of nowhere with some major claims!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "reasoning",
-          "label": "AI Thinking",
-          "confidence": 0.69,
-          "rationale": [
-            "reasoning",
-            "long-horizon"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.69,
-          "rationale": [
-            "image",
-            "video"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "43a1399a471f95b5",
-      "date": "2026-10-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents",
-      "url": "https://www.latent.space/p/crossing-the-threshold",
-      "publishedAt": "2026-10-14T21:40:52.000Z",
-      "content": "OpenAI&#8217;s Joseph Kim talks about the threshold phenomenon at AIE NY today. One of the key themes at the AI Engineer New York conference this week was how to balance agent autonomy with security and safety . Both frontier labs and financial firms focused on this issue in their presentations this week. The main lesson: safe autonomy depends on where you put controls and human judgment , rather than how many restrictions you impose. Sponsor: Build shopping into your agent with shop.dev Adding commerce to an agent usually means rebuilding search and checkout from scratch. shop.dev gives you a single API for shopping in any agent or app. One connection gives you access to over a billion products with current price and availability, instant sign in with Shop, and one-tap Shop Pay checkout that happens right in the conversation. It&#8217;s open to any developer, with no account or key needed to try it. &#8594; Try shop.dev today Joseph Kim , Head of ChatGPT for Financial Services at OpenAI, gave a keynote at AIE New York today. (We also did a special podcast with Kim, which will be released shortly.) He talked about reliability and a &#8220;threshold of usefulness,&#8221; which he said is &#8220;the point where a model becomes capable and reliable enough to save you time.&#8221; Kim argued that ever-growing model capability will soon take financial analysts over the threshold and allow them to delegate more work to agents. He made some specific predictions about AI&#8217;s role in finance in 2027. Not only will the financial industry rely less on Excel and PowerPoint next year, he claimed, but agents will be good enough to do &#8220;investment idea generation and trading.&#8221; The &#8220;rising tide&#8221; of model capabilities is also leading to better traceability . &#8220;In finance, you need to be able to check where a number came from and understand the context around it,&#8221; said Kim. &#8220;We wanted that review to be a natural part of the [ChatGPT for Fi…",
-      "summary": "At AI Engineer New York, frontier labs and financial firms explored how to give agents useful autonomy while keeping consequential decisions under control.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "developer"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.62,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.51,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "e38bf21b16547a12",
-      "date": "2026-10-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio",
-      "url": "https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
-      "publishedAt": "2026-10-14T20:35:09.000Z",
-      "content": "A few years ago I stumbled upon Leash Bio&#8217;s Substack , and was hooked. Be it their Kaggle competition that showed that no, we really haven&#8217;t solved protein-ligand binding , or their crazy discovery that knowing a molecule&#8217;s author is perhaps all you need to know to predict how good it is . Their substack &#8212; or at least Owl Posting &#8217;s 1 deep dive on them &#8212; should be required reading for any scientist trying to do chemistry with AI. So I was super excited to finally be able to sit down with Ian Quigley from Leash Bio, and pick his brain. Leash specializes in DNA Encoded Libraries (aka &#8220;DELs&#8221;), a way of collecting ridiculously high-throughput interaction data between proteins and small molecules. 2 Before I discovered Leash, I had heard nothing but horror stories from DEL users. And yet, Ian and friends somehow found a way to tame the beast, extracting clean and reproducible data that is just perfect for large scale modeling. Without teasing too much, the answer comes down to epistemic rigor, and an incredible conviction that you just have to Do The Thing. It gets even better! Near the end of this episode, Ian teases something his team was just playing with when we recorded: an AI playground for agents to do verifiable scientific reasoning. They discovered the data they had spent the last few years collecting could provide tens of thousands of &#8220;lab-in-the-loop&#8221; simulations, just what an agent needs for scientific RL. Two months later, it&#8217;s matured into Minos, and today they&#8217;re releasing a full preprint , blog , and open dataset . We&#8217;ll be releasing a lightning podcast in a few days with an update. Stay tuned! We had a blast with Ian, probably one of our most fun episodes to date. For both complete chemistry novices and expert AI x Bio practitioners, we think you&#8217;ll get something out of this. Enjoy! We covered: Why DELs traumatize everyone who touches them, and how Leash puts dozens of b…",
-      "summary": "How Leash Bio tamed DELs, the assay that traumatizes everyone, and used the data to catch cheating models. And why that same data is perfect for AI agents learning to think like chemists.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "throughput"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "24a1972171c18e2c",
-      "date": "2026-10-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "WarTalk: AutoWarCom and Project Meridian",
-      "url": "https://www.chinatalk.media/p/wartalk-autowarcom-and-project-meridian",
-      "publishedAt": "2026-10-13T11:04:37.000Z",
-      "content": "Jordan Schneider, Justin McIntosh, and Bryan Clark are joined by Arthur Tellis of the Institute for Progress to discuss: AutoWarCom and Project Agincourt &#8212; why a new four-star command for autonomous warfare could do the opposite of what it intends, slowing the fielding of autonomous systems and adding the generals Hegseth just promised to cut, and what a&#8230; Read more",
-      "summary": "+ Newt returns!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "autonomous"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -2213,228 +2465,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "31617c8c4050f3b5",
-      "date": "2026-10-11",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:trq212",
-      "builderOrOrg": "Thariq",
-      "title": "before I joined Anthropic, I spent about 2 weeks hacking on this as a side project with Opus 4.…",
-      "url": "https://x.com/trq212/status/2108689101503566319",
-      "publishedAt": "2026-10-09T22:40:34.000Z",
-      "content": "before I joined Anthropic, I spent about 2 weeks hacking on this as a side project with Opus 4. It used the Agent SDK so it needed a constantly running process & didnt work that well but one prompt to Opus 5.5 ported it to Claude Managed Agents & made it way more reliable https://t.co/3AE65z3VqK",
-      "summary": "before I joined Anthropic, I spent about 2 weeks hacking on this as a side project with Opus 4. It used the Agent SDK so it needed a constantly running process & didnt work that well but one prompt to Opus 5.5 ported it…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 852,
-        "retweets": 30,
-        "replies": 80
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "79c185ea7637c847",
-      "date": "2026-10-11",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:rauchg",
-      "builderOrOrg": "Guillermo Rauch",
-      "title": "Some interesting machine & agent Vercel traffic stats. • Across the entire Vercel network, 58.1…",
-      "url": "https://x.com/rauchg/status/2108733051283050964",
-      "publishedAt": "2026-10-10T01:35:12.000Z",
-      "content": "Some interesting machine & agent Vercel traffic stats. • Across the entire Vercel network, 58.18% traffic is bot-originated (last 30d). This was 32% in Jan 2024. • 60%+ of deployments on Vercel are now agentic, up from ~3% in Jan 2026. • Up to 83% of pageviews are now coming from agents to Vercel's own documentation sites. The % reliably increases the more we optimize content for them. I expect 'direct' human internet traffic to basically become a rounding error in coming years. The web will th…",
-      "summary": "Some interesting machine & agent Vercel traffic stats. • Across the entire Vercel network, 58.18% traffic is bot-originated (last 30d). This was 32% in Jan 2024. • 60%+ of deployments on Vercel are now agentic, up from…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 277,
-        "retweets": 14,
-        "replies": 66
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "deployment"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.92,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.7,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "2281055af10026e5",
-      "date": "2026-10-11",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:rauchg",
-      "builderOrOrg": "Guillermo Rauch",
-      "title": "It's incredible to watch a new kind of economy be born. Agents purchasing infrastructure produc…",
-      "url": "https://x.com/rauchg/status/2108669027363295323",
-      "publishedAt": "2026-10-09T21:20:47.000Z",
-      "content": "It's incredible to watch a new kind of economy be born. Agents purchasing infrastructure products and services. We've been shocked by how often they buy from our marketplace via our CLI already. We're now extending this to domains. Agents can now go full stack, from idea to online business, with a banger domain name 😁",
-      "summary": "It's incredible to watch a new kind of economy be born. Agents purchasing infrastructure products and services. We've been shocked by how often they buy from our marketplace via our CLI already. We're now extending this…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 324,
-        "retweets": 17,
-        "replies": 82
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "929589bf3ecde0af",
-      "date": "2026-10-11",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "Agents spawning other agents, agents operating in the background on every task, and agent swarm…",
-      "url": "https://x.com/levie/status/2108750943680630893",
-      "publishedAt": "2026-10-10T02:46:18.000Z",
-      "content": "Agents spawning other agents, agents operating in the background on every task, and agent swarms will consume 1,000X more tokens than people prompting agents 1 at a time. The usage of AI as a chat system that can only work for you at the pace that you can prompt it will seem like a relic within a year or two. The vast, vast majority of tokens will be consumed by agents that are just doing continuous work for us in the background and in our workflows. This is why we’re still so early in the curv…",
-      "summary": "Agents spawning other agents, agents operating in the background on every task, and agent swarms will consume 1,000X more tokens than people prompting agents 1 at a time. The usage of AI as a chat system that can only w…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 530,
-        "retweets": 41,
-        "replies": 93
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "3a1f4d42e46c699a",
-      "date": "2026-10-11",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:danshipper",
-      "builderOrOrg": "Dan Shipper",
-      "title": "Working With Agents in Slack https://t.co/QkNBc5wqIs",
-      "url": "https://x.com/danshipper/status/2108588611000275009",
-      "publishedAt": "2026-10-09T16:01:15.000Z",
-      "content": "Working With Agents in Slack https://t.co/QkNBc5wqIs",
-      "summary": "Working With Agents in Slack https://t.co/QkNBc5wqIs",
-      "regionTags": [],
-      "metrics": {
-        "likes": 25,
-        "retweets": 4,
-        "replies": 4
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.77,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.61,
       "whyThisMatters": ""
     }
   ]

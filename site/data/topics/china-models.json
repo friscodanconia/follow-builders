@@ -1,8 +1,55 @@
 {
-  "generatedAt": "2026-10-12T07:30:50.287Z",
+  "generatedAt": "2026-10-20T00:31:02.324Z",
   "slug": "china-models",
   "label": "Chinese AI",
   "items": [
+    {
+      "id": "a0bbc1f0c50371bb",
+      "date": "2026-10-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "Together Post-Training: frontier-grade model shaping, the way that fits you",
+      "url": "https://www.together.ai/blog/together-post-training",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "content": "Post-train open LLMs like Qwen, GLM and Kimi into custom models you own, with SFT or RL. You write the training loop. Together runs the hard infrastructure.",
+      "summary": "Post-train open LLMs like Qwen, GLM and Kimi into custom models you own, with SFT or RL. You write the training loop. Together runs the hard infrastructure.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.81,
+          "rationale": [
+            "post-training",
+            "sft",
+            "rl"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "china-models",
+          "label": "Chinese AI",
+          "confidence": 0.69,
+          "rationale": [
+            "qwen",
+            "kimi"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Chinese Models",
+      "importanceScore": 0.73,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.82,
+      "whyThisMatters": ""
+    },
     {
       "id": "57b50fb7a40d19f5",
       "date": "2026-10-12",
@@ -2408,60 +2455,6 @@
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d58b77951a177a42",
-      "date": "2026-04-08",
-      "sourceType": "newsletter",
-      "sourceGroup": "china",
-      "sourceName": "Qwen Blog",
-      "sourceKey": "china:Qwen Blog",
-      "builderOrOrg": "Qwen",
-      "title": "Qwen3Guard: Real-time Safety for Your Token Stream",
-      "url": "https://qwenlm.github.io/blog/qwen3guard/",
-      "publishedAt": "2025-09-22T20:00:00.000Z",
-      "content": "Tech Report GitHub Hugging Face ModelScope DISCORD Introduction We are excited to introduce Qwen3Guard, the first safety guardrail model in the Qwen family. Built upon the powerful Qwen3 foundation models and fine-tuned specifically for safety classificatoin, Qwen3Guard ensures responsible AI interactions by delivering precise safety detection for both prompts and responses, complete with risk levels and categorized classifications for accurate moderation. Qwen3Guard achieves state-of-the-art performance on major safety benchmarks, demonstrating strong capabilities in both prompt and response classification tasks across English, Chinese, and multilingual environments.",
-      "summary": "Tech Report GitHub Hugging Face ModelScope DISCORD Introduction We are excited to introduce Qwen3Guard, the first safety guardrail model in the Qwen family. Built upon the powerful Qwen3 foundation models and fine-tuned specifically for sa…",
-      "regionTags": [
-        "china-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "china-models",
-          "label": "Chinese AI",
-          "confidence": 0.81,
-          "rationale": [
-            "qwen",
-            "china-models"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "github"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Chinese Models",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
       "digestScore": 0.56,
       "whyThisMatters": ""
     }
