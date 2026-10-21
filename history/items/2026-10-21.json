@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T05:04:45.222Z",
+  "generatedAt": "2026-10-21T06:08:22.468Z",
   "date": "2026-10-21",
   "items": [
     {
@@ -25,7 +25,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -52,7 +52,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -170,7 +170,7 @@
       "section": "Builders",
       "importanceScore": 0.84,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.65,
       "whyThisMatters": ""
     },
@@ -262,7 +262,7 @@
       "section": "Builders",
       "importanceScore": 0.84,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.65,
       "whyThisMatters": ""
     },
@@ -308,7 +308,7 @@
       "section": "Builders",
       "importanceScore": 0.78,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.61,
       "whyThisMatters": ""
     },
@@ -345,7 +345,7 @@
       "section": "Builders",
       "importanceScore": 0.84,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.65,
       "whyThisMatters": ""
     },
@@ -640,9 +640,9 @@
       ],
       "section": "Official Sources",
       "importanceScore": 0.72,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.82,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
       "whyThisMatters": ""
     },
     {
@@ -869,9 +869,9 @@
       ],
       "section": "Official Sources",
       "importanceScore": 0.58,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.73,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.48,
       "whyThisMatters": ""
     },
     {
@@ -998,9 +998,9 @@
       "topics": [],
       "section": "Official Sources",
       "importanceScore": 0.58,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.73,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.48,
       "whyThisMatters": ""
     },
     {
@@ -1249,9 +1249,9 @@
       ],
       "section": "Podcasts & Newsletters",
       "importanceScore": 0.4,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.61,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -1666,136 +1666,23 @@
   ],
   "selectedItems": [
     {
-      "id": "aeb24dbfce25ba1a",
-      "date": "2026-10-21",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
-      "url": "https://openai.com/index/terminal-x",
-      "publishedAt": "2026-10-20T07:00:00.000Z",
-      "content": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
-      "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "eval"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.82,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "99c065dc43a7e02d",
-      "date": "2026-10-21",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Features \\ Anthropic",
-      "url": "https://www.anthropic.com/news/features",
-      "publishedAt": null,
-      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.73,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "ae0df43bda340f1a",
-      "date": "2026-10-21",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google AI Blog",
-      "sourceKey": "official:Google AI Blog",
-      "builderOrOrg": "Google",
-      "title": "Southeast Asia’s digital economy to hit $368 billion",
-      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "content": "Widespread AI adoption is propelling Southeast Asia's digital economy to a projected $368 billion in 2026 and $1 trillion by 2035.",
-      "summary": "Widespread AI adoption is propelling Southeast Asia's digital economy to a projected $368 billion in 2026 and $1 trillion by 2035.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.73,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "cc30b703f2531b63",
+      "id": "78a07a5ac8cd521a",
       "date": "2026-10-21",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:garrytan",
-      "builderOrOrg": "Garry Tan",
-      "title": "Multiplayer agents as group chat seems quite inevitable and Wabi's built it https://t.co/ltccTz…",
-      "url": "https://x.com/garrytan/status/2112278352514162834",
-      "publishedAt": "2026-10-19T20:22:58.000Z",
-      "content": "Multiplayer agents as group chat seems quite inevitable and Wabi's built it https://t.co/ltccTzgMLo",
-      "summary": "Multiplayer agents as group chat seems quite inevitable and Wabi's built it https://t.co/ltccTzgMLo",
+      "sourceKey": "x:trq212",
+      "builderOrOrg": "Thariq",
+      "title": "I think most people multi-tasking with agents could benefit from slowing down most of the stuff…",
+      "url": "https://x.com/trq212/status/2112219173288120531",
+      "publishedAt": "2026-10-19T16:27:48.000Z",
+      "content": "I think most people multi-tasking with agents could benefit from slowing down most of the stuff you're doing wont really matter- what's your P0? what would it look like if you gave it your full attention?",
+      "summary": "I think most people multi-tasking with agents could benefit from slowing down most of the stuff you're doing wont really matter- what's your P0? what would it look like if you gave it your full attention?",
       "regionTags": [],
       "metrics": {
-        "likes": 243,
-        "retweets": 16,
-        "replies": 74
+        "likes": 5458,
+        "retweets": 285,
+        "replies": 476
       },
       "topics": [
         {
@@ -1816,47 +1703,158 @@
       "whyThisMatters": ""
     },
     {
-      "id": "81b7d5bb93a8ae31",
+      "id": "465e844943a0bb2c",
       "date": "2026-10-21",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC — Alex Lieberman & CJ Hess",
-      "url": "https://www.latent.space/p/tenex",
-      "publishedAt": "2026-10-21T05:01:26.000Z",
-      "content": "Last year , Alex Lieberman and his cofounder joined us to explain Tenex&#8217;s unusual bet: pay AI engineers for the work they deliver, rather than the hours they spend at a keyboard. If AI makes an engineer faster, an hourly rate can make the engineer less money for the same job. Tenex wanted the incentives to run the other way. At AIE New York, Alex came back with CJ Hess to talk about what happens when you scale that idea into an engineering organization. We also put one of our own experiments on the table: Kill My SaaS , where we asked builders to replace a conference speaker-management tool we were quoted $43,000 a year to use. Both stories raise the same question: when building gets cheaper, how do you decide what good work is worth? Paying for output when the job keeps changing Tenex still uses story points as an important part of engineering compensation. Alex says the feared failure modes&#8212;people inflating estimates or shipping bad code to rack up points&#8212;haven&#8217;t been the biggest problem. Tenex&#8217;s AI strategists are responsible for customer retention and growth, giving them an incentive to push back on work that doesn&#8217;t serve the client. The harder question is how to reward work that doesn&#8217;t fit neatly into a ticket: understanding a customer&#8217;s problem, designing an architecture, or deciding what should be built in the first place. CJ describes spending less time directly coding as models get better, and more time getting the customer&#8217;s context into a form the model can use. A compensation system designed around shipped tasks has to make room for that work too. Alex says Tenex has grown to 75 people, with customers split between Fortune 2000 companies and mid-market businesses. The firm started as an AI-powered development shop; increasingly, customers are asking for help with AI transformation across the company. Jump to the compensation discussion &#8594; MetaHarness: keeping the project in the repo CJ walks t…",
-      "summary": "Listen now (44 mins) | Paying for outcomes, building with agents, and the last mile of enterprise AI adoption",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "We open sourced a *really fast* HTML artifact builder. It's powered by libfx, making the agent…",
+      "url": "https://x.com/rauchg/status/2112247046082363821",
+      "publishedAt": "2026-10-19T18:18:34.000Z",
+      "content": "We open sourced a *really fast* HTML artifact builder. It's powered by libfx, making the agent durable. Building the low-level plumbing for v0 to survive server crashes, flaky LLMs, function limits was a huge pain. Now it's easy, free, and OSS: https://t.co/aUP1vKeIsP. PS: I built this floating container in a few minutes… it's delightful, and it's just HTML!",
+      "summary": "We open sourced a *really fast* HTML artifact builder. It's powered by libfx, making the agent durable. Building the low-level plumbing for v0 to survive server crashes, flaky LLMs, function limits was a huge pain. Now…",
       "regionTags": [],
-      "metrics": {},
+      "metrics": {
+        "likes": 1662,
+        "retweets": 102,
+        "replies": 149
+      },
       "topics": [
         {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.81,
-          "rationale": [
-            "coding",
-            "code",
-            "repo"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
+          "slug": "agents",
+          "label": "AI Assistants",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "rl"
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open source"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
           ],
           "score": 1
         }
       ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 1,
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.65,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "929dc4f6a2fd854b",
+      "date": "2026-10-21",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "The big bitter lesson question in the applied AI layer is that as models get better and better,…",
+      "url": "https://x.com/levie/status/2112404676436222170",
+      "publishedAt": "2026-10-20T04:44:56.000Z",
+      "content": "The big bitter lesson question in the applied AI layer is that as models get better and better, what is the best way to diffuse that intelligence into an enterprise. Ironically, I’d argue that as models are getting more capable, and can handle longer running tasks and better tool use, the ability to differentiate on a domain by domain basis goes up instead of down. When models were quite limited in what they could do, ironically all you could be literally was a “wrapper” because you were effect…",
+      "summary": "The big bitter lesson question in the applied AI layer is that as models get better and better, what is the best way to diffuse that intelligence into an enterprise. Ironically, I’d argue that as models are getting more…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 83,
+        "retweets": 7,
+        "replies": 46
+      },
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tool use"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.78,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "3502ece9cbabd9f3",
+      "date": "2026-10-21",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:swyx",
+      "builderOrOrg": "Swyx",
+      "title": "\"O Infallible one, why do the people not heed the sign we tap?\" \"My dear Parth, each believes h…",
+      "url": "https://x.com/swyx/status/2112182228977348963",
+      "publishedAt": "2026-10-19T14:01:00.000Z",
+      "content": "\"O Infallible one, why do the people not heed the sign we tap?\" \"My dear Parth, each believes he is the first to wish for an end to chat. On X we are cursed with the eternal September of the Thoughtless Mind.\" \"But O Govinda, they yearn for what lies beyond it, and cast their votes by the thousands. Surely the people's wants must be made.\" *a wan smile* “O son of Kunti, observe what they applaud, and what they return to. They desire the end of chat as they desire the end of desire. They desire…",
+      "summary": "\"O Infallible one, why do the people not heed the sign we tap?\" \"My dear Parth, each believes he is the first to wish for an end to chat. On X we are cursed with the eternal September of the Thoughtless Mind.\" \"But O Go…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 58,
+        "retweets": 1,
+        "replies": 54
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "4c83c839f41c5995",
+      "date": "2026-10-21",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:thsottiaux",
+      "builderOrOrg": "Thibault Sottiaux",
+      "title": "Day 15/ Nevermind, we're still cooking... and reset. Enjoy. https://t.co/RZ9WhtI802",
+      "url": "https://x.com/thsottiaux/status/2112432076767289678",
+      "publishedAt": "2026-10-20T06:33:48.000Z",
+      "content": "Day 15/ Nevermind, we're still cooking... and reset. Enjoy. https://t.co/RZ9WhtI802",
+      "summary": "Day 15/ Nevermind, we're still cooking... and reset. Enjoy. https://t.co/RZ9WhtI802",
+      "regionTags": [],
+      "metrics": {
+        "likes": 1460,
+        "retweets": 108,
+        "replies": 627
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ],
@@ -1947,9 +1945,7 @@
     }
   ],
   "sections": [
-    "Official Sources",
-    "Builders",
-    "Podcasts & Newsletters"
+    "Builders"
   ],
   "stats": {
     "totalItems": 43,
