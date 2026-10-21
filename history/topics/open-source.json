@@ -1,8 +1,119 @@
 {
-  "generatedAt": "2026-10-20T06:09:43.774Z",
+  "generatedAt": "2026-10-21T00:30:58.891Z",
   "slug": "open-source",
   "label": "Open Source",
   "items": [
+    {
+      "id": "465e844943a0bb2c",
+      "date": "2026-10-21",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "We open sourced a *really fast* HTML artifact builder. It's powered by libfx, making the agent…",
+      "url": "https://x.com/rauchg/status/2112247046082363821",
+      "publishedAt": "2026-10-19T18:18:34.000Z",
+      "content": "We open sourced a *really fast* HTML artifact builder. It's powered by libfx, making the agent durable. Building the low-level plumbing for v0 to survive server crashes, flaky LLMs, function limits was a huge pain. Now it's easy, free, and OSS: https://t.co/aUP1vKeIsP. PS: I built this floating container in a few minutes… it's delightful, and it's just HTML!",
+      "summary": "We open sourced a *really fast* HTML artifact builder. It's powered by libfx, making the agent durable. Building the low-level plumbing for v0 to survive server crashes, flaky LLMs, function limits was a huge pain. Now…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 1662,
+        "retweets": 102,
+        "replies": 149
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open source"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "1145cf411e8ea548",
+      "date": "2026-10-21",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Why a Chinese AI Lab’s Product Lead Thinks AGI is “Inevitable”",
+      "url": "https://www.chinatalk.media/p/why-a-chinese-ai-labs-product-lead",
+      "publishedAt": "2026-10-16T11:08:34.000Z",
+      "content": "Richard Bian is the head of product operations for Ant Ling , the foundational LLM at Ant. If you don&#8217;t know Ant , they most famously make Alipay, which makes your money and your world run when you&#8217;re in China and sometimes beyond. Richard is a former software engineer at Microsoft and Square, and he previously served as head of open source at Ant, where he scaled the open source initiative into a dedicated team. He&#8217;s lived and worked in Singapore, Canada, the US, and China, and he loves to build products. Topics covered: ChinaTalk is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber. The Hugging Face hack as a sign of progress? Why Richard sees the incident involving OpenAI research agents as an inevitable discovery rather than simply a disaster, and why finding a solution now is a positive development. AGI is coming, but nobody knows what it will look like. AGI is inevitable, and we&#8217;re still in the early stages of figuring out what these models can do. Rather than obsessing over leaderboards, we need better evaluations and a more open-minded approach to judging models. Open source as a product strategy, not just a way to give things away. How open-weight models can harness global talent, accelerate development, and support a diverse ecosystem of products, and why the real business challenge is gross margins rather than capex. Why the AI conversation needs more voices. Why we need to pay attention to diverse perspectives on where AI is going, and be more willing to explore rather than declare the endgame. AI moves fast: since we recorded, Ant Ling has announced its latest LLM, Ling 3.1 Flash, which was open-sourced on October 14 with 560B parameters and up to a 1M-token context window. Listen now on your favorite podcast app . &#8220; here for the ride&#8230; &#8221; Source . The Hugging Face Hack and the Age of Discovery Irene Zhang: I want to start not with Ant, though we…",
+      "summary": "and nobody knows what it&#8217;ll look like",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.81,
+          "rationale": [
+            "research",
+            "publication",
+            "finding"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.81,
+          "rationale": [
+            "leaderboard",
+            "eval",
+            "evaluation"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.69,
+          "rationale": [
+            "open-source",
+            "open source"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
     {
       "id": "bd5bc8f64aa0b422",
       "date": "2026-10-20",
@@ -130,62 +241,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.51,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "1145cf411e8ea548",
-      "date": "2026-10-20",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Why a Chinese AI Lab’s Product Lead Thinks AGI is “Inevitable”",
-      "url": "https://www.chinatalk.media/p/why-a-chinese-ai-labs-product-lead",
-      "publishedAt": "2026-10-16T11:08:34.000Z",
-      "content": "Richard Bian is the head of product operations for Ant Ling , the foundational LLM at Ant. If you don&#8217;t know Ant , they most famously make Alipay, which makes your money and your world run when you&#8217;re in China and sometimes beyond. Richard is a former software engineer at Microsoft and Square, and he previously served as head of open source at Ant, where he scaled the open source initiative into a dedicated team. He&#8217;s lived and worked in Singapore, Canada, the US, and China, and he loves to build products. Topics covered: ChinaTalk is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber. The Hugging Face hack as a sign of progress? Why Richard sees the incident involving OpenAI research agents as an inevitable discovery rather than simply a disaster, and why finding a solution now is a positive development. AGI is coming, but nobody knows what it will look like. AGI is inevitable, and we&#8217;re still in the early stages of figuring out what these models can do. Rather than obsessing over leaderboards, we need better evaluations and a more open-minded approach to judging models. Open source as a product strategy, not just a way to give things away. How open-weight models can harness global talent, accelerate development, and support a diverse ecosystem of products, and why the real business challenge is gross margins rather than capex. Why the AI conversation needs more voices. Why we need to pay attention to diverse perspectives on where AI is going, and be more willing to explore rather than declare the endgame. AI moves fast: since we recorded, Ant Ling has announced its latest LLM, Ling 3.1 Flash, which was open-sourced on October 14 with 560B parameters and up to a 1M-token context window. Listen now on your favorite podcast app . &#8220; here for the ride&#8230; &#8221; Source . The Hugging Face Hack and the Age of Discovery Irene Zhang: I want to start not with Ant, though we…",
-      "summary": "and nobody knows what it&#8217;ll look like",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.81,
-          "rationale": [
-            "research",
-            "publication",
-            "finding"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.81,
-          "rationale": [
-            "leaderboard",
-            "eval",
-            "evaluation"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.69,
-          "rationale": [
-            "open-source",
-            "open source"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -2367,43 +2422,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "1a5b014185c2972e",
-      "date": "2026-08-29",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:petergyang",
-      "builderOrOrg": "Peter Yang",
-      "title": "One great use of my /no-ai-slop skill (now at 6K GitHub stars) is to ask it to work in reverse.…",
-      "url": "https://x.com/petergyang/status/2093132262602920002",
-      "publishedAt": "2026-08-28T00:23:14.000Z",
-      "content": "One great use of my /no-ai-slop skill (now at 6K GitHub stars) is to ask it to work in reverse. Here's an example of a wedding vow it created for a couple who were united by their shared passion for B2B SaaS. 😅 Get my /no-ai-slop skill here: https://t.co/UyaaNQ6kLf https://t.co/frxaNtXTgD https://t.co/uRC38Tln17",
-      "summary": "One great use of my /no-ai-slop skill (now at 6K GitHub stars) is to ask it to work in reverse. Here's an example of a wedding vow it created for a couple who were united by their shared passion for B2B SaaS. 😅 Get my…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 106,
-        "retweets": 5,
-        "replies": 15
-      },
-      "topics": [
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "github"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]
