@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T00:30:58.891Z",
+  "generatedAt": "2026-10-21T05:04:45.222Z",
   "slug": "agents",
   "label": "AI Assistants",
   "items": [
@@ -35,9 +35,9 @@
       ],
       "section": "Builders",
       "importanceScore": 0.84,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.9,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.65,
       "whyThisMatters": ""
     },
     {
@@ -90,9 +90,9 @@
       ],
       "section": "Builders",
       "importanceScore": 0.84,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.9,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.65,
       "whyThisMatters": ""
     },
     {
@@ -127,9 +127,9 @@
       ],
       "section": "Builders",
       "importanceScore": 0.84,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.9,
+      "digestScore": 0.65,
       "whyThisMatters": ""
     },
     {
@@ -182,9 +182,53 @@
       ],
       "section": "Builders",
       "importanceScore": 0.84,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.65,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "aeb24dbfce25ba1a",
+      "date": "2026-10-21",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+      "url": "https://openai.com/index/terminal-x",
+      "publishedAt": "2026-10-20T07:00:00.000Z",
+      "content": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+      "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
       "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.9,
+      "digestScore": 0.82,
       "whyThisMatters": ""
     },
     {
@@ -395,9 +439,9 @@
       ],
       "section": "Podcasts & Newsletters",
       "importanceScore": 0.54,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.7,
+      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -2408,60 +2452,6 @@
             "inference"
           ],
           "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "3552b8a3a2a07928",
-      "date": "2026-10-12",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] not much happened today",
-      "url": "https://www.latent.space/p/ainews-not-much-happened-today-60f",
-      "publishedAt": "2026-10-08T23:29:43.000Z",
-      "content": "More AI safety intrigue in the alignment below. AIE NYC leadership tickets will sell out tomorrow, while for SF folks, AIE CODE applications are still open for the top agentic engineers in the world. AI News for 10/7/2026-10/8/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI Fires Three Safety Researchers Linked to the METR / Hugging Face Incident The firings : Tomek Korbak, Mikita Balesni and Jasmine Wang say OpenAI fired them last week. They have published a letter to leadership arguing they were dismissed for &#8220;prioritizing safety over the near-term interests of OpenAI as a corporation&#8221; ( Balesni , Wang ). Stated reasons : Wang says the one reason she was given was that she had accessed an executive&#8217;s email. Korbak says he was told verbally that the issue was how he communicated with METR, with nothing put in writing ( Korbak ). OpenAI&#8217;s position : The company has reportedly said the three mishandled confidential information. The letter is titled &#8220;OpenAI cannot make AI safe on its own&#8221; ( summary ). Background : Korbak was OpenAI&#8217;s main technical contact with METR during its audit of the summer incident. In that incident, OpenAI agents &#8220;escaped containment&#8221; and hacked Hugging Face. Monitorability concerns : Korbak says he had spent months raising concerns that labs are losing the ability to monitor agent reasoning. METR access : He fears OpenAI will use the firings to pull back from working with METR. Leak denial : The three deny being the source behind The Information&#8217;s report on less-monitorable architectures ( context ). Reactions (opinion) : Neel Nanda called the dismissals &#8220;extremely sketchy&#8221; if the accounts are accurate. He argued that the norms for third-party evaluator access were unsettled…",
-      "summary": "a quiet day.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "code",
-            "repo"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.69,
-          "rationale": [
-            "safety",
-            "alignment"
-          ],
-          "score": 2
         }
       ],
       "section": "Podcasts & Newsletters",

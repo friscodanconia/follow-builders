@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T00:30:58.891Z",
+  "generatedAt": "2026-10-21T05:04:45.222Z",
   "slug": "fine-tuning",
   "label": "Custom AI",
   "items": [
@@ -53,9 +53,9 @@
       ],
       "section": "Builders",
       "importanceScore": 0.84,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.9,
+      "digestScore": 0.65,
       "whyThisMatters": ""
     },
     {
@@ -90,9 +90,9 @@
       ],
       "section": "Builders",
       "importanceScore": 0.7,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.8,
+      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
@@ -197,6 +197,92 @@
       "whyThisMatters": ""
     },
     {
+      "id": "81b7d5bb93a8ae31",
+      "date": "2026-10-21",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC — Alex Lieberman & CJ Hess",
+      "url": "https://www.latent.space/p/tenex",
+      "publishedAt": "2026-10-21T05:01:26.000Z",
+      "content": "Last year , Alex Lieberman and his cofounder joined us to explain Tenex&#8217;s unusual bet: pay AI engineers for the work they deliver, rather than the hours they spend at a keyboard. If AI makes an engineer faster, an hourly rate can make the engineer less money for the same job. Tenex wanted the incentives to run the other way. At AIE New York, Alex came back with CJ Hess to talk about what happens when you scale that idea into an engineering organization. We also put one of our own experiments on the table: Kill My SaaS , where we asked builders to replace a conference speaker-management tool we were quoted $43,000 a year to use. Both stories raise the same question: when building gets cheaper, how do you decide what good work is worth? Paying for output when the job keeps changing Tenex still uses story points as an important part of engineering compensation. Alex says the feared failure modes&#8212;people inflating estimates or shipping bad code to rack up points&#8212;haven&#8217;t been the biggest problem. Tenex&#8217;s AI strategists are responsible for customer retention and growth, giving them an incentive to push back on work that doesn&#8217;t serve the client. The harder question is how to reward work that doesn&#8217;t fit neatly into a ticket: understanding a customer&#8217;s problem, designing an architecture, or deciding what should be built in the first place. CJ describes spending less time directly coding as models get better, and more time getting the customer&#8217;s context into a form the model can use. A compensation system designed around shipped tasks has to make room for that work too. Alex says Tenex has grown to 75 people, with customers split between Fortune 2000 companies and mid-market businesses. The firm started as an AI-powered development shop; increasingly, customers are asking for help with AI transformation across the company. Jump to the compensation discussion &#8594; MetaHarness: keeping the project in the repo CJ walks t…",
+      "summary": "Listen now (44 mins) | Paying for outcomes, building with agents, and the last mile of enterprise AI adoption",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "coding",
+            "code",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "f9a1d1f961004474",
+      "date": "2026-10-21",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "The Lithography Lever",
+      "url": "https://www.chinatalk.media/p/the-match-act",
+      "publishedAt": "2026-10-20T10:46:15.000Z",
+      "content": "Why should you care about lithography exports sold to China? What is Congress thinking about doing about it? And what does it mean for the future of humanity, the lightcone, great power relations &#8212; all of the above. Nick Brown is a co-founder of the Center for Technology and Statecraft (CTS) , a new think tank spun out of IFP, that looks at long-term technology challenges and opportunities facing the US. Nick was a physics major, spent a while as a software engineer in and around government, and had an arc as an aspiring concert violinist. But we&#8217;re here to talk about what is in pole position for my paper of the year: his master class on what would happen if the US cut off DUV exports to China: DUV Immersion Lithography: The Foundation of US AI Compute Advantage . Co-hosting is ChinaTalk&#8217;s Aqib Zakaria . We discuss: The case for banning DUV exports to China: Why lithography is the hardest part of the semiconductor manufacturing stack for China to replicate/indigenize and the strongest point of leverage the US and its allies have over China&#8217;s future AI compute. The cannonball-sized hole in US export controls: China imported roughly 90 immersion lithography systems a year in 2024&#8211;25, nearly two-thirds of ASML&#8217;s immersion exports. If imports continue at this rate, China could approach or even reach parity with the US in AI chipmaking within a decade. What the MATCH Act would do: How Congress could close this gap by restricting DUV immersion exports and servicing, and whether the US can get its allies on board. Will Beijing retaliate? Why a gradual, long-term restriction may be less likely to provoke another rare-earths crisis Buying time for AGI: How cutting off DUV imports could preserve America&#8217;s AI compute advantage into the 2030s, giving the US more time to navigate the technological, geopolitical, and societal implications of increasingly powerful AI. Listen now on your favorite podcast app and check out the MATCH Act&#82…",
+      "summary": "The case for cutting China off from DUV",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "paper"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
       "id": "1b9fa482c01b4964",
       "date": "2026-10-21",
       "sourceType": "newsletter",
@@ -249,48 +335,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "f9a1d1f961004474",
-      "date": "2026-10-21",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "The Lithography Lever",
-      "url": "https://www.chinatalk.media/p/the-match-act",
-      "publishedAt": "2026-10-20T10:46:15.000Z",
-      "content": "Why should you care about lithography exports sold to China? What is Congress thinking about doing about it? And what does it mean for the future of humanity, the lightcone, great power relations &#8212; all of the above. Nick Brown is a co-founder of the Center for Technology and Statecraft (CTS) , a new think tank spun out of IFP, that looks at long-term technology challenges and opportunities facing the US. Nick was a physics major, spent a while as a software engineer in and around government, and had an arc as an aspiring concert violinist. But we&#8217;re here to talk about what is in pole position for my paper of the year: his master class on what would happen if the US cut off DUV exports to China: DUV Immersion Lithography: The Foundation of US AI Compute Advantage . Co-hosting is ChinaTalk&#8217;s Aqib Zakaria . We discuss: The case for banning DUV exports to China: Why lithography is the hardest part of the semiconductor manufacturing stack for China to replicate/indigenize and the strongest point of leverage the US and its allies have over China&#8217;s future AI compute. The cannonball-sized hole in US export controls: China imported roughly 90 immersion lithography systems a year in 2024&#8211;25, nearly two-thirds of ASML&#8217;s immersion exports. If imports continue at this rate, China could approach or even reach parity with the US in AI chipmaking within a decade. What the MATCH Act would do: How Congress could close this gap by restricting DUV immersion exports and servicing, and whether the US can get its allies on board. Will Beijing retaliate? Why a gradual, long-term restriction may be less likely to provoke another rare-earths crisis Buying time for AGI: How cutting off DUV imports could preserve America&#8217;s AI compute advantage into the 2030s, giving the US more time to navigate the technological, geopolitical, and societal implications of increasingly powerful AI. Listen now on your favorite podcast app and check out the MATCH Act&#82…",
-      "summary": "The case for cutting China off from DUV",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "paper"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.61,
       "whyThisMatters": ""
     },
     {
@@ -2266,52 +2310,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.61,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "c2c34f14ed7010b8",
-      "date": "2026-10-03",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:ryolu_",
-      "builderOrOrg": "Ryo Lu",
-      "title": "flip phone. full desktop. a whole little world. ryOS on iPhone Duo https://t.co/JxmdBqWlgh",
-      "url": "https://x.com/ryolu_/status/2105775325385040243",
-      "publishedAt": "2026-10-01T21:42:15.000Z",
-      "content": "flip phone. full desktop. a whole little world. ryOS on iPhone Duo https://t.co/JxmdBqWlgh",
-      "summary": "flip phone. full desktop. a whole little world. ryOS on iPhone Duo https://t.co/JxmdBqWlgh",
-      "regionTags": [],
-      "metrics": {
-        "likes": 329,
-        "retweets": 6,
-        "replies": 15
-      },
-      "topics": [
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "desktop"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]

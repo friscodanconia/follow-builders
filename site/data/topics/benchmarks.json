@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T00:30:58.891Z",
+  "generatedAt": "2026-10-21T05:04:45.222Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
@@ -53,9 +53,53 @@
       ],
       "section": "Builders",
       "importanceScore": 0.84,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.65,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "aeb24dbfce25ba1a",
+      "date": "2026-10-21",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+      "url": "https://openai.com/index/terminal-x",
+      "publishedAt": "2026-10-20T07:00:00.000Z",
+      "content": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+      "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
       "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.9,
+      "digestScore": 0.82,
       "whyThisMatters": ""
     },
     {
@@ -2366,48 +2410,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.61,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "c51ed8c668864802",
-      "date": "2026-09-16",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "The Rise of the Forward Deployed Engineer — and How To Do the Job Right",
-      "url": "https://www.latent.space/p/forward-deployed-engineer-best-practices",
-      "publishedAt": "2026-09-12T15:01:19.000Z",
-      "content": "The difference between FDE and consulting; diagram by Vinoo Ganesh FDEs have the hottest job in AI. Labs, startups and PE firms are all hiring engineers to sit inside their customers&#8217; operations and solve their problems . Almost none of them agree on what those engineers are supposed to accomplish, or what the strategy underneath the hiring actually is. I&#8217;m Vinoo , CEO of Kepler , the deterministic infrastructure for AI. I&#8217;ve built pieces of the forward deployed function three times, at three different institutions, over the course of over a decade. Here&#8217;s what I&#8217;ve seen work, what I&#8217;ve seen fail, and where I think this goes. The first was Palantir. I started there on product development, building storage and retrieval systems, and was later deployed as an FDE across commercial, DoD and NatSec, healthcare, and oil and gas. I also led Project Frontline, the rotation that took our software engineers and turned them into forward deployed engineers. Around 250 people went through this program, and a lot of them run forward deployed teams now at companies like OpenAI, Anthropic, xAI and Anduril. The second was Citadel, where I ran business engineering. Our customers were portfolio managers, and the only question that mattered was whether the data and software products we built helped them generate alpha. The third is Kepler, where the forward deployed function sits inside product rather than sales , in a domain where a plausible wrong answer is worse than no answer at all. FDE misunderstandings A few months ago, a16z launched the Forward Deployed Engineer Fellowship and I was nominated as one of the fellows, alongside a handful of people I used to work with. It&#8217;s a great program and I&#8217;ve enjoyed so many of the conversations. Last week I went to my first fellow dinner in SF. Around the table were FDEs from Snowflake, Anthropic, and a number of startups I&#8217;d been reading about, and over the course of the evening it beca…",
-      "summary": "Before co-founding Kepler, Vinoo Ganesh led Spark at Palantir and built Project Frontline &#8212; a pioneering program for Forward Deployed Engineers. He takes us through the best practices of FDEs.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "sales"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "eval"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
       "whyThisMatters": ""
     }
   ]
