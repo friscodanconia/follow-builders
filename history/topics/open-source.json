@@ -1,8 +1,110 @@
 {
-  "generatedAt": "2026-10-22T06:11:29.159Z",
+  "generatedAt": "2026-10-23T00:31:03.852Z",
   "slug": "open-source",
   "label": "Open Source",
   "items": [
+    {
+      "id": "8ec954e48d1458ac",
+      "date": "2026-10-23",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Claude Mods: Flipping the Harness Inside Out",
+      "url": "https://www.latent.space/p/claude-mods",
+      "publishedAt": "2026-10-21T13:04:19.000Z",
+      "content": "For the last few weeks I&#8217;ve used Claude Mods to mold Claude Code to my AI engineering workflow. Claude Code is great out of the box, but every engineering workflow is different. Claude Mods let you make Claude Code yours, in the way you want to pay attention. The &#8220;paying attention&#8221; part is now the most important thing. In a recent Latent Space post, The Evolution of the Agent Harness , I argued that as models absorb more of the harness into their weights, the part that&#8217;s left faces the human. It becomes the Attention Interface : the layer that decides when the agent interrupts you, what it shows you, and which decisions it needs you to make. Claude Mods are an early version of the Attention Interface, and one you can shape yourself. Here&#8217;s my bet: ultimately, the harness becomes a platform that other companies build on , with models as the engine. Just as the browser became a platform for web apps, the harness could become a platform for the interfaces between people and agents. Claude Mods: What is it? A mod is a Claude Code plugin that consists of TypeScript or JavaScript functions that run inside Claude Code. These functions customize the behavior and appearance of the interface in the CLI and Desktop. Mods respond to events , like a prompt, tool call or interface render. They can observe the event, modify how it&#8217;s rendered, and handle it in place of the default behavior. Claude Mods are middleware for the agent harness . They inject code that changes Claude Code&#8217;s execution and rendering flow, changing how the application behaves at runtime. Claude Mods let the human and the agent build the human-facing part of the harness together. You can now work with Claude to design how Claude works with you. That is the essence of the &#8220;Attention Interface.&#8221; The harness reversal The agent harness started as an interface between the agent and the machine it runs on. It lets you prompt the agent and the agent then sends c…",
+      "summary": "Claude Mods is an early form of the Attention Interface. It flips the agent harness paradigm from the harness facing the machine, to the harness facing the human.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "weights"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "9a6c1af535a591c4",
+      "date": "2026-10-23",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "MOFCOM's New Rules and the Future of Chinese AI",
+      "url": "https://www.chinatalk.media/p/mofcoms-new-ai-rules",
+      "publishedAt": "2026-10-21T13:43:39.000Z",
+      "content": "In the AI race thus far, openness has been China&#8217;s secret sauce. As fast followers to the frontier, Chinese AI companies have gained trust by publicizing their weights and architectures. And at the cost of revenue, they have achieved global adoption, brand recognition, and a truly competitive dynamic with American labs. Last week, China&#8217;s Ministries of Commerce (MOFCOM) and Science and Technology (MOST) jointly proposed expanding China&#8217;s catalogue of export-controlled technologies, with most of the proposed regulations taking aim at subsets of China&#8217;s AI industry. Regulators will spend a month taking comments on the draft before anything becomes law, but we can already learn a ton from this announcement in its current form. Does Beijing want to hold back the tides of open models? Why is MOFCOM writing these rules now, and what does this say about the Chinese government&#8217;s appetite for AI-enabled risks versus growth? To find out, we spent three days poring over the draft regulations &#8212; so you don&#8217;t have to! What&#8217;s ahead: How these rules came to be &#8212; and how this draft is already affecting the Chinese AI industry; What the proposed rules mean for frontier models, chip design, memory, cybersecurity, AI content detection, and even China&#8217;s minority languages; Who actually decides which export licenses get approved, and the balance of power between provincial and central authorities; What these rules tell us about Beijing&#8217;s expectations for AI development. The 40 proposed additions in Announcement 48, split across AI, photovoltaics, and biomedicine. Today, we&#8217;re just focusing on the AI-related regulations, but a future piece tackling everything else &#8212; from this announcement&#8217;s proposed restrictions on PV cells and gene therapies, to other recent announcements on port dredgers and tunnel borers &#8212; is in the works! Subscribe so you don&#8217;t miss it: Subscribe now The Road to a Rule Sin…",
+      "summary": "a big deal",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "weights"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "science"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
     {
       "id": "e3e71c06c353bb6c",
       "date": "2026-10-22",
@@ -202,108 +304,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.63,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "8ec954e48d1458ac",
-      "date": "2026-10-22",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "Claude Mods: Flipping the Harness Inside Out",
-      "url": "https://www.latent.space/p/claude-mods",
-      "publishedAt": "2026-10-21T13:04:19.000Z",
-      "content": "For the last few weeks I&#8217;ve used Claude Mods to mold Claude Code to my AI engineering workflow. Claude Code is great out of the box, but every engineering workflow is different. Claude Mods let you make Claude Code yours, in the way you want to pay attention. The &#8220;paying attention&#8221; part is now the most important thing. In a recent Latent Space post, The Evolution of the Agent Harness , I argued that as models absorb more of the harness into their weights, the part that&#8217;s left faces the human. It becomes the Attention Interface : the layer that decides when the agent interrupts you, what it shows you, and which decisions it needs you to make. Claude Mods are an early version of the Attention Interface, and one you can shape yourself. Here&#8217;s my bet: ultimately, the harness becomes a platform that other companies build on , with models as the engine. Just as the browser became a platform for web apps, the harness could become a platform for the interfaces between people and agents. Claude Mods: What is it? A mod is a Claude Code plugin that consists of TypeScript or JavaScript functions that run inside Claude Code. These functions customize the behavior and appearance of the interface in the CLI and Desktop. Mods respond to events , like a prompt, tool call or interface render. They can observe the event, modify how it&#8217;s rendered, and handle it in place of the default behavior. Claude Mods are middleware for the agent harness . They inject code that changes Claude Code&#8217;s execution and rendering flow, changing how the application behaves at runtime. Claude Mods let the human and the agent build the human-facing part of the harness together. You can now work with Claude to design how Claude works with you. That is the essence of the &#8220;Attention Interface.&#8221; The harness reversal The agent harness started as an interface between the agent and the machine it runs on. It lets you prompt the agent and the agent then sends c…",
-      "summary": "Claude Mods is an early form of the Attention Interface. It flips the agent harness paradigm from the harness facing the machine, to the harness facing the human.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "weights"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "9a6c1af535a591c4",
-      "date": "2026-10-22",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "MOFCOM's New Rules and the Future of Chinese AI",
-      "url": "https://www.chinatalk.media/p/mofcoms-new-ai-rules",
-      "publishedAt": "2026-10-21T13:43:39.000Z",
-      "content": "In the AI race thus far, openness has been China&#8217;s secret sauce. As fast followers to the frontier, Chinese AI companies have gained trust by publicizing their weights and architectures. And at the cost of revenue, they have achieved global adoption, brand recognition, and a truly competitive dynamic with American labs. Last week, China&#8217;s Ministries of Commerce (MOFCOM) and Science and Technology (MOST) jointly proposed expanding China&#8217;s catalogue of export-controlled technologies, with most of the proposed regulations taking aim at subsets of China&#8217;s AI industry. Regulators will spend a month taking comments on the draft before anything becomes law, but we can already learn a ton from this announcement in its current form. Does Beijing want to hold back the tides of open models? Why is MOFCOM writing these rules now, and what does this say about the Chinese government&#8217;s appetite for AI-enabled risks versus growth? To find out, we spent three days poring over the draft regulations &#8212; so you don&#8217;t have to! What&#8217;s ahead: How these rules came to be &#8212; and how this draft is already affecting the Chinese AI industry; What the proposed rules mean for frontier models, chip design, memory, cybersecurity, AI content detection, and even China&#8217;s minority languages; Who actually decides which export licenses get approved, and the balance of power between provincial and central authorities; What these rules tell us about Beijing&#8217;s expectations for AI development. The 40 proposed additions in Announcement 48, split across AI, photovoltaics, and biomedicine. Today, we&#8217;re just focusing on the AI-related regulations, but a future piece tackling everything else &#8212; from this announcement&#8217;s proposed restrictions on PV cells and gene therapies, to other recent announcements on port dredgers and tunnel borers &#8212; is in the works! Subscribe so you don&#8217;t miss it: Subscribe now The Road to a Rule Sin…",
-      "summary": "a big deal",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "weights"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "science"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
       "whyThisMatters": ""
     },
     {
