@@ -1,8 +1,112 @@
 {
-  "generatedAt": "2026-10-24T06:01:50.701Z",
+  "generatedAt": "2026-10-25T00:31:05.849Z",
   "slug": "multimodal",
   "label": "Images, Audio & Video",
   "items": [
+    {
+      "id": "48f5cb00ac53df9b",
+      "date": "2026-10-25",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
+      "url": "https://latent.space/p/modal-d/",
+      "publishedAt": "2026-10-22T17:40:57.000Z",
+      "content": "Warm welcome to Basil Chatha , our newest cohost from the Forward Deployed side of the AI Engineering world! We’ll be ramping up a new show with him and couldn’t pass up an interview with Modal’s CEO Eric on the occasion of their monster Series D! Two years ago, we spoke with Erik Bernhardsson about his vision for truly serverless AI infrastructure: developers should be able to run code without provisioning clusters, predicting load, or paying for idle resources. CTO Akshat then joined us to talk about Modal’s infra primitives and stack to offer those primitives and agent experience. A lot has changed in the past 5 months. Since their $5B series C, Modal now reports it crossed $1 billion in annualized run rate , raised a $750 million Series D at a $16B valuation , and has spun up nearly three billion sandboxes. In this conversation, Erik joins Vibhu to explain the infrastructure and economics behind that growth—and why demand for compute rarely looks like the contracts used to buy it. Watch the full conversation on YouTube → GPU demand isn’t rectangular A typical capacity contract gives a customer a fixed number of GPUs for a fixed period. Plot capacity against time and you get a rectangle. Real workloads behave differently: they grow, spike, and fall throughout the day. Buy enough for the peak and you pay for idle hardware; buy less and you risk missing demand. Erik describes Modal’s bet as a kind of duration transformation: pool demand across thousands of customers, secure capacity underneath, and let each customer use what they need when they need it. The smoother the aggregate demand, the more useful that pool can be. It’s a useful companion to our conversation with SF Compute’s Evan Conrad : Evan focuses on making capacity tradeable; Erik focuses on making it usable in smaller, elastic slices. There is a financial risk on the other side. If a provider locks in capacity at today’s prices and GPU prices later fall, it can be left holding expensive supply. Erik s…",
+      "summary": "Elastic GPUs, sandbox growth, and the economics of the agent cloud",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "code",
+            "developer",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "vision"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "9435c2099ea6d318",
+      "date": "2026-10-25",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Take Ten-Thousand: Egocentric Data Collection for Humanoid Robots",
+      "url": "https://www.chinatalk.media/p/take-ten-thousand-egocentric-data",
+      "publishedAt": "2026-10-22T10:02:03.000Z",
+      "content": "The ChinaTalk team is going to CoRL (the Conference on Robot Learning) in Austin! Reply to this email if you&#8217;d like to hang out between November 9th and 12th. We&#8217;re also doing karaoke on the 11th &#8212; RSVP here if you&#8217;d like to join! A. Chen writes about people, technologies, and their relationships to power. Her submission, &#8220;Take Ten-Thousand: Egocentric Data Collection for Humanoid Robots,&#8221; won one of 7 Grand Prizes at the ChinaTalk Essay Contest. We&#8217;re thrilled to share this report from the frontlines of China&#8217;s robot data collection industry! Where is the center of the universe? For the residents of Beijing, the answer is Wudaokou. The neighborhood houses China&#8217;s top universities, research institutions, and labs, drawing talent and funding from every corner of the country. The streets are radiant at night, packed full of bars and clubs that have somehow bounced back after the COVID-19 pandemic. And the number 13 metro line, which rattles overhead every five minutes, is never empty. I came to Wudaokou to understand China&#8217;s AI industry &#8212; particularly, the hype surrounding humanoid robots, and the methods used to train them. Everyone has seen videos of these robots: eerily tall and lanky, some of them shedding nuts and bolts as they sprint down a track, others backflipping repeatedly on a dance stage. The global market for humanoid robotics, or embodied intelligence, is said to be worth $38 billion by 2035: the latest chapter in the U.S.-China technology race that has dominated international headlines for over a decade. This year, China&#8217;s 15 th Five-Year Plan declared embodied intelligence a matter of national priority, then laid a strategy for developing training grounds across the country. Over 150 humanoid robotics companies and 40 state-owned robot data collection centers were reported to be in operation in China by the end of 2025. According to the Global Times, Chinese embodied intelligence…",
+      "summary": "why selling robot data is tough business; and ChinaTalk at CoRL!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "video"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
     {
       "id": "4035ac27e2a812bd",
       "date": "2026-10-24",
@@ -56,110 +160,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.59,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "48f5cb00ac53df9b",
-      "date": "2026-10-24",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
-      "url": "https://latent.space/p/modal-d/",
-      "publishedAt": "2026-10-22T17:40:57.000Z",
-      "content": "Warm welcome to Basil Chatha , our newest cohost from the Forward Deployed side of the AI Engineering world! We’ll be ramping up a new show with him and couldn’t pass up an interview with Modal’s CEO Eric on the occasion of their monster Series D! Two years ago, we spoke with Erik Bernhardsson about his vision for truly serverless AI infrastructure: developers should be able to run code without provisioning clusters, predicting load, or paying for idle resources. CTO Akshat then joined us to talk about Modal’s infra primitives and stack to offer those primitives and agent experience. A lot has changed in the past 5 months. Since their $5B series C, Modal now reports it crossed $1 billion in annualized run rate , raised a $750 million Series D at a $16B valuation , and has spun up nearly three billion sandboxes. In this conversation, Erik joins Vibhu to explain the infrastructure and economics behind that growth—and why demand for compute rarely looks like the contracts used to buy it. Watch the full conversation on YouTube → GPU demand isn’t rectangular A typical capacity contract gives a customer a fixed number of GPUs for a fixed period. Plot capacity against time and you get a rectangle. Real workloads behave differently: they grow, spike, and fall throughout the day. Buy enough for the peak and you pay for idle hardware; buy less and you risk missing demand. Erik describes Modal’s bet as a kind of duration transformation: pool demand across thousands of customers, secure capacity underneath, and let each customer use what they need when they need it. The smoother the aggregate demand, the more useful that pool can be. It’s a useful companion to our conversation with SF Compute’s Evan Conrad : Evan focuses on making capacity tradeable; Erik focuses on making it usable in smaller, elastic slices. There is a financial risk on the other side. If a provider locks in capacity at today’s prices and GPU prices later fall, it can be left holding expensive supply. Erik s…",
-      "summary": "Elastic GPUs, sandbox growth, and the economics of the agent cloud",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.81,
-          "rationale": [
-            "code",
-            "developer",
-            "repo"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "vision"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "9435c2099ea6d318",
-      "date": "2026-10-24",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Take Ten-Thousand: Egocentric Data Collection for Humanoid Robots",
-      "url": "https://www.chinatalk.media/p/take-ten-thousand-egocentric-data",
-      "publishedAt": "2026-10-22T10:02:03.000Z",
-      "content": "The ChinaTalk team is going to CoRL (the Conference on Robot Learning) in Austin! Reply to this email if you&#8217;d like to hang out between November 9th and 12th. We&#8217;re also doing karaoke on the 11th &#8212; RSVP here if you&#8217;d like to join! A. Chen writes about people, technologies, and their relationships to power. Her submission, &#8220;Take Ten-Thousand: Egocentric Data Collection for Humanoid Robots,&#8221; won one of 7 Grand Prizes at the ChinaTalk Essay Contest. We&#8217;re thrilled to share this report from the frontlines of China&#8217;s robot data collection industry! Where is the center of the universe? For the residents of Beijing, the answer is Wudaokou. The neighborhood houses China&#8217;s top universities, research institutions, and labs, drawing talent and funding from every corner of the country. The streets are radiant at night, packed full of bars and clubs that have somehow bounced back after the COVID-19 pandemic. And the number 13 metro line, which rattles overhead every five minutes, is never empty. I came to Wudaokou to understand China&#8217;s AI industry &#8212; particularly, the hype surrounding humanoid robots, and the methods used to train them. Everyone has seen videos of these robots: eerily tall and lanky, some of them shedding nuts and bolts as they sprint down a track, others backflipping repeatedly on a dance stage. The global market for humanoid robotics, or embodied intelligence, is said to be worth $38 billion by 2035: the latest chapter in the U.S.-China technology race that has dominated international headlines for over a decade. This year, China&#8217;s 15 th Five-Year Plan declared embodied intelligence a matter of national priority, then laid a strategy for developing training grounds across the country. Over 150 humanoid robotics companies and 40 state-owned robot data collection centers were reported to be in operation in China by the end of 2025. According to the Global Times, Chinese embodied intelligence…",
-      "summary": "why selling robot data is tough business; and ChinaTalk at CoRL!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "video"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {

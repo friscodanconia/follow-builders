@@ -1,57 +1,11 @@
 {
-  "generatedAt": "2026-10-24T06:01:50.701Z",
+  "generatedAt": "2026-10-25T00:31:05.849Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
     {
-      "id": "246a98b29a3cec75",
-      "date": "2026-10-24",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:swyx",
-      "builderOrOrg": "Swyx",
-      "title": "imo this is the right attitude - dont blame AI for finding the bugs, just fucking lock in on cl…",
-      "url": "https://x.com/swyx/status/2113359027682050352",
-      "publishedAt": "2026-10-22T19:57:11.000Z",
-      "content": "imo this is the right attitude - dont blame AI for finding the bugs, just fucking lock in on clearing all the bugs asap https://t.co/8hF2N3gBVa https://t.co/0C6VmQkann",
-      "summary": "imo this is the right attitude - dont blame AI for finding the bugs, just fucking lock in on clearing all the bugs asap https://t.co/8hF2N3gBVa https://t.co/0C6VmQkann",
-      "regionTags": [],
-      "metrics": {
-        "likes": 253,
-        "retweets": 16,
-        "replies": 56
-      },
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "finding"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "imo"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
       "id": "819a723ed17bc6a2",
-      "date": "2026-10-24",
+      "date": "2026-10-25",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
@@ -87,7 +41,7 @@
     },
     {
       "id": "8d8a5183017eedb7",
-      "date": "2026-10-24",
+      "date": "2026-10-25",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Microsoft Research Blog",
@@ -139,6 +93,106 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "accd608c27a09d4a",
+      "date": "2026-10-25",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
+      "url": "https://latent.space/p/ainews-kimi-31/",
+      "publishedAt": "2026-10-24T07:18:29.000Z",
+      "content": "2 months ago we covered Z.ai CEO Prof Jie Tang’s prediction that we’d get a Fable-class open weights model by year end . 2 weeks ago Meta achieved a Fable-class model in closed source , but, with 2.5 months left to go, we finally got it - a 2.8T open weights model beating Fable 5.1, not just Fable 5, at that: View post on X ↗ with even better efficiency: View post on X ↗ You can tell Kimi is proud of their latest model by how fancy their landing page is: As usual we don’t get much research detail - the update is somewhat similar to Z.ai ’s 5.2-5.3 bump - a minor version bump for a lot more post-training: Kimi K3.1 Pro is a post-trained version of Kimi K3, with substantially larger post-training compute. To enable large-scale joint RL across hundreds of downstream domains , we optimized every layer of the stack — the RL framework, long-context inference, training efficiency, sandbox infrastructure, rollout scheduling, and a shared platform for environment quality checks — so that each increment of RL compute delivers stable, predictable returns. As a result, K3.1 Pro achieves consistent gains in every domain. AI News for 10/22/2026-10/23/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Top Story: Kimi K3.1 Pro launch and reactions What happened Moonshot launched Kimi K3.1 Pro with near-frontier independent benchmark results, a substantial increase in model size, and an open-weight release promised for November 4, 2026. The model: Moonshot describes K3.1 Pro as a multimodal, “3T-class” mixture-of-experts model with 2.8 trillion total parameters, 104 billion active parameters, and a 1-million-token context window . Its advertised strengths include full-project coding, Blender/CAD work, financial modeling, and long-running agents. @Kimi_Moonshot Availability: Standard and Highspeed versi…",
+      "summary": "We have Fable at home... or so we are being told by paid shills",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "post-training",
+            "rl"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "benchmark",
+            "imo"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "china-models",
+          "label": "Chinese AI",
+          "confidence": 0.69,
+          "rationale": [
+            "kimi",
+            "moonshot"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Chinese Models",
+      "importanceScore": 0.55,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.71,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "246a98b29a3cec75",
+      "date": "2026-10-24",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:swyx",
+      "builderOrOrg": "Swyx",
+      "title": "imo this is the right attitude - dont blame AI for finding the bugs, just fucking lock in on cl…",
+      "url": "https://x.com/swyx/status/2113359027682050352",
+      "publishedAt": "2026-10-22T19:57:11.000Z",
+      "content": "imo this is the right attitude - dont blame AI for finding the bugs, just fucking lock in on clearing all the bugs asap https://t.co/8hF2N3gBVa https://t.co/0C6VmQkann",
+      "summary": "imo this is the right attitude - dont blame AI for finding the bugs, just fucking lock in on clearing all the bugs asap https://t.co/8hF2N3gBVa https://t.co/0C6VmQkann",
+      "regionTags": [],
+      "metrics": {
+        "likes": 253,
+        "retweets": 16,
+        "replies": 56
+      },
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "finding"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "imo"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
@@ -2357,60 +2411,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "5e77b22277c94b86",
-      "date": "2026-09-22",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Reality Checks on AI News (Yegge shuts down Gas Town, Databricks’ +60% Astra cost)",
-      "url": "https://www.latent.space/p/ainews-reality-checks-on-ai-news",
-      "publishedAt": "2026-09-17T07:28:25.000Z",
-      "content": "Steve Yegge has been very popular and loud in his gung ho adoption of tokenmaxxing, so it is sobering to see him now shut down Gas Town and admit that despite spending many thousands a month on coding agent subscriptions&#8230; he only ever built Gas Town with it: danluu.com/ai-coding/ , I mentioned not finding these ultra vibed orchestrators useful b/c reliability (w.r.t. completing tasks). Turns out the author of the most famous one had the same issue. \",\"username\":\"danluu\",\"name\":\"Dan Luu\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/1472713753464500227/HJQvY70g_normal.png\",\"date\":\"2026-09-15T09:59:03.000Z\",\"photos\":[{\"img_url\":\"https://pbs.substack.com/media/HSP7dfeaEAAQZs_.png\",\"link_url\":\"https://t.co/T0Paf6Mnpt\"}],\"quoted_tweet\":{},\"reply_count\":35,\"retweet_count\":51,\"like_count\":832,\"impression_count\":87619,\"expanded_url\":null,\"video_url\":null,\"video_preview_media_key\":null,\"belowTheFold\":false}\" data-component-name=\"Twitter2ToDOM\"> Similarly, while Astra is often reportedly cheaper than Sol in terms of Cost per Task by many benchmarks (due to token efficiency), it is not universally cheaper everywhere, as Databricks is now reporting +60% overall spend when their AI Engineers switch to Astra. AI News for 9/15/2026-9/16/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Top tweets (by engagement) OpenAI&#8217;s misalignment disclosure launch : @OpenAI published a formal framework for tracking, investigating, and disclosing model misalignment incidents, plus six case reports from the last six months. The move was widely read as a substantive response to transparency criticism following recent agent incidents. MiMo-V2.6 live RL dashboard : @_LuoFuli announced Xiaomi&#8217;s MiMo-V2.6 RL run with unusually high operational transparency: live training stats, ha…",
-      "summary": "A dash of cold water keeps the foomers away.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "repo"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.69,
-          "rationale": [
-            "image",
-            "video"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "benchmark",
-            "imo"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     }
   ]
