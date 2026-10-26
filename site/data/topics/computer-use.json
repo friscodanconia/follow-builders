@@ -1,8 +1,137 @@
 {
-  "generatedAt": "2026-10-25T06:19:50.346Z",
+  "generatedAt": "2026-10-26T00:31:02.601Z",
   "slug": "computer-use",
   "label": "AI Using Computers",
   "items": [
+    {
+      "id": "a9633b97b6f00a0b",
+      "date": "2026-10-26",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "I oddly love the models' engineering vernacular: gate, evidence, culprit, durable, provenance,…",
+      "url": "https://x.com/rauchg/status/2114164830403989880",
+      "publishedAt": "2026-10-25T01:19:09.000Z",
+      "content": "I oddly love the models' engineering vernacular: gate, evidence, culprit, durable, provenance, contract… A lot of these stem from most engineering being debugging and understanding existing systems, where you take on the detective / auditor roles. You do forensics. I wonder what the *minimum viable English* in fact is to be productive. ASD-STE100 Simplified Technical English contains ~900 approved words. I suspect we need far fewer.",
+      "summary": "I oddly love the models' engineering vernacular: gate, evidence, culprit, durable, provenance, contract… A lot of these stem from most engineering being debugging and understanding existing systems, where you take on th…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 219,
+        "retweets": 8,
+        "replies": 91
+      },
+      "topics": [
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "b2285c849f665652",
+      "date": "2026-10-26",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "There’ll be times where you over-guide the AI. It knows better than you and is more intelligent…",
+      "url": "https://x.com/rauchg/status/2114085432749347086",
+      "publishedAt": "2026-10-24T20:03:39.000Z",
+      "content": "There’ll be times where you over-guide the AI. It knows better than you and is more intelligent than you. There’ll be times where you under-guide the AI. It can go off-track, have the wrong biases, or miss context. How well you manage this superpower is the #0 skill I look for.",
+      "summary": "There’ll be times where you over-guide the AI. It knows better than you and is more intelligent than you. There’ll be times where you under-guide the AI. It can go off-track, have the wrong biases, or miss context. How…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 2087,
+        "retweets": 94,
+        "replies": 275
+      },
+      "topics": [
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "a32c906676bc925f",
+      "date": "2026-10-26",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Flint-interactive: A language for creating interactive data visualizations",
+      "url": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/",
+      "publishedAt": "2026-10-22T16:00:00.000Z",
+      "content": "At a glance Brings rich interactivity to AI-generated charts: Flint-interactive enables agents to create data visualizations that users can explore directly through clicking, filtering, zooming, highlighting, and cross-chart interactions. Makes complex interactions easier to build: Instead of requiring low-level visualization code, Flint-interactive lets users and agents define behaviors using high-level semantic events and update operators. Improves reliability and reduces development effort: By using Flint&#8217;s compiler to handle interaction logic and visual dependencies, the system helps avoid many of the layout, rendering, and debugging challenges common in custom interactive visualizations. Connects charts, text, tables, and applications: Flint-interactive supports interactive data stories, dashboards, and connected experiences where actions in one view can update charts, documents, widgets, or application state in another. AI agents make it easy to analyze data and generate reports with data visualizations. They help users examine patterns more efficiently than by reading verbose text. However, when we&#8217;re feeling exploratory, we want to go beyond static visualizations. : We want to interact with charts to zoom in on details, compare data across charts, or even highlight related text in the document from a chart selection, and vice versa. This requires agents to be able to create interactive data visualizations that communicate information while letting readers explore beyond the author&#8217;s chosen view, ideally with the quality of interactive stories in sophisticated data journalism. This leaves us wondering:&nbsp; (As a user) Can I interact with charts directly in chat to explore the data and ask follow-up questions based on what I select? (As a developer) Can I enable the AI agents I build for my customers to generate interactive visualizations that help them explore and understand their data? Yes, it&#8217;s possible, but there is a significant…",
+      "summary": "Flint-interactive gives AI agents a language for creating interactive visualizations. Click a chart, filter data, highlight related content, and explore beyond the view the author originally chose. The post Flint-interactive: A language fo…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "code",
+            "developer",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "clicking"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
     {
       "id": "cabd28c082a2ba45",
       "date": "2026-10-25",
@@ -56,61 +185,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a32c906676bc925f",
-      "date": "2026-10-25",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Flint-interactive: A language for creating interactive data visualizations",
-      "url": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/",
-      "publishedAt": "2026-10-22T16:00:00.000Z",
-      "content": "At a glance Brings rich interactivity to AI-generated charts: Flint-interactive enables agents to create data visualizations that users can explore directly through clicking, filtering, zooming, highlighting, and cross-chart interactions. Makes complex interactions easier to build: Instead of requiring low-level visualization code, Flint-interactive lets users and agents define behaviors using high-level semantic events and update operators. Improves reliability and reduces development effort: By using Flint&#8217;s compiler to handle interaction logic and visual dependencies, the system helps avoid many of the layout, rendering, and debugging challenges common in custom interactive visualizations. Connects charts, text, tables, and applications: Flint-interactive supports interactive data stories, dashboards, and connected experiences where actions in one view can update charts, documents, widgets, or application state in another. AI agents make it easy to analyze data and generate reports with data visualizations. They help users examine patterns more efficiently than by reading verbose text. However, when we&#8217;re feeling exploratory, we want to go beyond static visualizations. : We want to interact with charts to zoom in on details, compare data across charts, or even highlight related text in the document from a chart selection, and vice versa. This requires agents to be able to create interactive data visualizations that communicate information while letting readers explore beyond the author&#8217;s chosen view, ideally with the quality of interactive stories in sophisticated data journalism. This leaves us wondering:&nbsp; (As a user) Can I interact with charts directly in chat to explore the data and ask follow-up questions based on what I select? (As a developer) Can I enable the AI agents I build for my customers to generate interactive visualizations that help them explore and understand their data? Yes, it&#8217;s possible, but there is a significant…",
-      "summary": "Flint-interactive gives AI agents a language for creating interactive visualizations. Click a chart, filter data, highlight related content, and explore beyond the view the author originally chose. The post Flint-interactive: A language fo…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.81,
-          "rationale": [
-            "code",
-            "developer",
-            "repo"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "clicking"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
       "whyThisMatters": ""
     },
     {
@@ -2143,96 +2217,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "81ff8363b036ccf0",
-      "date": "2026-10-07",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:ryolu_",
-      "builderOrOrg": "Ryo Lu",
-      "title": "made a lil thing for language learners: watch Netflix with subtitles in any two languages, plus…",
-      "url": "https://x.com/ryolu_/status/2107146629338042853",
-      "publishedAt": "2026-10-05T16:31:19.000Z",
-      "content": "made a lil thing for language learners: watch Netflix with subtitles in any two languages, plus pronunciation guides for Japanese, Chinese, and Korean. customizable styles, hand-picked defaults. enjoy 🍿 https://t.co/JFw0cfcBOW",
-      "summary": "made a lil thing for language learners: watch Netflix with subtitles in any two languages, plus pronunciation guides for Japanese, Chinese, and Korean. customizable styles, hand-picked defaults. enjoy 🍿 https://t.co/JF…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 798,
-        "retweets": 29,
-        "replies": 37
-      },
-      "topics": [
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "caa08849861080ab",
-      "date": "2026-10-06",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "A model guide for the GPT-6 family",
-      "url": "https://openai.com/index/practical-guide-building-gpt-6",
-      "publishedAt": "2026-10-02T16:15:00.000Z",
-      "content": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
-      "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "reasoning",
-          "label": "AI Thinking",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "reasoning"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     }
   ]
