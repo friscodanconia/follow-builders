@@ -1,8 +1,63 @@
 {
-  "generatedAt": "2026-10-26T06:28:52.469Z",
+  "generatedAt": "2026-10-27T00:31:02.862Z",
   "slug": "computer-use",
   "label": "AI Using Computers",
   "items": [
+    {
+      "id": "a32c906676bc925f",
+      "date": "2026-10-27",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Flint-interactive: A language for creating interactive data visualizations",
+      "url": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/",
+      "publishedAt": "2026-10-22T16:00:00.000Z",
+      "content": "At a glance Brings rich interactivity to AI-generated charts: Flint-interactive enables agents to create data visualizations that users can explore directly through clicking, filtering, zooming, highlighting, and cross-chart interactions. Makes complex interactions easier to build: Instead of requiring low-level visualization code, Flint-interactive lets users and agents define behaviors using high-level semantic events and update operators. Improves reliability and reduces development effort: By using Flint&#8217;s compiler to handle interaction logic and visual dependencies, the system helps avoid many of the layout, rendering, and debugging challenges common in custom interactive visualizations. Connects charts, text, tables, and applications: Flint-interactive supports interactive data stories, dashboards, and connected experiences where actions in one view can update charts, documents, widgets, or application state in another. AI agents make it easy to analyze data and generate reports with data visualizations. They help users examine patterns more efficiently than by reading verbose text. However, when we&#8217;re feeling exploratory, we want to go beyond static visualizations. : We want to interact with charts to zoom in on details, compare data across charts, or even highlight related text in the document from a chart selection, and vice versa. This requires agents to be able to create interactive data visualizations that communicate information while letting readers explore beyond the author&#8217;s chosen view, ideally with the quality of interactive stories in sophisticated data journalism. This leaves us wondering:&nbsp; (As a user) Can I interact with charts directly in chat to explore the data and ask follow-up questions based on what I select? (As a developer) Can I enable the AI agents I build for my customers to generate interactive visualizations that help them explore and understand their data? Yes, it&#8217;s possible, but there is a significant…",
+      "summary": "Flint-interactive gives AI agents a language for creating interactive visualizations. Click a chart, filter data, highlight related content, and explore beyond the view the author originally chose. The post Flint-interactive: A language fo…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "code",
+            "developer",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "clicking"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
     {
       "id": "a9633b97b6f00a0b",
       "date": "2026-10-26",
@@ -75,61 +130,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a32c906676bc925f",
-      "date": "2026-10-26",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Flint-interactive: A language for creating interactive data visualizations",
-      "url": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/",
-      "publishedAt": "2026-10-22T16:00:00.000Z",
-      "content": "At a glance Brings rich interactivity to AI-generated charts: Flint-interactive enables agents to create data visualizations that users can explore directly through clicking, filtering, zooming, highlighting, and cross-chart interactions. Makes complex interactions easier to build: Instead of requiring low-level visualization code, Flint-interactive lets users and agents define behaviors using high-level semantic events and update operators. Improves reliability and reduces development effort: By using Flint&#8217;s compiler to handle interaction logic and visual dependencies, the system helps avoid many of the layout, rendering, and debugging challenges common in custom interactive visualizations. Connects charts, text, tables, and applications: Flint-interactive supports interactive data stories, dashboards, and connected experiences where actions in one view can update charts, documents, widgets, or application state in another. AI agents make it easy to analyze data and generate reports with data visualizations. They help users examine patterns more efficiently than by reading verbose text. However, when we&#8217;re feeling exploratory, we want to go beyond static visualizations. : We want to interact with charts to zoom in on details, compare data across charts, or even highlight related text in the document from a chart selection, and vice versa. This requires agents to be able to create interactive data visualizations that communicate information while letting readers explore beyond the author&#8217;s chosen view, ideally with the quality of interactive stories in sophisticated data journalism. This leaves us wondering:&nbsp; (As a user) Can I interact with charts directly in chat to explore the data and ask follow-up questions based on what I select? (As a developer) Can I enable the AI agents I build for my customers to generate interactive visualizations that help them explore and understand their data? Yes, it&#8217;s possible, but there is a significant…",
-      "summary": "Flint-interactive gives AI agents a language for creating interactive visualizations. Click a chart, filter data, highlight related content, and explore beyond the view the author originally chose. The post Flint-interactive: A language fo…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.81,
-          "rationale": [
-            "code",
-            "developer",
-            "repo"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "clicking"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
       "whyThisMatters": ""
     },
     {
