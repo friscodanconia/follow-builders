@@ -1,10 +1,56 @@
 {
-  "generatedAt": "2026-10-26T06:28:52.469Z",
+  "generatedAt": "2026-10-28T00:31:00.877Z",
   "handle": "rauchg",
   "name": "Guillermo Rauch",
   "itemCount": 50,
-  "latestDate": "2026-10-26",
+  "latestDate": "2026-10-28",
   "items": [
+    {
+      "id": "9785b08bb9d3b098",
+      "date": "2026-10-28",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "I built 𝚌𝚙𝚞-𝚌𝚑𝚊𝚝, a reproduction of @openai's findings of covert communication using the…",
+      "url": "https://x.com/rauchg/status/2114770919436808572",
+      "publishedAt": "2026-10-26T17:27:32.000Z",
+      "content": "I built 𝚌𝚙𝚞-𝚌𝚑𝚊𝚝, a reproduction of @openai's findings of covert communication using the CPU. It runs on a generic host with 2+ Firecracker microVMs with no internet access. Works on x86 and even my M5 chip. I was able to chat via 3 separate mechanisms: ① CPU contention ② Cache eviction timing ③ DRAM bandwidth contention … across multiple CPUs, defeating all Firecracker's production recommendations (no SMT, no KSM, tenants pinned to different cores.) Essentially, if shared hardware is i…",
+      "summary": "I built 𝚌𝚙𝚞-𝚌𝚑𝚊𝚝, a reproduction of @openai's findings of covert communication using the CPU. It runs on a generic host with 2+ Firecracker microVMs with no internet access. Works on x86 and even my M5 chip. I w…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 2001,
+        "retweets": 179,
+        "replies": 206
+      },
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "finding"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
     {
       "id": "a9633b97b6f00a0b",
       "date": "2026-10-26",
@@ -2171,52 +2217,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.5,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "470940ad1eef97a0",
-      "date": "2026-10-01",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:rauchg",
-      "builderOrOrg": "Guillermo Rauch",
-      "title": "AI SDK has hit 30M weekly downloads. One-shotted this video in fframes + https://t.co/3Z4NESzNK…",
-      "url": "https://x.com/rauchg/status/2105043144975011982",
-      "publishedAt": "2026-09-29T21:12:50.000Z",
-      "content": "AI SDK has hit 30M weekly downloads. One-shotted this video in fframes + https://t.co/3Z4NESzNKd + opus. I asked 𝚏𝚡 to look at https://t.co/dnlawxpWR6 and highlight the 5M/10M/20M/30M milestones. Yes, this video was written in Rust and rendered on the GPU. h/t @neogoose_btw https://t.co/dS4UpwzbbN",
-      "summary": "AI SDK has hit 30M weekly downloads. One-shotted this video in fframes + https://t.co/3Z4NESzNKd + opus. I asked 𝚏𝚡 to look at https://t.co/dnlawxpWR6 and highlight the 5M/10M/20M/30M milestones. Yes, this video was w…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 299,
-        "retweets": 12,
-        "replies": 29
-      },
-      "topics": [
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "video"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]
