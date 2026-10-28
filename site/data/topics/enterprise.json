@@ -1,28 +1,37 @@
 {
-  "generatedAt": "2026-10-28T05:59:21.866Z",
+  "generatedAt": "2026-10-28T06:56:47.289Z",
   "slug": "enterprise",
   "label": "Business AI",
   "items": [
     {
-      "id": "a1cfa8c27cddfd38",
+      "id": "acb7560825fe6d06",
       "date": "2026-10-28",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
       "sourceKey": "x:levie",
       "builderOrOrg": "Aaron Levie",
-      "title": "This is the key stat. The average Fortune 500 customer of Anthropic spends less than .1% of the…",
-      "url": "https://x.com/levie/status/2114761816199098587",
-      "publishedAt": "2026-10-26T16:51:22.000Z",
-      "content": "This is the key stat. The average Fortune 500 customer of Anthropic spends less than .1% of their expenses on Anthropic. While that number likely will eventually asymptote somewhere (token prices coming down, and other large enterprise spend areas not going away), there’s no reason it can’t be 10-50X higher than this, reaching a “mere” 1-5% of spend. Which would still be a fraction of what most startups are spending. Thus, you can see how big of a divide there is between the frontier users of A…",
-      "summary": "This is the key stat. The average Fortune 500 customer of Anthropic spends less than .1% of their expenses on Anthropic. While that number likely will eventually asymptote somewhere (token prices coming down, and other…",
+      "title": "This is correct. The vast majority of enterprise workflows have not actually had agents applied…",
+      "url": "https://x.com/levie/status/2115305369799110905",
+      "publishedAt": "2026-10-28T04:51:15.000Z",
+      "content": "This is correct. The vast majority of enterprise workflows have not actually had agents applied to them in any meaningful way. The economy probably has this deployed < 1% right now. At best you have a few automated systems in a company that do a single pass of an LLM to make a decision or provide feedback, but very little real “automation”. Some of this is a statement about the adoption rates of technology in enterprises, but the vast majority of it is really just due to the capability of AI it…",
+      "summary": "This is correct. The vast majority of enterprise workflows have not actually had agents applied to them in any meaningful way. The economy probably has this deployed < 1% right now. At best you have a few automated syst…",
       "regionTags": [],
       "metrics": {
-        "likes": 615,
-        "retweets": 56,
-        "replies": 113
+        "likes": 186,
+        "retweets": 10,
+        "replies": 54
       },
       "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
         {
           "slug": "enterprise",
           "label": "Business AI",
@@ -34,10 +43,10 @@
         }
       ],
       "section": "Builders",
-      "importanceScore": 0.78,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.61,
+      "importanceScore": 0.92,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.95,
       "whyThisMatters": ""
     },
     {
@@ -177,6 +186,43 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "a1cfa8c27cddfd38",
+      "date": "2026-10-28",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "This is the key stat. The average Fortune 500 customer of Anthropic spends less than .1% of the…",
+      "url": "https://x.com/levie/status/2114761816199098587",
+      "publishedAt": "2026-10-26T16:51:22.000Z",
+      "content": "This is the key stat. The average Fortune 500 customer of Anthropic spends less than .1% of their expenses on Anthropic. While that number likely will eventually asymptote somewhere (token prices coming down, and other large enterprise spend areas not going away), there’s no reason it can’t be 10-50X higher than this, reaching a “mere” 1-5% of spend. Which would still be a fraction of what most startups are spending. Thus, you can see how big of a divide there is between the frontier users of A…",
+      "summary": "This is the key stat. The average Fortune 500 customer of Anthropic spends less than .1% of their expenses on Anthropic. While that number likely will eventually asymptote somewhere (token prices coming down, and other…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 615,
+        "retweets": 56,
+        "replies": 113
+      },
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.78,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.61,
       "whyThisMatters": ""
     },
     {
@@ -2439,61 +2485,6 @@
           "confidence": 0.5700000000000001,
           "rationale": [
             "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "desktop"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.92,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.7,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "2f89267855aecdfe",
-      "date": "2026-10-09",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:amasad",
-      "builderOrOrg": "Amjad Masad",
-      "title": "Desktop AI apps are great but expose users to supply-chain attacks and catastrophic mistakes by…",
-      "url": "https://x.com/amasad/status/2107926712277438503",
-      "publishedAt": "2026-10-07T20:11:06.000Z",
-      "content": "Desktop AI apps are great but expose users to supply-chain attacks and catastrophic mistakes by agents. We’re building a powerful desktop experience with focus on security & reliability. Excited to partner with @Microsoft on this and be an early adopter of @nvidia’s OpenShell. https://t.co/YixaxIXhpb",
-      "summary": "Desktop AI apps are great but expose users to supply-chain attacks and catastrophic mistakes by agents. We’re building a powerful desktop experience with focus on security & reliability. Excited to partner with @Microso…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 224,
-        "retweets": 12,
-        "replies": 48
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
           ],
           "score": 1
         },

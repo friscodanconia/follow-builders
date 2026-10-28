@@ -1,91 +1,8 @@
 {
-  "generatedAt": "2026-10-28T05:59:21.866Z",
+  "generatedAt": "2026-10-28T06:56:47.289Z",
   "slug": "research",
   "label": "Research",
   "items": [
-    {
-      "id": "9785b08bb9d3b098",
-      "date": "2026-10-28",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:rauchg",
-      "builderOrOrg": "Guillermo Rauch",
-      "title": "I built 𝚌𝚙𝚞-𝚌𝚑𝚊𝚝, a reproduction of @openai's findings of covert communication using the…",
-      "url": "https://x.com/rauchg/status/2114770919436808572",
-      "publishedAt": "2026-10-26T17:27:32.000Z",
-      "content": "I built 𝚌𝚙𝚞-𝚌𝚑𝚊𝚝, a reproduction of @openai's findings of covert communication using the CPU. It runs on a generic host with 2+ Firecracker microVMs with no internet access. Works on x86 and even my M5 chip. I was able to chat via 3 separate mechanisms: ① CPU contention ② Cache eviction timing ③ DRAM bandwidth contention … across multiple CPUs, defeating all Firecracker's production recommendations (no SMT, no KSM, tenants pinned to different cores.) Essentially, if shared hardware is i…",
-      "summary": "I built 𝚌𝚙𝚞-𝚌𝚑𝚊𝚝, a reproduction of @openai's findings of covert communication using the CPU. It runs on a generic host with 2+ Firecracker microVMs with no internet access. Works on x86 and even my M5 chip. I w…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 2001,
-        "retweets": 179,
-        "replies": 206
-      },
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "finding"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "394a9184bdc1df8e",
-      "date": "2026-10-28",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:adityaag",
-      "builderOrOrg": "Aditya Agarwal",
-      "title": "More and more I am coming to accept that our understanding of the sciences were but limited by…",
-      "url": "https://x.com/adityaag/status/2114907777957245033",
-      "publishedAt": "2026-10-27T02:31:22.000Z",
-      "content": "More and more I am coming to accept that our understanding of the sciences were but limited by our desire to have solutions that we could understand.",
-      "summary": "More and more I am coming to accept that our understanding of the sciences were but limited by our desire to have solutions that we could understand.",
-      "regionTags": [],
-      "metrics": {
-        "likes": 90,
-        "retweets": 4,
-        "replies": 14
-      },
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "science"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
     {
       "id": "c63a38af410989ba",
       "date": "2026-10-28",
@@ -585,6 +502,89 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "9785b08bb9d3b098",
+      "date": "2026-10-28",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "I built 𝚌𝚙𝚞-𝚌𝚑𝚊𝚝, a reproduction of @openai's findings of covert communication using the…",
+      "url": "https://x.com/rauchg/status/2114770919436808572",
+      "publishedAt": "2026-10-26T17:27:32.000Z",
+      "content": "I built 𝚌𝚙𝚞-𝚌𝚑𝚊𝚝, a reproduction of @openai's findings of covert communication using the CPU. It runs on a generic host with 2+ Firecracker microVMs with no internet access. Works on x86 and even my M5 chip. I was able to chat via 3 separate mechanisms: ① CPU contention ② Cache eviction timing ③ DRAM bandwidth contention … across multiple CPUs, defeating all Firecracker's production recommendations (no SMT, no KSM, tenants pinned to different cores.) Essentially, if shared hardware is i…",
+      "summary": "I built 𝚌𝚙𝚞-𝚌𝚑𝚊𝚝, a reproduction of @openai's findings of covert communication using the CPU. It runs on a generic host with 2+ Firecracker microVMs with no internet access. Works on x86 and even my M5 chip. I w…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 2001,
+        "retweets": 179,
+        "replies": 206
+      },
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "finding"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "394a9184bdc1df8e",
+      "date": "2026-10-28",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:adityaag",
+      "builderOrOrg": "Aditya Agarwal",
+      "title": "More and more I am coming to accept that our understanding of the sciences were but limited by…",
+      "url": "https://x.com/adityaag/status/2114907777957245033",
+      "publishedAt": "2026-10-27T02:31:22.000Z",
+      "content": "More and more I am coming to accept that our understanding of the sciences were but limited by our desire to have solutions that we could understand.",
+      "summary": "More and more I am coming to accept that our understanding of the sciences were but limited by our desire to have solutions that we could understand.",
+      "regionTags": [],
+      "metrics": {
+        "likes": 90,
+        "retweets": 4,
+        "replies": 14
+      },
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "science"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
