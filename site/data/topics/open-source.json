@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-28T06:56:47.289Z",
+  "generatedAt": "2026-10-29T00:31:03.962Z",
   "slug": "open-source",
   "label": "Open Source",
   "items": [
     {
       "id": "7a66b5b4ddb3f8c2",
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -44,14 +44,65 @@
       ],
       "section": "Builders",
       "importanceScore": 0.84,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.65,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "4c84350dcc40d710",
+      "date": "2026-10-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Why Agents Love Supabase",
+      "url": "https://latent.space/p/supabase/",
+      "publishedAt": "2026-10-28T19:48:05.000Z",
+      "content": "I first met Paul Copplestone and Ant Wilson in Singapore, shortly after they finished YC as the hottest startup of YC S20 . Six years later, we finally got them on the podcast! This is their first podcast together, after taking an open-source, fully remote company from zero to a $10 billion valuation. The title is a question I wanted to understand for myself: why do agents love Supabase? There are plenty of managed databases. Postgres hosting is competitive. Being familiar to a model is useful distribution, but it doesn't explain all the work needed to turn a generated application into something that runs. But when I ran my frontier AEO tracker , it was an almost complete sweep of first choice for app backends (and in contention for managed db ) for every frontier model from Astra to Fable to Muse. At Select, Supabase grouped its announcements into Build, Operate and Scale. The things that stood out to me were surprisingly practical: start a local backend without Docker, keep the desired database schema in Git, and run compute beside the database. Each removes a piece of work that developers have been doing for years. Agents make that friction harder to ignore. Watch the full conversation, including my opening commentary → Give the agent a backend it can read My favorite developer-tool announcements make me think: of course I want this today. The new alpha runtime for running Supabase locally without Docker is one of those. I use Colima rather than Docker Desktop, and even then, removing another dependency from the path to a working database is welcome. Local setup is a small part of a human developer's week; an agent that repeatedly creates and tests environments encounters it over and over. Declarative schemas are the bigger idea. The familiar SQL workflow accumulates a history: create the schema, then migrate, migrate, migrate. A declarative representation gives the agent a description of the state you want, in files it can inspect and edit alongside the applica…",
+      "summary": "Paul Copplestone and Ant Wilson on building the backend for AI agents",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "developer"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open-source"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
       "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.9,
+      "digestScore": 0.7,
       "whyThisMatters": ""
     },
     {
       "id": "e52fdc61e660f521",
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -2358,61 +2409,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a4de76cf7f41332a",
-      "date": "2026-09-03",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "AI for cyber is about to go vertical. The models increasingly becoming insanely good at finding…",
-      "url": "https://x.com/levie/status/2095024699441119612",
-      "publishedAt": "2026-09-02T05:43:06.000Z",
-      "content": "AI for cyber is about to go vertical. The models increasingly becoming insanely good at finding and exploiting vulnerabilities. Frontier models are ahead, but we’re already seeing that open weights is not far behind. Most enterprises are already inundated with cyber discoveries, so now that’s only going to multiply. Triaging and automating the fixes with more AI -along with human oversight- is essentially the only way forward. In case you were wondering what jobs AI was going to create, it’s de…",
-      "summary": "AI for cyber is about to go vertical. The models increasingly becoming insanely good at finding and exploiting vulnerabilities. Frontier models are ahead, but we’re already seeing that open weights is not far behind. Mo…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 47,
-        "retweets": 5,
-        "replies": 14
-      },
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "weights"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "finding"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.78,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.61,
       "whyThisMatters": ""
     }
   ]
