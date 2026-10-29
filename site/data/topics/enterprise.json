@@ -1,26 +1,81 @@
 {
-  "generatedAt": "2026-10-29T06:05:35.445Z",
+  "generatedAt": "2026-10-29T07:16:27.328Z",
   "slug": "enterprise",
   "label": "Business AI",
   "items": [
     {
-      "id": "acb7560825fe6d06",
+      "id": "205555bcb8a23200",
+      "date": "2026-10-29",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "Excited to partner with @suhail to serve Particle's models and inference via @vercel AI Gateway…",
+      "url": "https://x.com/rauchg/status/2115566139447382115",
+      "publishedAt": "2026-10-28T22:07:27.000Z",
+      "content": "Excited to partner with @suhail to serve Particle's models and inference via @vercel AI Gateway. Particle's mission is to make intelligence as accessible and abundant as electricity. Together, we'll make this a reality for every developer and enterprise. https://t.co/aYS6FrWFsm",
+      "summary": "Excited to partner with @suhail to serve Particle's models and inference via @vercel AI Gateway. Particle's mission is to make intelligence as accessible and abundant as electricity. Together, we'll make this a reality…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 116,
+        "retweets": 1,
+        "replies": 23
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "developer"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.78,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.86,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "df1fa915cc66e097",
       "date": "2026-10-29",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
       "sourceKey": "x:levie",
       "builderOrOrg": "Aaron Levie",
-      "title": "This is correct. The vast majority of enterprise workflows have not actually had agents applied…",
-      "url": "https://x.com/levie/status/2115305369799110905",
-      "publishedAt": "2026-10-28T04:51:15.000Z",
-      "content": "This is correct. The vast majority of enterprise workflows have not actually had agents applied to them in any meaningful way. The economy probably has this deployed < 1% right now. At best you have a few automated systems in a company that do a single pass of an LLM to make a decision or provide feedback, but very little real “automation”. Some of this is a statement about the adoption rates of technology in enterprises, but the vast majority of it is really just due to the capability of AI it…",
-      "summary": "This is correct. The vast majority of enterprise workflows have not actually had agents applied to them in any meaningful way. The economy probably has this deployed < 1% right now. At best you have a few automated syst…",
+      "title": "Agents are going to consume 1,000X more tokens than we consume today. Because they’re going to…",
+      "url": "https://x.com/levie/status/2115516370695987435",
+      "publishedAt": "2026-10-28T18:49:41.000Z",
+      "content": "Agents are going to consume 1,000X more tokens than we consume today. Because they’re going to be running in our workflows, processing all of our data, building out nearly all software, securing enterprises, and much more. To do this at scale we will need a variety of approaches at the frontier of AI. This includes continuing to push the boundaries of closed models, while also increasing the capability of open weights models, making them more secure, as well as making them more efficient for la…",
+      "summary": "Agents are going to consume 1,000X more tokens than we consume today. Because they’re going to be running in our workflows, processing all of our data, building out nearly all software, securing enterprises, and much mo…",
       "regionTags": [],
       "metrics": {
-        "likes": 186,
-        "retweets": 10,
-        "replies": 54
+        "likes": 283,
+        "retweets": 17,
+        "replies": 87
       },
       "topics": [
         {
@@ -40,13 +95,22 @@
             "enterprise"
           ],
           "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "weights"
+          ],
+          "score": 1
         }
       ],
       "section": "Builders",
       "importanceScore": 0.92,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.95,
       "whyThisMatters": ""
     },
     {
@@ -98,8 +162,54 @@
       "section": "Official Sources",
       "importanceScore": 0.8,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.63,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "acb7560825fe6d06",
+      "date": "2026-10-29",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "This is correct. The vast majority of enterprise workflows have not actually had agents applied…",
+      "url": "https://x.com/levie/status/2115305369799110905",
+      "publishedAt": "2026-10-28T04:51:15.000Z",
+      "content": "This is correct. The vast majority of enterprise workflows have not actually had agents applied to them in any meaningful way. The economy probably has this deployed < 1% right now. At best you have a few automated systems in a company that do a single pass of an LLM to make a decision or provide feedback, but very little real “automation”. Some of this is a statement about the adoption rates of technology in enterprises, but the vast majority of it is really just due to the capability of AI it…",
+      "summary": "This is correct. The vast majority of enterprise workflows have not actually had agents applied to them in any meaningful way. The economy probably has this deployed < 1% right now. At best you have a few automated syst…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 186,
+        "retweets": 10,
+        "replies": 54
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.92,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.7,
       "whyThisMatters": ""
     },
     {
@@ -2392,115 +2502,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.7,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "79c185ea7637c847",
-      "date": "2026-10-11",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:rauchg",
-      "builderOrOrg": "Guillermo Rauch",
-      "title": "Some interesting machine & agent Vercel traffic stats. • Across the entire Vercel network, 58.1…",
-      "url": "https://x.com/rauchg/status/2108733051283050964",
-      "publishedAt": "2026-10-10T01:35:12.000Z",
-      "content": "Some interesting machine & agent Vercel traffic stats. • Across the entire Vercel network, 58.18% traffic is bot-originated (last 30d). This was 32% in Jan 2024. • 60%+ of deployments on Vercel are now agentic, up from ~3% in Jan 2026. • Up to 83% of pageviews are now coming from agents to Vercel's own documentation sites. The % reliably increases the more we optimize content for them. I expect 'direct' human internet traffic to basically become a rounding error in coming years. The web will th…",
-      "summary": "Some interesting machine & agent Vercel traffic stats. • Across the entire Vercel network, 58.18% traffic is bot-originated (last 30d). This was 32% in Jan 2024. • 60%+ of deployments on Vercel are now agentic, up from…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 277,
-        "retweets": 14,
-        "replies": 66
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "deployment"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.92,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.7,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "b0a0442c0beeba5d",
-      "date": "2026-10-11",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "No Priors",
-      "sourceKey": "podcast:No Priors",
-      "builderOrOrg": "No Priors",
-      "title": "Beam: The Great American Open Model with ReflectionAI Co-Founder and CEO Misha Laskin",
-      "url": "https://www.youtube.com/@NoPriorsPodcast",
-      "publishedAt": "2026-10-09T17:24:00.000Z",
-      "content": "Speaker 1 | 00:00 - 00:26 When you remove cyber offensive capabilities, you also remove cyber defensive capabilities. The state of the world today is that we have a few 100 safety researchers within closed labs that understand how these things work. And despite their best intentions, is impossible to cover the long tail of unintended consequences that these systems might have. A very powerful closed model went and hacked into another company, and the only way that company could remediate itself was by using open models to protect itself. That's the empirical evidence of the world that we're in. Speaker 1 | 00:26 - 00:34 Linus' law, with enough eyeballs, all bugs become shallow. I have the belief that with enough eyeballs, most security and safety vulnerabilities become shallow as well. Speaker 2 | 00:41 - 00:57 Today, we're joined by Misha Laskom, the co founder and CEO of Reflection AI. Reflection provides open weight models to power the future of intelligence. Misha Pryor was a researcher at Google DeepMind and received his PhD in Physics. Welcome, Inno Pryor's. Great to have you here today. Speaker 1 | 00:57 - 00:59 Yeah, it's great to be here. Thanks for having me. Speaker 2 | 00:59 - 01:11 Could you give us an update on where things are at? Mean, obviously, you guys have been pioneering really interesting work in open weights and open source models, particularly with a US bent. Can you talk a bit what you've been up to and what you guys have been building? Speaker 1 | 01:11 - 01:38 Yeah, so for the last twelve months, we set, right, the mission of the company to build frontier open intelligence and make it widely accessible. And effectively, it's been a sprint to set up a lab that is capable of of doing such things. It it kind of feels like maybe there's a Reid Hoffman quote that, you know, you're assembling a a plane as you're flying it. And that's, you know, that... That's been the case. Speaker 1 | 01:38 - 02:05 We were maybe around 30 people about a year ago, but it does take order of a 100 plus. So a couple 100 researchers and engineers to build one of these things, a true rocket ship project. And we're now at around 300 people and assembled all the teams on pre training, mid training, reinforcement learning, scaled up our... Trained our first models end to end and just released a model called Beam, which is Reflection's first open model. Speaker 2 | 02:05 - 02:32 What has been the most challenging part of that? Because when people talk about scale or scaling up models or starting to build these models out, one issue is compute and procuring enough, a training cluster that's cohesive in terms of the ability to use it. Second is talent. And obviously, there's been these huge talent wars in terms of how much people pay for researchers, etcetera. Third is scale of data. Speaker 2 | 02:33 - 02:35 Which of those has been the most limiting or the most challenging? Speaker 1 | 02:35 - 02:50 What's been interesting about this experience is that I got asked this questions at all hands at the company, what's been the hardest thing last in year? And the reality is that everything is extremely hard. Everything has been hard. Speaker 2 | 02:51 - 02:52 Startup, yeah. Speaker 1 | 02:52 - 03:13 And it's also sometimes people might ask, well, what's the thing that really made your models work better than others or something like this? And again, the answer is everything. You actually have to get 30 things right, and that's why everything is hard because you have to get 30 things right. You have to get the talent. You have to retain the talent. Speaker 1 | 03:13 - 03:31 You have to have a strong mission and culture that keeps the talent working together and rowing in the same boat. You have to get the data. You have to get the compute. You have to build the infrastructure to ensure that the compute is actually usable. These are... Speaker 1 | 03:31 - 03:55 A lot of these things, when you're at an existing big lab, there have been yea…",
-      "summary": "Speaker 1 | 00:00 - 00:26 When you remove cyber offensive capabilities, you also remove cyber defensive capabilities. The state of the world today is that we have a few 100 safety researchers within closed labs that understand how these th…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.69,
-          "rationale": [
-            "open source",
-            "weights"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.69,
-          "rationale": [
-            "rl",
-            "reinforcement learning"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.6,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.49,
       "whyThisMatters": ""
     }
   ]

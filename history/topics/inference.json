@@ -1,43 +1,61 @@
 {
-  "generatedAt": "2026-10-29T06:05:35.445Z",
+  "generatedAt": "2026-10-29T07:16:27.328Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
     {
-      "id": "1ba0bbfb24d0de19",
+      "id": "205555bcb8a23200",
       "date": "2026-10-29",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:garrytan",
-      "builderOrOrg": "Garry Tan",
-      "title": "I am trying to slim down GStack and reduce token usage and task latency to be sure https://t.co…",
-      "url": "https://x.com/garrytan/status/2115215790756794496",
-      "publishedAt": "2026-10-27T22:55:17.000Z",
-      "content": "I am trying to slim down GStack and reduce token usage and task latency to be sure https://t.co/2n99PHF5i6",
-      "summary": "I am trying to slim down GStack and reduce token usage and task latency to be sure https://t.co/2n99PHF5i6",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "Excited to partner with @suhail to serve Particle's models and inference via @vercel AI Gateway…",
+      "url": "https://x.com/rauchg/status/2115566139447382115",
+      "publishedAt": "2026-10-28T22:07:27.000Z",
+      "content": "Excited to partner with @suhail to serve Particle's models and inference via @vercel AI Gateway. Particle's mission is to make intelligence as accessible and abundant as electricity. Together, we'll make this a reality for every developer and enterprise. https://t.co/aYS6FrWFsm",
+      "summary": "Excited to partner with @suhail to serve Particle's models and inference via @vercel AI Gateway. Particle's mission is to make intelligence as accessible and abundant as electricity. Together, we'll make this a reality…",
       "regionTags": [],
       "metrics": {
-        "likes": 92,
-        "retweets": 3,
-        "replies": 36
+        "likes": 116,
+        "retweets": 1,
+        "replies": 23
       },
       "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "developer"
+          ],
+          "score": 1
+        },
         {
           "slug": "inference",
           "label": "Speed & Cost",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "latency"
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
           ],
           "score": 1
         }
       ],
       "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
+      "importanceScore": 0.78,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.56,
+      "digestScore": 0.86,
       "whyThisMatters": ""
     },
     {
@@ -80,6 +98,43 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "1ba0bbfb24d0de19",
+      "date": "2026-10-29",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:garrytan",
+      "builderOrOrg": "Garry Tan",
+      "title": "I am trying to slim down GStack and reduce token usage and task latency to be sure https://t.co…",
+      "url": "https://x.com/garrytan/status/2115215790756794496",
+      "publishedAt": "2026-10-27T22:55:17.000Z",
+      "content": "I am trying to slim down GStack and reduce token usage and task latency to be sure https://t.co/2n99PHF5i6",
+      "summary": "I am trying to slim down GStack and reduce token usage and task latency to be sure https://t.co/2n99PHF5i6",
+      "regionTags": [],
+      "metrics": {
+        "likes": 92,
+        "retweets": 3,
+        "replies": 36
+      },
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "latency"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
@@ -2348,41 +2403,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "58deb3c55b91cbe0",
-      "date": "2026-08-07",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Together AI Blog",
-      "sourceKey": "official:Together AI Blog",
-      "builderOrOrg": "Together AI",
-      "title": "Autoscaling endpoints for LLM inference",
-      "url": "https://www.together.ai/blog/autoscaling-endpoints-for-llm-inference",
-      "publishedAt": "2026-07-31T00:00:00.000Z",
-      "content": "GPU utilization can read healthy while your queue backs up, and a new replica takes minutes to warm. Here's how to pick autoscaling metrics, tune scale-up/down windows, and budget for cold starts on dedicated inference.",
-      "summary": "GPU utilization can read healthy while your queue backs up, and a new replica takes minutes to warm. Here's how to pick autoscaling metrics, tune scale-up/down windows, and budget for cold starts on dedicated inference.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     }
   ]
