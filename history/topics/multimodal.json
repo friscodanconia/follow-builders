@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T00:31:03.962Z",
+  "generatedAt": "2026-10-29T06:05:35.445Z",
   "slug": "multimodal",
   "label": "Images, Audio & Video",
   "items": [
@@ -112,6 +112,61 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "be4f9e41ceb1f37e",
+      "date": "2026-10-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
+      "url": "https://latent.space/p/ainews-gemini-4-carbon/",
+      "publishedAt": "2026-10-29T05:55:19.000Z",
+      "content": "a quiet day. AI News for 10/27/2026-10/28/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Gemini 4 Carbon Tops Independent Leaderboards, with Access Limited to Cyber Defenders Launch : Google DeepMind announced Gemini 4 Carbon two weeks after Argon. It is positioned as state of the art on cybersecurity and long-horizon tasks ( @sundarpichai , @GoogleDeepMind ). Claimed cyber results : 88.2% on SEC-bench Pro for vulnerability finding, 54.8% on ExploitGym for exploitation and 71.0% on CWE-bench for patching ( @sundarpichai ). Availability : Carbon first goes to trusted cyber defenders through the Fairwind Program, with wider developer access promised \"as soon as possible\" ( @GoogleAI ). Pricing : Phil Schmid quotes $2/$10 per million input/output tokens with an asterisk ( @_philschmid ). Artificial Analysis lists $4/$20 standard pricing with a 50% launch discount that has no end date. Cached input costs $0.20 per million tokens ( @ArtificialAnlys ). Specs : The model has a 1M-token context window and 1M max output. Inputs are text, image, video and speech; output is text ( @ValsAI ). Safety claims (Google) : Successful cheating on Terminal-Bench 4.0 fell to 0.0%, and cheating attempts fell to 0.4%. Unsupported claims are down about 2x versus Argon. Overreach fell 26% and under-service fell 29% ( @OfficialLoganK ). Artificial Analysis : Carbon is #1 on Intelligence Index v5 with a score of 59. It leads 4 of the 9 index evals: HLE-Diamond, TB-Science, AA-Omniscience and AutomationBench ( @ArtificialAnlys ). Coding : On the Coding Agent Index, Carbon scores 59 using Antigravity CLI, versus 62 for Claude Code with Opus 5.5 [max]. It scores 51% on FrontierCode v1.1, versus 56% for Opus. Knowledge work : Carbon reaches 1609 Elo on AA-Briefcase, up 126 points from Argon. It still trails Grok…",
+      "summary": "Google’s new frontier model leads independent evals, with access initially limited to trusted defenders.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.9299999999999999,
+          "rationale": [
+            "coding",
+            "code",
+            "developer"
+          ],
+          "score": 4
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "science",
+            "finding"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "image",
+            "video"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
       "whyThisMatters": ""
     },
     {
@@ -2238,59 +2293,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "ebb507cca98c802f",
-      "date": "2026-10-02",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more",
-      "url": "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b",
-      "publishedAt": "2026-09-29T02:55:27.000Z",
-      "content": "The official post is shy, but since AMD is public, we know the purchase price . We covered them less than a year ago: Fei Fei has a lovely reflection blogpost that hints at the main reasons: Since our founding in 2024, World Labs has built leading AI spatial intelligence capabilities for everything from creative work to design . We built the world leading model training team for images, video and spatial reconstruction . And, with the acquisition of SceniX , we&#8217;re building towards an industry leading capability for robotics simulation . Recently we released Atlas , a first of its kind omni model architecture that solves a key outstanding problem in spatial intelligence: new camera view prediction . Like LLMs can predict the next token from a line of text, Atlas, trained from scratch, can predict the next view from an input of 2D images, outperforming state of the art results even by specialized models. It has essentially solved a long standing problem in computer vision called sparse reconstruction, by combining generative models with multiview geometry . This has direct and far reaching consequences: from design and engineering to science and robotics . We&#8217;ve seen incredible interest in Atlas across many domains: RL environments for robotics; scene generation for therapy and entertainment; and real world reconstruction for real estate, design and construction, and so much more to come . See also our Claude Code pod out today: AI News for 9/26/2026-9/28/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Top Story: Claude Sonnet 5.5 launch and reactions What happened Anthropic shipped Claude Sonnet 5.5, the second model in the Claude 5.5 family, one week after Opus 5.5 and the day before OpenAI DevDay. Early independent evals place it at or near Opus 5.5 on several lea…",
-      "summary": "Congrats team!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.81,
-          "rationale": [
-            "vision",
-            "image",
-            "video"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "science"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     }
   ]

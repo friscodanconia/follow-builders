@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T00:31:03.962Z",
+  "generatedAt": "2026-10-29T06:05:35.445Z",
   "slug": "coding",
   "label": "Coding",
   "items": [
@@ -82,7 +82,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -254,9 +254,9 @@
       ],
       "section": "Official Sources",
       "importanceScore": 0.8,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.87,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.63,
       "whyThisMatters": ""
     },
     {
@@ -308,9 +308,9 @@
       ],
       "section": "Official Sources",
       "importanceScore": 0.72,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.82,
+      "digestScore": 0.57,
       "whyThisMatters": ""
     },
     {
@@ -457,6 +457,61 @@
       "whyThisMatters": ""
     },
     {
+      "id": "be4f9e41ceb1f37e",
+      "date": "2026-10-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
+      "url": "https://latent.space/p/ainews-gemini-4-carbon/",
+      "publishedAt": "2026-10-29T05:55:19.000Z",
+      "content": "a quiet day. AI News for 10/27/2026-10/28/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Gemini 4 Carbon Tops Independent Leaderboards, with Access Limited to Cyber Defenders Launch : Google DeepMind announced Gemini 4 Carbon two weeks after Argon. It is positioned as state of the art on cybersecurity and long-horizon tasks ( @sundarpichai , @GoogleDeepMind ). Claimed cyber results : 88.2% on SEC-bench Pro for vulnerability finding, 54.8% on ExploitGym for exploitation and 71.0% on CWE-bench for patching ( @sundarpichai ). Availability : Carbon first goes to trusted cyber defenders through the Fairwind Program, with wider developer access promised \"as soon as possible\" ( @GoogleAI ). Pricing : Phil Schmid quotes $2/$10 per million input/output tokens with an asterisk ( @_philschmid ). Artificial Analysis lists $4/$20 standard pricing with a 50% launch discount that has no end date. Cached input costs $0.20 per million tokens ( @ArtificialAnlys ). Specs : The model has a 1M-token context window and 1M max output. Inputs are text, image, video and speech; output is text ( @ValsAI ). Safety claims (Google) : Successful cheating on Terminal-Bench 4.0 fell to 0.0%, and cheating attempts fell to 0.4%. Unsupported claims are down about 2x versus Argon. Overreach fell 26% and under-service fell 29% ( @OfficialLoganK ). Artificial Analysis : Carbon is #1 on Intelligence Index v5 with a score of 59. It leads 4 of the 9 index evals: HLE-Diamond, TB-Science, AA-Omniscience and AutomationBench ( @ArtificialAnlys ). Coding : On the Coding Agent Index, Carbon scores 59 using Antigravity CLI, versus 62 for Claude Code with Opus 5.5 [max]. It scores 51% on FrontierCode v1.1, versus 56% for Opus. Knowledge work : Carbon reaches 1609 Elo on AA-Briefcase, up 126 points from Argon. It still trails Grok…",
+      "summary": "Google’s new frontier model leads independent evals, with access initially limited to trusted defenders.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.9299999999999999,
+          "rationale": [
+            "coding",
+            "code",
+            "developer"
+          ],
+          "score": 4
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "science",
+            "finding"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "image",
+            "video"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
+    {
       "id": "4c84350dcc40d710",
       "date": "2026-10-29",
       "sourceType": "newsletter",
@@ -502,9 +557,9 @@
       ],
       "section": "Podcasts & Newsletters",
       "importanceScore": 0.54,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -536,9 +591,9 @@
       ],
       "section": "Podcasts & Newsletters",
       "importanceScore": 0.4,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.61,
+      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -594,58 +649,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "e52fdc61e660f521",
-      "date": "2026-10-29",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "Coding From the Himalayas With an Offline AI Agent",
-      "url": "https://latent.space/p/offline-coding/",
-      "publishedAt": "2026-10-27T14:41:25.000Z",
-      "content": "When we talk about working remotely , we take a lot of things for granted, especially reliable internet and power. But sometimes, working remotely means trying to get something done on a flight, during a long train ride, or somewhere with little or no network. I moved to the foothills of the Himalayas a year ago. I love the peace of living here, but it also comes with its own challenges, including network and power outages . Things I didn’t think about as much before are now part of planning my work. I work as a Principal Engineer at Thomson Reuters , where I spend most of my time coding and reviewing my teammates’ code. Coding agents are already a big part of my everyday workflow, which made me curious about how much of that workflow I could keep using offline. Working from the foothills of the Himalayas. Photo of my workspace. If you’re someone like me, who enjoys working with technology but also finds peace in quiet, remote places where the network doesn’t always cooperate, this article is for you. It’s also for anyone who has wondered whether a coding agent can run entirely on their laptop, with the internet switched off. I tried running a coding agent locally on my laptop to see how much work I could actually get done offline. What can we do offline? A project already on your laptop gives us plenty to work with. We can ask an agent to explain an unfamiliar function, investigate a failing test, refactor a small piece of code, or help finish a feature. These tasks can run offline when the model, project dependencies and test tools are available locally. Downloading a new package or looking something up on the web will still need a connection. Where OpenCode fits OpenCode is an open-source coding agent that works with your project. You give it a task, and it can read files, propose edits and run commands such as the test suite. In our setup, its permission prompts let us review commands and changes before allowing them. I picked OpenCode because it lets me keep t…",
-      "summary": "How to set up and run an offline coding agent using OpenCode, Ollama and Qwen.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open-source"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -739,6 +742,58 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "e52fdc61e660f521",
+      "date": "2026-10-29",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Coding From the Himalayas With an Offline AI Agent",
+      "url": "https://latent.space/p/offline-coding/",
+      "publishedAt": "2026-10-27T14:41:25.000Z",
+      "content": "When we talk about working remotely , we take a lot of things for granted, especially reliable internet and power. But sometimes, working remotely means trying to get something done on a flight, during a long train ride, or somewhere with little or no network. I moved to the foothills of the Himalayas a year ago. I love the peace of living here, but it also comes with its own challenges, including network and power outages . Things I didn’t think about as much before are now part of planning my work. I work as a Principal Engineer at Thomson Reuters , where I spend most of my time coding and reviewing my teammates’ code. Coding agents are already a big part of my everyday workflow, which made me curious about how much of that workflow I could keep using offline. Working from the foothills of the Himalayas. Photo of my workspace. If you’re someone like me, who enjoys working with technology but also finds peace in quiet, remote places where the network doesn’t always cooperate, this article is for you. It’s also for anyone who has wondered whether a coding agent can run entirely on their laptop, with the internet switched off. I tried running a coding agent locally on my laptop to see how much work I could actually get done offline. What can we do offline? A project already on your laptop gives us plenty to work with. We can ask an agent to explain an unfamiliar function, investigate a failing test, refactor a small piece of code, or help finish a feature. These tasks can run offline when the model, project dependencies and test tools are available locally. Downloading a new package or looking something up on the web will still need a connection. Where OpenCode fits OpenCode is an open-source coding agent that works with your project. You give it a task, and it can read files, propose edits and run commands such as the test suite. In our setup, its permission prompts let us review commands and changes before allowing them. I picked OpenCode because it lets me keep t…",
+      "summary": "How to set up and run an offline coding agent using OpenCode, Ollama and Qwen.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open-source"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -2232,43 +2287,6 @@
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "664f40cb0233302e",
-      "date": "2026-10-22",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:thsottiaux",
-      "builderOrOrg": "Thibault Sottiaux",
-      "title": "There were reports of usage draining faster than anticipated for some users over the weekend. W…",
-      "url": "https://x.com/thsottiaux/status/2112592264686149749",
-      "publishedAt": "2026-10-20T17:10:20.000Z",
-      "content": "There were reports of usage draining faster than anticipated for some users over the weekend. We've identified approximately 40,000 accounts that had an inconsistency on which usage limits where the actual usage that was applied did not correspond to their actual selected plan. We are reaching out individually to all these users and have corrected the issue. If this affected you, we'll add credits to your account. Sorry we got this wrong.",
-      "summary": "There were reports of usage draining faster than anticipated for some users over the weekend. We've identified approximately 40,000 accounts that had an inconsistency on which usage limits where the actual usage that wa…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 10601,
-        "retweets": 325,
-        "replies": 2501
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
       "digestScore": 0.56,
       "whyThisMatters": ""
     }
