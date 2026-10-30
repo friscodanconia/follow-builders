@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T00:30:56.821Z",
+  "generatedAt": "2026-10-30T06:06:48.894Z",
   "date": "2026-10-30",
   "items": [
     {
@@ -475,7 +475,7 @@
       "section": "Builders",
       "importanceScore": 0.84,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.65,
       "whyThisMatters": ""
     },
@@ -1155,9 +1155,9 @@
       ],
       "section": "Official Sources",
       "importanceScore": 0.58,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.73,
+      "digestScore": 0.48,
       "whyThisMatters": ""
     },
     {
@@ -1199,9 +1199,9 @@
       ],
       "section": "Official Sources",
       "importanceScore": 0.72,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.82,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
       "whyThisMatters": ""
     },
     {
@@ -1234,9 +1234,9 @@
       ],
       "section": "Official Sources",
       "importanceScore": 0.58,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.73,
+      "digestScore": 0.48,
       "whyThisMatters": ""
     },
     {
@@ -1647,9 +1647,9 @@
       ],
       "section": "Official Sources",
       "importanceScore": 0.58,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.73,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.48,
       "whyThisMatters": ""
     },
     {
@@ -1755,9 +1755,9 @@
       ],
       "section": "Podcasts & Newsletters",
       "importanceScore": 0.4,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.61,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -2000,9 +2000,9 @@
       ],
       "section": "Podcasts & Newsletters",
       "importanceScore": 0.4,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.61,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -2051,9 +2051,9 @@
       ],
       "section": "Podcasts & Newsletters",
       "importanceScore": 0.4,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.61,
+      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -2176,120 +2176,80 @@
   ],
   "selectedItems": [
     {
-      "id": "556f6fc0e3c197b9",
-      "date": "2026-10-30",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "How we detect frontier model misalignment",
-      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-      "publishedAt": "2026-10-29T09:00:00.000Z",
-      "content": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
-      "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "alignment"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.82,
-      "whyThisMatters": "Most AI safety discussion is abstract. This is a company describing the concrete infrastructure it runs because it genuinely doesn't fully trust its own models to stay on task. If you're an enterprise customer running OpenAI agents in production, this is the first real window into what the safety net behind those agents actually looks like. The fact that the net exists is reassuring. The fact that it needs to exist is worth sitting with."
-    },
-    {
-      "id": "07b1339578ea4c44",
-      "date": "2026-10-30",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Mistral AI Blog",
-      "sourceKey": "official:Mistral AI Blog",
-      "builderOrOrg": "Mistral AI",
-      "title": "Mistral Large 4 (Le Chonk) is now open weight | Mistral",
-      "url": "https://mistral.ai/news/mistral-large-4-oss/",
-      "publishedAt": "2026-10-29T12:00:07.000Z",
-      "content": "The weights of Mistral Large 4 (Le Chonk) are now open. A 1T parameter multimodal model, and best open-weight model for coding, trained in Europe.",
-      "summary": "The weights of Mistral Large 4 (Le Chonk) are now open. A 1T parameter multimodal model, and best open-weight model for coding, trained in Europe.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "weights"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "multimodal"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.73,
-      "whyThisMatters": "A trillion-parameter open-weight model is a significant marker. Until recently, models at this scale existed only behind API paywalls at OpenAI and Google. Developers who self-host their AI stack can now run something competitive with frontier closed models, at least on coding tasks, without sending data to an American cloud provider. European enterprises with strict data governance requirements just got a meaningful option."
-    },
-    {
-      "id": "f85c735f6d4f6051",
+      "id": "6811adb15b5bcc8b",
       "date": "2026-10-30",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:trq212",
-      "builderOrOrg": "Thariq",
-      "title": "very weird thing happening rn technical people are sad, they think their skills are now useless…",
-      "url": "https://x.com/trq212/status/2115544056038350960",
-      "publishedAt": "2026-10-28T20:39:42.000Z",
-      "content": "very weird thing happening rn technical people are sad, they think their skills are now useless non-technical people are desperately wishing they were more technical so they could use agents better",
-      "summary": "very weird thing happening rn technical people are sad, they think their skills are now useless non-technical people are desperately wishing they were more technical so they could use agents better",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "Vercel CI solves the \"AI coding bottleneck\" via: ① Fast and stable infrastructure (faster work)…",
+      "url": "https://x.com/rauchg/status/2115539426684408300",
+      "publishedAt": "2026-10-28T20:21:18.000Z",
+      "content": "Vercel CI solves the \"AI coding bottleneck\" via: ① Fast and stable infrastructure (faster work) ② Turborepo integration (less work) ③ Agentic CI ① is obvious. Your CI is slow, flaky, goes down. We solve that. We operate 20 worldwide clusters doing millions of microVMs per day. ② is less obvious, but very powerful. Turborepo was designed to intelligently skip and cache prior work. The graph of dependencies is computed, not written. Ask your agent to migrate to @turborepo and start saving money a…",
+      "summary": "Vercel CI solves the \"AI coding bottleneck\" via: ① Fast and stable infrastructure (faster work) ② Turborepo integration (less work) ③ Agentic CI ① is obvious. Your CI is slow, flaky, goes down. We solve that. We operate…",
       "regionTags": [],
       "metrics": {
-        "likes": 23251,
-        "retweets": 1418,
-        "replies": 1067
+        "likes": 360,
+        "retweets": 12,
+        "replies": 95
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "repo"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.65,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "5b02532a184c67ed",
+      "date": "2026-10-30",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:steipete",
+      "builderOrOrg": "Peter Steinberger",
+      "title": "Kinda funny how easy it is to spot bugs by agents vs humans. Someone at Disney still writes cod…",
+      "url": "https://x.com/steipete/status/2115380217938158049",
+      "publishedAt": "2026-10-28T09:48:40.000Z",
+      "content": "Kinda funny how easy it is to spot bugs by agents vs humans. Someone at Disney still writes code by HAND? https://t.co/kiz2czVU7m",
+      "summary": "Kinda funny how easy it is to spot bugs by agents vs humans. Someone at Disney still writes code by HAND? https://t.co/kiz2czVU7m",
+      "regionTags": [],
+      "metrics": {
+        "likes": 707,
+        "retweets": 12,
+        "replies": 116
       },
       "topics": [
         {
@@ -2300,6 +2260,15 @@
             "agent"
           ],
           "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
         }
       ],
       "section": "Builders",
@@ -2307,113 +2276,100 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.65,
-      "whyThisMatters": "The people best positioned for the agent era aren't the ones who can write the most code or the ones who can't write any. They're the ones who understand enough about how systems work to know when an agent is going wrong. That's a different skill than either camp currently values, and most hiring managers don't have a job title for it yet."
+      "whyThisMatters": ""
     },
     {
-      "id": "534e7998ae0477a4",
+      "id": "ab5233f51361ee41",
       "date": "2026-10-30",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
-      "url": "https://latent.space/p/elorian/",
-      "publishedAt": "2026-10-29T16:00:00.000Z",
-      "content": "This month Elorian launched its first visual reasoning model , Glimpse . It’s being promoted as “a new category of visual thinking model: a system that reasons about the physical world from what it sees.” View post on X ↗ So how does Glimpse compare to both frontier models and world models in vision tests? A new benchmark called DecoyCount , co-released by Elorian, &nbsp; provides some answers. We quizzed CEO Andrew Dai on the benchmark, and also talked about Elorian’s positioning in a crowded models landscape.&nbsp; DecoyCount results Elorian emerged from stealth in April with $55 million in seed funding , co-led by Striker Venture Partners, Menlo Ventures and Altimeter Capital. &nbsp; Now, in partnership with AI data company Mercor , Elorian is announcing the DecoyCount benchmark, which tests whether language models genuinely count objects or rely on visual shortcuts and substitution heuristics. According to a paper accompanying the release , frontier models scored below 50% accuracy on DecoyCount — the highest was GPT-6 Astra, with 43.17%. Elorian’s new model isn’t mentioned in the paper, but Dai told us that Glimpse scored 50.48% in an internal test. Regarding the frontier models, the paper concludes that “stronger general reasoning does not by itself generalize to aligned visual reasoning.” How the benchmark works: “DecoyCount exposes interpretable counting failures across seven mechanisms.” To make sure it was a like-for-like comparison with the frontier models, we asked whether the paper’s evaluation images were withheld from Glimpse’s training? “The evaluation images and text were withheld from our training, and our contamination check found no overlap in the training data checked,” Dai replied, via email. “Without any cues, Glimpse scored 50.48% on the 1,660 DecoyCount items, making it the only model in the comparison to clear 50%. The closest was GPT-6 Astra at 43.17%, about 7 points behind, and Gemini-3.8-flash scored 32.71% while Qwen3.8-max scored 28.3…",
-      "summary": "A new decoy counting benchmark exposes a gap between seeing and reasoning. Elorian’s Glimpse tries to bridge it by thinking with images.",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:swyx",
+      "builderOrOrg": "Swyx",
+      "title": "hello from literally everybody who took psychology 101 in undergrad https://t.co/ySHn3soaQn htt…",
+      "url": "https://x.com/swyx/status/2115341903311024395",
+      "publishedAt": "2026-10-28T07:16:25.000Z",
+      "content": "hello from literally everybody who took psychology 101 in undergrad https://t.co/ySHn3soaQn https://t.co/ervWlYbDQ8",
+      "summary": "hello from literally everybody who took psychology 101 in undergrad https://t.co/ySHn3soaQn https://t.co/ervWlYbDQ8",
       "regionTags": [],
-      "metrics": {},
+      "metrics": {
+        "likes": 126,
+        "retweets": 7,
+        "replies": 38
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "74573e25d84126ef",
+      "date": "2026-10-30",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:joshwoodward",
+      "builderOrOrg": "Josh Woodward",
+      "title": "2 weeks ago: Gemini 4 Argon Today: Gemini 4 Carbon The frontier is fast, and the internal vibes…",
+      "url": "https://x.com/joshwoodward/status/2115495943948902517",
+      "publishedAt": "2026-10-28T17:28:31.000Z",
+      "content": "2 weeks ago: Gemini 4 Argon Today: Gemini 4 Carbon The frontier is fast, and the internal vibes on this model are good. Rolling out to cyber defenders first, then more widely available as the next step! https://t.co/sUb0q8YCMk",
+      "summary": "2 weeks ago: Gemini 4 Argon Today: Gemini 4 Carbon The frontier is fast, and the internal vibes on this model are good. Rolling out to cyber defenders first, then more widely available as the next step! https://t.co/sUb…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 884,
+        "retweets": 50,
+        "replies": 82
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "a13c36960d8955be",
+      "date": "2026-10-30",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:bcherny",
+      "builderOrOrg": "Boris Cherny",
+      "title": "Utah gave Claude Code to 34 developers across 10 state agencies. 80% had a working environment…",
+      "url": "https://x.com/bcherny/status/2115491259381072269",
+      "publishedAt": "2026-10-28T17:09:54.000Z",
+      "content": "Utah gave Claude Code to 34 developers across 10 state agencies. 80% had a working environment within 30 minutes, 71% reported saving 20+ hours by the end of the four-week pilot. https://t.co/ERZpBFuYSa",
+      "summary": "Utah gave Claude Code to 34 developers across 10 state agencies. 80% had a working environment within 30 minutes, 71% reported saving 20+ hours by the end of the four-week pilot. https://t.co/ERZpBFuYSa",
+      "regionTags": [],
+      "metrics": {
+        "likes": 2446,
+        "retweets": 80,
+        "replies": 186
+      },
       "topics": [
         {
-          "slug": "benchmarks",
-          "label": "AI Testing",
+          "slug": "coding",
+          "label": "Coding",
           "confidence": 0.81,
           "rationale": [
-            "benchmark",
-            "eval",
-            "evaluation"
+            "code",
+            "developer",
+            "repo"
           ],
           "score": 3
-        },
-        {
-          "slug": "reasoning",
-          "label": "AI Thinking",
-          "confidence": 0.69,
-          "rationale": [
-            "reasoning",
-            "thinking mode"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.69,
-          "rationale": [
-            "vision",
-            "image"
-          ],
-          "score": 2
         }
       ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 1,
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.61,
-      "whyThisMatters": "If you're building any application where an AI needs to interpret a physical scene, a warehouse photo, a medical image, a construction site, the models you're probably using are failing nearly half the time on a task as basic as counting objects in a frame. This benchmark is narrow, but it's a useful reminder that \"multimodal\" on a model card doesn't mean the model actually understands what it's looking at."
-    },
-    {
-      "id": "00fc5b1e8f769c01",
-      "date": "2026-10-30",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "The Manhattan Project, Take Two",
-      "url": "https://www.chinatalk.media/p/the-manhattan-project-take-two",
-      "publishedAt": "2026-10-29T16:00:01.000Z",
-      "content": "In the new era of global competition, being at the forefront of Super Intelligence innovation equals geopolitical power. To maintain leadership and establish the next world order, the U.S. is moving to cement its lead. Barnett Koven is a Managing Director of AI and Data at Accenture Federal Services . He came to Accenture Federal Services after stints in industry and a faculty job at the University of Maryland, where his counterinsurgency research showed that some of the most influential quantitative studies got the answer exactly backwards. We discuss&#8230; Why &#8220;inaction is in and of itself risky&#8221; &#8212; and how government risk-aversion compounds against less-cautious competitors The &#8220;gun-armor race&#8221; in classified AI environments, where defense costs grow exponentially against linear offense Entity resolution and predictive modeling for BIS export-control enforcement, and unwrapping the PLA&#8217;s shell-company maze DOE&#8217;s Genesis Mission and Accenture Federal&#8217;s &#8220;backbone for scientific research&#8221; Thank you to Accenture Federal Services for bringing us this episode. Listen now on your favorite podcast app . From COIN to Genesis Jordan Schneider: Let&#8217;s do a bit of the career arc. How do we get from a PhD on COIN to DOE and the Genesis mission? Barnett Koven: Absolutely. I spent a lot of time in Latin America and saw the aftereffects of some virulent insurgencies in Peru and Colombia in particular, ended up doing a PhD studying the spatiotemporal diffusion of insurgent violence as a result of counterinsurgency strategy &#8212; specifically as a result of development assistance and other non-kinetic interventions during counterinsurgency. Really loved that, and sought out the opportunity to do more policy-relevant research, which is not necessarily the norm at the academy. Ended up in a faculty job at the University of Maryland, which was also wonderful &#8212; a research institution where I was encouraged and ab…",
-      "summary": "Barnett Koven on American innovation and Super Intelligence",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "policy"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.61,
-      "whyThisMatters": "The U.S. federal government is now spending real money on AI, not for productivity dashboards but for classified systems, export enforcement, and national lab infrastructure. That's a different procurement cycle than enterprise SaaS, and it's one where the European AI companies and the open-weight model movement have very limited reach. The labs with existing government relationships are quietly building a moat that has nothing to do with benchmarks."
+      "digestScore": 0.56,
+      "whyThisMatters": ""
     }
   ],
   "topicIndex": [
@@ -2503,9 +2459,7 @@
     }
   ],
   "sections": [
-    "Official Sources",
-    "Builders",
-    "Podcasts & Newsletters"
+    "Builders"
   ],
   "stats": {
     "totalItems": 56,
