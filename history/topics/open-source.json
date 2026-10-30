@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-29T07:16:27.328Z",
+  "generatedAt": "2026-10-30T00:30:56.821Z",
   "slug": "open-source",
   "label": "Open Source",
   "items": [
     {
       "id": "df1fa915cc66e097",
-      "date": "2026-10-29",
+      "date": "2026-10-30",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -53,14 +53,67 @@
       ],
       "section": "Builders",
       "importanceScore": 0.92,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.7,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "07b1339578ea4c44",
+      "date": "2026-10-30",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "Mistral Large 4 (Le Chonk) is now open weight | Mistral",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "publishedAt": "2026-10-29T12:00:07.000Z",
+      "content": "The weights of Mistral Large 4 (Le Chonk) are now open. A 1T parameter multimodal model, and best open-weight model for coding, trained in Europe.",
+      "summary": "The weights of Mistral Large 4 (Le Chonk) are now open. A 1T parameter multimodal model, and best open-weight model for coding, trained in Europe.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "weights"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "multimodal"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
       "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.95,
+      "digestScore": 0.73,
       "whyThisMatters": ""
     },
     {
       "id": "4c84350dcc40d710",
-      "date": "2026-10-29",
+      "date": "2026-10-30",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -2372,43 +2425,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "fd491310195456a9",
-      "date": "2026-09-04",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "This week is absolutely nuts for AI releases, and now a major new model update from Muse. We ap…",
-      "url": "https://x.com/levie/status/2095234253613359200",
-      "publishedAt": "2026-09-02T19:35:48.000Z",
-      "content": "This week is absolutely nuts for AI releases, and now a major new model update from Muse. We appear to be reaching escape velocity in capability progress. If this thing gets released as open weights it completely changes the dynamic of US open weights competitiveness. https://t.co/hOG17UMECG",
-      "summary": "This week is absolutely nuts for AI releases, and now a major new model update from Muse. We appear to be reaching escape velocity in capability progress. If this thing gets released as open weights it completely change…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 494,
-        "retweets": 42,
-        "replies": 28
-      },
-      "topics": [
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "weights"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]

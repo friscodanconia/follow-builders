@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-29T07:16:27.328Z",
+  "generatedAt": "2026-10-30T00:30:56.821Z",
   "slug": "computer-use",
   "label": "AI Using Computers",
   "items": [
     {
       "id": "d99ebd76c7232ec7",
-      "date": "2026-10-29",
+      "date": "2026-10-30",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -35,14 +35,14 @@
       ],
       "section": "Builders",
       "importanceScore": 0.7,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.8,
+      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
       "id": "6811adb15b5bcc8b",
-      "date": "2026-10-29",
+      "date": "2026-10-30",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -92,9 +92,44 @@
       ],
       "section": "Builders",
       "importanceScore": 0.84,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.65,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "f3f3c3fedcf16c0c",
+      "date": "2026-10-30",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "url": "https://openai.com/index/updated-model-spec",
+      "publishedAt": "2026-10-29T17:00:00.000Z",
+      "content": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
       "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.9,
+      "digestScore": 0.73,
       "whyThisMatters": ""
     },
     {
@@ -2147,61 +2182,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.47,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4a05653f1275a8f3",
-      "date": "2026-10-10",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:realmadhuguru",
-      "builderOrOrg": "Madhu Guru",
-      "title": "There are massive startup opportunities hiding in plain sight : every layer of the computing st…",
-      "url": "https://x.com/realmadhuguru/status/2108236391641706813",
-      "publishedAt": "2026-10-08T16:41:39.000Z",
-      "content": "There are massive startup opportunities hiding in plain sight : every layer of the computing stack will need to be rebuilt for agents. For the last few years, most of the focus has been on making enterprise software agent-ready: APIs, connectors, MCPs. Now personal agents are forcing the same conversation for consumer products - e-commerce is an early example. This is just the tip of the iceberg. Now think about the rest of the stack: Desktop and mobile OSes where agents are first-class users C…",
-      "summary": "There are massive startup opportunities hiding in plain sight : every layer of the computing stack will need to be rebuilt for agents. For the last few years, most of the focus has been on making enterprise software age…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 387,
-        "retweets": 36,
-        "replies": 9
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "desktop"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.92,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.7,
       "whyThisMatters": ""
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-29T07:16:27.328Z",
+  "generatedAt": "2026-10-30T00:30:56.821Z",
   "slug": "coding",
   "label": "Coding",
   "items": [
     {
       "id": "e12f50067a0f5431",
-      "date": "2026-10-29",
+      "date": "2026-10-30",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -44,14 +44,14 @@
       ],
       "section": "Builders",
       "importanceScore": 0.7,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.8,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
       "id": "a13c36960d8955be",
-      "date": "2026-10-29",
+      "date": "2026-10-30",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -83,14 +83,14 @@
       ],
       "section": "Builders",
       "importanceScore": 0.7,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.8,
+      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
       "id": "205555bcb8a23200",
-      "date": "2026-10-29",
+      "date": "2026-10-30",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -138,14 +138,14 @@
       ],
       "section": "Builders",
       "importanceScore": 0.78,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.86,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.61,
       "whyThisMatters": ""
     },
     {
       "id": "6811adb15b5bcc8b",
-      "date": "2026-10-29",
+      "date": "2026-10-30",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -195,14 +195,14 @@
       ],
       "section": "Builders",
       "importanceScore": 0.84,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.9,
+      "digestScore": 0.65,
       "whyThisMatters": ""
     },
     {
       "id": "5b02532a184c67ed",
-      "date": "2026-10-29",
+      "date": "2026-10-30",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -241,14 +241,49 @@
       ],
       "section": "Builders",
       "importanceScore": 0.84,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.65,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "21199ef0a17c3a15",
+      "date": "2026-10-30",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "url": "https://openai.com/index/ropes-gray-ai-diligence",
+      "publishedAt": "2026-10-29T07:00:00.000Z",
+      "content": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+      "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
       "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.9,
+      "digestScore": 0.73,
       "whyThisMatters": ""
     },
     {
       "id": "05b5286b4090efac",
-      "date": "2026-10-29",
+      "date": "2026-10-30",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
@@ -297,6 +332,330 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.63,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "17ed2bfccc015a0c",
+      "date": "2026-10-30",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "Auto repair for Together GPU Clusters: from GPU fault to healthy node",
+      "url": "https://www.together.ai/blog/auto-repair-for-together-gpu-clusters",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "content": "Together GPU Clusters auto repair detects GPU, host and fabric faults, picks the lightest fix, and lets you decide per fault and per Xid code which repairs run automatically. Here is how it works.",
+      "summary": "Together GPU Clusters auto repair detects GPU, host and fabric faults, picks the lightest fix, and lets you decide per fault and per Xid code which repairs run automatically. Here is how it works.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "07b1339578ea4c44",
+      "date": "2026-10-30",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "Mistral Large 4 (Le Chonk) is now open weight | Mistral",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "publishedAt": "2026-10-29T12:00:07.000Z",
+      "content": "The weights of Mistral Large 4 (Le Chonk) are now open. A 1T parameter multimodal model, and best open-weight model for coding, trained in Europe.",
+      "summary": "The weights of Mistral Large 4 (Le Chonk) are now open. A 1T parameter multimodal model, and best open-weight model for coding, trained in Europe.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "weights"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "multimodal"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "be4f9e41ceb1f37e",
+      "date": "2026-10-30",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
+      "url": "https://latent.space/p/ainews-gemini-4-carbon/",
+      "publishedAt": "2026-10-29T05:55:19.000Z",
+      "content": "It’s a good thing we published our Opus 5.5 podcast calling it the world’s best model before today’s launch. In a very pleasant surprise, Gemini announced Carbon , a newer frontier model than the 3 week old Argon , with fantastic benchmarks: Taking it to the new #1 on the Artificial Analysis consolidated benchmark, putting GDM in the lead for possibly the first time in AAII history: View post on X ↗ sd AI News for 10/27/2026-10/28/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Gemini 4 Carbon Tops Independent Leaderboards, with Access Limited to Cyber Defenders Launch : Google DeepMind announced Gemini 4 Carbon two weeks after Argon. It is positioned as state of the art on cybersecurity and long-horizon tasks ( @sundarpichai , @GoogleDeepMind ). Claimed cyber results : 88.2% on SEC-bench Pro for vulnerability finding, 54.8% on ExploitGym for exploitation and 71.0% on CWE-bench for patching ( @sundarpichai ). Availability : Carbon first goes to trusted cyber defenders through the Fairwind Program, with wider developer access promised \"as soon as possible\" ( @GoogleAI ). Pricing : Phil Schmid quotes $2/$10 per million input/output tokens with an asterisk ( @_philschmid ). Artificial Analysis lists $4/$20 standard pricing with a 50% launch discount that has no end date. Cached input costs $0.20 per million tokens ( @ArtificialAnlys ). Specs : The model has a 1M-token context window and 1M max output. Inputs are text, image, video and speech; output is text ( @ValsAI ). Safety claims (Google) : Successful cheating on Terminal-Bench 4.0 fell to 0.0%, and cheating attempts fell to 0.4%. Unsupported claims are down about 2x versus Argon. Overreach fell 26% and under-service fell 29% ( @OfficialLoganK ). Artificial Analysis : Carbon is #1 on Intelligence Index v5 with a score of 59. It lea…",
+      "summary": "Google’s new frontier model leads independent evals, with access initially limited to trusted defenders.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "developer",
+            "terminal-bench"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "image",
+            "video"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "benchmark",
+            "leaderboard"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "4c84350dcc40d710",
+      "date": "2026-10-30",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Why Agents Love Supabase",
+      "url": "https://latent.space/p/supabase/",
+      "publishedAt": "2026-10-28T19:48:05.000Z",
+      "content": "I first met Paul Copplestone and Ant Wilson in Singapore, shortly after they finished YC as the hottest startup of YC S20 . Six years later, we finally got them on the podcast! This is their first podcast together, after taking an open-source, fully remote company from zero to a $10 billion valuation. The title is a question I wanted to understand for myself: why do agents love Supabase? There are plenty of managed databases. Postgres hosting is competitive. Being familiar to a model is useful distribution, but it doesn't explain all the work needed to turn a generated application into something that runs. But when I ran my frontier AEO tracker , it was an almost complete sweep of first choice for app backends (and in contention for managed db ) for every frontier model from Astra to Fable to Muse. At Select, Supabase grouped its announcements into Build, Operate and Scale. The things that stood out to me were surprisingly practical: start a local backend without Docker, keep the desired database schema in Git, and run compute beside the database. Each removes a piece of work that developers have been doing for years. Agents make that friction harder to ignore. Watch the full conversation, including my opening commentary → Give the agent a backend it can read My favorite developer-tool announcements make me think: of course I want this today. The new alpha runtime for running Supabase locally without Docker is one of those. I use Colima rather than Docker Desktop, and even then, removing another dependency from the path to a working database is welcome. Local setup is a small part of a human developer's week; an agent that repeatedly creates and tests environments encounters it over and over. Declarative schemas are the bigger idea. The familiar SQL workflow accumulates a history: create the schema, then migrate, migrate, migrate. A declarative representation gives the agent a description of the state you want, in files it can inspect and edit alongside the applica…",
+      "summary": "Paul Copplestone and Ant Wilson on building the backend for AI agents",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "developer"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open-source"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "efa60c5db5f266a1",
+      "date": "2026-10-30",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Anthropic ends Coding Interviews: \"Hunger beats tenure\"",
+      "url": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/",
+      "publishedAt": "2026-10-28T08:50:30.000Z",
+      "content": "Several midsize headlines today; on top of some impressive Math verification , Google Genie and Artificial Analysis and FrontierCode all shipped major version bumps of their top offerings, all of which have been AINews title stories in the past, but are mostly annual incremental improvements. Past guest Felix Reiseberg gets the headline today for coming out and charting the path forward for junior engineers : “ Hunger beats tenure” This month, I laid the traditional coding interview to rest. As a hiring manager at Anthropic, I stopped asking candidates to do them… …There’s no more point in giving you a little React challenge than there is in quizzing people about assembly; Claude is now better at both. Our most impactful builders are successful regardless of how good they are at these tests. Enough said. His advice for juniors Pick business impact over backlog : In pre-AI-coding 2011, Patrick McKenzie wrote “engineers are hired to create business value, not to program things.” Pick a radical idea : Come up with a few ideas that would, if successful, dramatically improve the chances that your organization achieves those goals. Be ambitious! Build it over a weekend : I have seen small groups and solo engineers fly past the usual process of writing product requirements documents (PRDs), getting buy-in, and lobbying for time with designers or product managers by building a working prototype. Focus on one good idea : In my experience, junior people often make the mistake of cramming multiple ideas into a single prototype , hiding three excellent ideas among 20 bad ones. Lean into your fresh perspective : If you’re working on something user-facing, you have a unique amount of empathy for users and thus a much better sense for how the product works or doesn’t work for them. Well said, Felix! Get web search results as clean, structured Markdown, using roughly 50% fewer tokens than JSON on average. Easily integrate Markdown search results into your AI workflows across 100+…",
+      "summary": "Since coding is solved, why code for the job?",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "808c8fb33bcff67f",
+      "date": "2026-10-30",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
+      "url": "https://latent.space/p/opus55/",
+      "publishedAt": "2026-10-27T18:53:10.000Z",
+      "content": "Watch the full episode on YouTube As we learned from the Anthropic S-1 filings yesterday , the lab has some of the highest revenue and research efficiency in human history, particularly with -126% loss to 19% GAAP profit turnaround in the last year. The company credits this to their two core loops: Improvement and Investment: Today we go inside how Anthropic works. Now the dust has settled on Opus 5.5 and it has lasted a month as the generally accepted #1 LLM in the world, we dive into its launch, and how Anthropic ships Claude with Claude with Katelyn Lesse and Angela Jiang , heads of Engineering and Product respectively. The team is working under two kinds of pressure. The models are getting more capable, which makes safe deployment and access decisions harder. At the same time, usage is growing fast enough that ordinary infrastructure choices—like how much CPU an API consumes—become strategic. Those problems meet in the product choices that reach developers. A model launch is also an API launch Anthropic's Opus 5.5 launch emphasizes both model quality and cost. We discuss feedback that the previous Opus generations were be too verbose, alongside the need for stronger intelligence per dollar. Anthropic says the new model costs less to run than its predecessor; the exact saving depends on the workload and its use of cached context. The less visible launch work involves changes to how people integrate the API. One example we discuss is protecting model reasoning against extraction used for distillation. Preserving thinking blocks across turns helps address this, but a new requirement can also break a customer's existing harness. Katelyn also describes what being part of early access programs actually looks like in practice: Customers run evaluations in their own harnesses, report surprising behavior, and sometimes pass along less formal impressions. The useful part is not just a benchmark score: it is seeing the model in environments and tasks Anthropic's own produ…",
+      "summary": "Katelyn Lesse and Angela Jiang on Opus 5.5, the Claude Platform, and the engineering behind AI agents.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.81,
+          "rationale": [
+            "benchmark",
+            "eval",
+            "evaluation"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "developer",
+            "repo"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "rl",
+            "distillation"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c85d76ec8e6e93a0",
+      "date": "2026-10-30",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Where is China’s Groq?",
+      "url": "https://www.chinatalk.media/p/where-is-chinas-groq",
+      "publishedAt": "2026-10-23T10:56:32.000Z",
+      "content": "In late 2025, HBM was all the rage. You need HBM for AI inference; inference decode is a memory-constrained operation, and only HBM was able to reach bandwidth speeds to serve models effectively. But the market has matured since then, and there is no longer one architecture to rule them all. Different silicon works better for training, prefill, or decode&#8230; Read more",
+      "summary": "The U.S. is Making HBM-Free Chips. Why Isn&#8217;t China?",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -459,278 +818,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "17ed2bfccc015a0c",
-      "date": "2026-10-29",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Together AI Blog",
-      "sourceKey": "official:Together AI Blog",
-      "builderOrOrg": "Together AI",
-      "title": "Auto repair for Together GPU Clusters: from GPU fault to healthy node",
-      "url": "https://www.together.ai/blog/auto-repair-for-together-gpu-clusters",
-      "publishedAt": "2026-10-27T00:00:00.000Z",
-      "content": "Together GPU Clusters auto repair detects GPU, host and fabric faults, picks the lightest fix, and lets you decide per fault and per Xid code which repairs run automatically. Here is how it works.",
-      "summary": "Together GPU Clusters auto repair detects GPU, host and fabric faults, picks the lightest fix, and lets you decide per fault and per Xid code which repairs run automatically. Here is how it works.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "be4f9e41ceb1f37e",
-      "date": "2026-10-29",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
-      "url": "https://latent.space/p/ainews-gemini-4-carbon/",
-      "publishedAt": "2026-10-29T05:55:19.000Z",
-      "content": "a quiet day. AI News for 10/27/2026-10/28/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Gemini 4 Carbon Tops Independent Leaderboards, with Access Limited to Cyber Defenders Launch : Google DeepMind announced Gemini 4 Carbon two weeks after Argon. It is positioned as state of the art on cybersecurity and long-horizon tasks ( @sundarpichai , @GoogleDeepMind ). Claimed cyber results : 88.2% on SEC-bench Pro for vulnerability finding, 54.8% on ExploitGym for exploitation and 71.0% on CWE-bench for patching ( @sundarpichai ). Availability : Carbon first goes to trusted cyber defenders through the Fairwind Program, with wider developer access promised \"as soon as possible\" ( @GoogleAI ). Pricing : Phil Schmid quotes $2/$10 per million input/output tokens with an asterisk ( @_philschmid ). Artificial Analysis lists $4/$20 standard pricing with a 50% launch discount that has no end date. Cached input costs $0.20 per million tokens ( @ArtificialAnlys ). Specs : The model has a 1M-token context window and 1M max output. Inputs are text, image, video and speech; output is text ( @ValsAI ). Safety claims (Google) : Successful cheating on Terminal-Bench 4.0 fell to 0.0%, and cheating attempts fell to 0.4%. Unsupported claims are down about 2x versus Argon. Overreach fell 26% and under-service fell 29% ( @OfficialLoganK ). Artificial Analysis : Carbon is #1 on Intelligence Index v5 with a score of 59. It leads 4 of the 9 index evals: HLE-Diamond, TB-Science, AA-Omniscience and AutomationBench ( @ArtificialAnlys ). Coding : On the Coding Agent Index, Carbon scores 59 using Antigravity CLI, versus 62 for Claude Code with Opus 5.5 [max]. It scores 51% on FrontierCode v1.1, versus 56% for Opus. Knowledge work : Carbon reaches 1609 Elo on AA-Briefcase, up 126 points from Argon. It still trails Grok…",
-      "summary": "Google’s new frontier model leads independent evals, with access initially limited to trusted defenders.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.9299999999999999,
-          "rationale": [
-            "coding",
-            "code",
-            "developer"
-          ],
-          "score": 4
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "science",
-            "finding"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.69,
-          "rationale": [
-            "image",
-            "video"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4c84350dcc40d710",
-      "date": "2026-10-29",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "Why Agents Love Supabase",
-      "url": "https://latent.space/p/supabase/",
-      "publishedAt": "2026-10-28T19:48:05.000Z",
-      "content": "I first met Paul Copplestone and Ant Wilson in Singapore, shortly after they finished YC as the hottest startup of YC S20 . Six years later, we finally got them on the podcast! This is their first podcast together, after taking an open-source, fully remote company from zero to a $10 billion valuation. The title is a question I wanted to understand for myself: why do agents love Supabase? There are plenty of managed databases. Postgres hosting is competitive. Being familiar to a model is useful distribution, but it doesn't explain all the work needed to turn a generated application into something that runs. But when I ran my frontier AEO tracker , it was an almost complete sweep of first choice for app backends (and in contention for managed db ) for every frontier model from Astra to Fable to Muse. At Select, Supabase grouped its announcements into Build, Operate and Scale. The things that stood out to me were surprisingly practical: start a local backend without Docker, keep the desired database schema in Git, and run compute beside the database. Each removes a piece of work that developers have been doing for years. Agents make that friction harder to ignore. Watch the full conversation, including my opening commentary → Give the agent a backend it can read My favorite developer-tool announcements make me think: of course I want this today. The new alpha runtime for running Supabase locally without Docker is one of those. I use Colima rather than Docker Desktop, and even then, removing another dependency from the path to a working database is welcome. Local setup is a small part of a human developer's week; an agent that repeatedly creates and tests environments encounters it over and over. Declarative schemas are the bigger idea. The familiar SQL workflow accumulates a history: create the schema, then migrate, migrate, migrate. A declarative representation gives the agent a description of the state you want, in files it can inspect and edit alongside the applica…",
-      "summary": "Paul Copplestone and Ant Wilson on building the backend for AI agents",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "developer"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open-source"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "efa60c5db5f266a1",
-      "date": "2026-10-29",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Anthropic ends Coding Interviews: \"Hunger beats tenure\"",
-      "url": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/",
-      "publishedAt": "2026-10-28T08:50:30.000Z",
-      "content": "Several midsize headlines today; on top of some impressive Math verification , Google Genie and Artificial Analysis and FrontierCode all shipped major version bumps of their top offerings, all of which have been AINews title stories in the past, but are mostly annual incremental improvements. Past guest Felix Reiseberg gets the headline today for coming out and charting the path forward for junior engineers : “ Hunger beats tenure” This month, I laid the traditional coding interview to rest. As a hiring manager at Anthropic, I stopped asking candidates to do them… …There’s no more point in giving you a little React challenge than there is in quizzing people about assembly; Claude is now better at both. Our most impactful builders are successful regardless of how good they are at these tests. Enough said. His advice for juniors Pick business impact over backlog : In pre-AI-coding 2011, Patrick McKenzie wrote “engineers are hired to create business value, not to program things.” Pick a radical idea : Come up with a few ideas that would, if successful, dramatically improve the chances that your organization achieves those goals. Be ambitious! Build it over a weekend : I have seen small groups and solo engineers fly past the usual process of writing product requirements documents (PRDs), getting buy-in, and lobbying for time with designers or product managers by building a working prototype. Focus on one good idea : In my experience, junior people often make the mistake of cramming multiple ideas into a single prototype , hiding three excellent ideas among 20 bad ones. Lean into your fresh perspective : If you’re working on something user-facing, you have a unique amount of empathy for users and thus a much better sense for how the product works or doesn’t work for them. Well said, Felix! Get web search results as clean, structured Markdown, using roughly 50% fewer tokens than JSON on average. Easily integrate Markdown search results into your AI workflows across 100+…",
-      "summary": "Since coding is solved, why code for the job?",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "808c8fb33bcff67f",
-      "date": "2026-10-29",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
-      "url": "https://latent.space/p/opus55/",
-      "publishedAt": "2026-10-27T18:53:10.000Z",
-      "content": "Watch the full episode on YouTube As we learned from the Anthropic S-1 filings yesterday , the lab has some of the highest revenue and research efficiency in human history, particularly with -126% loss to 19% GAAP profit turnaround in the last year. The company credits this to their two core loops: Improvement and Investment: Today we go inside how Anthropic works. Now the dust has settled on Opus 5.5 and it has lasted a month as the generally accepted #1 LLM in the world, we dive into its launch, and how Anthropic ships Claude with Claude with Katelyn Lesse and Angela Jiang , heads of Engineering and Product respectively. The team is working under two kinds of pressure. The models are getting more capable, which makes safe deployment and access decisions harder. At the same time, usage is growing fast enough that ordinary infrastructure choices—like how much CPU an API consumes—become strategic. Those problems meet in the product choices that reach developers. A model launch is also an API launch Anthropic's Opus 5.5 launch emphasizes both model quality and cost. We discuss feedback that the previous Opus generations were be too verbose, alongside the need for stronger intelligence per dollar. Anthropic says the new model costs less to run than its predecessor; the exact saving depends on the workload and its use of cached context. The less visible launch work involves changes to how people integrate the API. One example we discuss is protecting model reasoning against extraction used for distillation. Preserving thinking blocks across turns helps address this, but a new requirement can also break a customer's existing harness. Katelyn also describes what being part of early access programs actually looks like in practice: Customers run evaluations in their own harnesses, report surprising behavior, and sometimes pass along less formal impressions. The useful part is not just a benchmark score: it is seeing the model in environments and tasks Anthropic's own produ…",
-      "summary": "Katelyn Lesse and Angela Jiang on Opus 5.5, the Claude Platform, and the engineering behind AI agents.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.81,
-          "rationale": [
-            "benchmark",
-            "eval",
-            "evaluation"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "developer",
-            "repo"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.69,
-          "rationale": [
-            "rl",
-            "distillation"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "c85d76ec8e6e93a0",
-      "date": "2026-10-29",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Where is China’s Groq?",
-      "url": "https://www.chinatalk.media/p/where-is-chinas-groq",
-      "publishedAt": "2026-10-23T10:56:32.000Z",
-      "content": "In late 2025, HBM was all the rage. You need HBM for AI inference; inference decode is a memory-constrained operation, and only HBM was able to reach bandwidth speeds to serve models effectively. But the market has matured since then, and there is no longer one architecture to rule them all. Different silicon works better for training, prefill, or decode&#8230; Read more",
-      "summary": "The U.S. is Making HBM-Free Chips. Why Isn&#8217;t China?",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -2200,101 +2287,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "b7fbbd16afc4172b",
-      "date": "2026-10-23",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "You are the Team — Anekha Sokhal, Moshi",
-      "url": "https://www.latent.space/p/moshi",
-      "publishedAt": "2026-10-22T14:03:40.000Z",
-      "content": "Tickets and applications now live for AIE CODE - the last flagship AIE of the year. When Anekha Sokhal traded energy derivatives, staying on top of the market meant tracking more information than any person could read. Now, as CEO of Moshi, she is building the tool she wished she had: a recommendation engine that connects market information to what matters for a trader&#8217;s book. At AI Engineer New York, Anekha joins swyx to discuss her path from mathematics and JPMorgan to founding Moshi, and why useful AI needs to fit the way people actually work. She describes Moshi as what might happen if Bloomberg, Claude and Netflix had a baby: market data, an interface for working with it, and recommendations tailored to the trader. They also talk about trusted sources, document extraction, building versus buying models, and the pressure on AI engineers who are told, &#8220;you are the team.&#8221; Anekha shares what she learned from customer conversations at the conference and why meeting users comes before hiring. Watch the episode Watch Anekha Sokhal on YouTube Show notes Moshi &#8212; Anekha&#8217;s company Anekha Sokhal &#8212; background and work GIQ research paper &#8212; research discussed in the interview Reducto &#8212; document extraction AI Engineer New York Timestamps 0:00 &#8212; AI Engineer New York and &#8220;you are the team&#8221; 0:54 &#8212; Meet Anekha Sokhal 2:09 &#8212; From mathematics to energy derivatives 3:46 &#8212; The Fulbright and becoming a founder 5:45 &#8212; What Moshi does for traders 6:10 &#8212; Processing a flood of market data 9:03 &#8212; Bloomberg and market workflows 10:03 &#8212; Bloomberg, Claude and Netflix 12:03 &#8212; From dashboards to workflows 15:03 &#8212; Trusted sources and signal 17:13 &#8212; Build or buy models and document extraction 18:20 &#8212; AI Engineer New York 20:32 &#8212; Customer meetings and community 23:54 &#8212; Hiring and talking to customers 25:55 &#8212; swyx&#8217;s path into AI Transcript Autom…",
-      "summary": "How Moshi turns market data into actionable insights, and why AI tools have to fit the trader&#8217;s workflow.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "paper"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "37562ed1bbc4ede1",
-      "date": "2026-10-23",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
-      "url": "https://www.latent.space/p/ainews-openais-patch-the-planet-program",
-      "publishedAt": "2026-10-22T07:42:44.000Z",
-      "content": "Almost 2 months ago, OpenAI introduced Daybreak for Frontline Defenders , a $1B subsidy for access to Daybreak cyber models and products. That funding came into use almost immediately, as major vulnerabilities in PHP were independently discovered by two parties: Ryan Austin, a researcher at the security firm Calif, as part of the OpenAI &#8220; Patch the Planet &#8221; project in August 2026 using GPT 5.6 Sol: &#8230; as well as Wiz, recently acquired into Google Cloud (using Gemini 4 Argon and GPT-5.6 Sol, as well as their own tool, Wiz Atlas). All high profile cyber disclosures are at least a little bit of marketing, and the degree to which this was a severely alarming vulnerability on the order of famous ones like log4shell and Heartbleed is up to some debate , but surely the coordinated response across the PHP Ecosystem is the developer community responding in its most ideal form. We should expect to be in for at least a year of finding such critical vulnerabilities; but it is the wrong move to blame the messenger for finding them; rather it is good to know that our critical software is generally getting the biggest security audit it has ever had in human history. AI News for 10/20/2026-10/21/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Top Story: PHP2Shell&#8212;chronology, core claims, and the complications behind the emergency response What happened Researchers disclosed two PHP-engine memory-corruption vulnerabilities, with demonstrated unauthenticated exploitation against major CMSs and an unusually broad coordinated response. The researchers named the vulnerabilities PHP2Shell and identified them as CVE-2026-109618 and CVE-2026-109619. Their technical description places the defects in PHP&#8217;s internal handling of out-of-memory conditions and fatal errors&#8212…",
-      "summary": "The Big Hardening begins",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "finding"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "developer"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
       "whyThisMatters": ""
     }
   ]
