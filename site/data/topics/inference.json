@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-30T07:19:23.844Z",
+  "generatedAt": "2026-10-31T00:31:02.786Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
     {
       "id": "d33ec2276879b281",
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "sourceType": "podcast",
       "sourceGroup": "mirrored",
       "sourceName": "The MAD Podcast with Matt Turck",
@@ -52,6 +52,59 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "0be060b8ff967baa",
+      "date": "2026-10-31",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Building AIE CODE: The top Coding Agent Conference",
+      "url": "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference/",
+      "publishedAt": "2026-10-30T08:24:29.000Z",
+      "content": "It’s a quiet day, so as we have done once per conference, we’ll do a behind the scenes look at AI Engineer , now serving 6M views a month for 1.8M monthly unique viewers . CODE is the last flagship AIE of the year (there are also 2 partner conferences coming up - AIEi Shanghai takes place next week, and AIEi Sydney is a side event of NeurIPS in December). As a Summit it is meant to be more intimate: single track, invite-only for the top 1000 agentic engineers in the world (over 100k tuned into our Software Factories track at WF26 ). My goal in curating AIE CODE is to try to recap the top themes of 2026 in code and gather the leaders of the industry to preview what’s next in 2027. Last year we had some absolute bangers building Skills and Software Factories , predicting the death of the IDE and of course the launch of Antigravity and Nano Banana Pro. We have three themes this year: Scaling without Slop : Last year’s call for No More Slop has resulted in lots of discussions about managing it this year, including the rise and fall of Tokenmaxxing . Our Scaling without Slop approach has mostly worked; we need more. System One models : We believe S1 “smart software” is the largest change to AI Engineering that refreshingly explores the opposite direction to ever larger and more expensive and questionably productive swarms of coding agent FactoryFactoryFactories. While Diogo took pains to explain the difference between Decision Models and System One models on our podcast and his WF26 talk , it has largely been lost to the broader audience. Diogo and team TypeSafe are back for a mini “Jev Day” to show how System One models are truly being used by their top users. Increasing Ambition: This year we also saw increasingly ambitious rewrites of some of the hardest categories of software, from browsers to Adobe PhotoShop Suite to mid-tier B2B SaaS . We’re excited to feature Jarred Sumner who will start from the rewrite of Bun in Rust and preview Bun AOT, new compiler features n…",
+      "summary": "Mistral’s open-weight release, frontier monitoring, and the day’s AI Twitter and Reddit recaps.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "serving"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
       "whyThisMatters": ""
     },
     {
@@ -2356,58 +2409,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "417b1b89e3d25fe1",
-      "date": "2026-08-10",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Import AI",
-      "sourceKey": "editorial:Import AI",
-      "builderOrOrg": "Jack Clark",
-      "title": "Import AI 467: Self-sustaining AI viruses; pacing AI progress; confusion about AI and creativity",
-      "url": "https://jack-clark.net/2026/08/03/import-ai-467-self-sustaining-ai-viruses-pacing-ai-progress-confusion-about-ai-and-creativity/",
-      "publishedAt": "2026-08-03T13:31:22.000Z",
-      "content": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Self-sustaining and self-replicating AI viruses are here: …Open weight LLMs + a well-designed harness = a persistent, self-sufficient virus… AI researchers have built a prototype computer virus which uses AI models to compromise computers, then uses their underlying GPU resources to run inference, letting it smartly figure out how to infect more hosts. The results were achieved by researchers from the University of Toronto, the Vector Institute, the University of Cambridge, and ServiceNow, and “demonstrate that self-sustaining AI-driven cyber-threats are no longer theoretical.” “We must prepare for autonomous generative adversaries,” they write. “Artificial intelligence (AI) agents enable a fundamentally new threat: a worm that generates tailored attack strategies to each target it encounters. The worm parasitically uses compromised machines to run open-weight large language models (LLMs) to sustain its reasoning, or extend its reach for further attacks”. How it works : “The worm uses stolen computing power from compromised GPU nodes to host LLMs for generative reasoning. It then uses this reasoning to detect vulnerabilities and devise tailored attacks against additional targets, furthering its spread,” they write. “The proof-of-concept operates using only an open-weight LLM running on a single, local GPU, with no reliance on vendor APIs that could be monitored or revoked”. The researchers don’t describe the underlying LLM besides saying it was published in 2025 and can fit on a single A100 GPU with 80GB of VRAM. A successful proof-of-concept via some custom tools : They give the agent a custom harness that comes with built-in helper functions for network discovery, host discovery, foothold exploitation, privilege escalation, privilege escalation exploitation, and tools for replication…",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Self-sustaining and self-replicating AI viruses are here:…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "autonomous"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-30T07:19:23.844Z",
+  "generatedAt": "2026-10-31T00:31:02.786Z",
   "slug": "research",
   "label": "Research",
   "items": [
     {
       "id": "7c81d7bbf085f94f",
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -53,14 +53,14 @@
       ],
       "section": "Builders",
       "importanceScore": 0.79,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.86,
+      "digestScore": 0.62,
       "whyThisMatters": ""
     },
     {
       "id": "f95c730a678de467",
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -104,7 +104,7 @@
     },
     {
       "id": "b1cbf0d32c9e55e6",
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -148,7 +148,7 @@
     },
     {
       "id": "99c065dc43a7e02d",
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -192,7 +192,7 @@
     },
     {
       "id": "ec757921bcf65f2a",
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -237,7 +237,7 @@
     },
     {
       "id": "b8a780cfb293653e",
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Google AI Blog",
@@ -271,8 +271,63 @@
       "whyThisMatters": ""
     },
     {
+      "id": "09b64d5e078a574a",
+      "date": "2026-10-31",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence",
+      "url": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/",
+      "publishedAt": "2026-10-30T13:05:28.000Z",
+      "content": "At a glance Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizations, yet real enterprise data contains sensitive information that cannot be used for evaluation under any circumstances. To resolve this tension, we built Industry Evaluation Data Generation Platform: full-scale synthetic enterprise environments grounded in publicly available real-world data sources such as O*NET occupational data, online job postings, and SEC filings. The synthetic environments mimic real business workflows, helping Microsoft find issues that generic benchmarks would miss. Safety and privacy are built into the platform by design. Every environment is fully synthetic and automated content-safety checks keep the generated data free of harmful or personally identifiable material. Every day, millions of knowledge workers around the world rely on Microsoft Copilot to draft documents, summarize meetings, surface relevant information, and accelerate productivity. Behind the scenes, this is powered by a network of AI systems, and ensuring they work as intended requires a thoughtful approach to evaluation. At Microsoft, we know that high performance doesn’t come from guesswork. It comes from testing, measuring, and iterating constantly. Healthcare organizations are constantly synthesizing safety signals from across teams so that they can make faster, better decisions that directly influence patient outcomes and regulatory confidence. They may ask Copilot to summarize a meeting and extract action items for their teams. Within seconds, Copilot delivers a structured summary citing specific discussion points from the transcript. But how do we ensure this response is accurate, complete, and properly grounded in the meeting content? This is where our evaluation system comes in. We’ve developed a structured evaluation strategy called Industry Evaluation Data Generation Platform , which includes industry specific evaluation datasets d…",
+      "summary": "Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizations, yet real enterprise data contains sensitive information that cannot be used for evaluation under any circumstances…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.81,
+          "rationale": [
+            "benchmark",
+            "eval",
+            "evaluation"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "dataset"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.78,
+      "whyThisMatters": ""
+    },
+    {
       "id": "ac0e0e873d86f986",
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Import AI",
@@ -324,8 +379,59 @@
       "whyThisMatters": ""
     },
     {
+      "id": "519a49b975975655",
+      "date": "2026-10-31",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Is Half of China’s AI Making Slop?",
+      "url": "https://www.chinatalk.media/p/is-half-of-chinas-ai-making-slop",
+      "publishedAt": "2026-10-30T10:04:01.000Z",
+      "content": "Zilan Qian is a research scholar at GovAI researching AI development and regulation in China. On October 21, the People&#8217;s Daily published a commentary titled &#8220;Turning &#8216;Gunpowder&#8217; into &#8216;Fireworks&#8217;? Beware the Claim That China&#8217;s AI Has Gone Astray&#8221; (&#25226;&#8221;&#28779;&#33647;&#8221;&#20570;&#25104;&#8221;&#28895;&#33457;&#8221;&#65311;&#35686;&#24789;&#8221;&#20013;&#22269;AI&#36305;&#20559;&#35770;&#8221;). The same day, Nanfang Commentary (&#21335;&#26041;&#35780;&#35770;), the op-ed column of Southern Daily , asked : &#8220;Is Half of China&#8217;s Compute Being Spent on Feel-Good Dramas (&#29245;&#21095;)? Don&#8217;t Judge AI by Its Tokens.&#8221; Three days earlier, Beijing News (&#26032;&#20140;&#25253;) had questioned whether &#8220;&#8216;American AI Boosts Productivity While Chinese AI Makes Tittytainment&#8217; Is a False Proposition.&#8221; All three state-affiliated outlets were responding to the same viral claim: that 55% of China&#8217;s AI tokens were being used for short dramas and video generation. The claim struck a nerve because AI-generated entertainment in China is both everywhere and widely despised. According to China&#8217;s broadcasting regulator, more than 90% of the roughly 430,000 micro-dramas released in the first eight months of 2026 were AI productions. Yet Chinese media and public figures routinely call them wunao (&#26080;&#33041;, braindead), cuzhi lanzao (&#31895;&#21046;&#28389;&#36896;, shoddily made), and zhili dixia (&#26234;&#21147;&#20302;&#19979;, intellectually deficient). 1 Why, in a society that places such a premium on productivity, has an industry devoted to manufacturing seemingly useless pleasure become so enormously popular? And what should we make of the shame attached to it? I argue that both answers lie in Chinese society&#8217;s obsession with usefulness, where technologies and people alike are judged by their productive value, so much so that resting can feel…",
+      "summary": "The 55% token myth, and China&#8217;s guilty pleasure",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "video"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
+    {
       "id": "00fc5b1e8f769c01",
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "ChinaTalk",
@@ -376,7 +482,7 @@
     },
     {
       "id": "9677939772b47ecf",
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "ChinaTalk",
@@ -2225,103 +2331,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "18cdbd9677813c54",
-      "date": "2026-10-18",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "10 Takeaways from Q3",
-      "url": "https://www.chinatalk.media/p/10-takeaways-from-q3",
-      "publishedAt": "2026-10-11T11:08:09.000Z",
-      "content": "AI, China, defense, national security, supply chains, the Protestant roots of Kim Il-sung&#8217;s Messiah complex , the lethality of hydrofluoric acid, and horseback archery in Kyrgyzstan. It&#8217;s been a productive Q3. Here are some of the things we learned and why we think they matter. The ChinaTalk team is growing! We&#8217;ve welcomed Quinn Ennis , our newest full-time analyst, and Michael Palmer , who has been doing great work behind the scenes on video and audio! China and AI What does Liang Wenfeng actually believe? The DeepSeek Thesis reconstructs DeepSeek&#8217;s strategy from leaked minutes of a four-hour meeting between Liang Wenfeng and investors. For Liang, general intelligence is the only problem worth solving &#8212; products can wait, because &#8220;once truly generalized and convincingly superior intelligence arrives, creating to-C and to-B products will be trivial.&#8221; Why it matters: This is a rare window into the worldview of one of the most important people in Chinese AI. Liang is all-in on AGI rather than diverting focus toward commercializing current AI capabilities, and he&#8217;s betting that open models and Chinese chips can get him there. Why are Chinese AI researchers so skeptical of American AI safety? In How Chinese AI Radicalizes , Irene traces an unsettling development: some Chinese researchers are increasingly concluding that American AI-safety rhetoric is just a form of technological containment. DeepSeek researcher Liu Shengyu&#8217;s viral essay argues that frontier AI should be broadly accessible rather than controlled by the likes of Anthropic and OpenAI (and yes, he mentions Hitler). In short, American AI safety rhetoric is backfiring in China. Why it matters: If Chinese AI researchers interpret American safety arguments through the lens of anti-China containment, genuine US-China cooperation becomes harder, just as increasingly capable AI makes cooperation more important. Bonus throwback: Jordan&#8217;s 2025 interview wi…",
-      "summary": "AI, China, defense, national security, supply chains, the Protestant roots of Kim Il-sung&#8217;s Messiah complex, the lethality of hydrofluoric acid, and horseback archery in Kyrgyzstan.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "voice",
-          "label": "Voice",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "audio"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "3e8146449539f813",
-      "date": "2026-10-17",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:zarazhangrui",
-      "builderOrOrg": "Zara Zhang",
-      "title": "Had a lot of fun making this Harry Potter style newspaper where the images can come alive: The…",
-      "url": "https://x.com/zarazhangrui/status/2110984552743309530",
-      "publishedAt": "2026-10-16T06:41:52.000Z",
-      "content": "Had a lot of fun making this Harry Potter style newspaper where the images can come alive: The Toddler Times 👧🏻 https://t.co/jALSfh50RO",
-      "summary": "Had a lot of fun making this Harry Potter style newspaper where the images can come alive: The Toddler Times 👧🏻 https://t.co/jALSfh50RO",
-      "regionTags": [],
-      "metrics": {
-        "likes": 1,
-        "retweets": 0,
-        "replies": 0
-      },
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "paper"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "image"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.55,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-30T07:19:23.844Z",
+  "generatedAt": "2026-10-31T00:31:02.786Z",
   "slug": "enterprise",
   "label": "Business AI",
   "items": [
     {
       "id": "0b8bd3590462f041",
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -53,9 +53,64 @@
       ],
       "section": "Builders",
       "importanceScore": 0.92,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.7,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "09b64d5e078a574a",
+      "date": "2026-10-31",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence",
+      "url": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/",
+      "publishedAt": "2026-10-30T13:05:28.000Z",
+      "content": "At a glance Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizations, yet real enterprise data contains sensitive information that cannot be used for evaluation under any circumstances. To resolve this tension, we built Industry Evaluation Data Generation Platform: full-scale synthetic enterprise environments grounded in publicly available real-world data sources such as O*NET occupational data, online job postings, and SEC filings. The synthetic environments mimic real business workflows, helping Microsoft find issues that generic benchmarks would miss. Safety and privacy are built into the platform by design. Every environment is fully synthetic and automated content-safety checks keep the generated data free of harmful or personally identifiable material. Every day, millions of knowledge workers around the world rely on Microsoft Copilot to draft documents, summarize meetings, surface relevant information, and accelerate productivity. Behind the scenes, this is powered by a network of AI systems, and ensuring they work as intended requires a thoughtful approach to evaluation. At Microsoft, we know that high performance doesn’t come from guesswork. It comes from testing, measuring, and iterating constantly. Healthcare organizations are constantly synthesizing safety signals from across teams so that they can make faster, better decisions that directly influence patient outcomes and regulatory confidence. They may ask Copilot to summarize a meeting and extract action items for their teams. Within seconds, Copilot delivers a structured summary citing specific discussion points from the transcript. But how do we ensure this response is accurate, complete, and properly grounded in the meeting content? This is where our evaluation system comes in. We’ve developed a structured evaluation strategy called Industry Evaluation Data Generation Platform , which includes industry specific evaluation datasets d…",
+      "summary": "Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizations, yet real enterprise data contains sensitive information that cannot be used for evaluation under any circumstances…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.81,
+          "rationale": [
+            "benchmark",
+            "eval",
+            "evaluation"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "dataset"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
       "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.95,
+      "digestScore": 0.78,
       "whyThisMatters": ""
     },
     {
@@ -2446,62 +2501,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.66,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d6fc7c8cdd5e00d5",
-      "date": "2026-10-12",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "If you want to know where all the tokens will get consumed in the future, here it is. Agent swa…",
-      "url": "https://x.com/levie/status/2109079686286565378",
-      "publishedAt": "2026-10-11T00:32:36.000Z",
-      "content": "If you want to know where all the tokens will get consumed in the future, here it is. Agent swarms will have massive implications in a number of enterprise domains like software development, cyber, life sciences research, AI research, finance, and more. The ability to parallelize agents against a unified goal where the volume of work is large, or where the search space not entirely known upfront, is going to be massive. Agents can fan out and coordinate work together on a specific mission in co…",
-      "summary": "If you want to know where all the tokens will get consumed in the future, here it is. Agent swarms will have massive implications in a number of enterprise domains like software development, cyber, life sciences researc…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 296,
-        "retweets": 37,
-        "replies": 70
-      },
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "science"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.92,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.7,
       "whyThisMatters": ""
     }
   ]

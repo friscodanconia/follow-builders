@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-30T07:19:23.844Z",
+  "generatedAt": "2026-10-31T00:31:02.786Z",
   "slug": "fine-tuning",
   "label": "Custom AI",
   "items": [
     {
       "id": "98b8d2bd18b700e5",
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -35,14 +35,14 @@
       ],
       "section": "Builders",
       "importanceScore": 0.7,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.8,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
       "id": "63ee8b2b647558eb",
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -81,14 +81,67 @@
       ],
       "section": "Builders",
       "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "cf1479b172c195eb",
+      "date": "2026-10-31",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Community safety report and new protections for teens",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "publishedAt": "2026-10-30T09:00:00.000Z",
+      "content": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+      "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
       "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.8,
+      "digestScore": 0.73,
       "whyThisMatters": ""
     },
     {
       "id": "ec757921bcf65f2a",
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -133,7 +186,7 @@
     },
     {
       "id": "cf5783651aa25bae",
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Google DeepMind Blog",
@@ -167,63 +220,110 @@
       "whyThisMatters": ""
     },
     {
-      "id": "808c8fb33bcff67f",
-      "date": "2026-10-30",
+      "id": "519a49b975975655",
+      "date": "2026-10-31",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
-      "url": "https://latent.space/p/opus55/",
-      "publishedAt": "2026-10-27T18:53:10.000Z",
-      "content": "Watch the full episode on YouTube As we learned from the Anthropic S-1 filings yesterday , the lab has some of the highest revenue and research efficiency in human history, particularly with -126% loss to 19% GAAP profit turnaround in the last year. The company credits this to their two core loops: Improvement and Investment: Today we go inside how Anthropic works. Now the dust has settled on Opus 5.5 and it has lasted a month as the generally accepted #1 LLM in the world, we dive into its launch, and how Anthropic ships Claude with Claude with Katelyn Lesse and Angela Jiang , heads of Engineering and Product respectively. The team is working under two kinds of pressure. The models are getting more capable, which makes safe deployment and access decisions harder. At the same time, usage is growing fast enough that ordinary infrastructure choices—like how much CPU an API consumes—become strategic. Those problems meet in the product choices that reach developers. A model launch is also an API launch Anthropic's Opus 5.5 launch emphasizes both model quality and cost. We discuss feedback that the previous Opus generations were be too verbose, alongside the need for stronger intelligence per dollar. Anthropic says the new model costs less to run than its predecessor; the exact saving depends on the workload and its use of cached context. The less visible launch work involves changes to how people integrate the API. One example we discuss is protecting model reasoning against extraction used for distillation. Preserving thinking blocks across turns helps address this, but a new requirement can also break a customer's existing harness. Katelyn also describes what being part of early access programs actually looks like in practice: Customers run evaluations in their own harnesses, report surprising behavior, and sometimes pass along less formal impressions. The useful part is not just a benchmark score: it is seeing the model in environments and tasks Anthropic's own produ…",
-      "summary": "Katelyn Lesse and Angela Jiang on Opus 5.5, the Claude Platform, and the engineering behind AI agents.",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Is Half of China’s AI Making Slop?",
+      "url": "https://www.chinatalk.media/p/is-half-of-chinas-ai-making-slop",
+      "publishedAt": "2026-10-30T10:04:01.000Z",
+      "content": "Zilan Qian is a research scholar at GovAI researching AI development and regulation in China. On October 21, the People&#8217;s Daily published a commentary titled &#8220;Turning &#8216;Gunpowder&#8217; into &#8216;Fireworks&#8217;? Beware the Claim That China&#8217;s AI Has Gone Astray&#8221; (&#25226;&#8221;&#28779;&#33647;&#8221;&#20570;&#25104;&#8221;&#28895;&#33457;&#8221;&#65311;&#35686;&#24789;&#8221;&#20013;&#22269;AI&#36305;&#20559;&#35770;&#8221;). The same day, Nanfang Commentary (&#21335;&#26041;&#35780;&#35770;), the op-ed column of Southern Daily , asked : &#8220;Is Half of China&#8217;s Compute Being Spent on Feel-Good Dramas (&#29245;&#21095;)? Don&#8217;t Judge AI by Its Tokens.&#8221; Three days earlier, Beijing News (&#26032;&#20140;&#25253;) had questioned whether &#8220;&#8216;American AI Boosts Productivity While Chinese AI Makes Tittytainment&#8217; Is a False Proposition.&#8221; All three state-affiliated outlets were responding to the same viral claim: that 55% of China&#8217;s AI tokens were being used for short dramas and video generation. The claim struck a nerve because AI-generated entertainment in China is both everywhere and widely despised. According to China&#8217;s broadcasting regulator, more than 90% of the roughly 430,000 micro-dramas released in the first eight months of 2026 were AI productions. Yet Chinese media and public figures routinely call them wunao (&#26080;&#33041;, braindead), cuzhi lanzao (&#31895;&#21046;&#28389;&#36896;, shoddily made), and zhili dixia (&#26234;&#21147;&#20302;&#19979;, intellectually deficient). 1 Why, in a society that places such a premium on productivity, has an industry devoted to manufacturing seemingly useless pleasure become so enormously popular? And what should we make of the shame attached to it? I argue that both answers lie in Chinese society&#8217;s obsession with usefulness, where technologies and people alike are judged by their productive value, so much so that resting can feel…",
+      "summary": "The 55% token myth, and China&#8217;s guilty pleasure",
       "regionTags": [],
       "metrics": {},
       "topics": [
         {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.81,
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
           "rationale": [
-            "benchmark",
-            "eval",
-            "evaluation"
+            "research"
           ],
-          "score": 3
+          "score": 1
         },
         {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
           "rationale": [
-            "developer",
-            "repo"
+            "video"
           ],
-          "score": 2
+          "score": 1
         },
         {
           "slug": "fine-tuning",
           "label": "Custom AI",
-          "confidence": 0.69,
+          "confidence": 0.5700000000000001,
           "rationale": [
-            "rl",
-            "distillation"
+            "rl"
           ],
-          "score": 2
+          "score": 1
         }
       ],
       "section": "Podcasts & Newsletters",
       "importanceScore": 0.4,
-      "noveltyScore": 0.3,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.36,
+      "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "6c13513c333ac64a",
+      "date": "2026-10-31",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Xi vs Trump on Corruption",
+      "url": "https://www.chinatalk.media/p/make-corruption-cringe-again",
+      "publishedAt": "2026-10-30T10:03:59.000Z",
+      "content": "In February, Eric and Donald Jr. sat down with a reporter to explain why Abu Dhabi paid $500m for a stake in World Liberty Financial. Don Jr. said, &#8220;They tried all this nonsense the first time around. Frankly, it&#8217;s gotten old&#8230;They created this monster.&#8221; The monster of political corruption has been with us since the founding. But since the Progressive Eva, it has been cut with at least a tinge of embarrassment. The Trumps instead have done it in broad daylight and tried to make it a flex. China&#8217;s political system is riddled with corruption on an entirely different scale. The skims in China happen up and down the system, and making a billion dollars while in office is nothing new for senior Chinese leaders. But Xi understands what this costs the Party. In his first Politburo speech as General Secretary, he warned that corruption, left to spread, would &#8220;doom the Party and the state.&#8221; Xi was horrified by seeing youth with bloodlines just as red as his crash foreign sports cars in the streets of Beijing. He views the princeling inheritance as a responsibility to serve, not a license to fuckboy. As Kamil Galeev writes , Xi aims to extirpate &#8220;the alien, unfamiliar, threatening bandit entrepreneurial culture &#8212; not even from the country but rather, from the national elites.&#8221; Xi is a believer, but Trump is a businessman. After Trump brought down the guardrails with a compliant SCOTUS and Congress, the presidential family has been sloppily revenue-maximizing ever since. 1 Xi&#8217;s anti-corruption campaign hasn&#8217;t liquidated corruption in China, which still lubricates a much higher percentage of economic activity than similar behavior does in America. But Xi has succeeded in making it dangerous. Making outside money in Xi&#8217;s China runs the risk of execution &#8212; far different stakes than embarrassing ProPublica articles revealing crimes that get pardoned away. Make corruption cringe again! At least Chin…",
+      "summary": "The Shame Gap",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "speech"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
       "whyThisMatters": ""
     },
     {
       "id": "00fc5b1e8f769c01",
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "ChinaTalk",
@@ -274,7 +374,7 @@
     },
     {
       "id": "b3264c5eb1e0e754",
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "ChinaTalk",
@@ -305,6 +405,61 @@
             "policy"
           ],
           "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "808c8fb33bcff67f",
+      "date": "2026-10-30",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
+      "url": "https://latent.space/p/opus55/",
+      "publishedAt": "2026-10-27T18:53:10.000Z",
+      "content": "Watch the full episode on YouTube As we learned from the Anthropic S-1 filings yesterday , the lab has some of the highest revenue and research efficiency in human history, particularly with -126% loss to 19% GAAP profit turnaround in the last year. The company credits this to their two core loops: Improvement and Investment: Today we go inside how Anthropic works. Now the dust has settled on Opus 5.5 and it has lasted a month as the generally accepted #1 LLM in the world, we dive into its launch, and how Anthropic ships Claude with Claude with Katelyn Lesse and Angela Jiang , heads of Engineering and Product respectively. The team is working under two kinds of pressure. The models are getting more capable, which makes safe deployment and access decisions harder. At the same time, usage is growing fast enough that ordinary infrastructure choices—like how much CPU an API consumes—become strategic. Those problems meet in the product choices that reach developers. A model launch is also an API launch Anthropic's Opus 5.5 launch emphasizes both model quality and cost. We discuss feedback that the previous Opus generations were be too verbose, alongside the need for stronger intelligence per dollar. Anthropic says the new model costs less to run than its predecessor; the exact saving depends on the workload and its use of cached context. The less visible launch work involves changes to how people integrate the API. One example we discuss is protecting model reasoning against extraction used for distillation. Preserving thinking blocks across turns helps address this, but a new requirement can also break a customer's existing harness. Katelyn also describes what being part of early access programs actually looks like in practice: Customers run evaluations in their own harnesses, report surprising behavior, and sometimes pass along less formal impressions. The useful part is not just a benchmark score: it is seeing the model in environments and tasks Anthropic's own produ…",
+      "summary": "Katelyn Lesse and Angela Jiang on Opus 5.5, the Claude Platform, and the engineering behind AI agents.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.81,
+          "rationale": [
+            "benchmark",
+            "eval",
+            "evaluation"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "developer",
+            "repo"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "rl",
+            "distillation"
+          ],
+          "score": 2
         }
       ],
       "section": "Podcasts & Newsletters",
@@ -2080,133 +2235,6 @@
       "importanceScore": 0.84,
       "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "26954bfe32b96872",
-      "date": "2026-10-20",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Preparing for the 2026 US midterms \\ Anthropic",
-      "url": "https://www.anthropic.com/news/2026-us-midterms",
-      "publishedAt": "2026-10-14T18:33:00.000Z",
-      "content": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.",
-      "summary": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "5e1d029c3f7596f4",
-      "date": "2026-10-19",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:thsottiaux",
-      "builderOrOrg": "Thibault Sottiaux",
-      "title": "My work dot \"Burger\" coordinated with my personal dot \"Dorito\" over email at my personal dots r…",
-      "url": "https://x.com/thsottiaux/status/2111495392559067199",
-      "publishedAt": "2026-10-17T16:31:45.000Z",
-      "content": "My work dot \"Burger\" coordinated with my personal dot \"Dorito\" over email at my personal dots request to get documents, which then coordinated with with my CPA in order to file some tax stuff. Took 20 minutes. We're still so early.",
-      "summary": "My work dot \"Burger\" coordinated with my personal dot \"Dorito\" over email at my personal dots request to get documents, which then coordinated with with my CPA in order to file some tax stuff. Took 20 minutes. We're sti…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 4351,
-        "retweets": 77,
-        "replies": 737
-      },
-      "topics": [
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "abf726ac4b9e87c9",
-      "date": "2026-10-19",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "The biggest misread of anyone predicting the end of software engineering was imagining that the…",
-      "url": "https://x.com/levie/status/2111525362446520466",
-      "publishedAt": "2026-10-17T18:30:51.000Z",
-      "content": "The biggest misread of anyone predicting the end of software engineering was imagining that the world only needed a certain amount of software, and bringing automation to the field would reduce the need for labor. Exactly the opposite is happening where essentially most things are actually turning into software. Because agents can use tools, work with computers, write software on the fly, and process data like humans (but far faster), we can now throw “software” at problems that never could rea…",
-      "summary": "The biggest misread of anyone predicting the end of software engineering was imagining that the world only needed a certain amount of software, and bringing automation to the field would reduce the need for labor. Exact…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 806,
-        "retweets": 92,
-        "replies": 116
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
       "digestScore": 0.65,
       "whyThisMatters": ""
     }
