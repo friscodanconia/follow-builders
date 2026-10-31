@@ -1,8 +1,513 @@
 {
-  "generatedAt": "2026-10-31T06:01:11.211Z",
+  "generatedAt": "2026-10-31T07:07:23.023Z",
   "slug": "coding",
   "label": "Coding",
   "items": [
+    {
+      "id": "4343ee0bada2bbb5",
+      "date": "2026-10-31",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:garrytan",
+      "builderOrOrg": "Garry Tan",
+      "title": "GBrain Cloud is the fastest way to get GBrain going across all your agents. Every harness has i…",
+      "url": "https://x.com/garrytan/status/2116303457774899251",
+      "publishedAt": "2026-10-30T22:57:18.000Z",
+      "content": "GBrain Cloud is the fastest way to get GBrain going across all your agents. Every harness has its strengths - Grok/Muse/Dots for personal, OpenClaw/Hermes for raw power, Claude Code/Codex/Capy for codegen GBrain lets you run your context on all of them https://t.co/liju9MjWoY",
+      "summary": "GBrain Cloud is the fastest way to get GBrain going across all your agents. Every harness has its strengths - Grok/Muse/Dots for personal, OpenClaw/Hermes for raw power, Claude Code/Codex/Capy for codegen GBrain lets yo…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 197,
+        "retweets": 8,
+        "replies": 74
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "f56f1c5e026b8625",
+      "date": "2026-10-31",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:zarazhangrui",
+      "builderOrOrg": "Zara Zhang",
+      "title": "Video editing was done with just 1 prompt (a very long one) by a coding agent",
+      "url": "https://x.com/zarazhangrui/status/2116283023415287932",
+      "publishedAt": "2026-10-30T21:36:06.000Z",
+      "content": "Video editing was done with just 1 prompt (a very long one) by a coding agent",
+      "summary": "Video editing was done with just 1 prompt (a very long one) by a coding agent",
+      "regionTags": [],
+      "metrics": {
+        "likes": 13,
+        "retweets": 0,
+        "replies": 4
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "video"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.73,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.82,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "1e676fd6cae438ab",
+      "date": "2026-10-31",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "No Priors",
+      "sourceKey": "podcast:No Priors",
+      "builderOrOrg": "No Priors",
+      "title": "Taking on ServiceNow: Coding Agents the Rest of Us with Serval Co-Founder and CEO Jake Stauch",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "publishedAt": "2026-10-29T10:00:00.000Z",
+      "content": "Speaker 1 | 00:00 - 00:09 This is the ultimate moonshot in enterprise software. These agents that go off and do work for you and magically discover all your problems and solve all your problems. And I think no one's really figured out how to do this well. Speaker 2 | 00:09 - 00:13 This is kind of the OpenAI hugging face incidents or other things where agents are given a task and then Speaker 1 | 00:13 - 00:28 they do something that's unexpected. The agent becomes pretty competent. They could theoretically just start writing code that could take action on all your systems, and that is an unbounded security risk that I don't think anyone's gonna be able to take anytime soon. On the one hand, you want these to be very autonomous without somebody babysitting babysitting them. Them. Speaker 1 | 00:28 - 00:40 On the other hand, autonomy is very scary in the enterprise. Serval is the boundary. Serval is the guardrails. We are the way that a large enterprise with a lot of rules and approvals and process and politics can adopt these tools safely and comfortably at scale. Speaker 3 | 00:48 - 01:08 Hi, listeners. Welcome back to No Priors. Today, Elad and I are here with Jake Stouch, cofounder and CEO of Serval. Serval, with all the speed of the African wildcat, is trying to attack ServiceNow and more broadly bringing the power of cogeneration to IT and enterprise teams overall. Welcome, Jake. Speaker 2 | 01:08 - 01:10 Jake, thanks for joining us today on Enterprise. Speaker 1 | 01:10 - 01:13 Thank you. Great to be here. Maybe you could tell us a Speaker 2 | 01:13 - 01:18 little bit more about your history and how you started Serval, and what what is the problem that you started with, or why did start working on this to begin with? Speaker 1 | 01:18 - 01:31 Yeah. So background, Serval is enterprise automation, enterprise service management. The idea is you can ask questions and get help at work and automate a lot of the parts of the job you don't enjoy, and we do that through cogen agents. So that's the... What the company does. Speaker 1 | 01:31 - 02:04 We compete with companies like ServiceNow, is historically the big legacy provider in the space. I discovered this category actually working at a previous company called Verkada, where we sold enterprise physical security products to IT teams, spent many, many years talking to IT teams, figuring out what to build for them. And one of the things I love to to do with these teams is ask them, what do you spend the most money on, and what do you hate the most? And ServiceNow would top a lot of those lists. And so I was always interested in this category of maybe there's a better solution here, but it wasn't clear for most of my time there how you'd ever beat ServiceNow. Speaker 1 | 02:04 - 02:10 They're a great company. They've done so much so well, and why would you be able to compete with them? Speaker 3 | 02:10 - 02:12 What was frustrating for users about it? Speaker 1 | 02:13 - 02:49 I think so hard to build in the platform. So it's a very robust, customizable, powerful platform that can map to all these enterprise workflows fundamentally. It's a workflow automation platform, and so it can do so much, but every idea you have for doing something cool, you have to go and implement, and a lot times you're bringing consultants to implement it. So it's always kind of running six to twelve months behind where you want it to be, and it's fine if you're building something that's gonna last five, ten years, like a big onboarding flow, and nothing about your business is gonna change, so you can invest all that upfront effort, and then it gets deployed, and it works for a while. But for just trying to keep up with all the automation that you wanna build, ServiceNow is not able to catch up. Speaker 1 | 02:49 - 02:59 And and then it's very expensive, and it keeps getting more expensive over time, so that frustration of it's not keeping up with where I wanna go as a business, and it keeps getting mor…",
+      "summary": "Speaker 1 | 00:00 - 00:09 This is the ultimate moonshot in enterprise software. These agents that go off and do work for you and magically discover all your problems and solve all your problems. And I think no one's really figured out how…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "autonomous"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.69,
+          "rationale": [
+            "enterprise",
+            "security"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.74,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.59,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "cf1479b172c195eb",
+      "date": "2026-10-31",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Community safety report and new protections for teens",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "publishedAt": "2026-10-30T09:00:00.000Z",
+      "content": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+      "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "17ed2bfccc015a0c",
+      "date": "2026-10-31",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "Auto repair for Together GPU Clusters: from GPU fault to healthy node",
+      "url": "https://www.together.ai/blog/auto-repair-for-together-gpu-clusters",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "content": "Together GPU Clusters auto repair detects GPU, host and fabric faults, picks the lightest fix, and lets you decide per fault and per Xid code which repairs run automatically. Here is how it works.",
+      "summary": "Together GPU Clusters auto repair detects GPU, host and fabric faults, picks the lightest fix, and lets you decide per fault and per Xid code which repairs run automatically. Here is how it works.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "07b1339578ea4c44",
+      "date": "2026-10-31",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "Mistral Large 4 (Le Chonk) is now open weight | Mistral",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "publishedAt": "2026-10-29T12:00:07.000Z",
+      "content": "The weights of Mistral Large 4 (Le Chonk) are now open. A 1T parameter multimodal model, and best open-weight model for coding, trained in Europe.",
+      "summary": "The weights of Mistral Large 4 (Le Chonk) are now open. A 1T parameter multimodal model, and best open-weight model for coding, trained in Europe.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "weights"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "multimodal"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "0be060b8ff967baa",
+      "date": "2026-10-31",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Building AIE CODE: The top Coding Agent Conference",
+      "url": "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference/",
+      "publishedAt": "2026-10-30T08:24:29.000Z",
+      "content": "It’s a quiet day, so as we have done once per conference, we’ll do a behind the scenes look at AI Engineer , now serving 6M views a month for 1.8M monthly unique viewers . CODE is the last flagship AIE of the year (there are also 2 partner conferences coming up - AIEi Shanghai takes place next week, and AIEi Sydney is a side event of NeurIPS in December). As a Summit it is meant to be more intimate: single track, invite-only for the top 1000 agentic engineers in the world (over 100k tuned into our Software Factories track at WF26 ). My goal in curating AIE CODE is to try to recap the top themes of 2026 in code and gather the leaders of the industry to preview what’s next in 2027. Last year we had some absolute bangers building Skills and Software Factories , predicting the death of the IDE and of course the launch of Antigravity and Nano Banana Pro. We have three themes this year: Scaling without Slop : Last year’s call for No More Slop has resulted in lots of discussions about managing it this year, including the rise and fall of Tokenmaxxing . Our Scaling without Slop approach has mostly worked; we need more. System One models : We believe S1 “smart software” is the largest change to AI Engineering that refreshingly explores the opposite direction to ever larger and more expensive and questionably productive swarms of coding agent FactoryFactoryFactories. While Diogo took pains to explain the difference between Decision Models and System One models on our podcast and his WF26 talk , it has largely been lost to the broader audience. Diogo and team TypeSafe are back for a mini “Jev Day” to show how System One models are truly being used by their top users. Increasing Ambition: This year we also saw increasingly ambitious rewrites of some of the hardest categories of software, from browsers to Adobe PhotoShop Suite to mid-tier B2B SaaS . We’re excited to feature Jarred Sumner who will start from the rewrite of Bun in Rust and preview Bun AOT, new compiler features n…",
+      "summary": "Mistral’s open-weight release, frontier monitoring, and the day’s AI Twitter and Reddit recaps.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "serving"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "be4f9e41ceb1f37e",
+      "date": "2026-10-31",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
+      "url": "https://latent.space/p/ainews-gemini-4-carbon/",
+      "publishedAt": "2026-10-29T05:55:19.000Z",
+      "content": "It’s a good thing we published our Opus 5.5 podcast calling it the world’s best model before today’s launch. In a very pleasant surprise, Gemini announced Carbon , a newer frontier model than the 3 week old Argon , with fantastic benchmarks: Taking it to the new #1 on the Artificial Analysis consolidated benchmark, putting GDM in the lead for possibly the first time in AAII history: View post on X ↗ sd AI News for 10/27/2026-10/28/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Gemini 4 Carbon Tops Independent Leaderboards, with Access Limited to Cyber Defenders Launch : Google DeepMind announced Gemini 4 Carbon two weeks after Argon. It is positioned as state of the art on cybersecurity and long-horizon tasks ( @sundarpichai , @GoogleDeepMind ). Claimed cyber results : 88.2% on SEC-bench Pro for vulnerability finding, 54.8% on ExploitGym for exploitation and 71.0% on CWE-bench for patching ( @sundarpichai ). Availability : Carbon first goes to trusted cyber defenders through the Fairwind Program, with wider developer access promised \"as soon as possible\" ( @GoogleAI ). Pricing : Phil Schmid quotes $2/$10 per million input/output tokens with an asterisk ( @_philschmid ). Artificial Analysis lists $4/$20 standard pricing with a 50% launch discount that has no end date. Cached input costs $0.20 per million tokens ( @ArtificialAnlys ). Specs : The model has a 1M-token context window and 1M max output. Inputs are text, image, video and speech; output is text ( @ValsAI ). Safety claims (Google) : Successful cheating on Terminal-Bench 4.0 fell to 0.0%, and cheating attempts fell to 0.4%. Unsupported claims are down about 2x versus Argon. Overreach fell 26% and under-service fell 29% ( @OfficialLoganK ). Artificial Analysis : Carbon is #1 on Intelligence Index v5 with a score of 59. It lea…",
+      "summary": "Google’s new frontier model leads independent evals, with access initially limited to trusted defenders.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "developer",
+            "terminal-bench"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "image",
+            "video"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "benchmark",
+            "leaderboard"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "4c84350dcc40d710",
+      "date": "2026-10-31",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Why Agents Love Supabase",
+      "url": "https://latent.space/p/supabase/",
+      "publishedAt": "2026-10-28T19:48:05.000Z",
+      "content": "I first met Paul Copplestone and Ant Wilson in Singapore, shortly after they finished YC as the hottest startup of YC S20 . Six years later, we finally got them on the podcast! This is their first podcast together, after taking an open-source, fully remote company from zero to a $10 billion valuation. The title is a question I wanted to understand for myself: why do agents love Supabase? There are plenty of managed databases. Postgres hosting is competitive. Being familiar to a model is useful distribution, but it doesn't explain all the work needed to turn a generated application into something that runs. But when I ran my frontier AEO tracker , it was an almost complete sweep of first choice for app backends (and in contention for managed db ) for every frontier model from Astra to Fable to Muse. At Select, Supabase grouped its announcements into Build, Operate and Scale. The things that stood out to me were surprisingly practical: start a local backend without Docker, keep the desired database schema in Git, and run compute beside the database. Each removes a piece of work that developers have been doing for years. Agents make that friction harder to ignore. Watch the full conversation, including my opening commentary → Give the agent a backend it can read My favorite developer-tool announcements make me think: of course I want this today. The new alpha runtime for running Supabase locally without Docker is one of those. I use Colima rather than Docker Desktop, and even then, removing another dependency from the path to a working database is welcome. Local setup is a small part of a human developer's week; an agent that repeatedly creates and tests environments encounters it over and over. Declarative schemas are the bigger idea. The familiar SQL workflow accumulates a history: create the schema, then migrate, migrate, migrate. A declarative representation gives the agent a description of the state you want, in files it can inspect and edit alongside the applica…",
+      "summary": "Paul Copplestone and Ant Wilson on building the backend for AI agents",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "developer"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open-source"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "6c13513c333ac64a",
+      "date": "2026-10-31",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Xi vs Trump on Corruption",
+      "url": "https://www.chinatalk.media/p/make-corruption-cringe-again",
+      "publishedAt": "2026-10-30T10:03:59.000Z",
+      "content": "In February, Eric and Donald Jr. sat down with a reporter to explain why Abu Dhabi paid $500m for a stake in World Liberty Financial. Don Jr. said, &#8220;They tried all this nonsense the first time around. Frankly, it&#8217;s gotten old&#8230;They created this monster.&#8221; The monster of political corruption has been with us since the founding. But since the Progressive Eva, it has been cut with at least a tinge of embarrassment. The Trumps instead have done it in broad daylight and tried to make it a flex. China&#8217;s political system is riddled with corruption on an entirely different scale. The skims in China happen up and down the system, and making a billion dollars while in office is nothing new for senior Chinese leaders. But Xi understands what this costs the Party. In his first Politburo speech as General Secretary, he warned that corruption, left to spread, would &#8220;doom the Party and the state.&#8221; Xi was horrified by seeing youth with bloodlines just as red as his crash foreign sports cars in the streets of Beijing. He views the princeling inheritance as a responsibility to serve, not a license to fuckboy. As Kamil Galeev writes , Xi aims to extirpate &#8220;the alien, unfamiliar, threatening bandit entrepreneurial culture &#8212; not even from the country but rather, from the national elites.&#8221; Xi is a believer, but Trump is a businessman. After Trump brought down the guardrails with a compliant SCOTUS and Congress, the presidential family has been sloppily revenue-maximizing ever since. 1 Xi&#8217;s anti-corruption campaign hasn&#8217;t liquidated corruption in China, which still lubricates a much higher percentage of economic activity than similar behavior does in America. But Xi has succeeded in making it dangerous. Making outside money in Xi&#8217;s China runs the risk of execution &#8212; far different stakes than embarrassing ProPublica articles revealing crimes that get pardoned away. Make corruption cringe again! At least Chin…",
+      "summary": "The Shame Gap",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "repo"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "speech"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
     {
       "id": "d63b7256bdb1f01c",
       "date": "2026-10-31",
@@ -320,356 +825,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "cf1479b172c195eb",
-      "date": "2026-10-31",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Community safety report and new protections for teens",
-      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
-      "publishedAt": "2026-10-30T09:00:00.000Z",
-      "content": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
-      "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "17ed2bfccc015a0c",
-      "date": "2026-10-31",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Together AI Blog",
-      "sourceKey": "official:Together AI Blog",
-      "builderOrOrg": "Together AI",
-      "title": "Auto repair for Together GPU Clusters: from GPU fault to healthy node",
-      "url": "https://www.together.ai/blog/auto-repair-for-together-gpu-clusters",
-      "publishedAt": "2026-10-27T00:00:00.000Z",
-      "content": "Together GPU Clusters auto repair detects GPU, host and fabric faults, picks the lightest fix, and lets you decide per fault and per Xid code which repairs run automatically. Here is how it works.",
-      "summary": "Together GPU Clusters auto repair detects GPU, host and fabric faults, picks the lightest fix, and lets you decide per fault and per Xid code which repairs run automatically. Here is how it works.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "07b1339578ea4c44",
-      "date": "2026-10-31",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Mistral AI Blog",
-      "sourceKey": "official:Mistral AI Blog",
-      "builderOrOrg": "Mistral AI",
-      "title": "Mistral Large 4 (Le Chonk) is now open weight | Mistral",
-      "url": "https://mistral.ai/news/mistral-large-4-oss/",
-      "publishedAt": "2026-10-29T12:00:07.000Z",
-      "content": "The weights of Mistral Large 4 (Le Chonk) are now open. A 1T parameter multimodal model, and best open-weight model for coding, trained in Europe.",
-      "summary": "The weights of Mistral Large 4 (Le Chonk) are now open. A 1T parameter multimodal model, and best open-weight model for coding, trained in Europe.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "weights"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "multimodal"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "0be060b8ff967baa",
-      "date": "2026-10-31",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Building AIE CODE: The top Coding Agent Conference",
-      "url": "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference/",
-      "publishedAt": "2026-10-30T08:24:29.000Z",
-      "content": "It’s a quiet day, so as we have done once per conference, we’ll do a behind the scenes look at AI Engineer , now serving 6M views a month for 1.8M monthly unique viewers . CODE is the last flagship AIE of the year (there are also 2 partner conferences coming up - AIEi Shanghai takes place next week, and AIEi Sydney is a side event of NeurIPS in December). As a Summit it is meant to be more intimate: single track, invite-only for the top 1000 agentic engineers in the world (over 100k tuned into our Software Factories track at WF26 ). My goal in curating AIE CODE is to try to recap the top themes of 2026 in code and gather the leaders of the industry to preview what’s next in 2027. Last year we had some absolute bangers building Skills and Software Factories , predicting the death of the IDE and of course the launch of Antigravity and Nano Banana Pro. We have three themes this year: Scaling without Slop : Last year’s call for No More Slop has resulted in lots of discussions about managing it this year, including the rise and fall of Tokenmaxxing . Our Scaling without Slop approach has mostly worked; we need more. System One models : We believe S1 “smart software” is the largest change to AI Engineering that refreshingly explores the opposite direction to ever larger and more expensive and questionably productive swarms of coding agent FactoryFactoryFactories. While Diogo took pains to explain the difference between Decision Models and System One models on our podcast and his WF26 talk , it has largely been lost to the broader audience. Diogo and team TypeSafe are back for a mini “Jev Day” to show how System One models are truly being used by their top users. Increasing Ambition: This year we also saw increasingly ambitious rewrites of some of the hardest categories of software, from browsers to Adobe PhotoShop Suite to mid-tier B2B SaaS . We’re excited to feature Jarred Sumner who will start from the rewrite of Bun in Rust and preview Bun AOT, new compiler features n…",
-      "summary": "Mistral’s open-weight release, frontier monitoring, and the day’s AI Twitter and Reddit recaps.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "serving"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "be4f9e41ceb1f37e",
-      "date": "2026-10-31",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
-      "url": "https://latent.space/p/ainews-gemini-4-carbon/",
-      "publishedAt": "2026-10-29T05:55:19.000Z",
-      "content": "It’s a good thing we published our Opus 5.5 podcast calling it the world’s best model before today’s launch. In a very pleasant surprise, Gemini announced Carbon , a newer frontier model than the 3 week old Argon , with fantastic benchmarks: Taking it to the new #1 on the Artificial Analysis consolidated benchmark, putting GDM in the lead for possibly the first time in AAII history: View post on X ↗ sd AI News for 10/27/2026-10/28/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Gemini 4 Carbon Tops Independent Leaderboards, with Access Limited to Cyber Defenders Launch : Google DeepMind announced Gemini 4 Carbon two weeks after Argon. It is positioned as state of the art on cybersecurity and long-horizon tasks ( @sundarpichai , @GoogleDeepMind ). Claimed cyber results : 88.2% on SEC-bench Pro for vulnerability finding, 54.8% on ExploitGym for exploitation and 71.0% on CWE-bench for patching ( @sundarpichai ). Availability : Carbon first goes to trusted cyber defenders through the Fairwind Program, with wider developer access promised \"as soon as possible\" ( @GoogleAI ). Pricing : Phil Schmid quotes $2/$10 per million input/output tokens with an asterisk ( @_philschmid ). Artificial Analysis lists $4/$20 standard pricing with a 50% launch discount that has no end date. Cached input costs $0.20 per million tokens ( @ArtificialAnlys ). Specs : The model has a 1M-token context window and 1M max output. Inputs are text, image, video and speech; output is text ( @ValsAI ). Safety claims (Google) : Successful cheating on Terminal-Bench 4.0 fell to 0.0%, and cheating attempts fell to 0.4%. Unsupported claims are down about 2x versus Argon. Overreach fell 26% and under-service fell 29% ( @OfficialLoganK ). Artificial Analysis : Carbon is #1 on Intelligence Index v5 with a score of 59. It lea…",
-      "summary": "Google’s new frontier model leads independent evals, with access initially limited to trusted defenders.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "developer",
-            "terminal-bench"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.69,
-          "rationale": [
-            "image",
-            "video"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "benchmark",
-            "leaderboard"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4c84350dcc40d710",
-      "date": "2026-10-31",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "Why Agents Love Supabase",
-      "url": "https://latent.space/p/supabase/",
-      "publishedAt": "2026-10-28T19:48:05.000Z",
-      "content": "I first met Paul Copplestone and Ant Wilson in Singapore, shortly after they finished YC as the hottest startup of YC S20 . Six years later, we finally got them on the podcast! This is their first podcast together, after taking an open-source, fully remote company from zero to a $10 billion valuation. The title is a question I wanted to understand for myself: why do agents love Supabase? There are plenty of managed databases. Postgres hosting is competitive. Being familiar to a model is useful distribution, but it doesn't explain all the work needed to turn a generated application into something that runs. But when I ran my frontier AEO tracker , it was an almost complete sweep of first choice for app backends (and in contention for managed db ) for every frontier model from Astra to Fable to Muse. At Select, Supabase grouped its announcements into Build, Operate and Scale. The things that stood out to me were surprisingly practical: start a local backend without Docker, keep the desired database schema in Git, and run compute beside the database. Each removes a piece of work that developers have been doing for years. Agents make that friction harder to ignore. Watch the full conversation, including my opening commentary → Give the agent a backend it can read My favorite developer-tool announcements make me think: of course I want this today. The new alpha runtime for running Supabase locally without Docker is one of those. I use Colima rather than Docker Desktop, and even then, removing another dependency from the path to a working database is welcome. Local setup is a small part of a human developer's week; an agent that repeatedly creates and tests environments encounters it over and over. Declarative schemas are the bigger idea. The familiar SQL workflow accumulates a history: create the schema, then migrate, migrate, migrate. A declarative representation gives the agent a description of the state you want, in files it can inspect and edit alongside the applica…",
-      "summary": "Paul Copplestone and Ant Wilson on building the backend for AI agents",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "developer"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open-source"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "6c13513c333ac64a",
-      "date": "2026-10-31",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Xi vs Trump on Corruption",
-      "url": "https://www.chinatalk.media/p/make-corruption-cringe-again",
-      "publishedAt": "2026-10-30T10:03:59.000Z",
-      "content": "In February, Eric and Donald Jr. sat down with a reporter to explain why Abu Dhabi paid $500m for a stake in World Liberty Financial. Don Jr. said, &#8220;They tried all this nonsense the first time around. Frankly, it&#8217;s gotten old&#8230;They created this monster.&#8221; The monster of political corruption has been with us since the founding. But since the Progressive Eva, it has been cut with at least a tinge of embarrassment. The Trumps instead have done it in broad daylight and tried to make it a flex. China&#8217;s political system is riddled with corruption on an entirely different scale. The skims in China happen up and down the system, and making a billion dollars while in office is nothing new for senior Chinese leaders. But Xi understands what this costs the Party. In his first Politburo speech as General Secretary, he warned that corruption, left to spread, would &#8220;doom the Party and the state.&#8221; Xi was horrified by seeing youth with bloodlines just as red as his crash foreign sports cars in the streets of Beijing. He views the princeling inheritance as a responsibility to serve, not a license to fuckboy. As Kamil Galeev writes , Xi aims to extirpate &#8220;the alien, unfamiliar, threatening bandit entrepreneurial culture &#8212; not even from the country but rather, from the national elites.&#8221; Xi is a believer, but Trump is a businessman. After Trump brought down the guardrails with a compliant SCOTUS and Congress, the presidential family has been sloppily revenue-maximizing ever since. 1 Xi&#8217;s anti-corruption campaign hasn&#8217;t liquidated corruption in China, which still lubricates a much higher percentage of economic activity than similar behavior does in America. But Xi has succeeded in making it dangerous. Making outside money in Xi&#8217;s China runs the risk of execution &#8212; far different stakes than embarrassing ProPublica articles revealing crimes that get pardoned away. Make corruption cringe again! At least Chin…",
-      "summary": "The Shame Gap",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "voice",
-          "label": "Voice",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "speech"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -2179,144 +2334,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.61,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "df7fad06d3995608",
-      "date": "2026-10-25",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:thsottiaux",
-      "builderOrOrg": "Thibault Sottiaux",
-      "title": "Day 19/ Small updates. Calls connect much faster for dots, changing reasoning in codex & work m…",
-      "url": "https://x.com/thsottiaux/status/2113770573994299544",
-      "publishedAt": "2026-10-23T23:12:31.000Z",
-      "content": "Day 19/ Small updates. Calls connect much faster for dots, changing reasoning in codex & work mid conversation does not invalidate cache anymore and a we've also updated the codex cli.",
-      "summary": "Day 19/ Small updates. Calls connect much faster for dots, changing reasoning in codex & work mid conversation does not invalidate cache anymore and a we've also updated the codex cli.",
-      "regionTags": [],
-      "metrics": {
-        "likes": 6132,
-        "retweets": 176,
-        "replies": 983
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "reasoning",
-          "label": "AI Thinking",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "reasoning"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "138d3120f32273f7",
-      "date": "2026-10-25",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:trq212",
-      "builderOrOrg": "Thariq",
-      "title": "I’ve left Anthropic after more than a year of working on Claude Code and seeing it scale larger…",
-      "url": "https://x.com/trq212/status/2113844051938054167",
-      "publishedAt": "2026-10-24T04:04:29.000Z",
-      "content": "I’ve left Anthropic after more than a year of working on Claude Code and seeing it scale larger than I ever imagined. I have really loved working at Ant and believe deeply in the mission, and most of all, the idea of a race to the top. The idea that if we work hard and responsibly, we can raise the bar and inspire others to great outcomes. And if we all push each other to be better, things can be radically good. I will carry the spirit of this with me forever. My colleagues at Anthropic are the…",
-      "summary": "I’ve left Anthropic after more than a year of working on Claude Code and seeing it scale larger than I ever imagined. I have really loved working at Ant and believe deeply in the mission, and most of all, the idea of a…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 10516,
-        "retweets": 356,
-        "replies": 967
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "88f6689c5448aec2",
-      "date": "2026-10-25",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "Agent swarms for cyber defense is about to be one of the biggest categories in AI. We are going…",
-      "url": "https://x.com/levie/status/2113738768645808277",
-      "publishedAt": "2026-10-23T21:06:08.000Z",
-      "content": "Agent swarms for cyber defense is about to be one of the biggest categories in AI. We are going to have agents reviewing our code and infra, testing every permutation of risk, processing gobs of data, and more. Security is one of the best use-cases for swarms because it’s an obvious area where more compute in equals more value out. There’s a wide range of testing that people can never get around to - or at least quickly enough - that agents have no problem going after. Going to be a wild time i…",
-      "summary": "Agent swarms for cyber defense is about to be one of the biggest categories in AI. We are going to have agents reviewing our code and infra, testing every permutation of risk, processing gobs of data, and more. Security…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 358,
-        "retweets": 43,
-        "replies": 75
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.92,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.7,
       "whyThisMatters": ""
     }
   ]
