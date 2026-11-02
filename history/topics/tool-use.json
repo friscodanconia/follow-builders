@@ -1,8 +1,63 @@
 {
-  "generatedAt": "2026-10-30T06:06:48.894Z",
+  "generatedAt": "2026-11-02T07:47:40.759Z",
   "slug": "tool-use",
   "label": "AI Using Tools",
   "items": [
+    {
+      "id": "432d3fea54126fa8",
+      "date": "2026-11-02",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:karpathy",
+      "builderOrOrg": "Andrej Karpathy",
+      "title": "Weekend hack: HackerTube. I was annoyed with YouTube's recommendations so I had Claude filter d…",
+      "url": "https://x.com/karpathy/status/2116957135661945283",
+      "publishedAt": "2026-11-01T18:14:46.000Z",
+      "content": "Weekend hack: HackerTube. I was annoyed with YouTube's recommendations so I had Claude filter down 43M comments over 20 years of HN to 6,454 videos that keep being recommended. *Significantly* better viewing experience, ~2 hours with Opus 5.5: https://t.co/JIhXN7OSh1 - Excellent recs without any logins (state is kept in local browser session) - Thumbnail is a representative frame from middle of the video instead of the super duper A/B test hyper-optimized user uploads - Underlying data from the…",
+      "summary": "Weekend hack: HackerTube. I was annoyed with YouTube's recommendations so I had Claude filter down 43M comments over 20 years of HN to 6,454 videos that keep being recommended. *Significantly* better viewing experience,…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 36797,
+        "retweets": 3269,
+        "replies": 1497
+      },
+      "topics": [
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "video"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "browser"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
     {
       "id": "9f42a29fd9e26bbc",
       "date": "2026-10-30",
@@ -2367,43 +2422,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "e620f3e63fe6c6cc",
-      "date": "2026-09-13",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:danshipper",
-      "builderOrOrg": "Dan Shipper",
-      "title": "join the most ai pilled team on earth be at the center of the AI wave, with access to the new m…",
-      "url": "https://x.com/danshipper/status/2098476917448118321",
-      "publishedAt": "2026-09-11T18:20:59.000Z",
-      "content": "join the most ai pilled team on earth be at the center of the AI wave, with access to the new models, tools, and teams that matter do the best writing of your life: https://t.co/PDmrEAt4Yk",
-      "summary": "join the most ai pilled team on earth be at the center of the AI wave, with access to the new models, tools, and teams that matter do the best writing of your life: https://t.co/PDmrEAt4Yk",
-      "regionTags": [],
-      "metrics": {
-        "likes": 47,
-        "retweets": 4,
-        "replies": 5
-      },
-      "topics": [
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]
