@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-04T07:37:01.204Z",
+  "generatedAt": "2026-11-05T00:30:58.379Z",
   "slug": "open-source",
   "label": "Open Source",
   "items": [
     {
       "id": "ee29e68d10507abc",
-      "date": "2026-11-04",
+      "date": "2026-11-05",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -55,13 +55,13 @@
       "section": "Builders",
       "importanceScore": 0.83,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.64,
       "whyThisMatters": ""
     },
     {
       "id": "07b1339578ea4c44",
-      "date": "2026-11-04",
+      "date": "2026-11-05",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Mistral AI Blog",
@@ -110,6 +110,60 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "110850e7892d98a2",
+      "date": "2026-11-05",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
+      "url": "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/",
+      "publishedAt": "2026-11-04T19:17:30.000Z",
+      "content": "There’s a lot of dispute to yesterday’s title story on “ Weight Space Programming ” — and we agree that some of the claims are presented in overly favorable light and overall took away from the impact of the paper’s more substantial discoveries. However it is still a big wakeup moment and has had multiple independent replications by now that it is not worth either doing some kind of retraction or a followup title story saying it was bogus. Instead today we’re featuring AI Engineer Shanghai and also sharing an exclusive interview on the history of Latent Space ! AI News for 11/02/2026-11/03/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Weight-Space Programming: Frontier Models Reading and Writing Neural Network Weights Core claim and replications : Several groups report that frontier LLMs can generate or edit small networks' weights directly, without gradient training or tools. Cross-generation replication : Alex Krentsel's replication of MIT's experiment found a sharp capability jump across model generations; the latest models generated Breakout networks scoring up to 22× an RL-trained baseline ( summary ). Hugging Face reproduction : Hugging Face reproduced the paper with ML Intern, its open-source AI-research harness, and released the model and a demo ( NielsRogge ). Hand-written classifier : A user had Fable hand-write a 100K-parameter network that classifies real versus fake legal citations, reportedly outperforming a trained version ( jacsebl ). Legora's CTO highlighted the result ( mstockton ). Astra's Qwen edit, reconstructed : GPT-6 Astra edited 131,072 weights in Qwen3.5-0.8B without backprop, raising MATH-500 from 7.9% to 48.1%. A Zhihu reconstruction from the logs shows the gain is narrower than the headline ( ZhihuFrontier ): Failure mode : 576 of 579 repaired answers…",
+      "summary": "November 3, 2026 — A quiet day lets us share some behind the senes.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "repo",
+            "programming"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.69,
+          "rationale": [
+            "open-source",
+            "weights"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "paper"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
       "whyThisMatters": ""
     },
     {
@@ -2358,58 +2412,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.7,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "48764142a167abb4",
-      "date": "2026-09-14",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)",
-      "url": "https://www.latent.space/p/aeo",
-      "publishedAt": "2026-09-07T21:32:37.000Z",
-      "content": "Naive autoresearch investment in our AEO have yielded impressive ROI, and so naturally it was time to take it seriously. We were inspired by What Claude Code Actually Chooses , and decided to extend/adjust it to our tastes. After a few billion tokens of prototyping, aligning, and scaling pipelines, here&#8217;s the Latent Space Frontier AEO tracker . Our methodology extends AmplifyingAI&#8217;s to run 6 prompt variations over 7 models 1 (search on) in 161 categories , from coding agents to AI podcasts to AI Sandboxes to Managed Databases to ASR models to even oddball categories like Angel investors and Corporate spend and Payroll software . Answer extraction was done by Astra, and scored for a proprietary AEO score that gives weight to first choices, alternative choices , mentions , but also negative weights to mild and strong anti-recommendations (which are rare, but do happen). Because we know you&#8217;ll want it, we also extracted the top cited sources which influence Agent recommendations, as well as an analysis of top failures . Basic Results Here are the most dominant products (in their categories) in the world: There are some familiar names in there &#8212; opening up the natural question of contamination, which we have checked. Since we have nothing to hide, every prompt and answer pair is inspectable. However, bias does exist - when models are asked for coding agent recommendations, Fable/Opus like Claude Code and Sol/Astra like Codex and Grok loves Cursor and Muse loves Muse Code and SWE-1.7 loves Devin and so on. I wonder why. You can see other &#8220; soft biases &#8221; emerge too&#8230; That said there are notable examples of GPT models recommending Claude, a laudable nonbias: There are 28 categories (out of our total 161) which have a universally dominant primary choice - among all surveyed frontier models. There are a lot more &#8220;close contests&#8221; and &#8220;always the vibesmaid, never the vibe&#8221; categories which should be key AEO batt…",
-      "summary": "Our first Astra project dives into AEO trends, a top asked topic from founders and DX leaders we talk to.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "weights"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     }
   ]
