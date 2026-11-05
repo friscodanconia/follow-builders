@@ -1,50 +1,8 @@
 {
-  "generatedAt": "2026-11-05T00:30:58.379Z",
+  "generatedAt": "2026-11-05T07:06:11.734Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
-    {
-      "id": "9c99f90aac653b6b",
-      "date": "2026-11-05",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "Unsupervised Learning",
-      "sourceKey": "podcast:Unsupervised Learning",
-      "builderOrOrg": "Unsupervised Learning",
-      "title": "Ep 96: Nebius CTO on Racing the Hyperscalers Before AWS Wakes Up",
-      "url": "https://www.youtube.com/@RedpointAI",
-      "publishedAt": "2026-11-02T13:54:35.000Z",
-      "content": "Speaker 1 | 00:00 - 00:15 If NVIDIA could have bought... Like, could have produced, like, 10 x the chips, this whole market would have been shaped differently. Yeah. Because there is not enough capacity for their scale, this is a relatively small business for them. For the hyperscalers, it's not just a matter of, like, sales. Speaker 1 | 00:15 - 00:29 It's also a matter of changing the infrastructure that was built at scale for other kinds of workloads. This is a massive investment on their part that needs to be justified by the size of a potential business, and it's not that there yet. Speaker 2 | 00:33 - 01:08 The emergence of Nebius and the other hyperscaler competitors these past years has been a fascinating part of the AI story. It's something I've really been interested in, and so it was a lot of fun to have Nebius' CTO, Neela, on the podcast because we're able to dig into a bunch of interesting things about the business and how the space has unfolded. We talked about Nebius' really interesting origin story and the original relationship with Yandex and how the company came to be. We talked about what it's like to be inside one of these companies, how Nebius works, you know, with NVIDIA, what it looks like to get their next generation of chips live. We talked about why the opportunity actually existed and why AWS, GCP, Azure, didn't just capture this entire market. Speaker 2 | 01:09 - 01:30 We also talked about Danila's view on a bunch of new technologies like Disag, Inference, among other things. All in all, just awesome to get to talk with someone who's at the epicenter of the AI infrastructure market about his thoughts on everything about where the space is headed. I think folks will really enjoy it. Without further ado, here he is. I guess I'd love to talk just maybe about the broader, like, AI cloud market, you know, today. Speaker 2 | 01:30 - 01:48 And I think that there's a few maybe larger and prominent public, you know, I guess, neo clouds. And then, you know, it feels like there's a new one getting funded every day. I know you don't like that term. But maybe just talk a little bit about how you think about what differentiates... Like, some of our listeners are probably thinking like, you know, all that really matters is just access to GPUs and like, you know, you... Speaker 2 | 01:48 - 01:54 Wherever you can get them, you go. Maybe maybe use that as a straw man and and tell us why that's not the case. Speaker 1 | 01:54 - 02:27 Well, I'm obviously biased. Because like, first of all, I'm a software person. And our product and business was launched on the idea that software is the moat. Right? So your ability to serve the customers that consume, I don't know, tens of thousands GPUs, of GPUs, and then one interconnected cluster with the same platform as you serve, like a self-service customer that runs one GPU for half an hour, was our value prop from the very beginning. Speaker 1 | 02:27 - 02:52 So we believe that this is extremely important. Being able to build large scale, but have the possibility almost like sell it in retail in a sense. This is what we think like definitely differentiates us from the market, from everyone on the market. Like a small remark, Neo Clouds. Hate that term, like with a passion. Speaker 1 | 02:52 - 03:16 Because like, it started as a distinction, as in these are kind of cloud companies that are doing this weird, strange new thing. But then everyone wants it in that market. So like, when we started, there were like, I don't know, five, seven companies that were in this area that were called NeoClouds. Now I think it's closer to, like, three to 500. Speaker 2 | 03:16 - 03:16 Yeah. Speaker 1 | 03:16 - 03:31 Depending on what you even are ready to call a Neo Cloud to the scale. And we we really don't like this stretched umbrella term anymore. We are the AI Cloud. We don't care. Like, let others... Speaker 1 | 03:31 - 03:48 Other guys beat Neo Clouds. We are the AI Cloud, And this is our…",
-      "summary": "Speaker 1 | 00:00 - 00:15 If NVIDIA could have bought... Like, could have produced, like, 10 x the chips, this whole market would have been shaped differently. Yeah. Because there is not enough capacity for their scale, this is a relativel…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "sales"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.6,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.49,
-      "whyThisMatters": ""
-    },
     {
       "id": "f73cb4284d56e2cb",
       "date": "2026-11-05",
@@ -85,9 +43,9 @@
       ],
       "section": "Official Sources",
       "importanceScore": 0.72,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.82,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
       "whyThisMatters": ""
     },
     {
@@ -129,9 +87,51 @@
       ],
       "section": "Official Sources",
       "importanceScore": 0.72,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.82,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "9c99f90aac653b6b",
+      "date": "2026-11-05",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "Unsupervised Learning",
+      "sourceKey": "podcast:Unsupervised Learning",
+      "builderOrOrg": "Unsupervised Learning",
+      "title": "Ep 96: Nebius CTO on Racing the Hyperscalers Before AWS Wakes Up",
+      "url": "https://www.youtube.com/@RedpointAI",
+      "publishedAt": "2026-11-02T13:54:35.000Z",
+      "content": "Speaker 1 | 00:00 - 00:15 If NVIDIA could have bought... Like, could have produced, like, 10 x the chips, this whole market would have been shaped differently. Yeah. Because there is not enough capacity for their scale, this is a relatively small business for them. For the hyperscalers, it's not just a matter of, like, sales. Speaker 1 | 00:15 - 00:29 It's also a matter of changing the infrastructure that was built at scale for other kinds of workloads. This is a massive investment on their part that needs to be justified by the size of a potential business, and it's not that there yet. Speaker 2 | 00:33 - 01:08 The emergence of Nebius and the other hyperscaler competitors these past years has been a fascinating part of the AI story. It's something I've really been interested in, and so it was a lot of fun to have Nebius' CTO, Neela, on the podcast because we're able to dig into a bunch of interesting things about the business and how the space has unfolded. We talked about Nebius' really interesting origin story and the original relationship with Yandex and how the company came to be. We talked about what it's like to be inside one of these companies, how Nebius works, you know, with NVIDIA, what it looks like to get their next generation of chips live. We talked about why the opportunity actually existed and why AWS, GCP, Azure, didn't just capture this entire market. Speaker 2 | 01:09 - 01:30 We also talked about Danila's view on a bunch of new technologies like Disag, Inference, among other things. All in all, just awesome to get to talk with someone who's at the epicenter of the AI infrastructure market about his thoughts on everything about where the space is headed. I think folks will really enjoy it. Without further ado, here he is. I guess I'd love to talk just maybe about the broader, like, AI cloud market, you know, today. Speaker 2 | 01:30 - 01:48 And I think that there's a few maybe larger and prominent public, you know, I guess, neo clouds. And then, you know, it feels like there's a new one getting funded every day. I know you don't like that term. But maybe just talk a little bit about how you think about what differentiates... Like, some of our listeners are probably thinking like, you know, all that really matters is just access to GPUs and like, you know, you... Speaker 2 | 01:48 - 01:54 Wherever you can get them, you go. Maybe maybe use that as a straw man and and tell us why that's not the case. Speaker 1 | 01:54 - 02:27 Well, I'm obviously biased. Because like, first of all, I'm a software person. And our product and business was launched on the idea that software is the moat. Right? So your ability to serve the customers that consume, I don't know, tens of thousands GPUs, of GPUs, and then one interconnected cluster with the same platform as you serve, like a self-service customer that runs one GPU for half an hour, was our value prop from the very beginning. Speaker 1 | 02:27 - 02:52 So we believe that this is extremely important. Being able to build large scale, but have the possibility almost like sell it in retail in a sense. This is what we think like definitely differentiates us from the market, from everyone on the market. Like a small remark, Neo Clouds. Hate that term, like with a passion. Speaker 1 | 02:52 - 03:16 Because like, it started as a distinction, as in these are kind of cloud companies that are doing this weird, strange new thing. But then everyone wants it in that market. So like, when we started, there were like, I don't know, five, seven companies that were in this area that were called NeoClouds. Now I think it's closer to, like, three to 500. Speaker 2 | 03:16 - 03:16 Yeah. Speaker 1 | 03:16 - 03:31 Depending on what you even are ready to call a Neo Cloud to the scale. And we we really don't like this stretched umbrella term anymore. We are the AI Cloud. We don't care. Like, let others... Speaker 1 | 03:31 - 03:48 Other guys beat Neo Clouds. We are the AI Cloud, And this is our…",
+      "summary": "Speaker 1 | 00:00 - 00:15 If NVIDIA could have bought... Like, could have produced, like, 10 x the chips, this whole market would have been shaped differently. Yeah. Because there is not enough capacity for their scale, this is a relativel…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "sales"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.6,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.49,
       "whyThisMatters": ""
     },
     {
