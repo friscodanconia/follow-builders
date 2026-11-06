@@ -1,8 +1,115 @@
 {
-  "generatedAt": "2026-11-06T00:31:03.005Z",
+  "generatedAt": "2026-11-06T07:05:40.021Z",
   "slug": "research",
   "label": "Research",
   "items": [
+    {
+      "id": "6278895b457d4c27",
+      "date": "2026-11-06",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "We’re going to have 100X more agents in the enterprise working with our data and systems than e…",
+      "url": "https://x.com/levie/status/2118498574497665316",
+      "publishedAt": "2026-11-06T00:19:54.000Z",
+      "content": "We’re going to have 100X more agents in the enterprise working with our data and systems than even people do today. Every AI agent deployment comes down to how successfully they can get access to the critical context to make a decision, do research, or execute tasks. 90% of the data in an enterprise is unstructured data, which means this critical context is living inside of our documents, contracts, marketing assets, research materials, financial plans, design files, and more. Which means we ne…",
+      "summary": "We’re going to have 100X more agents in the enterprise working with our data and systems than even people do today. Every AI agent deployment comes down to how successfully they can get access to the critical context to…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 140,
+        "retweets": 18,
+        "replies": 56
+      },
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.69,
+          "rationale": [
+            "enterprise",
+            "deployment"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.92,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.95,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "447dfa41ec8f118d",
+      "date": "2026-11-06",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "Unsupervised Learning",
+      "sourceKey": "podcast:Unsupervised Learning",
+      "builderOrOrg": "Unsupervised Learning",
+      "title": "Ep 97: Jev Creator on Decision Models, Benchmark Fatigue & Why the Labs Missed It",
+      "url": "https://www.youtube.com/@RedpointAI",
+      "publishedAt": "2026-11-05T14:05:50.000Z",
+      "content": "Speaker 1 | 00:00 - 00:06 As you think about Anthropic, is that something you're optimistic on? It's like, hey. That's that's undervalued or something you're like, oh, I don't know what's gonna happen to that. Speaker 2 | 00:06 - 00:32 I get the sense that a lot of the expectations baked in are ones that are not just product level, but based on, like, misunderstandings of the future of AI and what it can do. So my guess is that because some people might be valuing, like, building god as basically infinite, there'll be some amount of miscalibration miscalibration there. And I think that, you know, like, the let them cure cancer is going to be like Marie Antoinette's, like, let them eat cake. Speaker 1 | 00:32 - 01:07 Jeb took the AI world by storm about a month ago, and I've been wanting to talk to Jogo, their CEO of TypeSave, for quite some time. So it was really fun to have him on the podcast. I think maybe even better, with with a month to reflect on everything that's happened because we talked about a ton of different things. It was really awesome to get Jogo's perspective on, you know, the shapes of problems that he still thinks need to be solved by AI models, how he thinks about pushing JEV models to be even better. It was also fun to get his thoughts on Anthropic's upcoming IPO, AI safety, a bunch of other topics. Speaker 1 | 01:07 - 01:23 I think folks will really enjoy hearing from him. Without further ado, here's Jojo. Well, I have really been looking forward to this. I think ever since your, like, viral launch, I I feel like the second that happened, I was like, I have to have you on the podcast. And so appreciate you making this happen. Speaker 1 | 01:23 - 01:53 I think actually, in many ways, more interesting that we're we're we're some weeks removed from it. Given that, like, the early the early results were not what you expected and maybe not as as as as strong as you were hoping, like, what gave you that kind of early confidence in this research direction of RLCD? Mean, I feel like you kind of alluded to it in the in the GPT three, you know, example. Like, it seems like there has to be a leap of faith that any, you know, great research effort undergoes. And what what was it about this approach that just, you know, in the early days when you didn't have the signals early on, you know, you were still kinda confident in? Speaker 2 | 01:53 - 01:57 Oh, man. Oh, man. Oh, man. This is like... I'm I'm getting a little emotional right now. Speaker 2 | 01:59 - 02:16 I've... I I have a fun little side topic gets into this, if that's okay. My cofounder was debating on whether or not I was mission driven at OpenAI. I would have described myself in hindsight as one of the lowest percentile mission driven because I think that the OpenAI mission is not really... It... Speaker 2 | 02:16 - 02:33 It's kind of intentionally left as vague, so many people's missions can fit into it. But, like, the grand mission was never something I super believed in, even though I truly want AI to be extremely, extremely transformative. So I'm still trying to figure out, like, am I... Was I mission driven then or not? Because I'm really mission driven now. Speaker 2 | 02:33 - 03:08 But the answer was, you know, just a lot of work trying to square, like, AI being super incredibly awesome, which I think it is, and AI being really not that useful in every, like, productivity stat around. And this is, like, the kind of thing that, like, most people, like, just focus on one or the other, and they never have, like, a bridge answer or, like, they never have a sensible bridge answer. I think distribution is, like, a nonsensical answer here, because so many companies have gone all in on that and then gotten burned. It's it's almost certainly not a distribution. And to me, it was like believing that, like, hey. Speaker 2 | 03:08 - 03:33 AI is clearly smart and also that the future is clearly going to be machine native. The question that always motivated me..…",
+      "summary": "Speaker 1 | 00:00 - 00:06 As you think about Anthropic, is that something you're optimistic on? It's like, hey. That's that's undervalued or something you're like, oh, I don't know what's gonna happen to that. Speaker 2 | 00:06 - 00:32 I g…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "benchmark"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.52,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.44,
+      "whyThisMatters": ""
+    },
     {
       "id": "c97c222d182c4cdd",
       "date": "2026-11-06",
@@ -51,9 +158,9 @@
       ],
       "section": "Official Sources",
       "importanceScore": 0.8,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.87,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.63,
       "whyThisMatters": ""
     },
     {
@@ -2268,94 +2375,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4aa0502a90964fa8",
-      "date": "2026-10-22",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google DeepMind Blog",
-      "sourceKey": "official:Google DeepMind Blog",
-      "builderOrOrg": "Google DeepMind",
-      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-      "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-      "publishedAt": "2026-10-15T16:08:03.000Z",
-      "content": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
-      "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "science"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d14afe4139360bdd",
-      "date": "2026-10-22",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Proof-based general-purpose computing with Magnetar",
-      "url": "https://www.microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar/",
-      "publishedAt": "2026-10-15T16:00:00.000Z",
-      "content": "At a glance A new form of computing . Zero-knowledge proofs let you run a workload and receive, alongside the result, a short proof that the program ran correctly. Anyone can check the proof in milliseconds, without rerunning the program, without trusting whoever ran it, and without needing data on which the program was run. Three grand challenges have stood in the way of broad adoption : making proofs fast enough to produce, making them available to normal programs without cryptographic expertise, and resting them on cryptography that will still be trusted many decades from now. Magnetar makes major progress on all three challenges. It proves programs written in Rust, Go, or C, runs 10 to 39 times faster on average than the prior fastest comparable systems, and rests its security only on standard hash functions. It is the latest result of more than a decade of research at Microsoft Research on making zero-knowledge proofs practical. A new form of computing Every result a computer produces comes with an implicit question: did the program run as claimed and produce correct outputs? Today, answering that question often requires a degree of trust alongside verification.&nbsp;We trust the operator, the vendor, the counterparty, or the agent, and we rely on contracts, audits, and logs to establish that trust.&nbsp; Zero-knowledge proofs offer a fundamentally different approach to establishing trust. A program runs, and along with its output it produces a short proof, a cryptographic certificate that this program, on these inputs, produced this output. The proof is small and fast to check. Whoever receives it can confirm the result in milliseconds without rerunning the program, and can pass the proof on to anyone else who needs the same assurance. With the zero-knowledge property, the proof also reveals nothing about inputs that should stay private. This changes what correctness means in the real world. A result no longer has to be trusted because of who produced it. It…",
-      "summary": "Zero-knowledge proofs can verify computing results without rerunning workloads or exposing sensitive data. Magnetar helps bring them into the mainstream with support for standard programming languages, major speed gains, and quantum-resist…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.8,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.63,
       "whyThisMatters": ""
     }
   ]
