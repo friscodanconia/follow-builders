@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-05T07:59:06.244Z",
+  "generatedAt": "2026-11-06T00:31:03.005Z",
   "slug": "computer-use",
   "label": "AI Using Computers",
   "items": [
     {
       "id": "dc485946fe9c107d",
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -51,7 +51,7 @@
     },
     {
       "id": "d4b59ebebab33c5e",
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -100,13 +100,13 @@
       "section": "Builders",
       "importanceScore": 0.92,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.7,
       "whyThisMatters": ""
     },
     {
       "id": "7ef70db4bbc80749",
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -146,8 +146,52 @@
       "section": "Builders",
       "importanceScore": 0.84,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.65,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "1bd9cb5730b5fc00",
+      "date": "2026-11-06",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Setting a new standard for responsible AI infrastructure",
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "publishedAt": "2026-11-05T02:00:00.000Z",
+      "content": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+      "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "policy"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
       "whyThisMatters": ""
     },
     {
@@ -2149,52 +2193,6 @@
           "confidence": 0.5700000000000001,
           "rationale": [
             "gui"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "17621bc9778abb5b",
-      "date": "2026-10-18",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:rauchg",
-      "builderOrOrg": "Guillermo Rauch",
-      "title": "Rebuilt the Roadster demo in a playable, highly accurate simulation that retains a lot of the I…",
-      "url": "https://x.com/rauchg/status/2111313462987231519",
-      "publishedAt": "2026-10-17T04:28:50.000Z",
-      "content": "Rebuilt the Roadster demo in a playable, highly accurate simulation that retains a lot of the IRL details: https://t.co/6ki8kSJwdP https://t.co/cxd6T88CTc",
-      "summary": "Rebuilt the Roadster demo in a playable, highly accurate simulation that retains a lot of the IRL details: https://t.co/6ki8kSJwdP https://t.co/cxd6T88CTc",
-      "regionTags": [],
-      "metrics": {
-        "likes": 602,
-        "retweets": 22,
-        "replies": 81
-      },
-      "topics": [
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
           ],
           "score": 1
         }

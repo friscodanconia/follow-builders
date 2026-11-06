@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-05T07:59:06.244Z",
+  "generatedAt": "2026-11-06T00:31:03.005Z",
   "slug": "tool-use",
   "label": "AI Using Tools",
   "items": [
     {
       "id": "2abed71b0d4dbc93",
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -41,8 +41,61 @@
       "whyThisMatters": ""
     },
     {
+      "id": "56a62169419fb02c",
+      "date": "2026-11-06",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Merge builds product and business tools with OpenAI technology",
+      "url": "https://openai.com/index/merge-builds-with-openai",
+      "publishedAt": "2026-11-05T08:00:00.000Z",
+      "content": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+      "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "sales"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.78,
+      "whyThisMatters": ""
+    },
+    {
       "id": "054224c960764ad7",
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
@@ -2343,44 +2396,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "12040d4df5e99b1e",
-      "date": "2026-09-17",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:trq212",
-      "builderOrOrg": "Thariq",
-      "title": "I was not expecting things to go this way, but I think MCPs are better than CLIs for most integ…",
-      "url": "https://x.com/trq212/status/2099958388230873165",
-      "publishedAt": "2026-09-15T20:27:49.000Z",
-      "content": "I was not expecting things to go this way, but I think MCPs are better than CLIs for most integrations. The models have gotten much better at tool calling, we can defer tools & MCP is now stateless. If you need to compose/filter data, add params like query to your MCP tools.",
-      "summary": "I was not expecting things to go this way, but I think MCPs are better than CLIs for most integrations. The models have gotten much better at tool calling, we can defer tools & MCP is now stateless. If you need to compo…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 2429,
-        "retweets": 109,
-        "replies": 209
-      },
-      "topics": [
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.69,
-          "rationale": [
-            "tool calling",
-            "tools"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]
