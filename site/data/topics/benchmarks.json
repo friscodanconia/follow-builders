@@ -1,94 +1,52 @@
 {
-  "generatedAt": "2026-11-07T06:18:03.525Z",
+  "generatedAt": "2026-11-07T07:22:10.325Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
     {
-      "id": "48ab70f57e4e5914",
+      "id": "e76992d58b15d074",
       "date": "2026-11-07",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
       "sourceKey": "x:garrytan",
       "builderOrOrg": "Garry Tan",
-      "title": "This is the first long horizon benchmark for PE/IB work Solving high finance is on the path to…",
-      "url": "https://x.com/garrytan/status/2118527182092071179",
-      "publishedAt": "2026-11-06T02:13:35.000Z",
-      "content": "This is the first long horizon benchmark for PE/IB work Solving high finance is on the path to AGI https://t.co/lKR3uWVMlR",
-      "summary": "This is the first long horizon benchmark for PE/IB work Solving high finance is on the path to AGI https://t.co/lKR3uWVMlR",
+      "title": "Eval-driven development loops for agent skills is necessary. Every new model gets better. You c…",
+      "url": "https://x.com/garrytan/status/2118920030243139596",
+      "publishedAt": "2026-11-07T04:14:37.000Z",
+      "content": "Eval-driven development loops for agent skills is necessary. Every new model gets better. You can remove things you don't need anymore. I just removed /investigate as a skill because Opus 5.5 does it better without it. You can feel the AGI tide rising https://t.co/RTpbEAMZVU",
+      "summary": "Eval-driven development loops for agent skills is necessary. Every new model gets better. You can remove things you don't need anymore. I just removed /investigate as a skill because Opus 5.5 does it better without it.…",
       "regionTags": [],
       "metrics": {
-        "likes": 172,
-        "retweets": 15,
-        "replies": 34
+        "likes": 217,
+        "retweets": 9,
+        "replies": 58
       },
       "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
         {
           "slug": "benchmarks",
           "label": "AI Testing",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "benchmark"
+            "eval"
           ],
           "score": 1
         }
       ],
       "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "447dfa41ec8f118d",
-      "date": "2026-11-07",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "Unsupervised Learning",
-      "sourceKey": "podcast:Unsupervised Learning",
-      "builderOrOrg": "Unsupervised Learning",
-      "title": "Ep 97: Jev Creator on Decision Models, Benchmark Fatigue & Why the Labs Missed It",
-      "url": "https://www.youtube.com/@RedpointAI",
-      "publishedAt": "2026-11-05T14:05:50.000Z",
-      "content": "Speaker 1 | 00:00 - 00:06 As you think about Anthropic, is that something you're optimistic on? It's like, hey. That's that's undervalued or something you're like, oh, I don't know what's gonna happen to that. Speaker 2 | 00:06 - 00:32 I get the sense that a lot of the expectations baked in are ones that are not just product level, but based on, like, misunderstandings of the future of AI and what it can do. So my guess is that because some people might be valuing, like, building god as basically infinite, there'll be some amount of miscalibration miscalibration there. And I think that, you know, like, the let them cure cancer is going to be like Marie Antoinette's, like, let them eat cake. Speaker 1 | 00:32 - 01:07 Jeb took the AI world by storm about a month ago, and I've been wanting to talk to Jogo, their CEO of TypeSave, for quite some time. So it was really fun to have him on the podcast. I think maybe even better, with with a month to reflect on everything that's happened because we talked about a ton of different things. It was really awesome to get Jogo's perspective on, you know, the shapes of problems that he still thinks need to be solved by AI models, how he thinks about pushing JEV models to be even better. It was also fun to get his thoughts on Anthropic's upcoming IPO, AI safety, a bunch of other topics. Speaker 1 | 01:07 - 01:23 I think folks will really enjoy hearing from him. Without further ado, here's Jojo. Well, I have really been looking forward to this. I think ever since your, like, viral launch, I I feel like the second that happened, I was like, I have to have you on the podcast. And so appreciate you making this happen. Speaker 1 | 01:23 - 01:53 I think actually, in many ways, more interesting that we're we're we're some weeks removed from it. Given that, like, the early the early results were not what you expected and maybe not as as as as strong as you were hoping, like, what gave you that kind of early confidence in this research direction of RLCD? Mean, I feel like you kind of alluded to it in the in the GPT three, you know, example. Like, it seems like there has to be a leap of faith that any, you know, great research effort undergoes. And what what was it about this approach that just, you know, in the early days when you didn't have the signals early on, you know, you were still kinda confident in? Speaker 2 | 01:53 - 01:57 Oh, man. Oh, man. Oh, man. This is like... I'm I'm getting a little emotional right now. Speaker 2 | 01:59 - 02:16 I've... I I have a fun little side topic gets into this, if that's okay. My cofounder was debating on whether or not I was mission driven at OpenAI. I would have described myself in hindsight as one of the lowest percentile mission driven because I think that the OpenAI mission is not really... It... Speaker 2 | 02:16 - 02:33 It's kind of intentionally left as vague, so many people's missions can fit into it. But, like, the grand mission was never something I super believed in, even though I truly want AI to be extremely, extremely transformative. So I'm still trying to figure out, like, am I... Was I mission driven then or not? Because I'm really mission driven now. Speaker 2 | 02:33 - 03:08 But the answer was, you know, just a lot of work trying to square, like, AI being super incredibly awesome, which I think it is, and AI being really not that useful in every, like, productivity stat around. And this is, like, the kind of thing that, like, most people, like, just focus on one or the other, and they never have, like, a bridge answer or, like, they never have a sensible bridge answer. I think distribution is, like, a nonsensical answer here, because so many companies have gone all in on that and then gotten burned. It's it's almost certainly not a distribution. And to me, it was like believing that, like, hey. Speaker 2 | 03:08 - 03:33 AI is clearly smart and also that the future is clearly going to be machine native. The question that always motivated me..…",
-      "summary": "Speaker 1 | 00:00 - 00:06 As you think about Anthropic, is that something you're optimistic on? It's like, hey. That's that's undervalued or something you're like, oh, I don't know what's gonna happen to that. Speaker 2 | 00:06 - 00:32 I g…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "benchmark"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.52,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.44,
+      "digestScore": 0.9,
       "whyThisMatters": ""
     },
     {
@@ -140,7 +98,7 @@
       "section": "Official Sources",
       "importanceScore": 0.72,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.57,
       "whyThisMatters": ""
     },
@@ -245,9 +203,97 @@
       ],
       "section": "Podcasts & Newsletters",
       "importanceScore": 0.4,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "48ab70f57e4e5914",
+      "date": "2026-11-07",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:garrytan",
+      "builderOrOrg": "Garry Tan",
+      "title": "This is the first long horizon benchmark for PE/IB work Solving high finance is on the path to…",
+      "url": "https://x.com/garrytan/status/2118527182092071179",
+      "publishedAt": "2026-11-06T02:13:35.000Z",
+      "content": "This is the first long horizon benchmark for PE/IB work Solving high finance is on the path to AGI https://t.co/lKR3uWVMlR",
+      "summary": "This is the first long horizon benchmark for PE/IB work Solving high finance is on the path to AGI https://t.co/lKR3uWVMlR",
+      "regionTags": [],
+      "metrics": {
+        "likes": 172,
+        "retweets": 15,
+        "replies": 34
+      },
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "benchmark"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.61,
+      "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "447dfa41ec8f118d",
+      "date": "2026-11-07",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "Unsupervised Learning",
+      "sourceKey": "podcast:Unsupervised Learning",
+      "builderOrOrg": "Unsupervised Learning",
+      "title": "Ep 97: Jev Creator on Decision Models, Benchmark Fatigue & Why the Labs Missed It",
+      "url": "https://www.youtube.com/@RedpointAI",
+      "publishedAt": "2026-11-05T14:05:50.000Z",
+      "content": "Speaker 1 | 00:00 - 00:06 As you think about Anthropic, is that something you're optimistic on? It's like, hey. That's that's undervalued or something you're like, oh, I don't know what's gonna happen to that. Speaker 2 | 00:06 - 00:32 I get the sense that a lot of the expectations baked in are ones that are not just product level, but based on, like, misunderstandings of the future of AI and what it can do. So my guess is that because some people might be valuing, like, building god as basically infinite, there'll be some amount of miscalibration miscalibration there. And I think that, you know, like, the let them cure cancer is going to be like Marie Antoinette's, like, let them eat cake. Speaker 1 | 00:32 - 01:07 Jeb took the AI world by storm about a month ago, and I've been wanting to talk to Jogo, their CEO of TypeSave, for quite some time. So it was really fun to have him on the podcast. I think maybe even better, with with a month to reflect on everything that's happened because we talked about a ton of different things. It was really awesome to get Jogo's perspective on, you know, the shapes of problems that he still thinks need to be solved by AI models, how he thinks about pushing JEV models to be even better. It was also fun to get his thoughts on Anthropic's upcoming IPO, AI safety, a bunch of other topics. Speaker 1 | 01:07 - 01:23 I think folks will really enjoy hearing from him. Without further ado, here's Jojo. Well, I have really been looking forward to this. I think ever since your, like, viral launch, I I feel like the second that happened, I was like, I have to have you on the podcast. And so appreciate you making this happen. Speaker 1 | 01:23 - 01:53 I think actually, in many ways, more interesting that we're we're we're some weeks removed from it. Given that, like, the early the early results were not what you expected and maybe not as as as as strong as you were hoping, like, what gave you that kind of early confidence in this research direction of RLCD? Mean, I feel like you kind of alluded to it in the in the GPT three, you know, example. Like, it seems like there has to be a leap of faith that any, you know, great research effort undergoes. And what what was it about this approach that just, you know, in the early days when you didn't have the signals early on, you know, you were still kinda confident in? Speaker 2 | 01:53 - 01:57 Oh, man. Oh, man. Oh, man. This is like... I'm I'm getting a little emotional right now. Speaker 2 | 01:59 - 02:16 I've... I I have a fun little side topic gets into this, if that's okay. My cofounder was debating on whether or not I was mission driven at OpenAI. I would have described myself in hindsight as one of the lowest percentile mission driven because I think that the OpenAI mission is not really... It... Speaker 2 | 02:16 - 02:33 It's kind of intentionally left as vague, so many people's missions can fit into it. But, like, the grand mission was never something I super believed in, even though I truly want AI to be extremely, extremely transformative. So I'm still trying to figure out, like, am I... Was I mission driven then or not? Because I'm really mission driven now. Speaker 2 | 02:33 - 03:08 But the answer was, you know, just a lot of work trying to square, like, AI being super incredibly awesome, which I think it is, and AI being really not that useful in every, like, productivity stat around. And this is, like, the kind of thing that, like, most people, like, just focus on one or the other, and they never have, like, a bridge answer or, like, they never have a sensible bridge answer. I think distribution is, like, a nonsensical answer here, because so many companies have gone all in on that and then gotten burned. It's it's almost certainly not a distribution. And to me, it was like believing that, like, hey. Speaker 2 | 03:08 - 03:33 AI is clearly smart and also that the future is clearly going to be machine native. The question that always motivated me..…",
+      "summary": "Speaker 1 | 00:00 - 00:06 As you think about Anthropic, is that something you're optimistic on? It's like, hey. That's that's undervalued or something you're like, oh, I don't know what's gonna happen to that. Speaker 2 | 00:06 - 00:32 I g…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "benchmark"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.52,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.44,
       "whyThisMatters": ""
     },
     {
@@ -2399,52 +2445,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.7,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "b382f5f8a47f2b11",
-      "date": "2026-10-06",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:rauchg",
-      "builderOrOrg": "Guillermo Rauch",
-      "title": "It’s hard to fathom https://t.co/OL0LzGtvAw getting even faster, but it’s now… much faster 😂 A…",
-      "url": "https://x.com/rauchg/status/2106885457212825983",
-      "publishedAt": "2026-10-04T23:13:31.000Z",
-      "content": "It’s hard to fathom https://t.co/OL0LzGtvAw getting even faster, but it’s now… much faster 😂 As models speed up (as with Astra 𝚞𝚕𝚝𝚛𝚊𝚏𝚊𝚜𝚝), harness overhead matters more and more. Next release will feature even better performance for session storage and retrieval, and a big unlock for cloud durability in libfx.",
-      "summary": "It’s hard to fathom https://t.co/OL0LzGtvAw getting even faster, but it’s now… much faster 😂 As models speed up (as with Astra 𝚞𝚕𝚝𝚛𝚊𝚏𝚊𝚜𝚝), harness overhead matters more and more. Next release will feature even…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 202,
-        "retweets": 7,
-        "replies": 40
-      },
-      "topics": [
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "eval"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]
