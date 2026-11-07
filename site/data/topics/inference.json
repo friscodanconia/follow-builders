@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-06T08:01:52.475Z",
+  "generatedAt": "2026-11-07T00:31:02.690Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
     {
       "id": "f73cb4284d56e2cb",
-      "date": "2026-11-06",
+      "date": "2026-11-07",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Together AI Blog",
@@ -50,7 +50,7 @@
     },
     {
       "id": "217095fc5403f539",
-      "date": "2026-11-06",
+      "date": "2026-11-07",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Together AI Blog",
@@ -90,6 +90,59 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c89eafa80aafe0ea",
+      "date": "2026-11-07",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Inkling 2 Small: 17A-594B trained in 68 hours on 12T tokens, beating Muse Spark",
+      "url": "https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark/",
+      "publishedAt": "2026-11-06T10:35:21.000Z",
+      "content": "Build AI systems with context graphs and agentic memory. Join Andrew Ng and AI engineers at NODES 2026 for 100+ live technical sessions . Free, online, 24 hours. Save your spot ! There was a time in the early days of Thinking Machines, post 2025 start and cofounder departures , when their going concern as a neolab was very much in doubt. Those days are clearly behind us, as Tinker (now a year old !) and Interaction Models and Inkling and other high-impact contributions to AI research have converted Thinky’s highly credentialed potential into actual concrete ships that establish that they are now a high-functioning neolab at the US frontier. Anyway, here’s Inkling 2 Small - pretrained from scratch in less than 3 days on autocompact” because manual context transfer is more controllable. Another pointed out that similar behavior may be configurable through the UI by selecting a larger context window such as 400K , rather than editing settings manually. Several commenters debated manual context management vs Claude autocompaction , with one arguing that delegating context pruning to an opaque mechanism is risky: “I will never understand why you would delegate your context to something you cannot control.” Another suggested handoff workflows may be preferable to autocompact when preserving task state matters. A technical clarification noted that instead of relying on an autocompact override around 225k tokens, users may be able to select a larger context setting directly, e.g. 400K , via Claude’s UI/settings. Another commenter warned that repeatedly crossing 300k context likely indicates a workflow problem and suggested using sub-agents per task to reduce compaction overhead. One commenter refined the settings-edit prompt, suggesting the model only needs concise instructions such as adding \"CLAUDE_AUTOCOMPACT_PCT_OVERRIDE\": \"75\" to the existing env block in ~/.claude/settings.json and setting top-level \"autoCompactWindow\": 300000 . They argued newer models can reliably…",
+      "summary": "November 5, 2026 — Inside Inkling 2 Small’s training run and METR’s study of AI research at Anthropic.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.81,
+          "rationale": [
+            "agent",
+            "agentic",
+            "sub-agent"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "serving"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
       "whyThisMatters": ""
     },
     {
@@ -2328,43 +2381,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "3cc8334f36e9ee77",
-      "date": "2026-08-26",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-      "url": "https://openai.com/index/jalapeno-first-results",
-      "publishedAt": "2026-08-25T07:00:00.000Z",
-      "content": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
-      "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.81,
-          "rationale": [
-            "inference",
-            "latency",
-            "throughput"
-          ],
-          "score": 3
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     }
   ]
