@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T00:31:03.439Z",
+  "generatedAt": "2026-11-08T06:24:14.751Z",
   "date": "2026-11-08",
   "items": [
     {
@@ -25,7 +25,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -161,7 +161,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -225,7 +225,7 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
@@ -390,7 +390,7 @@
       "section": "Builders",
       "importanceScore": 0.84,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.65,
       "whyThisMatters": ""
     },
@@ -646,7 +646,7 @@
       "section": "Builders",
       "importanceScore": 0.84,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.65,
       "whyThisMatters": ""
     },
@@ -1929,24 +1929,22 @@
   ],
   "selectedItems": [
     {
-      "id": "93658341c3c004a7",
+      "id": "0e72c32a7a6a9179",
       "date": "2026-11-08",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:trq212",
-      "builderOrOrg": "Thariq",
-      "title": "a pattern I’m liking: creator apps like Instagram Edits and Roblox Studio shipping with built-i…",
-      "url": "https://x.com/trq212/status/2118822238262853904",
-      "publishedAt": "2026-11-06T21:46:02.000Z",
-      "content": "a pattern I’m liking: creator apps like Instagram Edits and Roblox Studio shipping with built-in MCPs, so agents can do some of the work while power users can collaborate and continue the work in tools that they're used to",
-      "summary": "a pattern I’m liking: creator apps like Instagram Edits and Roblox Studio shipping with built-in MCPs, so agents can do some of the work while power users can collaborate and continue the work in tools that they're used…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 1130,
-        "retweets": 22,
-        "replies": 107
-      },
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "content": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
       "topics": [
         {
           "slug": "agents",
@@ -1958,48 +1956,11 @@
           "score": 1
         },
         {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
+          "slug": "research",
+          "label": "Research",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.65,
-      "whyThisMatters": "Every enterprise that built a standalone AI portal in 2025 is now competing with this model. When Roblox ships AI assistance directly into its studio and Instagram does the same in Edits, the bar for \"why should I open a separate AI tool\" gets much higher. If your product requires a tab switch to use AI, that is now a liability."
-    },
-    {
-      "id": "e76992d58b15d074",
-      "date": "2026-11-08",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:garrytan",
-      "builderOrOrg": "Garry Tan",
-      "title": "Eval-driven development loops for agent skills is necessary. Every new model gets better. You c…",
-      "url": "https://x.com/garrytan/status/2118920030243139596",
-      "publishedAt": "2026-11-07T04:14:37.000Z",
-      "content": "Eval-driven development loops for agent skills is necessary. Every new model gets better. You can remove things you don't need anymore. I just removed /investigate as a skill because Opus 5.5 does it better without it. You can feel the AGI tide rising https://t.co/RTpbEAMZVU",
-      "summary": "Eval-driven development loops for agent skills is necessary. Every new model gets better. You can remove things you don't need anymore. I just removed /investigate as a skill because Opus 5.5 does it better without it.…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 217,
-        "retweets": 9,
-        "replies": 58
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
+            "science"
           ],
           "score": 1
         },
@@ -2008,90 +1969,136 @@
           "label": "AI Testing",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "eval"
+            "benchmark"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7e32bafdbbd65112",
+      "date": "2026-11-08",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google DeepMind Blog",
+      "sourceKey": "official:Google DeepMind Blog",
+      "builderOrOrg": "Google DeepMind",
+      "title": "Agentic cheminformatics with Google Antigravity",
+      "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+      "publishedAt": "2026-11-03T17:01:49.000Z",
+      "content": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+      "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "2189664aa9d4c5e0",
+      "date": "2026-11-08",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:trq212",
+      "builderOrOrg": "Thariq",
+      "title": "feels like it's really coming together https://t.co/L1WyogpiW1",
+      "url": "https://x.com/trq212/status/2118788283564179513",
+      "publishedAt": "2026-11-06T19:31:06.000Z",
+      "content": "feels like it's really coming together https://t.co/L1WyogpiW1",
+      "summary": "feels like it's really coming together https://t.co/L1WyogpiW1",
+      "regionTags": [],
+      "metrics": {
+        "likes": 1327,
+        "retweets": 11,
+        "replies": 115
+      },
+      "topics": [],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "df204a02c1c213e8",
+      "date": "2026-11-08",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "Somewhere, something incredible is waiting to be known",
+      "url": "https://x.com/rauchg/status/2118916001152803057",
+      "publishedAt": "2026-11-07T03:58:36.000Z",
+      "content": "Somewhere, something incredible is waiting to be known",
+      "summary": "Somewhere, something incredible is waiting to be known",
+      "regionTags": [],
+      "metrics": {
+        "likes": 356,
+        "retweets": 20,
+        "replies": 44
+      },
+      "topics": [
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
           ],
           "score": 1
         }
       ],
       "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.65,
-      "whyThisMatters": "Most teams building on top of AI models are accumulating custom logic, not shedding it. Tan's approach runs the other way: build it, test it, and delete it when the base model catches up. If you are not running evals regularly, you will not know when to delete things, and you will end up maintaining infrastructure that is making your product worse than the raw model."
-    },
-    {
-      "id": "6e1a761b36d1ac1f",
-      "date": "2026-11-08",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:swyx",
-      "builderOrOrg": "Swyx",
-      "title": "we are committing to weekly coverage of the Anthropic IPO all the way until it does or doesn't…",
-      "url": "https://x.com/swyx/status/2118905788915982341",
-      "publishedAt": "2026-11-07T03:18:02.000Z",
-      "content": "we are committing to weekly coverage of the Anthropic IPO all the way until it does or doesn't happen. Having covered mega-IPOs from $BABA to $TEAM, I get to dust off my equity hedge fund analyst hat with my AI Engineer hat once more, this time with my good friend @jaminball who is challenging @ttunguz for writer-VC-extraordinare of his generation.",
-      "summary": "we are committing to weekly coverage of the Anthropic IPO all the way until it does or doesn't happen. Having covered mega-IPOs from $BABA to $TEAM, I get to dust off my equity hedge fund analyst hat with my AI Engineer…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 78,
-        "retweets": 0,
-        "replies": 44
-      },
-      "topics": [],
-      "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": "Anthropic's IPO, if it happens, will be the most consequential AI public offering since the current wave started. Weekly dedicated coverage from someone who has actually worked sell-side on mega-cap tech listings is worth bookmarking now, before the roadshow noise starts."
+      "whyThisMatters": ""
     },
     {
-      "id": "1cc6e16420665674",
+      "id": "79d7c38f45ee4e38",
       "date": "2026-11-08",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:thsottiaux",
-      "builderOrOrg": "Thibault Sottiaux",
-      "title": "Get me out of the basement https://t.co/SsG3P83NBg https://t.co/eeASj3vnsN",
-      "url": "https://x.com/thsottiaux/status/2118938956301779171",
-      "publishedAt": "2026-11-07T05:29:49.000Z",
-      "content": "Get me out of the basement https://t.co/SsG3P83NBg https://t.co/eeASj3vnsN",
-      "summary": "Get me out of the basement https://t.co/SsG3P83NBg https://t.co/eeASj3vnsN",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "The future is files. And GPUs. https://t.co/fbI1NHn8u5",
+      "url": "https://x.com/levie/status/2118723097901846580",
+      "publishedAt": "2026-11-06T15:12:05.000Z",
+      "content": "The future is files. And GPUs. https://t.co/fbI1NHn8u5",
+      "summary": "The future is files. And GPUs. https://t.co/fbI1NHn8u5",
       "regionTags": [],
       "metrics": {
-        "likes": 1776,
-        "retweets": 48,
-        "replies": 586
-      },
-      "topics": [],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": "There is no substance to summarize from the post itself. But the engagement suggests Sottiaux has built enough credibility with engineers that even an opaque meme lands. If you are curious what the underground conversation about formal verification looks like right now, his replies section is probably worth a scroll."
-    },
-    {
-      "id": "99e66a8790a3ddd3",
-      "date": "2026-11-08",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:petergyang",
-      "builderOrOrg": "Peter Yang",
-      "title": "Alright, I just interviewed @jsnnsa and he blew my mind the most out of all my guests since pro…",
-      "url": "https://x.com/petergyang/status/2118852799094206787",
-      "publishedAt": "2026-11-06T23:47:28.000Z",
-      "content": "Alright, I just interviewed @jsnnsa and he blew my mind the most out of all my guests since probably @steipete. Going to expedite shipping our episode. Subscribe here to get it soon: https://t.co/744uInp9aE https://t.co/cYja0eI996 https://t.co/Rma4NLvkCn",
-      "summary": "Alright, I just interviewed @jsnnsa and he blew my mind the most out of all my guests since probably @steipete. Going to expedite shipping our episode. Subscribe here to get it soon: https://t.co/744uInp9aE https://t.co…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 90,
-        "retweets": 11,
-        "replies": 24
+        "likes": 208,
+        "retweets": 20,
+        "replies": 41
       },
       "topics": [],
       "section": "Builders",
@@ -2189,6 +2196,7 @@
     }
   ],
   "sections": [
+    "Official Sources",
     "Builders"
   ],
   "stats": {
