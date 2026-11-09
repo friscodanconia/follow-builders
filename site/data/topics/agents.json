@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-08T07:33:01.365Z",
+  "generatedAt": "2026-11-09T00:31:03.666Z",
   "slug": "agents",
   "label": "AI Assistants",
   "items": [
     {
       "id": "30626ae901674623",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -44,14 +44,14 @@
       ],
       "section": "Builders",
       "importanceScore": 0.84,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.9,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.65,
       "whyThisMatters": ""
     },
     {
       "id": "5f40d01b6a1fe667",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -91,14 +91,14 @@
       ],
       "section": "Builders",
       "importanceScore": 0.84,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.9,
+      "digestScore": 0.65,
       "whyThisMatters": ""
     },
     {
       "id": "4ce6fa39dfee389b",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "sourceType": "podcast",
       "sourceGroup": "mirrored",
       "sourceName": "No Priors",
@@ -150,7 +150,7 @@
     },
     {
       "id": "0e72c32a7a6a9179",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
@@ -197,13 +197,13 @@
       "section": "Official Sources",
       "importanceScore": 0.72,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.57,
       "whyThisMatters": ""
     },
     {
       "id": "c97c222d182c4cdd",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
@@ -256,7 +256,7 @@
     },
     {
       "id": "7e32bafdbbd65112",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Google DeepMind Blog",
@@ -286,13 +286,13 @@
       "section": "Official Sources",
       "importanceScore": 0.72,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.57,
       "whyThisMatters": ""
     },
     {
       "id": "c9c08de7396e3863",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Microsoft Research Blog",
@@ -347,7 +347,7 @@
     },
     {
       "id": "f73cb4284d56e2cb",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Together AI Blog",
@@ -392,7 +392,7 @@
     },
     {
       "id": "217095fc5403f539",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Together AI Blog",
@@ -436,7 +436,7 @@
     },
     {
       "id": "20fe471b8fec32d2",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Mistral AI Blog",
@@ -479,8 +479,115 @@
       "whyThisMatters": ""
     },
     {
+      "id": "7ba236ad3694441c",
+      "date": "2026-11-09",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+      "url": "https://latent.space/p/cs146s/",
+      "publishedAt": "2026-11-08T21:41:44.000Z",
+      "content": "The AI Engineer YouTube channel just crossed one million subscribers . Thank you to everyone who’s watched a talk, sent one to a teammate, or put something they learned into production. For this special, we wanted to sit down with someone who has to answer a question a lot of us are asking at work: what should a software engineer actually learn now? Mihail Eric has two places to test his answer. He teaches The Modern Software Developer at Stanford and leads AI at Monaco, where his colleagues use coding agents to ship software and investigate outages. I asked him to take us through the syllabus, then tell us which parts survived contact with his own engineering team. This is also meant as a preview for all of you joining us in San Francisco for AIE Code next week, as required knowledge for all the conversations with the speakers, sponsors and attendees you’re about to have. If you can see this as a LS subscriber and haven’t got a ticket yet, you can use this code for 30% off (no refunds, sorry) Last year’s homework takes one prompt The first run of CS146S had nine assignments and a capstone. In one exercise, students ran an AI code reviewer on a repo and evaluated its feedback. By the next run, Mihail figured students could one-shot a lot of those exercises. When he asked a room of Stanford sophomores and juniors how they coded, everyone he surveyed was already using an agent. So this time, part of the homework is contributing to an open-source project. The person who maintains the repo reviews the student’s patch. I like what that does to the assignment. You can ask an agent to implement a feature in an afternoon. You still have to find out whether the maintainer wants it, why the code behaves the way it does, and what else your patch might break. That conversation is also how a junior engineer gets to learn from a senior one. There’s an exercise in the episode you can borrow for your next PR. Geoffrey Litt’s explain-diff skill turns a change into a visual walkthro…",
+      "summary": "What happens when students can one-shot last year’s homework? Inside CS146S and the engineering team at Monaco.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.9299999999999999,
+          "rationale": [
+            "coding",
+            "code",
+            "developer"
+          ],
+          "score": 4
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open-source"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "4871fb5d90794fba",
+      "date": "2026-11-09",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+      "url": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
+      "publishedAt": "2026-11-08T21:23:29.000Z",
+      "content": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have to learn an unfamiliar repo, propose a change, and explain the patch to the person who might merge it. We invited Mihail, who teaches The Modern Software Developer at Stanford and leads AI at Monaco, to celebrate one million subscribers on the AI Engineer YouTube channel. He opens up the course syllabus and shows us which lessons survived contact with his own engineering team. Monaco built its agent workspaces, bought its code review tools, and gave an on-call agent access to Datadog and GitHub. We ask how he decides which tools his team needs to own. Watch the full interview and screenshares on YouTube . Show notes Stanford CS146S — The ten-week syllabus and assignments. The Emperor Has No Clothes — Mihail builds a coding agent from scratch. Demystifying Claude Code — Mihail traces a real agent harness. Monaco’s agent workspaces — How the team sets up a workspace for each agent. How to Kill the Code Review — Our essay on what happens when code generation outruns review. Basis’s Authority Map — How agents distinguish current behavior from earlier design decisions. Stripe’s Minions — A look inside Stripe’s background coding agents. AI Engineer CODE Summit — The conference mentioned in the opening. Timestamps 0:00 One million AI Engineer subscribers and the CODE Summit 0:51 Mihail Eric and Stanford CS146S 5:26 What junior engineers need to learn now 10:02 Open-source maintainers review the students’ code 15:04 A tour of the ten-week syllabus 24:04 The loop, tools and harness inside a coding agent 32:18 Context engineering for a large codebase 38:15 Skills that make you understand the diff 46:42 The Monaco.com dispute and the airplane banner 50:23 What Monaco does for sales teams 59:21 Inside Monaco’s engineering team 1:01:40 “You buy to learn, and you build to keep” 1:0…",
+      "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have to learn an unfamiliar repo, propose a…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.9299999999999999,
+          "rationale": [
+            "coding",
+            "code",
+            "developer"
+          ],
+          "score": 4
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.69,
+          "rationale": [
+            "open-source",
+            "github"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
+      "whyThisMatters": ""
+    },
+    {
       "id": "c89eafa80aafe0ea",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -2327,107 +2434,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "ad83c4953b6103f8",
-      "date": "2026-11-01",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:amasad",
-      "builderOrOrg": "Amjad Masad",
-      "title": "We wrote a whitepaper on how to properly sandbox agents to maximize productivity and reduce ris…",
-      "url": "https://x.com/amasad/status/2116183233784394039",
-      "publishedAt": "2026-10-30T14:59:34.000Z",
-      "content": "We wrote a whitepaper on how to properly sandbox agents to maximize productivity and reduce risk. https://t.co/5ihrJ6zkGj",
-      "summary": "We wrote a whitepaper on how to properly sandbox agents to maximize productivity and reduce risk. https://t.co/5ihrJ6zkGj",
-      "regionTags": [],
-      "metrics": {
-        "likes": 26,
-        "retweets": 1,
-        "replies": 10
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "paper"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.78,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.61,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4343ee0bada2bbb5",
-      "date": "2026-11-01",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:garrytan",
-      "builderOrOrg": "Garry Tan",
-      "title": "GBrain Cloud is the fastest way to get GBrain going across all your agents. Every harness has i…",
-      "url": "https://x.com/garrytan/status/2116303457774899251",
-      "publishedAt": "2026-10-30T22:57:18.000Z",
-      "content": "GBrain Cloud is the fastest way to get GBrain going across all your agents. Every harness has its strengths - Grok/Muse/Dots for personal, OpenClaw/Hermes for raw power, Claude Code/Codex/Capy for codegen GBrain lets you run your context on all of them https://t.co/liju9MjWoY",
-      "summary": "GBrain Cloud is the fastest way to get GBrain going across all your agents. Every harness has its strengths - Grok/Muse/Dots for personal, OpenClaw/Hermes for raw power, Claude Code/Codex/Capy for codegen GBrain lets yo…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 197,
-        "retweets": 8,
-        "replies": 74
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.65,
       "whyThisMatters": ""
     }
   ]

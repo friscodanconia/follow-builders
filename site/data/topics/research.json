@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-08T07:33:01.365Z",
+  "generatedAt": "2026-11-09T00:31:03.666Z",
   "slug": "research",
   "label": "Research",
   "items": [
     {
       "id": "8e6986f82d6c4d95",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -35,14 +35,14 @@
       ],
       "section": "Builders",
       "importanceScore": 0.7,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.8,
+      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
       "id": "4ce6fa39dfee389b",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "sourceType": "podcast",
       "sourceGroup": "mirrored",
       "sourceName": "No Priors",
@@ -94,7 +94,7 @@
     },
     {
       "id": "0e72c32a7a6a9179",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
@@ -141,13 +141,13 @@
       "section": "Official Sources",
       "importanceScore": 0.72,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.57,
       "whyThisMatters": ""
     },
     {
       "id": "c97c222d182c4cdd",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
@@ -200,7 +200,7 @@
     },
     {
       "id": "f95c730a678de467",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -244,7 +244,7 @@
     },
     {
       "id": "99c065dc43a7e02d",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -288,7 +288,7 @@
     },
     {
       "id": "4db0f10c121bbc08",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -330,7 +330,7 @@
     },
     {
       "id": "c89eafa80aafe0ea",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -379,6 +379,59 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "92058b2fa72628a2",
+      "date": "2026-11-09",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Why the Cyberpocalypse Might Hit China Harder",
+      "url": "https://www.chinatalk.media/p/china-in-the-cyberpocalypse",
+      "publishedAt": "2026-11-08T11:03:30.000Z",
+      "content": "Chang Che is a writer and contributor to the New Yorker . In August, researchers at a California security firm used an OpenAI model to find a software bug in PHP, a programming language that undergird some seventy per cent of the world&#8217;s websites, including Wikipedia and WordPress. They alerted PHP&#8217;s developers, who quietly began working on a fix. By late October, the fix was ready, but before they could alert the world, the break-in attempts had begun. Days earlier, Amazon detected someone trying to hack into its servers; attacks code began circulating online. Some governments and companies began pulling websites down, rather than risk a security breach. One security firm described the flaws as some of the worst ever found in PHP, &#8220;and arguably in software history.&#8221; Before AI, the internet might have looked, to a hacker, like a worn-out bug screen. You could discern some holes with a keen eye, and that knowledge was reliably asymmetric&#8212;others probably didn&#8217;t know about the holes you found. Moreover, tunneling through the holes undetected took months or years of human labor, talent, and money. Now, with AI, the internet looks more like a block of Swiss cheese: the holes are obvious, anyone can, or will, see them, and the time and cost it takes to exploit these software flaws have plunged alarmingly fast . According to Google&#8217;s incident response team , the average time it takes for cyber criminals to exploit a new vulnerability is -7 days, meaning hacking attempts are &#8220;routinely occurring before a patch is even released.&#8221; A China Central Television (CCTV) feature about the PHP vulnerability discovered by cybersecurity firm Calif, with the aid of OpenAI models. Source . Hackers refer to unbeknownst software bugs like PHP as &#8220;zero-days&#8221; because a defender has had zero days to protect themselves upon its discovery. Once a hacker discovers a zero-day in, say, iOS software, every iPhone user is potentially…",
+      "summary": "In August, researchers at a California security firm used an OpenAI model to find a software bug in PHP, a programming language that undergird some seventy per cent of the world&#8217;s websites, including Wikipedia and WordPress.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "code",
+            "developer",
+            "programming"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.66,
       "whyThisMatters": ""
     },
     {
@@ -2366,52 +2419,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "2bdd909a2ce05a4f",
-      "date": "2026-10-23",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:claudeai",
-      "builderOrOrg": "Claude",
-      "title": "Claude Duet is an early research preview, available through a waitlist on Pro and Max plans in…",
-      "url": "https://x.com/claudeai/status/2112984669943968099",
-      "publishedAt": "2026-10-21T19:09:37.000Z",
-      "content": "Claude Duet is an early research preview, available through a waitlist on Pro and Max plans in the US. It can still misjudge what’s urgent, and we’ll keep tuning it based on what early users tell us. Join the waitlist: https://t.co/kNwzHHeYrO Read more: https://t.co/GT1xV1RJ7f",
-      "summary": "Claude Duet is an early research preview, available through a waitlist on Pro and Max plans in the US. It can still misjudge what’s urgent, and we’ll keep tuning it based on what early users tell us. Join the waitlist:…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 3248,
-        "retweets": 135,
-        "replies": 155
-      },
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]

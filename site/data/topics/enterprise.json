@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-08T07:33:01.365Z",
+  "generatedAt": "2026-11-09T00:31:03.666Z",
   "slug": "enterprise",
   "label": "Business AI",
   "items": [
     {
       "id": "c97c222d182c4cdd",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
@@ -58,7 +58,7 @@
     },
     {
       "id": "20fe471b8fec32d2",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Mistral AI Blog",
@@ -102,7 +102,7 @@
     },
     {
       "id": "f7fe61c9c66d96ea",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Import AI",
@@ -152,6 +152,59 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "92058b2fa72628a2",
+      "date": "2026-11-09",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Why the Cyberpocalypse Might Hit China Harder",
+      "url": "https://www.chinatalk.media/p/china-in-the-cyberpocalypse",
+      "publishedAt": "2026-11-08T11:03:30.000Z",
+      "content": "Chang Che is a writer and contributor to the New Yorker . In August, researchers at a California security firm used an OpenAI model to find a software bug in PHP, a programming language that undergird some seventy per cent of the world&#8217;s websites, including Wikipedia and WordPress. They alerted PHP&#8217;s developers, who quietly began working on a fix. By late October, the fix was ready, but before they could alert the world, the break-in attempts had begun. Days earlier, Amazon detected someone trying to hack into its servers; attacks code began circulating online. Some governments and companies began pulling websites down, rather than risk a security breach. One security firm described the flaws as some of the worst ever found in PHP, &#8220;and arguably in software history.&#8221; Before AI, the internet might have looked, to a hacker, like a worn-out bug screen. You could discern some holes with a keen eye, and that knowledge was reliably asymmetric&#8212;others probably didn&#8217;t know about the holes you found. Moreover, tunneling through the holes undetected took months or years of human labor, talent, and money. Now, with AI, the internet looks more like a block of Swiss cheese: the holes are obvious, anyone can, or will, see them, and the time and cost it takes to exploit these software flaws have plunged alarmingly fast . According to Google&#8217;s incident response team , the average time it takes for cyber criminals to exploit a new vulnerability is -7 days, meaning hacking attempts are &#8220;routinely occurring before a patch is even released.&#8221; A China Central Television (CCTV) feature about the PHP vulnerability discovered by cybersecurity firm Calif, with the aid of OpenAI models. Source . Hackers refer to unbeknownst software bugs like PHP as &#8220;zero-days&#8221; because a defender has had zero days to protect themselves upon its discovery. Once a hacker discovers a zero-day in, say, iOS software, every iPhone user is potentially…",
+      "summary": "In August, researchers at a California security firm used an OpenAI model to find a software bug in PHP, a programming language that undergird some seventy per cent of the world&#8217;s websites, including Wikipedia and WordPress.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "code",
+            "developer",
+            "programming"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.66,
       "whyThisMatters": ""
     },
     {
@@ -2438,57 +2491,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.7,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "86b88903578053ec",
-      "date": "2026-10-23",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "AI & I by Every",
-      "sourceKey": "podcast:AI & I by Every",
-      "builderOrOrg": "AI & I by Every",
-      "title": "How a Frontier Team Can Help Your Company Keep Up With AI",
-      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
-      "publishedAt": "2026-10-21T18:31:26.000Z",
-      "content": "You need a frontier team. Here's why. Every single person in your company is caught in this dilemma. Do I get my work done or do I stay up to date with AI and figure out what all these new tools and workflows mean for what work I should do? That's just crazy. It's so hard to figure out. Every single company is struggling with this right now. Because, I mean, on the one hand, you could ignore the frontier and that'll probably work for a little while until you get disrupted by some agent native version of your product that you didn't see coming. Or you can keep up with the frontier and just chase shiny objects and never build anything that lasts. The reason why you need a frontier team is it separates things out. So you get this nice separation of concerns where you're both keeping up with what's going on on the frontier and you're actually getting your work done. And I had my co-host, Natalia. Welcome, Natalia. Hey, Dan. Good to be here. Who is our head of enterprise AI adoption. Come in and do a little bit of digging into our Frontier team. So we've been running the Frontier team at Every for, I guess, a couple of months now. And it has been kind of transformative. And I think Natalia is one of the best people to come in and take a peek and be like, what are we actually doing? So actually, I might turn the tables a little bit to you because it was your idea to have a frontier team. Yeah. I mean, yeah, the frontier team, I think has been a huge unlock and it's because of this separation that, that I've been talking about. I think there's so many people at every like me who just love playing with new things and that's super important. But if that's all you're doing, then you're, you're not going to make progress as a business. Like you actually do need to go execute on products and services, things that people can rely on. And it felt like we needed to choose one or the other. Yeah. either just constantly be playing with new stuff or make a product that we just build once and then we add features to and we support forever. And the Frontier team was in a sort of an attempt to say, okay, what if we take all the people like me who love all the new stuff and we just unleash us to just run experiments? And at the low end, the experiments are just, they're just really good content. They just teach us something interesting and they become good tweets or YouTube videos or anything like that. And then on the high end, they get pushed up from the frontier into the products that we build, into the services that we offer, without the rest of the company feeling like they always had to be paying attention to every single model that drops in every single new experiment that we're running. So I felt like it's allowed me and the other people on the frontier team the space to just figure out what the future looks like without forcing that on the rest of the company until it's actually ready for them to pay attention to it. Now, one of the things that you seem to have figured out pretty early in the formation of the Frontier team is that you wanted to have both pirates and architects. Can you describe what that is? I think there's two archetypes that work really well together, pirates and architects. Pirates are people like me who are just like, I just want to go really fast and I'm going to do stuff that's kind of be a little bit sloppy, but I'm going to try like a billion things in the space of a couple days. And I'm going to figure out what's useful. but it's gonna be a mess. Architects are people who are really good at being like, there's a whole big messy thing what would it look like to compress it a little bit and form it into a shape that actually works, that we can actually use? Because what we try to do on the Frontier team is we're experimenting with lots of stuff. Most of that stuff gets thrown out. And some of it ends up getting pushed into the rest of the team to see if the rest of the team likes it. And at that point, there's a po…",
-      "summary": "You need a frontier team. Here's why. Every single person in your company is caught in this dilemma. Do I get my work done or do I stay up to date with AI and figure out what all these new tools and workflows mean for what work I should do…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "video"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.74,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.59,
       "whyThisMatters": ""
     }
   ]
