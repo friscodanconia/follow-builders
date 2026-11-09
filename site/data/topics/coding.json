@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-11-09T00:31:03.666Z",
+  "generatedAt": "2026-11-09T06:57:28.689Z",
   "slug": "coding",
   "label": "Coding",
   "items": [
     {
-      "id": "bdfbf8294f7ddd19",
+      "id": "30b6607e89492721",
       "date": "2026-11-09",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:karpathy",
-      "builderOrOrg": "Andrej Karpathy",
-      "title": "Earlier this week Tristan published his top YouTube channels: https://t.co/NZ3UCNo6cT Which loo…",
-      "url": "https://x.com/karpathy/status/2119114537442189652",
-      "publishedAt": "2026-11-07T17:07:31.000Z",
-      "content": "Earlier this week Tristan published his top YouTube channels: https://t.co/NZ3UCNo6cT Which looked excellent so clearly I had to turn it into TristanTube: https://t.co/l0KyW1WdNH 47K super nerdy videos +TV mode for laid back watching. (One-shotted with Claude Code in 3 minutes) https://t.co/FZU0ltwVxL",
-      "summary": "Earlier this week Tristan published his top YouTube channels: https://t.co/NZ3UCNo6cT Which looked excellent so clearly I had to turn it into TristanTube: https://t.co/l0KyW1WdNH 47K super nerdy videos +TV mode for laid…",
+      "sourceKey": "x:zarazhangrui",
+      "builderOrOrg": "Zara Zhang",
+      "title": "I’ve almost stopped using the term “vibe coding” because there’s a negative connotation to it I…",
+      "url": "https://x.com/zarazhangrui/status/2119592080318341128",
+      "publishedAt": "2026-11-09T00:45:06.000Z",
+      "content": "I’ve almost stopped using the term “vibe coding” because there’s a negative connotation to it It implies that you didn’t put a lot of effort or soul into the output and it’s just AI slop But oftentimes people ARE putting their heart and soul into the work even when using AI coding tools. The 2 are not contradictory We need a better word for describing this",
+      "summary": "I’ve almost stopped using the term “vibe coding” because there’s a negative connotation to it It implies that you didn’t put a lot of effort or soul into the output and it’s just AI slop But oftentimes people ARE puttin…",
       "regionTags": [],
       "metrics": {
-        "likes": 6445,
-        "retweets": 515,
-        "replies": 475
+        "likes": 404,
+        "retweets": 12,
+        "replies": 182
       },
       "topics": [
         {
@@ -28,16 +28,60 @@
           "label": "Coding",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "code"
+            "coding"
           ],
           "score": 1
         },
         {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
+          "slug": "tool-use",
+          "label": "AI Using Tools",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "video"
+            "tools"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "ebf49fa9966d3c70",
+      "date": "2026-11-09",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "Latent Space",
+      "sourceKey": "podcast:Latent Space",
+      "builderOrOrg": "Latent Space",
+      "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+      "url": "https://www.youtube.com/watch?v=dpY7YzZo4kE",
+      "publishedAt": "2026-11-08T21:23:29.000Z",
+      "content": "Okay, this is a pretty special episode because we're celebrating one million subscribers on the AIU Code, uh, AI, AI Engineer YouTube channel. So go over there and subscribe if you haven't heard about it already. The guest is Mihail Eric, who is not only teaching the Modern Software Developer at Stanford, which is going viral right now for basically covering all the AI-native development pract- best practices, uh, but also he is head of AI at Monaco. So he's not only a teacher, but he's a practitioner. Um, and those of you coming to AIU Code Summit next week, um, it's gonna be the celebration of all the extreme progress that you've seen in coding in the last year. I'm excited about all the themes of fighting slop, of system one models, and of increasing your ambition for major rewrites of basically everything that you've seen in code. Um, there's never been a more exciting time to be an AI engineer, and with one million AI engineers, I think it's just getting started. So let's get into the interview. Okay, we're in the studio with Mihail Eric, Adjunct Professor at Stanford and Head of AI at Monaco. Welcome. Thank you. I'm glad to be here. You caught our attention because of your course that you are refreshing for the third time, third year? Second time. Second time? Yep. The CS 146, or 146S, the Modern Software Developer at Stanford. This particular generation of junior developers, of junior engineers, the people that are now entering the workforce, will, I think, be the first kind of generation of that new shift. And I looked at the syllabus, and I was like, \"This is everything we cover.\" So every now and then, I like to invite people like yourself who, like, you cover a broad range of topics- Mm-hmm... and then we can sort of go topic by topic and give people the state of the art- Yeah... on each of these things, which I, I assume you're doing with all your guests anyway. For sure. Tell us the history of the course. What made you wanna spring out CS 146? Yeah. So this is the second time it's being taught, and I taught it for the first time last fall, so fall 2025. This was pre, like, Opus 4.5, 4.6 days. But the-- Even before fall 2025, the course had been about, like, a year in the making. The genesis of the class was like November of 2024, and I had sort of had this idea that we're seeing all this stuff happening in coding agents, and yes, they were an earlier version of the coding agents, but already it felt like there was something drastically changing in terms of how developers were doing their work, how quickly we were getting work done, uh, all that fun stuff. And so at the time, I just-- It was all just scattered blog posts, scattered, like, things you could find online if you were trying to really get into the, the methodology of how to do these things. And so I, I had this idea like, \"Hey, well, is there a way to kind of structure a curriculum around this that's a little bit more formal?\" Had the idea. And you know, I, my alma mater is Stanford, and I always had this dream to go back and teach something and, and kind of pay it forward. Uh, I've always been very deep into education. I talked to Chip, who also taught a class, uh, one of my good friends. Chip Hieatt. Yeah. Yeah, Chip Hieatt, exactly. Uh, spoke to her. Who-- She had taught her, I guess, designing machine learning systems, and so, like, asked her what that process was like, and sort of, you know, took a lot of inspiration for how she-- from how she designed the curriculum and, and thought about, you know, getting something through the, through the school. Put it together, spent about nine to ten months. This was now fall of 2024 through to, like, you know, mid to late of 2025. Got it through the committee, uh, made a case for the class to exist. You know, I had to put together a proposal and everything. Uh, and that took me to fall 2025, when I taught it for the first time, which was very well-received. You know, students were really interested in it. U…",
+      "summary": "Okay, this is a pretty special episode because we're celebrating one million subscribers on the AIU Code, uh, AI, AI Engineer YouTube channel. So go over there and subscribe if you haven't heard about it already. The guest is Mihail Eric,…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "coding",
+            "code",
+            "developer"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
           ],
           "score": 1
         },
@@ -51,57 +95,11 @@
           "score": 1
         }
       ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "30626ae901674623",
-      "date": "2026-11-09",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "This sounds extreme and I wouldn’t have believed it even a year ago, but we’re starting to see…",
-      "url": "https://x.com/levie/status/2119111328099168409",
-      "publishedAt": "2026-11-07T16:54:46.000Z",
-      "content": "This sounds extreme and I wouldn’t have believed it even a year ago, but we’re starting to see plenty of examples of productivity gains that are an order of magnitude or two above output levels pre-AI. With the right harness, a deep understanding of your domain of what you want to build, likely a relatively new codebase (with some exceptions), a fluency of how to work with multiple agents at once, and a setup that makes it so you can test and deploy with limited friction, outputs on this level…",
-      "summary": "This sounds extreme and I wouldn’t have believed it even a year ago, but we’re starting to see plenty of examples of productivity gains that are an order of magnitude or two above output levels pre-AI. With the right ha…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 582,
-        "retweets": 51,
-        "replies": 99
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.65,
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.66,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.78,
       "whyThisMatters": ""
     },
     {
@@ -251,9 +249,9 @@
       ],
       "section": "Podcasts & Newsletters",
       "importanceScore": 0.54,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -305,9 +303,9 @@
       ],
       "section": "Podcasts & Newsletters",
       "importanceScore": 0.54,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.7,
+      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -358,9 +356,110 @@
       ],
       "section": "Podcasts & Newsletters",
       "importanceScore": 0.48,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "bdfbf8294f7ddd19",
+      "date": "2026-11-09",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:karpathy",
+      "builderOrOrg": "Andrej Karpathy",
+      "title": "Earlier this week Tristan published his top YouTube channels: https://t.co/NZ3UCNo6cT Which loo…",
+      "url": "https://x.com/karpathy/status/2119114537442189652",
+      "publishedAt": "2026-11-07T17:07:31.000Z",
+      "content": "Earlier this week Tristan published his top YouTube channels: https://t.co/NZ3UCNo6cT Which looked excellent so clearly I had to turn it into TristanTube: https://t.co/l0KyW1WdNH 47K super nerdy videos +TV mode for laid back watching. (One-shotted with Claude Code in 3 minutes) https://t.co/FZU0ltwVxL",
+      "summary": "Earlier this week Tristan published his top YouTube channels: https://t.co/NZ3UCNo6cT Which looked excellent so clearly I had to turn it into TristanTube: https://t.co/l0KyW1WdNH 47K super nerdy videos +TV mode for laid…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 6445,
+        "retweets": 515,
+        "replies": 475
+      },
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "video"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "30626ae901674623",
+      "date": "2026-11-09",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:levie",
+      "builderOrOrg": "Aaron Levie",
+      "title": "This sounds extreme and I wouldn’t have believed it even a year ago, but we’re starting to see…",
+      "url": "https://x.com/levie/status/2119111328099168409",
+      "publishedAt": "2026-11-07T16:54:46.000Z",
+      "content": "This sounds extreme and I wouldn’t have believed it even a year ago, but we’re starting to see plenty of examples of productivity gains that are an order of magnitude or two above output levels pre-AI. With the right harness, a deep understanding of your domain of what you want to build, likely a relatively new codebase (with some exceptions), a fluency of how to work with multiple agents at once, and a setup that makes it so you can test and deploy with limited friction, outputs on this level…",
+      "summary": "This sounds extreme and I wouldn’t have believed it even a year ago, but we’re starting to see plenty of examples of productivity gains that are an order of magnitude or two above output levels pre-AI. With the right ha…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 582,
+        "retweets": 51,
+        "replies": 99
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.65,
       "whyThisMatters": ""
     },
     {
@@ -2311,111 +2410,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.58,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "1e676fd6cae438ab",
-      "date": "2026-11-01",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "No Priors",
-      "sourceKey": "podcast:No Priors",
-      "builderOrOrg": "No Priors",
-      "title": "Taking on ServiceNow: Coding Agents the Rest of Us with Serval Co-Founder and CEO Jake Stauch",
-      "url": "https://www.youtube.com/@NoPriorsPodcast",
-      "publishedAt": "2026-10-29T10:00:00.000Z",
-      "content": "Speaker 1 | 00:00 - 00:09 This is the ultimate moonshot in enterprise software. These agents that go off and do work for you and magically discover all your problems and solve all your problems. And I think no one's really figured out how to do this well. Speaker 2 | 00:09 - 00:13 This is kind of the OpenAI hugging face incidents or other things where agents are given a task and then Speaker 1 | 00:13 - 00:28 they do something that's unexpected. The agent becomes pretty competent. They could theoretically just start writing code that could take action on all your systems, and that is an unbounded security risk that I don't think anyone's gonna be able to take anytime soon. On the one hand, you want these to be very autonomous without somebody babysitting babysitting them. Them. Speaker 1 | 00:28 - 00:40 On the other hand, autonomy is very scary in the enterprise. Serval is the boundary. Serval is the guardrails. We are the way that a large enterprise with a lot of rules and approvals and process and politics can adopt these tools safely and comfortably at scale. Speaker 3 | 00:48 - 01:08 Hi, listeners. Welcome back to No Priors. Today, Elad and I are here with Jake Stouch, cofounder and CEO of Serval. Serval, with all the speed of the African wildcat, is trying to attack ServiceNow and more broadly bringing the power of cogeneration to IT and enterprise teams overall. Welcome, Jake. Speaker 2 | 01:08 - 01:10 Jake, thanks for joining us today on Enterprise. Speaker 1 | 01:10 - 01:13 Thank you. Great to be here. Maybe you could tell us a Speaker 2 | 01:13 - 01:18 little bit more about your history and how you started Serval, and what what is the problem that you started with, or why did start working on this to begin with? Speaker 1 | 01:18 - 01:31 Yeah. So background, Serval is enterprise automation, enterprise service management. The idea is you can ask questions and get help at work and automate a lot of the parts of the job you don't enjoy, and we do that through cogen agents. So that's the... What the company does. Speaker 1 | 01:31 - 02:04 We compete with companies like ServiceNow, is historically the big legacy provider in the space. I discovered this category actually working at a previous company called Verkada, where we sold enterprise physical security products to IT teams, spent many, many years talking to IT teams, figuring out what to build for them. And one of the things I love to to do with these teams is ask them, what do you spend the most money on, and what do you hate the most? And ServiceNow would top a lot of those lists. And so I was always interested in this category of maybe there's a better solution here, but it wasn't clear for most of my time there how you'd ever beat ServiceNow. Speaker 1 | 02:04 - 02:10 They're a great company. They've done so much so well, and why would you be able to compete with them? Speaker 3 | 02:10 - 02:12 What was frustrating for users about it? Speaker 1 | 02:13 - 02:49 I think so hard to build in the platform. So it's a very robust, customizable, powerful platform that can map to all these enterprise workflows fundamentally. It's a workflow automation platform, and so it can do so much, but every idea you have for doing something cool, you have to go and implement, and a lot times you're bringing consultants to implement it. So it's always kind of running six to twelve months behind where you want it to be, and it's fine if you're building something that's gonna last five, ten years, like a big onboarding flow, and nothing about your business is gonna change, so you can invest all that upfront effort, and then it gets deployed, and it works for a while. But for just trying to keep up with all the automation that you wanna build, ServiceNow is not able to catch up. Speaker 1 | 02:49 - 02:59 And and then it's very expensive, and it keeps getting more expensive over time, so that frustration of it's not keeping up with where I wanna go as a business, and it keeps getting mor…",
-      "summary": "Speaker 1 | 00:00 - 00:09 This is the ultimate moonshot in enterprise software. These agents that go off and do work for you and magically discover all your problems and solve all your problems. And I think no one's really figured out how…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "autonomous"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.69,
-          "rationale": [
-            "enterprise",
-            "security"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.74,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.59,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4c84350dcc40d710",
-      "date": "2026-10-31",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "Why Agents Love Supabase",
-      "url": "https://latent.space/p/supabase/",
-      "publishedAt": "2026-10-28T19:48:05.000Z",
-      "content": "I first met Paul Copplestone and Ant Wilson in Singapore, shortly after they finished YC as the hottest startup of YC S20 . Six years later, we finally got them on the podcast! This is their first podcast together, after taking an open-source, fully remote company from zero to a $10 billion valuation. The title is a question I wanted to understand for myself: why do agents love Supabase? There are plenty of managed databases. Postgres hosting is competitive. Being familiar to a model is useful distribution, but it doesn't explain all the work needed to turn a generated application into something that runs. But when I ran my frontier AEO tracker , it was an almost complete sweep of first choice for app backends (and in contention for managed db ) for every frontier model from Astra to Fable to Muse. At Select, Supabase grouped its announcements into Build, Operate and Scale. The things that stood out to me were surprisingly practical: start a local backend without Docker, keep the desired database schema in Git, and run compute beside the database. Each removes a piece of work that developers have been doing for years. Agents make that friction harder to ignore. Watch the full conversation, including my opening commentary → Give the agent a backend it can read My favorite developer-tool announcements make me think: of course I want this today. The new alpha runtime for running Supabase locally without Docker is one of those. I use Colima rather than Docker Desktop, and even then, removing another dependency from the path to a working database is welcome. Local setup is a small part of a human developer's week; an agent that repeatedly creates and tests environments encounters it over and over. Declarative schemas are the bigger idea. The familiar SQL workflow accumulates a history: create the schema, then migrate, migrate, migrate. A declarative representation gives the agent a description of the state you want, in files it can inspect and edit alongside the applica…",
-      "summary": "Paul Copplestone and Ant Wilson on building the backend for AI agents",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "developer"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open-source"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     }
   ]
