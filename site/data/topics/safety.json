@@ -1,11 +1,64 @@
 {
-  "generatedAt": "2026-11-09T08:10:26.305Z",
+  "generatedAt": "2026-11-10T00:31:06.486Z",
   "slug": "safety",
   "label": "AI Safety",
   "items": [
     {
+      "id": "1ec9e304baa2d64e",
+      "date": "2026-11-10",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "url": "https://openai.com/index/control-room",
+      "publishedAt": "2026-11-09T13:00:00.000Z",
+      "content": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+      "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.78,
+      "whyThisMatters": ""
+    },
+    {
       "id": "f95c730a678de467",
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -49,7 +102,7 @@
     },
     {
       "id": "99c065dc43a7e02d",
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -2211,53 +2264,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "46e2e52d5b7cd2c6",
-      "date": "2026-09-18",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:levie",
-      "builderOrOrg": "Aaron Levie",
-      "title": "Incredibly exciting that there are entire universes of AI innovation that still exist that were…",
-      "url": "https://x.com/levie/status/2100448648672993540",
-      "publishedAt": "2026-09-17T04:55:56.000Z",
-      "content": "Incredibly exciting that there are entire universes of AI innovation that still exist that weren’t even on most of our radars. Being able to process information insanely quickly, at crazy low costs, with high levels of capability is huge for a wide number of enterprise tasks. Data classification tasks, routing decisions inside of a workflow, decision making when handed a particular domain problem, quick judgment calls about safety or security, and more all are the gates in a large number of pro…",
-      "summary": "Incredibly exciting that there are entire universes of AI innovation that still exist that weren’t even on most of our radars. Being able to process information insanely quickly, at crazy low costs, with high levels of…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 102,
-        "retweets": 7,
-        "replies": 20
-      },
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.69,
-          "rationale": [
-            "enterprise",
-            "security"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.78,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.61,
       "whyThisMatters": ""
     }
   ]

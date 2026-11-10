@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-09T08:10:26.305Z",
+  "generatedAt": "2026-11-10T00:31:06.486Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
     {
       "id": "0633c140932a0ea5",
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -38,6 +38,112 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "2bcb036306e3473a",
+      "date": "2026-11-10",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team",
+      "url": "https://latent.space/p/handshake/",
+      "publishedAt": "2026-11-09T17:15:53.000Z",
+      "content": "This is our first Latent Space deep dive with an AI data company . In roughly a year, Handshake’s AI training business went from launch to $1 billion in gross annualized revenue . What are frontier labs buying at that scale? What evals are models still nowhere close to human level on? Garrett Lord brought the people who build these reinforcement learning environments to show us. For the first time, we are walking through them live! To cover the scope of Handshake, we had to produce a very special joint podcast across our Science/Engineering/Research/Finance podcast hosts, because Handshake’s business runs across all these and more. Watch for three segments after the general intro: Finance. In the finance demo, the agent has to find its assignment in a bank’s email, work out which files govern the deal, and deliver a workbook. Watch what happens to one line in the client’s email about existing goodwill. The agent carries the number into Python and subtracts it. Collin points out that the model can explain the tax treatment when you ask it directly. The mistake comes when it has to recognize that this particular line of code is where the rule applies. Bio. Nick Magazine and Jonas Mueller show us VIALS, Handshake’s benchmark for interpreting the images scientists use at work. Nick puts nine slides of brain-tumor tissue on screen and asks which two show the most advanced vessel necrosis. Give yourself a moment before his answer. Nick picks H and I. The model picks those two and adds G. Watching Nick point to what’s missing from the tissue is more instructive than seeing the score. Coding. In a simulated file-access task, the team can inspect which files an agent read, whether it checked the copies, and what it did to the shell history afterward. A transcript of the agent’s final reply would miss most of what Steve Kelling and Nishant Ranka are evaluating. Who’s in the room 🟣 AI data business — Garrett Lord, Sahil Bhaiwala and Nishant Ranka open and close the episode o…",
+      "summary": "Handshake went from launch to $1B in one year pushing the envelope of specialized data for frontier labs. Our first deep dive into a data lab with specific examples across Finance, Bio, and Alignment",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "science"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "benchmark",
+            "eval"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c717a1c34a41e0d5",
+      "date": "2026-11-10",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Anthropic IPO: Whither Now?",
+      "url": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
+      "publishedAt": "2026-11-07T03:04:53.000Z",
+      "content": "It’s a relatively quiet news day, and the AI market rout we referenced obliquely two days ago has deepened, though it might be leveling off not even halfway into bear market territory (-10% on Nasdaq, not -20%). That said, everything being “priced to perfection” means any surprise that is not to the upside is probably to the downside, knocking valuation estimates down as low as $1T and probability down 18% . Anthropic’s year end target is $100B run rate, and they’re now at $80B . We discuss all the most important lessons and assumptions in today’s bonus weekend pod, our second in the series covering the Anthropic IPO, with friend of the show Jamin Ball : If you liked our pod, or think the economy is going to hell in a handbasket, you’re gonna need to back up your data to the cloud. We use it for Smol. Help the pod and check out their new offers ! Sponsored by Backblaze B2 If your data is growing faster than planned, you need storage that grows with your business, feeds flash and GPUs with terabit-scale throughput, and doesn’t charge egress. Backblaze B2 has delivered capacity tier storage for twenty years, manages more than six exabytes, and is trusted by leading neoclouds, labs, and gen AI companies. Growth shouldn’t be something you sweat. We’ve got room for whatever you’re building. Come and try it out. enquiries: business@latent.space Thanks for helping us make AINews sustainable! AI News for 11/05/2026-11/06/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Thinking Machines' Inkling 2 Small Sets a New Bar for US Open Models Release and specs : Thinking Machines launched Inkling 2 Small, a natively multimodal MoE model ( @Haoxiang__Wang ). Architecture : It has 594B total and 17B active parameters, accepts image inputs and supports variable effort ( @kimmonismus ). Licensing and…",
+      "summary": "November 6, 2026 — ARC Prize tests Inkling 2 Small, and Thinking Machines explains how it caught early checkpoints bypassing guardrails.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.69,
+          "rationale": [
+            "multimodal",
+            "image"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "throughput"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "imo"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -145,58 +251,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "c717a1c34a41e0d5",
-      "date": "2026-11-09",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Anthropic IPO: Whither Now?",
-      "url": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
-      "publishedAt": "2026-11-07T03:04:53.000Z",
-      "content": "It’s a relatively quiet news day, and the AI market rout we referenced obliquely two days ago has deepened, though it might be leveling off not even halfway into bear market territory (-10% on Nasdaq, not -20%). That said, everything being “priced to perfection” means any surprise that is not to the upside is probably to the downside, knocking valuation estimates down as low as $1T and probability down 18% . Anthropic’s year end target is $100B run rate, and they’re now at $80B . We discuss all the most important lessons and assumptions in today’s bonus weekend pod, our second in the series covering the Anthropic IPO, with friend of the show Jamin Ball : If you liked our pod, or think the economy is going to hell in a handbasket, you’re gonna need to back up your data to the cloud. We use it for Smol. Help the pod and check out their new offers ! Sponsored by Backblaze B2 If your data is growing faster than planned, you need storage that grows with your business, feeds flash and GPUs with terabit-scale throughput, and doesn’t charge egress. Backblaze B2 has delivered capacity tier storage for twenty years, manages more than six exabytes, and is trusted by leading neoclouds, labs, and gen AI companies. Growth shouldn’t be something you sweat. We’ve got room for whatever you’re building. Come and try it out. enquiries: business@latent.space Thanks for helping us make AINews sustainable! AI News for 11/05/2026-11/06/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Thinking Machines' Inkling 2 Small Sets a New Bar for US Open Models Release and specs : Thinking Machines launched Inkling 2 Small, a natively multimodal MoE model ( @Haoxiang__Wang ). Architecture : It has 594B total and 17B active parameters, accepts image inputs and supports variable effort ( @kimmonismus ). Licensing and…",
-      "summary": "November 6, 2026 — ARC Prize tests Inkling 2 Small, and Thinking Machines explains how it caught early checkpoints bypassing guardrails.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.69,
-          "rationale": [
-            "multimodal",
-            "image"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "throughput"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "imo"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -2380,52 +2434,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "323c5a3db21d159e",
-      "date": "2026-10-07",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:realmadhuguru",
-      "builderOrOrg": "Madhu Guru",
-      "title": "The most common mistake teams make is to treat evals as an additional QA step once the agent is…",
-      "url": "https://x.com/realmadhuguru/status/2107292113214091355",
-      "publishedAt": "2026-10-06T02:09:26.000Z",
-      "content": "The most common mistake teams make is to treat evals as an additional QA step once the agent is built. AI products are fundamentally different. Your evals are your product spec.",
-      "summary": "The most common mistake teams make is to treat evals as an additional QA step once the agent is built. AI products are fundamentally different. Your evals are your product spec.",
-      "regionTags": [],
-      "metrics": {
-        "likes": 68,
-        "retweets": 4,
-        "replies": 23
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "eval"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.65,
       "whyThisMatters": ""
     }
   ]

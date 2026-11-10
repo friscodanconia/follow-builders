@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-09T08:10:26.305Z",
+  "generatedAt": "2026-11-10T00:31:06.486Z",
   "slug": "agents",
   "label": "AI Assistants",
   "items": [
     {
       "id": "b0dc290a9101c1dc",
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -36,13 +36,13 @@
       "section": "Builders",
       "importanceScore": 0.84,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.65,
       "whyThisMatters": ""
     },
     {
       "id": "ebf49fa9966d3c70",
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "sourceType": "podcast",
       "sourceGroup": "mirrored",
       "sourceName": "Latent Space",
@@ -91,6 +91,382 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "39274e23778df996",
+      "date": "2026-11-10",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "CodeRabbit scales agentic software development and ships 20x more",
+      "url": "https://openai.com/index/coderabbit-codex-daybreak",
+      "publishedAt": "2026-11-09T08:00:00.000Z",
+      "content": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.82,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7e32bafdbbd65112",
+      "date": "2026-11-10",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google DeepMind Blog",
+      "sourceKey": "official:Google DeepMind Blog",
+      "builderOrOrg": "Google DeepMind",
+      "title": "Agentic cheminformatics with Google Antigravity",
+      "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+      "publishedAt": "2026-11-03T17:01:49.000Z",
+      "content": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+      "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c9c08de7396e3863",
+      "date": "2026-11-10",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Formally verifying agent-written full-stack web apps with PDD Kit",
+      "url": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/",
+      "publishedAt": "2026-11-05T16:00:00.000Z",
+      "content": "At a glance Formal methods for everyday software. PDD Kit helps you turn your intent into a formal spec, then proves the code your agent writes for every input and uses tests where a proof can&#8217;t reach. It takes formal methods beyond niche, specialist work to engineers without a formal methods background and to everyday applications, like the full-stack web app shown here. Exhaustive line-by-line human review can become difficult to scale as AI agents generate increasingly large amounts of code. The plan is supposed to be the contract between you and a coding agent, but nothing actually forces the agent to follow it. The tests it writes usually check what it built, rather than what you asked for.&nbsp; PDD Kit makes the agent keep the plan. It works with you to turn your intent into a formal specification in Verus (opens in new tab) , proves the agent&#8217;s code meets that spec for every input, and falls back to tests where a proof can&#8217;t reach. We tried it on a full-stack web app. Inside GitHub Next&#8217;s Chopin (opens in new tab) , we used PDD Kit to formally verify the login logic of Pet Store, a Rust (opens in new tab) storefront. Verus hardened the code and uncovered existing bugs, proving the absence of login bugs with respect to the specification. The developer reviewed the intent and never read the generated code line-by-line.&nbsp; The plan is the contract the agent should follow, but nothing constrains the agent to follow it. Coding agents now ship whole features in one sitting often spanning tens of thousands or hundreds of thousands of lines of code. As a result, reading every line of the pull request doesn&#8217;t scale to this new way of work. Now, most teams invest in the plan and relevant testing instead: describe to an agent what they want, go back and forth until the plan and proposed tests look right, and hand&nbsp;them off to the agent for implementation.&nbsp; This plan or natural language spec is meant to be the contract that an…",
+      "summary": "AI agents can generate code at a scale that’s hard for humans to review line-by-line. PDD Kit helps ensure the code is doing what the developer intended by creating formal specifications and testing against them. It converts developer inte…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "coding",
+            "code",
+            "developer"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "github"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "f73cb4284d56e2cb",
+      "date": "2026-11-10",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "Together Compiler: Continual Compilation for AI inference",
+      "url": "https://www.together.ai/blog/together-compiler-continual-compilation-for-ai-inference",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "content": "Together Compiler uses agents and persistent engines to optimize open models in under 24 hours, delivering up to 3.7x higher throughput as traffic changes.",
+      "summary": "Together Compiler uses agents and persistent engines to optimize open models in under 24 hours, delivering up to 3.7x higher throughput as traffic changes.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "inference",
+            "throughput"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "217095fc5403f539",
+      "date": "2026-11-10",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "Polymorphic Inference: self-tuning inference for open models",
+      "url": "https://www.together.ai/blog/polymorphic-inference",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "content": "Models, traffic and chips are constantly changing. Polymorphic Inference adapts to each, and Together Compiler uses AI agents to keep production inference tuned.",
+      "summary": "Models, traffic and chips are constantly changing. Polymorphic Inference adapts to each, and Together Compiler uses AI agents to keep production inference tuned.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "20fe471b8fec32d2",
+      "date": "2026-11-10",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "Build Enterprise Agents, Workflows & Apps in Mistral Studio",
+      "url": "https://mistral.ai/news/build-with-studio/",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "content": "Build and deploy enterprise agents, workflows and apps faster with Mistral Studio and Le Chonk full control over your models, data and infrastructure.",
+      "summary": "Build and deploy enterprise agents, workflows and apps faster with Mistral Studio and Le Chonk full control over your models, data and infrastructure.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.8,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.63,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "7ba236ad3694441c",
+      "date": "2026-11-10",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+      "url": "https://latent.space/p/cs146s/",
+      "publishedAt": "2026-11-08T21:41:44.000Z",
+      "content": "The AI Engineer YouTube channel just crossed one million subscribers . Thank you to everyone who’s watched a talk, sent one to a teammate, or put something they learned into production. For this special, we wanted to sit down with someone who has to answer a question a lot of us are asking at work: what should a software engineer actually learn now? Mihail Eric has two places to test his answer. He teaches The Modern Software Developer at Stanford and leads AI at Monaco, where his colleagues use coding agents to ship software and investigate outages. I asked him to take us through the syllabus, then tell us which parts survived contact with his own engineering team. This is also meant as a preview for all of you joining us in San Francisco for AIE Code next week, as required knowledge for all the conversations with the speakers, sponsors and attendees you’re about to have. If you can see this as a LS subscriber and haven’t got a ticket yet, you can use this code for 30% off (no refunds, sorry) Last year’s homework takes one prompt The first run of CS146S had nine assignments and a capstone. In one exercise, students ran an AI code reviewer on a repo and evaluated its feedback. By the next run, Mihail figured students could one-shot a lot of those exercises. When he asked a room of Stanford sophomores and juniors how they coded, everyone he surveyed was already using an agent. So this time, part of the homework is contributing to an open-source project. The person who maintains the repo reviews the student’s patch. I like what that does to the assignment. You can ask an agent to implement a feature in an afternoon. You still have to find out whether the maintainer wants it, why the code behaves the way it does, and what else your patch might break. That conversation is also how a junior engineer gets to learn from a senior one. There’s an exercise in the episode you can borrow for your next PR. Geoffrey Litt’s explain-diff skill turns a change into a visual walkthro…",
+      "summary": "What happens when students can one-shot last year’s homework? Inside CS146S and the engineering team at Monaco.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.9299999999999999,
+          "rationale": [
+            "coding",
+            "code",
+            "developer"
+          ],
+          "score": 4
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "open-source"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "4871fb5d90794fba",
+      "date": "2026-11-10",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+      "url": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
+      "publishedAt": "2026-11-08T21:23:29.000Z",
+      "content": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have to learn an unfamiliar repo, propose a change, and explain the patch to the person who might merge it. We invited Mihail, who teaches The Modern Software Developer at Stanford and leads AI at Monaco, to celebrate one million subscribers on the AI Engineer YouTube channel. He opens up the course syllabus and shows us which lessons survived contact with his own engineering team. Monaco built its agent workspaces, bought its code review tools, and gave an on-call agent access to Datadog and GitHub. We ask how he decides which tools his team needs to own. Watch the full interview and screenshares on YouTube . Show notes Stanford CS146S — The ten-week syllabus and assignments. The Emperor Has No Clothes — Mihail builds a coding agent from scratch. Demystifying Claude Code — Mihail traces a real agent harness. Monaco’s agent workspaces — How the team sets up a workspace for each agent. How to Kill the Code Review — Our essay on what happens when code generation outruns review. Basis’s Authority Map — How agents distinguish current behavior from earlier design decisions. Stripe’s Minions — A look inside Stripe’s background coding agents. AI Engineer CODE Summit — The conference mentioned in the opening. Timestamps 0:00 One million AI Engineer subscribers and the CODE Summit 0:51 Mihail Eric and Stanford CS146S 5:26 What junior engineers need to learn now 10:02 Open-source maintainers review the students’ code 15:04 A tour of the ten-week syllabus 24:04 The loop, tools and harness inside a coding agent 32:18 Context engineering for a large codebase 38:15 Skills that make you understand the diff 46:42 The Monaco.com dispute and the airplane banner 50:23 What Monaco does for sales teams 59:21 Inside Monaco’s engineering team 1:01:40 “You buy to learn, and you build to keep” 1:0…",
+      "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have to learn an unfamiliar repo, propose a…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.9299999999999999,
+          "rationale": [
+            "coding",
+            "code",
+            "developer"
+          ],
+          "score": 4
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.69,
+          "rationale": [
+            "open-source",
+            "github"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -197,337 +573,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.63,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "7e32bafdbbd65112",
-      "date": "2026-11-09",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Google DeepMind Blog",
-      "sourceKey": "official:Google DeepMind Blog",
-      "builderOrOrg": "Google DeepMind",
-      "title": "Agentic cheminformatics with Google Antigravity",
-      "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
-      "publishedAt": "2026-11-03T17:01:49.000Z",
-      "content": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
-      "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "c9c08de7396e3863",
-      "date": "2026-11-09",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "Formally verifying agent-written full-stack web apps with PDD Kit",
-      "url": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/",
-      "publishedAt": "2026-11-05T16:00:00.000Z",
-      "content": "At a glance Formal methods for everyday software. PDD Kit helps you turn your intent into a formal spec, then proves the code your agent writes for every input and uses tests where a proof can&#8217;t reach. It takes formal methods beyond niche, specialist work to engineers without a formal methods background and to everyday applications, like the full-stack web app shown here. Exhaustive line-by-line human review can become difficult to scale as AI agents generate increasingly large amounts of code. The plan is supposed to be the contract between you and a coding agent, but nothing actually forces the agent to follow it. The tests it writes usually check what it built, rather than what you asked for.&nbsp; PDD Kit makes the agent keep the plan. It works with you to turn your intent into a formal specification in Verus (opens in new tab) , proves the agent&#8217;s code meets that spec for every input, and falls back to tests where a proof can&#8217;t reach. We tried it on a full-stack web app. Inside GitHub Next&#8217;s Chopin (opens in new tab) , we used PDD Kit to formally verify the login logic of Pet Store, a Rust (opens in new tab) storefront. Verus hardened the code and uncovered existing bugs, proving the absence of login bugs with respect to the specification. The developer reviewed the intent and never read the generated code line-by-line.&nbsp; The plan is the contract the agent should follow, but nothing constrains the agent to follow it. Coding agents now ship whole features in one sitting often spanning tens of thousands or hundreds of thousands of lines of code. As a result, reading every line of the pull request doesn&#8217;t scale to this new way of work. Now, most teams invest in the plan and relevant testing instead: describe to an agent what they want, go back and forth until the plan and proposed tests look right, and hand&nbsp;them off to the agent for implementation.&nbsp; This plan or natural language spec is meant to be the contract that an…",
-      "summary": "AI agents can generate code at a scale that’s hard for humans to review line-by-line. PDD Kit helps ensure the code is doing what the developer intended by creating formal specifications and testing against them. It converts developer inte…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.81,
-          "rationale": [
-            "coding",
-            "code",
-            "developer"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "github"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "f73cb4284d56e2cb",
-      "date": "2026-11-09",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Together AI Blog",
-      "sourceKey": "official:Together AI Blog",
-      "builderOrOrg": "Together AI",
-      "title": "Together Compiler: Continual Compilation for AI inference",
-      "url": "https://www.together.ai/blog/together-compiler-continual-compilation-for-ai-inference",
-      "publishedAt": "2026-11-04T00:00:00.000Z",
-      "content": "Together Compiler uses agents and persistent engines to optimize open models in under 24 hours, delivering up to 3.7x higher throughput as traffic changes.",
-      "summary": "Together Compiler uses agents and persistent engines to optimize open models in under 24 hours, delivering up to 3.7x higher throughput as traffic changes.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.69,
-          "rationale": [
-            "inference",
-            "throughput"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "217095fc5403f539",
-      "date": "2026-11-09",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Together AI Blog",
-      "sourceKey": "official:Together AI Blog",
-      "builderOrOrg": "Together AI",
-      "title": "Polymorphic Inference: self-tuning inference for open models",
-      "url": "https://www.together.ai/blog/polymorphic-inference",
-      "publishedAt": "2026-11-04T00:00:00.000Z",
-      "content": "Models, traffic and chips are constantly changing. Polymorphic Inference adapts to each, and Together Compiler uses AI agents to keep production inference tuned.",
-      "summary": "Models, traffic and chips are constantly changing. Polymorphic Inference adapts to each, and Together Compiler uses AI agents to keep production inference tuned.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "20fe471b8fec32d2",
-      "date": "2026-11-09",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Mistral AI Blog",
-      "sourceKey": "official:Mistral AI Blog",
-      "builderOrOrg": "Mistral AI",
-      "title": "Build Enterprise Agents, Workflows & Apps in Mistral Studio",
-      "url": "https://mistral.ai/news/build-with-studio/",
-      "publishedAt": "2026-11-05T00:00:00.000Z",
-      "content": "Build and deploy enterprise agents, workflows and apps faster with Mistral Studio and Le Chonk full control over your models, data and infrastructure.",
-      "summary": "Build and deploy enterprise agents, workflows and apps faster with Mistral Studio and Le Chonk full control over your models, data and infrastructure.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.8,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.63,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "7ba236ad3694441c",
-      "date": "2026-11-09",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
-      "url": "https://latent.space/p/cs146s/",
-      "publishedAt": "2026-11-08T21:41:44.000Z",
-      "content": "The AI Engineer YouTube channel just crossed one million subscribers . Thank you to everyone who’s watched a talk, sent one to a teammate, or put something they learned into production. For this special, we wanted to sit down with someone who has to answer a question a lot of us are asking at work: what should a software engineer actually learn now? Mihail Eric has two places to test his answer. He teaches The Modern Software Developer at Stanford and leads AI at Monaco, where his colleagues use coding agents to ship software and investigate outages. I asked him to take us through the syllabus, then tell us which parts survived contact with his own engineering team. This is also meant as a preview for all of you joining us in San Francisco for AIE Code next week, as required knowledge for all the conversations with the speakers, sponsors and attendees you’re about to have. If you can see this as a LS subscriber and haven’t got a ticket yet, you can use this code for 30% off (no refunds, sorry) Last year’s homework takes one prompt The first run of CS146S had nine assignments and a capstone. In one exercise, students ran an AI code reviewer on a repo and evaluated its feedback. By the next run, Mihail figured students could one-shot a lot of those exercises. When he asked a room of Stanford sophomores and juniors how they coded, everyone he surveyed was already using an agent. So this time, part of the homework is contributing to an open-source project. The person who maintains the repo reviews the student’s patch. I like what that does to the assignment. You can ask an agent to implement a feature in an afternoon. You still have to find out whether the maintainer wants it, why the code behaves the way it does, and what else your patch might break. That conversation is also how a junior engineer gets to learn from a senior one. There’s an exercise in the episode you can borrow for your next PR. Geoffrey Litt’s explain-diff skill turns a change into a visual walkthro…",
-      "summary": "What happens when students can one-shot last year’s homework? Inside CS146S and the engineering team at Monaco.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.9299999999999999,
-          "rationale": [
-            "coding",
-            "code",
-            "developer"
-          ],
-          "score": 4
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open-source"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4871fb5d90794fba",
-      "date": "2026-11-09",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
-      "url": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
-      "publishedAt": "2026-11-08T21:23:29.000Z",
-      "content": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have to learn an unfamiliar repo, propose a change, and explain the patch to the person who might merge it. We invited Mihail, who teaches The Modern Software Developer at Stanford and leads AI at Monaco, to celebrate one million subscribers on the AI Engineer YouTube channel. He opens up the course syllabus and shows us which lessons survived contact with his own engineering team. Monaco built its agent workspaces, bought its code review tools, and gave an on-call agent access to Datadog and GitHub. We ask how he decides which tools his team needs to own. Watch the full interview and screenshares on YouTube . Show notes Stanford CS146S — The ten-week syllabus and assignments. The Emperor Has No Clothes — Mihail builds a coding agent from scratch. Demystifying Claude Code — Mihail traces a real agent harness. Monaco’s agent workspaces — How the team sets up a workspace for each agent. How to Kill the Code Review — Our essay on what happens when code generation outruns review. Basis’s Authority Map — How agents distinguish current behavior from earlier design decisions. Stripe’s Minions — A look inside Stripe’s background coding agents. AI Engineer CODE Summit — The conference mentioned in the opening. Timestamps 0:00 One million AI Engineer subscribers and the CODE Summit 0:51 Mihail Eric and Stanford CS146S 5:26 What junior engineers need to learn now 10:02 Open-source maintainers review the students’ code 15:04 A tour of the ten-week syllabus 24:04 The loop, tools and harness inside a coding agent 32:18 Context engineering for a large codebase 38:15 Skills that make you understand the diff 46:42 The Monaco.com dispute and the airplane banner 50:23 What Monaco does for sales teams 59:21 Inside Monaco’s engineering team 1:01:40 “You buy to learn, and you build to keep” 1:0…",
-      "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have to learn an unfamiliar repo, propose a…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.9299999999999999,
-          "rationale": [
-            "coding",
-            "code",
-            "developer"
-          ],
-          "score": 4
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.69,
-          "rationale": [
-            "open-source",
-            "github"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -2376,50 +2421,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "556f6fc0e3c197b9",
-      "date": "2026-11-02",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "How we detect frontier model misalignment",
-      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-      "publishedAt": "2026-10-29T09:00:00.000Z",
-      "content": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
-      "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "alignment"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.57,
       "whyThisMatters": ""
     }
   ]
