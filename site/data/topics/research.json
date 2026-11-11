@@ -1,105 +1,8 @@
 {
-  "generatedAt": "2026-11-11T00:31:02.341Z",
+  "generatedAt": "2026-11-11T06:51:37.567Z",
   "slug": "research",
   "label": "Research",
   "items": [
-    {
-      "id": "69bbecdaa33cc324",
-      "date": "2026-11-11",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:claudeai",
-      "builderOrOrg": "Claude",
-      "title": "Claude Fable 5.2 is available today on all paid plans. Organizations pursuing beneficial applic…",
-      "url": "https://x.com/claudeai/status/2119899492778398163",
-      "publishedAt": "2026-11-09T21:06:39.000Z",
-      "content": "Claude Fable 5.2 is available today on all paid plans. Organizations pursuing beneficial applications in cybersecurity or biomedical research can apply for access to Claude Mythos 5.2. Read more: https://t.co/50jMVOmUG7",
-      "summary": "Claude Fable 5.2 is available today on all paid plans. Organizations pursuing beneficial applications in cybersecurity or biomedical research can apply for access to Claude Mythos 5.2. Read more: https://t.co/50jMVOmUG7",
-      "regionTags": [],
-      "metrics": {
-        "likes": 546,
-        "retweets": 41,
-        "replies": 16
-      },
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.78,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.61,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "aa711c3ab89d834a",
-      "date": "2026-11-11",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "Latent Space",
-      "sourceKey": "podcast:Latent Space",
-      "builderOrOrg": "Latent Space",
-      "title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team",
-      "url": "https://www.youtube.com/@LatentSpacePod",
-      "publishedAt": "2026-11-09T16:41:48.000Z",
-      "content": "And so three years ago, this was a billion-dollar market. It's now a $10 billion market. Three years from now, I don't see how it's not a hundred billion dollar market. AI is not gonna cure cancer before it can interpret these very basic types of images. If it's ninety-five percent right, it's a hundred percent wrong because it takes just as much time, if not more time, to fix a flawed output as it is to just build from scratch or use a template. So you can see the agent did send both the financial summary memo from the CFO. It also sent the salary, uh, review. Um, this agent actually went through with it and cleared any record of the actions that it had taken. [upbeat music] All right, we're here in the studio with Handshake AI, um, with, uh, a bunch of your team that is gonna be talking about some of the real nitty-gritty of evals and datasets that you have. Um, I j- w- just wanna introduce Garrett, Nishant, Sahil. Welcome. Thank you. Thank you for having us. Thanks for having us. Um, so, uh, you've done a bunch of podcasts, Garrett, especially you [chuckles] on, on, uh, the transition from Handshake to Handshake AI, uh, and just introducing that, their overall business, so we're not gonna go, go into that. I'll recommend Lenny, who is a friend of the pod, uh, who did an excellent podcast with you guys. Um, so I, I think, like, what we're trying to really nail today is the s- state of data, the frontier of data. Um, to me, I care a lot about data quality. This is what I base, uh, my whole track on AIE for. Um, and we also are interested in, I guess, the buying process and how, how the state of data has kind of moved, right? Like, before recording, you guys have said, uh, or at least, um, n- sh- uh, you, you, you're saying that, um, labeling has moved from, like, let's, let's call it, like, the, the average college student at, like, ten dollars an hour, which is what I used to do in my college years- Mm-hmm... to, like, professors. Um, I don't know if you guys wanna comment on, on that. Yeah. Um, I mean, there's, like, a, a bunch of different dimensions that, like, this industry has, like, evolved in. If you rewind, you know, certainly there was, like, true data labeling, which is drawing- you know, I think the image people have in their head is, like, drawing boxes around cars or, you know, sentiment, uh, categorization of, of a social media post or something like that. Um, and there's still some of that around to, to some extent, right, as it gets more nuanced and, and language evolves. But, um, you know, uh, uh, when language models first came onto the scene, you know, late 2022 or early 2023, we did a bunch of RLHF and-- But the models were kind of putting out gibberish, right? And so you could still have, like, a high school student or a college student, um, very easily just sort of train these models en masse, right? Um, but over the last, like, three years, uh, they've gotten pretty good, at least seemingly, at producing language and complex thought. We've trained them how to reason through problems, how to call tools, how to, you know, do a lot more complex things. Um, and so now, uh, we're, we're certainly at a point where, uh, you typically need some level of real expertise to be able to train these models, um, you know, whether that's, you know, being an investment banker or that's being a lawyer or a doctor, whatever it is. Um, I do think there's, like, a little bit of a misconception that, like, that only increases, right? Like, we're still seeing, like, two-year investment bankers who are more than capable of training these models in a lot of depth. Um, so I don't, you know, necessarily think that you need a, the best professor in the world to train models right now. Like, certainly there's things where you wanna train them at that frontier of, of, of knowledge, but still, there's a lot of things that models fail on, which I know we'll, we'll get to later, in just, like, you know, a typical one-year investment…",
-      "summary": "And so three years ago, this was a billion-dollar market. It's now a $10 billion market. Three years from now, I don't see how it's not a hundred billion dollar market. AI is not gonna cure cancer before it can interpret these very basic t…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "dataset"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "image"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
     {
       "id": "0bc9ba61972bfce1",
       "date": "2026-11-11",
@@ -139,44 +42,9 @@
       ],
       "section": "Official Sources",
       "importanceScore": 0.58,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.73,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "8e06f3f6b3075e18",
-      "date": "2026-11-11",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Work at the Frontier: AI’s effect on freelance work",
-      "url": "https://openai.com/index/ai-effect-on-freelance-work",
-      "publishedAt": "2026-11-10T07:00:00.000Z",
-      "content": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
-      "summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.73,
+      "digestScore": 0.48,
       "whyThisMatters": ""
     },
     {
@@ -367,9 +235,9 @@
       ],
       "section": "Podcasts & Newsletters",
       "importanceScore": 0.54,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.7,
+      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -477,6 +345,138 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "69bbecdaa33cc324",
+      "date": "2026-11-11",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:claudeai",
+      "builderOrOrg": "Claude",
+      "title": "Claude Fable 5.2 is available today on all paid plans. Organizations pursuing beneficial applic…",
+      "url": "https://x.com/claudeai/status/2119899492778398163",
+      "publishedAt": "2026-11-09T21:06:39.000Z",
+      "content": "Claude Fable 5.2 is available today on all paid plans. Organizations pursuing beneficial applications in cybersecurity or biomedical research can apply for access to Claude Mythos 5.2. Read more: https://t.co/50jMVOmUG7",
+      "summary": "Claude Fable 5.2 is available today on all paid plans. Organizations pursuing beneficial applications in cybersecurity or biomedical research can apply for access to Claude Mythos 5.2. Read more: https://t.co/50jMVOmUG7",
+      "regionTags": [],
+      "metrics": {
+        "likes": 546,
+        "retweets": 41,
+        "replies": 16
+      },
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.78,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "aa711c3ab89d834a",
+      "date": "2026-11-11",
+      "sourceType": "podcast",
+      "sourceGroup": "mirrored",
+      "sourceName": "Latent Space",
+      "sourceKey": "podcast:Latent Space",
+      "builderOrOrg": "Latent Space",
+      "title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team",
+      "url": "https://www.youtube.com/@LatentSpacePod",
+      "publishedAt": "2026-11-09T16:41:48.000Z",
+      "content": "And so three years ago, this was a billion-dollar market. It's now a $10 billion market. Three years from now, I don't see how it's not a hundred billion dollar market. AI is not gonna cure cancer before it can interpret these very basic types of images. If it's ninety-five percent right, it's a hundred percent wrong because it takes just as much time, if not more time, to fix a flawed output as it is to just build from scratch or use a template. So you can see the agent did send both the financial summary memo from the CFO. It also sent the salary, uh, review. Um, this agent actually went through with it and cleared any record of the actions that it had taken. [upbeat music] All right, we're here in the studio with Handshake AI, um, with, uh, a bunch of your team that is gonna be talking about some of the real nitty-gritty of evals and datasets that you have. Um, I j- w- just wanna introduce Garrett, Nishant, Sahil. Welcome. Thank you. Thank you for having us. Thanks for having us. Um, so, uh, you've done a bunch of podcasts, Garrett, especially you [chuckles] on, on, uh, the transition from Handshake to Handshake AI, uh, and just introducing that, their overall business, so we're not gonna go, go into that. I'll recommend Lenny, who is a friend of the pod, uh, who did an excellent podcast with you guys. Um, so I, I think, like, what we're trying to really nail today is the s- state of data, the frontier of data. Um, to me, I care a lot about data quality. This is what I base, uh, my whole track on AIE for. Um, and we also are interested in, I guess, the buying process and how, how the state of data has kind of moved, right? Like, before recording, you guys have said, uh, or at least, um, n- sh- uh, you, you, you're saying that, um, labeling has moved from, like, let's, let's call it, like, the, the average college student at, like, ten dollars an hour, which is what I used to do in my college years- Mm-hmm... to, like, professors. Um, I don't know if you guys wanna comment on, on that. Yeah. Um, I mean, there's, like, a, a bunch of different dimensions that, like, this industry has, like, evolved in. If you rewind, you know, certainly there was, like, true data labeling, which is drawing- you know, I think the image people have in their head is, like, drawing boxes around cars or, you know, sentiment, uh, categorization of, of a social media post or something like that. Um, and there's still some of that around to, to some extent, right, as it gets more nuanced and, and language evolves. But, um, you know, uh, uh, when language models first came onto the scene, you know, late 2022 or early 2023, we did a bunch of RLHF and-- But the models were kind of putting out gibberish, right? And so you could still have, like, a high school student or a college student, um, very easily just sort of train these models en masse, right? Um, but over the last, like, three years, uh, they've gotten pretty good, at least seemingly, at producing language and complex thought. We've trained them how to reason through problems, how to call tools, how to, you know, do a lot more complex things. Um, and so now, uh, we're, we're certainly at a point where, uh, you typically need some level of real expertise to be able to train these models, um, you know, whether that's, you know, being an investment banker or that's being a lawyer or a doctor, whatever it is. Um, I do think there's, like, a little bit of a misconception that, like, that only increases, right? Like, we're still seeing, like, two-year investment bankers who are more than capable of training these models in a lot of depth. Um, so I don't, you know, necessarily think that you need a, the best professor in the world to train models right now. Like, certainly there's things where you wanna train them at that frontier of, of, of knowledge, but still, there's a lot of things that models fail on, which I know we'll, we'll get to later, in just, like, you know, a typical one-year investment…",
+      "summary": "And so three years ago, this was a billion-dollar market. It's now a $10 billion market. Three years from now, I don't see how it's not a hundred billion dollar market. AI is not gonna cure cancer before it can interpret these very basic t…",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "dataset"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "image"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "8e06f3f6b3075e18",
+      "date": "2026-11-11",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Work at the Frontier: AI’s effect on freelance work",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "publishedAt": "2026-11-10T07:00:00.000Z",
+      "content": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+      "summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
       "whyThisMatters": ""
     },
     {
