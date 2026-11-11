@@ -1,11 +1,121 @@
 {
-  "generatedAt": "2026-11-10T08:30:24.665Z",
+  "generatedAt": "2026-11-11T00:31:02.341Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
     {
+      "id": "110265618502dd52",
+      "date": "2026-11-11",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+      "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+      "publishedAt": "2026-11-10T20:52:56.000Z",
+      "content": "Microsoft researchers have discovered &#8220;Lazarus,&#8221; a backdoor technique that can reprogram dormant neurons in an AI model, causing an otherwise normal AI agent to execute malicious commands when a hidden trigger appears. The threat is especially serious for AI agents with tool or terminal access. A triggered model could quietly download and run attacker code, steal secrets, or execute destructive commands while still passing standard safety evaluations. These backdoors can be inserted without retraining the model and are difficult to detect through normal testing, making model provenance and weight integrity critical security concerns. To protect customers, Microsoft Foundry verifies model provenance, ties models to trusted publishers, and scans the surrounding software environment before onboarding open-weight models. Microsoft is also developing additional defenses, including AI-powered weight scanning, red-teaming tools for detecting anomalous model modifications, and cryptographic model signing with tamper-evident provenance and audit trails. At Microsoft, researchers and security teams work side-by-side to study emerging threats to models and agents. Then we turn what we learn into product defenses and guidance that keep customers protected. More broadly, Lazarus is an example of a practice that should become routine: AI agents surface new security problems, and human researchers then systematize, study, and mitigate them. Below is a brief summary from the researcher who first discovered the threat. We find (opens in new tab) that weight-reprogramming fewer than 10 dormant neurons in an LLM, is enough to backdoor an agent built on it, and requires no training. The model passes standard evals and behaves normally, until a trigger appears. The trigger can be as mundane as a date change, e.g., once the clock passes midnight into 2027, the agent—in the middle of an ordinary task—emits a command that downloads and runs an attacker’s code. The agent then e…",
+      "summary": "Microsoft researchers have discovered &#8220;Lazarus,&#8221; a backdoor technique that can reprogram dormant neurons in an AI model, causing an otherwise normal AI agent to execute malicious commands when a hidden trigger appears. The thre…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "programming"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "eval",
+            "evaluation"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.82,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "b54008957234d24b",
+      "date": "2026-11-11",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?",
+      "url": "https://latent.space/p/naiveai/",
+      "publishedAt": "2026-11-10T18:56:32.000Z",
+      "content": "Editor’s note: With this post, we are launching a new series focused on trying new models and products with unbiased reviews. Reach out with suggestions to tips@latent.space. Naive-N0.5-Flash is a new open-weights model built for AI coding tasks and tuned to generate as many tokens per second as possible . It was developed by a Chinese company called NaiveAI , with the aim of speeding up engineering and research workflows so that teams can experiment, iterate and solve complex problems faster. The model is an evolution of Xiaomi’s MiMo-V2.5 , which NaiveAI has trained further for long-context reasoning and paired with its own NaiveRT inference engine. Naive-N0.5-Flash arrives with a bold pitch: a model built largely by AI and trained to do AI research itself, with recursive self-improvement as the long-term goal. To see what changed, it helps to know where it started. MiMo-V2.5 is a 310B-parameter sparse Mixture-of-Experts model with 15B active parameters, trained on 48T tokens. Its language backbone inherits the hybrid design of MiMo-V2-Flash, which mixes sliding-window attention (SWA) with global self-attention. NaiveAI's recipe starts from those weights. Through continued, multi-stage training, the team adapted the checkpoint to DeepSeek Sparse Attention layers. According to the NaiveAI technical blog , this took roughly 3.25T additional tokens on top of MiMo's original 48T. About 3T of those additional tokens were trained at a fixed 1M context length and with a constant learning rate. Benchmarking NaiveAI vs. DeepSeek and Z.ai We benchmarked the ultrafast mode of Naive-N0.5-Flash against DeepSeek V4.1 Flash 1017 and GLM 5.3 Flash , and then gave all three the same app-building prompts. The trade-off, we discovered, is that Naive-N0.5-Flash takes longer to reason through harder problems, yet it still delivers answers faster overall. However, that comes at a slightly higher cost per question — although that may be an acceptable price for applications where speed…",
+      "summary": "NaiveAI could potentially top Artificial Analysis’s speed rankings. Our hands-on test suggests its coding quality holds up against DeepSeek.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.81,
+          "rationale": [
+            "benchmark",
+            "imo",
+            "benchmarking"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "inference",
+            "sparse attention"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
+    {
       "id": "0301ac0ffeca3007",
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -61,7 +171,7 @@
     },
     {
       "id": "2bcb036306e3473a",
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -2331,111 +2441,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "3de8e00a1e6ff68f",
-      "date": "2026-10-08",
-      "sourceType": "podcast",
-      "sourceGroup": "mirrored",
-      "sourceName": "Unsupervised Learning",
-      "sourceKey": "podcast:Unsupervised Learning",
-      "builderOrOrg": "Unsupervised Learning",
-      "title": "Ep 94: Applied Compute CEO on the Limits of RL, the New AI Hyperscaler & Why Post-Training Wins Inference",
-      "url": "https://www.youtube.com/@RedpointAI",
-      "publishedAt": "2026-10-06T12:50:23.000Z",
-      "content": "Speaker 1 | 00:00 - 00:02 How do you kind of characterize where we are today? Speaker 2 | 00:02 - 00:25 What we have with RL is we essentially have a hill climbing machine. The hardest part is actually defining the hill to climb, which is why evals, I think, is like a really important thing for companies to, a, focus on building and b, actually like safeguard pretty carefully. Your employees are not fungible. You would not like be comfortable with them going to another company and doing work there. And same thing with these models. Speaker 1 | 00:29 - 01:07 Owning your own intelligence and training your own models is incredibly in the AI zeitgeist these days. There's probably no better person to speak with about all these topics than Josh from Applied Compute. Applied Compute is working with a bunch of the most cutting edge AI applications on a really interesting post training examples. Josh and I were able to talk about his perspective on a bunch of the top questions around open models today, including when it actually makes sense to post train these models, how to think about the future of when this stuff makes sense, especially as the labs, you know, get more and more data from different domains over time. We also talked about, like, when it makes sense to harness optimize versus actually go and post train, as well as just get Yash's thoughts on a lot of the really interesting things happening in the ecosystem today. Speaker 1 | 01:07 - 01:18 All in all, it's a fascinating conversation with a brilliant mind in the space. I hope folks enjoyed as much as I did. Without further ado, here's Yacht. Well, thanks so much for for coming on the podcast. Speaker 2 | 01:18 - 01:19 Thank you for having me. Speaker 1 | 01:19 - 01:22 Yeah. Been looking forward to this one for for a while. Speaker 2 | 01:22 - 01:27 Yeah. Yeah. No. It's it's been a long time coming. It's good we can finally do it in person as well. Speaker 1 | 01:27 - 01:30 Yes. Always better in person in our little like closet of a studio here. Speaker 2 | 01:30 - 01:36 Yeah. This is this is awesome. I mean, like, it's very cozy, built built exactly for the setting. Speaker 1 | 01:36 - 01:39 Yeah. Definitely not a repurposed library. Yeah. Or like, purpose built Speaker 2 | 01:39 - 01:42 for Yeah. For podcasts. So thanks for having me. Speaker 1 | 01:42 - 01:44 Of course. Well, I feel like there's a bunch Speaker 2 | 01:44 - 01:45 of places we could start, but Speaker 1 | 01:45 - 02:14 where thought would be most interesting for our listeners is just owning your own intelligence feels like it's in the zeitgeist. I don't know, you know, when the tipping point happened, you know, three or four months ago, but like, it is certainly, you know, the conversation. And I feel like there's been a bunch of different versions articulated of the risk There's of depending on Frontier been people saying, you know, you'll never know when they'll pull the APIs away, when they decide, you know, something's a safety risk and they don't give you access. There's been, you know, they'll build products and compete with you. They'll be, if you use their models, they'll train on your data. Speaker 1 | 02:14 - 02:24 Yeah. There's all sorts of different arguments. And I'm curious, you think about like this, you know, the case for this, which of these arguments like resonate for you? Which of them do you think maybe are a little overblown? Yeah. Speaker 2 | 02:25 - 02:30 Yeah. So so, you know, I... As as as you know, my background is I actually worked at a Yeah. Speaker 1 | 02:30 - 02:32 You've seen in the inside. Labs. Speaker 2 | 02:32 - 03:05 And I think, like, the the risks or not even risks, just the things that I think about when it comes to owning your intelligence aren't more the ones that are like, presumed that the labs are malicious or something like that, where they're stealing your data or whatnot. I think like, you know, these companies are made up of great people. There are contract…",
-      "summary": "Speaker 1 | 00:00 - 00:02 How do you kind of characterize where we are today? Speaker 2 | 00:02 - 00:25 What we have with RL is we essentially have a hill climbing machine. The hardest part is actually defining the hill to climb, which is…",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.69,
-          "rationale": [
-            "post-training",
-            "rl"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "eval"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.52,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.44,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "c4602da3bd1c6dd7",
-      "date": "2026-10-07",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Advancing computer use with Ironclad",
-      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-      "publishedAt": "2026-10-06T10:00:00.000Z",
-      "content": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
-      "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "computer use"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "eval"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
       "whyThisMatters": ""
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-10T08:30:24.665Z",
+  "generatedAt": "2026-11-11T00:31:02.341Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
     {
       "id": "f73cb4284d56e2cb",
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Together AI Blog",
@@ -50,7 +50,7 @@
     },
     {
       "id": "217095fc5403f539",
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Together AI Blog",
@@ -88,8 +88,63 @@
       "section": "Official Sources",
       "importanceScore": 0.72,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "b54008957234d24b",
+      "date": "2026-11-11",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?",
+      "url": "https://latent.space/p/naiveai/",
+      "publishedAt": "2026-11-10T18:56:32.000Z",
+      "content": "Editor’s note: With this post, we are launching a new series focused on trying new models and products with unbiased reviews. Reach out with suggestions to tips@latent.space. Naive-N0.5-Flash is a new open-weights model built for AI coding tasks and tuned to generate as many tokens per second as possible . It was developed by a Chinese company called NaiveAI , with the aim of speeding up engineering and research workflows so that teams can experiment, iterate and solve complex problems faster. The model is an evolution of Xiaomi’s MiMo-V2.5 , which NaiveAI has trained further for long-context reasoning and paired with its own NaiveRT inference engine. Naive-N0.5-Flash arrives with a bold pitch: a model built largely by AI and trained to do AI research itself, with recursive self-improvement as the long-term goal. To see what changed, it helps to know where it started. MiMo-V2.5 is a 310B-parameter sparse Mixture-of-Experts model with 15B active parameters, trained on 48T tokens. Its language backbone inherits the hybrid design of MiMo-V2-Flash, which mixes sliding-window attention (SWA) with global self-attention. NaiveAI's recipe starts from those weights. Through continued, multi-stage training, the team adapted the checkpoint to DeepSeek Sparse Attention layers. According to the NaiveAI technical blog , this took roughly 3.25T additional tokens on top of MiMo's original 48T. About 3T of those additional tokens were trained at a fixed 1M context length and with a constant learning rate. Benchmarking NaiveAI vs. DeepSeek and Z.ai We benchmarked the ultrafast mode of Naive-N0.5-Flash against DeepSeek V4.1 Flash 1017 and GLM 5.3 Flash , and then gave all three the same app-building prompts. The trade-off, we discovered, is that Naive-N0.5-Flash takes longer to reason through harder problems, yet it still delivers answers faster overall. However, that comes at a slightly higher cost per question — although that may be an acceptable price for applications where speed…",
+      "summary": "NaiveAI could potentially top Artificial Analysis’s speed rankings. Our hands-on test suggests its coding quality holds up against DeepSeek.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.81,
+          "rationale": [
+            "benchmark",
+            "imo",
+            "benchmarking"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "inference",
+            "sparse attention"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
       "whyThisMatters": ""
     },
     {
@@ -2329,58 +2384,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "24f7c622818bcadf",
-      "date": "2026-09-04",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
-      "url": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
-      "publishedAt": "2026-09-01T04:36:54.000Z",
-      "content": "For the entirety of the history of Generative Media , you basically had to design around the inconvenient fact that generating images and video takes time &#8212; even if you used consistency models to get a 30 second generation down to 1 second, you still only have a 1 FPS video at best&#8230; well below anything acceptable for consumer-grade human attention. Fal took Minimax&#8217;s H3 release from last month and first posttrained it for both cost and quality improvement , then optimized it for their in-house inference engine for 35x speed of the official endpoint&#8230; resulting in crossing the infinite video singularity: This was first noticed by Ethan Mollick: Then productized by fal employees into an infinite twitch stream: and then the floodgates opened: levels.io/infinite-slop \\n\\nAn infinite and interactive AI generated live stream of slop that goes on forever and ever\\n\\nAnything that you write in the chat is generated next and AI will try to connect it to the previous video so there's an actual&#8230;\",\"username\":\"levelsio\",\"name\":\"@levelsio\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/2077111020305162240/PwddgOau_normal.jpg\",\"date\":\"2026-08-29T17:34:27.000Z\",\"photos\":[{\"img_url\":\"https://substackcdn.com/image/fetch/$s_!J9Tc!,w_1028,c_limit,f_auto,q_auto:best,fl_progressive:steep/l_play_button_usfui2,w_88,e_colorize:0/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2093751837161660416.jpg\",\"link_url\":\"https://t.co/We7YYMXcGC\"}],\"quoted_tweet\":{\"full_text\":\"Today is a very historical moment for AI video generation\\n\\nYou can now generate AI video faster than you can watch it\\n\\nBefore it'd take let's say 2-5 minutes to generate 15 seconds of video\\n\\n@fal made a post-trained Minimax H3 variant called Max which is 50x faster than the\",\"username\":\"levelsio\",\"name\":\"@levelsio\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/2077111020305162240/PwddgOau_normal.jpg\"},\"reply_…",
-      "summary": "You can now create decent video faster than you watch it. This is the start of... something. We&#8217;re not sure what.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.69,
-          "rationale": [
-            "image",
-            "video"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     }
   ]

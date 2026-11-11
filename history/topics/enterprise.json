@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-10T08:30:24.665Z",
+  "generatedAt": "2026-11-11T00:31:02.341Z",
   "slug": "enterprise",
   "label": "Business AI",
   "items": [
     {
       "id": "f46f04ba6d37a414",
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -45,13 +45,13 @@
       "section": "Builders",
       "importanceScore": 0.78,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.61,
       "whyThisMatters": ""
     },
     {
       "id": "f372fcc5236a43ed",
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -100,13 +100,13 @@
       "section": "Builders",
       "importanceScore": 0.92,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.7,
       "whyThisMatters": ""
     },
     {
       "id": "69bbecdaa33cc324",
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -146,13 +146,13 @@
       "section": "Builders",
       "importanceScore": 0.78,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.61,
       "whyThisMatters": ""
     },
     {
       "id": "444c9ebebd5845f0",
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
@@ -184,6 +184,136 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "20fe471b8fec32d2",
+      "date": "2026-11-11",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Mistral AI Blog",
+      "sourceKey": "official:Mistral AI Blog",
+      "builderOrOrg": "Mistral AI",
+      "title": "Build Enterprise Agents, Workflows & Apps in Mistral Studio",
+      "url": "https://mistral.ai/news/build-with-studio/",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "content": "Build and deploy enterprise agents, workflows and apps faster with Mistral Studio and Le Chonk full control over your models, data and infrastructure.",
+      "summary": "Build and deploy enterprise agents, workflows and apps faster with Mistral Studio and Le Chonk full control over your models, data and infrastructure.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "enterprise"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.8,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.63,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "f00039c40eddb6ac",
+      "date": "2026-11-11",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "The Spy Who Leased Me",
+      "url": "https://www.chinatalk.media/p/the-spy-who-leased-me",
+      "publishedAt": "2026-11-10T12:28:08.000Z",
+      "content": "On Sunday, Jensen Huang emailed all of Nvidia to admit an affair, and his board opened an investigation into whether the woman, Megaspeed executive Alice Huang, was working for China&#8217;s Ministry of State Security. Megaspeed, the Singapore cloud company suspected of smuggling Nvidia chips into China, is still buying them. To make sense of it we have Chris &#8230; Read more",
+      "summary": "Emergency pod with Chris McGuire on l'affaire Jensen",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.66,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "92058b2fa72628a2",
+      "date": "2026-11-11",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Why the Cyberpocalypse Might Hit China Harder",
+      "url": "https://www.chinatalk.media/p/china-in-the-cyberpocalypse",
+      "publishedAt": "2026-11-08T11:03:30.000Z",
+      "content": "Chang Che is a writer and contributor to the New Yorker . In August, researchers at a California security firm used an OpenAI model to find a software bug in PHP, a programming language that undergird some seventy per cent of the world&#8217;s websites, including Wikipedia and WordPress. They alerted PHP&#8217;s developers, who quietly began working on a fix. By late October, the fix was ready, but before they could alert the world, the break-in attempts had begun. Days earlier, Amazon detected someone trying to hack into its servers; attacks code began circulating online. Some governments and companies began pulling websites down, rather than risk a security breach. One security firm described the flaws as some of the worst ever found in PHP, &#8220;and arguably in software history.&#8221; Before AI, the internet might have looked, to a hacker, like a worn-out bug screen. You could discern some holes with a keen eye, and that knowledge was reliably asymmetric&#8212;others probably didn&#8217;t know about the holes you found. Moreover, tunneling through the holes undetected took months or years of human labor, talent, and money. Now, with AI, the internet looks more like a block of Swiss cheese: the holes are obvious, anyone can, or will, see them, and the time and cost it takes to exploit these software flaws have plunged alarmingly fast . According to Google&#8217;s incident response team , the average time it takes for cyber criminals to exploit a new vulnerability is -7 days, meaning hacking attempts are &#8220;routinely occurring before a patch is even released.&#8221; A China Central Television (CCTV) feature about the PHP vulnerability discovered by cybersecurity firm Calif, with the aid of OpenAI models. Source . Hackers refer to unbeknownst software bugs like PHP as &#8220;zero-days&#8221; because a defender has had zero days to protect themselves upon its discovery. Once a hacker discovers a zero-day in, say, iOS software, every iPhone user is potentially…",
+      "summary": "In August, researchers at a California security firm used an OpenAI model to find a software bug in PHP, a programming language that undergird some seventy per cent of the world&#8217;s websites, including Wikipedia and WordPress.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "code",
+            "developer",
+            "programming"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
       "whyThisMatters": ""
     },
     {
@@ -237,103 +367,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "20fe471b8fec32d2",
-      "date": "2026-11-10",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Mistral AI Blog",
-      "sourceKey": "official:Mistral AI Blog",
-      "builderOrOrg": "Mistral AI",
-      "title": "Build Enterprise Agents, Workflows & Apps in Mistral Studio",
-      "url": "https://mistral.ai/news/build-with-studio/",
-      "publishedAt": "2026-11-05T00:00:00.000Z",
-      "content": "Build and deploy enterprise agents, workflows and apps faster with Mistral Studio and Le Chonk full control over your models, data and infrastructure.",
-      "summary": "Build and deploy enterprise agents, workflows and apps faster with Mistral Studio and Le Chonk full control over your models, data and infrastructure.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.8,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.63,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "92058b2fa72628a2",
-      "date": "2026-11-10",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Why the Cyberpocalypse Might Hit China Harder",
-      "url": "https://www.chinatalk.media/p/china-in-the-cyberpocalypse",
-      "publishedAt": "2026-11-08T11:03:30.000Z",
-      "content": "Chang Che is a writer and contributor to the New Yorker . In August, researchers at a California security firm used an OpenAI model to find a software bug in PHP, a programming language that undergird some seventy per cent of the world&#8217;s websites, including Wikipedia and WordPress. They alerted PHP&#8217;s developers, who quietly began working on a fix. By late October, the fix was ready, but before they could alert the world, the break-in attempts had begun. Days earlier, Amazon detected someone trying to hack into its servers; attacks code began circulating online. Some governments and companies began pulling websites down, rather than risk a security breach. One security firm described the flaws as some of the worst ever found in PHP, &#8220;and arguably in software history.&#8221; Before AI, the internet might have looked, to a hacker, like a worn-out bug screen. You could discern some holes with a keen eye, and that knowledge was reliably asymmetric&#8212;others probably didn&#8217;t know about the holes you found. Moreover, tunneling through the holes undetected took months or years of human labor, talent, and money. Now, with AI, the internet looks more like a block of Swiss cheese: the holes are obvious, anyone can, or will, see them, and the time and cost it takes to exploit these software flaws have plunged alarmingly fast . According to Google&#8217;s incident response team , the average time it takes for cyber criminals to exploit a new vulnerability is -7 days, meaning hacking attempts are &#8220;routinely occurring before a patch is even released.&#8221; A China Central Television (CCTV) feature about the PHP vulnerability discovered by cybersecurity firm Calif, with the aid of OpenAI models. Source . Hackers refer to unbeknownst software bugs like PHP as &#8220;zero-days&#8221; because a defender has had zero days to protect themselves upon its discovery. Once a hacker discovers a zero-day in, say, iOS software, every iPhone user is potentially…",
-      "summary": "In August, researchers at a California security firm used an OpenAI model to find a software bug in PHP, a programming language that undergird some seventy per cent of the world&#8217;s websites, including Wikipedia and WordPress.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.81,
-          "rationale": [
-            "code",
-            "developer",
-            "programming"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
       "whyThisMatters": ""
     },
     {
@@ -2403,61 +2436,6 @@
       "importanceScore": 0.74,
       "noveltyScore": 0.3,
       "previouslySelected": true,
-      "digestScore": 0.59,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4035ac27e2a812bd",
-      "date": "2026-10-24",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:petergyang",
-      "builderOrOrg": "Peter Yang",
-      "title": "6 steps you should take to secure your accounts right now given all the incidents. In my new vi…",
-      "url": "https://x.com/petergyang/status/2113405131106742406",
-      "publishedAt": "2026-10-22T23:00:23.000Z",
-      "content": "6 steps you should take to secure your accounts right now given all the incidents. In my new video, I share a prompt to have AI walk you through all 6 steps and generate a personalized security report. 📌 Watch now and check out the YouTube description for the full prompt: https://t.co/lPX24RzPfr",
-      "summary": "6 steps you should take to secure your accounts right now given all the incidents. In my new video, I share a prompt to have AI walk you through all 6 steps and generate a personalized security report. 📌 Watch now and…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 32,
-        "retweets": 5,
-        "replies": 10
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "video"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.74,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
       "digestScore": 0.59,
       "whyThisMatters": ""
     }
