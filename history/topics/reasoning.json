@@ -1,8 +1,50 @@
 {
-  "generatedAt": "2026-11-12T00:31:00.010Z",
+  "generatedAt": "2026-11-12T07:28:29.898Z",
   "slug": "reasoning",
   "label": "AI Thinking",
   "items": [
+    {
+      "id": "1c8250a4d2e1371a",
+      "date": "2026-11-12",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "The Jev Revolution: What Engineers Are Already Building with System One Models",
+      "url": "https://latent.space/p/jev-revolution/",
+      "publishedAt": "2026-11-12T05:08:20.000Z",
+      "content": "Today at the AI Engineer Code Summit , the main theme was system one models — non-generative models that return structured choices, scores, or probabilities. They’re also typically much faster and cheaper than reasoning LLMs (a.k.a. system two models). And who better to give an inspirational rallying cry for system one models than Diogo Almeida , co-founder and CEO of TypeSafe AI . Almeida was lead creator of Jev , the product that kicked off this trend less than two months ago. Jev was an instant revelation for AI engineers when it was released in September. In a podcast with Latent Space on launch (which quickly became our most popular episode of the year), Almeida explained the core problem with making LLMs the heart of software: reliability . In his keynote at AIE Code today, he took it a step further by claiming that Jev is “reliable intelligence” that should be used for “just automating everything.” Integrating system one models into code Of particular interest to AI engineers is Almeida’s point that system one models should become integrated with code. As he put it in his keynote, “code is the language of automation , therefore you need to integrate with code.” Latent Space founder swyx interprets this as a call to “liberally sprinkle ‘System One’ model calls everywhere INSIDE application code to make smarter software instead of increasingly convoluted forms of ‘concat strings together and hope for the best\" AI engineering.’” The term “smart software” was used throughout Almeida’s presentation. It sounds like the kind of term used by companies like Microsoft or IBM during Web 2.0, but in the AI era it does actually signify a harsh reality about LLM-driven software: sometimes it’s just not very smart. As Almeida quipped during his presentation, “you get Einstein 95% of the time, but Mr. Bean 5% of the time.” “And if you can't tell which is which, how the fuck are you going to automate anything,” he added. Almeida ended with an impassioned plea to “automate ev…",
+      "summary": "At AI Engineer Code Summit, lead Jev creator Diogo Almeida called on developers to automate everything. Also, Glean and others showed how they’re using Jev.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "reasoning"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
     {
       "id": "0301ac0ffeca3007",
       "date": "2026-11-12",
@@ -2442,60 +2484,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "6ebbc66cbf5d1ad1",
-      "date": "2026-06-20",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] GLM-5.2: the top Frontend Coding model in the world, IndexShare for Speculative Decoding",
-      "url": "https://www.latent.space/p/ainews-glm-52-the-top-frontend-coding",
-      "publishedAt": "2026-06-17T05:37:40.000Z",
-      "content": "Last 6 days before regular tickets sell out at AI Engineer World&#8217;s Fair - this is the single biggest gathering of AI Engineers, Founders, Leaders, and Researchers in the world. Talk tracks are looking FANTASTIC. Join us. Since February we have been banging the drum about GLM 5, Z.ai&#8217;s biggest model launch that nudged it ahead of top open model labs like DeepSeek, Mistral, Cohere and Moonshot in most evals. 5.1 was more of a minor update, but 5.2, released opportunistically this weekend after the Fable ban (still unresolved ), is a much stronger play at being your default coding model: This third party eval validates official offline evals that put GLM 5.2 just behind Opus 4.8 as the best coding model in the world - an impressive feat for a merely 744B parameter model (vs Opus rumored to be at least twice as large , with Cursor&#8217;s next Composer model also in that range). But it is a particularly notable achievement to beat ALL Opuses, including 4.8, at frontend coding , a key battleground: Technical disclosures are light - no paper, just a minor improvement on DeepSeek Sparse Attention that improves efficiency at ultra long contexts: AI News for 6/15/2026-6/16/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Top Story: GLM 5.2 release and technical details What happened Z.ai released GLM-5.2 as an MIT-licensed open-weight frontier model aimed at coding and long-horizon agentic work. Z.ai announced GLM-5.2 , emphasizing coding/agentic improvements , a 1M-token context window , two reasoning-effort modes ( high and max ), and same API pricing as GLM-5.1 . Z.ai separately highlighted that the release includes infrastructure innovations for 1M context and agentic RL in the technical blog, not just benchmark claims @Zai_org . The model was immediately positioned by t…",
-      "summary": "We have a new top open model in the world!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "paper"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "reasoning",
-          "label": "AI Thinking",
-          "confidence": 0.69,
-          "rationale": [
-            "reasoning",
-            "long-horizon"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
       "whyThisMatters": ""
     }
   ]
