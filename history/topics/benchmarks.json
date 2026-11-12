@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-11T07:51:49.953Z",
+  "generatedAt": "2026-11-12T00:31:00.010Z",
   "slug": "benchmarks",
   "label": "AI Testing",
   "items": [
     {
       "id": "c85061f645543dd5",
-      "date": "2026-11-11",
+      "date": "2026-11-12",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -51,8 +51,87 @@
       "whyThisMatters": ""
     },
     {
+      "id": "4ee2e842b4d9c7e9",
+      "date": "2026-11-12",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+      "url": "https://openai.com/index/jiostar-vijay-seshadri",
+      "publishedAt": "2026-11-11T00:00:00.000Z",
+      "content": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+      "summary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "230569de40b66d11",
+      "date": "2026-11-12",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google AI Blog",
+      "sourceKey": "official:Google AI Blog",
+      "builderOrOrg": "Google",
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "publishedAt": "2026-11-11T18:00:00.000Z",
+      "content": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+      "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "multimodal"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "imo"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
       "id": "110265618502dd52",
-      "date": "2026-11-11",
+      "date": "2026-11-12",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Microsoft Research Blog",
@@ -101,13 +180,13 @@
       "section": "Official Sources",
       "importanceScore": 0.72,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.57,
       "whyThisMatters": ""
     },
     {
       "id": "b54008957234d24b",
-      "date": "2026-11-11",
+      "date": "2026-11-12",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -162,7 +241,7 @@
     },
     {
       "id": "0301ac0ffeca3007",
-      "date": "2026-11-11",
+      "date": "2026-11-12",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -2333,108 +2412,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "7ffe1d8535c4959c",
-      "date": "2026-10-09",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:rauchg",
-      "builderOrOrg": "Guillermo Rauch",
-      "title": "One thing the engineering community will (re)discover is that every program can be ① hardened (…",
-      "url": "https://x.com/rauchg/status/2107962327169675566",
-      "publishedAt": "2026-10-07T22:32:37.000Z",
-      "content": "One thing the engineering community will (re)discover is that every program can be ① hardened (edge cases squashed, inputs tightened, errors handled) and ② optimized (profiled, benchmarked, rewritten) basically ad infinitum. There are real costs in every direction: time, attention, opportunity. You can literally explore input spaces that will never be hit or optimize performance of something that will never be used (\"you have no users\".) Even in an infinite token world, you need to know when to…",
-      "summary": "One thing the engineering community will (re)discover is that every program can be ① hardened (edge cases squashed, inputs tightened, errors handled) and ② optimized (profiled, benchmarked, rewritten) basically ad infin…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 605,
-        "retweets": 39,
-        "replies": 100
-      },
-      "topics": [
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "benchmark"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "d1b346235fb52ff6",
-      "date": "2026-10-09",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:claudeai",
-      "builderOrOrg": "Claude",
-      "title": "Haiku 5.5 shows major improvements across almost all of our alignment evaluations relative to H…",
-      "url": "https://x.com/claudeai/status/2107894054142787877",
-      "publishedAt": "2026-10-07T18:01:19.000Z",
-      "content": "Haiku 5.5 shows major improvements across almost all of our alignment evaluations relative to Haiku 4.5, with far fewer instances of misaligned behavior.",
-      "summary": "Haiku 5.5 shows major improvements across almost all of our alignment evaluations relative to Haiku 4.5, with far fewer instances of misaligned behavior.",
-      "regionTags": [],
-      "metrics": {
-        "likes": 1507,
-        "retweets": 22,
-        "replies": 18
-      },
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "eval",
-            "evaluation"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "alignment"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]

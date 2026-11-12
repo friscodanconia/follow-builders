@@ -1,8 +1,117 @@
 {
-  "generatedAt": "2026-11-11T07:51:49.953Z",
+  "generatedAt": "2026-11-12T00:31:00.010Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
+    {
+      "id": "7a9701afe43084fa",
+      "date": "2026-11-12",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Mercor $750m Series D at $20B valuation, $3B run rate",
+      "url": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/",
+      "publishedAt": "2026-11-11T09:34:28.000Z",
+      "content": "Our usual bar for making a fundraise a title story these days is a decacorn ($10B) valuation. We missed Mercor’s $10B Series C last year when it had less than $500m in revenue, but knew we wouldn’t have to wait too long til the next round, since it crossed $1B in Feb and $2B in June , it has now hit $3B annualized, surviving hacks : View post on X ↗ The company reports 5 million experts, and their TAM: “In the United States alone, there are more than 800 distinct occupations, each containing workflows that models have yet to be evaluated against.” And also this notable stat we are tracking: We’re seeing the impact of AI investment in our business. We already spend 3x as much on inference as on employee salaries, and it pays for itself by making our team better at their jobs . If that ratio holds as AI spreads through the rest of the economy, it points to something closer to double-digit GDP growth over the next five years, nearly 3x the rate we’re used to. We have yet to do a Mercor pod (will work on it!) but to better understand a data vendor business, you can look at our recent deep dive with Handshake AI , one of their competitors: AI News for 11/09/2026-11/10/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Gemini 4 Carbon Launch: Rollout, Pricing and Claimed Results Launch : Google released Gemini 4 Carbon as its strongest model for long-horizon agentic work in software engineering, cybersecurity, knowledge work and science ( Google , Sundar Pichai ). Gemini 4 Argon remains Google's recommended default for most coding and knowledge work, with Carbon reserved for the hardest tasks ( Google AI ). Availability : Carbon is available through the Gemini API and AI Studio for paid developers, Android Studio and Gemini for business. Ultra subscribers can use it in the Gemini app, AI Mod…",
+      "summary": "November 10, 2026 — Google GA&apos;s Gemini 4 Carbon.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "coding",
+            "developer",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.69,
+          "rationale": [
+            "agent",
+            "agentic"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "b54008957234d24b",
+      "date": "2026-11-12",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?",
+      "url": "https://latent.space/p/naiveai/",
+      "publishedAt": "2026-11-10T18:56:32.000Z",
+      "content": "Editor’s note: With this post, we are launching a new series focused on trying new models and products with unbiased reviews. Reach out with suggestions to tips@latent.space. Naive-N0.5-Flash is a new open-weights model built for AI coding tasks and tuned to generate as many tokens per second as possible . It was developed by a Chinese company called NaiveAI , with the aim of speeding up engineering and research workflows so that teams can experiment, iterate and solve complex problems faster. The model is an evolution of Xiaomi’s MiMo-V2.5 , which NaiveAI has trained further for long-context reasoning and paired with its own NaiveRT inference engine. Naive-N0.5-Flash arrives with a bold pitch: a model built largely by AI and trained to do AI research itself, with recursive self-improvement as the long-term goal. To see what changed, it helps to know where it started. MiMo-V2.5 is a 310B-parameter sparse Mixture-of-Experts model with 15B active parameters, trained on 48T tokens. Its language backbone inherits the hybrid design of MiMo-V2-Flash, which mixes sliding-window attention (SWA) with global self-attention. NaiveAI's recipe starts from those weights. Through continued, multi-stage training, the team adapted the checkpoint to DeepSeek Sparse Attention layers. According to the NaiveAI technical blog , this took roughly 3.25T additional tokens on top of MiMo's original 48T. About 3T of those additional tokens were trained at a fixed 1M context length and with a constant learning rate. Benchmarking NaiveAI vs. DeepSeek and Z.ai We benchmarked the ultrafast mode of Naive-N0.5-Flash against DeepSeek V4.1 Flash 1017 and GLM 5.3 Flash , and then gave all three the same app-building prompts. The trade-off, we discovered, is that Naive-N0.5-Flash takes longer to reason through harder problems, yet it still delivers answers faster overall. However, that comes at a slightly higher cost per question — although that may be an acceptable price for applications where speed…",
+      "summary": "NaiveAI could potentially top Artificial Analysis’s speed rankings. Our hands-on test suggests its coding quality holds up against DeepSeek.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.81,
+          "rationale": [
+            "benchmark",
+            "imo",
+            "benchmarking"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "inference",
+            "sparse attention"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
     {
       "id": "f73cb4284d56e2cb",
       "date": "2026-11-11",
@@ -90,61 +199,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "b54008957234d24b",
-      "date": "2026-11-11",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?",
-      "url": "https://latent.space/p/naiveai/",
-      "publishedAt": "2026-11-10T18:56:32.000Z",
-      "content": "Editor’s note: With this post, we are launching a new series focused on trying new models and products with unbiased reviews. Reach out with suggestions to tips@latent.space. Naive-N0.5-Flash is a new open-weights model built for AI coding tasks and tuned to generate as many tokens per second as possible . It was developed by a Chinese company called NaiveAI , with the aim of speeding up engineering and research workflows so that teams can experiment, iterate and solve complex problems faster. The model is an evolution of Xiaomi’s MiMo-V2.5 , which NaiveAI has trained further for long-context reasoning and paired with its own NaiveRT inference engine. Naive-N0.5-Flash arrives with a bold pitch: a model built largely by AI and trained to do AI research itself, with recursive self-improvement as the long-term goal. To see what changed, it helps to know where it started. MiMo-V2.5 is a 310B-parameter sparse Mixture-of-Experts model with 15B active parameters, trained on 48T tokens. Its language backbone inherits the hybrid design of MiMo-V2-Flash, which mixes sliding-window attention (SWA) with global self-attention. NaiveAI's recipe starts from those weights. Through continued, multi-stage training, the team adapted the checkpoint to DeepSeek Sparse Attention layers. According to the NaiveAI technical blog , this took roughly 3.25T additional tokens on top of MiMo's original 48T. About 3T of those additional tokens were trained at a fixed 1M context length and with a constant learning rate. Benchmarking NaiveAI vs. DeepSeek and Z.ai We benchmarked the ultrafast mode of Naive-N0.5-Flash against DeepSeek V4.1 Flash 1017 and GLM 5.3 Flash , and then gave all three the same app-building prompts. The trade-off, we discovered, is that Naive-N0.5-Flash takes longer to reason through harder problems, yet it still delivers answers faster overall. However, that comes at a slightly higher cost per question — although that may be an acceptable price for applications where speed…",
-      "summary": "NaiveAI could potentially top Artificial Analysis’s speed rankings. Our hands-on test suggests its coding quality holds up against DeepSeek.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.81,
-          "rationale": [
-            "benchmark",
-            "imo",
-            "benchmarking"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.69,
-          "rationale": [
-            "inference",
-            "sparse attention"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -2338,43 +2392,6 @@
           "confidence": 0.5700000000000001,
           "rationale": [
             "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "15c51d800fa60b13",
-      "date": "2026-09-05",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:realmadhuguru",
-      "builderOrOrg": "Madhu Guru",
-      "title": "The hard part with becoming more ambitious is changing the how. We’re living in a time where AI…",
-      "url": "https://x.com/realmadhuguru/status/2095526844653302269",
-      "publishedAt": "2026-09-03T14:58:27.000Z",
-      "content": "The hard part with becoming more ambitious is changing the how. We’re living in a time where AI and market conditions make asymmetric outcomes far more possible. That applies to scale, velocity, breadth of product, personal career and wealth goals. You need to drop the ideas that aren’t serving you - rethink team structure, roadmapping. On the personal front, rethink how you see yourself and how you engage with people. The blocker is often inertia - institutional, personal. “We’ve always done i…",
-      "summary": "The hard part with becoming more ambitious is changing the how. We’re living in a time where AI and market conditions make asymmetric outcomes far more possible. That applies to scale, velocity, breadth of product, pers…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 111,
-        "retweets": 4,
-        "replies": 3
-      },
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "serving"
           ],
           "score": 1
         }
