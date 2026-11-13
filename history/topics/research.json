@@ -1,37 +1,28 @@
 {
-  "generatedAt": "2026-11-13T00:31:09.223Z",
+  "generatedAt": "2026-11-13T06:59:42.102Z",
   "slug": "research",
   "label": "Research",
   "items": [
     {
-      "id": "12b00a825ca8a088",
+      "id": "bb7020276b3cf569",
       "date": "2026-11-13",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:nikunj",
-      "builderOrOrg": "Nikunj Kothari",
-      "title": "I scraped 803 companies sub-processors to investigate what AI native companies are using for th…",
-      "url": "https://x.com/nikunj/status/2120669243918418237",
-      "publishedAt": "2026-11-12T00:05:22.000Z",
-      "content": "I scraped 803 companies sub-processors to investigate what AI native companies are using for their infrastructure.. Some interesting findings from the last time I did this in March: > 44% of companies list two+ model providers (up from 33%). Small n, but Anthropic grew twice as fast as OpenAI. > 86 pairs where each company names the other as a subprocessor (@AnthropicAI + @Cloudflare, @vercel + @spacexai) > 33% of companies list an inference provider (up from 22%). @modal continues to crush. >…",
-      "summary": "I scraped 803 companies sub-processors to investigate what AI native companies are using for their infrastructure.. Some interesting findings from the last time I did this in March: > 44% of companies list two+ model pr…",
+      "sourceKey": "x:alexalbert__",
+      "builderOrOrg": "Alex Albert",
+      "title": "A lot of getting good work out of Claude now is just finding the context it’s missing and figur…",
+      "url": "https://x.com/alexalbert__/status/2120983722182988206",
+      "publishedAt": "2026-11-12T20:54:59.000Z",
+      "content": "A lot of getting good work out of Claude now is just finding the context it’s missing and figuring out how to close that gap Claude Meetings is one way to bring in the remaining slices and has proved very useful internally https://t.co/j4yRaG5gUg",
+      "summary": "A lot of getting good work out of Claude now is just finding the context it’s missing and figuring out how to close that gap Claude Meetings is one way to bring in the remaining slices and has proved very useful interna…",
       "regionTags": [],
       "metrics": {
-        "likes": 32,
-        "retweets": 1,
-        "replies": 13
+        "likes": 386,
+        "retweets": 10,
+        "replies": 86
       },
       "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
         {
           "slug": "research",
           "label": "Research",
@@ -43,10 +34,10 @@
         }
       ],
       "section": "Builders",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.53,
+      "digestScore": 0.8,
       "whyThisMatters": ""
     },
     {
@@ -97,9 +88,9 @@
       ],
       "section": "Official Sources",
       "importanceScore": 0.58,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.73,
+      "digestScore": 0.48,
       "whyThisMatters": ""
     },
     {
@@ -243,59 +234,6 @@
       "whyThisMatters": ""
     },
     {
-      "id": "fee19f3b55c289c6",
-      "date": "2026-11-13",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "Designing for Agents — Zeno Rocha, Resend",
-      "url": "https://latent.space/p/resend/",
-      "publishedAt": "2026-11-10T20:05:17.000Z",
-      "content": "Today’s podcast comes from a real life mystery: We are big fans of Cloudflare’s developer platform, and Cloudflare Email is a convenient tool especially when all your domains are already on Cloudflare. So why do agents keep suggesting we use Resend despite having an existing “home bias” and much larger incumbent player? Well, we got the guy who “does AEO for resend” - the CEO of AEO, Zeno Rocha, who has been writing about AEO since 2024 and Agent Experience since Feb 2025 , on the pod today: In a recent AEO study, Claude Code picked Resend first in 64 of the 102 email recommendations the researchers could extract. SendGrid came first seven times, yet showed up 55 times as an alternative. If the developer asks an agent to implement email and accepts the patch, how often does anyone get around to trying the second choice? The study breaks down the results by model and app. Our more recent comprehensive AEO study was a bit more competitive, with Postmark coming up top for most models. Zeno Rocha, Resend’s co-founder and CEO, joined us to walk through what happens on both sides of that pull request. He says Resend had 4.3 million users and 120,000 paying customers when we recorded. He discovered one of them, Warner Bros. Discovery, by sorting through short .com domains in the customer database on a Saturday. The developer gets there before the model Resend’s first useful bit of distribution was an email template. While Zeno and his team were building the sending API, developers kept telling them how painful it was to get the email itself to look right. So they released React Email. You could build a template with it and send it through SendGrid. They even documented how. By the time a developer needed a different provider, some of Resend’s code was already in the repo. React Email Now try the same journey as an agent comparing providers. Resend’s pricing page has a slider. A person can drag it to the right volume and read off the price. Add .md to the URL and the agent…",
-      "summary": "Where does answer engine optimization (AEO) end and agent experience begin? Inside Resend, from the docs that help Claude Code pick an email API to the tools it uses to send.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.81,
-          "rationale": [
-            "code",
-            "developer",
-            "repo"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.54,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
       "id": "511d6bf3154d09aa",
       "date": "2026-11-13",
       "sourceType": "newsletter",
@@ -400,6 +338,105 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "12b00a825ca8a088",
+      "date": "2026-11-13",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:nikunj",
+      "builderOrOrg": "Nikunj Kothari",
+      "title": "I scraped 803 companies sub-processors to investigate what AI native companies are using for th…",
+      "url": "https://x.com/nikunj/status/2120669243918418237",
+      "publishedAt": "2026-11-12T00:05:22.000Z",
+      "content": "I scraped 803 companies sub-processors to investigate what AI native companies are using for their infrastructure.. Some interesting findings from the last time I did this in March: > 44% of companies list two+ model providers (up from 33%). Small n, but Anthropic grew twice as fast as OpenAI. > 86 pairs where each company names the other as a subprocessor (@AnthropicAI + @Cloudflare, @vercel + @spacexai) > 33% of companies list an inference provider (up from 22%). @modal continues to crush. >…",
+      "summary": "I scraped 803 companies sub-processors to investigate what AI native companies are using for their infrastructure.. Some interesting findings from the last time I did this in March: > 44% of companies list two+ model pr…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 32,
+        "retweets": 1,
+        "replies": 13
+      },
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "inference"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "finding"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.53,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "fee19f3b55c289c6",
+      "date": "2026-11-13",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Designing for Agents — Zeno Rocha, Resend",
+      "url": "https://latent.space/p/resend/",
+      "publishedAt": "2026-11-10T20:05:17.000Z",
+      "content": "Today’s podcast comes from a real life mystery: We are big fans of Cloudflare’s developer platform, and Cloudflare Email is a convenient tool especially when all your domains are already on Cloudflare. So why do agents keep suggesting we use Resend despite having an existing “home bias” and much larger incumbent player? Well, we got the guy who “does AEO for resend” - the CEO of AEO, Zeno Rocha, who has been writing about AEO since 2024 and Agent Experience since Feb 2025 , on the pod today: In a recent AEO study, Claude Code picked Resend first in 64 of the 102 email recommendations the researchers could extract. SendGrid came first seven times, yet showed up 55 times as an alternative. If the developer asks an agent to implement email and accepts the patch, how often does anyone get around to trying the second choice? The study breaks down the results by model and app. Our more recent comprehensive AEO study was a bit more competitive, with Postmark coming up top for most models. Zeno Rocha, Resend’s co-founder and CEO, joined us to walk through what happens on both sides of that pull request. He says Resend had 4.3 million users and 120,000 paying customers when we recorded. He discovered one of them, Warner Bros. Discovery, by sorting through short .com domains in the customer database on a Saturday. The developer gets there before the model Resend’s first useful bit of distribution was an email template. While Zeno and his team were building the sending API, developers kept telling them how painful it was to get the email itself to look right. So they released React Email. You could build a template with it and send it through SendGrid. They even documented how. By the time a developer needed a different provider, some of Resend’s code was already in the repo. React Email Now try the same journey as an agent comparing providers. Resend’s pricing page has a slider. A person can drag it to the right volume and read off the price. Add .md to the URL and the agent…",
+      "summary": "Where does answer engine optimization (AEO) end and agent experience begin? Inside Resend, from the docs that help Claude Code pick an email API to the tools it uses to send.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "code",
+            "developer",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -2403,43 +2440,6 @@
           "confidence": 0.5700000000000001,
           "rationale": [
             "gui"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "394a9184bdc1df8e",
-      "date": "2026-10-28",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:adityaag",
-      "builderOrOrg": "Aditya Agarwal",
-      "title": "More and more I am coming to accept that our understanding of the sciences were but limited by…",
-      "url": "https://x.com/adityaag/status/2114907777957245033",
-      "publishedAt": "2026-10-27T02:31:22.000Z",
-      "content": "More and more I am coming to accept that our understanding of the sciences were but limited by our desire to have solutions that we could understand.",
-      "summary": "More and more I am coming to accept that our understanding of the sciences were but limited by our desire to have solutions that we could understand.",
-      "regionTags": [],
-      "metrics": {
-        "likes": 90,
-        "retweets": 4,
-        "replies": 14
-      },
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "science"
           ],
           "score": 1
         }
