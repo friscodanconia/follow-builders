@@ -1,8 +1,106 @@
 {
-  "generatedAt": "2026-11-13T00:31:09.223Z",
+  "generatedAt": "2026-11-14T00:31:01.125Z",
   "slug": "china-models",
   "label": "Chinese AI",
   "items": [
+    {
+      "id": "80415f6229f6c982",
+      "date": "2026-11-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Jensen Out, MATCH Act In?",
+      "url": "https://www.chinatalk.media/p/jensen-out-match-act-in",
+      "publishedAt": "2026-11-13T23:13:29.000Z",
+      "content": "Jordan Schneider, Dylan Patel, and Jordan Nanos of SemiAnalysis record an emergency pod after Jensen Huang&#8217;s resignation as Nvidia CEO. We discuss: Why Jensen&#8217;s exit could become cover for &#8220;really stupid laws&#8221; &#8212; and why Dylan backs the MATCH Act but thinks RASA is a mistake. The game theory of remote access: renting compute to Chinese firms as margin capture and a kill switch, versus closing the Malaysia loophole outright. &#8220;Flip the table&#8221;: why equipment controls beat chip and model controls, and how close Huawei&#8217;s silicon now is. Why no American lab has out-built Kimi or DeepSeek in open models. Nvidia without Jensen: talent retention, Rubin and Feynman execution risk, and who should run the company. Colette Kress&#8217;s exposure, Supermicro and Megaspeed, and a fight over whether this amounts to the &#8220;nationalization&#8221; of Nvidia. Listen now on your favorite podcast app . Jensen Resigns Jordan Nanos: Hey, Dylan. Hey, Jordan. Did you guys hear the CEO of the world&#8217;s largest and most important company just resigned? Dylan Patel: No. Jordan Nanos: Are you serious? What could possibly have led to that? Well, there are allegations of some pretty serious conduct violations. Apparently you can&#8217;t sleep with your subordinates and keep your job. Jordan Schneider: Wait, Jordan &#8212; we&#8217;ve got Elon, we&#8217;ve got Sergey, everyone in Silicon Valley. Once you get to a trillion dollars, I think you&#8217;re legislated to start sleeping with your subordinates. There must be something else. Jordan Nanos: The trillion-dollar class might be fine, but once you get to $5 trillion, you have problems with this sort of stuff. Jordan Schneider: Then woke 2.0 really starts coming after you. Jordan Nanos: We&#8217;re rotating back. Jordan Schneider: This is truly a momentous day for the future of America, China, and artificial intelligence &#8212; and Dylan somehow looks bored, or just drained. How are you proc…",
+      "summary": "Emergency Pod!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "china-models",
+          "label": "Chinese AI",
+          "confidence": 0.69,
+          "rationale": [
+            "deepseek",
+            "kimi"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Chinese Models",
+      "importanceScore": 0.55,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.71,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "db4acec4d97b2bb0",
+      "date": "2026-11-14",
+      "sourceType": "blog",
+      "sourceGroup": "china",
+      "sourceName": "DeepSeek News",
+      "sourceKey": "china:DeepSeek News",
+      "builderOrOrg": "DeepSeek",
+      "title": "The full DeepSeek App experience, now via API | DeepSeek API Docs",
+      "url": "https://api-docs.deepseek.com/news/news261113",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "content": "Search, files, links, safety, and voice. The capabilities behind the DeepSeek App are now available through the DeepSeek API.",
+      "summary": "Search, files, links, safety, and voice. The capabilities behind the DeepSeek App are now available through the DeepSeek API.",
+      "regionTags": [
+        "china-models",
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "china-models",
+          "label": "Chinese AI",
+          "confidence": 0.81,
+          "rationale": [
+            "deepseek",
+            "china-models"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "voice"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Chinese Models",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
     {
       "id": "05a5379bcc90063c",
       "date": "2026-11-13",
@@ -2391,96 +2489,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "296a47569ed75ef9",
-      "date": "2026-04-24",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Moonshot Kimi K2.6: the world's leading Open Model refreshes to catch up to Opus 4.6 (ahead of DeepSeek v4?)",
-      "url": "https://www.latent.space/p/ainews-moonshot-kimi-k26-the-worlds",
-      "publishedAt": "2026-04-21T00:19:33.000Z",
-      "content": "Two days left before Early Bird ends for AI Engineer World&#8217;s Fair this Summer in SF. This is will be THE BIG ONE of the year - lock in discounts up to $500 (refundable). DeepSeek V4 rumors are back, and we learned our lesson not to get too excited, but in their deafening silence since v3.2 , Moonshot has owned the crown of leading Chinese open model lab for all of 2026 to date , and K2.6 refreshes the lead that K2.5 established in January , with (presumably) more continued pre/posttraining (this time, details of how much more training were not disclosed). Comparing the numbers from the two launches 3 months apart demonstrates the staggering amount of progress: Moonshot/Kimi continues to compete at a level far above &#8220;just being open source versions of Frontier models&#8221; (though it is one of the three Chinese labs accused by Anthropic in Feb ) - they are taking on Gemini 3.1 in their home turf of frontend design, touting a 68.6% win+tie rate vs Gemini 3.1 Pro: And scaling out the pioneering work they did with Agent Swarm RL last edition: And, with OpenClaw being the flavor of the quarter, their own ClawBench and a minor rebrand of their Agent Swarm work in to \"Claw Groups&#8221;. Overall not as technically impressive in isolation as K2.5, but overall still showing far more execution and imagination and drive than their peers, an impressive update and incredible gift to the ecosystem. AI News for 4/18/2026-4/20/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Kimi K2.6 and Qwen3.6-Max-Preview Push Open Agentic Coding Forward Moonshot&#8217;s Kimi K2.6 was the clear release of the day: an open-weight 1T-parameter MoE with 32B active , 384 experts (8 routed + 1 shared), MLA attention , 256K context , native multimodality, and INT4 quantization , with day-0 support in…",
-      "summary": "Yay Kimi!!!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "china-models",
-          "label": "Chinese AI",
-          "confidence": 0.9299999999999999,
-          "rationale": [
-            "qwen",
-            "deepseek",
-            "kimi"
-          ],
-          "score": 4
-        },
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Chinese Models",
-      "importanceScore": 0.69,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.55,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "2d721adcef576758",
-      "date": "2026-04-23",
-      "sourceType": "blog",
-      "sourceGroup": "china",
-      "sourceName": "MiniMax News",
-      "sourceKey": "china:MiniMax News",
-      "builderOrOrg": "MiniMax",
-      "title": "A Deep Dive into the MiniMax-M2-her - MiniMax News | MiniMax",
-      "url": "https://www.minimax.io/news/a-deep-dive-into-the-minimax-m2-her-2",
-      "publishedAt": "2026-04-23T04:26:14.049Z",
-      "content": "",
-      "summary": "",
-      "regionTags": [
-        "china-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "china-models",
-          "label": "Chinese AI",
-          "confidence": 0.81,
-          "rationale": [
-            "minimax",
-            "china-models"
-          ],
-          "score": 3
-        }
-      ],
-      "section": "Chinese Models",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]

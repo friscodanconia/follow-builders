@@ -1,64 +1,11 @@
 {
-  "generatedAt": "2026-11-13T08:12:03.938Z",
+  "generatedAt": "2026-11-14T00:31:01.125Z",
   "slug": "safety",
   "label": "AI Safety",
   "items": [
     {
-      "id": "896d5eb9a412e41b",
-      "date": "2026-11-13",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Supporting research on AI and children’s safety",
-      "url": "https://openai.com/index/children-first-declaration",
-      "publishedAt": "2026-11-12T00:00:00.000Z",
-      "content": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
-      "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
       "id": "f95c730a678de467",
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -102,7 +49,7 @@
     },
     {
       "id": "99c065dc43a7e02d",
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -124,6 +71,114 @@
           "confidence": 0.5700000000000001,
           "rationale": [
             "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "db4acec4d97b2bb0",
+      "date": "2026-11-14",
+      "sourceType": "blog",
+      "sourceGroup": "china",
+      "sourceName": "DeepSeek News",
+      "sourceKey": "china:DeepSeek News",
+      "builderOrOrg": "DeepSeek",
+      "title": "The full DeepSeek App experience, now via API | DeepSeek API Docs",
+      "url": "https://api-docs.deepseek.com/news/news261113",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "content": "Search, files, links, safety, and voice. The capabilities behind the DeepSeek App are now available through the DeepSeek API.",
+      "summary": "Search, files, links, safety, and voice. The capabilities behind the DeepSeek App are now available through the DeepSeek API.",
+      "regionTags": [
+        "china-models",
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "china-models",
+          "label": "Chinese AI",
+          "confidence": 0.81,
+          "rationale": [
+            "deepseek",
+            "china-models"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "voice"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Chinese Models",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "896d5eb9a412e41b",
+      "date": "2026-11-13",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Supporting research on AI and children’s safety",
+      "url": "https://openai.com/index/children-first-declaration",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "content": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+      "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
           ],
           "score": 1
         },
@@ -2240,44 +2295,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "b9f5db4b95d52fc6",
-      "date": "2026-09-19",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:adityaag",
-      "builderOrOrg": "Aditya Agarwal",
-      "title": "This is the right way to solve alignment and safety. @GoodfireAI is the leading non-frontier-la…",
-      "url": "https://x.com/adityaag/status/2100746235426836708",
-      "publishedAt": "2026-09-18T00:38:27.000Z",
-      "content": "This is the right way to solve alignment and safety. @GoodfireAI is the leading non-frontier-lab company that is working on this. This is generationally important. https://t.co/BkufCYX1Qb",
-      "summary": "This is the right way to solve alignment and safety. @GoodfireAI is the leading non-frontier-lab company that is working on this. This is generationally important. https://t.co/BkufCYX1Qb",
-      "regionTags": [],
-      "metrics": {
-        "likes": 8,
-        "retweets": 2,
-        "replies": 1
-      },
-      "topics": [
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.69,
-          "rationale": [
-            "safety",
-            "alignment"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     }
   ]

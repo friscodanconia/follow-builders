@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-13T08:12:03.938Z",
+  "generatedAt": "2026-11-14T00:31:01.125Z",
   "slug": "voice",
   "label": "Voice",
   "items": [
     {
       "id": "7d2f73eec598afcf",
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Import AI",
@@ -53,6 +53,61 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "db4acec4d97b2bb0",
+      "date": "2026-11-14",
+      "sourceType": "blog",
+      "sourceGroup": "china",
+      "sourceName": "DeepSeek News",
+      "sourceKey": "china:DeepSeek News",
+      "builderOrOrg": "DeepSeek",
+      "title": "The full DeepSeek App experience, now via API | DeepSeek API Docs",
+      "url": "https://api-docs.deepseek.com/news/news261113",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "content": "Search, files, links, safety, and voice. The capabilities behind the DeepSeek App are now available through the DeepSeek API.",
+      "summary": "Search, files, links, safety, and voice. The capabilities behind the DeepSeek App are now available through the DeepSeek API.",
+      "regionTags": [
+        "china-models",
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "china-models",
+          "label": "Chinese AI",
+          "confidence": 0.81,
+          "rationale": [
+            "deepseek",
+            "china-models"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "voice"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Chinese Models",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
       "whyThisMatters": ""
     },
     {
@@ -2150,52 +2205,6 @@
         "replies": 16
       },
       "topics": [
-        {
-          "slug": "voice",
-          "label": "Voice",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "voice"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "99caad4520a92360",
-      "date": "2026-07-30",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:danshipper",
-      "builderOrOrg": "Dan Shipper",
-      "title": "i spent the morning writing the definitive history of codex on my couch it comes from hours of…",
-      "url": "https://x.com/danshipper/status/2082130836485259530",
-      "publishedAt": "2026-07-28T15:47:30.000Z",
-      "content": "i spent the morning writing the definitive history of codex on my couch it comes from hours of in-depth interviews with the team including @thsottiaux, @ajambrosino, and @gdb my hands didn’t touch the keyboard or mouse once …i did the whole thing, including organizing the interviews, building a timeline, writing, editing, and revising via ChatGPT for Work’s voice mode absolutely goated for creative work. whole piece will be published on @every in a few weeks",
-      "summary": "i spent the morning writing the definitive history of codex on my couch it comes from hours of in-depth interviews with the team including @thsottiaux, @ajambrosino, and @gdb my hands didn’t touch the keyboard or mouse…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 178,
-        "retweets": 9,
-        "replies": 19
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
         {
           "slug": "voice",
           "label": "Voice",

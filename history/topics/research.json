@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-13T08:12:03.938Z",
+  "generatedAt": "2026-11-14T00:31:01.125Z",
   "slug": "research",
   "label": "Research",
   "items": [
     {
       "id": "bb7020276b3cf569",
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -41,61 +41,8 @@
       "whyThisMatters": ""
     },
     {
-      "id": "896d5eb9a412e41b",
-      "date": "2026-11-13",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Supporting research on AI and children’s safety",
-      "url": "https://openai.com/index/children-first-declaration",
-      "publishedAt": "2026-11-12T00:00:00.000Z",
-      "content": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
-      "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
       "id": "f95c730a678de467",
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -139,7 +86,7 @@
     },
     {
       "id": "99c065dc43a7e02d",
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -182,8 +129,52 @@
       "whyThisMatters": ""
     },
     {
+      "id": "1b9f5f2b541d4a92",
+      "date": "2026-11-14",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Google DeepMind Blog",
+      "sourceKey": "official:Google DeepMind Blog",
+      "builderOrOrg": "Google DeepMind",
+      "title": "Opening the datasets behind our AI weather models",
+      "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+      "publishedAt": "2026-11-10T11:13:04.000Z",
+      "content": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
+      "summary": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "dataset"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
       "id": "7d2f73eec598afcf",
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Import AI",
@@ -235,7 +226,7 @@
     },
     {
       "id": "511d6bf3154d09aa",
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "ChinaTalk",
@@ -289,7 +280,7 @@
     },
     {
       "id": "92058b2fa72628a2",
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "ChinaTalk",
@@ -338,6 +329,59 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "896d5eb9a412e41b",
+      "date": "2026-11-13",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Supporting research on AI and children’s safety",
+      "url": "https://openai.com/index/children-first-declaration",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "content": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+      "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tools"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
       "whyThisMatters": ""
     },
     {
@@ -2403,52 +2447,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "9785b08bb9d3b098",
-      "date": "2026-10-28",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:rauchg",
-      "builderOrOrg": "Guillermo Rauch",
-      "title": "I built 𝚌𝚙𝚞-𝚌𝚑𝚊𝚝, a reproduction of @openai's findings of covert communication using the…",
-      "url": "https://x.com/rauchg/status/2114770919436808572",
-      "publishedAt": "2026-10-26T17:27:32.000Z",
-      "content": "I built 𝚌𝚙𝚞-𝚌𝚑𝚊𝚝, a reproduction of @openai's findings of covert communication using the CPU. It runs on a generic host with 2+ Firecracker microVMs with no internet access. Works on x86 and even my M5 chip. I was able to chat via 3 separate mechanisms: ① CPU contention ② Cache eviction timing ③ DRAM bandwidth contention … across multiple CPUs, defeating all Firecracker's production recommendations (no SMT, no KSM, tenants pinned to different cores.) Essentially, if shared hardware is i…",
-      "summary": "I built 𝚌𝚙𝚞-𝚌𝚑𝚊𝚝, a reproduction of @openai's findings of covert communication using the CPU. It runs on a generic host with 2+ Firecracker microVMs with no internet access. Works on x86 and even my M5 chip. I w…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 2001,
-        "retweets": 179,
-        "replies": 206
-      },
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "finding"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     }
   ]
