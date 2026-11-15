@@ -1,8 +1,63 @@
 {
-  "generatedAt": "2026-11-15T00:31:02.614Z",
+  "generatedAt": "2026-11-15T06:53:23.158Z",
   "slug": "inference",
   "label": "Speed & Cost",
   "items": [
+    {
+      "id": "ed3356b38cc74139",
+      "date": "2026-11-15",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:garrytan",
+      "builderOrOrg": "Garry Tan",
+      "title": "It turns out paper chart and copper wire and an antiquated system that is brittle and doesn’t h…",
+      "url": "https://x.com/garrytan/status/2121727702025765094",
+      "publishedAt": "2026-11-14T22:11:18.000Z",
+      "content": "It turns out paper chart and copper wire and an antiquated system that is brittle and doesn’t have enough failsafe let alone any modern software is not serving the people of America properly. Modernize the FAA. https://t.co/J4wbogmVSy",
+      "summary": "It turns out paper chart and copper wire and an antiquated system that is brittle and doesn’t have enough failsafe let alone any modern software is not serving the people of America properly. Modernize the FAA. https://…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 167,
+        "retweets": 14,
+        "replies": 36
+      },
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "serving"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "paper"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
     {
       "id": "2e13d8a6cee61386",
       "date": "2026-11-15",
@@ -51,9 +106,9 @@
       ],
       "section": "Podcasts & Newsletters",
       "importanceScore": 0.54,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.46,
       "whyThisMatters": ""
     },
     {
@@ -2328,59 +2383,6 @@
           "confidence": 0.5700000000000001,
           "rationale": [
             "serving"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "01e01fa2f12f248f",
-      "date": "2026-09-16",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Together AI Blog",
-      "sourceKey": "official:Together AI Blog",
-      "builderOrOrg": "Together AI",
-      "title": "The Open Source AI Stack",
-      "url": "https://www.together.ai/blog/the-open-source-ai-stack",
-      "publishedAt": "2026-09-09T00:00:00.000Z",
-      "content": "A deep dive into the open model AI stack — model, inference, gateways and routers, harness, and tools — and how keeping each layer independent lets you swap in a new open model in minutes instead of rebuilding your workflow.",
-      "summary": "A deep dive into the open model AI stack — model, inference, gateways and routers, harness, and tools — and how keeping each layer independent lets you swap in a new open model in minutes instead of rebuilding your workflow.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "inference"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open source"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
           ],
           "score": 1
         }
