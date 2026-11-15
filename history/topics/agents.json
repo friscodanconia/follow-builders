@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-14T07:41:47.825Z",
+  "generatedAt": "2026-11-15T00:31:02.614Z",
   "slug": "agents",
   "label": "AI Assistants",
   "items": [
     {
       "id": "860c20faa0922d46",
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -37,13 +37,13 @@
       "section": "Builders",
       "importanceScore": 0.84,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.65,
       "whyThisMatters": ""
     },
     {
       "id": "c5a596b46417bc06",
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -92,13 +92,13 @@
       "section": "Builders",
       "importanceScore": 0.92,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.7,
       "whyThisMatters": ""
     },
     {
       "id": "6d3cb41c5be23c09",
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -129,13 +129,13 @@
       "section": "Builders",
       "importanceScore": 0.84,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.65,
       "whyThisMatters": ""
     },
     {
       "id": "8d8792d0b82aa8af",
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
@@ -173,13 +173,13 @@
       "section": "Official Sources",
       "importanceScore": 0.72,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.57,
       "whyThisMatters": ""
     },
     {
       "id": "3868cf23e6bbce1d",
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
@@ -214,7 +214,7 @@
     },
     {
       "id": "4719316a59d448ba",
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
@@ -258,7 +258,7 @@
     },
     {
       "id": "e9af863610771629",
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Google DeepMind Blog",
@@ -302,7 +302,7 @@
     },
     {
       "id": "110265618502dd52",
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "Microsoft Research Blog",
@@ -356,8 +356,61 @@
       "whyThisMatters": ""
     },
     {
+      "id": "2e13d8a6cee61386",
+      "date": "2026-11-15",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] The No AI Slop Manifesto",
+      "url": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
+      "publishedAt": "2026-11-14T08:31:02.000Z",
+      "content": "Congrats to both llama.ccp and ggml for reaching 1.0 (declaring stability and removing 35 deprecated functions from llama.cpp’s public header) and with SGLang also announcing 1.0 at the recent SGLang Summit . However, today’s title story goes to the No AI Slop manifesto , which arose out of the conference discussions at AIE CODE and which Dex introduced in the closing keynote after cosignatures by many of the speakers at the conference. It seems Hacker News also liked it , voting it up to the front page today. We started this manifesto to offer a useful tool for discussion at work, and hope it gets used that way. Full manifesto, with cosignatures and edits and discussions open at https://www.slopmanifesto.com/ Sponsored by Deepgram Deepgram is the voice AI infrastructure behind natural conversation—bringing speech-to-text, text-to-speech, voice-focused LLMs, and agents to teams building with voice AI. For any stack and any tools you already love building with, Deepgram slots in as your foundational voice AI technology. So you have control. And we have the context to listen, understand, and speak like a human. Learn more about the Real-time Context Standard . Sponsored by Backblaze B2 Growth shouldn’t make you sweat. Backblaze B2 delivers capacity storage that scales with your business and keeps flash and GPUs fed with terabit-scale throughput. Put B2 to the test ! contact business@latent.space for further enquiries. Thank to Deepgram and Backblaze for supporting AINews! AI Twitter Recap Local inference and agent infrastructure llama.cpp 1.0. Users running mixture-of-experts models larger than their GPU memory can now set aside a cache for frequently used experts. Georgi Gerganov · Daniel Han Chen’s example LangChain’s Series C. CapitalG led the round. LangSmith lets teams trace and evaluate production agents across frameworks. The company plans to announce new LangSmith features on November 20. LangChain · CapitalG Frontier and Open Model Launches Gemini 4 Hydrogen…",
+      "summary": "November 13, 2026 — AIE speakers unite to lay out how to fight slop.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.69,
+          "rationale": [
+            "inference",
+            "throughput"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.69,
+          "rationale": [
+            "voice",
+            "speech"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.54,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.7,
+      "whyThisMatters": ""
+    },
+    {
       "id": "e58ae2347c39d5fa",
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "sourceType": "newsletter",
       "sourceGroup": "editorial",
       "sourceName": "Latent Space Newsletter",
@@ -2287,52 +2340,6 @@
           "confidence": 0.5700000000000001,
           "rationale": [
             "gui"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "e76992d58b15d074",
-      "date": "2026-11-08",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:garrytan",
-      "builderOrOrg": "Garry Tan",
-      "title": "Eval-driven development loops for agent skills is necessary. Every new model gets better. You c…",
-      "url": "https://x.com/garrytan/status/2118920030243139596",
-      "publishedAt": "2026-11-07T04:14:37.000Z",
-      "content": "Eval-driven development loops for agent skills is necessary. Every new model gets better. You can remove things you don't need anymore. I just removed /investigate as a skill because Opus 5.5 does it better without it. You can feel the AGI tide rising https://t.co/RTpbEAMZVU",
-      "summary": "Eval-driven development loops for agent skills is necessary. Every new model gets better. You can remove things you don't need anymore. I just removed /investigate as a skill because Opus 5.5 does it better without it.…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 217,
-        "retweets": 9,
-        "replies": 58
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "eval"
           ],
           "score": 1
         }
