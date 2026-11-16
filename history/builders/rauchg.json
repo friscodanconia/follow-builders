@@ -1,10 +1,111 @@
 {
-  "generatedAt": "2026-11-16T00:31:03.831Z",
+  "generatedAt": "2026-11-16T06:56:12.793Z",
   "handle": "rauchg",
   "name": "Guillermo Rauch",
   "itemCount": 50,
   "latestDate": "2026-11-16",
   "items": [
+    {
+      "id": "faf5cfd917828fca",
+      "date": "2026-11-16",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "Introducing 𝚡𝚎𝚎𝚝: https://t.co/YaLEMbmKwf. A hermetic, pixel-perfect X post renderer in saf…",
+      "url": "https://x.com/rauchg/status/2122184794209714368",
+      "publishedAt": "2026-11-16T04:27:37.000Z",
+      "content": "Introducing 𝚡𝚎𝚎𝚝: https://t.co/YaLEMbmKwf. A hermetic, pixel-perfect X post renderer in safe Rust / wasm. Zero browser, network, filesystem, system fonts. Renders a post to PNG in ~1ms (and 0.4 ms for @jack's \"setting up my twttr\" 😁). X is the global town square, and the medium is the message. Being able to preview what things will look like before posting is great for both humans and agents. Rendering with xeet is is 100x-1000x faster than booting up a browser and taking a screenshot, yet…",
+      "summary": "Introducing 𝚡𝚎𝚎𝚝: https://t.co/YaLEMbmKwf. A hermetic, pixel-perfect X post renderer in safe Rust / wasm. Zero browser, network, filesystem, system fonts. Renders a post to PNG in ~1ms (and 0.4 ms for @jack's \"setti…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 629,
+        "retweets": 27,
+        "replies": 81
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "browser"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "5174439ccbe25314",
+      "date": "2026-11-16",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "AI models are getting really good at naming things. I created a little CLI to diagnose system s…",
+      "url": "https://x.com/rauchg/status/2122127120055034258",
+      "publishedAt": "2026-11-16T00:38:27.000Z",
+      "content": "AI models are getting really good at naming things. I created a little CLI to diagnose system slowdowns, and it named it 𝚑𝚘𝚐 🐖, which I love. Given they're already good at cache invalidation, maybe computer science's hardest problems are solved after all 😂",
+      "summary": "AI models are getting really good at naming things. I created a little CLI to diagnose system slowdowns, and it named it 𝚑𝚘𝚐 🐖, which I love. Given they're already good at cache invalidation, maybe computer science'…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 459,
+        "retweets": 8,
+        "replies": 110
+      },
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "science"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
     {
       "id": "79e0149666842afe",
       "date": "2026-11-16",
@@ -2190,98 +2291,6 @@
           "confidence": 0.5700000000000001,
           "rationale": [
             "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "e3e71c06c353bb6c",
-      "date": "2026-10-22",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:rauchg",
-      "builderOrOrg": "Guillermo Rauch",
-      "title": "Much like we did with @aisdk, we're bringing a truly open-source, runtime-agnostic solution to…",
-      "url": "https://x.com/rauchg/status/2112658577110520122",
-      "publishedAt": "2026-10-20T21:33:50.000Z",
-      "content": "Much like we did with @aisdk, we're bringing a truly open-source, runtime-agnostic solution to harness durability. We're extending the durability infra that powers @eve and Workflows to all harnesses, like Pi and OpenCode. Local, Vercel, or DIY. Fun fact: even Claude Code and Codex can be made durable (and observable!) this way. The catch: they're not (currently) designed for embedding, which makes them less efficient, less portable, and brings an extra sandbox requirement compared to Pi or Fx.",
-      "summary": "Much like we did with @aisdk, we're bringing a truly open-source, runtime-agnostic solution to harness durability. We're extending the durability infra that powers @eve and Workflows to all harnesses, like Pi and OpenCo…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 435,
-        "retweets": 24,
-        "replies": 87
-      },
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "open-source"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "a61575204dc74fe8",
-      "date": "2026-10-22",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:rauchg",
-      "builderOrOrg": "Guillermo Rauch",
-      "title": "AI will be able to compute the perfect delta of what you understand and don't, helping you prog…",
-      "url": "https://x.com/rauchg/status/2112638107749355867",
-      "publishedAt": "2026-10-20T20:12:30.000Z",
-      "content": "AI will be able to compute the perfect delta of what you understand and don't, helping you progressively learn any idea and unravel any mystery. If you so desire, you'll reach the maximum of your capability and intelligence. The ultimate education. For free.",
-      "summary": "AI will be able to compute the perfect delta of what you understand and don't, helping you progressively learn any idea and unravel any mystery. If you so desire, you'll reach the maximum of your capability and intellig…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 2466,
-        "retweets": 201,
-        "replies": 184
-      },
-      "topics": [
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
           ],
           "score": 1
         }

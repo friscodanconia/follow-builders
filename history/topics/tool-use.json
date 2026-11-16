@@ -1,26 +1,63 @@
 {
-  "generatedAt": "2026-11-16T00:31:03.831Z",
+  "generatedAt": "2026-11-16T06:56:12.793Z",
   "slug": "tool-use",
   "label": "AI Using Tools",
   "items": [
     {
-      "id": "b3ec6e65aaf9b6eb",
+      "id": "879f80cfc6eae050",
       "date": "2026-11-16",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:garrytan",
-      "builderOrOrg": "Garry Tan",
-      "title": "Aside Browser is a huge unlock for every AI agent https://t.co/lo8Tgqnu9J",
-      "url": "https://x.com/garrytan/status/2121824006819258485",
-      "publishedAt": "2026-11-15T04:33:59.000Z",
-      "content": "Aside Browser is a huge unlock for every AI agent https://t.co/lo8Tgqnu9J",
-      "summary": "Aside Browser is a huge unlock for every AI agent https://t.co/lo8Tgqnu9J",
+      "sourceKey": "x:petergyang",
+      "builderOrOrg": "Peter Yang",
+      "title": "\"Do you find being a designer more fun now that you can easily prototype everything?\" That's th…",
+      "url": "https://x.com/petergyang/status/2122060856498524510",
+      "publishedAt": "2026-11-15T20:15:08.000Z",
+      "content": "\"Do you find being a designer more fun now that you can easily prototype everything?\" That's the question I asked @nateparrott (Anthropic). His answer: \"I'm a little weird in that I have an engineering background. Before Anthropic, I worked at The Browser Company, where we made a browser called Arc. We spent a year in pre-production before we released Arc. It took us a couple weeks to build out each idea and see which worked. Now at Anthropic, you can kind of do that in one to two days. So you'…",
+      "summary": "\"Do you find being a designer more fun now that you can easily prototype everything?\" That's the question I asked @nateparrott (Anthropic). His answer: \"I'm a little weird in that I have an engineering background. Befor…",
       "regionTags": [],
       "metrics": {
-        "likes": 120,
-        "retweets": 6,
-        "replies": 49
+        "likes": 42,
+        "retweets": 0,
+        "replies": 10
+      },
+      "topics": [
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "browser"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.69,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.8,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "faf5cfd917828fca",
+      "date": "2026-11-16",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "Introducing 𝚡𝚎𝚎𝚝: https://t.co/YaLEMbmKwf. A hermetic, pixel-perfect X post renderer in saf…",
+      "url": "https://x.com/rauchg/status/2122184794209714368",
+      "publishedAt": "2026-11-16T04:27:37.000Z",
+      "content": "Introducing 𝚡𝚎𝚎𝚝: https://t.co/YaLEMbmKwf. A hermetic, pixel-perfect X post renderer in safe Rust / wasm. Zero browser, network, filesystem, system fonts. Renders a post to PNG in ~1ms (and 0.4 ms for @jack's \"setting up my twttr\" 😁). X is the global town square, and the medium is the message. Being able to preview what things will look like before posting is great for both humans and agents. Rendering with xeet is is 100x-1000x faster than booting up a browser and taking a screenshot, yet…",
+      "summary": "Introducing 𝚡𝚎𝚎𝚝: https://t.co/YaLEMbmKwf. A hermetic, pixel-perfect X post renderer in safe Rust / wasm. Zero browser, network, filesystem, system fonts. Renders a post to PNG in ~1ms (and 0.4 ms for @jack's \"setti…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 629,
+        "retweets": 27,
+        "replies": 81
       },
       "topics": [
         {
@@ -40,13 +77,22 @@
             "browser"
           ],
           "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
         }
       ],
       "section": "Builders",
       "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.65,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
       "whyThisMatters": ""
     },
     {
@@ -98,6 +144,52 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "b3ec6e65aaf9b6eb",
+      "date": "2026-11-16",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:garrytan",
+      "builderOrOrg": "Garry Tan",
+      "title": "Aside Browser is a huge unlock for every AI agent https://t.co/lo8Tgqnu9J",
+      "url": "https://x.com/garrytan/status/2121824006819258485",
+      "publishedAt": "2026-11-15T04:33:59.000Z",
+      "content": "Aside Browser is a huge unlock for every AI agent https://t.co/lo8Tgqnu9J",
+      "summary": "Aside Browser is a huge unlock for every AI agent https://t.co/lo8Tgqnu9J",
+      "regionTags": [],
+      "metrics": {
+        "likes": 120,
+        "retweets": 6,
+        "replies": 49
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "tool-use",
+          "label": "AI Using Tools",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "browser"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.65,
       "whyThisMatters": ""
     },
     {
@@ -2320,98 +2412,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "be59ed35d44bcfd6",
-      "date": "2026-09-25",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:claudeai",
-      "builderOrOrg": "Claude",
-      "title": "Browse the marketplace: https://t.co/MIKvTzg59L And if you're building for Claude, list your to…",
-      "url": "https://x.com/claudeai/status/2102840855258452037",
-      "publishedAt": "2026-09-23T19:21:43.000Z",
-      "content": "Browse the marketplace: https://t.co/MIKvTzg59L And if you're building for Claude, list your tools, agents or services here: https://t.co/gjX3Xctic2",
-      "summary": "Browse the marketplace: https://t.co/MIKvTzg59L And if you're building for Claude, list your tools, agents or services here: https://t.co/gjX3Xctic2",
-      "regionTags": [],
-      "metrics": {
-        "likes": 179,
-        "retweets": 7,
-        "replies": 18
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "f363d91fdc022ab9",
-      "date": "2026-09-25",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:claudeai",
-      "builderOrOrg": "Claude",
-      "title": "You can now discover tools, agents and expert partners on Claude Marketplace. Use it to: - Add…",
-      "url": "https://x.com/claudeai/status/2102840851538080172",
-      "publishedAt": "2026-09-23T19:21:42.000Z",
-      "content": "You can now discover tools, agents and expert partners on Claude Marketplace. Use it to: - Add connectors and plugins like Slack and Notion - Buy agents and products from companies like Cursor and CrowdStrike - Scale with service partners like Accenture and Deloitte https://t.co/S5DrmdUkXu",
-      "summary": "You can now discover tools, agents and expert partners on Claude Marketplace. Use it to: - Add connectors and plugins like Slack and Notion - Buy agents and products from companies like Cursor and CrowdStrike - Scale wi…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 4249,
-        "retweets": 245,
-        "replies": 166
-      },
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "tool-use",
-          "label": "AI Using Tools",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.84,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.65,
       "whyThisMatters": ""
     }
   ]
