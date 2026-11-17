@@ -1,74 +1,37 @@
 {
-  "generatedAt": "2026-11-17T00:31:01.078Z",
+  "generatedAt": "2026-11-17T08:12:32.497Z",
   "slug": "research",
   "label": "Research",
   "items": [
     {
-      "id": "5174439ccbe25314",
+      "id": "9ad184e7952453eb",
       "date": "2026-11-17",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
-      "sourceKey": "x:rauchg",
-      "builderOrOrg": "Guillermo Rauch",
-      "title": "AI models are getting really good at naming things. I created a little CLI to diagnose system s…",
-      "url": "https://x.com/rauchg/status/2122127120055034258",
-      "publishedAt": "2026-11-16T00:38:27.000Z",
-      "content": "AI models are getting really good at naming things. I created a little CLI to diagnose system slowdowns, and it named it 𝚑𝚘𝚐 🐖, which I love. Given they're already good at cache invalidation, maybe computer science's hardest problems are solved after all 😂",
-      "summary": "AI models are getting really good at naming things. I created a little CLI to diagnose system slowdowns, and it named it 𝚑𝚘𝚐 🐖, which I love. Given they're already good at cache invalidation, maybe computer science'…",
+      "sourceKey": "x:petergyang",
+      "builderOrOrg": "Peter Yang",
+      "title": "My top 5 takeaways from @nateparrott on how to get Claude to design without AI slop: 1. Give Cl…",
+      "url": "https://x.com/petergyang/status/2122347721298510021",
+      "publishedAt": "2026-11-16T15:15:02.000Z",
+      "content": "My top 5 takeaways from @nateparrott on how to get Claude to design without AI slop: 1. Give Claude context upfront. Share screenshots, pages you like, and your past work. For an existing product, have Claude rebuild the real screens from code. 2. Research familiar UX patterns. For hard layout problems, ask Claude to research familiar products that solve something similar and note the layouts people already know how to use. 3. Make Claude aware of its design biases. \"The model has no idea what…",
+      "summary": "My top 5 takeaways from @nateparrott on how to get Claude to design without AI slop: 1. Give Claude context upfront. Share screenshots, pages you like, and your past work. For an existing product, have Claude rebuild th…",
       "regionTags": [],
       "metrics": {
-        "likes": 459,
-        "retweets": 8,
-        "replies": 110
+        "likes": 138,
+        "retweets": 12,
+        "replies": 43
       },
       "topics": [
         {
-          "slug": "research",
-          "label": "Research",
+          "slug": "coding",
+          "label": "Coding",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "science"
+            "code"
           ],
           "score": 1
         },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "gui"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Builders",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.56,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "1e13d392415f1cd8",
-      "date": "2026-11-17",
-      "sourceType": "x",
-      "sourceGroup": "mirrored",
-      "sourceName": "X",
-      "sourceKey": "x:danshipper",
-      "builderOrOrg": "Dan Shipper",
-      "title": "we've been working hard on compounding skills lately (skills that get better every time you use…",
-      "url": "https://x.com/danshipper/status/2122091033001337134",
-      "publishedAt": "2026-11-15T22:15:03.000Z",
-      "content": "we've been working hard on compounding skills lately (skills that get better every time you use them) and i think @hammer_mt finally cracked it this weekend i made a skill to help us write context window summaries, and used autoresearch to iterate until it hit 80% of my taste on summaries vs. a no-skill baseline full writeup for your agnets on the @every frontier feed: https://t.co/2MT0NTucoK",
-      "summary": "we've been working hard on compounding skills lately (skills that get better every time you use them) and i think @hammer_mt finally cracked it this weekend i made a skill to help us write context window summaries, and…",
-      "regionTags": [],
-      "metrics": {
-        "likes": 143,
-        "retweets": 4,
-        "replies": 30
-      },
-      "topics": [
         {
           "slug": "research",
           "label": "Research",
@@ -81,9 +44,9 @@
       ],
       "section": "Builders",
       "importanceScore": 0.7,
-      "noveltyScore": 0.3,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.56,
+      "digestScore": 0.8,
       "whyThisMatters": ""
     },
     {
@@ -125,9 +88,9 @@
       ],
       "section": "Official Sources",
       "importanceScore": 0.58,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.73,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.48,
       "whyThisMatters": ""
     },
     {
@@ -171,106 +134,9 @@
       ],
       "section": "Official Sources",
       "importanceScore": 0.58,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.73,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "c8e10eb4be10b0e4",
-      "date": "2026-11-17",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
-      "url": "https://openai.com/index/lvmh-media-division-partnership",
-      "publishedAt": "2026-11-16T09:00:00.000Z",
-      "content": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
-      "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "publication"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "vision"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.73,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "5f12f2f196963298",
-      "date": "2026-11-17",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Our first phase of embedded assessments",
-      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
-      "publishedAt": "2026-11-16T08:00:00.000Z",
-      "content": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
-      "summary": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "eval"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "alignment"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.73,
+      "digestScore": 0.48,
       "whyThisMatters": ""
     },
     {
@@ -457,9 +323,9 @@
       ],
       "section": "Official Sources",
       "importanceScore": 0.58,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.73,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.48,
       "whyThisMatters": ""
     },
     {
@@ -508,9 +374,9 @@
       ],
       "section": "Podcasts & Newsletters",
       "importanceScore": 0.4,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.61,
+      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -565,6 +431,186 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "5174439ccbe25314",
+      "date": "2026-11-17",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "AI models are getting really good at naming things. I created a little CLI to diagnose system s…",
+      "url": "https://x.com/rauchg/status/2122127120055034258",
+      "publishedAt": "2026-11-16T00:38:27.000Z",
+      "content": "AI models are getting really good at naming things. I created a little CLI to diagnose system slowdowns, and it named it 𝚑𝚘𝚐 🐖, which I love. Given they're already good at cache invalidation, maybe computer science's hardest problems are solved after all 😂",
+      "summary": "AI models are getting really good at naming things. I created a little CLI to diagnose system slowdowns, and it named it 𝚑𝚘𝚐 🐖, which I love. Given they're already good at cache invalidation, maybe computer science'…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 459,
+        "retweets": 8,
+        "replies": 110
+      },
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "science"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "gui"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "1e13d392415f1cd8",
+      "date": "2026-11-17",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:danshipper",
+      "builderOrOrg": "Dan Shipper",
+      "title": "we've been working hard on compounding skills lately (skills that get better every time you use…",
+      "url": "https://x.com/danshipper/status/2122091033001337134",
+      "publishedAt": "2026-11-15T22:15:03.000Z",
+      "content": "we've been working hard on compounding skills lately (skills that get better every time you use them) and i think @hammer_mt finally cracked it this weekend i made a skill to help us write context window summaries, and used autoresearch to iterate until it hit 80% of my taste on summaries vs. a no-skill baseline full writeup for your agnets on the @every frontier feed: https://t.co/2MT0NTucoK",
+      "summary": "we've been working hard on compounding skills lately (skills that get better every time you use them) and i think @hammer_mt finally cracked it this weekend i made a skill to help us write context window summaries, and…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 143,
+        "retweets": 4,
+        "replies": 30
+      },
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "c8e10eb4be10b0e4",
+      "date": "2026-11-17",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
+      "publishedAt": "2026-11-16T09:00:00.000Z",
+      "content": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+      "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "publication"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "vision"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "5f12f2f196963298",
+      "date": "2026-11-17",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Our first phase of embedded assessments",
+      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+      "publishedAt": "2026-11-16T08:00:00.000Z",
+      "content": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+      "summary": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "alignment"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
       "whyThisMatters": ""
     },
     {
@@ -2346,50 +2392,6 @@
             "eval"
           ],
           "score": 2
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "b1cbf0d32c9e55e6",
-      "date": "2026-11-02",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Anthropic files S-1 with the SEC for proposed initial public offering \\ Anthropic",
-      "url": "https://www.anthropic.com/news/s1-sec",
-      "publishedAt": "2026-10-26T00:00:00.000Z",
-      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
-          ],
-          "score": 1
         }
       ],
       "section": "Official Sources",
