@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-17T09:20:31.773Z",
+  "generatedAt": "2026-11-18T00:31:04.415Z",
   "slug": "coding",
   "label": "Coding",
   "items": [
     {
       "id": "9ad184e7952453eb",
-      "date": "2026-11-17",
+      "date": "2026-11-18",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -45,13 +45,13 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
       "id": "d2c4540e4965517a",
-      "date": "2026-11-17",
+      "date": "2026-11-18",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -92,13 +92,13 @@
       "section": "Builders",
       "importanceScore": 0.84,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.65,
       "whyThisMatters": ""
     },
     {
       "id": "ec5af6b18715664b",
-      "date": "2026-11-17",
+      "date": "2026-11-18",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -140,6 +140,364 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.58,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "e444036ace93a759",
+      "date": "2026-11-18",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "publishedAt": "2026-11-17T17:45:00.000Z",
+      "content": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "computer use"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "5e4bc15953903856",
+      "date": "2026-11-18",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient",
+      "url": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/",
+      "publishedAt": "2026-11-16T17:01:35.000Z",
+      "content": "At a glance Developers use AI coding agents in the same codebases day after day, yet agents often start each session from scratch: rediscovering familiar facts, loading unused tools, and repeating unsuccessful approaches. TokenEconomizer is an open-source plugin that learns from an agent’s past sessions in a repository to reduce waste in future sessions, without modifying the agent or its underlying model. Across 277 real bug-fixing tasks, TokenEconomizer reduced costs by 18.4–30.9% across multiple AI coding agents. Costs fell in every repository tested, while task success rates remained broadly stable. AI coding agents are increasingly helping developers fix bugs and build features largely on their own, but every interaction with their models consumes tokens. In each session , an agent sends instructions, tool descriptions, and session history to its model. Most efforts to reduce this cost focus on individual tasks. Yet developers return to the same repositories, giving agents an opportunity to learn from previous work. Without that learning, an agent may repeatedly rediscover how to run tests, load tools it never uses, or spend dozens of turns revisiting the same error.&nbsp; In our paper, TokenEconomizer: Experience-Driven Black-Box Cost Control for Coding Agents , we ask a simple question: can experience in a repository help an agent solve future tasks more efficiently? TokenEconomizer, an open-source plugin from UC Berkeley, Microsoft Research, and Microsoft Security, turns completed sessions into guidance for subsequent ones. It reduces waste without changing the agent or its underlying model, so developers can use it alongside the coding agents they already rely on. Figure 1. Each finished session teaches TokenEconomizer something about the repository, so later sessions cost less tokens. &nbsp; Where the tokens go We first profiled Claude Code on 60 tasks from SWE-Bench, a benchmark of real bug fixes in open-source Python projects, running each repository’s…",
+      "summary": "AI coding agents can waste time and tokens relearning the same lessons. TokenEconomizer is an open-source plugin that builds on past sessions to cut costs while maintaining task success. It’s a path toward coding agents that learn not only…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.95,
+          "rationale": [
+            "coding",
+            "code",
+            "developer"
+          ],
+          "score": 5
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "paper"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "benchmark",
+            "swe-bench"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "a0ad66e61ac16675",
+      "date": "2026-11-18",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Together AI Blog",
+      "sourceKey": "official:Together AI Blog",
+      "builderOrOrg": "Together AI",
+      "title": "How we make Together AI easy for coding agents to use",
+      "url": "https://www.together.ai/blog/how-we-do-agent-evals-at-together-ai",
+      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "content": "We built agent evals to test how effective coding agents are at using Together AI. Small fixes to our docs, skills, and API errors lifted task completion rate from 75% to 97%.",
+      "summary": "We built agent evals to test how effective coding agents are at using Together AI. Small fixes to our docs, skills, and API errors lifted task completion rate from 75% to 97%.",
+      "regionTags": [
+        "open-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "coding"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "eval"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.72,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.57,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "ca4eefbffed0ab1c",
+      "date": "2026-11-18",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Cloudflare Joins the Jevolution and Labels Itself a Neolab",
+      "url": "https://latent.space/p/cloudflare/",
+      "publishedAt": "2026-11-17T15:00:00.000Z",
+      "content": "Cloudflare has been one of the essential infrastructure companies of the web for the past decade and a half. But now, it’s turning into a neolab — at least according to a presentation at AI Engineer Code Summit by Michelle Chen , who runs Cloudflare’s AI Platform on the product side. We’ll get into what exactly a neolab is in a minute (the short version: they build models and they’re not called OpenAI or Anthropic). Cloudflare is claiming to be one because it too has begun to launch models. Two System One models , to be precise: Clef and Clairic. As Chen explained in her talk, Clef is a decision model directly inspired by TypeSafe AI’s revolutionary Jev model , while Clairic is a new type of system one model that Cloudflare calls an “extract” model . In an interview with Latent Space after her presentation, Chen hinted that Cloudflare won’t just be producing system one models. There will be large language models, too. “We're not being a neolab [to] only launch system one models, even though it makes sense for our infrastructure. We've kind of entered this Pandora's box now, right? We opened it, now the possibilities are endless.” Chen said it’s “not just system one models, but potentially reasoning models that we've been experimenting with, and other LLMs and whatnot.” However, she added that these probably won’t be pre-trained models built from scratch, like the frontier labs produce. “I don't think that's our focus, but I think we can take existing resources out there and make [them] a lot more efficient and effective.” She noted that “most of our team really just does post-training,” so that will be the focus in model development. What is a neolab and is Cloudflare really one? The term neolab literally means a ‘new lab’ and it was coined last November by Stephanie Palazzolo from The Information, who defined it as “a new generation of research-focused AI startups.” Deedy Das , a partner at Menlo Ventures and an AI influencer, runs a big list of neolabs . It inclu…",
+      "summary": "Cloudflare made its name speeding up the web. Now it&apos;s building System One models to make decisions and pull data in milliseconds.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "reasoning"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "27c5928167ba3d50",
+      "date": "2026-11-18",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Perplexity hits a $1B revenue run rate, up 4x in 2026",
+      "url": "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/",
+      "publishedAt": "2026-11-17T09:24:56.000Z",
+      "content": "Perplexity crossed a $1B annual revenue run rate today , CEO Aravind Srinivas told Semafor at a live event. The Information reported previously under $250M at the start of the year and over $750M by August, with Computer driving some of the growth. At usual agent lab multiples (eg Cognition also crossed $1B , with Cursor crossing $4.6B ), this would roughly mean that Perplexity is now worth $30-50B — if the unit economics hold up. This is a nice bump on the $20B round in September 2025 , and qualifies for our “>$10B fundraise” rule for title stories. Gathering up some recent Perplexity launches for those catching up: Computer. September’s Automations let it pick up recurring tasks where it left off. November’s Teammates take on ongoing jobs. Computer also runs fully locally on supported Macs. Monitor API. &nbsp; Watch a topic or page and get a webhook when something relevant changes. Frontier Research. The new research lab has access to 10,000+ GPUs and plans to publish papers, data, models, and code. Sponsored by Deepgram Deepgram is the voice AI infrastructure behind natural conversation—bringing speech-to-text, text-to-speech, voice-focused LLMs, and agents to teams building with voice AI. For any stack and any tools you already love building with, Deepgram slots in as your foundational voice AI technology. So you have control. And we have the context to listen, understand, and speak like a human. Learn more about the Real-time Context Standard . AI Twitter Recap Qwen4-Max in the wild Friday’s Qwen4-Max preview is now a shipping model. At the highest reasoning setting, Qwen4-Max scored 43 on the Intelligence Index, up from 34. Average cost fell from $10.02 to $3.27 per task. Alibaba cut output pricing from $6 to $4.50 per million tokens, and the model generated about 39% fewer of them. Kimi K3.1 Pro cost $3.68 per index task and scored 67% on Terminal-Bench 4.0 to Qwen’s 48%. Artificial Analysis Inside the model. Alibaba kept the total parameter count at 2.4T an…",
+      "summary": "November 16, 2026 — Computer gets Teammates, Perplexity ships Monitor API, and a new research lab launches.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "code",
+            "terminal-bench",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "paper"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.69,
+          "rationale": [
+            "voice",
+            "speech"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "496bc18d2961e7b2",
+      "date": "2026-11-18",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+      "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
+      "publishedAt": "2026-11-13T09:04:13.000Z",
+      "content": "Congrats to Gemini 4 Hydrogen on their launch and it seems Anthropic’s IPO is well under way, but today’s headline was only ever going to be about one thing, the most earthshaking leadership change in AI (after Demis/Jeff/et al at Google DeepMind). Yesterday we covered reports that NVIDIA’s board was preparing to replace Jensen Huang following an NYT report of an affair with an accused Chinese spy . Following news of a second affair , today NVIDIA announced his resignation (correlation/causation is debatable here), presumably forced by the board: View post on X ↗ There is also some discussion of the extent that Chinese models can demonstrably be shown to be trained on Blackwell GPUs that they should not have access to… though the scale is debated . After 33 years, Jensen Huang has stepped down as CEO, president and boardmember. Colette Kress, NVIDIA’s CFO since 2013, will keep that job while serving as interim CEO… leading into what will presumably the best attended earnings call in the history of $NVDA next week. AI News for 11/11/2026-11/12/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Gemini 4 Hydrogen: Google's Fast Gemini 4 Tier Ships Broadly Launch : Google DeepMind released Gemini 4 Hydrogen, a speed-first model positioned alongside Carbon and Argon. Google says it completes tasks 2.5x faster than Gemini 3.8 Flash and edges Argon on the Artificial Analysis Intelligence Index, 51 vs 50 at default thinking and 54 at the new xhigh level ( DeepMind , Koray Kavukcuoglu ). Specs and pricing : The model offers four thinking levels (low, medium, high and xhigh) and a 1M context window. It costs $1.50/$7.50 per million input/output tokens, with a 95% discount on cached input ( Phil Schmid , Artificial Analysis ). Official claims : Google reports 57% on Terminal-Bench 4.0 and more th…",
+      "summary": "November 12, 2026 — Colette Kress takes over as interim CEO. What happens to open source/American AI leadership?",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "terminal-bench",
+            "repo"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "serving"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "511d6bf3154d09aa",
+      "date": "2026-11-18",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "Piggybacking to the Frontier",
+      "url": "https://www.chinatalk.media/p/the-us-is-selling-rl-environments",
+      "publishedAt": "2026-11-11T11:07:30.000Z",
+      "content": "American data companies like Mercor, Surge AI, AfterQuery, and Turing are selling roughly half a billion dollars worth of data to Chinese AI labs. A chunk of that data comes in the form of reinforcement learning (RL) environments, which labs use to post-train their models to make them excel at specific domains like coding, cyber, finance, law, and bio. Post-training, and especially RL, is one of the most important indicators of the final performance of a model. Whenever a new model within a single generation drops, the advances from the previous release are entirely due to post-training. The difference between Opus 5 to Opus 5.5, or from GPT 5.5 to GPT 5.6, is not due to a new pre-training run. Since they have the same base model, the capability gains come from researchers teaching the model to get better at specific domains. The phenomenon of American companies arming Chinese labs with the data that enables this RL should set off alarms for policymakers and those invested in the U.S.-China AI race: American companies are helping Chinese labs develop better models, and we were able to find at least nine who do so. But the business relationships between data vendors and Chinese labs are more complicated than that single hawkish line, and today, we&#8217;re diving into what&#8217;s going on. We&#8217;ll cover: What it means to sell an RL environment and how it differs from distillation The current ecosystem of China-tied data vendors To what extent American companies are selling RL environments to China Whether this is a problem that needs fixing What RL Does and Doesn&#8217;t Look Like Example RL Flows RL environments are essentially simulated worlds in which a model can train to improve its performance at specific tasks or environments. As an example, a model developer may want their model to get better at creating PowerPoint slides with pleasant aesthetics and clear text. To achieve that capability, the model developer may go to a data vendor and ask them to make…",
+      "summary": "The Data Industry is a Complete Mess",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.9299999999999999,
+          "rationale": [
+            "post-training",
+            "rl",
+            "reinforcement learning"
+          ],
+          "score": 4
+        },
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "developer"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
@@ -278,63 +636,6 @@
       "whyThisMatters": ""
     },
     {
-      "id": "5e4bc15953903856",
-      "date": "2026-11-17",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient",
-      "url": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/",
-      "publishedAt": "2026-11-16T17:01:35.000Z",
-      "content": "At a glance Developers use AI coding agents in the same codebases day after day, yet agents often start each session from scratch: rediscovering familiar facts, loading unused tools, and repeating unsuccessful approaches. TokenEconomizer is an open-source plugin that learns from an agent’s past sessions in a repository to reduce waste in future sessions, without modifying the agent or its underlying model. Across 277 real bug-fixing tasks, TokenEconomizer reduced costs by 18.4–30.9% across multiple AI coding agents. Costs fell in every repository tested, while task success rates remained broadly stable. AI coding agents are increasingly helping developers fix bugs and build features largely on their own, but every interaction with their models consumes tokens. In each session , an agent sends instructions, tool descriptions, and session history to its model. Most efforts to reduce this cost focus on individual tasks. Yet developers return to the same repositories, giving agents an opportunity to learn from previous work. Without that learning, an agent may repeatedly rediscover how to run tests, load tools it never uses, or spend dozens of turns revisiting the same error. In our paper, TokenEconomizer: Experience-Driven Black-Box Cost Control for Coding Agents , we ask a simple question: can experience in a repository help an agent solve future tasks more efficiently? TokenEconomizer, an open-source plugin from UC Berkeley, Microsoft Research, and Microsoft Security, turns completed sessions into guidance for subsequent ones. It reduces waste without changing the agent or its underlying model, so developers can use it alongside the coding agents they already rely on. Figure 1. Each finished session teaches TokenEconomizer something about the repository, so later sessions cost less tokens. &nbsp; Where the tokens go We first profiled Claude Code on 60 tasks from SWE-Bench, a benchmark of real bug fixes in open-source Python projects, running each repository’s tasks…",
-      "summary": "AI coding agents can waste time and tokens relearning the same lessons. TokenEconomizer is an open-source plugin that builds on past sessions to cut costs while maintaining task success. It’s a path toward coding agents that learn not only…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.95,
-          "rationale": [
-            "coding",
-            "code",
-            "developer"
-          ],
-          "score": 5
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "paper"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "benchmark",
-            "swe-bench"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
       "id": "110265618502dd52",
       "date": "2026-11-17",
       "sourceType": "newsletter",
@@ -390,102 +691,6 @@
       "whyThisMatters": ""
     },
     {
-      "id": "a0ad66e61ac16675",
-      "date": "2026-11-17",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Together AI Blog",
-      "sourceKey": "official:Together AI Blog",
-      "builderOrOrg": "Together AI",
-      "title": "How we make Together AI easy for coding agents to use",
-      "url": "https://www.together.ai/blog/how-we-do-agent-evals-at-together-ai",
-      "publishedAt": "2026-11-16T00:00:00.000Z",
-      "content": "We built agent evals to test how effective coding agents are at using Together AI. Small fixes to our docs, skills, and API errors lifted task completion rate from 75% to 97%.",
-      "summary": "We built agent evals to test how effective coding agents are at using Together AI. Small fixes to our docs, skills, and API errors lifted task completion rate from 75% to 97%.",
-      "regionTags": [
-        "open-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "agent"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "coding"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "eval"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "496bc18d2961e7b2",
-      "date": "2026-11-17",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
-      "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
-      "publishedAt": "2026-11-13T09:04:13.000Z",
-      "content": "Congrats to Gemini 4 Hydrogen on their launch and it seems Anthropic’s IPO is well under way, but today’s headline was only ever going to be about one thing, the most earthshaking leadership change in AI (after Demis/Jeff/et al at Google DeepMind). Yesterday we covered reports that NVIDIA’s board was preparing to replace Jensen Huang following an NYT report of an affair with an accused Chinese spy . Following news of a second affair , today NVIDIA announced his resignation (correlation/causation is debatable here), presumably forced by the board: View post on X ↗ There is also some discussion of the extent that Chinese models can demonstrably be shown to be trained on Blackwell GPUs that they should not have access to… though the scale is debated . After 33 years, Jensen Huang has stepped down as CEO, president and boardmember. Colette Kress, NVIDIA’s CFO since 2013, will keep that job while serving as interim CEO… leading into what will presumably the best attended earnings call in the history of $NVDA next week. AI News for 11/11/2026-11/12/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Gemini 4 Hydrogen: Google's Fast Gemini 4 Tier Ships Broadly Launch : Google DeepMind released Gemini 4 Hydrogen, a speed-first model positioned alongside Carbon and Argon. Google says it completes tasks 2.5x faster than Gemini 3.8 Flash and edges Argon on the Artificial Analysis Intelligence Index, 51 vs 50 at default thinking and 54 at the new xhigh level ( DeepMind , Koray Kavukcuoglu ). Specs and pricing : The model offers four thinking levels (low, medium, high and xhigh) and a 1M context window. It costs $1.50/$7.50 per million input/output tokens, with a 95% discount on cached input ( Phil Schmid , Artificial Analysis ). Official claims : Google reports 57% on Terminal-Bench 4.0 and more th…",
-      "summary": "November 12, 2026 — Colette Kress takes over as interim CEO. What happens to open source/American AI leadership?",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "terminal-bench",
-            "repo"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "serving"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
       "id": "d2f4628429e52bab",
       "date": "2026-11-17",
       "sourceType": "newsletter",
@@ -525,60 +730,6 @@
           "confidence": 0.5700000000000001,
           "rationale": [
             "tools"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "511d6bf3154d09aa",
-      "date": "2026-11-17",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "Piggybacking to the Frontier",
-      "url": "https://www.chinatalk.media/p/the-us-is-selling-rl-environments",
-      "publishedAt": "2026-11-11T11:07:30.000Z",
-      "content": "American data companies like Mercor, Surge AI, AfterQuery, and Turing are selling roughly half a billion dollars worth of data to Chinese AI labs. A chunk of that data comes in the form of reinforcement learning (RL) environments, which labs use to post-train their models to make them excel at specific domains like coding, cyber, finance, law, and bio. Post-training, and especially RL, is one of the most important indicators of the final performance of a model. Whenever a new model within a single generation drops, the advances from the previous release are entirely due to post-training. The difference between Opus 5 to Opus 5.5, or from GPT 5.5 to GPT 5.6, is not due to a new pre-training run. Since they have the same base model, the capability gains come from researchers teaching the model to get better at specific domains. The phenomenon of American companies arming Chinese labs with the data that enables this RL should set off alarms for policymakers and those invested in the U.S.-China AI race: American companies are helping Chinese labs develop better models, and we were able to find at least nine who do so. But the business relationships between data vendors and Chinese labs are more complicated than that single hawkish line, and today, we&#8217;re diving into what&#8217;s going on. We&#8217;ll cover: What it means to sell an RL environment and how it differs from distillation The current ecosystem of China-tied data vendors To what extent American companies are selling RL environments to China Whether this is a problem that needs fixing What RL Does and Doesn&#8217;t Look Like Example RL Flows RL environments are essentially simulated worlds in which a model can train to improve its performance at specific tasks or environments. As an example, a model developer may want their model to get better at creating PowerPoint slides with pleasant aesthetics and clear text. To achieve that capability, the model developer may go to a data vendor and ask them to make…",
-      "summary": "The Data Industry is a Complete Mess",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.9299999999999999,
-          "rationale": [
-            "post-training",
-            "rl",
-            "reinforcement learning"
-          ],
-          "score": 4
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "developer"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
           ],
           "score": 1
         }
@@ -2142,171 +2293,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "b54008957234d24b",
-      "date": "2026-11-12",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?",
-      "url": "https://latent.space/p/naiveai/",
-      "publishedAt": "2026-11-10T18:56:32.000Z",
-      "content": "Editor’s note: With this post, we are launching a new series focused on trying new models and products with unbiased reviews. Reach out with suggestions to tips@latent.space. Naive-N0.5-Flash is a new open-weights model built for AI coding tasks and tuned to generate as many tokens per second as possible . It was developed by a Chinese company called NaiveAI , with the aim of speeding up engineering and research workflows so that teams can experiment, iterate and solve complex problems faster. The model is an evolution of Xiaomi’s MiMo-V2.5 , which NaiveAI has trained further for long-context reasoning and paired with its own NaiveRT inference engine. Naive-N0.5-Flash arrives with a bold pitch: a model built largely by AI and trained to do AI research itself, with recursive self-improvement as the long-term goal. To see what changed, it helps to know where it started. MiMo-V2.5 is a 310B-parameter sparse Mixture-of-Experts model with 15B active parameters, trained on 48T tokens. Its language backbone inherits the hybrid design of MiMo-V2-Flash, which mixes sliding-window attention (SWA) with global self-attention. NaiveAI's recipe starts from those weights. Through continued, multi-stage training, the team adapted the checkpoint to DeepSeek Sparse Attention layers. According to the NaiveAI technical blog , this took roughly 3.25T additional tokens on top of MiMo's original 48T. About 3T of those additional tokens were trained at a fixed 1M context length and with a constant learning rate. Benchmarking NaiveAI vs. DeepSeek and Z.ai We benchmarked the ultrafast mode of Naive-N0.5-Flash against DeepSeek V4.1 Flash 1017 and GLM 5.3 Flash , and then gave all three the same app-building prompts. The trade-off, we discovered, is that Naive-N0.5-Flash takes longer to reason through harder problems, yet it still delivers answers faster overall. However, that comes at a slightly higher cost per question — although that may be an acceptable price for applications where speed…",
-      "summary": "NaiveAI could potentially top Artificial Analysis’s speed rankings. Our hands-on test suggests its coding quality holds up against DeepSeek.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.81,
-          "rationale": [
-            "benchmark",
-            "imo",
-            "benchmarking"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.69,
-          "rationale": [
-            "inference",
-            "sparse attention"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "0301ac0ffeca3007",
-      "date": "2026-11-12",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins",
-      "url": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
-      "publishedAt": "2026-11-10T06:34:44.000Z",
-      "content": "On Friday, we asked Jamin Ball what comes next for Anthropic’s IPO . On Monday the roadshow started and Anthropic shipped the long-anticipated next-version of Claude Fable and Mythos . Of course, it is the new top model in the world, taking back Opus 5.5’s #1 spot from Gemini 4 Carbon which had its brief moment in the sun (10 days). View post on X ↗ Fable comes with a 20% per token price cut… but is more token hungry, as both SemiAnalysis GDPx and Artificial Analysis agree: Fable 5.1 cost $10 per million input tokens and $50 per million output tokens. Fable 5.2 costs $8 and $40 . Yet on GDPx, a benchmark of professional tasks, SemiAnalysis paid $88.15 per task, up from $67.16 . The run logs give a clue. Where Opus 5.5 and Fable 5.1 would try about 20 test cases, 5.2 sometimes wrote hundreds or thousands and spun up subagents to check its work independently. All that checking helped Fable take first place at 16.4% . You pay for the checks either way. Which effort setting should you put in production? On FrontierCode 2.0, Anthropic reports that Fable at High matched Opus 5.5 at Max for about half the cost per task… but don’t talk about Fable at Max. AI News for 11/07/2026-11/09/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Top Story: Claude Fable 5.2 / Mythos 5.2 Benchmarks, Economics, Restrictions, and First Impressions What happened Anthropic shipped Claude Fable 5.2 and Claude Mythos 5.2, claiming both are \"a step above Opus 5.5 in almost all the capabilities we evaluated.\" It tops most independent leaderboards. It also arrives with deliberate RSI nerfs, heavier per-task costs and restricted subscription access. Launch claims. &nbsp; @claudeai announced the pair as built for \"the most daunting technical challenges,\" with gains in coding, reasoning and vision. @marktenenholtz flag…",
-      "summary": "November 9, 2026 — Claude Fable 5.2 and Mythos 5.2 arrive on Anthropic’s IPO roadshow day. How much thinking is worth paying for?",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.81,
-          "rationale": [
-            "coding",
-            "code",
-            "repo"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.81,
-          "rationale": [
-            "benchmark",
-            "leaderboard",
-            "eval"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "reasoning",
-          "label": "AI Thinking",
-          "confidence": 0.69,
-          "rationale": [
-            "reasoning",
-            "deliberate"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "2bcb036306e3473a",
-      "date": "2026-11-11",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team",
-      "url": "https://latent.space/p/handshake/",
-      "publishedAt": "2026-11-09T17:15:53.000Z",
-      "content": "This is our first Latent Space deep dive with an AI data company . In roughly a year, Handshake’s AI training business went from launch to $1 billion in gross annualized revenue . What are frontier labs buying at that scale? What evals are models still nowhere close to human level on? Garrett Lord brought the people who build these reinforcement learning environments to show us. For the first time, we are walking through them live! To cover the scope of Handshake, we had to produce a very special joint podcast across our Science/Engineering/Research/Finance podcast hosts, because Handshake’s business runs across all these and more. Watch for three segments after the general intro: Finance. In the finance demo, the agent has to find its assignment in a bank’s email, work out which files govern the deal, and deliver a workbook. Watch what happens to one line in the client’s email about existing goodwill. The agent carries the number into Python and subtracts it. Collin points out that the model can explain the tax treatment when you ask it directly. The mistake comes when it has to recognize that this particular line of code is where the rule applies. Bio. Nick Magazine and Jonas Mueller show us VIALS, Handshake’s benchmark for interpreting the images scientists use at work. Nick puts nine slides of brain-tumor tissue on screen and asks which two show the most advanced vessel necrosis. Give yourself a moment before his answer. Nick picks H and I. The model picks those two and adds G. Watching Nick point to what’s missing from the tissue is more instructive than seeing the score. Coding. In a simulated file-access task, the team can inspect which files an agent read, whether it checked the copies, and what it did to the shell history afterward. A transcript of the agent’s final reply would miss most of what Steve Kelling and Nishant Ranka are evaluating. Who’s in the room 🟣 AI data business — Garrett Lord, Sahil Bhaiwala and Nishant Ranka open and close the episode o…",
-      "summary": "Handshake went from launch to $1B in one year pushing the envelope of specialized data for frontier labs. Our first deep dive into a data lab with specific examples across Finance, Bio, and Alignment",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "coding",
-            "code"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "science"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "benchmark",
-            "eval"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     }
   ]

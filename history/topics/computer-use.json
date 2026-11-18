@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-17T09:20:31.773Z",
+  "generatedAt": "2026-11-18T00:31:04.415Z",
   "slug": "computer-use",
   "label": "AI Using Computers",
   "items": [
     {
       "id": "4b97b504c768caad",
-      "date": "2026-11-17",
+      "date": "2026-11-18",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -45,13 +45,13 @@
       "section": "Builders",
       "importanceScore": 0.7,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
       "id": "73d3b68b69928b0d",
-      "date": "2026-11-17",
+      "date": "2026-11-18",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -100,13 +100,13 @@
       "section": "Builders",
       "importanceScore": 0.84,
       "noveltyScore": 0.3,
-      "previouslySelected": true,
+      "previouslySelected": false,
       "digestScore": 0.65,
       "whyThisMatters": ""
     },
     {
       "id": "c898fcad41718e77",
-      "date": "2026-11-17",
+      "date": "2026-11-18",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -148,6 +148,51 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "e444036ace93a759",
+      "date": "2026-11-18",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "publishedAt": "2026-11-17T17:45:00.000Z",
+      "content": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "coding",
+            "code"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "computer-use",
+          "label": "AI Using Computers",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "computer use"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.73,
       "whyThisMatters": ""
     },
     {
@@ -2226,60 +2271,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "34439a40f19a8e46",
-      "date": "2026-10-29",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Legora is building the agentic operating system for legal work",
-      "url": "https://openai.com/index/legora",
-      "publishedAt": "2026-10-28T09:30:00.000Z",
-      "content": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-      "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "agents",
-          "label": "AI Assistants",
-          "confidence": 0.69,
-          "rationale": [
-            "agent",
-            "agentic"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "computer-use",
-          "label": "AI Using Computers",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "operating system"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.72,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.57,
       "whyThisMatters": ""
     }
   ]
