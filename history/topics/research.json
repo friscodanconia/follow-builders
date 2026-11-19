@@ -1,8 +1,63 @@
 {
-  "generatedAt": "2026-11-19T00:30:59.498Z",
+  "generatedAt": "2026-11-19T07:42:34.414Z",
   "slug": "research",
   "label": "Research",
   "items": [
+    {
+      "id": "de7fbdad89a10c27",
+      "date": "2026-11-19",
+      "sourceType": "x",
+      "sourceGroup": "mirrored",
+      "sourceName": "X",
+      "sourceKey": "x:rauchg",
+      "builderOrOrg": "Guillermo Rauch",
+      "title": "One of the most impressive things I've seen, and I think this is an important advancement to th…",
+      "url": "https://x.com/rauchg/status/2123237505810178434",
+      "publishedAt": "2026-11-19T02:10:43.000Z",
+      "content": "One of the most impressive things I've seen, and I think this is an important advancement to the state of the art. Message boards were the enabling technology of both the Navier-Stokes math breakthrough and even the OpenAI/HuggingFace cyber feat. We built a message board infrastructure primitive. You can think of it as \"headless Slack\" (or remember IRC?) for agents. This is an important building block for software factories, self-optimizing systems, and scientific research, where the human prom…",
+      "summary": "One of the most impressive things I've seen, and I think this is an important advancement to the state of the art. Message boards were the enabling technology of both the Navier-Stokes math breakthrough and even the Ope…",
+      "regionTags": [],
+      "metrics": {
+        "likes": 844,
+        "retweets": 32,
+        "replies": 77
+      },
+      "topics": [
+        {
+          "slug": "agents",
+          "label": "AI Assistants",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "agent"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "huggingface"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Builders",
+      "importanceScore": 0.84,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.9,
+      "whyThisMatters": ""
+    },
     {
       "id": "3703173e6c99031a",
       "date": "2026-11-19",
@@ -51,9 +106,9 @@
       ],
       "section": "Official Sources",
       "importanceScore": 0.72,
-      "noveltyScore": 1,
-      "previouslySelected": false,
-      "digestScore": 0.82,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.57,
       "whyThisMatters": ""
     },
     {
@@ -104,9 +159,9 @@
       ],
       "section": "Official Sources",
       "importanceScore": 0.66,
-      "noveltyScore": 1,
+      "noveltyScore": 0.3,
       "previouslySelected": false,
-      "digestScore": 0.78,
+      "digestScore": 0.53,
       "whyThisMatters": ""
     },
     {
@@ -2361,61 +2416,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.46,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "09b64d5e078a574a",
-      "date": "2026-11-06",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence",
-      "url": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/",
-      "publishedAt": "2026-10-30T13:05:28.000Z",
-      "content": "At a glance Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizations, yet real enterprise data contains sensitive information that cannot be used for evaluation under any circumstances. To resolve this tension, we built Industry Evaluation Data Generation Platform: full-scale synthetic enterprise environments grounded in publicly available real-world data sources such as O*NET occupational data, online job postings, and SEC filings. The synthetic environments mimic real business workflows, helping Microsoft find issues that generic benchmarks would miss. Safety and privacy are built into the platform by design. Every environment is fully synthetic and automated content-safety checks keep the generated data free of harmful or personally identifiable material. Every day, millions of knowledge workers around the world rely on Microsoft Copilot to draft documents, summarize meetings, surface relevant information, and accelerate productivity. Behind the scenes, this is powered by a network of AI systems, and ensuring they work as intended requires a thoughtful approach to evaluation. At Microsoft, we know that high performance doesn’t come from guesswork. It comes from testing, measuring, and iterating constantly. Healthcare organizations are constantly synthesizing safety signals from across teams so that they can make faster, better decisions that directly influence patient outcomes and regulatory confidence. They may ask Copilot to summarize a meeting and extract action items for their teams. Within seconds, Copilot delivers a structured summary citing specific discussion points from the transcript. But how do we ensure this response is accurate, complete, and properly grounded in the meeting content? This is where our evaluation system comes in. We’ve developed a structured evaluation strategy called Industry Evaluation Data Generation Platform , which includes industry specific evaluation datasets d…",
-      "summary": "Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizations, yet real enterprise data contains sensitive information that cannot be used for evaluation under any circumstances…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.81,
-          "rationale": [
-            "benchmark",
-            "eval",
-            "evaluation"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "enterprise"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "dataset"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.66,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.53,
       "whyThisMatters": ""
     }
   ]
