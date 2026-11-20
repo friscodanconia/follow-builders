@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-19T08:55:58.786Z",
+  "generatedAt": "2026-11-20T00:31:04.841Z",
   "slug": "research",
   "label": "Research",
   "items": [
     {
       "id": "de7fbdad89a10c27",
-      "date": "2026-11-19",
+      "date": "2026-11-20",
       "sourceType": "x",
       "sourceGroup": "mirrored",
       "sourceName": "X",
@@ -54,8 +54,414 @@
       "section": "Builders",
       "importanceScore": 0.84,
       "noveltyScore": 0.3,
-      "previouslySelected": false,
+      "previouslySelected": true,
       "digestScore": 0.65,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "f95c730a678de467",
+      "date": "2026-11-20",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Announcements \\ Anthropic",
+      "url": "https://www.anthropic.com/news/announcements",
+      "publishedAt": null,
+      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "99c065dc43a7e02d",
+      "date": "2026-11-20",
+      "sourceType": "blog",
+      "sourceGroup": "official",
+      "sourceName": "Anthropic Newsroom",
+      "sourceKey": "official:Anthropic Newsroom",
+      "builderOrOrg": "Anthropic",
+      "title": "Features \\ Anthropic",
+      "url": "https://www.anthropic.com/news/features",
+      "publishedAt": null,
+      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "safety"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "5e4bc15953903856",
+      "date": "2026-11-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "Microsoft Research Blog",
+      "sourceKey": "official:Microsoft Research Blog",
+      "builderOrOrg": "Microsoft",
+      "title": "TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient",
+      "url": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/",
+      "publishedAt": "2026-11-16T17:01:35.000Z",
+      "content": "At a glance Developers use AI coding agents in the same codebases day after day, yet agents often start each session from scratch: rediscovering familiar facts, loading unused tools, and repeating unsuccessful approaches. TokenEconomizer is an open-source plugin that learns from an agent’s past sessions in a repository to reduce waste in future sessions, without modifying the agent or its underlying model. Across 277 real bug-fixing tasks, TokenEconomizer reduced costs by 18.4–30.9% across multiple AI coding agents. Costs fell in every repository tested, while task success rates remained broadly stable. AI coding agents are increasingly helping developers fix bugs and build features largely on their own, but every interaction with their models consumes tokens. In each session , an agent sends instructions, tool descriptions, and session history to its model. Most efforts to reduce this cost focus on individual tasks. Yet developers return to the same repositories, giving agents an opportunity to learn from previous work. Without that learning, an agent may repeatedly rediscover how to run tests, load tools it never uses, or spend dozens of turns revisiting the same error.&nbsp; In our paper, TokenEconomizer: Experience-Driven Black-Box Cost Control for Coding Agents , we ask a simple question: can experience in a repository help an agent solve future tasks more efficiently? TokenEconomizer, an open-source plugin from UC Berkeley, Microsoft Research, and Microsoft Security, turns completed sessions into guidance for subsequent ones. It reduces waste without changing the agent or its underlying model, so developers can use it alongside the coding agents they already rely on. Figure 1. Each finished session teaches TokenEconomizer something about the repository, so later sessions cost less tokens. &nbsp; Where the tokens go We first profiled Claude Code on 60 tasks from SWE-Bench, a benchmark of real bug fixes in open-source Python projects, running each repository’s…",
+      "summary": "AI coding agents can waste time and tokens relearning the same lessons. TokenEconomizer is an open-source plugin that builds on past sessions to cut costs while maintaining task success. It’s a path toward coding agents that learn not only…",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.95,
+          "rationale": [
+            "coding",
+            "code",
+            "developer"
+          ],
+          "score": 5
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "paper"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "benchmarks",
+          "label": "AI Testing",
+          "confidence": 0.69,
+          "rationale": [
+            "benchmark",
+            "swe-bench"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.58,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.48,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "ca4eefbffed0ab1c",
+      "date": "2026-11-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "Cloudflare Joins the Jevolution and Labels Itself a Neolab",
+      "url": "https://latent.space/p/cloudflare/",
+      "publishedAt": "2026-11-17T15:00:00.000Z",
+      "content": "Cloudflare has been one of the essential infrastructure companies of the web for the past decade and a half. But now, it’s turning into a neolab — at least according to a presentation at AI Engineer Code Summit by Michelle Chen , who runs Cloudflare’s AI Platform on the product side. We’ll get into what exactly a neolab is in a minute (the short version: they build models and they’re not called OpenAI or Anthropic). Cloudflare is claiming to be one because it too has begun to launch models. Two System One models , to be precise: Clef and Clairic. As Chen explained in her talk, Clef is a decision model directly inspired by TypeSafe AI’s revolutionary Jev model , while Clairic is a new type of system one model that Cloudflare calls an “extract” model . In an interview with Latent Space after her presentation, Chen hinted that Cloudflare won’t just be producing system one models. There will be large language models, too. “We're not being a neolab [to] only launch system one models, even though it makes sense for our infrastructure. We've kind of entered this Pandora's box now, right? We opened it, now the possibilities are endless.” Chen said it’s “not just system one models, but potentially reasoning models that we've been experimenting with, and other LLMs and whatnot.” However, she added that these probably won’t be pre-trained models built from scratch, like the frontier labs produce. “I don't think that's our focus, but I think we can take existing resources out there and make [them] a lot more efficient and effective.” She noted that “most of our team really just does post-training,” so that will be the focus in model development. What is a neolab and is Cloudflare really one? The term neolab literally means a ‘new lab’ and it was coined last November by Stephanie Palazzolo from The Information, who defined it as “a new generation of research-focused AI startups.” Deedy Das , a partner at Menlo Ventures and an AI influencer, runs a big list of neolabs . It inclu…",
+      "summary": "Cloudflare made its name speeding up the web. Now it&apos;s building System One models to make decisions and pull data in milliseconds.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "code"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "reasoning",
+          "label": "AI Thinking",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "reasoning"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "27c5928167ba3d50",
+      "date": "2026-11-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Perplexity hits a $1B revenue run rate, up 4x in 2026",
+      "url": "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/",
+      "publishedAt": "2026-11-17T09:24:56.000Z",
+      "content": "Perplexity crossed a $1B annual revenue run rate today , CEO Aravind Srinivas told Semafor at a live event. The Information reported previously under $250M at the start of the year and over $750M by August, with Computer driving some of the growth. At usual agent lab multiples (eg Cognition also crossed $1B , with Cursor crossing $4.6B ), this would roughly mean that Perplexity is now worth $30-50B — if the unit economics hold up. This is a nice bump on the $20B round in September 2025 , and qualifies for our “>$10B fundraise” rule for title stories. Gathering up some recent Perplexity launches for those catching up: Computer. September’s Automations let it pick up recurring tasks where it left off. November’s Teammates take on ongoing jobs. Computer also runs fully locally on supported Macs. Monitor API. &nbsp; Watch a topic or page and get a webhook when something relevant changes. Frontier Research. The new research lab has access to 10,000+ GPUs and plans to publish papers, data, models, and code. Sponsored by Deepgram Deepgram is the voice AI infrastructure behind natural conversation—bringing speech-to-text, text-to-speech, voice-focused LLMs, and agents to teams building with voice AI. For any stack and any tools you already love building with, Deepgram slots in as your foundational voice AI technology. So you have control. And we have the context to listen, understand, and speak like a human. Learn more about the Real-time Context Standard . AI Twitter Recap Qwen4-Max in the wild Friday’s Qwen4-Max preview is now a shipping model. At the highest reasoning setting, Qwen4-Max scored 43 on the Intelligence Index, up from 34. Average cost fell from $10.02 to $3.27 per task. Alibaba cut output pricing from $6 to $4.50 per million tokens, and the model generated about 39% fewer of them. Kimi K3.1 Pro cost $3.68 per index task and scored 67% on Terminal-Bench 4.0 to Qwen’s 48%. Artificial Analysis Inside the model. Alibaba kept the total parameter count at 2.4T an…",
+      "summary": "November 16, 2026 — Computer gets Teammates, Perplexity ships Monitor API, and a new research lab launches.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.81,
+          "rationale": [
+            "code",
+            "terminal-bench",
+            "repo"
+          ],
+          "score": 3
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.69,
+          "rationale": [
+            "research",
+            "paper"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.69,
+          "rationale": [
+            "voice",
+            "speech"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "4685b1af20e302fe",
+      "date": "2026-11-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "BIS Takes on Compute Leakage",
+      "url": "https://www.chinatalk.media/p/bis-finally-takes-a-stand",
+      "publishedAt": "2026-11-17T11:03:33.000Z",
+      "content": "A 132-page export control rule landed Monday morning, and the Commerce Department&#8217;s own press release credited Treasury and the NSC with writing it. Days after the Megaspeed scandal ended Jensen Huang&#8217;s run at Nvidia, Washington is moving to close the cloud loophole that, by ChinaTalk&#8217;s estimate, supplies two-fifths of China&#8217;s AI compute. Two Biden NSC alumni weigh in: &#8288;Chris McGuire&#8288; , now senior fellow for China and emerging technologies at the Council on Foreign Relations after a stint as deputy senior director for technology and national security, and &#8288;Julian Gewirtz&#8288; , the former senior director for China and Taiwan affairs now a senior research scholar at Columbia SIPA. We discuss&#8230; Three loopholes closed in 132 pages &#8212; license requirements for chips headed to Singapore, Malaysia, Thailand, Indonesia, and Brazil; a cap on compute rented to Chinese firms; and a TSMC backdoor closed for the second time. The Northern Virginia problem &#8212; why a rule that stops at the US border could simply move China&#8217;s rented compute from Johor to the Washington suburbs. Who wrote the rule &#8212; what crediting Treasury and the NSC says about Commerce&#8217;s credibility, and whether Trump holds firm in Shenzhen. Does Xi know the numbers &#8212; whether Beijing escalates or doubles down on the bet that it can (again) talk Trump into loosening controls. Jensen&#8217;s soup vendor &#8212; the customer-concentration fear that pushed Nvidia toward Asian neoclouds and China. Zero consequences for three million chips &#8212; why export controls need their BNP Paribas moment, and what that has to do with AI safety. Listen now on your favorite podcast platform . An aerial shot of new data centers in the IBTEC district of the Johor-Singapore Special Economic Zone in Malaysia. By total megawatts, Johor&#8217;s data center capacity grew by 56-fold between 2020 and 2024. Source . What&#8217;s Actually in the Rule Jordan Sc…",
+      "summary": "Is the era of compute leakage over?",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "security"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "research"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "voice",
+          "label": "Voice",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "tts"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.48,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.42,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "66b546812c20c5ac",
+      "date": "2026-11-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "MOFCOM's New Rules: Digging For Leverage",
+      "url": "https://www.chinatalk.media/p/mofcoms-new-weapons-of-mass-construction",
+      "publishedAt": "2026-11-16T11:33:30.000Z",
+      "content": "With the world scrambling to diffuse China&#8217;s rare earth weapon, Chinese regulators have apparently been tasked with identifying alternative sources of potential leverage. MOFCOM&#8217;s recent work created legal mechanisms to restrict the flow of a curious collection of products: tunnel boring machines, dredging components, solar manufacturing equipment, biotechnology, and drones. At first glance, this seems like an eclectic list, but these technologies are connected beyond the fact that they are all made in China. Today, we&#8217;re unpacking the geopolitical incentives that made them MOFCOM&#8217;s business. This is part two of our series on MOFCOM&#8217;s October 2026 regulatory drops. In part one, we analyzed the October 16th proposals for regulating AI technologies. Today&#8217;s installment tackles the October 16th proposals for biotech and solar and the mixed bag from October 19th. We explore: Why parsing China&#8217;s trade policy requires looking beyond the US-China rivalry to Beijing&#8217;s bilateral relations with other capitals &#8212; and why India in particular is under fire; How tunnel boring machines and dredgers help us understand China&#8217;s ambitions as a regional power; Beijing&#8217;s playbook for keeping foreign countries dependent on its solar provisions; And, what biotech and drones tell us about China&#8217;s approach to intellectual property. ChinaTalk is a reader-supported publication. To receive new posts and support our work, consider becoming a free or paid subscriber. Tunnel boring machines (Irene) Tunnel boring machines are not boring! For a start, they look very cool. This is the CREC 1459, the largest-diameter shield tunneling machine ever exported by China. Manufactured by China Railway Engineering Equipment Group (CREG), it will be used to dig road tunnels under the Sydney Harbour seabed in Australia: The CREC 1459 is named &#8220;Patyegarang,&#8221; after an 18th-century Australian Aboriginal woman who was among the fir…",
+      "summary": "Solar! Drones! Boring Machines! Mud Boats!",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "publication"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "multimodal",
+          "label": "Images, Audio & Video",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "vision"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "81a3e668eb6bfa0d",
+      "date": "2026-11-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "china",
+      "sourceName": "ChinAI Weekly",
+      "sourceKey": "china:ChinAI Weekly",
+      "builderOrOrg": "Jeffrey Ding",
+      "title": "ChinAI #382: Around the Horn (28th episode)",
+      "url": "https://chinai.substack.com/p/chinai-382-around-the-horn-28th-episode",
+      "publishedAt": "2026-11-16T17:57:12.000Z",
+      "content": "Greetings from a world where&#8230; it really could be Hawkeye football&#8217;s year (to sneak into the playoffs ahead of an undeserving 3-loss SEC team) &#8230;As always, the searchable archive of all past issues is here . Please please subscribe here to support ChinAI under a Guardian /Wikipedia-style tipping model (everyone gets the same content but those who can pay support access for all AND compensation for awesome ChinAI contributors). Around the Horn (28th episode) If this were an old-school procedural, 28 episodes would put us at season 2. If we consider this exercise to be more akin to a prestige drama from the present-day TV landscape, we might already be on season 5. Let&#8217;s go back around the horn. This is our 28th roundup of articles on China&#8217;s AI ecosystem. For new readers, here&#8217;s how it works (see ChinAI #376 for the previous edition): I give short previews of ten articles that caught my eye during a scan through my usual sources (all published within the past week or so). The title for each preview links to the original article in Chinese. Readers vote on next week&#8217;s feature translation by replying to the email and/or commenting on the post with the number of your preferred article. *Extra weight goes to votes from those of you who support ChinAI through a paid subscription. The main idea is that any of these 10 links would have made for a great feature translation this week &#8212; like the The Lowdown tv show&#8217;s soundtrack, there are no skips! 1) The final struggles of a batch of near-death robotics companies Summary: In the last two years, ~30 robotics manufacturers (many of them Chinese) have faced severe operational crises. This piece digs into why some companies are struggling for their last gasps. Source: &#34382;&#21957; (Huxiu), a well-known platform that shares user-generated content but also publishes their own pieces on China&#8217;s science and technology ecosystem. 2) I &#8217;m not that optimistic about BAT…",
+      "summary": "Greetings from a world where&#8230;",
+      "regionTags": [
+        "china-models"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "china-models",
+          "label": "Chinese AI",
+          "confidence": 0.69,
+          "rationale": [
+            "china-models"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "inference",
+          "label": "Speed & Cost",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "serving"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "research",
+          "label": "Research",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "science"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Chinese Models",
+      "importanceScore": 0.7,
+      "noveltyScore": 0.3,
+      "previouslySelected": true,
+      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {
@@ -162,412 +568,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.53,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "f95c730a678de467",
-      "date": "2026-11-19",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Announcements \\ Anthropic",
-      "url": "https://www.anthropic.com/news/announcements",
-      "publishedAt": null,
-      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "99c065dc43a7e02d",
-      "date": "2026-11-19",
-      "sourceType": "blog",
-      "sourceGroup": "official",
-      "sourceName": "Anthropic Newsroom",
-      "sourceKey": "official:Anthropic Newsroom",
-      "builderOrOrg": "Anthropic",
-      "title": "Features \\ Anthropic",
-      "url": "https://www.anthropic.com/news/features",
-      "publishedAt": null,
-      "content": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "5e4bc15953903856",
-      "date": "2026-11-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "Microsoft Research Blog",
-      "sourceKey": "official:Microsoft Research Blog",
-      "builderOrOrg": "Microsoft",
-      "title": "TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient",
-      "url": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/",
-      "publishedAt": "2026-11-16T17:01:35.000Z",
-      "content": "At a glance Developers use AI coding agents in the same codebases day after day, yet agents often start each session from scratch: rediscovering familiar facts, loading unused tools, and repeating unsuccessful approaches. TokenEconomizer is an open-source plugin that learns from an agent’s past sessions in a repository to reduce waste in future sessions, without modifying the agent or its underlying model. Across 277 real bug-fixing tasks, TokenEconomizer reduced costs by 18.4–30.9% across multiple AI coding agents. Costs fell in every repository tested, while task success rates remained broadly stable. AI coding agents are increasingly helping developers fix bugs and build features largely on their own, but every interaction with their models consumes tokens. In each session , an agent sends instructions, tool descriptions, and session history to its model. Most efforts to reduce this cost focus on individual tasks. Yet developers return to the same repositories, giving agents an opportunity to learn from previous work. Without that learning, an agent may repeatedly rediscover how to run tests, load tools it never uses, or spend dozens of turns revisiting the same error.&nbsp; In our paper, TokenEconomizer: Experience-Driven Black-Box Cost Control for Coding Agents , we ask a simple question: can experience in a repository help an agent solve future tasks more efficiently? TokenEconomizer, an open-source plugin from UC Berkeley, Microsoft Research, and Microsoft Security, turns completed sessions into guidance for subsequent ones. It reduces waste without changing the agent or its underlying model, so developers can use it alongside the coding agents they already rely on. Figure 1. Each finished session teaches TokenEconomizer something about the repository, so later sessions cost less tokens. &nbsp; Where the tokens go We first profiled Claude Code on 60 tasks from SWE-Bench, a benchmark of real bug fixes in open-source Python projects, running each repository’s…",
-      "summary": "AI coding agents can waste time and tokens relearning the same lessons. TokenEconomizer is an open-source plugin that builds on past sessions to cut costs while maintaining task success. It’s a path toward coding agents that learn not only…",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.95,
-          "rationale": [
-            "coding",
-            "code",
-            "developer"
-          ],
-          "score": 5
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "paper"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "benchmark",
-            "swe-bench"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "ca4eefbffed0ab1c",
-      "date": "2026-11-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "Cloudflare Joins the Jevolution and Labels Itself a Neolab",
-      "url": "https://latent.space/p/cloudflare/",
-      "publishedAt": "2026-11-17T15:00:00.000Z",
-      "content": "Cloudflare has been one of the essential infrastructure companies of the web for the past decade and a half. But now, it’s turning into a neolab — at least according to a presentation at AI Engineer Code Summit by Michelle Chen , who runs Cloudflare’s AI Platform on the product side. We’ll get into what exactly a neolab is in a minute (the short version: they build models and they’re not called OpenAI or Anthropic). Cloudflare is claiming to be one because it too has begun to launch models. Two System One models , to be precise: Clef and Clairic. As Chen explained in her talk, Clef is a decision model directly inspired by TypeSafe AI’s revolutionary Jev model , while Clairic is a new type of system one model that Cloudflare calls an “extract” model . In an interview with Latent Space after her presentation, Chen hinted that Cloudflare won’t just be producing system one models. There will be large language models, too. “We're not being a neolab [to] only launch system one models, even though it makes sense for our infrastructure. We've kind of entered this Pandora's box now, right? We opened it, now the possibilities are endless.” Chen said it’s “not just system one models, but potentially reasoning models that we've been experimenting with, and other LLMs and whatnot.” However, she added that these probably won’t be pre-trained models built from scratch, like the frontier labs produce. “I don't think that's our focus, but I think we can take existing resources out there and make [them] a lot more efficient and effective.” She noted that “most of our team really just does post-training,” so that will be the focus in model development. What is a neolab and is Cloudflare really one? The term neolab literally means a ‘new lab’ and it was coined last November by Stephanie Palazzolo from The Information, who defined it as “a new generation of research-focused AI startups.” Deedy Das , a partner at Menlo Ventures and an AI influencer, runs a big list of neolabs . It inclu…",
-      "summary": "Cloudflare made its name speeding up the web. Now it&apos;s building System One models to make decisions and pull data in milliseconds.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "code"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "reasoning",
-          "label": "AI Thinking",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "reasoning"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "27c5928167ba3d50",
-      "date": "2026-11-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Perplexity hits a $1B revenue run rate, up 4x in 2026",
-      "url": "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/",
-      "publishedAt": "2026-11-17T09:24:56.000Z",
-      "content": "Perplexity crossed a $1B annual revenue run rate today , CEO Aravind Srinivas told Semafor at a live event. The Information reported previously under $250M at the start of the year and over $750M by August, with Computer driving some of the growth. At usual agent lab multiples (eg Cognition also crossed $1B , with Cursor crossing $4.6B ), this would roughly mean that Perplexity is now worth $30-50B — if the unit economics hold up. This is a nice bump on the $20B round in September 2025 , and qualifies for our “>$10B fundraise” rule for title stories. Gathering up some recent Perplexity launches for those catching up: Computer. September’s Automations let it pick up recurring tasks where it left off. November’s Teammates take on ongoing jobs. Computer also runs fully locally on supported Macs. Monitor API. &nbsp; Watch a topic or page and get a webhook when something relevant changes. Frontier Research. The new research lab has access to 10,000+ GPUs and plans to publish papers, data, models, and code. Sponsored by Deepgram Deepgram is the voice AI infrastructure behind natural conversation—bringing speech-to-text, text-to-speech, voice-focused LLMs, and agents to teams building with voice AI. For any stack and any tools you already love building with, Deepgram slots in as your foundational voice AI technology. So you have control. And we have the context to listen, understand, and speak like a human. Learn more about the Real-time Context Standard . AI Twitter Recap Qwen4-Max in the wild Friday’s Qwen4-Max preview is now a shipping model. At the highest reasoning setting, Qwen4-Max scored 43 on the Intelligence Index, up from 34. Average cost fell from $10.02 to $3.27 per task. Alibaba cut output pricing from $6 to $4.50 per million tokens, and the model generated about 39% fewer of them. Kimi K3.1 Pro cost $3.68 per index task and scored 67% on Terminal-Bench 4.0 to Qwen’s 48%. Artificial Analysis Inside the model. Alibaba kept the total parameter count at 2.4T an…",
-      "summary": "November 16, 2026 — Computer gets Teammates, Perplexity ships Monitor API, and a new research lab launches.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.81,
-          "rationale": [
-            "code",
-            "terminal-bench",
-            "repo"
-          ],
-          "score": 3
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.69,
-          "rationale": [
-            "research",
-            "paper"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "voice",
-          "label": "Voice",
-          "confidence": 0.69,
-          "rationale": [
-            "voice",
-            "speech"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "4685b1af20e302fe",
-      "date": "2026-11-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "BIS Takes on Compute Leakage",
-      "url": "https://www.chinatalk.media/p/bis-finally-takes-a-stand",
-      "publishedAt": "2026-11-17T11:03:33.000Z",
-      "content": "A 132-page export control rule landed Monday morning, and the Commerce Department&#8217;s own press release credited Treasury and the NSC with writing it. Days after the Megaspeed scandal ended Jensen Huang&#8217;s run at Nvidia, Washington is moving to close the cloud loophole that, by ChinaTalk&#8217;s estimate, supplies two-fifths of China&#8217;s AI compute. Two Biden NSC alumni weigh in: &#8288;Chris McGuire&#8288; , now senior fellow for China and emerging technologies at the Council on Foreign Relations after a stint as deputy senior director for technology and national security, and &#8288;Julian Gewirtz&#8288; , the former senior director for China and Taiwan affairs now a senior research scholar at Columbia SIPA. We discuss&#8230; Three loopholes closed in 132 pages &#8212; license requirements for chips headed to Singapore, Malaysia, Thailand, Indonesia, and Brazil; a cap on compute rented to Chinese firms; and a TSMC backdoor closed for the second time. The Northern Virginia problem &#8212; why a rule that stops at the US border could simply move China&#8217;s rented compute from Johor to the Washington suburbs. Who wrote the rule &#8212; what crediting Treasury and the NSC says about Commerce&#8217;s credibility, and whether Trump holds firm in Shenzhen. Does Xi know the numbers &#8212; whether Beijing escalates or doubles down on the bet that it can (again) talk Trump into loosening controls. Jensen&#8217;s soup vendor &#8212; the customer-concentration fear that pushed Nvidia toward Asian neoclouds and China. Zero consequences for three million chips &#8212; why export controls need their BNP Paribas moment, and what that has to do with AI safety. Listen now on your favorite podcast platform . An aerial shot of new data centers in the IBTEC district of the Johor-Singapore Special Economic Zone in Malaysia. By total megawatts, Johor&#8217;s data center capacity grew by 56-fold between 2020 and 2024. Source . What&#8217;s Actually in the Rule Jordan Sc…",
-      "summary": "Is the era of compute leakage over?",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "enterprise",
-          "label": "Business AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "security"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "research"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "voice",
-          "label": "Voice",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "tts"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.48,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.42,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "66b546812c20c5ac",
-      "date": "2026-11-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "ChinaTalk",
-      "sourceKey": "editorial:ChinaTalk",
-      "builderOrOrg": "Jordan Schneider",
-      "title": "MOFCOM's New Rules: Digging For Leverage",
-      "url": "https://www.chinatalk.media/p/mofcoms-new-weapons-of-mass-construction",
-      "publishedAt": "2026-11-16T11:33:30.000Z",
-      "content": "With the world scrambling to diffuse China&#8217;s rare earth weapon, Chinese regulators have apparently been tasked with identifying alternative sources of potential leverage. MOFCOM&#8217;s recent work created legal mechanisms to restrict the flow of a curious collection of products: tunnel boring machines, dredging components, solar manufacturing equipment, biotechnology, and drones. At first glance, this seems like an eclectic list, but these technologies are connected beyond the fact that they are all made in China. Today, we&#8217;re unpacking the geopolitical incentives that made them MOFCOM&#8217;s business. This is part two of our series on MOFCOM&#8217;s October 2026 regulatory drops. In part one, we analyzed the October 16th proposals for regulating AI technologies. Today&#8217;s installment tackles the October 16th proposals for biotech and solar and the mixed bag from October 19th. We explore: Why parsing China&#8217;s trade policy requires looking beyond the US-China rivalry to Beijing&#8217;s bilateral relations with other capitals &#8212; and why India in particular is under fire; How tunnel boring machines and dredgers help us understand China&#8217;s ambitions as a regional power; Beijing&#8217;s playbook for keeping foreign countries dependent on its solar provisions; And, what biotech and drones tell us about China&#8217;s approach to intellectual property. ChinaTalk is a reader-supported publication. To receive new posts and support our work, consider becoming a free or paid subscriber. Tunnel boring machines (Irene) Tunnel boring machines are not boring! For a start, they look very cool. This is the CREC 1459, the largest-diameter shield tunneling machine ever exported by China. Manufactured by China Railway Engineering Equipment Group (CREG), it will be used to dig road tunnels under the Sydney Harbour seabed in Australia: The CREC 1459 is named &#8220;Patyegarang,&#8221; after an 18th-century Australian Aboriginal woman who was among the fir…",
-      "summary": "Solar! Drones! Boring Machines! Mud Boats!",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "publication"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "multimodal",
-          "label": "Images, Audio & Video",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "vision"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "rl"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "81a3e668eb6bfa0d",
-      "date": "2026-11-19",
-      "sourceType": "newsletter",
-      "sourceGroup": "china",
-      "sourceName": "ChinAI Weekly",
-      "sourceKey": "china:ChinAI Weekly",
-      "builderOrOrg": "Jeffrey Ding",
-      "title": "ChinAI #382: Around the Horn (28th episode)",
-      "url": "https://chinai.substack.com/p/chinai-382-around-the-horn-28th-episode",
-      "publishedAt": "2026-11-16T17:57:12.000Z",
-      "content": "Greetings from a world where&#8230; it really could be Hawkeye football&#8217;s year (to sneak into the playoffs ahead of an undeserving 3-loss SEC team) &#8230;As always, the searchable archive of all past issues is here . Please please subscribe here to support ChinAI under a Guardian /Wikipedia-style tipping model (everyone gets the same content but those who can pay support access for all AND compensation for awesome ChinAI contributors). Around the Horn (28th episode) If this were an old-school procedural, 28 episodes would put us at season 2. If we consider this exercise to be more akin to a prestige drama from the present-day TV landscape, we might already be on season 5. Let&#8217;s go back around the horn. This is our 28th roundup of articles on China&#8217;s AI ecosystem. For new readers, here&#8217;s how it works (see ChinAI #376 for the previous edition): I give short previews of ten articles that caught my eye during a scan through my usual sources (all published within the past week or so). The title for each preview links to the original article in Chinese. Readers vote on next week&#8217;s feature translation by replying to the email and/or commenting on the post with the number of your preferred article. *Extra weight goes to votes from those of you who support ChinAI through a paid subscription. The main idea is that any of these 10 links would have made for a great feature translation this week &#8212; like the The Lowdown tv show&#8217;s soundtrack, there are no skips! 1) The final struggles of a batch of near-death robotics companies Summary: In the last two years, ~30 robotics manufacturers (many of them Chinese) have faced severe operational crises. This piece digs into why some companies are struggling for their last gasps. Source: &#34382;&#21957; (Huxiu), a well-known platform that shares user-generated content but also publishes their own pieces on China&#8217;s science and technology ecosystem. 2) I &#8217;m not that optimistic about BAT…",
-      "summary": "Greetings from a world where&#8230;",
-      "regionTags": [
-        "china-models"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "china-models",
-          "label": "Chinese AI",
-          "confidence": 0.69,
-          "rationale": [
-            "china-models"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "inference",
-          "label": "Speed & Cost",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "serving"
-          ],
-          "score": 1
-        },
-        {
-          "slug": "research",
-          "label": "Research",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "science"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Chinese Models",
-      "importanceScore": 0.7,
-      "noveltyScore": 0.3,
-      "previouslySelected": true,
-      "digestScore": 0.56,
       "whyThisMatters": ""
     },
     {

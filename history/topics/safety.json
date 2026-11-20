@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-11-19T08:55:58.786Z",
+  "generatedAt": "2026-11-20T00:31:04.841Z",
   "slug": "safety",
   "label": "AI Safety",
   "items": [
     {
-      "id": "86552955441e7620",
-      "date": "2026-11-19",
+      "id": "00db29954c247d9c",
+      "date": "2026-11-20",
       "sourceType": "newsletter",
       "sourceGroup": "official",
       "sourceName": "OpenAI News",
       "sourceKey": "official:OpenAI News",
       "builderOrOrg": "OpenAI",
-      "title": "Managing frontier AI risk: From training to deployment",
-      "url": "https://openai.com/index/managing-frontier-ai-risk",
-      "publishedAt": "2026-11-18T06:00:00.000Z",
-      "content": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
-      "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+      "title": "Deploying Daybreak Red",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "content": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
       "regionTags": [
         "us-model-labs"
       ],
@@ -26,7 +26,7 @@
           "label": "Business AI",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "deployment"
+            "security"
           ],
           "score": 1
         },
@@ -35,21 +35,21 @@
           "label": "AI Safety",
           "confidence": 0.5700000000000001,
           "rationale": [
-            "alignment"
+            "safety"
           ],
           "score": 1
         }
       ],
       "section": "Official Sources",
       "importanceScore": 0.66,
-      "noveltyScore": 0.3,
+      "noveltyScore": 1,
       "previouslySelected": false,
-      "digestScore": 0.53,
+      "digestScore": 0.78,
       "whyThisMatters": ""
     },
     {
       "id": "f95c730a678de467",
-      "date": "2026-11-19",
+      "date": "2026-11-20",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -93,7 +93,7 @@
     },
     {
       "id": "99c065dc43a7e02d",
-      "date": "2026-11-19",
+      "date": "2026-11-20",
       "sourceType": "blog",
       "sourceGroup": "official",
       "sourceName": "Anthropic Newsroom",
@@ -136,8 +136,50 @@
       "whyThisMatters": ""
     },
     {
+      "id": "bf978c6681055304",
+      "date": "2026-11-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "ChinaTalk",
+      "sourceKey": "editorial:ChinaTalk",
+      "builderOrOrg": "Jordan Schneider",
+      "title": "New Congress, New Rare Earths Policy?",
+      "url": "https://www.chinatalk.media/p/new-congress-new-rare-earths-policy",
+      "publishedAt": "2026-11-19T11:56:28.000Z",
+      "content": "Two announcements before we dive in: Remember when Jordan&#8217;s wife ran a &#8216;looking for a CTO&#8217; post for an insuretech startup? Well, thanks to the ChinaTalk network, she found an incredible one . They&#8217;re now revenue positive and halfway through a seed round. Thank you all for the help! Jordan will be in DC the week after Thanksgiving for a hot minute and will be hosting a meetup on Dec 2nd. This piece was authored by anonymous contributor &#8220;Matteo Clavijero&#8221;. The blue wave of the midterms has put rare earth companies in the hot seat. Rare earths, particularly those used in the production of permanent magnets, are a critical input enabling trillions of dollars of downstream economic value. Beijing dominates the rare earth magnet supply chain from ore extraction to magnetization, with over 90% of mining, refining, and magnet-making concentrated in China. The CCP has repeatedly sought geopolitical leverage by exercising export restrictions on rare earths to constrict Western economies, and American rare earth competitors have been supported by industrial policy in response. After all, without rare earths the production of a laundry list of technologies &#8212; EVs, data centers, drones, wind turbines, smartphones, robots, and more &#8212; grinds to a halt. The US has been attempting to support an ex-China rare earth industry for the past decade, and government support is necessary for any ex-China industry to succeed. Projects are low-margin, decade-long investments that require the government to derisk and backstop ventures, such that the barriers to success are low enough that private investment takes the industry seriously. The second Trump administration has made a flurry of deals, replete with debt financing and equity purchases from the Export-Import Bank (EXIM) and the Department of War&#8217;s Office of Strategic Capital (OSC), ostensibly for the purpose of securing America&#8217;s critical mineral supply chains. But many deals h…",
+      "summary": "Congress Should Build Upon, Not Replace, Trump&#8217;s Rare Earths Policy",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "rl"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "policy"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 1,
+      "previouslySelected": false,
+      "digestScore": 0.61,
+      "whyThisMatters": ""
+    },
+    {
       "id": "db4acec4d97b2bb0",
-      "date": "2026-11-19",
+      "date": "2026-11-20",
       "sourceType": "blog",
       "sourceGroup": "china",
       "sourceName": "DeepSeek News",
@@ -188,6 +230,50 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.56,
+      "whyThisMatters": ""
+    },
+    {
+      "id": "86552955441e7620",
+      "date": "2026-11-19",
+      "sourceType": "newsletter",
+      "sourceGroup": "official",
+      "sourceName": "OpenAI News",
+      "sourceKey": "official:OpenAI News",
+      "builderOrOrg": "OpenAI",
+      "title": "Managing frontier AI risk: From training to deployment",
+      "url": "https://openai.com/index/managing-frontier-ai-risk",
+      "publishedAt": "2026-11-18T06:00:00.000Z",
+      "content": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+      "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+      "regionTags": [
+        "us-model-labs"
+      ],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "enterprise",
+          "label": "Business AI",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "deployment"
+          ],
+          "score": 1
+        },
+        {
+          "slug": "safety",
+          "label": "AI Safety",
+          "confidence": 0.5700000000000001,
+          "rationale": [
+            "alignment"
+          ],
+          "score": 1
+        }
+      ],
+      "section": "Official Sources",
+      "importanceScore": 0.66,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.53,
       "whyThisMatters": ""
     },
     {
@@ -2230,96 +2316,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": false,
       "digestScore": 0.64,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "59b6fe463ae373bf",
-      "date": "2026-09-23",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Priorities and principles for effective third party assessments",
-      "url": "https://openai.com/index/priorities-principles-third-party-assessments",
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "content": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
-      "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "safety"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "e5feb467dcd2cb39",
-      "date": "2026-09-22",
-      "sourceType": "newsletter",
-      "sourceGroup": "official",
-      "sourceName": "OpenAI News",
-      "sourceKey": "official:OpenAI News",
-      "builderOrOrg": "OpenAI",
-      "title": "Building standards for the next phase of AI",
-      "url": "https://openai.com/index/building-standards-next-phase-ai",
-      "publishedAt": "2026-09-21T10:00:00.000Z",
-      "content": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
-      "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
-      "regionTags": [
-        "us-model-labs"
-      ],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "benchmarks",
-          "label": "AI Testing",
-          "confidence": 0.69,
-          "rationale": [
-            "eval",
-            "evaluation"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "safety",
-          "label": "AI Safety",
-          "confidence": 0.69,
-          "rationale": [
-            "safety",
-            "governance"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.5700000000000001,
-          "rationale": [
-            "repo"
-          ],
-          "score": 1
-        }
-      ],
-      "section": "Official Sources",
-      "importanceScore": 0.58,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.48,
       "whyThisMatters": ""
     }
   ]
