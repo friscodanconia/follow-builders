@@ -1,8 +1,62 @@
 {
-  "generatedAt": "2026-11-20T00:31:04.841Z",
+  "generatedAt": "2026-11-20T07:33:19.556Z",
   "slug": "open-source",
   "label": "Open Source",
   "items": [
+    {
+      "id": "ef05e6a5aa8567c4",
+      "date": "2026-11-20",
+      "sourceType": "newsletter",
+      "sourceGroup": "editorial",
+      "sourceName": "Latent Space Newsletter",
+      "sourceKey": "editorial:Latent Space Newsletter",
+      "builderOrOrg": "Latent Space",
+      "title": "[AINews] Gemini 4 Neon: GDM&apos;s Opus/Sol Contender",
+      "url": "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/",
+      "publishedAt": "2026-11-19T07:07:43.000Z",
+      "content": "Google DeepMind shipped Gemini 4 Neon , its fourth Gemini 4 model in about seven weeks. If you’re confused about the naming, you’re not alone; the 1.5 month old Argon is now retired , the old Pro and Flash from Gemini 1-3 are dead, and if you’re thinking the names are based on atomic weights, Neon (10), the midtier model is faster/cheaper than Carbon (6). This is a helpful guide to the current leading models and sizes: Because of how distillation, RL, and benchmarking works, Neon technically outperforms Carbon by some measures despite being a smaller model… Also today, Anthropic priced its IPO at $83 per share , above its initial range, and Palo Alto Networks agreed to buy Applied Compute in a $4.5B all-stock deal . Anthropic · Palo Alto Networks AI News for November 17–18, 2026. We checked 12 subreddits and 544 Twitter accounts . Browse past issues . AI Twitter Recap Gemini 4 Neon Launch and availability Pricing and specs. Neon costs $3 for input, $0.15 for cached input and $15 for output per million tokens. It has a 1M-token context window and four effort levels. Vals reports a maximum output limit of 1M tokens. Google · Vals Rollout. Neon is coming to the paid Gemini API in AI Studio and Android Studio, Gemini for business, and Antigravity for Pro and Ultra subscribers. In the Gemini app, Pro and Ultra users can select it as “Deeper analysis,” including for Tasks. Google’s rollout · Gemini app Day-one integrations. &nbsp; Cursor , GitHub Copilot across its app, CLI and VS Code, and LangChain Managed Deep Agents . Release cadence. Arena counted gaps of 28 days between Argon and Carbon, 15 between Carbon and Hydrogen, and six between Hydrogen and Neon. Arena Independent results High versus xhigh. At high effort, Neon matched Carbon’s 60 on the Intelligence Index for $3.74 per task. On GDP.pdf it scored 33.4% at high and 28.0% at xhigh. Artificial Analysis Agent Arena. Neon debuted second with 1,336 points across about 4,200 sessions. It had a $2.82 median task cos…",
+      "summary": "November 18, 2026 — Google’s middle tier scores 61 on the Intelligence Index. Plus, Anthropic prices its IPO at $83.",
+      "regionTags": [],
+      "metrics": {},
+      "topics": [
+        {
+          "slug": "coding",
+          "label": "Coding",
+          "confidence": 0.69,
+          "rationale": [
+            "code",
+            "repo"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "open-source",
+          "label": "Open Source",
+          "confidence": 0.69,
+          "rationale": [
+            "weights",
+            "github"
+          ],
+          "score": 2
+        },
+        {
+          "slug": "fine-tuning",
+          "label": "Custom AI",
+          "confidence": 0.69,
+          "rationale": [
+            "rl",
+            "distillation"
+          ],
+          "score": 2
+        }
+      ],
+      "section": "Podcasts & Newsletters",
+      "importanceScore": 0.4,
+      "noveltyScore": 0.3,
+      "previouslySelected": false,
+      "digestScore": 0.36,
+      "whyThisMatters": ""
+    },
     {
       "id": "de7fbdad89a10c27",
       "date": "2026-11-20",
@@ -56,60 +110,6 @@
       "noveltyScore": 0.3,
       "previouslySelected": true,
       "digestScore": 0.65,
-      "whyThisMatters": ""
-    },
-    {
-      "id": "ef05e6a5aa8567c4",
-      "date": "2026-11-20",
-      "sourceType": "newsletter",
-      "sourceGroup": "editorial",
-      "sourceName": "Latent Space Newsletter",
-      "sourceKey": "editorial:Latent Space Newsletter",
-      "builderOrOrg": "Latent Space",
-      "title": "[AINews] Gemini 4 Neon: GDM&apos;s Opus/Sol Contender",
-      "url": "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/",
-      "publishedAt": "2026-11-19T07:07:43.000Z",
-      "content": "Google DeepMind shipped Gemini 4 Neon , its fourth Gemini 4 model in about seven weeks. If you’re confused about the naming, you’re not alone; the 1.5 month old Argon is now retired , the old Pro and Flash from Gemini 1-3 are dead, and if you’re thinking the names are based on atomic weights, Neon (10), the midtier model is faster/cheaper than Carbon (6). This is a helpful guide to the current leading models and sizes: Because of how distillation, RL, and benchmarking works, Neon technically outperforms Carbon by some measures despite being a smaller model… Also today, Anthropic priced its IPO at $83 per share , above its initial range, and Palo Alto Networks agreed to buy Applied Compute in a $4.5B all-stock deal . Anthropic · Palo Alto Networks AI News for November 17–18, 2026. We checked 12 subreddits and 544 Twitter accounts . Browse past issues . AI Twitter Recap Gemini 4 Neon Launch and availability Pricing and specs. Neon costs $3 for input, $0.15 for cached input and $15 for output per million tokens. It has a 1M-token context window and four effort levels. Vals reports a maximum output limit of 1M tokens. Google · Vals Rollout. Neon is coming to the paid Gemini API in AI Studio and Android Studio, Gemini for business, and Antigravity for Pro and Ultra subscribers. In the Gemini app, Pro and Ultra users can select it as “Deeper analysis,” including for Tasks. Google’s rollout · Gemini app Day-one integrations. &nbsp; Cursor , GitHub Copilot across its app, CLI and VS Code, and LangChain Managed Deep Agents . Release cadence. Arena counted gaps of 28 days between Argon and Carbon, 15 between Carbon and Hydrogen, and six between Hydrogen and Neon. Arena Independent results High versus xhigh. At high effort, Neon matched Carbon’s 60 on the Intelligence Index for $3.74 per task. On GDP.pdf it scored 33.4% at high and 28.0% at xhigh. Artificial Analysis Agent Arena. Neon debuted second with 1,336 points across about 4,200 sessions. It had a $2.82 median task cos…",
-      "summary": "November 18, 2026 — Google’s middle tier scores 61 on the Intelligence Index. Plus, Anthropic prices its IPO at $83.",
-      "regionTags": [],
-      "metrics": {},
-      "topics": [
-        {
-          "slug": "coding",
-          "label": "Coding",
-          "confidence": 0.69,
-          "rationale": [
-            "code",
-            "repo"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "open-source",
-          "label": "Open Source",
-          "confidence": 0.69,
-          "rationale": [
-            "weights",
-            "github"
-          ],
-          "score": 2
-        },
-        {
-          "slug": "fine-tuning",
-          "label": "Custom AI",
-          "confidence": 0.69,
-          "rationale": [
-            "rl",
-            "distillation"
-          ],
-          "score": 2
-        }
-      ],
-      "section": "Podcasts & Newsletters",
-      "importanceScore": 0.4,
-      "noveltyScore": 0.3,
-      "previouslySelected": false,
-      "digestScore": 0.36,
       "whyThisMatters": ""
     },
     {
